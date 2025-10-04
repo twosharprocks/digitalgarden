@@ -1,5 +1,5 @@
 Status: #published #fruit
-Tags: [[Interests]] [[Caving]] [[Writing]]
+Tags: Interests Caving Writing
 Reference: 
 
 When I tell people I’ve just met that I’m a cave diver with claustrophobia, I always get a few confused looks followed by an inevitable round of questions along the lines of “Oh, so how do you stop the panic then?”. But when I mention my claustrophobia to people who know me and the kind of cave diving I do, the reaction is generally more like “You are very clearly broken, Josh - what is wrong with your brain?”.

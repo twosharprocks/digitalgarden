@@ -4,8 +4,8 @@ created: 2
 Status: #fruit 
 draft: false 
 tags:
-- [[Diving]]
-- [[Exploration]]
+- [Diving]({{< relref "posts/Article - What's Your ppO2.md" >}})
+- Exploration
 ---
 
 Note: Edited for Scuba Diver Magazine

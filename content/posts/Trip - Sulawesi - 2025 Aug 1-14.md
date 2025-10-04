@@ -1,6 +1,6 @@
 Status: #Seed 
-Tags: [[Interests]] [[Trips]] [[Diving]]
-Destination: [[Sulawesi - Indonesia]]
+Tags: Interests Trips [Diving]({{< relref "posts/Article - What's Your ppO2.md" >}})
+Destination: Sulawesi - Indonesia
 
 ---
 # Packing List
@@ -119,15 +119,15 @@ Logistics
 	- "Fast boats": Wooden/fibreglass transport boats with no schedule which leave once they have a full passenger load.
 - Hotels
 	- Baubau: Zenith Hotel 
-		- Excellent rooms and great buffet breakfast. You'll only stay at Zenith the night you land in Baubau (likely diving [[Gua Lanto]] the next morning) or the night before you fly out of Baubau (getting a taxi to the airport at 0500)
+		- Excellent rooms and great buffet breakfast. You'll only stay at Zenith the night you land in Baubau (likely diving Gua Lanto the next morning) or the night before you fly out of Baubau (getting a taxi to the airport at 0500)
 	- Muna Island: Kadena Glamping Dive Resort
 		- Excellent accommodation all around. They will handle your airport transfer from/to Baubau on request, or it will be organised by your dive operator
 # Trip Log
 ***Dates: 01-08 to 14-08***
-- [[2025-08-01]] Fri: Travel Day
+- 2025-08-01 Fri: Travel Day
 	- Fly: 1900-2250 JQ127 ADL-DPS
 	- Stay: [PassGo Digital Airport](https://www.booking.com/hotel/id/passgo-digital-airport-bali.en-gb.html)
-- [[2025-08-02]] Sat: Meet Kez & Faz in Denpasar Airport (Domestic)
+- 2025-08-02 Sat: Meet Kez & Faz in Denpasar Airport (Domestic)
 	- Check-in: 1 hour line-up, Issue with e-ticket so req. paper ticket at DPS
 	- Fly: 0700-0820 JT746 DPS-UPG
 		- Land in Makassar: Headaches & tired
@@ -136,77 +136,77 @@ Logistics
 	- Fly: 1455-1610 UPG-BUW
 	- Check-in: Zenith Hotel (Baubau)
 	- See Robin for drinks
-- [[2025-08-03]] Sun: Diving Day 1
+- 2025-08-03 Sun: Diving Day 1
 	- Check-out of Zenith Hotel
-	- See Robin: Setup gear, Brief [[Gua Lanto]]
-	- Drive to [[Gua Lanto]] & Dive [[2025-08-03 - Gua Lanto]]
+	- See Robin: Setup gear, Brief Gua Lanto
+	- Drive to Gua Lanto & Dive 2025-08-03 - Gua Lanto
 	- Drive to Baubau ferry: Get lunch, get sandles, wait until 2pm
 	- Ferry to Wanmengkoli (Muna Island)
-	- Truck to [[Kadena Glamping Dive Resort]] -> Check-In
-	- Dive Brief: [[La Hambe]]
-		- Dive [[2025-08-04 - La Hambe]]
-- [[2025-08-04]] Mon: Diving Day 2
-	- Dive Brief: [[Kaidaiula]]
-		- Drive to [[Kaidaiula]]: *Rock N Roll Divers already on-site*
+	- Truck to Kadena Glamping Dive Resort -> Check-In
+	- Dive Brief: La Hambe
+		- Dive 2025-08-04 - La Hambe
+- 2025-08-04 Mon: Diving Day 2
+	- Dive Brief: Kaidaiula
+		- Drive to Kaidaiula: *Rock N Roll Divers already on-site*
 		- Drive back to Kadena Glamping
-	- Dive Brief: [[Gua La Pahia]] & Dive [[2025-08-04 - Gua La Pahia]]
-	- Drive to [[Kaidaiula]] & Dive [[2025-08-04 - Kaidaiula]]
+	- Dive Brief: Gua La Pahia & Dive 2025-08-04 - Gua La Pahia
+	- Drive to Kaidaiula & Dive 2025-08-04 - Kaidaiula
 	- Return to Kadena
-- [[2025-08-05]] Tue: Diving Day 3
+- 2025-08-05 Tue: Diving Day 3
 	- Breakfast 
-	- Dive Brief: [[Moko Morete]]
-	- Drive to [[Moko Morete]] & Dive [[2025-08-05 - Moko Morete]]
-	- Lunch at [[Permandian Moko]] 
+	- Dive Brief: Moko Morete
+	- Drive to Moko Morete & Dive 2025-08-05 - Moko Morete
+	- Lunch at Permandian Moko 
 		- Saw a sea turtle!?
 	- Drive to Kadena: Kid crashed moped in road
 	- Room v hot - sorted Obsidian in dining area, then hung out in pool
-- [[2025-08-06]] Wed: Diving Day 4
+- 2025-08-06 Wed: Diving Day 4
 	- 0230 AC broke down & dripped all over bedhead
 	- 0420-0455 Call to Prayer
 	- 0730 Breakfast (American)
 		- Google Translate to explain AC issue to hotel staff
-	- 0830 Dive Brief: [[La Ode Panu]]
-	- Drive to [[La Ode Panu]], photogram cave entrance, & Dive [[2025-08-06 - La Ode Panu]] then lunch at site
+	- 0830 Dive Brief: La Ode Panu
+	- Drive to La Ode Panu, photogram cave entrance, & Dive 2025-08-06 - La Ode Panu then lunch at site
 	- Drive Kadena - AC fixed and room cleaned! 
-- [[2025-08-07]] Thu: Diving Day 5
+- 2025-08-07 Thu: Diving Day 5
 	- 0430-0455 Call to Prayer
 	- 0830 Breakfast: Buffet
-	- 0900 Dive Brief: [[Labungkari]]
-	- Drive to [[Labungkari]] & Dive [[2025-08-07 - Labungkari]]
+	- 0900 Dive Brief: Labungkari
+	- Drive to Labungkari & Dive 2025-08-07 - Labungkari
 	- Drive Kadena (via icecream)
 	- 360 video backups and transfer to phone for posts (1st post)
-- [[2025-08-08]] Fri: Diving Day 6 
+- 2025-08-08 Fri: Diving Day 6 
 	- Last day diving with Kez
 	- Breakfast: Nasi Goreng
-	- 0900 Dive Brief: [[Laulawi]] 
-	- Drive to [[Laulawi]] & Dive [[2025-08-08 - Laulawi]] 
+	- 0900 Dive Brief: Laulawi 
+	- Drive to Laulawi & Dive 2025-08-08 - Laulawi 
 	- Drive Kadena (via icecream)
 	- 360 video trimming for social media posts
-- [[2025-08-09]] Sat: Diving Day 7
+- 2025-08-09 Sat: Diving Day 7
 	- Just me & Faz - No Kez or Chaca
 	- 0800 Analyse gas & breakfast (Nasi Goreng)
-	- 0900 Dive brief: [[Oe Mamba Kecil]] & [[Gua Wandoke]]
-	- Drive to [[Oe Mamba Kecil]] & Dive [[2025-08-09 - Oe Mamba Kecil]]
-	- Lunch, then drive [[Gua Wandoke]]
-	- Dive [[2025-08-09 - Gua Wandoke]]
+	- 0900 Dive brief: Oe Mamba Kecil & Gua Wandoke
+	- Drive to Oe Mamba Kecil & Dive 2025-08-09 - Oe Mamba Kecil
+	- Lunch, then drive Gua Wandoke
+	- Dive 2025-08-09 - Gua Wandoke
 	- Drive Kadena (via icecream)
 	- 360 video backups and trimming for social media
-- [[2025-08-10]] Sun: Diving Day 8
-	- Dive Brief [[Moko Panjang]] & [[La Ode Palsu]] 
-	- Drive [[Moko Panjang]]
-- [[2025-08-11]] Mon: Diving Day 9
+- 2025-08-10 Sun: Diving Day 8
+	- Dive Brief Moko Panjang & La Ode Palsu 
+	- Drive Moko Panjang
+- 2025-08-11 Mon: Diving Day 9
 	- Leon/Chris arrive
-- [[2025-08-12]] Tue: Diving Day 10 (Last diving day)
+- 2025-08-12 Tue: Diving Day 10 (Last diving day)
 	- Kez/Susan/Liz fly out 
-	- Dive Brief & Drive to [[Laulawi]]
-	- [[2025-08-12 - Laulawi]]
+	- Dive Brief & Drive to Laulawi
+	- 2025-08-12 - Laulawi
 	- Clean, dry, and pack gear
-- [[2025-08-13]] Wed: Leave Muna Island
+- 2025-08-13 Wed: Leave Muna Island
 	- Breakfast, Pack Gear & Admin, 
 	- Lunch, Check-out Kadena Glamping
 	- 1400 Speedboat to Baubau
 	- Drive to Robin's and stay
-- [[2025-08-14]] Thu: Travelling Day
+- 2025-08-14 Thu: Travelling Day
 	- 0500 Drive to Baubau airport (BAW) 
 	- Fly: 0630-0740 IW1305 BAW-UPG
 	- Layover: 11 hours in Makassar
@@ -215,11 +215,11 @@ Logistics
 	- Fly: 2355-0615+1 JQ128 DPS-ADL
 		- Missed: Rescheduled for 1115+1
 	- Stay: Denpasar Pod Hotel
-- [[2025-08-15]] Fri: Travelling & Arrive Home
+- 2025-08-15 Fri: Travelling & Arrive Home
 	- 1000-1100: Speaking - Newcastle Grammar
 		- Connection issues: Joined 1020 via phone with VPN
 	- Fly: 1115-1530 (1700ACST) JQ126 DPS-ADL
 		- Delayed: 1205-1600 (1800ACST)
 	- Uber from airport home
 # References
-[[Sulawesi 25 - Farzad's Notes]]
+Sulawesi 25 - Farzad's Notes

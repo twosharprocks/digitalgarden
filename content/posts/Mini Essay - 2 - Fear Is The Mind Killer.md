@@ -1,5 +1,5 @@
 Status: #Complete 
-Tags: [[Quotes]] [[Mini Essay - 9 - Dune]] [[Mini Essays]]
+Tags: Quotes Mini Essay - 9 - Dune Mini Essays
 Reference: [Litany Against Fear](https://dune.fandom.com/wiki/Litany_Against_Fear)
 
 ---

@@ -1,6 +1,6 @@
 Date: 2025-04-24 21:36
 Status: #Complete 
-Tags: [[Mini Essays]] [[Digital Garden]]
+Tags: Mini Essays Digital Garden
 
 ---
 # Digital Gardens
@@ -17,5 +17,5 @@ Digital gardens offer a vital alternative to the relentless stream of Facebook, 
 
 ---
 # References
-[[Brief History & Ethos of the Digital Garden]]
-[[The Garden and the Stream - A Technopastoral]]
+Brief History & Ethos of the Digital Garden
+The Garden and the Stream - A Technopastoral

@@ -1,6 +1,6 @@
 2025-05-31 13:42
 Status: #InProgress
-Tags: [[Interests]] [[Writing]] [[Diving]] [[The Pines - 5L61]] [[Article - Unveiling the Crazy Wombat Tunnel]]
+Tags: Interests Writing [Diving]({{< relref "posts/Article - What's Your ppO2.md" >}}) The Pines - 5L61 [Article - Unveiling the Crazy Wombat Tunnel]({{< relref "posts/Article - Unveiling the Crazy Wombat Tunnel.md" >}})
 
 
 ---
