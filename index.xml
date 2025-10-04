@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal</title>
+    <link>/</link>
+    <description>Recent content on Terminal</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/posts/article---corra-lynn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/article---corra-lynn/</guid>
+      <description>&lt;p&gt;Status: #published #fruit&#xA;Tags: [[Interests]] [[Caving]] [[Writing]]&#xA;Reference:&lt;/p&gt;&#xA;&lt;p&gt;When I tell people I’ve just met that I’m a cave diver with claustrophobia, I always get a few confused looks followed by an inevitable round of questions along the lines of “Oh, so how do you stop the panic then?”. But when I mention my claustrophobia to people who know me and the kind of cave diving I do, the reaction is generally more like “You are very clearly broken, Josh - what is wrong with your brain?”.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/posts/article---crazy-wombat-tunnel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/article---crazy-wombat-tunnel/</guid>
+      <description>&lt;p&gt;2025-05-31 13:42&#xA;Status: #InProgress&#xA;Tags: [[Interests]] [[Writing]] [[Diving]] [[The Pines - 5L61]] [[Article - Unveiling the Crazy Wombat Tunnel (Edited for Scubadiver magazine)]]&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;It all started with a simple question: &amp;ldquo;What the hell is that empty black area?&amp;rdquo;. Will had just finished several dozen dives in Pines Cave to collect photogrammetry data, and he was just starting the painstaking, months-long process of using Metashape to turn the 10&amp;rsquo;s of thousands of still images he&amp;rsquo;d collected into a high resolution 3D model. Eventually, that 3D model would lead to a game-changing map to support new divers experiencing one of the most renowned and frequently dived cave sites in the Mount Gambier region.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/posts/article---unveiling-the-crazy-wombat-tunnel-edited-for-scubadiver-magazine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/article---unveiling-the-crazy-wombat-tunnel-edited-for-scubadiver-magazine/</guid>
+      <description>&lt;p&gt;It all started with a simple question: &amp;ldquo;What the hell is that empty spot?&amp;rdquo; Will had just wrapped up dozens of dives in Pines Cave to collect photogrammetry data and was now in the painstaking process of turning tens of thousands of still images into a high-resolution 3D model using Agisoft Metashape. Our eventual goal? A game-changing map to support divers exploring one of Mount Gambier’s most renowned cave sites.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/posts/article---whats-your-ppo2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/article---whats-your-ppo2/</guid>
+      <description>&lt;p&gt;Tags: [[Diving|Diving]] [[Articles]] [[Writing]]&lt;/p&gt;&#xA;&lt;p&gt;There’s one thing watched by rebreather divers with greater concern above anything else - your partial pressure of oxygen, aka “ppO2”. No matter how extraordinary it feels breathing warm air with no bubbles, clearing deco far quicker than your open circuit buddies and drifting around gently to the sound of your own breath; it all comes at the cost of knowing the gas in your loop can quickly and easily become toxic if you’re not vigilantly watching your ppO2. If a solenoid sticks open or a manual add valve jams on, the flood of oxygen into the loop can drive your ppO2 over 1.60 and quickly lead to a hyperoxic convulsion that will ruin your whole day. On the flip side we need a ppO2 of about 0.18atm - equivalent to 18% oxygen on the surface - just to maintain regular brain function, and about 0.15 to maintain consciousness. And as I was brutally reminded earlier this year, ppO2 also happens to drop rather rapidly just as you approach the surface when you think the dive is over.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/posts/articles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/articles/</guid>
+      <description>&lt;p&gt;Tags: [[Writing]]&lt;/p&gt;&#xA;&lt;h1 id=&#34;published&#34;&gt;Published&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://app.scubadivermag.com/issues/scuba-diver-anz-85/exploring-pines-cave&#34;&gt;Exploring Pines Cave - Scuba Diver Magazine&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;[[Article - Corra-Lynn]]&lt;/li&gt;&#xA;&lt;li&gt;[[Article - What&amp;rsquo;s Your ppO2]]&lt;/li&gt;&#xA;&lt;li&gt;[[Article - Unveiling the Crazy Wombat Tunnel (Edited for Scubadiver magazine)]]&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
