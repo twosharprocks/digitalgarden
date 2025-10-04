@@ -1,3 +1,5 @@
+Note: Edited for Scuba Diver Magazi
+
 It all started with a simple question: "What the hell is that empty spot?" Will had just wrapped up dozens of dives in Pines Cave to collect photogrammetry data and was now in the painstaking process of turning tens of thousands of still images into a high-resolution 3D model using Agisoft Metashape. Our eventual goal? A game-changing map to support divers exploring one of Mount Gambier’s most renowned cave sites.
 
 But as Will proudly sent me screenshots of the model’s point cloud, all I could see was a massive gap in the data on the northern side of the Crazy Czech Room (CCR)—the end of the known tunnel.

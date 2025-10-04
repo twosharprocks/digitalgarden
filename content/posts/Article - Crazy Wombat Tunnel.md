@@ -1,6 +1,6 @@
 2025-05-31 13:42
 Status: #InProgress
-Tags: [[Interests]] [[Writing]] [[Diving]] [[The Pines - 5L61]] [[Article - Unveiling the Crazy Wombat Tunnel (Edited for Scubadiver magazine)]]
+Tags: [[Interests]] [[Writing]] [[Diving]] [[The Pines - 5L61]] [[Article - Unveiling the Crazy Wombat Tunnel]]
 
 
 ---
@@ -38,7 +38,7 @@ As I pulled the GoPro back through the flattener it clipped the roof a little, c
 
 Back in the main cavern clearing deco, I tried to explain to my buddy what I'd found, but in my excitement all I could think to write on my wrist slate was "BIG LEAD FOUND FLOW"
 
-![Image Description](/images/found-flow.jpg)
+![Found Flow](/images/found-flow.jpg)
 
 Back at the accommodation we immediately plugged in the GoPro and downloaded the footage from the selfie stick - sure enough there was a decent size room on the other side. It was a jumbled room inside a rockpile and scary looking suspended boulders, but a room which was plenty big enough to turn around inside of AND big enough to hide the way onward.
 

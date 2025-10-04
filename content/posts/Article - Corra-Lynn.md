@@ -27,12 +27,12 @@ The Hawaiian Tub Pit offered just such a challenge though - a crawl 20m through 
 
 There was no way I was attempting the squeeze from either direction, but Nino decided to see if he could take the shortcut back to the Hawaiian Tub Pit. Laying face-up and his head down into the bottom of the squeeze, Nino started to press his face under the low-hanging ceiling rock and soon went “Nooooope!” before shuffling back out of the hole. 
 ![]()
-![Image Description](/images/nino.jpg)
+![[nino.jpg]]
 Nino pressing his head into the squeeze.
 
 Leigh fared a little better, but still finding his face would need a few extra millimetres of flexibility to get passed the tightest point. The other side of the fissure offered a slightly easier entry, but at the expense of having further to wriggle before reaching the tightest point. Corby wriggled in upside-down and slid straight to the tightest point just centimetres from our side, but like Leigh he just couldn’t get any under the low-hanging ceiling rock without gouging a hole in his face. 
 
-![Image Description](/images/corralynn-corby.jpg)
+![[corralynn-corby.jpg]]
 Corby trying the same squeeze from the other side
 
 Watching our most experienced guide wriggle upside-down inside a tiny fissure hundreds of meters underground, I started to feel a rising sense of dread that only got worse as Corby got temporarily stuck reversing out… and I soon started to wonder if I was cut out for this whole “dry caving for fun” thing. We’d had a great couple of hours climbing and sliding through mud, wriggling through tunnels, and navigating up and down through holes had turned out to be a lot of fun. But now reached the bottom and squeezed into a few things, so now I was very ready to start heading back out and home.
@@ -57,7 +57,7 @@ We set off for the surface, and within a few minutes the adrenaline of the exper
 
 Crawling through Bandicoot Bypass involved a lot of what I’d call “elevated but managed” stress. I’d well and truly had enough of this cave by this point, and was just doing whatever needed to be done to reach the point where I was not underground anymore. So for the first 15 to 20 meters, I was managing just fine - lift sideways, pull myself forward, drag the gear bag up behind me, pause for a breath, and repeat. 5-10 meters ahead was Nino, sliding through on his side just as I was and providing a visual indication of any tight spots before I reached them. And I could hear Chloe behind me, quietly soldiering on through the tunnel and seeming to enjoy herself without any real concerns. 
 
-![Image Description](/images/corrlynn-bandicoot.jpg)
+![[corrlynn-bandicoot.jpg]]
 Near the start of Bandicoot Bypass.
 
 There was a convoy of us in this fairly dusty tunnel, and if one person stopped then it blocked everyone behind them. Likewise, if someone behind you got into trouble there’d be no way to turn around to help or wriggle over them to escape. I suddenly realised we were all passing through a long, thin tube of rock with no way out if the people ahead and behind me stopped. There was no way to tell how close Nino was to the end of the tunnel, and the sounds of Chloe behind me just seemed to be getting progressively louder and closer. 
@@ -68,7 +68,7 @@ After another few minutes of shuffling, wheezing and twisting to look ahead, I n
 
 Once we were all through Bandicoot Bypass we re-grouped in Grand Central, and for the first time I saw cave arrows on the walls - proof that these dry cavers do occasionally use markers to point the way out! The others wanted to admire and climb around the sculpted rock of Grand Central, but all I wanted was to not be underground anymore. A few more twists and turns through some relatively open tunnels, and we were suddenly greeted by honest-to-goodness daylight.
 
-![Image Description](/images/corralyn-exit.jpg)
+![[corralyn-exit.jpg]]
 Finally, natural light!
 
 We’d carried lunch underground but hadn’t eaten it, so as soon as we were back at the cars we hooked into the now squished sandwiches. Matt, Leigh and Corby immediately started talking about heading back into the cave after lunch, and with a mouthful of ham and cheese I informed them they’d be doing that without me - I absolutely was done for the day, and would gladly sit in the car and nap while they ventured back in. Nino and Chloe both seemed keen for a second round though, so they geared back up and headed off. 
