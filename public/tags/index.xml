@@ -7,5 +7,19 @@
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diving</title>
+      <link>/tags/diving/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/diving/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rebreathers</title>
+      <link>/tags/rebreathers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/rebreathers/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

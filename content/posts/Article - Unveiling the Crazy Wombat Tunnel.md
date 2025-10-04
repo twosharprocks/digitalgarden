@@ -1,4 +1,14 @@
-Note: Edited for Scuba Diver Magazi
+---
+title: Unveiling the Crazy Wombat Tunnel 
+created: 2
+Status: #fruit 
+draft: false 
+tags:
+- [[Diving]]
+- [[Exploration]]
+---
+
+Note: Edited for Scuba Diver Magazine
 
 It all started with a simple question: "What the hell is that empty spot?" Will had just wrapped up dozens of dives in Pines Cave to collect photogrammetry data and was now in the painstaking process of turning tens of thousands of still images into a high-resolution 3D model using Agisoft Metashape. Our eventual goal? A game-changing map to support divers exploring one of Mount Gambier’s most renowned cave sites.
 
