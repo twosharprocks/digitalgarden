@@ -19,3 +19,4 @@ Digital gardens offer a vital alternative to the relentless stream of Facebook, 
 # References
 Brief History & Ethos of the Digital Garden
 The Garden and the Stream - A Technopastoral
+[NetworkChuck - My Insane Blog Pipeline](https://blog.networkchuck.com/posts/my-insane-blog-pipeline/)
