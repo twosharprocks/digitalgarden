@@ -8,6 +8,20 @@
     <language>en</language>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Caving</title>
+      <link>/tags/caving/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/caving/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CEGSA</title>
+      <link>/tags/cegsa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/cegsa/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Diving</title>
       <link>/tags/diving/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -15,10 +29,80 @@
       <description></description>
     </item>
     <item>
+      <title>Exploration</title>
+      <link>/tags/exploration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/exploration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Knowledge-Management</title>
+      <link>/tags/knowledge-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/knowledge-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Min-Essays</title>
+      <link>/tags/min-essays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/min-essays/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini-Essay</title>
+      <link>/tags/mini-essay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/mini-essay/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini-Essays</title>
+      <link>/tags/mini-essays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/mini-essays/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pines-5L61</title>
+      <link>/tags/pines-5l61/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/pines-5l61/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quotes</title>
+      <link>/tags/quotes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/quotes/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Rebreathers</title>
       <link>/tags/rebreathers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/rebreathers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sulawesi</title>
+      <link>/tags/sulawesi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/sulawesi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trips</title>
+      <link>/tags/trips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/trips/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>/tags/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/writing/</guid>
       <description></description>
     </item>
   </channel>

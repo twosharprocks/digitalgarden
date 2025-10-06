@@ -1,7 +1,15 @@
-2025-05-31 13:42
-Status: #InProgress
-Tags: Interests Writing [Diving]({{< relref "posts/Article - What's Your ppO2.md" >}}) The Pines - 5L61 [Article - Unveiling the Crazy Wombat Tunnel]({{< relref "posts/Article - Unveiling the Crazy Wombat Tunnel.md" >}})
-
+---
+title: Article - Crazy Wombat Tunnel
+created: 2025-05-31 13:42
+Status: Published
+draft: false
+tags:
+  - Diving
+  - Pines-5L61
+  - Writing
+---
+---
+Note: This was later edited to <1100 words for publication in Scuba Diver Magazine and published as [Article - Unveiling the Crazy Wombat Tunnel]({{< relref "posts/Article - Unveiling the Crazy Wombat Tunnel.md" >}})  
 
 ---
 It all started with a simple question: "What the hell is that empty black area?". Will had just finished several dozen dives in Pines Cave to collect photogrammetry data, and he was just starting the painstaking, months-long process of using Metashape to turn the 10's of thousands of still images he'd collected into a high resolution 3D model. Eventually, that 3D model would lead to a game-changing map to support new divers experiencing one of the most renowned and frequently dived cave sites in the Mount Gambier region. 
@@ -82,12 +90,7 @@ Naturally collecting photogrammetry data in a new section of cave also means pro
 
 I don't know if our Soggy Wombats team will find a connection to Stinging Nettle, or if we'll find a way around the new rockpile at the end of the Crazy Wombat Tunnel. But one thing is for certain - we would never have found any of it without collecting and processing photogrammetry data, or by asking "What's missing here?". By using a variety of cameras, we've been able to produce 3D models which help us spot new leads in caves, which we can then check safely with a selfie stick before someone tries to squeeze in. Rather being toys for filming each other doing cool things underwater, we're using these cameras to collect scientific data which furthers our understanding of these caves and directly enable the kind of exploration that allows our team to make new discoveries in caves that were dismissed for decades as "already explored".
 
-
-
-
----
-**This also reminds me of**... 
-
-
 ---
 # References
+[Article - Unveiling the Crazy Wombat Tunnel]({{< relref "posts/Article - Unveiling the Crazy Wombat Tunnel.md" >}})
+The Pines - 5L61 

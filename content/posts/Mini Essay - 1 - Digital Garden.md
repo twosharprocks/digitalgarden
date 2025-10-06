@@ -1,7 +1,12 @@
-Date: 2025-04-24 21:36
-Status: #Complete 
-Tags: Mini Essays Digital Garden
-
+---
+title: Mini Essay - 1 - Digital Garden 
+created: 2025-04-24 21:36
+Status: #Seed 
+draft: false 
+tags:
+- Min-Essays
+- Knowledge-Management
+---
 ---
 # Digital Gardens
 
@@ -16,6 +21,9 @@ In much the same way a brain operates, the notes and snippets are individual syn
 Digital gardens offer a vital alternative to the relentless stream of Facebook, Instagram, Twitter and all the other sources of "content" which deliver knowledge and novelty, but provide little opportunity for the development of wisdom or even genuine engagement. Rather than being hooked into the addictive cycle of checking the "latest" on social media, I'm going to strive to cultivate my own digital garden whenever I can.
 
 ---
+**This also reminds me of**... 
+
+
 # References
 Brief History & Ethos of the Digital Garden
 The Garden and the Stream - A Technopastoral

@@ -1,8 +1,15 @@
-Status: #Complete 
-Tags: Quotes Mini Essay - 9 - Dune Mini Essays
-Reference: [Litany Against Fear](https://dune.fandom.com/wiki/Litany_Against_Fear)
-
 ---
+title: Mini Essay - 2 - Fear Is The Mind Killer 
+created: 2025-04-24 21:36
+Status: Complete  
+draft: false 
+tags:
+- Mini-Essays
+- Knowledge-Management
+- Quotes
+---
+---
+
 "Fear is the mind killer" is the most easily recognised line from the "Litany Against Fear" from the Dune universe. Recited by high-born characters in times of high stress or when death threatens, it acts to centre and stabilise the emotions of those who recited it through the application of cold logic. 
 
 Accepting fear and allowing it to pass over you is vital to remaining in control when it could take control of your mind. In the universe of Dune, the litany is adopted as a vaccine to a digital virus that feeds on fear. However it's origin can be traced back to Act II of Shakespeare's *Julius Caesar*, in a quote which has been adapted numerous times - most notably paraphrased as "A coward dies a thousand deaths, but the brave die only once". 
@@ -13,8 +20,9 @@ The Litany Against Fear is a unique addition to the Dune universe, drawing from 
 
 ---
 # References
+Mini Essay - 9 - Dune 
 
-Litany Against Fear
+[Litany Against Fear](https://dune.fandom.com/wiki/Litany_Against_Fear)
 > "I must not fear. 
 > Fear is the mind-killer.
 > Fear is the little-death that brings total obliteration.
@@ -23,7 +31,7 @@ Litany Against Fear
 > And when it has gone past, I will turn the inner eye to see its path.
 > Where the fear has gone there will be nothing. Only I will remain."
 
-[Shakespeare - *Julius Caesar* Act II scene 2](https://en.wikipedia.org/wiki/Julius_Caesar_(play)) - the "Litany against Fear" is derived from this
+[Shakespeare - *Julius Caesar* Act II scene 2](https://en.wikipedia.org/wiki/Julius_Caesar_(play)) - "Litany against Fear" is derived from this
 > Cowards die many times before their deaths;  
 > The valiant never taste of death but once.  
 > Of all the wonders that I yet have heard,  

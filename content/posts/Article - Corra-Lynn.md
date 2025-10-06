@@ -1,13 +1,20 @@
-Status: #published #fruit
-Tags: Interests Caving Writing
-Reference: 
-
+---
+title: Corra-Lynn
+created: 2023-08-07
+Status: Published
+draft: false
+tags:
+  - Caving
+  - CEGSA
+  - Exploration
+---
+---
+![Corra Lynn Chasm](/images/corra-lynn-chasm.jpg)
 When I tell people I’ve just met that I’m a cave diver with claustrophobia, I always get a few confused looks followed by an inevitable round of questions along the lines of “Oh, so how do you stop the panic then?”. But when I mention my claustrophobia to people who know me and the kind of cave diving I do, the reaction is generally more like “You are very clearly broken, Josh - what is wrong with your brain?”.
 
 I’ll admit that I have a bit of a reputation for squeezing into wet, muddy holes that most people are smart enough to avoid. And I’ll also admit that diving has always held a special place in my life - ever since I did my PADI Junior Open Water course at the age of 12, to teaching SCUBA and learning technical diving in my mid-20’s, to more recently recognising how the dark and the quiet of underwater caves play an important role in my mental health. In the last few years, I’ve also been struck by sections of the cave’s ceiling while pushing into a new underwater tunnel, broken two ribs trying to wriggle out of an underwater cave entrance, and spent an agonising 15 minutes trapped alone in a flattener during a total silt-out while trying to navigate a particularly vicious line-trap. But I’m still scared senseless by the mere thought of being stuck somewhere above the waterline. Go figure.
 
 Joining CEGSA last year with a plan to start squeezing into tight dry holes felt like a natural development though. CEGSA offered the perfect opportunity to get involved with a huge part of cave exploration I’d previously dismissed, while also providing some much-needed experience that would inevitably help my underwater exploration too. I’ve been consistently trying to get involved with everything my new dry-caving friends are up to, from vertical access training to the Kelly Hill project on Kangaroo Island. But I’ve also been painfully aware I should start with a “beginners” cave trip before trying anything too adventurous. So when Leigh asked me “We’re organising a trip to Corra-Lynn for cave divers, are you interested?” I was a little surprised that instead of immediately blurting out “ABSOLUTELY” my first thought was “Ooooh… ummm… maybe?”.
-
 
 There’s no question that cave divers and cavers are related but distinct breeds, and with three “cavers” and three “cave divers” in our group at Corra-Lynn, we quickly highlighted all of those similarities and differences. I knew before we left Adelaide that there’d be no hesitation from Chloe, Nino or myself when it came to climbing over rocks and shimmying through crevices underground - each of us has done exactly that countless times before with the added burden of scuba gear, all while searching for new cave diving sites or undiscovered tunnel in well-known ones. But the three of us “cave divers” have mostly experienced dry caving as an obstacle to overcome before getting in the water - how would we fare crawling around kilometres of underground passage and NOT get into the water? 
 
@@ -26,13 +33,12 @@ Matt, Leigh and Corby’s memory around the Hawaiian Tub Pit was starting to get
 The Hawaiian Tub Pit offered just such a challenge though - a crawl 20m through a small but gentle tunnel going “the long way round”, or laying on your back and wriggling upside-down through a 1.5m long fissure before trying to squeeze your face under a low-hanging ceiling rock. I took one look at the fissure and my stomach lurched as a clear reminder that I really am claustrophobic - I just forget sometimes. Nino and I started around the 20m tunnel as the others caught up, and Leigh soon joined us going around the “long way”. By the time Chloe, Matt and Corby reached the Hawaiian Tub Pit; Nino, Leigh and I had reached the other side of the fissure and we could all chat to each other through it. 
 
 There was no way I was attempting the squeeze from either direction, but Nino decided to see if he could take the shortcut back to the Hawaiian Tub Pit. Laying face-up and his head down into the bottom of the squeeze, Nino started to press his face under the low-hanging ceiling rock and soon went “Nooooope!” before shuffling back out of the hole. 
-![]()
-![[nino.jpg]]
+![Nino](/images/nino.jpg)
 Nino pressing his head into the squeeze.
 
 Leigh fared a little better, but still finding his face would need a few extra millimetres of flexibility to get passed the tightest point. The other side of the fissure offered a slightly easier entry, but at the expense of having further to wriggle before reaching the tightest point. Corby wriggled in upside-down and slid straight to the tightest point just centimetres from our side, but like Leigh he just couldn’t get any under the low-hanging ceiling rock without gouging a hole in his face. 
 
-![[corralynn-corby.jpg]]
+![Corralynn Corby](/images/corralynn-corby.jpg)
 Corby trying the same squeeze from the other side
 
 Watching our most experienced guide wriggle upside-down inside a tiny fissure hundreds of meters underground, I started to feel a rising sense of dread that only got worse as Corby got temporarily stuck reversing out… and I soon started to wonder if I was cut out for this whole “dry caving for fun” thing. We’d had a great couple of hours climbing and sliding through mud, wriggling through tunnels, and navigating up and down through holes had turned out to be a lot of fun. But now reached the bottom and squeezed into a few things, so now I was very ready to start heading back out and home.
@@ -57,7 +63,7 @@ We set off for the surface, and within a few minutes the adrenaline of the exper
 
 Crawling through Bandicoot Bypass involved a lot of what I’d call “elevated but managed” stress. I’d well and truly had enough of this cave by this point, and was just doing whatever needed to be done to reach the point where I was not underground anymore. So for the first 15 to 20 meters, I was managing just fine - lift sideways, pull myself forward, drag the gear bag up behind me, pause for a breath, and repeat. 5-10 meters ahead was Nino, sliding through on his side just as I was and providing a visual indication of any tight spots before I reached them. And I could hear Chloe behind me, quietly soldiering on through the tunnel and seeming to enjoy herself without any real concerns. 
 
-![[corrlynn-bandicoot.jpg]]
+![Corrlynn Bandicoot](/images/corrlynn-bandicoot.jpg)
 Near the start of Bandicoot Bypass.
 
 There was a convoy of us in this fairly dusty tunnel, and if one person stopped then it blocked everyone behind them. Likewise, if someone behind you got into trouble there’d be no way to turn around to help or wriggle over them to escape. I suddenly realised we were all passing through a long, thin tube of rock with no way out if the people ahead and behind me stopped. There was no way to tell how close Nino was to the end of the tunnel, and the sounds of Chloe behind me just seemed to be getting progressively louder and closer. 
@@ -68,7 +74,7 @@ After another few minutes of shuffling, wheezing and twisting to look ahead, I n
 
 Once we were all through Bandicoot Bypass we re-grouped in Grand Central, and for the first time I saw cave arrows on the walls - proof that these dry cavers do occasionally use markers to point the way out! The others wanted to admire and climb around the sculpted rock of Grand Central, but all I wanted was to not be underground anymore. A few more twists and turns through some relatively open tunnels, and we were suddenly greeted by honest-to-goodness daylight.
 
-![[corralyn-exit.jpg]]
+![Corralyn Exit](/images/corralyn-exit.jpg)
 Finally, natural light!
 
 We’d carried lunch underground but hadn’t eaten it, so as soon as we were back at the cars we hooked into the now squished sandwiches. Matt, Leigh and Corby immediately started talking about heading back into the cave after lunch, and with a mouthful of ham and cheese I informed them they’d be doing that without me - I absolutely was done for the day, and would gladly sit in the car and nap while they ventured back in. Nino and Chloe both seemed keen for a second round though, so they geared back up and headed off. 

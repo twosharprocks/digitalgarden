@@ -1,7 +1,15 @@
-Status: #Seed 
-Tags: Interests Trips [Diving]({{< relref "posts/Article - What's Your ppO2.md" >}})
-Destination: Sulawesi - Indonesia
-
+---
+title: Trip - Sulawesi - 2025 Aug 1-14
+Destination: "Sulawesi - Indonesia"
+created: 2025-07-15
+Status: Complete
+draft: false
+tags:
+  - Sulawesi
+  - Trips
+  - Diving
+  - Exploration
+---
 ---
 # Trip Log
 ***Dates: 01-08 to 14-08***

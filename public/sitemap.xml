@@ -2,11 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/article---corra-lynn/</loc>
-  </url><url>
-    <loc>/posts/article---crazy-wombat-tunnel/</loc>
+    <loc>/posts/article---the-crazy-wombat-tunnel/</loc>
   </url><url>
     <loc>/posts/articles/</loc>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/tags/caving/</loc>
+  </url><url>
+    <loc>/tags/cegsa/</loc>
+  </url><url>
+    <loc>/posts/article---corra-lynn/</loc>
+  </url><url>
+    <loc>/tags/diving/</loc>
+  </url><url>
+    <loc>/tags/exploration/</loc>
+  </url><url>
+    <loc>/tags/knowledge-management/</loc>
+  </url><url>
+    <loc>/tags/min-essays/</loc>
   </url><url>
     <loc>/posts/mini-essay---1---digital-garden/</loc>
   </url><url>
@@ -14,22 +28,32 @@
   </url><url>
     <loc>/posts/mini-essay---4---before-youre-40/</loc>
   </url><url>
-    <loc>/posts/trip---sulawesi---2025-aug-1-14/</loc>
+    <loc>/tags/mini-essay/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>/tags/mini-essays/</loc>
   </url><url>
-    <loc>/tags/diving/</loc>
+    <loc>/tags/pines-5l61/</loc>
   </url><url>
     <loc>/posts/</loc>
   </url><url>
+    <loc>/tags/quotes/</loc>
+  </url><url>
     <loc>/tags/rebreathers/</loc>
+  </url><url>
+    <loc>/tags/sulawesi/</loc>
   </url><url>
     <loc>/tags/</loc>
   </url><url>
     <loc>/</loc>
   </url><url>
+    <loc>/posts/trip---sulawesi---2025-aug-1-14/</loc>
+  </url><url>
+    <loc>/tags/trips/</loc>
+  </url><url>
     <loc>/posts/article---unveiling-the-crazy-wombat-tunnel/</loc>
   </url><url>
     <loc>/posts/article---whats-your-ppo2/</loc>
+  </url><url>
+    <loc>/tags/writing/</loc>
   </url>
 </urlset>
