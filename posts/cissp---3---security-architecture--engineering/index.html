@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>CISSP - 3 - Security Architecture &amp; Engineering :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" Learning Objectives Explain the significance of basic secure design principles.​ Compare and contrast the key security characteristics of security models.​ Explain the hardware foundations of security.​ Apply security principles to different information systems and their environments.​ Determine the best application of cryptographic approaches to solving organizational information security needs. Manage the use of certificates and digital signatures to meet organizational information security needs. Apply different cryptographic management solutions to meet organizational information security needs. Describe defenses against common cryptanalytic attacks. Apply the lessons of Crime Prevention through Environmental Design (CPTED) to information systems security design and operation. Identify information security implications of various physical facilities, systems and infrastructure. Key Topics - Secure Design Principles - Security Models - Controls &amp; Systems Security Requirements - Security Capabilities - Vulnerabilities of Security Architectures &amp; Designs - Cryptographic Solutions - Cryptanalytic Attacks - Secure Site &amp; Facility Design - Site &amp; Facility Security Controls - Information System Life Cycle Operationalising Risk Management Threat Modelling -
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/cissp---3---security-architecture--engineering/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="CISSP - 3 - Security Architecture &amp; Engineering">
+<meta property="og:description" content=" Learning Objectives Explain the significance of basic secure design principles.​ Compare and contrast the key security characteristics of security models.​ Explain the hardware foundations of security.​ Apply security principles to different information systems and their environments.​ Determine the best application of cryptographic approaches to solving organizational information security needs. Manage the use of certificates and digital signatures to meet organizational information security needs. Apply different cryptographic management solutions to meet organizational information security needs. Describe defenses against common cryptanalytic attacks. Apply the lessons of Crime Prevention through Environmental Design (CPTED) to information systems security design and operation. Identify information security implications of various physical facilities, systems and infrastructure. Key Topics - Secure Design Principles - Security Models - Controls &amp; Systems Security Requirements - Security Capabilities - Vulnerabilities of Security Architectures &amp; Designs - Cryptographic Solutions - Cryptanalytic Attacks - Secure Site &amp; Facility Design - Site &amp; Facility Security Controls - Information System Life Cycle Operationalising Risk Management Threat Modelling -
+" />
+<meta property="og:url" content="/posts/cissp---3---security-architecture--engineering/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about/">About</a></li>
+        
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about/" >About</a></li>
+        
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+        <li>
+          <ul class="menu">
+            <li class="menu__trigger">Show more&nbsp;▾</li>
+            <li>
+              <ul class="menu__dropdown">
+                
+                  
+                    <li><a href="/showcase" >Showcase</a></li>
+                  
+                
+              </ul>
+            </li>
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/cissp---3---security-architecture--engineering/">CISSP - 3 - Security Architecture &amp; Engineering</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cissp/">CISSP</a>&nbsp;
+      
+      #<a href="/tags/cybersecurity/">Cybersecurity</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <hr>
+<h4 id="learning-objectives"><strong>Learning Objectives</strong><a href="#learning-objectives" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<ul>
+<li>Explain the significance of basic secure design principles.​</li>
+<li>Compare and contrast the key security characteristics of security models.​</li>
+<li>Explain the hardware foundations of security.​</li>
+<li>Apply security principles to different information systems and their environments.​</li>
+<li>Determine the best application of cryptographic approaches to solving organizational information security needs.</li>
+<li>Manage the use of certificates and digital signatures to meet organizational information security needs.</li>
+<li>Apply different cryptographic management solutions to meet organizational information security needs.</li>
+<li>Describe defenses against common cryptanalytic attacks.</li>
+<li>Apply the lessons of Crime Prevention through Environmental Design (CPTED) to information systems security design and operation.</li>
+<li>Identify information security implications of various physical facilities, systems and infrastructure.</li>
+</ul>
+<h4 id="key-topics"><strong>Key Topics</strong><a href="#key-topics" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>- Secure Design Principles     <!-- raw HTML omitted -->- Security Models     <!-- raw HTML omitted -->- Controls &amp; Systems Security Requirements     <!-- raw HTML omitted -->- Security Capabilities</td>
+          <td>- Vulnerabilities of Security Architectures &amp; Designs      <!-- raw HTML omitted -->- Cryptographic Solutions     <!-- raw HTML omitted -->- Cryptanalytic Attacks     <!-- raw HTML omitted -->- Secure Site &amp; Facility Design</td>
+          <td>- Site &amp; Facility Security Controls     <!-- raw HTML omitted -->- Information System Life Cycle</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<p>Operationalising Risk Management
+Threat Modelling -</p>
+<ul>
+<li>Purpose: To protect the organisation against threats by anticipating and countering various threats</li>
+<li>Threat is something we want to protect the organisation from</li>
+<li>Workflow diagrams to produce a conceptual view of a process or system</li>
+</ul>
+<p>Case Study: Stuxnet</p>
+<ul>
+<li>ID in 2010 - unprecedented sophistication in a cyber-weapon</li>
+<li>Tailored to sabotage Iran&rsquo;s nuclear program - exploited series of zero-days to specifically target Siemens PLCs, encrypted payload to avoid detection and ensure integrity</li>
+<li>Highlighted vulnerability of industrial control systems (ICS)</li>
+</ul>
+<p>Key Storage and Destruction</p>
+<ul>
+<li>Keys need to be protected from modification
+<ul>
+<li>Trusted, tamper-proof hardware modules</li>
+<li>Passphrase protected smart cards</li>
+<li>Key wrapping session keys, splitting cipher keys between physically separate locations</li>
+<li>Protecting keys with strong passwords/passphrases/key expiry/ect</li>
+</ul>
+</li>
+<li>Secret/private keys needs to be protected from unauthorised disclosure
+<ul>
+<li>To guard against long-term cryptanalytic attack, every key must have an expiry</li>
+</ul>
+</li>
+</ul>
+<p>Algorithim and Protocol Governance</p>
+<ul>
+<li>Key recovery: backup mechanism in the even keys are lost/damaged (eg.Common trusted directories, Password Wallets)</li>
+<li>Should be highly controlled and audited
+<ul>
+<li>Multiparty key recovery: Key is split and stored with trusted entities
+<ul>
+<li>No need to backup public keys</li>
+</ul>
+</li>
+<li>Dual Control &amp; Split Knowledge: Two or more people required to complete a process
+<ul>
+<li>Cryptography: Each person supplies unique part of a key</li>
+</ul>
+</li>
+<li>Key Escrow: Third party maintains a copy of a private key
+<ul>
+<li>Mandatory for most organisations use of cryptography</li>
+<li>Placed in trust of organisation, not individual</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Key Management &amp; Practices</p>
+<ul>
+<li>Key management: Most important part of cryptographic implementation</li>
+<li>Definition: Generation, recording, transcription, distribution, installation, storage, change, disposition, and control of cryptographic keys</li>
+<li>Potential for compromise at every step</li>
+<li>Attacks on keys are far more efficient that attacks on cryptographic algorithims</li>
+<li>Key archival
+<ul>
+<li>Only backup the encryption private key in a multi-certificate system</li>
+<li>Use dual control to protect keys</li>
+</ul>
+</li>
+<li>Saving backups to the Cloud: Know where the keys are stored</li>
+</ul>
+<p>Key Pairs</p>
+<ul>
+<li>Asymmetric key generation requires key pair generation</li>
+<li>Private key: Component kept private</li>
+<li>Public Key: Shared and used to</li>
+<li>One-way functions (Very difficult to reverse)
+<ul>
+<li>Factoring problem (only RSA)</li>
+<li>Discrete logarithm problem (Diff-Helmman, ECCC, Elliptic Curve, ect)
+<ul>
+<li>Finding logs of large numbers that have been exponentiated</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Restricted and Work Area Storage</p>
+<ul>
+<li>Restricted area security applies to sapces/rooms where highly sensitive works occurs or information is stored</li>
+<li>SCIF - Sensitive Compartmented Information Facility
+<ul>
+<li>Extremely high access control protections for both users and systems within</li>
+</ul>
+</li>
+<li>Strong doors to prevent physical access &amp; block sound</li>
+<li>Electrical connections only to support secure systems</li>
+<li>Acoustic, visual, and RF protections</li>
+<li>Ductwork isolated</li>
+<li>Intrusion detection systems installed</li>
+</ul>
+<p>Steganography</p>
+<ul>
+<li>Hide data from a 3rd party (hiding something within itself)
+<ul>
+<li>Concealing the fact that a secret message is being sent (as well as the message itself)</li>
+</ul>
+</li>
+<li>Physical concealment techniques</li>
+<li>Modern Techniques
+<ul>
+<li>Covert channels</li>
+<li>Hidden text within web pages</li>
+<li>Hiding messages within picture or sound files</li>
+<li>Null cipher (hiding within another text)</li>
+</ul>
+</li>
+<li>Can be used for digital watermarking</li>
+</ul>
+<p>Database Systems Vulnerabilities</p>
+<ul>
+<li>Database systems inherit platform vulnerabilities while also adding their own database-specific vulnerabilities</li>
+<li>Database-specific vulnerabilities
+<ul>
+<li>Data Mining: Finding hidden relationships, patterns, trends in a data warehouse</li>
+<li>Aggregation: Combining non-sensitive or low sensitivity data to create high-sensitivity data (greater than sum of parts)</li>
+<li>High Value Target: Databases are sought out by attackers</li>
+<li>Inference: Attackers can guess information by observing freely-available and related data</li>
+</ul>
+</li>
+</ul>
+<p>Implementation Attacks</p>
+<ul>
+<li>Side channel attacks: Passive attacks that rely on a physical attribute of an implementation.</li>
+<li>Fault Analysis Attacks: Gaining information by forcing faults and analysing error messages/codes</li>
+<li>Probing Attacks: Analysis of circuitry around cryptographic module to discover information about the key/algorithm</li>
+</ul>
+<p>Algorithm Attacks</p>
+<ul>
+<li>Rely on math structure of specific block ciphers</li>
+<li>Look for correlations between elements to find weakness in multiple encryption cycles</li>
+<li>Hashing is one-way, but plaintext can be determined by;
+<ul>
+<li>Hashing each plaintext until a match is found,</li>
+<li>Hash each plaintext and store the generated hash in a &ldquo;Rainbow Table&rdquo;</li>
+</ul>
+</li>
+</ul>
+<p>Crime Prevention through Environmental Design (CPTED)</p>
+<ul>
+<li>Building design to shape behaviour of people in the environment
+<ul>
+<li>Landscape design features</li>
+<li>Critical areas isolated from public &amp; employee traffic</li>
+<li>Architecture: Shrubbery/bushes to guide folks onto paths</li>
+<li>Lighting: Doorway lighting is a great deterrent</li>
+<li>Contact devices: Push to open (or remote controlled)</li>
+<li>Turnstiles/Mantraps: Control access &amp; limit traffic</li>
+<li>Key locks to secure areas</li>
+<li>Avoid windows near doors (break glass and reach through)</li>
+<li>Use laminated glass &amp; window guards to avoid covert entry</li>
+</ul>
+</li>
+</ul>
+<p>Utilities and Heating, Ventilation, and Air Conditioning (HVAC)</p>
+<ul>
+<li>Risk assessments should identify appropriate redundancy for separate services</li>
+<li>Building controls should use appropriate sensors to detect failures in critical systems</li>
+<li>HVAC Standards: ANSI/ASH RAE Standard 90.4-2019
+<ul>
+<li>Recommends temperature between 64-81 def F (18-27deg C)</li>
+<li>Recommends a rack have three temperature sensors (top, middle, bottom)</li>
+<li>Cooling is a huge cost/concern, but also need to address contaminants (dust, noxious fumes, ect)</li>
+<li>Need to ensure air quality through airflow (based on the number of human occupants) and CO2 sensors</li>
+</ul>
+</li>
+</ul>
+<p>Goals and Drawbacks of Kerberos</p>
+<ul>
+<li>Goal: Ensure private communications between systems over a network by managing encryption keys, and authenticates principals based on possession of the secret key (allowing access to session key).</li>
+<li>Drawbacks: Depends on careful implementation and enforcing authentication limited lifetimes.
+<ul>
+<li>Key Distribution Center (KDC) must be physically secured/protected, and can be a single point of failure</li>
+<li>Secret key and session key lengths are very important
+<ul>
+<li>Too short can be brute forced</li>
+<li>Too long can cause system overload</li>
+<li>Encryption is still based on passwords</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Case Study: Site and Facility Security Controls</p>
+<ul>
+<li>Northgate Information Solutions (NIS) experienced fire/explosion</li>
+<li>Blast blew main water tank supplying building&rsquo;s fire sprinkler system
+<ul>
+<li>Additional security concerns? Single point of failure in water supply</li>
+</ul>
+</li>
+<li>Blast threw confidential documentation out of the facility</li>
+<li>Prime example of why business continuity and site security are important
+<ul>
+<li>Need for more pre-vetted staff to secure site during extreme event</li>
+</ul>
+</li>
+</ul>
+<p>Distributed Systems Vulnerabilities and Mitigations</p>
+<ul>
+<li>Common vulnerabilities:
+<ul>
+<li>Lack of central control/monitoring</li>
+<li>Loss of data if nodes fail</li>
+<li>Inconsistent security configurations between nodes</li>
+<li>Susceptible to communication failure, compromise, or Denial of Service (DoS) from external attackers or internal error</li>
+</ul>
+</li>
+<li>Mitigations for distributed systems:
+<ul>
+<li>Security baseline for new nodes</li>
+<li>Communication control, encryption and redundancy</li>
+<li>Node backup and node data sharing</li>
+</ul>
+</li>
+</ul>
+<p>Site and Facility Security Controls: Power</p>
+<ul>
+<li>Power stability resilience &amp; quality of electrical service is vital</li>
+<li>Dual feed data centres</li>
+<li>Backup generators &amp; UPSs need to be able to handle a failure</li>
+<li>Backups and testing are vital to ensure correct operation in an outage</li>
+</ul>
+<p>High-Performance Computing (HPC) systems</p>
+<ul>
+<li>High-speed computers that handle large amount of data for data analytics and/or complex algorthms (cryptography)</li>
+<li>Vulnerabilities
+<ul>
+<li>Latency constraints: IDS/IPS or firewalls impose unacceptable latency losses</li>
+<li>Improper Workloads: HPC&rsquo;s resources could be consumed improperly if it&rsquo;s compromised</li>
+</ul>
+</li>
+<li>Mitigations
+<ul>
+<li>Proper Architectural Design: Architect secure computing enclaves and detection tools around perimeter of HPC</li>
+<li>Appropriate monitoring and logging: Properly design &amp; review logging to ensure security can be audited without interfering with HPC system</li>
+</ul>
+</li>
+</ul>
+<p>Industrial Control Systems (ICS)</p>
+<ul>
+<li>Three well-known types
+<ul>
+<li>SCADA - Supervisory Control and Data Acquisition: Interconnected equipment to monitor/control physical equipment in industrial environments.
+<ul>
+<li>Used to automate geographically distributed processes: Power generation/transmission/distribution, oil &amp; gas refinement/pipelines, chemical processing, rail &amp; mass transit</li>
+</ul>
+</li>
+<li>DCS - Distributed Control Systems (DCSs): Confined to geographic area or specific plant.
+<ul>
+<li>Many similarities with SCADA but confined to defined area with local control</li>
+</ul>
+</li>
+<li>PLC - Programmable Logic Controllers: Ruggedised industrial controllers, generally using specialised code to react to real-time inputs.
+<ul>
+<li>May be stand-alone or integrated into SCADA/DCS systems</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Vulnerabilities:
+<ul>
+<li>Limited functionality: Standard OS functions/protections may not be available</li>
+<li>Limited protections</li>
+<li>Long Lifespan: Typically &gt;10 years operation</li>
+<li>Susceptible to misuse/error: Complicated specialty systems</li>
+<li>Susceptible to DoS: Minimal communication protection &amp; sensitive to improper input</li>
+<li>Physical Impacts</li>
+<li>Often unattended/remote locations: Allows maintained physical access</li>
+</ul>
+</li>
+<li>Mitigations:
+<ul>
+<li>Isolate network infrastructure</li>
+<li>Monitor control system networks</li>
+<li>Highly segmented networks</li>
+<li>Protect Communication Channels</li>
+<li>Robust Configuration Controls</li>
+</ul>
+</li>
+</ul>
+<p>Embedded Systems and IoT Vulnerabilities and Mitigations</p>
+<ul>
+<li>Specialised computing platform with limited/specialised OS, with limited processing power and long service life.
+<ul>
+<li>May include system on a chip (SoC)</li>
+<li>Limited function design or ability to update</li>
+</ul>
+</li>
+</ul>
+<p>Cloud-based Systems Vulnerabilities and Mitigations</p>
+<ul>
+<li>Vulnerabilities:
+<ul>
+<li>Inherently exposed to external communication</li>
+<li>Misconfigurations</li>
+<li>May exist for long periods (legacy user components)</li>
+<li>Gap between CSP and data owner security controls</li>
+</ul>
+</li>
+<li>Mitigations:
+<ul>
+<li>Reputable CSP</li>
+<li>Well-trained sys admins</li>
+<li>Encryption of files and communications</li>
+<li>Identity and access management (IAM)</li>
+</ul>
+</li>
+</ul>
+<p>Session Keys - Creation &amp; Protection</p>
+<ul>
+<li>Automated Key generation: Designed for user transparency &amp; complete policy enforcement</li>
+<li>Truly Random: Need appropriately high work factor (amount of time and effort required to break is &gt; time information needs to be protected)</li>
+<li>Asymmetric Key Length: Need to be longer than symmetric keys, as factoring and discrete log problems are easier to solve than brute-forcing all possible keys (Eg. RSA-1024 ~ 80-bit symmetric)
+<ul>
+<li>RSA-3072 should be used if security is required beyond 2030</li>
+</ul>
+</li>
+</ul>
+<p>Edge Computing and Fog Computing Vulnerabilities and Mitigations</p>
+<ul>
+<li>Vulnerabilities:
+<ul>
+<li>Network Compromise: Heavy reliance on network infrastructure</li>
+<li>Increased Attack Surface: Increased number &amp; diversity of devices increases potential of compromise</li>
+</ul>
+</li>
+<li>Mitigations:
+<ul>
+<li>Increased network monitoring &amp; incident response</li>
+<li>Strengthen inventory (avoid sprawl, rogue devices, obsolete equipment)</li>
+</ul>
+</li>
+</ul>
+<p>Examples of Asymmetric Encryption Algorithms</p>
+<ul>
+<li>RSA - Rivest-Shamir-Adleman: Based on factoring primes</li>
+<li>DHM - Diffie-Hellman-Merkle: Based on discrete logarithim. Used for key negotiation with no message confidentiality (eg. exchange/negotiate a secret symmetric key for subsequent message encryption like PKI requiring symmetric session keys)</li>
+<li>EIGamal: Based on DHM but also includes message confidentiality &amp; digital signature.</li>
+</ul>
+<p>Symmetric Encryption Algorithms</p>
+<ul>
+<li>Key distribution and management is difficult in large organisations - Sender and receiver need the same key</li>
+<li>Key distribution is the biggest problem with symmetric crypto</li>
+<li>Scalability - Number of keys required grows rapidly: n(n-1)/2</li>
+<li>Can&rsquo;t offer
+<ul>
+<li>Digital signatures</li>
+<li>Non-repudiation of origin or delivery</li>
+<li>No Access Control or Integrity</li>
+</ul>
+</li>
+</ul>
+<p>Certification/Certificate Authority (PKI)</p>
+<ul>
+<li>Need a register to reliably associate a key pair</li>
+<li>Certificate Authority (CA): Trusted third party signs owner key association</li>
+<li>International PKI standard: x.509 certificate standard</li>
+</ul>
+<p>Virtualised Systems</p>
+<ul>
+<li>Hardware virtualisation in cloud environments
+<ul>
+<li>Supports multi-tenancy</li>
+<li>Rapid IT resource deployment from share pool</li>
+<li>Facilitates automation</li>
+<li>Reduce complexity and admin overhead</li>
+</ul>
+</li>
+<li>Hypervisor is the most important element to allow virtualisation
+<ul>
+<li>Allows multiple OSs to share single hardware host</li>
+<li>Controls host processor and resources</li>
+<li>Prioritises and allocates resources to avoid crashes</li>
+</ul>
+</li>
+<li>Type 1 Hypervisor: Runs directly on hardware (VMware EXSI)
+<ul>
+<li>Significantly reduce attack software. Also controls software.</li>
+</ul>
+</li>
+<li>Type 2 Hypervisor: Runs on host OS (VMware Workstation, VirtualBox)
+<ul>
+<li>More attractive to hackers due to OS vulnerabilities</li>
+</ul>
+</li>
+</ul>
+<p>Ransomware and Ransom Attacks</p>
+<ul>
+<li>Mitigation:
+<ul>
+<li>Backup Data</li>
+<li>Separate Backups: Isolate computer and network</li>
+<li>Isolate Processes: Physically isolate sensitive processes</li>
+<li>Use Licensed Software: Legally licensed and supported software with proper updates and patching</li>
+<li>Conduct Training: Build Awareness</li>
+<li>Configure Tools: Anti-malware tools to update signature files &amp; scan storage</li>
+<li>Implement Protections: Spam filtering, malicious attachments</li>
+<li>Verify Systems: Verify IDS and IPS systems</li>
+<li>Reassess Practices: Review incident response and decision-making processes</li>
+<li>Conduct Exercises: Tabletop &amp; simulations to ID weaknesses in process &amp; procedures</li>
+<li>Define Processes: Determine policy, processes, procedures, legal authority around ransomware payment
+<ul>
+<li>Recognise that payment may be to organisation with specific terrorism sanctions</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Consider Endpoint Detection and Response (EDR) and Extended Detection and Response (XDR)</li>
+</ul>
+<p>Additional Attacks</p>
+<ul>
+<li>Spoofing: MitM Attacks</li>
+<li>Pass-the-Hash: Capture and reusing password hash for lateral access</li>
+<li>Time of Check/Time of use: Abuse of system multi-tasking</li>
+</ul>
+<p>Additional Algebraic Attacks</p>
+<ul>
+<li>Birthday Attack: Probability two hashes will match is &lt; possible number of hashes (Brute force attack) (In a group of 23, chance 2 or more share birthday is &gt;50%)</li>
+<li>Factoring Attack: Targets RSA by solving public key factoring to find private key</li>
+<li>Dictionary Attack: List of possible passwords used against a password file. Rainbow table of hashed digests speeds this up considerably</li>
+<li>Random Number Generator Attacks: Some algorithms are predictable, and make determining initialisation vectors guessable</li>
+<li>Temporary Files: If temporary calculation files are exposed, they can be used to aid cryptanalysis</li>
+</ul>
+<p>Elliptic Curve Cryptography (ECC)</p>
+<ul>
+<li>Trapdoor Function: Given P &amp; Q, easy to compute <code>P*Q</code></li>
+<li>Given Product (N), it is NOT easy to compute P or Q</li>
+<li><em><strong>Highest strength encryption per bit of key length</strong></em></li>
+<li>Much smaller key sizes (256 &amp; 384 bit) than RSA (eq 3072 &amp; 7680)
+<ul>
+<li>384-bit is acceptable for NSA top-secret (eq RSA-7680)</li>
+</ul>
+</li>
+<li>Keyspace = Maximum space available for process</li>
+<li>N is the number of times this process has been repeated</li>
+</ul>
+<p>Site Planning</p>
+<ul>
+<li>Alternate sites - geographically distinct from primary site
+<ul>
+<li>Should have equivalent processing power</li>
+<li>Possible fail-over to cloud infrastructure?</li>
+<li>Requirements need to be determined in contingency plans</li>
+<li>Configurations at alt site should be compatible with primary</li>
+</ul>
+</li>
+<li>Threats
+<ul>
+<li>Natural disasters</li>
+<li>Structural failures</li>
+<li>Hostile Attacks</li>
+<li>Errors of ommission/commission</li>
+</ul>
+</li>
+</ul>
+<p>Client-based Systems Vulnerabilities and Mitigations</p>
+<ul>
+<li>Vulnerabilities:
+<ul>
+<li>Physically under user control: Misuse, lost/stolen, monitoring challenges, patching/update challenges</li>
+</ul>
+</li>
+<li>Mitigations
+<ul>
+<li>Continuous Patching/Updating</li>
+<li>General network protection: segmentation, firewalls, network intrusion prevention/detection</li>
+<li>Host Protection: Antivirus, IDS/IPS, host firewall, disk encryption</li>
+<li>Monitor: Logs, alerts, location</li>
+<li>Education: Anti-phishing campaigns, Attack detection</li>
+</ul>
+</li>
+</ul>
+<p>Defense in Depth</p>
+<ul>
+<li>Definition (NIST-800): Security architecture constructed through the application of multiple mechanism to create a series of barriers to prevent, delay or deter an attack</li>
+<li>Defense-in-Depth increases assurance, but no system is stronger than the weakest link in the chain</li>
+<li>Defense-in-depth is not a substitute or equivalent to a sound security architecture leveraging concepts and design principle</li>
+<li>Example: Username/Password followed by phone notification for 2FA. Also using a series of firewalls with a DMZ.</li>
+<li>Defense-in-depth is the use of multiple controls from multiple control categories</li>
+</ul>
+<p>Applicable Types of Controls and Security Control Categories</p>
+<ul>
+<li>Controls
+<ul>
+<li>Technical and logical controls: Firewalls, Access control lists, badge readers, ect</li>
+<li>Physical Controls: Tangible (Walls, Fences, guards, locks, ect)</li>
+<li>Administrative: Policy and Procedure</li>
+</ul>
+</li>
+<li>Control Categories
+<ul>
+<li>Directive: Policy, signs</li>
+<li>Deterrent: Notification, signage, notable presence of other controls</li>
+<li>Preventative: Walls, Fences</li>
+<li>Compensating: Mitigation measure</li>
+<li>Detective: Recognise hostile activity (Guards, IDS)</li>
+<li>Corrective: IPS, Incident Response</li>
+<li>Recovery: Restore operations to a known good condition (Backups, Disaster Recovery)</li>
+</ul>
+</li>
+</ul>
+<p>Wiring Closets and Intermediate Distribution Facilities (&ldquo;Cable Plant&rdquo;)</p>
+<ul>
+<li>May Include
+<ul>
+<li>Entrance Facility</li>
+<li>Phone, network, special connections</li>
+<li>ISP or Telco equipment</li>
+<li>Equipment Room</li>
+<li>Wiring and/or switch components</li>
+<li>Backbone Distribution</li>
+<li>Telco room (wiring closet)</li>
+</ul>
+</li>
+<li>Security protections
+<ul>
+<li>Rooms secured against unauthorised access</li>
+<li>Room access monitored/recorded</li>
+<li>Secondary locks on equipment/racks</li>
+<li>Conduit or tamper protection for wiring</li>
+<li>Environmental protection</li>
+<li>Lightning/Surge Protection</li>
+<li>Backup Power/UPS</li>
+<li>Heating, Cooling, Air Flow</li>
+<li>Fire detection/suppression</li>
+<li>High-Power Energy shutoff</li>
+</ul>
+</li>
+</ul>
+<p>Separation fo Duties (SoD)</p>
+<ul>
+<li>Attenuate possibilities/opportunities for corruption and theft</li>
+<li>No one individual can complete all the steps of a process</li>
+<li>Necessarily degrades efficiency</li>
+</ul>
+<p>Other Uses of Digital Signatures</p>
+<ul>
+<li>Distributed Ledge (Blockchain)
+<ul>
+<li>Record of transactions is maintained on multiple, separate systems (no single point of failure)</li>
+<li>No record change can occur without it being recognised in the ledger of multiple, independent systems</li>
+</ul>
+</li>
+<li>Message Authentication - Two types using digests
+<ul>
+<li>Message Integrity Codes (MICs) (aka &ldquo;Non-Keyed&rdquo;)</li>
+<li>Message Authentication Codes (MACs) (aka &ldquo;Keyed&rdquo; or Cryptographic checksum)
+<ul>
+<li>Combine a message digest with a secret key - requires sender and receiver share a secret key beforehand</li>
+<li>Generally use SHA-1 or SHA-3 (previously MD5)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>HMAC operation offers similar cryptographic strength and speed as hashing, but with the additional protection of a secret key
+<ul>
+<li>Offers assurance of HMAC security</li>
+</ul>
+</li>
+</ul>
+<p>Advanced Encryption Standard (AES)</p>
+<ul>
+<li>NIST sponsored in 2000 to replace DES</li>
+<li>Rindell algorithm (New standard)</li>
+<li>Required for all US government systems (up through Top Secret)</li>
+</ul>
+<p>Hashing: Asymmetric Encryption for Data and Message Integrity</p>
+<ul>
+<li>Hashing: Random number generator using seed value and salt value</li>
+<li>Message Digest is an example of hashing
+<ul>
+<li>Fixed length, One-way operation, does not use a secret key</li>
+</ul>
+</li>
+<li>Five Properties
+<ul>
+<li>Uniformly distributed</li>
+<li>Collision resistant</li>
+<li>Impossible to invert - One way, irreversible</li>
+<li>Computer on the entire message</li>
+<li>Deterministic - Given x, always generate y</li>
+</ul>
+</li>
+<li>MD5 - Generates 128bit length hash, processes in 512-bit blocks</li>
+<li>SHA - Base on MD4</li>
+<li>SHA-1 - Based on MD5, Output is 160-bits long, 512-bit processing blocks, four rounds of operations with 20 steps each
+<ul>
+<li>SHA-type determined by number written AFTER the hash</li>
+</ul>
+</li>
+</ul>
+<p>Trust but Verify</p>
+<ul>
+<li>Trustworthiness of an information system is measured in specific and measureable criteria relative to operational permformance measure and stated security objectives
+<ul>
+<li>Includes strength of protection and level of assurance/confidence in protection capability</li>
+<li>Burden to demonstrate an absence of certain outcomes (anti-patterns)</li>
+<li>Demonstration, inspection, evaluation, and testing</li>
+</ul>
+</li>
+</ul>
+<p>Brewer and Nash - Preventing Conflicts of Interest</p>
+<ul>
+<li>Users should not access confidential information of a client organisation AND it&rsquo;s competitors</li>
+<li>Prevent information sharing between competitors</li>
+<li>Reduces the opportunity/temptation to violate laws/ethics</li>
+<li>Unusual because access control rules change based on subject behaviour</li>
+</ul>
+<p>HRU (Harrison, Ruzzo, Ullman) - Restricting user privilege</p>
+<ul>
+<li>Model is very similar to Graham-Denning, and concerned with restricting a subject from gaining specific privileges</li>
+<li>Composes a set of generic rights and finite set of commands
+<ul>
+<li>Subjects prevented from accessing programs/subroutines to execute a command</li>
+</ul>
+</li>
+<li>Modern operating systems try to implement this but are not perfect</li>
+</ul>
+<p>Clark-Wilson - Integrity at transaction level</p>
+<ul>
+<li>Improves on Biba model for maintaining data integrity</li>
+<li>Requirement for transactions by evaluated by another party before commitment
+<ul>
+<li>Separation of duties</li>
+<li>Steps within any transaction need to be carefully designed and enforced</li>
+</ul>
+</li>
+<li>Clark-Wilson establishes subject-program-object so subject does not directly interact with object (all facilitated by program)
+<ul>
+<li>Program arbitrates all access (authentication &amp; identification) and ensures interaction follows defined rules.</li>
+</ul>
+</li>
+</ul>
+<p>Fire Prevention, Detection, and Suppression</p>
+<ul>
+<li>Prevention is the most important part
+<ul>
+<li>Adherence to building code, inspections, removal of fire load</li>
+<li>Prohibit smoking</li>
+</ul>
+</li>
+<li>Detection: Smoke sensors (ionisation or photoelectric), Spot sensors (also include CO and heat detection), VESDA (air quality monitoring)</li>
+<li>Suppression: Extinguishers, In-rack</li>
+<li>Fire Classes - Most offices are concerned with A, B, &amp; C
+<ul>
+<li>A - Paper, wood, plastic</li>
+<li>B - Flammable liquids</li>
+<li>C - Electrical fires</li>
+<li>D - Flammable metals</li>
+<li>K - Commercial Cooking</li>
+</ul>
+</li>
+</ul>
+<p>Social Engineering for Key Discovery</p>
+<ul>
+<li>Using deception/intimidation to disclose information</li>
+<li>Humans are the weakest link - social engineering is the most common cryptographic attack</li>
+<li>Constant awareness, education, and training</li>
+</ul>
+<p>Zero Trust</p>
+<ul>
+<li>Do not trust anything inside or outside network without first verifying access</li>
+</ul>
+<p>Keep it Simple</p>
+<ul>
+<li>Economy of mechanism - Keep the design as small and simple as possible</li>
+<li>Reduced complexity: System design as small and simple as possible. Easier to analyse and less prone to error.</li>
+<li>Simplicity of system is directly correlated with number of vulnerabilities</li>
+</ul>
+<hr>
+<p><strong>This reminds me of</strong>&hellip;</p>
+<hr>
+<h1 id="other-references">Other References<a href="#other-references" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/cissp---2---asset-security/" class="button inline prev">
+        &lt; [<span class="button__text">CISSP - 2 - Asset Security</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/cissp---4---communication--network-security/" class="button inline next">
+         [<span class="button__text">CISSP - 4 - Communication &amp; Network Security</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

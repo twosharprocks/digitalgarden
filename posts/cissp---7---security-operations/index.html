@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>CISSP - 7 - Security Operations Security :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" Learning Objectives Describe the legal, organizational, and compliance requirements of investigation activities. Assess what makes logging practices effective and efficient. Describe the security implications, operations, and limitations of monitoring systems, including intrusion detection and prevention (IDS/IPS), security information and event management (SIEM), and user and entity behavior analytics (UEBA). Identify organizational enforcement approaches to support change management activities. Justify the use of increased automation of change activities in terms of systems and information security. Apply secure system design concepts, security models, and AC models to typical business and organizational processes. Understand the importance of media management and media protection techniques. Apply various incident response concepts and standards to incident response activities. Evaluate the impact of organizational culture and compliance expectations on incident response. Determine security implications for operational controls. Associate incident response activities with specific attack forms. Assess the security value of third-party services. Identify the necessity and challenges of patch management to address vulnerabilities. Relate organizational change management practices to information security. Identify change management standards. Describe established approaches to improving systems availability. Identify the key steps and resources necessary to support business continuity and recovery processes. Compare implementation and requirements of various types of testing for disaster recovery plans. Discuss participation in business continuity planning and various BC exercises. Identify information security implications of various physical controls. Assess information security implications of personnel safety practices. Key Topics Investigations Logging and Monitoring Activities Configuration Management Security Operations Concepts Resource Protection Incident Management Detective and Preventative Measures Patch and Vulnerability Management Change Management Recovery Strategies Disaster Recovery Processes and Plans Business Continuity Planning and Exercises Physical Security Safety and Security Concerns Evidence Collection and Handling
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/cissp---7---security-operations/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="CISSP - 7 - Security Operations Security">
+<meta property="og:description" content=" Learning Objectives Describe the legal, organizational, and compliance requirements of investigation activities. Assess what makes logging practices effective and efficient. Describe the security implications, operations, and limitations of monitoring systems, including intrusion detection and prevention (IDS/IPS), security information and event management (SIEM), and user and entity behavior analytics (UEBA). Identify organizational enforcement approaches to support change management activities. Justify the use of increased automation of change activities in terms of systems and information security. Apply secure system design concepts, security models, and AC models to typical business and organizational processes. Understand the importance of media management and media protection techniques. Apply various incident response concepts and standards to incident response activities. Evaluate the impact of organizational culture and compliance expectations on incident response. Determine security implications for operational controls. Associate incident response activities with specific attack forms. Assess the security value of third-party services. Identify the necessity and challenges of patch management to address vulnerabilities. Relate organizational change management practices to information security. Identify change management standards. Describe established approaches to improving systems availability. Identify the key steps and resources necessary to support business continuity and recovery processes. Compare implementation and requirements of various types of testing for disaster recovery plans. Discuss participation in business continuity planning and various BC exercises. Identify information security implications of various physical controls. Assess information security implications of personnel safety practices. Key Topics Investigations Logging and Monitoring Activities Configuration Management Security Operations Concepts Resource Protection Incident Management Detective and Preventative Measures Patch and Vulnerability Management Change Management Recovery Strategies Disaster Recovery Processes and Plans Business Continuity Planning and Exercises Physical Security Safety and Security Concerns Evidence Collection and Handling
+" />
+<meta property="og:url" content="/posts/cissp---7---security-operations/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about/">About</a></li>
+        
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about/" >About</a></li>
+        
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+        <li>
+          <ul class="menu">
+            <li class="menu__trigger">Show more&nbsp;▾</li>
+            <li>
+              <ul class="menu__dropdown">
+                
+                  
+                    <li><a href="/showcase" >Showcase</a></li>
+                  
+                
+              </ul>
+            </li>
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/cissp---7---security-operations/">CISSP - 7 - Security Operations Security</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cissp/">CISSP</a>&nbsp;
+      
+      #<a href="/tags/cybersecurity/">Cybersecurity</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <hr>
+<h4 id="learning-objectives"><strong>Learning Objectives</strong><a href="#learning-objectives" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<ul>
+<li>Describe the legal, organizational, and compliance requirements of investigation activities.</li>
+<li>Assess what makes logging practices effective and efficient.</li>
+<li>Describe the security implications, operations, and limitations of monitoring systems, including intrusion detection and prevention (IDS/IPS), security information and event management (SIEM), and user and entity behavior analytics (UEBA).</li>
+<li>Identify organizational enforcement approaches to support change management activities.</li>
+<li>Justify the use of increased automation of change activities in terms of systems and information security.</li>
+<li>Apply secure system design concepts, security models, and AC models to typical business and organizational processes.</li>
+<li>Understand the importance of media management and media protection techniques.</li>
+<li>Apply various incident response concepts and standards to incident response activities.</li>
+<li>Evaluate the impact of organizational culture and compliance expectations on incident response.</li>
+<li>Determine security implications for operational controls.</li>
+<li>Associate incident response activities with specific attack forms.</li>
+<li>Assess the security value of third-party services.</li>
+<li>Identify the necessity and challenges of patch management to address vulnerabilities.</li>
+<li>Relate organizational change management practices to information security.</li>
+<li>Identify change management standards.</li>
+<li>Describe established approaches to improving systems availability.</li>
+<li>Identify the key steps and resources necessary to support business continuity and recovery processes.</li>
+<li>Compare implementation and requirements of various types of testing for disaster recovery plans.</li>
+<li>Discuss participation in business continuity planning and various BC exercises.</li>
+<li>Identify information security implications of various physical controls.</li>
+<li>Assess information security implications of personnel safety practices.</li>
+</ul>
+<h4 id="key-topics"><strong>Key Topics</strong><a href="#key-topics" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<ul>
+<li>Investigations</li>
+<li>Logging and Monitoring Activities</li>
+<li>Configuration Management</li>
+<li>Security Operations Concepts</li>
+<li>Resource Protection</li>
+<li>Incident Management</li>
+<li>Detective and Preventative Measures</li>
+<li>Patch and Vulnerability Management</li>
+<li>Change Management</li>
+<li>Recovery Strategies</li>
+<li>Disaster Recovery Processes and Plans</li>
+<li>Business Continuity Planning and Exercises</li>
+<li>Physical Security</li>
+<li>Safety and Security Concerns</li>
+</ul>
+<hr>
+<p>Evidence Collection and Handling</p>
+<ul>
+<li>Evidence
+<ul>
+<li>Data about the incident</li>
+<li>Data/Systems/Media that may have been compromised</li>
+<li>Information from people about the evidence</li>
+<li>Information about the incident scene</li>
+</ul>
+</li>
+<li>Take inventory of artifacts at incident scene</li>
+<li>Issue with cyber incident is that the scene can be geographically diverse</li>
+<li>Appoint evidence custodian
+<ul>
+<li>Responsible for chain of evidence</li>
+</ul>
+</li>
+<li>Maintain chain of custody
+<ul>
+<li>Record of where and when, what form, where and handled when stored between collection and presentation</li>
+</ul>
+</li>
+<li>Make backups at bit level without changing the data or state</li>
+<li>Make copies of all evidence (physical and digital)</li>
+</ul>
+<p>Reporting and Documentation</p>
+<ul>
+<li>Admissibility - Evidence is acceptable to court</li>
+<li>Accuracy - Evidence is true and accurate</li>
+<li>Comprehensibility - Evidence is not withheld</li>
+<li>Objectivity - Evidence is not presented subjectively</li>
+</ul>
+<p>Sandboxing</p>
+<ul>
+<li>Separating threat from network for analysis</li>
+</ul>
+<p>Incident Response Activities - Mitigation</p>
+<ul>
+<li>Containment (Quarantine) &amp; Eradication</li>
+<li>Typical containment tactics might include:
+<ul>
+<li>Logical or Physical disconnection</li>
+<li>Disabling outgoing/incoming connections from external services, applications, platforms, sites</li>
+<li>Disconnecting key servers</li>
+<li>Disconnecting extranets or VPNs</li>
+<li>Disconnect internal network from ISP</li>
+<li>Disable wifi and remote login</li>
+<li>Disable internal users</li>
+<li>Disconnect some/all external partners and user domains</li>
+</ul>
+</li>
+<li>Hardening</li>
+<li>Eradication - identify and remove every instance of causal agent
+<ul>
+<li>Include all backup material</li>
+<li>May need full low-level reformat of media</li>
+</ul>
+</li>
+</ul>
+<p>Third-Party Provided Security Services</p>
+<ul>
+<li>May Provide
+<ul>
+<li>Threat Intelligence</li>
+<li>Network Monitoring</li>
+<li>Physical Security</li>
+<li>Network Management</li>
+<li>Audit</li>
+</ul>
+</li>
+<li>Due diligence on provider
+<ul>
+<li>Review of governance</li>
+<li>Service-Level Agreements (SLAs)</li>
+<li>Non-Disclosure Agreements (NDAs)</li>
+<li>Insurance/Bonding</li>
+<li>Audit/Testing</li>
+<li>Strong contract Language</li>
+<li>Regulatory Approval</li>
+</ul>
+</li>
+</ul>
+<p>Investigative Techniques</p>
+<ul>
+<li>Interviews
+<ul>
+<li>Enlist trained interviewers</li>
+<li>Conduct multi-party interviews</li>
+<li>Ensure preservation of subject&rsquo;s rights</li>
+<li>Record when possible</li>
+</ul>
+</li>
+<li>External Requests
+<ul>
+<li>Request info from others sources: ISPs, gov agencies, witnesses, ect. Can be formal or informal</li>
+</ul>
+</li>
+<li>Automated Capture
+<ul>
+<li>Collecting and analysing incident data from normal logging</li>
+</ul>
+</li>
+<li>Manual Capture
+<ul>
+<li>Audio interviews, video capture, ect</li>
+</ul>
+</li>
+</ul>
+<p>Incident Response Activities - Response</p>
+<ul>
+<li>NIST 800-61 Containment, Eradication, and Recovery</li>
+<li>ISO27035 - Responses</li>
+<li>Pareto Analysis (80/20 rule)</li>
+<li>Five Whys</li>
+<li>Fishbone diagrams - Causes</li>
+<li>Failure Mode Effects Analysis</li>
+<li>Fault Tress - Boolean logic to id failures</li>
+</ul>
+<p>Maintaining the Integrity of an Investigation</p>
+<ul>
+<li>Respect and abide by ethical walls</li>
+<li>Abide by legal requirements</li>
+<li>Respect and support all aspects of evidence handling</li>
+<li>Respect and protect individual rights</li>
+<li>Follow appropriate communication channels</li>
+</ul>
+<p>Travel</p>
+<ul>
+<li>Prior, During, and After</li>
+<li>In many countries, kidnapping is a well-established business model</li>
+<li>Foreign intelligence services will track every traveller</li>
+<li>Electronic surveillance networks can take advantage of facial and other biometric recognition tools</li>
+</ul>
+<p>Implement Disaster Recovery Processes - Response</p>
+<ul>
+<li>Criteria for initiating response action: Dollar value, # of affected users, expected downtime, threat to human health/safety</li>
+<li>Personnel authorised to initiate BCDR action: Usually member of senior management</li>
+<li>Information stream/chain: To provide decision-maker with sufficient data</li>
+</ul>
+<p>Security Information and Event Management (SIEM)</p>
+<ul>
+<li>Aggregation: Firewalls, IDS/IPS, Performance monitoring tools, Network devices, Endpoints, Anti-malware</li>
+<li>Normalisation: Standardising data presentation from multiple sources</li>
+<li>Correlation: Weighting to activities to calculate probabilities/significance</li>
+<li>Secure Storage; Must archive logs securely</li>
+<li>Analysis: Using scripts &amp; heuristics</li>
+<li>Real-time monitoring: Active threat detection</li>
+<li>Reporting: Current/historic data distillation</li>
+</ul>
+<p>User and Entity Behaviour Analytics (UEBA)</p>
+<ul>
+<li>Use templates from monitoring over time, may require training</li>
+<li>Convergence between SIEM and UEBA</li>
+</ul>
+<p>Firewalls</p>
+<ul>
+<li>4th Gen and Next gen incorporating IDS &amp; IPS functions</li>
+<li>Need to consider risks as firewalls change themselves</li>
+</ul>
+<p>Log Management</p>
+<ul>
+<li>Events can be:
+<ul>
+<li>Precursors - Signals suggesting change of conditions which may change threat landscape</li>
+<li>Indicators - Signals from events suggesting security event is underway or has occurred (IOCs)</li>
+</ul>
+</li>
+<li>Log Management practices
+<ul>
+<li>Logging Compliance and standards</li>
+<li>Logging Policies</li>
+<li>Logging Infrastructure</li>
+<li>Log Generation, collection and normalisation</li>
+<li>Log protection from creation to disposition</li>
+<li>Log Review, Analytics, and reporting</li>
+</ul>
+</li>
+</ul>
+<p>Perimeter Security Controls</p>
+<ul>
+<li>Exterior
+<ul>
+<li>Property security line (eg. parking, building entrances)</li>
+</ul>
+</li>
+<li>Interior
+<ul>
+<li>Within facility - any area directly controlled at direction of management</li>
+<li>Protected areas - street level entrances, lobbies, loading docks elevators, sensitive internal areas</li>
+</ul>
+</li>
+<li>Access Control Device presented to Access control system, with enrolment in identity management system</li>
+</ul>
+<p>Least Privilege and Need-to-Know</p>
+<ul>
+<li>Minimum level of privilege to do their duties, and no more</li>
+<li>Establishing ethical walls</li>
+<li>RBAC to manage access and control</li>
+</ul>
+<p>Major Change Management Activities - Patch Management Steps</p>
+<ul>
+<li>Receiving notice of the patch</li>
+<li>Determining applicability</li>
+<li>Determining potential impacts</li>
+<li>Testing the Patch</li>
+<li>Perform a full backup prior to application</li>
+<li>Apply the patch</li>
+<li>Confirm installation for all target systems</li>
+<li>Solicit/Receive user feedback</li>
+<li>Rollback if warranted</li>
+<li>Document</li>
+</ul>
+<p>Separation of Duties</p>
+<ul>
+<li>No individual can complete a trusted process alone, eg Bi-furcated finance</li>
+<li>Do not share duties between;
+<ul>
+<li>System administrator &amp; Network management</li>
+<li>Data Entry &amp; Computer Operations</li>
+<li>Security administrator &amp; security auditing</li>
+<li>System development and maintenance</li>
+<li>Information systems management</li>
+<li>Change Management</li>
+</ul>
+</li>
+</ul>
+<p>Recovery Site Strategies</p>
+<ul>
+<li>Mirror Sites: Operate in parallel with production (two complete &amp; up-to-date copies of everything)</li>
+<li>Hot Sites: Fully functional op sites with all necessary hardware/software/data to instantly handle critical functions</li>
+<li>Warm Sites: Similar to hot but don&rsquo;t have current data or functions for instant failover (hours to days)</li>
+<li>Cold Sites: No hardware, software or data, utilities may be connected. (weeks to months)</li>
+<li>Mobile Sites: Portable on vehicle</li>
+<li>Cloud: Backup stored with cloud computing service provider</li>
+<li>Localised Impacts
+<ul>
+<li>Joint operating agreement (JOA)</li>
+<li>Memorandum of Understanding (MOU)</li>
+</ul>
+</li>
+<li>Alternate sites need to be far enough to avoid impacts on primary</li>
+<li>Consider relocation kits (BCDR team responsible for updating)</li>
+</ul>
+<p>System Resilience, High Availability (HA), Quality of Service (QoS), and Fault Tolerance</p>
+<ul>
+<li>Sufficient spare components</li>
+<li>Clustering: Combining systems for full capacity if element fails
+<ul>
+<li>Active-passive operational load sharing</li>
+</ul>
+</li>
+<li>Power: UPS and Generators</li>
+</ul>
+<p>Security Training and Awareness</p>
+<ul>
+<li>Location-specific training and awareness for travellers</li>
+<li>Emergency Procedures</li>
+<li>Incident Reporting procedures</li>
+<li>User roles in incident detection/response</li>
+<li>Recognising attack attempts on individual users</li>
+</ul>
+<p>Ingress and Egress Monitoring</p>
+<ul>
+<li>Ingress: Firewalls, gateways, remote authentication servers, IDS/IPS, SIEMs, Anti-malware solutions</li>
+<li>Egress: Data Loss/Leak Protection
+<ul>
+<li>Signature (Data types)</li>
+<li>Pattern Matching (eg. two-word strings)</li>
+<li>Labelling</li>
+<li>DLP needs to work in conjunction with data protection effort
+<ul>
+<li>Data at rest, Data in motion, Data in use</li>
+</ul>
+</li>
+<li>Monitoring: Email, Portable media, FTP, Web posting, APIs</li>
+<li>Data discovery, classification, categorisation</li>
+<li>Enforcement: Training DLP tool, Attribution/Assigning, Stringency/Prevention</li>
+<li>DLP for compliance, security, training and awareness, due diligence, Asset management</li>
+</ul>
+</li>
+</ul>
+<p>Security Orchestration, Automation, and Response (SOAR)</p>
+<ul>
+<li>Comparable to CI/CD: Process automation</li>
+<li>Collect, integrate and automate security functions</li>
+<li>Three processes
+<ul>
+<li>Orchestration: Bring it all together</li>
+<li>Automation: Run/Play books (machine learning as option</li>
+<li>Security response:</li>
+</ul>
+</li>
+</ul>
+<p>Continuous Monitoring</p>
+<ul>
+<li>Information Security Continuous Monitoring (ISCM)</li>
+<li>NIST 800-137: Define, Establish, Implement, Analyse/Report, Respond, Review/Update</li>
+</ul>
+<p>Honeypots &amp; Honeynets</p>
+<ul>
+<li>Placed in network demilitarised zone (DMZ)</li>
+<li>Mimic architecture of actual environment</li>
+<li>Cannot invite someone onto property and then arrest for trespass
+<ul>
+<li>&ldquo;Hackback&rdquo; is illegal almost everywhere</li>
+</ul>
+</li>
+</ul>
+<p>Emergency Management</p>
+<ul>
+<li>Fire, Evacuation, Coordination with external services</li>
+</ul>
+<p>Availability Controls</p>
+<ul>
+<li>Redundancy</li>
+<li>Failover (Switching)</li>
+<li>Fault Tolerance (Handle component failure)</li>
+<li>RAID (Redundant Array of independent disks)</li>
+<li>High-Availability Clusters (Failover clusters)</li>
+<li>Replication (Data in more than one site/node)</li>
+</ul>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/cissp---6---security-assessment--testing/" class="button inline prev">
+        &lt; [<span class="button__text">CISSP - 6 - Security Assessment &amp; Testing</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/cissp---8---software-development-security/" class="button inline next">
+         [<span class="button__text">CISSP - 8 - Software Development Security</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

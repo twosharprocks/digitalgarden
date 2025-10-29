@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>CISSP - 4 - Communication &amp; Network Security :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" Learning Objectives Understand the role of the ISO OSI 7-Layer and TCP/IP models in internetworking and data communications. Describe the architectural characteristics, relevant technologies, protocols, and security threats associated with each layer in the OSI model. Describe the evolution of methods to secure IP communications protocols. Contrast the security considerations of network virtualization with physical networks. Describe key software-defined networking (SDN) concepts. Describe the evolution of and security implications for key network devices. Describe the architecture and design of computer hardware security. Evaluate the security issues and implications of communications in traditional and VoIP infrastructures and of remote computing tools. Key Topics Secure Design Principles in Network Architectures Secure Network Components Secure Communication Channels Communications and Internetworking (Overview)
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/cissp---4---communication--network-security/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="CISSP - 4 - Communication &amp; Network Security">
+<meta property="og:description" content=" Learning Objectives Understand the role of the ISO OSI 7-Layer and TCP/IP models in internetworking and data communications. Describe the architectural characteristics, relevant technologies, protocols, and security threats associated with each layer in the OSI model. Describe the evolution of methods to secure IP communications protocols. Contrast the security considerations of network virtualization with physical networks. Describe key software-defined networking (SDN) concepts. Describe the evolution of and security implications for key network devices. Describe the architecture and design of computer hardware security. Evaluate the security issues and implications of communications in traditional and VoIP infrastructures and of remote computing tools. Key Topics Secure Design Principles in Network Architectures Secure Network Components Secure Communication Channels Communications and Internetworking (Overview)
+" />
+<meta property="og:url" content="/posts/cissp---4---communication--network-security/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about/">About</a></li>
+        
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about/" >About</a></li>
+        
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+        <li>
+          <ul class="menu">
+            <li class="menu__trigger">Show more&nbsp;▾</li>
+            <li>
+              <ul class="menu__dropdown">
+                
+                  
+                    <li><a href="/showcase" >Showcase</a></li>
+                  
+                
+              </ul>
+            </li>
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/cissp---4---communication--network-security/">CISSP - 4 - Communication &amp; Network Security</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cissp/">CISSP</a>&nbsp;
+      
+      #<a href="/tags/cybersecurity/">Cybersecurity</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <hr>
+<h4 id="learning-objectives"><strong>Learning Objectives</strong><a href="#learning-objectives" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<ul>
+<li>Understand the role of the ISO OSI 7-Layer and TCP/IP models in internetworking and data communications.</li>
+<li>Describe the architectural characteristics, relevant technologies, protocols, and security threats associated with each layer in the OSI model. </li>
+<li>Describe the evolution of methods to secure IP communications protocols. </li>
+<li>Contrast the security considerations of network virtualization with physical networks. </li>
+<li>Describe key software-defined networking (SDN) concepts. </li>
+<li>Describe the evolution of and security implications for key network devices. </li>
+<li>Describe the architecture and design of computer hardware security. </li>
+<li>Evaluate the security issues and implications of communications in traditional and VoIP infrastructures and of remote computing tools.  </li>
+</ul>
+<h4 id="key-topics"><strong>Key Topics</strong><a href="#key-topics" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<ul>
+<li>Secure Design Principles in Network Architectures</li>
+<li>Secure Network Components</li>
+<li>Secure Communication Channels</li>
+</ul>
+<hr>
+<p>Communications and Internetworking (Overview)</p>
+<ul>
+<li>Six Basic Questions for Any Task
+<ul>
+<li>Who needs to send to whom?</li>
+<li>What needs to be sent?</li>
+<li>Where are both the sender and recipient?</li>
+<li>Why do they need to send and receive it?</li>
+<li>When does it need to be sent and received?</li>
+<li>How should it be sent?</li>
+</ul>
+</li>
+<li>Simple Goals in Network Terms
+<ul>
+<li>Provide reliable, managed communication between hosts (and users)</li>
+<li>Isolate functions in layers</li>
+<li>Use packets as basis of communication</li>
+<li>Standardise routing, addressing and control</li>
+<li>Allow layers beyond internetworking to add functionality</li>
+<li>Be vendor-agnostic, scalable, resilient</li>
+</ul>
+</li>
+</ul>
+<p>Telecommuting and Screen Scraper</p>
+<ul>
+<li>Strong VPN connections need to be established between teleworker &amp; organisation, with full device encryption as the norm</li>
+<li>Consider
+<ul>
+<li>Is the user trained to use secure connectivity software/methods?</li>
+<li>Does the user know which info is sensitive/vulnerable? Why someone might wish to modify/steal it?</li>
+<li>Is the physical location appropriate for the work/information?</li>
+<li>Who else has access to the area?</li>
+</ul>
+</li>
+<li>Screen scrapers extract information from a display
+<ul>
+<li>Can be legitimate when older tech doesn&rsquo;t interface</li>
+<li>Can be used to capture PIN pad sequences on a banking website</li>
+</ul>
+</li>
+</ul>
+<p>Remote Access and Remote Meeting Technology</p>
+<ul>
+<li>Concerns
+<ul>
+<li>People issues</li>
+<li>Networks and communications</li>
+<li>Threat Actors</li>
+<li>Implementing systems to stay secure</li>
+</ul>
+</li>
+</ul>
+<p>TCP/IP and OSI 7-Layer Models (Overview)</p>
+<ul>
+<li>Layers: Application, Host-to-host transport, Internet, Network Interface</li>
+<li>OSI Layers
+<ul>
+<li>7 Application (Data)</li>
+<li>6 Presentation (Data) - Data Representation and Encryption</li>
+<li>5 Session (Data) - Interhost Communication</li>
+<li>4 Transport (Segments) - End-to-end Connections &amp; Reliability</li>
+<li>3 Network (Packets) - Path Determination &amp; IP</li>
+<li>2 Data Link (Frames) - MAC and LLC (Physical Addressing)</li>
+<li>1 Physical - Media, Signal and Binary Transmission</li>
+</ul>
+</li>
+<li>OSI Acronyms
+<ul>
+<li>Please Do Not Throw Sausage Pizza Away</li>
+<li>All People Seem To Need Delicious Pizza</li>
+</ul>
+</li>
+<li>Why Use TCP/IP &amp; OSI 7-Layer?
+<ul>
+<li>Threat modelling around the world use both</li>
+<li>Focus on applications in data-centric vulnerability modelling/reduction</li>
+<li>User experiences are focused on connecting to and using applications
+<ul>
+<li>US leans towards TCP/IP, Europe leans towards OSI 7-layer</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Voice Over Internet Protocol (VoIP)</p>
+<ul>
+<li>Session Initiation Protocol (SIP) manages multimedia connections
+<ul>
+<li>Digest authentication/integrity protection with MD5</li>
+<li>Also supports encryption (including TLS)</li>
+</ul>
+</li>
+<li>Good: Security policies can enforce security for meetings/calls, plus recordkeeping</li>
+<li>Bad: Some products use encryption which has been cracked</li>
+</ul>
+<p>Network Function Virtualisation (NFV) (aka Virtual Network Function)</p>
+<ul>
+<li>Decouple functions (firewalls, network address translation, IDS, name resolution, ect) away from specific hardware</li>
+<li>European Telecommunications Standards Institute (ETSI) formalised NFV standards</li>
+<li>Benefits:
+<ul>
+<li>Support transition from CapEx to OpEx</li>
+<li>Reduce wait time for time-to-market ventures</li>
+<li>Increase agility of service consumption</li>
+</ul>
+</li>
+</ul>
+<p>802.1X NAC</p>
+<ul>
+<li>Port-based network access control (PNAC) protocol</li>
+<li>Provides authentication control for devices connecting to LANs &amp; WLANs</li>
+<li>Key Elements
+<ul>
+<li>Detection: Devices attempting to connect</li>
+<li>Authentication</li>
+<li>Authorisation</li>
+<li>Enforcement: Policy-defined security requirements</li>
+<li>Device Scanning: Check security configuration</li>
+<li>Onboarding: Set/modify security configuration</li>
+<li>Termination: Session cleanup after termination</li>
+</ul>
+</li>
+<li>For Wireless, Device must first authenticate to access point using Wi-Fi Protected Access (WPA)</li>
+<li>Wired devices connect via a switch which provides port-based authentication</li>
+</ul>
+<p>Zero Trust vs Trust But Verify</p>
+<ul>
+<li>Trust But Verify: Often seen in SSO environments
+<ul>
+<li>Network segmentation breaks IT infrastructure into security zones (security tokens to pass between)</li>
+</ul>
+</li>
+<li>Zero Trust: All processes must be authenticated &amp; authorised
+<ul>
+<li>Generally uses micro-segmentation (firewalls everywhere)</li>
+</ul>
+</li>
+</ul>
+<p>Converged Protocols</p>
+<ul>
+<li>Blending standardised protocols with specialist solutions</li>
+<li>Can solve problems, can also complicate security and require specialist knowledge</li>
+</ul>
+<p>Internet Protocol (IP): Legacy protocol Issues and Internet Relay Chat (IRC)</p>
+<ul>
+<li>original internet protocols were not designed with security as a design goal</li>
+<li>Early protocols had limited authentication</li>
+<li>Many have become more robust, but legacy still lingers</li>
+<li>Internet Relay Chat (IRC)
+<ul>
+<li>Security Concerns
+<ul>
+<li>Unencrypted</li>
+<li>Easy target for sniffing attacks</li>
+<li>Founded on trust among servers</li>
+<li>Enables special forms of DoS attacks</li>
+<li>Common Platform for Social Engineering</li>
+</ul>
+</li>
+<li>Authenticity
+<ul>
+<li>Misleading identity on registration</li>
+<li>Changing nickname online</li>
+<li>Manipulating directory service</li>
+<li>Manipulating attacker or target client to display incorrect identity</li>
+<li>Social-networking services provide ample opportunity for false identity</li>
+</ul>
+</li>
+<li>Confidentiality
+<ul>
+<li>IRC often transmits in cleartext</li>
+<li>Info can be disclosed by network sniffing</li>
+<li>Chat applications can generate illusion/expectation of privacy</li>
+</ul>
+</li>
+<li>Scripting
+<ul>
+<li>Some clients can execute scripts to simplify admin tasks</li>
+<li>Scripts are an attractive target for social engineering</li>
+</ul>
+</li>
+<li>Social Engineering
+<ul>
+<li>Exploits human nature and good will</li>
+</ul>
+</li>
+<li>Spam over instant messaging (SPIM)
+<ul>
+<li>Deliver pop-up windows that overrun intended processes</li>
+<li>Recommend service is disabled or only allowed on internal/corporate IM services</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>NAC Best Practices</p>
+<ul>
+<li>Policy should clearly identify scope of network access</li>
+<li>If Mobile devices are allowed, there should be a Mobile Device Management (MDM) policy and procedures to differentiate between enterprise-owned and ad-hoc devices</li>
+<li>Policy should detail controls such as
+<ul>
+<li>Encryption</li>
+<li>Screen locking</li>
+<li>Antivirus (AV)</li>
+<li>Firewall settings</li>
+</ul>
+</li>
+</ul>
+<p>Virtual Applications and Desktops</p>
+<ul>
+<li>Citrix, Microsoft, or public domain <em>virtiual network computing</em> (VNC) services</li>
+<li>Terminal services allow authentication/authorisation services to be used by remote users</li>
+</ul>
+<p>Third party Connectivity</p>
+<ul>
+<li>Org policy onboarding, monitoring, managing and offboarding</li>
+<li>Inventory existing relationships</li>
+<li>Monitoring &amp; auditing access</li>
+<li>Verify removal of IAM privileges and property is recovered</li>
+</ul>
+<p>NAC Frameworks</p>
+<ul>
+<li>Cisco&rsquo;s CNAC architecture
+<ul>
+<li>hardware approach using proprietary technology</li>
+</ul>
+</li>
+<li>Microsoft&rsquo;s NAP (Network Access Protection) initiative
+<ul>
+<li>Infrastructure-neutral, software dependent</li>
+</ul>
+</li>
+<li>Trusted Computing Group&rsquo;s (TCG) standard
+<ul>
+<li>Completely vendor neutral</li>
+</ul>
+</li>
+</ul>
+<p>Endpoint Security</p>
+<ul>
+<li>Identity management and control</li>
+<li>Configuration management and control</li>
+<li>Device health and status verification</li>
+<li>Behaviour modelling at device level</li>
+<li>Property management and physical security</li>
+<li>Remote management</li>
+<li>Device geolocation</li>
+</ul>
+<p>Multimedia Collaboration</p>
+<ul>
+<li>Peer-to-Peer (P2P) Applications/Protocols
+<ul>
+<li>Uncontrolled channel through network boundary (eg. tunnelling)</li>
+</ul>
+</li>
+<li>Instant Messaging
+<ul>
+<li>Three Classes
+<ul>
+<li>P2P networks</li>
+<li>Brokered communication</li>
+<li>Server-oriented networks</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Content Distributed Network (CDN)</p>
+<ul>
+<li>Origin Server receives inputs, and makes them accessible to edge servers</li>
+<li>News, entertainment, business - used to reduce impact on internet backbone</li>
+</ul>
+<p>Cellular Networks - Physical (OSI Layer 1)</p>
+<ul>
+<li>Endpoint -&gt; Base station -&gt; Relay radio -&gt; Endpoint</li>
+<li>Two transmission types
+<ul>
+<li>Code-division multiple access (CDMA)
+<ul>
+<li>Call data encoded and calls transmitted at once</li>
+<li>Use network-based allowed lists to verify subscribers</li>
+<li>Phones switched with carrier&rsquo;s permission</li>
+</ul>
+</li>
+<li>Global System for Mobiles (GSM)
+<ul>
+<li>Call transformed into digital data, given channel &amp; timeslot</li>
+<li>Customer info is kept on a SIM (Subscriber Identity Module)</li>
+<li>Carrier must accept any GSM-compliant phone</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Wireless Network Generations
+<ul>
+<li>1G - Analog</li>
+<li>2G - &lt;1Mbps, General Packet Radio Service GPRS, SMS &amp; MMS</li>
+<li>3G - &lt;52Mbps, High-Speed Downlink Packet Access, Video calls/mobile internet</li>
+<li>4G - &lt;100Mbps, Long Term Evolution (LTE), HD mobile media, web conferencing</li>
+<li>5G - &lt;35Gbps, Software-defined networks, IoT, self-driving cars, robot aided surgery</li>
+</ul>
+</li>
+</ul>
+<p>Implications of multi-layer protocols</p>
+<ul>
+<li>Strong benefits of TCP/IP</li>
+<li>Combination of protocols may increase attack surface</li>
+<li>Particularly concerning for Critical Infrastructure
+<ul>
+<li>MODBUS into system communication (No authentication)</li>
+<li>MODBUS uses TCP/IP</li>
+</ul>
+</li>
+<li>Adoption of TLS to provide secure communications</li>
+<li>Legacy devices are delaying transition to secure comms</li>
+</ul>
+<p>Network Virtualisation: Software-Defined Networking (SDN)</p>
+<ul>
+<li>Rapidly changing how networks and constructed/implemented</li>
+<li>SDN advocates push that traditional networking is tech laden, too rigid/slow for agile business needs
+<ul>
+<li>SDN is repurposing existing infrastructure from device/hardware to virtual and data-centric</li>
+<li>Deliver services rather than technology</li>
+</ul>
+</li>
+<li>Abstracting network equipment moved into software-defined network</li>
+<li>SDN allows proactive resilience</li>
+<li>Three layers
+<ul>
+<li>Application plane - defines network behaviour
+<ul>
+<li>Connected to Control with North-bound</li>
+</ul>
+</li>
+<li>Control Plane - decides how to implement that behavior
+<ul>
+<li>East-West</li>
+</ul>
+</li>
+<li>Data Plane - carries out those instructions via routers and switches
+<ul>
+<li>Connects to Control with South-bound</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Software Defined Wide Area Network (SD-WAN)
+<ul>
+<li>SDN as private network but cloud-hosted</li>
+<li>Benefits: Minimise on-prem hardware, micro-segmentation, single-point network management</li>
+</ul>
+</li>
+</ul>
+<p>Threat Modelling and Internetworking</p>
+<ul>
+<li>Hazards
+<ul>
+<li>Not deliberately caused by actor/agent</li>
+<li>Potential for damage/disruption to information or systems</li>
+<li>Corrosion, weather damage, fire, smoke, accidents</li>
+</ul>
+</li>
+<li>Threats - Intent
+<ul>
+<li>Deliberate actions</li>
+<li>Purpose is disruption</li>
+<li>Dealt with system security functions</li>
+<li>APT Models
+<ul>
+<li>Unusually high level of technological and operational sophistication</li>
+<li>Attacks span months/years</li>
+<li>Conducted by a group</li>
+</ul>
+</li>
+<li>APT - Solarwinds
+<ul>
+<li>Deliberate targeting of US nuclear processes</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Kill Chains
+<ul>
+<li>Reconnaissance
+<ul>
+<li>OSINT, Scanning, Early social engineering</li>
+</ul>
+</li>
+<li>Weaponisation
+<ul>
+<li>Select access technique</li>
+</ul>
+</li>
+<li>Delivery
+<ul>
+<li>Email, USB, URL, ect</li>
+</ul>
+</li>
+<li>Exploitation
+<ul>
+<li>Malware, Rootkits, Exploits, LOTL techniques</li>
+</ul>
+</li>
+<li>Installation
+<ul>
+<li>Install backdoors for persistent access and C3</li>
+</ul>
+</li>
+<li>Command and Control
+<ul>
+<li>Hands-on access</li>
+</ul>
+</li>
+<li>Actions of Objectives
+<ul>
+<li>Exfiltration, data corruption, lateral movement, erase logs, ect</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Bound or Wired Media</p>
+<ul>
+<li>Twisted pair - copper wire twisted together to reduce EM interference and cross talk, jacketed by insulator
+<ul>
+<li>Unshielded Twisted Pair (UTP) - No shielding around twisted pair bundles, susceptible to EM interference and surveillance</li>
+<li>Shielded Twisted Pair (STP) - Bundles are enclosed in metal foil shield. Better protection but more expensive, bulkier, requires bigger bend radius</li>
+</ul>
+</li>
+<li>Coaxial Cable (coax)
+<ul>
+<li>Thick conductor surrounded by layer of insulation, then surrounded by braided grounding wire</li>
+<li>Thicker than twisted pairs, greater bandwidth, less resistance, better interference protection, more expensive</li>
+<li>Requires larger bend radius than twisted pairs</li>
+<li>Robust construction, well suited for specialised applications (eg. cable TV)</li>
+</ul>
+</li>
+<li>Fibre optics
+<ul>
+<li>Light pulses through glass/plastic fibre</li>
+<li>Paired transmitters and receivers tuned for specific frequencies</li>
+<li>Pulse-code modulation (PCM) convert electrical impulses to light pulses.</li>
+<li>Three types
+<ul>
+<li>Single mode: Small diameter with less internal reflection for long distances (up to 100km)</li>
+<li>Multimode: Larger diameter, allows less expensive LEDs, good for &lt;2000m (between buildings)</li>
+<li>Plastic optical fibre: More robust and use less expensive LEDs, limited to 100m (ideal connecting devices in cabinets)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Case Study: TalkTalk</p>
+<ul>
+<li>SQL injection attack to access database of sensitive customer information</li>
+<li>157,000 customers - names, addresses, DOB, email addresses, credit card info</li>
+<li>Investigated by Information Commissioner&rsquo;s Office, with fines/compensation</li>
+<li>Protecting Network parts
+<ul>
+<li>Exploited web app vulnerabilities</li>
+</ul>
+</li>
+<li>Protecting communication channels
+<ul>
+<li>Unauthorised access to comms channels to intercept customer data</li>
+<li>Importance of encryption, secure protocols, other protections for data in transit</li>
+</ul>
+</li>
+<li>Use of layout values in network design
+<ul>
+<li>Layout values (placement of sensitive databases) played role in attack success</li>
+<li>Consideration of network design and architecture</li>
+</ul>
+</li>
+</ul>
+<p>Case Study: Target (2013)</p>
+<ul>
+<li>Data breach of personal/financial information of millions</li>
+<li>Unauthorised access by exploiting vulnerabilities in 3rd-party HVAC vendor systems, then navigated to point-of-sale systems</li>
+<li>Importance of securing 3rd party access, network defences/segmentation</li>
+<li>Protecting Network Parts
+<ul>
+<li>Importance of securing network parts beyond org&rsquo;s immediate control</li>
+</ul>
+</li>
+<li>Protecting communication Channels
+<ul>
+<li>Unencrypted communication between central network and point-of-sale</li>
+<li>Importance of end-to-end encryption for data in transit</li>
+</ul>
+</li>
+<li>Use of layout values in network design
+<ul>
+<li>Layout values exploited to move laterally between HVAC to point-of-sale</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>This reminds me of</strong>&hellip;</p>
+<hr>
+<h1 id="other-references">Other References<a href="#other-references" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/cissp---3---security-architecture--engineering/" class="button inline prev">
+        &lt; [<span class="button__text">CISSP - 3 - Security Architecture &amp; Engineering</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/cissp---5---identity--access-management-iam/" class="button inline next">
+         [<span class="button__text">CISSP - 5 - Identity &amp; Access Management (IAM)</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

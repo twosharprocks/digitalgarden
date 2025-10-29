@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>CISSP - Misc Notes :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Related:
+The Payment Card Industry Data Security Standard (PCI-DSS) has 12 main requirements. Each requirement has additional sub-controls.
+Install and maintain a firewall configuration to protect cardholder data Do not use vendor-supplied defaults for system passwords and other security parameters Protect stored cardholder data Encrypt transmission of cardholder data across open, public networks Use and regularly update anti-virus software or programs Develop and maintain secure systems and applications Restrict access to cardholder data by business need-to-know Assign a unique ID to each person with computer access Restrict physical access to cardholder data Track and monitor all access to network resources and cardholder data Regularly test security systems and processes Maintain a policy that addresses information security for employees and contractors ==Internet Protocol Security (IPsec)== is a suite of protocols that provides protection at the network layer of the Open System Interconnection (OSI) model. IPsec is frequently used to establish a Virtual Private Network (VPN) between two routers. IPsec protects the original IP packet by encrypting or hashing the IP packet and adding a new Authentication Header (AH) or Encapsulating Security Payload (ESP) header with a new IP header.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/cissp---misc-notes/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="CISSP - Misc Notes">
+<meta property="og:description" content="Related:
+The Payment Card Industry Data Security Standard (PCI-DSS) has 12 main requirements. Each requirement has additional sub-controls.
+Install and maintain a firewall configuration to protect cardholder data Do not use vendor-supplied defaults for system passwords and other security parameters Protect stored cardholder data Encrypt transmission of cardholder data across open, public networks Use and regularly update anti-virus software or programs Develop and maintain secure systems and applications Restrict access to cardholder data by business need-to-know Assign a unique ID to each person with computer access Restrict physical access to cardholder data Track and monitor all access to network resources and cardholder data Regularly test security systems and processes Maintain a policy that addresses information security for employees and contractors ==Internet Protocol Security (IPsec)== is a suite of protocols that provides protection at the network layer of the Open System Interconnection (OSI) model. IPsec is frequently used to establish a Virtual Private Network (VPN) between two routers. IPsec protects the original IP packet by encrypting or hashing the IP packet and adding a new Authentication Header (AH) or Encapsulating Security Payload (ESP) header with a new IP header.
+" />
+<meta property="og:url" content="/posts/cissp---misc-notes/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about/">About</a></li>
+        
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about/" >About</a></li>
+        
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+        <li>
+          <ul class="menu">
+            <li class="menu__trigger">Show more&nbsp;▾</li>
+            <li>
+              <ul class="menu__dropdown">
+                
+                  
+                    <li><a href="/showcase" >Showcase</a></li>
+                  
+                
+              </ul>
+            </li>
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/cissp---misc-notes/">CISSP - Misc Notes</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cissp/">CISSP</a>&nbsp;
+      
+      #<a href="/tags/cybersecurity/">Cybersecurity</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Related:</p>
+<hr>
+<p>The <strong>Payment Card Industry Data Security Standard (PCI-DSS) has 12 main requirements</strong>. Each requirement has additional sub-controls.</p>
+<ol>
+<li>Install and maintain a firewall configuration to protect cardholder data</li>
+<li>Do not use vendor-supplied defaults for system passwords and other security parameters</li>
+<li>Protect stored cardholder data</li>
+<li>Encrypt transmission of cardholder data across open, public networks</li>
+<li>Use and regularly update anti-virus software or programs</li>
+<li>Develop and maintain secure systems and applications</li>
+<li>Restrict access to cardholder data by business need-to-know</li>
+<li>Assign a unique ID to each person with computer access</li>
+<li>Restrict physical access to cardholder data</li>
+<li>Track and monitor all access to network resources and cardholder data</li>
+<li>Regularly test security systems and processes</li>
+<li>Maintain a policy that addresses information security for employees and contractors</li>
+</ol>
+<hr>
+<p>==Internet Protocol Security (IPsec)== is a <em>suite of protocols that provides protection at the network layer</em> of the Open System Interconnection (OSI) model. IPsec is <em>frequently used to establish a Virtual Private Network (VPN) between two routers</em>. IPsec protects the original IP packet by encrypting or hashing the IP packet and adding a new Authentication Header (AH) or Encapsulating Security Payload (ESP) header with a new IP header.</p>
+<p>IPsec can be used in either AH or ESP mode:</p>
+<ul>
+<li>==Authentication Header (AH)== provides integrity of the packet through the addition of an AH header. This includes ==authentication for each packet but no encryption==.</li>
+<li>==Encapsulating Security Payload (ESP)== provides the confidentiality of the packet and adds an ESP header. This provides ==limited authentication for each packet and encryption of the original packet==.</li>
+</ul>
+<p>IKE has two modes:</p>
+<ul>
+<li>==Main Mode uses a six-way handshake== where parameters are exchanged in multiple rounds with encrypted key exchange. This is more secure than Aggressive Mode. A key exchange using a Diffie-Hellman (DH) or DH-like algorithm is always preferred over using a pre-shared key.</li>
+<li>==Aggressive Mode uses a three-way handshake== where the hashed Pre-Shared Key (PSK) is sent unencrypted.</li>
+</ul>
+<hr>
+<p>Frame relay resides in the Open System Interconnect (OSI) model&rsquo;s data link layer and uses packet-switching technology to connect different Wide Area Networking (WAN) connections together. Frame relay uses virtual circuits and Data Link Connection Identifier (DLCI) addresses to connect routers.</p>
+<p>Asynchronous Transfer Mode (ATM) is a cell-switching technology. Border Gateway Protocol (BGP) is an IP routing protocol. Fibre Channel (FC) was designed to create a local area network for the purpose of storage networks, not a WAN.</p>
+<hr>
+<p>==Content Distribution Network (CDN)==: Collection of different content that a website may display, distributed across geographical regions. A CDN allows website creators to improve performance by providing a website’s content in a geographical region closest to the client. This reduces latency and download times.</p>
+<p>Spyware is software that watches a user&rsquo;s behavior and sends that information to the creator/owner/user of the spyware. It would not open dozens of connections, just the one. Man-In-The-Middle (MITM) attacks are difficult to detect in the manner that Nadia is monitoring. The Man is in the middle of the connection, between the user and the website. There are no extra connections. Connection failures can be simple connection failures. They can occur for many different reasons, many of which have no security implications.</p>
+<hr>
+<p>Internet Protocol Security (IPSec) is known as a &ldquo;suite&rdquo; of protocols that is commonly used in many VPN configurations and regarded as a standard for security in IP networks. Also known as IP Security, IPSec comes in many forms and is used depending on what type of encryption is needed. IPSec allows for:</p>
+<ul>
+<li>Authentication headers to provide non-repudiation and integrity checks by encrypting the header</li>
+<li>Encapsulating Security Payload (ESP) to encrypt the data payload</li>
+<li>Hash-based Message Authentication Code (HMAC)</li>
+<li>IP Payload Compression (IPComp) to compress data</li>
+<li>Internet Key Exchange (IKE) to allow for secure methods of exchanging public and private data</li>
+</ul>
+<p>Transport Layer Security (TLS) is a cryptographic protocol that provides secure communication over a network. It is commonly used to establish secure connections between clients (such as web browsers) and servers (such as web servers) to ensure the confidentiality, integrity, and authenticity of data transmitted between them.</p>
+<p>Secure Shell (SSH) is a network protocol that provides a secure way to access and manage remote systems over an unsecured network. It offers encrypted communication between the client and server, ensuring confidentiality, integrity, and authentication of data transmitted over the network. SSH provides a secure and encrypted method for remote administration, file transfer, and secure tunneling, making it widely used for managing and accessing remote systems and servers.</p>
+<p>OpenVPN is an open-source Virtual Private Network (VPN) protocol and software solution that enables secure and private communication over the Internet. It provides a flexible and customizable VPN solution for establishing encrypted connections between clients and servers. It can be used to remotely access corporate networks, but it is normally used by users, not data centers for IaaS.</p>
+<hr>
+<p>The Biba model has two main rules:</p>
+<ul>
+<li>==Simple integrity== property states that a subject cannot read an object at a lower integrity level, but can read an object at a higher integrity level. Known as [ no read down] or [ read up].</li>
+<li>==Star (<code>*</code>) integrity property== states that a subject cannot write to an object at a higher integrity level, but can write to an object at a lower integrity level. Known as [ no write up] or [ write down].</li>
+</ul>
+<p>The Biba model does not include a property for view or check.</p>
+<hr>
+<p>A common auditing standard is the Statement on Standards for Attestation Engagements (SSAE-18) which provides Service Organization Control (SOC) reports.
+SOC Reports</p>
+<ul>
+<li>SOC 1: Financial for a point in time,</li>
+<li>SOC 2: Five trust principles (security, confidentiality, processing integrity, availability, and privacy) evaluated over a period of time.</li>
+<li>SOC-3: Results of SOC-2 audit written for distribution. SOC-3 report is generally much smaller &amp; just considered a seal of approval.</li>
+</ul>
+<hr>
+<p>A Redundant Array of Independent Disks (RAID) is used to group disks and provide fault tolerance or increase performance. In this scenario, Alex should choose ==RAID-0 to increase the write speed of each node== since he&rsquo;s using several servers to provide redundancy rather than implementing it at the disk level with RAID.</p>
+<ul>
+<li>==RAID-0 stripes data across multiple disks==. This increases the chance of failure, but increases the write and read speed.</li>
+<li>==RAID-1 mirrors== data across multiple disks. This decreases the usable drive space by 50% and provides some write speed benefits if multiple disks can be written at once.</li>
+<li>==RAID-3== provides fault tolerance and high data throughput by ==striping data across multiple drives and dedicating one drive to store parity information==. This does stripe, but it is not commonly used.</li>
+<li>==RAID-4== provides fault tolerance and improved performance by striping data across multiple drives, ==similar to RAID-3==. However, it performs ==block-level striping==, not bit-level.</li>
+<li>==RAID-5 stripes data across multiple disks and adds parity information==. This provides fault tolerance, but decreases write speeds.</li>
+</ul>
+<hr>
+<p>Organizations can have three types of security plans:</p>
+<ul>
+<li>==Strategic plans==: 5 years, describe overall security goals.</li>
+<li>==Tactical plans==: 1 year, describe how particular goals can be accomplished.</li>
+<li>==Operational plans==:  Extremely short duration, in-depth detail on how to accomplish strategic/tactical plans.</li>
+</ul>
+<p>Contingency plans are not one of the three types of security management plans.</p>
+<hr>
+<p>Transmission Control Protocol/Internet Protocol (TCP/IP) model</p>
+<p>The TCP/IP model is a simplified four-layer framework used to standardize and facilitate communication over the internet, consisting of the Network Access, Internet, Transport, and Application layers.</p>
+<p>OSI Layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application</p>
+<ul>
+<li>Please Do Not Throw Sausage Pizza Away</li>
+</ul>
+<hr>
+<ul>
+<li><strong>Confidential or Proprietary:</strong> Highest level of classified data that could cause exceptional damage to the organization if exposed. An organization’s trade secrets or “secret sauce” could be considered proprietary data.</li>
+<li><strong>Private:</strong> Next-highest level of classified data and shouldn’t be shared outside the organization and could cause significant damage if exposed. PII and PHI may be classified as private data.</li>
+<li><strong>Sensitive:</strong> Data that could cause damage to the organization if made public. The organization’s network layout and the devices it uses may be sensitive data.</li>
+<li><strong>Public:</strong> Data that is intended to be openly disclosed. This includes the contents of websites, social media, brochures, etc.</li>
+</ul>
+<hr>
+<p>Access Control List (ACL): Table that includes subjects and assigned privileges.</p>
+<ul>
+<li>Access control lists are bound to a specific object. When a subject attempts an action on the object, the system checks the access control list to determine if the subject has the appropriate privileges to perform the action.</li>
+</ul>
+<p>Compatibility matrix: Table that shows which systems or applications are compatible with each other.</p>
+<ul>
+<li>Maps systems/applications to other systems/applications. An access control matrix is a table that shows which subjects are granted access to which objects. Both subjects and objects are visible in the access control matrix. </li>
+</ul>
+<p>Role-based access: Assigns permissions based on a user&rsquo;s role in the organization.</p>
+<ul>
+<li>The roles are mapped to the objects and the permissions that the role is granted.</li>
+</ul>
+<hr>
+<p>Clipping level: Threshold for the number of error occurrences before it&rsquo;s considered suspicious or sets off an alarm. Now commonly called thresholds.</p>
+<hr>
+<p><em>Software audit trails</em> keep track of user activities and <em>provide accountability</em> to the user base. Audit trails are especially important for software that contains sensitive data. For instance, they are required by the Health Insurance Portability and Accountability Act (HIPAA) to audit who has access to patient data and when the data was accessed.</p>
+<hr>
+<ul>
+<li><strong>HMAC-Based One-Time Password (HOTP):</strong> HOTPs are generated using an incrementing counter. Each authentication attempt using an HOTP causes the authenticator and server to both regenerate it.</li>
+<li><strong>Time-Based One-Time Password (TOTP):</strong> TOTPs are regenerated by the authenticator and the server at regular intervals. With synchronized clocks, this ensures that both devices have the same code at the same time without needing to communicate after initial setup.</li>
+</ul>
+<hr>
+<p>Biometrics</p>
+<ul>
+<li>Retinal: Blood vessels in the retina can be affected by health conditions, may also conflict with privacy laws.</li>
+<li>Iris scans are &raquo; detailed than fingerprint or facial scan</li>
+</ul>
+<hr>
+<p>==Software Capability Maturity Model (SCMM)== is based on the principle that a <em>mature software development process will produce quality software</em></p>
+<hr>
+<p><strong>This also reminds me of</strong>&hellip;</p>
+<hr>
+<h1 id="references">References<a href="#references" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/cissp---8---software-development-security/" class="button inline prev">
+        &lt; [<span class="button__text">CISSP - 8 - Software Development Security</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/cyber-glossary/" class="button inline next">
+         [<span class="button__text">Cyber Glossary</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
