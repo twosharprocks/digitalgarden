@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>CISSP - 8 - Software Development Security :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Related:
+Learning Objectives Explain the value and use of secure coding standards, guidelines, frameworks, and architectural concepts. Differentiate between major secure coding and management methodologies to support selection of organizational software development practices. Explain the security implications of managing software development, deployment, and support, including: Security advantages of mature programming environments and tool sets, risks and benefits of code repositories and libraries, value of integrated development environments (IDEs). Contrast legacy software configuration management (CM) approaches with automated configuration tools. Identify approaches for appropriate security testing in systems development environments. Identify methods and artifacts that would support security assessment of third-party vendors, COTS and commodity systems, and orphaned systems elements. Explain the software security assessment issues that arise during organizational mergers and acquisitions. Identify and understand major causes of security issues in source code, database and data warehouse systems, and web environments. Key Topics Assess Effectiveness SDLC Secure Guidelines and Standards Security Impact of Acquired Software Software Security Controls Making Software Secure by Design, Build and Development
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/cissp---8---software-development-security/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="CISSP - 8 - Software Development Security">
+<meta property="og:description" content="Related:
+Learning Objectives Explain the value and use of secure coding standards, guidelines, frameworks, and architectural concepts. Differentiate between major secure coding and management methodologies to support selection of organizational software development practices. Explain the security implications of managing software development, deployment, and support, including: Security advantages of mature programming environments and tool sets, risks and benefits of code repositories and libraries, value of integrated development environments (IDEs). Contrast legacy software configuration management (CM) approaches with automated configuration tools. Identify approaches for appropriate security testing in systems development environments. Identify methods and artifacts that would support security assessment of third-party vendors, COTS and commodity systems, and orphaned systems elements. Explain the software security assessment issues that arise during organizational mergers and acquisitions. Identify and understand major causes of security issues in source code, database and data warehouse systems, and web environments. Key Topics Assess Effectiveness SDLC Secure Guidelines and Standards Security Impact of Acquired Software Software Security Controls Making Software Secure by Design, Build and Development
+" />
+<meta property="og:url" content="/posts/cissp---8---software-development-security/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about/">About</a></li>
+        
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about/" >About</a></li>
+        
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+        <li>
+          <ul class="menu">
+            <li class="menu__trigger">Show more&nbsp;▾</li>
+            <li>
+              <ul class="menu__dropdown">
+                
+                  
+                    <li><a href="/showcase" >Showcase</a></li>
+                  
+                
+              </ul>
+            </li>
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/cissp---8---software-development-security/">CISSP - 8 - Software Development Security</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cissp/">CISSP</a>&nbsp;
+      
+      #<a href="/tags/cybersecurity/">Cybersecurity</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Related:</p>
+<hr>
+<h4 id="learning-objectives"><strong>Learning Objectives</strong><a href="#learning-objectives" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<ul>
+<li>Explain the value and use of secure coding standards, guidelines, frameworks, and architectural concepts.</li>
+<li>Differentiate between major secure coding and management methodologies to support selection of organizational software development practices.</li>
+<li>Explain the security implications of managing software development, deployment, and support, including: Security advantages of mature programming environments and tool sets, risks and benefits of code repositories and libraries, value of integrated development environments (IDEs).</li>
+<li>Contrast legacy software configuration management (CM) approaches with automated configuration tools.</li>
+<li>Identify approaches for appropriate security testing in systems development environments.</li>
+<li>Identify methods and artifacts that would support security assessment of third-party vendors, COTS and commodity systems, and orphaned systems elements.</li>
+<li>Explain the software security assessment issues that arise during organizational mergers and acquisitions.</li>
+<li>Identify and understand major causes of security issues in source code, database and data warehouse systems, and web environments.</li>
+</ul>
+<h4 id="key-topics"><strong>Key Topics</strong><a href="#key-topics" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<ul>
+<li>Assess Effectiveness</li>
+<li>SDLC</li>
+<li>Secure Guidelines and Standards</li>
+<li>Security Impact of Acquired Software</li>
+<li>Software Security Controls</li>
+</ul>
+<hr>
+<p>Making Software Secure by Design, Build and Development</p>
+<ul>
+<li>Two scenarios: New project, or existing software products without security process</li>
+</ul>
+<p>Software Development Methodologies</p>
+<ul>
+<li>Collection of managed activities to translate end user needs for function and capability into a software system that meets those needs</li>
+<li>Security needs to be balanced against time, money and other resources</li>
+<li>Fast, Lean Development Methods:</li>
+<li>Reuse Model - built from existing and tested components, most widely used approach, often most poorly managed</li>
+<li>Spiral Method - Nested &amp; improved version of waterfall, uses 4-substaged in &ldquo;Deming Cycle&rdquo; (Plan, Do, Check, Act)</li>
+<li>Prototyping - Build simplified version of entire application, release for review, use feedback to build 2nd version</li>
+<li>Modified Prototype Model (MPM) - Refined prototyping model, application evolves with the organisation.</li>
+<li>Cleanroom - Focused on controlling/avoiding defects/bugs in software. Write code correctly the first time rather than bug hunt later</li>
+<li>Extreme Programming - Values of simplicity, communication, feedback all combined into process. Structured approach to software development, subprojects of limited &amp; defined scope using developers always in pairs. Owner needs to be involved in defining the software needs.</li>
+<li>Agile Development - Small team focused on collaborative, iterative learning, building, testing and deploying capabilities. &ldquo;Scrum&rdquo;, &ldquo;Sprint&rdquo;, &ldquo;Safe&rdquo;.</li>
+<li>Devops - Development and Operations. Plan, Code, Build, Test, Release, Deploy, Operate, Monitor (loop back to Plan).</li>
+<li>DevSecOps - As above but introduces security at every stage as part of quality assurance.</li>
+</ul>
+<p>Acceptance, Transition to Production, and Revisions and System Replacement</p>
+<ul>
+<li>Security Testing: Application meets security requirements outlined earlier, Strives to uncover design/implementation flaws that allow security policy bypass, and first phase of certification/accreditation process</li>
+<li>Test in environment which simulates production as much as possible</li>
+<li>Testing, Acceptance, Production</li>
+<li>Baselines should be tested/audited periodically</li>
+<li>Change Requests must be managed through change management</li>
+<li>Periodic application audits</li>
+</ul>
+<p>Software Defined Security (SDS)</p>
+<ul>
+<li>Difference between client-server-based model and fully cloud-based model with no on-prem architecture beyond internet presence and local access</li>
+<li>Centralised control/management for all network segments</li>
+<li>Greater shift to virtualised security, remove hardware dependencies</li>
+<li>Enables security policies to shift to on-demand, agile/adaptable</li>
+<li>Eliminate older converged protocols like MPLS through flexible overlays &amp; network sharing</li>
+<li>Make threat intelligence predictive rather than reactive (combination of machine &amp; human learning)</li>
+<li>Can act as bridge to holistic, all-source risk management/mitigation</li>
+<li>IAM is vital</li>
+<li>Entities and Users must be tracked, defined, authenticated, managed, and tracked</li>
+<li>Defense must be proactive, agile, flexible, and responsive</li>
+<li>Zero trust enables and is required by SDS solutions</li>
+</ul>
+<p>Data-Centric Vulnerabilities</p>
+<ul>
+<li>Software Threat Modelling: Performed during software design</li>
+<li>Data-centric: Brings together attack and defence side&rsquo;s information to review data of interest</li>
+<li>NIST SP 800-154</li>
+</ul>
+<p>Secure Software and System Needs for Configuration Management</p>
+<ul>
+<li>&ldquo;If you can&rsquo;t measure it, then you can&rsquo;t manage it&rdquo;</li>
+<li>Configuration Management (CM) process is to manage and control system elements and configurations over the life cycle</li>
+</ul>
+<p>Operation and Maintenance</p>
+<ul>
+<li>Testing backup and recovery procedures</li>
+<li>Ensure proper controls for data, reports, and the effectiveness of security controls and processes</li>
+<li>Periodic risk analysis and recertification of sensitive applications as required (eg. major changes, reclassifications, new software, ect)</li>
+</ul>
+<p>Testing, Verification, and Security Assessment</p>
+<ul>
+<li>Repairs, maintenance, updates for all systems need to be acceptance tested to verify functionality.</li>
+<li>Regression testing required to ensure modifications didn&rsquo;t introduce erroneous elements</li>
+</ul>
+<p>OWASP Top 10 Web App Security Risks</p>
+<ul>
+<li>2021-Broken Access Control</li>
+<li>2021-Injection</li>
+<li>2021-Security Misconfiguration</li>
+<li>2021-Identification and Authentication Failures</li>
+<li>2021-Security Logging and Monitoring Failures</li>
+<li>2021-Cryptographic Failures</li>
+<li>2021-Insecure Design</li>
+<li>2021-Vulnerable and Outdated Components</li>
+<li>2021-Software and Data Integrity Failures</li>
+<li>2021-Server Side Request Forgery</li>
+</ul>
+<p>Software Acquisition via Third-Party Development</p>
+<ul>
+<li>Contract should determine testing, timelines, ect</li>
+<li>Security needs to be built-in from the beginning</li>
+<li>CMM - Capability Maturity Models</li>
+<li>Many CMM&rsquo;s may not include security &amp; quality assurance</li>
+</ul>
+<p>Toolsets, Libraries, Repositories, and Integrated Development Environments (IDEs)</p>
+<ul>
+<li>C, C#, and C++ standard libraries</li>
+<li>Framework Class Library (FCL) for the .NET Framework</li>
+<li>Java Class Library (JCL)</li>
+<li>Ruby Standard Library</li>
+<li>Software libraries offer: Increased dependability, reduced process risk, effective use of specialists, accelerated development, standards compliance</li>
+</ul>
+<p>Continuous Integration (CI) and Continuous Delivery (CD)</p>
+<ul>
+<li>CI: Integrating code changes frequently and automatic testing</li>
+<li>CD: Extends this further by deploying (sometimes to production)</li>
+<li>CI/CD automates software development pipeline processes</li>
+<li>Faster development using CI/CD often means less security</li>
+</ul>
+<p>OWASP Maturity Models</p>
+<ul>
+<li>Software Assurance Maturity Model (SAMM)</li>
+<li>Business Functions: Governance, design, implementation, verification, and operations</li>
+</ul>
+<p>Software (Quality) Assurance</p>
+<ul>
+<li>Proper functioning of Software Systems determines the system:
+<ul>
+<li>performs all intended and required functions</li>
+<li>Does not perform other unintended or unauthorised functions</li>
+<li>Is free from security vulnerabilities</li>
+<li>Is free from and protected against insertion of errors in design, code, form, function and data at any point in the lifecycle</li>
+</ul>
+</li>
+<li>Functional Requirements: Specific thing system must do</li>
+<li>Non-functional requirements: Characteristics of overall form or attributes of behaviour</li>
+<li>Process
+<ul>
+<li>Planned and systematic set of activities, processes, or steps to gather &amp; evaluate data, and determine overall quality</li>
+<li>Confidence in software&rsquo;s ability to fulfil needs safely and securely</li>
+<li>Organised around workflows - Sets of tasks to perform, conditions that trigger workflow execution, outcome reporting, distributed &amp; used
+<ul>
+<li>Workflows
+<ul>
+<li>Cover any span of activities at any phase of lifecycle,</li>
+<li>Reflect whether software &amp; system elements are built in-house, freeware, or licenced</li>
+<li>Manage security assessment testing, operational evaluation, regression testing, and ethical pentesting</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>All assessment activities must provide effective feedback</li>
+</ul>
+</li>
+</ul>
+<p>Designing and Writing Software: Procedural vs Object-oriented Concepts</p>
+<ul>
+<li>Code Re-Use: Encourage programmers to re-use rather than reinvent software units</li>
+<li>Refactoring: Rewriting code to perform the same function but more efficiently</li>
+<li>Data Quality Standards &amp; Practices: Reduce/eliminate many vulnerabilities by imposing standardised data declarations</li>
+<li>Data Modelling: Design process to ID data elements that need input, create, store, modify, output and destroy during operation.</li>
+<li>Add/Change Functionality</li>
+<li>Security practices: Can dictate use of pre-approved software libraries</li>
+</ul>
+<p>Designing and Writing Software</p>
+<ul>
+<li>Development process ensures all user needs from the software are translated into system actions</li>
+<li>Requirements
+<ul>
+<li>Emerging Properties: Alternate way of looking at system-level behaviour</li>
+<li>Functional Requirements: Task/Process system must perform</li>
+<li>Non-Functional: Broad characteristics (many times safety, security, privacy &amp; resilience deemed non-functional by system engineers/analysts)</li>
+</ul>
+</li>
+</ul>
+<p>Vulnerabilities Across the Software Build/Use Cycle</p>
+<ul>
+<li>Time of check (ToC) or Time-of-use (ToU)</li>
+<li>Race condition vs ToS &amp; ToU</li>
+<li>Between the lines</li>
+<li>Trapdoor</li>
+<li>Backdoor</li>
+</ul>
+<p>Open-Source Software and Security Assessment</p>
+<ul>
+<li>Linus&rsquo;s law: All bugs in code become apparent with enough eyeballs looking at it</li>
+<li>&ldquo;Security by obscurity&rdquo; does not generally work</li>
+</ul>
+<p>REST-based API Security Recommendations</p>
+<ul>
+<li>Employ the same security mechanisms for APIs as you do for any other web application</li>
+<li>Do not create and implement your own security solutions (use a framework or existing library)</li>
+<li>Do not use single-key based authentication for an API unless it&rsquo;s a free, read-only public API</li>
+<li>Do not pass unencrypted static encryption keys (encrypt it if sending over HTTP)</li>
+<li>Use Hash-based authentication code (HMAC) such as SHA-2 or SHA-3 (avoid SHA-1 or MD5)</li>
+</ul>
+<p>Controls for Incomplete Parameter Checking and Enforcement</p>
+<ul>
+<li>Buffer overflow prevention
+<ul>
+<li>Enforce bounds checking</li>
+<li>Design frameworks for secure coding</li>
+<li>Use programming language that enforces strong data typing while isolating code from data</li>
+<li>Detect, intercept, and properly respond to error conditions</li>
+</ul>
+</li>
+<li>Part of proper parameter validation</li>
+<li>Websites use filters as part of access control</li>
+<li>Requests using SQL injection (#1 on 2017 OWASP Top 10)</li>
+<li>XSS (Cross-Site Scripting) (#7 of OWASP Top 10)
+<ul>
+<li>Script execution from browser</li>
+</ul>
+</li>
+</ul>
+<p>Software Assurance and Security Assessment</p>
+<ul>
+<li>Applied software risk management</li>
+<li>Planning, Security Needs, Risk Assessment, Systems/Process Quality, Risk Controls, Ongoing Assessment</li>
+</ul>
+<p>Secure Coding Guidelines and Standards</p>
+<ul>
+<li>Encourage devs to follow standard guidelines over personal preferences</li>
+<li>Address proper security requirements based on org needs</li>
+<li>Coding Standards: CERT, OWASP</li>
+</ul>
+<p>Managed Services and Security Assessment</p>
+<ul>
+<li>Managed Services: 3rd party taking over function/responsibility of business function, used under contract &amp; SLA
+<ul>
+<li>Deliver IT or info services</li>
+<li>Deal in other services with shared access to org assets, facilities, people, and info</li>
+</ul>
+</li>
+<li>Importance of Supply Chain Security</li>
+</ul>
+<p>Memory or Other Object Reuse</p>
+<ul>
+<li>Allocation and Deallocation based on memory addresses</li>
+<li>Memory Leak: Content being left behind &amp; read by the next process</li>
+<li>All systems should ensure content of any memory are randomised, zeroed, or overwritten before reallocation
+<ul>
+<li>Risk of unprotected paging/swap files</li>
+</ul>
+</li>
+</ul>
+<p>IDE&rsquo;s Program Execution, and the Runtime Environment</p>
+<ul>
+<li>Runtime System: Collection of all hardware/software components that allow an application to run on a system</li>
+<li>Type-checking, Java Runtime-Environment (JRE)</li>
+</ul>
+<p>Toolsets, Libraries, Repositories, and Integrated Development Environments (IDEs): Programming Tools and Toolsets</p>
+<ul>
+<li>Tools: Binary compatibility, Bug Database, Build tools, code coverage, debuggers, doc generators, source code editors/generators, static code analysis, Unit testing tools</li>
+</ul>
+<p>Project Initiation &amp; Planning, Functional Requirements, System Design Specs, and Development &amp; Implementation</p>
+<ul>
+<li>1 - Project Initiation &amp; Planning
+<ul>
+<li>Project justification - Objectives, scope</li>
+<li>Establish user requirements (determine security requirements), Identify alternatives (conduct risk analysis), Select/Approve Approach (Define security strategy)</li>
+<li>Future needs - Security needs</li>
+</ul>
+</li>
+<li>2 - Functional Requirements - Identify security areas</li>
+<li>3 - Design specs - System architecture, inputs/outputs/data flow, security test plans &amp; baselines</li>
+<li>4 - Development &amp; Implementation - Develop security code, Evaluated Security Code, Document Security Code
+<ul>
+<li>Code review is vital and takes time</li>
+</ul>
+</li>
+</ul>
+<p>Limit Reuse to Trusted Libraries</p>
+<ul>
+<li>Generally tweaking and code reuse rather than whole new scripts</li>
+<li>Teams need to set firm limits for code reuse</li>
+<li>Change Management for changes/additions to code libraries</li>
+</ul>
+<p>Object-Oriented Technology and Programming (OOP)</p>
+<ul>
+<li>Centered on &ldquo;objects&rdquo; rather than actions</li>
+<li>Traditional is input, processing, output</li>
+<li>Object-oriented focuses on objects we want to manipulate rather than logic required to manipulate it</li>
+<li>Data Modelling
+<ul>
+<li>Object is a block of preassembled programming code in a self-contained module</li>
+</ul>
+</li>
+<li>Languages: Java, Python, C++, C#, Ruby, Curl, Smalltalk, Delphi, Eiffel</li>
+</ul>
+<p>Development and Implementation</p>
+<ul>
+<li>Controls coded into a system might be data validation, logging and monitoring, version control</li>
+<li>Might also include testing and integrity controls for program &amp; application, operating instructions &amp; procedures, utilities, privileged functions, Job and system documentation, components (hardware/software/files/databases/reports/users), restart &amp; recovery, syntax, timestamps, before &amp; after images, internal checks, parameter ranges &amp; data types, valid and legal address, completion codes, peer code review.</li>
+</ul>
+<p>Buffer Overflow</p>
+<ul>
+<li>Can be created/exploited in wide variety of ways</li>
+<li>Exists when buffer experiences more data than it can handle
+<ul>
+<li>System writes excess to system memory</li>
+</ul>
+</li>
+<li>Highly dependent on app&rsquo;s runtime environment
+<ul>
+<li>Attack allows new instructions to be executed from system memory</li>
+</ul>
+</li>
+</ul>
+<p>Security of Code Repositories</p>
+<ul>
+<li>Ensure safely of application code during development, in use, and at rest</li>
+<li>Protection of code repositories needs to be managed the same as any other asset</li>
+</ul>
+<p>Software Assurance During Acquisition</p>
+<ul>
+<li>Planning: Initial ID of possible need
+<ul>
+<li>Security involves: statements of need, sizing/scoping/estimates, risk assessment completed, alternates, Return on Investment (ROI), software requirements into Statement of work (SOW), deliverables, acquisition strategy, bid evaluation criteria</li>
+</ul>
+</li>
+<li>Contracting: Seek competent, qualified suppliers
+<ul>
+<li>Security involves: Request for proposal with statement of work, Evaluating supplier proposals, software risk mitigation</li>
+</ul>
+</li>
+<li>Monitoring, Acceptance and Deployment Phase
+<ul>
+<li>Establishing and consenting to contract schedule</li>
+<li>Implementing change/config control procedures</li>
+<li>Reviewing and accepting software deliverables</li>
+</ul>
+</li>
+<li>Ongoing Use and Support
+<ul>
+<li>Sustainment - risk management, assurance, change management</li>
+<li>Disposal/Decommissioning</li>
+</ul>
+</li>
+</ul>
+<p>Strong Data Typing and Structure Enforcement by Programming Language</p>
+<ul>
+<li>&ldquo;Strongly typed&rdquo; language vs &ldquo;Weakly typed&rdquo;</li>
+<li>Arrays stay in bounds, control/restrict pointers</li>
+<li>Type-checking</li>
+<li>Memory access through pointers is main cause for weaknesses/exploits in C or C++</li>
+<li>Java does &ldquo;Static type checking&rdquo; to examine arguments &amp; check of correct type</li>
+</ul>
+<p>Mergers and Acquisitions: Special Issues Regarding Software, Databases, and System Security Assessment</p>
+<ul>
+<li>Difference in config management, baseline ID and control of IT/Info assets</li>
+<li>Missing asset/risk inventories, risk mitigations, control strategies, plans/processes</li>
+<li>New organisation may bring significant existing security vulnerabilities</li>
+<li>Security inventory often low priority, with pressure to contain costs after acquisition</li>
+</ul>
+<p>Other Common Software Attack Vectors</p>
+<ul>
+<li>Between-the-lines: Authorised user is tapped into data falsely inserted. Prevented by physically securing telecommunication lines</li>
+<li>Trapdoor/Backdoor: Hidden mechanism to bypass access control measures (often called a &ldquo;maintenance hook&rdquo;)</li>
+<li>Social Engineering: Deception/intimidation to influence/guide/persuade someone in organisation to provide information to someone who should not have it.</li>
+</ul>
+<p>Maturity Models for Secure Software Development</p>
+<ul>
+<li>SW-CMM - SEI&rsquo;s &ldquo;Capability Maturity Model&rdquo;</li>
+<li>5 levels
+<ul>
+<li>Initial - unpredictable, poorly controlled</li>
+<li>Repeatable - More organised, often reactive</li>
+<li>Defined - Well-characterised processes, proactive</li>
+<li>Managed - Controlled with quantitative techniques</li>
+<li>Optimising - Continually improved</li>
+</ul>
+</li>
+</ul>
+<p>Regression Testing, Security Assessment Testing, and Testing and Evaluation of Controls</p>
+<ul>
+<li>Regression Testing: Testing changes/updates to existing software</li>
+<li>Security Assessment Testing: Ethical pentesting to demo present, in-situ system security state</li>
+<li>Control Testing/Evaluation: Carefully select test scenarios
+<ul>
+<li>Good Test Data: Data validation, bounds checking, Sanitised test data, clear segregation between testing &amp; production</li>
+</ul>
+</li>
+</ul>
+<p>Polyinstantiation</p>
+<ul>
+<li>Object-oriented programming (OOP)
+<ul>
+<li>Prevent inference possibilities (deduce sensitive info by observing authorised info)</li>
+<li>Allows different versions of same info depending on classification</li>
+</ul>
+</li>
+<li>In OOP, all defined ranges and data values referred to as objects</li>
+<li>Steps in OOP
+<ul>
+<li>Objects: Data modelling, Classified as class of objects, defined as data kind contained, assigned logic sequence that can manipulate object</li>
+<li>Method: Each distinct logic sequence, provides computer instructions</li>
+<li>Object: Real instance of a class, class object characteristics provide relevant data</li>
+<li>Messages: Comms between objects</li>
+</ul>
+</li>
+<li>OOP programs use and reuse code blocks (objects)
+<ul>
+<li>Boosts security by using well-defined security objects</li>
+</ul>
+</li>
+</ul>
+<p>Acceptance Testing</p>
+<ul>
+<li>Formal test to determine if the system satisfies acceptance criteria (originally called &ldquo;functional testing&rdquo;)</li>
+</ul>
+<p>Security of Application Programming Interfaces (APIs)</p>
+<ul>
+<li>Automation connectors using exposed digital assets</li>
+<li>Granular control of target hardware/applications with code snippets</li>
+<li>IoT requires APIs for inter-device communication</li>
+<li>Data governance: security framework for structured/controlled development/deployment of APIs</li>
+</ul>
+<p>Dynamic and Static Analysis</p>
+<ul>
+<li>DAST - Dynamic Application Security Testing.
+<ul>
+<li>Simulates attacks against applications like web-apps, services, APIs to determine if vulnerable</li>
+<li>Hybrid, concolic, symbolic, and simulated execution methods</li>
+<li>Dynamic analysis generally associated with binary analysis</li>
+<li>Specialised Application Testing</li>
+<li>Dynamic Binary Analysis</li>
+<li>Dynamic Source Analysis</li>
+</ul>
+</li>
+<li>SAST - Static Application Security Testing
+<ul>
+<li>Typically at programming/testing life cycle phases</li>
+<li>Finding hardcoded passwords/secrets</li>
+<li>Static Binary Analysis - programmatic weakness in executable code, generally with subject matter expert</li>
+<li>Static Source Analysis - Sometimes use tools</li>
+</ul>
+</li>
+</ul>
+<p>IDEs: Tools, Libraries and Repositories</p>
+<ul>
+<li>IDEs: Integrated Development Environments
+<ul>
+<li>For OOP: class browser, class hierarcy diagrams, object inspector</li>
+</ul>
+</li>
+</ul>
+<p>Programming Language Generations</p>
+<ul>
+<li>Generation 1: machine languages (binary/hex), operating codes (opcodes), object code used by computer itself. Generally simple instructions to CPU &amp; coded in binary or object code
+<ul>
+<li>Rarely used except for malware reverse engineering or malware exploiting memory/storage violations</li>
+</ul>
+</li>
+<li>Generation 2: Assembly language.
+<ul>
+<li>Often used for security-sensitive functions within operating system kernels, device drivers, other critical functions.</li>
+</ul>
+</li>
+<li>Generation 3: High-order languages, use meaningful words to give commands.
+<ul>
+<li>COBOL, FORTRAN, BASIC, Java, and C</li>
+</ul>
+</li>
+<li>Generation 4: Very high level languages, report &amp; application generators</li>
+<li>Generation 5: Natural Language interfaces, aka constraint-based or logic programming
+<ul>
+<li>Largely fallen from use outside of limited academia/research</li>
+</ul>
+</li>
+</ul>
+<p>Standard Libraries, Other Libraries, and Software Reuse</p>
+<ul>
+<li>Standard library: Available across implementation of programming language. Include definitions for common algorithms, data structures, mechanisms that can be reused</li>
+<li>Poor code inspection that inherits risk</li>
+</ul>
+<p>Designing &amp; Writing Software: Procedural vs Object-Oriented Concepts</p>
+<ul>
+<li>Process-driven: Executable, Nested, different instances run independent of each other, encapsulate data/knowledge/logic/procedures, Use variety of instructions</li>
+<li>Also called jobs, tasks, duties, ect.</li>
+<li>Procedural thinking: Step-by-step tasks</li>
+<li>Object-oriented thinking: Ideas, steps, data, logic bundled into logical whole</li>
+</ul>
+<p>Common Exploitable Software Source Code Errors</p>
+<ul>
+<li>Experience at Writing/Reading Source Code will help confirm it:
+<ul>
+<li>performs correctly,</li>
+<li>does not replicate/contain errors,</li>
+<li>does not allow other functions,</li>
+<li>runs efficiently,</li>
+<li>meets/exceeds security requirements</li>
+</ul>
+</li>
+</ul>
+<p>Orphaned Software and System Security Assessment</p>
+<ul>
+<li>End of support, cost of OS-dependent software</li>
+<li>Legacy - Supported in-house or 3rd party (open to remediation)</li>
+<li>Orphaned - Unsupportable (replace or abandon)
+<ul>
+<li>Refactoring of business process</li>
+</ul>
+</li>
+</ul>
+<p>Auditing and Logging of Changes</p>
+<ul>
+<li>Configuration Identification (CIs) - Determines baseline
+<ul>
+<li>4 categories: hardware, software, interfaces, documentation</li>
+</ul>
+</li>
+<li>Configuration Management (CM)</li>
+<li>Configuration Control (CC) - All baseline changes done with knowledge/evaluation/consent of management</li>
+<li>Configuration Status Accounting - Recording/reporting configuration item descriptions, and changes made since baseline established</li>
+<li>Configuration Audit - Internal audit of artifacts &amp; activities</li>
+</ul>
+<p>Software Assurance Policy</p>
+<ul>
+<li>Documented, well-written, and well shared</li>
+<li>Avoiding deployment of malicious or vulnerable software</li>
+</ul>
+<p>Advanced Persistent Threat and Insider Threat</p>
+<ul>
+<li>APT: Establish and extend presence in info tech infrastructure to continually exfiltrate information and undermine/impede critical aspects of organisation. Adapts and resists defender efforts to stop it.</li>
+<li>Insider Threat: Ignorance and negligence (over malicious action) are major causes of security breaches and incidents</li>
+</ul>
+<p>Object-Oriented Programming (OOP)</p>
+<ul>
+<li>Characteristics: Encapsulation (data hiding), Inheritance (subclasses that share characteristics), Polymorphism (object changes do not have to ripple out to every program using it), different data types (ensure secure methods remain through changing characteristics)</li>
+</ul>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/cissp---7---security-operations/" class="button inline prev">
+        &lt; [<span class="button__text">CISSP - 7 - Security Operations Security</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/cissp---misc-notes/" class="button inline next">
+         [<span class="button__text">CISSP - Misc Notes</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

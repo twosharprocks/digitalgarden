@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Source on Digital Garden</title>
+    <link>/tags/source/</link>
+    <description>Recent content in Source on Digital Garden</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="/tags/source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Applying Cousteau&#39;s Approach to Modern Cave Exploration - ChatGPT</title>
+      <link>/posts/applying-cousteaus-approach-to-modern-cave-exploration----chatgpt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/applying-cousteaus-approach-to-modern-cave-exploration----chatgpt/</guid>
+      <description>&lt;p&gt;Related: &lt;a href=&#34;/posts/allendale-east-cave--soggy-wombats/&#34;&gt;Exploration&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;applying-cousteaus-approach-to-modern-cave-exploration&#34;&gt;Applying Cousteau&amp;rsquo;s Approach to Modern Cave Exploration&lt;/h1&gt;&#xA;&lt;p&gt;Jacques Cousteau&amp;rsquo;s success in popularizing oceanography can be attributed to several key factors:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Television and Documentary Filmmaking&lt;/strong&gt;: Cousteau&amp;rsquo;s groundbreaking documentary series &lt;em&gt;The Undersea World of Jacques Cousteau&lt;/em&gt; introduced millions of viewers to the beauty and mystery of the ocean. By bringing underwater exploration into living rooms through the medium of TV, he captured the public’s imagination. His ability to communicate science in an accessible and captivating way, often combining stunning visuals with storytelling, made oceanography feel more relatable.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Burning Down Cities</title>
+      <link>/posts/notes---burning-down-cities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/notes---burning-down-cities/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Target System&lt;/em&gt;: IoT/IIoT device C2 via next-gen smart meteres with customer-facing wifi&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Other pathways: Smart inverters &amp;amp; utility scale battery storage&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;The Attack&lt;/em&gt;&#xA;Utilise known vulnerability to cause catastrophic failure &amp;amp; fire&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Requires &amp;lt;5% success rate&#xA;&lt;img src=&#34;/images/Pasted%20image%2020250426144202.png&#34; alt=&#34;Pasted Image 20250426144202&#34;&gt;&#xA;Foreign actors buying up 3rd party generation with direct connection to FEPS&#xA;Legacy systems and lack of patching are the issue here&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Centralised control is the heart of the attack&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Near future: control system which can communicate to all IoT systems in a house&lt;/li&gt;&#xA;&lt;li&gt;Near future: Edge computing on the side of people&amp;rsquo;s houses with direct &amp;amp; unrestricted connection to the internet&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Devices&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cave Diving Potential SA - ChatGPT</title>
+      <link>/posts/cave-diving-potential-sa---chatgpt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/cave-diving-potential-sa---chatgpt/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;Based on an expert speleological assessment of geological data, karst potential, groundwater recharge, and regional geology, the following &lt;strong&gt;specific target areas&lt;/strong&gt; within ~400 km of Adelaide show notable potential for freshwater cave exploration, particularly suitable for cave diving:&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;1-southern-yorke-peninsula-innes-national-park-and-surrounds&#34;&gt;1. &lt;strong&gt;Southern Yorke Peninsula (Innes National Park and Surrounds)&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Geological context:&lt;/strong&gt;&lt;br&gt;&#xA;The Bridgewater Formation here includes coastal limestone dune systems. Potential exists for freshwater lenses over seawater creating submerged cave systems.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Exploration target coordinates:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ChatGPT - Models &amp; Limits</title>
+      <link>/posts/chatgpt---models--limits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/chatgpt---models--limits/</guid>
+      <description>&lt;p&gt;Related:&lt;/p&gt;&#xA;&lt;h1 id=&#34;models&#34;&gt;Models&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;GPT-4o -&lt;/strong&gt; &lt;strong&gt;Excels at everyday tasks&lt;/strong&gt;: Omni model for real-time, multimodal reasoning in everyday workflows.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Brainstorming, summarizing, emails, and creative content.&lt;/li&gt;&#xA;&lt;li&gt;Fully multimodal: supports almost all capabilities (GPTs, data analysis, search, image generation, canvas, advanced voice) and inputs (documents, images, CSV files, and audio).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Example Prompts&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Summarize meeting notes into key action items.&lt;/li&gt;&#xA;&lt;li&gt;Draft a follow-up email after a project kickoff.&lt;/li&gt;&#xA;&lt;li&gt;Proof read my report.&lt;/li&gt;&#xA;&lt;li&gt;Brainstorm a launch plan in real time—feel free to upload sketches or screenshots.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;GPT-4.1&lt;/strong&gt; – &lt;strong&gt;Precise coding and instruction-following&lt;/strong&gt;: Specialized for code and precise instruction-following.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Diving - Reading</title>
+      <link>/posts/diving---reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/diving---reading/</guid>
+      <description>&lt;p&gt;General&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://nsscds.org/uws/&#34;&gt;NSS-CDS Underwater Speleology Magazine&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://shearwater.com/pages/rebreather&#34;&gt;Shearwater CCR Library&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Planning&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.cavedivers.com.au/rebreather-gas-management-vs-the-rule-of-thirds&#34;&gt;Rebreather Rule of Thirds&lt;/a&gt; (JDZ)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.divegainesville.org/cave-dpv-dive-planning/&#34;&gt;Cave DPV Planning&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.tdisdi.com/tdi-diver-news/an-updated-approach-to-bailout-planning/&#34;&gt;Bailout Planning&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.baue.org/procedures/standardmixes.php&#34;&gt;GUE Standard Gases&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Psychology&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.tdisdi.com/tdi-diver-news/slow-down-young-fella-attitudes-in-technical-diving/&#34;&gt;“Slow Down Young Fella”&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dtmag.com/thelibrary/cave-diving-overhead-environment/&#34;&gt;Lessons From Overhead&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.protecblog.com/641/psychological-adjustment-and-stress-control/&#34;&gt;Cave Stress Control&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Decompression Theory&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.diverite.com/articles/gradient-factors/&#34;&gt;Dive Rite - Gradient Factors Explainer&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.shearwater.com/monthly-blog-posts/eliminating-helium-penalty/&#34;&gt;Eliminating the Helium Penalty&lt;/a&gt; &amp;amp; Heliox vs Trimix&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Same total deco time, but less deep stops &amp;amp; more time in shallows&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gue.com/blog/gradient-factors-in-a-post-deep-stops-world/&#34;&gt;Avoiding Deep Stops&lt;/a&gt; - Doolette (GFLow = 83% of GFHigh) [eg. 60/85 or 50/70]&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://alertdiver.eu/en_US/articles/it-s-the-metabolism-stupid-a-new-model-for-bubble-formation?fbclid=IwAR3fzHqnAMG0Gxa0u3hd-K7puzcPoLO-SoRMZKPlqR-I8g4VjiSAGnxvjAE&#34;&gt;Metabolism-Based Bubble Model&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Super Deep&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

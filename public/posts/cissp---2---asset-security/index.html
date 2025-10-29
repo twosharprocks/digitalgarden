@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>CISSP - 2 - Asset Security :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" Information Asset Security Learning Objectives Identify, classify, and categorize information assets. Explain the importance of treating information as an asset. Differentiate the IT asset management lifecycle from the data security lifecycle.​ Relate the data states of in use, in transit, and at rest to the data lifecycle.​ Relate the different roles that people and organizations have with respect to data.​ Describe the different security control types and categories. ​ Explain the use of data security standards and baselines to meet organizational compliance requirements. Key Topics Provision Information &amp; Assets Securely Information &amp; Asset Handling Manage Data Life Cycle Appropriate Asset Retention Data Security Controls &amp; Compliance The IT Asset Management Life Cycle
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/cissp---2---asset-security/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="CISSP - 2 - Asset Security">
+<meta property="og:description" content=" Information Asset Security Learning Objectives Identify, classify, and categorize information assets. Explain the importance of treating information as an asset. Differentiate the IT asset management lifecycle from the data security lifecycle.​ Relate the data states of in use, in transit, and at rest to the data lifecycle.​ Relate the different roles that people and organizations have with respect to data.​ Describe the different security control types and categories. ​ Explain the use of data security standards and baselines to meet organizational compliance requirements. Key Topics Provision Information &amp; Assets Securely Information &amp; Asset Handling Manage Data Life Cycle Appropriate Asset Retention Data Security Controls &amp; Compliance The IT Asset Management Life Cycle
+" />
+<meta property="og:url" content="/posts/cissp---2---asset-security/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about/">About</a></li>
+        
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about/" >About</a></li>
+        
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+        <li>
+          <ul class="menu">
+            <li class="menu__trigger">Show more&nbsp;▾</li>
+            <li>
+              <ul class="menu__dropdown">
+                
+                  
+                    <li><a href="/showcase" >Showcase</a></li>
+                  
+                
+              </ul>
+            </li>
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/cissp---2---asset-security/">CISSP - 2 - Asset Security</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cissp/">CISSP</a>&nbsp;
+      
+      #<a href="/tags/cybersecurity/">Cybersecurity</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <hr>
+<h1 id="information-asset-security">Information Asset Security<a href="#information-asset-security" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h4 id="learning-objectives"><strong>Learning Objectives</strong><a href="#learning-objectives" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<ul>
+<li>Identify, classify, and categorize information assets.  </li>
+<li>Explain the importance of treating information as an asset.</li>
+<li>Differentiate the IT asset management lifecycle from the data security lifecycle.​</li>
+<li>Relate the data states of in use, in transit, and at rest to the data lifecycle.​</li>
+<li>Relate the different roles that people and organizations have with respect to data.​</li>
+<li>Describe the different security control types and categories. ​</li>
+<li>Explain the use of data security standards and baselines to meet organizational compliance requirements.</li>
+</ul>
+<h4 id="key-topics"><strong>Key Topics</strong><a href="#key-topics" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<ul>
+<li>Provision Information &amp; Assets Securely</li>
+<li>Information &amp; Asset Handling</li>
+<li>Manage Data Life Cycle</li>
+<li>Appropriate Asset Retention</li>
+<li>Data Security Controls &amp; Compliance</li>
+</ul>
+<hr>
+<p>The IT Asset Management Life Cycle</p>
+<ul>
+<li>Resources: Materials + Supplies -&gt; Assets -&gt; Outcomes</li>
+<li>Assets remain with the organisation
+<ul>
+<li>Tangible assets are physical things/infrastructure (storage array or subsystem, processors running software)</li>
+<li>Intangible assets is not physical (data in databases, software running the database, procedural knowledge)</li>
+</ul>
+</li>
+<li>Planning
+<ul>
+<li>Establish alignment of assets with goals/objectives
+<ul>
+<li>Identify the IT asset</li>
+<li>Total asset valuation to determine: Costs, Anticipated revenue, Competitive, Harm</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Acquiring the asset
+<ul>
+<li>Confidence that security considerations for design and use have been identified</li>
+<li>Combination of
+<ul>
+<li>In-house development</li>
+<li>Third-party development</li>
+<li>Purchase or licencing of commercial systems elements</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Deployment: Training end users and support personnel on security</li>
+<li>Managing: Ongoing security assessment</li>
+<li>Retirement: Disposal and destruction, defensive briefing</li>
+</ul>
+<p>Data destruction in Cloud Environments</p>
+<ul>
+<li>Challenge in certifying the destruction of the data</li>
+<li>PaaS as a solution</li>
+</ul>
+<p>Information and Asset Ownership</p>
+<ul>
+<li>Information owner: person or org unit with primary responsibility for setting the required infosec &amp; quality guidelines, policies, or asset requirements. Not always the one who created information, but they are accountable for it&rsquo;s creation and use.</li>
+</ul>
+<p>Classification and Categorisation</p>
+<ul>
+<li>Inventory -&gt; Determine/assign ownership -&gt; value determination -&gt; asset classification -&gt; Protection determination</li>
+<li>Classification: Grouping sets of data/information/knowledge with comparable sensitivity</li>
+</ul>
+<p>Case Study: Solarwinds</p>
+<ul>
+<li>Compromised software development process - injecting malicious code into software updates which provided access to customer environments</li>
+<li>Highlighted gaps in managing security requirements, especially software supply chain integrity
+<ul>
+<li>Failed to validate/verify source code</li>
+</ul>
+</li>
+<li>Breach allowed unauthorised access to sensitive systems and data. Tighter access controls and principles of least privilege would have mitigated impact</li>
+<li>Incident jeopardised privacy by exposing sensitive data. Improived encryption and stronger anonymisation would have enhanced privacy</li>
+<li>Raised concerns about retention of compromised assets and catagorisation and possession of controls.</li>
+</ul>
+<p>Establishing Information and Asset handling Requirements</p>
+<ul>
+<li>Media that stores data require physical &amp; logical controls</li>
+<li>Media marking: Policies should be in place based on classification
+<ul>
+<li>Physical label identifying sensitive info
+<ul>
+<li>Label should indicate if data is encrypted</li>
+<li>Retention period &amp; Point of Contact</li>
+<li>If found without label, marked for highest possible until otherwise identified</li>
+</ul>
+</li>
+<li>Only designated personnel should have access</li>
+<li>Individuals responsible should be properly trained</li>
+<li>Logs and records kept to track handling of backup media</li>
+</ul>
+</li>
+</ul>
+<p>End of Life and End of Life Support</p>
+<ul>
+<li>Organisation&rsquo;s long term information security and retention policies may need to consider what happens to their data when the hardware/software/services support that data lose support</li>
+</ul>
+<p>Data Security Life Cycle</p>
+<ul>
+<li>Creating: Generation or acquisition of new content. Classification is important.</li>
+<li>Storing: Committing the data to a storage media. Protection in accordance with classification</li>
+<li>Using: Accessed, viewed, processed or used. Requires data by unencrypted, with controls (DLP, DRM, access) in place to protect data</li>
+<li>Sharing: Shared with users, customers, partners third parties</li>
+<li>Archiving: Data leaving active use, long term storage.</li>
+<li>Disposing: Must consider data&rsquo;s classification level</li>
+</ul>
+<p>Case Study: Facebook and Cambridge Analytica</p>
+<ul>
+<li>Unauthorised access and exploitation of personal data from ~87 million Facebook users</li>
+<li>Third-party app &ldquo;This is Your Digital Life&rdquo; - Cambridge Analytica used harvested data to produce psychological profiles to influence political opinions/behaviours.</li>
+<li>Criticism of Facebook for inadequate data protection, failure to ensure 3rd party adhered to it&rsquo;s policies.</li>
+<li>Lapses in user data management policies leading to improper access without user consent</li>
+<li>Cambridge Analytica exploited loopholes in Facebook&rsquo;s platform to access/collect data beyond intended restrictions</li>
+<li>Misuse of user data without their knowledge</li>
+<li>Improper retention of data by third-parties</li>
+<li>Unauthorised categorisation and possession of vast user data</li>
+<li>Facebook could have implemented stricter vetting for 3rd party apps, as well as audits of app compliance</li>
+<li>Facebook could have enforced principle of least privilege and granular controls</li>
+<li>Facebook did not effectively monitor or control how user data was used by 3rd-party apps</li>
+<li>Facebook should have implemented a rigorous data life cycle management process</li>
+</ul>
+<p>Data Location</p>
+<ul>
+<li>Map out local and global requirements for data storage</li>
+<li>Who has access?</li>
+<li>What are the potential locations for the data?</li>
+<li>Where are the user&rsquo;s coming from (which locations, trusted or untrusted?)</li>
+<li>What controls are in place for each location?</li>
+<li>Which lifecycle phases will allow data to move between locations?</li>
+<li>How does data move?</li>
+</ul>
+<p>Role of a Data Custodian</p>
+<ul>
+<li>Custody of assets that do NOT belong to them</li>
+<li>Responsibility to protect data while in custody according to policies, standards, procedures, baselines, and guidelines
+<ul>
+<li>Adhere to data policies/standards</li>
+<li>Ensure appropriate user access and levels of security</li>
+<li>Data integrity, storage, and archiving</li>
+</ul>
+</li>
+<li>Should be supported/advised by security function</li>
+</ul>
+<p>Data States</p>
+<ul>
+<li>Three basic states
+<ul>
+<li>Data at rest
+<ul>
+<li>Stored on media in any type or form. Not transmitted/processed</li>
+<li>Easiest phase to protect: Identify all repositories, ensure secure access, define data protection, backups made to ensure availability</li>
+</ul>
+</li>
+<li>Data in transit
+<ul>
+<li>Currently travelling/moving</li>
+<li>Risk of interception, resulting in integrity-loss and deception</li>
+<li>Data-in-motion can be encrypted at data-level, network-level, or both</li>
+</ul>
+</li>
+<li>Data in Use
+<ul>
+<li>Being processed by applications or processes</li>
+<li>Being generated, updated, appended, or erased (or being viewed)</li>
+<li>In plain text - most vulnerable state, but still have controls such as DLP, DRM, and access controls</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Data Management: Roles and Responsibilities</p>
+<ul>
+<li>Objectives
+<ul>
+<li>Clearly define roles associated with functions</li>
+<li>Establish data ownership at all phases</li>
+<li>Instil data accountability</li>
+<li>Continuously maintain adequate and agreed upon data quality and metadata metrics</li>
+</ul>
+</li>
+<li>Data Owner
+<ul>
+<li>Accountable for data collected/created</li>
+<li>Best positioned to understand data&rsquo;s value</li>
+<li>Individual/group Accountable for protecting it based on value</li>
+<li>Responsible for:
+<ul>
+<li>Determining impact data has to organisation&rsquo;s mission</li>
+<li>Understanding replacement cost</li>
+<li>Knowing when information is no longer needed</li>
+</ul>
+</li>
+<li>Examples of Documentation
+<ul>
+<li>Ownership, intellectual property rights, and copyright of data</li>
+<li>Obligations to ensure data meets compliance requirements</li>
+<li>Data protection expectations and responsibilities delegated to data custodians and others</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>Data Collection</p>
+<ul>
+<li>Collection: First step in data life cycle - Creation/acquisition</li>
+<li>Important to appoint data owners and assign classification so security controls can be implemented as early as possible</li>
+</ul>
+<p>Data Maintenance</p>
+<ul>
+<li>Maintaining confidentiality, integrity, and availability</li>
+<li>Data-at-rest, Data-in-transit, data-in-use</li>
+</ul>
+<p>Data Retention (Record retention)</p>
+<ul>
+<li>How long to keep data/assets, and when to destroy</li>
+<li>Driven by compliance or corporate requirements</li>
+<li>Retention Requirements
+<ul>
+<li>Understand where data exists
+<ul>
+<li>Need to know where it resides in order to retain/archive</li>
+<li>Need to know how different pieces of data relate to one another across the enterprise</li>
+</ul>
+</li>
+<li>Classify and Define Data
+<ul>
+<li>Define what data needs to be archived and for how long based on laws, regulations, and corporate requirements</li>
+</ul>
+</li>
+<li>Archive and Manage Data
+<ul>
+<li>Based on business access needs, defined by policy while allowing timely, authorised access</li>
+</ul>
+</li>
+<li>Data Retention Strategy
+<ul>
+<li>Must involve most important stakeholders in the process to align organisational goals/objectives with legal requirements</li>
+<li>Define clear lines of accountability</li>
+<li>Establish common objectives for supporting data retention best practices</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Data Remanence</p>
+<ul>
+<li>Residual data remaining on some sort of media after deletion/erasure</li>
+<li>Dependent on the security of the data that was stored on the media - if it&rsquo;s important and possible to recover, then most secure sanitization is required</li>
+</ul>
+<p>Data Destruction for SSDs</p>
+<ul>
+<li>&ldquo;Flash memory&rdquo; cannot be overwritten</li>
+<li>SSD Manufacturers include built-in sanitization commands to internally erase data (issues if the commands aren&rsquo;t configured correctly)</li>
+<li>Cryptographic Erasure (Crypto-erase)
+<ul>
+<li>Erasing the encryption key makes the data unreadable</li>
+</ul>
+</li>
+<li>Require specialist erasure techniques to avoid data remanence
+<ul>
+<li>Combine overwriting, crypto-erase, and sanitization</li>
+</ul>
+</li>
+</ul>
+<p>Generally Accepted Principles</p>
+<ul>
+<li>Information System Security Objectives
+<ul>
+<li>Confidentiality, Integrity, Availability</li>
+</ul>
+</li>
+<li>External Systems are Assumed to be Unsecure
+<ul>
+<li>If it&rsquo;s not under your control, it&rsquo;s not secure</li>
+</ul>
+</li>
+<li>Auditability and Accountability
+<ul>
+<li>Auditability: Ability to verify activities in a system (audit trails, systems logs, alarms, notifications)</li>
+<li>Accountability: Ability to audit the actions of all parties/processes that interact with a system (clearly defined roles &amp; responsibilities with authorised sensitivity level)</li>
+</ul>
+</li>
+<li>Prevent, Detect, Respond, Recover
+<ul>
+<li>Preventive measures avoid/deter undesirable event</li>
+<li>Detective measures identify occurrence of an undesireable event</li>
+<li>Response measures contain the damage of an undesirable event</li>
+<li>Recovery measures restore confidentiality, integrity, and availability of information systems to their expected state.</li>
+</ul>
+</li>
+<li>Resilience for Critical Information Systems
+<ul>
+<li>All critical information systems need to be resilient to major disruptive events</li>
+</ul>
+</li>
+<li>Protection of Information in use, in transit, and at rest
+<ul>
+<li>Security should be considered and implemented based on sensitivity when data is in use (processed), in transit (moving), or at rest (storage)</li>
+</ul>
+</li>
+</ul>
+<p>Standards Selection (Frameworks)</p>
+<ul>
+<li>PCI-DSS, ISO27001, GDPR, NIST-800</li>
+<li>NIST, ENISA, ITU, ISO</li>
+</ul>
+<p>Baseline (USGCB) and Baseline Security System ISKE</p>
+<ul>
+<li>United States Government Configuration Baseline (USCGB)
+<ul>
+<li>Federal government-wide guidance to agencies on security configuration setting</li>
+</ul>
+</li>
+<li>Estonian Information System’s Authority IT Baseline Security System ISKE
+<ul>
+<li>Information security standard developed for the Estonian public sector.</li>
+<li>Based on Germany&rsquo;s &ldquo;IT-Grundschutz&rdquo; (IT Baseline Protection Manual)</li>
+<li>Three-baseline system depending on the needs of the entity managing the data</li>
+</ul>
+</li>
+</ul>
+<p>Scoping and Tailoring - Necessary environment and risks</p>
+<ul>
+<li>Scoping: Limiting the baseline recommendations to those that apply
+<ul>
+<li>Provides specific terms &amp; conditions on control applicability</li>
+<li>Can impact how controls are applied</li>
+<li>Plans should identify which controls use scoping guidance</li>
+<li>Application of scoping must be reviewed &amp; approved</li>
+</ul>
+</li>
+<li>Tailoring: Altering baseline recommendations so they apply more specifically
+<ul>
+<li>Involves scoping the assessment to more closely match system and environment</li>
+<li>Provide flexibility in assessment approaches while still meeting assessment requirements</li>
+<li>Tailoring Rationale
+<ul>
+<li>Control allocation &amp; placement</li>
+<li>Operational/Environmental considerations</li>
+<li>Security objectives</li>
+<li>Technology considerations</li>
+<li>Selecting compensating security controls</li>
+<li>Assigning security control parameter values</li>
+<li>Supplementing security control baselines</li>
+<li>Control enhancement</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Data Protection Methods</p>
+<ul>
+<li>Baseline is a consistent, minimum security reference point, and helpful for achieving protection levels based on value
+<ul>
+<li>Technology: Might set a Windows machine, or an architechture</li>
+<li>Non-Tech: Eg. Display ID badges or Escorting visitors</li>
+</ul>
+</li>
+<li>Questions for applying baselines
+<ul>
+<li>Which parts can have the same baseline?</li>
+<li>Should the same baseline be applied throughout the organisation?</li>
+<li>How will the controls forming the baselines be determined?</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>This reminds me of</strong>&hellip;</p>
+<hr>
+<h1 id="other-references">Other References<a href="#other-references" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/cissp---1---security--risk-management/" class="button inline prev">
+        &lt; [<span class="button__text">CISSP - 1 - Security &amp; Risk Management</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/cissp---3---security-architecture--engineering/" class="button inline next">
+         [<span class="button__text">CISSP - 3 - Security Architecture &amp; Engineering</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

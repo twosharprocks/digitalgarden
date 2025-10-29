@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photogrammetry on Digital Garden</title>
+    <link>/tags/photogrammetry/</link>
+    <description>Recent content in Photogrammetry on Digital Garden</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="/tags/photogrammetry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>360 Video to 3D Model</title>
+      <link>/posts/360-video-to-3d-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/360-video-to-3d-model/</guid>
+      <description>&lt;p&gt;Related: Photogrammetry - Will&amp;rsquo;s Notes&#xA;Reference: &lt;a href=&#34;https://axel-busch.medium.com/how-to-quickly-create-a-3d-model-from-360-underwater-video-in-1h-or-less-b45b1cf29655&#34;&gt;https://axel-busch.medium.com/how-to-quickly-create-a-3d-model-from-360-underwater-video-in-1h-or-less-b45b1cf29655&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.mantis-sub.com/academy/best-lighting-for-underwater-360-video&#34;&gt;What is the best lighting for underwater 360 video?&lt;/a&gt;&#xA;Recommended 360 degree camera settings for photogrammetry:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Resolution: Highest resolution.&lt;/li&gt;&#xA;&lt;li&gt;Image Quality: Highest quality.&lt;/li&gt;&#xA;&lt;li&gt;White balance: Manual/fixed, not automatic.&lt;/li&gt;&#xA;&lt;li&gt;Exposure: Automatic (generally).&lt;/li&gt;&#xA;&lt;li&gt;max ISO: 200–400 for small sensors, up to 1600 for 1&amp;quot; or larger.&lt;/li&gt;&#xA;&lt;li&gt;RAW Images: Not needed (generally).&lt;/li&gt;&#xA;&lt;li&gt;Sharpening: Off or ‘soft’.&lt;/li&gt;&#xA;&lt;li&gt;Stabilisation: On.&lt;/li&gt;&#xA;&lt;li&gt;Direction lock: On.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Rules of thumb for buying a photogrammetry computer:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Photogrammetry - Processing</title>
+      <link>/posts/photogrammetry---processing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/photogrammetry---processing/</guid>
+      <description>&lt;h1 id=&#34;to-do&#34;&gt;To Do&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mount Gambier: L301, &amp;ldquo;Here Be Dragons&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;Sulawesi - Indonesia: La Ode Palsu, La Ode Panu, Moko Panjang, Laulawi, Labungkari,&lt;/li&gt;&#xA;&lt;li&gt;Nullarbor High Plains: Madura, Nurina, Cocklebiddy, Murra El Elevyn&lt;/li&gt;&#xA;&lt;li&gt;Other: McCavity&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;sulawesi---indonesia&#34;&gt;Sulawesi - Indonesia&lt;/h1&gt;&#xA;&lt;p&gt;Gua La Pahia - *UW COMPLETE&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Surface: NEEDS DRONE WITH GPS DATA&lt;/li&gt;&#xA;&lt;li&gt;Underwater: Fully processed &amp;amp; on website&#xA;Gua Wandoke - *UW COMPLETE&lt;/li&gt;&#xA;&lt;li&gt;Surface: NEEDS DRONE WITH GPS DATA&lt;/li&gt;&#xA;&lt;li&gt;Underwater: Fully processed &amp;amp; on website&#xA;Moko Morete - *UW COMPLETE&lt;/li&gt;&#xA;&lt;li&gt;Surface: NEEDS DRONE WITH GPS DATA&lt;/li&gt;&#xA;&lt;li&gt;Underwater: Fully processed &amp;amp; on website&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Kaidaiula - &lt;strong&gt;UW ALIGNMENT&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

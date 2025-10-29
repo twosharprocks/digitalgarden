@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>360 Video to 3D Model :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Related: Photogrammetry - Will&rsquo;s Notes Reference: https://axel-busch.medium.com/how-to-quickly-create-a-3d-model-from-360-underwater-video-in-1h-or-less-b45b1cf29655
+What is the best lighting for underwater 360 video? Recommended 360 degree camera settings for photogrammetry:
+Resolution: Highest resolution. Image Quality: Highest quality. White balance: Manual/fixed, not automatic. Exposure: Automatic (generally). max ISO: 200–400 for small sensors, up to 1600 for 1&quot; or larger. RAW Images: Not needed (generally). Sharpening: Off or ‘soft’. Stabilisation: On. Direction lock: On. Rules of thumb for buying a photogrammetry computer:
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/360-video-to-3d-model/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="360 Video to 3D Model">
+<meta property="og:description" content="Related: Photogrammetry - Will&rsquo;s Notes Reference: https://axel-busch.medium.com/how-to-quickly-create-a-3d-model-from-360-underwater-video-in-1h-or-less-b45b1cf29655
+What is the best lighting for underwater 360 video? Recommended 360 degree camera settings for photogrammetry:
+Resolution: Highest resolution. Image Quality: Highest quality. White balance: Manual/fixed, not automatic. Exposure: Automatic (generally). max ISO: 200–400 for small sensors, up to 1600 for 1&quot; or larger. RAW Images: Not needed (generally). Sharpening: Off or ‘soft’. Stabilisation: On. Direction lock: On. Rules of thumb for buying a photogrammetry computer:
+" />
+<meta property="og:url" content="/posts/360-video-to-3d-model/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about/">About</a></li>
+        
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about/" >About</a></li>
+        
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+        <li>
+          <ul class="menu">
+            <li class="menu__trigger">Show more&nbsp;▾</li>
+            <li>
+              <ul class="menu__dropdown">
+                
+                  
+                    <li><a href="/showcase" >Showcase</a></li>
+                  
+                
+              </ul>
+            </li>
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/360-video-to-3d-model/">360 Video to 3D Model</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/photogrammetry/">Photogrammetry</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Related: Photogrammetry - Will&rsquo;s Notes
+Reference: <a href="https://axel-busch.medium.com/how-to-quickly-create-a-3d-model-from-360-underwater-video-in-1h-or-less-b45b1cf29655">https://axel-busch.medium.com/how-to-quickly-create-a-3d-model-from-360-underwater-video-in-1h-or-less-b45b1cf29655</a></p>
+<hr>
+<p><a href="https://www.mantis-sub.com/academy/best-lighting-for-underwater-360-video">What is the best lighting for underwater 360 video?</a>
+Recommended 360 degree camera settings for photogrammetry:</p>
+<ul>
+<li>Resolution: Highest resolution.</li>
+<li>Image Quality: Highest quality.</li>
+<li>White balance: Manual/fixed, not automatic.</li>
+<li>Exposure: Automatic (generally).</li>
+<li>max ISO: 200–400 for small sensors, up to 1600 for 1&quot; or larger.</li>
+<li>RAW Images: Not needed (generally).</li>
+<li>Sharpening: Off or ‘soft’.</li>
+<li>Stabilisation: On.</li>
+<li>Direction lock: On.</li>
+</ul>
+<p>Rules of thumb for buying a photogrammetry computer:</p>
+<ul>
+<li>RAM&gt;CPU&gt;GPU</li>
+<li>Desktop PC over a Laptop PC</li>
+</ul>
+<h2 id="how-do-i-create-a-3d-model-from-360-degree-video-with-metashape">How do I create a 3D model from 360 degree video with Metashape?<a href="#how-do-i-create-a-3d-model-from-360-degree-video-with-metashape" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>There are five general steps involved in creating a 3D model through photogrammetry:</p>
+<ol>
+<li><strong>Import your video/photos</strong> — videos will be converted to photos.</li>
+<li><strong>Align photos</strong> — estimate the camera position and orientation at time of capture and match key points across images.</li>
+<li><strong>Build the point cloud</strong> — points in 3D space that represent points on the surface of the model.</li>
+<li><strong>Build the 3D Model</strong> — a triangle mesh model that represents the external surface of the model.</li>
+<li><strong>Create textures</strong> — a texture contains the colour information for every surface area of the model.</li>
+</ol>
+<h2 id="step-1-import-video-or-photos">Step 1: Import video or photos<a href="#step-1-import-video-or-photos" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>For Video: <strong>File -&gt; Import -&gt; Video …</strong>
+<ul>
+<li>Set frame step = 1 photo per second (eg. 24fps = frame step of 24)</li>
+</ul>
+</li>
+<li>For Photos: <strong>Workflow -&gt; Add Photos…</strong>
+After importing save the project by clicking on the menu item <strong>File -&gt; Save.</strong></li>
+</ul>
+<h2 id="step-2-align-photos">Step 2: Align photos<a href="#step-2-align-photos" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Tell Metashape our images are spherical panoramas.</p>
+<ol>
+<li>Click on the menu item <strong>Tools -&gt; Camera Calibration</strong></li>
+<li>Then then the parameter “Camera type” to “<strong>Spherical</strong>” and press [OK].</li>
+<li>Now click on the menu item <strong>Workflow -&gt; Align Photos…</strong></li>
+</ol>
+<p>Set the following parameters in the Align Photos dialog:
+<strong>General:</strong></p>
+<ul>
+<li>Accuracy: High</li>
+<li>Generic preselection: On <strong>(OR TURN THIS ==OFF== FOR LONG-SLOW-HIGH ACCURACY ALIGNMENT)</strong></li>
+<li>Reference preselection: On <strong>(OR TURN THIS OFF FOR LONG-SLOW-HIGH ACCURACY ALIGNMENT)</strong></li>
+<li>Type: Sequential
+<strong>Advanced:</strong></li>
+<li>Exclude stationary tie points: On</li>
+<li><strong>Press [OK]</strong></li>
+</ul>
+<p>Positions of the cameras are displayed as spheres.
+This can be toggled with: <strong>Model -&gt; Show/Hide Items -&gt; Show Cameras</strong></p>
+<h2 id="step-3-build-the-point-cloud">Step 3: Build the point cloud<a href="#step-3-build-the-point-cloud" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>Workflow -&gt; Build Point Cloud…</strong></li>
+</ul>
+<p>Then set the following parameters in the Build Point Cloud dialog:
+<strong>General:</strong></p>
+<ul>
+<li>Source data: Depth maps</li>
+<li>Quality: High
+<strong>Advanced:</strong></li>
+<li>Depth filtering: mild</li>
+<li>Calculate point colors: On</li>
+<li>Calculate point confidence: On</li>
+<li><strong>Press [OK]</strong></li>
+</ul>
+<p>The point cloud can now be edited within the Metashape environment, for example unwanted points can be selected and deleted. The point cloud can also be exported to an external tool for further analysis.</p>
+<h2 id="step-4-build-the-3d-model">Step 4: Build the 3D model<a href="#step-4-build-the-3d-model" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Metashape supports three reconstruction methods:</p>
+<ol>
+<li>Tie-points: Very fast, low-detail model based on tie points. Takes seconds.</li>
+<li><strong>Depth-maps</strong>: Slow reconstruction of a high-quality model using the GPU.</li>
+<li>Point-cloud: Very slow reconstruction of a high-quality model based on the previously reconstructed or imported point cloud.</li>
+</ol>
+<p>“Depth-maps” is recommended unless the point cloud was edited prior to model reconstruction.
+To start the reconstruction: <strong>Workflow -&gt; Build Model…</strong></p>
+<p>Set the following parameters in the Build Model dialog:
+<strong>General:</strong></p>
+<ul>
+<li>Source data: Depth maps</li>
+<li>Surface type: Arbitrary (3D)</li>
+<li>Quality: High</li>
+<li>Face count: High (or a desired number e.g. 1,000,000)
+<strong>Advanced:</strong></li>
+<li>Interpolation: Enabled (default)</li>
+<li>Depth filtering: Mild</li>
+<li>Calculate vertex colors: On</li>
+<li>Reuse depth maps: On</li>
+<li><strong>Press [OK]</strong></li>
+</ul>
+<p>To save a new model, leave the parameter “Replace default model” unchecked.</p>
+<p>When <strong>interpolation</strong> is used, Metashape will try to fill holes. This is usually desired and the default setting. These extra surfaces can later always be deleted easily if they are unwanted.</p>
+<p>Recommend creating at least two models:</p>
+<ol>
+<li>One model with <strong>Face count: High</strong>, and then</li>
+<li>Second model with <strong>face count below 1,000,000</strong></li>
+</ol>
+<p>The second model is more suitable to use for online sharing or in a game engine - Model now shows the shape of our cave very well, but the walls only show very little colour.</p>
+<p>Models with a lower face count have less details, but you can use the high-resolution model to create a <a href="https://en.wikipedia.org/wiki/Normal_mapping">normal map texture</a> which can recover that detail very well when viewing.</p>
+<h2 id="step-5-build-textures">Step 5: Build textures<a href="#step-5-build-textures" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>To build textures: <strong>Workflow -&gt; Build Texture…</strong>
+Set the following parameters in the Build Texture dialog to build the <strong>Diffuse map</strong>:
+<strong>General:</strong></p>
+<ul>
+<li>Texture type: Diffuse map</li>
+<li>Source data: Images</li>
+<li>Mapping mode: Generic</li>
+<li>Blending mode: Mosaic</li>
+<li>Texture size/count: 8192 x 1
+<strong>Advanced</strong>:</li>
+<li>Enable hole filling: On</li>
+<li>Enable ghosting filter: On</li>
+<li><strong>Press [OK]</strong></li>
+</ul>
+<p><strong>Texture type</strong></p>
+<ul>
+<li><strong>&ldquo;diffuse map&rdquo;</strong> is standard colour texture.</li>
+<li><strong>&ldquo;normal map&rdquo;</strong> used to add details without using more polygons (faces).
+<ul>
+<li>Normal maps requires a higher polygon model (&gt;1 million) overlaid on a model with &lt;1 million.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Texture size/count</strong>
+Modern devices can easily handle a 8192 texture size.
+For larger models, one 8192 texture is not enough for adequate detail - generate 4196 x 8, which is the same as 8192 x 2.</p>
+<p><strong>Creating the normal map</strong>
+The normal map adds detail to the low-polygon model by extracting “bumpiness” information from a higher-detail model.</p>
+<p>Set the following parameters in the Build Texture dialog to build the <strong>Normal map</strong>:</p>
+<ul>
+<li>Texture type: Normal map</li>
+<li>Source data: 3D model (highest face count)</li>
+<li>Mapping mode: Keep uv</li>
+<li>Blending mode: Mosaic</li>
+<li>Texture size/count: (same as Diffuse map)</li>
+<li><strong>Press [OK]</strong></li>
+</ul>
+<h2 id="export-the-model">Export the model<a href="#export-the-model" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>The most popular format for 3D files is Wavefront .obj files (OBJ). These files include the textures as external jpg files and a material description file (.mtl) that ties the model and textures together.</p>
+<h2 id="what-can-i-do-with-a-3d-model">What can I do with a 3D model?<a href="#what-can-i-do-with-a-3d-model" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>The most popular use case after exporting a model from the photogrammetry software is probably to share it online. Popular platforms are <a href="https://sketchfab.com/">Sketchfab</a> or <a href="https://construkted.com/">Construkted</a>, and I recommend a model size of less than 1M polygons.</p>
+<p>Sometimes you might want to edit the model more than what Metashape allows, or just view it on your computer. Popular free 3D viewing/editing softare are <a href="https://www.blender.org/">Blender</a> and <a href="https://www.meshlab.net/">Meshlab</a>. The most popular commercial packages are <a href="https://www.autodesk.com/products/3ds-max/overview">3ds Max</a> and <a href="https://www.autodesk.com/products/maya/overview">Maya</a>.</p>
+<p>You can also import the model into a game engine like <a href="https://unity.com/">Unity</a>, <a href="https://godotengine.org/">Godot</a>, or <a href="https://www.unrealengine.com/en-US">Unreal</a> and create a walk-through experience or game.</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/2026-cave-expedition-calendar---chatgpt/" class="button inline prev">
+        &lt; [<span class="button__text">2026 Cave Expedition Calendar - ChatGPT</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/50-goals/" class="button inline next">
+         [<span class="button__text">50 Goals</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
