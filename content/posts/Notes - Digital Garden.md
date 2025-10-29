@@ -34,3 +34,4 @@ Obsidian to Hugo Publishing
 https://maggieappleton.com/garden-history
 [mentalnodes.com](https://www.mentalnodes.com/)
 Network Chuck - https://www.youtube.com/watch?v=dnE7c0ELEH8&list=WL&index=1&t=1715s
+Mini-Essay
