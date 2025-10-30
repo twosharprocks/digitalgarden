@@ -1,13 +1,13 @@
 ---
 title: CISSP - 2 - Asset Security
 created: 2025-04-14
-Status: Reference
+updated: 2025-10-30
+status: reference
 draft: false
 tags:
-  - CISSP
   - Cybersecurity
+  - CISSP
 ---
-
 ---
 # Information Asset Security
 #### **Learning Objectives**

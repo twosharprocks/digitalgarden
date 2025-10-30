@@ -1,16 +1,13 @@
 ---
 title: Algeria
 created: 2025-10-28
-Status: Seed
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
-  - Diving
-  - Expeditions
-  - Trips
-Map: https://www.google.com/maps/place/
-SmartTraveller: https://www.smartraveller.gov.au/destinations/africa/algeria
+- caving
 ---
-Related: [Trips]({{< relref "posts/Algeria.md" >}})
+Related: [[Trips]]
 
 ---
 # About

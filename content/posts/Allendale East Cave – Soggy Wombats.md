@@ -1,14 +1,12 @@
 ---
 title: Allendale East Cave – Soggy Wombats
-original: https://soggywombats.com.au/projects/allendale-cave/
 created: 2025-10-28
+updated: 2025-10-30
+status: seed
+draft: false
 tags:
-  - Writing
-  - published
-  - Diving
-  - Exploration
+- tag1
 ---
-
 ![](https://soggywombats.com.au/wp-content/uploads/2025/03/DJI_0880-scaled.jpg)
 
 Allendale East Cave

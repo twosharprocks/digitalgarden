@@ -1,11 +1,12 @@
 ---
 title: 101 Things - To Do
 created: 2025-10-06
-Status: In-Progress
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
-  - Writing
   - 101-Things
+  - Bucket-List
 ---
 ---
 

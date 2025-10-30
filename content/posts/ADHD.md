@@ -1,11 +1,11 @@
 ---
 title: ADHD
-created: 2025-10-06 19:40
-Status: Seed
+created: "2025-10-06 19:40"
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
-  - Personal
-  - Knowledge-Management
+- tag1
 ---
 ---
 

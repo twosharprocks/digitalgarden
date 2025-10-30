@@ -1,12 +1,11 @@
 ---
-title: ChatGPT - Models & Limits
+title: ChatGPT Models & Limits
 created: 2025-08-10
-Status: Reference
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
-  - AI-content
-  - Cybersecurity
-  - Source
+- tag1
 ---
 Related:
 

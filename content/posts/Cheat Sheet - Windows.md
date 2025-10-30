@@ -1,12 +1,13 @@
 ---
 title: Cheatsheet - Windows
 created: 2023-10-10
-Status: Reference
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
-  - Cybersecurity
+- Cybersecurity
 ---
-Related: [Cybersecurity]({{< relref "posts/ASD Annual Cyber Threat Report 2023-2024 - Notes.md" >}})
+Related: [[Cybersecurity]]
 
 ---
 [Task Manager Complete Guide](https://www.howtogeek.com/405806/windows-task-manager-the-complete-guide/)

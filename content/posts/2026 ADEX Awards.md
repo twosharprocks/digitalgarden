@@ -1,10 +1,12 @@
 ---
 title: ADEX Awards
 created: 2025-10-14
-Status: Seed
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
   - Diving
+  - Trips
 ---
 Reference: https://www.adex.asia/adex-360-blu-awards/#1749024047926-304b971f-389c
 Nominations Form: https://www.adex.asia/adex360-blu-awards-form/

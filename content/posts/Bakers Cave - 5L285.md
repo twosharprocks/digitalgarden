@@ -1,12 +1,11 @@
 ---
 title: Bakers Cave - 5L285
-Status:
+created: 2025-04-23
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
-  - Diving
-  - Caving
-Region: "Mount Gambier"
-CaveDB:
+- tag1
 ---
 ---
 
@@ -22,8 +21,8 @@ Description:
 ## Maps
 
 ## Survey
-TML Data: Bakers - TML.tml
-KML Survey: Baker's Cave
+TML Data: [[Bakers - TML.tml]]
+KML Survey: [[Baker's Cave.kml|Baker's Cave]]
 
 ---
 # Logged Dives

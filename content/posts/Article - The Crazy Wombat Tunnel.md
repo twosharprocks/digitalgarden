@@ -1,14 +1,14 @@
 ---
 title: Article - Crazy Wombat Tunnel
-created: 2025-05-31 13:42
-Status: Published
+created: "2025-05-31 13:42"
+updated: 2025-10-30
+status: reference
 draft: false
 tags:
-  - Diving
-  - Writing
+- tag1
 ---
 ---
-Note: This was later edited to <1100 words for publication in Scuba Diver Magazine and published as [Article - Unveiling the Crazy Wombat Tunnel]({{< relref "posts/Article - Unveiling the Crazy Wombat Tunnel.md" >}})  
+Note: This was later edited to <1100 words for publication in Scuba Diver Magazine and published as [[Article - Unveiling the Crazy Wombat Tunnel]]  
 
 ---
 It all started with a simple question: "What the hell is that empty black area?". Will had just finished several dozen dives in Pines Cave to collect photogrammetry data, and he was just starting the painstaking, months-long process of using Metashape to turn the 10's of thousands of still images he'd collected into a high resolution 3D model. Eventually, that 3D model would lead to a game-changing map to support new divers experiencing one of the most renowned and frequently dived cave sites in the Mount Gambier region. 
@@ -45,7 +45,7 @@ As I pulled the GoPro back through the flattener it clipped the roof a little, c
 
 Back in the main cavern clearing deco, I tried to explain to my buddy what I'd found, but in my excitement all I could think to write on my wrist slate was "BIG LEAD FOUND FLOW"
 
-![Found Flow](/images/found-flow.jpg)
+![[found-flow.jpg]]
 
 Back at the accommodation we immediately plugged in the GoPro and downloaded the footage from the selfie stick - sure enough there was a decent size room on the other side. It was a jumbled room inside a rockpile and scary looking suspended boulders, but a room which was plenty big enough to turn around inside of AND big enough to hide the way onward.
 
@@ -91,5 +91,5 @@ I don't know if our Soggy Wombats team will find a connection to Stinging Nettle
 
 ---
 # References
-[Article - Unveiling the Crazy Wombat Tunnel]({{< relref "posts/Article - Unveiling the Crazy Wombat Tunnel.md" >}})
-The Pines - 5L61 
+[[Article - Unveiling the Crazy Wombat Tunnel]]
+[[The Pines - 5L61]] 

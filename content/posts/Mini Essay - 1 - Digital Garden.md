@@ -1,11 +1,11 @@
 ---
 title: Mini Essay - 1 - Digital Garden
 created: 2025-04-24 21:36
-Status:
+updated: 2025-10-30
+status: evergreen
 draft: false
 tags:
-  - Knowledge-Management
-  - Mini-Essay
+  - tag1
 ---
 ---
 # Digital Gardens
@@ -25,6 +25,6 @@ Digital gardens offer a vital alternative to the relentless stream of Facebook, 
 
 
 # References
-Brief History & Ethos of the Digital Garden
-The Garden and the Stream - A Technopastoral
+[[Brief History & Ethos of the Digital Garden]]
+[[The Garden and the Stream - A Technopastoral]]
 [NetworkChuck - My Insane Blog Pipeline](https://blog.networkchuck.com/posts/my-insane-blog-pipeline/)

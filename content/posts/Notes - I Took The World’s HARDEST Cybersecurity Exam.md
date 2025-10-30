@@ -1,14 +1,15 @@
 ---
-title: "Notes - I Took The World’s HARDEST Cybersecurity Exam"
-created: "2025-05-16"
-Status: Seed
+title: Notes - I Took The World’s HARDEST Cybersecurity Exam
+created: 2025-05-16
+updated: 2025-10-30
+status: evergreen
 draft: false
-tags: 
-- Cybersecurity
-- CISSP
+tags:
+  - Cybersecurity
+  - CISSP
 ---
 Reference: Original: https://www.youtube.com/watch?v=9BZaim2uQn0
-Related: [Cybersecurity]({{< relref "posts/ASD Annual Cyber Threat Report 2023-2024 - Notes.md" >}}), [CISSP]({{< relref "posts/CISSP - 1 - Security & Risk Management.md" >}})
+Related: [[Cybersecurity]], [[CISSP]]
 
 ---
 4 hour exam, up to 175 questions but adaptive (can cut off at 125)

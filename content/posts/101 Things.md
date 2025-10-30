@@ -1,11 +1,12 @@
 ---
 title: 101 Things - Complete List
 created: 2025-10-06
-Status: In-Progress
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
-  - Writing
   - 101-Things
+  - Bucket-List
 ---
 ---
 Write these up and add links
@@ -274,5 +275,5 @@ Remaining: 22
 
 # References
 [Book - 101 Things To Do Before You Die (Richard Horne)](https://www.goodreads.com/book/show/452240.101_Things_to_Do_Before_You_Die)
-[101 Things - To Do]({{< relref "posts/101 Things - To Do.md" >}})
+[[101 Things - To Do]]
 

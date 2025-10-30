@@ -1,16 +1,17 @@
 ---
 title: 50 Goals
 created: 2025-10-28
-Status: In-Progress
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
-  - Personal
+  - 101-Things
   - Bucket-List
 ---
-Related: [50 Goals (Old Version)]({{< relref "posts/50 Goals (Old Version).md" >}}) [Bucket List]({{< relref "posts/Bucket List.md" >}}) Mini Essay - Ridiculous Bucket List
+Related: [[50 Goals (Old Version)]] [[Bucket List]] [[Mini Essay - 25 - Ridiculous Bucket List]]
 
 ---
-Write Mini Essays about each of these
+Write [[Mini Essays]] about each of these
 
 ---
  Can Do vs WANT to do
@@ -21,7 +22,7 @@ Write Mini Essays about each of these
 - #5 Create music & drawings I'm proud of
 ---
 ***Diving***
-1. ==Have a Cave Diving TV Show== 
+1. ==Have a [[Cave Diving TV Show]]== 
 	- Focus on conservation & fresh water access
 2. ==Map caves for others to experience in VR== 
 	- Create an art experience that moves people
@@ -33,10 +34,10 @@ Write Mini Essays about each of these
 	- Below 200m
 	- 500 hours on a rebreather
 ***Writing & Art***
-5. ==Publish 10 Books - To Write==
+5. ==Publish 10 [[Books - To Write]]==
 6. Draw cartoons I'm proud of - *Tablet*
 7. To sing & play music I'm proud of - *Practice Ukulele*
-8. Finish the "101 Things" Reading List - [101 Things - To Do]({{< relref "posts/101 Things - To Do.md" >}})
+8. Finish the "101 Things" Reading List - [[101 Things - To Do]]
 ***Experience***
 9. Meditate for an hour without interruption - *Practice*
 10. Travel 
@@ -73,4 +74,4 @@ Write Mini Essays about each of these
 
 ---
 # References
-Mini Essay - 11 - What do you really want to do before you die
+[[Mini Essay - 11 - What do you really want to do before you die]]

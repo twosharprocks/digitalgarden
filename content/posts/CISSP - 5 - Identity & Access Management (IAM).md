@@ -1,13 +1,13 @@
 ---
 title: CISSP - 5 - Identity & Access Management (IAM)
 created: 2025-06-03
-Status: Reference
+updated: 2025-10-30
+status: reference
 draft: false
 tags:
-  - CISSP
   - Cybersecurity
+  - CISSP
 ---
-
 ---
 #### **Learning Objectives**
 
@@ -143,7 +143,7 @@ Security Assertion Markup Language (SAML)
 	- Bindings: How assertions and protocol messages are conducted with request-response pairs
 	- Protocols: SOAP, HTTP
 	- Profiles: Set of assertions, bindings and protocols to address specific function
-- ![Pasted Image 20250606152330](/images/Pasted%20image%2020250606152330.png)
+- ![[Pasted image 20250606152330.png]]
 
 Session Management
 - Sessions: Created, managed, supported, terminated by protocols on Layer 5

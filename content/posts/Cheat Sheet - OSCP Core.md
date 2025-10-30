@@ -1,7 +1,8 @@
 ---
 title: Cheat Sheet - OSCP Core
 created: 2024-06-10
-Status: Reference
+updated: 2025-10-30
+status: reference
 draft: false
 tags:
   - Cybersecurity

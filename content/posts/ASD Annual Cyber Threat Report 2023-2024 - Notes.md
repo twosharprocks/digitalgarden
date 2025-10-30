@@ -1,10 +1,11 @@
 ---
 title: ASD Annual Cyber Threat Report 2023-2024 - Notes
 created: 2025-04-16
-Status: Seed
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
-  - Cybersecurity
+- tag1
 ---
 Reference: https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2023-2024
 

@@ -1,14 +1,13 @@
 ---
 title: Cyber Glossary
 created: 2025-10-26
-Status: Published
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
   - Cybersecurity
-  - Work
 ---
-
-Related: [Cybersecurity]({{< relref "posts/ASD Annual Cyber Threat Report 2023-2024 - Notes.md" >}})
+Related: [[Cybersecurity]]
 
 ---
 

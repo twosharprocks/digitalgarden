@@ -1,12 +1,12 @@
 ---
 title: Burning Down Cities
-original: https://youtu.be/JPOXC09QSz0?si=i6JxHUzxwF9-FAe9
 created: 2025-04-26
+updated: 2025-10-30
+status: seed
+draft: false
 tags:
-  - Source
-  - Cybersecurity
+- tag1
 ---
-
  ---
 *Target System*: IoT/IIoT device C2 via next-gen smart meteres with customer-facing wifi
 - Other pathways: Smart inverters & utility scale battery storage
@@ -14,7 +14,7 @@ tags:
 *The Attack* 
 Utilise known vulnerability to cause catastrophic failure & fire
 - Requires <5% success rate
-![Pasted Image 20250426144202](/images/Pasted%20image%2020250426144202.png)
+![[Pasted image 20250426144202.png]]
 Foreign actors buying up 3rd party generation with direct connection to FEPS
 Legacy systems and lack of patching are the issue here
 
@@ -40,7 +40,7 @@ Attack Chain
 3. ID vulnerable IoT devices
 4. Issue malicious commands
 
-![Pasted Image 20250426150419](/images/Pasted%20image%2020250426150419.png)
+![[Pasted image 20250426150419.png]]
 
 
 ---

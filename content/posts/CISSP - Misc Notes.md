@@ -1,11 +1,12 @@
 ---
 title: CISSP - Misc Notes
 created: 2025-07-07
-Status: Reference
+updated: 2025-10-30
+status: reference
 draft: false
 tags:
-  - CISSP
   - Cybersecurity
+  - CISSP
 ---
 Related:
 

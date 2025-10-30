@@ -1,15 +1,13 @@
 ---
 title: Applying Cousteau's Approach to Modern Cave Exploration - ChatGPT
 created: 2025-10-28
-Status: Reference
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
-  - AI-content
-  - Source
-  - Diving
-  - Exploration
+- tag1
 ---
-Related: [Exploration]({{< relref "posts/Allendale East Cave – Soggy Wombats.md" >}})
+Related: [[Exploration]]
 
 ---
 # Applying Cousteau's Approach to Modern Cave Exploration

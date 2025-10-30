@@ -1,11 +1,11 @@
 ---
 title: Cheat Sheet - Fabric
 created: 2024-12-15
-Status: Reference
+updated: 2025-10-30
+status: reference
 draft: false
 tags:
-  - AI-content
-  - Cybersecurity
+- tag1
 ---
 Related:
 

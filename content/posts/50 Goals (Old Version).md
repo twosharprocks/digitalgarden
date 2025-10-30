@@ -1,14 +1,14 @@
 ---
 title: 50 Goals (Old Version)
 created: 2025-10-28
-Status: Published
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
-  - Personal
-  - Bucket-List
   - 101-Things
+  - Bucket-List
 ---
-Related: [50 Goals]({{< relref "posts/50 Goals.md" >}}) [101 Things]({{< relref "posts/101 Things.md" >}}) [101 Things - To Do]({{< relref "posts/101 Things - To Do.md" >}})
+Related: [[50 Goals]] [[101 Things]] [[101 Things - To Do]]
 
 ---
 1. Live on Mars as a scribe
@@ -65,4 +65,4 @@ Related: [50 Goals]({{< relref "posts/50 Goals.md" >}}) [101 Things]({{< relref 
 
 ---
 # References
-Mini Essay - 11 - What do you really want to do before you die
+[[Mini Essay - 11 - What do you really want to do before you die]]

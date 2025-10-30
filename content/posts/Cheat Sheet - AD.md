@@ -1,13 +1,14 @@
 ---
 title: Cheat Sheet - AD
 created: 2024-12-10
-Status: Reference
+updated: 2025-10-30
+status: reference
 draft: false
 tags:
-  - OSCP
   - Cybersecurity
+  - OSCP
 ---
-Related: [OSCP]({{< relref "posts/Cheat Sheet - AD.md" >}})
+Related: [[OSCP]]
 
 ---
 [HackTricks - AD Methodology](https://book.hacktricks.xyz/windows-hardening/active-directory-methodology)

@@ -1,14 +1,13 @@
 ---
 title: Bucket List
 created: 2025-04-01
-Status: In-Progress
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
-  - Writing
-  - Interests
-  - Bucket-List
+- tag1
 ---
-Related: Writing Ideas [Interests]({{< relref "posts/2026 Cave Expedition Calendar - ChatGPT.md" >}}) [50 Goals]({{< relref "posts/50 Goals.md" >}}) [50 Goals (Old Version)]({{< relref "posts/50 Goals (Old Version).md" >}})
+Related: [[Writing Ideas]] [[Interests]] [[50 Goals]] [[50 Goals (Old Version)]]
 
 ---
 [101 Entries](https://docs.google.com/spreadsheets/d/1UaArzZlioKL9HBGphtAwfqMsh0ROM7pIr1CIjZdTdjg/edit?usp=share_link) 
@@ -18,7 +17,7 @@ Related: Writing Ideas [Interests]({{< relref "posts/2026 Cave Expedition Calend
 - #27 Erupting Volcano - Nyiragongo (Congo), Kilueau (Hawaii), [Sicily](https://www.muchbetteradventures.com/products/10776-adventures-hike-kayak-aeolian-islands-sicily/), [Lombok](https://www.muchbetteradventures.com/products/10637-adventures-volcano-trekking-bali-lombok/), [Vanuatu](https://www.tripadvisor.com.au/Attraction_Review-g317047-d311942-Reviews-Mount_Yasur-Tanna_Island.html)
 - #31 Weightlessness - https://www.gozerog.com/public-flights
 - #36 Visit Every Country/Continent - South America, Antarctica
-- #52 Finish Greatest Books - Reading
+- #52 Finish Greatest Books - [[Reading]]
 - #62 Mile High Club 
 - #67 Visit Colosseum, Christ the Redeemer, Angkor Wat, Great Wall, Taj Mahal
 - #73 Stand on International Date Line - Tuvalu
@@ -33,8 +32,8 @@ Write 10 books:
 
 Experience 
 - Fly a Helicopter - [South Coast Helicopters](https://southcoasthelicopters.com.au/26/entry-level-top-gun-package)
-- Live in a Van 
-- Long Solo 
+- [[Live in a Van]] 
+- [[Long Solo]] 
 - Cosmic Nomad Bucket List
 	- Biathlon (Norway), Race Skeleton (Norway/Canada)
 	- US - Visit Johnson Space Centre, VLA, & Roswell
@@ -45,7 +44,7 @@ Experience
 	- Costa Rica 
 		- See Baby sloth 
 		- https://www.muchbetteradventures.com/products/10794-adventures-camino-de-costa-rica-trekking/
-		- Ayahuasca
+		- [[Ayahuasca]]
 	- [Machu Picchu](http://www.peru-explorer.com/best_time_to_visit_machu_picchu.htm)
 	- #Antarctica
 - Africa - [Madagascar - Walk with Lemurs](https://www.muchbetteradventures.com/products/10679-adventures-trekking-adventure-madagascar/)

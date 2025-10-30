@@ -1,12 +1,11 @@
 ---
 title: Cave Diving Potential SA - ChatGPT
-original: https://chatgpt.com/share/684cde6c-85c4-8006-b56c-06f269fde479
 created: 2025-06-14
+updated: 2025-10-30
+status: seed
+draft: false
 tags:
-  - Source
-  - Diving
-  - AI-content
-  - Exploration
+- tag1
 ---
 ---
 Based on an expert speleological assessment of geological data, karst potential, groundwater recharge, and regional geology, the following **specific target areas** within ~400 km of Adelaide show notable potential for freshwater cave exploration, particularly suitable for cave diving:

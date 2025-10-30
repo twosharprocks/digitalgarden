@@ -1,12 +1,13 @@
 ---
 title: Cheatsheet - Networking
 created: 2023-10-10
-Status: Reference
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
-  - Cybersecurity
+- tag1
 ---
-Related: [Cybersecurity]({{< relref "posts/ASD Annual Cyber Threat Report 2023-2024 - Notes.md" >}})
+Related: [[Cybersecurity]]
 
 ---
 **Network security** is the practices and policies used to protect and monitor a computer network’s resources against threats and risks.
@@ -132,7 +133,7 @@ Related: [Cybersecurity]({{< relref "posts/ASD Annual Cyber Threat Report 2023-2
 * [MAC Address Lookup](https://macaddress.io/)
 
 **Address Resolution Protocol (ARP)** maps the MAC address to an IP address within a LAN
-* **ARP cache poisoning** or **ARP spoofing** is a MitM attack that allows attackers to intercept communication between network devices. ARP Spoofing Explainer(https://www.imperva.com/learn/application-security/arp-spoofing/)
+* **ARP cache poisoning** or **ARP spoofing** is a MitM attack that allows attackers to intercept communication between network devices. [[ARP Spoofing Explainer]](https://www.imperva.com/learn/application-security/arp-spoofing/)
 ## DNS
 **Domain Name System (DNS)** translates domain names to IP addresses, eg. facebook.com translates to the IP address 31.13.65.36 
 * [Cisco DNS Best Practice, Network Protections, and Attack Identification](https://sec.cloudapps.cisco.com/security/center/resources/dns_best_practices)

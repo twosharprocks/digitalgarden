@@ -1,25 +1,26 @@
 ---
 title: CISSP
 created: 2025-07-15
-Status: Complete
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
   - Cybersecurity
   - CISSP
 ---
-Related: [Cybersecurity]({{< relref "posts/ASD Annual Cyber Threat Report 2023-2024 - Notes.md" >}})
+Related: [[Cybersecurity]]
 
 ---
 [ISC2 - Certified Information Systems Security Professional](https://www.isc2.org/Certifications/CISSP)
 - **Domains** (with personal notes)
-    1. [CISSP - 1 - Security & Risk Management]({{< relref "posts/CISSP - 1 - Security & Risk Management.md" >}})
-    2. [CISSP - 2 - Asset Security]({{< relref "posts/CISSP - 2 - Asset Security.md" >}})
-    3. [CISSP - 3 - Security Architecture & Engineering]({{< relref "posts/CISSP - 3 - Security Architecture & Engineering.md" >}})
-    4. [CISSP - 4 - Communication & Network Security]({{< relref "posts/CISSP - 4 - Communication & Network Security.md" >}})
-    5. [CISSP - 5 - Identity & Access Management (IAM)]({{< relref "posts/CISSP - 5 - Identity & Access Management (IAM).md" >}})
-    6. CISSP - 6 - Security Assessment & Testing 1
-    7. [CISSP - 7 - Security Operations]({{< relref "posts/CISSP - 7 - Security Operations.md" >}})
-    8. [CISSP - 8 - Software Development Security]({{< relref "posts/CISSP - 8 - Software Development Security.md" >}})
+    1. [[CISSP - 1 - Security & Risk Management]]
+    2. [[CISSP - 2 - Asset Security]]
+    3. [[CISSP - 3 - Security Architecture & Engineering]]
+    4. [[CISSP - 4 - Communication & Network Security]]
+    5. [[CISSP - 5 - Identity & Access Management (IAM)]]
+    6. [[CISSP - 6 - Security Assessment & Testing 1]]
+    7. [[CISSP - 7 - Security Operations]]
+    8. [[CISSP - 8 - Software Development Security]]
 
 - **Requirements**:
     - Pass the CISSP exam.
@@ -30,10 +31,10 @@ Related: [Cybersecurity]({{< relref "posts/ASD Annual Cyber Threat Report 2023-2
 	- [ISC2 Self Study Resources](https://www.isc2.org/Training/Self-Study-Resources/CISSP)
 		- [CISSP 7th Edition - Self-paced Training](https://isc2.obrizum.io/org/cissp)
 	- [Youtube - CISSP Exam Cram 2025 - Pete Zerger](https://youtube.com/playlist?list=PL7XJSuT7Dq_XPK_qmYMqfiBjbtHJRWigD&si=HhCZRq1pua0ZZcpE)
-		- Pete Zerger CISSP Exam - Study Notes
-		- Pete Zerger CISSP 2024 Addendum - Study Notes
+		- [[Pete Zerger CISSP Exam - Study Notes]]
+		- [[Pete Zerger CISSP 2024 Addendum - Study Notes]]
 		- [Youtube - 100 Most Important Topics](https://www.youtube.com/watch?v=tdtbZc2w8JM)
-	- cissplastmile.pdf
+	- [[cissplastmile.pdf]]
 	- [PocketPrep](https://www.pocketprep.com/exams/isc2-cissp/) - $21/month
 	- [3x Mock Exams](https://study.pocketprep.com/mock-exam-intro
 - Exam Questions & Prep
@@ -47,4 +48,4 @@ Related: [Cybersecurity]({{< relref "posts/ASD Annual Cyber Threat Report 2023-2
 
 ---
 # References
-[Notes - I Took The World’s HARDEST Cybersecurity Exam]({{< relref "posts/Notes - I Took The World’s HARDEST Cybersecurity Exam.md" >}})
+[[Notes - I Took The World’s HARDEST Cybersecurity Exam]]

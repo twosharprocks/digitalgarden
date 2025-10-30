@@ -1,14 +1,15 @@
 ---
 title: Cheat Sheet - OSCP Windows
 created: 2024-06-10
-Status: Reference
+updated: 2025-10-30
+status: reference
 draft: false
 tags:
   - Cybersecurity
   - OSCP
 ---
 Related:
-Tags: [OSCP]({{< relref "posts/Cheat Sheet - AD.md" >}})
+Tags: [[OSCP]]
 
 ---
 ## Quick Reference

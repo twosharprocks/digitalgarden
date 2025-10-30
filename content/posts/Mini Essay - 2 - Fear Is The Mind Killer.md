@@ -1,12 +1,11 @@
 ---
 title: Mini Essay - 2 - Fear Is The Mind Killer
 created: 2025-04-24 21:36
-Status: Complete
+updated: 2025-10-30
+status: evergreen
 draft: false
 tags:
-  - Knowledge-Management
-  - Quotes
-  - Mini-Essay
+  - tag1
 ---
 ---
 
@@ -20,7 +19,7 @@ The Litany Against Fear is a unique addition to the Dune universe, drawing from 
 
 ---
 # References
-Mini Essay - 9 - Dune 
+[[Mini Essay - 9 - Dune]] 
 
 [Litany Against Fear](https://dune.fandom.com/wiki/Litany_Against_Fear)
 > "I must not fear. 

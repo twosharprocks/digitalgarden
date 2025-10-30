@@ -1,12 +1,13 @@
 ---
 title: Cheatsheet - Cryptography
 created: 2023-10-10
-Status: Reference
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
-  - Cybersecurity
+- tag1
 ---
-Related: [Cybersecurity]({{< relref "posts/ASD Annual Cyber Threat Report 2023-2024 - Notes.md" >}})
+Related: [[Cybersecurity]]
 
 ---
 
@@ -78,7 +79,7 @@ Goals of Cryptography - P.A.I.N.
 * Create a detached signature with signed file: `gpg --output Signed.sig --detach-sig yourmsg.txt` 
 ## Hashing
 **Hashing** is a cryptographic method used to verify the integrity of data. It is also a way of storing password data without storing the passwords in plaintext.
-* [Illustrated Guide to Cryptographic Hashes](http://www.unixwiz.net/techtips/iguide-crypto-hashes.html) Excellent Resource(http://www.unixwiz.net/techtips/iguide-crypto-hashes.html)
+* [Illustrated Guide to Cryptographic Hashes](http://www.unixwiz.net/techtips/iguide-crypto-hashes.html) [[Excellent Resource]](http://www.unixwiz.net/techtips/iguide-crypto-hashes.html)
 * [Lifetimes of cryptographic hash functions](https://valerieaurora.org/hash.html)
 * [Wide variety of Hash Functions](https://learn.saylor.org/mod/book/view.php?id=36370&chapterid=20509)
 * [Merkle–Damgård construction](https://justcryptography.com/merkle-damgard-construction/) (Used in MD5, SHA-1 & SHA-2)

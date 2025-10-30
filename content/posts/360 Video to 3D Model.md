@@ -1,12 +1,14 @@
 ---
 title: 360 Video to 3D Model
 created: 2025-10-28
-Status: Reference
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
   - Photogrammetry
+  - Diving
 ---
-Related: Photogrammetry - Will's Notes
+Related: [[Photogrammetry - Will's Notes]]
 Reference: https://axel-busch.medium.com/how-to-quickly-create-a-3d-model-from-360-underwater-video-in-1h-or-less-b45b1cf29655
 
 ---

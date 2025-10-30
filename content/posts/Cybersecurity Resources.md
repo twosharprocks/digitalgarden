@@ -1,12 +1,13 @@
 ---
 title: Cybersecurity Resources
 created: 2025-10-26
-Status: Published
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
-  - Cybersecurity
+- tag1
 ---
-Related: [Cybersecurity]({{< relref "posts/ASD Annual Cyber Threat Report 2023-2024 - Notes.md" >}}), [Cyber Glossary]({{< relref "posts/Cyber Glossary.md" >}}), Cyber Job Domains & Interview Prep
+Related: [[Cybersecurity]], [[Cyber Glossary]], [[Cyber Job Domains & Interview Prep]]
 
 ---
 A repository of useful resources for cybersecurity professionals

@@ -1,7 +1,8 @@
 ---
 title: Cheat Sheet - OSCP Web
 created: 2024-06-10
-Status: Reference
+updated: 2025-10-30
+status: reference
 draft: false
 tags:
   - Cybersecurity
@@ -9,7 +10,7 @@ tags:
 ---
 Related:
 
-Tags: [OSCP]({{< relref "posts/Cheat Sheet - AD.md" >}})
+Tags: [[OSCP]]
 
 ---
 - phpInfo: Look for `Document_Root`

@@ -1,13 +1,11 @@
 ---
 title: Diving - Ideas
 created: 2025-01-01
-Status: Reference
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
-  - Diving
-  - Interests
-  - Caving
-  - Trips
+- tag1
 ---
 # Nullabor Trip Planning
 - Python? Excel sheet?

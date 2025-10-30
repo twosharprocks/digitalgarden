@@ -1,11 +1,11 @@
 ---
 title: Diving - Reading
 created: 2025-06-06
-Status: Reference
+updated: 2025-10-30
+status: seed
 draft: false
 tags:
-  - Diving
-  - Source
+- tag1
 ---
 General
 - [NSS-CDS Underwater Speleology Magazine](https://nsscds.org/uws/)
