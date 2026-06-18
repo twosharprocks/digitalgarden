@@ -7,13 +7,14 @@ draft: false
 tags:
   - Cybersecurity
   - Study
+Related:
 ---
 Related: [Cyber Security](/posts/cyber-security/) IRAP Assessor
 
 --- 
 # Certified in Risk and Information Systems Control
 
-Focus: Specialises in enterpriseÂ [IT risk management and control](https://www.lumifywork.com/en-au/courses/certified-in-risk-and-information-systems-control-crisc/). Ideal for those identifying, assessing and mitigating information systems risks.
+Focus: Specialises in enterprise [IT risk management and control](https://www.lumifywork.com/en-au/courses/certified-in-risk-and-information-systems-control-crisc/). Ideal for those identifying, assessing and mitigating information systems risks.
 
 Industry: Suits industries with strong risk management requirements like insurance, fintech, healthcare and government institutions.
 

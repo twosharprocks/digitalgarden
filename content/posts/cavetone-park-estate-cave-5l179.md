@@ -7,6 +7,7 @@ draft: false
 tags:
   - Diving
   - Caving
+Related: "[[Diving]]"
 ---
 Related: [Diving](/posts/diving/) 
 

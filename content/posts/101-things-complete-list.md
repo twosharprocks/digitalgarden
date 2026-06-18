@@ -1,12 +1,13 @@
 ---
 title: 101 Things - Complete List
 created: 2025-10-06
-updated: 2025-10-30
+updated: 2026-06-18
 status: seed
 draft: false
 tags:
   - 101-Things
   - Bucket-List
+Related: "[[Bucket List]]"
 ---
 Related: [101 Things - To Do](/posts/101-things-to-do/) Book - 101 Things [Bucket List](/posts/bucket-list/)
 
@@ -34,107 +35,107 @@ Remaining: 22
 
 9 - Learn That Instrument
 
-10Â - Leave Your Mark in Graffiti
+10 - Leave Your Mark in Graffiti
 
-11Â - Storm Chase a Tornado
+11 - Storm Chase a Tornado
 
-12Â - Get a Piece of Art into an Exhibition
+12 - Get a Piece of Art into an Exhibition
 - WA Museum, Legacy
 
-13Â - Meet Someone with Your Own Name - INCOMPLETE
+13 - Meet Someone with Your Own Name - INCOMPLETE
 - FIFO Mechanic in Rockingham [Survived BASE Jump](https://www.perthnow.com.au/news/wa/perth-man-josh-richards-luckiest-person-alive-after-horror-base-jump-ng-1a62d6a03acc581698180ef68ddf4dca) - [Facebook Profile](https://www.facebook.com/josh.richards.5811)
 
-14Â - Ride the World's Biggest Rollercoaster - INCOMPLETE
+14 - Ride the World's Biggest Rollercoaster - INCOMPLETE
 - Steel Dragon 2000 (Nagashima Spa Land, Japan)
 
-15Â - Stage Dive or Crowd Surf
+15 - Stage Dive or Crowd Surf
 - Living End, Relationship with music
 
-16Â - Get into the Guinness Book of World Records
+16 - Get into the Guinness Book of World Records
 
-17Â - Own a Pointless Collection
+17 - Own a Pointless Collection
 - Stamps, Erasers, Star Wars Cards, Relationship with Possessions
 
-18Â - Study the Karma Sutra and Put Theory into Practice
+18 - Study the Karma Sutra and Put Theory into Practice
 
-19Â - Master Poker and Win Big in a Casino - INCOMPLETE
+19 - Master Poker and Win Big in a Casino - INCOMPLETE
 
-20Â - Get Backstage and Get Off with a Rock God
+20 - Get Backstage and Get Off with a Rock God
 - Edinburgh Artist bar, The Mint
 
-21Â - Be a Human Guinea Pig
+21 - Be a Human Guinea Pig
 - Uni research
 
-22Â - Go Up in a Hot Air Balloon
+22 - Go Up in a Hot Air Balloon
 - Breda
 
-23Â - Get Arrested - INCOMPLETE
+23 - Get Arrested - INCOMPLETE
 
-24Â - See a Rocket Launch - INCOMPLETE
+24 - See a Rocket Launch - INCOMPLETE
 
-25Â - Capture the Moment in an Award-winning Photograph - INCOMPLETE
+25 - Capture the Moment in an Award-winning Photograph - INCOMPLETE
 
-26Â - Bungee Jump
+26 - Bungee Jump
 - Whistler with pink eye
 
-27Â - See an Erupting Volcano - INCOMPLETE
+27 - See an Erupting Volcano - INCOMPLETE
 - Kilauea (Hawaii), Vesuvius (Naples), Stromboli (Sicily), Mount Nyiragongo (Congo)
 
-28Â - Sky Dive
+28 - Sky Dive
 - Bad Jump
 
-29Â - Meet Your Idol
+29 - Meet Your Idol
 - Star Struck by Sam Simmons, Tim Jarvis
 
-30Â - Stay in the Best Suite in a Five Star Hotel
+30 - Stay in the Best Suite in a Five Star Hotel
 - Derry Conference
 
-31Â - Experience Weightlessness - INCOMPLETE
+31 - Experience Weightlessness - INCOMPLETE
 - Niamh's contacts (Star City), Zero-G corp
 
-32Â - See the Aurora Borealis
+32 - See the Aurora Borealis
 - Norway while driving
 
-33Â - Get to Score a Hole in One
+33 - Get to Score a Hole in One
 - Difference between Amanda, Leanda and Chloe?
 
-34Â - Design Your Own Cocktail
+34 - Design Your Own Cocktail
 - Uni shenanigans
 
-35Â - Play a Part in Your Favourite TV Show
+35 - Play a Part in Your Favourite TV Show
 - Creatif, Mad As Hell cameo
 
-36Â - Visit Every Country (or Continent) - INCOMPLETE
+36 - Visit Every Country (or Continent) - INCOMPLETE
 - Costa Rica (Sloths), Cave Dive Belize, Inca Trail - 3 days
 
-37Â - Make Fire Without Matches
+37 - Make Fire Without Matches
 - Lake District
 
-38Â - See These Animals in the Wild...
+38 - See These Animals in the Wild...
 - Travel in Africa
 
-39Â - Go to the Dogs
+39 - Go to the Dogs
 - Danielle's fall at Greyhounds
 
-40Â - Get a Free Upgrade on a Plane
+40 - Get a Free Upgrade on a Plane
 - Paul's Wedding
 
-41Â - Be Friends With Your Ex
+41 - Be Friends With Your Ex
 
-42Â - Hit Your Targets
+42 - Hit Your Targets
 
-43Â - Throw a Dart into a Map and Travel to Where it Lands 
+43 - Throw a Dart into a Map and Travel to Where it Lands 
 - Citibank with Paul (First deliberate 101 attempt)
 
-44Â - Attend a Film Premiere
+44 - Attend a Film Premiere
 - With Alex Ryan
 
-45Â - Do a Runner From a Fancy RestaurantÂ 
+45 - Do a Runner From a Fancy Restaurant 
 - Difference between Sara and Alice
 
-46Â - Scuba Dive
+46 - Scuba Dive
 
-47 - Milk a Cow | Tony's farmÂ 
+47 - Milk a Cow | Tony's farm 
 
 48 - Be Present When Your Country Wins the World Cup (or Olympics) - INCOMPLETE
 - Los Angeles 2028
@@ -198,7 +199,7 @@ Remaining: 22
 
 72 - Have Enough Money to Do All the Things on This List - INCOMPLETE
 
-73 - Stand on the International Date LineÂ 
+73 - Stand on the International Date Line 
 - Taveuni (Fiji) (Now moved off-shore)
 
 74 - Learn to Fly a Plane 
@@ -213,7 +214,7 @@ Remaining: 22
 
 78 - Drink a Vintage Wine
 
-79 - Answer a Personal AdÂ 
+79 - Answer a Personal Ad 
 - Speed dating
 
 80 - Spend Christmas on the Beach
@@ -236,26 +237,26 @@ Remaining: 22
 86 - Run a Marathon
 - Stroud after RM news
 
-87 - Conquer Your FearÂ 
+87 - Conquer Your Fear 
 - Standup & Claustrophobia (caving)
 
 88 - Get Married Unusually - INCOMPLETE
 
-89 - Throw Away the Instant NoodlesÂ 
+89 - Throw Away the Instant Noodles 
 - Cooking for Cat
 
 90 - Join the 16-Mile High Club - INCOMPLETE
 
-91 - Publish a Cult WebsiteÂ 
+91 - Publish a Cult Website 
 - [themightyginge.com](http://themightyginge.com)
 
-92 - Own an Original Work of ArtÂ 
+92 - Own an Original Work of Art 
 - Leo's Painting
 
 93 - Complete the Monopoly Board Pub Crawl
 - Twice - 1st with Matilda, 2nd with RM
 
-94 - Get Something Named After YouÂ 
+94 - Get Something Named After You 
 - JAM Cave
 
 95 - Get Revenge

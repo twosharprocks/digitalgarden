@@ -7,8 +7,9 @@ draft: false
 tags:
   - Diving
   - Caving
+Related: "[[Diving]]"
 ---
-Related: [Diving](/posts/diving/) Englebrecht's Cave - 5L19-20
+Related: [Diving](/posts/diving/) [Englebrecht's Cave - 5L19-20](/posts/englebrecht-s-cave-5l19-20/)
 
 # To Do
 Diving

@@ -6,6 +6,7 @@ status: seed
 draft: false
 tags:
   - Diving
+Related:
 ---
 Related: [Diving](/posts/diving/) [Diving - Gear](/posts/diving-gear/) [Diving - Reading](/posts/diving-reading/)
 
@@ -15,7 +16,7 @@ Related: [Diving](/posts/diving/) [Diving - Gear](/posts/diving-gear/) [Diving -
 
 # Nullabor Trip Planning
 - Python? Excel sheet?
-    * â€œWhat to Expectâ€ at each cave site 
+    * “What to Expect” at each cave site 
         * Integrate cave catalogue, Equipment required, vehicle access, ect
             * Guidelines for what to take per person per day
             * Type of Vehicle Access (2WD/4WD and difficulty)
@@ -24,7 +25,7 @@ Related: [Diving](/posts/diving/) [Diving - Gear](/posts/diving-gear/) [Diving -
         * Can this be a phone app? Built into CaveDB?
 ## LCKP
 * Develop new cave catalogue
-    * Redraw/Update Peterâ€™s maps?
+    * Redraw/Update Peter’s maps?
     * Produce Virtual Tours for Mt Gambier sites?
     * QGIS? Other shareable file?
     * Study SAR imagery?
@@ -32,8 +33,8 @@ Related: [Diving](/posts/diving/) [Diving - Gear](/posts/diving-gear/) [Diving -
 
 ## UW 360 camera
 * 3D Experience for diving a cave (Pines?)
-   * [Jennifer Adler](https://myemail.constantcontact.com/WALKING-ON-WATER--Presentation-by-Jennifer-Adler.html?soid=1109987089137&aid=L7saoyUY6jY) - â€œWalking on Waterâ€
-   * Interactive book/website - QR codes (like Niamhâ€™s) leading to 3D cave models
+   * [Jennifer Adler](https://myemail.constantcontact.com/WALKING-ON-WATER--Presentation-by-Jennifer-Adler.html?soid=1109987089137&aid=L7saoyUY6jY) - “Walking on Water”
+   * Interactive book/website - QR codes (like Niamh’s) leading to 3D cave models
    * Use for training to prepare and orient divers (stay simple)
    * Tank Gold Lines to prep AC students?
 * Create experience for kids with QR codes to see cave models? 3D Print scale cave models that pull apart like 3D puzzle?
@@ -70,7 +71,7 @@ Related: [Diving](/posts/diving/) [Diving - Gear](/posts/diving-gear/) [Diving -
 * Cocklebiddy Cache 
 	* Contains Cave-Link (ground-wave SMS device)?
 ## GPR
-* [Stuart MacGregor](https://www.sct.gs/about-us/our-people/directors/stuart-macgregor/) - CDAA mapping officer had a GPR unit in the mid 2000â€™s. 
+* [Stuart MacGregor](https://www.sct.gs/about-us/our-people/directors/stuart-macgregor/) - CDAA mapping officer had a GPR unit in the mid 2000’s. 
 * Current CDAA GPR Unit (Mark Simpson)
     * Guidelines December 2020
 * Use it to find Pines-Stinging Nettle link
@@ -102,7 +103,7 @@ Related: [Diving](/posts/diving/) [Diving - Gear](/posts/diving-gear/) [Diving -
     * [Nine Free Satellite Data Sources](https://skywatch.com/free-sources-of-satellite-data/)
     * [SARIG](https://map.sarig.sa.gov.au/) (SA Gov)
         * Look at conductance & electromagnetic?
-        * Use â€œShallow Groundwater Yieldâ€ layer 
+        * Use “Shallow Groundwater Yield” layer 
         * Use Gravity UC1000 Residual
         * Use Total Magnetic Intensity VRTP 1st vert derivative** [VERY INTERESTING]**
         * Use Radiometrics 
@@ -113,8 +114,8 @@ Related: [Diving](/posts/diving/) [Diving - Gear](/posts/diving-gear/) [Diving -
             * Thorium - Limited use, mostly matches irrigated areas
         * Remote Sensing - Use False-Colour Composite & Ferric Oxide Composition
     * [Virtual Geophysics Lab](https://vgl.auscope.org/) - Auscope
-        * Use â€œTotal Magnetic Intensity (TMI) Colour Composite Image of Australia with Variable Reduction to Pole (VRTP) 2015â€
-        * Use â€œGravity Anomaly Greyscale Image of the Australian Region - 2010â€
+        * Use “Total Magnetic Intensity (TMI) Colour Composite Image of Australia with Variable Reduction to Pole (VRTP) 2015”
+        * Use “Gravity Anomaly Greyscale Image of the Australian Region - 2010”
 * Machine Learning to ID sites
     * [Leak detection using sat images & machine learning](https://threespringstechnology.com/projects/leak-detection/)
     * [Yolo3 object detection How-To](https://machinelearningmastery.com/how-to-perform-object-detection-with-yolov3-in-keras/)

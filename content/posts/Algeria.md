@@ -6,6 +6,9 @@ status: seed
 draft: false
 tags:
   - caving
+  - Diving
+SmartTraveller: www.smartraveller.gov.au/destinations/
+Related: "[[Diving]]"
 ---
 Related: Trips
 
@@ -15,7 +18,7 @@ Related: Trips
 
 ---
 
-### ðŸª¨ **Limestone Karst in Algeria**
+### 🪨 **Limestone Karst in Algeria**
 Yes, **Algeria has significant limestone karst formations**, especially in the **northern and northeastern regions** of the country. These include:
 - [**Djurdjura Mountains**](https://maps.app.goo.gl/wPc6HxeeoadgrYuj8) (part of the Tell Atlas): This region has well-developed **karst plateaus** with **numerous caves and sinkholes**, formed in Jurassic and Cretaceous limestones.
 - [**Constantine](https://maps.app.goo.gl/oxRhoHacSxaJbovo8) and [Setif](https://maps.app.goo.gl/rBgQLQribXFWkKZz9) regions**: Known for complex karst systems and underground hydrology.
@@ -23,7 +26,7 @@ Yes, **Algeria has significant limestone karst formations**, especially in the *
 
 ---
 
-### ðŸ•³ï¸ **Caves in Algeria**
+### 🕳️ **Caves in Algeria**
 
 Algeria has **extensive cave systems**, many of which are of speleological, ecological, or archaeological interest. Notable caves include:
 
@@ -36,9 +39,9 @@ Algeria has **extensive cave systems**, many of which are of speleological, ecol
 
 ---
 
-### âš ï¸ Travel and Exploration Notes
+### ⚠️ Travel and Exploration Notes
 
-- Many of Algeriaâ€™s karst areas are located in **mountainous regions** that are **safe and accessible** to travelers, especially in **Kabylie** and parts of the **Tell Atlas**.
+- Many of Algeria’s karst areas are located in **mountainous regions** that are **safe and accessible** to travelers, especially in **Kabylie** and parts of the **Tell Atlas**.
     
 - Some areas (particularly **south or interior regions**) may pose travel challenges due to remoteness or security concerns. Always check **[Smartraveller](https://www.smartraveller.gov.au/destinations/africa/algeria)** before planning expeditions.
     
@@ -49,7 +52,7 @@ Algeria has **extensive cave systems**, many of which are of speleological, ecol
 
 ### Summary
 
-Yes, **Algeria is rich in limestone karst and contains many caves**, including some of the **deepest in Africa**. The **Djurdjura Mountains** are particularly notable for their karst terrain and vertical caves, making the country an intriguing â€” though logistically demanding â€” destination for karst and cave exploration.
+Yes, **Algeria is rich in limestone karst and contains many caves**, including some of the **deepest in Africa**. The **Djurdjura Mountains** are particularly notable for their karst terrain and vertical caves, making the country an intriguing — though logistically demanding — destination for karst and cave exploration.
 
 # Caves
 - 

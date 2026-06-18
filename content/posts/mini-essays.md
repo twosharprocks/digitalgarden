@@ -8,6 +8,7 @@ tags:
   - Writing
   - Interests
   - Mini-Essay
+Related:
 ---
 Related: [Writing](/posts/writing/) Mini Essays - Ideas Template - Mini Essay
 

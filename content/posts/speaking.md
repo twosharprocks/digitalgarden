@@ -9,6 +9,7 @@ tags:
   - Cybersecurity
   - Books
   - Work
+Related:
 ---
 Related: [Exploration](/posts/exploration/) [Diving](/posts/diving/) 
 
@@ -40,11 +41,11 @@ Quantum Computing
 - [Quantum computing for the determined (Link) - LessWrong](https://www.lesswrong.com/posts/GjDQgyGhZ4EepW3YR/quantum-computing-for-the-determined-link)
 
 Gunter Anders
-- [GÃ¼nther Anders, a forgotten prophet for the 21st century? | Aeon Essays](https://aeon.co/essays/gunther-anders-a-forgotten-prophet-for-the-21st-century)
+- [Günther Anders, a forgotten prophet for the 21st century? | Aeon Essays](https://aeon.co/essays/gunther-anders-a-forgotten-prophet-for-the-21st-century)
 - [Under Capitalism, the Colonization of Space Means the Destruction of Earth](https://jacobin.com/2022/07/colonization-space-exploration-moon-gunther-anders-privatization-earth-destruction)
 - https://libcom.org/tags/gunther-anders
-	- [Work will not set you free - Notes on GÃ¼nther Anders â€“ Franz Schandl | libcom.org](https://libcom.org/article/work-will-not-set-you-free-notes-gunther-anders-franz-schandl)
-	- The obsolescence of man - GÃ¼nther Anders
+	- [Work will not set you free - Notes on Günther Anders – Franz Schandl | libcom.org](https://libcom.org/article/work-will-not-set-you-free-notes-gunther-anders-franz-schandl)
+	- The obsolescence of man - Günther Anders
 
 [Year 2038 Problem](https://en.wikipedia.org/wiki/Year_2038_problem) or [Epochalypse](/posts/epochalypse/)
 - [The Year 2038 Problem - What it is, Why it will happen & How to fix it](https://theyear2038problem.com/)

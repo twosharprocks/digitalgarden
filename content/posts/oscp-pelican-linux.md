@@ -4,9 +4,9 @@ created: 2026-01-26
 updated: 2025-10-02
 status: seed
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 # Pelican
 Pretty happy with this one considering I figured most of it out without really looking at a walkthrough. Identifying Exhibition vs Zookeeper was a little confusing, but as soon as I identified that Exhibition v1.0 was vulenerable to command injection then finding & using an exploit (which was really just adding a reverse shell to a java script field) became fairly straightforward. 

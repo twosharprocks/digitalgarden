@@ -6,15 +6,17 @@ status: seed
 draft: false
 tags:
   - Diving
+SmartTraveller: www.smartraveller.gov.au/destinations/
+Related: "[[Diving]]"
 ---
-Related: [Diving](/posts/diving/) Expedition Ideas
+Related: [Diving](/posts/diving/) [Expedition Ideas](/posts/expedition-ideas/)
 
 ---
 # About
 
 
 # Caves
-- Skotini Cave
+- [Skotini Cave](/posts/skotini-cave/)
 - [Blue Eye](/posts/blue-eye/)
 # Trips
 - 

@@ -6,6 +6,9 @@ status: seed
 draft: false
 tags:
   - tag1
+  - Diving
+  - Caving
+Related: "[[Diving]]"
 ---
 ---
 

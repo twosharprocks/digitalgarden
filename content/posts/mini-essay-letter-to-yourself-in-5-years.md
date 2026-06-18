@@ -25,7 +25,7 @@ Where do I want to be in 2031?
 
 ---
 **This also reminds me of**... 
-- Website - Dear Josh in 2020
+- [Website - Dear Josh in 2020](/posts/website-dear-josh-in-2020/)
 
 ---
 ***Tomorrow's Mini Essay***: 

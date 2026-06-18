@@ -7,6 +7,7 @@ draft: false
 tags:
   - Knowledge-Management
   - Personal
+Related:
 ---
 Related: [Time Management](/posts/time-management/) [Digital Garden](/posts/digital-garden/) Knowledge-Management
 Reference: https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/ 
@@ -15,7 +16,7 @@ Reference: https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopasto
 The Garden - the web as topology, web as space. 
 - Web as arrangement and rearrangement, relational
 - Multi-linear approaches - every walk through the garden is different every time
-- â€œDid the bridge come after these treesâ€ in a well-designed garden is meaningless historical trivia.
+- “Did the bridge come after these trees” in a well-designed garden is meaningless historical trivia.
 
 The Stream - Jump in and let it flow past
 - Stream replaces topology with serialisation (Twitter, Facebook, Instagram)

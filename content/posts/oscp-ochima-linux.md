@@ -4,9 +4,9 @@ created: 2026-01-26
 updated: 2026-01-22
 status: seed
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 # Ochima
 This one was an exercise in frustration purely because the exploit didn't seem to work on the port I wanted it to (`4444`) but *would* work on port `80`!? 
@@ -111,7 +111,7 @@ No enumeration conducted
 ## Port 8338 - HTTP (Apache 2.4.52)
 - Navigated to `http://192.168.117.32:80` and identified `Maltrail v.052`
 ![OSCP - Ochima - Linux - image3](/files/OSCP%20-%20Ochima%20-%20Linux%20-%20image3.png)
-	- Potentially vulnerable to CVE-2023â€“27163
+	- Potentially vulnerable to CVE-2023–27163
 ---
 # Exploitation
 - Identified exploit `Maltrail-RCE.py` from https://github.com/spookier/Maltrail-v0.53-Exploit/blob/main/exploit.py - copied to local host 

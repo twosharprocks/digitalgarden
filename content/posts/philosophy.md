@@ -9,6 +9,7 @@ tags:
   - Writing
   - Creativity
   - Personal
+Related:
 ---
 Related: [Philosophy](/posts/philosophy/) [Writing](/posts/writing/) Creativity Personal
 
@@ -37,8 +38,8 @@ Four Agreements
 4. Always do your best - It alwasy gets better, 80/20 rule, Practice the basics
 
 **Principles**
-- **Priorities** - âš‘ Reading/Writing âš‘ Chloe âš‘ Diving âš‘ Health âš‘ Learning
-- **Do Less** - Simplify Daily Habits, â€œWant Toâ€ vs â€œHave Toâ€
+- **Priorities** - ⚑ Reading/Writing ⚑ Chloe ⚑ Diving ⚑ Health ⚑ Learning
+- **Do Less** - Simplify Daily Habits, “Want To” vs “Have To”
 	- When You Stop Doing, Life Speaks
 - **Dream MUCH Bigger**
 - Always ask **Will I write a book about this?**
@@ -57,7 +58,7 @@ Four Agreements
 
 **Mental**
 - Read & Write EVERY Day - Journal to warm up, Write to Publish
-- Go Solo - Cultivate â€œfertile solitudeâ€ (Read over TV/Social Media)
+- Go Solo - Cultivate “fertile solitude” (Read over TV/Social Media)
 - [Don't think. Do](https://www.outsideonline.com/health/training-performance/forget-motivation-and-focus-action/) - Mood follows action, so begin regardless of motivation
 - [Build Mental Toughness](https://www.outsideonline.com/health/training-performance/building-mental-toughness/) - Separate yourself from the pain
 - ***Organise Trips for Yourself***
@@ -67,19 +68,19 @@ Four Agreements
 	- **Cut Loose Ends** - Tell more people to get fucked
 		- Think about doing fucking awesome things instead of being bogged down in argumentative, draining bullshit, and don't be dragged down by boring losers
 	- Stop Complaining, start doing
-	- Vulnerability Will Set You Free - Be an open book, a peaceful warriorÂ 
+	- Vulnerability Will Set You Free - Be an open book, a peaceful warrior 
 - **Fun, Knowledge, Money** - Only say yes if two out of three apply
 	- **80/20 rule** - 20% of people & activities provide most value
 	- Rule of thirds: Ratio of 3:1, explaining is draining, If it's a struggle it's too complicated
-- You are a conduit for nonsense - Dot, Demoman, Hitchhikerâ€™s Guide, Stubb, Furby
+- You are a conduit for nonsense - Dot, Demoman, Hitchhiker’s Guide, Stubb, Furby
 	- Be Unexpected - Howling Mad Murdock, Information Anarchist, Artist not a scientist
 	- Be a goddamn ginger space unicorn
-- **Dare mighty things** - Allow yourself to suck, fail spectacularly, say â€œFuck Itâ€
+- **Dare mighty things** - Allow yourself to suck, fail spectacularly, say “Fuck It”
 	- Thwart institutional cowardice - Ask forgiveness not permission (Werner Herzog)
 	- Who/What are your gatekeepers? There are no gates
 	- Figure the work-around - Guerrilla tactics are best
 	- Die in a way that boring people will say "He deserved it"
-		- Weâ€™re all going to die, I intend to deserve it
+		- We’re all going to die, I intend to deserve it
 - Your medium is writing - comedy storytelling, writing, & curiosity
 	- Be an Artist - Forget photography, film, drawing. 
 
@@ -90,21 +91,21 @@ Four Agreements
 	- Bender and God (When you do things right, people won't be sure you've done anything at all)
 	- Tao of Pooh - Don't be a bisy backson ("busy back soon") & stop pushing
 		- Bluebear - No hurry & no busy
-	- Intuition - Follow the Ginge, the answers are within you, listen to your little voice, Act donâ€™t react, You always sense the answers far ahead
+	- Intuition - Follow the Ginge, the answers are within you, listen to your little voice, Act don’t react, You always sense the answers far ahead
 	- Synchronicity, "Study" Zen, Meditate
- - Laugh at Reality - Itâ€™s not to be taken seriously, and there is comedy in everything
-	- There are no ordinary moments - â€œHumour. Change. Paradoxâ€Â 
+ - Laugh at Reality - It’s not to be taken seriously, and there is comedy in everything
+	- There are no ordinary moments - “Humour. Change. Paradox” 
 - Cut Attachments - Expect nothing, Embrace the ebb & flow of the universe
 	- Breathe as part of the universe
 	- Look at the stars, watch clouds, swim in the sea, walk in the rain
 	- Abundance over Scarcity - You have plenty to spare & share
 - This too shall pass - always evolving & accelerating change in others
 	- Only Here & Now - Fears of the future & pain of past are useless
-	- Only constant is change - Ouroboros & the Nonlinear time of â€œArrivalâ€
-- Albert Camus â€œFind your questionâ€
-	- Douglas Adams â€œYou canâ€™t have question AND answer"
-- Live Like Youâ€™re Going To Die In A Year
-	- Stop being â€œbusyâ€ & be â€œinterestedâ€
+	- Only constant is change - Ouroboros & the Nonlinear time of “Arrival”
+- Albert Camus “Find your question”
+	- Douglas Adams “You can’t have question AND answer"
+- Live Like You’re Going To Die In A Year
+	- Stop being “busy” & be “interested”
 	- Love what you do & do what you love - [You owe others nothing](https://catapult.co/stories/do-you-want-to-be-known-for-your-writing-or-for-your-swift-email-responses)
 - Idea of new life every 7 years & the Nature of Time
 	- Interplay of time, gravity (spacetime), and light (tears in the universe)
@@ -113,25 +114,25 @@ Four Agreements
 	- Smile, Perform random acts of kindness, 
 	- Perform/Serenade/Embarrass people
 - Think about Shackleton's challenges - struggling with every day life and always trying to organise and be on the next adventure. 
-- When you choose what to watch or read, you are choosing your future thoughts and perspectives. Consume what youâ€™d like to become.
-- What if the answer to improving your life isnâ€™t to know more? 
+- When you choose what to watch or read, you are choosing your future thoughts and perspectives. Consume what you’d like to become.
+- What if the answer to improving your life isn’t to know more? 
 	- What if the answer is focusing on less?
-- We don't see things as they are. We see them as we are. (AnaÃ¯s Nin)
+- We don't see things as they are. We see them as we are. (Anaïs Nin)
 
 
 **Writing**
 - [Scott Adams - The Day You Became A Better Writer](https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html)
-- Write EVERY Day - Donâ€™t die with your story untold, die writing your last breath
-- Youâ€™re a writer - You process by writing, running, and meditating
+- Write EVERY Day - Don’t die with your story untold, die writing your last breath
+- You’re a writer - You process by writing, running, and meditating
 - Drink Coffee & Take a Huge Shit
-- Read Every Day: Youâ€™ll only get 1 or 1 ideas from even a good book
+- Read Every Day: You’ll only get 1 or 1 ideas from even a good book
 - Turn up for work: No discipline = no creative freedom.
 - Trust creativity & love what you do without reward
 - First drafts should take no more than 3 months to write
-- Donâ€™t Ask Permission - Tell stories how you would to friends
+- Don’t Ask Permission - Tell stories how you would to friends
 - Be vulnerable & honest: Share something nobody knows about you
 - Write the voice you speak: Read it out loud, if it sounds boring kill it
-- Be scared of what people will think, but donâ€™t deliberately hurt anyone
+- Be scared of what people will think, but don’t deliberately hurt anyone
 - Punch upwards - Purge cynicism & half-smile through all things
 - Live weird & laugh - What makes ME laugh gleefully (Jungian Vs Freudian)
 - Simple writing - Use lots of periods, no semicolons
@@ -139,9 +140,9 @@ Four Agreements
 - Emotion cancels logic - Answer the call of the sea (Saint-Exupery)
 - Heartfelt language, not excessive adjectives and complicated nouns
 - Nest smaller stories inside a grander one
-- Use â€œsaidâ€ instead of ANY other word
+- Use “said” instead of ANY other word
 - Let it sleep - Stretch, Coffee, Read, Look again. Rest drafts for >6 weeks before editing
-- Let poor work go - Edit & rewrite until youâ€™ve cut at least 10%
+- Let poor work go - Edit & rewrite until you’ve cut at least 10%
 
 ---
 **This also reminds me of**... 
@@ -174,17 +175,17 @@ Four Agreements
 - Can we bring back "Slow"? Everything, everyone is so fast all the time. Your attention is your currency and everything is fighting for it. We get lost in distraction trying to run from ourselves. Maybe the answer isn't in the noise, but in the quiet and stillness we've been taught to avoid.
 
 3 Reasons Reinvention Works Better Than Resolutions, By A Psychologist
-- Hereâ€™s a four-step plan you can follow for your 2026 reinvention arc:
-1. **Pick your landmark.**Â Choose a genuine fresh start that signals identity change (a move-in day, your birthday or even the first Monday of the new year) and mark it publicly with your close friends or family.
-2. **Define a new identity statement.**Â This should be a short and concise statement framed in present tense (â€œIâ€™m someone whoâ€¦â€). The statement can be ambitious, of course, but it must also be believable. Todayâ€™s heroism turns into tomorrowâ€™s perfectionism.
-3. **Create one or two implementation intentions**Â **only.**Â These should be specific if-then plans that tie behaviour to context (â€œIf itâ€™s 7 a.m., then I walk for 10 minutes.â€). Repeat this daily until the action feels odd when left undone or incomplete.
-4. **Lower the activation threshold**Â **of the new behaviour.**Â Redesign your environment so that the path of least resistance leads to the new behaviour (keep your running shoes next to the bed, or pre-pack a water bottle). Small context changes are the dots that when connected, turn into an iron-clad habit.
+- Here’s a four-step plan you can follow for your 2026 reinvention arc:
+1. **Pick your landmark.** Choose a genuine fresh start that signals identity change (a move-in day, your birthday or even the first Monday of the new year) and mark it publicly with your close friends or family.
+2. **Define a new identity statement.** This should be a short and concise statement framed in present tense (“I’m someone who…”). The statement can be ambitious, of course, but it must also be believable. Today’s heroism turns into tomorrow’s perfectionism.
+3. **Create one or two implementation intentions** **only.** These should be specific if-then plans that tie behaviour to context (“If it’s 7 a.m., then I walk for 10 minutes.”). Repeat this daily until the action feels odd when left undone or incomplete.
+4. **Lower the activation threshold** **of the new behaviour.** Redesign your environment so that the path of least resistance leads to the new behaviour (keep your running shoes next to the bed, or pre-pack a water bottle). Small context changes are the dots that when connected, turn into an iron-clad habit.
 
-Itâ€™s important to note that reinvention wonâ€™t fix major structural problems overnight. Deep habits tied to health, addiction or mental illness often require professional support. However, if youâ€™re aiming to make a practical, long-lasting change, do it in a way that science says will actually stick. And that means harnessing timing, identity and context, not just your resolve.
+It’s important to note that reinvention won’t fix major structural problems overnight. Deep habits tied to health, addiction or mental illness often require professional support. However, if you’re aiming to make a practical, long-lasting change, do it in a way that science says will actually stick. And that means harnessing timing, identity and context, not just your resolve.
 
 ---
 # References
-- Donâ€™t stress, do less 52 ways to make your life easier in 2026
+- Don’t stress, do less 52 ways to make your life easier in 2026
 - Why pleasure is the key to self-improvement
 - Failure vs. Success is the Wrong Frame
 

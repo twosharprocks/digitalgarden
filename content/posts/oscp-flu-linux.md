@@ -4,9 +4,9 @@ created: 2026-01-26
 updated: 2026-01-22
 status: seed
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 # Flu
 This is the first box I can confidently say I did ***NOT*** look at a walkthrough for any help on! I've included one in the details above, but it remained as a background tab the entire way through this - massive confidence boost to know I can do this without needing to follow someone else's footsteps!

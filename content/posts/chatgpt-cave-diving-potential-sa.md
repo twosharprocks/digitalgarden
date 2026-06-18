@@ -19,24 +19,24 @@ The Bridgewater Formation here includes coastal limestone dune systems. Potentia
 
 **Exploration target coordinates:**
 
-- **Marion Bay region:** `35.235Â°S, 136.972Â°E`
-- **Pondalowie Bay (Innes National Park):** `35.226Â°S, 136.856Â°E`
+- **Marion Bay region:** `35.235°S, 136.972°E`
+- **Pondalowie Bay (Innes National Park):** `35.226°S, 136.856°E`
 
 **Justification:**  
 The rugged coastal limestone areas near Marion Bay and Pondalowie Bay contain karst features (sinkholes, dolines, and coastal solutional voids). Cave divers should investigate freshwater/seawater mixing zones, potential offshore springs, and shallow submerged entrances near coastal cliffs.
 
 ---
 
-### 2. **Fleurieu Peninsula (Waitpingaâ€“Deep Creek Region)**
+### 2. **Fleurieu Peninsula (Waitpinga–Deep Creek Region)**
 
 **Geological context:**  
 Permian carbonate-rich sediments (Hindmarsh Tiers Group) interspersed with faulting and known caves near coastal cliffs suggest extensive unexplored karst potential.
 
 **Exploration target coordinates:**
 
-- **Deep Creek Conservation Park:** `35.619Â°S, 138.193Â°E`
+- **Deep Creek Conservation Park:** `35.619°S, 138.193°E`
     
-- **Waitpinga Cliffs and surrounding coast:** `35.628Â°S, 138.497Â°E`
+- **Waitpinga Cliffs and surrounding coast:** `35.628°S, 138.497°E`
     
 
 **Justification:**  
@@ -44,16 +44,16 @@ These areas have limited recorded cave exploration, but significant karst indica
 
 ---
 
-### 3. **Southern Kangaroo Island (Kelly Hillâ€“Hanson Bay)**
+### 3. **Southern Kangaroo Island (Kelly Hill–Hanson Bay)**
 
 **Geological context:**  
 Extensive Bridgewater Formation limestone dominates the southern coast; substantial groundwater recharge zones feed potential freshwater lenses and submerged caves.
 
 **Exploration target coordinates:**
 
-- **Kelly Hill region (east of Flinders Chase NP):** `35.996Â°S, 136.896Â°E`
+- **Kelly Hill region (east of Flinders Chase NP):** `35.996°S, 136.896°E`
     
-- **Hanson Bay:** `36.024Â°S, 136.827Â°E`
+- **Hanson Bay:** `36.024°S, 136.827°E`
     
 
 **Justification:**  
@@ -68,9 +68,9 @@ Miocene to Pleistocene Bridgewater Formation and Tertiary Gambier Limestone form
 
 **Exploration target coordinates:**
 
-- **Coffin Bay and surrounds:** `34.612Â°S, 135.430Â°E`
+- **Coffin Bay and surrounds:** `34.612°S, 135.430°E`
     
-- **Point Avoid region (Southern Coffin Bay NP):** `34.648Â°S, 135.281Â°E`
+- **Point Avoid region (Southern Coffin Bay NP):** `34.648°S, 135.281°E`
     
 
 **Justification:**  
@@ -87,7 +87,7 @@ This coastal region exhibits numerous coastal solution cavities, sinkholes, and 
 - Deploy divers at high-potential coastal margins to locate freshwater lens interfaces, submerged entrances, or resurgence points.
     
 
-These identified coordinates and regions represent strategic targets for discovering new freshwater caves suitable for exploratory cave diving, significantly expanding South Australiaâ€™s documented submerged cave networks.
+These identified coordinates and regions represent strategic targets for discovering new freshwater caves suitable for exploratory cave diving, significantly expanding South Australia’s documented submerged cave networks.
 
 
 ---

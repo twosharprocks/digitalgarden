@@ -6,6 +6,7 @@ status: seed
 draft: false
 tags:
   - Interests
+Related:
 ---
 Related: Personal Mars Cosmology [Physics](/posts/physics/)
 

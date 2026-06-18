@@ -4,9 +4,9 @@ created: 2026-01-26
 updated: 2026-01-22
 status: seed
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 # Astronaut
 Much quicker and more useful experience than `Exfiltrated`. Did my own enumeration, and used the [walkthrough](https://medium.com/@ardian.danny/oscp-practice-series-20-proving-grounds-astronaut-627bc41a86ef) only as a guide when getting stuck. 

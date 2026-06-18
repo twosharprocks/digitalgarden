@@ -8,6 +8,7 @@ tags:
   - Diving
   - Caving
   - Trips
+Related:
 ---
 Related: [Diving](/posts/diving/)
 

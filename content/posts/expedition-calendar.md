@@ -9,46 +9,47 @@ tags:
   - Expeditions
   - Exploration
   - Trips
+Related:
 ---
-Related: Trips [Diving](/posts/diving/) Expedition Ideas [ChatGPT - Cave Expedition Calendar](/posts/chatgpt-cave-expedition-calendar/)
+Related: Trips [Diving](/posts/diving/) [Expedition Ideas](/posts/expedition-ideas/) [ChatGPT - Cave Expedition Calendar](/posts/chatgpt-cave-expedition-calendar/)
 
 ---
 Q1
-- **New Zealand - Jan to March
-- **Philippines - Jan to April
-- **Thailand - Nov-April
-- **Laos - Feb/March
-- *Kalimantan - Indonesia - March/April*
-- Palau & Vanuatu- Oct-May
+- **[New Zealand](/posts/new-zealand/) - Jan to March
+- **[Philippines](/posts/philippines/) - Jan to April
+- **[Thailand](/posts/thailand/) - Nov-April
+- **[Laos](/posts/laos/) - Feb/March
+- *[Kalimantan - Indonesia](/posts/kalimantan-indonesia/) - March/April*
+- [Palau](/posts/palau/) & [Vanuatu](/posts/vanuatu/)- Oct-May
 Q2
 - Trip - TekAsia2026 - 2026 April
-- **Timor-Leste - May to October
-- **Christmas Island - May-Nov
+- **[Timor-Leste](/posts/timor-leste/) - May to October
+- **[Christmas Island](/posts/christmas-island/) - May-Nov
 - [Bikini Atoll](/posts/bikini-atoll/) - June-July
 	- [Lust4Rust 2027](https://petemesley.com/lust4rust/bikini-atoll/)
 - [Malaysian International Dive Expo](https://mide.com.my/) - June
-- **Portugal/Spain - May/June
-- Palau & Vanuatu- Oct-May
+- **[Portugal](/posts/portugal/)/[Spain](/posts/spain/) - May/June
+- [Palau](/posts/palau/) & [Vanuatu](/posts/vanuatu/)- Oct-May
 Q3
-- **Timor-Leste - May to October
-- **Christmas Island - May-Nov
-- **Madagascar - July/August
-- **Malta - Gozo - July-September 
-- Nullarbor High Plains - Sept
-- Iceland - June-Sept
-- Sulawesi - Indonesia Aug/Sept
-- Papua New Guinea - Sept-Dec
-- Crete
+- **[Timor-Leste](/posts/timor-leste/) - May to October
+- **[Christmas Island](/posts/christmas-island/) - May-Nov
+- **[Madagascar](/posts/madagascar/) - July/August
+- **[Malta - Gozo](/posts/malta-gozo/) - July-September 
+- [Nullarbor High Plains](/posts/nullarbor-high-plains/) - Sept
+- [Iceland](/posts/iceland/) - June-Sept
+- [Sulawesi - Indonesia](/posts/sulawesi-indonesia/) Aug/Sept
+- [Papua New Guinea](/posts/papua-new-guinea/) - Sept-Dec
+- [Crete](/posts/crete/)
 	- 2025 AUG-23-SEP-07 [SPOK Trip](https://docs.google.com/forms/d/e/1FAIpQLSd4DBKophrBjy7aQao10iRA19GqDuEcPKPqwjnRgJynr0tEeQ/viewform)
-- France - August/***Sept***
-- Portugal/Spain - Sept/Oct
+- [France](/posts/france/) - August/***Sept***
+- [Portugal](/posts/portugal/)/[Spain](/posts/spain/) - Sept/Oct
 	- [Diving Talks Conference - always October](www.divingtalks.com)
 Q4
-- **Christmas Island - May-Nov
-- Portugal/Spain - Sept/Oct
-- France - Sept/Oct
-- Christmas Island - October
-- Palau & Vanuatu- Oct-May
-- Thailand - Nov/April
-- Minamidaito (South Daito) - Okinawa - December (XMAS)
+- **[Christmas Island](/posts/christmas-island/) - May-Nov
+- [Portugal](/posts/portugal/)/[Spain](/posts/spain/) - Sept/Oct
+- [France](/posts/france/) - Sept/Oct
+- [Christmas Island](/posts/christmas-island/) - October
+- [Palau](/posts/palau/) & [Vanuatu](/posts/vanuatu/)- Oct-May
+- [Thailand](/posts/thailand/) - Nov/April
+- [Minamidaito (South Daito) - Okinawa](/posts/minamidaito-south-daito-okinawa/) - December (XMAS)
 - [Antarctica](/posts/antarctica/) - Nov/Feb

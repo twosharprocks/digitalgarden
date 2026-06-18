@@ -6,13 +6,14 @@ status: seed
 draft: false
 tags:
   - tag1
+Related:
 ---
 Related: [Cyber Security](/posts/cyber-security/)
 
 ---
-**Network security** is the practices and policies used to protect and monitor a computer networkâ€™s resources against threats and risks.
+**Network security** is the practices and policies used to protect and monitor a computer network’s resources against threats and risks.
 
-**Client-server model** is a network computing model that defines how resources and services are shared across a network. Uses a **<span style="text-decoration:underline;">â€œrequest and responseâ€</span>** method of device communication.
+**Client-server model** is a network computing model that defines how resources and services are shared across a network. Uses a **<span style="text-decoration:underline;">“request and response”</span>** method of device communication.
 
 **Network threats and risks**
 * Unauthorized access into networks
@@ -28,7 +29,7 @@ Related: [Cyber Security](/posts/cyber-security/)
 * Disadvantages: Security Issues, Troubleshooting is challenging
 ## Open Systems Interconnection (OSI) Model
 
-**Mnemonic: â€œPlease do not throw sausage pizza awayâ€
+**Mnemonic: “Please do not throw sausage pizza away”
 **Layer 1 - Physical**: Cables & Hubs. Pinouts, Cable Specs, Network Interface Cards
 **Layer 2 - Data Link**: Ethernet. Uses frames, MAC address
 **Layer 3 - Network**: IP Address. Uses packets, Transfer address to physical, network routing
@@ -59,7 +60,7 @@ Related: [Cyber Security](/posts/cyber-security/)
 * Ensures no single server has too much traffic, protecting resource availability
 * Typically placed right after the firewall
 **Demilitarised Zone (DMZ)** Smaller subnetwork within a LAN to protect internal data
-* Typically has itâ€™s own network security devices to detect/block before reaching internal networks
+* Typically has it’s own network security devices to detect/block before reaching internal networks
 ## Network Topology
 **Linear** Each device is connected to the next via two-way link
 * Advantages: Adding devices to the network is easy.
@@ -96,8 +97,8 @@ Related: [Cyber Security](/posts/cyber-security/)
 * IPv6 has <span style="text-decoration:underline;">not</span> been widely adopted and many devices need to be updated before accepting IPv6 addresses
 ### IP Categories
 **Private IP addresses** are NOT exposed to the internet (typically within a LAN)
-* Assigned by LANâ€™s network administrator
-* Can be reused, wonâ€™t conflict across different networks, more secure
+* Assigned by LAN’s network administrator
+* Can be reused, won’t conflict across different networks, more secure
 * Private IPv4 ranges fall within:
     * Class A Private = 10.0.0.0 - 10.255.255.255 (16,777,216 available)
     * Class B APIPA = 169.254.0.0 - 169.254.255.255
@@ -115,7 +116,7 @@ Related: [Cyber Security](/posts/cyber-security/)
     * Class E (Research) 	    = 240.0.0.0 - 255.255.255.255 (1oct = 240-255)
 **Loop-back addresses** are for network testing
 * Range 127.0.0.1 - 127.255.255.255
-* These are virtual IP addresses that cannot be assigned to a device, but are used to ping a computerâ€™s TCP/IP network software driver
+* These are virtual IP addresses that cannot be assigned to a device, but are used to ping a computer’s TCP/IP network software driver
 ## Subnetting
 **Subnetting** is the process of breaking up an IP address range into smaller, more specific networks of grouped devices.
 * [IPv4 Subnet Calculator](https://www.vultr.com/resources/subnet-calculator/)
@@ -146,14 +147,14 @@ Related: [Cyber Security](/posts/cyber-security/)
 
 **Reverse DNS Lookup** provides the domain name for a given IP address, and is stored as a **PTR (Pointer) record** on the special **_.arpa_** domain name.
 * [Reverse DNS Lookup](https://www.whatsmydns.net/reverse-dns-lookup)
-* IPv4 â€œAâ€ records are stored under the subdomain_ <code>.in-addr.arpa</code></em>
-* IPv6 â€œAAAAâ€ records are stored under the subdomain <code><em>.ip6.arpa</em></code>
+* IPv4 “A” records are stored under the subdomain_ <code>.in-addr.arpa</code></em>
+* IPv6 “AAAA” records are stored under the subdomain <code><em>.ip6.arpa</em></code>
 
 <strong>DNS hijacking</strong> Type of network attack that exploits DNS vulnerabilities to divert web traffic away from legitimate servers and to fake/malicious servers.
 **Uniform Resource Locatior (URL)** is the specific location of a resource in a domain
 * Syntax: [URI scheme]://[subdomain].[domain].[TLD][/path/][filename]
 * Example: https://www.facebook.com/photos/catpicture.jpg
-    * https_ = Uniform Resource Identifer for â€œSecure Hypertext Transfer Protocolâ€
+    * https_ = Uniform Resource Identifer for “Secure Hypertext Transfer Protocol”
     * www = subdomain
     * facebook = primary domain
     * .com = Top-Level Domain 
@@ -175,10 +176,10 @@ Related: [Cyber Security](/posts/cyber-security/)
 
 **Transmission Control Protocol** requires acknowledgement to ensure all data is transmitted without error and in the correct order.
 *  **TCP three-way handshake** is the process of establishing a reliable connection to transmit data between devices. 
-    * Setup = SYN â†’ | SYN-ACK â† | ACK â†’ (then data â†’)
-    * Terminate = FIN â†’ | ACK â† FIN â† | ACK â†’ 
+    * Setup = SYN → | SYN-ACK ← | ACK → (then data →)
+    * Terminate = FIN → | ACK ← FIN ← | ACK → 
 
-**User Datagram Protocol (UDP)** is useful for situations when itâ€™s not necessary for all data to reach the destination.
+**User Datagram Protocol (UDP)** is useful for situations when it’s not necessary for all data to reach the destination.
 
 **Dynamic Host Configuration Protocol ([DHCP](https://whatismyipaddress.com/dhcp))** is a protocol used for automatically setting different configurations (including IP-addresses).
 * **DHCP Four-way handshake**: Discover, Offer, Request, Acknowledge
@@ -194,7 +195,7 @@ Related: [Cyber Security](/posts/cyber-security/)
 Routing can also be either static or dynamic
 * **Static routing** is the manual configuration of a network route, typically done by a network administrator.
     * <span style="text-decoration:underline;">Advantages</span>: Lower router CPU, admin has full control of routing behavior.
-    * <span style="text-decoration:underline;">Disadvantages</span>: Fault tolerance, meaning if a device on a manually created path fails, the route canâ€™t be adjusted.
+    * <span style="text-decoration:underline;">Disadvantages</span>: Fault tolerance, meaning if a device on a manually created path fails, the route can’t be adjusted.
 * **Dynamic Routing**
 [Types of Routing Protocols](https://www.comparitech.com/net-admin/routing-protocol-types-guide/) [Comprehensive]
 ## Ports
@@ -229,7 +230,7 @@ Routing can also be either static or dynamic
     * 3389 (RDP) 
     * 8005 (Tomcat Remote Shutdown)
     * 8333 (Bitcoin)
-* **[Dynamic/Private ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Dynamic,_private_or_ephemeral_ports)** (49152-65535) â€œSourceâ€ ports for machineâ†’machine
+* **[Dynamic/Private ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Dynamic,_private_or_ephemeral_ports)** (49152-65535) “Source” ports for machine→machine
 ## Network Tools {#network-tools}
 <span style="text-decoration:underline;">NMap</span> - IP address & Port scanner
 * [NMap Cheat Sheet](https://www.stationx.net/nmap-cheat-sheet/)
@@ -241,7 +242,7 @@ Routing can also be either static or dynamic
 * [Wireshark Filters (WifiNinjas Blog)](https://wifininjas.net/2019/05/29/wn-blog-002-wireshark-filters/)
 * [Wireshark Cheat Sheet](https://cdn.comparitech.com/wp-content/uploads/2019/06/Wireshark-Cheat-Sheet-1.jpg) [Important Cheat Sheet]
 
-frame contains â€œstringâ€ Searches all frames for a specific string
+frame contains “string” Searches all frames for a specific string
 frame.number in {frame#, frame#...} Displays the frames listed 
 ### UFW
 

@@ -7,6 +7,7 @@ draft: false
 tags:
   - Trips
   - Diving
+Related: "[[Trips]]"
 ---
 ---
 Dates: 18-04 to 22-04

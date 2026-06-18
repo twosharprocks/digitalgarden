@@ -66,7 +66,7 @@ Video Lights:
 * [Lift Bag - Ali Express ($36-45)](https://www.aliexpress.com/item/4001101513566.html)
 * [Tech Shorts - 3mm Neoprene ($40-45)](https://www.ebay.com.au/itm/226035866029)
 * [Service Kits - O-rings & Regs](https://scubagaskets.com/)
-* [T-Shirt - â€œDonâ€™t Follow Me I Do Stupid Thingsâ€](https://teechip.com/01cave-diving) 
+* [T-Shirt - “Don’t Follow Me I Do Stupid Things”](https://teechip.com/01cave-diving) 
 * Cylinder rigging 
 	- 7L: 140mm [Kinetic 127-152mm 316 Stainless Steel Hose Clamp](https://www.bunnings.com.au/kinetic-127-152mm-316-stainless-steel-hose-clamp_p0110764)
 	- 12L: 178mm [Kinetic 172 - 194mm 316 Stainless Steel Hose Clamp](https://www.bunnings.com.au/kinetic-172-194mm-316-stainless-steel-hose-clamp_p0110767)

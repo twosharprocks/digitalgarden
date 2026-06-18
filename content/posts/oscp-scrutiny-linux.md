@@ -4,9 +4,9 @@ created: 2026-01-26
 updated: 2025-10-02
 status: seed
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 # Scrutiny
 This whole box felt like a whole lot of enumeration - digging through files to find SSH keys and cleartext passwords. Probably the biggest lesson I learned out of it however was how to setup and run python libraries in a virtual environment! 

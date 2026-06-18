@@ -4,10 +4,10 @@ created: 2024-07-10
 updated: 2025-06-28
 status: reference
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - OSCP
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 Related: [OSCP](/posts/oscp/)
 

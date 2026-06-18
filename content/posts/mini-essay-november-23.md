@@ -18,7 +18,7 @@ Related: "[[Mini Essays]]"
 Related: 
 
 ---
-In early January 2010, I was on Dartmoor doing a survival exercise with the Royal Marine Commandos. I'd been training with them for a few months, and somewhere between the days of trudging through 6ft of soft snow and shivering through the -20Â°C nights, I was bitten by a deer tick. I didn't know at the time that I'd been infected with Lymes disease, but 5 weeks later I was admitted to CTCRM's hospital where I lost 8 kg in 5 days and nearly died.  
+In early January 2010, I was on Dartmoor doing a survival exercise with the Royal Marine Commandos. I'd been training with them for a few months, and somewhere between the days of trudging through 6ft of soft snow and shivering through the -20°C nights, I was bitten by a deer tick. I didn't know at the time that I'd been infected with Lymes disease, but 5 weeks later I was admitted to CTCRM's hospital where I lost 8 kg in 5 days and nearly died.  
   
 I spent the next 10 weeks in the Hunter Company rehabilitation unit; learning to walk, then run, climb, and eventually yomp with a rifle and pack again. When I returned to training I was fitter than I'd ever been, but a week later I heard a recruit say he'd kill unarmed prisoners if he had the chance, and I knew after all I'd seen and done that I couldn't be part of the military any more.  
   
@@ -34,7 +34,7 @@ I'll remember November 23rd because it's the day I kept a 15 year promise to my 
   
 I'm eternally grateful to my Antarctic "Cheesies" - Stacey, Soori, Jeanette, Beth - for being so incredibly open, honest, vulnerable, and supportive throughout such a life-changing trip. You each make the world better by being in it, and I'm so glad I got to share November 23 (and the other 9 days of our expedition) with each of you. I'm also supremely thankful to Nick, Alexis, Vix, Chloe, and the rest of the Oceanwide Expeditions team. Seeing each of you doing what you love - and excitedly sharing it with others in one of the most extraordinary places on Earth - reminded me that every morning I have the choice to wake up and be excited to do what I love, and to be damn good at it.  
   
-A friend underwent some life-changing surgery this year, and said a few days ago that "2026 needs to watch out thoughâ€¦ Iâ€™ve got lost ground to make up for". I think she's right. For me it's been way too easy to let dreams rot, to blame that numbness on being tired from work, to assume that tomorrow will be the same as yesterday, and to keep doing things because it's easier to fit the demands of others instead of being honest about what makes us love being alive. Because I do love being alive, and this expedition to one of the most incredible places on the planet has reminded me that I don't need to hide it.  
+A friend underwent some life-changing surgery this year, and said a few days ago that "2026 needs to watch out though… I’ve got lost ground to make up for". I think she's right. For me it's been way too easy to let dreams rot, to blame that numbness on being tired from work, to assume that tomorrow will be the same as yesterday, and to keep doing things because it's easier to fit the demands of others instead of being honest about what makes us love being alive. Because I do love being alive, and this expedition to one of the most incredible places on the planet has reminded me that I don't need to hide it.  
   
 So 2026 better watch out - I don't know what it'll bring, but I'm excited to figure out the next adventure... and I don't plan on taking another 15 years to complete it.
 

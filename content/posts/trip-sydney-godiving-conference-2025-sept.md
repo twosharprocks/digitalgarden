@@ -6,6 +6,7 @@ status: reference
 draft: false
 tags:
   - Trips
+Related: "[[Trips]]"
 ---
 ---
 Dates: 05-09 to 07-09

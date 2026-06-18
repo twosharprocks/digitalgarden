@@ -4,9 +4,9 @@ created: 2026-01-26
 updated: 2026-01-22
 status: seed
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 # Law
 This one was another absolute slog. Identifying exploits for htmLawed v1.2.5 was very straightforward, and I got a little excited when I saw an RCE exploit had been found this year (2024). 

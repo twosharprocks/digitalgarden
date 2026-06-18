@@ -5,6 +5,7 @@ updated: 2025-12-27
 status: seed
 draft: false
 tags:
+Related:
 ---
 Related: 
 
@@ -34,7 +35,7 @@ From [ChatGPT](https://chatgpt.com/share/694f418b-baa4-8006-a2fa-4f20d81ada37)
 		- Improved landing accuracy
 		- Better air awareness and group discipline
 		- Participation in coached jumps
-	- Outcome: youâ€™re no longer a beginner and can join more complex skydives.
+	- Outcome: you’re no longer a beginner and can join more complex skydives.
 
 - *Certificate C (Advanced jumper)*
 	- Typical requirements:
@@ -44,12 +45,12 @@ From [ChatGPT](https://chatgpt.com/share/694f418b-baa4-8006-a2fa-4f20d81ada37)
 		- Aircraft spotting and exit judgement
 	- Outcome: you are trusted with more autonomy and responsibility in the air.
 
-- *Certificate D (Expert jumper â€“ mandatory for wingsuit)*
+- *Certificate D (Expert jumper – mandatory for wingsuit)*
 	- This is the **gatekeeper certificate** for wingsuiting.
 	- Requirements include:
 		- **200 stable freefall jumps**
 		- **20 witnessed accuracy landings**
-		- Within 5 m of target centre (or 10 Ã— 5 m runway)
+		- Within 5 m of target centre (or 10 × 5 m runway)
 		- Demonstrated ability to guide the aircraft to the exit point
 		- Strong freefall separation and deployment discipline
 	- Outcome: you are legally eligible to begin wingsuit training in Australia.
@@ -70,13 +71,13 @@ From [ChatGPT](https://chatgpt.com/share/694f418b-baa4-8006-a2fa-4f20d81ada37)
 
 You progress only when signed off by your coach and DZSO.
 
-- **Part A** â€“ first wingsuit flights
+- **Part A** – first wingsuit flights
     
     - Solo, conservative flights
         
     - Focus on stability, altitude awareness, safe deployment
         
-- **Part B** â€“ controlled flight and navigation
+- **Part B** – controlled flight and navigation
     
     - Improved glide control
         
@@ -84,7 +85,7 @@ You progress only when signed off by your coach and DZSO.
         
     - Limited, approved wingsuit relative work
         
-- **Part C** â€“ consolidation and competency
+- **Part C** – consolidation and competency
     
     - Demonstrates full situational awareness
         
@@ -114,8 +115,8 @@ You are now **formally wingsuit-qualified** and may fly wingsuits at APF-approve
 ## What this looks like in real numbers
 
 From zero experience, expect approximately:
-- **200â€“220 skydives**  
-- **12â€“24 months** depending on jump frequency
+- **200–220 skydives**  
+- **12–24 months** depending on jump frequency
 - Significant coaching time (especially canopy accuracy and tracking)
 
 Wingsuit flying sits at the **very top** of the sport because it magnifies:

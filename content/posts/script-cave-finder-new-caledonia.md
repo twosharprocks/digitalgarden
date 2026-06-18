@@ -8,8 +8,10 @@ tags:
   - Diving
   - Python
   - Script
+Related: "[[Scripts]]"
+language: Python
 ---
-Related: Expedition Ideas [Exploration](/posts/exploration/), [CaveDB](/posts/cavedb/) [Caving](/posts/caving/) [Scripts](/posts/scripts/)
+Related: [Expedition Ideas](/posts/expedition-ideas/) [Exploration](/posts/exploration/), [CaveDB](/posts/cavedb/) [Caving](/posts/caving/) [Scripts](/posts/scripts/)
 
 ```python
 import requests
@@ -22,17 +24,17 @@ KEYWORDS = [
     'cave', 'hole', 'grotto',               # English
     'grotte', 'caverne', 'trou', 'aven',    # French
     'puits naturel', 'faille',              # Other French karst terms
-    'mu', 'koo', 'kou'                      # Local (Drehu, PaicÃ®)
+    'mu', 'koo', 'kou'                      # Local (Drehu, Paicî)
 ]
 
 TILE_LOCATIONS = [
-    '-21.25,165.3',     # NoumÃ©a
+    '-21.25,165.3',     # Nouméa
     '-20.8,165.1',      # Central Grande Terre
     '-20.2,164.7',      # Northern Grande Terre
-    '-20.9,167.25',     # ÃŽle des Pins
+    '-20.9,167.25',     # Île des Pins
     '-20.6,167.0',      # Lifou
-    '-21.0,167.5',      # MarÃ©
-    '-20.4,166.6'       # OuvÃ©a
+    '-21.0,167.5',      # Maré
+    '-20.4,166.6'       # Ouvéa
 ]
 
 RADIUS = 50000  # Max for Google Maps Places API

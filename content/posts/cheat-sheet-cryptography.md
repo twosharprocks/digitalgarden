@@ -6,6 +6,7 @@ status: seed
 draft: false
 tags:
   - tag1
+Related:
 ---
 Related: [Cyber Security](/posts/cyber-security/)
 
@@ -15,7 +16,7 @@ Related: [Cyber Security](/posts/cyber-security/)
 Goals of Cryptography - P.A.I.N.
 * **Privacy** (Confidentiality) keeps data secure from unauthorized parties
 * **Authentication** is used to confirm the identities of the sender and receiver of data.
-* **Integrity** ensures a message isnâ€™t altered in transit
+* **Integrity** ensures a message isn’t altered in transit
 * **Non-Repudiation** prevents the original sender from denying they were the sender.
 ## Crypto Tools
 * [CyberChef](https://gchq.github.io/CyberChef/)
@@ -28,7 +29,7 @@ Goals of Cryptography - P.A.I.N.
 * [KhanAcademy - Cryptography](https://www.khanacademy.org/computing/computer-science/cryptography)
 * [Transposition Cipher Solver](https://tholman.com/other/transposition/)
 * [Cryptanalysis of numerous classical ciphers](http://practicalcryptography.com/cryptanalysis/)
-* [â€œSecurity Levelâ€](https://en.wikipedia.org/wiki/Security_level) is the strength of the [cryptographic primitive](https://en.wikipedia.org/wiki/Cryptographic_primitive) 
+* [“Security Level”](https://en.wikipedia.org/wiki/Security_level) is the strength of the [cryptographic primitive](https://en.wikipedia.org/wiki/Cryptographic_primitive) 
 ## Terms
 * **Plaintext** - Information in human-readable form.
 * **Ciphertext** - Plaintext message that has been encrypted into an unreadable form
@@ -40,13 +41,13 @@ Goals of Cryptography - P.A.I.N.
 * **Enigma Cipher** - A type of cipher used by Germany in World War II to encrypt messages.
 ## OpenSSL
 * `openssl` Initializes the OpenSSL program.
-* `enc` Stands for â€œencryption.â€
+* `enc` Stands for “encryption.”
 * `-pbkdf2` Specifies the encryption key type.
 * `-nosalt` Specifies that salting will not be applied.
 * `-aes-256-cbc` Is the name of the cipher used
-* `-K` KEY Defines the encryption key (â€œKEYâ€ is the key)
-* `-iv` INITIAL Defines the initialisation vector (IV) (â€œINITIALâ€ is the IV)
-* `-P > key_iv.txt` Prints the key and IV to â€œkey_iv.txtâ€
+* `-K` KEY Defines the encryption key (“KEY” is the key)
+* `-iv` INITIAL Defines the initialisation vector (IV) (“INITIAL” is the IV)
+* `-P > key_iv.txt` Prints the key and IV to “key_iv.txt”
 * Creating a key and IV: `openssl enc -pbkdf2 -nosalt -aes-256-cbc -k mypassword -P > key_and_IV.txt`
 * Encrypting: `openssl enc -pbkdf2 -nosalt -aes-256-cbc -in plaintextmsg.txt -out encodedmsg.txt.enc -base64 -K KEY_HERE -iv IV_HERE`
 * Decrypting: `openssl enc -pbkdf2 -nosalt -aes-256-cbc -in encodedmsg.txt.enc -d -base64 -K KEY_HERE -iv IV_HERE`
@@ -67,7 +68,7 @@ Goals of Cryptography - P.A.I.N.
 * Edit key with adduid, trust, deluid and save: `gpg --edit-key <targetemail>`
 * Delete Public Key of UID (or Public Key listed): `gpg --delete-key <UID or Public Key>`
 * Delete Secret Key of UID (or Public Key listed): `gpg --delete-secret-key <UID or Public Key>`
-* Import someoneâ€™s Public Key: `gpg --import <targetname>.gpg`
+* Import someone’s Public Key: `gpg --import <targetname>.gpg`
 * Export your Public Key: `gpg --output <yourname>.gpg --export <youremail>`
 * Decrypt yourmsg.txt sent by someone using your Public key: `gpg --decrypt yourmsg.txt`
 * Create encrypted secret.txt.enc for target using their Public key and message.txt: `gpg --output secret.txt.enc --encrypt --recipient <target> msg.txt`
@@ -82,7 +83,7 @@ Goals of Cryptography - P.A.I.N.
 * [Illustrated Guide to Cryptographic Hashes](http://www.unixwiz.net/techtips/iguide-crypto-hashes.html) Excellent Resource(http://www.unixwiz.net/techtips/iguide-crypto-hashes.html)
 * [Lifetimes of cryptographic hash functions](https://valerieaurora.org/hash.html)
 * [Wide variety of Hash Functions](https://learn.saylor.org/mod/book/view.php?id=36370&chapterid=20509)
-* [Merkleâ€“DamgÃ¥rd construction](https://justcryptography.com/merkle-damgard-construction/) (Used in MD5, SHA-1 & SHA-2)
+* [Merkle–Damgård construction](https://justcryptography.com/merkle-damgard-construction/) (Used in MD5, SHA-1 & SHA-2)
 * [Breaking Hash Algorithms [Book]](https://en.wikibooks.org/wiki/Cryptography/Breaking_Hash_Algorithms)
 * [Hashing Tools](https://emn178.github.io/online-tools/index.html) 
 * [Hash Toolkit](https://hashtoolkit.com/) 
@@ -110,17 +111,17 @@ Goals of Cryptography - P.A.I.N.
 * Forensic examiners make a hash of a device when it is initially collected for investigation. This hash can be later used to verify that the digital data was not modified during the investigation.
 **Steganography** is the cryptographic technique of placing hidden messages within files, images, or videos.
 ### Using Steghide
-`steghide embed â€“ef alpha.txt â€“cf image.jpeg` embed alpha.txt into image.jpeg
-`steghide extract â€“sf image.jpeg` extract embedded message from image.jpeg
+`steghide embed –ef alpha.txt –cf image.jpeg` embed alpha.txt into image.jpeg
+`steghide extract –sf image.jpeg` extract embedded message from image.jpeg
 ## Cryptographic Attacks
-**Statistical Attack** exploits weakness in cryptographic algorithms by attempting to determine if the â€œrandomâ€ values produced are actually predictable. 
+**Statistical Attack** exploits weakness in cryptographic algorithms by attempting to determine if the “random” values produced are actually predictable. 
 **Frequency analysis** is a method for cracking substitution algorithms in a statistical attack.
 **Brute Force Attack** involves attackers using many passwords or user and password combinations until one eventually works.
 **Birthday Attack** exploits the probability that two separate plaintexts that use the same hash algorithm will produce the same ciphertext (aka **collision** and **hashing collision**)
 * [What is the birthday paradox?](https://justcryptography.com/the-birthday-paradox/)
-* [Merkle-DamgÃ¥rd construction to develop to design collision-resistant cryptographic hash functions](https://justcryptography.com/merkle-damgard-construction/)
-* [Merkleâ€“DamgÃ¥rd construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction) [Wikipedia]
-**Replay Attack** involves an attacker intercepting an encrypted message and replaying it to the receiving party to get access. (eg. detecting a carâ€™s remote locking & rebroadcasting it)
+* [Merkle-Damgård construction to develop to design collision-resistant cryptographic hash functions](https://justcryptography.com/merkle-damgard-construction/)
+* [Merkle–Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction) [Wikipedia]
+**Replay Attack** involves an attacker intercepting an encrypted message and replaying it to the receiving party to get access. (eg. detecting a car’s remote locking & rebroadcasting it)
 **Rainbow tables** are resources that contain precomputed hashes with the associated plaintext passwords. Mitigated by salting stored hashes.
 * [Understanding Rainbow Table Attacks](https://www.geeksforgeeks.org/understanding-rainbow-table-attack/)
 * [What are Salted Password Hashes?](https://www.okta.com/blog/2019/03/what-are-salted-passwords-and-password-hashing/) 

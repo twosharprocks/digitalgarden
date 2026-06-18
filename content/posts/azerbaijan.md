@@ -8,8 +8,10 @@ tags:
   - Diving
   - Expeditions
   - Exploration
+SmartTraveller: www.smartraveller.gov.au/destinations/
+Related: "[[Diving]]"
 ---
-Related: [Diving](/posts/diving/) Expedition Ideas
+Related: [Diving](/posts/diving/) [Expedition Ideas](/posts/expedition-ideas/)
 
 ---
 # About

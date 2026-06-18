@@ -10,7 +10,7 @@ tags:
 Related:
   - "[[Mini Essays]]"
 ---
-Related: [Writing](/posts/writing/) Mars [Mini Essay - Organising a Mars One Analog](/posts/mini-essay-organising-a-mars-one-analog/) [Space](/posts/space/) Website - Mars One preparation List
+Related: [Writing](/posts/writing/) Mars [Mini Essay - Organising a Mars One Analog](/posts/mini-essay-organising-a-mars-one-analog/) [Space](/posts/space/) [Website - Mars One preparation List](/posts/website-mars-one-preparation-list/)
  
 ---
 For some time you've been aware that the shutdown of Mars One in 2020 has left you very adrift and directionless in the world, and one of the questions that's come up repeatedly is what you'd do if Mars One suddenly rebooted. Bas floated the idea when the Ridley Scott documentary was first being discussed, but we've heard nothing on that for well beyond the 12 month exclusivity contract. But the question remains - what would you do if Mars One rebooted tomorrow? 

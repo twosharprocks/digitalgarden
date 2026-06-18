@@ -9,6 +9,9 @@ tags:
   - 101-Things
   - Expeditions
   - Bucket-List
+  - Diving
+SmartTraveller: www.smartraveller.gov.au/destinations/
+Related: "[[Diving]]"
 ---
 Related: [Trip - Antarctica - 2025 Nov](/posts/trip-antarctica-2025-nov/)
 
@@ -61,6 +64,6 @@ Related: [Trip - Antarctica - 2025 Nov](/posts/trip-antarctica-2025-nov/)
 [Insta - View from crows nest](https://www.instagram.com/p/DIqJ5GsoRkC/)
 [Insta - Oceanwide Call of the Polar Regions](https://www.instagram.com/p/DSIBvnfDKtA/) 
 
-[ABC Article - The â€˜joy and the terrorâ€™ of working in Antarctica](https://www.abc.net.au/news/2026-01-15/life-in-antarctica-at-casey-station/106196216) (Working at Casey Station)
+[ABC Article - The ‘joy and the terror’ of working in Antarctica](https://www.abc.net.au/news/2026-01-15/life-in-antarctica-at-casey-station/106196216) (Working at Casey Station)
 
 

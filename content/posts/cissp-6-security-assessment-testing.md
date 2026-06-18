@@ -7,13 +7,14 @@ draft: false
 tags:
   - Cybersecurity
   - CISSP
+Related:
 ---
 Related: [CISSP](/posts/cissp/)
 
 ---
 #### **Learning Objectives**
 
-- Identify and select security assessment approaches, frameworks, and standards.Â 
+- Identify and select security assessment approaches, frameworks, and standards. 
 - Identify ethical and security implications of various control testing methods.
 - Select applicable artifacts to meet compliance requirements (e.g., test results, log files, and other information).
 - Explain the need for data-driven security decision-making.
@@ -159,14 +160,14 @@ Interview and Testing
 	- Given constantly changing threat landscape, test techniques previously reserved for developers-only may be very useful in on-going or special-purpose security assessments
 
 POA&M - Plan of Action and Milestones
-- A structured document that outlines a plan to address identified weaknesses in an organization's security posture, particularly in cybersecurity.Â This document details the specific actions, responsible individuals, and milestones required to remediate vulnerabilities and improve security.Â 
+- A structured document that outlines a plan to address identified weaknesses in an organization's security posture, particularly in cybersecurity. This document details the specific actions, responsible individuals, and milestones required to remediate vulnerabilities and improve security. 
 - Key aspects of a POA&M:
-	- **Identifies Weaknesses:**Â The POA&M starts by listing security weaknesses that need to be addressed.Â 
-	- **Action Plan:**Â It outlines a detailed plan of action with specific steps to remediate those weaknesses.Â 
-	- **Milestones:**Â It defines milestones to track progress and ensure timely completion of the action plan.Â 
-	- **Accountability:**Â It assigns responsibilities to individuals or teams for specific actions.Â 
-	- **Resource Allocation:**Â It details the resources (personnel, technology, funding) required for the remediation efforts.Â 
-	- **Continuous Improvement:**Â The POA&M is a living document, continuously reviewed and updated to reflect changes in the security environment and ongoing improvement efforts.
+	- **Identifies Weaknesses:** The POA&M starts by listing security weaknesses that need to be addressed. 
+	- **Action Plan:** It outlines a detailed plan of action with specific steps to remediate those weaknesses. 
+	- **Milestones:** It defines milestones to track progress and ensure timely completion of the action plan. 
+	- **Accountability:** It assigns responsibilities to individuals or teams for specific actions. 
+	- **Resource Allocation:** It details the resources (personnel, technology, funding) required for the remediation efforts. 
+	- **Continuous Improvement:** The POA&M is a living document, continuously reviewed and updated to reflect changes in the security environment and ongoing improvement efforts.
 
 Security Assessment Standards and Frameworks - NIST Risk Management Framework
 - NIST Risk Management Framework (SP 800-37r2) - Standard for audits and control assessments

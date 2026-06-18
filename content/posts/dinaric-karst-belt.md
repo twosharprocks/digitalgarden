@@ -9,8 +9,9 @@ tags:
   - Interests
   - Trips
   - Expeditions
+Related:
 ---
-Related: [Diving](/posts/diving/) Personal Trips Expedition Ideas
+Related: [Diving](/posts/diving/) Personal Trips [Expedition Ideas](/posts/expedition-ideas/)
 Map: https://www.google.com/maps/place/
 SmartTraveller: www.smartraveller.gov.au/destinations/
 
@@ -22,15 +23,15 @@ The **Dinaric Karst Belt** (aka **Dinaric Alps Karst** or **Dinarides Karst**)
 - Primarily associated with the **Dinaric Alps**, 
 
 Spans the following countries:
-- Slovenia
-- Croatia
+- [Slovenia](/posts/slovenia/)
+- [Croatia](/posts/croatia/)
 - [Bosnia & Herzegovina](/posts/bosnia-herzegovina/)
-- Montenegro
-- Serbia
+- [Montenegro](/posts/montenegro/)
+- [Serbia](/posts/serbia/)
 - [Albania](/posts/albania/)
-- Kosovo
-- North Macedonia - fringe southern and western zones
-- Italy - northeastern edge near the Karst Plateau/Carso region, bordering Slovenia
+- [Kosovo](/posts/kosovo/)
+- [North Macedonia](/posts/north-macedonia/) - fringe southern and western zones
+- [Italy](/posts/italy/) - northeastern edge near the Karst Plateau/Carso region, bordering Slovenia
 # Caves
 - 
 # Trips

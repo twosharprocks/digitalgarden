@@ -4,9 +4,9 @@ created: 2026-01-26
 updated: 2025-10-02
 status: seed
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 # PyLoader
 I'm still shocked at how quick and incredibly easy this was - I went from boot to root in <15mins! 

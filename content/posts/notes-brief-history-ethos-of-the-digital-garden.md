@@ -7,6 +7,7 @@ draft: false
 tags:
   - Knowledge-Management
   - Creativity
+Related:
 ---
 Related: Knowledge-Management Creativity [Time Management](/posts/time-management/) [Digital Garden](/posts/digital-garden/) [Mini Essay - Digital Garden](/posts/mini-essay-digital-garden/)
 Reference: https://maggieappleton.com/garden-history
@@ -32,7 +33,7 @@ Web movement to break free of Squarespace and Wordpress
 
 Six Patterns of Digital Gardens
 1. *Topography over Timelines* - Context through links, publication date is irrelevant
-	- [thematic piles](https://busterbenson.com/piles/)Â ,Â [nested folders](https://tomcritchlow.com/wiki/)Â , tags and filtering functionality,Â [advanced search bars](https://www.christopherbiscardi.com/garden)Â  orÂ [central indexes](https://www.gwern.net/index)
+	- [thematic piles](https://busterbenson.com/piles/) , [nested folders](https://tomcritchlow.com/wiki/) , tags and filtering functionality, [advanced search bars](https://www.christopherbiscardi.com/garden)  or [central indexes](https://www.gwern.net/index)
 	- "The Piles" with links to tags is cool 
 2. *Continuous Growth* - constantly growing, evolving, and changing
 	- Editing is one of the strengths of the web - there is no "final version"
@@ -42,7 +43,7 @@ Six Patterns of Digital Gardens
 	- Blogging evolved in [premium mediocre](https://www.ribbonfarm.com/2017/08/17/the-premium-mediocre-life-of-maya-millennial/) culture (personal brands & SEO-optimised content)
 	- Digital Gardening is both public and intimate, weird and welcoming
 	- Gardening sits between chaos stream (DMs, Group Chats, Tweet threads) and cultivated artefacts (published articles/books)
-	- Include dates IÂ _planted_Â andÂ _last tended_Â a post
+	- Include dates I _planted_ and _last tended_ a post
 	- [Gwern.net includes](https://www.gwern.net/About#confidence-tags): topic tags, start & end date, stage tag (draft/progress/finished), certainty (impossible/unlikely/certain), 1-10 importance tag
 	- Digital Gardening ["Terms of Service"](https://www.swyx.io/digital-garden-tos)
 4. *Playful, Personal, Experimental*
@@ -63,5 +64,5 @@ Losing so much work because I published everything on Patreon and then deleted m
 
 ---
 # Other References
-Be A Property Owner And Not A Renter On The Internet Â· Den Delimarsky
-[The Garden and the Stream: AÂ Technopastoral - Joel Hooks](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/) 
+Be A Property Owner And Not A Renter On The Internet · Den Delimarsky
+[The Garden and the Stream: A Technopastoral - Joel Hooks](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/) 

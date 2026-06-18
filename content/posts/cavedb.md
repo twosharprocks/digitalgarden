@@ -7,6 +7,7 @@ draft: false
 tags:
   - Diving
   - Caving
+Related:
 ---
 Related: [Diving](/posts/diving/) [Exploration](/posts/exploration/) [Cave Regions](/posts/cave-regions/) 
 Reference: [CaveDB Website](https://www.cavedb.net/) 
@@ -31,7 +32,7 @@ Add/Check Original Forestry Data file
 	- Luis Piedra Cave - https://www.youtube.com/watch?v=rP8TJMQ3ZCs & https://www.facebook.com/groups/2376713979319634/posts/4256255204698826
 	- Cuba-Checoslovaquia - https://www.facebook.com/groups/715466411806907/permalink/24599427329650814/
 		- https://www.facebook.com/MinotaurMap/posts/pfbid073KFRaA771LnDWfAdbRc1PLioEDzD9SpEkpmhLfipmnGhxgNf5d49yiw4RLhQpqLl
-	- La Taina Cave (Cueva TaÃ­na)- 18.47443Â° N, -69.780805Â° W
+	- La Taina Cave (Cueva Taína)- 18.47443° N, -69.780805° W
 		- https://www.facebook.com/watch/?v=1366277218394143
 		- http://www.caveatlas.com/systems/system.asp?ID=315&co=DO
 - Malaysia 
@@ -40,12 +41,12 @@ Add/Check Original Forestry Data file
 	- Tok Sheikh - https://www.facebook.com/share/p/1BEkDeKTMj/
 		- https://www.facebook.com/groups/2205123638/?multi_permalinks=10161759769333639&hoisted_section_header_type=recently_seen
 - Portugal
-	- Azores - [Canyon at IlhÃ©us das Cabras](https://www.facebook.com/photographeralexdawson/posts/pfbid0FUbxoLfn6H9hk2nZ5PHPamXZge5dTcsgKYV1FoyoRT2wuoVVn52H6wk7krupAV9Ml)
+	- Azores - [Canyon at Ilhéus das Cabras](https://www.facebook.com/photographeralexdawson/posts/pfbid0FUbxoLfn6H9hk2nZ5PHPamXZge5dTcsgKYV1FoyoRT2wuoVVn52H6wk7krupAV9Ml)
 	- Almonda Springs - https://www.facebook.com/reel/840034755419498/
 - Greece - [Karavomilos Cave / Kefalonia](https://www.facebook.com/maik.GUE.at/posts/pfbid0wypeJvmnFLmES67hDeNgPu88UiiY3EYb9eEBZ4GB2Aa4B2jbeKcS4BqPLhDFaz1Ll)
 - Wombeyan Caves - https://www.facebook.com/campingand4wddownunder/posts/pfbid02wZFPi74Kw3eWJmCGHxiNmDyZoNxj6ewkcq231YffEWZwFKdi77E5P94S7JcCSGUbl
 - Sardinia, Cala Luna - https://www.facebook.com/groups/1113287172033553?multi_permalinks=25605459802389616&hoisted_section_header_type=recently_seen
-- Belgium, Crystal chambers of Lac du RÃ©seau Lemaire https://www.facebook.com/XdeepGear/posts/pfbid02a6UMwLEEDUf4BbXsdcYaA2FTV3YoKG39eoW99eGpWBGCAh8iHwnPkWnpJxePEP4hl
+- Belgium, Crystal chambers of Lac du Réseau Lemaire https://www.facebook.com/XdeepGear/posts/pfbid02a6UMwLEEDUf4BbXsdcYaA2FTV3YoKG39eoW99eGpWBGCAh8iHwnPkWnpJxePEP4hl
 - Brazil
 	- Santana dos Brejos, Bahia, we explored the Gruta do Padre https://www.facebook.com/gabriel.hez.54/posts/pfbid031HbVMJ7AZ8evNnqAKEdkxfaamPX5q7CLq1iRXB5V1QpsnYFkfYfaPLhYYVt9Aqj2l
 	- Brazil Exploration https://www.facebook.com/share/p/1Ck9x6focc/ 
@@ -55,7 +56,7 @@ Add/Check Original Forestry Data file
 - Romania - LUMEA PIERDUTA System, Bihor Mountains https://www.facebook.com/groups/2205123638/?multi_permalinks=10162015644608639&hoisted_section_header_type=recently_seen
 - Laos - Tham Dan Makhia https://www.facebook.com/groups/caversgroup/permalink/10162064871508639/
 - Georgia - Intsra Cave https://www.facebook.com/groups/solocavediving/permalink/871609668731258/
-- Spain, MÃ¡laga - Zarzalones cave https://www.facebook.com/reel/1204780551576935
+- Spain, Málaga - Zarzalones cave https://www.facebook.com/reel/1204780551576935
 - Spain 
 	- Pozo Azul https://www.facebook.com/reel/24673306572347335
 	- Mallorca https://www.facebook.com/watch/?ref=saved&v=1225127086382121

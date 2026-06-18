@@ -4,9 +4,9 @@ created: 2026-01-26
 updated: 2026-01-22
 status: seed
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 # Hub
 This was a bit of an odd one that required more than a few reverts. Identifying that FuguForum was the target (not barracuda as initially suspected) was a nice realisation that I'm picking up on the details that I need to, and that searching for exploits is becoming a more common and clear thing to do. 

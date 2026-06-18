@@ -4,9 +4,9 @@ created: 2026-01-26
 updated: 2026-01-22
 status: seed
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 # Crane
 This was the most straight-forward box so far. While a walkthrough was referenced for some of the exploit syntax, the exploit itself had already been found and tested before hand, so catching the reverse shell was straightforward.

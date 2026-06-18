@@ -8,6 +8,7 @@ tags:
   - Interests
   - Bucket-List
   - Personal
+Related:
 ---
 Related: Personal [Bucket List](/posts/bucket-list/) Personal
 
@@ -31,7 +32,7 @@ Related: Personal [Bucket List](/posts/bucket-list/) Personal
 
 - Equipment
 		- [1 person Tent](https://www.snowys.com.au/atom-hiking-tent), [1 person swag](https://altongoods.com/products/walkabout-swag)
-		- [Sean Conway 1000mile self-supported kit list](https://www.youtube.com/watch?v=Ykiu_pHbK90)Â 
+		- [Sean Conway 1000mile self-supported kit list](https://www.youtube.com/watch?v=Ykiu_pHbK90) 
 		- [Best Backpacking Meal](https://www.outsideonline.com/2334766/simple-yet-delicious-backpacking-meal), [Drop Bear Porridge](https://www.completefoods.co/diy/recipes/drop-bear-porridge), [Egg Burrito](https://www.outsideonline.com/outdoor-adventure/hiking-and-backpacking/backpacking-breakfast-recipe-breakfast-burrito/), [Dehyd Eggs](https://dirtygourmet.com/2015/08/24/eggs-in-the-backcountry/)
 ---
 # Biking
@@ -46,7 +47,7 @@ German travelling through central Asia on pushbike - [Facebook](https://www.face
 [Bicycle travelling through China](https://www.facebook.com/groups/bicycletravellers/permalink/1613852385990208)
 
 Ride/Hike through Patagonia? 
-- Dimitri PoffÃ© - ["The Present" documentary](https://www.youtube.com/watch?v=Mk7XhetRcN0)
+- Dimitri Poffé - ["The Present" documentary](https://www.youtube.com/watch?v=Mk7XhetRcN0)
 # Kayaking
 Follow coastlines?
 - [Facebook - Man who kayaks the world with his dog](https://www.facebook.com/watch/?ref=saved&v=2729183707128802)

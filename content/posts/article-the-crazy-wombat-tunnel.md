@@ -8,6 +8,7 @@ tags:
   - Diving
   - Writing
   - published
+Related:
 ---
 ---
 Note: This was later edited to <1100 words for publication in Scuba Diver Magazine and published as [Article - Unveiling the Crazy Wombat Tunnel](/posts/article-unveiling-the-crazy-wombat-tunnel/)  
@@ -94,4 +95,4 @@ I don't know if our Soggy Wombats team will find a connection to Stinging Nettle
 ---
 # References
 [Article - Unveiling the Crazy Wombat Tunnel](/posts/article-unveiling-the-crazy-wombat-tunnel/)
-The Pines - 5L61 
+[The Pines - 5L61](/posts/the-pines-5l61/) 

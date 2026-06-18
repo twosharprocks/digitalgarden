@@ -5,8 +5,9 @@ updated: 2025-12-19
 status: seed
 draft: false
 tags:
+Related:
 ---
-Related: [Bucket List](/posts/bucket-list/), [Exploration](/posts/exploration/), Expedition Ideas, [Expedition Calendar](/posts/expedition-calendar/) [Kayaking](/posts/kayaking/) [Long Solo](/posts/long-solo/) Trips 
+Related: [Bucket List](/posts/bucket-list/), [Exploration](/posts/exploration/), [Expedition Ideas](/posts/expedition-ideas/), [Expedition Calendar](/posts/expedition-calendar/) [Kayaking](/posts/kayaking/) [Long Solo](/posts/long-solo/) Trips 
 
 ---
 Travel Groups for Ideas

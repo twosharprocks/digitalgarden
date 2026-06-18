@@ -9,6 +9,7 @@ tags:
   - Knowledge-Management
   - Interests
   - Creativity
+Related:
 ---
 Related: Personal Knowledge-Management
 
@@ -19,7 +20,7 @@ Productivity
 - Each evening, plan ahead for the next day. Max 10 things
 - Break down tasks, If it'll take <5 mins then do it right now, 
 - Do what your future self will thank you for, Ask *why* you don't want to do a thing
-- Show up every day - It doesnâ€™t matter how I perform, just show up consistently.
+- Show up every day - It doesn’t matter how I perform, just show up consistently.
 - Practice the basics: Sleep, exercise, diet.
 	- Wake up early: First hours of day to myself, then go to work tired
 	- Wim Hof - 2min cold shower at the start of the day
@@ -34,4 +35,4 @@ Meditation
 
 ---
 # References
-**Zeigarnik Effect**Â - Unfinished tasks occupy more mental space than completed ones.
+**Zeigarnik Effect** - Unfinished tasks occupy more mental space than completed ones.

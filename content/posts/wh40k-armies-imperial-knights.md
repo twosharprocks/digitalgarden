@@ -7,6 +7,7 @@ draft: false
 tags:
   - Interests
   - Personal
+Related:
 ---
 Related: [WH40k](/posts/wh40k/) [WH40K - Armies - Dark Angels](/posts/wh40k-armies-dark-angels/) Personal
 
@@ -14,15 +15,15 @@ Related: [WH40k](/posts/wh40k/) [WH40K - Armies - Dark Angels](/posts/wh40k-armi
 ## 2000-Point Imperial Knights Army List**
 
 ### **Lords of War**
-1. **Knight Castellan** â€“ 600 pts ([DominusÂ chassis](https://www.amazon.com.au/GAMES-WORKSHOP-54-21-Imperial-Knights/dp/B09ZYS4W54/ref=sr_1_4))
+1. **Knight Castellan** – 600 pts ([Dominus chassis](https://www.amazon.com.au/GAMES-WORKSHOP-54-21-Imperial-Knights/dp/B09ZYS4W54/ref=sr_1_4))
     - Equipped with a **Plasma Decimator**, **Volcano Lance**, and support weapons.
-2. **Knight Paladin** â€“ 450 pts ([QuestorisÂ chassis](https://www.amazon.com.au/Warhammer-Imperial-Knights-Knight-Questoris/dp/B0BH3MFKHL/ref=sr_1_2_mod_primary_new))
+2. **Knight Paladin** – 450 pts ([Questoris chassis](https://www.amazon.com.au/Warhammer-Imperial-Knights-Knight-Questoris/dp/B0BH3MFKHL/ref=sr_1_2_mod_primary_new))
     - Armed with a **Rapid-Fire Battle Cannon** and **Thunderstrike Gauntlet**.
-3. **Knight Gallant** â€“ 400 pts ([QuestorisÂ chassis](https://www.amazon.com.au/Warhammer-Imperial-Knights-Knight-Questoris/dp/B0BH3MFKHL/ref=sr_1_2_mod_primary_new))
+3. **Knight Gallant** – 400 pts ([Questoris chassis](https://www.amazon.com.au/Warhammer-Imperial-Knights-Knight-Questoris/dp/B0BH3MFKHL/ref=sr_1_2_mod_primary_new))
     - Focused on melee with a **Reaper Chainsword** and **Thunderstrike Gauntlet**.
-4. **2x Armiger Warglaives** â€“ 300 pts (150 pts each)
+4. **2x Armiger Warglaives** – 300 pts (150 pts each)
     - Each equipped with a **Thermal Spear** and **Reaper Chain-Cleaver**.
-5. **2x Armiger Helverins** â€“ 300 pts (150 pts each)
+5. **2x Armiger Helverins** – 300 pts (150 pts each)
     - Each armed with **Armiger Autocannons** for ranged support.
 **Total Points:** 2050 pts
 ## **Estimated Costs

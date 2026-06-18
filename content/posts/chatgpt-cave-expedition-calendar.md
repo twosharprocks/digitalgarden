@@ -7,6 +7,7 @@ draft: false
 tags:
   - AI-content
   - Expeditions
+Related:
 ---
 Related: Personal
 
@@ -14,66 +15,66 @@ Related: Personal
 Here is a **calendar-friendly roadmap** for unique cave diving expeditions, organized by **optimal travel season**, **logistics window**, and **exploration potential**. It avoids the Americas and prioritizes limestone karst areas with limited or no prior diving.
 
 ---
-### **Q1: January â€“ March**
-#### **Madagascar â€“ Tsingy & Ankarana Karst**
-- **Season:** End of wet season (Febâ€“March) = best chance for flooded systems
+### **Q1: January – March**
+#### **[Madagascar](/posts/madagascar/) – Tsingy & Ankarana Karst**
+- **Season:** End of wet season (Feb–March) = best chance for flooded systems
 - **Focus:** Recon flooded cave sections, resurgences, and seasonal sumps
 - **Notes:** Team should plan logistics in Antsiranana region, with local guides and permits
-#### **Vietnam â€“ Phong Nhaâ€“Ke Bang**
-- **Season:** Dry season begins (ideal river levels, Janâ€“April)
+#### **[Vietnam](/posts/vietnam/) – Phong Nha–Ke Bang**
+- **Season:** Dry season begins (ideal river levels, Jan–April)
 - **Focus:** Dive active river caves, unexplored sumps beyond tourist-accessible caves
 - **Notes:** Coordinate with existing UK/Vietnamese caving teams for access
 
 ---
-### **Q2: April â€“ June**
+### **Q2: April – June**
 
-#### **Sulawesi - Indonesia, Indonesia â€“ Maros-Pangkep Karst**
-- **Season:** Dry season starts (Mayâ€“Sept), ideal for remote access
+#### **[Sulawesi - Indonesia](/posts/sulawesi-indonesia/), Indonesia – Maros-Pangkep Karst**
+- **Season:** Dry season starts (May–Sept), ideal for remote access
 - **Focus:** Tower karst blue holes, resurgence diving
 - **Notes:** Use Makassar as staging base; drone topography for site ID
-#### **Oman â€“ Hajar Mountains**
+#### **[Oman](/posts/oman/) – Hajar Mountains**
 
-- **Season:** Spring runoff in Wadis (Marchâ€“May)
+- **Season:** Spring runoff in Wadis (March–May)
 - **Focus:** Dive ephemeral pools, springs and flooded wadis
 - **Notes:** Permits via local government and collaboration with Omani Cave Exploration Team
 
 ---
-### **Q3: July â€“ September**
+### **Q3: July – September**
 
-#### **Papua New Guinea â€“ Hindenburg Wall & Muller Plateau**
-- **Season:** Dry season (Julyâ€“Oct), best for transport access
+#### **[Papua New Guinea](/posts/papua-new-guinea/) – Hindenburg Wall & Muller Plateau**
+- **Season:** Dry season (July–Oct), best for transport access
 - **Focus:** First cave dives in highland karst, resurgence mapping
 - **Notes:** Requires air transport and village permission; base out of Mt Hagen
 
-#### **[Albania](/posts/albania/)/Kosovo â€“ Dinaric Karst**
+#### **[Albania](/posts/albania/)/[Kosovo](/posts/kosovo/) – Dinaric Karst**
 
-- **Season:** Peak summer (Julyâ€“Sept)
+- **Season:** Peak summer (July–Sept)
 - **Focus:** Survey large river cave entrances and dive resurgences
 - **Notes:** Use connections with Balkan caving clubs; ideal for mobile, vehicle-based expedition
 
-#### **Ethiopia â€“ Sof Omar Cave**
+#### **[Ethiopia](/posts/ethiopia/) – Sof Omar Cave**
 
-- **Season:** After heavy rains (Augâ€“Sept) to find flooded sections
+- **Season:** After heavy rains (Aug–Sept) to find flooded sections
 - **Focus:** Subterranean river diving
 - **Notes:** Work with local universities for permits; ensure water quality and safety testing
 
 ---
-### **Q4: October â€“ December**
-#### **New Caledonia â€“ Karst Highlands**
+### **Q4: October – December**
+#### **[New Caledonia](/posts/new-caledonia/) – Karst Highlands**
 
 - **Season:** Dry season ends Oct; transition period good for access before cyclone season
 - **Focus:** Blue holes and sea-level karst systems
 - **Notes:** Coordinate with local speleological society; short-range island logistics
-#### **TÃ¼rkiye-Turkey â€“ Taurus Mountains**
+#### **[Türkiye-Turkey](/posts/turkiye-turkey/) – Taurus Mountains**
 
-- **Season:** Autumn ideal (Septâ€“Nov) for stable weather in upland karst
+- **Season:** Autumn ideal (Sept–Nov) for stable weather in upland karst
 - **Focus:** Technical diving in alpine sinkholes and resurgences
 - **Notes:** Partner with Turkish cave rescue/caving orgs; permits needed for deep systems
 
 ---
 ### Optional Flex Window (Year-Round)
 
-#### **Vanuatu â€“ Espiritu Santo & Pentecost Islands**
+#### **[Vanuatu](/posts/vanuatu/) – Espiritu Santo & Pentecost Islands**
 
 - **Best Time:** May to October (dry season)
 - **Focus:** Dive submerged karst caves and blue holes

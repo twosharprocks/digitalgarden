@@ -7,12 +7,13 @@ draft: false
 tags:
   - Photogrammetry
   - Diving
+Related:
 ---
 Related: [Photogrammetry](/posts/photogrammetry/) [Diving - Ideas](/posts/diving-ideas/)
 Original: https://chatgpt.com/share/681ea27e-93e4-8006-897c-903639b27d57
 
 ---
-Processing **photogrammetry data in the cloud** is an increasingly practical approach, especially for users with intermittent workloads, tight deadlines, or limited access to high-performance local hardware. Hereâ€™s a breakdown of how it works, the benefits of different cloud providers, relevant **Agisoft Metashape licensing** requirements, and **cost considerations** assuming all processed models are downloaded and stored **locally** after completion.
+Processing **photogrammetry data in the cloud** is an increasingly practical approach, especially for users with intermittent workloads, tight deadlines, or limited access to high-performance local hardware. Here’s a breakdown of how it works, the benefits of different cloud providers, relevant **Agisoft Metashape licensing** requirements, and **cost considerations** assuming all processed models are downloaded and stored **locally** after completion.
 
 ---
 ## **Cloud-Based Photogrammetry: Overview**
@@ -65,7 +66,7 @@ A typical cloud workflow:
 
 - **Use Case 1**: You host the **floating license server on-premises**, and cloud machines check in via VPN or public IP
 - **Use Case 2**: You deploy a **floating license server in the cloud**, on a persistent, low-cost VM (e.g., AWS `t4g.small`)
-- **Use Case 3**: Use a **node-locked license**, but this limits flexibilityâ€”ideal only if you reuse the same VM repeatedly
+- **Use Case 3**: Use a **node-locked license**, but this limits flexibility—ideal only if you reuse the same VM repeatedly
 ---
 
 ## **Workflow Architecture Example (AWS)**
@@ -79,15 +80,15 @@ A typical cloud workflow:
 7. **Terminate EC2 instance** to stop billing
 
 ---
-## **Cost Estimate (AUD) â€“ Example Job**
+## **Cost Estimate (AUD) – Example Job**
 
 **Job**: 500 images, 24 MP each, generating dense point cloud, mesh, and texture  
 **Instance**: AWS `g5.4xlarge` (~$3.90 AUD/hour on-demand)  
 **Storage**: 200 GB EBS + 50 GB S3 = ~$30/month (if retained)  
-**Processing Time**: ~8â€“12 hours  
+**Processing Time**: ~8–12 hours  
 **Total Cost**: ~$50 AUD per job (down to ~$20 with spot pricing)
 
-If you process **weekly**, annual costs would be ~$2500â€“$5000 AUD.
+If you process **weekly**, annual costs would be ~$2500–$5000 AUD.
 
 ---
 ## **Benefits of Cloud-Based Processing**
@@ -110,14 +111,14 @@ If you process **weekly**, annual costs would be ~$2500â€“$5000 AUD.
 - **Data Upload Speed**: Uploading large datasets can be slow from rural or limited-bandwidth locations
 - **License Management**: Floating licenses are best, but require setup
 - **Security**: Sensitive data should be encrypted at rest and in transit
-- **Cost Tracking**: Itâ€™s easy to forget to terminate cloud instancesâ€”use automation or billing alerts
+- **Cost Tracking**: It’s easy to forget to terminate cloud instances—use automation or billing alerts
 
 ---
 ## **Conclusion**
-**Cloud-based photogrammetry** using Metashape Pro with GPU-accelerated instances offers powerful, scalable, and cost-effective processingâ€”especially when:
+**Cloud-based photogrammetry** using Metashape Pro with GPU-accelerated instances offers powerful, scalable, and cost-effective processing—especially when:
 
 - You have sporadic or large workloads
-- You donâ€™t want to invest heavily in hardware
+- You don’t want to invest heavily in hardware
 - You plan to store outputs locally after processing
 
 **AWS** offers the best balance of power, pricing, and flexibility, but Azure and GCP are viable depending on your workflow preferences. For most users, a **[Metashape Professional floating license](https://www.agisoft.com/features/professional-edition/)** is the best choice for cloud deployment.

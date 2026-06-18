@@ -6,6 +6,7 @@ status: seed
 draft: false
 tags:
   - Trips
+Related: "[[Trips]]"
 ---
 ---
 # Trip Log
@@ -31,12 +32,12 @@ tags:
 	- [Trek & Ice Caves](https://www.getyourguide.com/ushuaia-l1851/ushuaiatrekking-glaciar-ice-caves-wlunch-and-transfer-t1063453/?ranking_uuid=b9f792dd-bbbb-4f5e-a37a-ff9830be48cf)?
 - 2025-11-16 Sun: Ushuaia
 	- [Ushuaia Divers](https://www.tripadvisor.com.au/Attraction_Review-g312855-d3953147-Reviews-Ushuaia_Divers-Ushuaia_Province_of_Tierra_del_Fuego_Patagonia.html)
-	- 0900 Meet at Club NÃ¡utico AFASyN
+	- 0900 Meet at Club Náutico AFASyN
 		- Cancelled due to weather
 = 
 - 2025-11-17 Mon: Day 1: Embarkation
 	- 1000 Check-out Antarctica Hostel
-	- 0800-1130: Luggage drop @ [Avenida MaipÃº 1210](https://maps.app.goo.gl/rmyofbPieayzxH2Y9)
+	- 0800-1130: Luggage drop @ [Avenida Maipú 1210](https://maps.app.goo.gl/rmyofbPieayzxH2Y9)
 	- 1600-1700: Embarkation @ [Av. Prefectura Naval Argentina 470](https://maps.app.goo.gl/BZheT9vAj4D4Zza4A)
 		- [Antarctica HDS22-25 - Discovery and learning voyage](https://oceanwide-expeditions.com/antarctica/cruises/hds22-25-antarctica-discovery-and-learning-voyage) 
 		- Booking Number #181959143

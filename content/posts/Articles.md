@@ -6,6 +6,7 @@ status: seed
 draft: false
 tags:
   - tag1
+Related:
 ---
 ---
 # Published

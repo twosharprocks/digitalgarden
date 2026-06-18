@@ -6,6 +6,7 @@ status: seed
 draft: false
 tags:
   - Cybersecurity
+Related:
 ---
 Related: [Cyber Security](/posts/cyber-security/)
 
@@ -37,7 +38,7 @@ Related: [Cyber Security](/posts/cyber-security/)
 * **Threat**: An actor that might exploit a vulnerability
 * **Threat assessment**: A structured process of identifying the risks posed to a group or system.
 * **Threat Modelling**: Determining which attacks an organization is most likely to experience, who is most likely to launch them, and what actions can be done to prevent them.
-* **Vulnerability**: is an aspect of a business that can be exploited to compromise a systemâ€™s CIA Triad
+* **Vulnerability**: is an aspect of a business that can be exploited to compromise a system’s CIA Triad
 * **Wireless Access Point (WAP):** Networking hardware device that connects a wireless network to a wired network.
 * **WiFi:** The type of wireless technology that uses radio waves to provide wireless internet and network connections.
 

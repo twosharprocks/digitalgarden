@@ -6,6 +6,7 @@ status: seed
 draft: false
 tags:
   - Diving
+Related:
 ---
 Related: [Diving - Gear](/posts/diving-gear/)
 

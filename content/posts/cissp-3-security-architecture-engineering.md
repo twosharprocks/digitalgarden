@@ -7,16 +7,17 @@ draft: false
 tags:
   - Cybersecurity
   - CISSP
+Related:
 ---
 Related: [CISSP](/posts/cissp/)
 
 ---
 #### **Learning Objectives**
 
-- Explain the significance of basic secure design principles.â€‹
-- Compare and contrast the key security characteristics of security models.â€‹
-- Explain the hardware foundations of security.â€‹
-- Apply security principles to different information systems and their environments.â€‹
+- Explain the significance of basic secure design principles.​
+- Compare and contrast the key security characteristics of security models.​
+- Explain the hardware foundations of security.​
+- Apply security principles to different information systems and their environments.​
 - Determine the best application of cryptographic approaches to solving organizational information security needs.
 - Manage the use of certificates and digital signatures to meet organizational information security needs.
 - Apply different cryptographic management solutions to meet organizational information security needs.
@@ -28,7 +29,7 @@ Related: [CISSP](/posts/cissp/)
 
 |   |   |   |
 |---|---|---|
-|- Secure Design PrinciplesÂ Â Â   <br>- Security ModelsÂ Â Â   <br>- Controls & Systems Security RequirementsÂ Â Â   <br>- Security Capabilities|- Vulnerabilities of Security Architectures & DesignsÂ Â Â Â   <br>- Cryptographic SolutionsÂ Â Â   <br>-Â Cryptanalytic AttacksÂ Â Â   <br>- Secure Site & Facility Design|- Site & Facility Security ControlsÂ Â Â   <br>- Information System Life Cycle|
+|- Secure Design Principles     <br>- Security Models     <br>- Controls & Systems Security Requirements     <br>- Security Capabilities|- Vulnerabilities of Security Architectures & Designs      <br>- Cryptographic Solutions     <br>- Cryptanalytic Attacks     <br>- Secure Site & Facility Design|- Site & Facility Security Controls     <br>- Information System Life Cycle|
 
 ---
 Operationalising Risk Management

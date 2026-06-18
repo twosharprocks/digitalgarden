@@ -6,6 +6,7 @@ status: seed
 draft: false
 tags:
   - tag1
+Related:
 ---
 Related: [Cyber Security](/posts/cyber-security/), [Cyber Glossary](/posts/cyber-glossary/), [Cyber - Job Domains & Interview Prep](/posts/cyber-job-domains-interview-prep/) Hacking - Tools & Techniques [Pentesting](/posts/pentesting/) Recent Cyber Incident Analysis [CISSP](/posts/cissp/)
 
@@ -102,7 +103,7 @@ A repository of useful resources for cybersecurity professionals
     * [Pwned Websites](https://haveibeenpwned.com/PwnedWebsites)
     * [Domain Search](https://haveibeenpwned.com/DomainSearch)
     * [Password Checker](https://haveibeenpwned.com/Passwords)
-* [â€œCyberSecureâ€ rating label generator](https://cybersecure.eigenmagic.com/)
+* [“CyberSecure” rating label generator](https://cybersecure.eigenmagic.com/)
 ## Random Ideas
 * [Awesome-Hacking](https://github.com/rohankumardubey/awesome-hacking) - Huge list of hacking tools for hackers, pentesters & security researchers
 * Play with BadUSB

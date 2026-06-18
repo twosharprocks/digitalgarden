@@ -6,6 +6,7 @@ status: seed
 draft: false
 tags:
   - Knowledge-Management
+Related:
 ---
 Related: Knowledge-Management
 
@@ -36,5 +37,5 @@ Community Plugin - [Smart Connections](https://www.youtube.com/watch?v=ce2PVHyuR
 # References
 - https://youtu.be/STIIO_qUyJs?si=IWBOGavP8eNUJR2B
 - Zettelkasten Note-taking https://www.youtube.com/watch?v=00LKsV8h6zY
-- [I started using Obsidian with Gemini and itâ€™s been a game-changer](https://www.xda-developers.com/started-using-obsidian-with-gemini-its-been-game-changer/)
+- [I started using Obsidian with Gemini and it’s been a game-changer](https://www.xda-developers.com/started-using-obsidian-with-gemini-its-been-game-changer/)
 

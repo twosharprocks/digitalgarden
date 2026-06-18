@@ -6,8 +6,9 @@ status: seed
 draft: false
 tags:
   - Diving
+Related:
 ---
-Related: [Diving](/posts/diving/) Expedition Ideas
+Related: [Diving](/posts/diving/) [Expedition Ideas](/posts/expedition-ideas/)
 
 ---
 # About

@@ -8,6 +8,7 @@ tags:
   - Books
   - Interests
   - Personal
+Related:
 ---
 Related: Personal, 2025 - Media 2026 - Media [Books](/posts/books/)
 
@@ -35,18 +36,18 @@ SciFi
 - [ ] Story of Your Life (Ted Chiang)
 - [ ] The Bohr Maker (Linda Nagata)
 - [ ] [Audition](https://www.amazon.com.au/gp/aw/d/B0CL7KFDDQ/ref=tmm_kin_swatch_0#) (Pip Adam)
-- [ ]  [A Wrinkle in Time by Madeleine Lâ€™Engle](https://amzn.to/3FXOjVm)Â Â 
+- [ ]  [A Wrinkle in Time by Madeleine L’Engle](https://amzn.to/3FXOjVm)  
 - [ ] [The Time Machine by H. G. Wells**](https://amzn.to/41t7dfW)
 - [Oryx and Crake by Margaret Atwood](https://amzn.to/41pP82Z)
-- [Childhoodâ€™s End by Arthur C. Clarke](https://amzn.to/47pVjqn)
+- [Childhood’s End by Arthur C. Clarke](https://amzn.to/47pVjqn)
 - [**Do Androids Dream of Electric Sheep? by Philip K. Dick**](https://amzn.to/3xUTzoh)
 - [Station Eleven by Emily St. John Mandel](https://amzn.to/3QjBiva)
 - [The Left Hand of Darkness by Ursula K. Le Guin](https://amzn.to/3YhmY8C)
 
 Other 
 - [ ] [The Man Who Quit Money](https://www.amazon.com.au/dp/1594485690?ref_=mr_referred_us_au_au) (Mark Sundeen)
-- [ ] [Engagement](https://www.amazon.com.au/Engagement-Penguin-Classics-Gun-Britt-Sundstr%C3%B6m-ebook/dp/B0DKHPFRJ9/ref=tmm_kin_swatch_0) (Gun-Britt SundstrÃ¶m)
-- [ ] GÃ¶del, Escher, Bach: An Eternal Golden Braid (Douglas Hofstadter)
+- [ ] [Engagement](https://www.amazon.com.au/Engagement-Penguin-Classics-Gun-Britt-Sundstr%C3%B6m-ebook/dp/B0DKHPFRJ9/ref=tmm_kin_swatch_0) (Gun-Britt Sundström)
+- [ ] Gödel, Escher, Bach: An Eternal Golden Braid (Douglas Hofstadter)
 - [ ] [The Cathedral & the Bazaar](https://www.amazon.com/Cathedral-Bazaar-Musings-Accidental-Revolutionary-ebook/dp/B0026OR3LM/ref=tmm_kin_swatch_0) 
 - [ ] Peter Freuchen's memoirs
 - [ ] [The Age Of Unreason (Charles Handy)](https://www.amazon.com.au/dp/B008PUF264/?coliid=I3EVKW0Q6MBY1Y&colid=2KQ2PQSAF3AE4&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it)

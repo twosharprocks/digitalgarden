@@ -6,12 +6,13 @@ status: seed
 draft: false
 tags:
   - Diving
+Related:
 ---
-Related: [Diving](/posts/diving/) Expedition Ideas [Dinaric Karst Belt](/posts/dinaric-karst-belt/)
+Related: [Diving](/posts/diving/) [Expedition Ideas](/posts/expedition-ideas/) [Dinaric Karst Belt](/posts/dinaric-karst-belt/)
 
 ---
 # About
- Crete, Greece, [Albania](/posts/albania/), North Macedonia]], Kosovo, Montenegro, Serbia, [Bosnia & Herzegovina](/posts/bosnia-herzegovina/), Croatia, Slovenia, Hungary, Romania
+ [Crete](/posts/crete/), [Greece](/posts/greece/), [Albania](/posts/albania/), [North Macedonia](/posts/north-macedonia/)]], [Kosovo](/posts/kosovo/), [Montenegro](/posts/montenegro/), [Serbia](/posts/serbia/), [Bosnia & Herzegovina](/posts/bosnia-herzegovina/), [Croatia](/posts/croatia/), [Slovenia](/posts/slovenia/), [Hungary](/posts/hungary/), [Romania](/posts/romania/)
 
 - **Balkans & East Med** Apr-Oct (Ideal May/Jun & Sep/Oct): 
 	- **Take Lewy Sep 2026?**

@@ -1,12 +1,13 @@
 ---
 title: 50 Goals (Old Version)
 created: 2025-10-28
-updated: 2025-10-30
+updated: 2026-06-18
 status: seed
 draft: false
 tags:
   - 101-Things
   - Bucket-List
+Related: "[[Bucket List]]"
 ---
 Related: [101 Things - Complete List](/posts/101-things-complete-list/) [101 Things - To Do](/posts/101-things-to-do/)
 

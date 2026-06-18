@@ -8,8 +8,10 @@ tags:
   - Diving
   - Python
   - Script
+Related: "[[Scripts]]"
+language: Python
 ---
-Related: Vanuatu, Expedition Ideas [Exploration](/posts/exploration/), [CaveDB](/posts/cavedb/)
+Related: [Vanuatu](/posts/vanuatu/), [Expedition Ideas](/posts/expedition-ideas/) [Exploration](/posts/exploration/), [CaveDB](/posts/cavedb/)
 
 ```python
 import requests

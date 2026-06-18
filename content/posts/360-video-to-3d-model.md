@@ -7,6 +7,7 @@ draft: false
 tags:
   - Photogrammetry
   - Diving
+Related:
 ---
 Related: [Photogrammetry - Will's Notes](/posts/photogrammetry-will-s-notes/) [Photogrammetry](/posts/photogrammetry/) [Photogrammetry - Processing](/posts/photogrammetry-processing/)
 Reference: https://axel-busch.medium.com/how-to-quickly-create-a-3d-model-from-360-underwater-video-in-1h-or-less-b45b1cf29655
@@ -27,9 +28,9 @@ Recommended 360 degree camera settings for photogrammetry:
 -   Image Quality: Highest quality.
 -   White balance: Manual/fixed, not automatic.
 -   Exposure: Automatic (generally).
--   max ISO: 200â€“400 for small sensors, up to 1600 for 1" or larger.
+-   max ISO: 200–400 for small sensors, up to 1600 for 1" or larger.
 -   RAW Images: Not needed (generally).
--   Sharpening: Off or â€˜softâ€™.
+-   Sharpening: Off or ‘soft’.
 -   Stabilisation: On.
 -   Direction lock: On.
 
@@ -40,23 +41,23 @@ Rules of thumb for buying a photogrammetry computer:
 
 There are five general steps involved in creating a 3D model through photogrammetry:
 
-1.  **Import your video/photos** â€” videos will be converted to photos.
-2.  **Align photos** â€” estimate the camera position and orientation at time of capture and match key points across images.
-3.  **Build the point cloud** â€” points in 3D space that represent points on the surface of the model.
-4.  **Build the 3D Model** â€” a triangle mesh model that represents the external surface of the model.
-5.  **Create textures** â€” a texture contains the colour information for every surface area of the model.
+1.  **Import your video/photos** — videos will be converted to photos.
+2.  **Align photos** — estimate the camera position and orientation at time of capture and match key points across images.
+3.  **Build the point cloud** — points in 3D space that represent points on the surface of the model.
+4.  **Build the 3D Model** — a triangle mesh model that represents the external surface of the model.
+5.  **Create textures** — a texture contains the colour information for every surface area of the model.
 
 ## Step 1: Import video or photos
-- For Video: **File -> Import -> Video â€¦**
+- For Video: **File -> Import -> Video …**
 	- Set frame step = 1 photo per second (eg. 24fps = frame step of 24)
-- For Photos: **Workflow -> Add Photosâ€¦**
+- For Photos: **Workflow -> Add Photos…**
 After importing save the project by clicking on the menu item **File -> Save.**
 ## Step 2: Align photos
 
 Tell Metashape our images are spherical panoramas.
 1.  Click on the menu item **Tools -> Camera Calibration**
-2.  Then then the parameter â€œCamera typeâ€ to â€œ**Spherical**â€ and press \[OK\].
-3.  Now click on the menu item **Workflow -> Align Photosâ€¦**
+2.  Then then the parameter “Camera type” to “**Spherical**” and press \[OK\].
+3.  Now click on the menu item **Workflow -> Align Photos…**
 
 Set the following parameters in the Align Photos dialog:
 **General:**
@@ -71,7 +72,7 @@ Set the following parameters in the Align Photos dialog:
 Positions of the cameras are displayed as spheres. 
 This can be toggled with: **Model -> Show/Hide Items -> Show Cameras**
 ## Step 3: Build the point cloud
--   **Workflow -> Build Point Cloudâ€¦**
+-   **Workflow -> Build Point Cloud…**
 
 Then set the following parameters in the Build Point Cloud dialog:
 **General:**
@@ -91,8 +92,8 @@ Metashape supports three reconstruction methods:
 2. **Depth-maps**: Slow reconstruction of a high-quality model using the GPU.
 3. Point-cloud: Very slow reconstruction of a high-quality model based on the previously reconstructed or imported point cloud.
 
-â€œDepth-mapsâ€ is recommended unless the point cloud was edited prior to model reconstruction.
-To start the reconstruction: **Workflow -> Build Modelâ€¦**
+“Depth-maps” is recommended unless the point cloud was edited prior to model reconstruction.
+To start the reconstruction: **Workflow -> Build Model…**
 
 Set the following parameters in the Build Model dialog:
 **General:**
@@ -107,7 +108,7 @@ Set the following parameters in the Build Model dialog:
 -   Reuse depth maps: On
 -   **Press \[OK\]**
 
-To save a new model, leave the parameter â€œReplace default modelâ€ unchecked.
+To save a new model, leave the parameter “Replace default model” unchecked.
 
 When **interpolation** is used, Metashape will try to fill holes. This is usually desired and the default setting. These extra surfaces can later always be deleted easily if they are unwanted.
 
@@ -120,7 +121,7 @@ The second model is more suitable to use for online sharing or in a game engine 
 Models with a lower face count have less details, but you can use the high-resolution model to create a [normal map texture](https://en.wikipedia.org/wiki/Normal_mapping) which can recover that detail very well when viewing. 
 ## Step 5: Build textures
 
-To build textures: **Workflow -> Build Textureâ€¦**
+To build textures: **Workflow -> Build Texture…**
 Set the following parameters in the Build Texture dialog to build the **Diffuse map**:
 **General:**
 -   Texture type: Diffuse map
@@ -143,7 +144,7 @@ Modern devices can easily handle a 8192 texture size.
 For larger models, one 8192 texture is not enough for adequate detail - generate 4196 x 8, which is the same as 8192 x 2.
 
 **Creating the normal map**
-The normal map adds detail to the low-polygon model by extracting â€œbumpinessâ€ information from a higher-detail model.
+The normal map adds detail to the low-polygon model by extracting “bumpiness” information from a higher-detail model.
 
 Set the following parameters in the Build Texture dialog to build the **Normal map**:
 -   Texture type: Normal map

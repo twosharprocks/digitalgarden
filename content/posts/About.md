@@ -5,6 +5,7 @@ updated: 2026-03-24
 status: seed
 draft: false
 tags:
+Related:
 ---
 Welcome to the [Digital Garden](/posts/digital-garden/) of [Josh Richards](https://joshrichards.com.au/)
 
@@ -18,13 +19,13 @@ Occasionally you'll see #reference or #published - these are things I no longer 
 
 Like any good garden, there are a thousand ways around and through it. But to help you get started, the broad topics are;
 
-- ***[Writing](/posts/writing/)*** âœï¸ - [Mini Essays](/posts/mini-essays/), [Books](/posts/books/) I'm writing, published [Articles](/posts/articles/), and all sorts of random ideas and notes.
+- ***[Writing](/posts/writing/)*** ✍️ - [Mini Essays](/posts/mini-essays/), [Books](/posts/books/) I'm writing, published [Articles](/posts/articles/), and all sorts of random ideas and notes.
 
-- ***[Diving](/posts/diving/)*** ðŸ¤¿ - [Cave Regions](/posts/cave-regions/) [Diving - Gear](/posts/diving-gear/), [Diving - Ideas](/posts/diving-ideas/), [Photogrammetry](/posts/photogrammetry/), [Caving](/posts/caving/), and anything [Exploration](/posts/exploration/) related
+- ***[Diving](/posts/diving/)*** 🤿 - [Cave Regions](/posts/cave-regions/) [Diving - Gear](/posts/diving-gear/), [Diving - Ideas](/posts/diving-ideas/), [Photogrammetry](/posts/photogrammetry/), [Caving](/posts/caving/), and anything [Exploration](/posts/exploration/) related
 
-- ***[Cyber Security](/posts/cyber-security/)*** ðŸ’» - Study notes for [OSCP](/posts/oscp/) and [CISSP](/posts/cissp/), [Cybersecurity Resources](/posts/cybersecurity-resources/) like [Cheat Sheet - Windows](/posts/cheat-sheet-windows/) & [Cheat Sheet - Linux](/posts/cheat-sheet-linux/), as well as an evolving guide to [Threat Modelling](/posts/threat-modelling/) & [Threat Actors](/posts/threat-actors/)
+- ***[Cyber Security](/posts/cyber-security/)*** 💻 - Study notes for [OSCP](/posts/oscp/) and [CISSP](/posts/cissp/), [Cybersecurity Resources](/posts/cybersecurity-resources/) like [Cheat Sheet - Windows](/posts/cheat-sheet-windows/) & [Cheat Sheet - Linux](/posts/cheat-sheet-linux/), as well as an evolving guide to [Threat Modelling](/posts/threat-modelling/) & [Threat Actors](/posts/threat-actors/)
 
-- ***[Physics](/posts/physics/)*** ðŸš€ - Cosmology, Quantum Computing, Information Theory and figuring out how to talk to ET
+- ***[Physics](/posts/physics/)*** 🚀 - Cosmology, Quantum Computing, Information Theory and figuring out how to talk to ET
 
 - ***Personal*** - Things like my [Bucket List](/posts/bucket-list/), Personal, and everything I've read/watched/listened to in 2025 - Media
 

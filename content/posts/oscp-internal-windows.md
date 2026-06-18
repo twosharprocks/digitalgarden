@@ -4,9 +4,9 @@ created: 2026-01-26
 updated: 2026-01-22
 status: seed
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 # Internal
 These Windows boxes are getting more and more frustrating. This one I had four separate walkthroughs available and 5 different exploits I could run, and in the end I had to resort to Metasploit to catch a meterpreter shell. Even the Meterpreter shell was a pain in the ass - once I was in I knew I could navigate directly to the Administrator's desktop, but I had to type in each directory change one-by-one rather than going directly to the proof file.

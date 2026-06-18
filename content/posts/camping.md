@@ -6,6 +6,7 @@ status: seed
 draft: false
 tags:
   - Trips
+Related:
 ---
 Related: Trips [Diving](/posts/diving/) [Caving](/posts/caving/)
 

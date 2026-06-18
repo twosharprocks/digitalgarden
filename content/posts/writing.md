@@ -8,6 +8,7 @@ tags:
   - Writing
   - Books
   - Mini-Essay
+Related:
 ---
 Related: [Books](/posts/books/) [Mini Essays](/posts/mini-essays/) Mini Essays - Ideas Writing - Quotes
 
@@ -72,25 +73,25 @@ Writing Environment
 - "It is not the years in your life but the life in your years that counts." - William Feather
 
 ## [Fast Book Drafting](https://onehourbookblueprint.com/)
-**Step #1: Define who your book is for**Â (10 min)
+**Step #1: Define who your book is for** (10 min)
 Answer the three questions every book needs before a single chapter is named: who is this for, what will it do for them, and why are you the right person to write it. Most authors skip this. It's why most books don't get finished.  
-- *Deliverable: A Reader + Promise Statement â€” the north star you'll use from the first word to the final page.
+- *Deliverable: A Reader + Promise Statement — the north star you'll use from the first word to the final page.
 
-**Step #2: Dial in your book's big idea**Â (10 min)
-Every great book has one central argument â€” one thesis that every chapter serves. This phase extracts your single most powerful, most differentiated idea and turns it into a book premise sharp enough to build a career around.
-- *Deliverable: A one-sentence book premise â€” the spine everything else attaches to.
+**Step #2: Dial in your book's big idea** (10 min)
+Every great book has one central argument — one thesis that every chapter serves. This phase extracts your single most powerful, most differentiated idea and turns it into a book premise sharp enough to build a career around.
+- *Deliverable: A one-sentence book premise — the spine everything else attaches to.
 
-**Step #3: Outline your book, chapter by chapter**Â (20 min)
-Choose your book type â€” How-To, Thought Leadership, or Story-Driven â€” and apply the matching chapter template. Each template has 8â€“10 chapter slots with fill-in prompts. By the end, you have a complete chapter-by-chapter map of your entire book.
-- *Deliverable: A complete 8â€“12 chapter outline with a working title and description for each chapter.
+**Step #3: Outline your book, chapter by chapter** (20 min)
+Choose your book type — How-To, Thought Leadership, or Story-Driven — and apply the matching chapter template. Each template has 8–10 chapter slots with fill-in prompts. By the end, you have a complete chapter-by-chapter map of your entire book.
+- *Deliverable: A complete 8–12 chapter outline with a working title and description for each chapter.
 
-**Step #4: Pick a title that makes people stop scrolling**Â (10 min)
+**Step #4: Pick a title that makes people stop scrolling** (10 min)
 A bad title kills a great book. This step gives you a three-part title formula, five fill-in templates, and a four-question test to evaluate your options.
-- *Deliverable: Three working title options â€” plus a formula for generating more.
+- *Deliverable: Three working title options — plus a formula for generating more.
 
-**Step #5: Put it all together into your One-Page Book Blueprint**Â (10 min)
-Everything from the previous four steps â€” reader, premise, chapter map, title â€” consolidated into one single-page Book Blueprint you can start writing from today.
-- *Deliverable: The completed One-Hour Book Blueprint â€” your book's foundation, on one page.
+**Step #5: Put it all together into your One-Page Book Blueprint** (10 min)
+Everything from the previous four steps — reader, premise, chapter map, title — consolidated into one single-page Book Blueprint you can start writing from today.
+- *Deliverable: The completed One-Hour Book Blueprint — your book's foundation, on one page.
 
 ---
 [Writing](/posts/writing/) & Develop [Books](/posts/books/)
@@ -123,7 +124,7 @@ Soggy Wombats Website (& CEGSA/ASF articles/papers)
 Publish articles/papers through ASF
 - Write papers with [Lyx](https://www.lyx.org/)
 - Cave Cricket (General News - Quarterly)
-	- Our next issue will be circulated in early June, with content due in late May. Weâ€™d love to hear news from your club. Be in touch atÂ asf.caves.thecricket@gmail.com
+	- Our next issue will be circulated in early June, with content due in late May. We’d love to hear news from your club. Be in touch at asf.caves.thecricket@gmail.com
 - [Caves Australia](https://www.facebook.com/groups/ASFgroup/permalink/2288512948253283) 
 	- Deadline end of October
 - Helictite (Research - Annual)
@@ -145,7 +146,7 @@ Cyber
 	- Fill in and practice your most important sentence.  
 	- Start building your [Philosophy](/posts/philosophy/) file  
 	- Get really good with AI tools (fabric, chatgpt, etc.)  
-	- Start writing - even if you think you donâ€™t have anything to say
+	- Start writing - even if you think you don’t have anything to say
 # General
 How to hack cave diving in Australia? Why do you want to?
 - Hack: Disassociate, reinvent, seek non-reputation, anarchist, data collection, sharing
@@ -153,30 +154,30 @@ How to hack cave diving in Australia? Why do you want to?
 - How do you keep diving if suspended/expelled?
 - Landowners are central - how to hack the relationship?
 
-Comedy - What worked? What didn't? What youâ€™d do again?
+Comedy - What worked? What didn't? What you’d do again?
 - What is special about "When the yogurt took over"? Or Man in a Monkey Suit?
 	- I Like and WANT to be weird
 	- Not interested in community/organisations/tribes
-	- Fuck community - if Facebook is trying to sell it, itâ€™s probably evil
+	- Fuck community - if Facebook is trying to sell it, it’s probably evil
 - Find cool shit and blend it in ridiculous ways (but treated it seriously)
 	- Werewolf submarine captain ([Instagram](https://www.instagram.com/p/CecrLGfIAAc/))
-	- Worm driving an apple carÂ 
+	- Worm driving an apple car 
 
 [Work](/posts/work/)
 - Write about work, what you need from it, and what you'll look for if/when you start applying for jobs
 - Increased skill & Resources focused in smaller teams (AI-support?)
 - Self reflection, trust, Resilient, Adaptable, Creative
 - Boom of Zoom, Netflix, Uber Eats
-- E-Commerce, Remote Work, AutomationÂ 
+- E-Commerce, Remote Work, Automation 
 - Offices are stupid - reflect lack of trust in employee, took global pandemic to change and now bosses want people back (to justify their existence)
 - What "cant" be disrupted? Bullshit about programmers/software engineers - Get AI writing code
 - NFTs & Crypto - people making their own mints/printing presses
 - Cars/Travel
 - Why do we work?
-	- Like torture in interrogation, itâ€™s shit if itâ€™s forced.
+	- Like torture in interrogation, it’s shit if it’s forced.
 	- Impact on innovation & creativity
 	- Should have shorter hours & greater wealth => Wealth inequality
-	- "Opportunity" - Stephen Jay Gould on Einsteinâ€™s brain "equal talent lived & died in cotton fields & sweatshops"
+	- "Opportunity" - Stephen Jay Gould on Einstein’s brain "equal talent lived & died in cotton fields & sweatshops"
 
 # Sci-Fi?
 - Getting excited about random observations in the asteroid belt, and the idea of developing that into a sci-fi book like Greg Bear's "Eon" 

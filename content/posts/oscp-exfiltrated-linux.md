@@ -4,9 +4,9 @@ created: 2026-01-26
 updated: 2026-01-22
 status: seed
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 # Exfiltration
 Relatively easy box turned into a VERY frustrating experience at not being able to properly execute `exiftool` exploit because of missing library dependencies. Exploit actually detailed exactly *how* to install those dependencies, but I was looking for instructions on Stack Overflow instead of in the script itself - ***always read the script!*** 

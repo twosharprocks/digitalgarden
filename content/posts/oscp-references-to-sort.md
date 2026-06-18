@@ -4,9 +4,9 @@ created: 2026-01-26
 updated: 2025-07-05
 status: seed
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 Tags: [OSCP](/posts/oscp/)
 
@@ -40,12 +40,12 @@ OSCP Cheat Sheets
 # Misc
 - xfreerdp can pass the hash to login
 - `runas /user:domain\username cmd.exe` (or rdp and open CMD as admin)
-- Use the Kali directory:Â **/usr/share/webshells**Â for all your payloads.
+- Use the Kali directory: **/usr/share/webshells** for all your payloads.
 - MSFVenom Shell code for Buffer Overflow https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/ 
 
 
 ![](https://johnjhacking.com/uploads/autonmap.png)  
--   If you use metasploit, IMMEDIATELY run windows or linux exploit suggestor. Itâ€™s basically an autopwn.
+-   If you use metasploit, IMMEDIATELY run windows or linux exploit suggestor. It’s basically an autopwn.
 
 easy wins
 

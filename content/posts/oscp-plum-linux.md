@@ -4,9 +4,9 @@ created: 2026-01-26
 updated: 2025-10-28
 status: seed
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 # Plum
 This one was relatively easy to achieve initial access on, but enumerating the target once I had initial access was frustrating. I'd learned on the previous box that I could pull up locally stored mail by visiting `/var/mail` but hadn't quite realised that it should be part of my standard privesc process. 

@@ -7,6 +7,7 @@ draft: false
 tags:
   - Diving
   - Photogrammetry
+Related:
 ---
 Related: [Caving](/posts/caving/) [Diving - Gear](/posts/diving-gear/) [Diving - Reading](/posts/diving-reading/) [Photogrammetry](/posts/photogrammetry/) [CaveDB](/posts/cavedb/)
 
@@ -14,7 +15,7 @@ Related: [Caving](/posts/caving/) [Diving - Gear](/posts/diving-gear/) [Diving -
 **I truly love cave diving and exploration**. Even if the interest of others fades, mine keeps coming *back over and over again*.
 
 ---
-Expedition Ideas - [ChatGPT - Cave Expedition Calendar](/posts/chatgpt-cave-expedition-calendar/)
+[Expedition Ideas](/posts/expedition-ideas/) - [ChatGPT - Cave Expedition Calendar](/posts/chatgpt-cave-expedition-calendar/)
 Soggy Wombats - Soggy Wombats Website
 # Ideas
 Training - Full Cave CCR in Thailand with Por?
@@ -46,7 +47,7 @@ Investigate [Dive Saga Youtube channel](https://www.youtube.com/@DiveSAGA)
 - Talk in Ceduna on next trip 
 
 - Setup Exploration Foundation with Will (like Mikko)
-	- Explore Thailand/Malaysia/Sulawesi - Indonesia
+	- Explore [Thailand](/posts/thailand/)/[Malaysia](/posts/malaysia/)/[Sulawesi - Indonesia](/posts/sulawesi-indonesia/)
 - What to do with the MNemo1? 
 - MNemo2 back from Tipping
 

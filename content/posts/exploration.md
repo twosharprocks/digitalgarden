@@ -10,8 +10,9 @@ tags:
   - Expeditions
   - Exploration
   - Trips
+Related:
 ---
-Related: [Diving](/posts/diving/) [Caving](/posts/caving/) Expedition Ideas Trips [Adventure](/posts/adventure/)
+Related: [Diving](/posts/diving/) [Caving](/posts/caving/) [Expedition Ideas](/posts/expedition-ideas/) Trips [Adventure](/posts/adventure/)
 
 ---
 Explorers Club

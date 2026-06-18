@@ -6,6 +6,7 @@ status: seed
 draft: false
 tags:
   - Cybersecurity
+Related:
 ---
 Related: [Cyber Security](/posts/cyber-security/)
 
@@ -61,7 +62,7 @@ Free Security Tools
     * Options: `-t` (continuous pinging)
 * `fping` ping multiple ip addresses at once
     * Options: `-g` (ping all IPs in the following range)
-* `tracert` â€œtrace routeâ€
+* `tracert` “trace route”
     * Options: `-d` (no domain names)
 * `netstat` (Options: -o to list PIDs, -e -t 5 to show sent/recieved stats every 5 seconds)
 * `route` print [computer routing table] (add _to add specific route_, delete)
@@ -82,7 +83,7 @@ Free Security Tools
     * Options: /Online /Cleanup-Image /CheckHealth OR /ScanHealth OR /RestoreHealth
 * `cipher` Wipe empty disk space and encrypts files
 * `tasklist` List tasks
-    * tasklist | findstring script To find â€œscriptâ€
+    * tasklist | findstring script To find “script”
 * `taskkill` Kill task
     * taskkill /f /pid## /f to force /pid to identify process by id#
 * `shutdown`

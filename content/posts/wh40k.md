@@ -6,6 +6,7 @@ status: seed
 draft: false
 tags:
   - Interests
+Related:
 ---
 What is the appeal here? You love painting them and how cool they look, and you love the lore, but you have never had any kind of interest in playing the boardgame?
 
@@ -33,7 +34,7 @@ Buy
 - [Chaos Space Marines](https://www.wargamer.com/warhammer-40k/chaos-space-marines) - [Thousand Sons](https://www.wargamer.com/warhammer-40k/thousand-sons-army-guide), [Alpha Legion](https://www.wargamer.com/warhammer-40k/alpha-legion)
 - [Chaos Knights](https://www.wargamer.com/warhammer-40k/chaos-knights)
 [Xenos](https://www.wargamer.com/warhammer-40k/factions-xenos-guide) 
- -  [Tau Empire](https://www.wargamer.com/warhammer-40k/tau-empire)Â 
+ -  [Tau Empire](https://www.wargamer.com/warhammer-40k/tau-empire) 
 	 - Paint: [KV128 Stormsurge](https://www.warhammer.com/en-AU/shop/KV128-Stormsurge), [Hammerhead Gunship](https://www.warhammer.com/en-AU/shop/Tau-Empire-Hammerhead-Gunship),
 # Painting
 - Space Marines

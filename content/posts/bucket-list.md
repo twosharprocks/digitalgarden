@@ -7,6 +7,7 @@ draft: false
 tags:
   - 101-Things
   - Bucket-List
+Related:
 ---
 Related: [Writing](/posts/writing/) Personal [50 Goals (Old Version)](/posts/50-goals-old-version/) [Adventure](/posts/adventure/) [101 Things - To Do](/posts/101-things-to-do/) [101 Things - Complete List](/posts/101-things-complete-list/) Book - 101 Things [Mini Essay - Ridiculous Bucket List](/posts/mini-essay-ridiculous-bucket-list/) [Mini Essay - What do you really want to do before you die](/posts/mini-essay-what-do-you-really-want-to-do-before-you-die/) 
 

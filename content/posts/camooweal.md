@@ -6,8 +6,9 @@ status: seed
 draft: false
 tags:
   - Diving
+Related:
 ---
-Related: [Diving](/posts/diving/) Expedition Ideas Queensland
+Related: [Diving](/posts/diving/) [Expedition Ideas](/posts/expedition-ideas/) [Queensland](/posts/queensland/)
 
 ---
 # About

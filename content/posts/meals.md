@@ -7,6 +7,7 @@ draft: false
 tags:
   - dashboard
   - dataview
+Related: "[[Meals]]"
 ---
 # Well Known & Easy
 - Vege Pad Thai - Tofu, Carrot, Broccolli, Noodles
@@ -41,7 +42,7 @@ SORT file.name ASC
 - [Smash Dumpling Tacos](https://www.instagram.com/p/C5RTQ11IhB5/) - Mince, wraps, soy sauce, sesame seeds, chilli sauce
 - [Arayes](https://www.instagram.com/p/C86hGxVKpzA/) - mince, garlic, onion, jalapeno, 
 - [Nacho beef folded wrap](https://www.instagram.com/p/C8MZZsno-rw/) - Mince, wraps, corn chips, burger sauce, lettuce
-- [Cheesy Bacon JalapeÃ±o Popper wrap](https://www.instagram.com/p/C4Q2y9YPWNv/) - mozzarella, cheddar, crumbled bacon, grilled jalapeÃ±os, cream cheese, tortilla
+- [Cheesy Bacon Jalapeño Popper wrap](https://www.instagram.com/p/C4Q2y9YPWNv/) - mozzarella, cheddar, crumbled bacon, grilled jalapeños, cream cheese, tortilla
 - [Garlic honey BBQ pulled chicken tacos](https://www.instagram.com/reel/C9zmtXKIEzV/?igsh=MTRudm5yZTN6ZmxiZg==)
 #### Burritos
 - [Pepper Jack Chicken Burrito](https://www.instagram.com/p/C3C9joqLri5/) - Chicken breast, cheddar, mozzarella, bacon, tortillas, Taco spice, green chilli
@@ -71,7 +72,7 @@ SORT file.name ASC
 - Meal - High Protein Hot Honey Popcorn Chicken
 - Meal - Cheese Pull Apart Bread
 - Meal - Pizza Cupcakes
-- Meal - Garlic Butter JalapeÃ±o Popper Croissants
+- Meal - Garlic Butter Jalapeño Popper Croissants
 - Meal - Pizza Cupcakes
 - Meal - No-Bake Chocolate Chip Cookie Dough Bars 
 # Misc

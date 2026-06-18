@@ -6,6 +6,7 @@ status: seed
 draft: false
 tags:
   - Trips
+Related: "[[Trips]]"
 ---
 # Trip Log
 ***Dates: 06-01 to 14-01***

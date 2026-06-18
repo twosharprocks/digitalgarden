@@ -6,6 +6,7 @@ status: reference
 draft: false
 tags:
   - Trips
+Related: "[[Trips]]"
 ---
 ---
 # Trip Log

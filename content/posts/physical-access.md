@@ -6,6 +6,7 @@ status: reference
 draft: false
 tags:
   - Cybersecurity
+Related:
 ---
 Related: [Cyber Security](/posts/cyber-security/), [Pentesting](/posts/pentesting/)
 
@@ -82,7 +83,7 @@ Related: [Cyber Security](/posts/cyber-security/), [Pentesting](/posts/pentestin
     * [Verge Article on O.MG cable](https://www.theverge.com/23321517/omg-elite-cable-hacker-tool-review-defcon) 
 ### Disguised Microprocessor USB's
 * Bash Bunny - [Buy](https://shop.hak5.org/products/bash-bunny) & [Official Documentation [Huge resource]](https://docs.hak5.org/bash-bunny/)
-   * [Cron.dk - Poor Manâ€™s Bash Bunny](https://www.cron.dk/poor-mans-bash-bunny/)
+   * [Cron.dk - Poor Man’s Bash Bunny](https://www.cron.dk/poor-mans-bash-bunny/)
 * Pi Zero based (similar to BashBunny) 
    * [P4wnP1 - Official Wiki [Huge resource]](https://p4wnp1.readthedocs.io/en/latest/) & [P4wnP1 - Full build and setup ](https://gideonwolfe.com/posts/security/p4wnp1/)
    * [P4wnP1-Bilby](https://wjmccann.github.io/blog/2017/11/09/Introducing-the-P4wnP1-Bilby) [Australian P4wnp1 variant]

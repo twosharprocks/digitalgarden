@@ -7,6 +7,7 @@ draft: false
 tags:
   - Cybersecurity
   - CISSP
+Related:
 ---
 Related: [CISSP](/posts/cissp/)
 
@@ -14,12 +15,12 @@ Related: [CISSP](/posts/cissp/)
 # Information Asset Security
 #### **Learning Objectives**
 
-- Identify, classify, and categorize information assets. Â 
+- Identify, classify, and categorize information assets.  
 - Explain the importance of treating information as an asset.
-- Differentiate the IT asset management lifecycle from the data security lifecycle.â€‹
-- Relate the data states of in use, in transit, and at rest to the data lifecycle.â€‹
-- Relate the different roles that people and organizations have with respect to data.â€‹
-- Describe the different security control types and categories. â€‹
+- Differentiate the IT asset management lifecycle from the data security lifecycle.​
+- Relate the data states of in use, in transit, and at rest to the data lifecycle.​
+- Relate the different roles that people and organizations have with respect to data.​
+- Describe the different security control types and categories. ​
 - Explain the use of data security standards and baselines to meet organizational compliance requirements.
 #### **Key Topics**
 - Provision Information & Assets Securely
@@ -214,7 +215,7 @@ Standards Selection (Frameworks)
 Baseline (USGCB) and Baseline Security System ISKE
 - United States Government Configuration Baseline (USCGB)
 	- Federal government-wide guidance to agencies on security configuration setting
-- Estonian Information Systemâ€™s Authority IT Baseline Security System ISKE
+- Estonian Information System’s Authority IT Baseline Security System ISKE
 	- Information security standard developed for the Estonian public sector.
 	- Based on Germany's "IT-Grundschutz" (IT Baseline Protection Manual)
 	- Three-baseline system depending on the needs of the entity managing the data

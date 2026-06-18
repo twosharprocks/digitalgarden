@@ -6,6 +6,7 @@ status: seed
 draft: false
 tags:
   - Cybersecurity
+Related:
 ---
 Related: [Cyber Security](/posts/cyber-security/)
 
@@ -15,24 +16,24 @@ Related: [Cyber Security](/posts/cyber-security/)
 [Linux Command Resources](https://linuxcommand.org/lc3_resources.php) \[HUGE Resource with links to more\]
 [Linux man-pages project](https://www.kernel.org/doc/man-pages/)
 [Linux MAN Pages](https://man7.org/linux/man-pages/index.html)
-[Full â€œIntro to BASHâ€ Reference](https://programminghistorian.org/en/lessons/intro-to-bash)
+[Full “Intro to BASH” Reference](https://programminghistorian.org/en/lessons/intro-to-bash)
 [BASH Beginners Guide \[HUGE reference\]](https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html)
 [BASH Cheat Sheet \[Top 25\]](https://www.educative.io/blog/bash-shell-command-cheat-sheet)
 ## Core
-`â†‘ â†“` - Scrolls through previous commands, `â†’` Completes partial path with available file/dir
+`↑ ↓` - Scrolls through previous commands, `→` Completes partial path with available file/dir
 `CtrlC` - Cancels/stops your current line/command (displays as _^C_)
 `clear` Clear console, `reset` Reset console, `exit` Close console
 `start` Start argument (eg. `start folder_name` will open folder_name)
 `man` Manual & options for whatever command follows it
 `whatis` Provides a shorter version of `man`
-`--help` Help for whatever command you put in front (eg. `ls --help` shows help for â€œlsâ€)
+`--help` Help for whatever command you put in front (eg. `ls --help` shows help for “ls”)
 `ls` List directory contents 
 * `-la` Show size & permissions (& hidden files), `-s` file sizes, `-S` show the largest file first
 * `ln` link a file
 * `pwd` Print Working Directory
 * `cd` Change Directory (eg. cd /tmp/var)
 * `mkdir` Make Directory 
-   `mkdir -p parent/{F1,F2,F3}/{temp1,temp2}` creates folder â€œParentâ€ with sub-directories F1, F2 & F3 each, with temp1 & temp2 directores inside each sub-directory.
+   `mkdir -p parent/{F1,F2,F3}/{temp1,temp2}` creates folder “Parent” with sub-directories F1, F2 & F3 each, with temp1 & temp2 directores inside each sub-directory.
 `rm` or `rmdir` Remove Directory, mv or mvdir (eg. mvdir folder /new/dir)
 * Options: `-r` or `-R` "Recursive", applies command throughout 
 * eg. `rm -r foldername` removes folder & it's contents
@@ -42,7 +43,7 @@ Related: [Cyber Security](/posts/cyber-security/)
 `rm` to remove file
 `shred` to permanently delete file
 `*` Wildcard
- * eg. `rm test/*-geoff` removes all files in directory test that end in â€œ-geoffâ€
+ * eg. `rm test/*-geoff` removes all files in directory test that end in “-geoff”
  * eg. `rm *` will remove all files in the current directory
 
 `&&` Execute another command in the same line ONLY if the previous command worked
@@ -53,8 +54,8 @@ Related: [Cyber Security](/posts/cyber-security/)
 
 `;` Semicolon, starts an entirely new command regardless of what was before
 ## Writing/Finding Data
-`>` Create/write to file (eg. `echo â€œHello worldâ€ > Hi.txt` creates Hi.txt with â€œHello worldâ€ inside)
-`>>` Append to file (Creates file if it doesnâ€™t exist, adds to existing file if it does)
+`>` Create/write to file (eg. `echo “Hello world” > Hi.txt` creates Hi.txt with “Hello world” inside)
+`>>` Append to file (Creates file if it doesn’t exist, adds to existing file if it does)
 `cat` Concatenate (combine & display)
 * Options: `-s` suppress repeated empty output lines, `-n` display line numbers, `-e` $ at end of line, `-b` # of non-empty lines
 * eg. `cat 1.txt 2.txt` combines files & displays on console
@@ -63,36 +64,36 @@ Related: [Cyber Security](/posts/cyber-security/)
 `more` Display file one page at a time, spacebar for next page.
 `less` Greater flexibility. Scroll horizontally/forward/backward one line at a time
 `q` to exit file line display
-`head` Display top 10 lines (eg. `head -n 4 logfile1.txt` displays first 4 lines with line #â€™s)
+`head` Display top 10 lines (eg. `head -n 4 logfile1.txt` displays first 4 lines with line #’s)
 `tail` Display bottom 10 lines (eg. `tail -26 test.rtf` shows last 26 lines of test.rtf)
 `cmp` Compare files
 `diff` Show differences between files
 `sed` Edits a stream sed s/(old value)/(replacement value)/ \[CAUTION: `sed` overwrites\]
-* eg. â€œThe Dog chased a Ballâ€, `sed s/Ball/Cat/` changes it to â€œThe Dog chased a Catâ€
+* eg. “The Dog chased a Ball”, `sed s/Ball/Cat/` changes it to “The Dog chased a Cat”
 `awk` Data processing and extracting/reporting from streams \[[Using awk](https://opensource.com/article/20/9/awk-ebook)\]
-* eg. `awk -F, '{print $(field#)}'` then awk isolates column (field#) with â€˜,â€™ separating data
-* eg. `awk -F â€˜{print $4, $7}â€™` reads a new column for each space, prints columns 4 & 7
+* eg. `awk -F, '{print $(field#)}'` then awk isolates column (field#) with ‘,’ separating data
+* eg. `awk -F ‘{print $4, $7}’` reads a new column for each space, prints columns 4 & 7
 `find` Searches for file/directory names \[[Using find function](https://www.diskinternals.com/linux-reader/bash-find-command/)]
 * [Options](https://man7.org/linux/man-pages/man1/find.1.html): `iname` ignores case, `-type` file (`f`) or directory (`d`),
-* eg. `find -type f -iname *.txtâ€™` finds all .txt files
-* eg. `find -type d -iname rogers/*` finds directories starting with â€œrogersâ€ ignoring case
+* eg. `find -type f -iname *.txt’` finds all .txt files
+* eg. `find -type d -iname rogers/*` finds directories starting with “rogers” ignoring case
 * eg. `find /directory/folder -type f -iname /log.txt` searches different directory
 `whereis` all locations of a file
 `grep` Searches inside files for a string \[[Using Grep](https://www.linode.com/docs/guides/how-to-grep-for-text-in-files/)\]
 * [Options:](https://man7.org/linux/man-pages/man1/grep.1.html) `-c` count, `-r` recursive, `-i` case insensitive, `-l` list filename
-* eg. `grep bob log1.txt` finds â€˜bobâ€™ in log1.txt
-* eg. `grep -i bob log1.txt` find â€˜bobâ€™ regardless of casing
-* eg. `grep -il bob \*.txt` finds â€˜bobâ€™ in all text files, but only returns filenames
+* eg. `grep bob log1.txt` finds ‘bob’ in log1.txt
+* eg. `grep -i bob log1.txt` find ‘bob’ regardless of casing
+* eg. `grep -il bob \*.txt` finds ‘bob’ in all text files, but only returns filenames
 `xxd` Provides a [Hex dump](https://linuxhint.com/xxd-hex-dumper-guide/) for a file
 ## Networking
 `wget` Download a file from a URL
-* Options: `â€â€output-document=filename.html example.com` (Rename file being downloaded), 
-* Download to specific folder: `â€â€directory-prefix=folder/subfolder example.com`
-* Resume interrupted download: `â€â€continue example.com/big.file.iso` 
-* Download IF server has a newer version:`â€â€continue â€â€timestamping wordpress.org/latest.zip` 
-* Download from multiple URLs listed in txt file: `â€â€input list-of-file-urls.txt`
+* Options: `‐‐output-document=filename.html example.com` (Rename file being downloaded), 
+* Download to specific folder: `‐‐directory-prefix=folder/subfolder example.com`
+* Resume interrupted download: `‐‐continue example.com/big.file.iso` 
+* Download IF server has a newer version:`‐‐continue ‐‐timestamping wordpress.org/latest.zip` 
+* Download from multiple URLs listed in txt file: `‐‐input list-of-file-urls.txt`
 * Download sequentially numbered files: `http://example/{1..20}.jpg`
-* Download an entire webpage `wget â€â€page-requisites â€â€span-hosts â€â€convert-links â€â€adjust-extension http://example.com/dir/file`
+* Download an entire webpage `wget ‐‐page-requisites ‐‐span-hosts ‐‐convert-links ‐‐adjust-extension http://example.com/dir/file`
 `curl` Call a URL
 * [Options:](https://gist.github.com/eneko/dc2d8edd9a4b25c5b0725dd123f98b10)  `--abstract-unix-socket <path>` Connect via abstract Unix domain socket
 * `-a, --append`  Append to target file when uploading
@@ -126,22 +127,22 @@ Tar: `tar [option(s)] [archive_name.tar] [objects_to_archive]`
 * Full tar options list [tar {A|c|d|r|t|u|x}[GnSkUWOmpsMBiajJzZhPlRvwo]](https://linuxcommand.org/lc3_man_pages/tar1.html)
 * Options
 	* `c` create archive (also `--create`)
-	    * `-z` Creates compressed gzip archive (title ends in â€œ.tar.gzâ€ or â€œ.tgzâ€)
-	    * `-j` Creates compressed bzip archive (title ends in â€œ.tar.bz2â€ or â€œ.tbzâ€
+	    * `-z` Creates compressed gzip archive (title ends in “.tar.gz” or “.tgz”)
+	    * `-j` Creates compressed bzip archive (title ends in “.tar.bz2” or “.tbz”
 	    * `--exclude` Excludes files and folders in archived directory
 	* `f` file, **must be last option** & followed by archive title. (also `--file`)
 	* `x` extract archive (also `--extract`, `--get`) [must use `-z` or `-j` if archive is compressed]
 	    * `-C` Extracts archive to different directory (directory path must follow)
 	    * `-k` keeps existing files when extracting. (also --keep-old-files)
 	    * `--wildcards` "*.jpg": Extracts files ending in .jpg (works for any)
-	    * `--keep-newer-files` Donâ€™t replace existing files newer than archive
-	    * `--keep-directory-symlink` Donâ€™t replace symlinks
+	    * `--keep-newer-files` Don’t replace existing files newer than archive
+	    * `--keep-directory-symlink` Don’t replace symlinks
 	    * `--no-overwrite-dir` Preserve metadata
 	    * `--overwrite` Overwrite existing files
 	    * `--overwrite-dir` Overwrite metadata
 	    * `--recursive-unlink` Remove all files in directory before extraction
 	    * `--remove-files` Remove files from disk after adding to archive
-	    * `--skip-old-files` Donâ€™t replace existing files when extracting, skip over
+	    * `--skip-old-files` Don’t replace existing files when extracting, skip over
 	    * `-U` Remove each file prior to extracting over (also `--unlink-first`)
 	    * `-W` Verify archive (also `--verify`)
 	* `-v` verbose, displays archive results
@@ -150,7 +151,7 @@ Tar: `tar [option(s)] [archive_name.tar] [objects_to_archive]`
 	    * `tar rf archive.tar archive/ folder/ file.txt` adds folder & file.txt to archive.tar
 	* `-u` update, just archiving files  (also --update)
 	* `-t` list archive contents (also `--list`)
-	    * `tar tvf archive.tar` List contents of â€œarchive.tarâ€ with verbose output
+	    * `tar tvf archive.tar` List contents of “archive.tar” with verbose output
 	* `-d` difference, comparing archive & file system. (also `-diff`, `--compare`)
 	* `--delete` delete from archive, does not operate on compressed archives.
 	* `-A` Apprend archive to another, must be same format. (also `catenate`, `--concatenate`)
@@ -159,7 +160,7 @@ Tar: `tar [option(s)] [archive_name.tar] [objects_to_archive]`
 Zip/Unzip
 - Leaves behind original and creates new zip files
 - zip command format is: `zip [option(s)] [archive_name.zip] [objects_to_archive]`
-* `tar -jxvf archive.tar.bz2` extracts the .bz2 â€œarchive.tarâ€ with verbose output
+* `tar -jxvf archive.tar.bz2` extracts the .bz2 “archive.tar” with verbose output
 * Options:
 	* `-[0-9]`: Level of compression, `-0` is none & `-9` is maximum
 	* `-e` Adds password protection (use this and **<span style="text-decoration:underline;">not</span>** `-P`)
@@ -175,7 +176,7 @@ gzip/gunzip
 	    * `>` to output to filename.type.gz
 	* `-r` Recursive compression down sub-directories
 	* -`[0-9]` Level of compression, `-0` is none & `-9` is maximum
-- gunzip short options (also â€œgzip -dâ€ to â€œdecompressâ€)
+- gunzip short options (also “gzip -d” to “decompress”)
 	- `-t` test files to be gunzipped (silent if no issue)
     * `tar -tzf my_tar.tar.gz >/dev/null` tests & throws away output *without* unzipping
 bzip2/bunzip2
@@ -276,7 +277,7 @@ Command Format is: `sudo chmod <command> file`
 * `RANDOM` (generates random number between 0 & 32767)
 * `export` Allows a system-defined variable to be called by a script
 * `history` Shows all commands used
-    * `history | grep â€œstringâ€ ` to find uses of a specific command
+    * `history | grep “string” ` to find uses of a specific command
 
 * `crontab -e` for displaying and modifying cron jobs
     * [Crontab Generator](https://crontab-generator.org/)
@@ -293,6 +294,6 @@ Command Format is: `sudo chmod <command> file`
 [SELinux on GitHub](https://github.com/SELinuxProject)
 
 * [Wikipedia Entry](https://en.wikipedia.org/wiki/Security-Enhanced_Linux)
-* NSA Developed, has no â€œrootâ€ or superuser
+* NSA Developed, has no “root” or superuser
 * Built into Android, Fedora/RedHat, CentOS.
 

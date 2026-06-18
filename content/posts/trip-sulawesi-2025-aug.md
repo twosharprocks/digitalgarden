@@ -1,11 +1,12 @@
 ---
 title: Trip - Sulawesi - 2025 Aug
 created: 2025-07-15
-updated: 2025-10-30
+updated: 2026-06-18
 status: reference
 draft: false
 tags:
   - Trips
+Related: "[[Trips]]"
 ---
 ---
 # Trip Log
@@ -26,8 +27,8 @@ tags:
 
 - 2025-08-03 Sun: Diving Day 1
 	- Check-out of Zenith Hotel
-	- See Robin: Setup gear, Brief Gua Lanto
-	- Drive to Gua Lanto & Dive 2025-08-03 - Gua Lanto
+	- See Robin: Setup gear, Brief [Gua Lanto](/posts/gua-lanto/)
+	- Drive to [Gua Lanto](/posts/gua-lanto/) & Dive 2025-08-03 - Gua Lanto
 	- Drive to Baubau ferry: Get lunch, get sandles, wait until 2pm
 	- Ferry to Wanmengkoli (Muna Island)
 	- Truck to Kadena Glamping Dive Resort -> Check-In
@@ -35,18 +36,18 @@ tags:
 		- Dive 2025-08-04 - La Hambe
 
 - 2025-08-04 Mon: Diving Day 2
-	- Dive Brief: Kaidaiula
-		- Drive to Kaidaiula: *Rock N Roll Divers already on-site*
+	- Dive Brief: [Kaidaiula](/posts/kaidaiula/)
+		- Drive to [Kaidaiula](/posts/kaidaiula/): *Rock N Roll Divers already on-site*
 		- Drive back to Kadena Glamping
-	- Dive Brief: Gua La Pahia & Dive 2025-08-04 - Gua La Pahia
-	- Drive to Kaidaiula & Dive 2025-08-04 - Kaidaiula
+	- Dive Brief: [Gua La Pahia](/posts/gua-la-pahia/) & Dive 2025-08-04 - Gua La Pahia
+	- Drive to [Kaidaiula](/posts/kaidaiula/) & Dive 2025-08-04 - Kaidaiula
 	- Return to Kadena
 
 - 2025-08-05 Tue: Diving Day 3
 	- Breakfast 
-	- Dive Brief: Moko Morete
-	- Drive to Moko Morete & Dive 2025-08-05 - Moko Morete
-	- Lunch at Permandian Moko 
+	- Dive Brief: [Moko Morete](/posts/moko-morete/)
+	- Drive to [Moko Morete](/posts/moko-morete/) & Dive 2025-08-05 - Moko Morete
+	- Lunch at [Permandian Moko](/posts/permandian-moko/) 
 		- Saw a sea turtle!?
 	- Drive to Kadena: Kid crashed moped in road
 	- Room v hot - sorted Obsidian in dining area, then hung out in pool
@@ -56,45 +57,45 @@ tags:
 	- 0420-0455 Call to Prayer
 	- 0730 Breakfast (American)
 		- Google Translate to explain AC issue to hotel staff
-	- 0830 Dive Brief: La Ode Panu
-	- Drive to La Ode Panu, photogram cave entrance, & Dive 2025-08-06 - La Ode Panu then lunch at site
+	- 0830 Dive Brief: [La Ode Panu](/posts/la-ode-panu/)
+	- Drive to [La Ode Panu](/posts/la-ode-panu/), photogram cave entrance, & Dive 2025-08-06 - La Ode Panu then lunch at site
 	- Drive Kadena - AC fixed and room cleaned! 
 
 - 2025-08-07 Thu: Diving Day 5
 	- 0430-0455 Call to Prayer
 	- 0830 Breakfast: Buffet
-	- 0900 Dive Brief: Labungkari
-	- Drive to Labungkari & Dive 2025-08-07 - Labungkari
+	- 0900 Dive Brief: [Labungkari](/posts/labungkari/)
+	- Drive to [Labungkari](/posts/labungkari/) & Dive 2025-08-07 - Labungkari
 	- Drive Kadena (via icecream)
 	- 360 video backups and transfer to phone for posts (1st post)
 
 - 2025-08-08 Fri: Diving Day 6 
 	- Last day diving with Kez
 	- Breakfast: Nasi Goreng
-	- 0900 Dive Brief: Laulawi 
-	- Drive to Laulawi & Dive 2025-08-08 - Laulawi 
+	- 0900 Dive Brief: [Laulawi](/posts/laulawi/) 
+	- Drive to [Laulawi](/posts/laulawi/) & Dive 2025-08-08 - Laulawi 
 	- Drive Kadena (via icecream)
 	- 360 video trimming for social media posts
 
 - 2025-08-09 Sat: Diving Day 7
 	- Just me & Faz - No Kez or Chaca
 	- 0800 Analyse gas & breakfast (Nasi Goreng)
-	- 0900 Dive brief: Oe Mamba Kecil & Gua Wandoke
-	- Drive to Oe Mamba Kecil & Dive 2025-08-09 - Oe Mamba Kecil
-	- Lunch, then drive Gua Wandoke
+	- 0900 Dive brief: [Oe Mamba Kecil](/posts/oe-mamba-kecil/) & [Gua Wandoke](/posts/gua-wandoke/)
+	- Drive to [Oe Mamba Kecil](/posts/oe-mamba-kecil/) & Dive 2025-08-09 - Oe Mamba Kecil
+	- Lunch, then drive [Gua Wandoke](/posts/gua-wandoke/)
 	- Dive 2025-08-09 - Gua Wandoke
 	- Drive Kadena (via icecream)
 	- 360 video backups and trimming for social media
 - 2025-08-10 Sun: Diving Day 8
-	- Dive Brief Moko Panjang & La Ode Palsu 
-	- Drive Moko Panjang
+	- Dive Brief [Moko Panjang](/posts/moko-panjang/) & [La Ode Palsu](/posts/la-ode-palsu/) 
+	- Drive [Moko Panjang](/posts/moko-panjang/)
 
 - 2025-08-11 Mon: Diving Day 9
 	- Leon/Chris arrive
 
 - 2025-08-12 Tue: Diving Day 10 (Last diving day)
 	- Kez/Susan/Liz fly out 
-	- Dive Brief & Drive to Laulawi
+	- Dive Brief & Drive to [Laulawi](/posts/laulawi/)
 	- 2025-08-12 - Laulawi
 	- Clean, dry, and pack gear
 
@@ -240,7 +241,7 @@ Logistics
 	- "Fast boats": Wooden/fibreglass transport boats with no schedule which leave once they have a full passenger load.
 - Hotels
 	- Baubau: Zenith Hotel 
-		- Excellent rooms and great buffet breakfast. You'll only stay at Zenith the night you land in Baubau (likely diving Gua Lanto the next morning) or the night before you fly out of Baubau (getting a taxi to the airport at 0500)
+		- Excellent rooms and great buffet breakfast. You'll only stay at Zenith the night you land in Baubau (likely diving [Gua Lanto](/posts/gua-lanto/) the next morning) or the night before you fly out of Baubau (getting a taxi to the airport at 0500)
 	- Muna Island: Kadena Glamping Dive Resort
 		- Excellent accommodation all around. They will handle your airport transfer from/to Baubau on request, or it will be organised by your dive operator
 

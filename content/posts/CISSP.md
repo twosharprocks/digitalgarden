@@ -7,6 +7,7 @@ draft: false
 tags:
   - Cybersecurity
   - CISSP
+Related:
 ---
 Related: [Cyber Security](/posts/cyber-security/) [Cyber - Training & Certifications](/posts/cyber-training-certifications/)
 
@@ -48,5 +49,5 @@ Related: [Cyber Security](/posts/cyber-security/) [Cyber - Training & Certificat
 
 ---
 # References
-Notes - I Took The Worldâ€™s HARDEST Cybersecurity Exam (CISSP)
+[Notes - I Took The World’s HARDEST Cybersecurity Exam (CISSP)](/posts/notes-i-took-the-world-s-hardest-cybersecurity-exam-cissp/)
 

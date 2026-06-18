@@ -29,7 +29,7 @@ By all means figure out a list of things to do in the 10 years before I turn 50,
 **This also reminds me of**... 
 [Mini Essay - Letter to Yourself in 5 Years](/posts/mini-essay-letter-to-yourself-in-5-years/)
 Mini Essay - Drafting my 500 Dives book
-Website - Dear Josh in 2020
+[Website - Dear Josh in 2020](/posts/website-dear-josh-in-2020/)
 
 ---
 ***Tomorrow's Mini Essay***: [Mini Essay - Before You're 50](/posts/mini-essay-before-you-re-50/)

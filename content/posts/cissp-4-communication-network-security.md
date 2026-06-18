@@ -7,6 +7,7 @@ draft: false
 tags:
   - Cybersecurity
   - CISSP
+Related:
 ---
 Related: [CISSP](/posts/cissp/)
 
@@ -14,13 +15,13 @@ Related: [CISSP](/posts/cissp/)
 #### **Learning Objectives**
 
 - Understand the role of the ISO OSI 7-Layer and TCP/IP models in internetworking and data communications.
-- Describe the architectural characteristics, relevant technologies, protocols, and security threats associated with each layer in the OSI model.Â 
-- Describe the evolution of methods to secure IP communications protocols.Â 
-- Contrast the security considerations of network virtualization with physical networks.Â 
-- Describe key software-defined networking (SDN) concepts.Â 
-- Describe the evolution of and security implications for key network devices.Â 
-- Describe the architecture and design of computer hardware security.Â 
-- Evaluate the security issues and implications of communications in traditional and VoIP infrastructures and of remote computing tools.Â Â 
+- Describe the architectural characteristics, relevant technologies, protocols, and security threats associated with each layer in the OSI model. 
+- Describe the evolution of methods to secure IP communications protocols. 
+- Contrast the security considerations of network virtualization with physical networks. 
+- Describe key software-defined networking (SDN) concepts. 
+- Describe the evolution of and security implications for key network devices. 
+- Describe the architecture and design of computer hardware security. 
+- Evaluate the security issues and implications of communications in traditional and VoIP infrastructures and of remote computing tools.  
 
 #### **Key Topics**
 

@@ -4,9 +4,9 @@ created: 2026-01-26
 updated: 2026-01-22
 status: seed
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 # Kevin
 I've checked all the walkthroughs, tried countless variations of the easily available exploits, even reimaged my entire Kali VM trying to make this script work... and nothing I've done has caught a reverse shell. 

@@ -7,8 +7,10 @@ draft: false
 tags:
   - Diving
   - Caving
+SmartTraveller: www.smartraveller.gov.au/destinations/
+Related: "[[Diving]]"
 ---
-Related: [Diving](/posts/diving/) Expedition Ideas
+Related: [Diving](/posts/diving/) [Expedition Ideas](/posts/expedition-ideas/)
 
 ---
 # About
@@ -24,7 +26,7 @@ Himalayan Karst near Phobjikha Valley
 - 
 ---
 # References
-[Away Team Visits Bhutanâ€™s Unexplored Caves](https://astrobiology.com/2025/04/away-team-visits-bhutans-unexplored-caves.html)
+[Away Team Visits Bhutan’s Unexplored Caves](https://astrobiology.com/2025/04/away-team-visits-bhutans-unexplored-caves.html)
 
 
 

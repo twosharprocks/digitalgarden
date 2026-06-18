@@ -4,11 +4,11 @@ created: 2026-01-26
 updated: 2025-10-02
 status: seed
 draft: false
+tags:
+  - Cybersecurity
 Related:
   - "[[OSCP]]"
   - "[[Cybersecurity]]"
-tags:
-  - Cybersecurity
 ---
 # PC
 This was an interesting one, with `linpeas` showing multiple vulnerabilities and yet the most obvious two didn't work because of missing dependencies and no user credentials. 

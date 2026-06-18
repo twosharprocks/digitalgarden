@@ -6,6 +6,8 @@ status: seed
 draft: false
 tags:
   - Script
+Related: "[[Scripts]]"
+language: Python
 ---
 Related: [Scripts](/posts/scripts/) [Cyber Security](/posts/cyber-security/)
 
@@ -22,123 +24,123 @@ import re
 
 def slugify(text: str) -> str:
 
-Â  Â  """Replace spaces with dashes and strip leading/trailing spaces."""
+    """Replace spaces with dashes and strip leading/trailing spaces."""
 
-Â  Â  return text.strip().replace(" ", "-")
+    return text.strip().replace(" ", "-")
 
   
 
 def process_file(path: Path, pattern: re.Pattern, repl_func, dry_run: bool) -> int:
 
-Â  Â  """
+    """
 
-Â  Â  Returns number of replacements made in this file.
+    Returns number of replacements made in this file.
 
-Â  Â  """
+    """
 
-Â  Â  text = path.read_text(encoding="utf-8")
+    text = path.read_text(encoding="utf-8")
 
-Â  Â  updated, n = pattern.subn(repl_func, text)
+    updated, n = pattern.subn(repl_func, text)
 
-Â  Â  if n > 0 and not dry_run:
+    if n > 0 and not dry_run:
 
-Â  Â  Â  Â  path.write_text(updated, encoding="utf-8", newline="\n")
+        path.write_text(updated, encoding="utf-8", newline="\n")
 
-Â  Â  return n
+    return n
 
   
 
 def main():
 
-Â  Â  ap = argparse.ArgumentParser(
+    ap = argparse.ArgumentParser(
 
-Â  Â  Â  Â  description="Replace [[text]] with #text (spaces become dashes) in markdown files."
+        description="Replace [[text]] with #text (spaces become dashes) in markdown files."
 
-Â  Â  )
+    )
 
-Â  Â  ap.add_argument("text", help="Search term inside [[...]] to replace (e.g., 'Bucket List').")
+    ap.add_argument("text", help="Search term inside [[...]] to replace (e.g., 'Bucket List').")
 
-Â  Â  ap.add_argument("--root", default=".", help="Root folder to scan (default: current directory).")
+    ap.add_argument("--root", default=".", help="Root folder to scan (default: current directory).")
 
-Â  Â  ap.add_argument("--recursive", action="store_true", help="Recurse into subfolders.")
+    ap.add_argument("--recursive", action="store_true", help="Recurse into subfolders.")
 
-Â  Â  ap.add_argument("--dry-run", action="store_true", help="Show what would change, but don't write files.")
+    ap.add_argument("--dry-run", action="store_true", help="Show what would change, but don't write files.")
 
-Â  Â  ap.add_argument("--ignore-case", action="store_true", help="Match [[text]] case-insensitively.")
+    ap.add_argument("--ignore-case", action="store_true", help="Match [[text]] case-insensitively.")
 
-Â  Â  args = ap.parse_args()
-
-  
-
-Â  Â  root = Path(args.root).resolve()
-
-Â  Â  pattern_glob = "**/*.md" if args.recursive else "*.md"
+    args = ap.parse_args()
 
   
 
-Â  Â  # Build regex that matches [[<text>]], allowing for internal spaces
+    root = Path(args.root).resolve()
 
-Â  Â  flags = re.IGNORECASE if args.ignore_case else 0
-
-Â  Â  escaped = re.escape(args.text)
-
-Â  Â  needle = r"\[\[\s*" + escaped.replace(r"\ ", r"\s+") + r"\s*\]\]"
-
-Â  Â  pattern = re.compile(needle, flags=flags)
+    pattern_glob = "**/*.md" if args.recursive else "*.md"
 
   
 
-Â  Â  # Replacement function (keeps proper slug formatting)
+    # Build regex that matches [[<text>]], allowing for internal spaces
 
-Â  Â  def repl_func(match):
+    flags = re.IGNORECASE if args.ignore_case else 0
 
-Â  Â  Â  Â  return "#" + slugify(args.text)
+    escaped = re.escape(args.text)
 
-  
+    needle = r"\[\[\s*" + escaped.replace(r"\ ", r"\s+") + r"\s*\]\]"
 
-Â  Â  files = sorted(root.glob(pattern_glob))
-
-Â  Â  total_files = 0
-
-Â  Â  changed_files = 0
-
-Â  Â  total_replacements = 0
+    pattern = re.compile(needle, flags=flags)
 
   
 
-Â  Â  for f in files:
+    # Replacement function (keeps proper slug formatting)
 
-Â  Â  Â  Â  if not f.is_file():
+    def repl_func(match):
 
-Â  Â  Â  Â  Â  Â  continue
-
-Â  Â  Â  Â  total_files += 1
-
-Â  Â  Â  Â  n = process_file(f, pattern=pattern, repl_func=repl_func, dry_run=args.dry_run)
-
-Â  Â  Â  Â  total_replacements += n
-
-Â  Â  Â  Â  if n > 0:
-
-Â  Â  Â  Â  Â  Â  changed_files += 1
-
-Â  Â  Â  Â  Â  Â  print(f"[UPDATED{'' if not args.dry_run else ' (dry)'}] {f.name} (+{n})")
-
-Â  Â  Â  Â  else:
-
-Â  Â  Â  Â  Â  Â  print(f"[SKIPPED] {f.name}")
+        return "#" + slugify(args.text)
 
   
 
-Â  Â  print(f"\nDone. Files scanned: {total_files}. Files changed: {changed_files}. Replacements: {total_replacements}.")
+    files = sorted(root.glob(pattern_glob))
 
-Â  Â  if args.dry_run:
+    total_files = 0
 
-Â  Â  Â  Â  print("No files were written (dry run). Use without --dry-run to apply changes.")
+    changed_files = 0
+
+    total_replacements = 0
+
+  
+
+    for f in files:
+
+        if not f.is_file():
+
+            continue
+
+        total_files += 1
+
+        n = process_file(f, pattern=pattern, repl_func=repl_func, dry_run=args.dry_run)
+
+        total_replacements += n
+
+        if n > 0:
+
+            changed_files += 1
+
+            print(f"[UPDATED{'' if not args.dry_run else ' (dry)'}] {f.name} (+{n})")
+
+        else:
+
+            print(f"[SKIPPED] {f.name}")
+
+  
+
+    print(f"\nDone. Files scanned: {total_files}. Files changed: {changed_files}. Replacements: {total_replacements}.")
+
+    if args.dry_run:
+
+        print("No files were written (dry run). Use without --dry-run to apply changes.")
 
   
 
 if __name__ == "__main__":
 
-Â  Â  main()
+    main()
 ```

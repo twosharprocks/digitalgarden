@@ -1,14 +1,15 @@
 ---
 title: Cyber
 created: 2025-10-26
-updated: 2026-03-24
+updated: 2026-06-18
 status: seed
 draft: false
 tags:
   - Cybersecurity
   - Work
+Related: "[[Cyber Security]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/), [Cyber Glossary](/posts/cyber-glossary/), [Cyber - Job Domains & Interview Prep](/posts/cyber-job-domains-interview-prep/) Hacking - Tools & Techniques [Pentesting](/posts/pentesting/) Recent Cyber Incident Analysis [CISSP](/posts/cissp/) CISA IRAP Assessor OT Cyber Security SecOT+
+Related: [Cyber Glossary](/posts/cyber-glossary/), [Cyber - Job Domains & Interview Prep](/posts/cyber-job-domains-interview-prep/) Hacking - Tools & Techniques [Pentesting](/posts/pentesting/) Recent Cyber Incident Analysis [CISSP](/posts/cissp/) CISA IRAP Assessor OT Cyber Security SecOT+
 
 ---
 # Ideas
@@ -16,7 +17,6 @@ Related: [Cyber Security](/posts/cyber-security/), [Cyber Glossary](/posts/cyber
 - Threat intel & actor profiles into Markdown and drop into Notebook LM
 - [HTB Enterprise](https://enterprise.hackthebox.com/) is still available
 - SSHr1k3
-- What to do with your physical pentest gear?
 - [Epochalypse](/posts/epochalypse/) - [Epochalypse Project](https://epochalypse-project.org/) & [Group.io](https://groups.io/g/epochalypse-discuss/topics)
 - Quantum Computing vs Encryption
 

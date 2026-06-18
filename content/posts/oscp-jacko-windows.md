@@ -4,9 +4,9 @@ created: 2026-01-26
 updated: 2026-01-22
 status: seed
 draft: false
-Related: "[[Cybersecurity]]"
 tags:
   - Cybersecurity
+Related: "[[Cybersecurity]]"
 ---
 # Box
 What the actual fuck... I'll write this up tomorrow, but this was a combination of "Why the fuck isn't this working" with "that is so fucking dumb" when it did finally work

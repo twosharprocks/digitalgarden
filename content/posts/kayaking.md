@@ -8,6 +8,7 @@ tags:
   - Interests
   - Antarctica
   - Expeditions
+Related:
 ---
 Related: living in the van [Mini Essay - Appeal of living out of a van](/posts/mini-essay-appeal-of-living-out-of-a-van/) [Long Solo](/posts/long-solo/)
 
