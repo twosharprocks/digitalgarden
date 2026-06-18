@@ -8,19 +8,19 @@ tags:
   - Cybersecurity
   - CISSP
 ---
-Related: [[Cybersecurity]]
+Related: [Cyber Security](/posts/cyber-security/) [Cyber - Training & Certifications](/posts/cyber-training-certifications/)
 
 ---
 [ISC2 - Certified Information Systems Security Professional](https://www.isc2.org/Certifications/CISSP)
 - **Domains** (with personal notes)
-    1. [[CISSP - 1 - Security & Risk Management]]
-    2. [[CISSP - 2 - Asset Security]]
-    3. [[CISSP - 3 - Security Architecture & Engineering]]
-    4. [[CISSP - 4 - Communication & Network Security]]
-    5. [[CISSP - 5 - Identity & Access Management (IAM)]]
-    6. [[CISSP - 6 - Security Assessment & Testing 1]]
-    7. [[CISSP - 7 - Security Operations]]
-    8. [[CISSP - 8 - Software Development Security]]
+    1. [CISSP - 1 - Security & Risk Management](/posts/cissp-1-security-risk-management/)
+    2. [CISSP - 2 - Asset Security](/posts/cissp-2-asset-security/)
+    3. [CISSP - 3 - Security Architecture & Engineering](/posts/cissp-3-security-architecture-engineering/)
+    4. [CISSP - 4 - Communication & Network Security](/posts/cissp-4-communication-network-security/)
+    5. [CISSP - 5 - Identity & Access Management (IAM)](/posts/cissp-5-identity-access-management-iam/)
+    6. [CISSP - 6 - Security Assessment & Testing](/posts/cissp-6-security-assessment-testing/)
+    7. [CISSP - 7 - Security Operations](/posts/cissp-7-security-operations/)
+    8. [CISSP - 8 - Software Development Security](/posts/cissp-8-software-development-security/)
 
 - **Requirements**:
     - Pass the CISSP exam.
@@ -31,10 +31,10 @@ Related: [[Cybersecurity]]
 	- [ISC2 Self Study Resources](https://www.isc2.org/Training/Self-Study-Resources/CISSP)
 		- [CISSP 7th Edition - Self-paced Training](https://isc2.obrizum.io/org/cissp)
 	- [Youtube - CISSP Exam Cram 2025 - Pete Zerger](https://youtube.com/playlist?list=PL7XJSuT7Dq_XPK_qmYMqfiBjbtHJRWigD&si=HhCZRq1pua0ZZcpE)
-		- [[Pete Zerger CISSP Exam - Study Notes]]
-		- [[Pete Zerger CISSP 2024 Addendum - Study Notes]]
+		- Study - Pete Zerger CISSP Exam
+		- Study - Pete Zerger CISSP 2024 Addendum
 		- [Youtube - 100 Most Important Topics](https://www.youtube.com/watch?v=tdtbZc2w8JM)
-	- [[cissplastmile.pdf]]
+	- cissplastmile.pdf
 	- [PocketPrep](https://www.pocketprep.com/exams/isc2-cissp/) - $21/month
 	- [3x Mock Exams](https://study.pocketprep.com/mock-exam-intro
 - Exam Questions & Prep
@@ -48,4 +48,5 @@ Related: [[Cybersecurity]]
 
 ---
 # References
-[[Notes - I Took The World’s HARDEST Cybersecurity Exam]]
+Notes - I Took The Worldâ€™s HARDEST Cybersecurity Exam (CISSP)
+
