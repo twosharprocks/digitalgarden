@@ -1,15 +1,14 @@
 ---
 title: Article - Corra-Lynn
 created: 2023-08-07
-updated: 2025-10-30
+updated: 2026-06-18
 status: reference
 draft: false
 tags:
   - tag1
 ---
----
-![[corra-lynn-chasm.jpg]]
-When I tell people Iâ€™ve just met that Iâ€™m a cave diver with claustrophobia, I always get a few confused looks followed by an inevitable round of questions along the lines of â€œOh, so how do you stop the panic then?â€. But when I mention my claustrophobia to people who know me and the kind of cave diving I do, the reaction is generally more like â€œYou are very clearly broken, Josh - what is wrong with your brain?â€.
+![corra-lynn-chasm](/files/corra-lynn-chasm.jpg)
+When I tell people I've just met that I'm a cave diver with claustrophobia, I always get a few confused looks followed by an inevitable round of questions along the lines of "Oh, so how do you stop the panic then?". But when I mention my claustrophobia to people who know me and the kind of cave diving I do, the reaction is generally more like â€œYou are very clearly broken, Josh - what is wrong with your brain?â€.
 
 Iâ€™ll admit that I have a bit of a reputation for squeezing into wet, muddy holes that most people are smart enough to avoid. And Iâ€™ll also admit that diving has always held a special place in my life - ever since I did my PADI Junior Open Water course at the age of 12, to teaching SCUBA and learning technical diving in my mid-20â€™s, to more recently recognising how the dark and the quiet of underwater caves play an important role in my mental health. In the last few years, Iâ€™ve also been struck by sections of the caveâ€™s ceiling while pushing into a new underwater tunnel, broken two ribs trying to wriggle out of an underwater cave entrance, and spent an agonising 15 minutes trapped alone in a flattener during a total silt-out while trying to navigate a particularly vicious line-trap. But Iâ€™m still scared senseless by the mere thought of being stuck somewhere above the waterline. Go figure.
 
@@ -32,12 +31,12 @@ Matt, Leigh and Corbyâ€™s memory around the Hawaiian Tub Pit was starting t
 The Hawaiian Tub Pit offered just such a challenge though - a crawl 20m through a small but gentle tunnel going â€œthe long way roundâ€, or laying on your back and wriggling upside-down through a 1.5m long fissure before trying to squeeze your face under a low-hanging ceiling rock. I took one look at the fissure and my stomach lurched as a clear reminder that I really am claustrophobic - I just forget sometimes. Nino and I started around the 20m tunnel as the others caught up, and Leigh soon joined us going around the â€œlong wayâ€. By the time Chloe, Matt and Corby reached the Hawaiian Tub Pit; Nino, Leigh and I had reached the other side of the fissure and we could all chat to each other through it.Â 
 
 There was no way I was attempting the squeeze from either direction, but Nino decided to see if he could take the shortcut back to the Hawaiian Tub Pit. Laying face-up and his head down into the bottom of the squeeze, Nino started to press his face under the low-hanging ceiling rock and soon went â€œNooooope!â€ before shuffling back out of the hole.Â 
-![[nino.jpg]]
+![corralynn-nino](/files/corralynn-nino.jpg)
 Nino pressing his head into the squeeze.
 
 Leigh fared a little better, but still finding his face would need a few extra millimetres of flexibility to get passed the tightest point. The other side of the fissure offered a slightly easier entry, but at the expense of having further to wriggle before reaching the tightest point. Corby wriggled in upside-down and slid straight to the tightest point just centimetres from our side, but like Leigh he just couldnâ€™t get any under the low-hanging ceiling rock without gouging a hole in his face.Â 
 
-![[corralynn-corby.jpg]]
+![corralynn-corby](/files/corralynn-corby.jpg)
 Corby trying the same squeeze from the other side
 
 Watching our most experienced guide wriggle upside-down inside a tiny fissure hundreds of meters underground, I started to feel a rising sense of dread that only got worse as Corby got temporarily stuck reversing outâ€¦ and I soon started to wonder if I was cut out for this whole â€œdry caving for funâ€ thing. Weâ€™d had a great couple of hours climbing and sliding through mud, wriggling through tunnels, and navigating up and down through holes had turned out to be a lot of fun. But now reached the bottom and squeezed into a few things, so now I was very ready to start heading back out and home.
@@ -62,7 +61,7 @@ We set off for the surface, and within a few minutes the adrenaline of the exper
 
 Crawling through Bandicoot Bypass involved a lot of what Iâ€™d call â€œelevated but managedâ€ stress. Iâ€™d well and truly had enough of this cave by this point, and was just doing whatever needed to be done to reach the point where I was not underground anymore. So for the first 15 to 20 meters, I was managing just fine - lift sideways, pull myself forward, drag the gear bag up behind me, pause for a breath, and repeat. 5-10 meters ahead was Nino, sliding through on his side just as I was and providing a visual indication of any tight spots before I reached them. And I could hear Chloe behind me, quietly soldiering on through the tunnel and seeming to enjoy herself without any real concerns.Â 
 
-![[corrlynn-bandicoot.jpg]]
+![corrlynn-bandicoot](/files/corrlynn-bandicoot.jpg)
 Near the start of Bandicoot Bypass.
 
 There was a convoy of us in this fairly dusty tunnel, and if one person stopped then it blocked everyone behind them. Likewise, if someone behind you got into trouble thereâ€™d be no way to turn around to help or wriggle over them to escape. I suddenly realised we were all passing through a long, thin tube of rock with no way out if the people ahead and behind me stopped. There was no way to tell how close Nino was to the end of the tunnel, and the sounds of Chloe behind me just seemed to be getting progressively louder and closer.Â 
@@ -73,7 +72,7 @@ After another few minutes of shuffling, wheezing and twisting to look ahead, I n
 
 Once we were all through Bandicoot Bypass we re-grouped in Grand Central, and for the first time I saw cave arrows on the walls - proof that these dry cavers do occasionally use markers to point the way out! The others wanted to admire and climb around the sculpted rock of Grand Central, but all I wanted was to not be underground anymore. A few more twists and turns through some relatively open tunnels, and we were suddenly greeted by honest-to-goodness daylight.
 
-![[corralyn-exit.jpg]]
+![corralyn-exit](/files/corralyn-exit.jpg)
 Finally, natural light!
 
 Weâ€™d carried lunch underground but hadnâ€™t eaten it, so as soon as we were back at the cars we hooked into the now squished sandwiches. Matt, Leigh and Corby immediately started talking about heading back into the cave after lunch, and with a mouthful of ham and cheese I informed them theyâ€™d be doing that without me - I absolutely was done for the day, and would gladly sit in the car and nap while they ventured back in. Nino and Chloe both seemed keen for a second round though, so they geared back up and headed off.Â 
