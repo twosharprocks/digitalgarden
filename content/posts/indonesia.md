@@ -27,7 +27,7 @@ related:
 
 
 Status: #seed 
-Tags: #diving Personal #trips #expeditions
+Tags: #diving [Personal](/posts/personal/) #trips #expeditions
 Map: https://www.google.com/maps/place/
 SmartTraveller: www.smartraveller.gov.au/destinations/
 

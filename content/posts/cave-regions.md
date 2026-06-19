@@ -1,7 +1,7 @@
 ---
 title: Cave Regions
 created: 2025-07-06
-updated: 2025-11-01
+updated: 2026-06-19
 status: tree
 draft: false
 tags:
@@ -47,7 +47,9 @@ Pacific
 - [Vanuatu](/posts/vanuatu/)
 # Asia
 South & East
-- Japan - [Minamidaito (South Daito) - Okinawa](/posts/minamidaito-south-daito-okinawa/)
+- Japan 
+	- [Minamidaito (South Daito) - Okinawa](/posts/minamidaito-south-daito-okinawa/)
+	- [Akiyoshidai](/posts/akiyoshidai/)
 - [Laos](/posts/laos/)
 - [Malaysia](https://www.facebook.com/groups/caversgroup/permalink/10160834202513639)
 - [Philippines](/posts/philippines/)

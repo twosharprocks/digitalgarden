@@ -1,32 +1,26 @@
 ---
 title: Physics
-created: 2025-07-06
-updated: 2025-07-06
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
+  - index
+  - digital-garden
   - physics
-  - interests
-  - study
-  - writing
-Related: 
-  - "[[Physics]]"
-  - "[[Book - Quantum Mechanics]]"
+Related:
+  - "[[To Sort - Physics]]"
   - "[[Cosmology]]"
-  - "[[Personal]]"
+  - "[[Book - Quantum Mechanics]]"
+  - "[[Book - Calling ET]]"
 ---
----
-Be ***curious*** about the universe 
-Write quantum physics and holographics book? 
-	- Holographic Universe
-		- [David Bohm](https://en.m.wikipedia.org/wiki/David_Bohm) - [Wholeness and the Implicate Order](https://www.amazon.com.au/gp/aw/d/B09ZQ79G99/ref=tmm_kin_swatch_0?ie=UTF8&qid=&sr=)
-		- Quantum reverse double slit as logical solution to time-travel paradoxes
-	- [Quantum Processes, Systems, & Information](https://library.lol/main/FB8B56230268C177441561431D0B2C36), [Quantum Chromodynamics](https://physics.info/qcd/)
-- Inhomogeneous/Timescape Cosmology
-- Breakthrough Prizes (Listen) - Book - Calling ET
-- Solve Physics Problems with Python
-   * [Python - Solar System Simulator](https://pypi.org/project/solarsystem/)
-      * Built-in Earth-Mars launch calculator
-   * Galaxy Simulator with Time-Dilation Calculator
 
-Develop/Build something to take humans to another star
+Physics, cosmology, quantum computing, information theory, space, Mars, and the big strange questions.
+
+The previous freeform version of this note is preserved at To Sort - Physics.
+
+## Index
+
+This page is generated from the published notes in the digital garden. Re-run the category index script after adding or renaming published notes to refresh it.
+
+- Nothing matched this category yet.

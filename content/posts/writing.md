@@ -1,194 +1,158 @@
 ---
 title: Writing
-created: 2025-09-14
-updated: 2025-11-01
-status: tree
+created: 2026-06-19
+updated: 2026-06-19
+status: seed
 draft: false
 tags:
+  - index
+  - digital-garden
   - writing
-  - books
-  - mini-essay
-Related: 
+Related:
+  - "[[To Sort - Writing]]"
   - "[[Books]]"
   - "[[Mini Essays]]"
-  - "[[Mini Essays - Ideas]]"
-  - "[[Writing - Quotes]]"
+  - "[[Articles]]"
 ---
----
-==Take your Bluetooth keyboard EVERYWHERE==
 
-# To Write
-Books
-- Book - Cave Diving
-- Book - 101 Things: [101 Things - Complete List](/posts/101-things-complete-list/), [101 Things - To Do](/posts/101-things-to-do/)
+Writing, essays, articles, book projects, older website posts, and notes about making ideas easier to return to.
 
-General
-- Notes - As We May Think
+The previous freeform version of this note is preserved at To Sort - Writing.
+
+## Index
+
+This page is generated from the published notes in the digital garden. Re-run the category index script after adding or renaming published notes to refresh it.
+
+- [101 Things - Complete List](/posts/101-things-complete-list/)
+- [101 Things - To Do](/posts/101-things-to-do/)
+- [Article - Corra-Lynn](/posts/article-corra-lynn/)
+- Article - Crazy Wombat Tunnel
+- [Article - Making Sense with MNemo](/posts/article-making-sense-with-mnemo/)
+- [Article - Unveiling the Crazy Wombat Tunnel](/posts/article-unveiling-the-crazy-wombat-tunnel/)
+- Article - What's Your ppO2?
+- [Articles](/posts/articles/)
+- [Book - Futurism & Work](/posts/book-futurism-work/)
 - [Cave Entries to Write](/posts/cave-entries-to-write/)
-- Article for DiveLog on [Trip - Thailand - Boh Yai Mines - 2026 Jan](/posts/trip-thailand-boh-yai-mines-2026-jan/)
-- [OSCP](/posts/oscp/) Notes
-- Write up [Threat Actors](/posts/threat-actors/)
-- Fill Out empty files
-- Review orphaned-files
-- Take notes on how to complete your [Bucket List](/posts/bucket-list/)
-- Write about the different countries you've visited (when, why, memories)
-# Ideas
-Writing Environment 
-- Write whenever and whatever you can, and make the barriers to writing as low as possible
-- Create space if necessary
-	- Remember to use libraries
-		- Henley Beach library - Meeting Room 04
-	- Writer's retreat Australia - ChatGPT
-	- Housesitting/petsitting
-- Create/tell great stories of synchronicity 
-	- Cryptonomicon, Wayne Dyer
-	- You really want to spend a whole lot of time writing - how do you do that and still ensure the other things you need to handle are still finished?
-- Create video versions of written articles with Notebook LM
-- Mark Mason started/developed through blogging
-- Ask yourself "why" for everything 
-	- why dive, why write, why speak, why play games, why watch TV, why study cyber, why work in cyber, why are you drawn to physics
-	- Questions to ask yourself
-		- Who are you?
-		- What are you trying to achieve?
-		- What is your current plan for doing that?
-		- And given where things are going, how do you need to adjust your current plan?
-			- Review SMART goals (subtle art of not giving a fuck)
-	- What will be your legacy? Very hard question
-- What is special about the Jim Carey's "Grinch"? 
-- What is special about storming Area 51?
-	- What is it about a huge number of people doing some hilariously bizarre thing
-	- Special appeal of Area 51 itself
-- Interest in the stories told by backlinenurse (Insta) - should I do something like this too? Storytelling 
-- Develop my own "101 Things To Do Before You Die"
-
-- [Travel Writing Masterclass](https://www.thetravelwritingacademy.com/masterclass)
-- Don't try to be "inspired", just turn up and write whatever is next on the list. You're going to rewrite it during editing anyway, so just get the first draft out and polish it later if it's worth it. 
-- A6 Notebooks ([White](https://www.bookbindersonline.com.au/apica-notebook-a6-size-cd10-white-lined-2/) or [Black](https://www.bookbindersonline.com.au/apica-notebook-a6-size-cd10-black-lined-2/)) instead of journals
-- Portable monitor for working remote
-
-- Write about old flames & songs
-	- Eli - Ho Hey (The Lumineers)
-	- Jeanette - Rolling Waves ()
-	- Cherry - You Always Make Me Smile (Kyle Andrews)
-
-- Ernest Hemingway - Writing Exercise
-- "It is not the years in your life but the life in your years that counts." - William Feather
-
-## [Fast Book Drafting](https://onehourbookblueprint.com/)
-**Step #1: Define who your book is for** (10 min)
-Answer the three questions every book needs before a single chapter is named: who is this for, what will it do for them, and why are you the right person to write it. Most authors skip this. It's why most books don't get finished.  
-- *Deliverable: A Reader + Promise Statement — the north star you'll use from the first word to the final page.
-
-**Step #2: Dial in your book's big idea** (10 min)
-Every great book has one central argument — one thesis that every chapter serves. This phase extracts your single most powerful, most differentiated idea and turns it into a book premise sharp enough to build a career around.
-- *Deliverable: A one-sentence book premise — the spine everything else attaches to.
-
-**Step #3: Outline your book, chapter by chapter** (20 min)
-Choose your book type — How-To, Thought Leadership, or Story-Driven — and apply the matching chapter template. Each template has 8–10 chapter slots with fill-in prompts. By the end, you have a complete chapter-by-chapter map of your entire book.
-- *Deliverable: A complete 8–12 chapter outline with a working title and description for each chapter.
-
-**Step #4: Pick a title that makes people stop scrolling** (10 min)
-A bad title kills a great book. This step gives you a three-part title formula, five fill-in templates, and a four-question test to evaluate your options.
-- *Deliverable: Three working title options — plus a formula for generating more.
-
-**Step #5: Put it all together into your One-Page Book Blueprint** (10 min)
-Everything from the previous four steps — reader, premise, chapter map, title — consolidated into one single-page Book Blueprint you can start writing from today.
-- *Deliverable: The completed One-Hour Book Blueprint — your book's foundation, on one page.
-
----
-[Writing](/posts/writing/) & Develop [Books](/posts/books/)
-- Cultivate ideas with [Mini Essays](/posts/mini-essays/), bring together/rewrite for books, develop your [Philosophy](/posts/philosophy/) 
-- [Travel Writer Course](https://thefreelancersyear.com/courses-resources/travel-writing-course/)?
-
----
-Diving Magazines 
-- [inDepth Magazine](https://indepthmag.com/), [Divelog](https://www.divelog.net.au/), [DiverNet/ScubaDiver Mag](https://divernet.com/landing-page/scuba-diver-magazine-subscription-anz-edition/), [Advanced Diver Magazine](https://advanceddivermagazine.com/index.html)
-- What is the future of diving? [Book - Futurism & Work](/posts/book-futurism-work/)
-- Why do I cave dive?
-- ESA Caves
-- Rebreathers in space
-- Inner Vs Outer Space
-
-Soggy Wombats Website (& CEGSA/ASF articles/papers)
-- Will's [Photogrammetry](/posts/photogrammetry/) How-To - [Photogrammetry - Will's Notes](/posts/photogrammetry-will-s-notes/)
-- Geophysics 
-- [CaveDB](/posts/cavedb/)
-- Diving in the Mount 
-	- Write about your experiences, Your first dive in EEX
-- Diving in Mexico
-- Planning first Roe Plains Trip
-- Iddlebiddy - Photogrammetry, Video, Map, Will's Photos, Survey, Simon's video of Will doing photogram
-- Josh - Nearly dying on a CCR, Surveying Tank, 
-	- Discovering Pines (write research papers)
-- Simon - Creating Cave Videos
-- Martin - Turning survey data into digital maps (Bombimi), CaveDB
-
-Publish articles/papers through ASF
-- Write papers with [Lyx](https://www.lyx.org/)
-- Cave Cricket (General News - Quarterly)
-	- Our next issue will be circulated in early June, with content due in late May. We’d love to hear news from your club. Be in touch at asf.caves.thecricket@gmail.com
-- [Caves Australia](https://www.facebook.com/groups/ASFgroup/permalink/2288512948253283) 
-	- Deadline end of October
-- Helictite (Research - Annual)
-	- Contributing - https://helictite.caves.org.au/contrib.html
-	- Old Editions of Helictite - https://helictite.caves.org.au/contents4.php
-	- Write a research paper about using fault lines for cave diving exploration 
-		- EEX, Iddlebiddy, Pines, Murra 
-		- Write with Lewy (and help him with book)
-	- Support CEGSA news
-
-Cyber
-- Wrote [Wikipedia updates](https://en.wikipedia.org/w/index.php?title=Special:Homepage&namespace=-1&source=personaltoolslink) for Cyber Threat actors?
-- Post quantum cryptography
-- Epochalypse 
-	- https://www.epochalypse.today/
-	- https://hertig.blog/posts/epochalypse-when-computers-travel-back-in-time/
-- AGI is coming in the next few years - how will you be ready?
-	- Know your life mission, know your goals  
-	- Fill in and practice your most important sentence.  
-	- Start building your [Philosophy](/posts/philosophy/) file  
-	- Get really good with AI tools (fabric, chatgpt, etc.)  
-	- Start writing - even if you think you don’t have anything to say
-# General
-How to hack cave diving in Australia? Why do you want to?
-- Hack: Disassociate, reinvent, seek non-reputation, anarchist, data collection, sharing
-- Study association structures to "disassociate" and bypass them
-- How do you keep diving if suspended/expelled?
-- Landowners are central - how to hack the relationship?
-
-Comedy - What worked? What didn't? What you’d do again?
-- What is special about "When the yogurt took over"? Or Man in a Monkey Suit?
-	- I Like and WANT to be weird
-	- Not interested in community/organisations/tribes
-	- Fuck community - if Facebook is trying to sell it, it’s probably evil
-- Find cool shit and blend it in ridiculous ways (but treated it seriously)
-	- Werewolf submarine captain ([Instagram](https://www.instagram.com/p/CecrLGfIAAc/))
-	- Worm driving an apple car 
-
-[Work](/posts/work/)
-- Write about work, what you need from it, and what you'll look for if/when you start applying for jobs
-- Increased skill & Resources focused in smaller teams (AI-support?)
-- Self reflection, trust, Resilient, Adaptable, Creative
-- Boom of Zoom, Netflix, Uber Eats
-- E-Commerce, Remote Work, Automation 
-- Offices are stupid - reflect lack of trust in employee, took global pandemic to change and now bosses want people back (to justify their existence)
-- What "cant" be disrupted? Bullshit about programmers/software engineers - Get AI writing code
-- NFTs & Crypto - people making their own mints/printing presses
-- Cars/Travel
-- Why do we work?
-	- Like torture in interrogation, it’s shit if it’s forced.
-	- Impact on innovation & creativity
-	- Should have shorter hours & greater wealth => Wealth inequality
-	- "Opportunity" - Stephen Jay Gould on Einstein’s brain "equal talent lived & died in cotton fields & sweatshops"
-
-# Sci-Fi?
-- Getting excited about random observations in the asteroid belt, and the idea of developing that into a sci-fi book like Greg Bear's "Eon" 
-	- idea of alternative histories, written in 2012 but discussing a nuclear war in the 90s
-	- Realised the audiobook was released in 2012, but it was written in 1985 - doesn't change how I feel about it being "alt-history" even though it was written as the future at the time.
-	- Later discovered Eon is actually about alternative universes and diverging worldlines!
-
-# References
-- Writing - The hobby that can rewire your brain and help you build resilience
-
-
-
+- [Effective Note-Taking to Remember More + Create New Ideas](/posts/effective-note-taking-to-remember-more-create-new-ideas/)
+- Markdown
+- Mini Essay - 10 - If you had a year to live
+- Mini Essay - 9 - Dune
+- [Mini Essay - Appeal of a dark, empty forest outpost](/posts/mini-essay-appeal-of-a-dark-empty-forest-outpost/)
+- [Mini Essay - Appeal of living out of a van](/posts/mini-essay-appeal-of-living-out-of-a-van/)
+- [Mini Essay - Appeal of Small](/posts/mini-essay-appeal-of-small/)
+- [Mini Essay - Appeal of Thronglets](/posts/mini-essay-appeal-of-thronglets/)
+- [Mini Essay - April 19 (2023)](/posts/mini-essay-april-19-2023/)
+- [Mini Essay - Before You're 40](/posts/mini-essay-before-you-re-40/)
+- [Mini Essay - Before You're 50](/posts/mini-essay-before-you-re-50/)
+- Mini Essay - Book - 'Surely You're Joking Mr Feynmann' (Richard Feynman)
+- [Mini Essay - Book - Not Fade Away (Jim Dodge)](/posts/mini-essay-book-not-fade-away-jim-dodge/)
+- [Mini Essay - Books - Peaceful Warrior vs the Alchemist](/posts/mini-essay-books-peaceful-warrior-vs-the-alchemist/)
+- [Mini Essay - Choosing between potential jobs](/posts/mini-essay-choosing-between-potential-jobs/)
+- [Mini Essay - Desires from work and a career in cyber](/posts/mini-essay-desires-from-work-and-a-career-in-cyber/)
+- [Mini Essay - Digital Garden](/posts/mini-essay-digital-garden/)
+- [Mini Essay - Fear Is The Mind Killer](/posts/mini-essay-fear-is-the-mind-killer/)
+- [Mini Essay - First Day in Ushuaia](/posts/mini-essay-first-day-in-ushuaia/)
+- [Mini Essay - Greatest moments of joy in your life](/posts/mini-essay-greatest-moments-of-joy-in-your-life/)
+- [Mini Essay - Handwritten journal vs going digital](/posts/mini-essay-handwritten-journal-vs-going-digital/)
+- [Mini Essay - If Mars One rebooted](/posts/mini-essay-if-mars-one-rebooted/)
+- [Mini Essay - Kids Meals on Planes](/posts/mini-essay-kids-meals-on-planes/)
+- [Mini Essay - Letter to Yourself in 5 Years](/posts/mini-essay-letter-to-yourself-in-5-years/)
+- [Mini Essay - MechWarrior](/posts/mini-essay-mechwarrior/)
+- [Mini Essay - Mental Baggage](/posts/mini-essay-mental-baggage/)
+- [Mini Essay - New Tattoo](/posts/mini-essay-new-tattoo/)
+- [Mini Essay - November 23](/posts/mini-essay-november-23/)
+- [Mini Essay - Now You're 40](/posts/mini-essay-now-you-re-40/)
+- [Mini Essay - Organising a Mars One Analog](/posts/mini-essay-organising-a-mars-one-analog/)
+- [Mini Essay - Procrastinating Writing the Pines Article](/posts/mini-essay-procrastinating-writing-the-pines-article/)
+- [Mini Essay - Ridiculous Bucket List](/posts/mini-essay-ridiculous-bucket-list/)
+- [Mini Essay - Secret to dealing with work](/posts/mini-essay-secret-to-dealing-with-work/)
+- [Mini Essay - Thoughts on 2025 Media](/posts/mini-essay-thoughts-on-2025-media/)
+- [Mini Essay - Using my folding keyboard while flying from Melbourne to Santiago](/posts/mini-essay-using-my-folding-keyboard-while-flying-from-melbourne-to-santiago/)
+- [Mini Essay - What are your obligations](/posts/mini-essay-what-are-your-obligations/)
+- [Mini Essay - What do you really want to do before you die](/posts/mini-essay-what-do-you-really-want-to-do-before-you-die/)
+- [Mini Essay - What is fear to you](/posts/mini-essay-what-is-fear-to-you/)
+- [Mini Essay - Where do I want to be in 2028](/posts/mini-essay-where-do-i-want-to-be-in-2028/)
+- [Mini Essay - Why Antarctica is Important to you](/posts/mini-essay-why-antarctica-is-important-to-you/)
+- [Mini Essay - Why I'm writing a book about cave diving](/posts/mini-essay-why-i-m-writing-a-book-about-cave-diving/)
+- [Mini Essay - Why it's easy to put off writing](/posts/mini-essay-why-it-s-easy-to-put-off-writing/)
+- [Mini Essay - Why you didn't think you'd make it to 30](/posts/mini-essay-why-you-didn-t-think-you-d-make-it-to-30/)
+- [Mini Essay - Your Cave Diving Future](/posts/mini-essay-your-cave-diving-future/)
+- [Mini Essay - Your evil secret plan](/posts/mini-essay-your-evil-secret-plan/)
+- [Mini Essays](/posts/mini-essays/)
+- [Mr Electrico - Ray Bradbury](/posts/mr-electrico-ray-bradbury/)
+- [Note - Mini Essays](/posts/note-mini-essays/)
+- [Patreon - Drawing February 20 2018](/posts/patreon-drawing-february-20-2018/)
+- [Patreon - Journal 2017-02-25](/posts/patreon-journal-2017-02-25/)
+- [Patreon - Post Visit Mars One Q&A](/posts/patreon-post-visit-mars-one-q-a/)
+- [Patreon - Space - Martian Basic Training](/posts/patreon-space-martian-basic-training/)
+- [Patreon - Speaking for Free](/posts/patreon-speaking-for-free/)
+- [Patreon - Waiting](/posts/patreon-waiting/)
+- [Philosophy](/posts/philosophy/)
+- [Speaking](/posts/speaking/)
+- [Website - 101 Things](/posts/website-101-things/)
+- [Website - 101 Things 17 Own a Pointless Collection](/posts/website-101-things-17-own-a-pointless-collection/)
+- [Website - 101 Things 37 Make Fire Without Matches](/posts/website-101-things-37-make-fire-without-matches/)
+- [Website - 101 Things 4 Catch a Fish With Your Bare Hands](/posts/website-101-things-4-catch-a-fish-with-your-bare-hands/)
+- [Website - 101 Things 9 Learn That Instrument](/posts/website-101-things-9-learn-that-instrument/)
+- [Website - 101 Things Adrenaline (28, 46 & 74)](/posts/website-101-things-adrenaline-28-46-74/)
+- [Website - 101 Things Astronomy (49 & 77)](/posts/website-101-things-astronomy-49-77/)
+- [Website - 101 Things Attention Whore (15, 35 & 96)](/posts/website-101-things-attention-whore-15-35-96/)
+- [Website - 101 Things Attention Whore (15, 35 & 96) 1](/posts/website-101-things-attention-whore-15-35-96-1/)
+- [Website - 101 Things Drinking (34, 65 & 93)](/posts/website-101-things-drinking-34-65-93/)
+- [Website - 101 Things Languages (51 & 69)](/posts/website-101-things-languages-51-69/)
+- [Website - 101 Things Run Like Hell (45 & 84)](/posts/website-101-things-run-like-hell-45-84/)
+- [Website - 101 Things School Stupidity (10, 21, 83 & 95)](/posts/website-101-things-school-stupidity-10-21-83-95/)
+- [Website - 101 Things School Stupidity (10, 21, 83 & 95) 1](/posts/website-101-things-school-stupidity-10-21-83-95-1/)
+- [Website - 101 Things US Travel (43, 53 & 64)](/posts/website-101-things-us-travel-43-53-64/)
+- [Website - 2016 End of Year Review](/posts/website-2016-end-of-year-review/)
+- [Website - Airport Hell](/posts/website-airport-hell/)
+- [Website - Badgers, Bender and Ink](/posts/website-badgers-bender-and-ink/)
+- [Website - Boston Buddies](/posts/website-boston-buddies/)
+- [Website - Choosing a Crew for Mars](/posts/website-choosing-a-crew-for-mars/)
+- [Website - Cosmic Nomad – 12 July 2015](/posts/website-cosmic-nomad-12-july-2015/)
+- [Website - Dear Josh in 2020](/posts/website-dear-josh-in-2020/)
+- [Website - Diving between continents](/posts/website-diving-between-continents/)
+- [Website - Do. Or do not. There is no try](/posts/website-do-or-do-not-there-is-no-try/)
+- [Website - End of 2015 Review – 19 December 2015](/posts/website-end-of-2015-review-19-december-2015/)
+- [Website - Exciting & Unpredictable – 25 November 2014](/posts/website-exciting-unpredictable-25-november-2014/)
+- [Website - Florida](/posts/website-florida/)
+- [Website - Fringe World](/posts/website-fringe-world/)
+- [Website - Getting to Mars Part 1](/posts/website-getting-to-mars-part-1/)
+- [Website - Getting to Mars Part 2](/posts/website-getting-to-mars-part-2/)
+- [Website - Getting to Mars Part 3](/posts/website-getting-to-mars-part-3/)
+- [Website - Go to Continue Descent](/posts/website-go-to-continue-descent/)
+- [Website - Good Bad Ugly (Mars One Update)](/posts/website-good-bad-ugly-mars-one-update/)
+- [Website - Home Made KFC](/posts/website-home-made-kfc/)
+- [Website - Host a Bogan-free Australia Day BBQ](/posts/website-host-a-bogan-free-australia-day-bbq/)
+- [Website - How to be an International Super Villian](/posts/website-how-to-be-an-international-super-villian/)
+- [Website - Mars One preparation List](/posts/website-mars-one-preparation-list/)
+- [Website - Martian Stunt](/posts/website-martian-stunt/)
+- [Website - Mischief in 2017](/posts/website-mischief-in-2017/)
+- [Website - Parachuting & Media Mayhem](/posts/website-parachuting-media-mayhem/)
+- [Website - Partner Parallels, Growth & Foreshadowing – 25 September 2015](/posts/website-partner-parallels-growth-foreshadowing-25-september-2015/)
+- [Website - Post Visit Mars One Q&A](/posts/website-post-visit-mars-one-q-a/)
+- [Website - Reading, Watching & Listening – April 2017](/posts/website-reading-watching-listening-april-2017/)
+- [Website - Reading, Watching & Listening – December 2016](/posts/website-reading-watching-listening-december-2016/)
+- [Website - Reading, Watching & Listening – February 2017](/posts/website-reading-watching-listening-february-2017/)
+- [Website - Reading, Watching & Listening – January 2017](/posts/website-reading-watching-listening-january-2017/)
+- [Website - Reading, Watching & Listening – March 2017](/posts/website-reading-watching-listening-march-2017/)
+- [Website - Reading, Watching & Listening – May 2017](/posts/website-reading-watching-listening-may-2017/)
+- [Website - Ron Burgundy Day](/posts/website-ron-burgundy-day/)
+- [Website - Surviving the Australian Bush](/posts/website-surviving-the-australian-bush/)
+- [Website - Tabula Rasa](/posts/website-tabula-rasa/)
+- [Website - US Relations Tour Days 21, 26 & 29](/posts/website-us-relations-tour-days-21-26-29/)
+- [Website - Why I don't get invited to writers festivals anymore](/posts/website-why-i-don-t-get-invited-to-writers-festivals-anymore/)
+- [Website - Womadelaide](/posts/website-womadelaide/)
+- [Website – 101 Things (2 Swim With…)](/posts/website-101-things-2-swim-with/)
+- [Website – 101 Things (79 Speed Dating)  The Mighty Ginge](/posts/website-101-things-79-speed-dating-the-mighty-ginge/)
+- [Website – 28 November 2016](/posts/website-28-november-2016/)
+- [Website – A Message to God](/posts/website-a-message-to-god/)
+- [Website – Diving between continents & hiking to desolation Iceland](/posts/website-diving-between-continents-hiking-to-desolation-iceland/)
+- [Website – Edinburgh v2.0](/posts/website-edinburgh-v2-0/)
+- [Website – Hallmarks of Louisiana & Mars One Breadcrumbs – 26 November 2014](/posts/website-hallmarks-of-louisiana-mars-one-breadcrumbs-26-november-2014/)
+- [Website – How to Ruin Christmas  The Mighty Ginge](/posts/website-how-to-ruin-christmas-the-mighty-ginge/)
+- [Website – Mars One Preparation Journal Covers](/posts/website-mars-one-preparation-journal-covers/)
+- [Website – Meeting Current Heroes & Cultivating Future Ones WOMADelaide](/posts/website-meeting-current-heroes-cultivating-future-ones-womadelaide/)
+- [Website – That whole “Moving to the other side of the country” thing](/posts/website-that-whole-moving-to-the-other-side-of-the-country-thing/)
+- [Website – There and back again… Part 1 Europe](/posts/website-there-and-back-again-part-1-europe/)
+- [Website – Waiting](/posts/website-waiting/)

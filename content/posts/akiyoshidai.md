@@ -65,7 +65,6 @@ Previous studies have stated that "this section was affected by the former inten
 
 3) Fujii, Atsushi, Limestone Cave of Nishi-Akiyoshidai, Yamaguchi Caving Club 20th Anniversary Special Issue, November 1985, pp. 24-25
 # Caves
-Mine region
 - [Akiyoshidai Cave](/posts/akiyoshidai-cave/)
 - Terayama Cave
 - Oban-no-ike

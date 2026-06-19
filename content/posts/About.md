@@ -29,9 +29,9 @@ Most notes here are connected with `[[wiki links]]`. Some are tiny seeds, some a
 - **[Diving](/posts/diving/)** - Dive sites, cave regions, trip planning, gear, photogrammetry, exploration, and field notes.
 - **[Cyber Security](/posts/cyber-security/)** - Study notes, cheat sheets, threat modelling, OSCP/CISSP material, and security references.
 - **[Physics](/posts/physics/)** - Cosmology, quantum ideas, information theory, and other deep-space rabbit holes.
-- **Personal** - Goals, bucket lists, media logs, reflections, life admin, and experiments in being a person.
+- **[Personal](/posts/personal/)** - Goals, bucket lists, media logs, reflections, life admin, and experiments in being a person.
 - **[Books](/posts/books/)** - Books, reading notes, and source material that keeps resurfacing.
-- **Trips** - Trip plans, expedition ideas, travel logistics, and place-based notes.
+- **[Trips](/posts/trips/)** - Trip plans, expedition ideas, travel logistics, and place-based notes.
 
 ## Browse The Garden
 

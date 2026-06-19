@@ -1,7 +1,7 @@
 ---
 title: Finland
 created: 2026-06-18
-updated: 2026-06-18
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
@@ -14,10 +14,9 @@ Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
 related: "[[Diving]]"
-Map: https://www.google.com/maps/place/
 ---
 # About
-Ojamo Mine, Lohja [Mine]
+Ojamo Mine, Lohja Mine
 
 # Caves
 - 
