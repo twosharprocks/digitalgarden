@@ -5,8 +5,8 @@ updated: 2025-10-30
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Writing
+  - mini-essay
+  - writing
 Related:
   - "[[Mini Essays]]"
 ---
@@ -15,7 +15,7 @@ Related:
 ---
 One of the challenges I routinely face is trying to prioritise writing as a regular practice. or as any kind of practice, regular or not. I know that I love writing, and even as I type this I can feel that sense of creation that I truly crave whenever I sit down and start typing out my thoughts on a keyboard - a particularly visceral experience where each click of the keyboard is another step towards an artistic expression that's yearning to be shared. 
 
-Over and over again however, I find myself either distracted or making other things a priority over sitting down to write something I really want to write. There is SO much in my [Mini Essays](/posts/mini-essays/) document which is just begging to be written about, and that's not even taking into account all the writing I want to do towards a cave diving book, all the writing I'd like to do about the cave diving sites I love, or all the writing you have queued up around the #101-Things and your #Bucket-List. 
+Over and over again however, I find myself either distracted or making other things a priority over sitting down to write something I really want to write. There is SO much in my [Mini Essays](/posts/mini-essays/) document which is just begging to be written about, and that's not even taking into account all the writing I want to do towards a cave diving book, all the writing I'd like to do about the cave diving sites I love, or all the writing you have queued up around the #101-Things and your #bucket-list. 
 
 There is an extraordinary amount of writing that you genuinely want to do, but time and time again you find yourself trying to finish other tasks before you'll write. Today is a classic example - you made writing a mini essay your highest priority for today, and you're only just sitting here typing it out at 9pm after a full day of doing other shit. Was that other shit important? Absolutely! You spent a significant chunk of today fixing your [Digital Garden](/posts/digital-garden/) so that you can better share the notes and ideas that you have. But was it the highest priority for today? Certainly not. 
 

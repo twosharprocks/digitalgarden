@@ -5,8 +5,8 @@ updated: 2025-11-18
 status: seed
 draft: false
 tags:
-  - Cybersecurity
-  - Threat-Modelling
+  - cyber-security
+  - threat-modelling
 Related: "[[Cyber Security]]"
 ---
 ---

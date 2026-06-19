@@ -5,10 +5,9 @@ updated: 2025-12-21
 status: seed
 draft: false
 tags:
-Related:
+Related: 
+  - "[[Kayaking]]"
 ---
-Related: [Kayaking](/posts/kayaking/)
-
 ---
 
 # 3-Day Trip from Nelson (ChatGPT)

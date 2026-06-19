@@ -5,12 +5,11 @@ updated: 2025-11-08
 status: seed
 draft: false
 tags:
-  - Diving
-Related:
+  - diving
+Related: 
+  - "[[Diving]]"
+  - "[[Rebreathers]]"
 ---
-Related: [Diving](/posts/diving/) [Rebreathers](/posts/rebreathers/) 
-
-
 ---
 Template - ChOptima Build
 [ChOptima - Post-Dive Checklist](/posts/choptima-post-dive-checklist/)

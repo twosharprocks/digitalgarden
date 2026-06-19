@@ -5,12 +5,12 @@ updated: 2025-11-02
 status: seed
 draft: false
 tags:
-  - Diving
-  - Caving
-Related:
+  - diving
+  - caving
+Related: 
+  - "[[Diving]]"
+  - "[[Albania]]"
 ---
-Related: [Diving](/posts/diving/) [Albania](/posts/albania/)
-
 ---
 
 # To Do

@@ -5,14 +5,14 @@ updated: 2025-11-11
 status: seed
 draft: false
 tags:
-  - Diving
-  - Caving
-Related:
+  - diving
+  - caving
+Region:
+CaveDB:
+related:
+  - "[[Diving]]"
+  - "[[Caving]]"
 ---
-Related: [Diving](/posts/diving/) [Caving](/posts/caving/)
-
----
-
 # To Do
 Diving
 Dry 

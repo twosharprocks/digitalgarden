@@ -5,10 +5,10 @@ updated: 2025-11-01
 status: reference
 draft: false
 tags:
-  - AI-content
-  - Diving
-  - Expeditions
-  - Trips
+  - ai-content
+  - diving
+  - expeditions
+  - trips
 Related:
 ---
 Original: https://chatgpt.com/share/68311472-28f0-8006-a57c-d70c9bc2995c

@@ -5,12 +5,14 @@ updated: 2025-11-03
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
+Region:
+Sub-Region:
+CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Related: [Diving](/posts/diving/) [Expedition Ideas](/posts/expedition-ideas/)
-
+related:
+  - "[[Diving]]"
+  - "[[Expedition Ideas]]"
 ---
 # About
 Area of Interest: Vayots Dzor, Syunik, Tavush

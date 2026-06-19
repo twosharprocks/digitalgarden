@@ -5,13 +5,14 @@ updated: 2026-01-28
 status: reference
 draft: false
 tags:
-  - Writing
-  - Interests
-  - Mini-Essay
-Related:
+  - writing
+  - interests
+  - mini-essay
+Related: 
+  - "[[Writing]]"
+  - "[[Mini Essays - Ideas]]"
+  - "[[Template - Mini Essay]]"
 ---
-Related: [Writing](/posts/writing/) Mini Essays - Ideas Template - Mini Essay
-
 ---
 - To Write - [Mini Essay - Letter to Yourself in 5 Years](/posts/mini-essay-letter-to-yourself-in-5-years/) - Where do I want to be in 2031?
 - 

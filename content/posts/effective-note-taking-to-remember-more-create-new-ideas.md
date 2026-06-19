@@ -5,12 +5,14 @@ updated: 2025-11-01
 status: seed
 draft: false
 tags:
-  - Knowledge-Management
-  - Writing
-  - Creativity
-Related:
+  - knowledge-management
+  - writing
+  - creativity
+Related: 
+  - "[[Knowledge-Management]]"
+  - "[[Writing]]"
+  - "[[Creativity]]"
 ---
-Related: Knowledge-Management [Writing](/posts/writing/) Creativity
 Reference: https://www.youtube.com/watch?v=_t9R1AnB7ho
 # Note-taking
 

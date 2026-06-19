@@ -5,17 +5,14 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
+  - personal
+  - trips
 Region:
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips 
-SmartTraveller: https://www.smartraveller.gov.au/destinations/pacific/new-caledonia
-
+related: "[[Diving]]"
 ---
 # About
 

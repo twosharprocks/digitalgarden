@@ -5,13 +5,15 @@ updated: 2025-06-26
 status: seed
 draft: false
 tags:
-  - Books
-  - Interests
-  - Personal
-Related:
+  - books
+  - interests
+  - personal
+Related: 
+  - "[[Personal]]"
+  - "[[2025 - Media]]"
+  - "[[2026 - Media]]"
+  - "[[Books]]"
 ---
-Related: Personal, 2025 - Media 2026 - Media [Books](/posts/books/)
-
 ---
 - Bookshelf
 - Kindle

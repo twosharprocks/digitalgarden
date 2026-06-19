@@ -5,7 +5,7 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Writing
+  - writing
 Related: "[[Writing]]"
 source: https://web.archive.org/web/20160210231912/http://www.themightyginge.com/blog/2015/01/24/random-fringe-world-for-people-who-arent-old-boring/
 author:

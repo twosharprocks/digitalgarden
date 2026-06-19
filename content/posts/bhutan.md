@@ -5,13 +5,15 @@ updated: 2025-11-06
 status: seed
 draft: false
 tags:
-  - Diving
-  - Caving
+  - diving
+  - caving
+Region:
+Sub-Region:
+CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Related: [Diving](/posts/diving/) [Expedition Ideas](/posts/expedition-ideas/)
-
+related:
+  - "[[Diving]]"
+  - "[[Expedition Ideas]]"
 ---
 # About
 Himalayan Karst near Phobjikha Valley

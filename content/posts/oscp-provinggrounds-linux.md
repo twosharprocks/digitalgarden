@@ -5,7 +5,7 @@ updated: 2025-07-05
 status: seed
 draft: false
 tags:
-  - Cybersecurity
+  - cyber-security
 Related: "[[Cybersecurity]]"
 ---
 Tags: [OSCP](/posts/oscp/)

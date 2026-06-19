@@ -1,22 +1,31 @@
 ---
-title: Trip - Olwolgin - 2025 Jun
+title: Trip - Olwolgin - 2025 June
 created: 2025-02-03
-updated: 2025-05-05
-status: seed
+updated: 2026-06-19
+status: aborted
 draft: false
 tags:
-  - Trips
-  - Diving
-  - Caving
-Region: "[[Roe Plains]]"
-CaveDB: https://app.cavedb.net/share/
-Related: "[[Diving]]"
-Status: Aborted
+  - trips
+  - diving
+  - caving
+Template: "[[Template - Trip]]"
 Destination: "[[Olwolgin - 6N]]"
+Region: "[[Roe Plains]]"
+Dates:
 Weather: https://www.bom.gov.au/wa/forecasts/
+CaveDB: https://app.cavedb.net/share/
 Other Info:
+related:
+  - "[[Trips]]"
+  - "[[Diving]]"
 ---
 # To Do
+- Wait to hear from Matt - is he going?
+	- Transfer permit to Chloe? 
+		- Compressor instructions
+		- Lend DPV to Will?
+	- Or Cancel permit?
+
 Dive
 - Slot 
 	- Downstream Survey
@@ -51,5 +60,10 @@ CANCELLED
 
 
 # Other Notes
-
+Documents
+- Matt: CDAA Cave Membership - Matt Aisbett.jpg, Indemnity - Matt Aisbett.pdf
+- Will: INDEMNITY-FOR-CAVE-ACCESS-CAVE-DIVERS - Will.pdf
+- Martin: Martin - CDAA.png, Olwolgin-Burnabbie Cave Indemnity - Martin.pdf
+- Chloe: Olwolgin-Burnabbie Cave Indemnity - Chloe.pdf
+- Josh: Olwolgin-Burnabbie Cave Indemnity - Josh.pdf
 

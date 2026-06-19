@@ -5,7 +5,7 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Writing
+  - writing
 Related: "[[Writing]]"
 source: https://web.archive.org/web/20160302222856/http://www.themightyginge.com/blog/2014/03/12/101-fire-without-matches/
 author:

@@ -5,11 +5,14 @@ updated: 2026-01-22
 status: seed
 draft: false
 tags:
-  - Diving
-Related:
----
-Related: [Diving](/posts/diving/) [Expedition Ideas](/posts/expedition-ideas/)
-
+  - diving
+Region:
+Sub-Region:
+CaveDB:
+SmartTraveller: www.smartraveller.gov.au/destinations/
+related:
+  - "[[Diving]]"
+  - "[[Expedition Ideas]]"
 ---
 # About
 [Rhodope Mountains](https://en.wikipedia.org/wiki/Rhodope_Mountains)

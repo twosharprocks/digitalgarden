@@ -5,10 +5,10 @@ updated: 2025-11-01
 status: reference
 draft: false
 tags:
-  - AI-content
-Related:
+  - ai-content
+Related: 
+  - "[[Ayahuasca]]"
 ---
-Related: Ayahuasca
 Original: https://chatgpt.com/share/680b06e0-3f30-8006-86aa-3a4536257fab
 
 ---

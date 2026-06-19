@@ -5,11 +5,11 @@ updated: 2026-01-04
 status: seed
 draft: false
 tags:
-  - Source
-  - Interests
-Related:
+  - source
+  - interests
+Related: 
+  - "[[Personal]]"
 ---
-Related: Personal
 Reference: https://www.facebook.com/cronus.my/posts/pfbid02Ap9duW8AJk9S9EiKkQswWdKwN1G16fpjFcWhoNfLfDhszZKaRE4k1Dn5m3qB7SpXl
 
 ---

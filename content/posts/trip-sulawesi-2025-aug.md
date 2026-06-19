@@ -5,8 +5,16 @@ updated: 2026-06-18
 status: reference
 draft: false
 tags:
-  - Trips
-Related: "[[Trips]]"
+  - trips
+Template: "[[Template - Trip]]"
+Destination:
+Region:
+Dates:
+Weather:
+CaveDB:
+Other Info:
+related:
+  - "[[Trips]]"
 ---
 ---
 # Trip Log
@@ -246,5 +254,5 @@ Logistics
 		- Excellent accommodation all around. They will handle your airport transfer from/to Baubau on request, or it will be organised by your dive operator
 
 # References
-Sulawesi 25 - Farzad's Notes
+Trip - Sulawesi - 2025 Aug - Farzad's Notes
 

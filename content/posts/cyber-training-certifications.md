@@ -5,11 +5,12 @@ updated: 2026-02-16
 status: tree
 draft: false
 tags:
-  - Cybersecurity
-Related:
+  - cyber-security
+Related: 
+  - "[[Cyber Security]]"
+  - "[[Study]]"
+  - "[[CPE Record]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/) Learning CPE Record
-
 ---
 # Certification Guides
 [Cybersecurity Guide](https://cybersecurityguide.org/) - Comprehensive breakdown of every major security certification

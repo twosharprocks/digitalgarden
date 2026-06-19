@@ -5,12 +5,11 @@ updated: 2025-10-30
 status: reference
 draft: false
 tags:
-  - Cybersecurity
-  - OSCP
-Related:
+  - cyber-security
+  - oscp
+Related: 
+  - "[[OSCP]]"
 ---
-Related: [OSCP](/posts/oscp/)
-
 ---
 [HackTricks - AD Methodology](https://book.hacktricks.xyz/windows-hardening/active-directory-methodology)
 # Initial Access

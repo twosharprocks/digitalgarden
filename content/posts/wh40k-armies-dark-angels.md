@@ -5,12 +5,11 @@ updated: 2025-11-01
 status: seed
 draft: false
 tags:
-  - Interests
-  - Personal
-Related:
+  - interests
+  - personal
+Related: 
+  - "[[Personal]]"
 ---
-Related: Personal
-
 ---
 ## Army Types
 - **Deathwing**: Terminator-heavy, durable, elite army

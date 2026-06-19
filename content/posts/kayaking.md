@@ -5,13 +5,14 @@ updated: 2025-12-12
 status: seed
 draft: false
 tags:
-  - Interests
-  - Antarctica
-  - Expeditions
-Related:
+  - interests
+  - antarctica
+  - expeditions
+Related: 
+  - "[[VW Transporter|living in the van]]"
+  - "[[Mini Essay - Appeal of living out of a van]]"
+  - "[[Long Solo]]"
 ---
-Related: living in the van [Mini Essay - Appeal of living out of a van](/posts/mini-essay-appeal-of-living-out-of-a-van/) [Long Solo](/posts/long-solo/)
-
 ---
 # Trips
 General

@@ -5,17 +5,13 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
-  - Caving
+  - diving
+  - caving
+  - personal
+  - trips
 Region:
 CaveDB:
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips
-Region: [Albania](/posts/albania/)
-CaveDB: https://app.cavedb.net/share/5b9dd277-7d01-4867-946b-6533e42469bd.html
-
+related: "[[Diving]]"
 ---
 # To Do
 Dive 

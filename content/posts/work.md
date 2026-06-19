@@ -5,14 +5,15 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Work
-  - Personal
-  - Philosophy
-  - Jobs
-Related:
+  - work
+  - personal
+  - philosophy
+Related: 
+  - "[[Personal]]"
+  - "[[Philosophy]]"
+  - "[[Workbook - Work Backwards]]"
+  - "[[Cyber Security]]"
 ---
-Related: #Jobs Personal [Philosophy](/posts/philosophy/) Workbook - Work Backwards [Cyber Security](/posts/cyber-security/)
-
 ---
 # Jobs
 ***Look for [Remote Cyber Auditing roles](https://www.seek.com.au/cybersecurity-auditor-jobs/remote?pos=1)***

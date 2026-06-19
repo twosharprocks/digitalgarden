@@ -5,11 +5,12 @@ updated: 2025-10-30
 status: seed
 draft: false
 tags:
-  - Diving
-Related:
+  - diving
+Related: 
+  - "[[Diving]]"
+  - "[[Diving - Gear]]"
+  - "[[Diving - Reading]]"
 ---
-Related: [Diving](/posts/diving/) [Diving - Gear](/posts/diving-gear/) [Diving - Reading](/posts/diving-reading/)
-
 # Random Ideas
 - Bigger Soggy Wombats Safari stickers for project launch
 - Investigate https://cavewhere.com/ & https://cavewhere.com/tutorials/

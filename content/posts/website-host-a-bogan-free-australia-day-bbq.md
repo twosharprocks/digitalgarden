@@ -5,7 +5,7 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Writing
+  - writing
 Related: "[[Writing]]"
 source: https://web.archive.org/web/20141026172315/http://www.themightyginge.com/blog/2012/01/23/college-of-awesome-host-a-bogan-free-australia-day-bbq/
 author:

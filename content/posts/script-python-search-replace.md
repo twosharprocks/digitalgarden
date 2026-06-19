@@ -5,12 +5,12 @@ updated: 2026-03-24
 status: seed
 draft: false
 tags:
-  - Script
-Related: "[[Scripts]]"
+  - script
+Related: 
+  - "[[Scripts]]"
+  - "[[Cyber Security]]"
 language: Python
 ---
-Related: [Scripts](/posts/scripts/) [Cyber Security](/posts/cyber-security/)
-
 ``` python
 #!/usr/bin/env python3
 

@@ -5,15 +5,14 @@ updated: 2025-11-08
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
 Region: Oceania
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Related: [Diving](/posts/diving/) [Expedition Ideas](/posts/expedition-ideas/)
-
+related:
+  - "[[Diving]]"
+  - "[[Expedition Ideas]]"
 ---
 # About
 [Mount Gambier - Lower South East](/posts/mount-gambier-lower-south-east/)

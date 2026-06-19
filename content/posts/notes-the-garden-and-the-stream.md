@@ -5,11 +5,13 @@ updated: 2025-04-17
 status: seed
 draft: false
 tags:
-  - Knowledge-Management
-  - Personal
-Related:
+  - knowledge-management
+  - personal
+Related: 
+  - "[[Time Management]]"
+  - "[[Digital Garden]]"
+  - "[[Knowledge-Management]]"
 ---
-Related: [Time Management](/posts/time-management/) [Digital Garden](/posts/digital-garden/) Knowledge-Management
 Reference: https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/ 
 
 ---

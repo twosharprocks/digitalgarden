@@ -6,10 +6,9 @@ status: seed
 draft: false
 tags:
   - tag1
-Related:
+Related: 
+  - "[[Cyber Security]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/)
-
 ---
 
 **Cryptography** is the art and science of keeping information secure through the use of mathematical concepts and techniques.

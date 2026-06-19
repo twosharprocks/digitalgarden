@@ -5,15 +5,15 @@ updated: 2025-10-30
 status: tree
 draft: false
 tags:
-  - Personal
-  - Mini-Essay
-  - Philosophy
-  - Writing
-Related:
+  - personal
+  - mini-essay
+  - philosophy
+  - writing
+Related: 
   - "[[Mini Essays]]"
+  - "[[Personal]]"
+  - "[[Philosophy]]"
 ---
-Related: Personal [Philosophy](/posts/philosophy/)
-
 ---
 With just three months away, it's suddenly becoming a big and urgent question of what you want to do before you're 40, and more importantly what kind of life you want to live in your 40's. You never really thought you'd make it to 30, and yet here you are nearly 10 years later wondering what you want to do next.
 

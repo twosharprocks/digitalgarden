@@ -5,12 +5,13 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - 101-Things
-  - Bucket-List
-Related: "[[Bucket List]]"
+  - 101-things
+  - bucket-list
+Related: 
+  - "[[Bucket List]]"
+  - "[[101 Things - To Do]]"
+  - "[[Book - 101 Things]]"
 ---
-Related: [101 Things - To Do](/posts/101-things-to-do/) Book - 101 Things [Bucket List](/posts/bucket-list/)
-
 Write these up and add links
 - Use wayback machine to recover what you've previously written
 

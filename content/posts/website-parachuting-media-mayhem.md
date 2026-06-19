@@ -5,7 +5,7 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Writing
+  - writing
 Related: "[[Writing]]"
 source: https://web.archive.org/web/20150305165153/http://www.themightyginge.com/blog/2015/03/02/parachuting-media-mayhem/
 author:

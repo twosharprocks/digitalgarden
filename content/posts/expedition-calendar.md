@@ -5,14 +5,16 @@ updated: 2025-06-29
 status: tree
 draft: false
 tags:
-  - Diving
-  - Expeditions
-  - Exploration
-  - Trips
-Related:
+  - diving
+  - expeditions
+  - exploration
+  - trips
+Related: 
+  - "[[Trips]]"
+  - "[[Diving]]"
+  - "[[Expedition Ideas]]"
+  - "[[ChatGPT - Cave Expedition Calendar]]"
 ---
-Related: Trips [Diving](/posts/diving/) [Expedition Ideas](/posts/expedition-ideas/) [ChatGPT - Cave Expedition Calendar](/posts/chatgpt-cave-expedition-calendar/)
-
 ---
 Q1
 - **[New Zealand](/posts/new-zealand/) - Jan to March

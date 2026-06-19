@@ -5,14 +5,13 @@ updated: 2025-10-30
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Writing
-  - Knowledge-Management
-Related:
+  - mini-essay
+  - writing
+  - knowledge-management
+Related: 
   - "[[Mini Essays]]"
+  - "[[Knowledge-Management]]"
 ---
-Related: Knowledge-Management
-
 ---
 One of my ongoing challenges is keeping track of and managing all the different things that engage my attention. This can mean my Personal, asking [Mini Essay - What are your obligations](/posts/mini-essay-what-are-your-obligations/), my [Work](/posts/work/), and anything else that contacts my senses and hooks my attention. While I can track a wide range of interests and passions, the real challenge for me is task-switching: being invested in one thing, but needing to keep something else in mind at the same time, or being pulled away from my focus to handle some other issue. 
 

@@ -5,12 +5,13 @@ updated: 2025-11-06
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Writing
-Related:
+  - mini-essay
+  - writing
+Related: 
   - "[[Mini Essays]]"
+  - "[[Writing]]"
+  - "[[Philosophy]]"
 ---
-Related: [Writing](/posts/writing/) [Philosophy](/posts/philosophy/)
  
 ---
 Turning 40 hasn't had any obvious impact on me so far, at least not in the way that turning 30 did as I discussed in [Mini Essay - Why you didn't think you'd make it to 30](/posts/mini-essay-why-you-didn-t-think-you-d-make-it-to-30/). I still joke about not living particularly long because of the stuff I do while cave diving, but the last 10 years haven't had the same edge to them that the previous 10 did. As I've written elsewhere, I think being involved with Mars One made me think about where I'd be in 10 years time (eg. on my way to mars) rather than where I'd be when I turned a particular age. 

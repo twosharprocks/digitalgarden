@@ -5,8 +5,8 @@ updated: 2025-10-30
 status: reference
 draft: false
 tags:
-  - Cybersecurity
-  - OSCP
+  - cyber-security
+  - oscp
 Related:
 ---
 Related:

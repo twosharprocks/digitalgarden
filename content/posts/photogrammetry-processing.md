@@ -5,8 +5,8 @@ updated: 2025-10-30
 status: tree
 draft: false
 tags:
-  - Diving
-  - Photogrammetry
+  - diving
+  - photogrammetry
 Related:
 ---
 Priorities 

@@ -5,17 +5,19 @@ updated: 2025-11-01
 status: seed
 draft: false
 tags:
-  - Caving
-Related:
+  - caving
+Related: 
+  - "[[Diving]]"
+  - "[[Exploration]]"
+  - "[[CaveDB]]"
+  - "[[Cave Regions]]"
 ---
-Related: [Diving](/posts/diving/) [Exploration](/posts/exploration/) [CaveDB](/posts/cavedb/) [Cave Regions](/posts/cave-regions/)
-
 ---
 # CEGSA
 Support
 - [Submiting a CEGSA Trip Application](https://www.cegsa.org.au/calendar/trip-application)
 - Take over Publications?
-- #Podcast?
+- #podcast?
 - Guiding at Corra-Lynn?
 - Grant Gartrell: Delemere + Curramulka cave
 - Photogrammetry project?

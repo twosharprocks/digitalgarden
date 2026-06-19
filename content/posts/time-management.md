@@ -5,14 +5,14 @@ updated: 2025-05-04
 status: seed
 draft: false
 tags:
-  - Personal
-  - Knowledge-Management
-  - Interests
-  - Creativity
-Related:
+  - personal
+  - knowledge-management
+  - interests
+  - creativity
+Related: 
+  - "[[Personal]]"
+  - "[[Knowledge-Management]]"
 ---
-Related: Personal Knowledge-Management
-
 ---
 ***Use mini keyboard to type before work***
 Productivity

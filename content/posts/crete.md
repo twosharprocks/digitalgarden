@@ -5,18 +5,16 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
+  - personal
+  - trips
+  - expeditions
 Region:
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips #Expeditions
+related: "[[Diving]]"
 Map: https://www.google.com/maps/place/
-SmartTraveller: www.smartraveller.gov.au/destinations/
-
 ---
 # About
 [**Speleological Club of Crete** (S.P.O.K.)]( https://spok.gr/en/%CE%BF-%CF%83%CF%8D%CE%BB%CE%BB%CE%BF%CE%B3%CE%BF%CF%82-english/) - Runs expeditions

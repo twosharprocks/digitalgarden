@@ -5,11 +5,14 @@ updated: 2025-12-19
 status: seed
 draft: false
 tags:
-  - Diving
-Related:
----
-Related: [Diving](/posts/diving/) [Expedition Ideas](/posts/expedition-ideas/)
-
+  - diving
+Region:
+Sub-Region:
+CaveDB:
+SmartTraveller: www.smartraveller.gov.au/destinations/
+related:
+  - "[[Diving]]"
+  - "[[Expedition Ideas]]"
 ---
 # About
 

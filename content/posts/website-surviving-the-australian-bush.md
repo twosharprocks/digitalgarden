@@ -5,7 +5,7 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Writing
+  - writing
 Related: "[[Writing]]"
 source: https://web.archive.org/web/20141025180403/http://www.themightyginge.com/blog/2010/06/30/college-of-awesome-surviving-the-australian-bush/
 author:

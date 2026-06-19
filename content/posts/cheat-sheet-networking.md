@@ -6,10 +6,9 @@ status: seed
 draft: false
 tags:
   - tag1
-Related:
+Related: 
+  - "[[Cyber Security]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/)
-
 ---
 **Network security** is the practices and policies used to protect and monitor a computer network’s resources against threats and risks.
 

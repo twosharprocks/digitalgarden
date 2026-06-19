@@ -5,13 +5,16 @@ updated: 2025-06-14
 status: seed
 draft: false
 tags:
-  - AI-content
-  - Caving
-  - Diving
-  - Exploration
-Related:
+  - ai-content
+  - caving
+  - diving
+  - exploration
+Related: 
+  - "[[Personal]]"
+  - "[[Caving]]"
+  - "[[Diving]]"
+  - "[[Exploration]]"
 ---
-Related: Personal [Caving](/posts/caving/) [Diving](/posts/diving/) [Exploration](/posts/exploration/)
 Original: https://chatgpt.com/share/684cd9c0-da88-8006-9107-324ad741fb7d
 
 ---

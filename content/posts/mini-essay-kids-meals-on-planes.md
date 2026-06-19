@@ -5,13 +5,12 @@ updated: 2025-10-30
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Writing
-Related:
+  - mini-essay
+  - writing
+Related: 
   - "[[Mini Essays]]"
+  - "[[Writing]]"
 ---
-Related: [Writing](/posts/writing/)
-
 ---
 Topic: Kids Meals on Planes
 

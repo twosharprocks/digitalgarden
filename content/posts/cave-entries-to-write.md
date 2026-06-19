@@ -5,13 +5,14 @@ updated: 2025-11-02
 status: seed
 draft: false
 tags:
-  - Writing
-  - Diving
-  - Caving
-Related:
+  - writing
+  - diving
+  - caving
+Related: 
+  - "[[Writing]]"
+  - "[[Diving]]"
+  - "[[CaveDB]]"
 ---
-Related: [Writing](/posts/writing/) [Diving](/posts/diving/) [CaveDB](/posts/cavedb/)
-
 ---
 - [The Three Sisters - 5L13](/posts/the-three-sisters-5l13/)
 - [The Shaft - 5L158](/posts/the-shaft-5l158/)

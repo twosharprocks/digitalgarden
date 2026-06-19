@@ -5,18 +5,16 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
+  - personal
+  - trips
+  - expeditions
 Region:
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips #Expeditions
+related: "[[Diving]]"
 Map: https://maps.app.goo.gl/1N9HpijgnaZfyu6a9
-SmartTraveller: GREEN https://www.smartraveller.gov.au/destinations/europe/georgia
-
 ---
 # About
 Sataplia and [Tskaltubo](https://en.wikipedia.org/wiki/Tsqaltubo) Karst

@@ -5,18 +5,16 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
+  - personal
+  - trips
+  - expeditions
 Region:
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips #Expeditions
+related: "[[Diving]]"
 Map: https://maps.app.goo.gl/AhMTHCFxj9ukW5Fj6
-SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/north-macedonia
-
 ---
 # About
 [Matka Canyon Caves](https://en.wikipedia.org/wiki/Matka_Canyon) - [Facebook](https://www.facebook.com/groups/2218647744?multi_permalinks=10162120691602745&hoisted_section_header_type=recently_seen)

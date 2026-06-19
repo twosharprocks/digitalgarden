@@ -5,17 +5,15 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
+  - personal
+  - trips
+  - expeditions
 Region:
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips #Expeditions
-SmartTraveller: GREEN https://www.smartraveller.gov.au/destinations/asia/kazakhstan
-
+related: "[[Diving]]"
 ---
 # About
 [Karatau](https://en.wikipedia.org/wiki/Karatau,_Kazakhstan) Karst

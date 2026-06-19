@@ -5,17 +5,14 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
+  - personal
+  - trips
 Region:
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips 
-SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/kosovo
-
+related: "[[Diving]]"
 ---
 # About
 Kosovo, despite its small size, has a **high concentration of karst terrain**, especially in the western and southern parts of the country. This has resulted in a **dense network of caves**, some of which are significant in size, depth, and scientific interest. While **dry caving is relatively well developed**, **cave diving in Kosovo remains largely unexplored**—but there is real potential for pioneering dives, particularly in karst springs and resurgences.

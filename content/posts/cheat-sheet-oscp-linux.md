@@ -5,12 +5,11 @@ updated: 2025-10-30
 status: reference
 draft: false
 tags:
-  - Cybersecurity
-  - OSCP
-Related:
+  - cyber-security
+  - oscp
+Related: 
+  - "[[OSCP]]"
 ---
-Related: [OSCP](/posts/oscp/)
-
 ---
 # Initial Access
 Launch Netcat Listener: `nc -nvlp 1234`

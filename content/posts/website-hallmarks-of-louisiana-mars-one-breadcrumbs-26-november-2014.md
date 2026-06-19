@@ -5,7 +5,7 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Writing
+  - writing
 Related: "[[Writing]]"
 source: "https://joshrichards.com.au/2023/03/26/journal-hallmarks-of-louisiana-mars-one-breadcrumbs-26-november-2014/"
 author:

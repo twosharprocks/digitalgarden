@@ -5,7 +5,7 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Writing
+  - writing
 Related: "[[Writing]]"
 source: https://web.archive.org/web/20170617121955/http://joshrichards.space/2017/04/24/personal-mars-one-preparation-list/
 author:

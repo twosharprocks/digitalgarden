@@ -5,11 +5,13 @@ updated: 2025-05-28
 status: seed
 draft: false
 tags:
-  - Cybersecurity
-  - Threat-Modelling
-Related:
+  - cyber-security
+  - threat-modelling
+Related: 
+  - "[[Cyber Security]]"
+  - "[[Threat Modelling]]"
+  - "[[Threat Actors]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/) [Threat Modelling](/posts/threat-modelling/) [Threat Actors](/posts/threat-actors/)
 # Methologies
 [PASTA - Process for Attack Simulation and Threat Analysis](https://threat-modeling.com/pasta-threat-modeling/) 
 Focuses on aligning considerations of business objectives with technical requirements.

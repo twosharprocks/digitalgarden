@@ -1,19 +1,19 @@
 ---
-title: "Flinders Ranges"
-created: "2026-05-22"
-updated: "2026-05-22"
+title: Flinders Ranges
+created: 2026-05-22
+updated: 2026-05-22
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
 Region:
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Related: [Caving](/posts/caving/) [Expedition Ideas](/posts/expedition-ideas/)
-
+related:
+  - "[[Diving]]"
+  - "[[Caving]]"
+  - "[[Expedition Ideas]]"
 ---
 # About
 Brachina Area
@@ -26,11 +26,11 @@ Buckalowie Area
 ![5F - Flinders Ranges - Buckalowie (overhead)](/files/5F%20-%20Flinders%20Ranges%20-%20Buckalowie%20(overhead).jpg)
 # Caves
 - 5F56 - Bucket Cave
-- 5F26 - Burr Well Cave
-- 5F5 - Arcoota Creek Cave
-- 5F89 - Blinman Bat Cave
+- [5F26 - Burr Well Cave](/posts/5f26-burr-well-cave/)
+- [5F5 - Arcoota Creek Cave](/posts/5f5-arcoota-creek-cave/)
+- [5F89 - Blinman Bat Cave](/posts/5f89-blinman-bat-cave/)
 - 5F4 - Clara St. Dora Cave
-- 5F15 - Eyrie Cave
+- [5F15 - Eyrie Cave](/posts/5f15-eyrie-cave/)
 - 5F43 - Fearby Cave
 - 5F6 - Good Friday
 - 5F44 - Hardy Cave
@@ -39,9 +39,9 @@ Buckalowie Area
 - 5F7 - Mt Sims
 - Narrina Lake Cave 
 - 5F8 - Oraparinna
-- 5F29 - Thunderdrum Cave
+- [5F29 - Thunderdrum Cave](/posts/5f29-thunderdrum-cave/)
 - 5F53 - Walpunda Creek Blowhole
-- 5F9 - Wooltana Cave
+- [5F9 - Wooltana Cave](/posts/5f9-wooltana-cave/)
 - Valley Cave
 - Dulux Cave
 - Stubbs Waterhole

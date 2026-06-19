@@ -5,15 +5,14 @@ updated: 2026-05-22
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
 Region: "[[Indonesia]]"
 Sub-Region: "[[Sulawesi - Indonesia]]"
 CaveDB:
 SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/indonesia
-Related: "[[Diving]]"
----
-Related: [Diving](/posts/diving/) [Expedition Ideas](/posts/expedition-ideas/)
-
+related:
+  - "[[Diving]]"
+  - "[[Expedition Ideas]]"
 ---
 # About
 - [Dry Season](https://www.travelguide-en.org/sulawesi-climate/#): May to October

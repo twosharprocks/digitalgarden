@@ -5,12 +5,13 @@ updated: 2025-05-11
 status: tree
 draft: false
 tags:
-  - Writing
-  - Work
-Related:
+  - writing
+  - work
+Related: 
+  - "[[Personal]]"
+  - "[[Writing]]"
+  - "[[Books]]"
 ---
-Related: Personal [Writing](/posts/writing/) [Books](/posts/books/)
-
 ---
 # Ideas
 - Perspective

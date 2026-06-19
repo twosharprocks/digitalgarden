@@ -5,11 +5,12 @@ updated: 2025-11-01
 status: reference
 draft: false
 tags:
-  - Photogrammetry
-  - Diving
-Related:
+  - photogrammetry
+  - diving
+Related: 
+  - "[[Photogrammetry|Photogrammetry]]"
+  - "[[Diving - Ideas]]"
 ---
-Related: [Photogrammetry](/posts/photogrammetry/) [Diving - Ideas](/posts/diving-ideas/)
 Original: https://chatgpt.com/share/681ea27e-93e4-8006-897c-903639b27d57
 
 ---

@@ -5,14 +5,17 @@ updated: 2025-11-03
 status: seed
 draft: false
 tags:
-  - Diving
-  - Python
-  - Script
-Related: "[[Scripts]]"
+  - diving
+  - python
+  - script
+Related: 
+  - "[[Scripts]]"
+  - "[[Expedition Ideas]]"
+  - "[[Exploration]]"
+  - "[[CaveDB]]"
+  - "[[Caving]]"
 language: Python
 ---
-Related: [Expedition Ideas](/posts/expedition-ideas/) [Exploration](/posts/exploration/), [CaveDB](/posts/cavedb/) [Caving](/posts/caving/) [Scripts](/posts/scripts/)
-
 ```python
 import requests
 import json

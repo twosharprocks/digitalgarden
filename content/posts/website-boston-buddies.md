@@ -5,7 +5,7 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Writing
+  - writing
 Related: "[[Writing]]"
 source: https://web.archive.org/web/20160530020232/http://www.themightyginge.com/blog/2016/05/17/news-boston-nyc/
 author:
@@ -33,7 +33,7 @@ Truth be told Boston itself didn’t hold a lot of appeal, it was only a very
 
 Alex and I had barely stayed in touch since our physics undergrad days when she was on exchange in Perth, so it was all a little bizarre catching up for a few hours to chat about all the weird and wonderful things we’ve both done over the last 10 years. Even weirder sitting in a cafe at MIT and looking back to see how a fairly even mix of hard work & pure chance have led each of us to where we are respectively now.
 
-We couldn’t spend too long reminiscing though – she had a 1-year-old bub to get back to, and I had a meeting with the folks from Boston’s Museum of Science! Given all the publicity around the #BringHimHome event and Cosmic Nomad, the museum had reached out to see if there was a way for us to collaborate on some sort of public event, and while nothing completely solid has come out of the meeting just yet it was fantastic being able to talk to folks who are passionate about science communication for an hour about the challenges of colonising Mars. They also invited me to roam their gorgeous museum afterwards…![boston - museum](https://web.archive.org/web/20160530020232im_/http://www.themightyginge.com/blog/wp-content/uploads/2016/05/boston-museum-300x300.jpg)
+We couldn’t spend too long reminiscing though – she had a 1-year-old bub to get back to, and I had a meeting with the folks from Boston’s Museum of Science! Given all the publicity around the #bringhimhome event and Cosmic Nomad, the museum had reached out to see if there was a way for us to collaborate on some sort of public event, and while nothing completely solid has come out of the meeting just yet it was fantastic being able to talk to folks who are passionate about science communication for an hour about the challenges of colonising Mars. They also invited me to roam their gorgeous museum afterwards…![boston - museum](https://web.archive.org/web/20160530020232im_/http://www.themightyginge.com/blog/wp-content/uploads/2016/05/boston-museum-300x300.jpg)
 
 …where I found the small but awesome Gemini/Apollo exhibit full of signed memorabilia and a moon rock…![boston - apollo](https://web.archive.org/web/20160530020232im_/http://www.themightyginge.com/blog/wp-content/uploads/2016/05/boston-apollo-300x300.jpg)
 

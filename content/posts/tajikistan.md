@@ -5,17 +5,15 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
+  - personal
+  - trips
+  - expeditions
 Region:
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips #Expeditions
-SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/tajikistan
-
+related: "[[Diving]]"
 ---
 # About
 [Pamir-Alay](https://en.wikipedia.org/wiki/Pamir-Alay) Karst System

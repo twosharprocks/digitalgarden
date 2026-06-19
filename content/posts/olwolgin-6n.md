@@ -2,21 +2,15 @@
 title: Olwolgin - 6N
 created: 2026-06-18
 updated: 2026-06-18
-status: seed
+status: tree sort
 draft: false
 tags:
-  - Diving
-  - Caving
+  - diving
+  - caving
 Region:
 CaveDB:
-Related: "[[Diving]]"
----
-Status: #Tree #Sort
-Tags: #Diving #Caving
-Region: [Roe Plains](/posts/roe-plains/)
+related: "[[Diving]]"
 Rating: Advanced Cave/TDI Full Cave
-CaveDB: https://app.cavedb.net/share/864d1f22-80b9-46ab-8ba8-366612e72586.html
-
 ---
 [Planning - Olwolgin](/posts/planning-olwolgin/)
 # To Do

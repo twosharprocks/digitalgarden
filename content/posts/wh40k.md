@@ -5,7 +5,7 @@ updated: 2025-10-31
 status: seed
 draft: false
 tags:
-  - Interests
+  - interests
 Related:
 ---
 What is the appeal here? You love painting them and how cool they look, and you love the lore, but you have never had any kind of interest in playing the boardgame?

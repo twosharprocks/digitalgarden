@@ -5,12 +5,13 @@ updated: 2025-10-30
 status: tree
 draft: false
 tags:
-  - Cybersecurity
-  - CISSP
-Related:
+  - cyber-security
+  - cissp
+Related: 
+  - "[[Cyber Security]]"
+  - "[[CISSP]]"
 ---
 Reference: Original: https://www.youtube.com/watch?v=9BZaim2uQn0
-Related: [Cyber Security](/posts/cyber-security/), [CISSP](/posts/cissp/)
 
 ---
 4 hour exam, up to 175 questions but adaptive (can cut off at 125)

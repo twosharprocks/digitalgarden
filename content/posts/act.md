@@ -5,11 +5,11 @@ updated: 2025-11-02
 status: seed
 draft: false
 tags:
-  - Diving
-Related:
+  - diving
+Related: 
+  - "[[Diving]]"
+  - "[[Expedition Ideas]]"
 ---
-Related: [Diving](/posts/diving/) [Expedition Ideas](/posts/expedition-ideas/)
-
 ---
 # About
 

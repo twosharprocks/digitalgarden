@@ -5,8 +5,8 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - #unread
-  - Writing
+  - unread
+  - writing
 Related: "[[Writing]]"
 source: https://web.archive.org/web/20141101041028/http://www.themightyginge.com/blog/2012/05/29/news-us-relations-tour-days-21-26-29/
 author:

@@ -5,19 +5,16 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
+  - personal
+  - trips
+  - expeditions
 Region:
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips #Expeditions
+related: "[[Diving]]"
 Map: https://maps.app.goo.gl/gFok77yWYemWANUE9
-SmartTraveller: https://www.infrastructure.gov.au/territories-regions-cities/territories/indian-ocean-territories/christmas-island/travel-information
-CaveDB: https://app.cavedb.net/share/0bc8566f-7f20-4874-8b45-baad5f0758fe.html
-
 ---
 # About
 Go in dry season: **May to November**

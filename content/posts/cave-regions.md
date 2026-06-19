@@ -5,13 +5,14 @@ updated: 2025-11-01
 status: tree
 draft: false
 tags:
-  - Trips
-  - Diving
-  - Expeditions
-  - Caving
-Related:
+  - trips
+  - diving
+  - expeditions
+  - caving
+Related: 
+  - "[[ChatGPT - Cave Expedition Calendar]]"
+  - "[[CaveDB]]"
 ---
-Related: [ChatGPT - Cave Expedition Calendar](/posts/chatgpt-cave-expedition-calendar/) [CaveDB](/posts/cavedb/) 
 References: 
 - [CaveDB.net](https://cavedb.net/)
 * [GrottoCenter](https://grottocenter.org/)

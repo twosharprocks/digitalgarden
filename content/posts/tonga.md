@@ -5,18 +5,16 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
+  - personal
+  - trips
+  - expeditions
 Region:
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips #Expeditions
+related: "[[Diving]]"
 Map: https://www.google.com/maps/place/
-SmartTraveller: www.smartraveller.gov.au/destinations/
-
 ---
 # About
 Best time is April to October (Dry season). Excellent visibility and the chance to encounter humpback whales during their migration (June to November).

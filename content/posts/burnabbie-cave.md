@@ -5,15 +5,13 @@ updated: 2026-01-22
 status: seed
 draft: false
 tags:
-  - Diving
-  - Caving
-  - Trips
-Related:
+  - diving
+  - caving
+  - trips
+Region:
+CaveDB:
+related: "[[Diving]]"
 ---
-Related: [Diving](/posts/diving/)
-
----
-
 # To Do
 Diving
 - Survey: Nasty (Ryan says goes to air)

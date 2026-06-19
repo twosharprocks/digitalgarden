@@ -5,12 +5,13 @@ updated: 2025-11-03
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Writing
-Related:
+  - mini-essay
+  - writing
+Related: 
   - "[[Mini Essays]]"
+  - "[[Writing]]"
+  - "[[Tattoo Ideas]]"
 ---
-Related: [Writing](/posts/writing/) Tattoo Ideas
  
 ---
 Getting a new tattoo has been a consideration for several years now, however there's been some hesitation over what, where, and why. 

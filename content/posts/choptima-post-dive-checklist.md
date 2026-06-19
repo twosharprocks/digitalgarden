@@ -5,10 +5,10 @@ updated: 2025-12-29
 status: seed
 draft: false
 tags:
-Related:
+Related: 
+  - "[[ChOptima CCR]]"
+  - "[[Template - ChOptima Build]]"
 ---
-Related: [ChOptima CCR](/posts/choptima-ccr/) Template - ChOptima Build
-
 ---
 ***Immediately Post-Dive***
 - [ ] Close DSV

@@ -5,18 +5,14 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
-  - Caving
+  - diving
+  - caving
+  - personal
+  - trips
 Region:
 CaveDB:
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips
-Region: [Nullarbor High Plains](/posts/nullarbor-high-plains/)
+related: "[[Diving]]"
 Rating: Cave/TDI Intro to Cave
-CaveDB: 
-
 ---
 # To Do
 Dive 

@@ -1,20 +1,23 @@
 ---
-title: Trip - Murra - 2025 Oct
+title: Trip - Murra El Elevyn - 2025 Oct
 created: 2025-10-07
 updated: 2026-06-18
-status: seed
+status: complete
 draft: false
 tags:
-  - Trips
-  - Diving
-  - Caving
-Region: "[[Nullarbor High Plains]]"
-CaveDB: https://app.cavedb.net/share/41c22713-fcc8-479f-b4f8-fe9a9d9d1234.html
-Related: "[[Diving]]"
-Status: Complete
+  - trips
+  - diving
+  - caving
+Template: "[[Template - Trip]]"
 Destination: "[[Murra El Elevyn - 6N47]]"
+Region: "[[Nullarbor High Plains]]"
+Dates:
 Weather: https://www.bom.gov.au/wa/forecasts/cocklebiddy.shtml
+CaveDB: https://app.cavedb.net/share/41c22713-fcc8-479f-b4f8-fe9a9d9d1234.html
 Other Info: https://www.facebook.com/events/971113211634910/
+related:
+  - "[[Trips]]"
+  - "[[Diving]]"
 Trip photos: https://photos.app.goo.gl/n9dyvhS3y9WGnorx6
 ---
 ---

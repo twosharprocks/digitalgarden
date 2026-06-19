@@ -5,7 +5,7 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Writing
+  - writing
 Related: "[[Writing]]"
 source: https://web.archive.org/web/20160628163008/http://www.themightyginge.com/blog/2012/05/21/coa-101-things-us-travel-43-53-64/#43
 author:

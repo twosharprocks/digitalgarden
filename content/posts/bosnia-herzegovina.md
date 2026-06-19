@@ -5,12 +5,15 @@ updated: 2025-11-02
 status: seed
 draft: false
 tags:
-  - Diving
-Related:
----
-Related: [Diving](/posts/diving/) [Expedition Ideas](/posts/expedition-ideas/) [Dinaric Karst Belt](/posts/dinaric-karst-belt/)
-
-
+  - diving
+Region:
+Sub-Region:
+CaveDB:
+SmartTraveller: www.smartraveller.gov.au/destinations/
+related:
+  - "[[Diving]]"
+  - "[[Expedition Ideas]]"
+  - "[[Dinaric Karst Belt]]"
 ---
 # About
 

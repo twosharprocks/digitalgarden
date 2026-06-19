@@ -5,14 +5,11 @@ updated: 2025-07-05
 status: seed
 draft: false
 tags:
-  - Study
-  - OSCP
-  - Cybersecurity
-Related: "[[Cybersecurity]]"
+  - study
+  - oscp
+  - cyber-security
+Related: 
+  - "[[Cybersecurity]]"
+  - "[[Cyber Security]]"
+  - "[[OSCP]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/) [OSCP](/posts/oscp/)
-
-
-
-
-

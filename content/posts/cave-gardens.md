@@ -5,12 +5,11 @@ updated: 2026-04-09
 status: seed
 draft: false
 tags:
-  - Diving
-  - Caving
-Related:
+  - diving
+  - caving
+Related: 
+  - "[[Diving]]"
 ---
-Related: [Diving](/posts/diving/)
-
 ---
 
 # To Do

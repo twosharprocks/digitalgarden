@@ -6,8 +6,8 @@ status: tree
 draft: false
 tags:
   - tag1
-  - Mini-Essay
-  - Writing
+  - mini-essay
+  - writing
 Related:
   - "[[Mini Essays]]"
 ---

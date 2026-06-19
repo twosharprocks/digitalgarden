@@ -5,17 +5,13 @@ updated: 2025-11-01
 status: seed
 draft: false
 tags:
-  - Diving
-  - Caving
-Related: "[[Diving]]"
----
-Related: [Diving](/posts/diving/) [Exploration](/posts/exploration/)
-
-# To Do
-Diving
-Dry 
-Photogrammetry 
-
+  - diving
+  - caving
+Region:
+CaveDB:
+related:
+  - "[[Diving]]"
+  - "[[Exploration]]"
 ---
 # About
 Description: 

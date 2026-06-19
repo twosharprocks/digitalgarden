@@ -5,9 +5,9 @@ updated: 2025-10-30
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Writing
-  - Work
+  - mini-essay
+  - writing
+  - work
 Related:
   - "[[Mini Essays]]"
 ---

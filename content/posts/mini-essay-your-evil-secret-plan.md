@@ -5,15 +5,15 @@ updated: 2025-10-30
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Philosophy
-  - Personal
-  - Writing
-Related:
+  - mini-essay
+  - philosophy
+  - personal
+  - writing
+Related: 
   - "[[Mini Essays]]"
+  - "[[Philosophy]]"
+  - "[[Personal]]"
 ---
-Related: [Philosophy](/posts/philosophy/), Personal
-
 ---
 Ask yourself "What is your evil secret plan?". Ultimately this is a question about how you're going to use the system to do the things that YOU want to do and live the life you want to live. We're not talking about blindly trying to "Live your dreams" - we're talking about gaming the system so it looks like you're playing along with everyone else, but you're hacking the game so you do exactly what you want regardless of what others may expect or even demand of you. So you're not playing by any rules, but you are faking compliance while you put all the pieces into place to subvert expectations.
 

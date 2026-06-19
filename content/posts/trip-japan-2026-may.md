@@ -5,8 +5,16 @@ updated: 2026-05-19
 status: seed
 draft: false
 tags:
-  - Trips
-Related: "[[Trips]]"
+  - trips
+Template: "[[Template - Trip]]"
+Destination:
+Region:
+Dates:
+Weather:
+CaveDB:
+Other Info:
+related:
+  - "[[Trips]]"
 ---
 # Trip Log
 ***Dates: 06-05 to 17-05***
@@ -32,7 +40,7 @@ Related: "[[Trips]]"
 	- Dive Terayama Cave
 	- Gear out
 - 2026-05-11 Mon: Rest Day
-	- Tourist visit to Akiyoshidai Cave
+	- Tourist visit to [Akiyoshidai Cave](/posts/akiyoshidai-cave/)
 - 2026-05-12 Tue: Diving Shiramizu Pond
 	- Dive briefing
 	- Dive Shiramizu Pond

@@ -5,11 +5,14 @@ updated: 2025-10-30
 status: seed
 draft: false
 tags:
-  - Cybersecurity
-Related:
+  - cyber-security
+Related: 
+  - "[[Cyber Security]]"
+  - "[[Threat Actors]]"
+  - "[[Threat Modelling]]"
+  - "[[OT Cyber Security]]"
+  - "[[SecOT+]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/) [Threat Actors](/posts/threat-actors/) [Threat Modelling](/posts/threat-modelling/) OT Cyber Security SecOT+
-
 ---
 *Target System*: IoT/IIoT device C2 via next-gen smart meteres with customer-facing wifi
 - Other pathways: Smart inverters & utility scale battery storage

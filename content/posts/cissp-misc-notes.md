@@ -5,12 +5,11 @@ updated: 2025-10-30
 status: reference
 draft: false
 tags:
-  - Cybersecurity
-  - CISSP
-Related:
+  - cyber-security
+  - cissp
+Related: 
+  - "[[CISSP]]"
 ---
-Related: [CISSP](/posts/cissp/)
-
 ---
 The **Payment Card Industry Data Security Standard (PCI-DSS) has 12 main requirements**. Each requirement has additional sub-controls. 
 1. Install and maintain a firewall configuration to protect cardholder data

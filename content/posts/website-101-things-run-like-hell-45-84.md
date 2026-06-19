@@ -5,7 +5,7 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Writing
+  - writing
 Related: "[[Writing]]"
 source: https://web.archive.org/web/20160530020004/http://www.themightyginge.com/blog/2012/05/14/coa-101-things-run-like-hell-45-84/#45
 author:

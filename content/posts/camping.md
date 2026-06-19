@@ -5,11 +5,12 @@ updated: 2025-11-01
 status: seed
 draft: false
 tags:
-  - Trips
-Related:
+  - trips
+Related: 
+  - "[[Trips]]"
+  - "[[Diving]]"
+  - "[[Caving]]"
 ---
-Related: Trips [Diving](/posts/diving/) [Caving](/posts/caving/)
-
 ---
 - [Cleaning Pans](https://www.instagram.com/p/CfolrADDALA/) Salt, Baking powder, Dishwash, Place Tissues, Pour White vinegar
 - Knots

@@ -5,19 +5,17 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
+  - personal
+  - trips
+  - expeditions
 Region:
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips #Expeditions
+related: "[[Diving]]"
 Map: https://maps.app.goo.gl/v7JAvzx7Dya77bqP8
-SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/timor-leste
-See also: "East Timor"
-
+See also: East Timor
 ---
 # About
 - **Why:** Tectonically uplifted limestone karst; similar geology to adjacent parts of Indonesia.

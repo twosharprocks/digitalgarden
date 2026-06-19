@@ -5,23 +5,25 @@ updated: 2026-05-25
 status: seed
 draft: false
 tags:
-  - Interests
-  - 101-Things
-  - Expeditions
-  - Bucket-List
-  - Diving
+  - interests
+  - 101-things
+  - expeditions
+  - bucket-list
+  - diving
+Region:
+Sub-Region:
+CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
+related:
+  - "[[Diving]]"
+  - "[[Trip - Antarctica - 2025 Nov]]"
 ---
-Related: [Trip - Antarctica - 2025 Nov](/posts/trip-antarctica-2025-nov/)
-
----
-#Expeditions 
+#expeditions 
 - [Oceanwide Expeditions](https://oceanwide-expeditions.com/cruises?region=antarctica) - [17Nov-27Nov2025 M/V Hondius](https://oceanwide-expeditions.com/antarctica/cruises/hds22-25-antarctica-discovery-and-learning-voyage)(10nights)
 	- 4-berth Full Price - US$7750 (AUD$12k) 
 	- Waitlisted - paid US$5700 (AUD$8600)
 
-#Work After Trip - Bikini Atoll - 2028 June?
+#work After Trip - Bikini Atoll - 2028 June?
 
 [Work for Oceanwide Expeditions](https://oceanwide-expeditions.com/page/careers)?
 - [Expedition Staff Application Form](https://oceanwide-expeditions.com/staff-form)

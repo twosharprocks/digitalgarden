@@ -5,11 +5,11 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
-  - Caving
+  - diving
+  - caving
 Region:
 CaveDB:
-Related: "[[Diving]]"
+related: "[[Diving]]"
 ---
 # About
 Description: 

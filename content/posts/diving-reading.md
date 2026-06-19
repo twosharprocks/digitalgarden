@@ -5,7 +5,7 @@ updated: 2025-10-30
 status: seed
 draft: false
 tags:
-  - Books
+  - books
 Related: "[[Diving]]"
 ---
 General

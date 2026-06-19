@@ -5,14 +5,13 @@ updated: 2025-10-30
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Writing
-Related:
+  - mini-essay
+  - writing
+Related: 
   - "[[Mini Essays]]"
+  - "[[Knowledge-Management]]"
 ---
-Related: Knowledge-Management
-
-First #Mini-Essay 
+First #mini-essay 
 
 ---
 While the internet has been overwhelmingly consumed with a "feed" or "stream" style where information and opinions are delivered as an unalterable fact, the early days of the internet were far more collaborative and interwoven. 

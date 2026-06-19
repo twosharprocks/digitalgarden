@@ -5,9 +5,13 @@ updated: 2025-10-30
 status: seed
 draft: false
 tags:
-  - Diving
-  - Caving
-Related: "[[Writing]]"
+  - diving
+  - caving
+Region:
+CaveDB:
+related:
+  - "[[Writing]]"
+  - "[[Diving]]"
 ---
 ![](https://soggywombats.com.au/wp-content/uploads/2025/03/DJI_0880-scaled.jpg)
 

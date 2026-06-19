@@ -5,7 +5,7 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Writing
+  - writing
 Related: "[[Writing]]"
 source: https://web.archive.org/web/20160628102243/http://www.themightyginge.com/blog/2016/06/28/news-the-best-the-worst-the-breather-florida/
 author:

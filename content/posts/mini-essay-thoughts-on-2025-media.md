@@ -5,12 +5,13 @@ updated: 2026-01-22
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Writing
-Related:
+  - mini-essay
+  - writing
+Related: 
   - "[[Mini Essays]]"
+  - "[[Writing]]"
+  - "[[2025 - Media]]"
 ---
-Related: [Writing](/posts/writing/) 2025 - Media
  
 ---
 # Kindle 

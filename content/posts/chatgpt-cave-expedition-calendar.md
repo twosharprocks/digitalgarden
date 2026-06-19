@@ -5,12 +5,11 @@ updated: 2025-10-30
 status: seed
 draft: false
 tags:
-  - AI-content
-  - Expeditions
-Related:
+  - ai-content
+  - expeditions
+Related: 
+  - "[[Personal]]"
 ---
-Related: Personal
-
 ---
 Here is a **calendar-friendly roadmap** for unique cave diving expeditions, organized by **optimal travel season**, **logistics window**, and **exploration potential**. It avoids the Americas and prioritizes limestone karst areas with limited or no prior diving.
 

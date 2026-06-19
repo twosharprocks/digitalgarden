@@ -5,13 +5,13 @@ updated: 2025-05-09
 status: seed
 draft: false
 tags:
-  - Interests
-  - Bucket-List
-  - Personal
-Related:
+  - interests
+  - bucket-list
+  - personal
+Related: 
+  - "[[Personal]]"
+  - "[[Bucket List]]"
 ---
-Related: Personal [Bucket List](/posts/bucket-list/) Personal
-
 ---
 # Ideas
 - Walk, write, interview, share

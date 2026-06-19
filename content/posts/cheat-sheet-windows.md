@@ -5,11 +5,10 @@ updated: 2025-10-30
 status: seed
 draft: false
 tags:
-  - Cybersecurity
-Related:
+  - cyber-security
+Related: 
+  - "[[Cyber Security]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/)
-
 ---
 [Task Manager Complete Guide](https://www.howtogeek.com/405806/windows-task-manager-the-complete-guide/)
 

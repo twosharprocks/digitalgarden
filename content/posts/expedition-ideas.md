@@ -5,15 +5,16 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
-  - Trips
-Related: "[[Expedition Calendar]]"
+  - diving
+  - trips
+Related: 
+  - "[[Expedition Calendar]]"
+  - "[[Diving - Ideas]]"
+  - "[[Bucket List]]"
 ---
-Related: [Diving - Ideas](/posts/diving-ideas/) [Bucket List](/posts/bucket-list/)
-
 ---
-- #Expeditions & #Trips
-	- Where do you want to go on #Expeditions? 
+- #expeditions & #trips
+	- Where do you want to go on #expeditions? 
 	- What things do you want to do? 
 		- Write books, explore and map caves, cross big distances on foot, 
 	- Where do you want to explore and share? How do you document and collect data for others?
@@ -65,7 +66,7 @@ Strong Interest:
 	- Digital-Garden/2 - Unpublished/1 - To Sort & Tag/Samoa & [Tonga](/posts/tonga/)
 	- Digital-Garden/2 - Unpublished/1 - To Sort & Tag/Vietnam
 - Other
-	- #Antarctica (Non-diving)
+	- #antarctica (Non-diving)
 	- Digital-Garden/2 - Unpublished/1 - To Sort & Tag/Dominican Republic
 	- [South Africa](/posts/south-africa/)
 	- Digital-Garden/2 - Unpublished/1 - To Sort & Tag/Tanzania

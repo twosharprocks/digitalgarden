@@ -5,11 +5,11 @@ updated: 2025-07-30
 status: reference
 draft: false
 tags:
-  - Cybersecurity
-Related:
+  - cyber-security
+Related: 
+  - "[[Cyber Security]]"
+  - "[[Pentesting]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/), [Pentesting](/posts/pentesting/)
-
 ---
 # Physical Attacks
 * [Youtube - I'll Let Myself In: Tactics of Physical Pen Testers](https://www.youtube.com/watch?v=rnmcRTnTNC8) - Deviant Ollam presenting at Wild West Hackin' Fest 2017

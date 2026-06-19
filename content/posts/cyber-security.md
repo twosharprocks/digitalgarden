@@ -5,12 +5,21 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Cybersecurity
-  - Work
-Related: "[[Cyber Security]]"
+  - cyber-security
+  - work
+Related: 
+  - "[[Cyber Security]]"
+  - "[[Cyber Glossary]]"
+  - "[[Cyber - Job Domains & Interview Prep]]"
+  - "[[Hacking - Tools & Techniques]]"
+  - "[[Pentesting]]"
+  - "[[Recent Cyber Incident Analysis]]"
+  - "[[CISSP]]"
+  - "[[CISA]]"
+  - "[[IRAP Assessor]]"
+  - "[[OT Cyber Security]]"
+  - "[[SecOT+]]"
 ---
-Related: [Cyber Glossary](/posts/cyber-glossary/), [Cyber - Job Domains & Interview Prep](/posts/cyber-job-domains-interview-prep/) Hacking - Tools & Techniques [Pentesting](/posts/pentesting/) Recent Cyber Incident Analysis [CISSP](/posts/cissp/) CISA IRAP Assessor OT Cyber Security SecOT+
-
 ---
 # Ideas
 - Replace ChatGPT with [Gemini](https://blog.google/products/gemini/gemini-preview-model-billing-update/)? [Sec-Gemini v1](https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html)?

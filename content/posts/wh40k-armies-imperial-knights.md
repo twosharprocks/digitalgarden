@@ -5,12 +5,13 @@ updated: 2025-04-08
 status: seed
 draft: false
 tags:
-  - Interests
-  - Personal
-Related:
+  - interests
+  - personal
+Related: 
+  - "[[WH40k]]"
+  - "[[WH40K - Armies - Dark Angels]]"
+  - "[[Personal]]"
 ---
-Related: [WH40k](/posts/wh40k/) [WH40K - Armies - Dark Angels](/posts/wh40k-armies-dark-angels/) Personal
-
 ---
 ## 2000-Point Imperial Knights Army List**
 

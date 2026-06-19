@@ -5,11 +5,11 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Caving
-  - Diving
+  - caving
+  - diving
 Region: "[[Nullarbor High Plains]]"
 CaveDB:
-Related: "[[Diving]]"
+related: "[[Diving]]"
 Status: Seed
 ---
 ---

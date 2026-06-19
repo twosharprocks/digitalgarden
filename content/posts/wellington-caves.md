@@ -5,11 +5,11 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
-  - Caving
+  - diving
+  - caving
 Region: "[[New South Wales]]"
 CaveDB:
-Related: "[[Diving]]"
+related: "[[Diving]]"
 Status: Seed
 ---
 ---

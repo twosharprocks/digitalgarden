@@ -5,12 +5,12 @@ updated: 2025-12-29
 status: seed
 draft: false
 tags:
-  - Diving
-  - Rebreather
-Related:
+  - diving
+  - rebreather
+Related: 
+  - "[[ChOptima CCR]]"
+  - "[[ChOptima - Post-Dive Checklist]]"
 ---
-Related: [ChOptima CCR](/posts/choptima-ccr/) [ChOptima - Post-Dive Checklist](/posts/choptima-post-dive-checklist/)
-
 ---
 **Gas**
 - [ ] Cylinders: ON

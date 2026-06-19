@@ -5,12 +5,11 @@ updated: 2025-11-01
 status: seed
 draft: false
 tags:
-  - Cybersecurity
-  - Interests
-Related:
+  - cyber-security
+  - interests
+Related: 
+  - "[[Cyber Security]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/)
-
 ---
 *On 19 January 2038 at 03:14:07 UTC implementations relying on 32-bit signed integer representations of Unix epoch time will overflow, resulting in a system time of 20:45:52 UTC on 13 December 1901*
 

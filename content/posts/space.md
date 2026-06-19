@@ -5,11 +5,13 @@ updated: 2025-11-01
 status: seed
 draft: false
 tags:
-  - Interests
-Related:
+  - interests
+Related: 
+  - "[[Personal]]"
+  - "[[Mars]]"
+  - "[[Cosmology]]"
+  - "[[Physics]]"
 ---
-Related: Personal Mars Cosmology [Physics](/posts/physics/)
-
 ---
 
 

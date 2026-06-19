@@ -5,17 +5,13 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
-  - Caving
+  - diving
+  - caving
+  - personal
+  - trips
 Region:
 CaveDB:
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips
-Region: [Sulawesi - Indonesia](/posts/sulawesi-indonesia/)
-CaveDB: 
-
+related: "[[Diving]]"
 ---
 # About
 

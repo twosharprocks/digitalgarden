@@ -5,14 +5,14 @@ updated: 2025-12-15
 status: tree
 draft: false
 tags:
-  - 101-Things
-  - Antarctica
-  - Bucket-List
-  - Expeditions
-  - Mars-One
-  - Mini-Essay
-  - Personal
-  - Writing
+  - 101-things
+  - antarctica
+  - bucket-list
+  - expeditions
+  - mars-one
+  - mini-essay
+  - personal
+  - writing
 Related: "[[Mini Essays]]"
 ---
 Related: 

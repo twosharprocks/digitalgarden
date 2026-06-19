@@ -5,16 +5,20 @@ updated: 2025-06-29
 status: seed
 draft: false
 tags:
-  - Diving
-  - Interests
-  - Trips
-  - Expeditions
-Related:
----
-Related: [Diving](/posts/diving/) Personal Trips [Expedition Ideas](/posts/expedition-ideas/)
-Map: https://www.google.com/maps/place/
+  - diving
+  - interests
+  - trips
+  - expeditions
+Region:
+Sub-Region:
+CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-
+related:
+  - "[[Diving]]"
+  - "[[Personal]]"
+  - "[[Trips]]"
+  - "[[Expedition Ideas]]"
+Map: https://www.google.com/maps/place/
 ---
 # About
 The **Dinaric Karst Belt** (aka **Dinaric Alps Karst** or **Dinarides Karst**) 

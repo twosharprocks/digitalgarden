@@ -5,9 +5,17 @@ updated: 2025-04-23
 status: seed
 draft: false
 tags:
-  - Trips
-  - Diving
-Related: "[[Trips]]"
+  - trips
+  - diving
+Template: "[[Template - Trip]]"
+Destination:
+Region:
+Dates:
+Weather:
+CaveDB:
+Other Info:
+related:
+  - "[[Trips]]"
 ---
 ---
 Dates: 18-04 to 22-04

@@ -5,12 +5,11 @@ updated: 2025-11-01
 status: reference
 draft: false
 tags:
-  - Photogrammetry
-  - Diving
-Related:
+  - photogrammetry
+  - diving
+Related: 
+  - "[[360 Video to 3D Model]]"
 ---
-Related: [360 Video to 3D Model](/posts/360-video-to-3d-model/)
-
 ---
 Hey, couple of things to make your life easier if you want to process up to the model…
 

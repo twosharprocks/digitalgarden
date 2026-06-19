@@ -5,12 +5,13 @@ updated: 2025-11-01
 status: tree
 draft: false
 tags:
-  - Caving
-  - Diving
-  - Photogrammetry
-Related:
+  - caving
+  - diving
+  - photogrammetry
+Related: 
+  - "[[360 Video to 3D Model]]"
+  - "[[Photogrammetry - Will's Notes]]"
 ---
-Related: [360 Video to 3D Model](/posts/360-video-to-3d-model/), [Photogrammetry - Will's Notes](/posts/photogrammetry-will-s-notes/)
 # Ideas
 Dedicated PC Photogrammetry Rig to Will 
 - Photogrammetry - Rig Setup 

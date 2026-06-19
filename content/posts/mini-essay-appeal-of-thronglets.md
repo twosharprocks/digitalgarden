@@ -5,12 +5,13 @@ updated: 2026-02-02
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Writing
-Related:
+  - mini-essay
+  - writing
+Related: 
   - "[[Mini Essays]]"
+  - "[[Writing]]"
+  - "[[Philosophy]]"
 ---
-Related: [Writing](/posts/writing/) [Philosophy](/posts/philosophy/)
  
 ---
 For some time I've wanted to rewatch the "Plaything" episode of *Black Mirror* with the express intent of zeroing in on why there's so much appeal in an evolving digital sentience. On the surface the thronglets are terrifying - a digital lifeform that might be initially dismissed as an addictive game that's hooked a vulnerable and emotionally overwhelmed man who took acid and became convinced the thronglets were talking to him, but they're revealed at the end to be exactly as powerful and intelligent as he claimed when an audio signal rewrites the brains of everyone who hears it.

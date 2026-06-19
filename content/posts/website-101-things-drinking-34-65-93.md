@@ -5,7 +5,7 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Writing
+  - writing
 Related: "[[Writing]]"
 source: https://web.archive.org/web/20140921211809/http://www.themightyginge.com/blog/2012/04/02/coa-101-things-drinking-34-65-93/#34
 author:

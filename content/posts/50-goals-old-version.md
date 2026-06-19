@@ -5,12 +5,13 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - 101-Things
-  - Bucket-List
-Related: "[[Bucket List]]"
+  - 101-things
+  - bucket-list
+Related: 
+  - "[[Bucket List]]"
+  - "[[101 Things - Complete List]]"
+  - "[[101 Things - To Do]]"
 ---
-Related: [101 Things - Complete List](/posts/101-things-complete-list/) [101 Things - To Do](/posts/101-things-to-do/)
-
 1. Live on Mars as a scribe
 2. <code style="color : red">Have a cave diving TV show</code>  
 3. Dive Bikini Atoll for TV

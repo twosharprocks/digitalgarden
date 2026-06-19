@@ -5,10 +5,15 @@ updated: 2025-12-19
 status: seed
 draft: false
 tags:
-Related:
+Related: 
+  - "[[Bucket List]]"
+  - "[[Exploration]]"
+  - "[[Expedition Ideas]]"
+  - "[[Expedition Calendar]]"
+  - "[[Kayaking]]"
+  - "[[Long Solo]]"
+  - "[[Trips]]"
 ---
-Related: [Bucket List](/posts/bucket-list/), [Exploration](/posts/exploration/), [Expedition Ideas](/posts/expedition-ideas/), [Expedition Calendar](/posts/expedition-calendar/) [Kayaking](/posts/kayaking/) [Long Solo](/posts/long-solo/) Trips 
-
 ---
 Travel Groups for Ideas
 - [Much Better Adventure](https://www.muchbetteradventures.com/) - Good prices and options

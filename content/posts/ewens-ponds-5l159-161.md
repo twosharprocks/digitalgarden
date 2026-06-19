@@ -5,16 +5,12 @@ updated: 2026-04-09
 status: seed
 draft: false
 tags:
-  - Diving
-  - Caving
+  - diving
+  - caving
 Region: "[[Mount Gambier - Lower South East]]"
 CaveDB:
-Related: "[[Diving]]"
+related: "[[Diving]]"
 ---
-Related: [Diving](/posts/diving/)
-
----
-
 # To Do
 Diving
 Dry 

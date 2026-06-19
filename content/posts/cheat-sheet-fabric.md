@@ -5,12 +5,12 @@ updated: 2025-10-30
 status: reference
 draft: false
 tags:
-  - AI-content
+  - ai-content
   - reference
-Related:
+Related: 
+  - "[[Cybersecurity Resources]]"
+  - "[[AI]]"
 ---
-Related: [Cybersecurity Resources](/posts/cybersecurity-resources/) [AI](/posts/ai/)
-
 ---
 
 Potential Issue: Is Fabric creating summaries for the *adverts* that play at the start of YouTube videos?!?!

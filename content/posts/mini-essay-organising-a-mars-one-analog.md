@@ -5,13 +5,17 @@ updated: 2025-11-15
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Writing
-  - Mars-One
-Related:
+  - mini-essay
+  - writing
+  - mars-one
+Related: 
   - "[[Mini Essays]]"
+  - "[[Writing]]"
+  - "[[Mars]]"
+  - "[[Website - Mars One preparation List]]"
+  - "[[Mini Essay - If Mars One rebooted]]"
+  - "[[Mars Analog]]"
 ---
-Related: [Writing](/posts/writing/) Mars [Website - Mars One preparation List](/posts/website-mars-one-preparation-list/) [Mini Essay - If Mars One rebooted](/posts/mini-essay-if-mars-one-rebooted/) Mars Analog
  
 ---
 An unexpected idea that appeared recently is to organise a Mars analog with a bunch of Mars One candidates in Wadi Rum. I'm not sure why something like this wasn't organised previously, but the contact from DIrk through LinkedIn has triggered a cascade of ideas around a filmed Mars analogue featuring folks who volunteered for Mars One. 

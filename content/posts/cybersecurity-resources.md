@@ -6,10 +6,15 @@ status: seed
 draft: false
 tags:
   - tag1
-Related:
+Related: 
+  - "[[Cyber Security]]"
+  - "[[Cyber Glossary]]"
+  - "[[Cyber - Job Domains & Interview Prep]]"
+  - "[[Hacking - Tools & Techniques]]"
+  - "[[Pentesting]]"
+  - "[[Recent Cyber Incident Analysis]]"
+  - "[[CISSP]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/), [Cyber Glossary](/posts/cyber-glossary/), [Cyber - Job Domains & Interview Prep](/posts/cyber-job-domains-interview-prep/) Hacking - Tools & Techniques [Pentesting](/posts/pentesting/) Recent Cyber Incident Analysis [CISSP](/posts/cissp/)
-
 ---
 A repository of useful resources for cybersecurity professionals
 ## Quick References

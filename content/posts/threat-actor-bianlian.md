@@ -5,12 +5,13 @@ updated: 2025-11-02
 status: seed
 draft: false
 tags:
-  - Cybersecurity
-  - Threat-Modelling
-Related: "[[Cyber Security]]"
+  - cyber-security
+  - threat-modelling
+Related: 
+  - "[[Cyber Security]]"
+  - "[[Threat Actors]]"
+  - "[[Threat Modelling]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/) [Threat Actors](/posts/threat-actors/) [Threat Modelling](/posts/threat-modelling/)
-
 ---
 ## Description
 

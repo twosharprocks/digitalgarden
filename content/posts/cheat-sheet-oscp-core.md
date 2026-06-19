@@ -5,12 +5,12 @@ updated: 2025-10-30
 status: reference
 draft: false
 tags:
-  - Cybersecurity
-  - OSCP
-Related:
+  - cyber-security
+  - oscp
+Related: 
+  - "[[OSCP]]"
+  - "[[Cyber Security]]"
 ---
-Related: [OSCP](/posts/oscp/) [Cyber Security](/posts/cyber-security/)
-
 ---
 # Setup
 Create directories: `mkdir dc host1 host2`

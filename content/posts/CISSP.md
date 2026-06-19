@@ -5,12 +5,12 @@ updated: 2025-10-30
 status: seed
 draft: false
 tags:
-  - Cybersecurity
-  - CISSP
-Related:
+  - cyber-security
+  - cissp
+Related: 
+  - "[[Cyber Security]]"
+  - "[[Cyber - Training & Certifications]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/) [Cyber - Training & Certifications](/posts/cyber-training-certifications/)
-
 ---
 [ISC2 - Certified Information Systems Security Professional](https://www.isc2.org/Certifications/CISSP)
 - **Domains** (with personal notes)

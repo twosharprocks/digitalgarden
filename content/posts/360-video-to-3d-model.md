@@ -5,11 +5,13 @@ updated: 2025-10-30
 status: seed
 draft: false
 tags:
-  - Photogrammetry
-  - Diving
-Related:
+  - photogrammetry
+  - diving
+Related: 
+  - "[[Photogrammetry - Will's Notes]]"
+  - "[[Photogrammetry]]"
+  - "[[Photogrammetry - Processing]]"
 ---
-Related: [Photogrammetry - Will's Notes](/posts/photogrammetry-will-s-notes/) [Photogrammetry](/posts/photogrammetry/) [Photogrammetry - Processing](/posts/photogrammetry-processing/)
 Reference: https://axel-busch.medium.com/how-to-quickly-create-a-3d-model-from-360-underwater-video-in-1h-or-less-b45b1cf29655
 
 # Quick Notes

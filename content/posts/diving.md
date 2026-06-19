@@ -5,12 +5,15 @@ updated: 2025-11-01
 status: seed
 draft: false
 tags:
-  - Diving
-  - Photogrammetry
-Related:
+  - diving
+  - photogrammetry
+Related: 
+  - "[[Caving]]"
+  - "[[Diving - Gear]]"
+  - "[[Diving - Reading]]"
+  - "[[Photogrammetry]]"
+  - "[[CaveDB]]"
 ---
-Related: [Caving](/posts/caving/) [Diving - Gear](/posts/diving-gear/) [Diving - Reading](/posts/diving-reading/) [Photogrammetry](/posts/photogrammetry/) [CaveDB](/posts/cavedb/)
-
 ---
 **I truly love cave diving and exploration**. Even if the interest of others fades, mine keeps coming *back over and over again*.
 
@@ -25,7 +28,7 @@ Join NSS-CDS? https://www.facebook.com/share/1BNCb4BAjU/
 Use [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) to change UW video colour (replace Clipchamp?)
 
 Investigate [Dive Saga Youtube channel](https://www.youtube.com/@DiveSAGA)
-- [ ] Develop #Podcast  
+- [ ] Develop #podcast  
 - [ ] [Writing](/posts/writing/) - Create/update [Wikipedia](https://en.wikipedia.org/w/index.php?title=Special:Homepage&namespace=-1&source=personaltoolslink)pages for caves
 - [ ] Create Obsidian Pages from CaveDB 
 
@@ -35,7 +38,7 @@ Investigate [Dive Saga Youtube channel](https://www.youtube.com/@DiveSAGA)
 - Soggy Wombats merch store (Redbubble?)
 - CEGSA Presentation on Sulawesi? On Murra? Thailand?
 - Articles written about each discovery (Eng East, Iddlebiddy, Pines, Murra, Gua Lapahia, Moko Morete) 
-- Create #TightSqueezeTuesday of Gadi Gap
+- Create #tightsqueezetuesday of Gadi Gap
 - "Josh's Restriction" in La Ode Palsu (Sulawesi) (first time something named after me?)
 - Get CCR hours at Burra Mine Pool
 - Migrate all cave data onto Google Earth

@@ -5,11 +5,15 @@ updated: 2025-04-12
 status: seed
 draft: false
 tags:
-  - Knowledge-Management
-  - Creativity
-Related:
+  - knowledge-management
+  - creativity
+Related: 
+  - "[[Knowledge-Management]]"
+  - "[[Creativity]]"
+  - "[[Time Management]]"
+  - "[[Digital Garden]]"
+  - "[[Mini Essay - Digital Garden]]"
 ---
-Related: Knowledge-Management Creativity [Time Management](/posts/time-management/) [Digital Garden](/posts/digital-garden/) [Mini Essay - Digital Garden](/posts/mini-essay-digital-garden/)
 Reference: https://maggieappleton.com/garden-history
 
 ---

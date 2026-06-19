@@ -1,12 +1,20 @@
 ---
-title: Trip - Sydney GoDiving Conference - 2025 Sept
+title: Trip - Sydney GoDiving Conference  - 2025 Sept
 created: 2025-09-05
 updated: 2025-10-30
 status: reference
 draft: false
 tags:
-  - Trips
-Related: "[[Trips]]"
+  - trips
+Template: "[[Template - Trip]]"
+Destination:
+Region:
+Dates:
+Weather:
+CaveDB:
+Other Info:
+related:
+  - "[[Trips]]"
 ---
 ---
 Dates: 05-09 to 07-09

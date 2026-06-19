@@ -5,11 +5,10 @@ updated: 2026-02-24
 status: seed
 draft: false
 tags:
-  - Cybersecurity
-Related:
+  - cyber-security
+Related: 
+  - "[[Personal]]"
 ---
-Related: Personal
-
 ---
 
 

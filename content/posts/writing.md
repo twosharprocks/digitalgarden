@@ -5,13 +5,15 @@ updated: 2025-11-01
 status: tree
 draft: false
 tags:
-  - Writing
-  - Books
-  - Mini-Essay
-Related:
+  - writing
+  - books
+  - mini-essay
+Related: 
+  - "[[Books]]"
+  - "[[Mini Essays]]"
+  - "[[Mini Essays - Ideas]]"
+  - "[[Writing - Quotes]]"
 ---
-Related: [Books](/posts/books/) [Mini Essays](/posts/mini-essays/) Mini Essays - Ideas Writing - Quotes
-
 ---
 ==Take your Bluetooth keyboard EVERYWHERE==
 

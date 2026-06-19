@@ -5,12 +5,12 @@ updated: 2025-11-01
 status: seed
 draft: false
 tags:
-  - Cybersecurity
-  - Study
-Related:
+  - cyber-security
+  - study
+Related: 
+  - "[[Cyber Security]]"
+  - "[[IRAP Assessor]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/) IRAP Assessor
-
 --- 
 # Certified in Risk and Information Systems Control
 

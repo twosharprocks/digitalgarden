@@ -5,7 +5,7 @@ updated: 2025-10-30
 status: seed
 draft: false
 tags:
-  - Knowledge-Management
+  - knowledge-management
 Related: "[[Knowledge-Management]]"
 ---
 Reference: https://youtu.be/en56OKg5hyc?si=W3YCDI4uDlcOk5Nd
@@ -18,8 +18,8 @@ Non-linear writing, Low effort & low friction
 Offers a way to build your own, future-proof, decentralised platform
 
 Three Elements
-- #Seed - Very rough and early ideas. Take smart personal notes to develop
-- #Tree - Work that's cleaned up and clarified
+- #seed - Very rough and early ideas. Take smart personal notes to develop
+- #tree - Work that's cleaned up and clarified
 - #evergreen - Work that is reasonably complete (but still tended to over time)
 - #reference - A completed piece primarily meant to support or inform others
 `Also: atoms (single concept)/molecules(linked concepts)/alloys(crafted)`

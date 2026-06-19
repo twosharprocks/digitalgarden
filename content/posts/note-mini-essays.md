@@ -5,12 +5,14 @@ updated: 2025-04-06
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Knowledge-Management
-  - Writing
-Related:
+  - mini-essay
+  - knowledge-management
+  - writing
+Related: 
+  - "[[Knowledge-Management]]"
+  - "[[Writing]]"
+  - "[[Mini Essays]]"
 ---
-Related: Knowledge-Management [Writing](/posts/writing/) [Mini Essays](/posts/mini-essays/)
 Original: https://youtu.be/N4YjXJVzoZY
 
 ---

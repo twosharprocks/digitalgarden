@@ -5,11 +5,10 @@ updated: 2025-10-30
 status: seed
 draft: false
 tags:
-  - Cybersecurity
-Related:
+  - cyber-security
+Related: 
+  - "[[Cyber Security]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/)
-
 ---
 
 * **Basic Service Set Identifier (BSSID)**: Used by a router to announce its MAC address in a beacon signal.

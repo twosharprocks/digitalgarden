@@ -5,9 +5,9 @@ updated: 2025-05-29
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Books
-  - Writing
+  - mini-essay
+  - books
+  - writing
 Related: "[[Mini Essays]]"
 ---
 During your walk this morning you finished "Surely Your Joking Mr Feynman", and it's been an interesting audiobook to listen to. 

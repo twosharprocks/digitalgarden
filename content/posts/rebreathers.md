@@ -5,11 +5,10 @@ updated: 2025-08-16
 status: seed
 draft: false
 tags:
-  - Diving
-Related:
+  - diving
+Related: 
+  - "[[Diving - Gear]]"
 ---
-Related: [Diving - Gear](/posts/diving-gear/)
-
 ---
 # My CCRs
 ## ChOptima (Dive Rite)

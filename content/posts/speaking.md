@@ -5,14 +5,14 @@ updated: 2025-11-01
 status: seed
 draft: false
 tags:
-  - Speaking
-  - Cybersecurity
-  - Books
-  - Work
-Related:
+  - speaking
+  - cyber-security
+  - books
+  - work
+Related: 
+  - "[[Exploration]]"
+  - "[[Diving]]"
 ---
-Related: [Exploration](/posts/exploration/) [Diving](/posts/diving/) 
-
 ---
 Topics
 AI, Quantum Computing, Gunter Anders, Year 2038 Problem

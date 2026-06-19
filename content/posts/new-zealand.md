@@ -5,17 +5,15 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
+  - personal
+  - cave-regions
+  - trips
 Region:
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips [Cave Regions](/posts/cave-regions/)
-SmartTraveller: www.smartraveller.gov.au/destinations/
-
+related: "[[Diving]]"
 ---
 # About
 **Speak to Bruce** 

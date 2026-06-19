@@ -5,11 +5,11 @@ updated: 2025-11-01
 status: reference
 draft: false
 tags:
-  - AI-content
-  - Photogrammetry
-Related:
+  - ai-content
+  - photogrammetry
+Related: 
+  - "[[ChatGPT - Cloud-Based Photogrammetry]]"
 ---
-Related: [ChatGPT - Cloud-Based Photogrammetry](/posts/chatgpt-cloud-based-photogrammetry/)
 Original: https://chatgpt.com/share/68254cfd-ff48-8006-b00a-87f323906f97
 
 ---

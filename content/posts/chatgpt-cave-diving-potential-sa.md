@@ -5,7 +5,7 @@ updated: 2025-10-30
 status: seed
 draft: false
 tags:
-  - AI-content
+  - ai-content
 Related: "[[Diving]]"
 ---
 ---

@@ -5,12 +5,12 @@ updated: 2025-11-02
 status: seed
 draft: false
 tags:
-  - Cybersecurity
-  - Script
-Related:
+  - cyber-security
+  - script
+Related: 
+  - "[[Cyber Security]]"
+  - "[[Scripts]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/) [Scripts](/posts/scripts/)
-
 ---
 - Don't save scripts in Obsidian - copy their contents to a markdown file for sharing/editing
 ---

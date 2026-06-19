@@ -5,12 +5,11 @@ updated: 2025-10-30
 status: seed
 draft: false
 tags:
-  - Diving
-  - AI-content
-Related:
+  - diving
+  - ai-content
+Related: 
+  - "[[Exploration]]"
 ---
-Related: [Exploration](/posts/exploration/)
-
 ---
 # Applying Cousteau's Approach to Modern Cave Exploration
 

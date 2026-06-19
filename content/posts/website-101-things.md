@@ -5,9 +5,9 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - 101-Things
-  - Writing
-  - Bucket-List
+  - 101-things
+  - writing
+  - bucket-list
 Related: "[[Writing]]"
 author:
   - Josh Richards

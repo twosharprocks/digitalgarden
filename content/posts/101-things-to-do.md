@@ -5,12 +5,13 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - 101-Things
-  - Bucket-List
-Related: "[[Bucket List]]"
+  - 101-things
+  - bucket-list
+Related: 
+  - "[[Bucket List]]"
+  - "[[101 Things - Complete List]]"
+  - "[[Book - 101 Things]]"
 ---
-Related: [101 Things - Complete List](/posts/101-things-complete-list/) Book - 101 Things [Bucket List](/posts/bucket-list/)
-
 13. Meet Someone with Your Own Name
 - FIFO Mechanic in Rockingham [Survived BASE Jump](https://www.perthnow.com.au/news/wa/perth-man-josh-richards-luckiest-person-alive-after-horror-base-jump-ng-1a62d6a03acc581698180ef68ddf4dca) - [Facebook Profile](https://www.facebook.com/josh.richards.5811)
 

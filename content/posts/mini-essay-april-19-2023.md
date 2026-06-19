@@ -5,14 +5,14 @@ updated: 2026-04-18
 status: seed
 draft: false
 tags:
-  - Philosophy
-  - Personal
-  - Mini-Essay
-  - Writing
-Related:
+  - philosophy
+  - personal
+  - mini-essay
+  - writing
+Related: 
   - "[[Mini Essays]]"
+  - "[[Writing]]"
 ---
-Related: [Writing](/posts/writing/)
 Mini Essay - April 19 (2026)
 
 ---

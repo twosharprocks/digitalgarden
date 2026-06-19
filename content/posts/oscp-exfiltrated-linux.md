@@ -5,7 +5,7 @@ updated: 2026-01-22
 status: seed
 draft: false
 tags:
-  - Cybersecurity
+  - cyber-security
 Related: "[[Cybersecurity]]"
 ---
 # Exfiltration

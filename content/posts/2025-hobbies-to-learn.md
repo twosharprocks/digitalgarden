@@ -5,12 +5,12 @@ updated: 2025-11-01
 status: seed
 draft: false
 tags:
-  - Knowledge-Management
-  - Personal
-  - Interests
-Related:
+  - knowledge-management
+  - personal
+  - interests
+Related: 
+  - "[[Time Management]]"
 ---
-Related: [Time Management](/posts/time-management/)
 Reference: https://www.youtube.com/watch?v=t2JFOA023Kk
 
 Mental

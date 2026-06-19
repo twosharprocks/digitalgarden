@@ -2,19 +2,16 @@
 title: Planning - Olwolgin
 created: 2026-06-18
 updated: 2026-06-18
-status: seed
+status: tree
 draft: false
 tags:
-  - Diving
-  - Caving
+  - diving
+  - caving
+  - trips
 Region:
 CaveDB:
-Related: "[[Diving]]"
----
-Status: #Tree
-Tags: #Diving #Trips
-Reference: [Olwolgin - 6N](/posts/olwolgin-6n/) 
-
+related: "[[Diving]]"
+Reference: "[[Olwolgin - 6N]]"
 ---
 # Planning - Olwolgin
 

@@ -5,13 +5,14 @@ updated: 2025-11-14
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Writing
-  - Antarctica
-Related:
+  - mini-essay
+  - writing
+  - antarctica
+Related: 
   - "[[Mini Essays]]"
+  - "[[Writing]]"
+  - "[[Antarctica]]"
 ---
-Related: [Writing](/posts/writing/) [Antarctica](/posts/antarctica/)
  
 ---
 As you sit in the airport at Buenos Aires after such a hefty few days of flying, it's starting to really dawn on me that I'm about to flying to Ushuaia - the gateway to Antarctica. And in just a few days, I'll be getting onboard an expedition ship Going to the Antarctic Peninsula! 

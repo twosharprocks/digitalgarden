@@ -5,15 +5,19 @@ updated: 2025-11-10
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Writing
-  - 101-Things
-  - Bucket-List
-  - Books
-Related:
+  - mini-essay
+  - writing
+  - 101-things
+  - bucket-list
+  - books
+Related: 
   - "[[Mini Essays]]"
+  - "[[Writing]]"
+  - "[[Bucket List]]"
+  - "[[Mini Essay - Ridiculous Bucket List]]"
+  - "[[101 Things - To Do]]"
+  - "[[101 Things - Complete List]]"
 ---
-Related: [Writing](/posts/writing/) [Bucket List](/posts/bucket-list/) [Mini Essay - Ridiculous Bucket List](/posts/mini-essay-ridiculous-bucket-list/) [101 Things - To Do](/posts/101-things-to-do/) [101 Things - Complete List](/posts/101-things-complete-list/) [Writing](/posts/writing/)
  
 ---
 For the last few months since I turned 40, I've been trying to reassess my life and all the things I've done so far with limited success. Much of the challenge has come from knowing just how much there is to sort through and reframe, coupled with having ignored my writing for so long that it feels like there's a kind of psychic constipation built-up - my recent writing is easing that pressure, but there is a whole lot clogged up that needs to be processed while still more builds up behind it. 

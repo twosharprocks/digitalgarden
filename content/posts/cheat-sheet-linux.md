@@ -5,11 +5,10 @@ updated: 2025-10-30
 status: seed
 draft: false
 tags:
-  - Cybersecurity
-Related:
+  - cyber-security
+Related: 
+  - "[[Cyber Security]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/)
-
 ---
 # Bash
 [explainshell.com](https://explainshell.com/) - Lists out meaning of a line of script

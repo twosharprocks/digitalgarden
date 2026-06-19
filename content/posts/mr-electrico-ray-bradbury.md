@@ -5,14 +5,13 @@ updated: 2026-04-18
 status: seed
 draft: false
 tags:
-  - Writing
-  - Quotes
-  - Source
-Related:
+  - writing
+  - quotes
+  - source
+Related: 
+  - "[[Writing]]"
+  - "[[Writing - Quotes]]"
 ---
-Related: [Writing](/posts/writing/) Writing - Quotes
-
-
 ---
 INTERVIEWER:
 That’s the character who makes a brief appearance in Something Wicked This Way Comes, right? And you’ve often spoken of a real-life Mr. Electrico, though no scholar has ever been able to confirm his existence. The story has taken on a kind of mythic stature—the director of the Center for Ray Bradbury Studies calls the search for Mr. Electrico the “Holy Grail” of Bradbury scholarship.

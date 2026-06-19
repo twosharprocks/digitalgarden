@@ -5,7 +5,7 @@ updated: 2026-06-17
 status: seed
 draft: false
 tags:
-  - Knowledge-Management
+  - knowledge-management
 Related: "[[Knowledge-Management]]"
 ---
 Related: 

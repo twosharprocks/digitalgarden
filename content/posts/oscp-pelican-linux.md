@@ -5,7 +5,7 @@ updated: 2025-10-02
 status: seed
 draft: false
 tags:
-  - Cybersecurity
+  - cyber-security
 Related: "[[Cybersecurity]]"
 ---
 # Pelican

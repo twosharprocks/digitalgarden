@@ -5,11 +5,11 @@ updated: 2025-10-30
 status: reference
 draft: false
 tags:
-  - Cybersecurity
-  - CISSP
-Related:
+  - cyber-security
+  - cissp
+Related: 
+  - "[[CISSP]]"
 ---
-Related: [CISSP](/posts/cissp/)
 Reference: https://cissprep.net/domain-1-security-and-risk-management/
 
 ---

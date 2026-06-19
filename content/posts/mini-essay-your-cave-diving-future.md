@@ -5,9 +5,9 @@ updated: 2025-06-12
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Diving
-  - Writing
+  - mini-essay
+  - diving
+  - writing
 Related:
   - "[Writing]"
   - "[[Mini Essays]]"
@@ -24,7 +24,7 @@ First priority? Figure out how to get Lewy to the Eastern Mediterranean, and mak
 
 ---
 **This also reminds me of**... 
-Setting up your #Podcast to interview Robin & others in Sulawesi
+Setting up your #podcast to interview Robin & others in Sulawesi
 
 ---
 # References

@@ -5,8 +5,8 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - "#unread"
-  - Writing
+  - unread
+  - writing
 Related: "[[Writing]]"
 source: "https://web.archive.org/web/20120207185706/http://www.themightyginge.com/blog/2012/01/30/coa-101-things-2-swim-with/"
 author:

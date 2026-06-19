@@ -5,12 +5,12 @@ updated: 2025-11-01
 status: reference
 draft: false
 tags:
-  - Cybersecurity
-  - Work
-Related:
+  - cyber-security
+  - work
+Related: 
+  - "[[Cyber Security]]"
+  - "[[Work]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/) [Work](/posts/work/)
-
 ---
 # Job Domains
 * Security Architecture - Security design that addresses the requirements and potential risks of a given scenario or environment. 

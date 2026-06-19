@@ -5,13 +5,19 @@ updated: 2026-01-04
 status: seed
 draft: false
 tags:
-  - Writing
-  - Diving
-  - Exploration
-  - Interests
-Related:
+  - writing
+  - diving
+  - exploration
+  - interests
+Related: 
+  - "[[Personal]]"
+  - "[[Caving]]"
+  - "[[Writing]]"
+  - "[[Diving]]"
+  - "[[5L20 - Englebrecht's West]]"
+  - "[[Englebrecht's Cave - 5L19-20]]"
+  - "[[5L019 - Englebrecht's East]]"
 ---
-Related: Personal [Caving](/posts/caving/) [Writing](/posts/writing/) [Diving](/posts/diving/) [5L20 - Englebrecht's West](/posts/5l20-englebrecht-s-west/) [Englebrecht's Cave - 5L19-20](/posts/englebrecht-s-cave-5l19-20/) [5L019 - Englebrecht's East](/posts/5l019-englebrecht-s-east/)
 Reference: https://soggywombats.com.au/2024/04/15/making-sense-with-mnemo/
 
 ![Pasted image 20250412172637](/files/Pasted%20image%2020250412172637.png)

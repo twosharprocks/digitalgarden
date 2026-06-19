@@ -5,7 +5,7 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Writing
+  - writing
 Related: "[[Writing]]"
 source: https://web.archive.org/web/20141025180730/http://www.themightyginge.com/blog/2009/10/07/home-made-kfc/
 author:

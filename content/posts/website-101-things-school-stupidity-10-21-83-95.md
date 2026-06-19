@@ -5,7 +5,7 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Writing
+  - writing
 Related: "[[Writing]]"
 source: https://web.archive.org/web/20160530015830/http://www.themightyginge.com/blog/2012/09/19/coa-101-things-school-stupidity-10-21-83-95/#10
 author:

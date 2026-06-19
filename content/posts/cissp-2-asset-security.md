@@ -5,12 +5,11 @@ updated: 2025-10-30
 status: reference
 draft: false
 tags:
-  - Cybersecurity
-  - CISSP
-Related:
+  - cyber-security
+  - cissp
+Related: 
+  - "[[CISSP]]"
 ---
-Related: [CISSP](/posts/cissp/)
-
 ---
 # Information Asset Security
 #### **Learning Objectives**

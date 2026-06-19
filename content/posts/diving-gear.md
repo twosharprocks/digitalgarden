@@ -5,11 +5,11 @@ updated: 2026-06-18
 status: tree
 draft: false
 tags:
-  - Diving
-Related: "[[Diving]]"
+  - diving
+Related: 
+  - "[[Diving]]"
+  - "[[Diving - Ideas]]"
 ---
-Related: [Diving - Ideas](/posts/diving-ideas/)
-
 ---
 # Reels, Spools, Cookies
 * Big Reels

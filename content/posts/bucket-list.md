@@ -5,12 +5,19 @@ updated: 2025-10-30
 status: seed
 draft: false
 tags:
-  - 101-Things
-  - Bucket-List
-Related:
+  - 101-things
+  - bucket-list
+Related: 
+  - "[[Writing]]"
+  - "[[Personal]]"
+  - "[[50 Goals (Old Version)]]"
+  - "[[Adventure]]"
+  - "[[101 Things - To Do]]"
+  - "[[101 Things - Complete List]]"
+  - "[[Book - 101 Things]]"
+  - "[[Mini Essay - Ridiculous Bucket List]]"
+  - "[[Mini Essay - What do you really want to do before you die]]"
 ---
-Related: [Writing](/posts/writing/) Personal [50 Goals (Old Version)](/posts/50-goals-old-version/) [Adventure](/posts/adventure/) [101 Things - To Do](/posts/101-things-to-do/) [101 Things - Complete List](/posts/101-things-complete-list/) Book - 101 Things [Mini Essay - Ridiculous Bucket List](/posts/mini-essay-ridiculous-bucket-list/) [Mini Essay - What do you really want to do before you die](/posts/mini-essay-what-do-you-really-want-to-do-before-you-die/) 
-
 ---
 Write [Mini Essays](/posts/mini-essays/) about each entry here and how to complete them
 -  ***"Could Do" vs WANT to do***
@@ -116,7 +123,7 @@ Write [Mini Essays](/posts/mini-essays/) about each entry here and how to comple
 	- [Machu Picchu](http://www.peru-explorer.com/best_time_to_visit_machu_picchu.htm)
 		- Hike the Salkantay Trek with [Salkantay Trek](https://www.salkantaytrekking.com/)
 			- [5 days/4 nights for $650USD](https://www.instagram.com/p/DJ5H1GAOw78/)
-	- #Antarctica
+	- #antarctica
 - Africa 
 	- [Madagascar - Walk with Lemurs](https://www.muchbetteradventures.com/products/10679-adventures-trekking-adventure-madagascar/)
 - NZ 

@@ -5,11 +5,10 @@ updated: 2025-04-06
 status: seed
 draft: false
 tags:
-  - Knowledge-Management
-Related:
+  - knowledge-management
+Related: 
+  - "[[Knowledge-Management]]"
 ---
-Related: Knowledge-Management
-
 ---
 Notebook LM accepts Markdown
 Notebook LM does not use personal data to train the model

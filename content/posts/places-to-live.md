@@ -5,12 +5,14 @@ updated: 2025-11-03
 status: seed
 draft: false
 tags:
-  - Personal
-  - Work
-Related:
+  - personal
+  - work
+Related: 
+  - "[[Personal]]"
+  - "[[Work]]"
+  - "[[VW Transporter|living in the van]]"
+  - "[[Housesitting]]"
 ---
-Related: Personal, [Work](/posts/work/), living in the van, Housesitting
-
 ---
 # Australia
 ==Queensland==

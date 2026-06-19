@@ -5,16 +5,16 @@ updated: 2025-05-21
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - 101-Things
-  - Personal
-  - Philosophy
-  - Writing
-Related:
+  - mini-essay
+  - 101-things
+  - personal
+  - philosophy
+  - writing
+Related: 
   - "[[Mini Essays]]"
+  - "[[101 Things - Complete List]]"
+  - "[[101 Things - To Do]]"
 ---
-Related: #Philosophy, [101 Things - Complete List](/posts/101-things-complete-list/), [101 Things - To Do](/posts/101-things-to-do/)
-
 ---
 What do you really want to do before you die? It's a tough question, and one that's even tougher to contemplate. You're 40 in a few months, which is wild considering you never thought you'd make it to 30. Now you talk about being lucky to make 70... maybe you need to ask yourself why you didn't think you'd make it to 30, as well as what you'd do if you made it to 80 and have another 40 years of life ahead of you.
 

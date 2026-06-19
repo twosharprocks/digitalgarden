@@ -5,16 +5,16 @@ updated: 2026-06-18
 status: evergreen
 draft: false
 tags:
-  - Diving
-  - Trips
+  - diving
+  - trips
 Region: South Australia
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Related: [Expedition Ideas](/posts/expedition-ideas/) Mt Gambier - PROTECTED
-
+related:
+  - "[[Diving]]"
+  - "[[Expedition Ideas]]"
+  - "[[Mt Gambier - PROTECTED]]"
 ---
 # About
 

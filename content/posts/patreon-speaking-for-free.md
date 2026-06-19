@@ -5,8 +5,8 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Writing
-  - Patreon
+  - writing
+  - patreon
 Related: "[[Writing]]"
 ---
 from email 2018-02-27

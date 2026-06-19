@@ -5,9 +5,9 @@ updated: 2025-05-24
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Philosophy
-  - Writing
+  - mini-essay
+  - philosophy
+  - writing
 Related: "[[Mini Essays]]"
 ---
 Ask yourself what the greatest moments of life have been in your life so far? There are a few that standout

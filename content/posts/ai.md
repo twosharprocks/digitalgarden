@@ -5,14 +5,17 @@ updated: 2025-11-02
 status: seed
 draft: false
 tags:
-  - Interests
-  - Knowledge-Management
-  - Work
-  - Philosophy
-Related:
+  - interests
+  - knowledge-management
+  - work
+  - philosophy
+Related: 
+  - "[[Cyber Security]]"
+  - "[[Philosophy]]"
+  - "[[Knowledge-Management]]"
+  - "[[Work]]"
+  - "[[Personal]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/) [Philosophy](/posts/philosophy/) Knowledge-Management [Work](/posts/work/) Personal
-
 ---
 
 ChatGPT Prompts

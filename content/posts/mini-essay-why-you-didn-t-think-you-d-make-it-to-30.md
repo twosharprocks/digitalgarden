@@ -5,15 +5,15 @@ updated: 2025-11-01
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Personal
-  - 101-Things
-  - Philosophy
-  - Writing
-Related:
+  - mini-essay
+  - personal
+  - 101-things
+  - philosophy
+  - writing
+Related: 
   - "[[Mini Essays]]"
+  - "[[Writing]]"
 ---
-Related: [Writing](/posts/writing/)
  
 ---
 Throughout most of my 20's I was certain I wouldn't be alive to turn 30. It's not like I can pinpoint exactly where that idea came from, but there's no question it was a recurring belief that shaped the way I thought and planned my life. If I try to trace it back, I suspect I'll wind up back at April 19th, 2008. I made a choice that night to live, and it was certainly a close-call, but I've used that night as a reference for most of my life since - no matter what awful shit I've been through since then, I know that I will never allow myself to be trapped in that mindset ever again, where suicide felt like the only way out.

@@ -1,12 +1,20 @@
 ---
-title: Trip - Thailand - 2026 Jan
+title: Trip - Thailand - Boh Yai Mines - 2026 Jan
 created: 2025-12-14
 updated: 2025-12-14
 status: seed
 draft: false
 tags:
-  - Trips
-Related: "[[Trips]]"
+  - trips
+Template: "[[Template - Trip]]"
+Destination:
+Region:
+Dates:
+Weather:
+CaveDB:
+Other Info:
+related:
+  - "[[Trips]]"
 ---
 # Trip Log
 ***Dates: 06-01 to 14-01***

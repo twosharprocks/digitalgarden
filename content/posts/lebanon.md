@@ -5,17 +5,15 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
+  - personal
+  - trips
+  - expeditions
 Region:
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips #Expeditions
-SmartTraveller: https://www.smartraveller.gov.au/destinations/middle-east/lebanon
-
+related: "[[Diving]]"
 ---
 # About
 Anti-Lebanon Mountains and Jeita Grotto System

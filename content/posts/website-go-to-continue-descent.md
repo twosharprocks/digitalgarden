@@ -5,7 +5,7 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Writing
+  - writing
 Related: "[[Writing]]"
 source: https://web.archive.org/web/20160226050959/http://www.themightyginge.com/blog/2015/02/16/mars-project-you-are-go-to-continue-descent/
 author:

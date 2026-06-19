@@ -5,17 +5,14 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
+  - personal
+  - trips
 Region:
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips 
-SmartTraveller: https://www.smartraveller.gov.au/destinations/africa/madagascar
-
+related: "[[Diving]]"
 ---
 # About
 **Why:** Massive karst regions like the Tsingy de Bemaraha and Ankarana contain hundreds of limestone caves, many barely explored or surveyed. The warm climate and remoteness suggest the potential for flooded sections, especially during the wet season.  

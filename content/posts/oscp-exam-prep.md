@@ -5,12 +5,12 @@ updated: 2025-06-28
 status: reference
 draft: false
 tags:
-  - OSCP
-  - Cybersecurity
-Related: "[[Cybersecurity]]"
+  - oscp
+  - cyber-security
+Related: 
+  - "[[Cybersecurity]]"
+  - "[[OSCP]]"
 ---
-Related: [OSCP](/posts/oscp/)
-
 ---
 ProvingGrounds (very close to OSCP)
 - **PG Practice**: Structured, guided learning with focused challenges to teach specific skills.

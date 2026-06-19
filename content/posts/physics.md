@@ -5,14 +5,16 @@ updated: 2025-07-06
 status: seed
 draft: false
 tags:
-  - Physics
-  - Interests
-  - Study
-  - Writing
-Related:
+  - physics
+  - interests
+  - study
+  - writing
+Related: 
+  - "[[Physics]]"
+  - "[[Book - Quantum Mechanics]]"
+  - "[[Cosmology]]"
+  - "[[Personal]]"
 ---
-Related: [Physics](/posts/physics/) Book - Quantum Mechanics Cosmology Personal
-
 ---
 Be ***curious*** about the universe 
 Write quantum physics and holographics book? 

@@ -5,11 +5,13 @@ updated: 2025-11-08
 status: seed
 draft: false
 tags:
-  - Cybersecurity
-Related:
+  - cyber-security
+Related: 
+  - "[[Cyber Security]]"
+  - "[[Cyber Glossary]]"
+  - "[[Cybersecurity Resources]]"
+  - "[[Cyber - Training & Certifications]]"
 ---
-Related: [Cyber Security](/posts/cyber-security/) [Cyber Glossary](/posts/cyber-glossary/) [Cybersecurity Resources](/posts/cybersecurity-resources/) [Cyber - Training & Certifications](/posts/cyber-training-certifications/)
-
 ---
 
 

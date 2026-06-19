@@ -5,14 +5,16 @@ updated: 2025-12-19
 status: tree
 draft: false
 tags:
-  - Philosophy
-  - Writing
-  - Creativity
-  - Personal
-Related:
+  - philosophy
+  - writing
+  - creativity
+  - personal
+Related: 
+  - "[[Philosophy]]"
+  - "[[Writing]]"
+  - "[[Creativity]]"
+  - "[[Personal]]"
 ---
-Related: [Philosophy](/posts/philosophy/) [Writing](/posts/writing/) Creativity Personal
-
 ---
 Priorities 
 - Writing books 

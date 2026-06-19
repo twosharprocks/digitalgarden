@@ -5,12 +5,12 @@ updated: 2026-04-22
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Writing
-Related:
+  - mini-essay
+  - writing
+Related: 
   - "[[Mini Essays]]"
+  - "[[Writing]]"
 ---
-Related: [Writing](/posts/writing/)
  
 ---
 Where do I want to be in 2031?

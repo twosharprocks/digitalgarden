@@ -5,14 +5,15 @@ updated: 2025-05-11
 status: tree
 draft: false
 tags:
-  - Sort
-  - To-Do
-  - Writing
-  - Interests
-Related:
+  - sort
+  - to-do
+  - writing
+  - interests
+Related: 
+  - "[[Personal]]"
+  - "[[Writing]]"
+  - "[[Reading]]"
 ---
-Related: Personal [Writing](/posts/writing/) [Reading](/posts/reading/)
-
 ---
 # Books
 [101 Things - Complete List](/posts/101-things-complete-list/)

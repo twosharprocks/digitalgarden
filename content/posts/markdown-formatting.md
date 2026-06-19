@@ -5,13 +5,12 @@ updated: 2025-04-16
 status: reference
 draft: false
 tags:
-  - Knowledge-Management
-  - Writing
+  - knowledge-management
+  - writing
   - reference
-Related:
+Related: 
+  - "[[Knowledge-Management]]"
 ---
-Related:Knowledge-Management
-
 ---
 # MD Formatting
 [Extended Syntax](https://www.markdownguide.org/extended-syntax/)

@@ -5,16 +5,12 @@ updated: 2026-04-09
 status: seed
 draft: false
 tags:
-  - Diving
-  - Caving
+  - diving
+  - caving
 Region: "[[Mount Gambier - Lower South East]]"
 CaveDB: https://app.cavedb.net/share/5529d2bd-cea1-4b16-853b-6acd272774db.html
-Related: "[[Diving]]"
+related: "[[Diving]]"
 ---
-Related: [Diving](/posts/diving/)
-
----
-
 # About
 Description: 
 

@@ -5,18 +5,16 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
+  - personal
+  - trips
+  - expeditions
 Region:
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips #Expeditions
+related: "[[Diving]]"
 Map: https://maps.app.goo.gl/tAyN8CTHUzydEvg17
-SmartTraveller: https://www.smartraveller.gov.au/destinations/africa/tanzania
-
 ---
 # About
 [Zanzibar Archipelago](https://maps.app.goo.gl/jM4sQe2BBDRaYxfs9)

@@ -5,8 +5,16 @@ updated: 2025-10-30
 status: reference
 draft: false
 tags:
-  - Trips
-Related: "[[Trips]]"
+  - trips
+Template: "[[Template - Trip]]"
+Destination:
+Region:
+Dates:
+Weather:
+CaveDB:
+Other Info:
+related:
+  - "[[Trips]]"
 ---
 ---
 

@@ -5,18 +5,15 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
+  - personal
+  - trips
 Region:
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips
+related: "[[Diving]]"
 Rating: N/A
-Region: [Western Australia](/posts/western-australia/)
-
 ---
 # About
 Do with Joseph Bicanic

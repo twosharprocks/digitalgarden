@@ -6,12 +6,14 @@ status: seed
 draft: false
 tags:
   - caving
-  - Diving
+  - diving
+Region:
+Sub-Region:
+CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Related: Trips
-
+related:
+  - "[[Diving]]"
+  - "[[Trips]]"
 ---
 # About
 **Algeria** features a diverse landscape that includes **mountain ranges, vast deserts, and karstic plateaus**, making it highly relevant from a speleological and geological perspective.

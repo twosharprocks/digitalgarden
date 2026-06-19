@@ -5,11 +5,11 @@ updated: 2026-01-22
 status: seed
 draft: false
 tags:
-  - Diving
-Related:
+  - diving
+Related: 
+  - "[[Diving - Ideas]]"
+  - "[[Bucket List]]"
 ---
-Related: [Diving - Ideas](/posts/diving-ideas/) [Bucket List](/posts/bucket-list/)
-
 ---
 Talk to Sarah Young
 - Develop this for YouTube & involve a production house

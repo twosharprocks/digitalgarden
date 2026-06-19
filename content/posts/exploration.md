@@ -5,15 +5,18 @@ updated: 2025-04-09
 status: seed
 draft: false
 tags:
-  - Bucket-List
-  - Diving
-  - Expeditions
-  - Exploration
-  - Trips
-Related:
+  - bucket-list
+  - diving
+  - expeditions
+  - exploration
+  - trips
+Related: 
+  - "[[Diving]]"
+  - "[[Caving]]"
+  - "[[Expedition Ideas]]"
+  - "[[Trips]]"
+  - "[[Adventure]]"
 ---
-Related: [Diving](/posts/diving/) [Caving](/posts/caving/) [Expedition Ideas](/posts/expedition-ideas/) Trips [Adventure](/posts/adventure/)
-
 ---
 Explorers Club
 - Organises Annual Exploration Summit

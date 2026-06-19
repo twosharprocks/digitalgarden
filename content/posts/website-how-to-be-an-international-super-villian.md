@@ -5,7 +5,7 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Writing
+  - writing
 Related: "[[Writing]]"
 source: https://web.archive.org/web/20141025174550/http://www.themightyginge.com/blog/2010/12/02/college-of-awesome-how-to-be-an-international-super-villain/
 author:

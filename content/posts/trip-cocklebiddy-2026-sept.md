@@ -5,16 +5,19 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Trips
-  - Diving
-  - Caving
-Region: "[[Nullarbor High Plains]]"
-CaveDB: https://app.cavedb.net/share/
-Related: "[[Diving]]"
-Status: Seed
+  - trips
+  - diving
+  - caving
+Template: "[[Template - Trip]]"
 Destination: "[[Cocklebiddy Cave - 6N48]]"
+Region: "[[Nullarbor High Plains]]"
+Dates:
 Weather: https://www.bom.gov.au/wa/forecasts/
+CaveDB: https://app.cavedb.net/share/
 Other Info:
+related:
+  - "[[Trips]]"
+  - "[[Diving]]"
 ---
 ---
 Confirmed (11): Chloe, Will, Josh, Vivian, Tyler, Corey, Toby, James, Nancy, Emrae

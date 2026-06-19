@@ -5,18 +5,16 @@ updated: 2026-06-18
 status: seed
 draft: false
 tags:
-  - Diving
+  - diving
+  - personal
+  - trips
+  - expeditions
 Region:
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-Related: "[[Diving]]"
----
-Status: #Seed 
-Tags: #Diving Personal #Trips #Expeditions
+related: "[[Diving]]"
 Map: https://www.google.com/maps/place/
-SmartTraveller: www.smartraveller.gov.au/destinations/
-
 ---
 # About
 - [Mexican Cave Maps ](http://www.mexicancaves.org/maps/?fbclid=IwY2xjawGS4VhleHRuA2FlbQIxMQABHZ4oNZAWyLwJpV0p0CZb2GPudbd-fWd3371aK74woVJXWxg2MNbPbwnTAA_aem_SJHnA5dJsyOUi-RYICCOFw)

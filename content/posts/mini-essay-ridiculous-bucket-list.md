@@ -5,13 +5,17 @@ updated: 2025-10-31
 status: tree
 draft: false
 tags:
-  - Mini-Essay
-  - Writing
-Related:
+  - mini-essay
+  - writing
+Related: 
   - "[[Mini Essays]]"
+  - "[[Bucket List]]"
+  - "[[101 Things - Complete List]]"
+  - "[[101 Things - To Do]]"
+  - "[[Book - 101 Things]]"
+  - "[[50 Goals (Old Version)]]"
+  - "[[Writing]]"
 ---
-Related: [Bucket List](/posts/bucket-list/) [101 Things - Complete List](/posts/101-things-complete-list/) [101 Things - To Do](/posts/101-things-to-do/) Book - 101 Things [50 Goals (Old Version)](/posts/50-goals-old-version/) [Writing](/posts/writing/)
-
 ---
 For the last few years I've had the idea of not just a bucket list, but a "ridiculous bucket list" - a list of things that seem utterly outrageous and infeasible, but the likes I would embrace in a heartbeat if the opportunity presented. While my bucket list includes things seeing an erupting volcano or joining the mile-high club, my ridiculous bucket list would have things like "Visit the Moon" and "Discover evidence for alien life on Mars". 
 
