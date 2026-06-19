@@ -12,7 +12,7 @@ tags:
 Region:
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
+SmartTraveller: https://www.smartraveller.gov.au/destinations/americas/honduras
 related: "[[Diving]]"
 Map: https://www.google.com/maps/place/
 ---

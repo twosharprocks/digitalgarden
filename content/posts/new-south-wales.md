@@ -1,21 +1,35 @@
 ---
 title: New South Wales
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-  - personal
-  - trips
-  - expeditions
-Region:
+Region: Oceania
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-related: "[[Diving]]"
-Map: https://www.google.com/maps/place/
+Related:
+  - "[[Cave Regions]]"
+  - "[[Diving]]"
+  - "[[Oceania]]"
 ---
+
+New South Wales is listed under [Oceania](/posts/oceania/) in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- [Wellington Caves](/posts/wellington-caves/)
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 - [Mt Fairy](https://cdg.caves.org.au/CDG-Articles/NSW/OBRIEN-MtFairyMF-1MainCaveNov2020unpublished.pdf)
 - Wellington Caves

@@ -1,22 +1,34 @@
 ---
 title: Timor-Leste
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-  - personal
-  - trips
-  - expeditions
-Region:
+Region: Oceania
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related: "[[Diving]]"
-Map: https://maps.app.goo.gl/v7JAvzx7Dya77bqP8
-See also: East Timor
+SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/timor-leste
+Related:
+  - "[[Cave Regions]]"
+  - "[[Diving]]"
+  - "[[Oceania]]"
 ---
+Timor-Leste is listed under [Oceania](/posts/oceania/) in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- See the linked cave regions above.
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 - **Why:** Tectonically uplifted limestone karst; similar geology to adjacent parts of Indonesia.
 - **Status:** Limited cave documentation; no cave diving.

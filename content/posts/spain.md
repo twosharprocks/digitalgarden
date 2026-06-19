@@ -1,21 +1,34 @@
 ---
 title: Spain
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-  - personal
-  - trips
-  - expeditions
-Region:
+Region: Europe
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related: "[[Diving]]"
-Map: https://www.google.com/maps/place/
+SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/spain
+Related:
+  - "[[Cave Regions]]"
+  - "[[Diving]]"
+  - "[[Europe]]"
 ---
+Spain is listed under [Europe](/posts/europe/) in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- [Cueva Del Agua](/posts/cueva-del-agua/)
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 - [Map of Tourist Caves](https://www.cuevasturisticas.es/mapa-de-cuevas.php) - Add to CaveDB
 - Malaga - Speak to Arvis Green
@@ -47,4 +60,3 @@ Jaén
 - https://www.facebook.com/espeleovillacarrillo/
 [Arvis Green](https://www.facebook.com/profile.php?id=100006535158868)
 - [Deco Cafe Scuba Diving)](https://dcscubadiving.com/guided-dives-dive-locations/) - Diving locations in Spain (Malaga)
-

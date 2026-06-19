@@ -12,7 +12,7 @@ tags:
 Region:
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
+SmartTraveller: https://www.smartraveller.gov.au/destinations/africa/rwanda
 related: "[[Diving]]"
 ---
 HIGH RISK - ALL KNOWN KARST <10KM FROM [Democratic Republic of Congo](/posts/democratic-republic-of-congo/)

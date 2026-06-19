@@ -91,7 +91,7 @@ This page is generated from the published notes in the digital garden. Re-run th
 - [OSCP - Plum - Linux](/posts/oscp-plum-linux/)
 - [OSCP - ProvingGrounds - Linux](/posts/oscp-provinggrounds-linux/)
 - [OSCP - PyLoader - Linux](/posts/oscp-pyloader-linux/)
-- [OSCP - References (To sort)](/posts/oscp-references-to-sort/)
+- [OSCP - References](/posts/oscp-references/)
 - [OSCP - RubyDome - Linux](/posts/oscp-rubydome-linux/)
 - [OSCP - Scrutiny - Linux](/posts/oscp-scrutiny-linux/)
 - [OSCP - Squid - Windows](/posts/oscp-squid-windows/)

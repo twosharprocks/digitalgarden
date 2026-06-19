@@ -9,7 +9,7 @@ tags:
 Region:
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
+SmartTraveller: https://www.smartraveller.gov.au/destinations/pacific/marshall-islands
 related:
   - "[[Diving]]"
   - "[[Expedition Ideas]]"

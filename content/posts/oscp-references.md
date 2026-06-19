@@ -1,15 +1,14 @@
 ---
-title: OSCP - References (To sort)
+title: OSCP - References
 created: 2026-01-26
-updated: 2025-07-05
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cybersecurity]]"
----
-Tags: [OSCP](/posts/oscp/)
-
+Related: 
+  - "[[Cyber Security]]"
+  - "[[OSCP]]"
 ---
 OSCP [Exam Guide](https://help.offsec.com/hc/en-us/articles/360040165632-OSCP-Exam-Guide-Newly-Updated)
 
@@ -46,20 +45,16 @@ OSCP Cheat Sheets
 
 ![](https://johnjhacking.com/uploads/autonmap.png)  
 -   If you use metasploit, IMMEDIATELY run windows or linux exploit suggestor. It’s basically an autopwn.
-
-easy wins
-
--   Linux: Capabilities, SUIDs/GUIDs, cronjobs, modifiable binaries running as root, out-of-date binaries, known-binary exploits, history files.
--   Windows: Weak service permissions, Unquoted service paths, outdated binaries, scheduled tasks, custom 
-
-Take breaks, and set timers - if you're not getting anywhere for more than half an hour, take a break. Get some fresh air, and you'll almost definitely think of a new idea. 
+# Easy wins
+- Linux: Capabilities, SUIDs/GUIDs, cronjobs, modifiable binaries running as root, out-of-date binaries, known-binary exploits, history files.
+- Windows: Weak service permissions, Unquoted service paths, outdated binaries, scheduled tasks, custom 
+- Take breaks, and set timers: If you're not getting anywhere for more than half an hour, take a break. Get some fresh air, and you'll almost definitely think of a new idea. 
 	- Similarly, celebrate when you make progress! If you finish a machine its a good time for a rest
 - Regularly review the information you have for a machine - key services, known version numbers, and any known credentials. 
 - Document as you go - take screenshots of key moments in the machine, and of course when you read a proof file.
 - Metasploit - pick the machine that you think you have the least chance of exploiting manually
 
 ## Things I Wish I'd Done
-
 - Downloaded the various resources from the dedicated lab clients; 
 - Document for your report as you go during the exam
 - Do a practice exam! 

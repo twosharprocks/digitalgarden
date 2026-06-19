@@ -1,21 +1,34 @@
 ---
 title: Tennessee
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-  - personal
-  - trips
-  - expeditions
-Region:
+Region: North America
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related: "[[Diving]]"
-Map: https://www.google.com/maps/place/
+SmartTraveller: https://www.smartraveller.gov.au/destinations/americas/united-states-america
+Related:
+  - "[[Cave Regions]]"
+  - "[[Diving]]"
+  - "[[North America]]"
 ---
+Tennessee is listed under [North America](/posts/north-america/) in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- See the linked cave regions above.
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 * Speak to Scott (Mexico)
 * [Lost Creek Cave](https://www.facebook.com/reel/1280127916314906) - new state park, cave closed 6 month/year, req permits. 

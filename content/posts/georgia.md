@@ -1,21 +1,34 @@
 ---
 title: Georgia
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-  - personal
-  - trips
-  - expeditions
-Region:
+Region: Europe
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related: "[[Diving]]"
-Map: https://maps.app.goo.gl/1N9HpijgnaZfyu6a9
+SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/georgia
+Related:
+  - "[[Cave Regions]]"
+  - "[[Diving]]"
+  - "[[Europe]]"
 ---
+Georgia is listed under [Europe](/posts/europe/) in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- See the linked cave regions above.
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 Sataplia and [Tskaltubo](https://en.wikipedia.org/wiki/Tsqaltubo) Karst
 - **Why:** Active karst regions with massive springs and unexplored conduits.

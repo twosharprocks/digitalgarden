@@ -9,7 +9,7 @@ tags:
 Region:
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
+SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/armenia
 related:
   - "[[Diving]]"
   - "[[Expedition Ideas]]"

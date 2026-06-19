@@ -1,20 +1,34 @@
 ---
 title: Lebanon
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-  - personal
-  - trips
-  - expeditions
-Region:
+Region: Middle East
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related: "[[Diving]]"
+SmartTraveller: https://www.smartraveller.gov.au/destinations/middle-east/lebanon
+Related:
+  - "[[Cave Regions]]"
+  - "[[Diving]]"
+  - "[[Middle East]]"
 ---
+Lebanon is listed under Middle East in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- See the linked cave regions above.
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 Anti-Lebanon Mountains and Jeita Grotto System
 - **Why:** Home to one of the longest caves in the Middle East (Jeita), with a major underground river system.

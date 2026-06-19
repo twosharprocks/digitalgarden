@@ -1,20 +1,19 @@
 ---
 title: Minamidaito (South Daito) - Okinawa
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-  - personal
-  - trips
-  - expeditions
-Region:
+Region: "[[Japan]]"
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related: "[[Diving]]"
-Map: https://www.google.com/maps/place/
+SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/japan
+Related:
+  - "[[Diving]]"
+  - "[[Cave Regions]]"
+  - "[[Japan]]"
 ---
 # About
 [J-kuep - Japan Karst & Underwater Exploration Project](https://j-kuep.com/)
@@ -23,7 +22,8 @@ Map: https://www.google.com/maps/place/
 - Por Parasu Komaradat was involved
 
 # Caves
-- 
+- No caves or dive sites listed yet.
+
 # Trips
 - 
 ---
@@ -34,3 +34,12 @@ Other Regions?
 Le-Jima Island 
 - https://en.wikipedia.org/wiki/Iejima (or https://en.wikipedia.org/wiki/Ie,_Okinawa ???)
 - https://visitokinawajapan.com/destinations/okinawa-main-island/northern-okinawa-main-island/ie-island/
+
+# Parent Region
+- [Cave Regions](/posts/cave-regions/)
+- [Japan](/posts/japan/)
+
+# Backlinks
+- [Japan](/posts/japan/)
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)

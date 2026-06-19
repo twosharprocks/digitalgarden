@@ -9,7 +9,7 @@ tags:
 Region: India
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
+SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/india
 related:
   - "[[Diving]]"
   - "[[Expedition Ideas]]"

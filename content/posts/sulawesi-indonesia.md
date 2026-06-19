@@ -1,19 +1,35 @@
 ---
 title: Sulawesi - Indonesia
-created: 2026-05-22
-updated: 2026-05-22
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-Region: "[[Indonesia]]"
-Sub-Region: "[[Sulawesi - Indonesia]]"
+Region: Oceania
+Sub-Region:
 CaveDB:
 SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/indonesia
-related:
+Related:
+  - "[[Cave Regions]]"
   - "[[Diving]]"
-  - "[[Expedition Ideas]]"
+  - "[[Oceania]]"
 ---
+Sulawesi - Indonesia is listed under [Oceania](/posts/oceania/) in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- [Baubau Island - Sulawesi](/posts/baubau-island-sulawesi/)
+- [Muna Island - Sulawesi](/posts/muna-island-sulawesi/)
+
+# Caves & Dive Sites
+- [Kaidaiula](/posts/kaidaiula/)
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 - [Dry Season](https://www.travelguide-en.org/sulawesi-climate/#): May to October
 - Water temp: 25-28 degrees (comfortable in a wetsuit)
@@ -34,7 +50,7 @@ Region - Butur (North)
 - Visited by Pete Mesley & Maria Bollerup
 Region Kapantareh
 - [Danau Langkadea](https://maps.app.goo.gl/83VpK5Fzbk87QHZt5)
-## Muna Island - Sulawesi
+## [Muna Island - Sulawesi](/posts/muna-island-sulawesi/)
 
 # Trips
 - [Trip - Sulawesi - 2025 Aug](/posts/trip-sulawesi-2025-aug/)
@@ -43,4 +59,3 @@ Region Kapantareh
 # References
 - [Sulawesi Independent Travel Map](https://www.google.com/maps/d/viewer?mid=1mQrdl3_-45V4hTScID__NlBH095Ey3Qi&femb=1&ll=-3.735069015906936%2C122.0860285375&z=7)
 - [Rock and Roll Divers - Facebook](https://www.facebook.com/rocknrolldiver) & [Instagram](https://www.instagram.com/rrdivers/)
-

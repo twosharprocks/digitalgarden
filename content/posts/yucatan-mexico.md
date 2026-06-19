@@ -1,21 +1,34 @@
 ---
 title: Yucatan - Mexico
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-  - personal
-  - trips
-  - expeditions
-Region:
+Region: Central America
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related: "[[Diving]]"
-Map: https://www.google.com/maps/place/
+SmartTraveller: https://www.smartraveller.gov.au/destinations/americas/mexico
+Related:
+  - "[[Cave Regions]]"
+  - "[[Diving]]"
+  - "[[Central America]]"
 ---
+Yucatan - Mexico is listed under Central America in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- [Nohoch](/posts/nohoch/)
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 - [Mexican Cave Maps ](http://www.mexicancaves.org/maps/?fbclid=IwY2xjawGS4VhleHRuA2FlbQIxMQABHZ4oNZAWyLwJpV0p0CZb2GPudbd-fWd3371aK74woVJXWxg2MNbPbwnTAA_aem_SJHnA5dJsyOUi-RYICCOFw)
 Tulum

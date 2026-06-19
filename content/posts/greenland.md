@@ -1,5 +1,5 @@
 ---
-title: Albania
+title: Greenland
 created: 2026-06-19
 updated: 2026-06-19
 status: seed
@@ -9,19 +9,19 @@ tags:
 Region: Europe
 Sub-Region:
 CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/albania
+SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/denmark
 Related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[Europe]]"
 ---
-Albania is listed under [Europe](/posts/europe/) in [Cave Regions](/posts/cave-regions/).
+Greenland is listed under [Europe](/posts/europe/) in [Cave Regions](/posts/cave-regions/).
 
 # Cave Regions
 - No local cave regions listed yet.
 
 # Caves & Dive Sites
-- [Skotini Cave](/posts/skotini-cave/)
+- See the linked cave regions above.
 
 # Backlinks
 - [Cave Regions](/posts/cave-regions/)
@@ -33,9 +33,9 @@ Albania is listed under [Europe](/posts/europe/) in [Cave Regions](/posts/cave-r
 
 
 # Caves
-- [Skotini Cave](/posts/skotini-cave/)
-- [Blue Eye](/posts/blue-eye/)
+- 
 # Trips
 - 
 ---
 # References
+[Greenland Caves](https://www.instagram.com/greenland_caves/)

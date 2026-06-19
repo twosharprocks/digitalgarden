@@ -1,21 +1,34 @@
 ---
 title: Vietnam
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-  - personal
-  - trips
-  - expeditions
-Region:
+Region: Asia
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related: "[[Diving]]"
-Map: https://www.google.com/maps/place/
+SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/vietnam
+Related:
+  - "[[Cave Regions]]"
+  - "[[Diving]]"
+  - "[[Asia]]"
 ---
+Vietnam is listed under Asia in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- See the linked cave regions above.
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 Ninh Binh Region - Recommended by Chloe
 - https://vinwonders.com/en/wonderpedia/news/ninh-binh-caves/
@@ -39,4 +52,3 @@ Philippe Crochet - [Facebook](https://www.facebook.com/PhilippeCrochetPhotograph
 Vietnam considering [Digital Nomad visa](https://www.thedigitalnomad.asia/inspiration/digital-nomads/vietnam-digital-nomad-visa/) similar to [Thailand's digital nomad visa](https://www.thedigitalnomad.asia/inspiration/digital-nomads/thailand-digital-nomad-visa/) 
 
 [Phong Nha-K parc Bang National Park - Facebook](https://www.facebook.com/groups/300067454212736?multi_permalinks=1968331354052996&hoisted_section_header_type=recently_seen)
-

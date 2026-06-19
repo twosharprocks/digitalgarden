@@ -1,6 +1,6 @@
 ---
 title: Akiyoshidai
-created: 2026-04-04
+created: 2026-06-19
 updated: 2026-06-19
 status: seed
 draft: false
@@ -10,11 +10,12 @@ Region: "[[Japan]]"
 Sub-Region: Mine Prefecture
 CaveDB:
 SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/japan
-related:
+Related:
   - "[[Diving]]"
-  - "[[Expedition Ideas]]"
+  - "[[Cave Regions]]"
   - "[[Japan]]"
 ---
+
 # About
 From https://tech-diving.jp/akiyoshidai
 
@@ -78,4 +79,11 @@ Previous studies have stated that "this section was affected by the former inten
 ---
 # References
 
+# Parent Region
+- [Cave Regions](/posts/cave-regions/)
+- [Japan](/posts/japan/)
 
+# Backlinks
+- [Japan](/posts/japan/)
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)

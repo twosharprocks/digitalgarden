@@ -1,19 +1,34 @@
 ---
 title: Thailand
-created: 2026-05-22
-updated: 2026-05-22
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-Region:
+Region: Asia
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related:
+SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/thailand
+Related:
+  - "[[Cave Regions]]"
   - "[[Diving]]"
-  - "[[Expedition Ideas]]"
+  - "[[Asia]]"
 ---
+Thailand is listed under Asia in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- See the linked cave regions above.
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 Mikko Passi - [TechDiveAsia](https://techdiveasia.com/)
 - Boh Yai Mine - [Photogrammetry (Facebook)](https://www.facebook.com/watch/?ref=saved&v=1379673419739017)
@@ -70,7 +85,3 @@ Sakon Nakhon Province (Isan)
 # References
 - [Discovering The Longest Fresh Water Cave In Thailand](https://indepthmag.com/discovering-the-longest-fresh-water-cave-in-thailand/) - Toh Wang (Satun, Khao Phrayabangsa Mountain)
 - [Thailand Digital Nomad Visa Explained with Requirements, Benefits and How to Apply](https://www.thedigitalnomad.asia/inspiration/digital-nomads/thailand-digital-nomad-visa/)
-
-
-
-

@@ -1,7 +1,7 @@
 ---
 title: South Australia
-created: 2025-11-08
-updated: 2025-11-08
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
@@ -10,10 +10,27 @@ Region: Oceania
 Sub-Region:
 CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
-related:
+Related:
+  - "[[Cave Regions]]"
   - "[[Diving]]"
-  - "[[Expedition Ideas]]"
+  - "[[Oceania]]"
 ---
+
+South Australia is listed under [Oceania](/posts/oceania/) in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- [Mount Gambier - Lower South East](/posts/mount-gambier-lower-south-east/)
+
+# Caves & Dive Sites
+- Centenary Cave, Myponga
+- Curramulka Cave
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 [Mount Gambier - Lower South East](/posts/mount-gambier-lower-south-east/)
 

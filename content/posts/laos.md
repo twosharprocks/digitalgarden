@@ -1,21 +1,34 @@
 ---
 title: Laos
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-  - personal
-  - trips
-  - expeditions
-Region:
+Region: Asia
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related: "[[Diving]]"
-Map: https://www.google.com/maps/place/
+SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/laos
+Related:
+  - "[[Cave Regions]]"
+  - "[[Diving]]"
+  - "[[Asia]]"
 ---
+Laos is listed under Asia in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- See the linked cave regions above.
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 Khammouane and Bolikhamxay Karst
 - **Why:** Home to the vast Xe Bang Fai River Cave and dozens of other major karst systems.
@@ -35,4 +48,4 @@ Khammouane and Bolikhamxay Karst
 	- [Tham Tolepi](https://www.facebook.com/permalink.php?story_fbid=pfbid02jiGKMQ6YDvvaM8Xwc2NAi5hjcJxSpWDvfKV3rQhNrjFXZLwBaaDPu58T8VRCBgYWl&id=100008195562907)
 ---
 # References
-- [Instagram - Mikko Passi - Laos Expedition 2026](https://www.instagram.com/p/DVsYsSGEXGv/) 
+- [Instagram - Mikko Passi - Laos Expedition 2026](https://www.instagram.com/p/DVsYsSGEXGv/)

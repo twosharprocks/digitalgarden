@@ -1,21 +1,34 @@
 ---
 title: Philippines
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-  - personal
-  - trips
-  - expeditions
-Region:
+Region: Asia
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related: "[[Diving]]"
-Map: https://www.google.com/maps/place/
+SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/philippines
+Related:
+  - "[[Cave Regions]]"
+  - "[[Diving]]"
+  - "[[Asia]]"
 ---
+Philippines is listed under Asia in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- See the linked cave regions above.
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 - Best Time: November-May (Jan to April are driest)
 - https://adrenalineromance.com/2016/08/12/langun-gobingob-cave-a-mountain-under-a-mountain-part-1/

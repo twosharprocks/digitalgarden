@@ -12,7 +12,7 @@ tags:
 Region:
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
+SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/north-macedonia
 related: "[[Diving]]"
 Map: https://maps.app.goo.gl/AhMTHCFxj9ukW5Fj6
 ---

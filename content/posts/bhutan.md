@@ -1,20 +1,34 @@
 ---
 title: Bhutan
-created: 2025-11-06
-updated: 2025-11-06
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-  - caving
-Region:
+Region: Asia
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related:
+SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/bhutan
+Related:
+  - "[[Cave Regions]]"
   - "[[Diving]]"
-  - "[[Expedition Ideas]]"
+  - "[[Asia]]"
 ---
+Bhutan is listed under Asia in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- See the linked cave regions above.
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 Himalayan Karst near Phobjikha Valley
 - **Why:** Little-known Himalayan karst near limestone outcrops, springs, and tectonic boundaries.
@@ -29,6 +43,3 @@ Himalayan Karst near Phobjikha Valley
 ---
 # References
 [Away Team Visits Bhutan’s Unexplored Caves](https://astrobiology.com/2025/04/away-team-visits-bhutans-unexplored-caves.html)
-
-
-

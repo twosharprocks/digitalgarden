@@ -1,20 +1,34 @@
 ---
 title: Portugal
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-  - personal
-  - trips
-Region:
+Region: Europe
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related: "[[Diving]]"
-Country: "[[Portugal]]"
+SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/portugal
+Related:
+  - "[[Cave Regions]]"
+  - "[[Diving]]"
+  - "[[Europe]]"
 ---
+Portugal is listed under [Europe](/posts/europe/) in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- See the linked cave regions above.
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 Go in September, then stay for [Diving Talks Conference](https://www.facebook.com/divingtalks)
 # About
 
@@ -56,4 +70,3 @@ Go in September, then stay for [Diving Talks Conference](https://www.facebook.co
 - 
 ---
 # References
-

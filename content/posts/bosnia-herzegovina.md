@@ -1,20 +1,34 @@
 ---
 title: Bosnia & Herzegovina
-created: 2025-11-02
-updated: 2025-11-02
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-Region:
+Region: Europe
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related:
+SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/bosnia-and-herzegovina
+Related:
+  - "[[Cave Regions]]"
   - "[[Diving]]"
-  - "[[Expedition Ideas]]"
-  - "[[Dinaric Karst Belt]]"
+  - "[[Europe]]"
 ---
+Bosnia & Herzegovina is listed under [Europe](/posts/europe/) in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- See the linked cave regions above.
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 
 
@@ -34,4 +48,3 @@ Vrelo Sanice, 44.5552, 16.6265,
 - 
 ---
 # References
-

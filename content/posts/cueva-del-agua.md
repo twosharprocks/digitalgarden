@@ -11,6 +11,7 @@ tags:
   - trips
 Region:
 CaveDB:
+SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/spain
 related: "[[Diving]]"
 ---
 # To Do

@@ -1,20 +1,34 @@
 ---
 title: New Zealand
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-  - personal
-  - cave-regions
-  - trips
-Region:
+Region: Oceania
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related: "[[Diving]]"
+SmartTraveller: https://www.smartraveller.gov.au/destinations/pacific/new-zealand
+Related:
+  - "[[Cave Regions]]"
+  - "[[Diving]]"
+  - "[[Oceania]]"
 ---
+New Zealand is listed under [Oceania](/posts/oceania/) in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- See the linked cave regions above.
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 **Speak to Bruce** 
 - "North island is a waste of time for cave diving. N/w of the South Island or West Coast. **Sidemount only**. Rebreathers for some but then you generally require a helicopter to get the gear in.”

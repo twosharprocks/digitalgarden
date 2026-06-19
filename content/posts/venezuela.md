@@ -1,20 +1,34 @@
 ---
 title: Venezuela
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-  - personal
-  - trips
-Region:
+Region: South America
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related: "[[Diving]]"
-Map: https://www.google.com/maps/place/
+SmartTraveller: https://www.smartraveller.gov.au/destinations/americas/venezuela
+Related:
+  - "[[Cave Regions]]"
+  - "[[Diving]]"
+  - "[[South America]]"
 ---
+Venezuela is listed under South America in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- See the linked cave regions above.
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 
 
@@ -29,4 +43,4 @@ Map: https://www.google.com/maps/place/
 - [Haitón del Guarataro](https://en.wikipedia.org/wiki/Hait%C3%B3n_del_Guarataro "Haitón del Guarataro")
 ---
 # Other References
--  
+-

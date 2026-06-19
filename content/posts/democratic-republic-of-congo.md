@@ -1,19 +1,34 @@
 ---
 title: Democratic Republic of Congo
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-  - personal
-  - trips
-Region:
+Region: Africa
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related: "[[Diving]]"
+SmartTraveller: https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo
+Related:
+  - "[[Cave Regions]]"
+  - "[[Diving]]"
+  - "[[Africa]]"
 ---
+Democratic Republic of Congo is listed under [Africa](/posts/africa/) in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- See the linked cave regions above.
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 [Katanga (Shaba) Plateau](https://en.wikipedia.org/wiki/Katanga_plateau)
 - **Why:** Massive, remote karst regions in southern DRC near the Zambian border.
@@ -36,4 +51,3 @@ related: "[[Diving]]"
 [La Venta](https://www.laventa.it/it/) Esplorazioni Geografiche - Italian Cavers Doing Annual Expeditions to Congo
 - 2025: [24-June to 08-July (Mbanza Ngungu via Kinshasa)](https://www.laventa.it/it/blog/742-drc-2025-ultimi-giorni-di-esplorazione-nell-area-di-mbanza-ngungu)
 	- Facebook Posts: [2025-06-24](https://www.facebook.com/laventateam/posts/pfbid0wc2kXNwqUxwraXmpmJpW6WFKjGuScWfJNz2MnD7KxDe2ADkiGVJnr9RLnfpRMbojl), [2025-07-03](https://www.facebook.com/laventateam/posts/pfbid02KppV14aDAtmcBMpB3GjvBzf6rop5xyFDEKAkyMHEeQiT771QjT55stasfasvPNFWl), [2025-07-08](https://www.facebook.com/laventateam/posts/pfbid02cCWYSE7GSHQndLa3jiuYqLH7GQA5Nc8ptWo2tN2EeHjzwrFRWmLAWUFXeiFqcGdPl)
-

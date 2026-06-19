@@ -1,20 +1,34 @@
 ---
 title: Kyrgyzstan
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-19
+updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-  - personal
-  - trips
-  - expeditions
-Region:
+Region: Asia
 Sub-Region:
 CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-related: "[[Diving]]"
+SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/kyrgyz-republic
+Related:
+  - "[[Cave Regions]]"
+  - "[[Diving]]"
+  - "[[Asia]]"
 ---
+Kyrgyzstan is listed under Asia in [Cave Regions](/posts/cave-regions/).
+
+# Cave Regions
+- No local cave regions listed yet.
+
+# Caves & Dive Sites
+- See the linked cave regions above.
+
+# Backlinks
+- [Cave Regions](/posts/cave-regions/)
+- [Diving](/posts/diving/)
+
+---
+# Existing Notes
 # About
 [Tian Shan](https://en.wikipedia.org/wiki/Tian_Shan) Region
 
