@@ -1,12 +1,12 @@
 ---
-title: New OS Checklist
+title: New OS Checklist - Windows
 created: 2025-12-29
 updated: 2026-02-24
 status: seed
 draft: false
 tags:
   - cyber-security
-Related: 
+Related:
   - "[[Personal]]"
 ---
 ---

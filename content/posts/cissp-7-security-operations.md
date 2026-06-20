@@ -1,5 +1,5 @@
 ---
-title: CISSP - 7 - Security Operations Security
+title: CISSP - 7 - Security Operations
 created: 2025-04-14
 updated: 2025-10-30
 status: reference
@@ -7,7 +7,7 @@ draft: false
 tags:
   - cyber-security
   - cissp
-Related: 
+Related:
   - "[[CISSP]]"
 ---
 ---

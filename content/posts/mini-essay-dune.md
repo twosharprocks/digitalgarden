@@ -1,5 +1,5 @@
 ---
-title: Mini Essay - 9 - Dune
+title: Mini Essay - Dune
 created: 2025-05-20
 updated: 2025-10-30
 status: tree
@@ -8,7 +8,7 @@ tags:
   - mini-essay
   - philosophy
   - writing
-Related: 
+Related:
   - "[[Mini Essays]]"
   - "[[Mini Essay - Fear Is The Mind Killer]]"
 ---

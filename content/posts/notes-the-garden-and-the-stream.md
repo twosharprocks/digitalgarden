@@ -1,5 +1,5 @@
 ---
-title: Notes - The Garden and the Stream - A Technopastoral
+title: Notes - The Garden and the Stream
 created: 2025-04-17
 updated: 2025-04-17
 status: seed
@@ -7,7 +7,7 @@ draft: false
 tags:
   - knowledge-management
   - personal
-Related: 
+Related:
   - "[[Time Management]]"
   - "[[Digital Garden]]"
   - "[[Knowledge-Management]]"

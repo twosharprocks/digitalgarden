@@ -37,10 +37,10 @@ Other
 	- Citrix to remotely access home server?
 - Portable: [Rugged 2Tb HDD - $130](https://www.amazon.com.au/Silicon-Power-SP020TBPHDA80S3K-Shockproof-Waterproof/dp/B075J4YJHS/ref=pd_sbs_d_sccl_2_2/355-9176792-2952911)
 - Cloud: AWS with S3 bucket
-	- [ChatGPT - Remote Photogrammetry with StarLink](/posts/chatgpt-remote-photogrammetry-with-starlink/)
+	- ChatGPT - Remote Photogrammetry with StarLink
 	- Use S3 to store final models that display on a website - [Stack Overflow](https://stackoverflow.com/questions/59720658/storing-stl-files-in-s3-bucket-for-rendering-by-stl-viewer-javascript-plugin-in)
 	- [Amazon Console - Login](https://ap-southeast-2.console.aws.amazon.com/)
-	- [ChatGPT - Cloud-Based Photogrammetry](/posts/chatgpt-cloud-based-photogrammetry/)]]
+	- ChatGPT - Cloud-Based Photogrammetry]]
 	* [Run Photogrammetry in the Cloud - AWS How-To](https://www.instructables.com/Run-Photogrammetry-in-the-Cloud/) <-- ***READ THIS IT'S IMPORTANT***
 * Other Cloud: [MaxCloudOn](https://photogrammetry.maxcloudon.com/) is dedicated photogrammetry service with $20 credit
 * [belowJS](https://belowjs.com/) - Sharing cave models

@@ -1,8 +1,8 @@
 ---
-title: Tank Cave - 5L
+title: Tank Cave - 5L230
 created: 2026-04-09
 updated: 2026-04-09
-status: #seed
+status:
 draft: false
 tags:
   - diving

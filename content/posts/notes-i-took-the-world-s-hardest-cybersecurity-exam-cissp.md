@@ -1,5 +1,5 @@
 ---
-title: Notes - I Took The World’s HARDEST Cybersecurity Exam
+title: Notes - I Took The World’s HARDEST Cybersecurity Exam (CISSP)
 created: 2025-05-16
 updated: 2025-10-30
 status: tree
@@ -7,7 +7,7 @@ draft: false
 tags:
   - cyber-security
   - cissp
-Related: 
+Related:
   - "[[Cyber Security]]"
   - "[[CISSP]]"
 ---

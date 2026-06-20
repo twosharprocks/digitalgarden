@@ -1,5 +1,5 @@
 ---
-title: Article - What's Your ppO2?
+title: Article - What's Your ppO2
 created: 2021-05-27
 updated: 2025-10-30
 status: reference
@@ -7,7 +7,8 @@ draft: false
 tags:
   - tag1
 Related:
----
+  - "[[Diving]]"
+  - "[[Writing]]"
 ---
 There’s one thing watched by rebreather divers with greater concern above anything else - your partial pressure of oxygen, aka “ppO2”. No matter how extraordinary it feels breathing warm air with no bubbles, clearing deco far quicker than your open circuit buddies and drifting around gently to the sound of your own breath; it all comes at the cost of knowing the gas in your loop can quickly and easily become toxic if you’re not vigilantly watching your ppO2. If a solenoid sticks open or a manual add valve jams on, the flood of oxygen into the loop can drive your ppO2 over 1.60 and quickly lead to a hyperoxic convulsion that will ruin your whole day. On the flip side we need a ppO2 of about 0.18atm - equivalent to 18% oxygen on the surface - just to maintain regular brain function, and about 0.15 to maintain consciousness. And as I was brutally reminded earlier this year, ppO2 also happens to drop rather rapidly just as you approach the surface when you think the dive is over.
 

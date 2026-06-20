@@ -20,7 +20,7 @@ Related:
 	- Where do you want to explore and share? How do you document and collect data for others?
 
 Plan 2-3 per year
-- 2026 - [ChatGPT - Cave Expedition Calendar](/posts/chatgpt-cave-expedition-calendar/)
+- 2026 - ChatGPT - Cave Expedition Calendar
 	- [Trip - Thailand - Boh Yai Mines - 2026 Jan](/posts/trip-thailand-boh-yai-mines-2026-jan/)
 	- Digital-Garden/2 - Unpublished/1 - To Sort & Tag/Trip - Cocklebiddy - 2026 Sept
 - 2027
@@ -84,7 +84,7 @@ Not Currently Viable: [Cameroon](/posts/cameroon/), Digital-Garden/2 - Unpublish
 
 ---
 # Multi-Country Trips
-[ChatGPT - Cave Expedition Calendar](/posts/chatgpt-cave-expedition-calendar/)
+ChatGPT - Cave Expedition Calendar
 [Balkans](/posts/balkans/) Trip - Ideal May/Jun & Sep/Oct: Digital-Garden/2 - Unpublished/1 - To Sort & Tag/Czechia, Digital-Garden/2 - Unpublished/1 - To Sort & Tag/Slovakia, [Hungary](/posts/hungary/), Digital-Garden/2 - Unpublished/1 - To Sort & Tag/Slovenia, Digital-Garden/2 - Unpublished/1 - To Sort & Tag/Croatia, [Bosnia & Herzegovina](/posts/bosnia-herzegovina/), Digital-Garden/2 - Unpublished/1 - To Sort & Tag/Montenegro, Serbia, [Kosovo](/posts/kosovo/), [Albania](/posts/albania/), [Greece](/posts/greece/) 
 - Also: [Bulgaria](/posts/bulgaria/), Romania, Digital-Garden/2 - Unpublished/1 - To Sort & Tag/Türkiye-Turkey
 

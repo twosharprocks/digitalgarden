@@ -1,5 +1,5 @@
 ---
-title: Markdown
+title: Markdown Formatting
 created: 2025-04-16
 updated: 2025-04-16
 status: reference
@@ -8,7 +8,7 @@ tags:
   - knowledge-management
   - writing
   - reference
-Related: 
+Related:
   - "[[Knowledge-Management]]"
 ---
 ---

@@ -1,5 +1,5 @@
 ---
-title: Mini Essay - 10 - If you had a year to live
+title: Mini Essay - If you had a year to live
 created: 2025-05-21
 updated: 2025-10-30
 status: tree
@@ -10,7 +10,7 @@ tags:
   - bucket-list
   - 101-things
   - writing
-Related: 
+Related:
   - "[[Mini Essays]]"
   - "[[101 Things - Complete List]]"
   - "[[101 Things - To Do]]"

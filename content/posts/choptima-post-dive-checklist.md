@@ -1,13 +1,17 @@
 ---
-title: ChOptima - Checklist - Post-Dive
+title: ChOptima - Post-Dive Checklist
 created: 2025-12-29
 updated: 2025-12-29
 status: seed
 draft: false
 tags:
-Related: 
+  - diving
+  - rebreather
+Related:
   - "[[ChOptima CCR]]"
   - "[[Template - ChOptima Build]]"
+  - "[[Diving]]"
+  - "[[Rebreathers]]"
 ---
 ---
 ***Immediately Post-Dive***

@@ -1,7 +1,7 @@
 ---
-title: Iddlebiddy Cave - Soggy Wombats - DRAFT
+title: Article - Iddlebiddy Cave - Soggy Wombats - DRAFT
 created: 2026-06-18
-updated: 2026-06-18
+updated: 2026-06-20
 status: seed
 draft: false
 tags:

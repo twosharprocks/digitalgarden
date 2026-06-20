@@ -1,5 +1,5 @@
 ---
-title: Dark Angel - Armies
+title: WH40K - Armies - Dark Angels
 created: 2025-04-08
 updated: 2025-11-01
 status: seed
@@ -7,7 +7,7 @@ draft: false
 tags:
   - interests
   - personal
-Related: 
+Related:
   - "[[Personal]]"
 ---
 ---

@@ -1,5 +1,5 @@
 ---
-title: Meals - Dashboard
+title: Meals
 created: 2026-04-16
 updated: 2026-04-16
 status: seed

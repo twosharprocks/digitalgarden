@@ -1,11 +1,11 @@
 ---
-title: Glenelg River Canoe Trail
+title: Kayaking - Glenelg River Canoe Trail
 created: 2025-12-21
 updated: 2025-12-21
 status: seed
 draft: false
 tags:
-Related: 
+Related:
   - "[[Kayaking]]"
 ---
 ---

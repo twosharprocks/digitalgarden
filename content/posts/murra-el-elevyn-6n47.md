@@ -1,5 +1,5 @@
 ---
-title: Murra El Elevyn
+title: Murra El Elevyn - 6N47
 created: 2026-06-18
 updated: 2026-06-18
 status: seed

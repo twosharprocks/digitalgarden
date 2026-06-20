@@ -1,7 +1,7 @@
 ---
 title: About
 created: 2025-04-01
-updated: 2026-06-19
+updated: 2026-06-20
 status: seed
 draft: false
 tags:
@@ -42,19 +42,19 @@ The links below are a practical map of the published notes. They are grouped by 
 - [101 Things - Complete List](/posts/101-things-complete-list/)
 - [101 Things - To Do](/posts/101-things-to-do/)
 - [Article - Corra-Lynn](/posts/article-corra-lynn/)
-- Article - Crazy Wombat Tunnel
+- [Article - Unveiling the Crazy Wombat Tunnel](/posts/article-unveiling-the-crazy-wombat-tunnel/)
 - [Article - Making Sense with MNemo](/posts/article-making-sense-with-mnemo/)
 - [Article - Unveiling the Crazy Wombat Tunnel](/posts/article-unveiling-the-crazy-wombat-tunnel/)
-- Article - What's Your ppO2?
+- [Article - What's Your ppO2](/posts/article-what-s-your-ppo2/)
 - [Articles](/posts/articles/)
 - [Book - Futurism & Work](/posts/book-futurism-work/)
 - [Books](/posts/books/)
 - [Cave Entries to Write](/posts/cave-entries-to-write/)
 - [Diving - Reading](/posts/diving-reading/)
 - [Effective Note-Taking to Remember More + Create New Ideas](/posts/effective-note-taking-to-remember-more-create-new-ideas/)
-- Markdown
-- Mini Essay - 10 - If you had a year to live
-- Mini Essay - 9 - Dune
+- [Markdown Formatting](/posts/markdown-formatting/)
+- [Mini Essay - If you had a year to live](/posts/mini-essay-if-you-had-a-year-to-live/)
+- [Mini Essay - Dune](/posts/mini-essay-dune/)
 - [Mini Essay - Appeal of a dark, empty forest outpost](/posts/mini-essay-appeal-of-a-dark-empty-forest-outpost/)
 - [Mini Essay - Appeal of living out of a van](/posts/mini-essay-appeal-of-living-out-of-a-van/)
 - [Mini Essay - Appeal of Small](/posts/mini-essay-appeal-of-small/)
@@ -62,7 +62,7 @@ The links below are a practical map of the published notes. They are grouped by 
 - [Mini Essay - April 19 (2023)](/posts/mini-essay-april-19-2023/)
 - [Mini Essay - Before You're 40](/posts/mini-essay-before-you-re-40/)
 - [Mini Essay - Before You're 50](/posts/mini-essay-before-you-re-50/)
-- Mini Essay - Book - 'Surely You're Joking Mr Feynmann' (Richard Feynman)
+- [Mini Essay - 'Surely You're Joking Mr Feynman' (Richard Feynman)](/posts/mini-essay-surely-you-re-joking-mr-feynman-richard-feynman/)
 - [Mini Essay - Book - Not Fade Away (Jim Dodge)](/posts/mini-essay-book-not-fade-away-jim-dodge/)
 - [Mini Essay - Books - Peaceful Warrior vs the Alchemist](/posts/mini-essay-books-peaceful-warrior-vs-the-alchemist/)
 - [Mini Essay - Choosing between potential jobs](/posts/mini-essay-choosing-between-potential-jobs/)
@@ -225,15 +225,8 @@ The links below are a practical map of the published notes. They are grouped by 
 - [Cavetone Park Estate Cave - 5L179](/posts/cavetone-park-estate-cave-5l179/)
 - [Caving](/posts/caving/)
 - [Cayman Islands](/posts/cayman-islands/)
-- ChatGPT - 2026 Cave Expedition Calendar
-- [ChatGPT - Applying Cousteau's Approach to Modern Cave Exploration](/posts/chatgpt-applying-cousteau-s-approach-to-modern-cave-exploration/)
-- [ChatGPT - Cave Diving Potential SA](/posts/chatgpt-cave-diving-potential-sa/)
-- [ChatGPT - Cloud-Based Photogrammetry](/posts/chatgpt-cloud-based-photogrammetry/)
-- [ChatGPT - Nelson Cave Search](/posts/chatgpt-nelson-cave-search/)
-- [ChatGPT - Remote Photogrammetry with StarLink](/posts/chatgpt-remote-photogrammetry-with-starlink/)
-- [ChatGPT - Unique Cave Diving Destinations](/posts/chatgpt-unique-cave-diving-destinations/)
 - [China](/posts/china/)
-- ChOptima - Checklist - Post-Dive
+- [ChOptima - Post-Dive Checklist](/posts/choptima-post-dive-checklist/)
 - [ChOptima CCR](/posts/choptima-ccr/)
 - [Christmas Island](/posts/christmas-island/)
 - [Cocklebiddy Cave - 6N48](/posts/cocklebiddy-cave-6n48/)
@@ -260,7 +253,7 @@ The links below are a practical map of the published notes. They are grouped by 
 - [Expedition Calendar](/posts/expedition-calendar/)
 - [Expedition Ideas](/posts/expedition-ideas/)
 - [Exploration](/posts/exploration/)
-- Eyrie Cave - 5F15
+- [5F15 - Eyrie Cave](/posts/5f15-eyrie-cave/)
 - [Finland](/posts/finland/)
 - [Flinders Ranges](/posts/flinders-ranges/)
 - [Florida](/posts/florida/)
@@ -283,7 +276,7 @@ The links below are a practical map of the published notes. They are grouped by 
 - [Hungary](/posts/hungary/)
 - [Iceland](/posts/iceland/)
 - [Iddlebiddy Cave - 5L250](/posts/iddlebiddy-cave-5l250/)
-- [Iddlebiddy Cave - Soggy Wombats - DRAFT](/posts/iddlebiddy-cave-soggy-wombats-draft/)
+- [Article - Iddlebiddy Cave - Soggy Wombats - DRAFT](/posts/article-iddlebiddy-cave-soggy-wombats-draft/)
 - [India](/posts/india/)
 - [Indonesia](/posts/indonesia/)
 - [Iran](/posts/iran/)
@@ -327,7 +320,7 @@ The links below are a practical map of the published notes. They are grouped by 
 - [Mount Gambier - Lower South East](/posts/mount-gambier-lower-south-east/)
 - [Mozambique](/posts/mozambique/)
 - [Mud Hole - 5L99](/posts/mud-hole-5l99/)
-- Murra El Elevyn
+- [Murra El Elevyn - 6N47](/posts/murra-el-elevyn-6n47/)
 - [Nettlebed - 5L290](/posts/nettlebed-5l290/)
 - [New Caledonia](/posts/new-caledonia/)
 - [New South Wales](/posts/new-south-wales/)
@@ -387,11 +380,11 @@ The links below are a practical map of the published notes. They are grouped by 
 - [Sulawesi - Indonesia](/posts/sulawesi-indonesia/)
 - [Sweden](/posts/sweden/)
 - [Tajikistan](/posts/tajikistan/)
-- Tank Cave - 5L
+- [Tank Cave - 5L230](/posts/tank-cave-5l230/)
 - [Tanzania](/posts/tanzania/)
 - [Tasmania](/posts/tasmania/)
 - [Tea Tree Sinkhole - 5L128](/posts/tea-tree-sinkhole-5l128/)
-- Template - ChOptima Pre-Dive
+- Template - ChOptima Build
 - [Ten Eighty Sinkhole - 5L42 - CLOSED](/posts/ten-eighty-sinkhole-5l42-closed/)
 - [Tennessee](/posts/tennessee/)
 - [Texas](/posts/texas/)
@@ -430,7 +423,7 @@ The links below are a practical map of the published notes. They are grouped by 
 
 ### Cyber Security
 
-- ASD Annual Cyber Threat Report 2023-2024 - Notes
+- [Notes - ASD Annual Cyber Threat Report 2023-2024](/posts/notes-asd-annual-cyber-threat-report-2023-2024/)
 - Burning Down Cities
 - [Cheat Sheet - AD](/posts/cheat-sheet-ad/)
 - [Cheat Sheet - Fabric](/posts/cheat-sheet-fabric/)
@@ -446,18 +439,18 @@ The links below are a practical map of the published notes. They are grouped by 
 - [CISSP - 4 - Communication & Network Security](/posts/cissp-4-communication-network-security/)
 - [CISSP - 5 - Identity & Access Management (IAM)](/posts/cissp-5-identity-access-management-iam/)
 - [CISSP - 6 - Security Assessment & Testing](/posts/cissp-6-security-assessment-testing/)
-- CISSP - 7 - Security Operations Security
+- [CISSP - 7 - Security Operations](/posts/cissp-7-security-operations/)
 - [CISSP - 8 - Software Development Security](/posts/cissp-8-software-development-security/)
 - [CISSP - Misc Notes](/posts/cissp-misc-notes/)
 - [CRISC](/posts/crisc/)
-- Cyber
+- [Cyber Security](/posts/cyber-security/)
 - [Cyber - Job Domains & Interview Prep](/posts/cyber-job-domains-interview-prep/)
 - [Cyber - Training & Certifications](/posts/cyber-training-certifications/)
 - [Cyber Glossary](/posts/cyber-glossary/)
 - [Cybersecurity Resources](/posts/cybersecurity-resources/)
 - [Epochalypse](/posts/epochalypse/)
-- New OS Checklist
-- Notes - I Took The World’s HARDEST Cybersecurity Exam
+- [New OS Checklist - Windows](/posts/new-os-checklist-windows/)
+- [Notes - I Took The World’s HARDEST Cybersecurity Exam (CISSP)](/posts/notes-i-took-the-world-s-hardest-cybersecurity-exam-cissp/)
 - [OSCP](/posts/oscp/)
 - [OSCP - Access - AD](/posts/oscp-access-ad/)
 - [OSCP - AD - 6](/posts/oscp-ad-6/)
@@ -520,11 +513,11 @@ The links below are a practical map of the published notes. They are grouped by 
 - [50 Goals (Old Version)](/posts/50-goals-old-version/)
 - [ADHD](/posts/adhd/)
 - [Bucket List](/posts/bucket-list/)
-- Dark Angel - Armies
-- Hobbies To Learn in 2025
+- [WH40K - Armies - Dark Angels](/posts/wh40k-armies-dark-angels/)
+- [2025 - Hobbies To Learn](/posts/2025-hobbies-to-learn/)
 - [Long Solo](/posts/long-solo/)
-- Notes - The Garden and the Stream - A Technopastoral
-- [Places to Live](/posts/places-to-live/)
+- Notes - The Garden and the Stream
+- [[Places to Live
 - [Time Management](/posts/time-management/)
 - [WH40K - Armies - Imperial Knights](/posts/wh40k-armies-imperial-knights/)
 - [Work](/posts/work/)
@@ -549,14 +542,14 @@ The links below are a practical map of the published notes. They are grouped by 
 - [AI](/posts/ai/)
 - Brief History & Ethos of the Digital Garden
 - [Buddism](/posts/buddism/)
-- [ChatGPT - Ayahuasca Retreat Recommendations](/posts/chatgpt-ayahuasca-retreat-recommendations/)
+- ChatGPT - Ayahuasca Retreat Recommendations
 - Cheatsheet - Cryptography
 - Cheatsheet - Networking
 - [Digital Garden](/posts/digital-garden/)
 - Glenelg River Canoe Trail
 - [Kayaking](/posts/kayaking/)
 - Meals - Dashboard
-- [Notes - Too Many Interests (YouTube)](/posts/notes-too-many-interests-youtube/)
+- Notes - Too Many Interests (YouTube)
 - [Script - Python - search-replace](/posts/script-python-search-replace/)
 - [Vault Maintenance](/posts/vault-maintenance/)
 - [WH40k](/posts/wh40k/)

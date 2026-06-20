@@ -45,7 +45,7 @@ Related:
 - [Mini Essay - Your Cave Diving Future](/posts/mini-essay-your-cave-diving-future/)
 - [Mini Essay - Books - Peaceful Warrior vs the Alchemist](/posts/mini-essay-books-peaceful-warrior-vs-the-alchemist/)
 - [Mini Essay - Procrastinating Writing the Pines Article](/posts/mini-essay-procrastinating-writing-the-pines-article/)
-- [Mini Essay - Book - 'Surely You're Joking Mr Feynman' (Richard Feynman)](/posts/mini-essay-book-surely-you-re-joking-mr-feynman-richard-feynman/)
+- [Mini Essay - 'Surely You're Joking Mr Feynman' (Richard Feynman)](/posts/mini-essay-surely-you-re-joking-mr-feynman-richard-feynman/)
 - [Mini Essay - Handwritten journal vs going digital](/posts/mini-essay-handwritten-journal-vs-going-digital/)
 - [Mini Essay - Appeal of a dark, empty forest outpost](/posts/mini-essay-appeal-of-a-dark-empty-forest-outpost/)
 - [Mini Essay - Greatest moments of joy in your life](/posts/mini-essay-greatest-moments-of-joy-in-your-life/)

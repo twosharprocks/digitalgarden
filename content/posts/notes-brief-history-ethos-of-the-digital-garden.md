@@ -1,5 +1,5 @@
 ---
-title: Brief History & Ethos of the Digital Garden
+title: Notes - Brief History & Ethos of the Digital Garden
 created: 2025-04-12
 updated: 2025-04-12
 status: seed
@@ -7,7 +7,7 @@ draft: false
 tags:
   - knowledge-management
   - creativity
-Related: 
+Related:
   - "[[Knowledge-Management]]"
   - "[[Creativity]]"
   - "[[Time Management]]"

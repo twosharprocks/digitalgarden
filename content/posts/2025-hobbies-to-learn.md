@@ -1,5 +1,5 @@
 ---
-title: Hobbies To Learn in 2025
+title: 2025 - Hobbies To Learn
 created: 2025-04-06
 updated: 2025-11-01
 status: seed
@@ -8,7 +8,7 @@ tags:
   - knowledge-management
   - personal
   - interests
-Related: 
+Related:
   - "[[Time Management]]"
 ---
 Reference: https://www.youtube.com/watch?v=t2JFOA023Kk

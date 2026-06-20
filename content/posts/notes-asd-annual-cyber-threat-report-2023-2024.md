@@ -1,5 +1,5 @@
 ---
-title: ASD Annual Cyber Threat Report 2023-2024 - Notes
+title: Notes - ASD Annual Cyber Threat Report 2023-2024
 created: 2025-04-16
 updated: 2025-10-30
 status: seed

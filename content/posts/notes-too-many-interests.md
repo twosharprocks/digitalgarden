@@ -1,5 +1,5 @@
 ---
-title: Notes - Too Many Interests (YouTube)
+title: Notes - Too Many Interests
 created: 2025-04-06
 updated: 2025-04-06
 status: seed
@@ -7,7 +7,7 @@ draft: false
 tags:
   - knowledge-management
   - interests
-Related: 
+Related:
   - "[[Time Management]]"
   - "[[Personal]]"
 ---
