@@ -1,7 +1,7 @@
 ---
 title: Trip - Japan - 2026 May
 created: 2026-03-20
-updated: 2026-05-19
+updated: 2026-06-21
 status: seed
 draft: false
 tags:
@@ -15,6 +15,7 @@ CaveDB:
 Other Info:
 related:
   - "[[Trips]]"
+  - "[[Article - Exploring Japan’s Hidden Rivers]]"
 ---
 # Trip Log
 ***Dates: 06-05 to 17-05***
