@@ -1,7 +1,7 @@
 ---
 title: Diving - Gear
 created: 2026-01-26
-updated: 2026-06-18
+updated: 2026-06-22
 status: tree
 draft: false
 tags:
@@ -50,15 +50,20 @@ Video Lights:
 * [DPV - DiveX BlackTip Tech](https://dive-xtras.com/products/tech-blacktip) - US$1900 + $500AUD Shipping + 12Ah [batteries](https://www.bunnings.com.au/dewalt-18-54v-12-0ah-xr-flexvolt-battery_p0079389) (2x $319)
 * [DPV - Seacraft Future 1000](https://www.mydivegear.com.au/collections/seacraft/products/seacraftfuturedpv) - $17000AUD
 * [Accessory - Seacraft ENC3 Console](https://www.mydivegear.com.au/products/seacraftenc3fullset) - $3900AUD
-
 # CCR
 *  [Dive Rite ChOptima](https://deepblueventures.com.au/rebreather/optima-cm-ccr) 
 	* [ChOptima Scooter Ring](https://diverite.com/products/o2ptima/o2ptima-cm-scooter-ring/)
 	* [AP Safety Mouthpiece (DGX)](https://www.divegearexpress.com/ap-diving-rebreather-safety-mouthpiece) or [Divesoft Safety Mouthpiece (Paragon)](https://www.paragondivestore.com/products/divesoft-safety-mouthpiece)
-
 # Other
+* Cylinder rigging 
+	- 7L: 140mm [Kinetic 127-152mm 316 Stainless Steel Hose Clamp](https://www.bunnings.com.au/kinetic-127-152mm-316-stainless-steel-hose-clamp_p0110764)
+	- 12L: 178mm [Kinetic 172 - 194mm 316 Stainless Steel Hose Clamp](https://www.bunnings.com.au/kinetic-172-194mm-316-stainless-steel-hose-clamp_p0110767)
+	- A40: 133mm [Kinetic 127-152mm 316 Stainless Steel Hose Clamp](https://www.bunnings.com.au/kinetic-127-152mm-316-stainless-steel-hose-clamp_p0110764)
+	- A80: 184mm [Kinetic 172 - 194mm 316 Stainless Steel Hose Clamp](https://www.bunnings.com.au/kinetic-172-194mm-316-stainless-steel-hose-clamp_p0110767)
 * Stage regs - Compact MC9 from Daz
+
 * [Dive Case for InReach Mini](https://adreno.com.au/products/garmin-dive-case-for-inreach-mini)
+* [Compass - Silva AW19](https://www.amazon.com.au/dp/B01FSKRACC/) - $33 (for survey slates)
 
 * [Nemo Angle Grinder (~$4.5k)](https://nemopowertools.com/product/nemo-angle-grinder-50m-v2/) 
 * Music - [Bone-conducting Headphones](https://tayogo.com/products/tayogo-w02-upgraded-waterproof-bluetooth-bone-conduction-headphone)
@@ -66,11 +71,7 @@ Video Lights:
 * [Lift Bag - Ali Express ($36-45)](https://www.aliexpress.com/item/4001101513566.html)
 * [Tech Shorts - 3mm Neoprene ($40-45)](https://www.ebay.com.au/itm/226035866029)
 * [Service Kits - O-rings & Regs](https://scubagaskets.com/)
+
 * [T-Shirt - “Don’t Follow Me I Do Stupid Things”](https://teechip.com/01cave-diving) 
-* Cylinder rigging 
-	- 7L: 140mm [Kinetic 127-152mm 316 Stainless Steel Hose Clamp](https://www.bunnings.com.au/kinetic-127-152mm-316-stainless-steel-hose-clamp_p0110764)
-	- 12L: 178mm [Kinetic 172 - 194mm 316 Stainless Steel Hose Clamp](https://www.bunnings.com.au/kinetic-172-194mm-316-stainless-steel-hose-clamp_p0110767)
-	- A40: 133mm [Kinetic 127-152mm 316 Stainless Steel Hose Clamp](https://www.bunnings.com.au/kinetic-127-152mm-316-stainless-steel-hose-clamp_p0110764)
-	- A80: 184mm [Kinetic 172 - 194mm 316 Stainless Steel Hose Clamp](https://www.bunnings.com.au/kinetic-172-194mm-316-stainless-steel-hose-clamp_p0110767)
 
 
