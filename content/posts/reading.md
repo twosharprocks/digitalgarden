@@ -1,7 +1,7 @@
 ---
 title: Reading
 created: 2025-06-26
-updated: 2025-06-26
+updated: 2026-06-22
 status: seed
 draft: false
 tags:
@@ -14,18 +14,17 @@ Related:
   - "[[2026 - Media]]"
   - "[[Books]]"
 ---
----
+# Current
+- Kindle: Hotel New Hampshire
+- Kindle: Bonfire of the Vanities (end of 101)
+- Kindle: Roger's Book
+- Why the Future Doesn’t Need Us
+- Permissionless - JA Westenberg.pdf
+# Clear
 - Bookshelf
 - Kindle
 - Audible
-- Bookerei/PDF
-	- "To Read" Tag
-	- Permissionless - JA Westenberg.pdf
-
----
-# Current
-- Kindle: Hotel New Hampshire
-- Kindle: Roger's Book
+- Bookerei/PDF - "To Read" Tag
 
 ---
 SciFi
@@ -38,7 +37,7 @@ SciFi
 - [ ] Story of Your Life (Ted Chiang)
 - [ ] The Bohr Maker (Linda Nagata)
 - [ ] [Audition](https://www.amazon.com.au/gp/aw/d/B0CL7KFDDQ/ref=tmm_kin_swatch_0#) (Pip Adam)
-- [ ]  [A Wrinkle in Time by Madeleine L’Engle](https://amzn.to/3FXOjVm)  
+- [ ] [A Wrinkle in Time by Madeleine L’Engle](https://amzn.to/3FXOjVm)  
 - [ ] [The Time Machine by H. G. Wells**](https://amzn.to/41t7dfW)
 - [Oryx and Crake by Margaret Atwood](https://amzn.to/41pP82Z)
 - [Childhood’s End by Arthur C. Clarke](https://amzn.to/47pVjqn)
