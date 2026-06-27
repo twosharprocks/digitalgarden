@@ -12,21 +12,21 @@ CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
 related:
   - "[[Diving]]"
-  - "[[Expedition Ideas]]"
+  - "[[Trips - Ideas]]"
   - "[[Cave Regions]]"
 ---
 # About
-[Madagascar](/posts/madagascar/)
+[Madagascar]({{< relref "posts/madagascar.md" >}})
 
-[Algeria](/posts/algeria/)
-[Nigeria](/posts/nigeria/)
-[Ethiopia](/posts/ethiopia/)
-[Tanzania](/posts/tanzania/)
-[Zimbabwe](/posts/zimbabwe/)
+[Algeria]({{< relref "posts/Algeria.md" >}})
+[Nigeria]({{< relref "posts/nigeria.md" >}})
+[Ethiopia]({{< relref "posts/ethiopia.md" >}})
+[Tanzania]({{< relref "posts/tanzania.md" >}})
+[Zimbabwe]({{< relref "posts/zimbabwe.md" >}})
 
-[Cameroon](/posts/cameroon/) (HIGH RISK)
-[Democratic Republic of Congo](/posts/democratic-republic-of-congo/) (HIGH RISK)
-[Rwanda](/posts/rwanda/) (HIGH RISK)
+[Cameroon]({{< relref "posts/cameroon.md" >}}) (HIGH RISK)
+[Democratic Republic of Congo]({{< relref "posts/Democratic Republic of Congo.md" >}}) (HIGH RISK)
+[Rwanda]({{< relref "posts/rwanda.md" >}}) (HIGH RISK)
 
 # Caves
 - 

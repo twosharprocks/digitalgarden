@@ -15,7 +15,7 @@ Related:
   - "[[Diving]]"
   - "[[Asia]]"
 ---
-Thailand is listed under Asia in [Cave Regions](/posts/cave-regions/).
+Thailand is listed under Asia in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions
 - No local cave regions listed yet.
@@ -24,8 +24,8 @@ Thailand is listed under Asia in [Cave Regions](/posts/cave-regions/).
 - See the linked cave regions above.
 
 # Backlinks
-- [Cave Regions](/posts/cave-regions/)
-- [Diving](/posts/diving/)
+- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
+- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
 
 ---
 # Existing Notes
@@ -71,13 +71,13 @@ Sakon Nakhon Province (Isan)
 - **Krabi Province (Ao Luk, Phang Nga)** – Extensive karst, known for submerged and semi-submerged cave systems. Popular with tech divers.
 	- Tham Lumphor / Nong Tao karst area (8.381, 98.736)
 		- _Tham Nong Tao / Turtle Swamp Cave_.
-		- ![Thailand - Tham Nong Tao.jpg (Water)](/files/Thailand%20-%20Tham%20Nong%20Tao.jpg%20(Water).jpg)
+		- ![Thailand Tham Nong Tao.jpg (water)](/images/Thailand%20-%20Tham%20Nong%20Tao.jpg%20%28Water%29.jpg)
 	- Tham Sra Kaeo (8.168790, 98.807632)
 - **Trang Province** – Bordering Malaysia, these areas include deep limestone formations with limited but promising cave exploration potential.
 - **Chiang Mai/Chiang Rai** (Northern Thailand) – Contains dry karst systems, some caves may include sumps, but most exploration is land-based.
 
 # Trips
-- [Trip - Thailand - Boh Yai Mines - 2026 Jan](/posts/trip-thailand-boh-yai-mines-2026-jan/)
+- [Trip - Thailand - Boh Yai Mines - 2026 Jan]({{< relref "posts/Trip - Thailand - Boh Yai Mines - 2026 Jan.md" >}})
 - Trip - Thailand - Boh Yai Mines - 2027 Jan
 - 
 

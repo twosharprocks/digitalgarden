@@ -14,7 +14,7 @@ CaveDB:
 SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/azerbaijan
 related:
   - "[[Diving]]"
-  - "[[Expedition Ideas]]"
+  - "[[Trips - Ideas]]"
 ---
 # About
 **Moderate Potential** 

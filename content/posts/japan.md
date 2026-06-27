@@ -16,24 +16,24 @@ Related:
   - "[[Asia]]"
 ---
 
-Japan is listed under Asia in [Cave Regions](/posts/cave-regions/).
+Japan is listed under Asia in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions
-- [Akiyoshidai](/posts/akiyoshidai/)
-- [Minamidaito (South Daito) - Okinawa](/posts/minamidaito-south-daito-okinawa/)
+- [Akiyoshidai]({{< relref "posts/akiyoshidai.md" >}})
+- [Minamidaito (South Daito) - Okinawa]({{< relref "posts/Minamidaito (South Daito) - Okinawa.md" >}})
 
 # Caves & Dive Sites
 - See the linked cave regions above.
 
 # Backlinks
-- [Cave Regions](/posts/cave-regions/)
-- [Diving](/posts/diving/)
+- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
+- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
 
 ---
 # Existing Notes
 # About
 
-Region: [Akiyoshidai](/posts/akiyoshidai/)
+Region: [Akiyoshidai]({{< relref "posts/akiyoshidai.md" >}})
 - Higoshidai
 - Nishidai by Higashikawa
 
@@ -45,7 +45,7 @@ Mine region
 - Shiramizu Pond
 
 # Trips
-- [Trip - Japan - 2026 May](/posts/trip-japan-2026-may/)
+- [Trip - Japan - 2026 May]({{< relref "posts/Trip - Japan - 2026 May.md" >}})
 
 ---
 # References

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>OSCP - Levram - Linux :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Levram Resolution summary Nmap to identify services on port 22 and 8000 Password guessed admin credentials to Gerapy platform Used exploit for CVE-2021-243857 to achieve shell Upgraded shell by running bash script on target Identified vulnerable python setuid configuration Used GTFObins to find python command providing privilege escalation to root Improved skills Linux Privilege Escalation Establishing Full TTYs Used tools nmap python linpeas.sh gerapy GTFObins Information Gathering Scanned all TCP ports:
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/oscp---levram---linux/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="OSCP - Levram - Linux">
+<meta property="og:description" content="Levram Resolution summary Nmap to identify services on port 22 and 8000 Password guessed admin credentials to Gerapy platform Used exploit for CVE-2021-243857 to achieve shell Upgraded shell by running bash script on target Identified vulnerable python setuid configuration Used GTFObins to find python command providing privilege escalation to root Improved skills Linux Privilege Escalation Establishing Full TTYs Used tools nmap python linpeas.sh gerapy GTFObins Information Gathering Scanned all TCP ports:
+" />
+<meta property="og:url" content="/posts/oscp---levram---linux/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/oscp---levram---linux/">OSCP - Levram - Linux</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="levram">Levram<a href="#levram" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h1 id="resolution-summary">Resolution summary<a href="#resolution-summary" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Nmap to identify services on port 22 and 8000</li>
+<li>Password guessed admin credentials to Gerapy platform</li>
+<li>Used exploit for CVE-2021-243857 to achieve shell</li>
+<li>Upgraded shell by running bash script on target</li>
+<li>Identified vulnerable python setuid configuration</li>
+<li>Used GTFObins to find python command providing privilege escalation to root</li>
+</ul>
+<h2 id="improved-skills">Improved skills<a href="#improved-skills" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Linux Privilege Escalation</li>
+<li>Establishing Full TTYs</li>
+</ul>
+<h2 id="used-tools">Used tools<a href="#used-tools" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>nmap</li>
+<li>python</li>
+<li>linpeas.sh</li>
+<li>gerapy</li>
+<li>GTFObins</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering<a href="#information-gathering" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -sC -sV -oN levram.nmap 192.168.228.24 -v
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">PORT     STATE SERVICE  REASON         VERSION
+</span></span><span class="line"><span class="cl">22/tcp   open  ssh      syn-ack ttl <span class="m">61</span> OpenSSH 8.9p1 Ubuntu <span class="m">3</span> <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> b9:bc:8f:01:3f:85:5d:f9:5c:d9:fb:b6:15:a0:1e:74 <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ecdsa-sha2-nistp256 <span class="nv">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBYESg2KmNLhFh1KJaN2UFCVAEv6MWr58pqp2fIpCSBEK2wDJ5ap2XVBVGLk9Po4eKBbqTo96yttfVUvXWXoN3M</span><span class="o">=</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> 53:d9:7f:3d:22:8a:fd:57:98:fe:6b:1a:4c:ac:79:67 <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBdIs4PWZ8yY2OQ6Jlk84Ihd5+15Nb3l0qvpf1ls3wfa
+</span></span><span class="line"><span class="cl">8000/tcp open  http-alt syn-ack ttl <span class="m">61</span> WSGIServer/0.2 CPython/3.10.6
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: WSGIServer/0.2 CPython/3.10.6
+</span></span><span class="line"><span class="cl"><span class="p">|</span> http-methods: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  Supported Methods: GET OPTIONS
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-cors: GET POST PUT DELETE OPTIONS PATCH
+</span></span><span class="line"><span class="cl"><span class="p">|</span> fingerprint-strings: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   FourOhFourRequest: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     HTTP/1.1 <span class="m">404</span> Not Found
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Date: Sat, <span class="m">05</span> Oct <span class="m">2024</span> 01:35:09 GMT
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Server: WSGIServer/0.2 CPython/3.10.6
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Type: text/html
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Length: <span class="m">9979</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Vary: Origin
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;!DOCTYPE html&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;html <span class="nv">lang</span><span class="o">=</span><span class="s2">&#34;en&#34;</span>&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;head&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;meta http-equiv<span class="o">=</span><span class="s2">&#34;content-type&#34;</span> <span class="nv">content</span><span class="o">=</span><span class="s2">&#34;text/html; charset=utf-8&#34;</span>&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;title&gt;Page not found at /nice ports,/Trinity.txt.bak&lt;/title&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;meta <span class="nv">name</span><span class="o">=</span><span class="s2">&#34;robots&#34;</span> <span class="nv">content</span><span class="o">=</span><span class="s2">&#34;NONE,NOARCHIVE&#34;</span>&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;style <span class="nv">type</span><span class="o">=</span><span class="s2">&#34;text/css&#34;</span>&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     html * <span class="o">{</span> padding:0<span class="p">;</span> margin:0<span class="p">;</span> <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     body * <span class="o">{</span> padding:10px 20px<span class="p">;</span> <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     body * * <span class="o">{</span> padding:0<span class="p">;</span> <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     body <span class="o">{</span> font:small sans-serif<span class="p">;</span> background:#eee<span class="p">;</span> color:#000<span class="p">;</span> <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     body&gt;div <span class="o">{</span> border-bottom:1px solid <span class="c1">#ddd; }</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     font-weight:normal<span class="p">;</span> margin-bottom:.4em<span class="p">;</span> <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     span <span class="o">{</span> font-size:60%<span class="p">;</span> color:#666<span class="p">;</span> font-weight:normal<span class="p">;</span> <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     table <span class="o">{</span> border:none<span class="p">;</span> border-collapse: collapse<span class="p">;</span> width:100%<span class="p">;</span> <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     vertical-align:top<span class="p">;</span> padding:2px 3px<span class="p">;</span> <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     width:12em<span class="p">;</span> text-align:right<span class="p">;</span> color:#6
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   GetRequest: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     HTTP/1.1 <span class="m">200</span> OK
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Date: Sat, <span class="m">05</span> Oct <span class="m">2024</span> 01:35:04 GMT
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Server: WSGIServer/0.2 CPython/3.10.6
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Type: text/html<span class="p">;</span> <span class="nv">charset</span><span class="o">=</span>utf-8
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Vary: Accept, Origin
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Allow: GET, OPTIONS
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Length: <span class="m">2530</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_    &lt;!DOCTYPE html&gt;&lt;html <span class="nv">lang</span><span class="o">=</span>en&gt;&lt;head&gt;&lt;meta <span class="nv">charset</span><span class="o">=</span>utf-8&gt;&lt;meta http-equiv<span class="o">=</span>X-UA-Compatible <span class="nv">content</span><span class="o">=</span><span class="s2">&#34;IE=edge&#34;</span>&gt;&lt;meta <span class="nv">name</span><span class="o">=</span>viewport <span class="nv">content</span><span class="o">=</span><span class="s2">&#34;width=device-width,initial-scale=1&#34;</span>&gt;&lt;link <span class="nv">rel</span><span class="o">=</span>icon <span class="nv">href</span><span class="o">=</span>/favicon.ico&gt;&lt;title&gt;Gerapy&lt;/title&gt;&lt;link <span class="nv">href</span><span class="o">=</span>/static/css/chunk-10b2edc2.79f68610.css <span class="nv">rel</span><span class="o">=</span>prefetch&gt;&lt;link <span class="nv">href</span><span class="o">=</span>/static/css/chunk-12e7e66d.8f856d8c.css <span class="nv">rel</span><span class="o">=</span>prefetch&gt;&lt;link <span class="nv">href</span><span class="o">=</span>/static/css/chunk-39423506.2eb0fec8.css <span class="nv">rel</span><span class="o">=</span>prefetch&gt;&lt;link <span class="nv">href</span><span class="o">=</span>/static/css/chunk-3a6102b3.0fe5e5eb.css <span class="nv">rel</span><span class="o">=</span>prefetch&gt;&lt;link <span class="nv">href</span><span class="o">=</span>/static/css/chunk-4a7237a2.19df386b.css <span class="nv">rel</span><span class="o">=</span>prefetch&gt;&lt;link <span class="nv">href</span><span class="o">=</span>/static/css/chunk-531d1845.b0b0d9e4.css <span class="nv">rel</span><span class="o">=</span>prefetch&gt;&lt;link <span class="nv">href</span><span class="o">=</span>/static/css/chunk-582dc9b0.d60b5161.css <span class="nv">rel</span><span class="o">=</span>prefetch&gt;&lt;link <span class="nv">href</span><span class="o">=</span>/static/css/chun
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: Gerapy
+</span></span><span class="line"><span class="cl"><span class="m">1</span> service unrecognized despite returning data.
+</span></span></code></pre></div><hr>
+<h1 id="enumeration">Enumeration<a href="#enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="port-22---ssh">Port 22 - SSH<a href="#port-22---ssh" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="port-8000---http-apache">Port 8000 - HTTP (Apache)<a href="#port-8000---http-apache" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Navigated to <code>192.168.228.24:8000</code> with Firefox</li>
+<li>Found login page, password guessed credentials <code>admin:admin</code>
+<img src="/images/OSCP%20-%20Levram%20-%20Linux%20-%20image1.png" alt="OSCP Levram Linux Image1"></li>
+<li>Successfully logged in with <code>admin:admin</code> and identified Gerapy is version 0.9.7
+<img src="/images/OSCP%20-%20Levram%20-%20Linux%20-%20image2.png" alt="OSCP Levram Linux Image2"></li>
+</ul>
+<hr>
+<h1 id="exploitation">Exploitation<a href="#exploitation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="-cve-2021-243857-authenticated-rce"># CVE-2021-243857 (Authenticated RCE)<a href="#-cve-2021-243857-authenticated-rce" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Attempted to run exploit <code>50640.py</code> against taregt with <code>admin:admin</code> credentials - exploit unsuccessful.
+<img src="/images/OSCP%20-%20Levram%20-%20Linux%20-%20image3.png" alt="OSCP Levram Linux Image3"></li>
+<li>Identified <a href="https://github.com/LongWayHomie/CVE-2021-43857">exploit requires atleast one &ldquo;project&rdquo; on platform</a> to work, so created &amp; deployed <code>test project</code>;
+<img src="/images/OSCP%20-%20Levram%20-%20Linux%20-%20image4.png" alt="OSCP Levram Linux Image4"></li>
+<li>Re-ran exploit <code>50640.py</code> successfully
+<img src="/images/OSCP%20-%20Levram%20-%20Linux%20-%20image5.png" alt="OSCP Levram Linux Image5"></li>
+<li>Created bash reverse shell script on target to establish Full TTY
+<img src="/images/OSCP%20-%20Levram%20-%20Linux%20-%20image6.png" alt="OSCP Levram Linux Image6"></li>
+<li>Caught shell with netcat listener of port <code>4545</code>
+<img src="/images/OSCP%20-%20Levram%20-%20Linux%20-%20image7.png" alt="OSCP Levram Linux Image7"></li>
+</ul>
+<hr>
+<h1 id="lateral-movement-to-user">Lateral Movement to user<a href="#lateral-movement-to-user" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="local-enumeration">Local Enumeration<a href="#local-enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Searched for users, sudo privileges &amp; cronjobs
+<img src="/images/OSCP%20-%20Levram%20-%20Linux%20-%20image8.png" alt="OSCP Levram Linux Image8"></li>
+<li>Checked <code>app</code> user&rsquo;s home directory, found <code>local.txt</code> flag
+<img src="/images/OSCP%20-%20Levram%20-%20Linux%20-%20image9.png" alt="OSCP Levram Linux Image9"></li>
+<li>Downloaded <code>linpeas.sh</code> to target and executed
+<img src="/images/OSCP%20-%20Levram%20-%20Linux%20-%20image10.png" alt="OSCP Levram Linux Image10"></li>
+<li>Identified Sudo version 1.9.9</li>
+<li>Identified potentially vulnerable:
+<ul>
+<li>CVE-2022-0847 (DirtyPipe)</li>
+<li>CVE-2017-5618 (Setuid screen)</li>
+<li>Python3.10 cap_setuid=ep
+<img src="/images/OSCP%20-%20Levram%20-%20Linux%20-%20image11.png" alt="OSCP Levram Linux Image11"></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="privilege-escalation">Privilege Escalation<a href="#privilege-escalation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="privilege-escalation-vector">Privilege Escalation vector<a href="#privilege-escalation-vector" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Searched for file capabilities: <code>getcap -r / 2&gt;/dev/null</code> &amp; found <code>python3.10</code>
+<img src="/images/OSCP%20-%20Levram%20-%20Linux%20-%20image12.png" alt="OSCP Levram Linux Image12"></li>
+<li>Searched <a href="https://gtfobins.github.io/gtfobins/python/">GTFObins for python capabilities</a> &amp; found privesc through cap_setuid</li>
+<li>Ran python command; <code>/usr/bin/python3.10 -c 'import os; os.setuid(0); os.system(&quot;/bin/sh&quot;)'</code> for root access
+<img src="/images/OSCP%20-%20Levram%20-%20Linux%20-%20image13.png" alt="OSCP Levram Linux Image13"></li>
+<li>Navigated to <code>/root</code> directory, found and printed <code>proof.txt</code>
+<img src="/images/OSCP%20-%20Levram%20-%20Linux%20-%20image14.png" alt="OSCP Levram Linux Image14"></li>
+</ul>
+<hr>
+<h1 id="trophy--loot">Trophy &amp; Loot<a href="#trophy--loot" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><code>local.txt</code> = <code>7359701ae43bc362a09bcf9b8c14e17e</code>
+<code>proof.txt</code> = <code>86b558836159caffebe9679b4d429194</code></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/oscp---law---linux/" class="button inline prev">
+        &lt; [<span class="button__text">OSCP - Law - Linux</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/oscp---ochima---linux/" class="button inline next">
+         [<span class="button__text">OSCP - Ochima - Linux</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

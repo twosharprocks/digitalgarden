@@ -66,7 +66,7 @@ Previous studies have stated that "this section was affected by the former inten
 
 3) Fujii, Atsushi, Limestone Cave of Nishi-Akiyoshidai, Yamaguchi Caving Club 20th Anniversary Special Issue, November 1985, pp. 24-25
 # Caves
-- [Akiyoshidai Cave](/posts/akiyoshidai-cave/)
+- [Akiyoshidai Cave]({{< relref "posts/Akiyoshidai Cave.md" >}})
 - Terayama Cave
 - Oban-no-ike
 - Shiramizu Pond
@@ -74,16 +74,16 @@ Previous studies have stated that "this section was affected by the former inten
 - Ryugen Cave
 
 # Trips
-- [Trip - Japan - 2026 May](/posts/trip-japan-2026-may/)
+- [Trip - Japan - 2026 May]({{< relref "posts/Trip - Japan - 2026 May.md" >}})
 
 ---
 # References
 
 # Parent Region
-- [Cave Regions](/posts/cave-regions/)
-- [Japan](/posts/japan/)
+- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
+- [Japan]({{< relref "posts/Article - Exploring Japan’s Hidden Rivers.md" >}})
 
 # Backlinks
-- [Japan](/posts/japan/)
-- [Cave Regions](/posts/cave-regions/)
-- [Diving](/posts/diving/)
+- [Japan]({{< relref "posts/Article - Exploring Japan’s Hidden Rivers.md" >}})
+- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
+- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})

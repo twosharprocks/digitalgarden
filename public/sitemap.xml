@@ -2,29 +2,258 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/101-things/</loc>
+    <loc>/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---cosmic-nomad--12-july-2015/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---end-of-2015-review--19-december-2015/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---exciting--unpredictable--25-november-2014/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---mischief-in-2017/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---partner-parallels-growth--foreshadowing--25-september-2015/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---post-visit-mars-one-qa/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---reading-watching--listening--april-2017/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---reading-watching--listening--december-2016/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---reading-watching--listening--february-2017/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---reading-watching--listening--january-2017/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---reading-watching--listening--march-2017/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---reading-watching--listening--may-2017/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---tabula-rasa/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website--28-november-2016/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website--a-message-to-god/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website--hallmarks-of-louisiana--mars-one-breadcrumbs--26-november-2014/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website--mars-one-preparation-journal-covers/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website--meeting-current-heroes--cultivating-future-ones-womadelaide/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website--waiting/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/writing/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---getting-to-mars-part-3/</loc>
+    <lastmod>2017-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---getting-to-mars-part-2/</loc>
+    <lastmod>2017-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---womadelaide/</loc>
+    <lastmod>2017-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---why-i-dont-get-invited-to-writers-festivals-anymore/</loc>
+    <lastmod>2017-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---getting-to-mars-part-1/</loc>
+    <lastmod>2017-02-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---badgers-bender-and-ink/</loc>
+    <lastmod>2017-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---choosing-a-crew-for-mars/</loc>
+    <lastmod>2017-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---dear-josh-in-2020/</loc>
+    <lastmod>2017-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---2016-end-of-year-review/</loc>
+    <lastmod>2016-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---good-bad-ugly-mars-one-update/</loc>
+    <lastmod>2016-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---florida/</loc>
+    <lastmod>2016-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---boston-buddies/</loc>
+    <lastmod>2016-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---diving-between-continents/</loc>
+    <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website--diving-between-continents--hiking-to-desolation-iceland/</loc>
+    <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---airport-hell/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website--that-whole-moving-to-the-other-side-of-the-country-thing/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---parachuting--media-mayhem/</loc>
+    <lastmod>2015-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---go-to-continue-descent/</loc>
+    <lastmod>2015-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---fringe-world/</loc>
+    <lastmod>2015-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website--there-and-back-again-part-1-europe/</loc>
+    <lastmod>2014-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---101-things---17-own-a-pointless-collection/</loc>
+    <lastmod>2014-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---101-things---37-make-fire-without-matches/</loc>
+    <lastmod>2014-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---101-things-9-learn-that-instrument/</loc>
+    <lastmod>2014-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---101-things-4-catch-a-fish-with-your-bare-hands/</loc>
+    <lastmod>2014-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---101-things-school-stupidity-10-21-83--95/</loc>
+    <lastmod>2012-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---101-things-school-stupidity-10-21-83--95-1/</loc>
+    <lastmod>2012-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---do.-or-do-not.-there-is-no-try/</loc>
+    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---101-things-attention-whore-15-35--96/</loc>
+    <lastmod>2012-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---101-things-attention-whore-15-35--96-1/</loc>
+    <lastmod>2012-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---101-things-languages-51--69/</loc>
+    <lastmod>2012-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/unread/</loc>
+    <lastmod>2012-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---us-relations-tour-days-21-26--29/</loc>
+    <lastmod>2012-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---101-things-us-travel-43-53--64/</loc>
+    <lastmod>2012-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---101-things-run-like-hell-45--84/</loc>
+    <lastmod>2012-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---101-things-adrenaline-28-46--74/</loc>
+    <lastmod>2012-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---101-things-drinking-34-65--93/</loc>
+    <lastmod>2012-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---101-things-astronomy-49--77/</loc>
+    <lastmod>2012-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website--101-things-2-swim-with/</loc>
+    <lastmod>2012-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---host-a-bogan-free-australia-day-bbq/</loc>
+    <lastmod>2012-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---ron-burgundy-day/</loc>
+    <lastmod>2012-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---how-to-be-an-international-super-villian/</loc>
+    <lastmod>2010-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website--edinburgh-v2.0/</loc>
+    <lastmod>2010-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---surviving-the-australian-bush/</loc>
+    <lastmod>2010-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/website---home-made-kfc/</loc>
+    <lastmod>2009-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/101-things---complete-list/</loc>
   </url><url>
     <loc>/posts/101-things---to-do/</loc>
   </url><url>
     <loc>/tags/101-things/</loc>
   </url><url>
-    <loc>/posts/2026-cave-expedition-calendar---chatgpt/</loc>
+    <loc>/posts/2025/</loc>
+  </url><url>
+    <loc>/posts/2025---hobbies-to-learn/</loc>
   </url><url>
     <loc>/posts/360-video-to-3d-model/</loc>
   </url><url>
-    <loc>/posts/50-goals/</loc>
-  </url><url>
     <loc>/posts/50-goals-old-version/</loc>
+  </url><url>
+    <loc>/posts/5f15---eyrie-cave/</loc>
+  </url><url>
+    <loc>/posts/5f26---burr-well-cave/</loc>
+  </url><url>
+    <loc>/posts/5f29---thunderdrum-cave/</loc>
+  </url><url>
+    <loc>/posts/5f5---arcoota-creek-cave/</loc>
+  </url><url>
+    <loc>/posts/5f89---blinman-bat-cave/</loc>
+  </url><url>
+    <loc>/posts/5f9---wooltana-cave/</loc>
+  </url><url>
+    <loc>/posts/5l019---englebrechts-east/</loc>
+  </url><url>
+    <loc>/posts/5l20---englebrechts-west/</loc>
   </url><url>
     <loc>/about/</loc>
   </url><url>
     <loc>/posts/about/</loc>
   </url><url>
-    <loc>/posts/adex-awards/</loc>
+    <loc>/posts/act/</loc>
   </url><url>
     <loc>/posts/adhd/</loc>
   </url><url>
+    <loc>/posts/adventure/</loc>
+  </url><url>
+    <loc>/posts/africa/</loc>
+  </url><url>
+    <loc>/posts/ai/</loc>
+  </url><url>
     <loc>/tags/ai-content/</loc>
+  </url><url>
+    <loc>/posts/akiyoshidai/</loc>
+  </url><url>
+    <loc>/posts/akiyoshidai-cave/</loc>
+  </url><url>
+    <loc>/posts/albania/</loc>
   </url><url>
     <loc>/posts/algeria/</loc>
   </url><url>
@@ -32,57 +261,131 @@
   </url><url>
     <loc>/posts/allendale-east-cave--soggy-wombats/</loc>
   </url><url>
-    <loc>/posts/applying-cousteaus-approach-to-modern-cave-exploration----chatgpt/</loc>
+    <loc>/posts/antarctica/</loc>
+  </url><url>
+    <loc>/tags/antarctica/</loc>
+  </url><url>
+    <loc>/posts/arkansas/</loc>
+  </url><url>
+    <loc>/posts/armenia/</loc>
   </url><url>
     <loc>/posts/article---corra-lynn/</loc>
   </url><url>
     <loc>/posts/article---the-crazy-wombat-tunnel/</loc>
   </url><url>
+    <loc>/posts/article---exploring-japans-hidden-rivers/</loc>
+  </url><url>
+    <loc>/posts/article---iddlebiddy-cave---soggy-wombats---draft/</loc>
+  </url><url>
+    <loc>/posts/article---making-sense-with-mnemo/</loc>
+  </url><url>
+    <loc>/posts/article---unveiling-the-crazy-wombat-tunnel/</loc>
+  </url><url>
+    <loc>/posts/article---whats-your-ppo2/</loc>
+  </url><url>
     <loc>/posts/articles/</loc>
   </url><url>
-    <loc>/posts/asd-annual-cyber-threat-report-2023-2024---notes/</loc>
+    <loc>/posts/azerbaijan/</loc>
+  </url><url>
+    <loc>/posts/bahamas/</loc>
   </url><url>
     <loc>/posts/bakers-cave---5l285/</loc>
+  </url><url>
+    <loc>/posts/balkans/</loc>
+  </url><url>
+    <loc>/posts/baubau-island---sulawesi/</loc>
+  </url><url>
+    <loc>/posts/belgium/</loc>
+  </url><url>
+    <loc>/posts/belize/</loc>
+  </url><url>
+    <loc>/posts/bhutan/</loc>
+  </url><url>
+    <loc>/posts/bikini-atoll/</loc>
+  </url><url>
+    <loc>/posts/blue-eye/</loc>
+  </url><url>
+    <loc>/posts/boh-yah-mines/</loc>
+  </url><url>
+    <loc>/posts/book---futurism--work/</loc>
+  </url><url>
+    <loc>/posts/books/</loc>
+  </url><url>
+    <loc>/tags/books/</loc>
+  </url><url>
+    <loc>/posts/bosnia--herzegovina/</loc>
+  </url><url>
+    <loc>/posts/brazil/</loc>
   </url><url>
     <loc>/posts/bucket-list/</loc>
   </url><url>
     <loc>/tags/bucket-list/</loc>
   </url><url>
+    <loc>/posts/buddism/</loc>
+  </url><url>
+    <loc>/posts/bulgaria/</loc>
+  </url><url>
+    <loc>/posts/burnabbie-cave/</loc>
+  </url><url>
     <loc>/posts/notes---burning-down-cities/</loc>
+  </url><url>
+    <loc>/posts/cameroon/</loc>
+  </url><url>
+    <loc>/posts/camooweal/</loc>
+  </url><url>
+    <loc>/posts/camping/</loc>
+  </url><url>
+    <loc>/posts/cape-range/</loc>
+  </url><url>
+    <loc>/posts/carrickalinga/</loc>
   </url><url>
     <loc>/categories/</loc>
   </url><url>
-    <loc>/posts/cave-diving-potential-sa---chatgpt/</loc>
+    <loc>/posts/cave-diving-tv-show/</loc>
+  </url><url>
+    <loc>/posts/cave-entries-to-write/</loc>
+  </url><url>
+    <loc>/posts/cave-gardens/</loc>
+  </url><url>
+    <loc>/posts/cave-regions/</loc>
+  </url><url>
+    <loc>/posts/cavedb/</loc>
+  </url><url>
+    <loc>/posts/cavetone-park-estate-cave---5l179/</loc>
+  </url><url>
+    <loc>/posts/caving/</loc>
   </url><url>
     <loc>/tags/caving/</loc>
   </url><url>
-    <loc>/posts/chatgpt---models--limits/</loc>
+    <loc>/posts/cayman-islands/</loc>
   </url><url>
-    <loc>/posts/cheat-sheet---ad/</loc>
+    <loc>/posts/chatgpt---dinaric-karst-belt-expedition/</loc>
   </url><url>
-    <loc>/posts/cheat-sheet---fabric/</loc>
+    <loc>/posts/oscp---cheat-sheet---ad/</loc>
+  </url><url>
+    <loc>/posts/cheat-sheet---cryptography/</loc>
+  </url><url>
+    <loc>/posts/cheat-sheet---oscp-linux/</loc>
+  </url><url>
+    <loc>/posts/cheat-sheet---networking/</loc>
+  </url><url>
+    <loc>/posts/oscp---cheat-sheet---windows/</loc>
   </url><url>
     <loc>/posts/cheat-sheet---linux/</loc>
   </url><url>
-    <loc>/posts/cheat-sheet---misc-pentesting/</loc>
+    <loc>/posts/cheat-sheet---windows/</loc>
   </url><url>
-    <loc>/posts/cheat-sheet---oscp-core/</loc>
+    <loc>/posts/china/</loc>
   </url><url>
-    <loc>/posts/cheat-sheet---oscp-web/</loc>
+    <loc>/posts/choptima---post-dive-checklist/</loc>
   </url><url>
-    <loc>/posts/cheat-sheet---oscp-windows/</loc>
+    <loc>/posts/choptima-ccr/</loc>
   </url><url>
-    <loc>/posts/cheatsheet---cryptography/</loc>
-  </url><url>
-    <loc>/posts/cheatsheet---linux/</loc>
-  </url><url>
-    <loc>/posts/cheatsheet---networking/</loc>
-  </url><url>
-    <loc>/posts/cheatsheet---windows/</loc>
-  </url><url>
-    <loc>/posts/cissp/</loc>
+    <loc>/posts/christmas-island/</loc>
   </url><url>
     <loc>/tags/cissp/</loc>
+  </url><url>
+    <loc>/posts/cissp/</loc>
   </url><url>
     <loc>/posts/cissp---1---security--risk-management/</loc>
   </url><url>
@@ -102,65 +405,687 @@
   </url><url>
     <loc>/posts/cissp---misc-notes/</loc>
   </url><url>
+    <loc>/posts/cocklebiddy-cave---6n48/</loc>
+  </url><url>
+    <loc>/posts/cook-islands/</loc>
+  </url><url>
+    <loc>/posts/costa-rica/</loc>
+  </url><url>
+    <loc>/tags/creativity/</loc>
+  </url><url>
+    <loc>/posts/crete/</loc>
+  </url><url>
+    <loc>/posts/crisc/</loc>
+  </url><url>
+    <loc>/posts/croatia/</loc>
+  </url><url>
+    <loc>/posts/cuba/</loc>
+  </url><url>
+    <loc>/posts/cueva-del-agua/</loc>
+  </url><url>
+    <loc>/posts/cyber-security---job-domains--interview-prep/</loc>
+  </url><url>
+    <loc>/posts/cyber---training--certifications/</loc>
+  </url><url>
     <loc>/posts/cyber-glossary/</loc>
   </url><url>
-    <loc>/tags/cybersecurity/</loc>
+    <loc>/posts/cyber-security/</loc>
   </url><url>
-    <loc>/posts/cybersecurity-resources/</loc>
+    <loc>/posts/cyber-security---resources/</loc>
   </url><url>
-    <loc>/</loc>
+    <loc>/tags/cyber-security/</loc>
   </url><url>
-    <loc>/posts/notes---digital-garden/</loc>
+    <loc>/posts/cyprus/</loc>
+  </url><url>
+    <loc>/posts/czechia/</loc>
+  </url><url>
+    <loc>/tags/dashboard/</loc>
+  </url><url>
+    <loc>/tags/dataview/</loc>
+  </url><url>
+    <loc>/posts/daves-cave---5l215/</loc>
+  </url><url>
+    <loc>/posts/democratic-republic-of-congo/</loc>
+  </url><url>
+    <loc>/posts/digital-garden/</loc>
+  </url><url>
+    <loc>/tags/digital-garden/</loc>
+  </url><url>
+    <loc>/posts/dinaric-karst-belt/</loc>
+  </url><url>
+    <loc>/posts/diving/</loc>
   </url><url>
     <loc>/tags/diving/</loc>
+  </url><url>
+    <loc>/posts/diving---gear/</loc>
   </url><url>
     <loc>/posts/diving---ideas/</loc>
   </url><url>
     <loc>/posts/diving---reading/</loc>
   </url><url>
+    <loc>/posts/dominican-republic/</loc>
+  </url><url>
+    <loc>/posts/effective-note-taking-to-remember-more-&#43;-create-new-ideas/</loc>
+  </url><url>
+    <loc>/posts/ela-elap---5l14---closed/</loc>
+  </url><url>
+    <loc>/posts/englebrechts-cave---5l19-20/</loc>
+  </url><url>
+    <loc>/posts/epochalypse/</loc>
+  </url><url>
+    <loc>/posts/ethiopia/</loc>
+  </url><url>
+    <loc>/posts/europe/</loc>
+  </url><url>
+    <loc>/posts/ewens-ponds---5l159-161/</loc>
+  </url><url>
+    <loc>/posts/expedition-calendar/</loc>
+  </url><url>
     <loc>/tags/expeditions/</loc>
+  </url><url>
+    <loc>/posts/exploration/</loc>
   </url><url>
     <loc>/tags/exploration/</loc>
   </url><url>
+    <loc>/posts/finland/</loc>
+  </url><url>
+    <loc>/posts/flinders-ranges/</loc>
+  </url><url>
+    <loc>/posts/florida/</loc>
+  </url><url>
+    <loc>/posts/fossil-cave---5l81/</loc>
+  </url><url>
+    <loc>/posts/france/</loc>
+  </url><url>
+    <loc>/posts/georgia/</loc>
+  </url><url>
+    <loc>/posts/germany/</loc>
+  </url><url>
+    <loc>/posts/goa-lalauwi/</loc>
+  </url><url>
+    <loc>/posts/gouldens-sinkhole---5l8/</loc>
+  </url><url>
+    <loc>/posts/grace-cave/</loc>
+  </url><url>
+    <loc>/posts/greece/</loc>
+  </url><url>
+    <loc>/posts/greenland/</loc>
+  </url><url>
+    <loc>/posts/gua-la-humbe/</loc>
+  </url><url>
+    <loc>/posts/gua-la-pahia/</loc>
+  </url><url>
+    <loc>/posts/gua-lanto/</loc>
+  </url><url>
+    <loc>/posts/gua-wandoke/</loc>
+  </url><url>
+    <loc>/posts/hanns-cave---5l---closed/</loc>
+  </url><url>
+    <loc>/posts/hells-hole---5l40/</loc>
+  </url><url>
+    <loc>/posts/honduras/</loc>
+  </url><url>
+    <loc>/posts/honey-badger---natures-most-fearless-animal-alive/</loc>
+  </url><url>
+    <loc>/posts/horse--cart-sinkhole---5l129/</loc>
+  </url><url>
+    <loc>/posts/hungary/</loc>
+  </url><url>
+    <loc>/posts/iceland/</loc>
+  </url><url>
+    <loc>/posts/iddlebiddy-cave---5l250/</loc>
+  </url><url>
+    <loc>/tags/index/</loc>
+  </url><url>
+    <loc>/posts/india/</loc>
+  </url><url>
+    <loc>/posts/indonesia/</loc>
+  </url><url>
     <loc>/tags/interests/</loc>
+  </url><url>
+    <loc>/posts/iran/</loc>
+  </url><url>
+    <loc>/posts/ireland/</loc>
+  </url><url>
+    <loc>/posts/italy/</loc>
+  </url><url>
+    <loc>/posts/jam-cave---5l301/</loc>
+  </url><url>
+    <loc>/posts/jamaica/</loc>
+  </url><url>
+    <loc>/posts/japan/</loc>
+  </url><url>
+    <loc>/tags/japan/</loc>
+  </url><url>
+    <loc>/posts/jenolan/</loc>
+  </url><url>
+    <loc>/posts/jordan/</loc>
+  </url><url>
+    <loc>/posts/kaidaiula/</loc>
+  </url><url>
+    <loc>/posts/kalimantan---indonesia/</loc>
+  </url><url>
+    <loc>/posts/kayaking/</loc>
+  </url><url>
+    <loc>/posts/kayaking---glenelg-river-canoe-trail/</loc>
+  </url><url>
+    <loc>/posts/kazakhstan/</loc>
+  </url><url>
+    <loc>/posts/kenya/</loc>
+  </url><url>
+    <loc>/posts/kilbys-sinkhole---5l46/</loc>
   </url><url>
     <loc>/tags/knowledge-management/</loc>
   </url><url>
-    <loc>/posts/mini-essay---1---digital-garden/</loc>
+    <loc>/posts/kosovo/</loc>
   </url><url>
-    <loc>/posts/mini-essay---2---fear-is-the-mind-killer/</loc>
+    <loc>/posts/kyrgyzstan/</loc>
   </url><url>
-    <loc>/posts/mini-essay---4---before-youre-40/</loc>
+    <loc>/posts/la-ode-palsu/</loc>
+  </url><url>
+    <loc>/posts/la-ode-panu/</loc>
+  </url><url>
+    <loc>/posts/labungkari/</loc>
+  </url><url>
+    <loc>/posts/laos/</loc>
+  </url><url>
+    <loc>/posts/laulawi/</loc>
+  </url><url>
+    <loc>/posts/lebanon/</loc>
+  </url><url>
+    <loc>/posts/limekiln-mccavity-cave/</loc>
+  </url><url>
+    <loc>/posts/little-blue-lake---5l9/</loc>
+  </url><url>
+    <loc>/posts/long-solo/</loc>
+  </url><url>
+    <loc>/posts/lot---france/</loc>
+  </url><url>
+    <loc>/posts/madagascar/</loc>
+  </url><url>
+    <loc>/posts/madura-cave/</loc>
+  </url><url>
+    <loc>/posts/malaysia/</loc>
+  </url><url>
+    <loc>/posts/mallorca---spain/</loc>
+  </url><url>
+    <loc>/posts/malta---gozo/</loc>
+  </url><url>
+    <loc>/posts/markdown-formatting/</loc>
+  </url><url>
+    <loc>/tags/mars-one/</loc>
+  </url><url>
+    <loc>/posts/mauritius/</loc>
+  </url><url>
+    <loc>/posts/maxs-hole---5l100---closed/</loc>
+  </url><url>
+    <loc>/posts/mckays-shaft---5l125---closed/</loc>
+  </url><url>
+    <loc>/posts/meals/</loc>
+  </url><url>
+    <loc>/posts/minamidaito-south-daito---okinawa/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---surely-youre-joking-mr-feynman-richard-feynman/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---appeal-of-a-dark-empty-forest-outpost/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---appeal-of-living-out-of-a-van/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---appeal-of-small/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---appeal-of-thronglets/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---april-19-2023/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---before-youre-40/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---before-youre-50/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---choosing-between-potential-jobs/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---desires-from-work-and-a-career-in-cyber/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---digital-garden/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---dune/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---fear-is-the-mind-killer/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---first-day-in-ushuaia/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---greatest-moments-of-joy-in-your-life/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---handwritten-journal-vs-going-digital/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---if-mars-one-rebooted/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---if-you-had-a-year-to-live/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---kids-meals-on-planes/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---letter-to-yourself-in-5-years/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---mechwarrior/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---mental-baggage/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---new-tattoo/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---not-fade-away-jim-dodge/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---november-23/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---now-youre-40/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---organising-a-mars-one-analog/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---peaceful-warrior-vs-the-alchemist/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---procrastinating-writing-the-pines-article/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---ridiculous-bucket-list/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---secret-to-dealing-with-work/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---thoughts-on-2025-media/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---using-my-folding-keyboard-while-flying-from-melbourne-to-santiago/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---what-are-your-obligations/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---what-do-you-really-want-to-do-before-you-die/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---what-is-fear-to-you/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---where-do-i-want-to-be-in-2028/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---why-antarctica-is-important-to-you/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---why-im-writing-a-book-about-cave-diving/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---why-its-easy-to-put-off-writing/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---why-you-didnt-think-youd-make-it-to-30/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---your-cave-diving-future/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---your-evil-secret-plan/</loc>
+  </url><url>
+    <loc>/posts/mini-essays/</loc>
   </url><url>
     <loc>/tags/mini-essay/</loc>
   </url><url>
-    <loc>/posts/notes---i-took-the-worlds-hardest-cybersecurity-exam/</loc>
+    <loc>/posts/moko-morete/</loc>
+  </url><url>
+    <loc>/posts/moko-panjang/</loc>
+  </url><url>
+    <loc>/posts/moluccas---indonesia/</loc>
+  </url><url>
+    <loc>/posts/mongolia/</loc>
+  </url><url>
+    <loc>/posts/montenegro/</loc>
+  </url><url>
+    <loc>/posts/morocco/</loc>
+  </url><url>
+    <loc>/posts/mount-gambier---lower-south-east/</loc>
+  </url><url>
+    <loc>/posts/mozambique/</loc>
+  </url><url>
+    <loc>/posts/mr-electrico---ray-bradbury/</loc>
+  </url><url>
+    <loc>/posts/mud-hole---5l99/</loc>
+  </url><url>
+    <loc>/posts/muna-island---sulawesi/</loc>
+  </url><url>
+    <loc>/posts/murra-el-elevyn---6n47/</loc>
+  </url><url>
+    <loc>/posts/nettlebed---5l290/</loc>
+  </url><url>
+    <loc>/posts/new-caledonia/</loc>
+  </url><url>
+    <loc>/posts/new-os-checklist---windows/</loc>
+  </url><url>
+    <loc>/posts/new-south-wales/</loc>
+  </url><url>
+    <loc>/posts/new-zealand/</loc>
+  </url><url>
+    <loc>/posts/nigeria/</loc>
+  </url><url>
+    <loc>/posts/nohoch/</loc>
+  </url><url>
+    <loc>/posts/north-america/</loc>
+  </url><url>
+    <loc>/posts/north-macedonia/</loc>
+  </url><url>
+    <loc>/posts/northern-territory/</loc>
+  </url><url>
+    <loc>/posts/norway/</loc>
+  </url><url>
+    <loc>/posts/note---mini-essays/</loc>
+  </url><url>
+    <loc>/posts/notes---asd-annual-cyber-threat-report-2023-2024/</loc>
+  </url><url>
+    <loc>/posts/notes---brief-history--ethos-of-the-digital-garden/</loc>
+  </url><url>
+    <loc>/posts/notes---i-took-the-worlds-hardest-cybersecurity-exam-cissp/</loc>
+  </url><url>
+    <loc>/posts/notes---notebooklm-with-obsidian/</loc>
+  </url><url>
+    <loc>/posts/notes---the-garden-and-the-stream/</loc>
+  </url><url>
+    <loc>/posts/notes---too-many-interests/</loc>
+  </url><url>
+    <loc>/posts/nullarbor-high-plains/</loc>
+  </url><url>
+    <loc>/posts/nurina-cave/</loc>
+  </url><url>
+    <loc>/posts/oceania/</loc>
+  </url><url>
+    <loc>/posts/oe-mamba-kecil/</loc>
+  </url><url>
+    <loc>/posts/olwolgin---6n/</loc>
+  </url><url>
+    <loc>/posts/oman/</loc>
+  </url><url>
+    <loc>/posts/one-tree---5l7/</loc>
   </url><url>
     <loc>/tags/oscp/</loc>
   </url><url>
+    <loc>/posts/oscp/</loc>
+  </url><url>
+    <loc>/posts/oscp---access---ad/</loc>
+  </url><url>
+    <loc>/posts/oscp---active-directory/</loc>
+  </url><url>
+    <loc>/posts/oscp---algernon---windows/</loc>
+  </url><url>
+    <loc>/posts/oscp---astronaut---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---authby---windows/</loc>
+  </url><url>
+    <loc>/posts/oscp---blackgate---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---boolean---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---cheat-sheet---core/</loc>
+  </url><url>
+    <loc>/posts/oscp---clue---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---cockpit---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---codo---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---crane---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---exfiltrated---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---extplorer---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---fired---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---flu---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---htb---active-directory/</loc>
+  </url><url>
+    <loc>/posts/oscp---htb---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---htb---windows/</loc>
+  </url><url>
+    <loc>/posts/oscp---hub---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---hutch---windows/</loc>
+  </url><url>
+    <loc>/posts/oscp---image---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---internal---windows/</loc>
+  </url><url>
+    <loc>/posts/oscp---jacko---windows/</loc>
+  </url><url>
+    <loc>/posts/oscp---kevin---windows-dnf/</loc>
+  </url><url>
+    <loc>/posts/oscp---lavita---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---law---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---levram---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---ochima---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---pc---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---pelican---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---plum---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---provinggrounds---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---pyloader---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---rubydome---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---scrutiny---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---squid---windows/</loc>
+  </url><url>
+    <loc>/posts/oscp---twiggy---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---windows/</loc>
+  </url><url>
+    <loc>/posts/oscp-exam-prep/</loc>
+  </url><url>
+    <loc>/posts/pacific-north-west/</loc>
+  </url><url>
+    <loc>/posts/palau/</loc>
+  </url><url>
+    <loc>/posts/pannikin-plains---6n49/</loc>
+  </url><url>
+    <loc>/posts/papua-new-guinea/</loc>
+  </url><url>
+    <loc>/tags/patreon/</loc>
+  </url><url>
+    <loc>/posts/patreon---drawing-february-20-2018/</loc>
+  </url><url>
+    <loc>/posts/patreon---journal-2017-02-25/</loc>
+  </url><url>
+    <loc>/posts/patreon---post-visit-mars-one-qa/</loc>
+  </url><url>
+    <loc>/posts/patreon---space---martian-basic-training/</loc>
+  </url><url>
+    <loc>/posts/patreon---speaking-for-free/</loc>
+  </url><url>
+    <loc>/posts/pentesting/</loc>
+  </url><url>
+    <loc>/posts/permandian-moko/</loc>
+  </url><url>
     <loc>/tags/personal/</loc>
+  </url><url>
+    <loc>/posts/philippines/</loc>
+  </url><url>
+    <loc>/posts/philosophy/</loc>
+  </url><url>
+    <loc>/tags/philosophy/</loc>
+  </url><url>
+    <loc>/posts/photogrammetry/</loc>
   </url><url>
     <loc>/tags/photogrammetry/</loc>
   </url><url>
     <loc>/posts/photogrammetry---processing/</loc>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>/posts/photogrammetry---wills-notes/</loc>
+  </url><url>
+    <loc>/posts/physical-access/</loc>
+  </url><url>
+    <loc>/posts/physics/</loc>
+  </url><url>
+    <loc>/tags/physics/</loc>
+  </url><url>
+    <loc>/posts/picanninnie-ponds---5l72---closed/</loc>
+  </url><url>
+    <loc>/posts/places-to-live/</loc>
+  </url><url>
+    <loc>/posts/planning---nullarbor/</loc>
+  </url><url>
+    <loc>/posts/poland/</loc>
+  </url><url>
+    <loc>/posts/portugal/</loc>
   </url><url>
     <loc>/tags/published/</loc>
   </url><url>
+    <loc>/posts/puerto-rico/</loc>
+  </url><url>
+    <loc>/tags/python/</loc>
+  </url><url>
+    <loc>/posts/queensland/</loc>
+  </url><url>
     <loc>/tags/quotes/</loc>
   </url><url>
-    <loc>/tags/rebreathers/</loc>
+    <loc>/posts/reading/</loc>
+  </url><url>
+    <loc>/tags/reading/</loc>
+  </url><url>
+    <loc>/tags/rebreather/</loc>
+  </url><url>
+    <loc>/posts/rebreathers/</loc>
+  </url><url>
+    <loc>/tags/reference/</loc>
+  </url><url>
+    <loc>/posts/region---wa/</loc>
+  </url><url>
+    <loc>/posts/r%C3%A9union-island/</loc>
+  </url><url>
+    <loc>/posts/roe-plains/</loc>
+  </url><url>
+    <loc>/posts/romania/</loc>
+  </url><url>
+    <loc>/posts/russia/</loc>
+  </url><url>
+    <loc>/posts/rwanda/</loc>
+  </url><url>
+    <loc>/posts/samoa/</loc>
+  </url><url>
+    <loc>/posts/sardinia---italy/</loc>
+  </url><url>
+    <loc>/tags/script/</loc>
+  </url><url>
+    <loc>/posts/script---cave-finder---muna-island/</loc>
+  </url><url>
+    <loc>/posts/script---cave-finder---new-caledonia/</loc>
+  </url><url>
+    <loc>/posts/script---cave-finder---vanuatu/</loc>
+  </url><url>
+    <loc>/posts/script---python---search-replace/</loc>
+  </url><url>
+    <loc>/posts/scripts/</loc>
+  </url><url>
+    <loc>/posts/serbia/</loc>
+  </url><url>
+    <loc>/posts/seychelles/</loc>
+  </url><url>
+    <loc>/posts/sicily---italy/</loc>
+  </url><url>
+    <loc>/posts/skotini-cave/</loc>
+  </url><url>
+    <loc>/posts/slovakia/</loc>
+  </url><url>
+    <loc>/posts/slovenia/</loc>
+  </url><url>
+    <loc>/posts/solomon-islands/</loc>
   </url><url>
     <loc>/tags/source/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>/posts/south-africa/</loc>
   </url><url>
-    <loc>/tags/to-do/</loc>
+    <loc>/posts/south-australia/</loc>
+  </url><url>
+    <loc>/posts/space/</loc>
+  </url><url>
+    <loc>/posts/spain/</loc>
+  </url><url>
+    <loc>/posts/speaking/</loc>
+  </url><url>
+    <loc>/tags/speaking/</loc>
+  </url><url>
+    <loc>/posts/sri-lanka/</loc>
+  </url><url>
+    <loc>/posts/stafford-road-cave---5l174/</loc>
+  </url><url>
+    <loc>/posts/stinging-nettle-cave---5l186/</loc>
+  </url><url>
+    <loc>/tags/study/</loc>
+  </url><url>
+    <loc>/posts/sulawesi---indonesia/</loc>
+  </url><url>
+    <loc>/posts/sweden/</loc>
+  </url><url>
+    <loc>/tags/tag1/</loc>
+  </url><url>
+    <loc>/posts/tajikistan/</loc>
+  </url><url>
+    <loc>/posts/tank-cave---5l230/</loc>
+  </url><url>
+    <loc>/posts/tanzania/</loc>
+  </url><url>
+    <loc>/posts/tasmania/</loc>
+  </url><url>
+    <loc>/posts/tea-tree-sinkhole---5l128/</loc>
+  </url><url>
+    <loc>/posts/choptima-pre-dive/</loc>
+  </url><url>
+    <loc>/posts/ten-eighty-sinkhole---5l42---closed/</loc>
+  </url><url>
+    <loc>/posts/tennessee/</loc>
+  </url><url>
+    <loc>/posts/texas/</loc>
+  </url><url>
+    <loc>/posts/thailand/</loc>
+  </url><url>
+    <loc>/posts/the-black-hole---5l47---closed/</loc>
+  </url><url>
+    <loc>/posts/the-bullock-hole---5l163---closed/</loc>
+  </url><url>
+    <loc>/posts/the-pines---5l61/</loc>
+  </url><url>
+    <loc>/posts/the-shaft---5l158/</loc>
+  </url><url>
+    <loc>/posts/the-sisters-sinkhole---5l43-44/</loc>
+  </url><url>
+    <loc>/posts/the-three-sisters---5l13/</loc>
+  </url><url>
+    <loc>/posts/threat-actor---apt28/</loc>
+  </url><url>
+    <loc>/posts/threat-actor---apt40/</loc>
+  </url><url>
+    <loc>/posts/threat-actor---bianlian/</loc>
+  </url><url>
+    <loc>/posts/threat-actors/</loc>
+  </url><url>
+    <loc>/posts/threat-modelling/</loc>
+  </url><url>
+    <loc>/tags/threat-modelling/</loc>
+  </url><url>
+    <loc>/posts/time-management/</loc>
+  </url><url>
+    <loc>/posts/timor-leste/</loc>
+  </url><url>
+    <loc>/posts/tommy-grahams-cave---6n56/</loc>
+  </url><url>
+    <loc>/posts/tonga/</loc>
+  </url><url>
+    <loc>/posts/trip---antarctica---2025-nov/</loc>
+  </url><url>
+    <loc>/posts/trip---murra-cocklebiddy---2026-aug/</loc>
+  </url><url>
+    <loc>/posts/trip---japan---2026-may/</loc>
+  </url><url>
+    <loc>/posts/trip---mt-gambier---2025-april/</loc>
+  </url><url>
+    <loc>/posts/trip---murra-el-elevyn---2025-oct/</loc>
   </url><url>
     <loc>/posts/trip---sulawesi---2025-aug/</loc>
   </url><url>
     <loc>/posts/trip---sydney-godiving-conference----2025-sept/</loc>
+  </url><url>
+    <loc>/posts/trip---thailand---boh-yai-mines---2026-jan/</loc>
   </url><url>
     <loc>/posts/trip---wellington-caves---2025-sept/</loc>
   </url><url>
@@ -168,12 +1093,66 @@
   </url><url>
     <loc>/tags/trips/</loc>
   </url><url>
-    <loc>/posts/article---unveiling-the-crazy-wombat-tunnel/</loc>
+    <loc>/posts/trips---ideas/</loc>
   </url><url>
-    <loc>/posts/article---whats-your-ppo2/</loc>
+    <loc>/posts/tunisia/</loc>
+  </url><url>
+    <loc>/posts/t%C3%BCrkiye-turkey/</loc>
+  </url><url>
+    <loc>/posts/united-kingdom/</loc>
+  </url><url>
+    <loc>/posts/united-states/</loc>
+  </url><url>
+    <loc>/tags/upcoming/</loc>
+  </url><url>
+    <loc>/posts/vanuatu/</loc>
+  </url><url>
+    <loc>/posts/venezuela/</loc>
+  </url><url>
+    <loc>/posts/victoria/</loc>
+  </url><url>
+    <loc>/posts/vietnam/</loc>
+  </url><url>
+    <loc>/posts/web-app-vulnerability/</loc>
+  </url><url>
+    <loc>/posts/website---101-things/</loc>
+  </url><url>
+    <loc>/posts/website---mars-one-preparation-list/</loc>
+  </url><url>
+    <loc>/posts/website---martian-stunt/</loc>
+  </url><url>
+    <loc>/posts/website--101-things-79-speed-dating--the-mighty-ginge/</loc>
+  </url><url>
+    <loc>/posts/website--how-to-ruin-christmas/</loc>
+  </url><url>
+    <loc>/posts/weebubbie-cave---6n2/</loc>
+  </url><url>
+    <loc>/posts/wellington-caves/</loc>
+  </url><url>
+    <loc>/posts/west-papua---indonesia/</loc>
+  </url><url>
+    <loc>/posts/west-timor---indonesia/</loc>
+  </url><url>
+    <loc>/posts/western-australia/</loc>
+  </url><url>
+    <loc>/posts/wh40k/</loc>
+  </url><url>
+    <loc>/posts/wh40k---armies---dark-angels/</loc>
+  </url><url>
+    <loc>/posts/wh40k---armies---imperial-knights/</loc>
+  </url><url>
+    <loc>/posts/whyalla/</loc>
+  </url><url>
+    <loc>/posts/wingsuit/</loc>
+  </url><url>
+    <loc>/posts/work/</loc>
   </url><url>
     <loc>/tags/work/</loc>
   </url><url>
-    <loc>/tags/writing/</loc>
+    <loc>/posts/writing/</loc>
+  </url><url>
+    <loc>/posts/yucatan---mexico/</loc>
+  </url><url>
+    <loc>/posts/zimbabwe/</loc>
   </url>
 </urlset>

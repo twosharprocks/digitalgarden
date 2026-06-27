@@ -15,17 +15,17 @@ Related:
   - "[[Diving]]"
   - "[[Europe]]"
 ---
-Albania is listed under [Europe](/posts/europe/) in [Cave Regions](/posts/cave-regions/).
+Albania is listed under [Europe]({{< relref "posts/europe.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions
 - No local cave regions listed yet.
 
 # Caves & Dive Sites
-- [Skotini Cave](/posts/skotini-cave/)
+- [Skotini Cave]({{< relref "posts/Skotini Cave.md" >}})
 
 # Backlinks
-- [Cave Regions](/posts/cave-regions/)
-- [Diving](/posts/diving/)
+- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
+- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
 
 ---
 # Existing Notes
@@ -33,8 +33,8 @@ Albania is listed under [Europe](/posts/europe/) in [Cave Regions](/posts/cave-r
 
 
 # Caves
-- [Skotini Cave](/posts/skotini-cave/)
-- [Blue Eye](/posts/blue-eye/)
+- [Skotini Cave]({{< relref "posts/Skotini Cave.md" >}})
+- [Blue Eye]({{< relref "posts/Blue Eye.md" >}})
 # Trips
 - 
 ---

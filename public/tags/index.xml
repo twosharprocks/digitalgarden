@@ -5,8 +5,23 @@
     <link>/tags/</link>
     <description>Recent content in Tags on Digital Garden</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Mar 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing</title>
+      <link>/tags/writing/</link>
+      <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>/tags/writing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unread</title>
+      <link>/tags/unread/</link>
+      <pubDate>Wed, 30 May 2012 00:00:00 +0000</pubDate>
+      <guid>/tags/unread/</guid>
+      <description></description>
+    </item>
     <item>
       <title>101-Things</title>
       <link>/tags/101-things/</link>
@@ -15,10 +30,24 @@
       <description></description>
     </item>
     <item>
-      <title>AI-Content</title>
+      <title>Ai-Content</title>
       <link>/tags/ai-content/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/ai-content/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Antarctica</title>
+      <link>/tags/antarctica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/antarctica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Books</title>
+      <link>/tags/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/books/</guid>
       <description></description>
     </item>
     <item>
@@ -36,17 +65,45 @@
       <description></description>
     </item>
     <item>
-      <title>CISSP</title>
+      <title>Cissp</title>
       <link>/tags/cissp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/cissp/</guid>
       <description></description>
     </item>
     <item>
-      <title>Cybersecurity</title>
-      <link>/tags/cybersecurity/</link>
+      <title>Creativity</title>
+      <link>/tags/creativity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/cybersecurity/</guid>
+      <guid>/tags/creativity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cyber-Security</title>
+      <link>/tags/cyber-security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/cyber-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dashboard</title>
+      <link>/tags/dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/dashboard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dataview</title>
+      <link>/tags/dataview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/dataview/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital-Garden</title>
+      <link>/tags/digital-garden/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/digital-garden/</guid>
       <description></description>
     </item>
     <item>
@@ -71,10 +128,24 @@
       <description></description>
     </item>
     <item>
+      <title>Index</title>
+      <link>/tags/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/index/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Interests</title>
       <link>/tags/interests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/interests/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Japan</title>
+      <link>/tags/japan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/japan/</guid>
       <description></description>
     </item>
     <item>
@@ -85,6 +156,13 @@
       <description></description>
     </item>
     <item>
+      <title>Mars-One</title>
+      <link>/tags/mars-one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/mars-one/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Mini-Essay</title>
       <link>/tags/mini-essay/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -92,10 +170,17 @@
       <description></description>
     </item>
     <item>
-      <title>OSCP</title>
+      <title>Oscp</title>
       <link>/tags/oscp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/oscp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Patreon</title>
+      <link>/tags/patreon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/patreon/</guid>
       <description></description>
     </item>
     <item>
@@ -106,10 +191,24 @@
       <description></description>
     </item>
     <item>
+      <title>Philosophy</title>
+      <link>/tags/philosophy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Photogrammetry</title>
       <link>/tags/photogrammetry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/photogrammetry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Physics</title>
+      <link>/tags/physics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/physics/</guid>
       <description></description>
     </item>
     <item>
@@ -120,6 +219,13 @@
       <description></description>
     </item>
     <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Quotes</title>
       <link>/tags/quotes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -127,10 +233,31 @@
       <description></description>
     </item>
     <item>
-      <title>Rebreathers</title>
-      <link>/tags/rebreathers/</link>
+      <title>Reading</title>
+      <link>/tags/reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/rebreathers/</guid>
+      <guid>/tags/reading/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rebreather</title>
+      <link>/tags/rebreather/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/rebreather/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reference</title>
+      <link>/tags/reference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/reference/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Script</title>
+      <link>/tags/script/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/script/</guid>
       <description></description>
     </item>
     <item>
@@ -141,10 +268,31 @@
       <description></description>
     </item>
     <item>
-      <title>To-Do</title>
-      <link>/tags/to-do/</link>
+      <title>Speaking</title>
+      <link>/tags/speaking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/to-do/</guid>
+      <guid>/tags/speaking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study</title>
+      <link>/tags/study/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/study/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag1</title>
+      <link>/tags/tag1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/tag1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Threat-Modelling</title>
+      <link>/tags/threat-modelling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/threat-modelling/</guid>
       <description></description>
     </item>
     <item>
@@ -155,17 +303,17 @@
       <description></description>
     </item>
     <item>
+      <title>Upcoming</title>
+      <link>/tags/upcoming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/upcoming/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Work</title>
       <link>/tags/work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/work/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Writing</title>
-      <link>/tags/writing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/writing/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,18 +1,16 @@
 ---
 title: Reading
 created: 2025-06-26
-updated: 2026-06-22
+updated: 2026-06-27
 status: seed
 draft: false
 tags:
   - books
   - interests
   - personal
-Related: 
+Related:
   - "[[Personal]]"
-  - "[[2025 - Media]]"
-  - "[[2026 - Media]]"
-  - "[[Books]]"
+  - "Books"
 ---
 # Current
 - Kindle: Hotel New Hampshire
@@ -65,3 +63,7 @@ Misc
 	- Use https://tmnascommunity.eu/download/calibre/ for setup
 - Use [Libation](https://getlibation.com/) for Audible
 
+# References
+- 2026 - Media
+- 2025 - Media
+- 

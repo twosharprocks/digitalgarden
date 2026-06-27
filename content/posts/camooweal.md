@@ -12,7 +12,7 @@ CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
 related:
   - "[[Diving]]"
-  - "[[Expedition Ideas]]"
+  - "[[Trips - Ideas]]"
   - "[[Queensland]]"
 ---
 # About

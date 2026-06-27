@@ -12,7 +12,7 @@ CaveDB:
 SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/india
 related:
   - "[[Diving]]"
-  - "[[Expedition Ideas]]"
+  - "[[Trips - Ideas]]"
 ---
 # About
 
@@ -30,7 +30,7 @@ Near Bangladesh)
 - 
 ---
 # References
-[Diving](/posts/diving/)
+[Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
 CAKES (Cave and Karst Exploration & Science Foundation) https://cakes.org.in/
 - [CAKES Expeditions](https://cakes.org.in/expeditions/)
 - [Insta - CAKES Foundation announcement](https://www.instagram.com/p/DQGk6FGgfMU/) 

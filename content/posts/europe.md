@@ -18,23 +18,23 @@ Map: https://www.google.com/maps/place/
 ---
 # About
 Atlantic
-- [United Kingdom](/posts/united-kingdom/)
-- [Ireland](/posts/ireland/)
-- [Iceland](/posts/iceland/)
+- [United Kingdom]({{< relref "posts/United Kingdom.md" >}})
+- [Ireland]({{< relref "posts/ireland.md" >}})
+- [Iceland]({{< relref "posts/iceland.md" >}})
 Scandanavia
-- [Norway](/posts/norway/)
-- [Sweden](/posts/sweden/)
-- [Finland](/posts/finland/)
-- [Poland](/posts/poland/)
+- [Norway]({{< relref "posts/norway.md" >}})
+- [Sweden]({{< relref "posts/sweden.md" >}})
+- [Finland]({{< relref "posts/finland.md" >}})
+- [Poland]({{< relref "posts/poland.md" >}})
 Central
-- [Czechia](/posts/czechia/)
-- [Slovakia](/posts/slovakia/)
-- [Hungary](/posts/hungary/)
-- [Slovenia](/posts/slovenia/)
-- [Belgium](/posts/belgium/)
-- [Germany](/posts/germany/)
+- [Czechia]({{< relref "posts/czechia.md" >}})
+- [Slovakia]({{< relref "posts/slovakia.md" >}})
+- [Hungary]({{< relref "posts/hungary.md" >}})
+- [Slovenia]({{< relref "posts/slovenia.md" >}})
+- [Belgium]({{< relref "posts/belgium.md" >}})
+- [Germany]({{< relref "posts/germany.md" >}})
 Eastern
-- [Russia](/posts/russia/)
+- [Russia]({{< relref "posts/russia.md" >}})
 # Caves
 - 
 # Trips

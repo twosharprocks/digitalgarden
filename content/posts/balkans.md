@@ -12,11 +12,11 @@ CaveDB:
 SmartTraveller: www.smartraveller.gov.au/destinations/
 related:
   - "[[Diving]]"
-  - "[[Expedition Ideas]]"
+  - "[[Trips - Ideas]]"
   - "[[Dinaric Karst Belt]]"
 ---
 # About
- [Crete](/posts/crete/), [Greece](/posts/greece/), [Albania](/posts/albania/), [North Macedonia](/posts/north-macedonia/)]], [Kosovo](/posts/kosovo/), [Montenegro](/posts/montenegro/), [Serbia](/posts/serbia/), [Bosnia & Herzegovina](/posts/bosnia-herzegovina/), [Croatia](/posts/croatia/), [Slovenia](/posts/slovenia/), [Hungary](/posts/hungary/), [Romania](/posts/romania/)
+ [Crete]({{< relref "posts/crete.md" >}}), [Greece]({{< relref "posts/greece.md" >}}), [Albania]({{< relref "posts/albania.md" >}}), [North Macedonia]({{< relref "posts/North Macedonia.md" >}})]], [Kosovo]({{< relref "posts/kosovo.md" >}}), [Montenegro]({{< relref "posts/montenegro.md" >}}), [Serbia]({{< relref "posts/serbia.md" >}}), [Bosnia & Herzegovina]({{< relref "posts/Bosnia & Herzegovina.md" >}}), [Croatia]({{< relref "posts/croatia.md" >}}), [Slovenia]({{< relref "posts/slovenia.md" >}}), [Hungary]({{< relref "posts/hungary.md" >}}), [Romania]({{< relref "posts/romania.md" >}})
 
 - **Balkans & East Med** Apr-Oct (Ideal May/Jun & Sep/Oct): 
 	- **Take Lewy Sep 2026?**

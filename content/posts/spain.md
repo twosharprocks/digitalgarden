@@ -15,24 +15,24 @@ Related:
   - "[[Diving]]"
   - "[[Europe]]"
 ---
-Spain is listed under [Europe](/posts/europe/) in [Cave Regions](/posts/cave-regions/).
+Spain is listed under [Europe]({{< relref "posts/europe.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions
 - No local cave regions listed yet.
 
 # Caves & Dive Sites
-- [Cueva Del Agua](/posts/cueva-del-agua/)
+- [Cueva Del Agua]({{< relref "posts/Cueva Del Agua.md" >}})
 
 # Backlinks
-- [Cave Regions](/posts/cave-regions/)
-- [Diving](/posts/diving/)
+- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
+- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
 
 ---
 # Existing Notes
 # About
 - [Map of Tourist Caves](https://www.cuevasturisticas.es/mapa-de-cuevas.php) - Add to CaveDB
 - Malaga - Speak to Arvis Green
-- **Balearic Islands - [Mallorca - Spain](/posts/mallorca-spain/) Menorca:
+- **Balearic Islands - [Mallorca - Spain]({{< relref "posts/Mallorca - Spain.md" >}}) Menorca:
     Best diving is **May to October**. Water temperatures range from 18°C in spring to 26°C in late summer. Sea caves like _Cova Genovesa_ and _Cova de sa Gleda_ are most accessible and visible during this time.
     
 - **Inland cave systems (e.g., Cantabria, Andalusia):**  

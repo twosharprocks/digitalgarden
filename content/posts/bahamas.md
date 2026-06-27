@@ -15,7 +15,7 @@ Related:
   - "[[Diving]]"
   - "[[Central America]]"
 ---
-Bahamas is listed under Central America in [Cave Regions](/posts/cave-regions/).
+Bahamas is listed under Central America in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions
 - No local cave regions listed yet.
@@ -24,8 +24,8 @@ Bahamas is listed under Central America in [Cave Regions](/posts/cave-regions/).
 - See the linked cave regions above.
 
 # Backlinks
-- [Cave Regions](/posts/cave-regions/)
-- [Diving](/posts/diving/)
+- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
+- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
 
 ---
 # Existing Notes

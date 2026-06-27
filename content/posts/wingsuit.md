@@ -1,16 +1,17 @@
 ---
 title: Wingsuit
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-06-27
 status: seed
 draft: false
 tags:
+  - personal
 Related:
 ---
 Related: 
 
 ---
-You've previously listed "Parachuting" under "Let This Go" in your [Personal](/posts/personal/). 
+You've previously listed "Parachuting" under "Let This Go" in your [Personal]({{< relref "posts/2025 - Hobbies To Learn.md" >}}). 
 - What is it about wingsuits that interests you so much, and is there a different path to that feeling?
 
 ---

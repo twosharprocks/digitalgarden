@@ -16,7 +16,7 @@ Related:
   - "[[Oceania]]"
 ---
 
-Victoria is listed under [Oceania](/posts/oceania/) in [Cave Regions](/posts/cave-regions/).
+Victoria is listed under [Oceania]({{< relref "posts/oceania.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions
 - No local cave regions listed yet.
@@ -25,8 +25,8 @@ Victoria is listed under [Oceania](/posts/oceania/) in [Cave Regions](/posts/cav
 - See the linked cave regions above.
 
 # Backlinks
-- [Cave Regions](/posts/cave-regions/)
-- [Diving](/posts/diving/)
+- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
+- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
 
 ---
 # Existing Notes
@@ -51,5 +51,5 @@ Victoria is listed under [Oceania](/posts/oceania/) in [Cave Regions](/posts/cav
 
 ---
 # References
- [Agriculture Victoria]([https://vro.agriculture.vic.gov.au/dpi/vro/glenregn.nsf/pages/landform_sites_sig_map](https://vro.agriculture.vic.gov.au/dpi/vro/glenregn.nsf/pages/landform_sites_sig_map)) - Sites of Geological and Geomorphological Significance
+ [Agriculture Victoria](https://vro.agriculture.vic.gov.au/dpi/vro/glenregn.nsf/pages/landform_sites_sig_map) - Sites of Geological and Geomorphological Significance
  [Volcanic Cave Areas in Victoria](http://st1.asflib.net/MEDIA/ASF-CD/ASF-M-00026/SRK/GKR/WebPages/VCAreas.htm)

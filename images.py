@@ -7,9 +7,10 @@ from urllib.parse import unquote, quote
 from collections import Counter
 
 # --- CONFIG ---
-posts_dir = Path(r"C:\Users\Josh\Documents\garden\content\posts")
-attachments_dir = Path(r"C:\Users\Josh\My Drive\Vaults\Digital-Garden\Files")
-static_images_dir = Path(r"C:\Users\Josh\Documents\garden\static\images")
+script_dir = Path(__file__).resolve().parent
+posts_dir = script_dir / "content" / "posts"
+attachments_dir = Path(r"G:\My Drive\Vaults\Digital-Garden\3 - Files")
+static_images_dir = script_dir / "static" / "images"
 
 # For relref generation of page links, this is the mount name under /content
 CONTENT_MOUNT = "posts"
@@ -17,6 +18,15 @@ CONTENT_MOUNT = "posts"
 DRY_RUN = False
 OVERWRITE_EXISTING = False  # set True to always copy/overwrite
 # ---------------
+
+mode = sys.argv[1].strip().lower() if len(sys.argv) >= 2 else None
+if mode == "--images-only":
+    if len(sys.argv) >= 3:
+        posts_dir = Path(sys.argv[2])
+    if len(sys.argv) >= 4:
+        attachments_dir = Path(sys.argv[3])
+    if len(sys.argv) >= 5:
+        static_images_dir = Path(sys.argv[4])
 
 print(f"[INFO] Posts: {posts_dir}")
 print(f"[INFO] Attachments: {attachments_dir}")
@@ -108,6 +118,7 @@ def build_page_index(content_dir: Path):
     """Return dict of normalized keys → relative md path under posts_dir."""
     index = {}
     md_files = list(content_dir.rglob("*.md"))
+    readable_files = []
     for f in md_files:
         rel = f.relative_to(content_dir)
         stem = f.stem
@@ -118,6 +129,10 @@ def build_page_index(content_dir: Path):
             txt = f.read_text(encoding="utf-8")
         except UnicodeDecodeError:
             txt = f.read_text(encoding="utf-8-sig")
+        except OSError as exc:
+            print(f"[WARN] Skipping unreadable Markdown file {f.name}: {exc}")
+            continue
+        readable_files.append(f)
 
         m = re.match(r"^---\s*\n(.*?)\n---\s*\n", txt, flags=re.S)
         if m:
@@ -141,7 +156,7 @@ def build_page_index(content_dir: Path):
 
         for k in keys:
             index.setdefault(k, rel)
-    return index, md_files
+    return index, readable_files
 
 # Match page wikilinks: [[Target]], [[Target|Alias]], [[Target#Section]], [[Target|Alias#Section]]
 WIKILINK_RE = re.compile(r"\[\[([^\]\|\#]+)(?:#([^\]\|]+))?(?:\|([^\]]+))?\]\]")
@@ -150,6 +165,8 @@ def replace_wikilinks_outside_code(text: str, index: dict, md_files: list, conte
     fence_pat = re.compile(r"^\s*```")
     out_lines = []
     fenced = False
+    front_matter = False
+    first_line = True
 
     def resolve_target(target: str):
         key = norm_key(target.replace("-", " "))
@@ -179,6 +196,18 @@ def replace_wikilinks_outside_code(text: str, index: dict, md_files: list, conte
             return text_label
 
     for line in text.splitlines(keepends=False):
+        if first_line:
+            first_line = False
+            if line.strip().lstrip("\ufeff") == "---":
+                front_matter = True
+                out_lines.append(line)
+                continue
+        elif front_matter:
+            out_lines.append(line)
+            if line.strip() == "---":
+                front_matter = False
+            continue
+
         if fence_pat.match(line):
             fenced = not fenced
             out_lines.append(line)
@@ -203,10 +232,6 @@ def replace_wikilinks_outside_code(text: str, index: dict, md_files: list, conte
 #   --images-only      -> run only image processing
 #   --wikilinks-only   -> run only wikilinks; allow optional args:
 #                         images.py --wikilinks-only <content_dir> <mount>
-mode = None
-if len(sys.argv) >= 2:
-    mode = sys.argv[1].strip().lower()
-
 if mode == "--wikilinks-only":
     # Allow overriding posts_dir & mount via args for PS step 3B
     content_dir = posts_dir
@@ -245,6 +270,9 @@ for md in posts_dir.rglob("*.md"):
         text = md.read_text(encoding="utf-8")
     except UnicodeDecodeError:
         text = md.read_text(encoding="utf-8-sig")
+    except OSError as exc:
+        print(f"[WARN] Skipping unreadable Markdown file {md.name}: {exc}")
+        continue
     original = text
 
     # Replace wikilink images like ![[pic.jpg]]
@@ -285,6 +313,15 @@ for md in posts_dir.rglob("*.md"):
     # Cleanup: normalize any number of '!' and spaces before '[' to a single '!' (fix stray '!')
     text = re.sub(r"!+\s*(?=\[)", "!", text)
 
+    # Normalize nested links emitted by Obsidian, which Hugo rejects.
+    text = re.sub(
+        r"\[([^\]]+)\]\(\[(https?://[^\]]+)\]\(\2\)\)",
+        r"[\1](\2)",
+        text,
+    )
+    text = re.sub(r"\]\(\*(https?://)", r"](\1", text)
+    text = text.replace("http://%20http//", "http://")
+
     if text != original:
         if not DRY_RUN:
             md.write_text(text, encoding="utf-8")
@@ -319,6 +356,9 @@ for md in posts_dir.rglob("*.md"):
         raw = md.read_text(encoding="utf-8")
     except UnicodeDecodeError:
         raw = md.read_text(encoding="utf-8-sig")
+    except OSError as exc:
+        print(f"[WARN] Skipping unreadable Markdown file {md.name}: {exc}")
+        continue
     new = replace_wikilinks_outside_code(raw, index, md_files, CONTENT_MOUNT, posts_dir)
     if new != raw:
         if not DRY_RUN:

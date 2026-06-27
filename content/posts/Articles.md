@@ -11,7 +11,7 @@ Related:
 ---
 # Published
 - [Exploring Pines Cave - Scuba Diver Magazine](https://app.scubadivermag.com/issues/scuba-diver-anz-85/exploring-pines-cave)
-- [Article - Corra-Lynn](/posts/article-corra-lynn/)
-- [Article - What's Your ppO2](/posts/article-what-s-your-ppo2/)
-- [Article - Unveiling the Crazy Wombat Tunnel](/posts/article-unveiling-the-crazy-wombat-tunnel/)
+- [Article - Corra-Lynn]({{< relref "posts/Article - Corra-Lynn.md" >}})
+- [Article - What's Your ppO2]({{< relref "posts/Article - What's Your ppO2.md" >}})
+- [Article - Unveiling the Crazy Wombat Tunnel]({{< relref "posts/Article - Unveiling the Crazy Wombat Tunnel.md" >}})
 

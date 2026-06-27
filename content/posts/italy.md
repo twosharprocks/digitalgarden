@@ -15,7 +15,7 @@ Related:
   - "[[Diving]]"
   - "[[Europe]]"
 ---
-Italy is listed under [Europe](/posts/europe/) in [Cave Regions](/posts/cave-regions/).
+Italy is listed under [Europe]({{< relref "posts/europe.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions
 - No local cave regions listed yet.
@@ -24,8 +24,8 @@ Italy is listed under [Europe](/posts/europe/) in [Cave Regions](/posts/cave-reg
 - See the linked cave regions above.
 
 # Backlinks
-- [Cave Regions](/posts/cave-regions/)
-- [Diving](/posts/diving/)
+- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
+- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
 
 ---
 # Existing Notes
@@ -33,7 +33,7 @@ Italy is listed under [Europe](/posts/europe/) in [Cave Regions](/posts/cave-reg
 * Central
 	* [Frasassi Caves](https://en.wikipedia.org/wiki/Frasassi_Caves)
 		* [Lago dello Svizzero](https://www.facebook.com/XdeepGear/posts/pfbid02m8uruBL6JXc91evAV8zpuHU8NhnTFpTMbLYCTNTJHcJ2Cz7TpLsdRmUr6TDTJ67fl) - [Youtube](https://www.youtube.com/watch?v=JqxOuoHgteo)
-* [Sardinia - Italy](/posts/sardinia-italy/)
+* [Sardinia - Italy]({{< relref "posts/Sardinia - Italy.md" >}})
 	* [Sardinia - Multiple Cave Systems](https://protecsardinia.com/caves-of-sardinia/), [Protec Project Utopia](https://protecsardinia.com/skep/?lang=en)
 * Rome - Pozzo del Merro (Super Deep)
 * [Portofino - U455](https://portofinodivers.com/en/diving/wreck/u-455.html) [Deep Trimix][Other wrecks in area too]
@@ -48,7 +48,7 @@ Italy is listed under [Europe](/posts/europe/) in [Cave Regions](/posts/cave-reg
 	- "Bear Cave of Ponte di Nava" or "CAVE OF THE POGGIO"
 - Castella Grotte (Bari) - Tourist Cave
 	- [Fascebook Post](https://www.facebook.com/groups/caversgroup/posts/10161570804958639/)
-- [Sicily - Italy](/posts/sicily-italy/)
+- [Sicily - Italy]({{< relref "posts/Sicily - Italy.md" >}})
 	- [Pantelleria](https://en.wikipedia.org/wiki/Pantelleria)
 	- Pelagie Islands - [Lampedusa](https://en.wikipedia.org/wiki/Lampedusa), [Linosa](https://en.wikipedia.org/wiki/Linosa)
 # Caves
@@ -58,6 +58,6 @@ Italy is listed under [Europe](/posts/europe/) in [Cave Regions](/posts/cave-reg
 ---
 # References
 [List of Islands of Italy - Wikipedia](https://en.wikipedia.org/wiki/List_of_islands_of_Italy)
-[Deep Diving Academy](https://www.deepdivingacademy.it/wordpress/associazione/) - Diving in Grotta dell'Orso & [Sardinia - Italy](/posts/sardinia-italy/)
+[Deep Diving Academy](https://www.deepdivingacademy.it/wordpress/associazione/) - Diving in Grotta dell'Orso & [Sardinia - Italy]({{< relref "posts/Sardinia - Italy.md" >}})
 - https://www.deepdivingacademy.it/wordpress/sardegna/
 [La Venta](https://www.laventa.it/it/) Cave Explorers

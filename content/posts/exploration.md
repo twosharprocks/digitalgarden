@@ -10,10 +10,10 @@ tags:
   - expeditions
   - exploration
   - trips
-Related: 
+Related:
   - "[[Diving]]"
   - "[[Caving]]"
-  - "[[Expedition Ideas]]"
+  - "[[Trips - Ideas]]"
   - "[[Trips]]"
   - "[[Adventure]]"
 ---

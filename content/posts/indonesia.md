@@ -12,7 +12,7 @@ CaveDB:
 SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/indonesia
 related:
   - "[[Diving]]"
-  - "[[Expedition Ideas]]"
+  - "[[Trips - Ideas]]"
 ---
 # About
 
@@ -27,16 +27,16 @@ related:
 
 
 Status: #seed 
-Tags: #diving [Personal](/posts/personal/) #trips #expeditions
+Tags: #diving [Personal]({{< relref "posts/2025 - Hobbies To Learn.md" >}}) #trips #expeditions
 Map: https://www.google.com/maps/place/
 SmartTraveller: www.smartraveller.gov.au/destinations/
 
 ---
 # About
-[Sulawesi - Indonesia](/posts/sulawesi-indonesia/)
-[Moluccas - Indonesia](/posts/moluccas-indonesia/)
-[West Timor - Indonesia](/posts/west-timor-indonesia/)
-[West Papua - Indonesia](/posts/west-papua-indonesia/)
+[Sulawesi - Indonesia]({{< relref "posts/Sulawesi - Indonesia.md" >}})
+[Moluccas - Indonesia]({{< relref "posts/Moluccas - Indonesia.md" >}})
+[West Timor - Indonesia]({{< relref "posts/West Timor - Indonesia.md" >}})
+[West Papua - Indonesia]({{< relref "posts/West Papua - Indonesia.md" >}})
 
 West Java Caves? 
 - https://www.houseofbelasun.com/discover/rawakalong-goa-lalay

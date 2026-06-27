@@ -57,7 +57,7 @@ General Cave Formation Info - https://geologyscience.com/geology-branches/sedime
 
 - [ASF Awards & Awardees](https://caves.org.au/administration/commissions/awards-and-awardees/)
 	- ASF Awards Policy 2013.pdf
-![Pasted image 20250912174003](/files/Pasted%20image%2020250912174003.png)
+![Pasted Image 20250912174003](/images/Pasted%20image%2020250912174003.png)
 
 # Gear
 Caving Suits

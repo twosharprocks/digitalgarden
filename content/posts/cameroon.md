@@ -12,7 +12,7 @@ CaveDB:
 SmartTraveller: https://www.smartraveller.gov.au/destinations/africa/cameroon
 related:
   - "[[Diving]]"
-  - "[[Expedition Ideas]]"
+  - "[[Trips - Ideas]]"
 ---
 # About
 Mandara Mountains Karst (CLOSE TO NIGERIA - DO NOT TRAVEL)

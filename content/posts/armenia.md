@@ -12,7 +12,7 @@ CaveDB:
 SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/armenia
 related:
   - "[[Diving]]"
-  - "[[Expedition Ideas]]"
+  - "[[Trips - Ideas]]"
 ---
 # About
 Area of Interest: Vayots Dzor, Syunik, Tavush

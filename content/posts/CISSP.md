@@ -14,14 +14,14 @@ Related:
 ---
 [ISC2 - Certified Information Systems Security Professional](https://www.isc2.org/Certifications/CISSP)
 - **Domains** (with personal notes)
-    1. [CISSP - 1 - Security & Risk Management](/posts/cissp-1-security-risk-management/)
-    2. [CISSP - 2 - Asset Security](/posts/cissp-2-asset-security/)
-    3. [CISSP - 3 - Security Architecture & Engineering](/posts/cissp-3-security-architecture-engineering/)
-    4. [CISSP - 4 - Communication & Network Security](/posts/cissp-4-communication-network-security/)
-    5. [CISSP - 5 - Identity & Access Management (IAM)](/posts/cissp-5-identity-access-management-iam/)
-    6. [CISSP - 6 - Security Assessment & Testing](/posts/cissp-6-security-assessment-testing/)
-    7. [CISSP - 7 - Security Operations](/posts/cissp-7-security-operations/)
-    8. [CISSP - 8 - Software Development Security](/posts/cissp-8-software-development-security/)
+    1. [CISSP - 1 - Security & Risk Management]({{< relref "posts/CISSP - 1 - Security & Risk Management.md" >}})
+    2. [CISSP - 2 - Asset Security]({{< relref "posts/CISSP - 2 - Asset Security.md" >}})
+    3. [CISSP - 3 - Security Architecture & Engineering]({{< relref "posts/CISSP - 3 - Security Architecture & Engineering.md" >}})
+    4. [CISSP - 4 - Communication & Network Security]({{< relref "posts/CISSP - 4 - Communication & Network Security.md" >}})
+    5. [CISSP - 5 - Identity & Access Management (IAM)]({{< relref "posts/CISSP - 5 - Identity & Access Management (IAM).md" >}})
+    6. [CISSP - 6 - Security Assessment & Testing]({{< relref "posts/CISSP - 6 - Security Assessment & Testing.md" >}})
+    7. [CISSP - 7 - Security Operations]({{< relref "posts/CISSP - 7 - Security Operations.md" >}})
+    8. [CISSP - 8 - Software Development Security]({{< relref "posts/CISSP - 8 - Software Development Security.md" >}})
 
 - **Requirements**:
     - Pass the CISSP exam.
@@ -49,5 +49,5 @@ Related:
 
 ---
 # References
-[Notes - I Took The World’s HARDEST Cybersecurity Exam (CISSP)](/posts/notes-i-took-the-world-s-hardest-cybersecurity-exam-cissp/)
+[Notes - I Took The World’s HARDEST Cybersecurity Exam (CISSP)]({{< relref "posts/Notes - I Took The World’s HARDEST Cybersecurity Exam (CISSP).md" >}})
 

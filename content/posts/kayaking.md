@@ -20,7 +20,7 @@ General
 - Smooth river, minimal current: 25-35km/day (6hr day)
 
 Potential
-- [Kayaking - Glenelg River Canoe Trail](/posts/kayaking-glenelg-river-canoe-trail/)
+- [Kayaking - Glenelg River Canoe Trail]({{< relref "posts/Kayaking - Glenelg River Canoe Trail.md" >}})
 - [Much better Adventures - Canoe Expedition in the Yukon Wilderness](https://www.muchbetteradventures.com/products/10554-adventures-canoe-expedition-in-the-yukon-wilderness/)
 - [Sea kayaking at Henley](https://www.google.com/search?q=Henley+kayaking&oq=Henley+kayaking&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDU4MzFqMGo5qAIAsAIB&client=ms-android-google&sourceid=chrome-mobile&ie=UTF-8#ebo=0)
 	- [West Lake Paddle Sports](https://westlakespaddlesports.org.au/come-and-try/) 

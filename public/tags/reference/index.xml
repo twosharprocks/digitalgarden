@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reference on Digital Garden</title>
+    <link>/tags/reference/</link>
+    <description>Recent content in Reference on Digital Garden</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/tags/reference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Formatting</title>
+      <link>/posts/markdown-formatting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/markdown-formatting/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;md-formatting&#34;&gt;MD Formatting&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.markdownguide.org/extended-syntax/&#34;&gt;Extended Syntax&lt;/a&gt;&#xA;&lt;a href=&#34;https://github.com/orgs/community/discussions/31570&#34;&gt;Text colours&lt;/a&gt; = &lt;code&gt;&amp;lt;code style=&amp;quot;color : red&amp;quot;&amp;gt;text&amp;lt;/code&amp;gt;&lt;/code&gt;&#xA;Front Matter: &lt;code&gt;---&lt;/code&gt; at start of new file (Switch to Source Mode with &lt;code&gt;Ctrl+Shift+S&lt;/code&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;single asterisks = italics&lt;/em&gt;&#xA;&lt;strong&gt;double asterisks = bold&lt;/strong&gt;&#xA;&lt;em&gt;&lt;strong&gt;Triple asterisks = italics and bold&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;&amp;lt;ins&amp;gt;&lt;/code&gt; &amp;amp; &lt;code&gt;&amp;lt;/ins&amp;gt;&lt;/code&gt; &lt;!-- raw HTML omitted --&gt;will underline&lt;!-- raw HTML omitted --&gt;&#xA;&lt;del&gt;Strikethrough uses 2 tilde characters at each end&lt;/del&gt;&#xA;==Two equal signs highlight text==&#xA;&lt;code&gt;Single angle quote makes the text a script&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

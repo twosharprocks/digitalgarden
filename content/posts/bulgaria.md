@@ -12,7 +12,7 @@ CaveDB:
 SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/bulgaria
 related:
   - "[[Diving]]"
-  - "[[Expedition Ideas]]"
+  - "[[Trips - Ideas]]"
 ---
 # About
 [Rhodope Mountains](https://en.wikipedia.org/wiki/Rhodope_Mountains)

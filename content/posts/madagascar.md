@@ -15,7 +15,7 @@ Related:
   - "[[Diving]]"
   - "[[Africa]]"
 ---
-Madagascar is listed under [Africa](/posts/africa/) in [Cave Regions](/posts/cave-regions/).
+Madagascar is listed under [Africa]({{< relref "posts/africa.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions
 - No local cave regions listed yet.
@@ -24,8 +24,8 @@ Madagascar is listed under [Africa](/posts/africa/) in [Cave Regions](/posts/cav
 - See the linked cave regions above.
 
 # Backlinks
-- [Cave Regions](/posts/cave-regions/)
-- [Diving](/posts/diving/)
+- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
+- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
 
 ---
 # Existing Notes

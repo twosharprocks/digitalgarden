@@ -1,7 +1,7 @@
 ---
 title: Photogrammetry
 created: 2025-08-20
-updated: 2025-11-01
+updated: 2026-06-27
 status: tree
 draft: false
 tags:
@@ -13,7 +13,6 @@ Related:
   - "[[Photogrammetry - Will's Notes]]"
 ---
 # Ideas
-Dedicated PC Photogrammetry Rig to Will 
 - Photogrammetry - Rig Setup 
 *For a dedicated Windows photogrammetry box:*
 - Install NVIDIA Studio Drivers (not Game Ready)

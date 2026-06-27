@@ -23,7 +23,7 @@ Priorities
 - Do cool shit with cool people 
 
 ---
-Comics - Write [Mini Essays](/posts/mini-essays/) about these
+Comics - Write [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) about these
 - [Oatmeal - Plane](https://theoatmeal.com/comics/plane)
 - [Oatmeal - Unhappy](https://theoatmeal.com/comics/unhappy)
 - [SMBC - 11 Lives](https://www.smbc-comics.com/index.php?db=comics&id=2722)
@@ -47,7 +47,7 @@ Four Agreements
 - Always ask **Will I write a book about this?**
 - Live a life where you **haven't** seen the latest TV series
 - Who you are: Cave Explorer, Future Martian, Author, Speaker, Professional Troublemaker
-![markup_1000018545](/files/markup_1000018545.png)
+![Markup 1000018545](/images/markup_1000018545.png)
 
 **Physical**
 - Get up early - Wake by 6am, start before the world does

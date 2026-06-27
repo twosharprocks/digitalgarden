@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.154.5">
+  
+    <title>Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A digital garden maintained by Josh Richards" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Digital Garden">
+<meta property="og:description" content="A digital garden maintained by Josh Richards" />
+<meta property="og:url" content="/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Digital Garden" />
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+  
+  <div class="posts">
+    
+    
+
+    
+    
+      
+    
+    
+
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---levram---linux/">OSCP - Levram - Linux</a>
+        </h2>
+
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="levram">Levram</h1>
+<h1 id="resolution-summary">Resolution summary</h1>
+<ul>
+<li>Nmap to identify services on port 22 and 8000</li>
+<li>Password guessed admin credentials to Gerapy platform</li>
+<li>Used exploit for CVE-2021-243857 to achieve shell</li>
+<li>Upgraded shell by running bash script on target</li>
+<li>Identified vulnerable python setuid configuration</li>
+<li>Used GTFObins to find python command providing privilege escalation to root</li>
+</ul>
+<h2 id="improved-skills">Improved skills</h2>
+<ul>
+<li>Linux Privilege Escalation</li>
+<li>Establishing Full TTYs</li>
+</ul>
+<h2 id="used-tools">Used tools</h2>
+<ul>
+<li>nmap</li>
+<li>python</li>
+<li>linpeas.sh</li>
+<li>gerapy</li>
+<li>GTFObins</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering</h1>
+<p>Scanned all TCP ports:</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---levram---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---ochima---linux/">OSCP - Ochima - Linux</a>
+        </h2>
+
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="ochima">Ochima</h1>
+<p>This one was an exercise in frustration purely because the exploit didn&rsquo;t seem to work on the port I wanted it to (<code>4444</code>) but <em>would</em> work on port <code>80</code>!?</p>
+<p>I tired all sorts of things to get it work, the walkthroughs didn&rsquo;t explain why they used port 80, and the exploit itself indicated it&rsquo;d work on whatever I picked&hellip; but the moment I popped port 80 into the exploit&rsquo;s reverse shell parameters I got an incoming connection. So an important reminder that if a reverse shell isn&rsquo;t working on port <code>4444</code> then try the same thing but with a listener on port <code>80</code> instead</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---ochima---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---pc---linux/">OSCP - PC - Linux</a>
+        </h2>
+
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="pc">PC</h1>
+<p>This was an interesting one, with <code>linpeas</code> showing multiple vulnerabilities and yet the most obvious two didn&rsquo;t work because of missing dependencies and no user credentials.</p>
+<p>Figuring out how <code>rpcpy-exploit</code> worked was interesting, but the real lesson here was understanding how if the SUID binary can be set then you can run Bash in privileged mode with <code>/bin/bash -p</code> and become <code>root</code></p>
+<h1 id="resolution-summary">Resolution summary</h1>
+<ul>
+<li>Ran Nmap to identify ports <code>22</code> &amp; <code>8000</code></li>
+<li>Visited http (<code>8000</code>) &amp; identified <code>ttyd</code></li>
+<li>Created reverse shell and enumerated target</li>
+<li>Ran <code>linpeas.sh</code> and identified multiple vulnerabilities and <code>rpc.sh</code> script</li>
+<li>Identified exploit for <code>rpc.sh</code> and used it to modify <code>/bin/bash</code> set permission</li>
+<li>Used <code>/bin/bash -p</code> to switch to <code>root</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills</h2>
+<ul>
+<li>Identifying vulnerabilities &amp; scripts with <code>linpeas.sh</code></li>
+</ul>
+<h2 id="used-tools">Used tools</h2>
+<ul>
+<li>nmap</li>
+<li>ttyd</li>
+<li>python</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering</h1>
+<p>Scanned all TCP ports:</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---pc---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---pelican---linux/">OSCP - Pelican - Linux</a>
+        </h2>
+
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="pelican">Pelican</h1>
+<p>Pretty happy with this one considering I figured most of it out without really looking at a walkthrough. Identifying Exhibition vs Zookeeper was a little confusing, but as soon as I identified that Exhibition v1.0 was vulenerable to command injection then finding &amp; using an exploit (which was really just adding a reverse shell to a java script field) became fairly straightforward.</p>
+<p>Privilege escalation with <code>gcore</code> was a little tricky, as it&rsquo;s been awhile since I needed to remember how <code>strings</code> worked. But once it became clear I could search for plaintext passwords then it made sense and switching to root was easy.</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---pelican---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---plum---linux/">OSCP - Plum - Linux</a>
+        </h2>
+
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="plum">Plum</h1>
+<p>This one was relatively easy to achieve initial access on, but enumerating the target once I had initial access was frustrating. I&rsquo;d learned on the previous box that I could pull up locally stored mail by visiting <code>/var/mail</code> but hadn&rsquo;t quite realised that it should be part of my standard privesc process.</p>
+<p>Anyway, once I got the nudge from the walkthrough to check mail, it became straight-forward to switch to root and grab the flag, but 100% an important lesson in seeing the <code>var/mail/www-data</code> in the <code>Linpeas</code> output and being sure to read the mail incase there&rsquo;s anything important or useful (like credentials) saved there.</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---plum---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+
+    <div class="pagination">
+  <div class="pagination__buttons">
+    
+      <a href="/page/72/" class="button inline prev">
+        &lt; [<span class="button__text">Newer posts</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/page/74/" class="button inline next">
+        [<span class="button__text">Older posts</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+  </div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

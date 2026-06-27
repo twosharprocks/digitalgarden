@@ -1,19 +1,19 @@
 ---
 title: Work
 created: 2025-11-02
-updated: 2026-06-18
+updated: 2026-06-24
 status: seed
 draft: false
 tags:
   - work
   - personal
   - philosophy
-Related: 
+Related:
   - "[[Personal]]"
   - "[[Philosophy]]"
   - "[[Workbook - Work Backwards]]"
   - "[[Cyber Security]]"
----
+  - "[[Work - Tasks]]"
 ---
 # Jobs
 ***Look for [Remote Cyber Auditing roles](https://www.seek.com.au/cybersecurity-auditor-jobs/remote?pos=1)***

@@ -1,4 +1,4 @@
----
+﻿---
 title: WH40k
 created: 2025-10-31
 updated: 2025-10-31
@@ -25,9 +25,9 @@ Buy
 # Factions
 [Imperium of Man](https://www.wargamer.com/warhammer-40k/imperium-of-man)
 - [Space Marines](https://www.wargamer.com/warhammer-40k/space-marines) 
-	- [WH40K - Armies - Dark Angels](/posts/wh40k-armies-dark-angels/)
+	- [WH40K - Armies - Dark Angels]({{< relref "posts/WH40K - Armies - Dark Angels.md" >}})
 	- Paint: [Primaris (Dreadnought)](https://www.warhammer.com/en-AU/shop/Space-Marines-Primaris-Redemptor-Dreadnought-2020), [Venerable (Dreadnought)](https://www.warhammer.com/en-AU/shop/Space-Marine-Venerable-Dreadnought-2020), [Predator (Tank)](https://www.warhammer.com/en-AU/shop/Space-Marines-Predator-2020), [Landraider (Tank)](https://www.warhammer.com/en-AU/shop/Space-Marine-Land-Raider) [Storm Eagle (Flyer)](https://www.warhammer.com/en-AU/shop/Storm-Eagle), [Storm Raven (Flyer)](https://www.warhammer.com/en-AU/shop/Stormraven-Gunship-2020) [Thunderhawk (Flyer)](https://www.warhammer.com/en-AU/shop/Space-marines-thunderhawk-gunship-2017)
-- [WH40K - Armies - Imperial Knights](/posts/wh40k-armies-imperial-knights/)
+- [WH40K - Armies - Imperial Knights]({{< relref "posts/WH40K - Armies - Imperial Knights.md" >}})
 - [Astra Militarium](https://www.wargamer.com/warhammer-40k/astra-militarum-army-guide)
 	- Paint: [Rogal Dorn (Tank)](https://www.warhammer.com/en-AU/shop/astra-militarum-rogal-dorn-battle-tank-2023), [Leman Russ (Tank)](https://www.warhammer.com/en-AU/shop/astra-militarum-leman-russ-battle-tank-2023), [Hellhammer (Tank)](https://www.warhammer.com/en-AU/shop/astra-militarum-hellhammer-2023), [Baneblade (Tank)](https://www.warhammer.com/en-AU/shop/astra-militarum-baneblade-2023), [Astraeus (Tank)](https://www.warhammer.com/en-AU/shop/Astraeus-Super-heavy-Tank-2017) [Sentinel (Walker)](https://www.warhammer.com/en-AU/shop/astra-militarum-armoured-sentinel-2023), [Valkyrie (Flyer)](https://www.warhammer.com/en-AU/shop/Imperial-Guard-Valkyrie)
 [Chaos](https://www.wargamer.com/warhammer-40k/factions-chaos-guide) 

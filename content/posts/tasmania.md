@@ -16,7 +16,7 @@ Related:
   - "[[Oceania]]"
 ---
 
-Tasmania is listed under [Oceania](/posts/oceania/) in [Cave Regions](/posts/cave-regions/).
+Tasmania is listed under [Oceania]({{< relref "posts/oceania.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions
 - No local cave regions listed yet.
@@ -25,8 +25,8 @@ Tasmania is listed under [Oceania](/posts/oceania/) in [Cave Regions](/posts/cav
 - See the linked cave regions above.
 
 # Backlinks
-- [Cave Regions](/posts/cave-regions/)
-- [Diving](/posts/diving/)
+- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
+- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
 
 ---
 # Existing Notes

@@ -1,8 +1,12 @@
-# PowerShell Script for Windows
+[CmdletBinding()]
+param(
+    [string]$VaultPath = 'G:\My Drive\Vaults\Digital-Garden',
+    [switch]$SkipPush
+)
 
-# Set variables for Obsidian to Hugo copy (use single quotes for literal paths)
-$sourcePath      = 'C:\Users\Josh\My Drive\Vaults\Digital-Garden\1 - Published'
-$destinationPath = 'C:\Users\Josh\Documents\garden\content\posts'
+# PowerShell publishing script for Windows.
+# Override the default vault location when needed:
+#   .\sync.ps1 -VaultPath 'D:\Obsidian\Digital-Garden'
 
 # Set GitHub repo URL (HTTPS form shown; you can use SSH if you prefer)
 $myrepo = 'https://github.com/twosharprocks/digitalgarden.git'
@@ -10,6 +14,12 @@ $myrepo = 'https://github.com/twosharprocks/digitalgarden.git'
 # Set error handling
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
+
+$publishMutex = [Threading.Mutex]::new($false, 'Local\DigitalGardenPublish')
+if (-not $publishMutex.WaitOne(0)) {
+    Write-Host 'Another digital garden publish is already running. Exiting.'
+    exit 0
+}
 
 # Ensure we're running in PowerShell (not cmd)
 if ($PSVersionTable -eq $null) {
@@ -20,6 +30,14 @@ if ($PSVersionTable -eq $null) {
 # Change to the script's directory
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 Set-Location $ScriptDir
+
+$sourcePath      = Join-Path $VaultPath '1 - Published'
+$attachmentsPath = Join-Path $VaultPath '3 - Files'
+$destinationPath = Join-Path $ScriptDir 'content\posts'
+$aboutSource      = Join-Path $sourcePath 'About.md'
+$aboutDestDir     = Join-Path $ScriptDir 'content\about'
+$aboutDestFile    = Join-Path $aboutDestDir '_index.md'
+$staticImagesPath = Join-Path $ScriptDir 'static\images'
 
 # Check for required commands
 $requiredCommands = @('git', 'hugo')
@@ -63,10 +81,7 @@ if (-not (Test-Path -LiteralPath $sourcePath)) {
     exit 1
 }
 
-if (-not (Test-Path -LiteralPath $destinationPath)) {
-    Write-Error "Destination path does not exist: $destinationPath"
-    exit 1
-}
+New-Item -ItemType Directory -Force -Path $destinationPath | Out-Null
 
 # Use Robocopy to mirror the directories
 $robocopyOptions = @('/MIR', '/Z', '/W:5', '/R:3')
@@ -78,10 +93,6 @@ if ($LASTEXITCODE -ge 8) {
 }
 
 # Step 2b: Ensure About page exists (copied from a single Obsidian file if present)
-$aboutSource   = 'C:\Users\Josh\My Drive\Vaults\Digital-Garden\1 - Published\About.md'
-$aboutDestDir  = 'C:\Users\Josh\Documents\garden\content\about'
-$aboutDestFile = Join-Path $aboutDestDir '_index.md'
-
 if (Test-Path -LiteralPath $aboutSource) {
     Write-Host 'Syncing About page...'
     New-Item -ItemType Directory -Force -Path $aboutDestDir | Out-Null
@@ -96,7 +107,8 @@ if (-not (Test-Path -LiteralPath 'images.py')) {
 }
 
 try {
-    & $pythonCommand 'images.py' '--images-only'
+    & $pythonCommand 'images.py' '--images-only' $destinationPath $attachmentsPath $staticImagesPath
+    if ($LASTEXITCODE -ne 0) { throw "images.py exited with code $LASTEXITCODE" }
 } catch {
     Write-Error 'Failed to process image links.'
     exit 1
@@ -106,6 +118,7 @@ try {
 Write-Host 'Converting Obsidian WikiLinks...'
 try {
     & $pythonCommand 'images.py' '--wikilinks-only' $destinationPath 'posts'
+    if ($LASTEXITCODE -ne 0) { throw "images.py exited with code $LASTEXITCODE" }
 } catch {
     Write-Error 'Failed to convert WikiLinks.'
     exit 1
@@ -114,17 +127,24 @@ try {
 # Step 4: Build the Hugo site
 Write-Host 'Building the Hugo site...'
 try {
-    hugo
+    hugo --cleanDestinationDir
+    if ($LASTEXITCODE -ne 0) { throw "Hugo exited with code $LASTEXITCODE" }
 } catch {
     Write-Error 'Hugo build failed.'
     exit 1
 }
 
 # Step 5: Add changes to Git
+if ($SkipPush) {
+    Write-Host 'Local sync and build completed. Commit and push skipped.'
+    exit 0
+}
+
 Write-Host 'Staging changes for Git...'
 $hasChanges = (git status --porcelain) -ne ''
 if (-not $hasChanges) {
-    Write-Host 'No changes to stage.'
+    Write-Host 'No changes detected. Nothing to publish.'
+    exit 0
 } else {
     git add .
 }
@@ -137,12 +157,17 @@ if (-not $hasStagedChanges) {
 } else {
     Write-Host 'Committing changes...'
     git commit -m "$commitMessage"
+    if ($LASTEXITCODE -ne 0) {
+        Write-Error 'Git commit failed.'
+        exit 1
+    }
 }
 
-# Step 7: Push all changes to the main/master branch (adjust as needed)
+# Step 7: Push all changes to the master branch
 Write-Host 'Deploying to GitHub master...'
 try {
     git push origin master
+    if ($LASTEXITCODE -ne 0) { throw "git push exited with code $LASTEXITCODE" }
 } catch {
     Write-Error 'Failed to push to master branch.'
     exit 1
@@ -160,6 +185,7 @@ if ($branchExists) {
 # Perform subtree split
 try {
     git subtree split --prefix public -b hostinger
+    if ($LASTEXITCODE -ne 0) { throw "git subtree split exited with code $LASTEXITCODE" }
 } catch {
     Write-Error 'Subtree split failed.'
     exit 1
@@ -168,6 +194,7 @@ try {
 # Push to hostinger branch with force
 try {
     git push origin hostinger:hostinger --force
+    if ($LASTEXITCODE -ne 0) { throw "git push exited with code $LASTEXITCODE" }
 } catch {
     Write-Error 'Failed to push to hostinger branch.'
     git branch -D hostinger

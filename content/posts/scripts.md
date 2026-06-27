@@ -35,7 +35,7 @@ Misc
 - pdftoterminal.py
 - Script - redact.py
 - Script - unredact.py
-- [Script - Python - search-replace](/posts/script-python-search-replace/)
+- [Script - Python - search-replace]({{< relref "posts/Script - Python - search-replace.md" >}})
 
 
 

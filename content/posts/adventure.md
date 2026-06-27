@@ -8,7 +8,7 @@ tags:
 Related:
   - "[[Bucket List]]"
   - "[[Exploration]]"
-  - "[[Expedition Ideas]]"
+  - "[[Trips - Ideas]]"
   - "[[Expedition Calendar]]"
   - "[[Kayaking]]"
   - "[[Long Solo]]"

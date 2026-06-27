@@ -15,7 +15,7 @@ Related:
   - "[[Diving]]"
   - "[[Middle East]]"
 ---
-Lebanon is listed under Middle East in [Cave Regions](/posts/cave-regions/).
+Lebanon is listed under Middle East in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions
 - No local cave regions listed yet.
@@ -24,8 +24,8 @@ Lebanon is listed under Middle East in [Cave Regions](/posts/cave-regions/).
 - See the linked cave regions above.
 
 # Backlinks
-- [Cave Regions](/posts/cave-regions/)
-- [Diving](/posts/diving/)
+- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
+- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
 
 ---
 # Existing Notes

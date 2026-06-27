@@ -15,7 +15,7 @@ Related:
   - "[[Diving]]"
   - "[[North America]]"
 ---
-Texas is listed under [North America](/posts/north-america/) in [Cave Regions](/posts/cave-regions/).
+Texas is listed under [North America]({{< relref "posts/North America.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions
 - No local cave regions listed yet.
@@ -24,8 +24,8 @@ Texas is listed under [North America](/posts/north-america/) in [Cave Regions](/
 - See the linked cave regions above.
 
 # Backlinks
-- [Cave Regions](/posts/cave-regions/)
-- [Diving](/posts/diving/)
+- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
+- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
 
 ---
 # Existing Notes
