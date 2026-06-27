@@ -12,7 +12,7 @@ Related:
 ---
 What's the holdup on writing the article about your Crazy Wombat Tunnel discovery in Pines? You announced it all 2.5 months ago now, and yet you've never dedicated yourself to actually sitting down and writing something very important. Is this just procrastination, or is there something else here?
 
-It's easy to generate a list of excuses for not having done it yet - you've been sick, work has been full-on, you've been very focused on [CISSP]({{< relref "posts/CISSP - 1 - Security & Risk Management.md" >}}) study, you've been dealing with the stress around Chloe wanting a home loan... is that it? It doesn't feel like you've had many weekends to yourself, and the last weekend you had was dedicated to developing your Expedition plans (which you made excellent progress on). 
+It's easy to generate a list of excuses for not having done it yet - you've been sick, work has been full-on, you've been very focused on [CISSP]({{< relref "posts/CISSP.md" >}}) study, you've been dealing with the stress around Chloe wanting a home loan... is that it? It doesn't feel like you've had many weekends to yourself, and the last weekend you had was dedicated to developing your Expedition plans (which you made excellent progress on). 
 
 This last week you've been recovering from illness, but you've also been making the most of the afternoons in order to complete the CISSP study that's required. You're focusing that onto the weekday afternoons though, so while you'll continue to study CISSP for the next couple of weeks until the June 30 deadline, that's not a barrier to you writing the article about the Crazy Wombat Tunnel. 
 

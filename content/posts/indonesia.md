@@ -27,7 +27,7 @@ related:
 
 
 Status: #seed 
-Tags: #diving [Personal]({{< relref "posts/2025 - Hobbies To Learn.md" >}}) #trips #expeditions
+Tags: #diving Personal #trips #expeditions
 Map: https://www.google.com/maps/place/
 SmartTraveller: www.smartraveller.gov.au/destinations/
 

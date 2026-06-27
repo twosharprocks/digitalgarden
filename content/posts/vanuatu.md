@@ -25,7 +25,7 @@ Vanuatu is listed under [Oceania]({{< relref "posts/oceania.md" >}}) in [Cave Re
 
 # Backlinks
 - [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
-- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
+- [Diving]({{< relref "posts/diving.md" >}})
 
 ---
 # Existing Notes

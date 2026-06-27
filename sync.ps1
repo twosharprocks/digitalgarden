@@ -37,6 +37,7 @@ $destinationPath = Join-Path $ScriptDir 'content\posts'
 $aboutSource      = Join-Path $sourcePath 'About.md'
 $aboutDestDir     = Join-Path $ScriptDir 'content\about'
 $aboutDestFile    = Join-Path $aboutDestDir '_index.md'
+$homeDestFile     = Join-Path $ScriptDir 'content\_index.md'
 $staticImagesPath = Join-Path $ScriptDir 'static\images'
 
 # Check for required commands
@@ -92,13 +93,6 @@ if ($LASTEXITCODE -ge 8) {
     exit 1
 }
 
-# Step 2b: Ensure About page exists (copied from a single Obsidian file if present)
-if (Test-Path -LiteralPath $aboutSource) {
-    Write-Host 'Syncing About page...'
-    New-Item -ItemType Directory -Force -Path $aboutDestDir | Out-Null
-    Copy-Item -LiteralPath $aboutSource -Destination $aboutDestFile -Force
-}
-
 # Step 3: Process Markdown files with Python script to handle image links
 Write-Host 'Processing image links in Markdown files...'
 if (-not (Test-Path -LiteralPath 'images.py')) {
@@ -122,6 +116,15 @@ try {
 } catch {
     Write-Error 'Failed to convert WikiLinks.'
     exit 1
+}
+
+# Step 3C: Publish the processed About note at /about/ and at the site root.
+$processedAbout = Join-Path $destinationPath 'About.md'
+if (Test-Path -LiteralPath $processedAbout) {
+    Write-Host 'Publishing processed About page at / and /about/...'
+    New-Item -ItemType Directory -Force -Path $aboutDestDir | Out-Null
+    Copy-Item -LiteralPath $processedAbout -Destination $aboutDestFile -Force
+    Copy-Item -LiteralPath $processedAbout -Destination $homeDestFile -Force
 }
 
 # Step 4: Build the Hugo site

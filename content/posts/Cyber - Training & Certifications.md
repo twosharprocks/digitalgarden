@@ -23,13 +23,13 @@ Upcoming
 Completed
 - Security+ - CompTIA
 - ![AZ 500 Certification](/images/AZ-500%20Certification.jpg) - Microsoft
-- [CISSP]({{< relref "posts/CISSP - 1 - Security & Risk Management.md" >}}) - ISC2
+- [CISSP]({{< relref "posts/CISSP.md" >}}) - ISC2
 - CISA - ISACA
 
 Potential
 - SecOT+ - CompTIA
 - [CRISC]({{< relref "posts/crisc.md" >}}) - ISACA
-- [OSCP]({{< relref "posts/Cheat Sheet - OSCP Linux.md" >}}) - Offensive Security
+- [OSCP]({{< relref "posts/oscp.md" >}}) - Offensive Security
 - Crowdstrike
 	- Certified Falcon Administrator (CCFA) [Exam Guide (PDF)](https://www.crowdstrike.com/wp-content/uploads/2024/10/ccfa-certification-guide.pdf)
 	- Certified Falcon Responder (CCFR) [Exam Guide (PDF)](https://assets.crowdstrike.com/is/content/crowdstrikeinc/CCFR_CertificationGuidepdf)

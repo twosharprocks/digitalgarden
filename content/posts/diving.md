@@ -24,9 +24,9 @@ Dive sites, cave regions, exploration notes, gear, trips, photogrammetry, and ca
 - [Diving - Gear]({{< relref "posts/Diving - Gear.md" >}}) - gear notes and equipment ideas.
 - [Diving - Ideas]({{< relref "posts/Diving - Ideas.md" >}}) - project ideas, future work, and loose possibilities.
 - [Diving - Reading]({{< relref "posts/Diving - Reading.md" >}}) - books, articles, and resources to read.
-- [Photogrammetry]({{< relref "posts/360 Video to 3D Model.md" >}}) - mapping, survey, and 3D reconstruction notes.
+- [Photogrammetry]({{< relref "posts/photogrammetry.md" >}}) - mapping, survey, and 3D reconstruction notes.
 - [CaveDB]({{< relref "posts/cavedb.md" >}}) - cave database and data-management notes.
-- [Exploration]({{< relref "posts/Article - Exploring Japan’s Hidden Rivers.md" >}}) - broader exploration notes and expedition thinking.
-- [Caving]({{< relref "posts/5F15 - Eyrie Cave.md" >}}) - dry cave and caving-adjacent notes.
+- [Exploration]({{< relref "posts/exploration.md" >}}) - broader exploration notes and expedition thinking.
+- [Caving]({{< relref "posts/caving.md" >}}) - dry cave and caving-adjacent notes.
 
 

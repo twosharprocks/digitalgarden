@@ -26,7 +26,7 @@ Use [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) 
 
 Investigate [Dive Saga Youtube channel](https://www.youtube.com/@DiveSAGA)
 - [ ] Develop #podcast  
-- [ ] [Writing]({{< relref "posts/Article - Making Sense with MNemo.md" >}}) - Create/update [Wikipedia](https://en.wikipedia.org/w/index.php?title=Special:Homepage&namespace=-1&source=personaltoolslink)pages for caves
+- [ ] [Writing]({{< relref "posts/writing.md" >}}) - Create/update [Wikipedia](https://en.wikipedia.org/w/index.php?title=Special:Homepage&namespace=-1&source=personaltoolslink)pages for caves
 - [ ] Create Obsidian Pages from CaveDB 
 
 - [LiDAR - Raven Handheld Unit](https://store.3dmakerpro.com/products/raven) 

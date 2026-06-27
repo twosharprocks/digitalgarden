@@ -30,7 +30,7 @@ Near Bangladesh)
 - 
 ---
 # References
-[Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
+[Diving]({{< relref "posts/diving.md" >}})
 CAKES (Cave and Karst Exploration & Science Foundation) https://cakes.org.in/
 - [CAKES Expeditions](https://cakes.org.in/expeditions/)
 - [Insta - CAKES Foundation announcement](https://www.instagram.com/p/DQGk6FGgfMU/) 

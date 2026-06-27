@@ -20,7 +20,7 @@ Where do I want to be in 2031?
 - Number of Books written? 
 - Relationship to space exploration? 
 - Speaking? TV? 
-- [Bucket List]({{< relref "posts/Bucket List.md" >}}), [Personal]({{< relref "posts/2025 - Hobbies To Learn.md" >}})
+- [Bucket List]({{< relref "posts/Bucket List.md" >}}), Personal
 
 
 ---

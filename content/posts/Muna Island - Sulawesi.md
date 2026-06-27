@@ -77,4 +77,4 @@ Hotel Alia - Muna Island
 # Backlinks
 - [Sulawesi - Indonesia]({{< relref "posts/Sulawesi - Indonesia.md" >}})
 - [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
-- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
+- [Diving]({{< relref "posts/diving.md" >}})

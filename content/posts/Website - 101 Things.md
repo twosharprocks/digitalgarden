@@ -223,4 +223,4 @@ _101 – Continue Your Gene Pool (_Does ANYONE think this is a good idea?__)_|
 
 ---
 # References
-[Personal]({{< relref "posts/2025 - Hobbies To Learn.md" >}})
+Personal

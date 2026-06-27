@@ -25,7 +25,7 @@ Slovenia is listed under [Europe]({{< relref "posts/europe.md" >}}) in [Cave Reg
 
 # Backlinks
 - [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
-- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
+- [Diving]({{< relref "posts/diving.md" >}})
 
 ---
 # Existing Notes

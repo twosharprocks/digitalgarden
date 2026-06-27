@@ -19,7 +19,7 @@ Related:
   - "[[OT Cyber Security]]"
 ---
 
-Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{< relref "posts/Cheat Sheet - OSCP Linux.md" >}})/[CISSP]({{< relref "posts/CISSP - 1 - Security & Risk Management.md" >}})/CISA notes, and work-related security references.
+Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{< relref "posts/oscp.md" >}})/[CISSP]({{< relref "posts/CISSP.md" >}})/CISA notes, and work-related security references.
 
 # General
 - [Cyber Security - Resources]({{< relref "posts/Cyber Security - Resources.md" >}})
@@ -56,7 +56,7 @@ Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{<
 - CISA - 4B - Business Resilience
 - CISA - 5A - Info Asset Security and Control
 - CISA - 5B - Security Event Management
-## [CISSP]({{< relref "posts/CISSP - 1 - Security & Risk Management.md" >}})
+## [CISSP]({{< relref "posts/CISSP.md" >}})
 - [CISSP - 1 - Security & Risk Management]({{< relref "posts/CISSP - 1 - Security & Risk Management.md" >}})
 - [CISSP - 2 - Asset Security]({{< relref "posts/CISSP - 2 - Asset Security.md" >}})
 - [CISSP - 3 - Security Architecture & Engineering]({{< relref "posts/CISSP - 3 - Security Architecture & Engineering.md" >}})
@@ -69,9 +69,9 @@ Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{<
 - [CISSP - Misc Notes]({{< relref "posts/CISSP - Misc Notes.md" >}})
 - [Notes - I Took The World’s HARDEST Cybersecurity Exam (CISSP)]({{< relref "posts/Notes - I Took The World’s HARDEST Cybersecurity Exam (CISSP).md" >}})
 
-## [OSCP]({{< relref "posts/Cheat Sheet - OSCP Linux.md" >}})
+## [OSCP]({{< relref "posts/oscp.md" >}})
 - General
-	- [OSCP]({{< relref "posts/Cheat Sheet - OSCP Linux.md" >}}) [Exam Guide](https://help.offsec.com/hc/en-us/articles/360040165632-OSCP-Exam-Guide-Newly-Updated)
+	- [OSCP]({{< relref "posts/oscp.md" >}}) [Exam Guide](https://help.offsec.com/hc/en-us/articles/360040165632-OSCP-Exam-Guide-Newly-Updated)
 	- [OSCP Exam Prep]({{< relref "posts/OSCP Exam Prep.md" >}})
 	- [OSCP - Cheat Sheet - Core]({{< relref "posts/OSCP - Cheat Sheet - Core.md" >}})
 	- [OSCP - Cheat Sheet - Windows]({{< relref "posts/OSCP - Cheat Sheet - Windows.md" >}})

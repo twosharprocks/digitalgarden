@@ -37,9 +37,9 @@ Le-Jima Island
 
 # Parent Region
 - [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
-- [Japan]({{< relref "posts/Article - Exploring Japan’s Hidden Rivers.md" >}})
+- [Japan]({{< relref "posts/japan.md" >}})
 
 # Backlinks
-- [Japan]({{< relref "posts/Article - Exploring Japan’s Hidden Rivers.md" >}})
+- [Japan]({{< relref "posts/japan.md" >}})
 - [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
-- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
+- [Diving]({{< relref "posts/diving.md" >}})

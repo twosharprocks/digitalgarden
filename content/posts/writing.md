@@ -82,7 +82,7 @@ Writing, essays, articles, book projects, older website posts, and notes about m
 - [Mini Essay - Your Cave Diving Future]({{< relref "posts/Mini Essay - Your Cave Diving Future.md" >}})
 - [Mini Essay - Your evil secret plan]({{< relref "posts/Mini Essay - Your evil secret plan.md" >}})
 
-- [Philosophy]({{< relref "posts/ai.md" >}})
+- [Philosophy]({{< relref "posts/philosophy.md" >}})
 - [Speaking]({{< relref "posts/speaking.md" >}})
 
 # Old Website & Patreon

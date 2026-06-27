@@ -25,7 +25,7 @@ Jamaica is listed under Central America in [Cave Regions]({{< relref "posts/Cave
 
 # Backlinks
 - [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
-- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
+- [Diving]({{< relref "posts/diving.md" >}})
 
 ---
 # Existing Notes

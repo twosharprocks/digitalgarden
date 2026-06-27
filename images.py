@@ -149,10 +149,15 @@ def build_page_index(content_dir: Path):
                 for a in re.findall(r"'([^']+)'|\"([^\"]+)\"|([^\s,\[\]]+)", raw):
                     ali = next((x for x in a if x), None)
                     if ali: keys.add(norm_key(ali))
-            for a in re.findall(r"(?mi)^\s*-\s*(.+?)\s*$", fm):
-                val = a.strip().strip('"').strip("'")
-                if val:
-                    keys.add(norm_key(val))
+            block_aliases = re.search(
+                r"(?ms)^\s*aliases\s*:\s*\n((?:\s*-\s*.+\n?)*)",
+                fm,
+            )
+            if block_aliases:
+                for a in re.findall(r"(?m)^\s*-\s*(.+?)\s*$", block_aliases.group(1)):
+                    val = a.strip().strip('"').strip("'")
+                    if val:
+                        keys.add(norm_key(val))
 
         for k in keys:
             index.setdefault(k, rel)

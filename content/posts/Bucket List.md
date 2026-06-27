@@ -36,7 +36,7 @@ Write [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) about each entry here
 - #27 Erupting Volcano - Nyiragongo (Congo), Kilueau (Hawaii), [Sicily](https://www.muchbetteradventures.com/products/10776-adventures-hike-kayak-aeolian-islands-sicily/), [Lombok](https://www.muchbetteradventures.com/products/10637-adventures-volcano-trekking-bali-lombok/), [Vanuatu](https://www.tripadvisor.com.au/Attraction_Review-g317047-d311942-Reviews-Mount_Yasur-Tanna_Island.html)
 - #31 Weightlessness - https://www.gozerog.com/public-flights
 - *#36 Visit Every Country/Continent - South America, Antarctica* - ***COMPLETE***
-- #52 Finish Greatest Books - [Reading]({{< relref "posts/Diving - Reading.md" >}})
+- #52 Finish Greatest Books - [Reading]({{< relref "posts/reading.md" >}})
 - #62 Mile High Club 
 - #67 Visit Colosseum, Christ the Redeemer, Angkor Wat, Great Wall, Taj Mahal
 - #73 Stand on International Date Line - Tuvalu

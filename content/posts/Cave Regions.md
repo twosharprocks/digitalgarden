@@ -53,7 +53,7 @@ Cave regions are organised from broad geography down to country pages, local cav
 ## Asia
 - [Bhutan]({{< relref "posts/bhutan.md" >}})
 - [China]({{< relref "posts/china.md" >}})
-- [Japan]({{< relref "posts/Article - Exploring Japan’s Hidden Rivers.md" >}})
+- [Japan]({{< relref "posts/japan.md" >}})
   - [Akiyoshidai]({{< relref "posts/akiyoshidai.md" >}})
   - [Minamidaito (South Daito) - Okinawa]({{< relref "posts/Minamidaito (South Daito) - Okinawa.md" >}})
 - [Kazakhstan]({{< relref "posts/kazakhstan.md" >}})

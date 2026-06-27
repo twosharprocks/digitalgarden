@@ -35,4 +35,4 @@ Make writing for publication a priority for each day, even if it's just a mini e
 
 ---
 # References
-[Writing]({{< relref "posts/Article - Making Sense with MNemo.md" >}})
+[Writing]({{< relref "posts/writing.md" >}})

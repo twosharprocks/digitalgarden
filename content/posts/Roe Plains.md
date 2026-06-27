@@ -46,4 +46,4 @@ Advanced Cave
 # Backlinks
 - [Western Australia]({{< relref "posts/Western Australia.md" >}})
 - [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
-- [Diving]({{< relref "posts/360 Video to 3D Model.md" >}})
+- [Diving]({{< relref "posts/diving.md" >}})

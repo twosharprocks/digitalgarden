@@ -8,7 +8,7 @@ tags:
   - cyber-security
 Related: "[[Cybersecurity]]"
 ---
-Tags: [OSCP]({{< relref "posts/Cheat Sheet - OSCP Linux.md" >}})
+Tags: [OSCP]({{< relref "posts/oscp.md" >}})
 # TJ Null - 6 
 - [x] Access - Intermediate
 - [ ] Hokkaido - Intermediate

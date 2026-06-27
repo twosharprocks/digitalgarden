@@ -10,7 +10,7 @@ tags:
 Related:
 ---
 Related:
-Tags: [OSCP]({{< relref "posts/Cheat Sheet - OSCP Linux.md" >}})
+Tags: [OSCP]({{< relref "posts/oscp.md" >}})
 
 ---
 ## Quick Reference
