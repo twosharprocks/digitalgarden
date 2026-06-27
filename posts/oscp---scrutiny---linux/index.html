@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>OSCP - Scrutiny - Linux :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Scrutiny This whole box felt like a whole lot of enumeration - digging through files to find SSH keys and cleartext passwords. Probably the biggest lesson I learned out of it however was how to setup and run python libraries in a virtual environment!
+The exploit required urllib3 faker to run, and python3 kept throwing the externally managed error that drove me crazy awhile back when I was trying to install the bzz library - I must have found another way around that, but this time around I actually dug into what this error was all about. Turns out python likes to run it&rsquo;s external libraries in a self-contained virtual environment, and while there is an override pretty much everyone on stackoverflow was screaming that it&rsquo;d break the system.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/oscp---scrutiny---linux/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="OSCP - Scrutiny - Linux">
+<meta property="og:description" content="Scrutiny This whole box felt like a whole lot of enumeration - digging through files to find SSH keys and cleartext passwords. Probably the biggest lesson I learned out of it however was how to setup and run python libraries in a virtual environment!
+The exploit required urllib3 faker to run, and python3 kept throwing the externally managed error that drove me crazy awhile back when I was trying to install the bzz library - I must have found another way around that, but this time around I actually dug into what this error was all about. Turns out python likes to run it&rsquo;s external libraries in a self-contained virtual environment, and while there is an override pretty much everyone on stackoverflow was screaming that it&rsquo;d break the system.
+" />
+<meta property="og:url" content="/posts/oscp---scrutiny---linux/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/oscp---scrutiny---linux/">OSCP - Scrutiny - Linux</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="scrutiny">Scrutiny<a href="#scrutiny" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>This whole box felt like a whole lot of enumeration - digging through files to find SSH keys and cleartext passwords. Probably the biggest lesson I learned out of it however was how to setup and run python libraries in a virtual environment!</p>
+<p>The exploit required <code>urllib3 faker</code> to run, and <code>python3</code> kept throwing the <code>externally managed</code> error that drove me crazy awhile back when I was trying to install the <code>bzz</code> library - I must have found another way around that, but this time around I actually dug into what this error was all about. Turns out <code>python</code> likes to run it&rsquo;s external libraries in a self-contained virtual environment, and while there is an override pretty much everyone on stackoverflow was screaming that it&rsquo;d break the system.</p>
+<p>So with that in mind, I managed to follow some straight forward instructions on starting the virtual environment: move to the environment folder, then <code>python -m venv my-venv</code> and <code>source bin/activate</code>. Installing libraries and running python is 10x easier now that I have that setup, and the exploit worked perfectly once it was in there.</p>
+<p>Couple of really handy tricks for enumeration in this box too, which I definitely gleaned from the Youtube walkthrough.</p>
+<ul>
+<li>Keep an eye out for SSH keys being accidentally committed to Git (and use <code>ssh2john</code> before you try to crack them)</li>
+<li>Running <code>find / -name local.txt -type f 2&gt;/dev/null</code> to find the local flag is genius &amp; definitely being saved to my desktop quick reference</li>
+<li>Checking everyone&rsquo;s mail in <code>/var/mail</code> was interesting too</li>
+<li>Make sure you&rsquo;re checking every folder with <code>ls -lah</code> so you catch those sneaky hidden files</li>
+</ul>
+<p>Interesting box all round, but also an important lesson in stepping away for the night when you feel yourself flagging. You&rsquo;d done three boxes yesterday, and with this one you were starting a 4th after dinner and a few drinks. It&rsquo;s the same as playing Doom Eternal - you can feel yourself getting tired as you get stuck on a specific checkpoint, so rather than pushing on and getting worse what you really need is to do is step away and give your eyes/hands/brain a solid rest by sleeping.</p>
+<h1 id="resolution-summary">Resolution summary<a href="#resolution-summary" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Ran Nmap to identify ports <code>22</code>, <code>25</code> &amp; <code>80</code></li>
+<li>Visited http (<code>80</code>) &amp; identified <code>Onlyrands.com</code> website</li>
+<li>Identified <code>teams.onlyrands.com</code> and modified <code>/etc/hosts</code> to access</li>
+<li>Identified <code>TeamCity v2023.05.4</code> and exploit to create new user</li>
+<li>Ran exploit and gained access to admin panel</li>
+<li>Enumerated user files and found private SSH key for <code>marcot</code></li>
+<li>Cracked SSH key with <code>ssh2john</code> and <code>john</code></li>
+<li>Logged into <code>marcot</code> with cracked password and</li>
+<li>Enumerated <code>marcot</code> mail (<code>/var/mail/marcot</code>), found cleartext credentials for <code>matthewa</code></li>
+<li>Switched user to <code>matthewa</code> and viewed home directory with <code>ls -lah</code></li>
+<li>Found hidden file in <code>matthewa</code> home directory, provided cleatext credential for <code>briand</code></li>
+<li>Switched user to <code>briand</code> and found user had <code>sudo</code> privileges to run <code>systemctl</code> on  <code>teamcity-server.service</code> as <code>root</code> and without a password</li>
+<li>Used systemctl to start <code>teamcity-server.service</code> and ran <code>!sh</code> to establish shell as <code>root</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills<a href="#improved-skills" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>File and mail enumeration</li>
+<li>Cracking SSH keys with <code>ssh2john</code></li>
+</ul>
+<h2 id="used-tools">Used tools<a href="#used-tools" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Nmap</li>
+<li>john</li>
+<li>ssh2john</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering<a href="#information-gathering" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -sC -sV -oN scrutiny.nmap 192.168.215.91 -v
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">PORT    STATE  SERVICE VERSION
+</span></span><span class="line"><span class="cl">22/tcp  open   ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">3072</span> 62:36:1a:5c:d3:e3:7b:e1:70:f8:a3:b3:1c:4c:24:38 <span class="o">(</span>RSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> ee:25:fc:23:66:05:c0:c1:ec:47:c6:bb:00:c7:4f:53 <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> 83:5c:51:ac:32:e5:3a:21:7c:f6:c2:cd:93:68:58:d8 <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl">25/tcp  open   smtp    Postfix smtpd
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_smtp-commands: onlyrands.com, PIPELINING, SIZE 10240000, VRFY, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN, SMTPUTF8, CHUNKING
+</span></span><span class="line"><span class="cl">80/tcp  open   http    nginx 1.18.0 <span class="o">(</span>Ubuntu<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: nginx/1.18.0 <span class="o">(</span>Ubuntu<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: OnlyRands
+</span></span><span class="line"><span class="cl"><span class="p">|</span> http-methods: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  Supported Methods: GET HEAD
+</span></span><span class="line"><span class="cl">443/tcp closed https
+</span></span><span class="line"><span class="cl">Service Info: Host:  onlyrands.com<span class="p">;</span> OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
+</span></span></code></pre></div><hr>
+<h1 id="enumeration">Enumeration<a href="#enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="port-22---ssh-openssh-79p1">Port 22 - SSH (OpenSSH 7.9p1)<a href="#port-22---ssh-openssh-79p1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="-port-25---smtp-postfix">## Port 25 - SMTP (Postfix)<a href="#-port-25---smtp-postfix" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Created a list of potential email addresses (domain @onlyrands.com) in <code>usernames.txt</code> then ran <code>smtp-user-enum -U usernames.txt -t 192.168.215.91</code> to enumerate common SMTP usernames
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image1.png" alt="OSCP Scrutiny Linux Image1"></li>
+</ul>
+<h2 id="port-80---http-nginx-118">Port 80 - HTTP (nginx 1.18)<a href="#port-80---http-nginx-118" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Navigated to <code>http://192.168.215.91:80</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image2.png" alt="OSCP Scrutiny Linux Image2"></li>
+<li>Navigated to <code>http://192.168.215.91/teams.onlyrands.com</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image3.png" alt="OSCP Scrutiny Linux Image3"></li>
+<li>Edited <code>/etc/hosts</code> file so <code>192.168.215.91  teams.onlyrands.com</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image4.png" alt="OSCP Scrutiny Linux Image4"></li>
+<li>Navigated to <code>teams.onlyrands.com</code> and identified <code>TeamCity v2023.05.4</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image5.png" alt="OSCP Scrutiny Linux Image5"></li>
+<li>Attempted password guessing with <code>admin:admin</code> &amp; <code>admin:password</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image6.png" alt="OSCP Scrutiny Linux Image6"></li>
+</ul>
+<hr>
+<h1 id="exploitation">Exploitation<a href="#exploitation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Identified exploit <code>CVE-2024-27198-RCE.py</code> from [https://github.com/W01fh4cker/CVE-2024-27198-RCE/tree/main] - copied to local machine and ran <code>python3 /media/sf_Kali-Shared/Boxes/PG/Linux/Scrutiny/CVE-2024-27198-RCE.py -t http://teams.onlyrands.com</code> - Tested multiple commands without success
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image7.png" alt="OSCP Scrutiny Linux Image7"></li>
+<li>Logged into <code>teams.onlyrands.com</code> with credentials <code>cmnsjvgh:yhMNlvZ5b8</code> produced by exploit
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image8.png" alt="OSCP Scrutiny Linux Image8"></li>
+<li>Checked Freelancer builds and identified <code>id_rsa</code> removed from <code>Marco Tillman</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image9.png" alt="OSCP Scrutiny Linux Image9"></li>
+<li>Identified and copied OPENSSH Private Key for user <code>marcot</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image10.png" alt="OSCP Scrutiny Linux Image10"></li>
+<li>Used <code>ssh2john</code> to create <code>id_rsa.hash</code> of SSH private key then cracked with <code>john</code> to find credentials <code>marcot:cheer</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image11.png" alt="OSCP Scrutiny Linux Image11"></li>
+<li>Ran <code>ssh -i id_rsa marcot@192.168.117.91</code> and logged in with credentials <code>marcot:cheer</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image12.png" alt="OSCP Scrutiny Linux Image12"></li>
+</ul>
+<hr>
+<h1 id="lateral-movement-to-user">Lateral Movement to user<a href="#lateral-movement-to-user" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="local-enumeration">Local Enumeration<a href="#local-enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Ran <code>cat /etc/passwd</code> to identify users
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image13.png" alt="OSCP Scrutiny Linux Image13"></li>
+<li>Navigated to <code>/home/freelancers</code> and identified 5th user <code>williamw</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image14.png" alt="OSCP Scrutiny Linux Image14"></li>
+<li>Attempted access to other <code>/freelancers</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image15.png" alt="OSCP Scrutiny Linux Image15"></li>
+<li>Ran <code>linpeas.sh</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image16.png" alt="OSCP Scrutiny Linux Image16"></li>
+<li>Identified vulnerable to CVE-2021-2560
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image17.png" alt="OSCP Scrutiny Linux Image17"></li>
+<li>Identified Mail
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image18.png" alt="OSCP Scrutiny Linux Image18"></li>
+<li>Ran <code>find / -name local.txt -type f 2&gt;/dev/null</code> to find &amp; then printed <code>local.txt</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image19.png" alt="OSCP Scrutiny Linux Image19"></li>
+<li>Ran <code>cat /var/mail/marcot</code> and identified credentials <code>matthewa:IdealismEngineAshen476</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image20.png" alt="OSCP Scrutiny Linux Image20"></li>
+</ul>
+<h2 id="lateral-movement-vector">Lateral Movement vector<a href="#lateral-movement-vector" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Used credentials <code>matthewa:IdealismEngineAshen476</code> to login via SSH
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image21.png" alt="OSCP Scrutiny Linux Image21"></li>
+</ul>
+<hr>
+<h1 id="privilege-escalation">Privilege Escalation<a href="#privilege-escalation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="local-enumeration-1">Local Enumeration<a href="#local-enumeration-1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Navigated to <code>~/</code> and ran <code>ls -lah</code> to view all file permissions
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image22.png" alt="OSCP Scrutiny Linux Image22"></li>
+<li>Identified hidden file <code>.~</code> and ran <code>cat .~</code> to view, identifying credentials <code>briand:RefriedScabbedWasting502</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image23.png" alt="OSCP Scrutiny Linux Image23"></li>
+</ul>
+<h2 id="privilege-escalation-vector">Privilege Escalation vector<a href="#privilege-escalation-vector" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Ran <code>su briand</code> with password <code>RefriedScabbedWasting502</code> to switch to user <code>briand</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image24.png" alt="OSCP Scrutiny Linux Image24"></li>
+<li>Ran <code>sudo -l</code> and identified no password required to run <code>/usr/bin/systemctl status teamcity-server.service</code> as <code>root</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image25.png" alt="OSCP Scrutiny Linux Image25"></li>
+<li>Identified <a href="https://gtfobins.github.io/gtfobins/systemctl/">GTFObins</a> for <code>systemctl</code> run as <code>sudo</code>. Ran <code>sudo /usr/bin/systemctl status teamcity-server.service</code> to start <code>teamcity-server.service</code> then <code>!sh</code> to establish shell as <code>root</code>
+<img src="/images/OSCP%20-%20Scrutiny%20-%20Linux%20-%20image26.png" alt="OSCP Scrutiny Linux Image26"></li>
+<li>Ran <code>cat /root/proof.txt</code> to print <code>96a5b0fce4ac011046cd0406ec495da5</code></li>
+</ul>
+<hr>
+<h1 id="trophy--loot">Trophy &amp; Loot<a href="#trophy--loot" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><code>local.txt</code> = <code>ecfbfa664ee495c58f9b9b35c0d08f7d</code>
+<code>root.txt</code> = <code>96a5b0fce4ac011046cd0406ec495da5</code></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/oscp---rubydome---linux/" class="button inline prev">
+        &lt; [<span class="button__text">OSCP - RubyDome - Linux</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/oscp---squid---windows/" class="button inline next">
+         [<span class="button__text">OSCP - Squid - Windows</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

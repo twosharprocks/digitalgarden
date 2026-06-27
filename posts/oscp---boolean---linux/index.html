@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>OSCP - Boolean - Linux :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Boolean This was an absolute slog, and even the walkthroughs didn&rsquo;t help at the end. It was good to identify that BurpSuite would be used early on, but picking up and changing the &ldquo;confirmed&rdquo; element was tricky. Having the PHP reverse shell not work was incredibly frustrating too, but it was obvious something else would be needed when GoBuster wasn&rsquo;t showing where the uploaded files were being stored (obviously download only and not directly web accessible).
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/oscp---boolean---linux/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="OSCP - Boolean - Linux">
+<meta property="og:description" content="Boolean This was an absolute slog, and even the walkthroughs didn&rsquo;t help at the end. It was good to identify that BurpSuite would be used early on, but picking up and changing the &ldquo;confirmed&rdquo; element was tricky. Having the PHP reverse shell not work was incredibly frustrating too, but it was obvious something else would be needed when GoBuster wasn&rsquo;t showing where the uploaded files were being stored (obviously download only and not directly web accessible).
+" />
+<meta property="og:url" content="/posts/oscp---boolean---linux/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/oscp---boolean---linux/">OSCP - Boolean - Linux</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="boolean">Boolean<a href="#boolean" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>This was an absolute slog, and even the walkthroughs didn&rsquo;t help at the end. It was good to identify that BurpSuite would be used early on, but picking up and changing the &ldquo;confirmed&rdquo; element was tricky. Having the PHP reverse shell not work was incredibly frustrating too, but it was obvious something else would be needed when GoBuster wasn&rsquo;t showing where the uploaded files were being stored (obviously download only and not directly web accessible).</p>
+<p>The real challenge here was figuring out the SSH keys. It&rsquo;s not something I&rsquo;ve done a lot with so far, so figuring out how to generate them, renaming them <code>authorized_keys</code>, and uploading the correct one (public not private) was a challenge in itself. The truly frustrating part came from trying to switch to <code>root@127.0.0.1</code> and being told there&rsquo;d been too many authentication failures. A little more research showed that it could be bypassed with the <code>-o IdentitesOnly=yes</code> option, but after so much frustration trying to sort the keys in the first place, I probably should have just walked away for awhile and come back to find answers instead of getting more frustrated.</p>
+<p>On the plus side though, this box helped me sort out a lot of my internal notes so that they would be better used as cheat sheets in the future. Going through these boxes is certainly helping imbed the lessons I learned from the modules, so keep doing the boxes, keep taking notes, and keep refining your processes.</p>
+<h1 id="resolution-summary">Resolution summary<a href="#resolution-summary" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Nmap to find port 22, 80 &amp; 3000</li>
+<li>Navigated to HTML site, registered user, used BurpSuite Repeater to bypass email authentication</li>
+<li>Uploaded PHP to attempt reverse shell but no success</li>
+<li>Used directory traversal to view <code>/etc/passwd</code> &amp; identify user <code>remi</code></li>
+<li>Used directory traversal to access <code>/home/remi/.ssh</code> and upload SSH key</li>
+<li>Used SSH to login as <code>remi</code> and print <code>local.txt</code></li>
+<li>Navigated to <code>/home/remi/.ssh/keys</code> to find <code>root</code> SSH key</li>
+<li>Used <code>root</code> SSH key to switch to <code>root</code> user and print <code>proof.txt</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills<a href="#improved-skills" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Generating and handling SSH keys, especially adding <code>-o IdentitesOnly=yes</code> and switching internally with <code>127.0.0.1</code></li>
+<li>Identifying vulnerabilities with BurpSuite</li>
+</ul>
+<h2 id="used-tools">Used tools<a href="#used-tools" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>nmap</li>
+<li>BurpSuite Repeater</li>
+<li>MSFVenom</li>
+<li>SSH</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering<a href="#information-gathering" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -sC -sV -oN boolean.nmap 192.168.137.231 -v
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">PORT     STATE  SERVICE VERSION
+</span></span><span class="line"><span class="cl">22/tcp   open   ssh     OpenSSH 7.9p1 Debian 10+deb10u2 <span class="o">(</span>protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">2048</span> 37:80:01:4a:43:86:30:c9:79:e7:fb:7f:3b:a4:1e:dd <span class="o">(</span>RSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> b6:18:a1:e1:98:fb:6c:c6:87:55:45:10:c6:d4:45:b9 <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> ab:8f:2d:e8:a2:04:e7:b7:65:d3:fe:5e:93:1e:03:67 <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl">80/tcp   open   http
+</span></span><span class="line"><span class="cl"><span class="p">|</span> http-methods: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  Supported Methods: GET HEAD POST OPTIONS
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-favicon: Unknown favicon MD5: D41D8CD98F00B204E9800998ECF8427E
+</span></span><span class="line"><span class="cl"><span class="p">|</span> http-title: Boolean
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_Requested resource was http://192.168.137.231/login
+</span></span><span class="line"><span class="cl"><span class="p">|</span> fingerprint-strings: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   DNSStatusRequestTCP, DNSVersionBindReqTCP, GenericLines, Help, JavaRMI, Kerberos, LANDesk-RC, LDAPBindReq, LDAPSearchReq, LPDString, NCP, NotesRPC, RPCCheck, RTSPRequest, SIPOptions, SMBProgNeg, SSLSessionReq, TLSSessionReq, TerminalServer, TerminalServerCookie, WMSRequest, X11Probe, afp, giop, ms-sql-s, oracle-tns: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     HTTP/1.1 <span class="m">400</span> Bad Request
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   FourOhFourRequest, GetRequest, HTTPOptions: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     HTTP/1.0 <span class="m">403</span> Forbidden
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Type: text/html<span class="p">;</span> <span class="nv">charset</span><span class="o">=</span>UTF-8
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_    Content-Length: <span class="m">0</span>
+</span></span><span class="line"><span class="cl">3000/tcp closed ppp
+</span></span><span class="line"><span class="cl"><span class="m">1</span> service unrecognized despite returning data.
+</span></span></code></pre></div><hr>
+<h1 id="enumeration">Enumeration<a href="#enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="port-22---ssh-openssh-79p1">Port 22 - SSH (OpenSSH 7.9p1)<a href="#port-22---ssh-openssh-79p1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="port-80---http">Port 80 - HTTP<a href="#port-80---http" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Navigated to <code>http://192.168.137.231</code>, redirected to <code>http://192.168.137.231/login</code>
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image1.png" alt="OSCP Boolean Linux Image1"></li>
+<li>Ran <code>gobuster</code> to enumerate directories: <code>gobuster dir -u  http://192.168.137.231 -w //usr/share/dirb/wordlists/big.txt</code>
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image2.png" alt="OSCP Boolean Linux Image2"></li>
+<li>Used <code>gobuster</code> to further enumerate <code>filemaneger</code> directory with no results
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image3.png" alt="OSCP Boolean Linux Image3"></li>
+</ul>
+<hr>
+<h1 id="exploitation">Exploitation<a href="#exploitation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Created user with credentials <code>offsec:password</code> &amp; email <code>offsec@offsec.com</code>
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image4.png" alt="OSCP Boolean Linux Image4"></li>
+<li>Presented with email confirmation page, so tried changing email to <code>kali@offsec.com</code> &amp; inspected request in Burpsuite, identifying <code>&quot;confirmed&quot;:false,</code> in response
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image5.png" alt="OSCP Boolean Linux Image5"></li>
+<li>Modified request to include <code>&amp;user%5Bconfirmed=True</code> and bypassed email confirmation
+Request (Burpsuite)
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image6.png" alt="OSCP Boolean Linux Image6">
+Response (Browser)
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image7.png" alt="OSCP Boolean Linux Image7"></li>
+<li>Identified upload facility, so created reverse shell with MSFVenom
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image8.png" alt="OSCP Boolean Linux Image8"></li>
+<li>Successfully uploaded shell.php to target
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image9.png" alt="OSCP Boolean Linux Image9"></li>
+<li>File path: <code>http://192.168.137.231/?cwd=&amp;file=shell.php&amp;download=true</code></li>
+<li>Modified file path to <code>http://192.168.137.231/?cwd=&amp;file=shell.php</code> - No change or shell established</li>
+<li>Attempted directory traversal to <code>/etc/passwd</code> file: <code>http://192.168.137.231/?cwd=../../../../../../../../../etc/&amp;file=passwd&amp;download=true</code>
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image10.png" alt="OSCP Boolean Linux Image10"></li>
+<li>Identified user <code>remi</code>, and attempted to access user&rsquo;s <code>.ssh</code> directory: <code>http://192.168.137.231/?cwd=../../../../../../../home/remi&amp;file=.ssh&amp;download=true</code>
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image11.png" alt="OSCP Boolean Linux Image11"></li>
+<li>Identified <code>local.txt</code> and accessed <code>.ssh/keys</code>
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image12.png" alt="OSCP Boolean Linux Image12"></li>
+<li>Downloaded <code>root</code>, <code>id_rsa</code>, <code>id_rsa.1</code>, <code>id_rsa.2</code> SSH keys &amp; attempted to crack password
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image13.png" alt="OSCP Boolean Linux Image13"><img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image14.png" alt="OSCP Boolean Linux Image14"></li>
+<li>Used <code>ssh-keygen</code> to generate an authorized key
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image15.png" alt="OSCP Boolean Linux Image15"></li>
+<li>Uploaded newly generated key <code>authorized_keys</code> to target
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image16.png" alt="OSCP Boolean Linux Image16"></li>
+<li>Used newly generated SSH key to login as <code>remi</code> user
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image17.png" alt="OSCP Boolean Linux Image17"></li>
+</ul>
+<hr>
+<h1 id="lateral-movement-to-user">Lateral Movement to user<a href="#lateral-movement-to-user" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="local-enumeration">Local Enumeration<a href="#local-enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Found and printed <code>local.txt</code> = <code>c31ba66829a7cf0167219e30ea8d0f4f</code></li>
+</ul>
+<hr>
+<h1 id="privilege-escalation">Privilege Escalation<a href="#privilege-escalation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="privilege-escalation-vector">Privilege Escalation vector<a href="#privilege-escalation-vector" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Navigated to previously identified <code>/.ssh/keys</code> to find <code>root</code> SSH key
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image18.png" alt="OSCP Boolean Linux Image18"></li>
+<li>Used SSH to switch to <code>root</code>: <code>ssh -i root root@127.0.0.1 -o IdentitiesOnly=yes</code>
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image19.png" alt="OSCP Boolean Linux Image19"></li>
+<li>Navigated to <code>/root</code> to find <code>proof.txt</code>
+<img src="/images/OSCP%20-%20Boolean%20-%20Linux%20-%20image20.png" alt="OSCP Boolean Linux Image20"></li>
+</ul>
+<hr>
+<h1 id="trophy--loot">Trophy &amp; Loot<a href="#trophy--loot" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><code>local.txt</code> = <code>c31ba66829a7cf0167219e30ea8d0f4f</code>
+<code>root.txt</code> = <code>bc3be029a2e748ca228d49e7270d7a78</code></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/oscp---blackgate---linux/" class="button inline prev">
+        &lt; [<span class="button__text">OSCP - Blackgate - Linux</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/oscp---cheat-sheet---core/" class="button inline next">
+         [<span class="button__text">OSCP - Cheat Sheet - Core</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

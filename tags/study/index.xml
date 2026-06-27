@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Study on Digital Garden</title>
+    <link>/tags/study/</link>
+    <description>Recent content in Study on Digital Garden</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/tags/study/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CRISC</title>
+      <link>/posts/crisc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/crisc/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;certified-in-risk-and-information-systems-control&#34;&gt;Certified in Risk and Information Systems Control&lt;/h1&gt;&#xA;&lt;p&gt;Focus: Specialises in enterprise &lt;a href=&#34;https://www.lumifywork.com/en-au/courses/certified-in-risk-and-information-systems-control-crisc/&#34;&gt;IT risk management and control&lt;/a&gt;. Ideal for those identifying, assessing and mitigating information systems risks.&lt;/p&gt;&#xA;&lt;p&gt;Industry: Suits industries with strong risk management requirements like insurance, fintech, healthcare and government institutions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://support.isaca.org/s/article/What-are-the-requirements-to-become-CRISC-certified&#34;&gt;Requirements for CRISC certification&lt;/a&gt;&#xA;- Pass the CRISC Exam (US$575 ISACA Member, US$760 Non-member)&#xA;- &lt;strong&gt;Format&lt;/strong&gt;: 150 multiple-choice questions, scaled score of &amp;gt;450 out of 800 to pass.&#xA;- &lt;strong&gt;Duration&lt;/strong&gt;: 4 hours.&#xA;- **Content:&#xA;- &lt;strong&gt;Governance (26%)&lt;/strong&gt;: IT risk governance, frameworks, policies, and organizational structures.&#xA;- &lt;strong&gt;IT Risk Assessment (20%)&lt;/strong&gt;: Risk identification, evaluation, and analysis.&#xA;- &lt;strong&gt;Risk Response and Reporting (32%)&lt;/strong&gt;: Mitigating risk, implementing controls, and communicating results.&#xA;- &lt;strong&gt;Information Technology and Security (22%)&lt;/strong&gt;: Supporting risk management through IT controls and solutions.&#xA;- &lt;strong&gt;Relevant Work Experience&lt;/strong&gt;&#xA;- At least &lt;strong&gt;three years of cumulative, professional-level work experience&lt;/strong&gt; in at least two of the four CRISC domains.&#xA;- At least one year of experience in either &lt;strong&gt;IT Risk Identification&lt;/strong&gt; or &lt;strong&gt;IT Risk Assessment&lt;/strong&gt;&#xA;- Experience must be verified and within the 10 years preceding the certification application or within five years after passing the exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OSCP</title>
+      <link>/posts/oscp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/oscp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pentesting</title>
+      <link>/posts/pentesting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/pentesting/</guid>
+      <description>&lt;p&gt;Penetration testing is a process in which a security professional simulates an attack on a network or computer system to evaluate its security—with the permission of that system&amp;rsquo;s owners AKA &lt;em&gt;ethical hacking&lt;/em&gt;, &lt;em&gt;white-hat hacking&lt;/em&gt;, &lt;em&gt;red-teaming&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jhalon.github.io/becoming-a-pentester/&#34;&gt;Becoming a PenTester (Huge resource)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pentestbox.org/&#34;&gt;PentestBox.org&lt;/a&gt; - Open Source Portable PenTest Environment for Windows&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.csoonline.com/article/3487557/8-common-pen-testing-mistakes-and-how-to-avoid-them.html&#34;&gt;8 Common Pentesting mistakes&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.pentest-standard.org/index.php/Main_Page&#34;&gt;Penetration Testing Execution Standard&lt;/a&gt; [HUGE RESOURCE]&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://owasp.org/www-project-web-security-testing-guide/assets/archive/OWASP_Testing_Guide_v4.pdf&#34;&gt;OWASP Security Testing Guide&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://csrc.nist.gov/publications/detail/sp/800-115/final&#34;&gt;NIST Technical Guide to Information Security Testing and Assessment&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ttps&#34;&gt;TTPs&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://attack.mitre.org/matrices/enterprise/&#34;&gt;MITRE ATT&amp;amp;CK Enterprise Matrix&lt;/a&gt; - Full Enterprise ATT&amp;amp;CK Matrix&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mitre-attack.github.io/attack-navigator/&#34;&gt;MITRE ATT&amp;amp;CK Navigator&lt;/a&gt; - For creating an exportable ATT&amp;amp;CK matrix layer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cve.org/&#34;&gt;CVE.Org&lt;/a&gt; - Vulnerability catalog and reporting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.amazon.com.au/Penetration-Testing-Hands-Introduction-Hacking-ebook/dp/B00KME7GN8/&#34;&gt;1 - Penetration Testing: A Hands-On Introduction to Hacking eBook: Weidman, Georgia&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

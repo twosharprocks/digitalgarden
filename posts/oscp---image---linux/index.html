@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>OSCP - Image - Linux :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Image This box was objectively quite easy, however the issues I had around it made things far more complicated/frustrating than they needed to be.
+Prior to starting this box I&rsquo;d tried to setup a shared folder on the VM that would also upload to Google drive (with the intent being I could pull the box folder to any desktop/laptop I was working from). However when I started running the exploit to try to create the .png with the reverse shell in the name, I started getting an error message saying the file didn&rsquo;t exist.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/oscp---image---linux/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="OSCP - Image - Linux">
+<meta property="og:description" content="Image This box was objectively quite easy, however the issues I had around it made things far more complicated/frustrating than they needed to be.
+Prior to starting this box I&rsquo;d tried to setup a shared folder on the VM that would also upload to Google drive (with the intent being I could pull the box folder to any desktop/laptop I was working from). However when I started running the exploit to try to create the .png with the reverse shell in the name, I started getting an error message saying the file didn&rsquo;t exist.
+" />
+<meta property="og:url" content="/posts/oscp---image---linux/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/oscp---image---linux/">OSCP - Image - Linux</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="image">Image<a href="#image" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>This box was objectively quite easy, however the issues I had <em>around</em> it made things far more complicated/frustrating than they needed to be.</p>
+<p>Prior to starting this box I&rsquo;d tried to setup a shared folder on the VM that would also upload to Google drive (with the intent being I could pull the box folder to any desktop/laptop I was working from). However when I started running the exploit to try to create the <code>.png</code> with the reverse shell in the name, I started getting an error message saying the file didn&rsquo;t exist.</p>
+<p>Trying to rename an existing file threw the same error, and it took me way too long to realise the issue was with the shared folder&rsquo;s Google Drive sync - the moment I tried to rename the file outside of that shared folder it worked perfectly.</p>
+<p>The next issue came from Firefox itself - for some reason it decided that it would try to send me everytime to the non-existent https page instead of http. After playing around with Firefox&rsquo;s config and still having the same issue, I ended up resetting my Kali VM and Firefox worked perfectly after the reboot.</p>
+<p>Once the Firefox issue was resolved and I had initial access on the <code>image</code> box, it quickly became apparent that I&rsquo;d abruptly lost the ability to copy out of the VM - I ended up typing out both the <code>local.txt</code> &amp; <code>proof.txt</code> flags by hand.</p>
+<p>The biggest lesson out of this though came from looking at <a href="https://medium.com/@robertip/oscp-practice-image-proving-ground-practice-47a18735fa20">a different walkthrough</a> and learning about the <a href="https://github.com/Anon-Exploiter/SUID3NUM">SUID3NUM script</a> for enumerating the SUID bins with GTFObins. Being able to quickly and easily identify binaries that have entries on GTFObins (and the command to test it with!) is exceedingly cool, and definitely something I&rsquo;ll try before <code>Linpeas.sh</code> in the future.</p>
+<h1 id="resolution-summary">Resolution summary<a href="#resolution-summary" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Ran Nmap to identify ports <code>22</code> &amp; <code>80</code></li>
+<li>Visited http (<code>80</code>) &amp; identified ImageMagick v6.9.6-4</li>
+<li>Created <code>.png</code> file with base64-encoded reverse shell in filename</li>
+<li>Uploaded file and achieved initial access</li>
+<li>Checked <code>strace</code> privileges and found SUID bit set</li>
+<li>Used GTFObins to achieve privilege escalation to <code>root</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills<a href="#improved-skills" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Creating/managing malicious image files</li>
+<li>Finding privesc through GTFObins</li>
+</ul>
+<h2 id="used-tools">Used tools<a href="#used-tools" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>nmap</li>
+<li>gobuster</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering<a href="#information-gathering" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -sC -sV -oN image.nmap 192.168.201.178 -v
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">PORT   STATE SERVICE VERSION                                                                                      
+</span></span><span class="line"><span class="cl">22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.7 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">3072</span> 62:36:1a:5c:d3:e3:7b:e1:70:f8:a3:b3:1c:4c:24:38 <span class="o">(</span>RSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> ee:25:fc:23:66:05:c0:c1:ec:47:c6:bb:00:c7:4f:53 <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> 83:5c:51:ac:32:e5:3a:21:7c:f6:c2:cd:93:68:58:d8 <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl">80/tcp open  http    Apache httpd 2.4.41 <span class="o">((</span>Ubuntu<span class="o">))</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Apache/2.4.41 <span class="o">(</span>Ubuntu<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> http-methods: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  Supported Methods: GET HEAD POST OPTIONS
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: ImageMagick Identifier
+</span></span><span class="line"><span class="cl">Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
+</span></span></code></pre></div><hr>
+<h1 id="enumeration">Enumeration<a href="#enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="port-22---ssh-openssh-79p1">Port 22 - SSH (OpenSSH 7.9p1)<a href="#port-22---ssh-openssh-79p1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="port-80---http-apache-2441">Port 80 - HTTP (Apache 2.4.41)<a href="#port-80---http-apache-2441" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Navigated to <code>192.168.201.178:80</code> and identified ImageMagick
+<img src="/images/OSCP%20-%20Image%20-%20Linux%20-%20image1.png" alt="OSCP Image Linux Image1"></li>
+<li>Attempted to &ldquo;Upload and Identify&rdquo; .jpg file, and received upload confirmation along with ImageMagick version (6.9.6-4)
+<ul>
+<li>Identified <a href="https://github.com/overgrowncarrot1/ImageTragick_CVE-2023-34152">potential RCE exploit</a> for this version <a href="https://github.com/advisories/GHSA-6w95-mr48-gp8c">(CVE-2016-5118)</a>
+<img src="/images/OSCP%20-%20Image%20-%20Linux%20-%20image2.png" alt="OSCP Image Linux Image2"></li>
+</ul>
+</li>
+<li>Ran <code>gobuster dir -u  http://192.168.201.178 -w //usr/share/dirb/wordlists/big.txt</code> to try to identify other web directories
+<img src="/images/OSCP%20-%20Image%20-%20Linux%20-%20image3.png" alt="OSCP Image Linux Image3"></li>
+</ul>
+<hr>
+<h1 id="exploitation">Exploitation<a href="#exploitation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="malicious-file-upload">Malicious File Upload<a href="#malicious-file-upload" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Ran <code>nc -nvlp 4444</code> to start NetCat listener on port <code>4444</code></li>
+<li>Created <code>.png</code> file with base64-encoded reverse shell in the filename
+<img src="/images/OSCP%20-%20Image%20-%20Linux%20-%20image4.png" alt="OSCP Image Linux Image4"></li>
+<li>Uploaded file to <code>ImageMagick</code> web server
+<img src="/images/OSCP%20-%20Image%20-%20Linux%20-%20image5.png" alt="OSCP Image Linux Image5"></li>
+<li>Caught reverse shell as <code>www-data</code> user
+<img src="/images/OSCP%20-%20Image%20-%20Linux%20-%20image6.png" alt="OSCP Image Linux Image6"></li>
+</ul>
+<hr>
+<h1 id="privilege-escalation">Privilege Escalation<a href="#privilege-escalation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="local-enumeration">Local Enumeration<a href="#local-enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Navigated to <code>/var/www</code> and printed <code>local.txt</code>
+<img src="/images/OSCP%20-%20Image%20-%20Linux%20-%20image7.png" alt="OSCP Image Linux Image7"></li>
+</ul>
+<h2 id="privilege-escalation-vector">Privilege Escalation vector<a href="#privilege-escalation-vector" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Ran <code>which strace</code> and <code>ls -lah /usr/bin/strace</code> to check <code>strace</code> privilege, finding SUID bit is set
+<img src="/images/OSCP%20-%20Image%20-%20Linux%20-%20image8.png" alt="OSCP Image Linux Image8"></li>
+<li>Checked GTFObins to find <code>strace</code> with SUID bit set can be used for privilege escalation, and used it to achieve root
+<img src="/images/OSCP%20-%20Image%20-%20Linux%20-%20image9.png" alt="OSCP Image Linux Image9"></li>
+</ul>
+<hr>
+<h1 id="trophy--loot">Trophy &amp; Loot<a href="#trophy--loot" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><code>local.txt</code> = <code>8c86bb3b1bf55b83b43ad8a382009f33</code>
+<code>root.txt</code> = <code>157b35b189136d01cd1fd6f2854683a9</code></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/oscp---hutch---windows/" class="button inline prev">
+        &lt; [<span class="button__text">OSCP - Hutch - Windows</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/oscp---internal---windows/" class="button inline next">
+         [<span class="button__text">OSCP - Internal - Windows</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

