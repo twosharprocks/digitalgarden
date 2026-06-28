@@ -6,14 +6,15 @@ status: seed
 draft: false
 tags:
   - diving
-Region: "[[Sulawesi - Indonesia]]"
-Sub-Region: [[Sulawesi - Indonesia]]
+Region: "[[Sulawesi]]"
+Sub-Region:
+  - - Sulawesi - Indonesia
 CaveDB:
 SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/indonesia
 Related:
   - "[[Diving]]"
   - "[[Cave Regions]]"
-  - "[[Sulawesi - Indonesia]]"
+  - "[[Sulawesi]]"
 ---
 
 # About
@@ -72,9 +73,9 @@ Hotel Alia - Muna Island
 
 # Parent Region
 - [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
-- [Sulawesi - Indonesia]({{< relref "posts/Sulawesi - Indonesia.md" >}})
+- [Sulawesi]({{< relref "posts/Sulawesi.md" >}})
 
 # Backlinks
-- [Sulawesi - Indonesia]({{< relref "posts/Sulawesi - Indonesia.md" >}})
+- [Sulawesi]({{< relref "posts/Sulawesi.md" >}})
 - [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
 - [Diving]({{< relref "posts/diving.md" >}})

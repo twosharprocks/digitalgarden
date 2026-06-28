@@ -13,7 +13,6 @@ SmartTraveller: www.smartraveller.gov.au/destinations/
 Related:
   - "[[Diving]]"
   - "[[Cave Regions]]"
-  - "[[Western Australia]]"
 ---
 
 # To Do

@@ -20,7 +20,7 @@ Japan is listed under Asia in [Cave Regions]({{< relref "posts/Cave Regions.md" 
 
 # Cave Regions
 - [Akiyoshidai]({{< relref "posts/akiyoshidai.md" >}})
-- [Minamidaito (South Daito) - Okinawa]({{< relref "posts/Minamidaito (South Daito) - Okinawa.md" >}})
+- [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}})
 
 # Caves & Dive Sites
 - See the linked cave regions above.

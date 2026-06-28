@@ -18,7 +18,7 @@ For Will
 - Match Drone/Subsurface: Nurina, Madura
 
 ---
-# [Sulawesi - Indonesia]({{< relref "posts/Sulawesi - Indonesia.md" >}})
+# [Sulawesi]({{< relref "posts/Sulawesi.md" >}})
 [Gua La Pahia]({{< relref "posts/Gua La Pahia.md" >}}) - *UW COMPLETE
 - Surface: NEEDS DRONE WITH GPS DATA
 - Underwater: Fully processed & on website

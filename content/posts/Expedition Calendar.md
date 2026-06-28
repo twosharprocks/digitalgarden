@@ -37,7 +37,7 @@ Q3
 - **[Malta - Gozo]({{< relref "posts/Malta - Gozo.md" >}}) - July-September 
 - [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Sept-Nov
 - [Iceland]({{< relref "posts/iceland.md" >}}) - June-Sept
-- [Sulawesi - Indonesia]({{< relref "posts/Sulawesi - Indonesia.md" >}}) Aug-Sept
+- [Sulawesi]({{< relref "posts/Sulawesi.md" >}}) Aug-Sept
 - [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - Sept-Dec
 - [Crete]({{< relref "posts/crete.md" >}})
 	- 2025 AUG-23-SEP-07 [SPOK Trip](https://docs.google.com/forms/d/e/1FAIpQLSd4DBKophrBjy7aQao10iRA19GqDuEcPKPqwjnRgJynr0tEeQ/viewform)
@@ -51,7 +51,7 @@ Q4
 - [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - Oct
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
 - [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
-- [Minamidaito (South Daito) - Okinawa]({{< relref "posts/Minamidaito (South Daito) - Okinawa.md" >}}) - December (XMAS)
+- [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}}) - December (XMAS)
 - [Antarctica]({{< relref "posts/antarctica.md" >}}) - Nov-Feb
 
 # Country Interest
@@ -80,7 +80,7 @@ Q4
 - [Oceania]({{< relref "posts/oceania.md" >}})
 	- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - June
 	- [Cook Islands]({{< relref "posts/Cook Islands.md" >}})
-	- [Sulawesi - Indonesia]({{< relref "posts/Sulawesi - Indonesia.md" >}})
+	- [Sulawesi]({{< relref "posts/Sulawesi.md" >}})
 	- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - Sept
 	- [West Timor - Indonesia]({{< relref "posts/West Timor - Indonesia.md" >}})
 	- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}})

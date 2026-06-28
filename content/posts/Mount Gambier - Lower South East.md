@@ -1,7 +1,7 @@
 ---
 title: Mount Gambier - Lower South East
 created: 2026-06-19
-updated: 2026-06-27
+updated: 2026-06-28
 status: seed
 draft: false
 tags:
@@ -13,7 +13,6 @@ SmartTraveller: www.smartraveller.gov.au/destinations/
 Related:
   - "[[Diving]]"
   - "[[Cave Regions]]"
-  - "[[South Australia]]"
 ---
 
 # About

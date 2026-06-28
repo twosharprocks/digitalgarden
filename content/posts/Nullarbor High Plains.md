@@ -1,7 +1,7 @@
 ---
 title: Nullarbor High Plains
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-06-28
 status: seed
 draft: false
 tags:
@@ -13,9 +13,8 @@ SmartTraveller: www.smartraveller.gov.au/destinations/
 Related:
   - "[[Diving]]"
   - "[[Cave Regions]]"
-  - "[[Western Australia]]"
+  - "[[Planning - Nullarbor]]"
 ---
-
 # About
 Do with Joseph Bicanic
 Info From Joseph: ![Murra P1](/images/Murra%20-%20p1.jpg), ![Murra P2](/images/Murra%20-%20p2.jpg) ![Murra P3](/images/Murra%20-%20p3.jpg) ![Murra P4](/images/Murra%20-%20p4.jpg) ![Murra P5](/images/Murra%20-%20p5.jpg)

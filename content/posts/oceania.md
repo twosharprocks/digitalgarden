@@ -26,7 +26,7 @@ Australia
 - [Northern Territory]({{< relref "posts/Northern Territory.md" >}})
 Indonesia
 - [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}})
-- [Sulawesi - Indonesia]({{< relref "posts/Sulawesi - Indonesia.md" >}})
+- [Sulawesi]({{< relref "posts/Sulawesi.md" >}})
 - [Moluccas - Indonesia]({{< relref "posts/Moluccas - Indonesia.md" >}})
 - [West Timor - Indonesia]({{< relref "posts/West Timor - Indonesia.md" >}})
 - [West Papua - Indonesia]({{< relref "posts/West Papua - Indonesia.md" >}})
@@ -36,7 +36,7 @@ Indonesia
 Pacific
 - [Vanuatu]({{< relref "posts/vanuatu.md" >}})
 - [New Caledonia]({{< relref "posts/New Caledonia.md" >}})
-- [Minamidaito (South Daito) - Okinawa]({{< relref "posts/Minamidaito (South Daito) - Okinawa.md" >}})
+- [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}})
 
 # Caves
 - 

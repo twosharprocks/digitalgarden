@@ -47,7 +47,7 @@ Investigate [Dive Saga Youtube channel](https://www.youtube.com/@DiveSAGA)
 - Talk in Ceduna on next trip 
 
 - Setup Exploration Foundation with Will (like Mikko)
-	- Explore [Thailand]({{< relref "posts/thailand.md" >}})/[Malaysia]({{< relref "posts/malaysia.md" >}})/[Sulawesi - Indonesia]({{< relref "posts/Sulawesi - Indonesia.md" >}})
+	- Explore [Thailand]({{< relref "posts/thailand.md" >}})/[Malaysia]({{< relref "posts/malaysia.md" >}})/[Sulawesi]({{< relref "posts/Sulawesi.md" >}})
 - What to do with the MNemo1? 
 
 - Digging: Use Feathers & Wedges, Use [Expando ](https://expando.com.au/)

@@ -10,7 +10,7 @@ tags:
   - script
 Related:
   - "[[Scripts]]"
-  - "[[Sulawesi - Indonesia]]"
+  - "[[Sulawesi]]"
   - "[[Trips - Ideas]]"
   - "[[Exploration]]"
   - "[[CaveDB]]"

@@ -1,19 +1,18 @@
 ---
-title: Minamidaito (South Daito) - Okinawa
+title: Minamidaito (South Daito)
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-06-28
 status: seed
 draft: false
 tags:
   - diving
 Region: "[[Japan]]"
-Sub-Region:
+Sub-Region: "[[Okinawa]]"
 CaveDB:
 SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/japan
 Related:
   - "[[Diving]]"
   - "[[Cave Regions]]"
-  - "[[Japan]]"
 ---
 # About
 [J-kuep - Japan Karst & Underwater Exploration Project](https://j-kuep.com/)

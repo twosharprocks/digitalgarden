@@ -7,7 +7,7 @@ draft: false
 tags:
   - diving
   - caving
-Region: "[[Sulawesi - Indonesia]]"
+Region: "[[Sulawesi]]"
 CaveDB:
 related: "[[Diving]]"
 Status:

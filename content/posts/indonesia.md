@@ -33,7 +33,7 @@ SmartTraveller: www.smartraveller.gov.au/destinations/
 
 ---
 # About
-[Sulawesi - Indonesia]({{< relref "posts/Sulawesi - Indonesia.md" >}})
+[Sulawesi]({{< relref "posts/Sulawesi.md" >}})
 [Moluccas - Indonesia]({{< relref "posts/Moluccas - Indonesia.md" >}})
 [West Timor - Indonesia]({{< relref "posts/West Timor - Indonesia.md" >}})
 [West Papua - Indonesia]({{< relref "posts/West Papua - Indonesia.md" >}})

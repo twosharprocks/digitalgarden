@@ -13,7 +13,6 @@ SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/japan
 Related:
   - "[[Diving]]"
   - "[[Cave Regions]]"
-  - "[[Japan]]"
 ---
 
 # About

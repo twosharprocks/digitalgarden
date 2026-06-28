@@ -1,13 +1,13 @@
 ---
-title: Sulawesi - Indonesia
+title: Sulawesi
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-06-28
 status: seed
 draft: false
 tags:
   - diving
 Region: Oceania
-Sub-Region:
+Sub-Region: "[[Indonesia]]"
 CaveDB:
 SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/indonesia
 Related:
@@ -18,7 +18,7 @@ Related:
 Sulawesi - Indonesia is listed under [Oceania]({{< relref "posts/oceania.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions
-- [Baubau Island - Sulawesi]({{< relref "posts/Baubau Island - Sulawesi.md" >}})
+- [Baubau Island]({{< relref "posts/Baubau Island.md" >}})
 - [Muna Island - Sulawesi]({{< relref "posts/Muna Island - Sulawesi.md" >}})
 
 # Caves & Dive Sites
