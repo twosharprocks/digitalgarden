@@ -13,8 +13,31 @@ Related:
   - "[[Trips - Ideas]]"
   - "[[ChatGPT - Cave Expedition Calendar]]"
 ---
----
-Q1
+# Best Times
+Jan
+- **[New Zealand]({{< relref "posts/New Zealand.md" >}})
+- 
+Feb
+- 
+March
+- 
+April
+- 
+June
+- 
+July
+- 
+August
+- 
+September
+- 
+October
+- 
+November
+- 
+December
+- 
+
 - **[New Zealand]({{< relref "posts/New Zealand.md" >}}) - Jan-March
 - **[Philippines]({{< relref "posts/philippines.md" >}}) - Jan-April
 - **[Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
