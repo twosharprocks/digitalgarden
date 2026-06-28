@@ -1,7 +1,7 @@
 ---
 title: Diving - Gear
 created: 2026-01-26
-updated: 2026-06-23
+updated: 2026-06-28
 status: tree
 draft: false
 tags:
@@ -68,10 +68,12 @@ Video Lights:
 
 * [Dive Case for InReach Mini](https://adreno.com.au/products/garmin-dive-case-for-inreach-mini)
 * [Compass - Silva AW19](https://www.amazon.com.au/dp/B01FSKRACC/) - $33 (for survey slates)
+* [Air monitoring devices for sumps](https://www.aliexpress.com/item/1005010118548887.html)
 
 * [Nemo Angle Grinder (~$4.5k)](https://nemopowertools.com/product/nemo-angle-grinder-50m-v2/) 
 * Music - [Bone-conducting Headphones](https://tayogo.com/products/tayogo-w02-upgraded-waterproof-bluetooth-bone-conduction-headphone)
 * Phone Housings - [Divevolk](https://www.divevolkdiving.com/en-au/products/divevolk-seatouch-4max-underwater-iphone-diving-housing-iphone-diving-case-compatiable-for-iphone-12-pro-max-13-pro-13-pro-max?variant=44590317961443) or [Pixel Case for watching movies?](https://www.ebay.com.au/itm/196358153815)
+
 * [Lift Bag - Ali Express ($36-45)](https://www.aliexpress.com/item/4001101513566.html)
 * [Tech Shorts - 3mm Neoprene ($40-45)](https://www.ebay.com.au/itm/226035866029)
 * [Service Kits - O-rings & Regs](https://scubagaskets.com/)
