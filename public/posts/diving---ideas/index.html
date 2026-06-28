@@ -67,7 +67,7 @@ What do you want to do with all this photogrammetry &amp; lidar data? Soggy Womb
 
 <link rel="stylesheet" href="/terminal.css">
 
-
+<link rel="stylesheet" href="/style.css">
 
 
 <link rel="shortcut icon" href="/favicon.png">
@@ -112,7 +112,7 @@ What do you want to do with all this photogrammetry &amp; lidar data? Soggy Womb
 
 
 
-
+<script defer src="/search.js"></script>
 
 
 </head>
@@ -130,6 +130,25 @@ What do you want to do with all this photogrammetry &amp; lidar data? Soggy Womb
   </div>
 </a>
 
+    </div>
+    <div class="site-search" role="search">
+      <label class="sr-only" for="garden-search">Search the digital garden</label>
+      <input
+        id="garden-search"
+        class="site-search__input"
+        type="search"
+        placeholder="Search pages..."
+        autocomplete="off"
+        aria-autocomplete="list"
+        aria-controls="garden-search-results"
+        aria-expanded="false"
+      >
+      <div
+        id="garden-search-results"
+        class="site-search__results"
+        role="listbox"
+        hidden
+      ></div>
     </div>
     
       <ul class="menu menu--mobile">

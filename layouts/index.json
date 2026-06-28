@@ -1,0 +1,13 @@
+{{- $pages := where .Site.RegularPages "Type" "posts" -}}
+[
+{{- range $index, $page := $pages -}}
+  {{- if $index }},{{ end }}
+  {{- dict
+    "title" $page.Title
+    "url" $page.RelPermalink
+    "content" ($page.Plain | htmlUnescape)
+    "tags" ($page.Params.tags | default slice)
+    | jsonify
+  -}}
+{{- end -}}
+]
