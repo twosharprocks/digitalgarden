@@ -249,6 +249,12 @@
   </url><url>
     <loc>/tags/ai-content/</loc>
   </url><url>
+    <loc>/posts/meal---air-fryer-chicken-burritos/</loc>
+  </url><url>
+    <loc>/posts/meal---air-fryer-nachos/</loc>
+  </url><url>
+    <loc>/tags/air-fryer/</loc>
+  </url><url>
     <loc>/posts/akiyoshidai/</loc>
   </url><url>
     <loc>/posts/akiyoshidai-cave/</loc>
@@ -264,6 +270,8 @@
     <loc>/posts/antarctica/</loc>
   </url><url>
     <loc>/tags/antarctica/</loc>
+  </url><url>
+    <loc>/tags/appetizer/</loc>
   </url><url>
     <loc>/posts/arkansas/</loc>
   </url><url>
@@ -287,6 +295,8 @@
   </url><url>
     <loc>/posts/azerbaijan/</loc>
   </url><url>
+    <loc>/tags/bacon/</loc>
+  </url><url>
     <loc>/posts/bahamas/</loc>
   </url><url>
     <loc>/posts/bakers-cave---5l285/</loc>
@@ -295,11 +305,17 @@
   </url><url>
     <loc>/posts/baubau-island/</loc>
   </url><url>
+    <loc>/tags/beef/</loc>
+  </url><url>
+    <loc>/posts/meal---beef-taco-rice-bowl/</loc>
+  </url><url>
     <loc>/posts/belgium/</loc>
   </url><url>
     <loc>/posts/belize/</loc>
   </url><url>
     <loc>/posts/bhutan/</loc>
+  </url><url>
+    <loc>/posts/meal---big-mac-toastie/</loc>
   </url><url>
     <loc>/posts/bikini-atoll/</loc>
   </url><url>
@@ -315,7 +331,13 @@
   </url><url>
     <loc>/posts/bosnia--herzegovina/</loc>
   </url><url>
+    <loc>/tags/bowl/</loc>
+  </url><url>
     <loc>/posts/brazil/</loc>
+  </url><url>
+    <loc>/tags/bread/</loc>
+  </url><url>
+    <loc>/tags/breakfast/</loc>
   </url><url>
     <loc>/posts/bucket-list/</loc>
   </url><url>
@@ -325,9 +347,13 @@
   </url><url>
     <loc>/posts/bulgaria/</loc>
   </url><url>
+    <loc>/tags/burger/</loc>
+  </url><url>
     <loc>/posts/burnabbie-cave---6n/</loc>
   </url><url>
     <loc>/posts/notes---burning-down-cities/</loc>
+  </url><url>
+    <loc>/tags/burrito/</loc>
   </url><url>
     <loc>/posts/cameroon/</loc>
   </url><url>
@@ -375,11 +401,41 @@
   </url><url>
     <loc>/posts/cheat-sheet---windows/</loc>
   </url><url>
+    <loc>/tags/cheese/</loc>
+  </url><url>
+    <loc>/posts/meal---cheese-pull-apart-bread/</loc>
+  </url><url>
+    <loc>/posts/meal---cheeseburger-bowls/</loc>
+  </url><url>
+    <loc>/tags/chicken/</loc>
+  </url><url>
+    <loc>/posts/meal---chicken--chorizo-one-pan-rice/</loc>
+  </url><url>
+    <loc>/posts/meal---chicken-alfredo-tortellini/</loc>
+  </url><url>
+    <loc>/posts/meal---chicken-gnocchi-soup/</loc>
+  </url><url>
+    <loc>/posts/meal---chicken-pesto-flatbread/</loc>
+  </url><url>
+    <loc>/tags/chili/</loc>
+  </url><url>
+    <loc>/posts/meal---chili-garlic-noodles/</loc>
+  </url><url>
+    <loc>/posts/meal---chili-mac-and-cheese/</loc>
+  </url><url>
     <loc>/posts/china/</loc>
+  </url><url>
+    <loc>/posts/meal---chipotle-beef--crispy-chorizo-gnocchi/</loc>
+  </url><url>
+    <loc>/tags/chocolate/</loc>
   </url><url>
     <loc>/posts/choptima---post-dive-checklist/</loc>
   </url><url>
     <loc>/posts/choptima-ccr/</loc>
+  </url><url>
+    <loc>/tags/chorizo/</loc>
+  </url><url>
+    <loc>/posts/meal---chorizo-smash-breakfast-tacos/</loc>
   </url><url>
     <loc>/posts/christmas-island/</loc>
   </url><url>
@@ -411,13 +467,21 @@
   </url><url>
     <loc>/posts/costa-rica/</loc>
   </url><url>
+    <loc>/tags/creamy/</loc>
+  </url><url>
+    <loc>/posts/meal---creamy-garlic-chicken-pasta/</loc>
+  </url><url>
     <loc>/tags/creativity/</loc>
   </url><url>
     <loc>/posts/crete/</loc>
   </url><url>
     <loc>/posts/crisc/</loc>
   </url><url>
+    <loc>/posts/meal---crispy-chicken-loaded-fries/</loc>
+  </url><url>
     <loc>/posts/croatia/</loc>
+  </url><url>
+    <loc>/tags/croissant/</loc>
   </url><url>
     <loc>/posts/cuba/</loc>
   </url><url>
@@ -447,6 +511,8 @@
   </url><url>
     <loc>/posts/democratic-republic-of-congo/</loc>
   </url><url>
+    <loc>/tags/dessert/</loc>
+  </url><url>
     <loc>/posts/digital-garden/</loc>
   </url><url>
     <loc>/tags/digital-garden/</loc>
@@ -465,7 +531,11 @@
   </url><url>
     <loc>/posts/dominican-republic/</loc>
   </url><url>
+    <loc>/tags/dumplings/</loc>
+  </url><url>
     <loc>/posts/effective-note-taking-to-remember-more-&#43;-create-new-ideas/</loc>
+  </url><url>
+    <loc>/tags/egg/</loc>
   </url><url>
     <loc>/posts/ela-elap---5l14---closed/</loc>
   </url><url>
@@ -487,7 +557,13 @@
   </url><url>
     <loc>/tags/exploration/</loc>
   </url><url>
+    <loc>/tags/feta/</loc>
+  </url><url>
+    <loc>/posts/meal---feta-fried-egg-tortilla/</loc>
+  </url><url>
     <loc>/posts/finland/</loc>
+  </url><url>
+    <loc>/tags/flatbread/</loc>
   </url><url>
     <loc>/posts/flinders-ranges/</loc>
   </url><url>
@@ -497,9 +573,19 @@
   </url><url>
     <loc>/posts/france/</loc>
   </url><url>
+    <loc>/tags/fried-rice/</loc>
+  </url><url>
+    <loc>/tags/fries/</loc>
+  </url><url>
+    <loc>/posts/meal---garlic-butter-jalape%C3%B1o-popper-croissants/</loc>
+  </url><url>
     <loc>/posts/georgia/</loc>
   </url><url>
     <loc>/posts/germany/</loc>
+  </url><url>
+    <loc>/posts/meal---giant-chicken-poppers/</loc>
+  </url><url>
+    <loc>/tags/gnocchi/</loc>
   </url><url>
     <loc>/posts/goa-lalauwi/</loc>
   </url><url>
@@ -519,13 +605,51 @@
   </url><url>
     <loc>/posts/gua-wandoke/</loc>
   </url><url>
+    <loc>/tags/halloumi/</loc>
+  </url><url>
     <loc>/posts/hanns-cave---5l---closed/</loc>
   </url><url>
+    <loc>/tags/hash/</loc>
+  </url><url>
+    <loc>/posts/meal---hash-brown-feta-bites/</loc>
+  </url><url>
+    <loc>/posts/meal---hash-brown-halloumi--chorizo-hash/</loc>
+  </url><url>
+    <loc>/tags/hash-brown/</loc>
+  </url><url>
+    <loc>/posts/meal---healthy-chicken-nuggets/</loc>
+  </url><url>
     <loc>/posts/hells-hole---5l40/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-breakfast-bagel/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-breakfast-burritos/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-chicken-katsu-fried-rice/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-chicken-sausage-breakfast-burritos/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-crispy-honey-garlic-chicken-fried-rice/</loc>
+  </url><url>
+    <loc>/posts/meal---honey-garlic-chicken-fried-rice/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-honey-bbq-chicken-mac--cheese/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-hot-honey-popcorn-chicken/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-kfc-chicken-bowl/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-mexican-bowl/</loc>
+  </url><url>
+    <loc>/tags/high-protein/</loc>
   </url><url>
     <loc>/posts/honduras/</loc>
   </url><url>
     <loc>/posts/honey-badger---natures-most-fearless-animal-alive/</loc>
+  </url><url>
+    <loc>/posts/meal---honey-bbq-chicken-mac--cheese/</loc>
+  </url><url>
+    <loc>/posts/meal---honey-soy-chicken-stir-fry/</loc>
   </url><url>
     <loc>/posts/horse--cart-sinkhole---5l129/</loc>
   </url><url>
@@ -540,6 +664,8 @@
     <loc>/posts/india/</loc>
   </url><url>
     <loc>/posts/indonesia/</loc>
+  </url><url>
+    <loc>/tags/indulgent/</loc>
   </url><url>
     <loc>/tags/interests/</loc>
   </url><url>
@@ -597,9 +723,15 @@
   </url><url>
     <loc>/posts/little-blue-lake---5l9/</loc>
   </url><url>
+    <loc>/posts/meal---loaded-breakfast-wrap/</loc>
+  </url><url>
     <loc>/posts/long-solo/</loc>
   </url><url>
     <loc>/posts/lot---france/</loc>
+  </url><url>
+    <loc>/tags/low-carb/</loc>
+  </url><url>
+    <loc>/tags/mac-and-cheese/</loc>
   </url><url>
     <loc>/posts/madagascar/</loc>
   </url><url>
@@ -621,7 +753,13 @@
   </url><url>
     <loc>/posts/mckays-shaft---5l125---closed/</loc>
   </url><url>
+    <loc>/tags/meal/</loc>
+  </url><url>
+    <loc>/tags/meal-prep/</loc>
+  </url><url>
     <loc>/posts/meals/</loc>
+  </url><url>
+    <loc>/tags/mexican/</loc>
   </url><url>
     <loc>/posts/minamidaito-south-daito/</loc>
   </url><url>
@@ -739,6 +877,8 @@
   </url><url>
     <loc>/posts/murra-el-elevyn---6n47/</loc>
   </url><url>
+    <loc>/tags/nachos/</loc>
+  </url><url>
     <loc>/posts/nettlebed---5l290/</loc>
   </url><url>
     <loc>/posts/new-caledonia/</loc>
@@ -751,7 +891,13 @@
   </url><url>
     <loc>/posts/nigeria/</loc>
   </url><url>
+    <loc>/tags/no-bake/</loc>
+  </url><url>
+    <loc>/posts/meal---no-bake-chocolate-chip-cookie-dough-bars/</loc>
+  </url><url>
     <loc>/posts/nohoch/</loc>
+  </url><url>
+    <loc>/tags/noodles/</loc>
   </url><url>
     <loc>/posts/north-america/</loc>
   </url><url>
@@ -788,6 +934,10 @@
     <loc>/posts/oman/</loc>
   </url><url>
     <loc>/posts/one-tree---5l7/</loc>
+  </url><url>
+    <loc>/tags/one-pan/</loc>
+  </url><url>
+    <loc>/tags/one-pot/</loc>
   </url><url>
     <loc>/tags/oscp/</loc>
   </url><url>
@@ -873,13 +1023,19 @@
   </url><url>
     <loc>/posts/oscp-exam-prep/</loc>
   </url><url>
+    <loc>/tags/oven/</loc>
+  </url><url>
     <loc>/posts/pacific-north-west/</loc>
   </url><url>
     <loc>/posts/palau/</loc>
   </url><url>
     <loc>/posts/pannikin-plains---6n49/</loc>
   </url><url>
+    <loc>/posts/meal---paprika-chicken--chorizo-gnocchi/</loc>
+  </url><url>
     <loc>/posts/papua-new-guinea/</loc>
+  </url><url>
+    <loc>/tags/pasta/</loc>
   </url><url>
     <loc>/tags/patreon/</loc>
   </url><url>
@@ -892,6 +1048,8 @@
     <loc>/posts/patreon---space---martian-basic-training/</loc>
   </url><url>
     <loc>/posts/patreon---speaking-for-free/</loc>
+  </url><url>
+    <loc>/tags/peanut/</loc>
   </url><url>
     <loc>/posts/pentesting/</loc>
   </url><url>
@@ -921,13 +1079,21 @@
   </url><url>
     <loc>/posts/picanninnie-ponds---5l72---closed/</loc>
   </url><url>
+    <loc>/tags/pizza/</loc>
+  </url><url>
+    <loc>/posts/meal---pizza-cupcakes/</loc>
+  </url><url>
     <loc>/posts/places-to-live/</loc>
   </url><url>
     <loc>/posts/planning---nullarbor/</loc>
   </url><url>
     <loc>/posts/poland/</loc>
   </url><url>
+    <loc>/tags/pork/</loc>
+  </url><url>
     <loc>/posts/portugal/</loc>
+  </url><url>
+    <loc>/tags/potatoes/</loc>
   </url><url>
     <loc>/tags/published/</loc>
   </url><url>
@@ -936,6 +1102,8 @@
     <loc>/tags/python/</loc>
   </url><url>
     <loc>/posts/queensland/</loc>
+  </url><url>
+    <loc>/tags/quick/</loc>
   </url><url>
     <loc>/tags/quotes/</loc>
   </url><url>
@@ -953,6 +1121,8 @@
   </url><url>
     <loc>/posts/r%C3%A9union-island/</loc>
   </url><url>
+    <loc>/tags/rice/</loc>
+  </url><url>
     <loc>/posts/roe-plains/</loc>
   </url><url>
     <loc>/posts/romania/</loc>
@@ -962,6 +1132,8 @@
     <loc>/posts/rwanda/</loc>
   </url><url>
     <loc>/posts/samoa/</loc>
+  </url><url>
+    <loc>/tags/sandwich/</loc>
   </url><url>
     <loc>/posts/sardinia---italy/</loc>
   </url><url>
@@ -989,7 +1161,15 @@
   </url><url>
     <loc>/posts/slovenia/</loc>
   </url><url>
+    <loc>/posts/meal---smashed-potato-cheeseburger-bowls/</loc>
+  </url><url>
+    <loc>/posts/meal---smokey-bacon-gnocchi/</loc>
+  </url><url>
+    <loc>/tags/snack/</loc>
+  </url><url>
     <loc>/posts/solomon-islands/</loc>
+  </url><url>
+    <loc>/tags/soup/</loc>
   </url><url>
     <loc>/tags/source/</loc>
   </url><url>
@@ -1005,17 +1185,31 @@
   </url><url>
     <loc>/tags/speaking/</loc>
   </url><url>
+    <loc>/tags/spicy/</loc>
+  </url><url>
+    <loc>/posts/meal---spicy-chicken-rice-bowl/</loc>
+  </url><url>
+    <loc>/posts/meal---spicy-peanut-dumplings/</loc>
+  </url><url>
     <loc>/posts/sri-lanka/</loc>
   </url><url>
     <loc>/posts/stafford-road-cave---5l174/</loc>
   </url><url>
     <loc>/posts/stinging-nettle-cave---5l186/</loc>
   </url><url>
+    <loc>/tags/stir-fry/</loc>
+  </url><url>
+    <loc>/tags/stovetop/</loc>
+  </url><url>
     <loc>/tags/study/</loc>
+  </url><url>
+    <loc>/posts/meal---stuffed-crust-pizza/</loc>
   </url><url>
     <loc>/posts/sulawesi/</loc>
   </url><url>
     <loc>/posts/sweden/</loc>
+  </url><url>
+    <loc>/tags/tacos/</loc>
   </url><url>
     <loc>/tags/tag1/</loc>
   </url><url>
@@ -1067,9 +1261,15 @@
   </url><url>
     <loc>/posts/timor-leste/</loc>
   </url><url>
+    <loc>/tags/toastie/</loc>
+  </url><url>
     <loc>/posts/tommy-grahams-cave---6n56/</loc>
   </url><url>
     <loc>/posts/tonga/</loc>
+  </url><url>
+    <loc>/tags/tortellini/</loc>
+  </url><url>
+    <loc>/tags/tortillas/</loc>
   </url><url>
     <loc>/posts/trip---antarctica---2025-nov/</loc>
   </url><url>
@@ -1106,6 +1306,8 @@
     <loc>/tags/upcoming/</loc>
   </url><url>
     <loc>/posts/vanuatu/</loc>
+  </url><url>
+    <loc>/tags/vegetarian/</loc>
   </url><url>
     <loc>/posts/venezuela/</loc>
   </url><url>
@@ -1148,6 +1350,8 @@
     <loc>/posts/work/</loc>
   </url><url>
     <loc>/tags/work/</loc>
+  </url><url>
+    <loc>/tags/wrap/</loc>
   </url><url>
     <loc>/posts/writing/</loc>
   </url><url>

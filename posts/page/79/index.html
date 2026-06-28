@@ -179,18 +179,14 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/physics/">Physics</a>
+          <a href="/posts/oscp---image---linux/">OSCP - Image - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/index/">index</a>&nbsp;
-            
-            #<a href="/tags/digital-garden/">digital-garden</a>&nbsp;
-            
-            #<a href="/tags/physics/">physics</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -200,29 +196,29 @@
 
         <div class="post-content">
           
-            <p>Physics - Ideas, cosmology, Quantum Computing, Information Theory, <a href="/posts/space/">Space</a>, Mars, and the big strange questions.</p>
+            <h1 id="image">Image</h1>
+<p>This box was objectively quite easy, however the issues I had <em>around</em> it made things far more complicated/frustrating than they needed to be.</p>
+<p>Prior to starting this box I&rsquo;d tried to setup a shared folder on the VM that would also upload to Google drive (with the intent being I could pull the box folder to any desktop/laptop I was working from). However when I started running the exploit to try to create the <code>.png</code> with the reverse shell in the name, I started getting an error message saying the file didn&rsquo;t exist.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/physics/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---image---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/picanninnie-ponds---5l72---closed/">Picanninnie Ponds - 5L72 - CLOSED</a>
+          <a href="/posts/oscp---internal---windows/">OSCP - Internal - Windows</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/caving/">caving</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -232,40 +228,28 @@
 
         <div class="post-content">
           
-            <h1 id="about">About</h1>
-<p>Description:</p>
-<h2 id="maps">Maps</h2>
-<h2 id="survey">Survey</h2>
-<p>TML Data:
-KML Survey:</p>
-<hr>
-<h1 id="logged-dives">Logged Dives</h1>
-<ul>
-<li></li>
-</ul>
-<h1 id="references">References</h1>
+            <h1 id="internal">Internal</h1>
+<p>These Windows boxes are getting more and more frustrating. This one I had four separate walkthroughs available and 5 different exploits I could run, and in the end I had to resort to Metasploit to catch a meterpreter shell. Even the Meterpreter shell was a pain in the ass - once I was in I knew I could navigate directly to the Administrator&rsquo;s desktop, but I had to type in each directory change one-by-one rather than going directly to the proof file.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/picanninnie-ponds---5l72---closed/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---internal---windows/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/places-to-live/">Places to Live</a>
+          <a href="/posts/oscp---jacko---windows/">OSCP - Jacko - Windows</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/personal/">personal</a>&nbsp;
-            
-            #<a href="/tags/work/">work</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -275,54 +259,54 @@ KML Survey:</p>
 
         <div class="post-content">
           
-            <hr>
-<h1 id="australia">Australia</h1>
-<h2 id="queensland">==Queensland==</h2>
+            <h1 id="box">Box</h1>
+<p>What the actual fuck&hellip; I&rsquo;ll write this up tomorrow, but this was a combination of &ldquo;Why the fuck isn&rsquo;t this working&rdquo; with &ldquo;that is so fucking dumb&rdquo; when it did finally work</p>
+<h1 id="resolution-summary">Resolution summary</h1>
 <ul>
-<li>==Brisbane==
+<li>Ran Nmap to identify ports <code>80</code>, <code>135/445</code>, <code>445</code>, <code>5040</code>, <code>8082</code> &amp; <code>9092</code></li>
+<li>Navigated to port <code>8082</code> with browser and logged in with default credentials</li>
+<li>Found exploit for <code>H2 Database</code> and achieved code execution via SQL</li>
+<li>Uploaded &amp; executed reverse shell via SQL statements for initial access</li>
+<li>Identified <code>Paperstream</code> software and found exploit <code>49382.py</code></li>
+<li>Used <code>msfvenom</code> to create reverse shell <code>dll</code> with <code>x86</code> architecture &amp; <code>xor_dynamic</code></li>
+<li>Uploaded <code>dll</code> and <code>49382.ps1</code> to target via <code>iwr</code></li>
+<li>Ran <code>49382.ps1</code> on target and recieved reverse shell as <code>NT-system</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills</h2>
 <ul>
-<li>✅ Departure point for Dive Adventures</li>
-<li>✅ Support of family</li>
-<li>✅ Excellent cyber opportunities</li>
-<li>❌ Housing market is incredibly difficult</li>
-<li>❌ Challenge with Climate</li>
+<li>Generating msfvenom payloads</li>
+<li>Working with Windows kernel exploits (specifically potatos)</li>
 </ul>
-</li>
-</ul>
-<p>==Tasmania==</p>
+<h2 id="used-tools">Used tools</h2>
 <ul>
-<li>Off-grid forest cabin: Tasmanian Forest Retreat - ChatGPT</li>
+<li>nmap</li>
+<li>python</li>
+<li>msfvenom</li>
+<li>powershell</li>
 </ul>
-<h1 id="overseas">Overseas</h1>
-<h1 id="digital-nomad-visa">Digital Nomad Visa</h1>
-<ul>
-<li>Visit/work in countries with caves</li>
-<li>Choose a time-zone that allows for diving</li>
-</ul>
-<h2 id="greece">Greece</h2>
-<p>Picturesque island of Antikythera is said to be paying people to come — more than $500 per month for a whopping three years after they move in.</p>
+<hr>
+<h1 id="information-gathering">Information Gathering</h1>
+<p>Scanned all TCP ports:</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/places-to-live/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---jacko---windows/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/planning---nullarbor/">Planning - Nullarbor</a>
+          <a href="/posts/oscp---kevin---windows-dnf/">OSCP - Kevin - Windows (DNF)</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/caving/">caving</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -332,86 +316,29 @@ KML Survey:</p>
 
         <div class="post-content">
           
-            <h1 id="before-you-go">Before You Go</h1>
-<ul>
-<li>To Do
-<ul>
-<li>Haircut/Nails</li>
-</ul>
-</li>
-<li>Set trip goals
-<ul>
-<li>Sites to dive/survey</li>
-<li>Places to walk/check</li>
-<li>Books to read: Audible, Kindle, Physical</li>
-</ul>
-</li>
-<li>Ideas
-<ul>
-<li>Marshmallows</li>
-<li>Powerade</li>
-<li>No soup</li>
-<li>20x Coke Zero, 20x pear cider</li>
-<li>Biodegradable wet-wipes</li>
-</ul>
-</li>
-<li>Gear
-<ul>
-<li>Food
-<ul>
-<li>8x meals (Anaconda/Snowys)</li>
-<li>10x Noodles</li>
-<li>12x Eggs</li>
-<li>12x wraps</li>
-<li>2x sausage packs</li>
-<li>12x slices Bacon</li>
-<li>2x Avocados</li>
-<li>Coffee (2x bags)</li>
-<li>Snacks - Museli Bars, Jerky,</li>
-<li>Drinks - Cider, Rum, Coke Zero</li>
-<li>Other -  Tea/Coffee Bags</li>
-</ul>
-</li>
-<li>Fuel: Van, 5L, 20L</li>
-<li>Water: 20L, 10L, Camelbak, Water bottles, Camp Shower</li>
-<li>Garmin: Activate</li>
-<li>Starlink: Activate</li>
-<li>DPV: Charge &amp; Check Batteries</li>
-</ul>
-</li>
-</ul>
-<h2 id="transit">Transit</h2>
-<ul>
-<li>Adelaide - Pt Augusta = 3.5hrs, To Kimba = 6hrs, To Ceduna = 8.5hrs</li>
-<li>Adelaide - Port Lincoln = 7hr+4hrs to Ceduna = 11hrs (2.5hr detour)</li>
-<li>Ceduna - Nullabor Roadhouse = 3hrs, To Eucla = 5hrs, To Madura = 7hrs</li>
-</ul>
-<h2 id="timeline">Timeline</h2>
-<ul>
-<li>Shower every 2-3 days. Take a break from diving every 4-5 days.</li>
-</ul>
-<hr>
-<p><strong>This reminds me of</strong>&hellip;</p>
+            <h1 id="kevin">Kevin</h1>
+<p>I&rsquo;ve checked all the walkthroughs, tried countless variations of the easily available exploits, even reimaged my entire Kali VM trying to make this script work&hellip; and nothing I&rsquo;ve done has caught a reverse shell.</p>
+<p>Honestly not sure what else to do, other than to write this off as a learning experience (?) and move on. If I get a buffer overflow exploit in the exam (which I think they&rsquo;ve stopped now anyway) I&rsquo;ll just move the fuck on because nothing I&rsquo;ve done on this box or the last one has really made any sense.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/planning---nullarbor/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---kevin---windows-dnf/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/poland/">Poland</a>
+          <a href="/posts/oscp---lavita---linux/">OSCP - LaVita - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -421,40 +348,15 @@ KML Survey:</p>
 
         <div class="post-content">
           
-            <p>Poland is listed under <a href="/posts/europe/">Europe</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-<hr>
-<h1 id="existing-notes">Existing Notes</h1>
-<h1 id="about">About</h1>
-<p><a href="https://xray-mag.com/content/kowary-uranium-mine-poland">Kowary Uranium Mine</a></p>
-<h1 id="caves">Caves</h1>
-<ul>
-<li></li>
-</ul>
-<h1 id="trips">Trips</h1>
-<ul>
-<li></li>
-</ul>
-<hr>
-<h1 id="references">References</h1>
+            <h1 id="lavita">LaVita</h1>
+<p>This box started out really well with plenty of through enumeration to identify the vulnerability, but I fell down trying to gain initial access with the exploits. I tried several, and persisted with the most well developed exploit thinking it would be the way forward.</p>
+<p>The issue was not realising the exploit would stop working after the first success, so after testing it with the <code>uname -a</code> or <code>id</code> commands, it would then not work when I tried to repeat with a reverse shell command. it took awhile to realise that there were 21 chains available, and so there was no need to keep using the &ldquo;last working&rdquo; chain, because it was only working once anyway. I also stopped trying to test with <code>id</code> and just threw the reverse shell command in straight away - I already knew the exploit worked <em>sometimes</em> so may as well try to establish a shell each time I tried.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/poland/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---lavita---linux/">[Read more]</a>
           </div>
         
       </article>

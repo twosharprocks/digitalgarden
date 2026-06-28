@@ -179,20 +179,14 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/pannikin-plains---6n49/">Pannikin Plains - 6N49</a>
+          <a href="/posts/oscp---boolean---linux/">OSCP - Boolean - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/caving/">caving</a>&nbsp;
-            
-            #<a href="/tags/personal/">personal</a>&nbsp;
-            
-            #<a href="/tags/trips/">trips</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -202,43 +196,106 @@
 
         <div class="post-content">
           
-            <h1 id="about">About</h1>
-<p>Ask Ryan how to do Pannikin differently?</p>
+            <h1 id="boolean">Boolean</h1>
+<p>This was an absolute slog, and even the walkthroughs didn&rsquo;t help at the end. It was good to identify that BurpSuite would be used early on, but picking up and changing the &ldquo;confirmed&rdquo; element was tricky. Having the PHP reverse shell not work was incredibly frustrating too, but it was obvious something else would be needed when GoBuster wasn&rsquo;t showing where the uploaded files were being stored (obviously download only and not directly web accessible).</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---boolean---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---cheat-sheet---core/">OSCP - Cheat Sheet - Core</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="pre-exam">Pre-Exam</h1>
 <ul>
-<li>What Equipment is Needed?
+<li>Download the resources from the dedicated lab clients;</li>
+<li>Document your report as you go during the exam</li>
+<li>Do a practice exam!</li>
+</ul>
+<h1 id="setup">Setup</h1>
+<p>Create directories: <code>mkdir dc host1 host2</code></p>
 <ul>
-<li>CCR &amp; DPV</li>
-<li>Ropes &amp; Rigging</li>
+<li>Create sub directories: <code>mkdir enu loot files exploits</code>
+Setup hostnames: <code>sudo nano /etc/hosts</code> then add host/kali IPs</li>
+</ul>
+<h1 id="quick-reference">Quick Reference</h1>
+<ul>
+<li><code>sudo nmap -T5 -p- -v host1 -oN enu/host1.nmap</code></li>
+<li><code>sudo nmap -T5 -p80,443,1978-1980 -sCV -v host1 -oN enu/nmap-services.nmap</code></li>
+<li><code>gobuster dir -u http://host1 -w /usr/share/dirb/wordlists/common.txt | tee gobuster-p80.nmap</code></li>
+<li><code>usr/share/wordlists/rockyou.txt</code></li>
+<li><code>usr/share/wordlists/SecLists</code></li>
+<li><code>nc -nvlp 4444</code> <a href="https://gist.github.com/cmbaughman/c91f41ba7b2cf71106f1">NetCat Cheat Sheet</a></li>
+<li><a href="https://www.revshells.com/">https://www.revshells.com/</a></li>
+</ul>
+<h1 id="easy-wins">Easy wins</h1>
+<ul>
+<li>Linux: Capabilities, SUIDs/GUIDs, cronjobs, modifiable binaries running as root, out-of-date binaries, known-binary exploits, history files.</li>
+<li>Windows: Weak service permissions, Unquoted service paths, outdated binaries, scheduled tasks, custom</li>
+<li>Take breaks, and set timers: If you&rsquo;re not getting anywhere for more than half an hour, take a break. Get some fresh air, and you&rsquo;ll almost definitely think of a new idea.
+<ul>
+<li>Similarly, celebrate when you make progress! If you finish a machine its a good time for a rest</li>
 </ul>
 </li>
+<li>Regularly review the information you have for a machine - key services, known version numbers, and any known credentials.</li>
+<li>Document as you go - take screenshots of key moments in the machine, and of course when you read a proof file.</li>
+<li>Metasploit - pick the machine that you think you have the least chance of exploiting manually</li>
 </ul>
-<hr>
-<h1 id="to-do">To Do</h1>
-<p>Diving
-Dry
-Photogrammetry</p>
-<hr>
-<h1 id="references">References</h1>
+<h1 id="general-tips">General Tips</h1>
+<ul>
+<li>xfreerdp can pass the hash to login</li>
+<li><code>runas /user:domain\username cmd.exe</code> (or rdp and open CMD as admin)</li>
+<li>Use the Kali directory: <strong>/usr/share/webshells</strong> for all your payloads.</li>
+<li>MSFVenom Shell code for Buffer Overflow <a href="https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/">https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/</a></li>
+<li>If it&rsquo;s running SSH, find/replace the id_rsa</li>
+<li><code>!/bin/bash</code></li>
+<li>SMB - <code>crackmapexec</code> show available shares: <code>crackmapexec smb 192.168.50.242 -u john -p &quot;dqsTwTpZPn#nL&quot; --shares</code></li>
+<li>Scanning UDP Ports for SNMP - <a href="https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727">https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727</a></li>
+</ul>
+<p><img src="https://johnjhacking.com/uploads/autonmap.png" alt=""></p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/pannikin-plains---6n49/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---core/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/papua-new-guinea/">Papua New Guinea</a>
+          <a href="/posts/oscp---clue---linux/">OSCP - Clue - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -248,57 +305,28 @@ Photogrammetry</p>
 
         <div class="post-content">
           
-            <p>Papua New Guinea is listed under <a href="/posts/oceania/">Oceania</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-<hr>
-<h1 id="existing-notes">Existing Notes</h1>
-<h1 id="about">About</h1>
-<h1 id="caves">Caves</h1>
-<ul>
-<li><a href="http://www.pngbd.com/photos/scuba-ventures-kavieng/p11986-panapai-cave.html">Panapai Cave</a></li>
-<li><a href="https://www.michaelmcfadyenscuba.info/viewpage.php?page_id=726">Liga Onui</a></li>
-</ul>
-<h1 id="trips">Trips</h1>
-<ul>
-<li></li>
-</ul>
-<hr>
-<h1 id="references">References</h1>
-<p>PNG Divers Association <a href="https://pngdive.net/the-association">https://pngdive.net/the-association</a></p>
+            <h1 id="clue">Clue</h1>
+<p>This was definitely a hard box, but the biggest challenges came from the range of different services AND the box itself not working properly. After a couple of hours bashing my head against the brick wall trying to get initial access, I finally relented and looked at a walkthrough&hellip; only to find that the <code>cassandra</code> exploit I&rsquo;d tried to use to display files on the target hadn&rsquo;t worked because the box needed to be reverted.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/papua-new-guinea/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---clue---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/patreon---drawing-february-20-2018/">Patreon - Drawing February 20 2018</a>
+          <a href="/posts/oscp---cockpit---linux/">OSCP - Cockpit - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/writing/">writing</a>&nbsp;
-            
-            #<a href="/tags/patreon/">patreon</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -308,58 +336,29 @@ Photogrammetry</p>
 
         <div class="post-content">
           
-            <p>From email 2018-02-20</p>
-<hr>
-<h2 id="drawing---february-20th-2018">Drawing - February 20th 2018</h2>
-<p><img src="https://lh3.googleusercontent.com/a/ACg8ocKxj60a63Nm39Iybg6Ae2kqvoyRwvBfiwb4s702P283HBUlPBimCg=s40-p" alt=""></p>
-<table>
-  <thead>
-      <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>|   |<!-- raw HTML omitted -->|&mdash;|<!-- raw HTML omitted -->|### Josh Richards <a href="mailto:josh.d.richards@gmail.com">josh.d.richards@gmail.com</a>|</td>
-          <td><img src="https://mail.google.com/mail/u/0/images/cleardot.gif" alt="Attachments" title="20180220_194743.jpg">Tue, 20 Feb 2018, 23:04</td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>|   |<!-- raw HTML omitted -->|&mdash;|<!-- raw HTML omitted -->|to Lisa<!-- raw HTML omitted --><!-- raw HTML omitted --><img src="https://mail.google.com/mail/u/0/images/cleardot.gif" alt="">|</td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-  </tbody>
-</table>
-<p>Well I finally got to start on the little monsters today&hellip;</p>
-<p>To paraphrase Ira Glass, there&rsquo;s always a gap for beginners between their amazing taste and their limited ability, and the trick is to keep going and do the volume of work needed to close the gap. </p>
+            <h1 id="cockpit">Cockpit</h1>
+<p>This one was originally listed as &ldquo;Hard&rdquo; in my list, but when I checked during startup it showed as &ldquo;Intermediate&rdquo;. Definitely don&rsquo;t think it should be listed as &ldquo;Intermediate&rdquo; though - this was definitely the trickest boxes I&rsquo;ve done, and I absolutely leaned heavily on the walkthrough to make progress here.</p>
+<p>The biggest challenge ofcourse was the box breaking everytime I tried to run <code>gobuster</code> against it to find directories or files. Turned out there was a hidden <code>login.php</code> file on the port <code>80</code> server, but I couldn&rsquo;t find the damn thing with the first few gobuster scans because the whole box would break and require revert. Worse was finding the <code>blocked.html</code> page which would break the box every time I visited it OR scanned it with <code>gobuster</code>.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/patreon---drawing-february-20-2018/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---cockpit---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/patreon---journal-2017-02-25/">Patreon - Journal 2017-02-25</a>
+          <a href="/posts/oscp---codo---linux/">OSCP - Codo - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/writing/">writing</a>&nbsp;
-            
-            #<a href="/tags/patreon/">patreon</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -369,57 +368,15 @@ Photogrammetry</p>
 
         <div class="post-content">
           
-            <p>From email 2017-02-25</p>
-<hr>
-<p>Hey everyone,</p>
-<p>The last few weeks have been incredibly turbulent. Between a mountain of chaos with school visits gone wrong, being knocked back for science communication work in Australia at the same time as incredible offers for work overseas, leading me to question whether I should keep trying to make a difference in my home country&hellip; I&rsquo;ve also had someone who I honestly never thought I&rsquo;d see again come back into my life. And just as quickly as she reappeared, it now looks like she&rsquo;ll disappear from it again. </p>
+            <h1 id="codo">Codo</h1>
+<p>Interesting experience just slowly working through this over the day. Having the walkthrough as a reference is handy, although I should have done more enumeration to identify everything <code>linpeas</code> was providing. Helpful experience updating the cheatsheet for fully interactive TTS too - most references just use <code>python</code> when pretty much everyone/thing is using <code>python3</code>, so be sure to watch out for that when copy/pasting from references.</p>
+<p>Keep revshells.com handy too, and keep practicing with msfvenom too, as a lot of your holdup today was trying to find the right reverse shell for php, when you should have just been able to pull it up in a heartbeat</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/patreon---journal-2017-02-25/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/patreon---post-visit-mars-one-qa/">Patreon - Post Visit Mars One Q&amp;A</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/writing/">writing</a>&nbsp;
-            
-            #<a href="/tags/patreon/">patreon</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>From email 2017-04-04
-From <a href="https://web.archive.org/web/20170617122035/http://joshrichards.space/category/personal/">https://web.archive.org/web/20170617122035/http://joshrichards.space/category/personal/</a></p>
-<hr>
-<blockquote>
-<h2 id="post-visit-mars-one-qa"><a href="https://www.patreon.com/posts/post-visit-mars-8677199?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpbnN0YW50LWFjY2VzczpiMmE2YzZhNS1mYTY5LTQ0OGEtOWQyNC1kNWFhM2NmMmM3ZTgifQ.z4bBAzoX_6RwMD6l0n6OZsjf25dJmqy0_xrZKkp4nhk&amp;utm_medium=post_notification_email&amp;utm_campaign=patron_engagement&amp;utm_source=post_link">Post Visit Mars One Q&amp;A</a></h2>
-<h1 id="personal--mars-one-school-visit-qa"><a href="https://web.archive.org/web/20170617122035/http://joshrichards.space/2017/05/25/personal-mars-one-school-visit-qa/" title="Permalink to Personal – Mars One School Visit Q&amp;A">Personal – Mars One School Visit Q&amp;A</a></h1>
-</blockquote>
-<p><a href="https://web.archive.org/web/20170617122035/http://joshrichards.space/2017/05/25/personal-mars-one-school-visit-qa/" title="06:00">May 25, 2017</a> by <a href="https://web.archive.org/web/20170617122035/http://joshrichards.space/author/hailsagan/" title="View all posts by Josh">Josh</a>  Posted in <a href="https://web.archive.org/web/20170617122035/http://joshrichards.space/category/personal/">Personal</a>  Tagged <a href="https://web.archive.org/web/20170617122035/http://joshrichards.space/tag/hi-seas/">Hi-SEAS</a>, <a href="https://web.archive.org/web/20170617122035/http://joshrichards.space/tag/mars/">mars</a>, <a href="https://web.archive.org/web/20170617122035/http://joshrichards.space/tag/mars-one/">mars one</a>, <a href="https://web.archive.org/web/20170617122035/http://joshrichards.space/tag/psychology/">Psychology</a>, <a href="https://web.archive.org/web/20170617122035/http://joshrichards.space/tag/radiation/">radiation</a>, <a href="https://web.archive.org/web/20170617122035/http://joshrichards.space/tag/schools/">schools</a>, <a href="https://web.archive.org/web/20170617122035/http://joshrichards.space/tag/science/">science</a>, <a href="https://web.archive.org/web/20170617122035/http://joshrichards.space/tag/space/">space</a>, <a href="https://web.archive.org/web/20170617122035/http://joshrichards.space/tag/speaking/">speaking</a>, <a href="https://web.archive.org/web/20170617122035/http://joshrichards.space/tag/the-martian/">The Martian</a></p>
-<p><img src="https://web.archive.org/web/20170617122035im_/https://i2.wp.com/joshrichards.space/wp-content/uploads/2016/11/scicomm.jpg?resize=400%2C267" alt=""></p>
-<p>I wanted to share something that happens when you regularly visit schools and talk about something awesome like exploring Mars: the job isn’t just answering questions for kids at the school on the day, it also usually means answering questions for kids (and adults) who couldn’t make it or didn’t have time to ask their question on the day too!</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/patreon---post-visit-mars-one-qa/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---codo---linux/">[Read more]</a>
           </div>
         
       </article>
