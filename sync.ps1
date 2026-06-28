@@ -144,8 +144,8 @@ if ($SkipPush) {
 }
 
 Write-Host 'Staging changes for Git...'
-$hasChanges = (git status --porcelain) -ne ''
-if (-not $hasChanges) {
+$changes = @(git status --porcelain)
+if ($changes.Count -eq 0) {
     Write-Host 'No changes detected. Nothing to publish.'
     exit 0
 } else {
@@ -154,9 +154,10 @@ if (-not $hasChanges) {
 
 # Step 6: Commit changes with a dynamic message
 $commitMessage = "New Blog Post on $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
-$hasStagedChanges = (git diff --cached --name-only) -ne ''
-if (-not $hasStagedChanges) {
+git diff --cached --quiet
+if ($LASTEXITCODE -eq 0) {
     Write-Host 'No changes to commit.'
+    exit 0
 } else {
     Write-Host 'Committing changes...'
     git commit -m "$commitMessage"
