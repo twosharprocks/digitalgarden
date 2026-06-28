@@ -1,7 +1,7 @@
 ---
 title: Writing
 created: 2026-06-19
-updated: 2026-06-27
+updated: 2026-06-28
 status: seed
 draft: false
 tags:
@@ -17,9 +17,9 @@ Related:
 Writing, essays, articles, book projects, older website posts, and notes about making ideas easier to return to.
 
 # Books
-- *[Becoming Martian](https://www.amazon.com.au/gp/product/B07492C61L/)
+- Book - Ideas 
+- *[Becoming Martian](https://www.amazon.com.au/gp/product/B07492C61L/)*
 - *[Cosmic Nomad](https://www.amazon.com.au/gp/product/B08FZRTYDW)*
-
 - Book - Cave Diving
 - Book - 101 Things 
 - Book - Calling ET
@@ -27,15 +27,12 @@ Writing, essays, articles, book projects, older website posts, and notes about m
 - [Book - Futurism & Work]({{< relref "posts/Book - Futurism & Work.md" >}})
 - Book - Apocalypse
 - Book - Quantum Mechanics
-
-- Book - Ideas 
 # [Articles]({{< relref "posts/Articles.md" >}})
 - [Article - Corra-Lynn]({{< relref "posts/Article - Corra-Lynn.md" >}})
 - [Article - The Crazy Wombat Tunnel]({{< relref "posts/Article - The Crazy Wombat Tunnel.md" >}})
 - [Article - Making Sense with MNemo]({{< relref "posts/Article - Making Sense with MNemo.md" >}})
 - [Article - Unveiling the Crazy Wombat Tunnel]({{< relref "posts/Article - Unveiling the Crazy Wombat Tunnel.md" >}})
 - [Article - What's Your ppO2]({{< relref "posts/Article - What's Your ppO2.md" >}})
-
 # [Mini Essays]({{< relref "posts/Mini Essays.md" >}})
 - [Effective Note-Taking to Remember More + Create New Ideas]({{< relref "posts/Effective Note-Taking to Remember More + Create New Ideas.md" >}})
 - [Mini Essay - If you had a year to live]({{< relref "posts/Mini Essay - If you had a year to live.md" >}})
@@ -81,9 +78,6 @@ Writing, essays, articles, book projects, older website posts, and notes about m
 - [Mini Essay - Why you didn't think you'd make it to 30]({{< relref "posts/Mini Essay - Why you didn't think you'd make it to 30.md" >}})
 - [Mini Essay - Your Cave Diving Future]({{< relref "posts/Mini Essay - Your Cave Diving Future.md" >}})
 - [Mini Essay - Your evil secret plan]({{< relref "posts/Mini Essay - Your evil secret plan.md" >}})
-
-- [Philosophy]({{< relref "posts/philosophy.md" >}})
-- [Speaking]({{< relref "posts/speaking.md" >}})
 
 # Old Website & Patreon
 - [Website - 101 Things]({{< relref "posts/Website - 101 Things.md" >}})
