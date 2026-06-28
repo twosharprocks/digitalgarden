@@ -19,14 +19,16 @@ Jan
 - **[Philippines]({{< relref "posts/philippines.md" >}}) - Jan-April
 - [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
-- 
+- [Antarctica]({{< relref "posts/antarctica.md" >}}) - Nov-Feb
+
 Feb
 - **[New Zealand]({{< relref "posts/New Zealand.md" >}}) - Jan-March
 - **[Philippines]({{< relref "posts/philippines.md" >}}) - Jan-April
 - [Laos]({{< relref "posts/laos.md" >}}) - Feb-March
 - [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
-- 
+- [Antarctica]({{< relref "posts/antarctica.md" >}}) - Nov-Feb
+
 March
 - **[New Zealand]({{< relref "posts/New Zealand.md" >}}) - Jan-March
 - **[Philippines]({{< relref "posts/philippines.md" >}}) - Jan-April
@@ -34,7 +36,7 @@ March
 - [Laos]({{< relref "posts/laos.md" >}}) - Feb-March
 - [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
-- 
+
 April
 - **[Philippines]({{< relref "posts/philippines.md" >}}) - Jan-April
 - [Kalimantan]({{< relref "posts/Kalimantan.md" >}}) - March-April
@@ -42,13 +44,13 @@ April
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
 - **[ADEX - Singapore - Always April](https://www.adex.asia/)**
 - [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
-- 
+
 May
 - [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
 - [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
 - [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
 - [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
-- 
+
 June
 - [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
 - [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
@@ -59,7 +61,7 @@ June
 - [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
 - [Iceland]({{< relref "posts/iceland.md" >}}) - June-Sept
 - [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
-- 
+
 July
 - [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
 - [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
@@ -72,7 +74,7 @@ July
 - [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
 - [Iceland]({{< relref "posts/iceland.md" >}}) - June-Sept
 - [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
-- 
+
 August
 - [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-Oct
 - [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
@@ -84,7 +86,7 @@ August
 - [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
 - [Iceland]({{< relref "posts/iceland.md" >}}) - June-Sept
 - [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
-- 
+
 September
 - [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
 - [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
@@ -96,7 +98,7 @@ September
 - [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
 - [Iceland]({{< relref "posts/iceland.md" >}}) - June-Sept
 - [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
-- 
+
 October
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
 - [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
@@ -108,23 +110,28 @@ October
 - [Sulawesi]({{< relref "posts/Sulawesi.md" >}}) July-Oct
 - [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
 - [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
-- 
+- [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}}) - Oct-Dec
+
 November
 - [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
 - [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
 - [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
-- 
+- [Antarctica]({{< relref "posts/antarctica.md" >}}) - Nov-Feb
+- [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}}) - Oct-Dec
+
 December
 - [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
+- [Antarctica]({{< relref "posts/antarctica.md" >}}) - Nov-Feb
+- [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}}) - Oct-Dec
 
 
 - 
 - [Crete]({{< relref "posts/crete.md" >}})
 	- 2025 AUG-23-SEP-07 [SPOK Trip](https://docs.google.com/forms/d/e/1FAIpQLSd4DBKophrBjy7aQao10iRA19GqDuEcPKPqwjnRgJynr0tEeQ/viewform)
-- [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}}) - December (XMAS)
-- [Antarctica]({{< relref "posts/antarctica.md" >}}) - Nov-Feb
+- 
+
 
 # Country Interest
 ## Interest - Highest
