@@ -40,34 +40,59 @@ April
 - [Kalimantan]({{< relref "posts/Kalimantan.md" >}}) - March-April
 - [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
-- ADEX - Singapore
+- **ADEX - Singapore**
+May
+- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
+- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
+- 
 June
+- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
+- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
+- [Bikini Atoll]({{< relref "posts/Bikini Atoll.md" >}}) - June-July
+	- [Lust4Rust 2027](https://petemesley.com/lust4rust/bikini-atoll/)
+- [Malaysian International Dive Expo](https://mide.com.my/)
+- [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
 - 
 July
+- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
+- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
+- [Bikini Atoll]({{< relref "posts/Bikini Atoll.md" >}}) - June-July
+	- [Lust4Rust 2027](https://petemesley.com/lust4rust/bikini-atoll/)
+- [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
 - 
 August
+- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
+- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
+- [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
+- [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
 - 
 September
+- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
+- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
+- [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
 - 
 October
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
+- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
+- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
+- [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
 - 
 November
 - [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
+- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
 - 
 December
 - [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
 
 ---
-- Trip - ADEX Singapore - 2026 April *- April every year*
-- **[Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
-- **[Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
-- [Bikini Atoll]({{< relref "posts/Bikini Atoll.md" >}}) - June-July
-	- [Lust4Rust 2027](https://petemesley.com/lust4rust/bikini-atoll/)
-- [Malaysian International Dive Expo](https://mide.com.my/) - June
-- **[Portugal]({{< relref "posts/portugal.md" >}})/[Spain]({{< relref "posts/spain.md" >}}) - May-June
+- 
+- 
+- 
+- 
+- [Portugal]({{< relref "posts/portugal.md" >}})
+- [Spain]({{< relref "posts/spain.md" >}}) - Sept-Oct
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}})- Oct-May
 Q3
 - **[Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October

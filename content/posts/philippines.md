@@ -1,7 +1,7 @@
 ---
 title: Philippines
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-06-28
 status: seed
 draft: false
 tags:
@@ -31,6 +31,7 @@ Philippines is listed under Asia in [Cave Regions]({{< relref "posts/Cave Region
 # Existing Notes
 # About
 - Best Time: November-May (Jan to April are driest)
+- Talk to Dave Tipping
 - https://adrenalineromance.com/2016/08/12/langun-gobingob-cave-a-mountain-under-a-mountain-part-1/
 - https://www.traveling-up.com/exploring-the-underworld-calbiga-caves-samar/
 - https://faq.ph/langun-gobingob-cave-largest-cave-in-the-philippines/

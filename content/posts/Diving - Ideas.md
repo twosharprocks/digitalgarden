@@ -1,7 +1,7 @@
 ---
 title: Diving - Ideas
 created: 2025-01-01
-updated: 2026-06-27
+updated: 2026-06-28
 status: seed
 draft: false
 tags:
@@ -22,8 +22,6 @@ Training - Full Cave CCR in Thailand with Por?
 
 Join NSS-CDS? https://www.facebook.com/share/1BNCb4BAjU/ 
 
-Use [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) to change UW video colour (replace Clipchamp?)
-
 Investigate [Dive Saga Youtube channel](https://www.youtube.com/@DiveSAGA)
 - [ ] Develop #podcast  
 - [ ] [Writing]({{< relref "posts/writing.md" >}}) - Create/update [Wikipedia](https://en.wikipedia.org/w/index.php?title=Special:Homepage&namespace=-1&source=personaltoolslink)pages for caves
@@ -31,17 +29,18 @@ Investigate [Dive Saga Youtube channel](https://www.youtube.com/@DiveSAGA)
 
 - [LiDAR - Raven Handheld Unit](https://store.3dmakerpro.com/products/raven) 
 	- What do you want to do with all this photogrammetry & lidar data?
-- Use skool.com for Soggy Wombats community?
+
 - Soggy Wombats merch store (Redbubble?)
 - CEGSA Presentation on Sulawesi? On Murra? Thailand?
 - Articles written about each discovery (Eng East, Iddlebiddy, Pines, Murra, Gua Lapahia, Moko Morete) 
 - Create #tightsqueezetuesday of Gadi Gap
 - "Josh's Restriction" in La Ode Palsu (Sulawesi) (first time something named after me?)
 - Get CCR hours at Burra Mine Pool
+
+
 - Migrate all cave data onto Google Earth
 	- Get all your cave data from CaveDB onto Google Maps (remember this is ***Streetview for caves***)
-- Dave Tipping - Caves in Philippines
-- Mikko in Laos
+
 - Writing papers with Robin and Will about cave photogrammetry (WhatsApp)
 - Cafpirco Cave Sites - Cpt 28 New Hole - MAP.pdf
 - Talk in Ceduna on next trip 
@@ -66,6 +65,42 @@ Investigate [Dive Saga Youtube channel](https://www.youtube.com/@DiveSAGA)
 - Work with universities to support fresh water exploration
 	- [Liviu Valenas working with Uni of Freiberg (Germany)](https://www.facebook.com/groups/caversgroup/permalink/10161346105663639)
 	- Write Caving papers on use of photogrammetry and survey (with AI support)
+
+- What is your focus for cave diving? Why? 
+	- Risk management 
+	- Science Communication 
+	- Creativity
+	- Apply for grants 
+	- Film and Television work
+	- Online presentations 
+		- Host an online event where Will shows me how to do cave photogrammetry 
+		- Others can submits Q&A
+	- How will you manage your lidar data? 
+	- Aven for survex files
+
+- DPV from Matt Rochford & Map from Krunchy
+- Make drytubes
+
+- Push out a heap of stuff from Japan to TikTok?
+- ADEX Awards - Nominate Will Passos 
+	- Publish a book inside the publication period
+- Molnar Janos - when?
+- Create my own public, open source cave reference (OpenCaves)
+- [Laos]({{< relref "posts/laos.md" >}}), [Vietnam]({{< relref "posts/vietnam.md" >}}), [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) 
+	- Por has dived in Timor-Leste 
+- Organise CCR only fun trip to [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}})
+- DPV Photogrammetry of Stockton Lake Mine
+- Soggy Wombat Safaris Catalog (list destinations with potential months to go)
+- Bergherring Winery (top Sellicks Hill - Chloe & Sam Fitzgerald) - potential for caves?
+
+- Review https://www.abc.net.au/news/2026-06-02/cave-explorer-josh-richards-laos-cave-rescue/106744958
+- Publish articles to the Soggy Wombats page
+- Submit photo of Mikko for photo awards
+	- https://www.worldpressphoto.org/contest/2026
+	- https://poy.org/
+	- https://globalpeacephotoaward.org/
+	- https://www.walkleys.com/awards/walkleys/photography/
+
 # Nullabor Trip Planning
 - Python? Excel sheet?
     * “What to Expect” at each cave site 
