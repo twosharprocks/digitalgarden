@@ -1,7 +1,7 @@
 ---
 title: Crete
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-06-28
 status: seed
 draft: false
 tags:
@@ -43,13 +43,13 @@ Crete is renowned in speleological circles for its rich variety of dry caves:
 - **Dikteon Cave (Lasithi Plateau)**: Another cave associated with Zeus. It’s a show cave with large chambers and beautiful formations.
 - **Gourgouthakas Cave**: The **deepest cave in Greece** and among the deepest in Europe, reaching over **1,200 meters vertical depth**. Located in the Lefka Ori (White Mountains), it’s a challenging vertical cave system requiring advanced SRT (single rope technique).
 - **Tafkoura Cave**: One of the longest caves on the island (over 10 km), with active exploration continuing.
+- **Sternes**: [Wikipedia entry](https://el.wikipedia.org/wiki/%CE%A3%CF%84%CE%AD%CF%81%CE%BD%CE%B5%CF%82_(%CE%A3%CF%80%CE%B7%CE%BB%CE%B1%CE%B9%CE%BF%CE%B2%CE%AC%CF%81%CE%B1%CE%B8%CF%81%CE%BF)) 
 
 ---
 ### **Cave Diving Opportunities**
 
 Cave diving in Crete is **limited** but **not absent**. Several submerged cave systems and karst springs exist, though few are documented in detail. The potential lies mostly in:
 #### **Karst Springs and Resurgences**
-
 - **Agia Sophia Cave and Spring (Kissamos region)**: Reports suggest a partially flooded chamber system, though no extensive diving has been reported publicly.
 - **Vrisses and Stylos Springs (Apokoronas region)**: Strong karstic resurgence points that may offer diveable passages, though exploration has been minimal. These springs show high flow and are fed by underground river systems that may be accessible in dry seasons or with appropriate staging.
 - **Therisso Gorge Springs**: Undocumented but potentially interesting from a cave diving perspective, with high-volume resurgences and sinkholes in the same region.
@@ -79,7 +79,5 @@ Crete is a karst-heavy island with **world-class dry caving**, including extreme
 - **Plakias Coastal Karst**, 35.1848, 24.3934, Coastal cliff karst zone; possible marine submerged caves.
 - **Sfakia Coastal Caves**, 35.2021, 24.1342, Limestone cliffs and sea caves; exploration needed.
 
-# Trips
-- [Caving Expedition on Crete 23 Aug - 7 Sept](https://docs.google.com/forms/d/e/1FAIpQLSd4DBKophrBjy7aQao10iRA19GqDuEcPKPqwjnRgJynr0tEeQ/viewform)
----
+
 # References
