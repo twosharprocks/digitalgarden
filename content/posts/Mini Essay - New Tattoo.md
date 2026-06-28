@@ -7,10 +7,10 @@ draft: false
 tags:
   - mini-essay
   - writing
-Related: 
+Related:
   - "[[Mini Essays]]"
   - "[[Writing]]"
-  - "[[Tattoo Ideas]]"
+  - "[[Tattoo - Ideas]]"
 ---
  
 ---
