@@ -180,60 +180,6 @@
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---pc---linux/">OSCP - PC - Linux</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="pc">PC</h1>
-<p>This was an interesting one, with <code>linpeas</code> showing multiple vulnerabilities and yet the most obvious two didn&rsquo;t work because of missing dependencies and no user credentials.</p>
-<p>Figuring out how <code>rpcpy-exploit</code> worked was interesting, but the real lesson here was understanding how if the SUID binary can be set then you can run Bash in privileged mode with <code>/bin/bash -p</code> and become <code>root</code></p>
-<h1 id="resolution-summary">Resolution summary</h1>
-<ul>
-<li>Ran Nmap to identify ports <code>22</code> &amp; <code>8000</code></li>
-<li>Visited http (<code>8000</code>) &amp; identified <code>ttyd</code></li>
-<li>Created reverse shell and enumerated target</li>
-<li>Ran <code>linpeas.sh</code> and identified multiple vulnerabilities and <code>rpc.sh</code> script</li>
-<li>Identified exploit for <code>rpc.sh</code> and used it to modify <code>/bin/bash</code> set permission</li>
-<li>Used <code>/bin/bash -p</code> to switch to <code>root</code></li>
-</ul>
-<h2 id="improved-skills">Improved skills</h2>
-<ul>
-<li>Identifying vulnerabilities &amp; scripts with <code>linpeas.sh</code></li>
-</ul>
-<h2 id="used-tools">Used tools</h2>
-<ul>
-<li>nmap</li>
-<li>ttyd</li>
-<li>python</li>
-</ul>
-<hr>
-<h1 id="information-gathering">Information Gathering</h1>
-<p>Scanned all TCP ports:</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/oscp---pc---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
           <a href="/posts/oscp---pelican---linux/">OSCP - Pelican - Linux</a>
         </h1>
         <div class="post-meta"></div>
@@ -399,6 +345,38 @@
         
           <div>
             <a class="read-more button inline" href="/posts/oscp---pyloader---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/oscp---rubydome---linux/">OSCP - RubyDome - Linux</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="rubydome">RubyDome</h1>
+<p>Frustrating that a couple of key points in this box were only broken through with the use of the walkthrough. Throwing <code>127.0.0.1</code> into the website to break it was a new one (something to keep in mind for the future) but I&rsquo;d have never worked out without the walkthrough.</p>
+<p>Likewise the exploit initially appeared to be working perfectly but wasn&rsquo;t catching a shell, and it turned out I had to add &ldquo;pdf&rdquo; onto the end of the target web address.</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---rubydome---linux/">[Read more]</a>
           </div>
         
       </article>

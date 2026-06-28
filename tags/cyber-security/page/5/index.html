@@ -305,65 +305,6 @@
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/new-os-checklist---windows/">New OS Checklist - Windows</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <hr>
-<h1 id="windows">Windows</h1>
-<p>Format</p>
-<ul>
-<li><em>Reset</em>: Settings &gt; System &gt; Recovery</li>
-<li><em>USB Install</em></li>
-</ul>
-<p>Run</p>
-<ul>
-<li><input disabled="" type="checkbox"> O&amp;O ShutUp10++</li>
-<li><input disabled="" type="checkbox"> Chocolatey</li>
-</ul>
-<h2 id="chocolatey">Chocolatey</h2>
-<p><em>Initial Install</em></p>
-<ul>
-<li>Run Powershell as Administrator*</li>
-</ul>
-<pre tabindex="0"><code>Set-ExecutionPolicy Bypass -Scope Process -Force
-</code></pre><pre tabindex="0"><code>[System.Net.ServicePointManager]::SecurityProtocol = `
-[System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `
-iex ((New-Object System.Net.WebClient).DownloadString(&#39;https://community.chocolatey.org/install.ps1&#39;))
-</code></pre><ul>
-<li>IMPORTANT: Close PowerShell completely</li>
-<li>Reopen PowerShell, verify version</li>
-</ul>
-<pre tabindex="0"><code>choco --version
-</code></pre><p><em>Install Apps</em>:</p>
-<pre tabindex="0"><code>choco install Chrome vlc obsidian notepadplusplus steam vscode greenshot -y
-</code></pre><p>Standard Apps: Chrome googledrive vlc obsidian notepadplusplus steam vscode greenshot</p>
-<p><em>Upgrade All Apps</em></p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/new-os-checklist---windows/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
           <a href="/posts/notes---asd-annual-cyber-threat-report-2023-2024/">Notes - ASD Annual Cyber Threat Report 2023-2024</a>
         </h1>
         <div class="post-meta"></div>
@@ -450,6 +391,40 @@ Exam Questions - 3 days (~3000 questions)</li>
         
           <div>
             <a class="read-more button inline" href="/posts/notes---i-took-the-worlds-hardest-cybersecurity-exam-cissp/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/oscp/">OSCP</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/study/">study</a>&nbsp;
+            
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp/">[Read more]</a>
           </div>
         
       </article>
