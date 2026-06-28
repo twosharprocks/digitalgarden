@@ -180,37 +180,6 @@
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---authby---windows/">OSCP - Authby - Windows</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="authby">Authby</h1>
-<p>These Windows are doing my absolute head in. I spent hours on this box the day before following a multiple walkthroughs to the letter and got nowhere. I and wound up feeling so frustrated at not receiving even an initial shell that I marked this box as &ldquo;Aborted&rdquo; and shut down for the night - I figured there was no point pushing on and to just move on to the next Windows box.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/oscp---authby---windows/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
           <a href="/posts/oscp---blackgate---linux/">OSCP - Blackgate - Linux</a>
         </h1>
         <div class="post-meta"></div>
@@ -376,6 +345,38 @@ Setup hostnames: <code>sudo nano /etc/hosts</code> then add host/kali IPs</li>
         
           <div>
             <a class="read-more button inline" href="/posts/oscp---clue---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/oscp---cockpit---linux/">OSCP - Cockpit - Linux</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="cockpit">Cockpit</h1>
+<p>This one was originally listed as &ldquo;Hard&rdquo; in my list, but when I checked during startup it showed as &ldquo;Intermediate&rdquo;. Definitely don&rsquo;t think it should be listed as &ldquo;Intermediate&rdquo; though - this was definitely the trickest boxes I&rsquo;ve done, and I absolutely leaned heavily on the walkthrough to make progress here.</p>
+<p>The biggest challenge ofcourse was the box breaking everytime I tried to run <code>gobuster</code> against it to find directories or files. Turned out there was a hidden <code>login.php</code> file on the port <code>80</code> server, but I couldn&rsquo;t find the damn thing with the first few gobuster scans because the whole box would break and require revert. Worse was finding the <code>blocked.html</code> page which would break the box every time I visited it OR scanned it with <code>gobuster</code>.</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---cockpit---linux/">[Read more]</a>
           </div>
         
       </article>
