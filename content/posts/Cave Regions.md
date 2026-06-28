@@ -26,7 +26,7 @@ Cave regions are organised from broad geography down to country pages, local cav
 ## Oceania
 - [ACT]({{< relref "posts/act.md" >}})
 - [Christmas Island]({{< relref "posts/Christmas Island.md" >}})
-- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}})
+- [Kalimantan]({{< relref "posts/Kalimantan.md" >}})
 - [Moluccas - Indonesia]({{< relref "posts/Moluccas - Indonesia.md" >}})
 - [New Caledonia]({{< relref "posts/New Caledonia.md" >}})
 - [New South Wales]({{< relref "posts/New South Wales.md" >}})

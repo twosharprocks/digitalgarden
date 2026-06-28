@@ -1,7 +1,7 @@
 ---
 title: Expedition Calendar
 created: 2025-06-29
-updated: 2026-06-27
+updated: 2026-06-28
 status: tree
 draft: false
 tags:
@@ -15,14 +15,32 @@ Related:
 ---
 # Best Times
 Jan
-- **[New Zealand]({{< relref "posts/New Zealand.md" >}})
+- **[New Zealand]({{< relref "posts/New Zealand.md" >}}) - Jan-March
+- **[Philippines]({{< relref "posts/philippines.md" >}}) - Jan-April
+- [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
+- [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
 - 
 Feb
+- **[New Zealand]({{< relref "posts/New Zealand.md" >}}) - Jan-March
+- **[Philippines]({{< relref "posts/philippines.md" >}}) - Jan-April
+- [Laos]({{< relref "posts/laos.md" >}}) - Feb-March
+- [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
+- [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
 - 
 March
+- **[New Zealand]({{< relref "posts/New Zealand.md" >}}) - Jan-March
+- **[Philippines]({{< relref "posts/philippines.md" >}}) - Jan-April
+- [Kalimantan]({{< relref "posts/Kalimantan.md" >}}) - March-April
+- [Laos]({{< relref "posts/laos.md" >}}) - Feb-March
+- [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
+- [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
 - 
 April
-- 
+- **[Philippines]({{< relref "posts/philippines.md" >}}) - Jan-April
+- [Kalimantan]({{< relref "posts/Kalimantan.md" >}}) - March-April
+- [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
+- [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
+- ADEX - Singapore
 June
 - 
 July
@@ -32,19 +50,17 @@ August
 September
 - 
 October
+- [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
 - 
 November
+- [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
+- [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
 - 
 December
-- 
-
-- **[New Zealand]({{< relref "posts/New Zealand.md" >}}) - Jan-March
-- **[Philippines]({{< relref "posts/philippines.md" >}}) - Jan-April
-- **[Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
-- **[Laos]({{< relref "posts/laos.md" >}}) - Feb-March
-- *[Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}}) - March-April*
+- [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
-Q2
+
+---
 - Trip - ADEX Singapore - 2026 April *- April every year*
 - **[Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
 - **[Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
@@ -83,7 +99,7 @@ Q4
 	- [New Zealand]({{< relref "posts/New Zealand.md" >}}) (Q1)
 	- [Philippines]({{< relref "posts/philippines.md" >}}) (Q1)
 	- [Malaysia]({{< relref "posts/malaysia.md" >}})
-	- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}}) (Q4)
+	- [Kalimantan]({{< relref "posts/Kalimantan.md" >}}) (Q4)
 - [Europe]({{< relref "posts/europe.md" >}})
 	- [Malta - Gozo]({{< relref "posts/Malta - Gozo.md" >}}) (Q3)
 	- [France]({{< relref "posts/france.md" >}}), [Spain]({{< relref "posts/spain.md" >}}), [Portugal]({{< relref "posts/portugal.md" >}}) (Q3)

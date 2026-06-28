@@ -25,7 +25,7 @@ Australia
 - [ACT]({{< relref "posts/act.md" >}})
 - [Northern Territory]({{< relref "posts/Northern Territory.md" >}})
 Indonesia
-- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}})
+- [Kalimantan]({{< relref "posts/Kalimantan.md" >}})
 - [Sulawesi]({{< relref "posts/Sulawesi.md" >}})
 - [Moluccas - Indonesia]({{< relref "posts/Moluccas - Indonesia.md" >}})
 - [West Timor - Indonesia]({{< relref "posts/West Timor - Indonesia.md" >}})
