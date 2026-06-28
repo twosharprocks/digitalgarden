@@ -40,18 +40,25 @@ April
 - [Kalimantan]({{< relref "posts/Kalimantan.md" >}}) - March-April
 - [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
-- **ADEX - Singapore**
+- **[ADEX - Singapore - Always April](https://www.adex.asia/)**
+- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
+- 
 May
 - [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
 - [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
+- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
+- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
 - 
 June
 - [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
 - [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
 - [Bikini Atoll]({{< relref "posts/Bikini Atoll.md" >}}) - June-July
 	- [Lust4Rust 2027](https://petemesley.com/lust4rust/bikini-atoll/)
-- [Malaysian International Dive Expo](https://mide.com.my/)
+- [Malaysian International Dive Expo - always June](https://mide.com.my/)
 - [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
+- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
+- [Iceland]({{< relref "posts/iceland.md" >}}) - June-Sept
+- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
 - 
 July
 - [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
@@ -59,62 +66,63 @@ July
 - [Bikini Atoll]({{< relref "posts/Bikini Atoll.md" >}}) - June-July
 	- [Lust4Rust 2027](https://petemesley.com/lust4rust/bikini-atoll/)
 - [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
+- [Madagascar]({{< relref "posts/madagascar.md" >}}) - July-August
+- [Malta - Gozo]({{< relref "posts/Malta - Gozo.md" >}}) - July-September 
+- [Sulawesi]({{< relref "posts/Sulawesi.md" >}}) July-Oct
+- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
+- [Iceland]({{< relref "posts/iceland.md" >}}) - June-Sept
+- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
 - 
 August
-- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
+- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-Oct
 - [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
 - [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
 - [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
+- [Madagascar]({{< relref "posts/madagascar.md" >}}) - July-Aug
+- [Malta - Gozo]({{< relref "posts/Malta - Gozo.md" >}}) - July-Sept 
+- [Sulawesi]({{< relref "posts/Sulawesi.md" >}}) July-Oct
+- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
+- [Iceland]({{< relref "posts/iceland.md" >}}) - June-Sept
+- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
 - 
 September
 - [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
 - [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
 - [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
+- [Portugal]({{< relref "posts/portugal.md" >}}) - Sept-Oct
+- [Spain]({{< relref "posts/spain.md" >}}) - Sept-Oct
+- [Malta - Gozo]({{< relref "posts/Malta - Gozo.md" >}}) - July-September 
+- [Sulawesi]({{< relref "posts/Sulawesi.md" >}}) July-Oct
+- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
+- [Iceland]({{< relref "posts/iceland.md" >}}) - June-Sept
+- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
 - 
 October
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
 - [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
 - [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
 - [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
+- [Portugal]({{< relref "posts/portugal.md" >}}) - Sept-Oct
+- [Spain]({{< relref "posts/spain.md" >}}) - Sept-Oct
+- [Diving Talks Conference - always October](www.divingtalks.com)
+- [Sulawesi]({{< relref "posts/Sulawesi.md" >}}) July-Oct
+- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
+- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
 - 
 November
 - [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
 - [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
+- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
 - 
 December
 - [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
 
----
+
 - 
-- 
-- 
-- 
-- [Portugal]({{< relref "posts/portugal.md" >}})
-- [Spain]({{< relref "posts/spain.md" >}}) - Sept-Oct
-- [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}})- Oct-May
-Q3
-- **[Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
-- **[Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
-- **[Madagascar]({{< relref "posts/madagascar.md" >}}) - July-August
-- **[Malta - Gozo]({{< relref "posts/Malta - Gozo.md" >}}) - July-September 
-- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Sept-Nov
-- [Iceland]({{< relref "posts/iceland.md" >}}) - June-Sept
-- [Sulawesi]({{< relref "posts/Sulawesi.md" >}}) Aug-Sept
-- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - Sept-Dec
 - [Crete]({{< relref "posts/crete.md" >}})
 	- 2025 AUG-23-SEP-07 [SPOK Trip](https://docs.google.com/forms/d/e/1FAIpQLSd4DBKophrBjy7aQao10iRA19GqDuEcPKPqwjnRgJynr0tEeQ/viewform)
-- [France]({{< relref "posts/france.md" >}}) - August-***Sept***
-- [Portugal]({{< relref "posts/portugal.md" >}})/[Spain]({{< relref "posts/spain.md" >}}) - Sept-Oct
-	- [Diving Talks Conference - always October](www.divingtalks.com)
-Q4
-- **[Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
-- [Portugal]({{< relref "posts/portugal.md" >}})/[Spain]({{< relref "posts/spain.md" >}}) - Sept-Oct
-- [France]({{< relref "posts/france.md" >}}) - Sept-Oct
-- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - Oct
-- [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
-- [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
 - [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}}) - December (XMAS)
 - [Antarctica]({{< relref "posts/antarctica.md" >}}) - Nov-Feb
 
