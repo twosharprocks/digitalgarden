@@ -108,7 +108,17 @@ try {
     exit 1
 }
 
-# Step 3B: Convert Obsidian-style [[WikiLinks]] to Hugo relref Markdown
+# Step 3B: Expand supported Obsidian Dataview blocks into static Markdown.
+Write-Host 'Expanding Dataview blocks...'
+try {
+    & $pythonCommand 'dataview.py' $destinationPath
+    if ($LASTEXITCODE -ne 0) { throw "dataview.py exited with code $LASTEXITCODE" }
+} catch {
+    Write-Error 'Failed to expand Dataview blocks.'
+    exit 1
+}
+
+# Step 3C: Convert Obsidian-style [[WikiLinks]] to Hugo relref Markdown
 Write-Host 'Converting Obsidian WikiLinks...'
 try {
     & $pythonCommand 'images.py' '--wikilinks-only' $destinationPath 'posts'
@@ -118,7 +128,7 @@ try {
     exit 1
 }
 
-# Step 3C: Publish the processed About note at /about/ and at the site root.
+# Step 3D: Publish the processed About note at /about/ and at the site root.
 $processedAbout = Join-Path $destinationPath 'About.md'
 if (Test-Path -LiteralPath $processedAbout) {
     Write-Host 'Publishing processed About page at / and /about/...'

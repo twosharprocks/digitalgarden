@@ -179,7 +179,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---internal---windows/">OSCP - Internal - Windows</a>
+          <a href="/posts/notes---asd-annual-cyber-threat-report-2023-2024/">Notes - ASD Annual Cyber Threat Report 2023-2024</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -196,85 +196,40 @@
 
         <div class="post-content">
           
-            <h1 id="internal">Internal</h1>
-<p>These Windows boxes are getting more and more frustrating. This one I had four separate walkthroughs available and 5 different exploits I could run, and in the end I had to resort to Metasploit to catch a meterpreter shell. Even the Meterpreter shell was a pain in the ass - once I was in I knew I could navigate directly to the Administrator&rsquo;s desktop, but I had to type in each directory change one-by-one rather than going directly to the proof file.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---internal---windows/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---jacko---windows/">OSCP - Jacko - Windows</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="box">Box</h1>
-<p>What the actual fuck&hellip; I&rsquo;ll write this up tomorrow, but this was a combination of &ldquo;Why the fuck isn&rsquo;t this working&rdquo; with &ldquo;that is so fucking dumb&rdquo; when it did finally work</p>
-<h1 id="resolution-summary">Resolution summary</h1>
-<ul>
-<li>Ran Nmap to identify ports <code>80</code>, <code>135/445</code>, <code>445</code>, <code>5040</code>, <code>8082</code> &amp; <code>9092</code></li>
-<li>Navigated to port <code>8082</code> with browser and logged in with default credentials</li>
-<li>Found exploit for <code>H2 Database</code> and achieved code execution via SQL</li>
-<li>Uploaded &amp; executed reverse shell via SQL statements for initial access</li>
-<li>Identified <code>Paperstream</code> software and found exploit <code>49382.py</code></li>
-<li>Used <code>msfvenom</code> to create reverse shell <code>dll</code> with <code>x86</code> architecture &amp; <code>xor_dynamic</code></li>
-<li>Uploaded <code>dll</code> and <code>49382.ps1</code> to target via <code>iwr</code></li>
-<li>Ran <code>49382.ps1</code> on target and recieved reverse shell as <code>NT-system</code></li>
-</ul>
-<h2 id="improved-skills">Improved skills</h2>
-<ul>
-<li>Generating msfvenom payloads</li>
-<li>Working with Windows kernel exploits (specifically potatos)</li>
-</ul>
-<h2 id="used-tools">Used tools</h2>
-<ul>
-<li>nmap</li>
-<li>python</li>
-<li>msfvenom</li>
-<li>powershell</li>
-</ul>
+            <p>Reference: <a href="https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2023-2024">https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2023-2024</a></p>
 <hr>
-<h1 id="information-gathering">Information Gathering</h1>
-<p>Scanned all TCP ports:</p>
+<h1 id="executive-summary">Executive Summary</h1>
+<p>State-sponsored cyber actors persistently targeting Australian government, critical infrastructure, and businesses using evolving tradecraft. (Espionage, malign influence, interference and coercion)</p>
+<ul>
+<li>Chinese state actors leveraging LOTL, behaviour consistent with pre-positioning for disruption</li>
+<li>Russia adapting techniques including cloud platform exploitation.</li>
+<li>Critical infrastructure is an attractive target, making up 11% of ASD incident responses</li>
+<li>Cybercrime is persistent and disruptive, and adapting to capitalise on AI.</li>
+</ul>
+<h1 id="year-in-review">Year In Review</h1>
+<p>Top 3 self-reported business crimes</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---jacko---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/notes---asd-annual-cyber-threat-report-2023-2024/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---kevin---windows-dnf/">OSCP - Kevin - Windows (DNF)</a>
+          <a href="/posts/notes---brief-history--ethos-of-the-digital-garden/">Notes - Brief History &amp; Ethos of the Digital Garden</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            #<a href="/tags/knowledge-management/">knowledge-management</a>&nbsp;
+            
+            #<a href="/tags/creativity/">creativity</a>&nbsp;
             
           </span>
         
@@ -284,22 +239,34 @@
 
         <div class="post-content">
           
-            <h1 id="kevin">Kevin</h1>
-<p>I&rsquo;ve checked all the walkthroughs, tried countless variations of the easily available exploits, even reimaged my entire Kali VM trying to make this script work&hellip; and nothing I&rsquo;ve done has caught a reverse shell.</p>
-<p>Honestly not sure what else to do, other than to write this off as a learning experience (?) and move on. If I get a buffer overflow exploit in the exam (which I think they&rsquo;ve stopped now anyway) I&rsquo;ll just move the fuck on because nothing I&rsquo;ve done on this box or the last one has really made any sense.</p>
+            <p>Reference: <a href="https://maggieappleton.com/garden-history">https://maggieappleton.com/garden-history</a></p>
+<hr>
+<h1 id="brief-history--ethos-of-the-digital-garden">Brief History &amp; Ethos of the Digital Garden</h1>
+<p>Avoiding &ldquo;personal blog&rdquo; and more like free-form work-in-progress wikis
+A collection of evolving ideas not organised by publication
+Half-finished thoughts that grow and evolve with time
+&ldquo;Less perfect&rdquo; - like the early days of the web</p>
+<ul>
+<li>WikiGardeners <a href="https://wiki.c2.com/?WikiGardener">https://wiki.c2.com/?WikiGardener</a> and WikiGnomes - <a href="https://wiki.c2.com/?WikiGnome">https://wiki.c2.com/?WikiGnome</a>
+<a href="https://www.youtube.com/watch?v=ckv_CjyKyZY&amp;feature=emb_logo">Mike Caulfield</a> coining the term <a href="https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/">&ldquo;Digital Gardening&rdquo;</a>
+&ldquo;Campfires&rdquo; as conversational spaces to exchange still-forming ideas
+Joel Hooks <a href="https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/">&ldquo;My blog is a digital garden&rdquo;</a>
+Amy Hoy&rsquo;s <a href="https://stackingthebricks.com/how-blogs-broke-the-web/">&ldquo;How the Blog Broke the Web</a></li>
+</ul>
+<p><code>Is GitHub you digital garden? A space to share ideas, work, files, ect in a semi-structured manner?</code></p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---kevin---windows-dnf/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/notes---brief-history--ethos-of-the-digital-garden/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---lavita---linux/">OSCP - LaVita - Linux</a>
+          <a href="/posts/notes---i-took-the-worlds-hardest-cybersecurity-exam-cissp/">Notes - I Took The World’s HARDEST Cybersecurity Exam (CISSP)</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -307,6 +274,8 @@
           <span class="post-tags">
             
             #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+            #<a href="/tags/cissp/">cissp</a>&nbsp;
             
           </span>
         
@@ -316,29 +285,46 @@
 
         <div class="post-content">
           
-            <h1 id="lavita">LaVita</h1>
-<p>This box started out really well with plenty of through enumeration to identify the vulnerability, but I fell down trying to gain initial access with the exploits. I tried several, and persisted with the most well developed exploit thinking it would be the way forward.</p>
-<p>The issue was not realising the exploit would stop working after the first success, so after testing it with the <code>uname -a</code> or <code>id</code> commands, it would then not work when I tried to repeat with a reverse shell command. it took awhile to realise that there were 21 chains available, and so there was no need to keep using the &ldquo;last working&rdquo; chain, because it was only working once anyway. I also stopped trying to test with <code>id</code> and just threw the reverse shell command in straight away - I already knew the exploit worked <em>sometimes</em> so may as well try to establish a shell each time I tried.</p>
+            <p>Reference: Original: <a href="https://www.youtube.com/watch?v=9BZaim2uQn0">https://www.youtube.com/watch?v=9BZaim2uQn0</a></p>
+<hr>
+<p>4 hour exam, up to 175 questions but adaptive (can cut off at 125)
+Recommend Study</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=_nyZhYnCNLA">Pete Zerger&rsquo;s 8 hour CISSP Exam Cram</a> - 4 days watching video
+<ul>
+<li>Split up domains, watched 2 per day at 1.25x speed, took notes throughout, then practice tests on just those two domains</li>
+</ul>
+</li>
+<li><a href="https://www.amazon.com.au/Certified-Information-Security-Professional-Official-ebook/dp/B097NHJK9Q/">Official Study Guide </a>
+<ul>
+<li>Includes multiple practice tests and full length exams
+Exam Questions - 3 days (~3000 questions)</li>
+</ul>
+</li>
+<li><a href="https://www.boson.com/practice-exam/cissp-isc2-practice-exam">ExSim-Max for CISSP</a> Practice Exams - $75 for 700 questions</li>
+<li><a href="https://www.pocketprep.com/exams/isc2-cissp/">PocketPrep</a> - $25 for 1000 questions</li>
+</ul>
+<p>Questions are as vague as people say</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---lavita---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/notes---i-took-the-worlds-hardest-cybersecurity-exam-cissp/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---law---linux/">OSCP - Law - Linux</a>
+          <a href="/posts/notes---notebooklm-with-obsidian/">Notes - NotebookLM with Obsidian</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            #<a href="/tags/knowledge-management/">knowledge-management</a>&nbsp;
             
           </span>
         
@@ -348,15 +334,74 @@
 
         <div class="post-content">
           
-            <h1 id="law">Law</h1>
-<p>This one was another absolute slog. Identifying exploits for htmLawed v1.2.5 was very straightforward, and I got a little excited when I saw an RCE exploit had been found this year (2024).</p>
-<p>Running the exploit didn&rsquo;t work though, so I started researching the vulnerability further while trying to avoid the walkthroughs. I found the <a href="https://mayfly277.github.io/posts/GLPI-htmlawed-CVE-2022-35914/">Mayfly article on the CVE</a> which added a lot of extra context, and checking the walkthrough helped me realise why the Burpsuite request wasn&rsquo;t working properly (the request was to a non-existent page, and needed to be changed to <code>/</code>).</p>
+            <hr>
+<p>Notebook LM accepts Markdown
+Notebook LM does not use personal data to train the model</p>
+<p>Research and Execution</p>
+<ul>
+<li>Sources - Import your notes, youtube videos, audio files</li>
+<li>Save Notes so you can keep output</li>
+<li>Convert to Source if you want to use output as a source later</li>
+<li>Copy &amp; Paste conversation back into Obsidian (tag with <code>containsAI</code>)</li>
+<li>Output an audio overview - listen while on a walk</li>
+</ul>
+<p>Personal Plan</p>
+<ul>
+<li>Bring in a bundle of sources that interest you, then ask questions</li>
+</ul>
+<p>Social Media Generator</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---law---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/notes---notebooklm-with-obsidian/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/notes---the-garden-and-the-stream/">Notes - The Garden and the Stream</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/knowledge-management/">knowledge-management</a>&nbsp;
+            
+            #<a href="/tags/personal/">personal</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>Reference: <a href="https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/">https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/</a></p>
+<hr>
+<p>The Garden - the web as topology, web as space.</p>
+<ul>
+<li>Web as arrangement and rearrangement, relational</li>
+<li>Multi-linear approaches - every walk through the garden is different every time</li>
+<li>“Did the bridge come after these trees” in a well-designed garden is meaningless historical trivia.</li>
+</ul>
+<p>The Stream - Jump in and let it flow past</p>
+<ul>
+<li>Stream replaces topology with serialisation (Twitter, Facebook, Instagram)</li>
+<li>Single, time-ordered path with our experience (and only our experience) at the centre</li>
+<li>Stream is self-assertive (Garden is integrative)</li>
+</ul>
+<p>&ldquo;As We May Think&rdquo; by Vannevar Bush - Essay was inspiration for the pioneers of hypertext</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/notes---the-garden-and-the-stream/">[Read more]</a>
           </div>
         
       </article>

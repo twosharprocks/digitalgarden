@@ -179,40 +179,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---twiggy---linux/">OSCP - Twiggy - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="twiggy">Twiggy</h1>
-<p>Went down the rabbit hole with port 80 &amp; port 8000 too quickly, thinking this would require SQL injection or some sort of weird user enumeration to get into a web platform.</p>
-<p>Turns out the I needed to run nmap again with a full port scan (<code>-p- -T5</code>) and pick up ALL the ports before an aggressive service scan (<code>-A -p 22,55,ect</code>).</p>
-<p>2nd scan picked up <code>4505</code> and <code>4506</code> which correspond to ZeroMQ ZMTP 2.0 (saltStack). Looking up Saltstack showed a vulnerability (CVE-2020-11652)</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---twiggy---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---windows/">OSCP - Windows</a>
+          <a href="/posts/oscp---active-directory/">OSCP - AD - 6</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -230,48 +197,33 @@
         <div class="post-content">
           
             <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
-<h1 id="tj-null---pg-practice">TJ Null - PG Practice</h1>
-<p><del>Helpdesk</del> (Not available)</p>
-<p>Easy - 1/4</p>
+<h1 id="tj-null---6">TJ Null - 6</h1>
 <ul>
-<li><input checked="" disabled="" type="checkbox"> Algernon - Easy</li>
-<li><input checked="" disabled="" type="checkbox"> Squid - Easy</li>
-<li><input checked="" disabled="" type="checkbox"> Internal - Easy</li>
-<li><input disabled="" type="checkbox"> <del>Kevin - Easy</del> (Aborted)</li>
-</ul>
-<p>Intermediate - 6/9</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Authby - Intermediate</li>
-<li><input checked="" disabled="" type="checkbox"> Hutch - Intermediate</li>
-<li><input checked="" disabled="" type="checkbox"> Jacko - Intermediate</li>
+<li><input checked="" disabled="" type="checkbox"> Access - Intermediate</li>
+<li><input disabled="" type="checkbox"> Hokkaido - Intermediate</li>
 <li><input disabled="" type="checkbox"> Resourced - Intermediate</li>
-<li><input disabled="" type="checkbox"> DVR4 - Intermediate</li>
-<li><input disabled="" type="checkbox"> Hepet - Intermediate</li>
-<li><input disabled="" type="checkbox"> Shenzi - Intermediate</li>
-<li><input disabled="" type="checkbox"> Nickel - Intermediate</li>
-<li><input disabled="" type="checkbox"> Slort - Intermediate</li>
+<li><input disabled="" type="checkbox"> Heist - Hard</li>
+<li><input disabled="" type="checkbox"> Vault - Hard</li>
+<li><input disabled="" type="checkbox"> Nagoya - Hard</li>
 </ul>
-<p>Hard 1/1</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---active-directory/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp-exam-prep/">OSCP Exam Prep</a>
+          <a href="/posts/oscp---algernon---windows/">OSCP - Algernon - Windows</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
-            
-            #<a href="/tags/oscp/">oscp</a>&nbsp;
             
             #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
@@ -283,55 +235,28 @@
 
         <div class="post-content">
           
-            <hr>
-<p>ProvingGrounds (very close to OSCP)</p>
-<ul>
-<li><strong>PG Practice</strong>: Structured, guided learning with focused challenges to teach specific skills.</li>
-<li><strong>PG Play</strong>: Open, unguided labs that simulate real-world penetration testing <em>(best for OSCP prep)</em></li>
-</ul>
-<p>OffSec Challenge labs</p>
-<ul>
-<li>Challenge 0-2: Good warmup</li>
-<li>Challenge 3: Beyond scope of exam</li>
-<li><strong>Challenge 4-6</strong>: <em>OSCP-like experience</em>
-<ul>
-<li>Give yourself 24hrs for each</li>
-</ul>
-</li>
-</ul>
-<p>TjNull&rsquo;s List (excellent)</p>
-<ul>
-<li><a href="https://www.youtube.com/playlist?list=PLidcsTyj9JXK-fnabFLVEvHinQ14Jy5tf">Ipsec videos</a></li>
-<li><a href="https://www.youtube.com/playlist?list=PLcSbj5mz-wxPK8KD522vH5Gny4bSemX2H">NoxLumens Walkthroughs</a></li>
-</ul>
-<p>HTB Academy - CPTS</p>
-<ul>
-<li>Active Directory &amp; Enumeration</li>
-<li>Pivoting and tunnelling</li>
-<li>Attacking Common Services</li>
-<li>PrivEsc - Windows &amp; Linux</li>
-<li>File Transfer</li>
-</ul>
+            <h1 id="algernon">Algernon</h1>
+<p>This was my first shift across from Linux into Windows, and I&rsquo;ll freely admit to being a little overwhelmed at all the open ports and not knowing quite where to start. Realising the FTP had an anonymous login was straight forward, and identifiying the <code>admin</code> user from the logs was nice, but it turned out to be a deadend and the real solution was 10x easier than what I&rsquo;d experienced with the last few Linux boxes - I really needed to reset my expectations.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp-exam-prep/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---algernon---windows/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/pacific-north-west/">Pacific North-West</a>
+          <a href="/posts/oscp---astronaut---linux/">OSCP - Astronaut - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -341,72 +266,29 @@
 
         <div class="post-content">
           
-            <p>Pacific North-West is listed under <a href="/posts/north-america/">North America</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-<hr>
-<h1 id="existing-notes">Existing Notes</h1>
-<h1 id="about">About</h1>
-<h2 id="us">US</h2>
-<ul>
-<li><a href="https://nwdiveclub.com/viewtopic.php?t=13516">Clear Lake, Oregon</a> (Cave)</li>
-</ul>
-<ul>
-<li><a href="http://www.underseaadventures.net/titan-i-missile-silo-silo-diving-dive-into-history.htm">Royal City, Washington - Titan I Missile Silo</a></li>
-<li>Colorado - <a href="https://en.wikipedia.org/wiki/Spring_Cave">Spring Cave </a>(Only open April 16 - Aug 14), Aspen (<a href="https://www.beaverdivers.com/">Beaver Divers</a>)</li>
-</ul>
-<h2 id="canada">Canada</h2>
-<p>British Columbia - <a href="http://www.cavediver.net/forum/showthread.php/7140-Caves-on-Vancouver-Island-British-Columbia?s=a31f1a0e05071f932947b790ea1bc266">Vancouver Island</a>, <a href="https://www.narcity.com/amp/7-cool-caves-to-explore-in-british-columbia-this-summer">7 Caves in BC</a>, <a href="https://www.cbc.ca/amp/1.4488952">Canada’s Deepest Cave</a>, <a href="https://www.canadiangeographic.ca/article/subterranean-trailblazers">Castleguard</a></p>
-<ul>
-<li><a href="https://doublearrowdivecompany.ca/dive-sites/">Double Arrow Dive Company</a></li>
-</ul>
-<h1 id="caves">Caves</h1>
-<ul>
-<li></li>
-</ul>
-<h1 id="trips">Trips</h1>
-<ul>
-<li></li>
-</ul>
-<hr>
-<h1 id="references">References</h1>
+            <h1 id="astronaut">Astronaut</h1>
+<p>Much quicker and more useful experience than <code>Exfiltrated</code>. Did my own enumeration, and used the <a href="https://medium.com/@ardian.danny/oscp-practice-series-20-proving-grounds-astronaut-627bc41a86ef">walkthrough</a> only as a guide when getting stuck.</p>
+<p>Discovering &ldquo;blind&rdquo; exploits was interesting, however it made sense that if the exploit isn&rsquo;t generating any output and not creating a reverse shell, that you might need to add a <code>-c</code> command with a line of bash to establish a reverse shell instead. Although once again all the instructions were in the script if you looked - <em><strong>always read the script!</strong></em></p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/pacific-north-west/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---astronaut---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/palau/">Palau</a>
+          <a href="/posts/oscp---authby---windows/">OSCP - Authby - Windows</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/personal/">personal</a>&nbsp;
-            
-            #<a href="/tags/trips/">trips</a>&nbsp;
-            
-            #<a href="/tags/expeditions/">expeditions</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -416,16 +298,45 @@
 
         <div class="post-content">
           
-            <h1 id="about">About</h1>
-<p>Best time to go is May (Rubens)
-Palau offers <strong>year-round diving</strong>, but the <strong>dry season</strong> from <strong>October to May</strong> is considered the best time to visit. During this period, divers can expect calmer seas, better visibility (often exceeding 30 meters), and a higher likelihood of encountering diverse marine life.</p>
-<p>Palau&rsquo;s <strong>Rock Islands</strong>, a UNESCO World Heritage Site, are characterized by <strong>uplifted coral limestone formations</strong> that have been sculpted over millions of years by natural processes such as erosion, tidal action, and sea-level changes. This has resulted in a stunning karst topography featuring <strong>mushroom-shaped islands</strong>, <strong>caves</strong>, <strong>sinkholes</strong>, and <strong>underground channels</strong>. These formations are not only geologically significant but also contribute to the rich biodiversity and unique ecosystems found in the region</p>
+            <h1 id="authby">Authby</h1>
+<p>These Windows are doing my absolute head in. I spent hours on this box the day before following a multiple walkthroughs to the letter and got nowhere. I and wound up feeling so frustrated at not receiving even an initial shell that I marked this box as &ldquo;Aborted&rdquo; and shut down for the night - I figured there was no point pushing on and to just move on to the next Windows box.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/palau/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---authby---windows/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---blackgate---linux/">OSCP - Blackgate - Linux</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="blackgate">Blackgate</h1>
+<p>This is the first of the &ldquo;Hard&rdquo; machines I&rsquo;ve tackled, so I&rsquo;d been worried it may have been a major step up from what I&rsquo;d been doing previously. Surprisingly though, this was very much a case of googling and learning about a service I&rsquo;d never heard of (Redis), connecting to it to test a few commands, and then finding the version I was connected to had a well known RCE exploit and using it to achieve initial access!</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---blackgate---linux/">[Read more]</a>
           </div>
         
       </article>
