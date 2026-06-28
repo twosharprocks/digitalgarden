@@ -1,7 +1,7 @@
 ---
 title: Speaking
 created: 2025-11-01
-updated: 2025-11-01
+updated: 2026-06-28
 status: seed
 draft: false
 tags:
@@ -15,7 +15,7 @@ Related:
 ---
 ---
 My next keynote will be about being a life-long diver. 
-- Being one hell of a swimmer and being tolerant to the cold.
+- Being one hell of a swimmer & tolerant to the cold.
 
 Topics
 AI, Quantum Computing, Gunter Anders, Year 2038 Problem
