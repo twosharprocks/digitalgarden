@@ -1,4 +1,4 @@
-﻿---
+---
 title: Photogrammetry - Processing
 created: 2025-10-19
 updated: 2025-10-30
