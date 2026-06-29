@@ -311,11 +311,7 @@
 
         <div class="post-content">
           
-            <hr>
-<ul>
-<li>To Write - <a href="/posts/mini-essay---letter-to-yourself-in-5-years/">Mini Essay - Letter to Yourself in 5 Years</a> - Where do I want to be in 2031?</li>
-</ul>
-<pre tabindex="0"><code class="language-dataviewjs" data-lang="dataviewjs">const pages = dv.pages(&#34;&#34;)
+            <pre tabindex="0"><code class="language-dataviewjs" data-lang="dataviewjs">const pages = dv.pages(&#34;&#34;)
   .where(page =&gt;
     dv.array(page.tags).includes(&#34;mini-essay&#34;) &amp;&amp;
     page.file.path !== dv.current().file.path
@@ -323,14 +319,11 @@
   .sort(page =&gt; page.updated, &#34;desc&#34;);
 
 const list = dv.container.createEl(&#34;ul&#34;);
-list.setAttribute(
-  &#34;style&#34;,
-  &#34;font-size: var(--font-text-size) !important; line-height: 1.6 !important; padding-inline-start: 2em !important; margin-block: 1em !important;&#34;
-);
+list.style.listStyle = &#34;none&#34;;
 
 for (const page of pages) {
   const item = list.createEl(&#34;li&#34;);
-  item.setAttribute(&#34;style&#34;, &#34;margin-block: 0.35em !important;&#34;);
+  item.createSpan({ cls: &#34;list-bullet&#34; });
   item.createEl(&#34;a&#34;, {
     text: page.file.name,
     cls: &#34;internal-link&#34;,
