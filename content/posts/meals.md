@@ -1,7 +1,7 @@
 ---
 title: Meals
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-29
 status: seed
 draft: false
 tags:
@@ -24,17 +24,33 @@ Related: "[[Meals]]"
 - [Meal - Giant Chicken Poppers]({{< relref "posts/Meal - Giant Chicken Poppers.md" >}}) 
 - [Meal - Chicken Alfredo Tortellini]({{< relref "posts/Meal - Chicken Alfredo Tortellini.md" >}})
 ## Quick Meals
-- [Air Fryer Nachos]({{< relref "posts/Meal - Air Fryer Nachos.md" >}})
-- [Big Mac Toastie]({{< relref "posts/Meal - Big Mac Toastie.md" >}})
-- [Chicken Pesto Flatbread]({{< relref "posts/Meal - Chicken Pesto Flatbread.md" >}})
-- [Chili Garlic Noodles]({{< relref "posts/Meal - Chili Garlic Noodles.md" >}})
-- [Feta Fried Egg Tortilla]({{< relref "posts/Meal - Feta Fried Egg Tortilla.md" >}})
-- [Garlic Butter Jalapeño Popper Croissants]({{< relref "posts/Meal - Garlic Butter Jalapeño Popper Croissants.md" >}})
-- [Hash Brown Feta Bites]({{< relref "posts/Meal - Hash Brown Feta Bites.md" >}})
-- [Honey Soy Chicken Stir Fry]({{< relref "posts/Meal - Honey Soy Chicken Stir Fry.md" >}})
-- [Loaded Breakfast Wrap]({{< relref "posts/Meal - Loaded Breakfast Wrap.md" >}})
-- [Pizza Cupcakes]({{< relref "posts/Meal - Pizza Cupcakes.md" >}})
-- [Spicy Peanut Dumplings]({{< relref "posts/Meal - Spicy Peanut Dumplings.md" >}})
+```dataviewjs
+const pages = dv.pages("")
+  .where(page =>
+    dv.array(page.tags).includes("meal") &&
+    dv.array(page.tags).includes("quick")
+  )
+  .sort(page => page.file.name, "asc");
+
+const list = dv.container.createEl("ul");
+list.setAttribute(
+  "style",
+  "font-size: var(--font-text-size) !important; line-height: 1.6 !important; padding-inline-start: 2em !important; margin-block: 1em !important;"
+);
+
+for (const page of pages) {
+  const item = list.createEl("li");
+  item.setAttribute("style", "margin-block: 0.35em !important;");
+  item.createEl("a", {
+    text: page.file.name,
+    cls: "internal-link",
+    attr: {
+      "data-href": page.file.path,
+      href: page.file.path
+    }
+  });
+}
+```
 # To Try
 - [Meal - Chipotle Beef & Crispy Chorizo Gnocchi]({{< relref "posts/Meal - Chipotle Beef & Crispy Chorizo Gnocchi.md" >}})
 - [Meal - Honey Garlic Chicken Fried Rice]({{< relref "posts/Meal - Honey Garlic Chicken Fried Rice.md" >}})
@@ -217,4 +233,3 @@ Related: "[[Meals]]"
 | [Spicy Chicken Rice Bowl]({{< relref "posts/Meal - Spicy Chicken Rice Bowl.md" >}}) | meal, chicken, rice, spicy, meal-prep |
 | [Spicy Peanut Dumplings]({{< relref "posts/Meal - Spicy Peanut Dumplings.md" >}}) | meal, dumplings, peanut, spicy, quick, oven |
 | [Stuffed Crust Pizza]({{< relref "posts/Meal - Stuffed Crust Pizza.md" >}}) | meal, pizza, tortillas, low-carb, oven |
-

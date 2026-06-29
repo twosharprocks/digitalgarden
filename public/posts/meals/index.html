@@ -253,20 +253,32 @@ Meal - High Protein Mexican Bowl
 </li>
 </ul>
 <h2 id="quick-meals">Quick Meals<a href="#quick-meals" class="hanchor" ariaLabel="Anchor">#</a> </h2>
-<ul>
-<li><a href="/posts/meal---air-fryer-nachos/">Air Fryer Nachos</a></li>
-<li><a href="/posts/meal---big-mac-toastie/">Big Mac Toastie</a></li>
-<li><a href="/posts/meal---chicken-pesto-flatbread/">Chicken Pesto Flatbread</a></li>
-<li><a href="/posts/meal---chili-garlic-noodles/">Chili Garlic Noodles</a></li>
-<li><a href="/posts/meal---feta-fried-egg-tortilla/">Feta Fried Egg Tortilla</a></li>
-<li><a href="/posts/meal---garlic-butter-jalape%C3%B1o-popper-croissants/">Garlic Butter Jalapeño Popper Croissants</a></li>
-<li><a href="/posts/meal---hash-brown-feta-bites/">Hash Brown Feta Bites</a></li>
-<li><a href="/posts/meal---honey-soy-chicken-stir-fry/">Honey Soy Chicken Stir Fry</a></li>
-<li><a href="/posts/meal---loaded-breakfast-wrap/">Loaded Breakfast Wrap</a></li>
-<li><a href="/posts/meal---pizza-cupcakes/">Pizza Cupcakes</a></li>
-<li><a href="/posts/meal---spicy-peanut-dumplings/">Spicy Peanut Dumplings</a></li>
-</ul>
-<h1 id="to-try">To Try<a href="#to-try" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<pre tabindex="0"><code class="language-dataviewjs" data-lang="dataviewjs">const pages = dv.pages(&#34;&#34;)
+  .where(page =&gt;
+    dv.array(page.tags).includes(&#34;meal&#34;) &amp;&amp;
+    dv.array(page.tags).includes(&#34;quick&#34;)
+  )
+  .sort(page =&gt; page.file.name, &#34;asc&#34;);
+
+const list = dv.container.createEl(&#34;ul&#34;);
+list.setAttribute(
+  &#34;style&#34;,
+  &#34;font-size: var(--font-text-size) !important; line-height: 1.6 !important; padding-inline-start: 2em !important; margin-block: 1em !important;&#34;
+);
+
+for (const page of pages) {
+  const item = list.createEl(&#34;li&#34;);
+  item.setAttribute(&#34;style&#34;, &#34;margin-block: 0.35em !important;&#34;);
+  item.createEl(&#34;a&#34;, {
+    text: page.file.name,
+    cls: &#34;internal-link&#34;,
+    attr: {
+      &#34;data-href&#34;: page.file.path,
+      href: page.file.path
+    }
+  });
+}
+</code></pre><h1 id="to-try">To Try<a href="#to-try" class="hanchor" ariaLabel="Anchor">#</a> </h1>
 <ul>
 <li>
 <p><a href="/posts/meal---chipotle-beef--crispy-chorizo-gnocchi/">Meal - Chipotle Beef &amp; Crispy Chorizo Gnocchi</a></p>
