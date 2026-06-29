@@ -33,7 +33,7 @@ Writing, essays, articles, book projects, older website posts, and notes about m
 - [Article - Making Sense with MNemo]({{< relref "posts/Article - Making Sense with MNemo.md" >}})
 - [Article - Unveiling the Crazy Wombat Tunnel]({{< relref "posts/Article - Unveiling the Crazy Wombat Tunnel.md" >}})
 - [Article - What's Your ppO2]({{< relref "posts/Article - What's Your ppO2.md" >}})
-# [Mini Essays]({{< relref "posts/Mini Essays (conflict 2026-06-29-23-05-33).md" >}})
+# [Mini Essays]({{< relref "posts/Mini Essays.md" >}})
 - [Effective Note-Taking to Remember More + Create New Ideas]({{< relref "posts/Effective Note-Taking to Remember More + Create New Ideas.md" >}})
 - [Mini Essay - If you had a year to live]({{< relref "posts/Mini Essay - If you had a year to live.md" >}})
 - [Mini Essay - Dune]({{< relref "posts/Mini Essay - Dune.md" >}})

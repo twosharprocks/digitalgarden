@@ -7,8 +7,7 @@ draft: false
 tags:
   - writing
   - interests
-  - mini-essay
-Related: 
+Related:
   - "[[Writing]]"
   - "[[Mini Essays - Ideas]]"
   - "[[Template - Mini Essay]]"

@@ -23,7 +23,7 @@ Priorities
 - Do cool shit with cool people 
 
 ---
-Comics - Write [Mini Essays]({{< relref "posts/Mini Essays (conflict 2026-06-29-23-05-33).md" >}}) about these
+Comics - Write [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) about these
 - [Oatmeal - Plane](https://theoatmeal.com/comics/plane)
 - [Oatmeal - Unhappy](https://theoatmeal.com/comics/unhappy)
 - [SMBC - 11 Lives](https://www.smbc-comics.com/index.php?db=comics&id=2722)
