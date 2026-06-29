@@ -148,13 +148,6 @@
       <description>&lt;p&gt;Where do I want to be in 5 Years time?&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Dear Josh in 2031,&#xA;Firstly I hope you&amp;rsquo;re still around to read this. Given the way your life has changed through the years, you&amp;rsquo;ve gone through plenty of period where you didn&amp;rsquo;t think you&amp;rsquo;d make it another 5 years. So if you&amp;rsquo;re reading this, nice work - you made it!&lt;/p&gt;&#xA;&lt;p&gt;You&amp;rsquo;ll be 45 when you&amp;rsquo;re reading this and a about a month and a half away from your 46th birthday. Right now 46 doesn&amp;rsquo;t feel as significant at 45 does, in much the same way 40 didn&amp;rsquo;t feel as significant as I think 42 will be. You&amp;rsquo;ll have been diving for 34 years, with the last 2 of them cave diving. You&amp;rsquo;ll also have a decade of &lt;a href=&#34;/posts/cyber-security/&#34;&gt;Cyber Security&lt;/a&gt; experience if you&amp;rsquo;re still doing it, which seems pretty uncertain right now. You&amp;rsquo;ve just started work with Alpha Echo after a bumpy 6-8 months leaving ElectraNet, going to Sulawesi and Antarctica, breaking up with Chloe, living in a Van, moving in with Simone, and asking a lot of questions about who or what you want to be.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Mini Essay - Letter to Yourself in 5 Years</title>
-      <link>/posts/mini-essay---letter-to-yourself-in-5-years/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/posts/mini-essay---letter-to-yourself-in-5-years/</guid>
-      <description>&lt;p&gt;Where do I want to be in 2031?&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;/posts/bucket-list/&#34;&gt;Bucket List&lt;/a&gt;, Personal&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Dear Josh in 2031,&#xA;Firstly I hope you&amp;rsquo;re still around to read this. Given the way your life has changed through the years, you&amp;rsquo;ve gone through plenty of period where you didn&amp;rsquo;t think you&amp;rsquo;d make it another 5 years. So if you&amp;rsquo;re reading this, nice work - you made it!&lt;/p&gt;&#xA;&lt;p&gt;You&amp;rsquo;ll be 45 when you&amp;rsquo;re reading this and a about a month and a half away from your 46th birthday. Right now 46 doesn&amp;rsquo;t feel as significant at 45 does, in much the same way 40 didn&amp;rsquo;t feel as significant as I think 42 will be. You&amp;rsquo;ll have been diving for 34 years, with the last 2 of them cave diving. You&amp;rsquo;ll also have a decade of &lt;a href=&#34;/posts/cyber-security/&#34;&gt;Cyber Security&lt;/a&gt; experience if you&amp;rsquo;re still doing it, which seems pretty uncertain right now. You&amp;rsquo;ve just started work with Alpha Echo after a bumpy 6-8 months leaving ElectraNet, going to Sulawesi and Antarctica, breaking up with Chloe, living in a Van, moving in with Simone, and asking a lot of questions about who or what you want to be.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Mini Essay - MechWarrior</title>
       <link>/posts/mini-essay---mechwarrior/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -314,20 +307,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/posts/mini-essay---your-evil-secret-plan/</guid>
       <description>&lt;hr&gt;&#xA;&lt;p&gt;Ask yourself &amp;ldquo;What is your evil secret plan?&amp;rdquo;. Ultimately this is a question about how you&amp;rsquo;re going to use the system to do the things that YOU want to do and live the life you want to live. We&amp;rsquo;re not talking about blindly trying to &amp;ldquo;Live your dreams&amp;rdquo; - we&amp;rsquo;re talking about gaming the system so it looks like you&amp;rsquo;re playing along with everyone else, but you&amp;rsquo;re hacking the game so you do exactly what you want regardless of what others may expect or even demand of you. So you&amp;rsquo;re not playing by any rules, but you are faking compliance while you put all the pieces into place to subvert expectations.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mini Essays</title>
-      <link>/posts/mini-essays-conflict-2026-06-29-23-05-33/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/posts/mini-essays-conflict-2026-06-29-23-05-33/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To Write - &lt;a href=&#34;/posts/mini-essay---letter-to-yourself-in-2031/&#34;&gt;Mini Essay - Letter to Yourself in 2031&lt;/a&gt; - Where do I want to be in 2031?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-dataview&#34; data-lang=&#34;dataview&#34;&gt;const pages = dv.pages(&amp;#34;&amp;#34;)&#xD;&#xA;  .where(page =&amp;gt;&#xD;&#xA;    dv.array(page.tags).includes(&amp;#34;mini-essay&amp;#34;) &amp;amp;&amp;amp;&#xD;&#xA;    page.file.path !== dv.current().file.path&#xD;&#xA;  )&#xD;&#xA;  .sort(page =&amp;gt; page.updated, &amp;#34;desc&amp;#34;);&#xD;&#xA;&#xD;&#xA;dv.paragraph(dv.markdownList(pages.map(page =&amp;gt; page.file.link)));&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    <item>
-      <title>Mini Essays</title>
-      <link>/posts/mini-essays/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/posts/mini-essays/</guid>
-      <description>&lt;p&gt;&lt;em&gt;No matching meals.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
