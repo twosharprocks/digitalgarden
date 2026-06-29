@@ -179,102 +179,6 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---htb---linux/">OSCP - HTB - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
-<hr>
-<h1 id="tj-null">TJ Null</h1>
-<ul>
-<li><input disabled="" type="checkbox"> Busqueda</li>
-<li><input disabled="" type="checkbox"> UpDown</li>
-<li><input disabled="" type="checkbox"> Sau</li>
-<li><input disabled="" type="checkbox"> Help</li>
-<li><input disabled="" type="checkbox"> Broker</li>
-<li><input disabled="" type="checkbox"> Intentions</li>
-<li><input disabled="" type="checkbox"> Soccer</li>
-<li><input disabled="" type="checkbox"> Keeper</li>
-<li><input disabled="" type="checkbox"> Monitored</li>
-<li><input disabled="" type="checkbox"> Boardlight</li>
-<li><input disabled="" type="checkbox"> Networked</li>
-<li><input disabled="" type="checkbox"> CozyHosting</li>
-<li><input disabled="" type="checkbox"> Editorial</li>
-<li><input disabled="" type="checkbox"> Help</li>
-<li><input disabled="" type="checkbox"> Magic</li>
-<li><input disabled="" type="checkbox"> Pandora</li>
-<li><input disabled="" type="checkbox"> Usage</li>
-</ul>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---htb---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---htb---windows/">OSCP - HTB - Windows</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
-<hr>
-<h1 id="tj-null">TJ Null</h1>
-<ul>
-<li><input disabled="" type="checkbox"> Escape</li>
-<li><input disabled="" type="checkbox"> Servmon - Enterprise</li>
-<li><input disabled="" type="checkbox"> Support</li>
-<li><input disabled="" type="checkbox"> StreamIO</li>
-<li><input disabled="" type="checkbox"> Blackfield</li>
-<li><input disabled="" type="checkbox"> Intelligence</li>
-<li><input disabled="" type="checkbox"> Jeeves</li>
-<li><input disabled="" type="checkbox"> Manager</li>
-<li><input disabled="" type="checkbox"> Access</li>
-<li><input disabled="" type="checkbox"> Aero</li>
-<li><input disabled="" type="checkbox"> Mailing</li>
-</ul>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---htb---windows/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
           <a href="/posts/oscp---hub---linux/">OSCP - Hub - Linux</a>
         </h2>
         <div class="post-meta"></div>
@@ -365,6 +269,94 @@
         
            <div>
             <a class="read-more button inline" href="/posts/oscp---image---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---internal---windows/">OSCP - Internal - Windows</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="internal">Internal</h1>
+<p>These Windows boxes are getting more and more frustrating. This one I had four separate walkthroughs available and 5 different exploits I could run, and in the end I had to resort to Metasploit to catch a meterpreter shell. Even the Meterpreter shell was a pain in the ass - once I was in I knew I could navigate directly to the Administrator&rsquo;s desktop, but I had to type in each directory change one-by-one rather than going directly to the proof file.</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---internal---windows/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---jacko---windows/">OSCP - Jacko - Windows</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="box">Box</h1>
+<p>What the actual fuck&hellip; I&rsquo;ll write this up tomorrow, but this was a combination of &ldquo;Why the fuck isn&rsquo;t this working&rdquo; with &ldquo;that is so fucking dumb&rdquo; when it did finally work</p>
+<h1 id="resolution-summary">Resolution summary</h1>
+<ul>
+<li>Ran Nmap to identify ports <code>80</code>, <code>135/445</code>, <code>445</code>, <code>5040</code>, <code>8082</code> &amp; <code>9092</code></li>
+<li>Navigated to port <code>8082</code> with browser and logged in with default credentials</li>
+<li>Found exploit for <code>H2 Database</code> and achieved code execution via SQL</li>
+<li>Uploaded &amp; executed reverse shell via SQL statements for initial access</li>
+<li>Identified <code>Paperstream</code> software and found exploit <code>49382.py</code></li>
+<li>Used <code>msfvenom</code> to create reverse shell <code>dll</code> with <code>x86</code> architecture &amp; <code>xor_dynamic</code></li>
+<li>Uploaded <code>dll</code> and <code>49382.ps1</code> to target via <code>iwr</code></li>
+<li>Ran <code>49382.ps1</code> on target and recieved reverse shell as <code>NT-system</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills</h2>
+<ul>
+<li>Generating msfvenom payloads</li>
+<li>Working with Windows kernel exploits (specifically potatos)</li>
+</ul>
+<h2 id="used-tools">Used tools</h2>
+<ul>
+<li>nmap</li>
+<li>python</li>
+<li>msfvenom</li>
+<li>powershell</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering</h1>
+<p>Scanned all TCP ports:</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---jacko---windows/">[Read more]</a>
           </div>
         
       </article>
