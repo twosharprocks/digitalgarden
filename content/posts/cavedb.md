@@ -25,7 +25,7 @@ Ideas
 - [Cave Diving Sites](https://www.cavediving.net.au/index.php/caves) - Create Obsidian "Regions" for these too
 - [Divers Atlas: Mapping the Subterranean Frontier Together](https://indepthmag.com/divers-atlas-mapping-the-subterranean-frontier-together/)
 	- www.diversatlas.org Password: `explore`
-- Run Python script to find known caves on Google Maps - Google Maps Cave Search - ChatGPT
+- Run Python script to find known caves on Google Maps - ChatGPT - Google Maps Cave Search
 # Add to CaveDB
 Add/Check Original Forestry Data file
 
@@ -84,4 +84,3 @@ Also Contribute to Minotaur, Diver Atlas, and your own database
 
 # References
 - [GrottoMap.org](https://grottomap.org/en/) 
-

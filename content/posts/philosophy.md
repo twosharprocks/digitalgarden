@@ -103,7 +103,7 @@ Four Agreements
 	- Abundance over Scarcity - You have plenty to spare & share
 - This too shall pass - always evolving & accelerating change in others
 	- Only Here & Now - Fears of the future & pain of past are useless
-	- Only constant is change - Ouroboros & the Nonlinear time of “Arrival”
+	- Only constant is change - Mini Essay - Ouroboros & the Nonlinear time in “Arrival”
 - Albert Camus “Find your question”
 	- Douglas Adams “You can’t have question AND answer"
 - Live Like You’re Going To Die In A Year
@@ -190,5 +190,4 @@ It’s important to note that reinvention won’t fix major structural problems 
 - Don’t stress, do less 52 ways to make your life easier in 2026
 - Why pleasure is the key to self-improvement
 - Failure vs. Success is the Wrong Frame
-
 

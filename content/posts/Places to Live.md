@@ -25,7 +25,7 @@ Related:
 	- ❌ Challenge with Climate
 
 ==Tasmania==
-- Off-grid forest cabin: Tasmanian Forest Retreat - ChatGPT
+- Off-grid forest cabin: ChatGPT - Tasmanian Forest Retreat
 
 # Overseas
 # Digital Nomad Visa 
@@ -87,7 +87,6 @@ You’ll have to live there for at least a decade, and undergo the rigorous proc
 - [Countries that will pay you $140k to move there](https://www.realestate.com.au/news/countries-that-will-pay-you-140k-to-move-there/)
 - [Why families are abandoning Australia for a cheaper and better life abroad](https://www.realestate.com.au/lifestyle/why-families-are-abandoning-australia-for-a-cheaper-and-better-life-abroad/)
 - 
-
 
 
 
