@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cybersecurity]]"
+Related: "[[Cyber Security]]"
 ---
 # Boolean
 This was an absolute slog, and even the walkthroughs didn't help at the end. It was good to identify that BurpSuite would be used early on, but picking up and changing the "confirmed" element was tricky. Having the PHP reverse shell not work was incredibly frustrating too, but it was obvious something else would be needed when GoBuster wasn't showing where the uploaded files were being stored (obviously download only and not directly web accessible).

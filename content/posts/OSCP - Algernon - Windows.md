@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cybersecurity]]"
+Related: "[[Cyber Security]]"
 ---
 # Algernon
 This was my first shift across from Linux into Windows, and I'll freely admit to being a little overwhelmed at all the open ports and not knowing quite where to start. Realising the FTP had an anonymous login was straight forward, and identifiying the `admin` user from the logs was nice, but it turned out to be a deadend and the real solution was 10x easier than what I'd experienced with the last few Linux boxes - I really needed to reset my expectations.

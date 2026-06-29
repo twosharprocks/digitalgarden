@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cybersecurity]]"
+Related: "[[Cyber Security]]"
 ---
 # PyLoader
 I'm still shocked at how quick and incredibly easy this was - I went from boot to root in <15mins! 

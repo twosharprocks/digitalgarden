@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cybersecurity]]"
+Related: "[[Cyber Security]]"
 ---
 Tags: [OSCP]({{< relref "posts/oscp.md" >}})
 # TJ Null - PG Play - 11
@@ -53,5 +53,4 @@ Hard - 0/3
 - [x] Blackgate
 - [x] Clue
 - [x] Zipper
-
 

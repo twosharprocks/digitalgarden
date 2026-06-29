@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cybersecurity]]"
+Related: "[[Cyber Security]]"
 ---
 # Authby
 These Windows are doing my absolute head in. I spent hours on this box the day before following a multiple walkthroughs to the letter and got nowhere. I and wound up feeling so frustrated at not receiving even an initial shell that I marked this box as "Aborted" and shut down for the night - I figured there was no point pushing on and to just move on to the next Windows box.

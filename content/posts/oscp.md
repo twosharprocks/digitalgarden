@@ -9,7 +9,7 @@ tags:
   - oscp
   - cyber-security
 Related: 
-  - "[[Cybersecurity]]"
+  - "[[Cyber Security]]"
   - "[[Cyber Security]]"
   - "[[OSCP]]"
 ---

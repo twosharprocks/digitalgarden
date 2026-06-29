@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cybersecurity]]"
+Related: "[[Cyber Security]]"
 ---
 # Box
 What the actual fuck... I'll write this up tomorrow, but this was a combination of "Why the fuck isn't this working" with "that is so fucking dumb" when it did finally work

@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cybersecurity]]"
+Related: "[[Cyber Security]]"
 ---
 # Codo
 Interesting experience just slowly working through this over the day. Having the walkthrough as a reference is handy, although I should have done more enumeration to identify everything `linpeas` was providing. Helpful experience updating the cheatsheet for fully interactive TTS too - most references just use `python` when pretty much everyone/thing is using `python3`, so be sure to watch out for that when copy/pasting from references.

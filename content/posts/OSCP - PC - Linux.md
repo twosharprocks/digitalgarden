@@ -8,7 +8,7 @@ tags:
   - cyber-security
 Related:
   - "[[OSCP]]"
-  - "[[Cybersecurity]]"
+  - "[[Cyber Security]]"
 ---
 # PC
 This was an interesting one, with `linpeas` showing multiple vulnerabilities and yet the most obvious two didn't work because of missing dependencies and no user credentials. 

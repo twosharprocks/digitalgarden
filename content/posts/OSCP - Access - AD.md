@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cybersecurity]]"
+Related: "[[Cyber Security]]"
 ---
 ## Improved skills
 - PHP bypasses
@@ -149,4 +149,3 @@ Ran `echo "AddType application/x-httpd-php .bypass" > .htaccess` to allow new fi
 # Trophy & Loot
 `local.txt` = `d075a9b799bbf34764ed55ccd797108d`
 `proof.txt` = `46e76431490ebf8ccc7c112f112fcfc2`
-

@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cybersecurity]]"
+Related: "[[Cyber Security]]"
 ---
 # Exfiltration
 Relatively easy box turned into a VERY frustrating experience at not being able to properly execute `exiftool` exploit because of missing library dependencies. Exploit actually detailed exactly *how* to install those dependencies, but I was looking for instructions on Stack Overflow instead of in the script itself - ***always read the script!*** 

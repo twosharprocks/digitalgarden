@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cybersecurity]]"
+Related: "[[Cyber Security]]"
 ---
 # Image
 This box was objectively quite easy, however the issues I had *around* it made things far more complicated/frustrating than they needed to be. 
@@ -94,5 +94,4 @@ No enumeration conducted
 # Trophy & Loot
 `local.txt` = `8c86bb3b1bf55b83b43ad8a382009f33`
 `root.txt` = `157b35b189136d01cd1fd6f2854683a9`
-
 

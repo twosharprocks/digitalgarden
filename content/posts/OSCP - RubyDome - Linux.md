@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cybersecurity]]"
+Related: "[[Cyber Security]]"
 ---
 # RubyDome
 Frustrating that a couple of key points in this box were only broken through with the use of the walkthrough. Throwing `127.0.0.1` into the website to break it was a new one (something to keep in mind for the future) but I'd have never worked out without the walkthrough. 

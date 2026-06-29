@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cybersecurity]]"
+Related: "[[Cyber Security]]"
 ---
 # Squid
 Everything about this box was a refresher, and there's no doubt I leaned heavily on the walkthrough as I was doing it. Learning about Squid and `spose.py` was interesting, but there's a concern that `spose.py` is pretty niche and I may never have found it (or realised I needed it) without the walkthrough. 
