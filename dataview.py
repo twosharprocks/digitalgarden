@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 
-DATAVIEW_RE = re.compile(r"```dataview\s*\n(.*?)```", re.IGNORECASE | re.DOTALL)
+DATAVIEW_RE = re.compile(r"```dataview(?:js)?\s*\n(.*?)```", re.IGNORECASE | re.DOTALL)
 FRONT_MATTER_RE = re.compile(r"^\ufeff?---\s*\r?\n(.*?)\r?\n---\s*\r?\n", re.DOTALL)
 
 
@@ -67,7 +67,7 @@ def relref_link(meal):
 
 
 def required_tags(query):
-    return {
+    tags = {
         value.lower()
         for value in re.findall(
             r'contains\s*\(\s*tags\s*,\s*["\']([^"\']+)["\']\s*\)',
@@ -75,6 +75,15 @@ def required_tags(query):
             flags=re.IGNORECASE,
         )
     }
+    tags.update(
+        value.lower()
+        for value in re.findall(
+            r'\b(?:tags|page\.tags)\b.*?\.includes\s*\(\s*["\']([^"\']+)["\']\s*\)',
+            query,
+            flags=re.IGNORECASE,
+        )
+    )
+    return tags
 
 
 def filtered_meals(query, meals):
@@ -89,6 +98,12 @@ def filtered_meals(query, meals):
         r"(?mi)^\s*SORT\s+([\w.]+)\s+(ASC|DESC)\s*$",
         query,
     )
+    if not sort_match:
+        sort_match = re.search(
+            r'\.sort\s*\(\s*[^,]*?page\.([\w.]+)\s*,\s*["\'](asc|desc)["\']',
+            query,
+            flags=re.IGNORECASE,
+        )
     if not sort_match:
         return selected
 
@@ -169,6 +184,8 @@ def render_dataview(query, meals):
         return render_list(query, meals)
     if normalized.startswith("TABLE"):
         return render_table(query, meals)
+    if "DV.PAGES" in normalized and "FOR (CONST PAGE OF PAGES)" in normalized:
+        return render_list(query, meals)
     return f"```dataview\n{query}```"
 
 

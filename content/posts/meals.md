@@ -24,30 +24,17 @@ Related: "[[Meals]]"
 - [Meal - Giant Chicken Poppers]({{< relref "posts/Meal - Giant Chicken Poppers.md" >}}) 
 - [Meal - Chicken Alfredo Tortellini]({{< relref "posts/Meal - Chicken Alfredo Tortellini.md" >}})
 ## Quick Meals
-```dataviewjs
-const pages = dv.pages("")
-  .where(page =>
-    dv.array(page.tags).includes("meal") &&
-    dv.array(page.tags).includes("quick")
-  )
-  .sort(page => page.file.name, "asc");
-
-const list = dv.container.createEl("ul");
-list.style.listStyle = "none";
-
-for (const page of pages) {
-  const item = list.createEl("li");
-  item.createSpan({ cls: "list-bullet" });
-  item.createEl("a", {
-    text: page.file.name,
-    cls: "internal-link",
-    attr: {
-      "data-href": page.file.path,
-      href: page.file.path
-    }
-  });
-}
-```
+- [Air Fryer Nachos]({{< relref "posts/Meal - Air Fryer Nachos.md" >}})
+- [Big Mac Toastie]({{< relref "posts/Meal - Big Mac Toastie.md" >}})
+- [Chicken Pesto Flatbread]({{< relref "posts/Meal - Chicken Pesto Flatbread.md" >}})
+- [Chili Garlic Noodles]({{< relref "posts/Meal - Chili Garlic Noodles.md" >}})
+- [Feta Fried Egg Tortilla]({{< relref "posts/Meal - Feta Fried Egg Tortilla.md" >}})
+- [Garlic Butter Jalapeño Popper Croissants]({{< relref "posts/Meal - Garlic Butter Jalapeño Popper Croissants.md" >}})
+- [Hash Brown Feta Bites]({{< relref "posts/Meal - Hash Brown Feta Bites.md" >}})
+- [Honey Soy Chicken Stir Fry]({{< relref "posts/Meal - Honey Soy Chicken Stir Fry.md" >}})
+- [Loaded Breakfast Wrap]({{< relref "posts/Meal - Loaded Breakfast Wrap.md" >}})
+- [Pizza Cupcakes]({{< relref "posts/Meal - Pizza Cupcakes.md" >}})
+- [Spicy Peanut Dumplings]({{< relref "posts/Meal - Spicy Peanut Dumplings.md" >}})
 # To Try
 - [Meal - Chipotle Beef & Crispy Chorizo Gnocchi]({{< relref "posts/Meal - Chipotle Beef & Crispy Chorizo Gnocchi.md" >}})
 - [Meal - Honey Garlic Chicken Fried Rice]({{< relref "posts/Meal - Honey Garlic Chicken Fried Rice.md" >}})
