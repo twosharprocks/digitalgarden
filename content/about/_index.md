@@ -24,7 +24,7 @@ You may be wondering what a digital garden is, or why this not-quite-blog looks 
 Most notes here are connected with `wiki links`. Some are tiny seeds, some are more developed, and some are old posts or references kept because they still point somewhere useful.
 
 
-- **[Writing]({{< relref "posts/writing.md" >}})** - [Mini Essays]({{< relref "posts/Mini Essays.md" >}}), [Articles]({{< relref "posts/Articles.md" >}}), Book - Ideas, old website posts, and related notes.
+- **[Writing]({{< relref "posts/writing.md" >}})** - [Mini Essays]({{< relref "posts/Mini Essays (conflict 2026-06-29-23-05-33).md" >}}), [Articles]({{< relref "posts/Articles.md" >}}), Book - Ideas, old website posts, and related notes.
 - **[Diving]({{< relref "posts/diving.md" >}})** - [Diving - Reading]({{< relref "posts/Diving - Reading.md" >}}), [Diving - Ideas]({{< relref "posts/Diving - Ideas.md" >}}), [Cave Regions]({{< relref "posts/Cave Regions.md" >}}), Trips [Diving - Gear]({{< relref "posts/Diving - Gear.md" >}}), [Photogrammetry]({{< relref "posts/photogrammetry.md" >}}), [Exploration]({{< relref "posts/exploration.md" >}}), and field notes.
 - **[Cyber Security]({{< relref "posts/Cyber Security.md" >}})** - [CISSP]({{< relref "posts/CISSP.md" >}}), CISA and [OSCP]({{< relref "posts/oscp.md" >}}) Study notes; cheat sheets, [Threat Modelling]({{< relref "posts/Threat Modelling.md" >}}), and [Cyber Security - Resources]({{< relref "posts/Cyber Security - Resources.md" >}}).
 - **[Physics]({{< relref "posts/physics.md" >}})** - Cosmology, quantum mechanics, Information Theory, Science - Ideas, and other deep-space rabbit holes.

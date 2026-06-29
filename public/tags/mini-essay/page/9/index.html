@@ -324,7 +324,7 @@
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/mini-essays/">Mini Essays</a>
+          <a href="/posts/mini-essays-conflict-2026-06-29-23-05-33/">Mini Essays</a>
         </h1>
         <div class="post-meta"></div>
 
@@ -345,13 +345,25 @@
 
         <div class="post-content">
           
-            <p><em>No matching meals.</em></p>
+            <hr>
+<ul>
+<li>To Write - <a href="/posts/mini-essay---letter-to-yourself-in-2031/">Mini Essay - Letter to Yourself in 2031</a> - Where do I want to be in 2031?</li>
+</ul>
+<pre tabindex="0"><code class="language-dataview" data-lang="dataview">const pages = dv.pages(&#34;&#34;)
+  .where(page =&gt;
+    dv.array(page.tags).includes(&#34;mini-essay&#34;) &amp;&amp;
+    page.file.path !== dv.current().file.path
+  )
+  .sort(page =&gt; page.updated, &#34;desc&#34;);
+
+dv.paragraph(dv.markdownList(pages.map(page =&gt; page.file.link)));
+</code></pre>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/mini-essays/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/mini-essays-conflict-2026-06-29-23-05-33/">[Read more]</a>
           </div>
         
       </article>
@@ -365,6 +377,12 @@
       </a>
     
     
+      ::
+    
+    
+      <a href="/tags/mini-essay/page/10/" class="button inline next">
+        [<span class="button__text">Older posts</span>] &gt;
+      </a>
     
   </div>
 </div>

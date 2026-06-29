@@ -29,12 +29,23 @@ Confirmed (11): Chloe, Will, Josh, Vivian, Tyler, Corey, Toby, James, Nancy, Emr
 Toad Hall (4-6): Chloe, Josh, James, Corey
 
 # To Do
-- [ ] DPV from Matt Rochford
-- [ ] Build/Test Dry Tube
+For me
+ - [ ] Write draft of Book - Cave Diving
+ - [ ] Established with Alpha Echo
 
-- [ ] Murra: Get map from Krunchy
-- [ ] Murra: Ken Smith and Pingers + JDZ data
-- [ ] Murra: Follow up Jarred Hotchkin (nearby cave)
+For Trip
+- [ ] Complete tasks for VW Transporter
+	- [ ] Panelling
+	- [ ] Power
+	- [ ] Toilet
+	- [ ] Repaired
+- [ ] Gear
+	- [ ] DPV from Matt Rochford
+	- [ ] Build/Test Dry Tube
+	- [ ] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) 
+- [ ] Murra map from Krunchy
+- [ ] Ken Smith and Pingers + JDZ data
+- [ ] Jarred Hotchkin & nearby cave
 # Trip Log
 ***Dates: 08-21 to 08-31 (Murra) & 09-01 to 09-12 (Cocklebiddy)***
 ![Messenger Creation F8c65974 345A 497F 8A46 8e6a5c8145a8](/images/Messenger_creation_F8C65974-345A-497F-8A46-8E6A5C8145A8.jpeg)

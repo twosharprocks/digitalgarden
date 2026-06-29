@@ -289,6 +289,52 @@
     
       <article class="post on-list">
         <h2 class="post-title">
+          <a href="/posts/mini-essays-conflict-2026-06-29-23-05-33/">Mini Essays</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/writing/">writing</a>&nbsp;
+            
+            #<a href="/tags/interests/">interests</a>&nbsp;
+            
+            #<a href="/tags/mini-essay/">mini-essay</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <hr>
+<ul>
+<li>To Write - <a href="/posts/mini-essay---letter-to-yourself-in-2031/">Mini Essay - Letter to Yourself in 2031</a> - Where do I want to be in 2031?</li>
+</ul>
+<pre tabindex="0"><code class="language-dataview" data-lang="dataview">const pages = dv.pages(&#34;&#34;)
+  .where(page =&gt;
+    dv.array(page.tags).includes(&#34;mini-essay&#34;) &amp;&amp;
+    page.file.path !== dv.current().file.path
+  )
+  .sort(page =&gt; page.updated, &#34;desc&#34;);
+
+dv.paragraph(dv.markdownList(pages.map(page =&gt; page.file.link)));
+</code></pre>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/mini-essays-conflict-2026-06-29-23-05-33/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
           <a href="/posts/mini-essays/">Mini Essays</a>
         </h2>
         <div class="post-meta"></div>
@@ -317,50 +363,6 @@
         
            <div>
             <a class="read-more button inline" href="/posts/mini-essays/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/moko-morete/">Moko Morete</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/caving/">caving</a>&nbsp;
-            
-            #<a href="/tags/personal/">personal</a>&nbsp;
-            
-            #<a href="/tags/trips/">trips</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="about">About</h1>
-<hr>
-<h1 id="to-do">To Do</h1>
-<p>Diving
-Dry
-Photogrammetry</p>
-<h1 id="logged-dives">Logged Dives</h1>
-<p>2025-08-05 - Moko Morete</p>
-<h1 id="references">References</h1>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/moko-morete/">[Read more]</a>
           </div>
         
       </article>
