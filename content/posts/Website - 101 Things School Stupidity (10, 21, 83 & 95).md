@@ -1,5 +1,5 @@
 ---
-title: Website - 101 Things School Stupidity (10, 21, 83 & 95)
+title: Website - 101 Things School Stupidity (10, 21, 83 & 95) 1
 created: 2026-01-21
 updated: 2026-06-18
 status: seed
@@ -7,13 +7,13 @@ draft: false
 tags:
   - writing
 Related: "[[Writing]]"
-source: https://web.archive.org/web/20160530015830/http://www.themightyginge.com/blog/2012/09/19/coa-101-things-school-stupidity-10-21-83-95/#10
+source: https://web.archive.org/web/20160530015830/http://www.themightyginge.com/blog/2012/09/19/coa-101-things-school-stupidity-10-21-83-95/#21
 author:
   - Josh Richards
 published: 2012-09-19
 description:
 ---
-!(https://web.archive.org/web/20160530015830im_/http://www.themightyginge.com/blog/wp-content/uploads/2012/03/101Things2.jpg "101Things")](https://web.archive.org/web/20160530015830/http://www.themightyginge.com/blog/wp-content/uploads/2012/03/101Things2.jpg) Just a bit of background – this was written way back in April, but it somehow slipped through the scheduling process. As such the “most recent employer” comment toward the end actually refers to **another** previous employer.
+[![](https://web.archive.org/web/20160530015830im_/http://www.themightyginge.com/blog/wp-content/uploads/2012/03/101Things2.jpg "101Things")](https://web.archive.org/web/20160530015830/http://www.themightyginge.com/blog/wp-content/uploads/2012/03/101Things2.jpg) Just a bit of background – this was written way back in April, but it somehow slipped through the scheduling process. As such the “most recent employer” comment toward the end actually refers to **another** previous employer.
 
 ——————————————————————————————————————————-
 

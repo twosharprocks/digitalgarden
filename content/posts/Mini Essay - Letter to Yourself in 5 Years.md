@@ -11,16 +11,21 @@ Related:
   - "[[Mini Essays]]"
   - "[[Writing]]"
 ---
- 
----
 Where do I want to be in 2031?
 - 46 years old
-- 8-10 years cyber experience (?)
+- 10 years cyber experience (?)
 - 34 years diving, 12 years cave diving
 - Number of Books written? 
+	- Book - Cave Diving
+	- Book - 101 Things
+	- Book - Calling ET
 - Relationship to space exploration? 
-- Speaking? TV? 
+	- You're an explorer-communicator
+	- Speaking? TV? 
 - [Bucket List]({{< relref "posts/Bucket List.md" >}}), Personal
+
+---
+
 
 
 ---

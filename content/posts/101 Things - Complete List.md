@@ -15,16 +15,19 @@ Related:
 Write these up and add links
 - Use wayback machine to recover what you've previously written
 
-Completed: 79
-Remaining: 22
+Completed: 81
+Remaining: 20
 
 1 - Write a Best Seller
+- *Becoming Martian* & *Cosmic Nomad*
 
 2 - Swim With...
+- [Website – 101 Things (2 Swim With…)]({{< relref "posts/Website – 101 Things (2 Swim With…).md" >}})
 
 3 - Win an Award, Trophy or Prize
 
 4 - Catch a Fish With Your Bare Hands
+- [Website - 101 Things 4 Catch a Fish With Your Bare Hands]({{< relref "posts/Website - 101 Things 4 Catch a Fish With Your Bare Hands.md" >}})
 
 5 - Make a Discovery
 
@@ -35,55 +38,60 @@ Remaining: 22
 8 - Realise Your Childhood Dream
 
 9 - Learn That Instrument
+- [Website - 101 Things 9 Learn That Instrument]({{< relref "posts/Website - 101 Things 9 Learn That Instrument.md" >}})
 
 10 - Leave Your Mark in Graffiti
-
+- [Website - 101 Things School Stupidity (10, 21, 83 & 95)]({{< relref "posts/Website - 101 Things School Stupidity (10, 21, 83 & 95).md" >}})
 11 - Storm Chase a Tornado
+- 
 
 12 - Get a Piece of Art into an Exhibition
 - WA Museum, Legacy
 
-13 - Meet Someone with Your Own Name - INCOMPLETE
+==13 - Meet Someone with Your Own Name - INCOMPLETE==
 - FIFO Mechanic in Rockingham [Survived BASE Jump](https://www.perthnow.com.au/news/wa/perth-man-josh-richards-luckiest-person-alive-after-horror-base-jump-ng-1a62d6a03acc581698180ef68ddf4dca) - [Facebook Profile](https://www.facebook.com/josh.richards.5811)
 
-14 - Ride the World's Biggest Rollercoaster - INCOMPLETE
+==14 - Ride the World's Biggest Rollercoaster - INCOMPLETE==
 - Steel Dragon 2000 (Nagashima Spa Land, Japan)
 
 15 - Stage Dive or Crowd Surf
 - Living End, Relationship with music
+- [Website - 101 Things Attention Whore (15, 35 & 96)]({{< relref "posts/Website - 101 Things Attention Whore (15, 35 & 96).md" >}})
 
 16 - Get into the Guinness Book of World Records
 
 17 - Own a Pointless Collection
 - Stamps, Erasers, Star Wars Cards, Relationship with Possessions
+- [Website - 101 Things - 17 Own a Pointless Collection]({{< relref "posts/Website - 101 Things - 17 Own a Pointless Collection.md" >}})
 
 18 - Study the Karma Sutra and Put Theory into Practice
 
-19 - Master Poker and Win Big in a Casino - INCOMPLETE
+==19 - Master Poker and Win Big in a Casino - INCOMPLETE==
 
 20 - Get Backstage and Get Off with a Rock God
 - Edinburgh Artist bar, The Mint
 
 21 - Be a Human Guinea Pig
-- Uni research
+- [Website - 101 Things School Stupidity (10, 21, 83 & 95)]({{< relref "posts/Website - 101 Things School Stupidity (10, 21, 83 & 95).md" >}})
 
 22 - Go Up in a Hot Air Balloon
 - Breda
 
-23 - Get Arrested - INCOMPLETE
+==23 - Get Arrested - INCOMPLETE==
 
-24 - See a Rocket Launch - INCOMPLETE
+==24 - See a Rocket Launch - INCOMPLETE==
 
-25 - Capture the Moment in an Award-winning Photograph - INCOMPLETE
+==25 - Capture the Moment in an Award-winning Photograph - INCOMPLETE==
 
 26 - Bungee Jump
 - Whistler with pink eye
 
-27 - See an Erupting Volcano - INCOMPLETE
+==27 - See an Erupting Volcano - INCOMPLETE==
 - Kilauea (Hawaii), Vesuvius (Naples), Stromboli (Sicily), Mount Nyiragongo (Congo)
 
 28 - Sky Dive
 - Bad Jump
+- [Website - 101 Things Adrenaline (28, 46 & 74)]({{< relref "posts/Website - 101 Things Adrenaline (28, 46 & 74).md" >}})
 
 29 - Meet Your Idol
 - Star Struck by Sam Simmons, Tim Jarvis
@@ -91,7 +99,7 @@ Remaining: 22
 30 - Stay in the Best Suite in a Five Star Hotel
 - Derry Conference
 
-31 - Experience Weightlessness - INCOMPLETE
+==31 - Experience Weightlessness - INCOMPLETE==
 - Niamh's contacts (Star City), Zero-G corp
 
 32 - See the Aurora Borealis
@@ -102,15 +110,18 @@ Remaining: 22
 
 34 - Design Your Own Cocktail
 - Uni shenanigans
+- [Website - 101 Things Drinking (34, 65 & 93)]({{< relref "posts/Website - 101 Things Drinking (34, 65 & 93).md" >}})
 
 35 - Play a Part in Your Favourite TV Show
 - Creatif, Mad As Hell cameo
+- [Website - 101 Things Attention Whore (15, 35 & 96)]({{< relref "posts/Website - 101 Things Attention Whore (15, 35 & 96).md" >}})
 
-36 - Visit Every Country (or Continent) - INCOMPLETE
-- Costa Rica (Sloths), Cave Dive Belize, Inca Trail - 3 days
+36 - Visit Every Country (or Continent)
+- [Trip - Antarctica - 2025 Nov]({{< relref "posts/Trip - Antarctica - 2025 Nov.md" >}})
 
 37 - Make Fire Without Matches
 - Lake District
+- [Website - 101 Things - 37 Make Fire Without Matches]({{< relref "posts/Website - 101 Things - 37 Make Fire Without Matches.md" >}})
 
 38 - See These Animals in the Wild...
 - Travel in Africa
@@ -127,34 +138,40 @@ Remaining: 22
 
 43 - Throw a Dart into a Map and Travel to Where it Lands 
 - Citibank with Paul (First deliberate 101 attempt)
+- [Website - 101 Things US Travel (43, 53 & 64)]({{< relref "posts/Website - 101 Things US Travel (43, 53 & 64).md" >}})
 
 44 - Attend a Film Premiere
 - With Alex Ryan
 
 45 - Do a Runner From a Fancy Restaurant 
 - Difference between Sara and Alice
-
+- [Website - 101 Things Run Like Hell (45 & 84)]({{< relref "posts/Website - 101 Things Run Like Hell (45 & 84).md" >}})
+- 
 46 - Scuba Dive
+- [Website - 101 Things Adrenaline (28, 46 & 74)]({{< relref "posts/Website - 101 Things Adrenaline (28, 46 & 74).md" >}})
 
 47 - Milk a Cow | Tony's farm 
 
-48 - Be Present When Your Country Wins the World Cup (or Olympics) - INCOMPLETE
+==48 - Be Present When Your Country Wins the World Cup (or Olympics) - INCOMPLETE==
 - Los Angeles 2028
 
 49 - See Both Solar and Lunar Eclipses
 - School solar eclipse & Antarctica
+- - [Website - 101 Things Astronomy (49 & 77)]({{< relref "posts/Website - 101 Things Astronomy (49 & 77).md" >}})
 
 50 - Write Your Name Over a Star on the Walk of Fame
 - Tim Allen
 
 51 - Learn Another Language
+- [Website - 101 Things Languages (51 & 69)]({{< relref "posts/Website - 101 Things Languages (51 & 69).md" >}})
 
-52 - Read the Greatest Books Ever Written - INCOMPLETE
+==52 - Read the Greatest Books Ever Written - INCOMPLETE==
 - Hotel New Hampshire (John Irving)
 - The Bonfire of the Vanities (Tom Wolfe)
 
 53 - Complete a Coast to Coast Road Trip Across America
 - With Paul
+- [Website - 101 Things US Travel (43, 53 & 64)]({{< relref "posts/Website - 101 Things US Travel (43, 53 & 64).md" >}})
 
 54 - Make at Least One Huge Purchase You Can't Afford
 - Ed Fringe 2010 trip
@@ -171,50 +188,58 @@ Remaining: 22
 59 - Leave a Job You Hate
 - Mining (near suicide)
 
-60 - Take Part in a Police Line-Up - INCOMPLETE
+==60 - Take Part in a Police Line-Up - INCOMPLETE==
 
 61 - Get Away with the Perfect Practical Joke or Hoax
 - Santa isn't real
 
-62 - Join the Mile High Club - INCOMPLETE
+==62 - Join the Mile High Club - INCOMPLETE==
+
+
 63 - Make the Front Page of a National Newspaper
 - Front page of ABC website for EEX (and Pines)
 
 64 - Drive a Car at Top Speed
+- [Website - 101 Things US Travel (43, 53 & 64)]({{< relref "posts/Website - 101 Things US Travel (43, 53 & 64).md" >}})
 
 65 - Shout "Drinks Are on Me!" in a Pub or a Bar
+- [Website - 101 Things Drinking (34, 65 & 93)]({{< relref "posts/Website - 101 Things Drinking (34, 65 & 93).md" >}})
 
 66 - Be Part of a Flash Mob
 
-67 - Visit... - INCOMPLETE
+==67 - Visit... - INCOMPLETE==
 - Remaining - Colosseum (Rome), Machu Pichu (Peru), Christ the Redeemer (Rio De Janeiro), Taj Mahal (Delhi) Angkor Wat (Cambodia), Great Wall (China)*
 
 68 - Save Someone's Life
 - Written in Cosmic Nomad
 
 69 - In Various Languages Learn To...
+- [Website - 101 Things Languages (51 & 69)]({{< relref "posts/Website - 101 Things Languages (51 & 69).md" >}})
 
 70 - Invent a Word That Makes it into the Dictionary
 
 71 - Have Adventurous Sex
 
-72 - Have Enough Money to Do All the Things on This List - INCOMPLETE
+==72 - Have Enough Money to Do All the Things on This List - INCOMPLETE==
 
 73 - Stand on the International Date Line 
 - Taveuni (Fiji) (Now moved off-shore)
 
 74 - Learn to Fly a Plane 
 - Last flight near crash, then learned to skydive instead
+- [Website - 101 Things Adrenaline (28, 46 & 74)]({{< relref "posts/Website - 101 Things Adrenaline (28, 46 & 74).md" >}})
 
 75 - Get a Tattoo and/or a Piercing
 
-76 - Invent Something - INCOMPLETE
+
+==76 - Invent Something - INCOMPLETE==
 
 77 - Learn Astronomy and Read the Night Sky
 - Written about in Cosmic Nomad
+- [Website - 101 Things Astronomy (49 & 77)]({{< relref "posts/Website - 101 Things Astronomy (49 & 77).md" >}})
 
 78 - Drink a Vintage Wine
-
+- 
 79 - Answer a Personal Ad 
 - Speed dating
 
@@ -224,15 +249,16 @@ Remaining: 22
 81 - Get Barred From a Pub or Bar
 - Retro in Sydney (Closed, Bristol Arms, history of being rough)
 
-82 - Build Your Own House - INCOMPLETE
+==82 - Build Your Own House - INCOMPLETE==
 
 83 - Skinny Dip at Midnight
-- High School
+- [Website - 101 Things School Stupidity (10, 21, 83 & 95)]({{< relref "posts/Website - 101 Things School Stupidity (10, 21, 83 & 95).md" >}})
 
 84 - Sell All Your Junk on eBay and Make a Profit
 - Warhammer 40K, Camera Parts
+- - [Website - 101 Things Run Like Hell (45 & 84)]({{< relref "posts/Website - 101 Things Run Like Hell (45 & 84).md" >}})
 
-85 - Visit the World's Tallest Buildings - INCOMPLETE
+==85 - Visit the World's Tallest Buildings - INCOMPLETE==
 - Burj (Dubai), One World Trade Center (Freedom Tower) (NYC), Taipei 101 (Taiwan), Shanghai World Financial Center (Shanghai), Jin Mao Building (Shanghai), Citic Plaza (Guangzhou), Shun Hing Square (Shenzhen), International Commerce Centre (Union Square Phase 7) (Hong Kong), Two International Finance Centre (Hong Kong), Central Plaza (Hong Kong), Bank of China Tower (Hong Kong)
 
 86 - Run a Marathon
@@ -241,12 +267,12 @@ Remaining: 22
 87 - Conquer Your Fear 
 - Standup & Claustrophobia (caving)
 
-88 - Get Married Unusually - INCOMPLETE
+==88 - Get Married Unusually - INCOMPLETE==
 
 89 - Throw Away the Instant Noodles 
 - Cooking for Cat
 
-90 - Join the 16-Mile High Club - INCOMPLETE
+==90 - Join the 16-Mile High Club - INCOMPLETE==
 
 91 - Publish a Cult Website 
 - [themightyginge.com](http://themightyginge.com)
@@ -256,22 +282,28 @@ Remaining: 22
 
 93 - Complete the Monopoly Board Pub Crawl
 - Twice - 1st with Matilda, 2nd with RM
+- [Website - 101 Things Drinking (34, 65 & 93)]({{< relref "posts/Website - 101 Things Drinking (34, 65 & 93).md" >}})
 
 94 - Get Something Named After You 
-- JAM Cave
+- JAM Cave, La Ode Palsu
 
 95 - Get Revenge
+- [Website - 101 Things School Stupidity (10, 21, 83 & 95)]({{< relref "posts/Website - 101 Things School Stupidity (10, 21, 83 & 95).md" >}})
 
 96 - Be an Extra in a Film
 - Not Art
+- [Website - 101 Things Attention Whore (15, 35 & 96)]({{< relref "posts/Website - 101 Things Attention Whore (15, 35 & 96).md" >}})
 
-97 - Live Out of a Van | Iceland, US Trip, Mt Gambier
+97 - Live Out of a Van 
+- Iceland, US Trip, Mt Gambier
 
-98 - Go on a Demonstration | HECS Fees
+98 - Go on a Demonstration 
+- HECS Fees
 
-99 - Confess | This is Cosmic Nomad & 101 Things
+99 - Confess 
+- This is Cosmic Nomad & 101 Things
 
-100 - Reach 100 Years of Age - INCOMPLETE
+==100 - Reach 100 Years of Age - INCOMPLETE==
 
 101 - Continue Your Gene Pool
 
