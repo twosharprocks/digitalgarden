@@ -13,9 +13,6 @@ Related:
   - "[[Mini Essays - Ideas]]"
   - "[[Template - Mini Essay]]"
 ---
----
-- To Write - [Mini Essay - Letter to Yourself in 5 Years]({{< relref "posts/Mini Essay - Letter to Yourself in 5 Years.md" >}}) - Where do I want to be in 2031?
-
 ```dataviewjs
 const pages = dv.pages("")
   .where(page =>
@@ -25,14 +22,11 @@ const pages = dv.pages("")
   .sort(page => page.updated, "desc");
 
 const list = dv.container.createEl("ul");
-list.setAttribute(
-  "style",
-  "font-size: var(--font-text-size) !important; line-height: 1.6 !important; padding-inline-start: 2em !important; margin-block: 1em !important;"
-);
+list.style.listStyle = "none";
 
 for (const page of pages) {
   const item = list.createEl("li");
-  item.setAttribute("style", "margin-block: 0.35em !important;");
+  item.createSpan({ cls: "list-bullet" });
   item.createEl("a", {
     text: page.file.name,
     cls: "internal-link",
@@ -43,5 +37,4 @@ for (const page of pages) {
   });
 }
 ```
-
 

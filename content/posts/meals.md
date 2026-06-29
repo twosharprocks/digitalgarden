@@ -33,14 +33,11 @@ const pages = dv.pages("")
   .sort(page => page.file.name, "asc");
 
 const list = dv.container.createEl("ul");
-list.setAttribute(
-  "style",
-  "font-size: var(--font-text-size) !important; line-height: 1.6 !important; padding-inline-start: 2em !important; margin-block: 1em !important;"
-);
+list.style.listStyle = "none";
 
 for (const page of pages) {
   const item = list.createEl("li");
-  item.setAttribute("style", "margin-block: 0.35em !important;");
+  item.createSpan({ cls: "list-bullet" });
   item.createEl("a", {
     text: page.file.name,
     cls: "internal-link",

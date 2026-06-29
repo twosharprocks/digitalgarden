@@ -261,14 +261,11 @@ Meal - High Protein Mexican Bowl
   .sort(page =&gt; page.file.name, &#34;asc&#34;);
 
 const list = dv.container.createEl(&#34;ul&#34;);
-list.setAttribute(
-  &#34;style&#34;,
-  &#34;font-size: var(--font-text-size) !important; line-height: 1.6 !important; padding-inline-start: 2em !important; margin-block: 1em !important;&#34;
-);
+list.style.listStyle = &#34;none&#34;;
 
 for (const page of pages) {
   const item = list.createEl(&#34;li&#34;);
-  item.setAttribute(&#34;style&#34;, &#34;margin-block: 0.35em !important;&#34;);
+  item.createSpan({ cls: &#34;list-bullet&#34; });
   item.createEl(&#34;a&#34;, {
     text: page.file.name,
     cls: &#34;internal-link&#34;,
