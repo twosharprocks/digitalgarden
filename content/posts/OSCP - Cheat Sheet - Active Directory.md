@@ -1,15 +1,14 @@
 ---
-title: Cheat Sheet - AD
+title: OSCP - Cheat Sheet - Active Directory
 created: 2024-12-10
-updated: 2025-10-30
+updated: 2026-06-30
 status: reference
 draft: false
 tags:
   - cyber-security
   - oscp
-Related: 
+Related:
   - "[[OSCP]]"
----
 ---
 [HackTricks - AD Methodology](https://book.hacktricks.xyz/windows-hardening/active-directory-methodology)
 # Initial Access

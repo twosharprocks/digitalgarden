@@ -179,7 +179,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---boolean---linux/">OSCP - Boolean - Linux</a>
+          <a href="/posts/notes---i-took-the-worlds-hardest-cybersecurity-exam-cissp/">Notes - I Took The World’s HARDEST Cybersecurity Exam (CISSP)</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -187,6 +187,8 @@
           <span class="post-tags">
             
             #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+            #<a href="/tags/cissp/">cissp</a>&nbsp;
             
           </span>
         
@@ -196,106 +198,46 @@
 
         <div class="post-content">
           
-            <h1 id="boolean">Boolean</h1>
-<p>This was an absolute slog, and even the walkthroughs didn&rsquo;t help at the end. It was good to identify that BurpSuite would be used early on, but picking up and changing the &ldquo;confirmed&rdquo; element was tricky. Having the PHP reverse shell not work was incredibly frustrating too, but it was obvious something else would be needed when GoBuster wasn&rsquo;t showing where the uploaded files were being stored (obviously download only and not directly web accessible).</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---boolean---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---cheat-sheet---core/">OSCP - Cheat Sheet - Core</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/oscp/">oscp</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="pre-exam">Pre-Exam</h1>
+            <p>Reference: Original: <a href="https://www.youtube.com/watch?v=9BZaim2uQn0">https://www.youtube.com/watch?v=9BZaim2uQn0</a></p>
+<hr>
+<p>4 hour exam, up to 175 questions but adaptive (can cut off at 125)
+Recommend Study</p>
 <ul>
-<li>Download the resources from the dedicated lab clients;</li>
-<li>Document your report as you go during the exam</li>
-<li>Do a practice exam!</li>
-</ul>
-<h1 id="setup">Setup</h1>
-<p>Create directories: <code>mkdir dc host1 host2</code></p>
+<li><a href="https://www.youtube.com/watch?v=_nyZhYnCNLA">Pete Zerger&rsquo;s 8 hour CISSP Exam Cram</a> - 4 days watching video
 <ul>
-<li>Create sub directories: <code>mkdir enu loot files exploits</code>
-Setup hostnames: <code>sudo nano /etc/hosts</code> then add host/kali IPs</li>
-</ul>
-<h1 id="quick-reference">Quick Reference</h1>
-<ul>
-<li><code>sudo nmap -T5 -p- -v host1 -oN enu/host1.nmap</code></li>
-<li><code>sudo nmap -T5 -p80,443,1978-1980 -sCV -v host1 -oN enu/nmap-services.nmap</code></li>
-<li><code>gobuster dir -u http://host1 -w /usr/share/dirb/wordlists/common.txt | tee gobuster-p80.nmap</code></li>
-<li><code>usr/share/wordlists/rockyou.txt</code></li>
-<li><code>usr/share/wordlists/SecLists</code></li>
-<li><code>nc -nvlp 4444</code> <a href="https://gist.github.com/cmbaughman/c91f41ba7b2cf71106f1">NetCat Cheat Sheet</a></li>
-<li><a href="https://www.revshells.com/">https://www.revshells.com/</a></li>
-</ul>
-<h1 id="easy-wins">Easy wins</h1>
-<ul>
-<li>Linux: Capabilities, SUIDs/GUIDs, cronjobs, modifiable binaries running as root, out-of-date binaries, known-binary exploits, history files.</li>
-<li>Windows: Weak service permissions, Unquoted service paths, outdated binaries, scheduled tasks, custom</li>
-<li>Take breaks, and set timers: If you&rsquo;re not getting anywhere for more than half an hour, take a break. Get some fresh air, and you&rsquo;ll almost definitely think of a new idea.
-<ul>
-<li>Similarly, celebrate when you make progress! If you finish a machine its a good time for a rest</li>
+<li>Split up domains, watched 2 per day at 1.25x speed, took notes throughout, then practice tests on just those two domains</li>
 </ul>
 </li>
-<li>Regularly review the information you have for a machine - key services, known version numbers, and any known credentials.</li>
-<li>Document as you go - take screenshots of key moments in the machine, and of course when you read a proof file.</li>
-<li>Metasploit - pick the machine that you think you have the least chance of exploiting manually</li>
-</ul>
-<h1 id="general-tips">General Tips</h1>
+<li><a href="https://www.amazon.com.au/Certified-Information-Security-Professional-Official-ebook/dp/B097NHJK9Q/">Official Study Guide </a>
 <ul>
-<li>xfreerdp can pass the hash to login</li>
-<li><code>runas /user:domain\username cmd.exe</code> (or rdp and open CMD as admin)</li>
-<li>Use the Kali directory: <strong>/usr/share/webshells</strong> for all your payloads.</li>
-<li>MSFVenom Shell code for Buffer Overflow <a href="https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/">https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/</a></li>
-<li>If it&rsquo;s running SSH, find/replace the id_rsa</li>
-<li><code>!/bin/bash</code></li>
-<li>SMB - <code>crackmapexec</code> show available shares: <code>crackmapexec smb 192.168.50.242 -u john -p &quot;dqsTwTpZPn#nL&quot; --shares</code></li>
-<li>Scanning UDP Ports for SNMP - <a href="https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727">https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727</a></li>
+<li>Includes multiple practice tests and full length exams
+Exam Questions - 3 days (~3000 questions)</li>
 </ul>
-<p><img src="https://johnjhacking.com/uploads/autonmap.png" alt=""></p>
+</li>
+<li><a href="https://www.boson.com/practice-exam/cissp-isc2-practice-exam">ExSim-Max for CISSP</a> Practice Exams - $75 for 700 questions</li>
+<li><a href="https://www.pocketprep.com/exams/isc2-cissp/">PocketPrep</a> - $25 for 1000 questions</li>
+</ul>
+<p>Questions are as vague as people say</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---core/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/notes---i-took-the-worlds-hardest-cybersecurity-exam-cissp/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---clue---linux/">OSCP - Clue - Linux</a>
+          <a href="/posts/notes---notebooklm-with-obsidian/">Notes - NotebookLM with Obsidian</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            #<a href="/tags/knowledge-management/">knowledge-management</a>&nbsp;
             
           </span>
         
@@ -305,28 +247,44 @@ Setup hostnames: <code>sudo nano /etc/hosts</code> then add host/kali IPs</li>
 
         <div class="post-content">
           
-            <h1 id="clue">Clue</h1>
-<p>This was definitely a hard box, but the biggest challenges came from the range of different services AND the box itself not working properly. After a couple of hours bashing my head against the brick wall trying to get initial access, I finally relented and looked at a walkthrough&hellip; only to find that the <code>cassandra</code> exploit I&rsquo;d tried to use to display files on the target hadn&rsquo;t worked because the box needed to be reverted.</p>
+            <hr>
+<p>Notebook LM accepts Markdown
+Notebook LM does not use personal data to train the model</p>
+<p>Research and Execution</p>
+<ul>
+<li>Sources - Import your notes, youtube videos, audio files</li>
+<li>Save Notes so you can keep output</li>
+<li>Convert to Source if you want to use output as a source later</li>
+<li>Copy &amp; Paste conversation back into Obsidian (tag with <code>containsAI</code>)</li>
+<li>Output an audio overview - listen while on a walk</li>
+</ul>
+<p>Personal Plan</p>
+<ul>
+<li>Bring in a bundle of sources that interest you, then ask questions</li>
+</ul>
+<p>Social Media Generator</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---clue---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/notes---notebooklm-with-obsidian/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---cockpit---linux/">OSCP - Cockpit - Linux</a>
+          <a href="/posts/notes---the-garden-and-the-stream/">Notes - The Garden and the Stream</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            #<a href="/tags/knowledge-management/">knowledge-management</a>&nbsp;
+            
+            #<a href="/tags/personal/">personal</a>&nbsp;
             
           </span>
         
@@ -336,29 +294,43 @@ Setup hostnames: <code>sudo nano /etc/hosts</code> then add host/kali IPs</li>
 
         <div class="post-content">
           
-            <h1 id="cockpit">Cockpit</h1>
-<p>This one was originally listed as &ldquo;Hard&rdquo; in my list, but when I checked during startup it showed as &ldquo;Intermediate&rdquo;. Definitely don&rsquo;t think it should be listed as &ldquo;Intermediate&rdquo; though - this was definitely the trickest boxes I&rsquo;ve done, and I absolutely leaned heavily on the walkthrough to make progress here.</p>
-<p>The biggest challenge ofcourse was the box breaking everytime I tried to run <code>gobuster</code> against it to find directories or files. Turned out there was a hidden <code>login.php</code> file on the port <code>80</code> server, but I couldn&rsquo;t find the damn thing with the first few gobuster scans because the whole box would break and require revert. Worse was finding the <code>blocked.html</code> page which would break the box every time I visited it OR scanned it with <code>gobuster</code>.</p>
+            <p>Reference: <a href="https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/">https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/</a></p>
+<hr>
+<p>The Garden - the web as topology, web as space.</p>
+<ul>
+<li>Web as arrangement and rearrangement, relational</li>
+<li>Multi-linear approaches - every walk through the garden is different every time</li>
+<li>“Did the bridge come after these trees” in a well-designed garden is meaningless historical trivia.</li>
+</ul>
+<p>The Stream - Jump in and let it flow past</p>
+<ul>
+<li>Stream replaces topology with serialisation (Twitter, Facebook, Instagram)</li>
+<li>Single, time-ordered path with our experience (and only our experience) at the centre</li>
+<li>Stream is self-assertive (Garden is integrative)</li>
+</ul>
+<p>&ldquo;As We May Think&rdquo; by Vannevar Bush - Essay was inspiration for the pioneers of hypertext</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---cockpit---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/notes---the-garden-and-the-stream/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---codo---linux/">OSCP - Codo - Linux</a>
+          <a href="/posts/notes---too-many-interests/">Notes - Too Many Interests</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            #<a href="/tags/knowledge-management/">knowledge-management</a>&nbsp;
+            
+            #<a href="/tags/interests/">interests</a>&nbsp;
             
           </span>
         
@@ -368,15 +340,140 @@ Setup hostnames: <code>sudo nano /etc/hosts</code> then add host/kali IPs</li>
 
         <div class="post-content">
           
-            <h1 id="codo">Codo</h1>
-<p>Interesting experience just slowly working through this over the day. Having the walkthrough as a reference is handy, although I should have done more enumeration to identify everything <code>linpeas</code> was providing. Helpful experience updating the cheatsheet for fully interactive TTS too - most references just use <code>python</code> when pretty much everyone/thing is using <code>python3</code>, so be sure to watch out for that when copy/pasting from references.</p>
-<p>Keep revshells.com handy too, and keep practicing with msfvenom too, as a lot of your holdup today was trying to find the right reverse shell for php, when you should have just been able to pull it up in a heartbeat</p>
+            <p>Reference: <a href="https://youtu.be/lQFOeC3maeI?si=NVyRDJ759R7_Uhl2">https://youtu.be/lQFOeC3maeI?si=NVyRDJ759R7_Uhl2</a></p>
+<hr>
+<h1 id="too-many-interests">Too Many Interests</h1>
+<p>You can&rsquo;t follow your interests if you have <strong>no energy</strong></p>
+<ul>
+<li>Working all day, overstimulation,</li>
+<li>Unfair to expect all to be able to come home and jump straight in</li>
+<li>More about energy rather than time
+<ul>
+<li>How do you enjoy your hobby with a fresh mind and happy outlook</li>
+</ul>
+</li>
+<li>Save the heavy stuff for the morning when you&rsquo;re fresh
+<ul>
+<li>Probably start to hate the hobby</li>
+<li>Tired? Focus on relaxed aspects</li>
+<li>Fresh? Focus on heavy</li>
+<li><strong>Split hobby elements into &ldquo;Relaxing&rdquo; and &ldquo;Demanding&rdquo;</strong></li>
+</ul>
+</li>
+<li>Look at your energy levels and where you can give best (for me: Mornings)</li>
+<li>Woodworking vs Camping - Split your hobbies into Relaxing vs Demanding
+<ul>
+<li>Woodworking you can roll straight into (Relaxing &amp; Rejuvinating)</li>
+<li>Camping requires more setup &amp; investment (More Demanding)</li>
+</ul>
+</li>
+<li>Money
+<ul>
+<li>Must meet basic needs to fund hobbies</li>
+<li>Expensive hobbies</li>
+<li>Money can buy time to embrace hobbies</li>
+</ul>
+</li>
+<li>Take a break when you get home
+<ul>
+<li>Take half an hour to relax and disconnect from work</li>
+<li>Get back in creative mood</li>
+<li>Figure out how to have a better break</li>
+</ul>
+</li>
+<li>Carve out space for your hobbys/interests
+<ul>
+<li>Don&rsquo;t be completely selfless</li>
+<li>Express that it&rsquo;s important to you, and an important part of who you are</li>
+</ul>
+</li>
+<li>Say no to some of your hobbies (or atleast say no to new ones)
+<ul>
+<li>The more you do, the more you dilute</li>
+<li>Kill your darlings</li>
+<li>Cut it down to 2-3 main hobbies - Intellectual, Physical, Social</li>
+</ul>
+</li>
+<li>Hobby Seasons
+<ul>
+<li>Focus hard on one hobby for several months, then steer away to something else</li>
+<li>You&rsquo;ll have muscle memory of the hobby (so you can come back)</li>
+<li>You&rsquo;re free to return to any hobby whenever you want
+<ul>
+<li>If you miss something after you stop, that&rsquo;s important - you may stick with it your whole life</li>
+</ul>
+</li>
+<li>You can&rsquo;t do everything</li>
+</ul>
+</li>
+<li>Busy with other priorities? Find ways to do a little of something you love
+<ul>
+<li>Let the big thing go, but find small ways to do it instead</li>
+<li>Reduce the time</li>
+</ul>
+</li>
+<li>Quality over Quantity - focused practice
+<ul>
+<li>Have a plan, set goals, reflect after each session (+ buy quality with coaches)</li>
+</ul>
+</li>
+</ul>
+<p>Common Time Management</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---codo---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/notes---too-many-interests/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/nullarbor-high-plains/">Nullarbor High Plains</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="about">About</h1>
+<p>Do with Joseph Bicanic
+Info From Joseph: <img src="/images/Murra%20-%20p1.jpg" alt="Murra P1">, <img src="/images/Murra%20-%20p2.jpg" alt="Murra P2"> <img src="/images/Murra%20-%20p3.jpg" alt="Murra P3"> <img src="/images/Murra%20-%20p4.jpg" alt="Murra P4"> <img src="/images/Murra%20-%20p5.jpg" alt="Murra P5"></p>
+<p>Invite Robyn, Mikko, Yoshi out to Roe/Cocklebiddy?
+First Timer Trips: Weebubbie, Murra, Burnabbie, Tommy Graham&rsquo;s</p>
+<h1 id="sites">Sites</h1>
+<p>Basic Cave</p>
+<ul>
+<li><a href="/posts/weebubbie-cave---6n2/">Weebubbie Cave - 6N2</a>
+Cave</li>
+<li><a href="/posts/murra-el-elevyn---6n47/">Murra El Elevyn - 6N47</a></li>
+<li><a href="/posts/cocklebiddy-cave---6n48/">Cocklebiddy Cave - 6N48</a>
+Advanced Cave</li>
+<li><a href="/posts/pannikin-plains---6n49/">Pannikin Plains - 6N49</a> - Req. CCR</li>
+<li><a href="/posts/tommy-grahams-cave---6n56/">Tommy Graham&rsquo;s Cave - 6N56</a></li>
+<li><a href="/posts/murra-el-elevyn---6n47/">Murra El Elevyn - 6N47</a> - Leads to Push</li>
+</ul>
+<hr>
+<h1 id="other-references">Other References</h1>
+<p><a href="https://www.cavediving.net.au/index.php/caves/?region=Nullarbor">Cave Diving Down Under - Nullarbor</a></p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/nullarbor-high-plains/">[Read more]</a>
           </div>
         
       </article>

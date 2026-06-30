@@ -1,5 +1,5 @@
 ---
-title: Smokey Bacon Gnocchi
+title: "Meal - Smokey Bacon Gnocchi"
 source: https://www.instagram.com/reels/DAV5PRLo8Iv/
 created: 2026-04-16
 updated: 2026-06-30

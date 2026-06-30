@@ -1,5 +1,5 @@
 ---
-title: High Protein Crispy Honey Garlic Chicken Fried Rice
+title: "Meal - Honey Garlic Chicken Fried Rice"
 source: https://www.instagram.com/p/DOlMf60EwTk/
 created: 2026-04-16
 updated: 2026-06-30

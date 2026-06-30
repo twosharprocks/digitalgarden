@@ -179,7 +179,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---plum---linux/">OSCP - Plum - Linux</a>
+          <a href="/posts/oscp---codo---linux/">OSCP - Codo - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -196,22 +196,22 @@
 
         <div class="post-content">
           
-            <h1 id="plum">Plum</h1>
-<p>This one was relatively easy to achieve initial access on, but enumerating the target once I had initial access was frustrating. I&rsquo;d learned on the previous box that I could pull up locally stored mail by visiting <code>/var/mail</code> but hadn&rsquo;t quite realised that it should be part of my standard privesc process.</p>
-<p>Anyway, once I got the nudge from the walkthrough to check mail, it became straight-forward to switch to root and grab the flag, but 100% an important lesson in seeing the <code>var/mail/www-data</code> in the <code>Linpeas</code> output and being sure to read the mail incase there&rsquo;s anything important or useful (like credentials) saved there.</p>
+            <h1 id="codo">Codo</h1>
+<p>Interesting experience just slowly working through this over the day. Having the walkthrough as a reference is handy, although I should have done more enumeration to identify everything <code>linpeas</code> was providing. Helpful experience updating the cheatsheet for fully interactive TTS too - most references just use <code>python</code> when pretty much everyone/thing is using <code>python3</code>, so be sure to watch out for that when copy/pasting from references.</p>
+<p>Keep revshells.com handy too, and keep practicing with msfvenom too, as a lot of your holdup today was trying to find the right reverse shell for php, when you should have just been able to pull it up in a heartbeat</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---plum---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---codo---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---provinggrounds---linux/">OSCP - ProvingGrounds - Linux</a>
+          <a href="/posts/oscp---crane---linux/">OSCP - Crane - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -228,65 +228,103 @@
 
         <div class="post-content">
           
-            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
-<h1 id="tj-null---pg-play---11">TJ Null - PG Play - 11</h1>
+            <h1 id="crane">Crane</h1>
+<p>This was the most straight-forward box so far. While a walkthrough was referenced for some of the exploit syntax, the exploit itself had already been found and tested before hand, so catching the reverse shell was straightforward.</p>
+<p>After initial access, it was clear <code>usr/sbin/service</code> could be used for privilege escalation. It took a bit of testing, but combining <code>www-data</code>&rsquo;s sudo privileges with directory traversal led to <code>root</code> access</p>
+<h1 id="resolution-summary">Resolution summary</h1>
 <ul>
-<li><input disabled="" type="checkbox"> eLection1</li>
-<li><input disabled="" type="checkbox"> Stapler</li>
-<li><input disabled="" type="checkbox"> Monitoring</li>
-<li><input disabled="" type="checkbox"> InsanityHosting</li>
-<li><input disabled="" type="checkbox"> DriftingBlue6</li>
-<li><input disabled="" type="checkbox"> Loly</li>
-<li><input disabled="" type="checkbox"> Blogger</li>
-<li><input disabled="" type="checkbox"> Amaterasu</li>
-<li><input disabled="" type="checkbox"> Blogger</li>
-<li><input disabled="" type="checkbox"> Potato</li>
-<li><input disabled="" type="checkbox"> DC-9</li>
+<li>Scanned with Nmap to find ports 22, 80, &amp; 3306</li>
+<li>Navigated to <code>http://192.168.137.146:80</code></li>
+<li>Password guessed admin login, and identified SuiteCRM 7.12.3</li>
+<li>Found exploit for CVE-2022-23940, executed against target &amp; achieved shell</li>
+<li>Checked sudo privileges and found <code>/usr/sbin/services</code></li>
+<li>Used <code>sbin</code> &amp; directory traversal to escalate to <code>root</code></li>
 </ul>
-<h1 id="tj-null---pg-practice---0">TJ Null - PG Practice - 0</h1>
-<p>Easy - 0/7</p>
+<h2 id="improved-skills">Improved skills</h2>
 <ul>
-<li><input checked="" disabled="" type="checkbox"> Twiggy</li>
-<li><input checked="" disabled="" type="checkbox"> Exfiltrated</li>
-<li><input checked="" disabled="" type="checkbox"> Astronaut</li>
-<li><input checked="" disabled="" type="checkbox"> Codo</li>
-<li><input checked="" disabled="" type="checkbox"> Levram</li>
-<li><input checked="" disabled="" type="checkbox"> Hub</li>
-<li><input checked="" disabled="" type="checkbox"> RubyDome</li>
+<li>Finding/testing exploits</li>
+<li>Linux Privilege Escalation</li>
 </ul>
-<p>Intermediate - 0/15</p>
+<h2 id="used-tools">Used tools</h2>
 <ul>
-<li><input checked="" disabled="" type="checkbox"> Pelican</li>
-<li><input checked="" disabled="" type="checkbox"> Boolean</li>
-<li><input checked="" disabled="" type="checkbox"> Crane</li>
-<li><input checked="" disabled="" type="checkbox"> Extplorer</li>
-<li><input checked="" disabled="" type="checkbox"> Image</li>
-<li><input checked="" disabled="" type="checkbox"> Iaw</li>
-<li><input checked="" disabled="" type="checkbox"> Lavita</li>
-<li><input checked="" disabled="" type="checkbox"> PC</li>
-<li><input checked="" disabled="" type="checkbox"> Fired</li>
-<li><input checked="" disabled="" type="checkbox"> Press</li>
-<li><input checked="" disabled="" type="checkbox"> Scrutiny</li>
-<li><input checked="" disabled="" type="checkbox"> Flu</li>
-<li><input checked="" disabled="" type="checkbox"> Ochima</li>
-<li><input checked="" disabled="" type="checkbox"> PyLoader</li>
-<li><input checked="" disabled="" type="checkbox"> Plum</li>
-<li><input checked="" disabled="" type="checkbox"> Cockpit</li>
+<li>Nmap</li>
+<li>NetCat</li>
 </ul>
-<p>Hard - 0/3</p>
+<hr>
+<h1 id="information-gathering">Information Gathering</h1>
+<p>Scanned all TCP ports:</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---provinggrounds---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---crane---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---pyloader---linux/">OSCP - PyLoader - Linux</a>
+          <a href="/posts/oscp---exam-prep/">OSCP - Exam Prep</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>ProvingGrounds (very close to OSCP)</p>
+<ul>
+<li><strong>PG Practice</strong>: Structured, guided learning with focused challenges to teach specific skills.</li>
+<li><strong>PG Play</strong>: Open, unguided labs that simulate real-world penetration testing <em>(best for OSCP prep)</em></li>
+</ul>
+<p>OffSec Challenge labs</p>
+<ul>
+<li>Challenge 0-2: Good warmup</li>
+<li>Challenge 3: Beyond scope of exam</li>
+<li><strong>Challenge 4-6</strong>: <em>OSCP-like experience</em>
+<ul>
+<li>Give yourself 24hrs for each</li>
+</ul>
+</li>
+</ul>
+<p>TjNull&rsquo;s List (excellent)</p>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLidcsTyj9JXK-fnabFLVEvHinQ14Jy5tf">Ipsec videos</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLcSbj5mz-wxPK8KD522vH5Gny4bSemX2H">NoxLumens Walkthroughs</a></li>
+</ul>
+<p>HTB Academy - CPTS</p>
+<ul>
+<li>Active Directory &amp; Enumeration</li>
+<li>Pivoting and tunnelling</li>
+<li>Attacking Common Services</li>
+<li>PrivEsc - Windows &amp; Linux</li>
+<li>File Transfer</li>
+</ul>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---exam-prep/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---exfiltrated---linux/">OSCP - Exfiltrated - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -303,22 +341,22 @@
 
         <div class="post-content">
           
-            <h1 id="pyloader">PyLoader</h1>
-<p>I&rsquo;m still shocked at how quick and incredibly easy this was - I went from boot to root in &lt;15mins!</p>
-<p>After Nmap showed responses to <code>22</code> and <code>9666</code> I checked <code>9666</code> in Firefox immediately (while the Nmap scan is still running) as I&rsquo;m prone to doing for anything I don&rsquo;t immediately recognise. As soon as I saw a page with <code>pyLoad</code> I just threw &ldquo;pyload exploit&rdquo; into Google, found a bunch of RCE exploits for CVE-2023-0297, and pulled up the entry on Exploit-DB.</p>
+            <h1 id="exfiltration">Exfiltration</h1>
+<p>Relatively easy box turned into a VERY frustrating experience at not being able to properly execute <code>exiftool</code> exploit because of missing library dependencies. Exploit actually detailed exactly <em>how</em> to install those dependencies, but I was looking for instructions on Stack Overflow instead of in the script itself - <em><strong>always read the script!</strong></em></p>
+<p>Exploits were relatively straight forward once the dependencies were sorted though, so all round good practice on the process of popping boxes. Local user had also been identified by <code>linpeas.sh</code> but ended up getting root first (flag = <code>proof.txt</code>) then using root privilege to find the <code>coaran</code> user with GID=1000 and the local flag (flag = <code>local.txt</code>).</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---pyloader---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---exfiltrated---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---rubydome---linux/">OSCP - RubyDome - Linux</a>
+          <a href="/posts/oscp---extplorer---linux/">OSCP - Extplorer - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -335,47 +373,15 @@
 
         <div class="post-content">
           
-            <h1 id="rubydome">RubyDome</h1>
-<p>Frustrating that a couple of key points in this box were only broken through with the use of the walkthrough. Throwing <code>127.0.0.1</code> into the website to break it was a new one (something to keep in mind for the future) but I&rsquo;d have never worked out without the walkthrough.</p>
-<p>Likewise the exploit initially appeared to be working perfectly but wasn&rsquo;t catching a shell, and it turned out I had to add &ldquo;pdf&rdquo; onto the end of the target web address.</p>
+            <h1 id="extplorer">Extplorer</h1>
+<p>This was simultaneously the easiest and most frustrating box yet. Identifying and accessing <code>filemanager</code> was ridiculously easy, and uploading a reverse shell php and catching the shell <em>seemed</em> easy initially. Even finding credentials for <code>dora</code> was easy once I started looking through all the info that was available in the <code>filemanager</code> folder.</p>
+<p>What I wasn&rsquo;t expecting was to spend 2 hours trying to figure out why I couldn&rsquo;t upgrade the dumb shell I&rsquo;d caught to a full shell, even though I <em><strong>knew</strong></em> the target was running <code>python3</code>.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---rubydome---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---scrutiny---linux/">OSCP - Scrutiny - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="scrutiny">Scrutiny</h1>
-<p>This whole box felt like a whole lot of enumeration - digging through files to find SSH keys and cleartext passwords. Probably the biggest lesson I learned out of it however was how to setup and run python libraries in a virtual environment!</p>
-<p>The exploit required <code>urllib3 faker</code> to run, and <code>python3</code> kept throwing the <code>externally managed</code> error that drove me crazy awhile back when I was trying to install the <code>bzz</code> library - I must have found another way around that, but this time around I actually dug into what this error was all about. Turns out <code>python</code> likes to run it&rsquo;s external libraries in a self-contained virtual environment, and while there is an override pretty much everyone on stackoverflow was screaming that it&rsquo;d break the system.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---scrutiny---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---extplorer---linux/">[Read more]</a>
           </div>
         
       </article>

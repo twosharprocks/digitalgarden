@@ -1,5 +1,5 @@
 ---
-title: Paprika Chicken & Chorizo Gnocchi
+title: "Meal - Paprika Chicken & Chorizo Gnocchi"
 source: https://www.instagram.com/reels/C_ipqoNIj3v/
 created: 2026-04-16
 updated: 2026-04-16

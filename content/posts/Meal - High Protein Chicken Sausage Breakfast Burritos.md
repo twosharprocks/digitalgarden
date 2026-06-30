@@ -1,5 +1,5 @@
 ---
-title: High Protein Chicken Sausage Breakfast Burritos
+title: "Meal - High Protein Chicken Sausage Breakfast Burritos"
 source: https://www.instagram.com/reels/C_I1c6OpKFo/
 created: 2026-04-16
 updated: 2026-04-16

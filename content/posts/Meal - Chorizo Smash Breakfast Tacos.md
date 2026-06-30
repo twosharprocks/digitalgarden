@@ -1,5 +1,5 @@
 ---
-title: Chorizo Smash Breakfast Tacos
+title: "Meal - Chorizo Smash Breakfast Tacos"
 source: https://www.instagram.com/p/CwAd5Bms4WY/
 created: 2026-04-16
 updated: 2026-04-16

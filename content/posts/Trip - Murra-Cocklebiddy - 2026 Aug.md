@@ -1,5 +1,5 @@
 ---
-title: Trip - Cocklebiddy - 2026 Sept
+title: "Trip - Murra-Cocklebiddy - 2026 Aug"
 created: 2025-10-19
 updated: 2026-06-27
 status: planning

@@ -46,16 +46,16 @@ Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{<
 - [HTB Enterprise](https://enterprise.hackthebox.com/)
 
 ## [CISA]({{< relref "posts/CISA.md" >}})
-- CISA - 1A - IS Audit Process Planning
-- CISA - 1B - IS Audit Process Execution
-- CISA - 2A - Governance
-- CISA - 2B - IT Management
-- CISA - 3A - IS Acquisition and Development
-- CISA - 3B - IS Implementation
-- CISA - 4A - IS Operations
-- CISA - 4B - Business Resilience
-- CISA - 5A - Info Asset Security and Control
-- CISA - 5B - Security Event Management
+- [CISA - 1A - IS Audit Process Planning]({{< relref "posts/CISA - 1A - IS Audit Process Planning.md" >}})
+- [CISA - 1B - IS Audit Process Execution]({{< relref "posts/CISA - 1B - IS Audit Process Execution.md" >}})
+- [CISA - 2A - Governance]({{< relref "posts/CISA - 2A - Governance.md" >}})
+- [CISA - 2B - IT Management]({{< relref "posts/CISA - 2B - IT Management.md" >}})
+- [CISA - 3A - IS Acquisition and Development]({{< relref "posts/CISA - 3A - IS Acquisition and Development.md" >}})
+- [CISA - 3B - IS Implementation]({{< relref "posts/CISA - 3B - IS Implementation.md" >}})
+- [CISA - 4A - IS Operations]({{< relref "posts/CISA - 4A - IS Operations.md" >}})
+- [CISA - 4B - Business Resilience]({{< relref "posts/CISA - 4B - Business Resilience.md" >}})
+- [CISA - 5A - Info Asset Security and Control]({{< relref "posts/CISA - 5A - Info Asset Security and Control.md" >}})
+- [CISA - 5B - Security Event Management]({{< relref "posts/CISA - 5B - Security Event Management.md" >}})
 ## [CISSP]({{< relref "posts/CISSP.md" >}})
 - [CISSP - 1 - Security & Risk Management]({{< relref "posts/CISSP - 1 - Security & Risk Management.md" >}})
 - [CISSP - 2 - Asset Security]({{< relref "posts/CISSP - 2 - Asset Security.md" >}})
@@ -72,10 +72,10 @@ Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{<
 ## [OSCP]({{< relref "posts/oscp.md" >}})
 - General
 	- [OSCP]({{< relref "posts/oscp.md" >}}) [Exam Guide](https://help.offsec.com/hc/en-us/articles/360040165632-OSCP-Exam-Guide-Newly-Updated)
-	- [OSCP Exam Prep]({{< relref "posts/OSCP Exam Prep.md" >}})
+	- [OSCP - Exam Prep]({{< relref "posts/OSCP - Exam Prep.md" >}})
 	- [OSCP - Cheat Sheet - Core]({{< relref "posts/OSCP - Cheat Sheet - Core.md" >}})
 	- [OSCP - Cheat Sheet - Windows]({{< relref "posts/OSCP - Cheat Sheet - Windows.md" >}})
-	- [OSCP - Cheat Sheet - AD]({{< relref "posts/OSCP - Cheat Sheet - AD.md" >}})
+	- [OSCP - Cheat Sheet - Active Directory]({{< relref "posts/OSCP - Cheat Sheet - Active Directory.md" >}})
 - HackTheBox Lists
 	- [OSCP - HTB - Active Directory]({{< relref "posts/OSCP - HTB - Active Directory.md" >}})
 	- [OSCP - HTB - Linux]({{< relref "posts/OSCP - HTB - Linux.md" >}})

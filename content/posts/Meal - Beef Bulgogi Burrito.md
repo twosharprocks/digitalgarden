@@ -1,5 +1,5 @@
 ---
-title: Beef Bulgogi Burrito
+title: "Meal - Beef Bulgogi Burrito"
 source: https://www.instagram.com/p/C8SA1OVp6Hp/
 created: 2026-06-30
 updated: 2026-06-30

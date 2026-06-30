@@ -1,5 +1,5 @@
 ---
-title: Template - ChOptima Pre-Dive
+title: "ChOptima Pre-Dive"
 created: 2025-12-29
 updated: 2025-12-29
 status: seed

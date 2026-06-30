@@ -1,5 +1,5 @@
 ---
-title: Chicken Parm Baked Wraps
+title: "Meal - Chicken Parm Baked Wraps"
 source: https://www.instagram.com/reel/C-YNCyitW-P/
 created: 2026-06-30
 updated: 2026-06-30

@@ -1,5 +1,5 @@
 ---
-title: Spicy Chicken Rice Bowl
+title: "Meal - Spicy Chicken Rice Bowl"
 source: https://www.instagram.com/reels/C-xeB-AROUv/
 created: 2026-04-16
 updated: 2026-04-16

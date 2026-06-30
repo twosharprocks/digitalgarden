@@ -179,7 +179,156 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---htb---active-directory/">OSCP - HTB - Active Directory</a>
+          <a href="/posts/one-tree---5l7/">One Tree - 5L7</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+            #<a href="/tags/caving/">caving</a>&nbsp;
+            
+            #<a href="/tags/personal/">personal</a>&nbsp;
+            
+            #<a href="/tags/trips/">trips</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="to-do">To Do</h1>
+<h2 id="dive">Dive</h2>
+<h2 id="dry">Dry</h2>
+<h2 id="photogram">Photogram</h2>
+<hr>
+<h1 id="about">About</h1>
+<hr>
+<h1 id="other-references">Other References</h1>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/one-tree---5l7/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp/">OSCP</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/study/">study</a>&nbsp;
+            
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p><em>No matching meals.</em></p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---access---ad/">OSCP - Access - AD</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h2 id="improved-skills">Improved skills</h2>
+<ul>
+<li>PHP bypasses</li>
+<li>Windows PrivEsc</li>
+<li>SeManageVolume Privilege Abuse</li>
+</ul>
+<h2 id="used-tools">Used tools</h2>
+<ul>
+<li>nmap</li>
+<li>python</li>
+<li>powershell</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering</h1>
+<p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -p- -vvv -oN access.nmap 192.168.230.187
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">PORT      STATE SERVICE          REASON
+</span></span><span class="line"><span class="cl">53/tcp    open  domain           syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">80/tcp    open  http             syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">88/tcp    open  kerberos-sec     syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">135/tcp   open  msrpc            syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">139/tcp   open  netbios-ssn      syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">389/tcp   open  ldap             syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">445/tcp   open  microsoft-ds     syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">464/tcp   open  kpasswd5         syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">593/tcp   open  http-rpc-epmap   syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">636/tcp   open  ldapssl          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">3268/tcp  open  globalcatLDAP    syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">3269/tcp  open  globalcatLDAPssl syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">5985/tcp  open  wsman            syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">9389/tcp  open  adws             syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49666/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49668/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49673/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49674/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49677/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49704/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49791/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span></code></pre></div><hr>
+<h1 id="enumeration">Enumeration</h1>
+<h2 id="port-53---dns">Port 53 - DNS</h2>
+<p>No enumeration conducted</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---access---ad/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---active-directory/">OSCP - Active Directory</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -197,31 +346,28 @@
         <div class="post-content">
           
             <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
-<hr>
-<h1 id="tj-null">TJ Null</h1>
+<h1 id="tj-null---6">TJ Null - 6</h1>
 <ul>
-<li><input disabled="" type="checkbox"> Active (Enterprise)</li>
-<li><input disabled="" type="checkbox"> Forest</li>
-<li><input disabled="" type="checkbox"> Sauna</li>
-<li><input disabled="" type="checkbox"> Monteverde</li>
-<li><input disabled="" type="checkbox"> Timelapse</li>
-<li><input disabled="" type="checkbox"> Return (Enterprise)</li>
-<li><input disabled="" type="checkbox"> Cascade</li>
-<li><input disabled="" type="checkbox"> Flight</li>
+<li><input checked="" disabled="" type="checkbox"> Access - Intermediate</li>
+<li><input disabled="" type="checkbox"> Hokkaido - Intermediate</li>
+<li><input disabled="" type="checkbox"> Resourced - Intermediate</li>
+<li><input disabled="" type="checkbox"> Heist - Hard</li>
+<li><input disabled="" type="checkbox"> Vault - Hard</li>
+<li><input disabled="" type="checkbox"> Nagoya - Hard</li>
 </ul>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---htb---active-directory/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---active-directory/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---htb---linux/">OSCP - HTB - Linux</a>
+          <a href="/posts/oscp---algernon---windows/">OSCP - Algernon - Windows</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -238,143 +384,14 @@
 
         <div class="post-content">
           
-            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
-<hr>
-<h1 id="tj-null">TJ Null</h1>
-<ul>
-<li><input disabled="" type="checkbox"> Busqueda</li>
-<li><input disabled="" type="checkbox"> UpDown</li>
-<li><input disabled="" type="checkbox"> Sau</li>
-<li><input disabled="" type="checkbox"> Help</li>
-<li><input disabled="" type="checkbox"> Broker</li>
-<li><input disabled="" type="checkbox"> Intentions</li>
-<li><input disabled="" type="checkbox"> Soccer</li>
-<li><input disabled="" type="checkbox"> Keeper</li>
-<li><input disabled="" type="checkbox"> Monitored</li>
-<li><input disabled="" type="checkbox"> Boardlight</li>
-<li><input disabled="" type="checkbox"> Networked</li>
-<li><input disabled="" type="checkbox"> CozyHosting</li>
-<li><input disabled="" type="checkbox"> Editorial</li>
-<li><input disabled="" type="checkbox"> Help</li>
-<li><input disabled="" type="checkbox"> Magic</li>
-<li><input disabled="" type="checkbox"> Pandora</li>
-<li><input disabled="" type="checkbox"> Usage</li>
-</ul>
+            <h1 id="algernon">Algernon</h1>
+<p>This was my first shift across from Linux into Windows, and I&rsquo;ll freely admit to being a little overwhelmed at all the open ports and not knowing quite where to start. Realising the FTP had an anonymous login was straight forward, and identifiying the <code>admin</code> user from the logs was nice, but it turned out to be a deadend and the real solution was 10x easier than what I&rsquo;d experienced with the last few Linux boxes - I really needed to reset my expectations.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---htb---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---htb---windows/">OSCP - HTB - Windows</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
-<hr>
-<h1 id="tj-null">TJ Null</h1>
-<ul>
-<li><input disabled="" type="checkbox"> Escape</li>
-<li><input disabled="" type="checkbox"> Servmon - Enterprise</li>
-<li><input disabled="" type="checkbox"> Support</li>
-<li><input disabled="" type="checkbox"> StreamIO</li>
-<li><input disabled="" type="checkbox"> Blackfield</li>
-<li><input disabled="" type="checkbox"> Intelligence</li>
-<li><input disabled="" type="checkbox"> Jeeves</li>
-<li><input disabled="" type="checkbox"> Manager</li>
-<li><input disabled="" type="checkbox"> Access</li>
-<li><input disabled="" type="checkbox"> Aero</li>
-<li><input disabled="" type="checkbox"> Mailing</li>
-</ul>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---htb---windows/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---hub---linux/">OSCP - Hub - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="hub">Hub</h1>
-<p>This was a bit of an odd one that required more than a few reverts. Identifying that FuguForum was the target (not barracuda as initially suspected) was a nice realisation that I&rsquo;m picking up on the details that I need to, and that searching for exploits is becoming a more common and clear thing to do.</p>
-<p>What was really frustrating was finding that none of those exploit actually work, and then needing to dig into the website to write a reverse shell into page. So much of this box didn&rsquo;t work properly, and what should have been straight forward was unnecessarily difficult - not because it was secure, but because it simply wasn&rsquo;t working properly. Even once I managed to get a shell, there was no way to upgrade it to full TTY, so once I had root through a binary exploit, I was still stuck with a shitty shell.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---hub---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---hutch---windows/">OSCP - Hutch - Windows</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="box">Box</h1>
-<p>Rinse and repeat on the Windows bullshit here. Just like Authby, this was an exercise in absolute frustration yesterday - trying every possible exploit combination and following numerous walkthroughs - only for the entire thing to crack in a heartbeat tonight using the exact same tools and exploit I ran 24 hours earlier.</p>
-<p>Once again this is a reminder that these Windows boxes are unbelievable unreliable and unstable, so if you&rsquo;re following the exact steps of a walkthrough and things are not working, then shut the box down and move on. There is absolutely no point bashing your head against a broken box, so let it go.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---hutch---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---algernon---windows/">[Read more]</a>
           </div>
         
       </article>

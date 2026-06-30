@@ -1,5 +1,5 @@
 ---
-title: High Protein Chicken Katsu Fried Rice
+title: "Meal - High Protein Chicken Katsu Fried Rice"
 source: https://www.instagram.com/reels/C7172jjI9j0/
 created: 2026-04-16
 updated: 2026-06-30

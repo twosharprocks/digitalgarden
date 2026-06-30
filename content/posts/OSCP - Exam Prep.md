@@ -1,16 +1,15 @@
 ---
-title: OSCP Exam Prep
+title: OSCP - Exam Prep
 created: 2024-07-10
-updated: 2025-06-28
+updated: 2026-06-30
 status: reference
 draft: false
 tags:
   - oscp
   - cyber-security
-Related: 
+Related:
   - "[[Cyber Security]]"
   - "[[OSCP]]"
----
 ---
 ProvingGrounds (very close to OSCP)
 - **PG Practice**: Structured, guided learning with focused challenges to teach specific skills.

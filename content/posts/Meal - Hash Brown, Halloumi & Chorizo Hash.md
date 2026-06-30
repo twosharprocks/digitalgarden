@@ -1,5 +1,5 @@
 ---
-title: Hash Brown, Halloumi & Chorizo Hash
+title: "Meal - Hash Brown, Halloumi & Chorizo Hash"
 source: https://www.instagram.com/p/DDeKRB0I_sw/
 created: 2026-04-16
 updated: 2026-04-16

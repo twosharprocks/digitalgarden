@@ -1,5 +1,5 @@
 ---
-title: Creamy Garlic Chicken Pasta
+title: "Meal - Creamy Garlic Chicken Pasta"
 source: https://www.instagram.com/reels/C_I1c6OpKFo/
 created: 2026-04-16
 updated: 2026-04-16

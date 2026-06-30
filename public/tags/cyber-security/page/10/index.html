@@ -180,7 +180,7 @@
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---hub---linux/">OSCP - Hub - Linux</a>
+          <a href="/posts/oscp---cockpit---linux/">OSCP - Cockpit - Linux</a>
         </h1>
         <div class="post-meta"></div>
 
@@ -197,22 +197,22 @@
 
         <div class="post-content">
           
-            <h1 id="hub">Hub</h1>
-<p>This was a bit of an odd one that required more than a few reverts. Identifying that FuguForum was the target (not barracuda as initially suspected) was a nice realisation that I&rsquo;m picking up on the details that I need to, and that searching for exploits is becoming a more common and clear thing to do.</p>
-<p>What was really frustrating was finding that none of those exploit actually work, and then needing to dig into the website to write a reverse shell into page. So much of this box didn&rsquo;t work properly, and what should have been straight forward was unnecessarily difficult - not because it was secure, but because it simply wasn&rsquo;t working properly. Even once I managed to get a shell, there was no way to upgrade it to full TTY, so once I had root through a binary exploit, I was still stuck with a shitty shell.</p>
+            <h1 id="cockpit">Cockpit</h1>
+<p>This one was originally listed as &ldquo;Hard&rdquo; in my list, but when I checked during startup it showed as &ldquo;Intermediate&rdquo;. Definitely don&rsquo;t think it should be listed as &ldquo;Intermediate&rdquo; though - this was definitely the trickest boxes I&rsquo;ve done, and I absolutely leaned heavily on the walkthrough to make progress here.</p>
+<p>The biggest challenge ofcourse was the box breaking everytime I tried to run <code>gobuster</code> against it to find directories or files. Turned out there was a hidden <code>login.php</code> file on the port <code>80</code> server, but I couldn&rsquo;t find the damn thing with the first few gobuster scans because the whole box would break and require revert. Worse was finding the <code>blocked.html</code> page which would break the box every time I visited it OR scanned it with <code>gobuster</code>.</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/oscp---hub---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---cockpit---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---hutch---windows/">OSCP - Hutch - Windows</a>
+          <a href="/posts/oscp---codo---linux/">OSCP - Codo - Linux</a>
         </h1>
         <div class="post-meta"></div>
 
@@ -229,22 +229,22 @@
 
         <div class="post-content">
           
-            <h1 id="box">Box</h1>
-<p>Rinse and repeat on the Windows bullshit here. Just like Authby, this was an exercise in absolute frustration yesterday - trying every possible exploit combination and following numerous walkthroughs - only for the entire thing to crack in a heartbeat tonight using the exact same tools and exploit I ran 24 hours earlier.</p>
-<p>Once again this is a reminder that these Windows boxes are unbelievable unreliable and unstable, so if you&rsquo;re following the exact steps of a walkthrough and things are not working, then shut the box down and move on. There is absolutely no point bashing your head against a broken box, so let it go.</p>
+            <h1 id="codo">Codo</h1>
+<p>Interesting experience just slowly working through this over the day. Having the walkthrough as a reference is handy, although I should have done more enumeration to identify everything <code>linpeas</code> was providing. Helpful experience updating the cheatsheet for fully interactive TTS too - most references just use <code>python</code> when pretty much everyone/thing is using <code>python3</code>, so be sure to watch out for that when copy/pasting from references.</p>
+<p>Keep revshells.com handy too, and keep practicing with msfvenom too, as a lot of your holdup today was trying to find the right reverse shell for php, when you should have just been able to pull it up in a heartbeat</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/oscp---hutch---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---codo---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---image---linux/">OSCP - Image - Linux</a>
+          <a href="/posts/oscp---crane---linux/">OSCP - Crane - Linux</a>
         </h1>
         <div class="post-meta"></div>
 
@@ -261,93 +261,27 @@
 
         <div class="post-content">
           
-            <h1 id="image">Image</h1>
-<p>This box was objectively quite easy, however the issues I had <em>around</em> it made things far more complicated/frustrating than they needed to be.</p>
-<p>Prior to starting this box I&rsquo;d tried to setup a shared folder on the VM that would also upload to Google drive (with the intent being I could pull the box folder to any desktop/laptop I was working from). However when I started running the exploit to try to create the <code>.png</code> with the reverse shell in the name, I started getting an error message saying the file didn&rsquo;t exist.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/oscp---image---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/oscp---internal---windows/">OSCP - Internal - Windows</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="internal">Internal</h1>
-<p>These Windows boxes are getting more and more frustrating. This one I had four separate walkthroughs available and 5 different exploits I could run, and in the end I had to resort to Metasploit to catch a meterpreter shell. Even the Meterpreter shell was a pain in the ass - once I was in I knew I could navigate directly to the Administrator&rsquo;s desktop, but I had to type in each directory change one-by-one rather than going directly to the proof file.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/oscp---internal---windows/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/oscp---jacko---windows/">OSCP - Jacko - Windows</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="box">Box</h1>
-<p>What the actual fuck&hellip; I&rsquo;ll write this up tomorrow, but this was a combination of &ldquo;Why the fuck isn&rsquo;t this working&rdquo; with &ldquo;that is so fucking dumb&rdquo; when it did finally work</p>
+            <h1 id="crane">Crane</h1>
+<p>This was the most straight-forward box so far. While a walkthrough was referenced for some of the exploit syntax, the exploit itself had already been found and tested before hand, so catching the reverse shell was straightforward.</p>
+<p>After initial access, it was clear <code>usr/sbin/service</code> could be used for privilege escalation. It took a bit of testing, but combining <code>www-data</code>&rsquo;s sudo privileges with directory traversal led to <code>root</code> access</p>
 <h1 id="resolution-summary">Resolution summary</h1>
 <ul>
-<li>Ran Nmap to identify ports <code>80</code>, <code>135/445</code>, <code>445</code>, <code>5040</code>, <code>8082</code> &amp; <code>9092</code></li>
-<li>Navigated to port <code>8082</code> with browser and logged in with default credentials</li>
-<li>Found exploit for <code>H2 Database</code> and achieved code execution via SQL</li>
-<li>Uploaded &amp; executed reverse shell via SQL statements for initial access</li>
-<li>Identified <code>Paperstream</code> software and found exploit <code>49382.py</code></li>
-<li>Used <code>msfvenom</code> to create reverse shell <code>dll</code> with <code>x86</code> architecture &amp; <code>xor_dynamic</code></li>
-<li>Uploaded <code>dll</code> and <code>49382.ps1</code> to target via <code>iwr</code></li>
-<li>Ran <code>49382.ps1</code> on target and recieved reverse shell as <code>NT-system</code></li>
+<li>Scanned with Nmap to find ports 22, 80, &amp; 3306</li>
+<li>Navigated to <code>http://192.168.137.146:80</code></li>
+<li>Password guessed admin login, and identified SuiteCRM 7.12.3</li>
+<li>Found exploit for CVE-2022-23940, executed against target &amp; achieved shell</li>
+<li>Checked sudo privileges and found <code>/usr/sbin/services</code></li>
+<li>Used <code>sbin</code> &amp; directory traversal to escalate to <code>root</code></li>
 </ul>
 <h2 id="improved-skills">Improved skills</h2>
 <ul>
-<li>Generating msfvenom payloads</li>
-<li>Working with Windows kernel exploits (specifically potatos)</li>
+<li>Finding/testing exploits</li>
+<li>Linux Privilege Escalation</li>
 </ul>
 <h2 id="used-tools">Used tools</h2>
 <ul>
-<li>nmap</li>
-<li>python</li>
-<li>msfvenom</li>
-<li>powershell</li>
+<li>Nmap</li>
+<li>NetCat</li>
 </ul>
 <hr>
 <h1 id="information-gathering">Information Gathering</h1>
@@ -357,7 +291,98 @@
 
         
           <div>
-            <a class="read-more button inline" href="/posts/oscp---jacko---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---crane---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/oscp---exam-prep/">OSCP - Exam Prep</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>ProvingGrounds (very close to OSCP)</p>
+<ul>
+<li><strong>PG Practice</strong>: Structured, guided learning with focused challenges to teach specific skills.</li>
+<li><strong>PG Play</strong>: Open, unguided labs that simulate real-world penetration testing <em>(best for OSCP prep)</em></li>
+</ul>
+<p>OffSec Challenge labs</p>
+<ul>
+<li>Challenge 0-2: Good warmup</li>
+<li>Challenge 3: Beyond scope of exam</li>
+<li><strong>Challenge 4-6</strong>: <em>OSCP-like experience</em>
+<ul>
+<li>Give yourself 24hrs for each</li>
+</ul>
+</li>
+</ul>
+<p>TjNull&rsquo;s List (excellent)</p>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLidcsTyj9JXK-fnabFLVEvHinQ14Jy5tf">Ipsec videos</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLcSbj5mz-wxPK8KD522vH5Gny4bSemX2H">NoxLumens Walkthroughs</a></li>
+</ul>
+<p>HTB Academy - CPTS</p>
+<ul>
+<li>Active Directory &amp; Enumeration</li>
+<li>Pivoting and tunnelling</li>
+<li>Attacking Common Services</li>
+<li>PrivEsc - Windows &amp; Linux</li>
+<li>File Transfer</li>
+</ul>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---exam-prep/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/oscp---exfiltrated---linux/">OSCP - Exfiltrated - Linux</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="exfiltration">Exfiltration</h1>
+<p>Relatively easy box turned into a VERY frustrating experience at not being able to properly execute <code>exiftool</code> exploit because of missing library dependencies. Exploit actually detailed exactly <em>how</em> to install those dependencies, but I was looking for instructions on Stack Overflow instead of in the script itself - <em><strong>always read the script!</strong></em></p>
+<p>Exploits were relatively straight forward once the dependencies were sorted though, so all round good practice on the process of popping boxes. Local user had also been identified by <code>linpeas.sh</code> but ended up getting root first (flag = <code>proof.txt</code>) then using root privilege to find the <code>coaran</code> user with GID=1000 and the local flag (flag = <code>local.txt</code>).</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---exfiltrated---linux/">[Read more]</a>
           </div>
         
       </article>

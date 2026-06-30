@@ -1,5 +1,5 @@
 ---
-title: High Protein Breakfast Bagel
+title: "Meal - High Protein Breakfast Bagel"
 source: https://www.instagram.com/p/C9CdPt3sL4G/
 created: 2026-04-16
 updated: 2026-04-16

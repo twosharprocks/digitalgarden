@@ -179,7 +179,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---image---linux/">OSCP - Image - Linux</a>
+          <a href="/posts/oscp---astronaut---linux/">OSCP - Astronaut - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -196,22 +196,22 @@
 
         <div class="post-content">
           
-            <h1 id="image">Image</h1>
-<p>This box was objectively quite easy, however the issues I had <em>around</em> it made things far more complicated/frustrating than they needed to be.</p>
-<p>Prior to starting this box I&rsquo;d tried to setup a shared folder on the VM that would also upload to Google drive (with the intent being I could pull the box folder to any desktop/laptop I was working from). However when I started running the exploit to try to create the <code>.png</code> with the reverse shell in the name, I started getting an error message saying the file didn&rsquo;t exist.</p>
+            <h1 id="astronaut">Astronaut</h1>
+<p>Much quicker and more useful experience than <code>Exfiltrated</code>. Did my own enumeration, and used the <a href="https://medium.com/@ardian.danny/oscp-practice-series-20-proving-grounds-astronaut-627bc41a86ef">walkthrough</a> only as a guide when getting stuck.</p>
+<p>Discovering &ldquo;blind&rdquo; exploits was interesting, however it made sense that if the exploit isn&rsquo;t generating any output and not creating a reverse shell, that you might need to add a <code>-c</code> command with a line of bash to establish a reverse shell instead. Although once again all the instructions were in the script if you looked - <em><strong>always read the script!</strong></em></p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---image---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---astronaut---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---internal---windows/">OSCP - Internal - Windows</a>
+          <a href="/posts/oscp---authby---windows/">OSCP - Authby - Windows</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -228,21 +228,21 @@
 
         <div class="post-content">
           
-            <h1 id="internal">Internal</h1>
-<p>These Windows boxes are getting more and more frustrating. This one I had four separate walkthroughs available and 5 different exploits I could run, and in the end I had to resort to Metasploit to catch a meterpreter shell. Even the Meterpreter shell was a pain in the ass - once I was in I knew I could navigate directly to the Administrator&rsquo;s desktop, but I had to type in each directory change one-by-one rather than going directly to the proof file.</p>
+            <h1 id="authby">Authby</h1>
+<p>These Windows are doing my absolute head in. I spent hours on this box the day before following a multiple walkthroughs to the letter and got nowhere. I and wound up feeling so frustrated at not receiving even an initial shell that I marked this box as &ldquo;Aborted&rdquo; and shut down for the night - I figured there was no point pushing on and to just move on to the next Windows box.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---internal---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---authby---windows/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---jacko---windows/">OSCP - Jacko - Windows</a>
+          <a href="/posts/oscp---blackgate---linux/">OSCP - Blackgate - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -259,104 +259,130 @@
 
         <div class="post-content">
           
-            <h1 id="box">Box</h1>
-<p>What the actual fuck&hellip; I&rsquo;ll write this up tomorrow, but this was a combination of &ldquo;Why the fuck isn&rsquo;t this working&rdquo; with &ldquo;that is so fucking dumb&rdquo; when it did finally work</p>
-<h1 id="resolution-summary">Resolution summary</h1>
+            <h1 id="blackgate">Blackgate</h1>
+<p>This is the first of the &ldquo;Hard&rdquo; machines I&rsquo;ve tackled, so I&rsquo;d been worried it may have been a major step up from what I&rsquo;d been doing previously. Surprisingly though, this was very much a case of googling and learning about a service I&rsquo;d never heard of (Redis), connecting to it to test a few commands, and then finding the version I was connected to had a well known RCE exploit and using it to achieve initial access!</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---blackgate---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---boolean---linux/">OSCP - Boolean - Linux</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="boolean">Boolean</h1>
+<p>This was an absolute slog, and even the walkthroughs didn&rsquo;t help at the end. It was good to identify that BurpSuite would be used early on, but picking up and changing the &ldquo;confirmed&rdquo; element was tricky. Having the PHP reverse shell not work was incredibly frustrating too, but it was obvious something else would be needed when GoBuster wasn&rsquo;t showing where the uploaded files were being stored (obviously download only and not directly web accessible).</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---boolean---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---cheat-sheet---active-directory/">OSCP - Cheat Sheet - Active Directory</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p><a href="https://book.hacktricks.xyz/windows-hardening/active-directory-methodology">HackTricks - AD Methodology</a></p>
+<h1 id="initial-access">Initial Access</h1>
 <ul>
-<li>Ran Nmap to identify ports <code>80</code>, <code>135/445</code>, <code>445</code>, <code>5040</code>, <code>8082</code> &amp; <code>9092</code></li>
-<li>Navigated to port <code>8082</code> with browser and logged in with default credentials</li>
-<li>Found exploit for <code>H2 Database</code> and achieved code execution via SQL</li>
-<li>Uploaded &amp; executed reverse shell via SQL statements for initial access</li>
-<li>Identified <code>Paperstream</code> software and found exploit <code>49382.py</code></li>
-<li>Used <code>msfvenom</code> to create reverse shell <code>dll</code> with <code>x86</code> architecture &amp; <code>xor_dynamic</code></li>
-<li>Uploaded <code>dll</code> and <code>49382.ps1</code> to target via <code>iwr</code></li>
-<li>Ran <code>49382.ps1</code> on target and recieved reverse shell as <code>NT-system</code></li>
-</ul>
-<h2 id="improved-skills">Improved skills</h2>
+<li><code>whoami</code>, <code>whoami /all</code></li>
+<li><code>whoami /priv</code>
 <ul>
-<li>Generating msfvenom payloads</li>
-<li>Working with Windows kernel exploits (specifically potatos)</li>
-</ul>
-<h2 id="used-tools">Used tools</h2>
+<li>SeImpersonatePrivilege
 <ul>
-<li>nmap</li>
-<li>python</li>
-<li>msfvenom</li>
-<li>powershell</li>
+<li>Run <a href="https://github.com/CCob/SweetPotato">SweetPotato</a>
+<ul>
+<li><code>./sweetpotato.exe -a &quot;C:\Users\Public\revshell.exe&quot;</code></li>
 </ul>
-<hr>
-<h1 id="information-gathering">Information Gathering</h1>
-<p>Scanned all TCP ports:</p>
+</li>
+<li><a href="https://github.com/itm4n/FullPowers">FullPowers tool</a></li>
+<li><a href="https://jlajara.gitlab.io/Potatoes_Windows_Privesc">How to use potatoes</a> &amp; - <a href="https://ppn.snovvcrash.rocks/pentest/infrastructure/ad/privileges-abuse/seimpersonate/potatoes" title="Pre-compiled">Pre-compiled Potatoes</a></li>
+<li><a href="https://juggernaut-sec.com/seimpersonateprivilege/">How to use Juicy/Rogue Potato &amp; Printspoofer</a></li>
+<li><a href="https://github.com/itm4n/PrintSpoofer">Printspoofer - GitHub</a> <code>.\PrintSpoofer64.exe -i -c powershell.exe</code> <code>whoami</code></li>
+<li><a href="https://github.com/k4sth4/Juicy-Potato/tree/main">Juicy Potato - Github</a> <code>.\juicypotato.exe -l  -p c:\Users\tony\revshell.exe -t * -c &quot;{9E175B9C-F52A-11D8-B9A5-505054503030}&quot;</code></li>
+</ul>
+</li>
+<li>SEbackupPriv
+<ul>
+<li><a href="https://exploit-notes.hdks.org/exploit/windows/privilege-escalation/windows-privesc-with-sebackupprivilege/">https://exploit-notes.hdks.org/exploit/windows/privilege-escalation/windows-privesc-with-sebackupprivilege/</a></li>
+<li><a href="https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/blob/master/Notes/SeBackupPrivilege.md">https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/blob/master/Notes/SeBackupPrivilege.md</a></li>
+</ul>
+</li>
+<li>SeShutdownPrivilege
+<ul>
+<li>Can a startup process be modified? Then modify &amp; reboot</li>
+<li>Check service has <code>Auto</code>: `Get-CimInstance -ClassName win32_service | Select Name, StartMode | Where-Object {$_.Name -like &lsquo;httpd&rsquo;}</li>
+<li>Reboot: <code>shutdown /r /t 0</code></li>
+</ul>
+</li>
+<li><a href="https://github.com/xct/SeManageVolumeAbuse">SeManageVolumePrivilege</a>
+<ul>
+<li><code>wget https://github.com/CsEnox/SeManageVolumeExploit/releases/download/public/SeManageVolumeExploit.exe</code></li>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>whoami /groups</code>,
+<ul>
+<li><code>net localgroup</code> or <code>Get-LocalGroup</code> (Existing groups)</li>
+<li><code>Get-LocalGroupMember groupname</code> (Inspect)</li>
+</ul>
+</li>
+<li><code>systeminfo</code> (wiki build number)
+<ul>
+<li>Windows kernel exploits</li>
+</ul>
+</li>
+</ul>
+<p>More Initial Access</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---jacko---windows/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---kevin---windows-dnf/">OSCP - Kevin - Windows (DNF)</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="kevin">Kevin</h1>
-<p>I&rsquo;ve checked all the walkthroughs, tried countless variations of the easily available exploits, even reimaged my entire Kali VM trying to make this script work&hellip; and nothing I&rsquo;ve done has caught a reverse shell.</p>
-<p>Honestly not sure what else to do, other than to write this off as a learning experience (?) and move on. If I get a buffer overflow exploit in the exam (which I think they&rsquo;ve stopped now anyway) I&rsquo;ll just move the fuck on because nothing I&rsquo;ve done on this box or the last one has really made any sense.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---kevin---windows-dnf/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---lavita---linux/">OSCP - LaVita - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="lavita">LaVita</h1>
-<p>This box started out really well with plenty of through enumeration to identify the vulnerability, but I fell down trying to gain initial access with the exploits. I tried several, and persisted with the most well developed exploit thinking it would be the way forward.</p>
-<p>The issue was not realising the exploit would stop working after the first success, so after testing it with the <code>uname -a</code> or <code>id</code> commands, it would then not work when I tried to repeat with a reverse shell command. it took awhile to realise that there were 21 chains available, and so there was no need to keep using the &ldquo;last working&rdquo; chain, because it was only working once anyway. I also stopped trying to test with <code>id</code> and just threw the reverse shell command in straight away - I already knew the exploit worked <em>sometimes</em> so may as well try to establish a shell each time I tried.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---lavita---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---active-directory/">[Read more]</a>
           </div>
         
       </article>

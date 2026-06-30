@@ -1,5 +1,5 @@
 ---
-title: Pizza Cupcakes
+title: "Meal - Pizza Cupcakes"
 source: https://www.instagram.com/reels/DA3x-IsyokK/
 created: 2026-04-16
 updated: 2026-04-16

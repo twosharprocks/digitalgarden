@@ -1,5 +1,5 @@
 ---
-title: Burnabbie Cave
+title: "Burnabbie Cave - 6N"
 created: 2026-01-22
 updated: 2026-01-22
 status: seed

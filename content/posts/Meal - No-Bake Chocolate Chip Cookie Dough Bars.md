@@ -1,5 +1,5 @@
 ---
-title: No-Bake Chocolate Chip Cookie Dough Bars
+title: "Meal - No-Bake Chocolate Chip Cookie Dough Bars"
 source: https://www.facebook.com/groups/easydeliciousrecipe/permalink/1491171465380341
 created: 2026-04-16
 updated: 2026-04-16

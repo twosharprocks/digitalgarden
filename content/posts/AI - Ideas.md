@@ -1,7 +1,7 @@
 ---
-title: AI
+title: AI - Ideas
 created: 2025-11-02
-updated: 2026-06-28
+updated: 2026-06-30
 status: seed
 draft: false
 tags:
@@ -9,7 +9,7 @@ tags:
   - knowledge-management
   - work
   - philosophy
-Related: 
+Related:
   - "[[Cyber Security]]"
   - "[[Philosophy]]"
   - "[[Knowledge-Management]]"

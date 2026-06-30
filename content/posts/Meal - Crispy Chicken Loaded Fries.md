@@ -1,5 +1,5 @@
 ---
-title: Crispy Chicken Loaded Fries
+title: "Meal - Crispy Chicken Loaded Fries"
 source: https://www.instagram.com/reels/C9igdXmOdOX/
 created: 2026-04-16
 updated: 2026-04-16

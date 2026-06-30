@@ -1,5 +1,5 @@
 ---
-title: Cheatsheet - Linux
+title: "Cheat Sheet - Linux"
 created: 2023-10-10
 updated: 2025-10-30
 status: seed

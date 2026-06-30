@@ -1,5 +1,5 @@
 ---
-title: Cyber - Job Domains & Interview Prep
+title: "Cyber Security - Job Domains & Interview Prep"
 created: 2025-11-01
 updated: 2026-06-27
 status: reference

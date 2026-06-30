@@ -1,7 +1,7 @@
 ---
 title: CISA
 created: 2025-12-28
-updated: 2026-06-27
+updated: 2026-06-30
 status: reference
 draft: false
 tags:
@@ -41,16 +41,16 @@ Industry: Suits organisations with strong assurance and compliance needs such as
 
 # Study
 Pete Zerger - [YouTube - CISA Exam Prep](https://www.youtube.com/playlist?list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb) Playlist (7hrs)
-- CISA - 1A - IS Audit Process Planning
-- CISA - 1B - IS Audit Process Execution
-- CISA - 2A - Governance
-- CISA - 2B - IT Management
-- CISA - 3A - IS Acquisition and Development
-- CISA - 3B - IS Implementation
-- CISA - 4A - IS Operations
-- CISA - 4B - Business Resilience
-- CISA - 5A - Info Asset Security and Control
-- CISA - 5B - Security Event Management
+- [CISA - 1A - IS Audit Process Planning]({{< relref "posts/CISA - 1A - IS Audit Process Planning.md" >}})
+- [CISA - 1B - IS Audit Process Execution]({{< relref "posts/CISA - 1B - IS Audit Process Execution.md" >}})
+- [CISA - 2A - Governance]({{< relref "posts/CISA - 2A - Governance.md" >}})
+- [CISA - 2B - IT Management]({{< relref "posts/CISA - 2B - IT Management.md" >}})
+- [CISA - 3A - IS Acquisition and Development]({{< relref "posts/CISA - 3A - IS Acquisition and Development.md" >}})
+- [CISA - 3B - IS Implementation]({{< relref "posts/CISA - 3B - IS Implementation.md" >}})
+- [CISA - 4A - IS Operations]({{< relref "posts/CISA - 4A - IS Operations.md" >}})
+- [CISA - 4B - Business Resilience]({{< relref "posts/CISA - 4B - Business Resilience.md" >}})
+- [CISA - 5A - Info Asset Security and Control]({{< relref "posts/CISA - 5A - Info Asset Security and Control.md" >}})
+- [CISA - 5B - Security Event Management]({{< relref "posts/CISA - 5B - Security Event Management.md" >}})
 
 Pete Zerger - ebook - CISA - The Last Mile.pdf
 PocketPrep
@@ -59,11 +59,3 @@ PocketPrep
 - [CISA QAE Database](https://store.isaca.org/s/store#/store/browse/detail/a2S4w000008KxGWEA0) - US$300
 - UDemy - [Masterclas CISA Exam](https://www.udemy.com/course/masterclass-cisa-exam/)
 - LinkedIn Learning - [ISACA Certified Information Systems Auditor (CISA) Cert Prep](https://www.linkedin.com/learning/isaca-certified-information-systems-auditor-cisa-cert-prep/cisa-welcome-and-intro)
-
-
-
----
-**This also reminds me of**... 
-
----
-# References

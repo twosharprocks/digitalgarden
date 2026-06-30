@@ -1,5 +1,5 @@
 ---
-title: Healthy Chicken Nuggets
+title: "Meal - Healthy Chicken Nuggets"
 source: https://www.instagram.com/reels/C8Zw9jANkZz/
 created: 2026-04-16
 updated: 2026-04-16

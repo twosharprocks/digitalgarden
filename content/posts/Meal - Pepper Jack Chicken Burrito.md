@@ -1,5 +1,5 @@
 ---
-title: Pepper Jack Chicken Burrito
+title: "Meal - Pepper Jack Chicken Burrito"
 source: https://www.instagram.com/p/C3C9joqLri5/
 created: 2026-06-30
 updated: 2026-06-30

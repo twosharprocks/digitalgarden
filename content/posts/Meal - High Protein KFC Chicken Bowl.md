@@ -1,5 +1,5 @@
 ---
-title: High Protein KFC Chicken Bowl
+title: "Meal - High Protein KFC Chicken Bowl"
 source: https://www.instagram.com/reels/C-m1IBVyHo1/
 created: 2026-04-16
 updated: 2026-04-16

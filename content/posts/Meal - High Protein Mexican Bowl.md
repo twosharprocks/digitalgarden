@@ -1,5 +1,5 @@
 ---
-title: High Protein Mexican Bowl
+title: "Meal - High Protein Mexican Bowl"
 source: https://www.instagram.com/reels/C9t3VbJyujp/
 created: 2026-04-16
 updated: 2026-06-30

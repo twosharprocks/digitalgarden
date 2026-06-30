@@ -1,5 +1,5 @@
 ---
-title: Garlic Honey BBQ Pulled Chicken Tacos
+title: "Meal - Garlic Honey BBQ Pulled Chicken Tacos"
 source: https://www.instagram.com/reel/C9zmtXKIEzV/
 created: 2026-06-30
 updated: 2026-06-30

@@ -1,5 +1,5 @@
 ---
-title: Cyber Security Resources
+title: "Cyber Security - Resources"
 created: 2025-10-26
 updated: 2026-06-27
 status: seed

@@ -1,5 +1,5 @@
 ---
-title: Chicken & Chorizo One Pan Rice
+title: "Meal - Chicken & Chorizo One Pan Rice"
 source: https://www.instagram.com/p/C3a3lXLo_E-/
 created: 2026-04-16
 updated: 2026-06-30

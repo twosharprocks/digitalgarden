@@ -180,7 +180,7 @@
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---cockpit---linux/">OSCP - Cockpit - Linux</a>
+          <a href="/posts/oscp---algernon---windows/">OSCP - Algernon - Windows</a>
         </h1>
         <div class="post-meta"></div>
 
@@ -197,22 +197,21 @@
 
         <div class="post-content">
           
-            <h1 id="cockpit">Cockpit</h1>
-<p>This one was originally listed as &ldquo;Hard&rdquo; in my list, but when I checked during startup it showed as &ldquo;Intermediate&rdquo;. Definitely don&rsquo;t think it should be listed as &ldquo;Intermediate&rdquo; though - this was definitely the trickest boxes I&rsquo;ve done, and I absolutely leaned heavily on the walkthrough to make progress here.</p>
-<p>The biggest challenge ofcourse was the box breaking everytime I tried to run <code>gobuster</code> against it to find directories or files. Turned out there was a hidden <code>login.php</code> file on the port <code>80</code> server, but I couldn&rsquo;t find the damn thing with the first few gobuster scans because the whole box would break and require revert. Worse was finding the <code>blocked.html</code> page which would break the box every time I visited it OR scanned it with <code>gobuster</code>.</p>
+            <h1 id="algernon">Algernon</h1>
+<p>This was my first shift across from Linux into Windows, and I&rsquo;ll freely admit to being a little overwhelmed at all the open ports and not knowing quite where to start. Realising the FTP had an anonymous login was straight forward, and identifiying the <code>admin</code> user from the logs was nice, but it turned out to be a deadend and the real solution was 10x easier than what I&rsquo;d experienced with the last few Linux boxes - I really needed to reset my expectations.</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/oscp---cockpit---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---algernon---windows/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---codo---linux/">OSCP - Codo - Linux</a>
+          <a href="/posts/oscp---astronaut---linux/">OSCP - Astronaut - Linux</a>
         </h1>
         <div class="post-meta"></div>
 
@@ -229,22 +228,22 @@
 
         <div class="post-content">
           
-            <h1 id="codo">Codo</h1>
-<p>Interesting experience just slowly working through this over the day. Having the walkthrough as a reference is handy, although I should have done more enumeration to identify everything <code>linpeas</code> was providing. Helpful experience updating the cheatsheet for fully interactive TTS too - most references just use <code>python</code> when pretty much everyone/thing is using <code>python3</code>, so be sure to watch out for that when copy/pasting from references.</p>
-<p>Keep revshells.com handy too, and keep practicing with msfvenom too, as a lot of your holdup today was trying to find the right reverse shell for php, when you should have just been able to pull it up in a heartbeat</p>
+            <h1 id="astronaut">Astronaut</h1>
+<p>Much quicker and more useful experience than <code>Exfiltrated</code>. Did my own enumeration, and used the <a href="https://medium.com/@ardian.danny/oscp-practice-series-20-proving-grounds-astronaut-627bc41a86ef">walkthrough</a> only as a guide when getting stuck.</p>
+<p>Discovering &ldquo;blind&rdquo; exploits was interesting, however it made sense that if the exploit isn&rsquo;t generating any output and not creating a reverse shell, that you might need to add a <code>-c</code> command with a line of bash to establish a reverse shell instead. Although once again all the instructions were in the script if you looked - <em><strong>always read the script!</strong></em></p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/oscp---codo---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---astronaut---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---crane---linux/">OSCP - Crane - Linux</a>
+          <a href="/posts/oscp---authby---windows/">OSCP - Authby - Windows</a>
         </h1>
         <div class="post-meta"></div>
 
@@ -261,44 +260,21 @@
 
         <div class="post-content">
           
-            <h1 id="crane">Crane</h1>
-<p>This was the most straight-forward box so far. While a walkthrough was referenced for some of the exploit syntax, the exploit itself had already been found and tested before hand, so catching the reverse shell was straightforward.</p>
-<p>After initial access, it was clear <code>usr/sbin/service</code> could be used for privilege escalation. It took a bit of testing, but combining <code>www-data</code>&rsquo;s sudo privileges with directory traversal led to <code>root</code> access</p>
-<h1 id="resolution-summary">Resolution summary</h1>
-<ul>
-<li>Scanned with Nmap to find ports 22, 80, &amp; 3306</li>
-<li>Navigated to <code>http://192.168.137.146:80</code></li>
-<li>Password guessed admin login, and identified SuiteCRM 7.12.3</li>
-<li>Found exploit for CVE-2022-23940, executed against target &amp; achieved shell</li>
-<li>Checked sudo privileges and found <code>/usr/sbin/services</code></li>
-<li>Used <code>sbin</code> &amp; directory traversal to escalate to <code>root</code></li>
-</ul>
-<h2 id="improved-skills">Improved skills</h2>
-<ul>
-<li>Finding/testing exploits</li>
-<li>Linux Privilege Escalation</li>
-</ul>
-<h2 id="used-tools">Used tools</h2>
-<ul>
-<li>Nmap</li>
-<li>NetCat</li>
-</ul>
-<hr>
-<h1 id="information-gathering">Information Gathering</h1>
-<p>Scanned all TCP ports:</p>
+            <h1 id="authby">Authby</h1>
+<p>These Windows are doing my absolute head in. I spent hours on this box the day before following a multiple walkthroughs to the letter and got nowhere. I and wound up feeling so frustrated at not receiving even an initial shell that I marked this box as &ldquo;Aborted&rdquo; and shut down for the night - I figured there was no point pushing on and to just move on to the next Windows box.</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/oscp---crane---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---authby---windows/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---exfiltrated---linux/">OSCP - Exfiltrated - Linux</a>
+          <a href="/posts/oscp---blackgate---linux/">OSCP - Blackgate - Linux</a>
         </h1>
         <div class="post-meta"></div>
 
@@ -315,22 +291,21 @@
 
         <div class="post-content">
           
-            <h1 id="exfiltration">Exfiltration</h1>
-<p>Relatively easy box turned into a VERY frustrating experience at not being able to properly execute <code>exiftool</code> exploit because of missing library dependencies. Exploit actually detailed exactly <em>how</em> to install those dependencies, but I was looking for instructions on Stack Overflow instead of in the script itself - <em><strong>always read the script!</strong></em></p>
-<p>Exploits were relatively straight forward once the dependencies were sorted though, so all round good practice on the process of popping boxes. Local user had also been identified by <code>linpeas.sh</code> but ended up getting root first (flag = <code>proof.txt</code>) then using root privilege to find the <code>coaran</code> user with GID=1000 and the local flag (flag = <code>local.txt</code>).</p>
+            <h1 id="blackgate">Blackgate</h1>
+<p>This is the first of the &ldquo;Hard&rdquo; machines I&rsquo;ve tackled, so I&rsquo;d been worried it may have been a major step up from what I&rsquo;d been doing previously. Surprisingly though, this was very much a case of googling and learning about a service I&rsquo;d never heard of (Redis), connecting to it to test a few commands, and then finding the version I was connected to had a well known RCE exploit and using it to achieve initial access!</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/oscp---exfiltrated---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---blackgate---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---extplorer---linux/">OSCP - Extplorer - Linux</a>
+          <a href="/posts/oscp---boolean---linux/">OSCP - Boolean - Linux</a>
         </h1>
         <div class="post-meta"></div>
 
@@ -347,15 +322,14 @@
 
         <div class="post-content">
           
-            <h1 id="extplorer">Extplorer</h1>
-<p>This was simultaneously the easiest and most frustrating box yet. Identifying and accessing <code>filemanager</code> was ridiculously easy, and uploading a reverse shell php and catching the shell <em>seemed</em> easy initially. Even finding credentials for <code>dora</code> was easy once I started looking through all the info that was available in the <code>filemanager</code> folder.</p>
-<p>What I wasn&rsquo;t expecting was to spend 2 hours trying to figure out why I couldn&rsquo;t upgrade the dumb shell I&rsquo;d caught to a full shell, even though I <em><strong>knew</strong></em> the target was running <code>python3</code>.</p>
+            <h1 id="boolean">Boolean</h1>
+<p>This was an absolute slog, and even the walkthroughs didn&rsquo;t help at the end. It was good to identify that BurpSuite would be used early on, but picking up and changing the &ldquo;confirmed&rdquo; element was tricky. Having the PHP reverse shell not work was incredibly frustrating too, but it was obvious something else would be needed when GoBuster wasn&rsquo;t showing where the uploaded files were being stored (obviously download only and not directly web accessible).</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/oscp---extplorer---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---boolean---linux/">[Read more]</a>
           </div>
         
       </article>

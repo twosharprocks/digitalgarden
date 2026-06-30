@@ -1,5 +1,5 @@
 ---
-title: Arayes
+title: "Meal - Arayes"
 source: https://www.instagram.com/p/C86hGzVKpzA/
 created: 2026-06-30
 updated: 2026-06-30

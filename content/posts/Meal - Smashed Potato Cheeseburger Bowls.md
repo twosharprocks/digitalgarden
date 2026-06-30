@@ -1,5 +1,5 @@
 ---
-title: Smashed Potato Cheeseburger Bowls
+title: "Meal - Smashed Potato Cheeseburger Bowls"
 source: https://www.instagram.com/p/C9KoaBooGUt/
 created: 2026-04-16
 updated: 2026-04-16

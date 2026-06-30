@@ -1,5 +1,5 @@
 ---
-title: Spicy Peanut Dumplings
+title: "Meal - Spicy Peanut Dumplings"
 source: https://www.instagram.com/p/DNh4AFBpWTc/
 created: 2026-04-16
 updated: 2026-04-16

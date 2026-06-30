@@ -1,5 +1,5 @@
 ---
-title: Stuffed Crust Pizza
+title: "Meal - Stuffed Crust Pizza"
 source: https://www.instagram.com/p/C2SbQozuEPP/
 created: 2026-04-16
 updated: 2026-04-16

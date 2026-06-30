@@ -1,5 +1,5 @@
 ---
-title: Chili Mac and Cheese
+title: "Meal - Chili Mac and Cheese"
 source: https://www.instagram.com/p/DJ9TYxzRYfj/
 created: 2026-04-16
 updated: 2026-04-16

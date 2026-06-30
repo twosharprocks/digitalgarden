@@ -1,5 +1,5 @@
 ---
-title: OSCP - AD - 6
+title: "OSCP - Active Directory"
 created: 2026-01-26
 updated: 2025-07-05
 status: seed

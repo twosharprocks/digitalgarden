@@ -1,5 +1,5 @@
 ---
-title: Honey Soy Chicken Stir Fry
+title: "Meal - Honey Soy Chicken Stir Fry"
 source: https://www.instagram.com/p/CwAd5Bms4WY/
 created: 2026-04-16
 updated: 2026-04-16

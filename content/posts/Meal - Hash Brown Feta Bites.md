@@ -1,5 +1,5 @@
 ---
-title: Hash Brown Feta Bites
+title: "Meal - Hash Brown Feta Bites"
 source: https://www.instagram.com/p/C9EosS0o_Xz/
 created: 2026-04-16
 updated: 2026-04-16

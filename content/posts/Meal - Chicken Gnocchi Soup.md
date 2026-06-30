@@ -1,5 +1,5 @@
 ---
-title: Chicken Gnocchi Soup
+title: "Meal - Chicken Gnocchi Soup"
 source: https://www.instagram.com/p/DS0J8yTDcR3/
 created: 2026-04-16
 updated: 2026-04-16

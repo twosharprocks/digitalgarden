@@ -1,5 +1,5 @@
 ---
-title: Cheatsheet - Windows
+title: "Cheat Sheet - Windows"
 created: 2023-10-10
 updated: 2025-10-30
 status: seed

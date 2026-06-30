@@ -1,5 +1,5 @@
 ---
-title: Garlic Butter Jalapeño Popper Croissants
+title: "Meal - Garlic Butter Jalapeño Popper Croissants"
 source: https://www.instagram.com/reels/C2I527vxQKp/
 created: 2026-04-16
 updated: 2026-04-16
