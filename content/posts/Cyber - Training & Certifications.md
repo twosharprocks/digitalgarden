@@ -24,7 +24,7 @@ Completed
 - Security+ - CompTIA
 - ![AZ 500 Certification](/images/AZ-500%20Certification.jpg) - Microsoft
 - [CISSP]({{< relref "posts/CISSP.md" >}}) - ISC2
-- CISA - ISACA
+- [CISA]({{< relref "posts/CISA.md" >}}) - ISACA
 
 Potential
 - SecOT+ - CompTIA

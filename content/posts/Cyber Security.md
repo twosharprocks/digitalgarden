@@ -19,7 +19,7 @@ Related:
   - "[[OT Cyber Security]]"
 ---
 
-Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{< relref "posts/oscp.md" >}})/[CISSP]({{< relref "posts/CISSP.md" >}})/CISA notes, and work-related security references.
+Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{< relref "posts/oscp.md" >}})/[CISSP]({{< relref "posts/CISSP.md" >}})/[CISA]({{< relref "posts/CISA.md" >}}) notes, and work-related security references.
 
 # General
 - [Cyber Security - Resources]({{< relref "posts/Cyber Security - Resources.md" >}})
@@ -45,7 +45,7 @@ Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{<
 - [CRISC]({{< relref "posts/crisc.md" >}})
 - [HTB Enterprise](https://enterprise.hackthebox.com/)
 
-## CISA
+## [CISA]({{< relref "posts/CISA.md" >}})
 - CISA - 1A - IS Audit Process Planning
 - CISA - 1B - IS Audit Process Execution
 - CISA - 2A - Governance

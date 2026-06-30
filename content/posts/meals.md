@@ -8,10 +8,8 @@ tags:
   - dashboard
   - dataview
 Related:
-  - "[[Meal Ideas]]"
+  - "[[Personal]]"
 ---
-Unstructured recipes and links: [Meal Ideas]({{< relref "posts/Meal Ideas.md" >}})
-
 # Ideas
 - ["Poached" eggs in a strainer over boiling water](https://www.facebook.com/watch/?ref=saved&v=981608874289839)
 

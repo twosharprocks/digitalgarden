@@ -24,7 +24,7 @@ Writing, essays, articles, book projects, older website posts, and notes about m
 - Book - 101 Things 
 - Book - Calling ET
 - Book - Death, Time & Reality
-- [Book - Futurism & Work]({{< relref "posts/Book - Futurism & Work.md" >}})
+- Book - Futurism & Work
 - Book - Apocalypse
 - Book - Quantum Mechanics
 # [Articles]({{< relref "posts/Articles.md" >}})

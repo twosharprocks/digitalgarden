@@ -9,5 +9,3 @@ tags:
 Related:
   - "[[Meals]]"
 ---
-# Wraps & Burritos
-Add new recipe links here for future conversion.
