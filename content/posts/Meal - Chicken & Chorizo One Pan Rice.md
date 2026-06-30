@@ -13,9 +13,7 @@ tags:
   - rice
   - one-pan
   - high-protein
-  - meal-prep
-  - easy
-Related: 
+Related:
   - "[[Meals]]"
 meal_type: dinner
 cook_method: stovetop

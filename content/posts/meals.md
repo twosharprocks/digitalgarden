@@ -15,7 +15,7 @@ Unstructured recipes and links: [Meal Ideas]({{< relref "posts/Meal Ideas.md" >}
 # Ideas
 - ["Poached" eggs in a strainer over boiling water](https://www.facebook.com/watch/?ref=saved&v=981608874289839)
 
-# Well Known & Easy
+# Well Known
 - Vege Pad Thai - Tofu, Carrot, Broccolli, Noodles
 - Parmie - Schnitzel, Tomato Paste, Cheese, + Chips
 - Burgers - Buns, Mince/Pattie, Lettuce
