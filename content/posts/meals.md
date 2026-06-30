@@ -1,7 +1,7 @@
 ---
 title: Meals
 created: 2026-04-16
-updated: 2026-06-29
+updated: 2026-06-30
 status: seed
 draft: false
 tags:
@@ -79,50 +79,6 @@ Related: "[[Meals]]"
 - [Meal - No-Bake Chocolate Chip Cookie Dough Bars]({{< relref "posts/Meal - No-Bake Chocolate Chip Cookie Dough Bars.md" >}}) 
 # Misc
 - ["Poached" Eggs in a strainer over boiling water](https://www.facebook.com/watch/?ref=saved&v=981608874289839) 
-
-| Meal | Calories | Protein | Carbs | Fat | Type | Method |
-| --- | --- | --- | --- | --- | --- | --- |
-| [Air Fryer Chicken Burritos]({{< relref "posts/Meal - Air Fryer Chicken Burritos.md" >}}) | 610 | 48 | 55 | 20 | dinner | air-fryer |
-| [Air Fryer Nachos]({{< relref "posts/Meal - Air Fryer Nachos.md" >}}) | 520 | 18 | 45 | 30 | snack | air-fryer |
-| [Beef Taco Rice Bowl]({{< relref "posts/Meal - Beef Taco Rice Bowl.md" >}}) | 580 | 40 | 52 | 18 | dinner | stovetop |
-| [Big Mac Toastie]({{< relref "posts/Meal - Big Mac Toastie.md" >}}) | 680 | 38 | 42 | 38 | lunch | stovetop |
-| [Cheese Pull Apart Bread]({{< relref "posts/Meal - Cheese Pull Apart Bread.md" >}}) | 420 | 14 | 38 | 24 | snack | oven |
-| [Cheeseburger Bowls]({{< relref "posts/Meal - Cheeseburger Bowls.md" >}}) | 520 | 40 | 35 | 22 | dinner | stovetop |
-| [Chicken & Chorizo One Pan Rice]({{< relref "posts/Meal - Chicken & Chorizo One Pan Rice.md" >}}) | 600 | 45 | 60 | 18 | dinner | stovetop |
-| [Chicken Alfredo Tortellini]({{< relref "posts/Meal - Chicken Alfredo Tortellini.md" >}}) | 552 | 44 | 29 | 30 | dinner | stovetop |
-| [Chicken Gnocchi Soup]({{< relref "posts/Meal - Chicken Gnocchi Soup.md" >}}) | 490 | 52 | 48 | 10 | dinner | stovetop |
-| [Chicken Pesto Flatbread]({{< relref "posts/Meal - Chicken Pesto Flatbread.md" >}}) | 480 | 35 | 42 | 18 | lunch | oven |
-| [Chili Garlic Noodles]({{< relref "posts/Meal - Chili Garlic Noodles.md" >}}) | 430 | 18 | 44 | 15 | dinner | stovetop |
-| [Chili Mac and Cheese]({{< relref "posts/Meal - Chili Mac and Cheese.md" >}}) | 510 | 30 | 45 | 20 | dinner | stovetop |
-| [Chorizo Smash Breakfast Tacos]({{< relref "posts/Meal - Chorizo Smash Breakfast Tacos.md" >}}) | 620 | 32 | 38 | 38 | breakfast | stovetop |
-| [Creamy Garlic Chicken Pasta]({{< relref "posts/Meal - Creamy Garlic Chicken Pasta.md" >}}) | 590 | 45 | 50 | 22 | dinner | stovetop |
-| [Crispy Chicken Loaded Fries]({{< relref "posts/Meal - Crispy Chicken Loaded Fries.md" >}}) | 720 | 42 | 60 | 35 | dinner | air-fryer |
-| [Feta Fried Egg Tortilla]({{< relref "posts/Meal - Feta Fried Egg Tortilla.md" >}}) | 380 | 18 | 28 | 22 | breakfast | stovetop |
-| [Garlic Butter Jalapeño Popper Croissants]({{< relref "posts/Meal - Garlic Butter Jalapeño Popper Croissants.md" >}}) | 420 | 12 | 28 | 28 | snack | oven |
-| [Giant Chicken Poppers]({{< relref "posts/Meal - Giant Chicken Poppers.md" >}}) | 254 | 36 | 16 | 4 | dinner | air-fryer |
-| [Hash Brown Feta Bites]({{< relref "posts/Meal - Hash Brown Feta Bites.md" >}}) | 340 | 12 | 30 | 20 | snack | oven |
-| [Hash Brown, Halloumi & Chorizo Hash]({{< relref "posts/Meal - Hash Brown, Halloumi & Chorizo Hash.md" >}}) | 620 | 32 | 35 | 40 | breakfast | stovetop |
-| [Healthy Chicken Nuggets]({{< relref "posts/Meal - Healthy Chicken Nuggets.md" >}}) | 320 | 38 | 18 | 10 | dinner | air-fryer |
-| [High Protein Breakfast Bagel]({{< relref "posts/Meal - High Protein Breakfast Bagel.md" >}}) | 480 | 38 | 42 | 18 | breakfast | stovetop |
-| [High Protein Breakfast Burritos]({{< relref "posts/Meal - High Protein Breakfast Burritos.md" >}}) | 550 | 59 | 45 | 18 | breakfast | stovetop |
-| [High Protein Chicken Katsu Fried Rice]({{< relref "posts/Meal - High Protein Chicken Katsu Fried Rice.md" >}}) | 560 | 50 | 60 | 12 | dinner | stovetop |
-| [High Protein Chicken Sausage Breakfast Burritos]({{< relref "posts/Meal - High Protein Chicken Sausage Breakfast Burritos.md" >}}) | 500 | 50 | 40 | 14 | breakfast | stovetop |
-| [High Protein Crispy Honey Garlic Chicken Fried Rice]({{< relref "posts/Meal - High Protein Crispy Honey Garlic Chicken Fried Rice.md" >}}) | 546 | 51 | 67 | 7 | dinner | stovetop |
-| [High Protein Honey BBQ Chicken Mac & Cheese]({{< relref "posts/Meal - High Protein Honey BBQ Chicken Mac & Cheese.md" >}}) | 630 | 58 | 58 | 13 | dinner | stovetop |
-| [High Protein Hot Honey Popcorn Chicken]({{< relref "posts/Meal - High Protein Hot Honey Popcorn Chicken.md" >}}) | 495 | 50 | 45 | 12 | dinner | air-fryer |
-| [High Protein KFC Chicken Bowl]({{< relref "posts/Meal - High Protein KFC Chicken Bowl.md" >}}) | 520 | 55 | 45 | 12 | dinner | air-fryer |
-| [High Protein Mexican Bowl]({{< relref "posts/Meal - High Protein Mexican Bowl.md" >}}) | 480 | 44 | 59 | 9 | dinner | stovetop |
-| [High Protein Crispy Honey Garlic Chicken Fried Rice]({{< relref "posts/Meal - Honey Garlic Chicken Fried Rice.md" >}}) | 546 | 51 | 66.5 | 7 | dinner | oven |
-| [Honey Soy Chicken Stir Fry]({{< relref "posts/Meal - Honey Soy Chicken Stir Fry.md" >}}) | 510 | 38 | 45 | 15 | dinner | stovetop |
-| [Loaded Breakfast Wrap]({{< relref "posts/Meal - Loaded Breakfast Wrap.md" >}}) | 520 | 32 | 38 | 26 | breakfast | stovetop |
-| [No-Bake Chocolate Chip Cookie Dough Bars]({{< relref "posts/Meal - No-Bake Chocolate Chip Cookie Dough Bars.md" >}}) | 420 | 5 | 45 | 24 | snack | no-bake |
-| [Paprika Chicken & Chorizo Gnocchi]({{< relref "posts/Meal - Paprika Chicken & Chorizo Gnocchi.md" >}}) | 562 | 38 | 52 | 16 | dinner | stovetop |
-| [Pizza Cupcakes]({{< relref "posts/Meal - Pizza Cupcakes.md" >}}) | 350 | 12 | 30 | 20 | snack | oven |
-| [Smashed Potato Cheeseburger Bowls]({{< relref "posts/Meal - Smashed Potato Cheeseburger Bowls.md" >}}) | 430 | 28 | 32 | 20 | dinner | oven |
-| [Smokey Bacon Gnocchi]({{< relref "posts/Meal - Smokey Bacon Gnocchi.md" >}}) | 520 | 45 | 50 | 16 | dinner | stovetop |
-| [Spicy Chicken Rice Bowl]({{< relref "posts/Meal - Spicy Chicken Rice Bowl.md" >}}) | 550 | 45 | 50 | 16 | dinner | stovetop |
-| [Spicy Peanut Dumplings]({{< relref "posts/Meal - Spicy Peanut Dumplings.md" >}}) | 360 | 13 | 36 | 18 | dinner | oven |
-| [Stuffed Crust Pizza]({{< relref "posts/Meal - Stuffed Crust Pizza.md" >}}) | 540 | 29 | 29 | 34 | dinner | oven |
 
 ## High Protein Meals
 | Meal | Calories | Protein | Carbs | Fat |
