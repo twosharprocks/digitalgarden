@@ -2,7 +2,7 @@
 title: Smokey Bacon Gnocchi
 source: https://www.instagram.com/reels/DAV5PRLo8Iv/
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-30
 Type:
 status: seed
 draft: false
@@ -13,6 +13,7 @@ tags:
   - high-protein
   - one-pan
   - meal-prep
+  - easy
 Related: 
   - "[[Meals]]"
 meal_type: dinner

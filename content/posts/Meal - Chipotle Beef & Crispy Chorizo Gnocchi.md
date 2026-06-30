@@ -2,10 +2,13 @@
 title: Chipotle Beef & Crispy Chorizo Gnocchi
 source: https://www.instagram.com/reels/C_ipqoNIj3v/
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-30
 Type:
 status: seed
 draft: false
+tags:
+  - meal
+  - to-try
 Related:
   - "[[Meals]]"
 ---

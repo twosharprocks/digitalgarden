@@ -2,7 +2,7 @@
 title: High Protein Mexican Bowl
 source: https://www.instagram.com/reels/C9t3VbJyujp/
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-30
 Type:
 status: seed
 draft: false
@@ -13,6 +13,7 @@ tags:
   - mexican
   - high-protein
   - meal-prep
+  - easy
 Related: 
   - "[[Meals]]"
 meal_type: dinner

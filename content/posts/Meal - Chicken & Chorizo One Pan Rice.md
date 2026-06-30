@@ -2,7 +2,7 @@
 title: Chicken & Chorizo One Pan Rice
 source: https://www.instagram.com/p/C3a3lXLo_E-/
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-30
 Type:
 status: seed
 draft: false
@@ -14,6 +14,7 @@ tags:
   - one-pan
   - high-protein
   - meal-prep
+  - easy
 Related: 
   - "[[Meals]]"
 meal_type: dinner

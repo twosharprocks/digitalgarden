@@ -2,7 +2,7 @@
 title: Chicken Alfredo Tortellini
 source: https://www.instagram.com/p/C3sWSfiAxvw/
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-30
 Type:
 status: seed
 draft: false
@@ -13,6 +13,7 @@ tags:
   - pasta
   - creamy
   - one-pan
+  - easy
 Related: 
   - "[[Meals]]"
 meal_type: dinner
