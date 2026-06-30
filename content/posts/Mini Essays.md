@@ -12,4 +12,5 @@ Related:
   - "[[Mini Essays - Ideas]]"
   - "[[Template - Mini Essay]]"
 ---
+
 _No matching meals._

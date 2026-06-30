@@ -40,14 +40,13 @@ Related: "[[Meals]]"
 - [Meal - Honey BBQ Chicken Mac & Cheese]({{< relref "posts/Meal - Honey BBQ Chicken Mac & Cheese.md" >}})
 - [Meal - Cheeseburger Bowls]({{< relref "posts/Meal - Cheeseburger Bowls.md" >}})
 - [Meal - Air Fryer Nachos]({{< relref "posts/Meal - Air Fryer Nachos.md" >}}) 
-## Taco Wraps
+## Wraps & Burritos
 - [Bolognese Tacos](https://www.instagram.com/reel/C2SI84uoBoc/) - Mini wraps, Mince, Onion, Grated Carrot, Italian Herbs, Garlic, Sweet Paprika, Tomato Puree
 - [Smash Dumpling Tacos](https://www.instagram.com/p/C5RTQ11IhB5/) - Mince, wraps, soy sauce, sesame seeds, chilli sauce
 - [Arayes](https://www.instagram.com/p/C86hGxVKpzA/) - mince, garlic, onion, jalapeno, 
 - [Nacho beef folded wrap](https://www.instagram.com/p/C8MZZsno-rw/) - Mince, wraps, corn chips, burger sauce, lettuce
 - [Cheesy Bacon Jalapeño Popper wrap](https://www.instagram.com/p/C4Q2y9YPWNv/) - mozzarella, cheddar, crumbled bacon, grilled jalapeños, cream cheese, tortilla
 - [Garlic honey BBQ pulled chicken tacos](https://www.instagram.com/reel/C9zmtXKIEzV/?igsh=MTRudm5yZTN6ZmxiZg==)
-## Burritos
 - [Pepper Jack Chicken Burrito](https://www.instagram.com/p/C3C9joqLri5/) - Chicken breast, cheddar, mozzarella, bacon, tortillas, Taco spice, green chilli
 - [Beef Bulgogi Burrito (Freezable)](https://www.instagram.com/p/C8SA1OVp6Hp/) - Beef, sushi rice (Account has many other freezable burritos)
 - [Chicken Bacon Ranch Burrito](https://www.instagram.com/reel/C-CxvcxSodf/?igsh=ODBlNXBzbDRwNGp2) - Chicken breast, cottage cheese, mozzarella, bacon, tortilla wraps
