@@ -179,14 +179,16 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---clue---linux/">OSCP - Clue - Linux</a>
+          <a href="/posts/olwolgin---6n/">Olwolgin - 6N</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+            #<a href="/tags/caving/">caving</a>&nbsp;
             
           </span>
         
@@ -196,164 +198,249 @@
 
         <div class="post-content">
           
-            <h1 id="clue">Clue</h1>
-<p>This was definitely a hard box, but the biggest challenges came from the range of different services AND the box itself not working properly. After a couple of hours bashing my head against the brick wall trying to get initial access, I finally relented and looked at a walkthrough&hellip; only to find that the <code>cassandra</code> exploit I&rsquo;d tried to use to display files on the target hadn&rsquo;t worked because the box needed to be reverted.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---clue---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---cockpit---linux/">OSCP - Cockpit - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="cockpit">Cockpit</h1>
-<p>This one was originally listed as &ldquo;Hard&rdquo; in my list, but when I checked during startup it showed as &ldquo;Intermediate&rdquo;. Definitely don&rsquo;t think it should be listed as &ldquo;Intermediate&rdquo; though - this was definitely the trickest boxes I&rsquo;ve done, and I absolutely leaned heavily on the walkthrough to make progress here.</p>
-<p>The biggest challenge ofcourse was the box breaking everytime I tried to run <code>gobuster</code> against it to find directories or files. Turned out there was a hidden <code>login.php</code> file on the port <code>80</code> server, but I couldn&rsquo;t find the damn thing with the first few gobuster scans because the whole box would break and require revert. Worse was finding the <code>blocked.html</code> page which would break the box every time I visited it OR scanned it with <code>gobuster</code>.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---cockpit---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---codo---linux/">OSCP - Codo - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="codo">Codo</h1>
-<p>Interesting experience just slowly working through this over the day. Having the walkthrough as a reference is handy, although I should have done more enumeration to identify everything <code>linpeas</code> was providing. Helpful experience updating the cheatsheet for fully interactive TTS too - most references just use <code>python</code> when pretty much everyone/thing is using <code>python3</code>, so be sure to watch out for that when copy/pasting from references.</p>
-<p>Keep revshells.com handy too, and keep practicing with msfvenom too, as a lot of your holdup today was trying to find the right reverse shell for php, when you should have just been able to pull it up in a heartbeat</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---codo---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---crane---linux/">OSCP - Crane - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="crane">Crane</h1>
-<p>This was the most straight-forward box so far. While a walkthrough was referenced for some of the exploit syntax, the exploit itself had already been found and tested before hand, so catching the reverse shell was straightforward.</p>
-<p>After initial access, it was clear <code>usr/sbin/service</code> could be used for privilege escalation. It took a bit of testing, but combining <code>www-data</code>&rsquo;s sudo privileges with directory traversal led to <code>root</code> access</p>
-<h1 id="resolution-summary">Resolution summary</h1>
+            <p><a href="/posts/planning---nullarbor/">Planning - Nullarbor</a></p>
+<h1 id="to-do">To Do</h1>
+<p>Dive</p>
 <ul>
-<li>Scanned with Nmap to find ports 22, 80, &amp; 3306</li>
-<li>Navigated to <code>http://192.168.137.146:80</code></li>
-<li>Password guessed admin login, and identified SuiteCRM 7.12.3</li>
-<li>Found exploit for CVE-2022-23940, executed against target &amp; achieved shell</li>
-<li>Checked sudo privileges and found <code>/usr/sbin/services</code></li>
-<li>Used <code>sbin</code> &amp; directory traversal to escalate to <code>root</code></li>
+<li>Survey Downstream - List gaps in Ariane&rsquo;s Line</li>
+<li>Inspect - Bilby Tunnel &amp; Haven</li>
+<li>Connect - Yudura?
+Dry</li>
+<li></li>
 </ul>
-<h2 id="improved-skills">Improved skills</h2>
+<p>Photogram</p>
 <ul>
-<li>Finding/testing exploits</li>
-<li>Linux Privilege Escalation</li>
+<li>Inside Doline</li>
+</ul>
+<hr>
+<h1 id="about">About</h1>
+<hr>
+<h1 id="other-references">Other References</h1>
+<p>Indemnity: [[Olwolgin-Burnabbie Cave Indemnity [BLANK].docx]]</p>
+<ul>
+<li>6N920 - Olwolgin (DWG, 2022) (A0 size).pdf</li>
+<li>6N920 - Olwolgin (DWG, 2022) (A0 size) - MAP.pdf</li>
+<li>6N920 - Olwolgin (DWG, 2022) (A0 size - north up) - MAP.pdf</li>
+<li>6N920 - Olwolgin (DWG, 2022) (A0 size - north up).pdf</li>
+</ul>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/olwolgin---6n/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oman/">Oman</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>Oman is listed under Middle East in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
+<h1 id="cave-regions">Cave Regions</h1>
+<ul>
+<li>No local cave regions listed yet.</li>
+</ul>
+<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
+<ul>
+<li>See the linked cave regions above.</li>
+</ul>
+<h1 id="backlinks">Backlinks</h1>
+<ul>
+<li><a href="/posts/cave-regions/">Cave Regions</a></li>
+<li><a href="/posts/diving/">Diving</a></li>
+</ul>
+<hr>
+<h1 id="existing-notes">Existing Notes</h1>
+<h1 id="about">About</h1>
+<h1 id="caves">Caves</h1>
+<ul>
+<li>Al Hoota Cave - <a href="https://en.wikipedia.org/wiki/Al_Hoota_Cave">https://en.wikipedia.org/wiki/Al_Hoota_Cave</a></li>
+<li>Hoti Cave</li>
+<li>Muqal Cave</li>
+<li>Ettein Cave</li>
+<li>Majlis Al Jinn</li>
+</ul>
+<h1 id="trips">Trips</h1>
+<ul>
+<li></li>
+</ul>
+<hr>
+<h1 id="references">References</h1>
+<p><a href="https://www.bbc.com/travel/article/20120629-omans-underground-playgrounds">https://www.bbc.com/travel/article/20120629-omans-underground-playgrounds</a>
+<a href="https://www.zaharatours.com/blog/the-hidden-symphony-of-omans-caves">https://www.zaharatours.com/blog/the-hidden-symphony-of-omans-caves</a>
+<a href="https://adalpine.wordpress.com/recent-activity/hajar-caves/">https://adalpine.wordpress.com/recent-activity/hajar-caves/</a></p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oman/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/one-tree---5l7/">One Tree - 5L7</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+            #<a href="/tags/caving/">caving</a>&nbsp;
+            
+            #<a href="/tags/personal/">personal</a>&nbsp;
+            
+            #<a href="/tags/trips/">trips</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="to-do">To Do</h1>
+<h2 id="dive">Dive</h2>
+<h2 id="dry">Dry</h2>
+<h2 id="photogram">Photogram</h2>
+<hr>
+<h1 id="about">About</h1>
+<hr>
+<h1 id="other-references">Other References</h1>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/one-tree---5l7/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp/">OSCP</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/study/">study</a>&nbsp;
+            
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---access---ad/">OSCP - Access - AD</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h2 id="improved-skills">Improved skills</h2>
+<ul>
+<li>PHP bypasses</li>
+<li>Windows PrivEsc</li>
+<li>SeManageVolume Privilege Abuse</li>
 </ul>
 <h2 id="used-tools">Used tools</h2>
 <ul>
-<li>Nmap</li>
-<li>NetCat</li>
+<li>nmap</li>
+<li>python</li>
+<li>powershell</li>
 </ul>
 <hr>
 <h1 id="information-gathering">Information Gathering</h1>
 <p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -p- -vvv -oN access.nmap 192.168.230.187
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">PORT      STATE SERVICE          REASON
+</span></span><span class="line"><span class="cl">53/tcp    open  domain           syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">80/tcp    open  http             syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">88/tcp    open  kerberos-sec     syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">135/tcp   open  msrpc            syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">139/tcp   open  netbios-ssn      syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">389/tcp   open  ldap             syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">445/tcp   open  microsoft-ds     syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">464/tcp   open  kpasswd5         syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">593/tcp   open  http-rpc-epmap   syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">636/tcp   open  ldapssl          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">3268/tcp  open  globalcatLDAP    syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">3269/tcp  open  globalcatLDAPssl syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">5985/tcp  open  wsman            syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">9389/tcp  open  adws             syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49666/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49668/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49673/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49674/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49677/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49704/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49791/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span></code></pre></div><hr>
+<h1 id="enumeration">Enumeration</h1>
+<h2 id="port-53---dns">Port 53 - DNS</h2>
+<p>No enumeration conducted</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---crane---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---exfiltrated---linux/">OSCP - Exfiltrated - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="exfiltration">Exfiltration</h1>
-<p>Relatively easy box turned into a VERY frustrating experience at not being able to properly execute <code>exiftool</code> exploit because of missing library dependencies. Exploit actually detailed exactly <em>how</em> to install those dependencies, but I was looking for instructions on Stack Overflow instead of in the script itself - <em><strong>always read the script!</strong></em></p>
-<p>Exploits were relatively straight forward once the dependencies were sorted though, so all round good practice on the process of popping boxes. Local user had also been identified by <code>linpeas.sh</code> but ended up getting root first (flag = <code>proof.txt</code>) then using root privilege to find the <code>coaran</code> user with GID=1000 and the local flag (flag = <code>local.txt</code>).</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---exfiltrated---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---access---ad/">[Read more]</a>
           </div>
         
       </article>
