@@ -1,8 +1,8 @@
 ---
 title: Trip - Antarctica - 2025 Nov
 created: 2025-11-13
-updated: 2025-11-27
-status: seed
+updated: 2026-06-30
+status: complete
 draft: false
 tags:
   - trips
@@ -184,4 +184,3 @@ Ushuaia
 Buenos Aires Jorge Newbery - https://www.sleepinginairports.net/guides/buenos-aires-aeroparque-airport-guide.htm
 
 [YouTube - Antarctica Tips for Travellers](https://www.youtube.com/watch?v=PNIpzRQ96Oo)
-

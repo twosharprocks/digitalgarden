@@ -1,8 +1,8 @@
 ---
 title: Trip - Sydney GoDiving Conference  - 2025 Sept
 created: 2025-09-05
-updated: 2025-10-30
-status: reference
+updated: 2026-06-30
+status: complete
 draft: false
 tags:
   - trips
@@ -32,5 +32,4 @@ Dates: 05-09 to 07-09
 # Other References
 [Article - The Crazy Wombat Tunnel]({{< relref "posts/Article - The Crazy Wombat Tunnel.md" >}})
 [Article - Unveiling the Crazy Wombat Tunnel]({{< relref "posts/Article - Unveiling the Crazy Wombat Tunnel.md" >}})
-
 

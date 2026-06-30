@@ -1,8 +1,8 @@
 ---
 title: Trip - Wellington Caves - 2025 Sept
 created: 2025-10-29
-updated: 2025-10-30
-status: reference
+updated: 2026-06-30
+status: complete
 draft: false
 tags:
   - trips
@@ -59,6 +59,5 @@ related:
 - Insta360 X4
 
 # Other Notes
-
 
 

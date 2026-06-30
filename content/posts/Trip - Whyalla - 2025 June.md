@@ -1,8 +1,8 @@
 ---
 title: Trip - Whyalla - 2025 June
 created: 2025-06-07
-updated: 2025-10-30
-status: reference
+updated: 2026-06-30
+status: complete
 draft: false
 tags:
   - trips

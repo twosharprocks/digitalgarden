@@ -1,8 +1,8 @@
 ---
 title: Trip - Japan - 2026 May
 created: 2026-03-20
-updated: 2026-06-21
-status: seed
+updated: 2026-06-30
+status: complete
 draft: false
 tags:
   - trips
@@ -175,6 +175,5 @@ Logistics
 # References
 [Dive Explorers - Akiyoshidai Groundwater System Submersible Survey Project](https://tech-diving.jp/akiyoshidai)
 [Trip - Sulawesi - 2025 Aug]({{< relref "posts/Trip - Sulawesi - 2025 Aug.md" >}})
-
 
 

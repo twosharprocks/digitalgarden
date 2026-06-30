@@ -1,8 +1,8 @@
 ---
 title: Trip - Thailand - Boh Yai Mines - 2026 Jan
 created: 2025-12-14
-updated: 2025-12-14
-status: seed
+updated: 2026-06-30
+status: complete
 draft: false
 tags:
   - trips
@@ -159,4 +159,3 @@ related:
 # References
 - 2025-10-20 Will's Email (Thailand) 
 - [Thailand Digital Arrival Card](https://tdac.immigration.go.th/arrival-card/#/home) 
-

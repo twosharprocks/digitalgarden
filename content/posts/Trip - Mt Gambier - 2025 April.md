@@ -1,12 +1,13 @@
 ---
 title: Trip - Mt Gambier - 2025 April
 created: 2025-04-17
-updated: 2025-04-23
-status: seed
+updated: 2026-06-30
+status: complete
 draft: false
 tags:
   - trips
   - diving
+  - completed
 Template: "[[Template - Trip]]"
 Destination:
 Region:

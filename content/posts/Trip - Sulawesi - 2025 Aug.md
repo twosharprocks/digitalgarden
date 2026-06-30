@@ -1,11 +1,12 @@
 ---
 title: Trip - Sulawesi - 2025 Aug
 created: 2025-07-15
-updated: 2026-06-18
-status: reference
+updated: 2026-06-30
+status: complete
 draft: false
 tags:
   - trips
+  - completed
 Template: "[[Template - Trip]]"
 Destination:
 Region:
