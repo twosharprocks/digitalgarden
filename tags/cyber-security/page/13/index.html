@@ -180,7 +180,7 @@
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---rubydome---linux/">OSCP - RubyDome - Linux</a>
+          <a href="/posts/oscp---jacko---windows/">OSCP - Jacko - Windows</a>
         </h1>
         <div class="post-meta"></div>
 
@@ -197,164 +197,191 @@
 
         <div class="post-content">
           
-            <h1 id="rubydome">RubyDome</h1>
-<p>Frustrating that a couple of key points in this box were only broken through with the use of the walkthrough. Throwing <code>127.0.0.1</code> into the website to break it was a new one (something to keep in mind for the future) but I&rsquo;d have never worked out without the walkthrough.</p>
-<p>Likewise the exploit initially appeared to be working perfectly but wasn&rsquo;t catching a shell, and it turned out I had to add &ldquo;pdf&rdquo; onto the end of the target web address.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/oscp---rubydome---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/oscp---scrutiny---linux/">OSCP - Scrutiny - Linux</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="scrutiny">Scrutiny</h1>
-<p>This whole box felt like a whole lot of enumeration - digging through files to find SSH keys and cleartext passwords. Probably the biggest lesson I learned out of it however was how to setup and run python libraries in a virtual environment!</p>
-<p>The exploit required <code>urllib3 faker</code> to run, and <code>python3</code> kept throwing the <code>externally managed</code> error that drove me crazy awhile back when I was trying to install the <code>bzz</code> library - I must have found another way around that, but this time around I actually dug into what this error was all about. Turns out <code>python</code> likes to run it&rsquo;s external libraries in a self-contained virtual environment, and while there is an override pretty much everyone on stackoverflow was screaming that it&rsquo;d break the system.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/oscp---scrutiny---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/oscp---squid---windows/">OSCP - Squid - Windows</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="squid">Squid</h1>
-<p>Everything about this box was a refresher, and there&rsquo;s no doubt I leaned heavily on the walkthrough as I was doing it. Learning about Squid and <code>spose.py</code> was interesting, but there&rsquo;s a concern that <code>spose.py</code> is pretty niche and I may never have found it (or realised I needed it) without the walkthrough.</p>
-<p>Maybe it&rsquo;s just more familiarity though, and with more practice I&rsquo;ll get better at knowing how to tackle different Windows services. There&rsquo;s no question I learned more about how proxies work from this box, and setting up FoxyProxy to reach the target&rsquo;s open ports was particularly interesting.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/oscp---squid---windows/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/oscp---twiggy---linux/">OSCP - Twiggy - Linux</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="twiggy">Twiggy</h1>
-<p>Went down the rabbit hole with port 80 &amp; port 8000 too quickly, thinking this would require SQL injection or some sort of weird user enumeration to get into a web platform.</p>
-<p>Turns out the I needed to run nmap again with a full port scan (<code>-p- -T5</code>) and pick up ALL the ports before an aggressive service scan (<code>-A -p 22,55,ect</code>).</p>
-<p>2nd scan picked up <code>4505</code> and <code>4506</code> which correspond to ZeroMQ ZMTP 2.0 (saltStack). Looking up Saltstack showed a vulnerability (CVE-2020-11652)</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/oscp---twiggy---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/oscp---windows/">OSCP - Windows</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
-<h1 id="tj-null---pg-practice">TJ Null - PG Practice</h1>
-<p><del>Helpdesk</del> (Not available)</p>
-<p>Easy - 1/4</p>
+            <h1 id="box">Box</h1>
+<p>What the actual fuck&hellip; I&rsquo;ll write this up tomorrow, but this was a combination of &ldquo;Why the fuck isn&rsquo;t this working&rdquo; with &ldquo;that is so fucking dumb&rdquo; when it did finally work</p>
+<h1 id="resolution-summary">Resolution summary</h1>
 <ul>
-<li><input checked="" disabled="" type="checkbox"> Algernon - Easy</li>
-<li><input checked="" disabled="" type="checkbox"> Squid - Easy</li>
-<li><input checked="" disabled="" type="checkbox"> Internal - Easy</li>
-<li><input disabled="" type="checkbox"> <del>Kevin - Easy</del> (Aborted)</li>
+<li>Ran Nmap to identify ports <code>80</code>, <code>135/445</code>, <code>445</code>, <code>5040</code>, <code>8082</code> &amp; <code>9092</code></li>
+<li>Navigated to port <code>8082</code> with browser and logged in with default credentials</li>
+<li>Found exploit for <code>H2 Database</code> and achieved code execution via SQL</li>
+<li>Uploaded &amp; executed reverse shell via SQL statements for initial access</li>
+<li>Identified <code>Paperstream</code> software and found exploit <code>49382.py</code></li>
+<li>Used <code>msfvenom</code> to create reverse shell <code>dll</code> with <code>x86</code> architecture &amp; <code>xor_dynamic</code></li>
+<li>Uploaded <code>dll</code> and <code>49382.ps1</code> to target via <code>iwr</code></li>
+<li>Ran <code>49382.ps1</code> on target and recieved reverse shell as <code>NT-system</code></li>
 </ul>
-<p>Intermediate - 6/9</p>
+<h2 id="improved-skills">Improved skills</h2>
 <ul>
-<li><input checked="" disabled="" type="checkbox"> Authby - Intermediate</li>
-<li><input checked="" disabled="" type="checkbox"> Hutch - Intermediate</li>
-<li><input checked="" disabled="" type="checkbox"> Jacko - Intermediate</li>
-<li><input disabled="" type="checkbox"> Resourced - Intermediate</li>
-<li><input disabled="" type="checkbox"> DVR4 - Intermediate</li>
-<li><input disabled="" type="checkbox"> Hepet - Intermediate</li>
-<li><input disabled="" type="checkbox"> Shenzi - Intermediate</li>
-<li><input disabled="" type="checkbox"> Nickel - Intermediate</li>
-<li><input disabled="" type="checkbox"> Slort - Intermediate</li>
+<li>Generating msfvenom payloads</li>
+<li>Working with Windows kernel exploits (specifically potatos)</li>
 </ul>
-<p>Hard 1/1</p>
+<h2 id="used-tools">Used tools</h2>
+<ul>
+<li>nmap</li>
+<li>python</li>
+<li>msfvenom</li>
+<li>powershell</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering</h1>
+<p>Scanned all TCP ports:</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/oscp---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---jacko---windows/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/oscp---kevin---windows-dnf/">OSCP - Kevin - Windows (DNF)</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="kevin">Kevin</h1>
+<p>I&rsquo;ve checked all the walkthroughs, tried countless variations of the easily available exploits, even reimaged my entire Kali VM trying to make this script work&hellip; and nothing I&rsquo;ve done has caught a reverse shell.</p>
+<p>Honestly not sure what else to do, other than to write this off as a learning experience (?) and move on. If I get a buffer overflow exploit in the exam (which I think they&rsquo;ve stopped now anyway) I&rsquo;ll just move the fuck on because nothing I&rsquo;ve done on this box or the last one has really made any sense.</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---kevin---windows-dnf/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/oscp---lavita---linux/">OSCP - LaVita - Linux</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="lavita">LaVita</h1>
+<p>This box started out really well with plenty of through enumeration to identify the vulnerability, but I fell down trying to gain initial access with the exploits. I tried several, and persisted with the most well developed exploit thinking it would be the way forward.</p>
+<p>The issue was not realising the exploit would stop working after the first success, so after testing it with the <code>uname -a</code> or <code>id</code> commands, it would then not work when I tried to repeat with a reverse shell command. it took awhile to realise that there were 21 chains available, and so there was no need to keep using the &ldquo;last working&rdquo; chain, because it was only working once anyway. I also stopped trying to test with <code>id</code> and just threw the reverse shell command in straight away - I already knew the exploit worked <em>sometimes</em> so may as well try to establish a shell each time I tried.</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---lavita---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/oscp---law---linux/">OSCP - Law - Linux</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="law">Law</h1>
+<p>This one was another absolute slog. Identifying exploits for htmLawed v1.2.5 was very straightforward, and I got a little excited when I saw an RCE exploit had been found this year (2024).</p>
+<p>Running the exploit didn&rsquo;t work though, so I started researching the vulnerability further while trying to avoid the walkthroughs. I found the <a href="https://mayfly277.github.io/posts/GLPI-htmlawed-CVE-2022-35914/">Mayfly article on the CVE</a> which added a lot of extra context, and checking the walkthrough helped me realise why the Burpsuite request wasn&rsquo;t working properly (the request was to a non-existent page, and needed to be changed to <code>/</code>).</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---law---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/oscp---levram---linux/">OSCP - Levram - Linux</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="levram">Levram</h1>
+<h1 id="resolution-summary">Resolution summary</h1>
+<ul>
+<li>Nmap to identify services on port 22 and 8000</li>
+<li>Password guessed admin credentials to Gerapy platform</li>
+<li>Used exploit for CVE-2021-243857 to achieve shell</li>
+<li>Upgraded shell by running bash script on target</li>
+<li>Identified vulnerable python setuid configuration</li>
+<li>Used GTFObins to find python command providing privilege escalation to root</li>
+</ul>
+<h2 id="improved-skills">Improved skills</h2>
+<ul>
+<li>Linux Privilege Escalation</li>
+<li>Establishing Full TTYs</li>
+</ul>
+<h2 id="used-tools">Used tools</h2>
+<ul>
+<li>nmap</li>
+<li>python</li>
+<li>linpeas.sh</li>
+<li>gerapy</li>
+<li>GTFObins</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering</h1>
+<p>Scanned all TCP ports:</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---levram---linux/">[Read more]</a>
           </div>
         
       </article>

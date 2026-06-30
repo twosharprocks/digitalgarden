@@ -179,7 +179,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---squid---windows/">OSCP - Squid - Windows</a>
+          <a href="/posts/oscp---fired---linux/">OSCP - Fired - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -196,22 +196,21 @@
 
         <div class="post-content">
           
-            <h1 id="squid">Squid</h1>
-<p>Everything about this box was a refresher, and there&rsquo;s no doubt I leaned heavily on the walkthrough as I was doing it. Learning about Squid and <code>spose.py</code> was interesting, but there&rsquo;s a concern that <code>spose.py</code> is pretty niche and I may never have found it (or realised I needed it) without the walkthrough.</p>
-<p>Maybe it&rsquo;s just more familiarity though, and with more practice I&rsquo;ll get better at knowing how to tackle different Windows services. There&rsquo;s no question I learned more about how proxies work from this box, and setting up FoxyProxy to reach the target&rsquo;s open ports was particularly interesting.</p>
+            <h1 id="fired">Fired</h1>
+<p>This box was relatively straightforward until the very last step, where I simply couldn&rsquo;t find credentials to move forward. I needed a bit of guidance finding how to setup the admin panel to establish a reverse shell, but all the details were on an exploit page when I went looking. The walkthrough support for the box itself was very limited (or atleast I could only find a single walkthrough for it) and the only major barrier was the very final step - finding a script file in the <code>openfire</code> directory that had cleartext root credentials.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---squid---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---fired---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---twiggy---linux/">OSCP - Twiggy - Linux</a>
+          <a href="/posts/oscp---flu---linux/">OSCP - Flu - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -228,23 +227,22 @@
 
         <div class="post-content">
           
-            <h1 id="twiggy">Twiggy</h1>
-<p>Went down the rabbit hole with port 80 &amp; port 8000 too quickly, thinking this would require SQL injection or some sort of weird user enumeration to get into a web platform.</p>
-<p>Turns out the I needed to run nmap again with a full port scan (<code>-p- -T5</code>) and pick up ALL the ports before an aggressive service scan (<code>-A -p 22,55,ect</code>).</p>
-<p>2nd scan picked up <code>4505</code> and <code>4506</code> which correspond to ZeroMQ ZMTP 2.0 (saltStack). Looking up Saltstack showed a vulnerability (CVE-2020-11652)</p>
+            <h1 id="flu">Flu</h1>
+<p>This is the first box I can confidently say I did <em><strong>NOT</strong></em> look at a walkthrough for any help on! I&rsquo;ve included one in the details above, but it remained as a background tab the entire way through this - massive confidence boost to know I can do this without needing to follow someone else&rsquo;s footsteps!</p>
+<p>Seeing Confluence when I checked the html port was a big confidence booster too, as I&rsquo;ve worked with it a lot already and knew there were plenty of vulnerabilities and exploit available for older versions. Getting RCE was incredibly simple, and then it was simply a case of enumerating the target to find a privilege escalation vector.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---twiggy---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---flu---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---windows/">OSCP - Windows</a>
+          <a href="/posts/oscp---htb---active-directory/">OSCP - HTB - Active Directory</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -262,48 +260,36 @@
         <div class="post-content">
           
             <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
-<h1 id="tj-null---pg-practice">TJ Null - PG Practice</h1>
-<p><del>Helpdesk</del> (Not available)</p>
-<p>Easy - 1/4</p>
+<hr>
+<h1 id="tj-null">TJ Null</h1>
 <ul>
-<li><input checked="" disabled="" type="checkbox"> Algernon - Easy</li>
-<li><input checked="" disabled="" type="checkbox"> Squid - Easy</li>
-<li><input checked="" disabled="" type="checkbox"> Internal - Easy</li>
-<li><input disabled="" type="checkbox"> <del>Kevin - Easy</del> (Aborted)</li>
+<li><input disabled="" type="checkbox"> Active (Enterprise)</li>
+<li><input disabled="" type="checkbox"> Forest</li>
+<li><input disabled="" type="checkbox"> Sauna</li>
+<li><input disabled="" type="checkbox"> Monteverde</li>
+<li><input disabled="" type="checkbox"> Timelapse</li>
+<li><input disabled="" type="checkbox"> Return (Enterprise)</li>
+<li><input disabled="" type="checkbox"> Cascade</li>
+<li><input disabled="" type="checkbox"> Flight</li>
 </ul>
-<p>Intermediate - 6/9</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Authby - Intermediate</li>
-<li><input checked="" disabled="" type="checkbox"> Hutch - Intermediate</li>
-<li><input checked="" disabled="" type="checkbox"> Jacko - Intermediate</li>
-<li><input disabled="" type="checkbox"> Resourced - Intermediate</li>
-<li><input disabled="" type="checkbox"> DVR4 - Intermediate</li>
-<li><input disabled="" type="checkbox"> Hepet - Intermediate</li>
-<li><input disabled="" type="checkbox"> Shenzi - Intermediate</li>
-<li><input disabled="" type="checkbox"> Nickel - Intermediate</li>
-<li><input disabled="" type="checkbox"> Slort - Intermediate</li>
-</ul>
-<p>Hard 1/1</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---htb---active-directory/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp-exam-prep/">OSCP Exam Prep</a>
+          <a href="/posts/oscp---htb---linux/">OSCP - HTB - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
-            
-            #<a href="/tags/oscp/">oscp</a>&nbsp;
             
             #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
@@ -315,59 +301,48 @@
 
         <div class="post-content">
           
-            <hr>
-<p>ProvingGrounds (very close to OSCP)</p>
+            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
+<hr>
+<h1 id="tj-null">TJ Null</h1>
 <ul>
-<li><strong>PG Practice</strong>: Structured, guided learning with focused challenges to teach specific skills.</li>
-<li><strong>PG Play</strong>: Open, unguided labs that simulate real-world penetration testing <em>(best for OSCP prep)</em></li>
-</ul>
-<p>OffSec Challenge labs</p>
-<ul>
-<li>Challenge 0-2: Good warmup</li>
-<li>Challenge 3: Beyond scope of exam</li>
-<li><strong>Challenge 4-6</strong>: <em>OSCP-like experience</em>
-<ul>
-<li>Give yourself 24hrs for each</li>
-</ul>
-</li>
-</ul>
-<p>TjNull&rsquo;s List (excellent)</p>
-<ul>
-<li><a href="https://www.youtube.com/playlist?list=PLidcsTyj9JXK-fnabFLVEvHinQ14Jy5tf">Ipsec videos</a></li>
-<li><a href="https://www.youtube.com/playlist?list=PLcSbj5mz-wxPK8KD522vH5Gny4bSemX2H">NoxLumens Walkthroughs</a></li>
-</ul>
-<p>HTB Academy - CPTS</p>
-<ul>
-<li>Active Directory &amp; Enumeration</li>
-<li>Pivoting and tunnelling</li>
-<li>Attacking Common Services</li>
-<li>PrivEsc - Windows &amp; Linux</li>
-<li>File Transfer</li>
+<li><input disabled="" type="checkbox"> Busqueda</li>
+<li><input disabled="" type="checkbox"> UpDown</li>
+<li><input disabled="" type="checkbox"> Sau</li>
+<li><input disabled="" type="checkbox"> Help</li>
+<li><input disabled="" type="checkbox"> Broker</li>
+<li><input disabled="" type="checkbox"> Intentions</li>
+<li><input disabled="" type="checkbox"> Soccer</li>
+<li><input disabled="" type="checkbox"> Keeper</li>
+<li><input disabled="" type="checkbox"> Monitored</li>
+<li><input disabled="" type="checkbox"> Boardlight</li>
+<li><input disabled="" type="checkbox"> Networked</li>
+<li><input disabled="" type="checkbox"> CozyHosting</li>
+<li><input disabled="" type="checkbox"> Editorial</li>
+<li><input disabled="" type="checkbox"> Help</li>
+<li><input disabled="" type="checkbox"> Magic</li>
+<li><input disabled="" type="checkbox"> Pandora</li>
+<li><input disabled="" type="checkbox"> Usage</li>
 </ul>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp-exam-prep/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---htb---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/outside-magazine/">Outside Magazine</a>
+          <a href="/posts/oscp---htb---windows/">OSCP - HTB - Windows</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/personal/">personal</a>&nbsp;
-            
-            #<a href="/tags/expeditions/">expeditions</a>&nbsp;
-            
-            #<a href="/tags/exploration/">exploration</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -377,22 +352,28 @@
 
         <div class="post-content">
           
-            <h1 id="articles">Articles</h1>
+            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
+<hr>
+<h1 id="tj-null">TJ Null</h1>
 <ul>
-<li><a href="https://www.outsideonline.com/outdoor-adventure/exploration-survival/wim-hof-method/">How Iceman Wim Hof Uncovered the Secrets to Our Health</a></li>
-<li><a href="https://www.outsideonline.com/outdoor-adventure/water-activities/raising-dead/">Raising the Dead - Dave Shaw</a></li>
+<li><input disabled="" type="checkbox"> Escape</li>
+<li><input disabled="" type="checkbox"> Servmon - Enterprise</li>
+<li><input disabled="" type="checkbox"> Support</li>
+<li><input disabled="" type="checkbox"> StreamIO</li>
+<li><input disabled="" type="checkbox"> Blackfield</li>
+<li><input disabled="" type="checkbox"> Intelligence</li>
+<li><input disabled="" type="checkbox"> Jeeves</li>
+<li><input disabled="" type="checkbox"> Manager</li>
+<li><input disabled="" type="checkbox"> Access</li>
+<li><input disabled="" type="checkbox"> Aero</li>
+<li><input disabled="" type="checkbox"> Mailing</li>
 </ul>
-<h1 id="references">References</h1>
-<p><a href="https://www.outsideonline.com/tag/outside-features/">Outside - Long Reads</a>
-<a href="https://www.outsideonline.com/collection/outside-classics/">The Best Stories We’ve Ever Told - Greatest Long Reads of All Time)</a>
-<a href="https://www.outsideonline.com/collection/greatest-outside-adventure-stories-ever-told/">The Greatest Outside Adventure Stories Ever Told</a></p>
-<p><a href="https://www.amazon.com.au/Out-There-Wildest-Stories-Magazine-ebook/dp/B07DRB4BC6/ref=tmm_kin_swatch_0">Kindle - Out There: The Wildest Stories from Outside Magazine</a></p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/outside-magazine/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---htb---windows/">[Read more]</a>
           </div>
         
       </article>

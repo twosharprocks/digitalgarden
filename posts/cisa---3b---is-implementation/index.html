@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>CISA - 3B - IS Implementation :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="1 - Testing Methodologies 1. Unit Testing: Individual program module (by developers) 2. Integration Testing: Testing connection and data flow between modules 3. System Testing: Testing entire integrated system to verify it meets technical and functional requirements (by test team in non-prod environment) Recovery Testing: Check systems ability to recover after failure Security Testing: Verify access controls and no new security holes introduced Load, Volume and Stress Testing Load: Performance with large data quantity (peak hours) Volume: Maximum volume of records the system can handle Stress: Maximum number of concurrent users the system can handle Performance Testing: Testing system against benchmarks 4. Acceptance Testing: Final gate before implementation, users validate system meets business needs Quality Assurance Testing (QAT): &ldquo;Did we build the system right?&rdquo;. Focused on technical aspects, performed by IT department, Verify it works as documented and to all tech specs User Acceptance testing (UAT): &ldquo;Did we build the right system&rdquo;. Focused on functional aspects and business readiness, performed by business users, ensure system is production-ready and meets business requirements from user perspective (This is the final sign-off) Exam Tip: UAT is the most critical milestone before implementation, and business users give final approval not the IT department
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/cisa---3b---is-implementation/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="CISA - 3B - IS Implementation">
+<meta property="og:description" content="1 - Testing Methodologies 1. Unit Testing: Individual program module (by developers) 2. Integration Testing: Testing connection and data flow between modules 3. System Testing: Testing entire integrated system to verify it meets technical and functional requirements (by test team in non-prod environment) Recovery Testing: Check systems ability to recover after failure Security Testing: Verify access controls and no new security holes introduced Load, Volume and Stress Testing Load: Performance with large data quantity (peak hours) Volume: Maximum volume of records the system can handle Stress: Maximum number of concurrent users the system can handle Performance Testing: Testing system against benchmarks 4. Acceptance Testing: Final gate before implementation, users validate system meets business needs Quality Assurance Testing (QAT): &ldquo;Did we build the system right?&rdquo;. Focused on technical aspects, performed by IT department, Verify it works as documented and to all tech specs User Acceptance testing (UAT): &ldquo;Did we build the right system&rdquo;. Focused on functional aspects and business readiness, performed by business users, ensure system is production-ready and meets business requirements from user perspective (This is the final sign-off) Exam Tip: UAT is the most critical milestone before implementation, and business users give final approval not the IT department
+" />
+<meta property="og:url" content="/posts/cisa---3b---is-implementation/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+<script defer src="/search.js"></script>
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    <div class="site-search" role="search">
+      <label class="sr-only" for="garden-search">Search the digital garden</label>
+      <input
+        id="garden-search"
+        class="site-search__input"
+        type="search"
+        placeholder="Search pages..."
+        autocomplete="off"
+        aria-autocomplete="list"
+        aria-controls="garden-search-results"
+        aria-expanded="false"
+      >
+      <div
+        id="garden-search-results"
+        class="site-search__results"
+        role="listbox"
+        hidden
+      ></div>
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/cisa---3b---is-implementation/">CISA - 3B - IS Implementation</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+      
+      #<a href="/tags/cisa/">cisa</a>&nbsp;
+      
+      #<a href="/tags/study/">study</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="1---testing-methodologies">1 - Testing Methodologies<a href="#1---testing-methodologies" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li><strong>1. Unit Testing</strong>: Individual program module (by developers)</li>
+<li><strong>2. Integration Testing</strong>: Testing connection and data flow between modules</li>
+<li><strong>3. System Testing</strong>: Testing entire integrated system to verify it meets technical and functional requirements (by test team in non-prod environment)
+<ul>
+<li><strong>Recovery Testing</strong>: Check systems ability to recover after failure</li>
+<li><strong>Security Testing</strong>: Verify access controls and no new security holes introduced</li>
+<li><strong>Load, Volume and Stress Testing</strong>
+<ul>
+<li>Load: Performance with large data quantity (peak hours)</li>
+<li>Volume: Maximum volume of records the system can handle</li>
+<li>Stress: Maximum number of concurrent users the system can handle</li>
+</ul>
+</li>
+<li><strong>Performance Testing</strong>: Testing system against benchmarks</li>
+</ul>
+</li>
+<li><strong>4. Acceptance Testing</strong>: Final gate before implementation, users validate system meets business needs
+<ul>
+<li><strong>Quality Assurance Testing (QAT)</strong>: &ldquo;Did we build the system right?&rdquo;. Focused on technical aspects, performed by IT department, Verify it works as documented and to all tech specs</li>
+<li><strong>User Acceptance testing (UAT)</strong>: &ldquo;Did we build the right system&rdquo;. Focused on functional aspects and business readiness, performed by business users, ensure system is production-ready and meets business requirements from user perspective (This is the <em><strong>final sign-off</strong></em>)</li>
+</ul>
+</li>
+</ul>
+<p><em>Exam Tip: UAT is the most critical milestone before implementation, and <strong>business users</strong> give final approval not the IT department</em></p>
+<h2 id="other-testing">Other Testing<a href="#other-testing" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>Alpha Testing</strong>: Early form of testing by developers (eg. System testing)</li>
+<li><strong>Beta Testing</strong>: Form of UAT with system released to a limited number of external users for real-world exposure</li>
+<li><strong>White Box testing</strong>: Testing internal logic and code structure (tester can see code operation)
+<ul>
+<li>Used in <em>unit</em> and <em>integration</em> testing</li>
+</ul>
+</li>
+<li><strong>Black Box testing</strong>: Testing system function without knowledge of internal code (inputs &amp; outputs only)
+<ul>
+<li>Used in <em>integration</em> and <em>acceptance</em> testing</li>
+</ul>
+</li>
+<li><strong>Pilot testing</strong>: Preliminary test focused on specific, predetermined aspects of a system in a limited evaluation</li>
+<li><strong>Regression Testing</strong>: Rerunning test cases after a change to ensure new errors have not been introduced</li>
+<li><strong>Parallel Testing</strong>: Feeding data into old and new systems to compare results and verify new system performance</li>
+<li><strong>Bottom-Up Tetsing</strong>: Tests individual atomic units working upward until complete system is tested
+<ul>
+<li>Advantage: Errors in low-level modules are found early</li>
+</ul>
+</li>
+<li><strong>Top-Down Testing</strong>: Starts testing major functions and interfaces at a high-level then works down to details of individual modules
+<ul>
+<li>Avantage: Tests major functions early, interface errors found sooner, build user confidence by seeing a working version early</li>
+</ul>
+</li>
+</ul>
+<h2 id="data-integrity-testing-and-the-acid-principle">Data Integrity Testing and the Acid principle<a href="#data-integrity-testing-and-the-acid-principle" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>Data Integrity Testing</strong>: Examine accuracy, completeness, consistency, and authorisation of data. Ensures data elements confirm to validation rules</li>
+<li><strong>Acid Principle for Transactions</strong> - IMPORTANT
+<ul>
+<li><strong>Atomicity</strong>: All parts of a transaction complete, or none do (no partial updates)</li>
+<li><strong>Consistency</strong>: Transaction brings the database from one valid state to another</li>
+<li><strong>Isolation</strong>: Concurrent transactions do not interfere with each other</li>
+<li><strong>Durability</strong>: Once a transaction is complete it survives system failure</li>
+</ul>
+</li>
+</ul>
+<h2 id="application-systems-testing-techniques">Application Systems Testing Techniques<a href="#application-systems-testing-techniques" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>Generalised Audit Software (Gas)</strong>: Class of Computer Assisted Audit Techniques (CAATs)
+<ul>
+<li><strong>Test Data/Deck</strong>: Simulates transactions through real programs to verify controls &amp; edits</li>
+<li><strong>Parallel Operation</strong>: Process production data through old and new systems at the same time to compare results</li>
+<li><strong>Integrated Test Facility (ITF)</strong>: Uses a fictitious file/entry in live production database to process test transactions alongside live data</li>
+<li><strong>Parallel Simulation</strong>: Processes production data using programs that simulate the application&rsquo;s logic to verify the live system results
+<em>Exam Tip: Integrated Test Facility (ITF) is the most likely to be an exam topic</em></li>
+</ul>
+</li>
+</ul>
+<h2 id="is-auditors-role-in-testing">IS Auditor&rsquo;s Role in Testing<a href="#is-auditors-role-in-testing" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Provide independent assurance over the entire testing process</p>
+<ul>
+<li><strong>Review the Test Plan</strong>: Ensure the plan is complete, tests controls, shows evidence of user participation &amp; sign-off</li>
+<li><strong>Reconcile Data</strong>: Ensure accuracy and completeness in control totals and converted data</li>
+<li><strong>Interview users</strong>: Speak to users to gauge their understanding of the new system, methods and operating instructions</li>
+<li><strong>Verify Security</strong>: Develop &amp; execute access tests to verify system security is functioning as designed</li>
+</ul>
+<h1 id="2---configuration-and-release-management">2 - Configuration and Release Management<a href="#2---configuration-and-release-management" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><strong>Configuration Management</strong>: identifying, defining, and baselining ALL components of a system and controlling changes throughout their lifecycle</p>
+<p><strong>Configuration Management Database (CMDB)</strong>: Central repository storing information on hardware and software assets and their relationships</p>
+<p><strong>Release Management</strong>: Process of managing, planning, scheduling and controlling a software build through different stages and environments</p>
+<ul>
+<li>Includes testing and deploying releases into production</li>
+</ul>
+<p><strong>Key Control</strong>: A new version of a system should only be built from trusted, baselined items stored in a controlled library</p>
+<h1 id="3---system-migration-infrastructure-deployment-and-data-conversion">3 - System Migration, Infrastructure Deployment, and Data Conversion<a href="#3---system-migration-infrastructure-deployment-and-data-conversion" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="system-implementation-and-planning">System Implementation and Planning<a href="#system-implementation-and-planning" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>Implementation</strong>: Initiated after successful testing phase and sign-off. Key part is panning ongoing operational life (detailed support structure and training plan)</li>
+<li><strong>Knowledge Transfer methods</strong>: Plan should define how knowledge is transferred to support staff including <em>shadowing</em> (observing project team in action) and <em>Relay-Baton Approach</em> (Knowledge/responsibility transfer in small manageable portions)</li>
+<li><strong>Training Plan</strong>: Formal plan to address skill gaps with defined content, scheduling, duration and delivery mechanism</li>
+</ul>
+<h2 id="go-live-process">Go-Live Process<a href="#go-live-process" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><strong>Data Conversion/Migration</strong>: Process of converting and moving data from old to new
+<ul>
+<li>Key concerns &amp; Checklist: Data cleansing, verification, audit trails, exception reports, conversion dress rehearsal, rollback plan
+<ul>
+<li>IS auditor&rsquo;s primary concern in data migration is integrity, accuracy, and completeness of the data</li>
+</ul>
+</li>
+<li><em>Exam Tip: IS auditor must VERIFY a fallback/rollback plan exists AND HAS BEEN TESTED. Migration should not proceed without a proven way to revert to previous stable state.</em></li>
+</ul>
+</li>
+<li><strong>Changeover (Go-live/Cutover)</strong>: Switch from old to new
+<ul>
+<li><strong>Parallel Changeover</strong>: Pro: lowest risk, fallback. Con: Highest cost, resource intensive
+<ul>
+<li>Safest and most expensive</li>
+</ul>
+</li>
+<li><strong>Phased Changeover</strong>: System implemented one module/department at a time. Pro: moderate risk/cost. Con: Resource challenges</li>
+<li><strong>Abrupt Changeover</strong>: AKA &ldquo;Direct Cutover&rdquo;. Specific Data cutover between systems. Lowest cost, highest risk, no fallback</li>
+</ul>
+</li>
+<li><strong>End-User Training</strong>: Preparing users to operate new system effectively</li>
+<li><strong>Certification and Accreditation</strong>: Evaluating and accepting system for production use after implementation
+<ul>
+<li><strong>Certification</strong>: Technical process where assessor performs assessment of systems management, operational/technical controls against a standard</li>
+<li><strong>Accreditation</strong>: Formal management decision by senior official to authorise operation of an information system and explicitly accept the residual risk to the enterprise</li>
+<li><em>Exam Tip: Accreditation is the final step, and an acceptance of residual risk by business management (not IT or auditors)</em></li>
+</ul>
+</li>
+<li><strong>After Implementation</strong>: Ongoing maintenance
+<ul>
+<li><strong>Change Requests</strong> are formally authorised, prioritised and tracked</li>
+<li><strong>Emergency Changes</strong> have documented processes</li>
+<li><strong>Security Adequate</strong> to protect production source and executable code</li>
+<li><strong>Change Control Log</strong> shows all changes were resolved</li>
+<li><strong>Adequate testing</strong> of changes before being moved to production</li>
+</ul>
+</li>
+</ul>
+<h1 id="4---post-implementation-review">4 - Post-Implementation Review<a href="#4---post-implementation-review" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Determine if the new system have met objectives and identify lessons learned for future projects</p>
+<p>Key Areas of Review</p>
+<ul>
+<li><strong>Adequacy of the system</strong>: Does the system meet user requirements (Are controls working effectively?)</li>
+<li><strong>Projected costs vs Benefits (Benefits Realisation</strong>): Is the system delivering the promised value from the business vase (ROI)</li>
+<li><strong>Assessment of the Project process</strong>: Were project management methodologies and standards followed? (Lessons learned)</li>
+</ul>
+<p>Auditor&rsquo;s Role</p>
+<ul>
+<li><strong>Independence is Paramount</strong>: Auditor who consulted heavily on the project should NOT perform the post-implementation review (PIR)</li>
+<li><strong>Concentrate on the Control Aspects</strong> of the system and project management process</li>
+<li>Key Steps
+<ul>
+<li>We&rsquo;re the system objectives and requirements actually met?</li>
+<li>Verify cost benefits from the business case are measured and reported</li>
+<li>Review the Controls from the business case are operating as designed in the live production environment</li>
+<li>Identify systematic problems by reviewing operator error logs, help desk tickets, and change requests.</li>
+</ul>
+</li>
+</ul>
+<h1 id="key-takeaways">Key Takeaways<a href="#key-takeaways" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li><strong>Master the Testing Levels</strong>: Know the sequence and purpose of Unit, Integration, System, and Acceptance(QAT vs UAT) testing</li>
+<li><strong>Differentiate</strong> between White vs Black box testing, Alpha vs Beta testing, Load vs Volume vs Stress Testing</li>
+<li><strong>Know the Go-Live Strategies</strong>: Risk/Cost trade-offs between Parallel, Phased, and Abrupt changeovers</li>
+<li><strong>Focus on Risk and Controls</strong>: Data conversion risks (need for a tested rollback plan) and importance of configuration/release management controls</li>
+<li><strong>Accreditation = Risk Acceptance</strong>: Accreditation is the formal acceptance of residual risk by business management</li>
+</ul>
+<hr>
+<p><strong>This also reminds me of</strong>&hellip;</p>
+<hr>
+<h1 id="references">References<a href="#references" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/cisa---3a---is-acquisition-and-development/" class="button inline prev">
+        &lt; [<span class="button__text">CISA - 3A - IS Acquisition and Development</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/cisa---4a---is-operations/" class="button inline next">
+         [<span class="button__text">CISA - 4A - IS Operations</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

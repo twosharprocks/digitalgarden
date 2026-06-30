@@ -179,274 +179,16 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/script---cave-finder---vanuatu/">Script - Cave Finder - Vanuatu</a>
+          <a href="/posts/places-to-live/">Places to Live</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/personal/">personal</a>&nbsp;
             
-            #<a href="/tags/python/">python</a>&nbsp;
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">requests</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">json</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">time</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">API_KEY</span> <span class="o">=</span> <span class="s1">&#39;YOUR_GOOGLE_MAPS_API_KEY&#39;</span>  <span class="c1"># Replace with your actual API key</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Keywords including English and local/regional cave-related terms</span>
-</span></span><span class="line"><span class="cl"><span class="n">KEYWORDS</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;cave&#39;</span><span class="p">,</span> <span class="s1">&#39;hole&#39;</span><span class="p">,</span> <span class="s1">&#39;grotto&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Approximate central points covering Vanuatu&#39;s main islands (lat, long)</span>
-</span></span><span class="line"><span class="cl"><span class="n">TILE_LOCATIONS</span> <span class="o">=</span> <span class="p">[</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-15.3767,166.9592&#39;</span><span class="p">,</span>  <span class="c1"># Espiritu Santo</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-17.7404,168.3215&#39;</span><span class="p">,</span>  <span class="c1"># Efate (Port Vila)</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-19.5333,169.2833&#39;</span><span class="p">,</span>  <span class="c1"># Tanna Island</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-16.5167,167.4167&#39;</span><span class="p">,</span>  <span class="c1"># Malekula</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-13.8333,167.6667&#39;</span><span class="p">,</span>  <span class="c1"># Banks Islands</span>
-</span></span><span class="line"><span class="cl"><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">RADIUS</span> <span class="o">=</span> <span class="mi">50000</span>  <span class="c1"># Max for Google Maps Places API (50 km)</span>
-</span></span><span class="line"><span class="cl"><span class="n">OUTPUT_FILE</span> <span class="o">=</span> <span class="s1">&#39;vanuatu_caves.json&#39;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">search_places</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">location</span><span class="p">,</span> <span class="n">radius</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://maps.googleapis.com/maps/api/place/nearbysearch/json&#39;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">params</span> <span class="o">=</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;key&#39;</span><span class="p">:</span> <span class="n">API_KEY</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;keyword&#39;</span><span class="p">:</span> <span class="n">keyword</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;location&#39;</span><span class="p">:</span> <span class="n">location</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;radius&#39;</span><span class="p">:</span> <span class="n">radius</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">token</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">params</span><span class="p">[</span><span class="s1">&#39;pagetoken&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">token</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">collect_all_places</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">    <span class="n">all_results</span> <span class="o">=</span> <span class="p">[]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">location</span> <span class="ow">in</span> <span class="n">TILE_LOCATIONS</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">keyword</span> <span class="ow">in</span> <span class="n">KEYWORDS</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Searching &#39;</span><span class="si">{</span><span class="n">keyword</span><span class="si">}</span><span class="s2">&#39; around </span><span class="si">{</span><span class="n">location</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="n">data</span> <span class="o">=</span> <span class="n">search_places</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">location</span><span class="p">,</span> <span class="n">RADIUS</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="n">all_results</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;results&#39;</span><span class="p">,</span> <span class="p">[]))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="c1"># Handle pagination</span>
-</span></span><span class="line"><span class="cl">            <span class="k">while</span> <span class="s1">&#39;next_page_token&#39;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>  <span class="c1"># Required delay before next_page_token works</span>
-</span></span><span class="line"><span class="cl">                <span class="n">token</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;next_page_token&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">                <span class="n">data</span> <span class="o">=</span> <span class="n">search_places</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">location</span><span class="p">,</span> <span class="n">RADIUS</span><span class="p">,</span> <span class="n">token</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">                <span class="n">all_results</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;results&#39;</span><span class="p">,</span> <span class="p">[]))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1"># Deduplicate by place_id</span>
-</span></span><span class="line"><span class="cl">    <span class="n">deduped_results</span> <span class="o">=</span> <span class="p">{</span><span class="n">place</span><span class="p">[</span><span class="s1">&#39;place_id&#39;</span><span class="p">]:</span> <span class="n">place</span> <span class="k">for</span> <span class="n">place</span> <span class="ow">in</span> <span class="n">all_results</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">deduped_results</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">save_to_json</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">filename</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="n">places</span> <span class="o">=</span> <span class="n">collect_all_places</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">    <span class="n">save_to_json</span><span class="p">(</span><span class="n">places</span><span class="p">,</span> <span class="n">OUTPUT_FILE</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">Saved </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">places</span><span class="p">)</span><span class="si">}</span><span class="s2"> unique cave-related places to &#39;</span><span class="si">{</span><span class="n">OUTPUT_FILE</span><span class="si">}</span><span class="s2">&#39;&#34;</span><span class="p">)</span>
-</span></span></code></pre></div>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/script---cave-finder---vanuatu/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/script---python---search-replace/">Script - Python - search-replace</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/env python3</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">argparse</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">re</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">slugify</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;Replace spaces with dashes and strip leading/trailing spaces.&#34;&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">,</span> <span class="s2">&#34;-&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">process_file</span><span class="p">(</span><span class="n">path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="n">pattern</span><span class="p">:</span> <span class="n">re</span><span class="o">.</span><span class="n">Pattern</span><span class="p">,</span> <span class="n">repl_func</span><span class="p">,</span> <span class="n">dry_run</span><span class="p">:</span> <span class="nb">bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;
-</span></span></span><span class="line"><span class="cl"><span class="s2">
-</span></span></span><span class="line"><span class="cl"><span class="s2">    Returns number of replacements made in this file.
-</span></span></span><span class="line"><span class="cl"><span class="s2">
-</span></span></span><span class="line"><span class="cl"><span class="s2">    &#34;&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">text</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">read_text</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">updated</span><span class="p">,</span> <span class="n">n</span> <span class="o">=</span> <span class="n">pattern</span><span class="o">.</span><span class="n">subn</span><span class="p">(</span><span class="n">repl_func</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">dry_run</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">path</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">updated</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">n</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">description</span><span class="o">=</span><span class="s2">&#34;Replace [[text]] with #text (spaces become dashes) in markdown files.&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;text&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Search term inside [[...]] to replace (e.g., &#39;Bucket List&#39;).&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--root&#34;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s2">&#34;.&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Root folder to scan (default: current directory).&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--recursive&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Recurse into subfolders.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--dry-run&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Show what would change, but don&#39;t write files.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--ignore-case&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Match [[text]] case-insensitively.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">args</span> <span class="o">=</span> <span class="n">ap</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">root</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">root</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">pattern_glob</span> <span class="o">=</span> <span class="s2">&#34;**/*.md&#34;</span> <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">recursive</span> <span class="k">else</span> <span class="s2">&#34;*.md&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1"># Build regex that matches [[&lt;text&gt;]], allowing for internal spaces</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">flags</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span> <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">ignore_case</span> <span class="k">else</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">escaped</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">escape</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">needle</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&#34;\[\[\s*&#34;</span> <span class="o">+</span> <span class="n">escaped</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="sa">r</span><span class="s2">&#34;\ &#34;</span><span class="p">,</span> <span class="sa">r</span><span class="s2">&#34;\s+&#34;</span><span class="p">)</span> <span class="o">+</span> <span class="sa">r</span><span class="s2">&#34;\s*\]\]&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">pattern</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">needle</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="n">flags</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1"># Replacement function (keeps proper slug formatting)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">repl_func</span><span class="p">(</span><span class="k">match</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="s2">&#34;#&#34;</span> <span class="o">+</span> <span class="n">slugify</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">files</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="n">pattern_glob</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">total_files</span> <span class="o">=</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">changed_files</span> <span class="o">=</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">total_replacements</span> <span class="o">=</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="ow">not</span> <span class="n">f</span><span class="o">.</span><span class="n">is_file</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="k">continue</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">total_files</span> <span class="o">+=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">n</span> <span class="o">=</span> <span class="n">process_file</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">pattern</span><span class="o">=</span><span class="n">pattern</span><span class="p">,</span> <span class="n">repl_func</span><span class="o">=</span><span class="n">repl_func</span><span class="p">,</span> <span class="n">dry_run</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">dry_run</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">total_replacements</span> <span class="o">+=</span> <span class="n">n</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="n">changed_files</span> <span class="o">+=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[UPDATED</span><span class="si">{</span><span class="s1">&#39;&#39;</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">args</span><span class="o">.</span><span class="n">dry_run</span> <span class="k">else</span> <span class="s1">&#39; (dry)&#39;</span><span class="si">}</span><span class="s2">] </span><span class="si">{</span><span class="n">f</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> (+</span><span class="si">{</span><span class="n">n</span><span class="si">}</span><span class="s2">)&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[SKIPPED] </span><span class="si">{</span><span class="n">f</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">Done. Files scanned: </span><span class="si">{</span><span class="n">total_files</span><span class="si">}</span><span class="s2">. Files changed: </span><span class="si">{</span><span class="n">changed_files</span><span class="si">}</span><span class="s2">. Replacements: </span><span class="si">{</span><span class="n">total_replacements</span><span class="si">}</span><span class="s2">.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">dry_run</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;No files were written (dry run). Use without --dry-run to apply changes.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">main</span><span class="p">()</span>
-</span></span></code></pre></div>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/script---python---search-replace/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/scripts/">Scripts</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/script/">script</a>&nbsp;
+            #<a href="/tags/work/">work</a>&nbsp;
             
           </span>
         
@@ -457,50 +199,44 @@
         <div class="post-content">
           
             <hr>
+<h1 id="australia">Australia</h1>
+<h2 id="queensland">==Queensland==</h2>
 <ul>
-<li>Don&rsquo;t save scripts in Obsidian - copy their contents to a markdown file for sharing/editing</li>
-</ul>
-<hr>
-<h1 id="bash">Bash</h1>
+<li>==Brisbane==
 <ul>
-<li>ping-sweep.sh</li>
+<li>✅ Departure point for Dive Adventures</li>
+<li>✅ Support of family</li>
+<li>✅ Excellent cyber opportunities</li>
+<li>❌ Housing market is incredibly difficult</li>
+<li>❌ Challenge with Climate</li>
 </ul>
-<h1 id="powershell">Powershell</h1>
-<p>Active Directory</p>
+</li>
+</ul>
+<p>==Tasmania==</p>
 <ul>
-<li>AD-Audit.ps1</li>
-<li>AD-EmailToUser.ps1</li>
-<li>AD-GroupMembers.ps1</li>
-<li>AD-Misc.ps1</li>
-<li>AD-NewUser.ps1</li>
-<li>AD-Offboarding.ps1</li>
-<li>AD-OUMaintenance.ps1</li>
+<li>Off-grid forest cabin: ChatGPT - Tasmanian Forest Retreat</li>
 </ul>
-<p>Misc</p>
+<h1 id="overseas">Overseas</h1>
+<h1 id="digital-nomad-visa">Digital Nomad Visa</h1>
 <ul>
-<li>Archive-UserFiles.ps1</li>
-<li>ServiceDesk.ps1</li>
+<li>Visit/work in countries with caves</li>
+<li>Choose a time-zone that allows for diving</li>
 </ul>
-<h1 id="python">Python</h1>
-<ul>
-<li>pdftoterminal.py</li>
-<li>Script - redact.py</li>
-<li>Script - unredact.py</li>
-<li><a href="/posts/script---python---search-replace/">Script - Python - search-replace</a></li>
-</ul>
+<h2 id="greece">Greece</h2>
+<p>Picturesque island of Antikythera is said to be paying people to come — more than $500 per month for a whopping three years after they move in.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/scripts/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/places-to-live/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/serbia/">Serbia</a>
+          <a href="/posts/planning---nullarbor/">Planning - Nullarbor</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -509,11 +245,7 @@
             
             #<a href="/tags/diving/">diving</a>&nbsp;
             
-            #<a href="/tags/personal/">personal</a>&nbsp;
-            
-            #<a href="/tags/trips/">trips</a>&nbsp;
-            
-            #<a href="/tags/expeditions/">expeditions</a>&nbsp;
+            #<a href="/tags/caving/">caving</a>&nbsp;
             
           </span>
         
@@ -523,39 +255,79 @@
 
         <div class="post-content">
           
-            <h1 id="about">About</h1>
-<h1 id="caves">Caves</h1>
-<p>Vrelo Mlave, 44.1952, 21.7864,</p>
+            <h1 id="before-you-go">Before You Go</h1>
 <ul>
-<li>Powerful spring near Žagubica; explored to 80m depth.<br>
-Krupajsko Vrelo, 44.2175, 21.6984,</li>
-<li>Turquoise spring in Homolje region; dived to 123m depth.<br>
-Vrelo Banje, 43.6442, 21.7228,</li>
-<li>Submerged spring near Sokobanja; potential cave system.
-Resava Spring, 44.0708, 21.6215,</li>
-<li>Karst spring below Resavska Cave; possible sump connection.<br>
-Toplica Karst Resurgence, 43.2394, 21.3976,</li>
-<li>Intermittent spring in carbonate terrain; strong seasonal flow suggests underground river.</li>
+<li>To Do
+<ul>
+<li>Haircut/Nails</li>
 </ul>
-<h1 id="trips">Trips</h1>
+</li>
+<li>Set trip goals
 <ul>
-<li></li>
+<li>Sites to dive/survey</li>
+<li>Places to walk/check</li>
+<li>Books to read: Audible, Kindle, Physical</li>
+</ul>
+</li>
+<li>Ideas
+<ul>
+<li>Marshmallows</li>
+<li>Powerade</li>
+<li>No soup</li>
+<li>20x Coke Zero, 20x pear cider</li>
+<li>Biodegradable wet-wipes</li>
+</ul>
+</li>
+<li>Gear
+<ul>
+<li>Food
+<ul>
+<li>8x meals (Anaconda/Snowys)</li>
+<li>10x Noodles</li>
+<li>12x Eggs</li>
+<li>12x wraps</li>
+<li>2x sausage packs</li>
+<li>12x slices Bacon</li>
+<li>2x Avocados</li>
+<li>Coffee (2x bags)</li>
+<li>Snacks - Museli Bars, Jerky,</li>
+<li>Drinks - Cider, Rum, Coke Zero</li>
+<li>Other -  Tea/Coffee Bags</li>
+</ul>
+</li>
+<li>Fuel: Van, 5L, 20L</li>
+<li>Water: 20L, 10L, Camelbak, Water bottles, Camp Shower</li>
+<li>Garmin: Activate</li>
+<li>Starlink: Activate</li>
+<li>DPV: Charge &amp; Check Batteries</li>
+</ul>
+</li>
+</ul>
+<h2 id="transit">Transit</h2>
+<ul>
+<li>Adelaide - Pt Augusta = 3.5hrs, To Kimba = 6hrs, To Ceduna = 8.5hrs</li>
+<li>Adelaide - Port Lincoln = 7hr+4hrs to Ceduna = 11hrs (2.5hr detour)</li>
+<li>Ceduna - Nullabor Roadhouse = 3hrs, To Eucla = 5hrs, To Madura = 7hrs</li>
+</ul>
+<h2 id="timeline">Timeline</h2>
+<ul>
+<li>Shower every 2-3 days. Take a break from diving every 4-5 days.</li>
 </ul>
 <hr>
-<h1 id="references">References</h1>
+<p><strong>This reminds me of</strong>&hellip;</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/serbia/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/planning---nullarbor/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/seychelles/">Seychelles</a>
+          <a href="/posts/poland/">Poland</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -572,7 +344,7 @@ Toplica Karst Resurgence, 43.2394, 21.3976,</li>
 
         <div class="post-content">
           
-            <p>Seychelles is listed under <a href="/posts/africa/">Africa</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
+            <p>Poland is listed under <a href="/posts/europe/">Europe</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
 <h1 id="cave-regions">Cave Regions</h1>
 <ul>
 <li>No local cave regions listed yet.</li>
@@ -589,13 +361,7 @@ Toplica Karst Resurgence, 43.2394, 21.3976,</li>
 <hr>
 <h1 id="existing-notes">Existing Notes</h1>
 <h1 id="about">About</h1>
-<p>Mahé &amp; Praslin Karst Pockets</p>
-<ul>
-<li><strong>Why:</strong> Rare karst limestone pockets on granitic islands, overlooked due to small size.</li>
-<li><strong>Status:</strong> No formal cave exploration documented; pristine diving environment.</li>
-<li><strong>Potential:</strong> Tropical sinkhole or shallow cave diving in marine-influenced karst.</li>
-<li><strong>Best Season:</strong> May to October.</li>
-</ul>
+<p><a href="https://xray-mag.com/content/kowary-uranium-mine-poland">Kowary Uranium Mine</a></p>
 <h1 id="caves">Caves</h1>
 <ul>
 <li></li>
@@ -611,7 +377,108 @@ Toplica Karst Resurgence, 43.2394, 21.3976,</li>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/seychelles/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/poland/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/portugal/">Portugal</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>Portugal is listed under <a href="/posts/europe/">Europe</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
+<h1 id="cave-regions">Cave Regions</h1>
+<ul>
+<li>No local cave regions listed yet.</li>
+</ul>
+<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
+<ul>
+<li>See the linked cave regions above.</li>
+</ul>
+<h1 id="backlinks">Backlinks</h1>
+<ul>
+<li><a href="/posts/cave-regions/">Cave Regions</a></li>
+<li><a href="/posts/diving/">Diving</a></li>
+</ul>
+<hr>
+<h1 id="existing-notes">Existing Notes</h1>
+<p>Go in September, then stay for <a href="https://www.facebook.com/divingtalks">Diving Talks Conference</a></p>
+<h1 id="about">About</h1>
+<ul>
+<li><strong>Algarve coastal sea caves:</strong><br>
+Best between <strong>June and September</strong>, when visibility is highest and seas are calm. This is when marine traffic is highest too, so early or late in this period is best for quieter exploration.</li>
+<li><strong>Inland karst systems (e.g., Mira de Aire, Serras de Aire e Candeeiros):</strong><br>
+Access is best in <strong>spring and autumn (April–June, September–October)</strong> when groundwater levels are manageable and temperatures mild. Winter rains can flood systems, and summer can see restrictions due to fire risk or access limits.</li>
+<li><strong>Water Temperatures:</strong> Range from 14–26°C depending on depth and region, so a <strong>5–7mm wetsuit or drysuit</strong> is advised for inland cave systems, even in summer.</li>
+<li><strong>Local Festivals &amp; Holidays:</strong> Avoid major holiday periods (especially August) to reduce crowds and booking difficulties.</li>
+</ul>
+<h1 id="caves">Caves</h1>
+<p><a href="https://www.portugaldive.com/best-dives/spots/all/cave/all/all.html">List of Portugal Caves - portugaldive.com</a>
+<a href="https://cavedivingportugal.com/caves">Cavedivingportugal.com</a> - Anton Zhuchov&rsquo;s shop (<a href="https://www.youtube.com/@CaveDivingPortugal">YouTube Channel</a>)</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/portugal/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/puerto-rico/">Puerto Rico</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>Puerto Rico is listed under Central America in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
+<h1 id="cave-regions">Cave Regions</h1>
+<ul>
+<li>No local cave regions listed yet.</li>
+</ul>
+<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
+<ul>
+<li>See the linked cave regions above.</li>
+</ul>
+<h1 id="backlinks">Backlinks</h1>
+<ul>
+<li><a href="/posts/cave-regions/">Cave Regions</a></li>
+<li><a href="/posts/diving/">Diving</a></li>
+</ul>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/puerto-rico/">[Read more]</a>
           </div>
         
       </article>

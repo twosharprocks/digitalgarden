@@ -239,13 +239,9 @@
   </url><url>
     <loc>/posts/africa/</loc>
   </url><url>
-    <loc>/posts/ai/</loc>
+    <loc>/posts/ai---ideas/</loc>
   </url><url>
     <loc>/tags/ai-content/</loc>
-  </url><url>
-    <loc>/posts/meal---air-fryer-chicken-burritos/</loc>
-  </url><url>
-    <loc>/posts/meal---air-fryer-nachos/</loc>
   </url><url>
     <loc>/tags/air-fryer/</loc>
   </url><url>
@@ -267,21 +263,19 @@
   </url><url>
     <loc>/tags/appetizer/</loc>
   </url><url>
-    <loc>/posts/meal---arayes/</loc>
-  </url><url>
     <loc>/posts/arkansas/</loc>
   </url><url>
     <loc>/posts/armenia/</loc>
   </url><url>
     <loc>/posts/article---corra-lynn/</loc>
   </url><url>
-    <loc>/posts/article---the-crazy-wombat-tunnel/</loc>
-  </url><url>
     <loc>/posts/article---exploring-japans-hidden-rivers/</loc>
   </url><url>
     <loc>/posts/article---iddlebiddy-cave---soggy-wombats---draft/</loc>
   </url><url>
     <loc>/posts/article---making-sense-with-mnemo/</loc>
+  </url><url>
+    <loc>/posts/article---the-crazy-wombat-tunnel/</loc>
   </url><url>
     <loc>/posts/article---unveiling-the-crazy-wombat-tunnel/</loc>
   </url><url>
@@ -303,25 +297,17 @@
   </url><url>
     <loc>/tags/beef/</loc>
   </url><url>
-    <loc>/posts/meal---beef-bulgogi-burrito/</loc>
-  </url><url>
-    <loc>/posts/meal---beef-taco-rice-bowl/</loc>
-  </url><url>
     <loc>/posts/belgium/</loc>
   </url><url>
     <loc>/posts/belize/</loc>
   </url><url>
     <loc>/posts/bhutan/</loc>
   </url><url>
-    <loc>/posts/meal---big-mac-toastie/</loc>
-  </url><url>
     <loc>/posts/bikini-atoll/</loc>
   </url><url>
     <loc>/posts/blue-eye/</loc>
   </url><url>
     <loc>/posts/boh-yah-mines/</loc>
-  </url><url>
-    <loc>/posts/meal---bolognese-tacos/</loc>
   </url><url>
     <loc>/posts/books/</loc>
   </url><url>
@@ -348,8 +334,6 @@
     <loc>/tags/burger/</loc>
   </url><url>
     <loc>/posts/burnabbie-cave---6n/</loc>
-  </url><url>
-    <loc>/posts/notes---burning-down-cities/</loc>
   </url><url>
     <loc>/tags/burrito/</loc>
   </url><url>
@@ -385,51 +369,21 @@
   </url><url>
     <loc>/posts/chatgpt---dinaric-karst-belt-expedition/</loc>
   </url><url>
-    <loc>/posts/oscp---cheat-sheet---ad/</loc>
-  </url><url>
     <loc>/posts/cheat-sheet---cryptography/</loc>
   </url><url>
-    <loc>/posts/cheat-sheet---oscp-linux/</loc>
+    <loc>/posts/cheat-sheet---linux/</loc>
   </url><url>
     <loc>/posts/cheat-sheet---networking/</loc>
-  </url><url>
-    <loc>/posts/oscp---cheat-sheet---windows/</loc>
-  </url><url>
-    <loc>/posts/cheat-sheet---linux/</loc>
   </url><url>
     <loc>/posts/cheat-sheet---windows/</loc>
   </url><url>
     <loc>/tags/cheese/</loc>
   </url><url>
-    <loc>/posts/meal---cheese-pull-apart-bread/</loc>
-  </url><url>
-    <loc>/posts/meal---cheeseburger-bowls/</loc>
-  </url><url>
-    <loc>/posts/meal---cheesy-bacon-jalape%C3%B1o-popper-wrap/</loc>
-  </url><url>
     <loc>/tags/chicken/</loc>
-  </url><url>
-    <loc>/posts/meal---chicken--chorizo-one-pan-rice/</loc>
-  </url><url>
-    <loc>/posts/meal---chicken-alfredo-tortellini/</loc>
-  </url><url>
-    <loc>/posts/meal---chicken-bacon-ranch-burrito/</loc>
-  </url><url>
-    <loc>/posts/meal---chicken-gnocchi-soup/</loc>
-  </url><url>
-    <loc>/posts/meal---chicken-parm-baked-wraps/</loc>
-  </url><url>
-    <loc>/posts/meal---chicken-pesto-flatbread/</loc>
   </url><url>
     <loc>/tags/chili/</loc>
   </url><url>
-    <loc>/posts/meal---chili-garlic-noodles/</loc>
-  </url><url>
-    <loc>/posts/meal---chili-mac-and-cheese/</loc>
-  </url><url>
     <loc>/posts/china/</loc>
-  </url><url>
-    <loc>/posts/meal---chipotle-beef--crispy-chorizo-gnocchi/</loc>
   </url><url>
     <loc>/tags/chocolate/</loc>
   </url><url>
@@ -437,13 +391,35 @@
   </url><url>
     <loc>/posts/choptima-ccr/</loc>
   </url><url>
-    <loc>/tags/chorizo/</loc>
+    <loc>/posts/choptima-pre-dive/</loc>
   </url><url>
-    <loc>/posts/meal---chorizo-smash-breakfast-tacos/</loc>
+    <loc>/tags/chorizo/</loc>
   </url><url>
     <loc>/posts/christmas-island/</loc>
   </url><url>
+    <loc>/tags/cisa/</loc>
+  </url><url>
     <loc>/posts/cisa/</loc>
+  </url><url>
+    <loc>/posts/cisa---1a---is-audit-process-planning/</loc>
+  </url><url>
+    <loc>/posts/cisa---1b---is-audit-process-execution/</loc>
+  </url><url>
+    <loc>/posts/cisa---2a---governance/</loc>
+  </url><url>
+    <loc>/posts/cisa---2b---it-management/</loc>
+  </url><url>
+    <loc>/posts/cisa---3a---is-acquisition-and-development/</loc>
+  </url><url>
+    <loc>/posts/cisa---3b---is-implementation/</loc>
+  </url><url>
+    <loc>/posts/cisa---4a---is-operations/</loc>
+  </url><url>
+    <loc>/posts/cisa---4b---business-resilience/</loc>
+  </url><url>
+    <loc>/posts/cisa---5a---info-asset-security-and-control/</loc>
+  </url><url>
+    <loc>/posts/cisa---5b---security-event-management/</loc>
   </url><url>
     <loc>/tags/cissp/</loc>
   </url><url>
@@ -475,15 +451,11 @@
   </url><url>
     <loc>/tags/creamy/</loc>
   </url><url>
-    <loc>/posts/meal---creamy-garlic-chicken-pasta/</loc>
-  </url><url>
     <loc>/tags/creativity/</loc>
   </url><url>
     <loc>/posts/crete/</loc>
   </url><url>
     <loc>/posts/crisc/</loc>
-  </url><url>
-    <loc>/posts/meal---crispy-chicken-loaded-fries/</loc>
   </url><url>
     <loc>/posts/croatia/</loc>
   </url><url>
@@ -493,13 +465,13 @@
   </url><url>
     <loc>/posts/cueva-del-agua/</loc>
   </url><url>
-    <loc>/posts/cyber-security---job-domains--interview-prep/</loc>
-  </url><url>
     <loc>/posts/cyber---training--certifications/</loc>
   </url><url>
     <loc>/posts/cyber-glossary/</loc>
   </url><url>
     <loc>/posts/cyber-security/</loc>
+  </url><url>
+    <loc>/posts/cyber-security---job-domains--interview-prep/</loc>
   </url><url>
     <loc>/posts/cyber-security---resources/</loc>
   </url><url>
@@ -567,8 +539,6 @@
   </url><url>
     <loc>/tags/feta/</loc>
   </url><url>
-    <loc>/posts/meal---feta-fried-egg-tortilla/</loc>
-  </url><url>
     <loc>/posts/finland/</loc>
   </url><url>
     <loc>/tags/flatbread/</loc>
@@ -585,15 +555,9 @@
   </url><url>
     <loc>/tags/fries/</loc>
   </url><url>
-    <loc>/posts/meal---garlic-butter-jalape%C3%B1o-popper-croissants/</loc>
-  </url><url>
-    <loc>/posts/meal---garlic-honey-bbq-pulled-chicken-tacos/</loc>
-  </url><url>
     <loc>/posts/georgia/</loc>
   </url><url>
     <loc>/posts/germany/</loc>
-  </url><url>
-    <loc>/posts/meal---giant-chicken-poppers/</loc>
   </url><url>
     <loc>/tags/gnocchi/</loc>
   </url><url>
@@ -609,8 +573,6 @@
   </url><url>
     <loc>/posts/greenland/</loc>
   </url><url>
-    <loc>/posts/meal---grilled-cheese-burrito/</loc>
-  </url><url>
     <loc>/posts/gua-la-humbe/</loc>
   </url><url>
     <loc>/posts/gua-la-pahia/</loc>
@@ -625,47 +587,15 @@
   </url><url>
     <loc>/tags/hash/</loc>
   </url><url>
-    <loc>/posts/meal---hash-brown-feta-bites/</loc>
-  </url><url>
-    <loc>/posts/meal---hash-brown-halloumi--chorizo-hash/</loc>
-  </url><url>
     <loc>/tags/hash-brown/</loc>
   </url><url>
-    <loc>/posts/meal---healthy-chicken-nuggets/</loc>
-  </url><url>
     <loc>/posts/hells-hole---5l40/</loc>
-  </url><url>
-    <loc>/posts/meal---high-protein-breakfast-bagel/</loc>
-  </url><url>
-    <loc>/posts/meal---high-protein-breakfast-burritos/</loc>
-  </url><url>
-    <loc>/posts/meal---high-protein-chicken-katsu-fried-rice/</loc>
-  </url><url>
-    <loc>/posts/meal---high-protein-chicken-sausage-breakfast-burritos/</loc>
-  </url><url>
-    <loc>/posts/meal---high-protein-crispy-honey-garlic-chicken-fried-rice/</loc>
-  </url><url>
-    <loc>/posts/meal---honey-garlic-chicken-fried-rice/</loc>
-  </url><url>
-    <loc>/posts/meal---high-protein-grilled-cheese-burritos/</loc>
-  </url><url>
-    <loc>/posts/meal---high-protein-honey-bbq-chicken-mac--cheese/</loc>
-  </url><url>
-    <loc>/posts/meal---high-protein-hot-honey-popcorn-chicken/</loc>
-  </url><url>
-    <loc>/posts/meal---high-protein-kfc-chicken-bowl/</loc>
-  </url><url>
-    <loc>/posts/meal---high-protein-mexican-bowl/</loc>
   </url><url>
     <loc>/tags/high-protein/</loc>
   </url><url>
     <loc>/posts/honduras/</loc>
   </url><url>
     <loc>/posts/honey-badger---natures-most-fearless-animal-alive/</loc>
-  </url><url>
-    <loc>/posts/meal---honey-bbq-chicken-mac--cheese/</loc>
-  </url><url>
-    <loc>/posts/meal---honey-soy-chicken-stir-fry/</loc>
   </url><url>
     <loc>/posts/horse--cart-sinkhole---5l129/</loc>
   </url><url>
@@ -731,8 +661,6 @@
   </url><url>
     <loc>/posts/laos/</loc>
   </url><url>
-    <loc>/posts/meal---lasagne-burritos/</loc>
-  </url><url>
     <loc>/posts/laulawi/</loc>
   </url><url>
     <loc>/posts/lebanon/</loc>
@@ -740,8 +668,6 @@
     <loc>/posts/limekiln-mccavity-cave/</loc>
   </url><url>
     <loc>/posts/little-blue-lake---5l9/</loc>
-  </url><url>
-    <loc>/posts/meal---loaded-breakfast-wrap/</loc>
   </url><url>
     <loc>/posts/long-solo/</loc>
   </url><url>
@@ -772,6 +698,122 @@
     <loc>/posts/mckays-shaft---5l125---closed/</loc>
   </url><url>
     <loc>/tags/meal/</loc>
+  </url><url>
+    <loc>/posts/meal---air-fryer-chicken-burritos/</loc>
+  </url><url>
+    <loc>/posts/meal---air-fryer-nachos/</loc>
+  </url><url>
+    <loc>/posts/meal---arayes/</loc>
+  </url><url>
+    <loc>/posts/meal---beef-bulgogi-burrito/</loc>
+  </url><url>
+    <loc>/posts/meal---beef-taco-rice-bowl/</loc>
+  </url><url>
+    <loc>/posts/meal---big-mac-toastie/</loc>
+  </url><url>
+    <loc>/posts/meal---bolognese-tacos/</loc>
+  </url><url>
+    <loc>/posts/meal---cheese-pull-apart-bread/</loc>
+  </url><url>
+    <loc>/posts/meal---cheeseburger-bowls/</loc>
+  </url><url>
+    <loc>/posts/meal---cheesy-bacon-jalape%C3%B1o-popper-wrap/</loc>
+  </url><url>
+    <loc>/posts/meal---chicken--chorizo-one-pan-rice/</loc>
+  </url><url>
+    <loc>/posts/meal---chicken-alfredo-tortellini/</loc>
+  </url><url>
+    <loc>/posts/meal---chicken-bacon-ranch-burrito/</loc>
+  </url><url>
+    <loc>/posts/meal---chicken-gnocchi-soup/</loc>
+  </url><url>
+    <loc>/posts/meal---chicken-parm-baked-wraps/</loc>
+  </url><url>
+    <loc>/posts/meal---chicken-pesto-flatbread/</loc>
+  </url><url>
+    <loc>/posts/meal---chili-garlic-noodles/</loc>
+  </url><url>
+    <loc>/posts/meal---chili-mac-and-cheese/</loc>
+  </url><url>
+    <loc>/posts/meal---chipotle-beef--crispy-chorizo-gnocchi/</loc>
+  </url><url>
+    <loc>/posts/meal---chorizo-smash-breakfast-tacos/</loc>
+  </url><url>
+    <loc>/posts/meal---creamy-garlic-chicken-pasta/</loc>
+  </url><url>
+    <loc>/posts/meal---crispy-chicken-loaded-fries/</loc>
+  </url><url>
+    <loc>/posts/meal---feta-fried-egg-tortilla/</loc>
+  </url><url>
+    <loc>/posts/meal---garlic-butter-jalape%C3%B1o-popper-croissants/</loc>
+  </url><url>
+    <loc>/posts/meal---garlic-honey-bbq-pulled-chicken-tacos/</loc>
+  </url><url>
+    <loc>/posts/meal---giant-chicken-poppers/</loc>
+  </url><url>
+    <loc>/posts/meal---grilled-cheese-burrito/</loc>
+  </url><url>
+    <loc>/posts/meal---hash-brown-feta-bites/</loc>
+  </url><url>
+    <loc>/posts/meal---hash-brown-halloumi--chorizo-hash/</loc>
+  </url><url>
+    <loc>/posts/meal---healthy-chicken-nuggets/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-breakfast-bagel/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-breakfast-burritos/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-chicken-katsu-fried-rice/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-chicken-sausage-breakfast-burritos/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-crispy-honey-garlic-chicken-fried-rice/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-grilled-cheese-burritos/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-honey-bbq-chicken-mac--cheese/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-hot-honey-popcorn-chicken/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-kfc-chicken-bowl/</loc>
+  </url><url>
+    <loc>/posts/meal---high-protein-mexican-bowl/</loc>
+  </url><url>
+    <loc>/posts/meal---honey-bbq-chicken-mac--cheese/</loc>
+  </url><url>
+    <loc>/posts/meal---honey-garlic-chicken-fried-rice/</loc>
+  </url><url>
+    <loc>/posts/meal---honey-soy-chicken-stir-fry/</loc>
+  </url><url>
+    <loc>/posts/meal---lasagne-burritos/</loc>
+  </url><url>
+    <loc>/posts/meal---loaded-breakfast-wrap/</loc>
+  </url><url>
+    <loc>/posts/meal---nacho-beef-folded-wrap/</loc>
+  </url><url>
+    <loc>/posts/meal---nacho-cheese-beef-burritos/</loc>
+  </url><url>
+    <loc>/posts/meal---no-bake-chocolate-chip-cookie-dough-bars/</loc>
+  </url><url>
+    <loc>/posts/meal---paprika-chicken--chorizo-gnocchi/</loc>
+  </url><url>
+    <loc>/posts/meal---pepper-jack-chicken-burrito/</loc>
+  </url><url>
+    <loc>/posts/meal---pizza-cupcakes/</loc>
+  </url><url>
+    <loc>/posts/meal---smash-dumpling-tacos/</loc>
+  </url><url>
+    <loc>/posts/meal---smashed-potato-cheeseburger-bowls/</loc>
+  </url><url>
+    <loc>/posts/meal---smokey-bacon-gnocchi/</loc>
+  </url><url>
+    <loc>/posts/meal---spicy-chicken-rice-bowl/</loc>
+  </url><url>
+    <loc>/posts/meal---spicy-peanut-dumplings/</loc>
+  </url><url>
+    <loc>/posts/meal---spicy-steak--cheese-burritos/</loc>
+  </url><url>
+    <loc>/posts/meal---stuffed-crust-pizza/</loc>
   </url><url>
     <loc>/posts/meal-ideas/</loc>
   </url><url>
@@ -899,10 +941,6 @@
   </url><url>
     <loc>/posts/murra-el-elevyn---6n47/</loc>
   </url><url>
-    <loc>/posts/meal---nacho-beef-folded-wrap/</loc>
-  </url><url>
-    <loc>/posts/meal---nacho-cheese-beef-burritos/</loc>
-  </url><url>
     <loc>/tags/nachos/</loc>
   </url><url>
     <loc>/posts/nettlebed---5l290/</loc>
@@ -916,8 +954,6 @@
     <loc>/posts/nigeria/</loc>
   </url><url>
     <loc>/tags/no-bake/</loc>
-  </url><url>
-    <loc>/posts/meal---no-bake-chocolate-chip-cookie-dough-bars/</loc>
   </url><url>
     <loc>/posts/nohoch/</loc>
   </url><url>
@@ -936,6 +972,8 @@
     <loc>/posts/notes---asd-annual-cyber-threat-report-2023-2024/</loc>
   </url><url>
     <loc>/posts/notes---brief-history--ethos-of-the-digital-garden/</loc>
+  </url><url>
+    <loc>/posts/notes---burning-down-cities/</loc>
   </url><url>
     <loc>/posts/notes---i-took-the-worlds-hardest-cybersecurity-exam-cissp/</loc>
   </url><url>
@@ -981,7 +1019,13 @@
   </url><url>
     <loc>/posts/oscp---boolean---linux/</loc>
   </url><url>
+    <loc>/posts/oscp---cheat-sheet---active-directory/</loc>
+  </url><url>
     <loc>/posts/oscp---cheat-sheet---core/</loc>
+  </url><url>
+    <loc>/posts/oscp---cheat-sheet---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---cheat-sheet---windows/</loc>
   </url><url>
     <loc>/posts/oscp---clue---linux/</loc>
   </url><url>
@@ -990,6 +1034,8 @@
     <loc>/posts/oscp---codo---linux/</loc>
   </url><url>
     <loc>/posts/oscp---crane---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---exam-prep/</loc>
   </url><url>
     <loc>/posts/oscp---exfiltrated---linux/</loc>
   </url><url>
@@ -1045,8 +1091,6 @@
   </url><url>
     <loc>/posts/oscp---windows/</loc>
   </url><url>
-    <loc>/posts/oscp-exam-prep/</loc>
-  </url><url>
     <loc>/posts/outside-magazine/</loc>
   </url><url>
     <loc>/tags/oven/</loc>
@@ -1056,8 +1100,6 @@
     <loc>/posts/palau/</loc>
   </url><url>
     <loc>/posts/pannikin-plains---6n49/</loc>
-  </url><url>
-    <loc>/posts/meal---paprika-chicken--chorizo-gnocchi/</loc>
   </url><url>
     <loc>/posts/papua-new-guinea/</loc>
   </url><url>
@@ -1078,8 +1120,6 @@
     <loc>/tags/peanut/</loc>
   </url><url>
     <loc>/posts/pentesting/</loc>
-  </url><url>
-    <loc>/posts/meal---pepper-jack-chicken-burrito/</loc>
   </url><url>
     <loc>/posts/permandian-moko/</loc>
   </url><url>
@@ -1108,8 +1148,6 @@
     <loc>/posts/picanninnie-ponds---5l72---closed/</loc>
   </url><url>
     <loc>/tags/pizza/</loc>
-  </url><url>
-    <loc>/posts/meal---pizza-cupcakes/</loc>
   </url><url>
     <loc>/posts/places-to-live/</loc>
   </url><url>
@@ -1189,12 +1227,6 @@
   </url><url>
     <loc>/posts/slovenia/</loc>
   </url><url>
-    <loc>/posts/meal---smash-dumpling-tacos/</loc>
-  </url><url>
-    <loc>/posts/meal---smashed-potato-cheeseburger-bowls/</loc>
-  </url><url>
-    <loc>/posts/meal---smokey-bacon-gnocchi/</loc>
-  </url><url>
     <loc>/tags/snack/</loc>
   </url><url>
     <loc>/posts/solomon-islands/</loc>
@@ -1217,12 +1249,6 @@
   </url><url>
     <loc>/tags/spicy/</loc>
   </url><url>
-    <loc>/posts/meal---spicy-chicken-rice-bowl/</loc>
-  </url><url>
-    <loc>/posts/meal---spicy-peanut-dumplings/</loc>
-  </url><url>
-    <loc>/posts/meal---spicy-steak--cheese-burritos/</loc>
-  </url><url>
     <loc>/posts/sri-lanka/</loc>
   </url><url>
     <loc>/posts/stafford-road-cave---5l174/</loc>
@@ -1234,8 +1260,6 @@
     <loc>/tags/stovetop/</loc>
   </url><url>
     <loc>/tags/study/</loc>
-  </url><url>
-    <loc>/posts/meal---stuffed-crust-pizza/</loc>
   </url><url>
     <loc>/posts/sulawesi/</loc>
   </url><url>
@@ -1254,8 +1278,6 @@
     <loc>/posts/tasmania/</loc>
   </url><url>
     <loc>/posts/tea-tree-sinkhole---5l128/</loc>
-  </url><url>
-    <loc>/posts/choptima-pre-dive/</loc>
   </url><url>
     <loc>/posts/ten-eighty-sinkhole---5l42---closed/</loc>
   </url><url>
@@ -1309,13 +1331,13 @@
   </url><url>
     <loc>/posts/trip---antarctica---2025-nov/</loc>
   </url><url>
-    <loc>/posts/trip---murra-cocklebiddy---2026-aug/</loc>
-  </url><url>
     <loc>/posts/trip---japan---2026-may/</loc>
   </url><url>
     <loc>/posts/trip---mt-gambier---2025-april/</loc>
   </url><url>
     <loc>/posts/trip---murra-el-elevyn---2025-oct/</loc>
+  </url><url>
+    <loc>/posts/trip---murra-cocklebiddy---2026-aug/</loc>
   </url><url>
     <loc>/posts/trip---sulawesi---2025-aug/</loc>
   </url><url>

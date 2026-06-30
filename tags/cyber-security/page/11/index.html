@@ -180,7 +180,7 @@
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---kevin---windows-dnf/">OSCP - Kevin - Windows (DNF)</a>
+          <a href="/posts/oscp---extplorer---linux/">OSCP - Extplorer - Linux</a>
         </h1>
         <div class="post-meta"></div>
 
@@ -197,22 +197,22 @@
 
         <div class="post-content">
           
-            <h1 id="kevin">Kevin</h1>
-<p>I&rsquo;ve checked all the walkthroughs, tried countless variations of the easily available exploits, even reimaged my entire Kali VM trying to make this script work&hellip; and nothing I&rsquo;ve done has caught a reverse shell.</p>
-<p>Honestly not sure what else to do, other than to write this off as a learning experience (?) and move on. If I get a buffer overflow exploit in the exam (which I think they&rsquo;ve stopped now anyway) I&rsquo;ll just move the fuck on because nothing I&rsquo;ve done on this box or the last one has really made any sense.</p>
+            <h1 id="extplorer">Extplorer</h1>
+<p>This was simultaneously the easiest and most frustrating box yet. Identifying and accessing <code>filemanager</code> was ridiculously easy, and uploading a reverse shell php and catching the shell <em>seemed</em> easy initially. Even finding credentials for <code>dora</code> was easy once I started looking through all the info that was available in the <code>filemanager</code> folder.</p>
+<p>What I wasn&rsquo;t expecting was to spend 2 hours trying to figure out why I couldn&rsquo;t upgrade the dumb shell I&rsquo;d caught to a full shell, even though I <em><strong>knew</strong></em> the target was running <code>python3</code>.</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/oscp---kevin---windows-dnf/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---extplorer---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---lavita---linux/">OSCP - LaVita - Linux</a>
+          <a href="/posts/oscp---fired---linux/">OSCP - Fired - Linux</a>
         </h1>
         <div class="post-meta"></div>
 
@@ -229,22 +229,21 @@
 
         <div class="post-content">
           
-            <h1 id="lavita">LaVita</h1>
-<p>This box started out really well with plenty of through enumeration to identify the vulnerability, but I fell down trying to gain initial access with the exploits. I tried several, and persisted with the most well developed exploit thinking it would be the way forward.</p>
-<p>The issue was not realising the exploit would stop working after the first success, so after testing it with the <code>uname -a</code> or <code>id</code> commands, it would then not work when I tried to repeat with a reverse shell command. it took awhile to realise that there were 21 chains available, and so there was no need to keep using the &ldquo;last working&rdquo; chain, because it was only working once anyway. I also stopped trying to test with <code>id</code> and just threw the reverse shell command in straight away - I already knew the exploit worked <em>sometimes</em> so may as well try to establish a shell each time I tried.</p>
+            <h1 id="fired">Fired</h1>
+<p>This box was relatively straightforward until the very last step, where I simply couldn&rsquo;t find credentials to move forward. I needed a bit of guidance finding how to setup the admin panel to establish a reverse shell, but all the details were on an exploit page when I went looking. The walkthrough support for the box itself was very limited (or atleast I could only find a single walkthrough for it) and the only major barrier was the very final step - finding a script file in the <code>openfire</code> directory that had cleartext root credentials.</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/oscp---lavita---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---fired---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---law---linux/">OSCP - Law - Linux</a>
+          <a href="/posts/oscp---flu---linux/">OSCP - Flu - Linux</a>
         </h1>
         <div class="post-meta"></div>
 
@@ -261,22 +260,22 @@
 
         <div class="post-content">
           
-            <h1 id="law">Law</h1>
-<p>This one was another absolute slog. Identifying exploits for htmLawed v1.2.5 was very straightforward, and I got a little excited when I saw an RCE exploit had been found this year (2024).</p>
-<p>Running the exploit didn&rsquo;t work though, so I started researching the vulnerability further while trying to avoid the walkthroughs. I found the <a href="https://mayfly277.github.io/posts/GLPI-htmlawed-CVE-2022-35914/">Mayfly article on the CVE</a> which added a lot of extra context, and checking the walkthrough helped me realise why the Burpsuite request wasn&rsquo;t working properly (the request was to a non-existent page, and needed to be changed to <code>/</code>).</p>
+            <h1 id="flu">Flu</h1>
+<p>This is the first box I can confidently say I did <em><strong>NOT</strong></em> look at a walkthrough for any help on! I&rsquo;ve included one in the details above, but it remained as a background tab the entire way through this - massive confidence boost to know I can do this without needing to follow someone else&rsquo;s footsteps!</p>
+<p>Seeing Confluence when I checked the html port was a big confidence booster too, as I&rsquo;ve worked with it a lot already and knew there were plenty of vulnerabilities and exploit available for older versions. Getting RCE was incredibly simple, and then it was simply a case of enumerating the target to find a privilege escalation vector.</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/oscp---law---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---flu---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---levram---linux/">OSCP - Levram - Linux</a>
+          <a href="/posts/oscp---htb---active-directory/">OSCP - HTB - Active Directory</a>
         </h1>
         <div class="post-meta"></div>
 
@@ -293,45 +292,32 @@
 
         <div class="post-content">
           
-            <h1 id="levram">Levram</h1>
-<h1 id="resolution-summary">Resolution summary</h1>
-<ul>
-<li>Nmap to identify services on port 22 and 8000</li>
-<li>Password guessed admin credentials to Gerapy platform</li>
-<li>Used exploit for CVE-2021-243857 to achieve shell</li>
-<li>Upgraded shell by running bash script on target</li>
-<li>Identified vulnerable python setuid configuration</li>
-<li>Used GTFObins to find python command providing privilege escalation to root</li>
-</ul>
-<h2 id="improved-skills">Improved skills</h2>
-<ul>
-<li>Linux Privilege Escalation</li>
-<li>Establishing Full TTYs</li>
-</ul>
-<h2 id="used-tools">Used tools</h2>
-<ul>
-<li>nmap</li>
-<li>python</li>
-<li>linpeas.sh</li>
-<li>gerapy</li>
-<li>GTFObins</li>
-</ul>
+            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
 <hr>
-<h1 id="information-gathering">Information Gathering</h1>
-<p>Scanned all TCP ports:</p>
+<h1 id="tj-null">TJ Null</h1>
+<ul>
+<li><input disabled="" type="checkbox"> Active (Enterprise)</li>
+<li><input disabled="" type="checkbox"> Forest</li>
+<li><input disabled="" type="checkbox"> Sauna</li>
+<li><input disabled="" type="checkbox"> Monteverde</li>
+<li><input disabled="" type="checkbox"> Timelapse</li>
+<li><input disabled="" type="checkbox"> Return (Enterprise)</li>
+<li><input disabled="" type="checkbox"> Cascade</li>
+<li><input disabled="" type="checkbox"> Flight</li>
+</ul>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/oscp---levram---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---htb---active-directory/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---ochima---linux/">OSCP - Ochima - Linux</a>
+          <a href="/posts/oscp---htb---linux/">OSCP - HTB - Linux</a>
         </h1>
         <div class="post-meta"></div>
 
@@ -348,15 +334,34 @@
 
         <div class="post-content">
           
-            <h1 id="ochima">Ochima</h1>
-<p>This one was an exercise in frustration purely because the exploit didn&rsquo;t seem to work on the port I wanted it to (<code>4444</code>) but <em>would</em> work on port <code>80</code>!?</p>
-<p>I tired all sorts of things to get it work, the walkthroughs didn&rsquo;t explain why they used port 80, and the exploit itself indicated it&rsquo;d work on whatever I picked&hellip; but the moment I popped port 80 into the exploit&rsquo;s reverse shell parameters I got an incoming connection. So an important reminder that if a reverse shell isn&rsquo;t working on port <code>4444</code> then try the same thing but with a listener on port <code>80</code> instead</p>
+            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
+<hr>
+<h1 id="tj-null">TJ Null</h1>
+<ul>
+<li><input disabled="" type="checkbox"> Busqueda</li>
+<li><input disabled="" type="checkbox"> UpDown</li>
+<li><input disabled="" type="checkbox"> Sau</li>
+<li><input disabled="" type="checkbox"> Help</li>
+<li><input disabled="" type="checkbox"> Broker</li>
+<li><input disabled="" type="checkbox"> Intentions</li>
+<li><input disabled="" type="checkbox"> Soccer</li>
+<li><input disabled="" type="checkbox"> Keeper</li>
+<li><input disabled="" type="checkbox"> Monitored</li>
+<li><input disabled="" type="checkbox"> Boardlight</li>
+<li><input disabled="" type="checkbox"> Networked</li>
+<li><input disabled="" type="checkbox"> CozyHosting</li>
+<li><input disabled="" type="checkbox"> Editorial</li>
+<li><input disabled="" type="checkbox"> Help</li>
+<li><input disabled="" type="checkbox"> Magic</li>
+<li><input disabled="" type="checkbox"> Pandora</li>
+<li><input disabled="" type="checkbox"> Usage</li>
+</ul>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/oscp---ochima---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---htb---linux/">[Read more]</a>
           </div>
         
       </article>
