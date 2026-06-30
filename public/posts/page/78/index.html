@@ -179,7 +179,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---htb---windows/">OSCP - HTB - Windows</a>
+          <a href="/posts/oscp---boolean---linux/">OSCP - Boolean - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -196,35 +196,99 @@
 
         <div class="post-content">
           
-            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
-<hr>
-<h1 id="tj-null">TJ Null</h1>
+            <h1 id="boolean">Boolean</h1>
+<p>This was an absolute slog, and even the walkthroughs didn&rsquo;t help at the end. It was good to identify that BurpSuite would be used early on, but picking up and changing the &ldquo;confirmed&rdquo; element was tricky. Having the PHP reverse shell not work was incredibly frustrating too, but it was obvious something else would be needed when GoBuster wasn&rsquo;t showing where the uploaded files were being stored (obviously download only and not directly web accessible).</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---boolean---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---cheat-sheet---core/">OSCP - Cheat Sheet - Core</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="pre-exam">Pre-Exam</h1>
 <ul>
-<li><input disabled="" type="checkbox"> Escape</li>
-<li><input disabled="" type="checkbox"> Servmon - Enterprise</li>
-<li><input disabled="" type="checkbox"> Support</li>
-<li><input disabled="" type="checkbox"> StreamIO</li>
-<li><input disabled="" type="checkbox"> Blackfield</li>
-<li><input disabled="" type="checkbox"> Intelligence</li>
-<li><input disabled="" type="checkbox"> Jeeves</li>
-<li><input disabled="" type="checkbox"> Manager</li>
-<li><input disabled="" type="checkbox"> Access</li>
-<li><input disabled="" type="checkbox"> Aero</li>
-<li><input disabled="" type="checkbox"> Mailing</li>
+<li>Download the resources from the dedicated lab clients;</li>
+<li>Document your report as you go during the exam</li>
+<li>Do a practice exam!</li>
 </ul>
+<h1 id="setup">Setup</h1>
+<p>Create directories: <code>mkdir dc host1 host2</code></p>
+<ul>
+<li>Create sub directories: <code>mkdir enu loot files exploits</code>
+Setup hostnames: <code>sudo nano /etc/hosts</code> then add host/kali IPs</li>
+</ul>
+<h1 id="quick-reference">Quick Reference</h1>
+<ul>
+<li><code>sudo nmap -T5 -p- -v host1 -oN enu/host1.nmap</code></li>
+<li><code>sudo nmap -T5 -p80,443,1978-1980 -sCV -v host1 -oN enu/nmap-services.nmap</code></li>
+<li><code>gobuster dir -u http://host1 -w /usr/share/dirb/wordlists/common.txt | tee gobuster-p80.nmap</code></li>
+<li><code>usr/share/wordlists/rockyou.txt</code></li>
+<li><code>usr/share/wordlists/SecLists</code></li>
+<li><code>nc -nvlp 4444</code> <a href="https://gist.github.com/cmbaughman/c91f41ba7b2cf71106f1">NetCat Cheat Sheet</a></li>
+<li><a href="https://www.revshells.com/">https://www.revshells.com/</a></li>
+</ul>
+<h1 id="easy-wins">Easy wins</h1>
+<ul>
+<li>Linux: Capabilities, SUIDs/GUIDs, cronjobs, modifiable binaries running as root, out-of-date binaries, known-binary exploits, history files.</li>
+<li>Windows: Weak service permissions, Unquoted service paths, outdated binaries, scheduled tasks, custom</li>
+<li>Take breaks, and set timers: If you&rsquo;re not getting anywhere for more than half an hour, take a break. Get some fresh air, and you&rsquo;ll almost definitely think of a new idea.
+<ul>
+<li>Similarly, celebrate when you make progress! If you finish a machine its a good time for a rest</li>
+</ul>
+</li>
+<li>Regularly review the information you have for a machine - key services, known version numbers, and any known credentials.</li>
+<li>Document as you go - take screenshots of key moments in the machine, and of course when you read a proof file.</li>
+<li>Metasploit - pick the machine that you think you have the least chance of exploiting manually</li>
+</ul>
+<h1 id="general-tips">General Tips</h1>
+<ul>
+<li>xfreerdp can pass the hash to login</li>
+<li><code>runas /user:domain\username cmd.exe</code> (or rdp and open CMD as admin)</li>
+<li>Use the Kali directory: <strong>/usr/share/webshells</strong> for all your payloads.</li>
+<li>MSFVenom Shell code for Buffer Overflow <a href="https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/">https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/</a></li>
+<li>If it&rsquo;s running SSH, find/replace the id_rsa</li>
+<li><code>!/bin/bash</code></li>
+<li>SMB - <code>crackmapexec</code> show available shares: <code>crackmapexec smb 192.168.50.242 -u john -p &quot;dqsTwTpZPn#nL&quot; --shares</code></li>
+<li>Scanning UDP Ports for SNMP - <a href="https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727">https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727</a></li>
+</ul>
+<p><img src="https://johnjhacking.com/uploads/autonmap.png" alt=""></p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---htb---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---core/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---hub---linux/">OSCP - Hub - Linux</a>
+          <a href="/posts/oscp---clue---linux/">OSCP - Clue - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -241,22 +305,21 @@
 
         <div class="post-content">
           
-            <h1 id="hub">Hub</h1>
-<p>This was a bit of an odd one that required more than a few reverts. Identifying that FuguForum was the target (not barracuda as initially suspected) was a nice realisation that I&rsquo;m picking up on the details that I need to, and that searching for exploits is becoming a more common and clear thing to do.</p>
-<p>What was really frustrating was finding that none of those exploit actually work, and then needing to dig into the website to write a reverse shell into page. So much of this box didn&rsquo;t work properly, and what should have been straight forward was unnecessarily difficult - not because it was secure, but because it simply wasn&rsquo;t working properly. Even once I managed to get a shell, there was no way to upgrade it to full TTY, so once I had root through a binary exploit, I was still stuck with a shitty shell.</p>
+            <h1 id="clue">Clue</h1>
+<p>This was definitely a hard box, but the biggest challenges came from the range of different services AND the box itself not working properly. After a couple of hours bashing my head against the brick wall trying to get initial access, I finally relented and looked at a walkthrough&hellip; only to find that the <code>cassandra</code> exploit I&rsquo;d tried to use to display files on the target hadn&rsquo;t worked because the box needed to be reverted.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---hub---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---clue---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---hutch---windows/">OSCP - Hutch - Windows</a>
+          <a href="/posts/oscp---cockpit---linux/">OSCP - Cockpit - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -273,22 +336,22 @@
 
         <div class="post-content">
           
-            <h1 id="box">Box</h1>
-<p>Rinse and repeat on the Windows bullshit here. Just like Authby, this was an exercise in absolute frustration yesterday - trying every possible exploit combination and following numerous walkthroughs - only for the entire thing to crack in a heartbeat tonight using the exact same tools and exploit I ran 24 hours earlier.</p>
-<p>Once again this is a reminder that these Windows boxes are unbelievable unreliable and unstable, so if you&rsquo;re following the exact steps of a walkthrough and things are not working, then shut the box down and move on. There is absolutely no point bashing your head against a broken box, so let it go.</p>
+            <h1 id="cockpit">Cockpit</h1>
+<p>This one was originally listed as &ldquo;Hard&rdquo; in my list, but when I checked during startup it showed as &ldquo;Intermediate&rdquo;. Definitely don&rsquo;t think it should be listed as &ldquo;Intermediate&rdquo; though - this was definitely the trickest boxes I&rsquo;ve done, and I absolutely leaned heavily on the walkthrough to make progress here.</p>
+<p>The biggest challenge ofcourse was the box breaking everytime I tried to run <code>gobuster</code> against it to find directories or files. Turned out there was a hidden <code>login.php</code> file on the port <code>80</code> server, but I couldn&rsquo;t find the damn thing with the first few gobuster scans because the whole box would break and require revert. Worse was finding the <code>blocked.html</code> page which would break the box every time I visited it OR scanned it with <code>gobuster</code>.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---hutch---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---cockpit---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---image---linux/">OSCP - Image - Linux</a>
+          <a href="/posts/oscp---codo---linux/">OSCP - Codo - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -305,46 +368,15 @@
 
         <div class="post-content">
           
-            <h1 id="image">Image</h1>
-<p>This box was objectively quite easy, however the issues I had <em>around</em> it made things far more complicated/frustrating than they needed to be.</p>
-<p>Prior to starting this box I&rsquo;d tried to setup a shared folder on the VM that would also upload to Google drive (with the intent being I could pull the box folder to any desktop/laptop I was working from). However when I started running the exploit to try to create the <code>.png</code> with the reverse shell in the name, I started getting an error message saying the file didn&rsquo;t exist.</p>
+            <h1 id="codo">Codo</h1>
+<p>Interesting experience just slowly working through this over the day. Having the walkthrough as a reference is handy, although I should have done more enumeration to identify everything <code>linpeas</code> was providing. Helpful experience updating the cheatsheet for fully interactive TTS too - most references just use <code>python</code> when pretty much everyone/thing is using <code>python3</code>, so be sure to watch out for that when copy/pasting from references.</p>
+<p>Keep revshells.com handy too, and keep practicing with msfvenom too, as a lot of your holdup today was trying to find the right reverse shell for php, when you should have just been able to pull it up in a heartbeat</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---image---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---internal---windows/">OSCP - Internal - Windows</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="internal">Internal</h1>
-<p>These Windows boxes are getting more and more frustrating. This one I had four separate walkthroughs available and 5 different exploits I could run, and in the end I had to resort to Metasploit to catch a meterpreter shell. Even the Meterpreter shell was a pain in the ass - once I was in I knew I could navigate directly to the Administrator&rsquo;s desktop, but I had to type in each directory change one-by-one rather than going directly to the proof file.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---internal---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---codo---linux/">[Read more]</a>
           </div>
         
       </article>

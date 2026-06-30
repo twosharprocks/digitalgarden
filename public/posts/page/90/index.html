@@ -179,7 +179,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/script---cave-finder---muna-island/">Script - Cave Finder - Muna Island</a>
+          <a href="/posts/portugal/">Portugal</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -188,10 +188,6 @@
             
             #<a href="/tags/diving/">diving</a>&nbsp;
             
-            #<a href="/tags/python/">python</a>&nbsp;
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
           </span>
         
 
@@ -200,96 +196,48 @@
 
         <div class="post-content">
           
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">json</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">requests</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">csv</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">time</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">API_KEY</span> <span class="o">=</span> <span class="s1">&#39;YOUR GOOGLE API&#39;</span>  <span class="c1"># Replace with your API key</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Keywords likely to return cave/sinkhole/bathing spring results</span>
-</span></span><span class="line"><span class="cl"><span class="n">KEYWORDS</span> <span class="o">=</span> <span class="p">[</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;goa&#39;</span><span class="p">,</span> <span class="s1">&#39;gua&#39;</span><span class="p">,</span> <span class="s1">&#39;lubang&#39;</span><span class="p">,</span> <span class="s1">&#39;sumur alam&#39;</span><span class="p">,</span> <span class="s1">&#39;serambi alam&#39;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;lembah&#39;</span><span class="p">,</span> <span class="s1">&#39;grotto&#39;</span><span class="p">,</span> <span class="s1">&#39;cave&#39;</span><span class="p">,</span> <span class="s1">&#39;hole&#39;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;loji&#39;</span><span class="p">,</span> <span class="s1">&#39;koo&#39;</span><span class="p">,</span> <span class="s1">&#39;luban&#39;</span><span class="p">,</span> <span class="s1">&#39;permandian&#39;</span>
-</span></span><span class="line"><span class="cl"><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Approximate coverage of Muna Island</span>
-</span></span><span class="line"><span class="cl"><span class="n">TILE_LOCATIONS</span> <span class="o">=</span> <span class="p">[</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-4.783,122.566&#39;</span><span class="p">,</span>  <span class="c1"># Raha</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-5.000,122.500&#39;</span><span class="p">,</span>  <span class="c1"># Southwest</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-4.600,122.700&#39;</span><span class="p">,</span>  <span class="c1"># Northeast</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-4.900,122.700&#39;</span>   <span class="c1"># Southeast</span>
-</span></span><span class="line"><span class="cl"><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">RADIUS</span> <span class="o">=</span> <span class="mi">50000</span>  <span class="c1"># 50km radius — max allowed</span>
-</span></span><span class="line"><span class="cl"><span class="n">OUTPUT_CSV</span> <span class="o">=</span> <span class="s1">&#39;muna_island_places.csv&#39;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">search_places</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">location</span><span class="p">,</span> <span class="n">radius</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://maps.googleapis.com/maps/api/place/nearbysearch/json&#39;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">params</span> <span class="o">=</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;key&#39;</span><span class="p">:</span> <span class="n">API_KEY</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;keyword&#39;</span><span class="p">:</span> <span class="n">keyword</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;location&#39;</span><span class="p">:</span> <span class="n">location</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;radius&#39;</span><span class="p">:</span> <span class="n">radius</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">token</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">params</span><span class="p">[</span><span class="s1">&#39;pagetoken&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">token</span>
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">collect_all_places</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">    <span class="n">all_results</span> <span class="o">=</span> <span class="p">[]</span> 
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">location</span> <span class="ow">in</span> <span class="n">TILE_LOCATIONS</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">keyword</span> <span class="ow">in</span> <span class="n">KEYWORDS</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Searching for &#39;</span><span class="si">{</span><span class="n">keyword</span><span class="si">}</span><span class="s2">&#39; near </span><span class="si">{</span><span class="n">location</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="n">data</span> <span class="o">=</span> <span class="n">search_places</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">location</span><span class="p">,</span> <span class="n">RADIUS</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="n">all_results</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;results&#39;</span><span class="p">,</span> <span class="p">[]))</span>
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">            <span class="k">while</span> <span class="s1">&#39;next_page_token&#39;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">                <span class="n">token</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;next_page_token&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">                <span class="n">data</span> <span class="o">=</span> <span class="n">search_places</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">location</span><span class="p">,</span> <span class="n">RADIUS</span><span class="p">,</span> <span class="n">token</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">                <span class="n">all_results</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;results&#39;</span><span class="p">,</span> <span class="p">[]))</span>
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">    <span class="c1"># Deduplicate by place_id</span>
-</span></span><span class="line"><span class="cl">    <span class="n">deduped</span> <span class="o">=</span> <span class="p">{</span><span class="n">place</span><span class="p">[</span><span class="s1">&#39;place_id&#39;</span><span class="p">]:</span> <span class="n">place</span> <span class="k">for</span> <span class="n">place</span> <span class="ow">in</span> <span class="n">all_results</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">deduped</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">save_to_csv</span><span class="p">(</span><span class="n">places</span><span class="p">,</span> <span class="n">filename</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="n">fieldnames</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;address&#39;</span><span class="p">,</span> <span class="s1">&#39;latitude&#39;</span><span class="p">,</span> <span class="s1">&#39;longitude&#39;</span><span class="p">,</span> <span class="s1">&#39;types&#39;</span><span class="p">,</span> <span class="s1">&#39;place_id&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">writer</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">DictWriter</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">fieldnames</span><span class="o">=</span><span class="n">fieldnames</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="n">writer</span><span class="o">.</span><span class="n">writeheader</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">place</span> <span class="ow">in</span> <span class="n">places</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">            <span class="n">writer</span><span class="o">.</span><span class="n">writerow</span><span class="p">({</span>
-</span></span><span class="line"><span class="cl">                <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="n">place</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">),</span>
-</span></span><span class="line"><span class="cl">                <span class="s1">&#39;address&#39;</span><span class="p">:</span> <span class="n">place</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;vicinity&#39;</span><span class="p">),</span>
-</span></span><span class="line"><span class="cl">                <span class="s1">&#39;latitude&#39;</span><span class="p">:</span> <span class="n">place</span><span class="p">[</span><span class="s1">&#39;geometry&#39;</span><span class="p">][</span><span class="s1">&#39;location&#39;</span><span class="p">][</span><span class="s1">&#39;lat&#39;</span><span class="p">],</span>
-</span></span><span class="line"><span class="cl">                <span class="s1">&#39;longitude&#39;</span><span class="p">:</span> <span class="n">place</span><span class="p">[</span><span class="s1">&#39;geometry&#39;</span><span class="p">][</span><span class="s1">&#39;location&#39;</span><span class="p">][</span><span class="s1">&#39;lng&#39;</span><span class="p">],</span>
-</span></span><span class="line"><span class="cl">                <span class="s1">&#39;types&#39;</span><span class="p">:</span> <span class="s1">&#39;, &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">place</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;types&#39;</span><span class="p">,</span> <span class="p">[])),</span>
-</span></span><span class="line"><span class="cl">                <span class="s1">&#39;place_id&#39;</span><span class="p">:</span> <span class="n">place</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;place_id&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="p">})</span>
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="n">results</span> <span class="o">=</span> <span class="n">collect_all_places</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">    <span class="n">save_to_csv</span><span class="p">(</span><span class="n">results</span><span class="p">,</span> <span class="n">OUTPUT_CSV</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">Saved </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">results</span><span class="p">)</span><span class="si">}</span><span class="s2"> unique places to &#39;</span><span class="si">{</span><span class="n">OUTPUT_CSV</span><span class="si">}</span><span class="s2">&#39;&#34;</span><span class="p">)</span>
-</span></span></code></pre></div>
+            <p>Portugal is listed under <a href="/posts/europe/">Europe</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
+<h1 id="cave-regions">Cave Regions</h1>
+<ul>
+<li>No local cave regions listed yet.</li>
+</ul>
+<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
+<ul>
+<li>See the linked cave regions above.</li>
+</ul>
+<h1 id="backlinks">Backlinks</h1>
+<ul>
+<li><a href="/posts/cave-regions/">Cave Regions</a></li>
+<li><a href="/posts/diving/">Diving</a></li>
+</ul>
+<hr>
+<h1 id="existing-notes">Existing Notes</h1>
+<p>Go in September, then stay for <a href="https://www.facebook.com/divingtalks">Diving Talks Conference</a></p>
+<h1 id="about">About</h1>
+<ul>
+<li><strong>Algarve coastal sea caves:</strong><br>
+Best between <strong>June and September</strong>, when visibility is highest and seas are calm. This is when marine traffic is highest too, so early or late in this period is best for quieter exploration.</li>
+<li><strong>Inland karst systems (e.g., Mira de Aire, Serras de Aire e Candeeiros):</strong><br>
+Access is best in <strong>spring and autumn (April–June, September–October)</strong> when groundwater levels are manageable and temperatures mild. Winter rains can flood systems, and summer can see restrictions due to fire risk or access limits.</li>
+<li><strong>Water Temperatures:</strong> Range from 14–26°C depending on depth and region, so a <strong>5–7mm wetsuit or drysuit</strong> is advised for inland cave systems, even in summer.</li>
+<li><strong>Local Festivals &amp; Holidays:</strong> Avoid major holiday periods (especially August) to reduce crowds and booking difficulties.</li>
+</ul>
+<h1 id="caves">Caves</h1>
+<p><a href="https://www.portugaldive.com/best-dives/spots/all/cave/all/all.html">List of Portugal Caves - portugaldive.com</a>
+<a href="https://cavedivingportugal.com/caves">Cavedivingportugal.com</a> - Anton Zhuchov&rsquo;s shop (<a href="https://www.youtube.com/@CaveDivingPortugal">YouTube Channel</a>)</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/script---cave-finder---muna-island/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/portugal/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/script---cave-finder---new-caledonia/">Script - Cave Finder - New Caledonia</a>
+          <a href="/posts/puerto-rico/">Puerto Rico</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -298,10 +246,6 @@
             
             #<a href="/tags/diving/">diving</a>&nbsp;
             
-            #<a href="/tags/python/">python</a>&nbsp;
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
           </span>
         
 
@@ -310,88 +254,33 @@
 
         <div class="post-content">
           
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">requests</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">json</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">time</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">API_KEY</span> <span class="o">=</span> <span class="s1">&#39;YOUR_GOOGLE_MAPS_API_KEY&#39;</span>  <span class="c1"># Replace this with your valid API key</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">KEYWORDS</span> <span class="o">=</span> <span class="p">[</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;cave&#39;</span><span class="p">,</span> <span class="s1">&#39;hole&#39;</span><span class="p">,</span> <span class="s1">&#39;grotto&#39;</span><span class="p">,</span>               <span class="c1"># English</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;grotte&#39;</span><span class="p">,</span> <span class="s1">&#39;caverne&#39;</span><span class="p">,</span> <span class="s1">&#39;trou&#39;</span><span class="p">,</span> <span class="s1">&#39;aven&#39;</span><span class="p">,</span>    <span class="c1"># French</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;puits naturel&#39;</span><span class="p">,</span> <span class="s1">&#39;faille&#39;</span><span class="p">,</span>              <span class="c1"># Other French karst terms</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;mu&#39;</span><span class="p">,</span> <span class="s1">&#39;koo&#39;</span><span class="p">,</span> <span class="s1">&#39;kou&#39;</span>                      <span class="c1"># Local (Drehu, Paicî)</span>
-</span></span><span class="line"><span class="cl"><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">TILE_LOCATIONS</span> <span class="o">=</span> <span class="p">[</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-21.25,165.3&#39;</span><span class="p">,</span>     <span class="c1"># Nouméa</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-20.8,165.1&#39;</span><span class="p">,</span>      <span class="c1"># Central Grande Terre</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-20.2,164.7&#39;</span><span class="p">,</span>      <span class="c1"># Northern Grande Terre</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-20.9,167.25&#39;</span><span class="p">,</span>     <span class="c1"># Île des Pins</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-20.6,167.0&#39;</span><span class="p">,</span>      <span class="c1"># Lifou</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-21.0,167.5&#39;</span><span class="p">,</span>      <span class="c1"># Maré</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-20.4,166.6&#39;</span>       <span class="c1"># Ouvéa</span>
-</span></span><span class="line"><span class="cl"><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">RADIUS</span> <span class="o">=</span> <span class="mi">50000</span>  <span class="c1"># Max for Google Maps Places API</span>
-</span></span><span class="line"><span class="cl"><span class="n">OUTPUT_FILE</span> <span class="o">=</span> <span class="s1">&#39;new_caledonia_caves.json&#39;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">search_places</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">location</span><span class="p">,</span> <span class="n">radius</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://maps.googleapis.com/maps/api/place/nearbysearch/json&#39;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">params</span> <span class="o">=</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;key&#39;</span><span class="p">:</span> <span class="n">API_KEY</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;keyword&#39;</span><span class="p">:</span> <span class="n">keyword</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;location&#39;</span><span class="p">:</span> <span class="n">location</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;radius&#39;</span><span class="p">:</span> <span class="n">radius</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">token</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">params</span><span class="p">[</span><span class="s1">&#39;pagetoken&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">token</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">collect_all_places</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">    <span class="n">all_results</span> <span class="o">=</span> <span class="p">[]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">location</span> <span class="ow">in</span> <span class="n">TILE_LOCATIONS</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">keyword</span> <span class="ow">in</span> <span class="n">KEYWORDS</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Searching &#39;</span><span class="si">{</span><span class="n">keyword</span><span class="si">}</span><span class="s2">&#39; near </span><span class="si">{</span><span class="n">location</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="n">data</span> <span class="o">=</span> <span class="n">search_places</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">location</span><span class="p">,</span> <span class="n">RADIUS</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="n">all_results</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;results&#39;</span><span class="p">,</span> <span class="p">[]))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="c1"># Handle paginated results</span>
-</span></span><span class="line"><span class="cl">            <span class="k">while</span> <span class="s1">&#39;next_page_token&#39;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">                <span class="n">token</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;next_page_token&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">                <span class="n">data</span> <span class="o">=</span> <span class="n">search_places</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">location</span><span class="p">,</span> <span class="n">RADIUS</span><span class="p">,</span> <span class="n">token</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">                <span class="n">all_results</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;results&#39;</span><span class="p">,</span> <span class="p">[]))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1"># Deduplicate by place_id</span>
-</span></span><span class="line"><span class="cl">    <span class="n">deduped_results</span> <span class="o">=</span> <span class="p">{</span><span class="n">place</span><span class="p">[</span><span class="s1">&#39;place_id&#39;</span><span class="p">]:</span> <span class="n">place</span> <span class="k">for</span> <span class="n">place</span> <span class="ow">in</span> <span class="n">all_results</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">deduped_results</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">save_to_json</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">filename</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="n">places</span> <span class="o">=</span> <span class="n">collect_all_places</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">    <span class="n">save_to_json</span><span class="p">(</span><span class="n">places</span><span class="p">,</span> <span class="n">OUTPUT_FILE</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">Saved </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">places</span><span class="p">)</span><span class="si">}</span><span class="s2"> unique cave-related places to &#39;</span><span class="si">{</span><span class="n">OUTPUT_FILE</span><span class="si">}</span><span class="s2">&#39;&#34;</span><span class="p">)</span>
-</span></span></code></pre></div><hr>
+            <p>Puerto Rico is listed under Central America in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
+<h1 id="cave-regions">Cave Regions</h1>
+<ul>
+<li>No local cave regions listed yet.</li>
+</ul>
+<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
+<ul>
+<li>See the linked cave regions above.</li>
+</ul>
+<h1 id="backlinks">Backlinks</h1>
+<ul>
+<li><a href="/posts/cave-regions/">Cave Regions</a></li>
+<li><a href="/posts/diving/">Diving</a></li>
+</ul>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/script---cave-finder---new-caledonia/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/puerto-rico/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/script---cave-finder---vanuatu/">Script - Cave Finder - Vanuatu</a>
+          <a href="/posts/queensland/">Queensland</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -400,9 +289,82 @@
             
             #<a href="/tags/diving/">diving</a>&nbsp;
             
-            #<a href="/tags/python/">python</a>&nbsp;
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>Queensland is listed under <a href="/posts/oceania/">Oceania</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
+<h1 id="cave-regions">Cave Regions</h1>
+<ul>
+<li>No local cave regions listed yet.</li>
+</ul>
+<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
+<ul>
+<li>See the linked cave regions above.</li>
+</ul>
+<h1 id="backlinks">Backlinks</h1>
+<ul>
+<li><a href="/posts/cave-regions/">Cave Regions</a></li>
+<li><a href="/posts/diving/">Diving</a></li>
+</ul>
+<hr>
+<h1 id="existing-notes">Existing Notes</h1>
+<h1 id="about">About</h1>
+<ul>
+<li>Camooweal</li>
+<li>Chillagoe-Mungana
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Chillagoe-Mungana_Caves_National_Park">Caves national Park</a> (Elevation +400m)</li>
+<li><a href="https://parks.desi.qld.gov.au/parks/chillagoe-caves">https://parks.desi.qld.gov.au/parks/chillagoe-caves</a></li>
+<li><a href="https://www.asfconference2027.com.au/home">ASF Conference 2027</a> 20-26 June</li>
+</ul>
+</li>
+<li>Mt Etna
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Mount_Etna_Caves_National_Park">Caves National Park</a></li>
+<li><a href="https://parks.desi.qld.gov.au/parks/mount-etna-caves/about">https://parks.desi.qld.gov.au/parks/mount-etna-caves/about</a></li>
+<li>Cammoo Caves (100m elevation)</li>
+</ul>
+</li>
+</ul>
+<h1 id="caves">Caves</h1>
+<ul>
+<li></li>
+</ul>
+<h1 id="trips">Trips</h1>
+<ul>
+<li></li>
+</ul>
+<hr>
+<h1 id="references">References</h1>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/queensland/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/reading/">Reading</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
             
-            #<a href="/tags/script/">script</a>&nbsp;
+            #<a href="/tags/books/">books</a>&nbsp;
+            
+            #<a href="/tags/interests/">interests</a>&nbsp;
+            
+            #<a href="/tags/personal/">personal</a>&nbsp;
             
           </span>
         
@@ -412,253 +374,62 @@
 
         <div class="post-content">
           
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">requests</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">json</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">time</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">API_KEY</span> <span class="o">=</span> <span class="s1">&#39;YOUR_GOOGLE_MAPS_API_KEY&#39;</span>  <span class="c1"># Replace with your actual API key</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Keywords including English and local/regional cave-related terms</span>
-</span></span><span class="line"><span class="cl"><span class="n">KEYWORDS</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;cave&#39;</span><span class="p">,</span> <span class="s1">&#39;hole&#39;</span><span class="p">,</span> <span class="s1">&#39;grotto&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Approximate central points covering Vanuatu&#39;s main islands (lat, long)</span>
-</span></span><span class="line"><span class="cl"><span class="n">TILE_LOCATIONS</span> <span class="o">=</span> <span class="p">[</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-15.3767,166.9592&#39;</span><span class="p">,</span>  <span class="c1"># Espiritu Santo</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-17.7404,168.3215&#39;</span><span class="p">,</span>  <span class="c1"># Efate (Port Vila)</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-19.5333,169.2833&#39;</span><span class="p">,</span>  <span class="c1"># Tanna Island</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-16.5167,167.4167&#39;</span><span class="p">,</span>  <span class="c1"># Malekula</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-13.8333,167.6667&#39;</span><span class="p">,</span>  <span class="c1"># Banks Islands</span>
-</span></span><span class="line"><span class="cl"><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">RADIUS</span> <span class="o">=</span> <span class="mi">50000</span>  <span class="c1"># Max for Google Maps Places API (50 km)</span>
-</span></span><span class="line"><span class="cl"><span class="n">OUTPUT_FILE</span> <span class="o">=</span> <span class="s1">&#39;vanuatu_caves.json&#39;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">search_places</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">location</span><span class="p">,</span> <span class="n">radius</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://maps.googleapis.com/maps/api/place/nearbysearch/json&#39;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">params</span> <span class="o">=</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;key&#39;</span><span class="p">:</span> <span class="n">API_KEY</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;keyword&#39;</span><span class="p">:</span> <span class="n">keyword</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;location&#39;</span><span class="p">:</span> <span class="n">location</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;radius&#39;</span><span class="p">:</span> <span class="n">radius</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">token</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">params</span><span class="p">[</span><span class="s1">&#39;pagetoken&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">token</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">collect_all_places</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">    <span class="n">all_results</span> <span class="o">=</span> <span class="p">[]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">location</span> <span class="ow">in</span> <span class="n">TILE_LOCATIONS</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">keyword</span> <span class="ow">in</span> <span class="n">KEYWORDS</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Searching &#39;</span><span class="si">{</span><span class="n">keyword</span><span class="si">}</span><span class="s2">&#39; around </span><span class="si">{</span><span class="n">location</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="n">data</span> <span class="o">=</span> <span class="n">search_places</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">location</span><span class="p">,</span> <span class="n">RADIUS</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="n">all_results</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;results&#39;</span><span class="p">,</span> <span class="p">[]))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="c1"># Handle pagination</span>
-</span></span><span class="line"><span class="cl">            <span class="k">while</span> <span class="s1">&#39;next_page_token&#39;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>  <span class="c1"># Required delay before next_page_token works</span>
-</span></span><span class="line"><span class="cl">                <span class="n">token</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;next_page_token&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">                <span class="n">data</span> <span class="o">=</span> <span class="n">search_places</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">location</span><span class="p">,</span> <span class="n">RADIUS</span><span class="p">,</span> <span class="n">token</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">                <span class="n">all_results</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;results&#39;</span><span class="p">,</span> <span class="p">[]))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1"># Deduplicate by place_id</span>
-</span></span><span class="line"><span class="cl">    <span class="n">deduped_results</span> <span class="o">=</span> <span class="p">{</span><span class="n">place</span><span class="p">[</span><span class="s1">&#39;place_id&#39;</span><span class="p">]:</span> <span class="n">place</span> <span class="k">for</span> <span class="n">place</span> <span class="ow">in</span> <span class="n">all_results</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">deduped_results</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">save_to_json</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">filename</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="n">places</span> <span class="o">=</span> <span class="n">collect_all_places</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">    <span class="n">save_to_json</span><span class="p">(</span><span class="n">places</span><span class="p">,</span> <span class="n">OUTPUT_FILE</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">Saved </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">places</span><span class="p">)</span><span class="si">}</span><span class="s2"> unique cave-related places to &#39;</span><span class="si">{</span><span class="n">OUTPUT_FILE</span><span class="si">}</span><span class="s2">&#39;&#34;</span><span class="p">)</span>
-</span></span></code></pre></div>
+            <h1 id="current">Current</h1>
+<ul>
+<li>Kindle: Hotel New Hampshire</li>
+<li>Kindle: Bonfire of the Vanities (end of 101)</li>
+<li>Kindle: Roger&rsquo;s Book</li>
+<li>Why the Future Doesn’t Need Us</li>
+<li>Permissionless - JA Westenberg.pdf</li>
+</ul>
+<h1 id="clear">Clear</h1>
+<ul>
+<li>Bookshelf</li>
+<li>Kindle</li>
+<li>Audible</li>
+<li>Bookerei/PDF - &ldquo;To Read&rdquo; Tag</li>
+</ul>
+<hr>
+<p>SciFi</p>
+<ul>
+<li><input disabled="" type="checkbox"> Wanderers (Chuck Wendig)</li>
+<li><input disabled="" type="checkbox"> The Fifth Season (NK Jemisin)</li>
+<li><input disabled="" type="checkbox"> The Metamorphosis of Prime Intellect</li>
+<li><input disabled="" type="checkbox"> The Left Hand of Darkness (Ursula K Le Guin)</li>
+<li><input disabled="" type="checkbox"> The Xeelee Sequence (Stephen Baxter)</li>
+<li><input disabled="" type="checkbox"> Children of Time (Adrian Tchaikovsky)</li>
+<li><input disabled="" type="checkbox"> Story of Your Life (Ted Chiang)</li>
+<li><input disabled="" type="checkbox"> The Bohr Maker (Linda Nagata)</li>
+<li><input disabled="" type="checkbox"> <a href="https://www.amazon.com.au/gp/aw/d/B0CL7KFDDQ/ref=tmm_kin_swatch_0">Audition</a> (Pip Adam)</li>
+<li><input disabled="" type="checkbox"> <a href="https://amzn.to/3FXOjVm">A Wrinkle in Time by Madeleine L’Engle</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://amzn.to/41t7dfW">The Time Machine by H. G. Wells**</a></li>
+<li><a href="https://amzn.to/41pP82Z">Oryx and Crake by Margaret Atwood</a></li>
+<li><a href="https://amzn.to/47pVjqn">Childhood’s End by Arthur C. Clarke</a></li>
+<li><a href="https://amzn.to/3xUTzoh"><strong>Do Androids Dream of Electric Sheep? by Philip K. Dick</strong></a></li>
+<li><a href="https://amzn.to/3QjBiva">Station Eleven by Emily St. John Mandel</a></li>
+<li><a href="https://amzn.to/3YhmY8C">The Left Hand of Darkness by Ursula K. Le Guin</a></li>
+</ul>
+<p>Other</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/script---cave-finder---vanuatu/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/reading/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/script---python---search-replace/">Script - Python - search-replace</a>
+          <a href="/posts/rebreathers/">Rebreathers</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/script/">script</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/env python3</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">argparse</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">re</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">slugify</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;Replace spaces with dashes and strip leading/trailing spaces.&#34;&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">,</span> <span class="s2">&#34;-&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">process_file</span><span class="p">(</span><span class="n">path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="n">pattern</span><span class="p">:</span> <span class="n">re</span><span class="o">.</span><span class="n">Pattern</span><span class="p">,</span> <span class="n">repl_func</span><span class="p">,</span> <span class="n">dry_run</span><span class="p">:</span> <span class="nb">bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;
-</span></span></span><span class="line"><span class="cl"><span class="s2">
-</span></span></span><span class="line"><span class="cl"><span class="s2">    Returns number of replacements made in this file.
-</span></span></span><span class="line"><span class="cl"><span class="s2">
-</span></span></span><span class="line"><span class="cl"><span class="s2">    &#34;&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">text</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">read_text</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">updated</span><span class="p">,</span> <span class="n">n</span> <span class="o">=</span> <span class="n">pattern</span><span class="o">.</span><span class="n">subn</span><span class="p">(</span><span class="n">repl_func</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">dry_run</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">path</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">updated</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">n</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">description</span><span class="o">=</span><span class="s2">&#34;Replace [[text]] with #text (spaces become dashes) in markdown files.&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;text&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Search term inside [[...]] to replace (e.g., &#39;Bucket List&#39;).&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--root&#34;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s2">&#34;.&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Root folder to scan (default: current directory).&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--recursive&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Recurse into subfolders.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--dry-run&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Show what would change, but don&#39;t write files.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--ignore-case&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Match [[text]] case-insensitively.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">args</span> <span class="o">=</span> <span class="n">ap</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">root</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">root</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">pattern_glob</span> <span class="o">=</span> <span class="s2">&#34;**/*.md&#34;</span> <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">recursive</span> <span class="k">else</span> <span class="s2">&#34;*.md&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1"># Build regex that matches [[&lt;text&gt;]], allowing for internal spaces</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">flags</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span> <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">ignore_case</span> <span class="k">else</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">escaped</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">escape</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">needle</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&#34;\[\[\s*&#34;</span> <span class="o">+</span> <span class="n">escaped</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="sa">r</span><span class="s2">&#34;\ &#34;</span><span class="p">,</span> <span class="sa">r</span><span class="s2">&#34;\s+&#34;</span><span class="p">)</span> <span class="o">+</span> <span class="sa">r</span><span class="s2">&#34;\s*\]\]&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">pattern</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">needle</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="n">flags</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1"># Replacement function (keeps proper slug formatting)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">repl_func</span><span class="p">(</span><span class="k">match</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="s2">&#34;#&#34;</span> <span class="o">+</span> <span class="n">slugify</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">files</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="n">pattern_glob</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">total_files</span> <span class="o">=</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">changed_files</span> <span class="o">=</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">total_replacements</span> <span class="o">=</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="ow">not</span> <span class="n">f</span><span class="o">.</span><span class="n">is_file</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="k">continue</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">total_files</span> <span class="o">+=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">n</span> <span class="o">=</span> <span class="n">process_file</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">pattern</span><span class="o">=</span><span class="n">pattern</span><span class="p">,</span> <span class="n">repl_func</span><span class="o">=</span><span class="n">repl_func</span><span class="p">,</span> <span class="n">dry_run</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">dry_run</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">total_replacements</span> <span class="o">+=</span> <span class="n">n</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="n">changed_files</span> <span class="o">+=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[UPDATED</span><span class="si">{</span><span class="s1">&#39;&#39;</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">args</span><span class="o">.</span><span class="n">dry_run</span> <span class="k">else</span> <span class="s1">&#39; (dry)&#39;</span><span class="si">}</span><span class="s2">] </span><span class="si">{</span><span class="n">f</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> (+</span><span class="si">{</span><span class="n">n</span><span class="si">}</span><span class="s2">)&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[SKIPPED] </span><span class="si">{</span><span class="n">f</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">Done. Files scanned: </span><span class="si">{</span><span class="n">total_files</span><span class="si">}</span><span class="s2">. Files changed: </span><span class="si">{</span><span class="n">changed_files</span><span class="si">}</span><span class="s2">. Replacements: </span><span class="si">{</span><span class="n">total_replacements</span><span class="si">}</span><span class="s2">.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">dry_run</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;No files were written (dry run). Use without --dry-run to apply changes.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">main</span><span class="p">()</span>
-</span></span></code></pre></div>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/script---python---search-replace/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/scripts/">Scripts</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/script/">script</a>&nbsp;
+            #<a href="/tags/diving/">diving</a>&nbsp;
             
           </span>
         
@@ -669,43 +440,41 @@
         <div class="post-content">
           
             <hr>
+<h1 id="my-ccrs">My CCRs</h1>
+<h2 id="choptima-dive-rite">ChOptima (Dive Rite)</h2>
 <ul>
-<li>Don&rsquo;t save scripts in Obsidian - copy their contents to a markdown file for sharing/editing</li>
-</ul>
-<hr>
-<h1 id="bash">Bash</h1>
+<li>Best O2 cylinder size = <a href="https://perthscuba.com/collections/tanks-cylinders/products/s-13-aluminium-cylinder">AL13</a> or <a href="https://perthscuba.com/collections/tanks-cylinders/products/fabersteelcylinder2lt">2L steel</a> with <a href="https://perthscuba.com/products/sos-cylinder-x-flow-valve">X-Flow valve</a></li>
+<li>Training: <a href="https://www.diveaddiction.me/">Joseph Bicanic (WA, Australia)</a>, Por (Thailand), Rob Thomas (NSW), <a href="https://deepblueventures.com.au/rebreather/optima-cm-ccr">Rubens Monaco (Vic, Australia)</a></li>
+<li>Accessories
 <ul>
-<li>ping-sweep.sh</li>
+<li><a href="https://diverite.com/products/o2ptima/o2ptima-cm-scooter-ring/">ChOptima Scooter Ring</a></li>
+<li><a href="https://scubadorag.com/product/scubado-rebreather-bcd-inflator-hose-ponytail-hair-cover/">Hose Covers - ScubaDo</a></li>
+<li><a href="https://www.instagram.com/divingsirenfl/">Hose Covers - Diving Siren (Custom)</a></li>
 </ul>
-<h1 id="powershell">Powershell</h1>
-<p>Active Directory</p>
+</li>
+</ul>
+<h2 id="sidewinder-kiss">Sidewinder (KISS)</h2>
+<p>Total Hours: 67hours (4013 mins)</p>
+<h2 id="jj-ccr">JJ-CCR</h2>
+<p>Total Hours: 50 hours (3005 mins)</p>
+<h1 id="other-ccrs">Other CCRs</h1>
+<p><a href="https://s7ccr.com/">S7</a></p>
 <ul>
-<li>AD-Audit.ps1</li>
-<li>AD-EmailToUser.ps1</li>
-<li>AD-GroupMembers.ps1</li>
-<li>AD-Misc.ps1</li>
-<li>AD-NewUser.ps1</li>
-<li>AD-Offboarding.ps1</li>
-<li>AD-OUMaintenance.ps1</li>
+<li><a href="https://indepthmag.com/s7-rebreather-size-of-a-ccr/">InDepth Article on S7</a></li>
+<li>~â‚¬5k + cells &amp; monitor</li>
+<li>IT: Anton is IT, Mikko/Rubens/Skanda instructors</li>
 </ul>
-<p>Misc</p>
-<ul>
-<li>Archive-UserFiles.ps1</li>
-<li>ServiceDesk.ps1</li>
-</ul>
-<h1 id="python">Python</h1>
-<ul>
-<li>pdftoterminal.py</li>
-<li>Script - redact.py</li>
-<li>Script - unredact.py</li>
-<li><a href="/posts/script---python---search-replace/">Script - Python - search-replace</a></li>
-</ul>
+<p><a href="https://www.multi-3s.com/les-produits/triton">Triton (M3S)</a>
+<a href="https://www.multi-3s.com/les-produits/configurations/ccr-loisir">Neptune (M3S)</a>
+<a href="https://ccr.sub-gravity.com/fx-ccr/">FXCCR (Sub-Gravity)</a>
+<a href="https://ccr.sub-gravity.com/product/flex-2-ccr/">Flex2 (Sub-Gravity)</a>
+<a href="https://www.divesoft.com/en/products/ccr-liberty/ccr-liberty-sidemount">Liberty (Divesoft)</a></p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/scripts/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/rebreathers/">[Read more]</a>
           </div>
         
       </article>

@@ -179,7 +179,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---pyloader---linux/">OSCP - PyLoader - Linux</a>
+          <a href="/posts/oscp---image---linux/">OSCP - Image - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -196,22 +196,22 @@
 
         <div class="post-content">
           
-            <h1 id="pyloader">PyLoader</h1>
-<p>I&rsquo;m still shocked at how quick and incredibly easy this was - I went from boot to root in &lt;15mins!</p>
-<p>After Nmap showed responses to <code>22</code> and <code>9666</code> I checked <code>9666</code> in Firefox immediately (while the Nmap scan is still running) as I&rsquo;m prone to doing for anything I don&rsquo;t immediately recognise. As soon as I saw a page with <code>pyLoad</code> I just threw &ldquo;pyload exploit&rdquo; into Google, found a bunch of RCE exploits for CVE-2023-0297, and pulled up the entry on Exploit-DB.</p>
+            <h1 id="image">Image</h1>
+<p>This box was objectively quite easy, however the issues I had <em>around</em> it made things far more complicated/frustrating than they needed to be.</p>
+<p>Prior to starting this box I&rsquo;d tried to setup a shared folder on the VM that would also upload to Google drive (with the intent being I could pull the box folder to any desktop/laptop I was working from). However when I started running the exploit to try to create the <code>.png</code> with the reverse shell in the name, I started getting an error message saying the file didn&rsquo;t exist.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---pyloader---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---image---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---rubydome---linux/">OSCP - RubyDome - Linux</a>
+          <a href="/posts/oscp---internal---windows/">OSCP - Internal - Windows</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -228,22 +228,21 @@
 
         <div class="post-content">
           
-            <h1 id="rubydome">RubyDome</h1>
-<p>Frustrating that a couple of key points in this box were only broken through with the use of the walkthrough. Throwing <code>127.0.0.1</code> into the website to break it was a new one (something to keep in mind for the future) but I&rsquo;d have never worked out without the walkthrough.</p>
-<p>Likewise the exploit initially appeared to be working perfectly but wasn&rsquo;t catching a shell, and it turned out I had to add &ldquo;pdf&rdquo; onto the end of the target web address.</p>
+            <h1 id="internal">Internal</h1>
+<p>These Windows boxes are getting more and more frustrating. This one I had four separate walkthroughs available and 5 different exploits I could run, and in the end I had to resort to Metasploit to catch a meterpreter shell. Even the Meterpreter shell was a pain in the ass - once I was in I knew I could navigate directly to the Administrator&rsquo;s desktop, but I had to type in each directory change one-by-one rather than going directly to the proof file.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---rubydome---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---internal---windows/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---scrutiny---linux/">OSCP - Scrutiny - Linux</a>
+          <a href="/posts/oscp---jacko---windows/">OSCP - Jacko - Windows</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -260,22 +259,47 @@
 
         <div class="post-content">
           
-            <h1 id="scrutiny">Scrutiny</h1>
-<p>This whole box felt like a whole lot of enumeration - digging through files to find SSH keys and cleartext passwords. Probably the biggest lesson I learned out of it however was how to setup and run python libraries in a virtual environment!</p>
-<p>The exploit required <code>urllib3 faker</code> to run, and <code>python3</code> kept throwing the <code>externally managed</code> error that drove me crazy awhile back when I was trying to install the <code>bzz</code> library - I must have found another way around that, but this time around I actually dug into what this error was all about. Turns out <code>python</code> likes to run it&rsquo;s external libraries in a self-contained virtual environment, and while there is an override pretty much everyone on stackoverflow was screaming that it&rsquo;d break the system.</p>
+            <h1 id="box">Box</h1>
+<p>What the actual fuck&hellip; I&rsquo;ll write this up tomorrow, but this was a combination of &ldquo;Why the fuck isn&rsquo;t this working&rdquo; with &ldquo;that is so fucking dumb&rdquo; when it did finally work</p>
+<h1 id="resolution-summary">Resolution summary</h1>
+<ul>
+<li>Ran Nmap to identify ports <code>80</code>, <code>135/445</code>, <code>445</code>, <code>5040</code>, <code>8082</code> &amp; <code>9092</code></li>
+<li>Navigated to port <code>8082</code> with browser and logged in with default credentials</li>
+<li>Found exploit for <code>H2 Database</code> and achieved code execution via SQL</li>
+<li>Uploaded &amp; executed reverse shell via SQL statements for initial access</li>
+<li>Identified <code>Paperstream</code> software and found exploit <code>49382.py</code></li>
+<li>Used <code>msfvenom</code> to create reverse shell <code>dll</code> with <code>x86</code> architecture &amp; <code>xor_dynamic</code></li>
+<li>Uploaded <code>dll</code> and <code>49382.ps1</code> to target via <code>iwr</code></li>
+<li>Ran <code>49382.ps1</code> on target and recieved reverse shell as <code>NT-system</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills</h2>
+<ul>
+<li>Generating msfvenom payloads</li>
+<li>Working with Windows kernel exploits (specifically potatos)</li>
+</ul>
+<h2 id="used-tools">Used tools</h2>
+<ul>
+<li>nmap</li>
+<li>python</li>
+<li>msfvenom</li>
+<li>powershell</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering</h1>
+<p>Scanned all TCP ports:</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---scrutiny---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---jacko---windows/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---squid---windows/">OSCP - Squid - Windows</a>
+          <a href="/posts/oscp---kevin---windows-dnf/">OSCP - Kevin - Windows (DNF)</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -292,22 +316,22 @@
 
         <div class="post-content">
           
-            <h1 id="squid">Squid</h1>
-<p>Everything about this box was a refresher, and there&rsquo;s no doubt I leaned heavily on the walkthrough as I was doing it. Learning about Squid and <code>spose.py</code> was interesting, but there&rsquo;s a concern that <code>spose.py</code> is pretty niche and I may never have found it (or realised I needed it) without the walkthrough.</p>
-<p>Maybe it&rsquo;s just more familiarity though, and with more practice I&rsquo;ll get better at knowing how to tackle different Windows services. There&rsquo;s no question I learned more about how proxies work from this box, and setting up FoxyProxy to reach the target&rsquo;s open ports was particularly interesting.</p>
+            <h1 id="kevin">Kevin</h1>
+<p>I&rsquo;ve checked all the walkthroughs, tried countless variations of the easily available exploits, even reimaged my entire Kali VM trying to make this script work&hellip; and nothing I&rsquo;ve done has caught a reverse shell.</p>
+<p>Honestly not sure what else to do, other than to write this off as a learning experience (?) and move on. If I get a buffer overflow exploit in the exam (which I think they&rsquo;ve stopped now anyway) I&rsquo;ll just move the fuck on because nothing I&rsquo;ve done on this box or the last one has really made any sense.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---squid---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---kevin---windows-dnf/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---twiggy---linux/">OSCP - Twiggy - Linux</a>
+          <a href="/posts/oscp---lavita---linux/">OSCP - LaVita - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -324,16 +348,15 @@
 
         <div class="post-content">
           
-            <h1 id="twiggy">Twiggy</h1>
-<p>Went down the rabbit hole with port 80 &amp; port 8000 too quickly, thinking this would require SQL injection or some sort of weird user enumeration to get into a web platform.</p>
-<p>Turns out the I needed to run nmap again with a full port scan (<code>-p- -T5</code>) and pick up ALL the ports before an aggressive service scan (<code>-A -p 22,55,ect</code>).</p>
-<p>2nd scan picked up <code>4505</code> and <code>4506</code> which correspond to ZeroMQ ZMTP 2.0 (saltStack). Looking up Saltstack showed a vulnerability (CVE-2020-11652)</p>
+            <h1 id="lavita">LaVita</h1>
+<p>This box started out really well with plenty of through enumeration to identify the vulnerability, but I fell down trying to gain initial access with the exploits. I tried several, and persisted with the most well developed exploit thinking it would be the way forward.</p>
+<p>The issue was not realising the exploit would stop working after the first success, so after testing it with the <code>uname -a</code> or <code>id</code> commands, it would then not work when I tried to repeat with a reverse shell command. it took awhile to realise that there were 21 chains available, and so there was no need to keep using the &ldquo;last working&rdquo; chain, because it was only working once anyway. I also stopped trying to test with <code>id</code> and just threw the reverse shell command in straight away - I already knew the exploit worked <em>sometimes</em> so may as well try to establish a shell each time I tried.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---twiggy---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---lavita---linux/">[Read more]</a>
           </div>
         
       </article>
