@@ -143,6 +143,79 @@ def render_list(query, notes, current_path=None):
     return "\n".join(f"- {relref_link(note)}" for note in selected)
 
 
+def parse_tag_array(raw_value):
+    return [
+        value.lower()
+        for value in re.findall(r'["\']([^"\']+)["\']', raw_value or "")
+    ]
+
+
+def dataview_categories(query):
+    categories_match = re.search(
+        r"(?is)\bconst\s+categories\s*=\s*\[(.*?)\]\s*;",
+        query,
+    )
+    if not categories_match:
+        return []
+
+    categories = []
+    for object_match in re.finditer(r"\{(.*?)\}", categories_match.group(1), re.DOTALL):
+        definition = object_match.group(1)
+        heading_match = re.search(
+            r'\bheading\s*:\s*["\']([^"\']+)["\']',
+            definition,
+            flags=re.IGNORECASE,
+        )
+        if not heading_match:
+            continue
+
+        all_match = re.search(r"\ball\s*:\s*\[(.*?)\]", definition, re.I | re.S)
+        any_match = re.search(r"\bany\s*:\s*\[(.*?)\]", definition, re.I | re.S)
+        categories.append(
+            {
+                "heading": heading_match.group(1),
+                "all": parse_tag_array(all_match.group(1) if all_match else ""),
+                "any": parse_tag_array(any_match.group(1) if any_match else ""),
+            }
+        )
+    return categories
+
+
+def render_categorized_list(query, notes, current_path=None):
+    categories = dataview_categories(query)
+    if not categories:
+        return None
+
+    base_tags = required_tags(query)
+    candidates = [
+        note
+        for note in notes
+        if base_tags.issubset({tag.lower() for tag in note.get("tags", [])})
+        and note["_path"] != current_path
+    ]
+
+    sections = []
+    for category in categories:
+        selected = []
+        for note in candidates:
+            tags = {tag.lower() for tag in note.get("tags", [])}
+            if not set(category["all"]).issubset(tags):
+                continue
+            if category["any"] and not tags.intersection(category["any"]):
+                continue
+            selected.append(note)
+
+        selected.sort(key=lambda note: note["_filename"].lower())
+        lines = [f"# {category['heading']}"]
+        if selected:
+            lines.extend(f"- {relref_link(note)}" for note in selected)
+        else:
+            lines.append("_No matching notes._")
+        sections.append("\n".join(lines))
+
+    return "\n\n".join(sections)
+
+
 def table_columns(query):
     table_match = re.search(
         r"(?is)^\s*TABLE\s+(.*?)\s+FROM\s+",
@@ -193,6 +266,10 @@ def render_dataview(query, notes, current_path=None):
         return render_list(query, notes, current_path)
     if normalized.startswith("TABLE"):
         return render_table(query, notes, current_path)
+    if "CONST CATEGORIES" in normalized and "DV.HEADER" in normalized:
+        categorized = render_categorized_list(query, notes, current_path)
+        if categorized is not None:
+            return categorized
     if "DV.PAGES" in normalized and "FOR (CONST PAGE OF PAGES)" in normalized:
         return render_list(query, notes, current_path)
     return f"```dataview\n{query}```"
