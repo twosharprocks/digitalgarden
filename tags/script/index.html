@@ -180,6 +180,57 @@
     
       <article class="post on-list">
         <h1 class="post-title">
+          <a href="/posts/script---bash---ping-sweep/">Script - Bash - ping-sweep</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/script/">script</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#Simple ping sweeper to find hosts on a private network</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#Currently only scans fourth octal of ip4 address. Future version should scan 3rd AND 4th - 10.0.x.x instead of just 10.0.0.x)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#Future version could use fping (or just use NMap like everyone else)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#! /bin/bash</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Hosts in 10.0.0.x range&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> ip in <span class="k">$(</span>seq <span class="m">0</span> 254<span class="k">)</span><span class="p">;</span> <span class="k">do</span>
+</span></span><span class="line"><span class="cl">  ping -c <span class="m">1</span> 10.0.0.<span class="nv">$ip</span> <span class="p">|</span> grep <span class="s2">&#34;bytes from&#34;</span> <span class="p">|</span> cut -d <span class="s2">&#34; &#34;</span> -f <span class="m">4</span> <span class="p">|</span> cut -d <span class="s2">&#34;:&#34;</span> -f <span class="m">1</span> <span class="p">&amp;</span>
+</span></span><span class="line"><span class="cl"><span class="k">done</span>
+</span></span><span class="line"><span class="cl">sleep <span class="m">1</span> <span class="c1">#implemented incase the response from a host arrives after the &#34;for&#34; loop completes</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Hosts in 172.16.0.x range&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> ip2 in <span class="k">$(</span>seq <span class="m">0</span> 254<span class="k">)</span><span class="p">;</span> <span class="k">do</span>
+</span></span><span class="line"><span class="cl">	ping -c <span class="m">1</span> 172.16.0.<span class="nv">$ip2</span> <span class="p">|</span> grep <span class="s2">&#34;bytes from&#34;</span> <span class="p">|</span> cut -d <span class="s2">&#34; &#34;</span> -f <span class="m">4</span> <span class="p">|</span> cut -d <span class="s2">&#34;:&#34;</span> -f <span class="m">1</span> <span class="p">&amp;</span>
+</span></span><span class="line"><span class="cl"><span class="k">done</span>
+</span></span><span class="line"><span class="cl">sleep <span class="m">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Hosts in 192.168.0.x range&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> ip3 in <span class="k">$(</span>seq <span class="m">0</span> 254<span class="k">)</span><span class="p">;</span> <span class="k">do</span>
+</span></span><span class="line"><span class="cl">	ping -c <span class="m">1</span> 192.168.0.<span class="nv">$ip3</span> <span class="p">|</span> grep <span class="s2">&#34;bytes from&#34;</span> <span class="p">|</span> cut -d <span class="s2">&#34; &#34;</span> -f <span class="m">4</span> <span class="p">|</span> cut -d <span class="s2">&#34;:&#34;</span> -f <span class="m">1</span> <span class="p">&amp;</span>
+</span></span><span class="line"><span class="cl"><span class="k">done</span>
+</span></span></code></pre></div>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/script---bash---ping-sweep/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
           <a href="/posts/script---cave-finder---muna-island/">Script - Cave Finder - Muna Island</a>
         </h1>
         <div class="post-meta"></div>
@@ -489,7 +540,7 @@
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/script---python---search-replace/">Script - Python - search-replace</a>
+          <a href="/posts/script---powershell---ad-audit/">Script - PowerShell - AD-Audit</a>
         </h1>
         <div class="post-meta"></div>
 
@@ -506,207 +557,394 @@
 
         <div class="post-content">
           
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/env python3</span>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#This script </span>
+</span></span><span class="line"><span class="cl"><span class="kd">Function</span><span class="w"> </span><span class="nb">DecodeUserAccountControl</span> <span class="p">([</span><span class="no">int</span><span class="p">]</span><span class="nv">$UAC</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$UACPropertyFlags</span> <span class="p">=</span> <span class="vm">@</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;SCRIPT&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;ACCOUNTDISABLE&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;RESERVED&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;HOMEDIR_REQUIRED&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;LOCKOUT&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;PASSWD_NOTREQD&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;PASSWD_CANT_CHANGE&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;ENCRYPTED_TEXT_PWD_ALLOWED&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;TEMP_DUPLICATE_ACCOUNT&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;NORMAL_ACCOUNT&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;RESERVED&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;INTERDOMAIN_TRUST_ACCOUNT&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;WORKSTATION_TRUST_ACCOUNT&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;SERVER_TRUST_ACCOUNT&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;RESERVED&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;RESERVED&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;DONT_EXPIRE_PASSWORD&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;MNS_LOGON_ACCOUNT&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;SMARTCARD_REQUIRED&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;TRUSTED_FOR_DELEGATION&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;NOT_DELEGATED&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;USE_DES_KEY_ONLY&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;DONT_REQ_PREAUTH&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;PASSWORD_EXPIRED&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;TRUSTED_TO_AUTH_FOR_DELEGATION&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;RESERVED&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;PARTIAL_SECRETS_ACCOUNT&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;RESERVED&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;RESERVED&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;RESERVED&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;RESERVED&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;RESERVED&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Attributes</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="mf">1</span><span class="p">..(</span><span class="nv">$UACPropertyFlags</span><span class="p">.</span><span class="n">Length</span><span class="p">)</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span><span class="nv">$UAC</span> <span class="o">-bAnd</span> <span class="p">[</span><span class="no">math</span><span class="p">]::</span><span class="n">Pow</span><span class="p">(</span><span class="mf">2</span><span class="p">,</span><span class="nv">$_</span><span class="p">)}</span> <span class="p">|</span> <span class="nb">ForEach-Object</span> <span class="p">{</span><span class="k">If</span> <span class="p">(</span><span class="nv">$Attributes</span><span class="p">.</span><span class="py">Length</span> <span class="o">-EQ</span> <span class="mf">0</span><span class="p">)</span> <span class="p">{</span><span class="nv">$Attributes</span> <span class="p">=</span> <span class="nv">$UACPropertyFlags</span><span class="p">[</span><span class="nv">$_</span><span class="p">]}</span> <span class="k">Else</span> <span class="p">{</span><span class="nv">$Attributes</span> <span class="p">=</span> <span class="nv">$Attributes</span> <span class="p">+</span> <span class="s2">&#34; | &#34;</span> <span class="p">+</span> <span class="nv">$UACPropertyFlags</span><span class="p">[</span><span class="nv">$_</span><span class="p">]}}</span>
+</span></span><span class="line"><span class="cl"><span class="k">Return</span> <span class="nv">$Attributes</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ReportPath</span> <span class="p">=</span> <span class="s2">&#34;\\Directory\Filepath\FolderReportIsWrittenInto&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ReportDate</span> <span class="p">=</span> <span class="nb">Get-Date</span> <span class="n">-Format</span> <span class="nb">dd-MM</span><span class="n">-yyyy</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Users</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">*</span> <span class="n">-Properties</span> <span class="n">CanonicalName</span><span class="p">,</span> <span class="n">PasswordExpired</span><span class="p">,</span> <span class="n">LastLogonDate</span><span class="p">,</span> <span class="n">PasswordLastSet</span><span class="p">,</span> <span class="n">PasswordNeverExpires</span><span class="p">,</span> <span class="n">PasswordNotRequired</span><span class="p">,</span> <span class="n">MemberOf</span><span class="p">,</span> <span class="n">Description</span><span class="p">,</span> <span class="n">Created</span><span class="p">,</span> <span class="n">userAccountControl</span><span class="p">,</span> <span class="n">CannotChangePassword</span><span class="p">,</span> <span class="n">LockedOut</span><span class="p">,</span> <span class="n">AccountExpirationDate</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Report arrays</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Legend</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$DisableUserReport</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$InactiveAccountsReport</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$UnusedAccountsReport</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ExpiredAccountDateReport</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ExpiredAccountPasswordReport</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$AllUserReport</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="k">Foreach</span><span class="p">(</span><span class="nv">$User</span> <span class="k">in</span> <span class="nv">$Users</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$UserOU</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">CanonicalName</span><span class="p">.</span><span class="py">Substring</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span> <span class="nv">$User</span><span class="p">.</span><span class="py">CanonicalName</span><span class="p">.</span><span class="py">LastIndexOf</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">))</span>  
+</span></span><span class="line"><span class="cl">    <span class="k">If</span><span class="p">(</span><span class="nv">$User</span><span class="p">.</span><span class="n">PasswordLastSet</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$PasswordExpiryDate</span> <span class="p">=</span> <span class="p">(</span><span class="nb">Get-Date</span> <span class="p">(</span><span class="nv">$User</span><span class="p">.</span><span class="n">PasswordLastSet</span><span class="p">)).</span><span class="py">AddDays</span><span class="p">(</span><span class="mf">90</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">Elseif</span><span class="p">(</span><span class="nv">$User</span><span class="p">.</span><span class="py">PasswordLastSet</span> <span class="p">=</span> <span class="vm">$null</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$PasswordExpiryDate</span> <span class="p">=</span> <span class="s2">&#34;NULL&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$UAC</span> <span class="p">=</span> <span class="n">DecodeUserAccountControl</span><span class="p">(</span><span class="nv">$User</span><span class="p">.</span><span class="n">userAccountControl</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$AllUserReport</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Username&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">SamAccountName</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Name&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Name</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Description&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Description</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;OU&#39;</span> <span class="p">=</span> <span class="nv">$UserOU</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Creation Date&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Created</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Password Last Set&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordLastSet</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Password Expiration Date&#39;</span> <span class="p">=</span> <span class="nv">$PasswordExpiryDate</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;User Account Control&#39;</span> <span class="p">=</span> <span class="nv">$UAC</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Last Logon&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">LastLogonDate</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Account Enabled&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Enabled</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Password Not Required&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordNotRequired</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Password Never Expires&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordNeverExpires</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Password Cannot Change&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">CannotChangePassword</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Account Locked Out&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">LockedOut</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Account Expiration&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">AccountExpirationDate</span>
+</span></span><span class="line"><span class="cl">    <span class="p">})</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Disabled accounts</span>
+</span></span><span class="line"><span class="cl">    <span class="k">If</span><span class="p">(</span><span class="nv">$User</span><span class="p">.</span><span class="py">Enabled</span> <span class="o">-eq</span> <span class="vm">$false</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$DisableUserReport</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Username&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">SamAccountName</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Name&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Name</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Description&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Description</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;OU&#39;</span> <span class="p">=</span> <span class="nv">$UserOU</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Creation Date&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Created</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Last Set&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordLastSet</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Expiration Date&#39;</span> <span class="p">=</span> <span class="nv">$PasswordExpiryDate</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Expired&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordExpired</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;User Account Control&#39;</span> <span class="p">=</span> <span class="nv">$UAC</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Last Logon&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">LastLogonDate</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Account Enabled&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Enabled</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Not Required&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordNotRequired</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Never Expires&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordNeverExpires</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Cannot Change&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">CannotChangePassword</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Account Locked Out&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">LockedOut</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Account Expiration&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">AccountExpirationDate</span>
+</span></span><span class="line"><span class="cl">        <span class="p">})</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Inactive accounts</span>
+</span></span><span class="line"><span class="cl">    <span class="k">If</span><span class="p">(</span><span class="nv">$User</span><span class="p">.</span><span class="py">LastLogonDate</span> <span class="o">-lt</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="py">AddDays</span><span class="p">(</span><span class="mf">-365</span><span class="p">)</span> <span class="o">-and</span> <span class="p">!(</span><span class="nv">$User</span><span class="p">.</span><span class="py">LastLogonDate</span> <span class="o">-eq</span> <span class="vm">$null</span><span class="p">)){</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$InactiveAccountsReport</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Username&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">SamAccountName</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Name&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Name</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Description&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Description</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;OU&#39;</span> <span class="p">=</span> <span class="nv">$UserOU</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Creation Date&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Created</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Last Set&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordLastSet</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Expiration Date&#39;</span> <span class="p">=</span> <span class="nv">$PasswordExpiryDate</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Expired&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordExpired</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;User Account Control&#39;</span> <span class="p">=</span> <span class="nv">$UAC</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Last Logon&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">LastLogonDate</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Account Enabled&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Enabled</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Not Required&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordNotRequired</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Never Expires&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordNeverExpires</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Cannot Change&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">CannotChangePassword</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Account Locked Out&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">LockedOut</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Account Expiration&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">AccountExpirationDate</span>
+</span></span><span class="line"><span class="cl">        <span class="p">})</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Unused accounts</span>
+</span></span><span class="line"><span class="cl">    <span class="k">If</span><span class="p">(</span><span class="nv">$User</span><span class="p">.</span><span class="py">LastLogonDate</span> <span class="o">-eq</span> <span class="vm">$null</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$UnusedAccountsReport</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Username&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">SamAccountName</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Name&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Name</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Description&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Description</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;OU&#39;</span> <span class="p">=</span> <span class="nv">$UserOU</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Creation Date&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Created</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Last Set&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordLastSet</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Expiration Date&#39;</span> <span class="p">=</span> <span class="nv">$PasswordExpiryDate</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Expired&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordExpired</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;User Account Control&#39;</span> <span class="p">=</span> <span class="nv">$UAC</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Last Logon&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">LastLogonDate</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Account Enabled&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Enabled</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Not Required&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordNotRequired</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Never Expires&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordNeverExpires</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Cannot Change&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">CannotChangePassword</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Account Locked Out&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">LockedOut</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Account Expiration&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">AccountExpirationDate</span>
+</span></span><span class="line"><span class="cl">        <span class="p">})</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Expired dates</span>
+</span></span><span class="line"><span class="cl">    <span class="k">If</span><span class="p">(</span><span class="nv">$User</span><span class="p">.</span><span class="py">AccountExpirationDate</span> <span class="o">-lt</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">)</span> <span class="o">-and</span> <span class="p">!(</span><span class="nv">$User</span><span class="p">.</span><span class="py">AccountExpirationDate</span> <span class="o">-eq</span> <span class="vm">$null</span><span class="p">)){</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$ExpiredAccountDateReport</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Username&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">SamAccountName</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Name&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Name</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Description&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Description</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;OU&#39;</span> <span class="p">=</span> <span class="nv">$UserOU</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Creation Date&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Created</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Last Set&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordLastSet</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Expiration Date&#39;</span> <span class="p">=</span> <span class="nv">$PasswordExpiryDate</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Expired&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordExpired</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;User Account Control&#39;</span> <span class="p">=</span> <span class="nv">$UAC</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Last Logon&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">LastLogonDate</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Account Enabled&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Enabled</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Not Required&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordNotRequired</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Never Expires&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordNeverExpires</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Cannot Change&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">CannotChangePassword</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Account Locked Out&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">LockedOut</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Account Expiration&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">AccountExpirationDate</span>
+</span></span><span class="line"><span class="cl">        <span class="p">})</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Expired Password</span>
+</span></span><span class="line"><span class="cl">    <span class="k">If</span><span class="p">(</span><span class="nv">$User</span><span class="p">.</span><span class="py">PasswordExpired</span> <span class="o">-eq</span> <span class="vm">$true</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$ExpiredAccountPasswordReport</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Username&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">SamAccountName</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Name&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Name</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Description&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Description</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;OU&#39;</span> <span class="p">=</span> <span class="nv">$UserOU</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Creation Date&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Created</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Last Set&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordLastSet</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Expiration Date&#39;</span> <span class="p">=</span> <span class="nv">$PasswordExpiryDate</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Expired&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordExpired</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;User Account Control&#39;</span> <span class="p">=</span> <span class="nv">$UAC</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Last Logon&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">LastLogonDate</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Account Enabled&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">Enabled</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Not Required&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordNotRequired</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Never Expires&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">PasswordNeverExpires</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Password Cannot Change&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">CannotChangePassword</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Account Locked Out&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">LockedOut</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Account Expiration&#39;</span> <span class="p">=</span> <span class="nv">$User</span><span class="p">.</span><span class="py">AccountExpirationDate</span>
+</span></span><span class="line"><span class="cl">        <span class="p">})</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Legend</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Worksheet Name&#39;</span> <span class="p">=</span> <span class="s2">&#34;All Users&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Purpose&#39;</span> <span class="p">=</span> <span class="s2">&#34;All users in AD&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Legend</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Worksheet Name&#39;</span> <span class="p">=</span> <span class="s2">&#34;Disabled Users&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Purpose&#39;</span> <span class="p">=</span> <span class="s2">&#34;Accounts that are disabled (enabled = false)&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Legend</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Worksheet Name&#39;</span> <span class="p">=</span> <span class="s2">&#34;Unused-No Logon Users&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Purpose&#39;</span> <span class="p">=</span> <span class="s2">&#34;Users with the LastLogonDate field set to NULL&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Legend</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Worksheet Name&#39;</span> <span class="p">=</span> <span class="s2">&#34;Inactive Users&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Purpose&#39;</span> <span class="p">=</span> <span class="s2">&#34;Users with the LastLogonDate field a year ago from date of running&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Legend</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Worksheet Name&#39;</span> <span class="p">=</span> <span class="s2">&#34;Expired Users&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Purpose&#39;</span> <span class="p">=</span> <span class="s2">&#34;Users with the account expiration date past the date of running&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Legend</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Worksheet Name&#39;</span> <span class="p">=</span> <span class="s2">&#34;Password Expired Users&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Purpose&#39;</span> <span class="p">=</span> <span class="s2">&#34;Users with an expired password&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Groups</span> <span class="p">=</span> <span class="nb">Get-ADGroup</span> <span class="n">-Filter</span> <span class="p">*</span> <span class="n">-Properties</span> <span class="n">CanonicalName</span><span class="p">,</span> <span class="n">Created</span><span class="p">,</span> <span class="n">Member</span><span class="p">,</span> <span class="n">Modified</span><span class="p">,</span> <span class="n">mail</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Report array</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$AllGroupsReport</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$EmptyGroupsReport</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$MaxTwoMemberGroupsReport</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$GroupsModified365DaysAgoReport</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="k">Foreach</span><span class="p">(</span><span class="nv">$Group</span> <span class="k">in</span> <span class="nv">$Groups</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$GroupOU</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">CanonicalName</span><span class="p">.</span><span class="py">Substring</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">CanonicalName</span><span class="p">.</span><span class="py">LastIndexOf</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$MemberCount</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Member</span><span class="p">.</span><span class="py">Count</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$AllGroupsReport</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Group Name&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Name</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Group Username&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">SamAccountName</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Group OU&#39;</span> <span class="p">=</span> <span class="nv">$GroupOU</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Group Type&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">GroupCategory</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Group Scope&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">GroupScope</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Created Date&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Created</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Modified Date&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Modified</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Mail Address (if DL)&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Mail</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Member Count&#39;</span> <span class="p">=</span> <span class="nv">$MemberCount</span>
+</span></span><span class="line"><span class="cl">    <span class="p">})</span>
+</span></span><span class="line"><span class="cl">    <span class="k">If</span><span class="p">(</span><span class="nv">$MemberCount</span> <span class="o">-eq</span> <span class="mf">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$EmptyGroupsReport</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Group Name&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Name</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Group Username&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">SamAccountName</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Group OU&#39;</span> <span class="p">=</span> <span class="nv">$GroupOU</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Group Type&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">GroupCategory</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Group Scope&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">GroupScope</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Created Date&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Created</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Modified Date&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Modified</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Mail Address (if DL)&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Mail</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Member Count&#39;</span> <span class="p">=</span> <span class="nv">$MemberCount</span>
+</span></span><span class="line"><span class="cl">        <span class="p">})</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">If</span><span class="p">(</span><span class="nv">$MemberCount</span> <span class="o">-lt</span> <span class="mf">3</span> <span class="o">-and</span> <span class="p">!(</span><span class="nv">$MemberCount</span> <span class="o">-eq</span> <span class="mf">0</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$MaxTwoMemberGroupsReport</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Group Name&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Name</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Group Username&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">SamAccountName</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Group OU&#39;</span> <span class="p">=</span> <span class="nv">$GroupOU</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Group Type&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">GroupCategory</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Group Scope&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">GroupScope</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Created Date&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Created</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Modified Date&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Modified</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Mail Address (if DL)&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Mail</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Member Count&#39;</span> <span class="p">=</span> <span class="nv">$MemberCount</span>
+</span></span><span class="line"><span class="cl">        <span class="p">})</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">If</span><span class="p">(</span><span class="nv">$Group</span><span class="p">.</span><span class="py">Modified</span> <span class="o">-lt</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="py">AddDays</span><span class="p">(</span><span class="mf">-365</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$GroupsModified365DaysAgoReport</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Group Name&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Name</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Group Username&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">SamAccountName</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Group OU&#39;</span> <span class="p">=</span> <span class="nv">$GroupOU</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Group Type&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">GroupCategory</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Group Scope&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">GroupScope</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Created Date&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Created</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Modified Date&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Modified</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Mail Address (if DL)&#39;</span> <span class="p">=</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Mail</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Member Count&#39;</span> <span class="p">=</span> <span class="nv">$MemberCount</span>
+</span></span><span class="line"><span class="cl">        <span class="p">})</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Legend</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Worksheet Name&#39;</span> <span class="p">=</span> <span class="s2">&#34;All Groups&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Purpose&#39;</span> <span class="p">=</span> <span class="s2">&#34;All groups in AD&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Legend</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Worksheet Name&#39;</span> <span class="p">=</span> <span class="s2">&#34;Empty Groups&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Purpose&#39;</span> <span class="p">=</span> <span class="s2">&#34;Groups with no members&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Legend</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Worksheet Name&#39;</span> <span class="p">=</span> <span class="s2">&#34;Groups Members &lt; 2&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Purpose&#39;</span> <span class="p">=</span> <span class="s2">&#34;Groups with less than 2 members&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Legend</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Worksheet Name&#39;</span> <span class="p">=</span> <span class="s2">&#34;Groups Modified &gt; 365 Days&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Purpose&#39;</span> <span class="p">=</span> <span class="s2">&#34;Groups modified over a year ago&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Computers</span> <span class="p">=</span> <span class="nb">Get-ADComputer</span> <span class="n">-Filter</span> <span class="p">*</span> <span class="n">-Properties</span> <span class="n">CanonicalName</span><span class="p">,</span> <span class="n">Created</span><span class="p">,</span> <span class="n">Enabled</span><span class="p">,</span> <span class="n">Modified</span><span class="p">,</span> <span class="n">LastLogonDate</span><span class="p">,</span> <span class="n">OperatingSystem</span><span class="p">,</span> <span class="n">OperatingSystemVersion</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Computer report arrays</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$AllComputers</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$AllWorkstations</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$AllServers</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$DisabledComputers</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$InactiveComputers</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$NoLogonComputers</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="k">Foreach</span><span class="p">(</span><span class="nv">$Computer</span> <span class="k">in</span> <span class="nv">$Computers</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$ComputerOU</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">CanonicalName</span><span class="p">.</span><span class="py">Substring</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">CanonicalName</span><span class="p">.</span><span class="py">LastIndexOf</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$AllComputers</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Name&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">Name</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;OU&#39;</span> <span class="p">=</span> <span class="nv">$ComputerOU</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Created Date&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">Created</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Modified Date&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">Modified</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Enabled&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">Enabled</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;Last Logon Date&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">LastLogonDate</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;OS&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">OperatingSystem</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;OS Version&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">OperatingSystemVersion</span>
+</span></span><span class="line"><span class="cl">    <span class="p">})</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">argparse</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">re</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">slugify</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;Replace spaces with dashes and strip leading/trailing spaces.&#34;&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">,</span> <span class="s2">&#34;-&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">process_file</span><span class="p">(</span><span class="n">path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="n">pattern</span><span class="p">:</span> <span class="n">re</span><span class="o">.</span><span class="n">Pattern</span><span class="p">,</span> <span class="n">repl_func</span><span class="p">,</span> <span class="n">dry_run</span><span class="p">:</span> <span class="nb">bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;
-</span></span></span><span class="line"><span class="cl"><span class="s2">
-</span></span></span><span class="line"><span class="cl"><span class="s2">    Returns number of replacements made in this file.
-</span></span></span><span class="line"><span class="cl"><span class="s2">
-</span></span></span><span class="line"><span class="cl"><span class="s2">    &#34;&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">text</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">read_text</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">updated</span><span class="p">,</span> <span class="n">n</span> <span class="o">=</span> <span class="n">pattern</span><span class="o">.</span><span class="n">subn</span><span class="p">(</span><span class="n">repl_func</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">dry_run</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">path</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">updated</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">n</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">description</span><span class="o">=</span><span class="s2">&#34;Replace [[text]] with #text (spaces become dashes) in markdown files.&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;text&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Search term inside [[...]] to replace (e.g., &#39;Bucket List&#39;).&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--root&#34;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s2">&#34;.&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Root folder to scan (default: current directory).&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--recursive&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Recurse into subfolders.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--dry-run&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Show what would change, but don&#39;t write files.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--ignore-case&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Match [[text]] case-insensitively.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">args</span> <span class="o">=</span> <span class="n">ap</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">root</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">root</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">pattern_glob</span> <span class="o">=</span> <span class="s2">&#34;**/*.md&#34;</span> <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">recursive</span> <span class="k">else</span> <span class="s2">&#34;*.md&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1"># Build regex that matches [[&lt;text&gt;]], allowing for internal spaces</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">flags</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span> <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">ignore_case</span> <span class="k">else</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">escaped</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">escape</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">needle</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&#34;\[\[\s*&#34;</span> <span class="o">+</span> <span class="n">escaped</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="sa">r</span><span class="s2">&#34;\ &#34;</span><span class="p">,</span> <span class="sa">r</span><span class="s2">&#34;\s+&#34;</span><span class="p">)</span> <span class="o">+</span> <span class="sa">r</span><span class="s2">&#34;\s*\]\]&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">pattern</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">needle</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="n">flags</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1"># Replacement function (keeps proper slug formatting)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">repl_func</span><span class="p">(</span><span class="k">match</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="s2">&#34;#&#34;</span> <span class="o">+</span> <span class="n">slugify</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">files</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="n">pattern_glob</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">total_files</span> <span class="o">=</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">changed_files</span> <span class="o">=</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">total_replacements</span> <span class="o">=</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="ow">not</span> <span class="n">f</span><span class="o">.</span><span class="n">is_file</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="k">continue</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">total_files</span> <span class="o">+=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">n</span> <span class="o">=</span> <span class="n">process_file</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">pattern</span><span class="o">=</span><span class="n">pattern</span><span class="p">,</span> <span class="n">repl_func</span><span class="o">=</span><span class="n">repl_func</span><span class="p">,</span> <span class="n">dry_run</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">dry_run</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">total_replacements</span> <span class="o">+=</span> <span class="n">n</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="n">changed_files</span> <span class="o">+=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[UPDATED</span><span class="si">{</span><span class="s1">&#39;&#39;</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">args</span><span class="o">.</span><span class="n">dry_run</span> <span class="k">else</span> <span class="s1">&#39; (dry)&#39;</span><span class="si">}</span><span class="s2">] </span><span class="si">{</span><span class="n">f</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> (+</span><span class="si">{</span><span class="n">n</span><span class="si">}</span><span class="s2">)&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[SKIPPED] </span><span class="si">{</span><span class="n">f</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">Done. Files scanned: </span><span class="si">{</span><span class="n">total_files</span><span class="si">}</span><span class="s2">. Files changed: </span><span class="si">{</span><span class="n">changed_files</span><span class="si">}</span><span class="s2">. Replacements: </span><span class="si">{</span><span class="n">total_replacements</span><span class="si">}</span><span class="s2">.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">dry_run</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;No files were written (dry run). Use without --dry-run to apply changes.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">main</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="k">If</span><span class="p">(</span><span class="nv">$Computer</span><span class="p">.</span><span class="py">Enabled</span> <span class="o">-eq</span> <span class="vm">$false</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$DisabledComputers</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Name&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">Name</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;OU&#39;</span> <span class="p">=</span> <span class="nv">$ComputerOU</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Created Date&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">Created</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Modified Date&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">Modified</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Enabled&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">Enabled</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Last Logon Date&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">LastLogonDate</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;OS&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">OperatingSystem</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;OS Version&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">OperatingSystemVersion</span>
+</span></span><span class="line"><span class="cl">        <span class="p">})</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">If</span><span class="p">(</span><span class="nv">$Computer</span><span class="p">.</span><span class="py">LastLogonDate</span> <span class="o">-lt</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="py">AddDays</span><span class="p">(</span><span class="mf">-90</span><span class="p">)</span> <span class="o">-and</span> <span class="p">!(</span><span class="nv">$Computer</span><span class="p">.</span><span class="py">LastLogonDate</span> <span class="o">-eq</span> <span class="vm">$null</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$InactiveComputers</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Name&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">Name</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;OU&#39;</span> <span class="p">=</span> <span class="nv">$ComputerOU</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Created Date&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">Created</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Modified Date&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">Modified</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Enabled&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">Enabled</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Last Logon Date&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">LastLogonDate</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;OS&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">OperatingSystem</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;OS Version&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">OperatingSystemVersion</span>
+</span></span><span class="line"><span class="cl">        <span class="p">})</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">If</span><span class="p">(</span><span class="nv">$Computer</span><span class="p">.</span><span class="py">LastLogonDate</span> <span class="o">-eq</span> <span class="vm">$null</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$NoLogonComputers</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Name&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">Name</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;OU&#39;</span> <span class="p">=</span> <span class="nv">$ComputerOU</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Created Date&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">Created</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Modified Date&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">Modified</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Enabled&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">Enabled</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;Last Logon Date&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">LastLogonDate</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;OS&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">OperatingSystem</span>
+</span></span><span class="line"><span class="cl">            <span class="s1">&#39;OS Version&#39;</span> <span class="p">=</span> <span class="nv">$Computer</span><span class="p">.</span><span class="py">OperatingSystemVersion</span>
+</span></span><span class="line"><span class="cl">        <span class="p">})</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Legend</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Worksheet Name&#39;</span> <span class="p">=</span> <span class="s2">&#34;All Computers&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Purpose&#39;</span> <span class="p">=</span> <span class="s2">&#34;All computers in AD&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Legend</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Worksheet Name&#39;</span> <span class="p">=</span> <span class="s2">&#34;Disabled Computers&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Purpose&#39;</span> <span class="p">=</span> <span class="s2">&#34;Computers that are not enabled&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Legend</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Worksheet Name&#39;</span> <span class="p">=</span> <span class="s2">&#34;Inactive Computers&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Purpose&#39;</span> <span class="p">=</span> <span class="s2">&#34;Computers with logon date over a year ago&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Legend</span> <span class="p">+=</span> <span class="nb">New-Object</span> <span class="n">PSObject</span> <span class="n">-Property</span> <span class="p">([</span><span class="no">ordered</span><span class="p">]</span><span class="vm">@</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Worksheet Name&#39;</span> <span class="p">=</span> <span class="s2">&#34;No Logon Computers&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Purpose&#39;</span> <span class="p">=</span> <span class="s2">&#34;Computers with no logon date&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Legend</span> <span class="p">|</span> <span class="nb">Export-Excel</span> <span class="s2">&#34;</span><span class="nv">$ReportPath</span><span class="s2">\</span><span class="nv">$ReportDate</span><span class="s2"> - AD Report.xlsx&#34;</span> <span class="n">-WorksheetName</span> <span class="s2">&#34;Legend&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$AllUserReport</span> <span class="p">|</span> <span class="nb">Export-Excel</span> <span class="s2">&#34;</span><span class="nv">$ReportPath</span><span class="s2">\</span><span class="nv">$ReportDate</span><span class="s2"> - AD Report.xlsx&#34;</span> <span class="n">-WorksheetName</span> <span class="s2">&#34;All Users&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$DisableUserReport</span> <span class="p">|</span> <span class="nb">Export-Excel</span> <span class="s2">&#34;</span><span class="nv">$ReportPath</span><span class="s2">\</span><span class="nv">$ReportDate</span><span class="s2"> - AD Report.xlsx&#34;</span> <span class="n">-WorksheetName</span> <span class="s2">&#34;Disabled Users&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$UnusedAccountsReport</span> <span class="p">|</span> <span class="nb">Export-Excel</span> <span class="s2">&#34;</span><span class="nv">$ReportPath</span><span class="s2">\</span><span class="nv">$ReportDate</span><span class="s2"> - AD Report.xlsx&#34;</span> <span class="n">-WorksheetName</span> <span class="s2">&#34;Unused-No Logon Users&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$InactiveAccountsReport</span> <span class="p">|</span> <span class="nb">Export-Excel</span> <span class="s2">&#34;</span><span class="nv">$ReportPath</span><span class="s2">\</span><span class="nv">$ReportDate</span><span class="s2"> - AD Report.xlsx&#34;</span> <span class="n">-WorksheetName</span> <span class="s2">&#34;Inactive Users&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ExpiredAccountDateReport</span> <span class="p">|</span> <span class="nb">Export-Excel</span> <span class="s2">&#34;</span><span class="nv">$ReportPath</span><span class="s2">\</span><span class="nv">$ReportDate</span><span class="s2"> - AD Report.xlsx&#34;</span> <span class="n">-WorksheetName</span> <span class="s2">&#34;Expired Users&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ExpiredAccountPasswordReport</span> <span class="p">|</span> <span class="nb">Export-Excel</span> <span class="s2">&#34;</span><span class="nv">$ReportPath</span><span class="s2">\</span><span class="nv">$ReportDate</span><span class="s2"> - AD Report.xlsx&#34;</span> <span class="n">-WorksheetName</span> <span class="s2">&#34;Password Expired Users&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$AllGroupsReport</span> <span class="p">|</span> <span class="nb">Export-Excel</span> <span class="s2">&#34;</span><span class="nv">$ReportPath</span><span class="s2">\</span><span class="nv">$ReportDate</span><span class="s2"> - AD Report.xlsx&#34;</span> <span class="n">-WorksheetName</span> <span class="s2">&#34;All Groups&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$EmptyGroupsReport</span> <span class="p">|</span> <span class="nb">Export-Excel</span> <span class="s2">&#34;</span><span class="nv">$ReportPath</span><span class="s2">\</span><span class="nv">$ReportDate</span><span class="s2"> - AD Report.xlsx&#34;</span> <span class="n">-WorksheetName</span> <span class="s2">&#34;Empty Groups&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$MaxTwoMemberGroupsReport</span> <span class="p">|</span> <span class="nb">Export-Excel</span> <span class="s2">&#34;</span><span class="nv">$ReportPath</span><span class="s2">\</span><span class="nv">$ReportDate</span><span class="s2"> - AD Report.xlsx&#34;</span> <span class="n">-WorksheetName</span> <span class="s2">&#34;Groups Members &lt; 2&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$GroupsModified365DaysAgoReport</span> <span class="p">|</span> <span class="nb">Export-Excel</span> <span class="s2">&#34;</span><span class="nv">$ReportPath</span><span class="s2">\</span><span class="nv">$ReportDate</span><span class="s2"> - AD Report.xlsx&#34;</span> <span class="n">-WorksheetName</span> <span class="s2">&#34;Groups Modified &gt; 365 Days&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$AllComputers</span> <span class="p">|</span> <span class="nb">Export-Excel</span> <span class="s2">&#34;</span><span class="nv">$ReportPath</span><span class="s2">\</span><span class="nv">$ReportDate</span><span class="s2"> - AD Report.xlsx&#34;</span> <span class="n">-WorksheetName</span> <span class="s2">&#34;All Computers&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$DisabledComputers</span> <span class="p">|</span> <span class="nb">Export-Excel</span> <span class="s2">&#34;</span><span class="nv">$ReportPath</span><span class="s2">\</span><span class="nv">$ReportDate</span><span class="s2"> - AD Report.xlsx&#34;</span> <span class="n">-WorksheetName</span> <span class="s2">&#34;Disabled Computers&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$InactiveComputers</span> <span class="p">|</span> <span class="nb">Export-Excel</span> <span class="s2">&#34;</span><span class="nv">$ReportPath</span><span class="s2">\</span><span class="nv">$ReportDate</span><span class="s2"> - AD Report.xlsx&#34;</span> <span class="n">-WorksheetName</span> <span class="s2">&#34;Inactive Computers&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$NoLogonComputers</span> <span class="p">|</span> <span class="nb">Export-Excel</span> <span class="s2">&#34;</span><span class="nv">$ReportPath</span><span class="s2">\</span><span class="nv">$ReportDate</span><span class="s2"> - AD Report.xlsx&#34;</span> <span class="n">-WorksheetName</span> <span class="s2">&#34;No Logon Computers&#34;</span>
 </span></span></code></pre></div>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/script---python---search-replace/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/scripts/">Scripts</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <hr>
-<ul>
-<li>Don&rsquo;t save scripts in Obsidian - copy their contents to a markdown file for sharing/editing</li>
-</ul>
-<hr>
-<h1 id="bash">Bash</h1>
-<ul>
-<li>ping-sweep.sh</li>
-</ul>
-<h1 id="powershell">Powershell</h1>
-<p>Active Directory</p>
-<ul>
-<li>AD-Audit.ps1</li>
-<li>AD-EmailToUser.ps1</li>
-<li>AD-GroupMembers.ps1</li>
-<li>AD-Misc.ps1</li>
-<li>AD-NewUser.ps1</li>
-<li>AD-Offboarding.ps1</li>
-<li>AD-OUMaintenance.ps1</li>
-</ul>
-<p>Misc</p>
-<ul>
-<li>Archive-UserFiles.ps1</li>
-<li>ServiceDesk.ps1</li>
-</ul>
-<h1 id="python">Python</h1>
-<ul>
-<li>pdftoterminal.py</li>
-<li>Script - redact.py</li>
-<li>Script - unredact.py</li>
-<li><a href="/posts/script---python---search-replace/">Script - Python - search-replace</a></li>
-</ul>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/scripts/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---powershell---ad-audit/">[Read more]</a>
           </div>
         
       </article>
@@ -716,6 +954,10 @@
   <div class="pagination__buttons">
     
     
+    
+      <a href="/tags/script/page/2/" class="button inline next">
+        [<span class="button__text">Older posts</span>] &gt;
+      </a>
     
   </div>
 </div>

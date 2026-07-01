@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Script - PowerShell - AD-Misc :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="#Set or change an employeeID function set-employeeID { $username = Read-Host &#34;Enter username to add employeeID to&#34; $employeeID = Read-Host &#34;Enter employeeID for $username&#34; Set-ADUser -Identity $username -Replace @{employeeID=&#34;$employeeID&#34;} } #Set or change &#34;workdays&#34; (or any other user attirbute) function set-UserAttribute { $username = Read-Host &#34;Enter username to add workdays to&#34; $workdays = Read-Host &#34;Enter user&#39;s work days&#34; Set-ADUser -Identity $username -Replace @{extensionAttribute10=&#34;$workdays&#34;} } #Edit a mailbox function edit-mailbox { $NewMailbox = Read-Host &#39;Enter the username of the new shared mailbox&#39; $description = Read-Host &#39;Enter the mailbox description&#39; $office = &#34;Office name here&#34; $department = &#34;Add Department here&#34; $streetAddress = &#34;Add address here&#34; $city = &#39;City name here&#39; $postalCode = &#39;Postcode here&#39; #Code starts here - do not edit below this point Set-ADUser -Identity $NewMailbox -Office $office -department $department -streetAddress $streetAddress -state STATE -city $city -PostalCode $postalCode -description $description -title $description -company &#34;Company Name&#34; -Replace @{c=&#34;AU&#34;;wWWHomePage=&#34;http:\\www.websitehere.com&#34;} write-host &#34;Details added to $NewMailbox in Active Directory&#34; } #Find AD accounts from a list of display names $text = Read-Host &#34;Paste list of display names here:&#34; $displayNameList = $text -replace &#39;(.&#43;)&#39;, &#39;&#34;$1&#34;,&#39; $ouPath = Read-Host &#34;Enter OU to search&#34; foreach ($displayName in $displayNameList) { $user = Get-ADUser -Filter { DisplayName -eq $displayName } -SearchBase $ouPath if ($user) { Write-Host &#34;&#39;$displayName&#39; matches $user in $ouPath&#34; } else { Write-Host &#34;&#39;$displayName&#39; not found in $ouPath&#34; } } " />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/script---powershell---ad-misc/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Script - PowerShell - AD-Misc">
+<meta property="og:description" content="#Set or change an employeeID function set-employeeID { $username = Read-Host &#34;Enter username to add employeeID to&#34; $employeeID = Read-Host &#34;Enter employeeID for $username&#34; Set-ADUser -Identity $username -Replace @{employeeID=&#34;$employeeID&#34;} } #Set or change &#34;workdays&#34; (or any other user attirbute) function set-UserAttribute { $username = Read-Host &#34;Enter username to add workdays to&#34; $workdays = Read-Host &#34;Enter user&#39;s work days&#34; Set-ADUser -Identity $username -Replace @{extensionAttribute10=&#34;$workdays&#34;} } #Edit a mailbox function edit-mailbox { $NewMailbox = Read-Host &#39;Enter the username of the new shared mailbox&#39; $description = Read-Host &#39;Enter the mailbox description&#39; $office = &#34;Office name here&#34; $department = &#34;Add Department here&#34; $streetAddress = &#34;Add address here&#34; $city = &#39;City name here&#39; $postalCode = &#39;Postcode here&#39; #Code starts here - do not edit below this point Set-ADUser -Identity $NewMailbox -Office $office -department $department -streetAddress $streetAddress -state STATE -city $city -PostalCode $postalCode -description $description -title $description -company &#34;Company Name&#34; -Replace @{c=&#34;AU&#34;;wWWHomePage=&#34;http:\\www.websitehere.com&#34;} write-host &#34;Details added to $NewMailbox in Active Directory&#34; } #Find AD accounts from a list of display names $text = Read-Host &#34;Paste list of display names here:&#34; $displayNameList = $text -replace &#39;(.&#43;)&#39;, &#39;&#34;$1&#34;,&#39; $ouPath = Read-Host &#34;Enter OU to search&#34; foreach ($displayName in $displayNameList) { $user = Get-ADUser -Filter { DisplayName -eq $displayName } -SearchBase $ouPath if ($user) { Write-Host &#34;&#39;$displayName&#39; matches $user in $ouPath&#34; } else { Write-Host &#34;&#39;$displayName&#39; not found in $ouPath&#34; } } " />
+<meta property="og:url" content="/posts/script---powershell---ad-misc/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+<script defer src="/search.js"></script>
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    <div class="site-search" role="search">
+      <label class="sr-only" for="garden-search">Search the digital garden</label>
+      <input
+        id="garden-search"
+        class="site-search__input"
+        type="search"
+        placeholder="Search pages..."
+        autocomplete="off"
+        aria-autocomplete="list"
+        aria-controls="garden-search-results"
+        aria-expanded="false"
+      >
+      <div
+        id="garden-search-results"
+        class="site-search__results"
+        role="listbox"
+        hidden
+      ></div>
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/script---powershell---ad-misc/">Script - PowerShell - AD-Misc</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/script/">script</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#Set or change an employeeID</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">set-employeeID</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$username</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter username to add employeeID to&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$employeeID</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter employeeID for </span><span class="nv">$username</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$username</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">employeeID</span><span class="p">=</span><span class="s2">&#34;</span><span class="nv">$employeeID</span><span class="s2">&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Set or change &#34;workdays&#34; (or any other user attirbute)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">set-UserAttribute</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$username</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter username to add workdays to&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$workdays</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter user&#39;s work days&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$username</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">extensionAttribute10</span><span class="p">=</span><span class="s2">&#34;</span><span class="nv">$workdays</span><span class="s2">&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Edit a mailbox</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">edit-mailbox</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$NewMailbox</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s1">&#39;Enter the username of the new shared mailbox&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$description</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s1">&#39;Enter the mailbox description&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$office</span> <span class="p">=</span> <span class="s2">&#34;Office name here&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$department</span> <span class="p">=</span> <span class="s2">&#34;Add Department here&#34;</span> 
+</span></span><span class="line"><span class="cl">    <span class="nv">$streetAddress</span> <span class="p">=</span> <span class="s2">&#34;Add address here&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$city</span> <span class="p">=</span> <span class="s1">&#39;City name here&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$postalCode</span> <span class="p">=</span> <span class="s1">&#39;Postcode here&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="c">#Code starts here - do not edit below this point</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$NewMailbox</span> <span class="n">-Office</span> <span class="nv">$office</span> <span class="n">-department</span> <span class="nv">$department</span> <span class="n">-streetAddress</span> <span class="nv">$streetAddress</span> <span class="n">-state</span> <span class="n">STATE</span> <span class="n">-city</span> <span class="nv">$city</span> <span class="n">-PostalCode</span> <span class="nv">$postalCode</span> <span class="n">-description</span> <span class="nv">$description</span> <span class="n">-title</span> <span class="nv">$description</span> <span class="n">-company</span> <span class="s2">&#34;Company Name&#34;</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">c</span><span class="p">=</span><span class="s2">&#34;AU&#34;</span><span class="p">;</span><span class="n">wWWHomePage</span><span class="p">=</span><span class="s2">&#34;http:\\www.websitehere.com&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">write-host</span> <span class="s2">&#34;Details added to </span><span class="nv">$NewMailbox</span><span class="s2"> in Active Directory&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Find AD accounts from a list of display names</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$text</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Paste list of display names here:&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$displayNameList</span> <span class="p">=</span> <span class="nv">$text</span> <span class="o">-replace</span> <span class="s1">&#39;(.+)&#39;</span><span class="p">,</span> <span class="s1">&#39;&#34;$1&#34;,&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter OU to search&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$displayName</span> <span class="k">in</span> <span class="nv">$displayNameList</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span> <span class="n">DisplayName</span> <span class="o">-eq</span> <span class="nv">$displayName</span> <span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$user</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;&#39;</span><span class="nv">$displayName</span><span class="s2">&#39; matches </span><span class="nv">$user</span><span class="s2"> in </span><span class="nv">$ouPath</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;&#39;</span><span class="nv">$displayName</span><span class="s2">&#39; not found in </span><span class="nv">$ouPath</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/script---powershell---ad-groupmembers/" class="button inline prev">
+        &lt; [<span class="button__text">Script - PowerShell - AD-GroupMembers</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/script---powershell---ad-newuser/" class="button inline next">
+         [<span class="button__text">Script - PowerShell - AD-NewUser</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

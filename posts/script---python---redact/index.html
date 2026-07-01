@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Script - Python - redact :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="import re import chardet def read_file(file_path): with open(file_path, &#39;rb&#39;) as file: raw_data = file.read() result = chardet.detect(raw_data) encoding = result[&#39;encoding&#39;] with open(file_path, &#39;r&#39;, encoding=encoding) as file: return file.read() def write_file(file_path, content): with open(file_path, &#39;w&#39;, encoding=&#39;utf-8&#39;) as file: file.write(content) def redact_company_name(text, company_name): return re.sub(re.escape(company_name), &#39;[REDACTED]&#39;, text, flags=re.IGNORECASE) def main(): # Prompt the user to enter the file paths and company name input_file = input(&#34;Please enter the path to the input file: &#34;) output_file = input(&#34;Please enter the name for the output file: &#34;) company_name = input(&#34;Please enter the company name to redact: &#34;) try: # Read the original file original_text = read_file(input_file) except UnicodeDecodeError as e: print(f&#34;Error reading file: {e}&#34;) return # Redact the company name redacted_text = redact_company_name(original_text, company_name) # Write the redacted text to the output file write_file(output_file, redacted_text) if __name__ == &#34;__main__&#34;: main() " />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/script---python---redact/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Script - Python - redact">
+<meta property="og:description" content="import re import chardet def read_file(file_path): with open(file_path, &#39;rb&#39;) as file: raw_data = file.read() result = chardet.detect(raw_data) encoding = result[&#39;encoding&#39;] with open(file_path, &#39;r&#39;, encoding=encoding) as file: return file.read() def write_file(file_path, content): with open(file_path, &#39;w&#39;, encoding=&#39;utf-8&#39;) as file: file.write(content) def redact_company_name(text, company_name): return re.sub(re.escape(company_name), &#39;[REDACTED]&#39;, text, flags=re.IGNORECASE) def main(): # Prompt the user to enter the file paths and company name input_file = input(&#34;Please enter the path to the input file: &#34;) output_file = input(&#34;Please enter the name for the output file: &#34;) company_name = input(&#34;Please enter the company name to redact: &#34;) try: # Read the original file original_text = read_file(input_file) except UnicodeDecodeError as e: print(f&#34;Error reading file: {e}&#34;) return # Redact the company name redacted_text = redact_company_name(original_text, company_name) # Write the redacted text to the output file write_file(output_file, redacted_text) if __name__ == &#34;__main__&#34;: main() " />
+<meta property="og:url" content="/posts/script---python---redact/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+<script defer src="/search.js"></script>
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    <div class="site-search" role="search">
+      <label class="sr-only" for="garden-search">Search the digital garden</label>
+      <input
+        id="garden-search"
+        class="site-search__input"
+        type="search"
+        placeholder="Search pages..."
+        autocomplete="off"
+        aria-autocomplete="list"
+        aria-controls="garden-search-results"
+        aria-expanded="false"
+      >
+      <div
+        id="garden-search-results"
+        class="site-search__results"
+        role="listbox"
+        hidden
+      ></div>
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/script---python---redact/">Script - Python - redact</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/script/">script</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">re</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">chardet</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">read_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">raw_data</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="n">result</span> <span class="o">=</span> <span class="n">chardet</span><span class="o">.</span><span class="n">detect</span><span class="p">(</span><span class="n">raw_data</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">encoding</span> <span class="o">=</span> <span class="n">result</span><span class="p">[</span><span class="s1">&#39;encoding&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="n">encoding</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">write_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">content</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">content</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">redact_company_name</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">company_name</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">escape</span><span class="p">(</span><span class="n">company_name</span><span class="p">),</span> <span class="s1">&#39;[REDACTED]&#39;</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># Prompt the user to enter the file paths and company name</span>
+</span></span><span class="line"><span class="cl">    <span class="n">input_file</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the path to the input file: &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">output_file</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the name for the output file: &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">company_name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the company name to redact: &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># Read the original file</span>
+</span></span><span class="line"><span class="cl">        <span class="n">original_text</span> <span class="o">=</span> <span class="n">read_file</span><span class="p">(</span><span class="n">input_file</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">except</span> <span class="ne">UnicodeDecodeError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Error reading file: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># Redact the company name</span>
+</span></span><span class="line"><span class="cl">    <span class="n">redacted_text</span> <span class="o">=</span> <span class="n">redact_company_name</span><span class="p">(</span><span class="n">original_text</span><span class="p">,</span> <span class="n">company_name</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># Write the redacted text to the output file</span>
+</span></span><span class="line"><span class="cl">    <span class="n">write_file</span><span class="p">(</span><span class="n">output_file</span><span class="p">,</span> <span class="n">redacted_text</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">main</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    
+</span></span></code></pre></div>
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/script---python---pdftoterminal/" class="button inline prev">
+        &lt; [<span class="button__text">Script - Python - pdftoterminal</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/script---python---search-replace/" class="button inline next">
+         [<span class="button__text">Script - Python - search-replace</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
