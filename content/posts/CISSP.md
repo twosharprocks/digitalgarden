@@ -1,7 +1,7 @@
 ---
 title: CISSP
 created: 2025-07-15
-updated: 2025-10-30
+updated: 2026-07-01
 status: seed
 draft: false
 tags:
@@ -14,14 +14,14 @@ Related:
 ---
 [ISC2 - Certified Information Systems Security Professional](https://www.isc2.org/Certifications/CISSP)
 - **Domains** (with personal notes)
-    1. [CISSP - 1 - Security & Risk Management]({{< relref "posts/CISSP - 1 - Security & Risk Management.md" >}})
-    2. [CISSP - 2 - Asset Security]({{< relref "posts/CISSP - 2 - Asset Security.md" >}})
-    3. [CISSP - 3 - Security Architecture & Engineering]({{< relref "posts/CISSP - 3 - Security Architecture & Engineering.md" >}})
-    4. [CISSP - 4 - Communication & Network Security]({{< relref "posts/CISSP - 4 - Communication & Network Security.md" >}})
-    5. [CISSP - 5 - Identity & Access Management (IAM)]({{< relref "posts/CISSP - 5 - Identity & Access Management (IAM).md" >}})
-    6. [CISSP - 6 - Security Assessment & Testing]({{< relref "posts/CISSP - 6 - Security Assessment & Testing.md" >}})
-    7. [CISSP - 7 - Security Operations]({{< relref "posts/CISSP - 7 - Security Operations.md" >}})
-    8. [CISSP - 8 - Software Development Security]({{< relref "posts/CISSP - 8 - Software Development Security.md" >}})
+ 1. [CISSP - 1 - Security & Risk Management]({{< relref "posts/CISSP - 1 - Security & Risk Management.md" >}})
+ 2. [CISSP - 2 - Asset Security]({{< relref "posts/CISSP - 2 - Asset Security.md" >}})
+ 3. [CISSP - 3 - Security Architecture & Engineering]({{< relref "posts/CISSP - 3 - Security Architecture & Engineering.md" >}})
+ 4. [CISSP - 4 - Communication & Network Security]({{< relref "posts/CISSP - 4 - Communication & Network Security.md" >}})
+ 5. [CISSP - 5 - Identity & Access Management (IAM)]({{< relref "posts/CISSP - 5 - Identity & Access Management (IAM).md" >}})
+ 6. [CISSP - 6 - Security Assessment & Testing]({{< relref "posts/CISSP - 6 - Security Assessment & Testing.md" >}})
+ 7. [CISSP - 7 - Security Operations]({{< relref "posts/CISSP - 7 - Security Operations.md" >}})
+ 8. [CISSP - 8 - Software Development Security]({{< relref "posts/CISSP - 8 - Software Development Security.md" >}})
 
 - **Requirements**:
     - Pass the CISSP exam.
