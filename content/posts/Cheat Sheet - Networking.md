@@ -231,8 +231,8 @@ Routing can also be either static or dynamic
     * 8333 (Bitcoin)
 * **[Dynamic/Private ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Dynamic,_private_or_ephemeral_ports)** (49152-65535) “Source” ports for machine→machine
 ## Network Tools {#network-tools}
-<span style="text-decoration:underline;">NMap</span> - IP address & Port scanner
-* [NMap Cheat Sheet](https://www.stationx.net/nmap-cheat-sheet/)
+<span style="text-decoration:underline;">Nmap</span> - IP address & Port scanner
+* [Nmap Cheat Sheet](https://www.stationx.net/nmap-cheat-sheet/)
 ### Wireshark
 * [Wireshark User Manual](https://www.wireshark.org/docs/wsug_html_chunked/)
 * [Wireshark Learning Resources](https://www.wireshark.org/#learnWS)

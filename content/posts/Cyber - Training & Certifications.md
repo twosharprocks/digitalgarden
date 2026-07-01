@@ -58,6 +58,6 @@ Potential
 	* [Typing](https://www.typingclub.com/sportal/program-3.game)
 	* [Unreal Engine](https://www.gamedev.tv/dashboard)
 	* [IBM Incident Response](https://www.coursera.org/learn/ibm-incident-response-digital-forensics)
-	* [NVidia Training (AI, ect)](https://learn.nvidia.com/en-us/training/find-training)
+	* [Nvidia Training (AI, ect)](https://learn.nvidia.com/en-us/training/find-training)
 
 

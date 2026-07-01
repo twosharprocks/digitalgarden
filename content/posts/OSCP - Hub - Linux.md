@@ -16,7 +16,7 @@ What was really frustrating was finding that none of those exploit actually work
 If this was for real, I would have spent a lot longer on it making sure I could get much easier access (the website was wide open anyway) but even getting the basics seemed way harder than it should have been because of things not working.
 
 # Resolution summary
-- Scanned with NMap
+- Scanned with Nmap
 - Identified website on port 8082
 - Set admin credentials, uploaded reverse shell to "About" page
 - Navigated to "About" page and caught reverse shell as `root`

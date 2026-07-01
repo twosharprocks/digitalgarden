@@ -64,7 +64,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ## Port 22 - SSH (OpenSSH 8.3p1)
 No enumeration conducted
 ## Port 80 - 6379 (Redis 4.0.14)
-- Identified `Redis 4.0.14` from NMap scan, and attempted to connect with `nc -vn 192.168.243.176 6379`
+- Identified `Redis 4.0.14` from Nmap scan, and attempted to connect with `nc -vn 192.168.243.176 6379`
 ![OSCP Blackgate Linux Image1](/images/OSCP%20-%20Blackgate%20-%20Linux%20-%20image1.png)
 - Enumerated `redis` with command `INFO`
 ![OSCP Blackgate Linux Image2](/images/OSCP%20-%20Blackgate%20-%20Linux%20-%20image2.png)

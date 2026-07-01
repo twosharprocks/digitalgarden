@@ -14,7 +14,7 @@ language: Bash
 ```bash
 #Simple ping sweeper to find hosts on a private network
 #Currently only scans fourth octal of ip4 address. Future version should scan 3rd AND 4th - 10.0.x.x instead of just 10.0.0.x)
-#Future version could use fping (or just use NMap like everyone else)
+#Future version could use fping (or just use Nmap like everyone else)
 
 #! /bin/bash
 echo "Hosts in 10.0.0.x range"

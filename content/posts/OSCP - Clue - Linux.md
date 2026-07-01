@@ -119,7 +119,7 @@ No enumeration conducted
 - Ran exploit again with `python3 49362.py -p 3000 192.168.114.240 /etc/freeswitch/autoload_configs/event_socket.conf.xml` to identify `Freeswitch` password `StrongClueConEight021`
 ![OSCP Clue Linux Image12](/images/OSCP%20-%20Clue%20-%20Linux%20-%20image12.png)
 ## Port 8021 - freeswitch
-- Ran NMap and identified `freeswitch` service running on port `8021`
+- Ran Nmap and identified `freeswitch` service running on port `8021`
 ---
 # Exploitation
 - Identified `freeswitch` potentially vulnerable to exploit [47799](https://www.exploit-db.com/exploits/47799) , saved locally as `freeswitch-exploit.py`

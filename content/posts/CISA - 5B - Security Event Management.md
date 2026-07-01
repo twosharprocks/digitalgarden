@@ -120,7 +120,7 @@ Computer Forensics
 	- First Response: Initial actions
 	- Evidence Collection and Seizure: Volatile sources first
 	- Data Acquisition: Forensic images of data
-	- Data ANalysis: Examining acquired data
+	- Data Analysis: Examining acquired data
 	- Documentation & Reporting: All findings for potential legal proceedings
 - Chain of Custody
 	- Detailed chronological document that tracks handling of evidence
