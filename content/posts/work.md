@@ -43,12 +43,8 @@ Places to Apply
 [Using ChatGPT to improve resume](https://resumeofficial.com/2024/07/12/chatgpt-resume-prompts/)
 - [Insta Post](https://www.instagram.com/p/DJuhklOTN9Y/): "Lie on your resume, lie in your interview, google how to do your job if you get hired, your boss doesn't know what they're doing either, lie, have your best friend pretend to be your old boss and give you a good referral, lie on LinkedIn"
 
-Remote Work: 
+# Remote Work
 - Get [portable screen extenders?](https://www.tomsguide.com/computing/monitors/i-just-tried-this-laptop-screen-extender-and-its-almost-the-triple-monitor-setup-of-my-dreams) Or just a portable screen? 12V converter for existing screens?
-[*Life*-Work Philosophy](https://www.instagram.com/p/DGYKYcqs3mU/) 
-- "Work/Life balance is bullshit. There should be no balance. Life is way more important than work. If you are working nearly as much as you are living, then you are fucked."
-- [Quitting your job adds more years to your life than quitting smoking](https://www.instagram.com/p/DJPffd9IMWB/)
-
 [Timezone Hacking/Digital Nomading](https://www.instagram.com/p/DIMXjgDuLQX/) to remain employable with ADHD.  
 - Benefits:  
 	- 💃🏻 Exhausting Energy: you can let loose all morning/afternoon so you’re not hyperactive at your desk.  
@@ -61,15 +57,17 @@ Remote Work:
 	- 🥗Healthier Eating: when you’re antsy you can step away from your desk and cook a healthy dinner…something you’re likely too tired to do after a long work day but you’ll really enjoy when it means you get a break from the computer screen.  
 	- 😴Work-Life Balance: it’s much easier to keep working past 5pm and end up a workaholic but since you want to sleep it’s easier to shut down your laptop and say goodnight to the work day.
 
----
-**This reminds me of**... 
-In Praise of Idleness, by Bertrand Russell
-- On the nature of work
-- [4-hour work week](https://www.amazon.com.au/4-Hour-Work-Week-Escape-Anywhere-ebook/dp/B006X0M2TS/ref=tmm_kin_swatch_0)
-- Being a Digital Nomad
+- Digital Nomad
 	- Vietnam considering [Digital Nomad visa](https://www.thedigitalnomad.asia/inspiration/digital-nomads/vietnam-digital-nomad-visa/) similar to [Thailand's digital nomad visa](https://www.thedigitalnomad.asia/inspiration/digital-nomads/thailand-digital-nomad-visa/) 
 	- Consider Vietnam for regular cave exploration?
 	- [Insta - Digital Nomad Visas](https://www.instagram.com/p/DLP4esLOK0C/)
+# Ideas
+In Praise of Idleness, by Bertrand Russell
+- On the nature of work
+- [4-hour work week](https://www.amazon.com.au/4-Hour-Work-Week-Escape-Anywhere-ebook/dp/B006X0M2TS/ref=tmm_kin_swatch_0)
+- [*Life*-Work Philosophy](https://www.instagram.com/p/DGYKYcqs3mU/) 
+- "Work/Life balance is bullshit. There should be no balance. Life is way more important than work. If you are working nearly as much as you are living, then you are fucked."
+- [Quitting your job adds more years to your life than quitting smoking](https://www.instagram.com/p/DJPffd9IMWB/)
 
 Work at Sea? - [Melbourne's Mission to Seafarers](https://www.abc.net.au/news/2026-02-21/melbourne-mission-to-seafarers-global-maritime-workforce/106305250)
 
