@@ -57,5 +57,5 @@ PocketPrep
 # Additional Material
 - [CISA Official Review Manual, 28th Edition 2024](https://store.isaca.org/s/store#/store/browse/detail/a2S4w000004W2rOEAS) - US$109
 - [CISA QAE Database](https://store.isaca.org/s/store#/store/browse/detail/a2S4w000008KxGWEA0) - US$300
-- UDemy - [Masterclas CISA Exam](https://www.udemy.com/course/masterclass-cisa-exam/)
+- Udemy - [Masterclas CISA Exam](https://www.udemy.com/course/masterclass-cisa-exam/)
 - LinkedIn Learning - [ISACA Certified Information Systems Auditor (CISA) Cert Prep](https://www.linkedin.com/learning/isaca-certified-information-systems-auditor-cisa-cert-prep/cisa-welcome-and-intro)

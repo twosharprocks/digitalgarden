@@ -22,11 +22,11 @@ related:
 ***Dates: 13-11 to 30-11***
 - 2025-11-13 Thurs: Travel 
 	- eticket - ADL-USH Return - kiwi - booking 685764266.pdf
-	- *Fly: 0605-0750 QF670 ADL-MEL (Duration 1:15)
+	- *Fly: 0605-0750 QF670 ADL-MEL (Duration 1:15)*
 		- Melbourne: Wait 4:40
-	- *Fly: 1230-1110 LA804 MEL-SCL (Duration 12:40)
+	- *Fly: 1230-1110 LA804 MEL-SCL (Duration 12:40)*
 		- Santiago (Chile): Wait 4:25
-	- *Fly: 1535-1740 AR1283 SCL-AEP (Duration 2:05)
+	- *Fly: 1535-1740 AR1283 SCL-AEP (Duration 2:05)*
 		- Buenos Aires (Argentina) Overnight: Wait 10:10
 		- [AEP (SleepingInAirports.com)](https://www.sleepinginairports.net/guides/buenos-aires-aeroparque-airport-guide.htm)
 - 2025-11-14 Fri: Arrive in Ushuaia (Argentina)

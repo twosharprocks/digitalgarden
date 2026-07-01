@@ -23,46 +23,46 @@ Trip photos: https://photos.app.goo.gl/n9dyvhS3y9WGnorx6
 ---
 # Trip Log
 ***Dates: 09-10 to 18-10***
-- 2025-10-09 Thurs: *Drive Adelaide-Ceduna (8hrs)
+- 2025-10-09 Thurs: *Drive Adelaide-Ceduna (8hrs)*
 	- Breakfast at MALOBO 
 	- Final packing and drive
 		- Fuel and firewood on Grange Rd
-	- *Drive Adelaide-Port Augusta (3hrs)
+	- *Drive Adelaide-Port Augusta (3hrs)*
 		- McDonald's lunch and fuel
-	- *Drive Port Augusta-Ceduna (5hrs)
+	- *Drive Port Augusta-Ceduna (5hrs)*
 		- Call from Ashleigh at ABC about Mars One, follow up between Murra and Antarctica 
 		- 1640: On-air interview
 		- 1850: Arrive at hotel
 		- Reheat leftover breakfast burrito
 		- Research [Murra El Elevyn - 6N47]({{< relref "posts/Murra El Elevyn - 6N47.md" >}}) & [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
-		- *Stay: East West Motel Ceduna (Overnight)
+		- *Stay: East West Motel Ceduna (Overnight)*
 
 - 2025-10-10 Fri: *Drive Ceduna-Nurina (7hrs)*
 	- 0730 Check out 
 	- 0800 Fuel & Food
-	- *Drive Ceduna-Nullarbor Roadhouse (2.5hrs)
+	- *Drive Ceduna-Nullarbor Roadhouse (2.5hrs)*
 		- 1040 Meet and eat with James and Nancy
 		- 1230 Leave
-	- *Drive to Nullarbor Roadhouse-Eucla (2hrs)
+	- *Drive to Nullarbor Roadhouse-Eucla (2hrs)*
 		- 1420 Fuel and loo
-	- *Drive Eucla-Madura Cave
+	- *Drive Eucla-Madura Cave*
 		- 360 camera inside and out of cave
-	- *Drive Madura Cave-Nurina Camp Site
+	- *Drive Madura Cave-Nurina Camp Site*
 		- 360 camera inside cave
 		- Setup camp, dinner, tea, journal
-		- *Stay: Nurina Camp Site (Overnight)
+		- *Stay: Nurina Camp Site (Overnight)*
 
-- 2025-10-11 Sat: *Drive Nurina-Murra 
+- 2025-10-11 Sat: *Drive Nurina-Murra* 
 	- 0330 Wake up
 		- Listen to green noise, sleep, get up 0740
-	- *Drive Nurina-Madura Roadhouse
+	- *Drive Nurina-Madura Roadhouse*
 		- Change phone to Eucla time 
 		- Pack up, boil water & make bag coffee
 		- 0650 Fuel at Madura Roadhouse
 		- Shower (clothes wash), breakfast, sort gear
-	- *Drive Madura-Cocklebiddy (1.5hrs)
+	- *Drive Madura-Cocklebiddy (1.5hrs)*
 		- Drone for photogrammetry
-	- *Drive to Cocklebiddy-Murra (0.5hrs)
+	- *Drive to Cocklebiddy-Murra (0.5hrs)*
 	- 1300 Joseph Arrive
 		- Setup flying fox, bag up gear
 		- bags and cylinders from surface into doline
@@ -94,33 +94,33 @@ Trip photos: https://photos.app.goo.gl/n9dyvhS3y9WGnorx6
 	- New tunnel off Mitch's line (Mitch's Maze)
 	- Susan & Liz visit campsite (staying at Cocklebiddy Roadhouse)
 
-- 2025-10-17 Fri: *Pack & Drive Murra-Ceduna (8hrs)
+- 2025-10-17 Fri: *Pack & Drive Murra-Ceduna (8hrs)*
 	- Mitch has sinus squeeze, cancel day trip to [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
 	- Pack up camp
 		- Share remaining water
 		- Contact East-West Motel: Change booking from 10-18 to 10-17
 		- Others move to [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
-	- *0930 Drive Murra-Eucla (2.8hrs)
+	- *0930 Drive Murra-Eucla (2.8hrs)*
 		- Drop rubbish at Cocklebiddy Roadhouse
 		- 1400 Eucla fuel 
-	- *1410 Drive Eucla-Nullarbor Roadhouse (2.1hrs)
+	- *1410 Drive Eucla-Nullarbor Roadhouse (2.1hrs)*
 		- Nullarbor Roadhouse - Coffee & lunch
-	- *1430 Drive Nullarbor Roadhouse-Ceduna (2.8hrs)
+	- *1430 Drive Nullarbor Roadhouse-Ceduna (2.8hrs)*
 		- Timezone change (+1:45)
 		- 1900 Arrive East-West Motel Ceduna
 
 - 2025-10-18 Sat: *Drive Ceduna-Adelaide (8hrs)*
 	- 0400 Wake 
 	- 0500 Leave & get fuel
-	- *0515 Drive Ceduna-Kimba 
+	- *0515 Drive Ceduna-Kimba* 
 		- Finished reading "wanderlust"
 		- Oil light 170km out of Kimba
 		- 0730 added oil just outside Koonagawa
 		- 0830 Kimba toilet
-	- *0845 Drive Kimba-Port Augusta
+	- *0845 Drive Kimba-Port Augusta*
 		- 1005 Maccas breakfast
 		- 1010 Get fuel
-	- *1020 Drive Port Augusta-Adelaide
+	- *1020 Drive Port Augusta-Adelaide*
 		- 1200 Lochiel toilet
 		- 1240 Finished reading "subtle art of not giving a fuck"
 		- 1340 Kennards to unload gear

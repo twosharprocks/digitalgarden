@@ -20,18 +20,18 @@ related:
 # Trip Log
 ***Dates: 06-05 to 17-05***
 - 2026-05-06 Wed: Fly
-	- *Fly: 1735-2305 WF1810 ADL->BNE (Duration 2:30)
+	- *Fly: 1735-2305 WF1810 ADL->BNE (Duration 2:30)*
 	- Stay: Brisbane 
 - 2026-05-07 Thu: Fly
-	- *Fly: 1035-1850 QF61 BNE->NRT (Duration 9:15)
+	- *Fly: 1035-1850 QF61 BNE->NRT (Duration 9:15)*
 	- Will's flight: MLB 0935-1900 NRT QF79
 	- *Stay: Narita Airport (9H Hotel: 2x Capsules)*
 - 2026-05-08 Fri: Travel NRT to Mine
-	- *Bus: 0735-0905 NRT:T2->HND:T2 (Duration 1:30)
+	- *Bus: 0735-0905 NRT:T2->HND:T2 (Duration 1:30)*
 	- *Fly: 1030-1210 NH693 HND->UBJ (Duration 1:40)*
 		- Transfer from Ube airport to Mine region
 	- Briefing and preparation
-	- Stay: *Mine Grand Hotel
+	- Stay: *Mine Grand Hotel*
 - 2026-05-09 Sat: Diving Terayama Cave
 	- Diving briefing - meet dry cave support team
 	- Gear in
@@ -55,9 +55,9 @@ related:
 	- Visit Senso-Ji Temple
 	- Visit Sky Tree
 - 2026-05-16 Sat: Travel
-	- *Fly: 2025-0740+1 QF80 NRT->MEL (Duration 10:15)
+	- *Fly: 2025-0740+1 QF80 NRT->MEL (Duration 10:15)*
 - 2026-05-17 Sun: Travel
-	- *Fly: 1025-1115 QF679 MEL->ADL (Duration 1:20)
+	- *Fly: 1025-1115 QF679 MEL->ADL (Duration 1:20)*
 
 # Packing List
 ## Clothing/Toiletries

@@ -65,7 +65,7 @@ Achieveable
 # ***Writing & Art***
 - **Publish 10 Books**
 	- 1 - Becoming Martian, 2 - Cosmic Nomad, 
-	- *3 - Book - Cave Diving, 
+	- *3 - Book - Cave Diving,* 
 	- 4 - Book - 101 Things, 5 - Book - Calling ET? Or Book - Death, Time & Reality 
 	- 6 - Apocalypse? 7? 8?, 9? 10?*
 - Draw cartoons I'm proud of - *Tablet*

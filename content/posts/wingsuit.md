@@ -30,7 +30,7 @@ From [ChatGPT](https://chatgpt.com/share/694f418b-baa4-8006-a2fa-4f20d81ada37)
 	    - Written exam + instructor sign-off
 	- Outcome: you are a fully licensed solo skydiver.
 
-- *Certificate B (Intermediate jumper)
+- *Certificate B (Intermediate jumper)*
 	- Typical requirements:
 		- **50 stable freefall jumps**
 		- Improved landing accuracy

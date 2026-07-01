@@ -52,8 +52,8 @@ Video Lights:
 * [DPV - Suex VR-Quantum](https://www.divebondi.com.au/product/suex-vr-quantum-diver-propulsion-vehicle/1749) - $7,400AUD (Battery is not travel safe)
 * [DPV - Seacraft Future 1000](https://www.mydivegear.com.au/collections/seacraft/products/seacraftfuturedpv) - $15,800AUD
 
-* *[Certification - TDI Cave DPV](https://www.tdisdi.com/tdi/get-certified/tdi-dpv-cave-diver/)
-* *[Accessory - Seacraft ENC3 Console](https://www.mydivegear.com.au/products/seacraftenc3fullset) - $3,900AUD
+* *[Certification - TDI Cave DPV](https://www.tdisdi.com/tdi/get-certified/tdi-dpv-cave-diver/)*
+* *[Accessory - Seacraft ENC3 Console](https://www.mydivegear.com.au/products/seacraftenc3fullset) - $3,900AUD*
 # CCR
 *  [Dive Rite ChOptima](https://deepblueventures.com.au/rebreather/optima-cm-ccr) 
 	* [ChOptima Scooter Ring](https://diverite.com/products/o2ptima/o2ptima-cm-scooter-ring/)

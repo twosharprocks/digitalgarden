@@ -81,7 +81,7 @@ AKA "The Iron Triangle"
 - **Justifying the investment**: Business Case is the single most important document for project justification. Rationale for the project based on expected business benefits
 - **Purpose**: Links the project to strategic business objectives, provides basis for investment decision, sets baseline for measuring success via benefit realisation
 
-*Exam Tip: Remember the function and importance of the business case!
+*Exam Tip: Remember the function and importance of the business case!*
 
 - **Stage Gates/Kill Points**: Pre-defined points to re-evaluate project's business case (If no longer valid, project should be terminated). 
 - **Feasibility Study**: Determine if the project is viable before significant investment
@@ -134,7 +134,7 @@ When an organisation purchases **commercial-off-the-shelf (COTS)** software, SDL
 - Support
 - Source code escrow (source code held by trusted 3rd party in case vendor goes out of business)
 
-*Exam Tip: IS auditor's role in acquisition is to **review the RFP** to ensure security and control requirements are included, and to **ensure the final contract is reviewed by legal council** and protects the organisation.
+*Exam Tip: IS auditor's role in acquisition is to **review the RFP** to ensure security and control requirements are included, and to **ensure the final contract is reviewed by legal council** and protects the organisation.*
 
 # 4 - Control Identification and Design
 - **Core Principle**: Controls must be identified and designed at the earliest stages of SDLC

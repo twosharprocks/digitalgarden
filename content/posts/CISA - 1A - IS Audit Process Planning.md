@@ -36,7 +36,7 @@ Video: https://www.youtube.com/watch?v=6raFkNkbUAc&list=PL7XJSuT7Dq_UvA2knww9Rlz
 - Key Framework: ***ISACA's IT Assurance Framework (ITAF)***
 - Purpose: Ensure consistency, quality and professionalism in IS auiting
 
-*Exam Tip: Adherence to ISACA Standards is mandatory for CISA holders
+*Exam Tip: Adherence to ISACA Standards is mandatory for CISA holders*
 
 ## Audit Charter - Authority to Audit
 - Purpose: Outlines overall authority, scope, and responsibilities of the audit function

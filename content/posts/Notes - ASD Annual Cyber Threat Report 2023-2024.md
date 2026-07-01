@@ -25,9 +25,9 @@ Australian Protective Domain Name System blocked access to 82million malicious d
 
 Top 3 reported **critical infrastructure** incidents
 - Compromised account/credentials (32%) **Gov incidents = 30%**
-	- *Mitigate with Phish-resistant MFA, log analysis, find/remove inactive user/service accounts, enforce least privilege
+	- *Mitigate with Phish-resistant MFA, log analysis, find/remove inactive user/service accounts, enforce least privilege*
 - Malware infection (17%) **Gov incidents = 20%**
-	- *Mitigate with Antivirus & EDR, update devices, implement application control, maintain backups of critical data applications/settings, regularly test backups`
+	- *Mitigate with Antivirus & EDR, update devices, implement application control, maintain backups of critical data applications/settings, regularly test backups`*
 - Compromised asset, network or infrastructure (12%) **Gov incidents = 20%**
 	- *Mitigate with: network segmentation/segregation, apply [ASD Industrial control systems remote access protocol](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/critical-infrastructure/industrial-control-systems-remote-access-protocol), define processes for implementing new software/patches into an ICS, sufficient logging & monitor key indicators, store logs securely*
 - *All other incident types = 39%*

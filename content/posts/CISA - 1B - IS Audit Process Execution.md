@@ -23,7 +23,7 @@ Video: https://www.youtube.com/watch?v=iR5sRFWbpnA&list=PL7XJSuT7Dq_UvA2knww9Rlz
 5. Prepare Report
 6. Follow-Up
 
-*Exam Tip: An effective audit is managed like a formal project
+*Exam Tip: An effective audit is managed like a formal project*
 
 ## Three-phase Framework
 1. Planning Phase: Determine subject, define objective, set scope pre-audit planning, determine procedures

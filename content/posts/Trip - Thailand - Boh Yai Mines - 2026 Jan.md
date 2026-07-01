@@ -20,10 +20,10 @@ related:
 ***Dates: 06-01 to 14-01***
 - 2026-01-06 Tues: Travel
 	- Jetstar Booking Reference: ***LK5Q8S***
-	- *Fly: 1010-1200 JQ773 ADL-MEL (Duration 1:20)
+	- *Fly: 1010-1200 JQ773 ADL-MEL (Duration 1:20)*
 		- Melbourne: Wait 2:20
 		- Met up with Vivian
-	- *Fly: 1420-1930 JQ29 MEL-BKK (Duration 9:10)
+	- *Fly: 1420-1930 JQ29 MEL-BKK (Duration 9:10)*
 	- From Mikko: Driver takes you from Suwarnabumi airport to Mek Kiri River Kwai Resort in Thom Pha Phun, near the mines. (4 hour drive) *requires 2000thb per person*
 		- People & Gear split between 2x vehicles (taxi for Will, Viv & I)
 		- Driver stopped at McDonald's 30mins out of airport so we could get dinner
@@ -81,13 +81,13 @@ related:
 	- Attempted to access Coral Lounge: Will's Amex card required additional subscription. 
 	- Drinks in nearby bar instead, then McDonald's dinner
 	- Walk to Gate E4
-	- *Fly: 2125-0930+1 JQ66 BKK-BNE (Duration 9:05)(Overnight)
+	- *Fly: 2125-0930+1 JQ66 BKK-BNE (Duration 9:05)(Overnight)*
 	2026-01-14 Wed: Travel
 	- Brisbane: Wait 9:30
 		- Uber to Mum's place
 		- Rest for a few hours
 		- 1730: Dropped at BNE airport
-	- *Fly: 1900-2210 JQ802 BNE-ADL
+	- *Fly: 1900-2210 JQ802 BNE-ADL*
 
 # Packing List
 - Carry-On: [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) 

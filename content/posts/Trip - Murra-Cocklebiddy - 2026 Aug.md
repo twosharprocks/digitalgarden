@@ -51,10 +51,10 @@ For Trip
 ![Messenger Creation F8c65974 345A 497F 8A46 8e6a5c8145a8](/images/Messenger_creation_F8C65974-345A-497F-8A46-8E6A5C8145A8.jpeg)
 
 - 2026-08-21 Friday: Travel
-	- *Drive: ADL-Ceduna (8.5hrs)
+	- *Drive: ADL-Ceduna (8.5hrs)*
 	- Stay:
 - 2026-08-22 Sat: Travel
-	- *Drive: Ceduna-Madura (7hrs) onto Murra (1hr via roadhouse)
+	- *Drive: Ceduna-Madura (7hrs) onto Murra (1hr via roadhouse)*
 	- Stay: [Murra El Elevyn - 6N47]({{< relref "posts/Murra El Elevyn - 6N47.md" >}})
 - 2026-08-23 Sun: Action
 	- 

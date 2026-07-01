@@ -22,17 +22,17 @@ For a first‐time Balkan cave-diving trip, plan for late August through mid-Sep
 
 ---
 # Three-Week Field Itinerary
-*Week 1 – [Croatia]({{< relref "posts/croatia.md" >}}) 
+*Week 1 – [Croatia]({{< relref "posts/croatia.md" >}})* 
 Istria → Velebit → Dalmatia*
 
 Base yourself in Rijeka and work south. Arrange dives in the freshwater siphons of Pazin Cave and Lim Fjord, then join members of the Croatian Mountaineering Association’s Speleological Commission for pushing passages in the north-Velebit karst (they issue access permits and often welcome foreign specialists). End the week on the Dalmatian coast to sample the submerged tunnels of Modrič and Kvarner’s “Blue Grotto” systems.([speleologija.eu](https://speleologija.eu/KS/speleocommittee.html?utm_source=chatgpt.com "The Speleological Committee of the Croatian Mountaineering Association"), [hps.hr](https://www.hps.hr/files/data/21/Pravilnik%20Komisije%20za%20speleologiju%20HPS-a.pdf?utm_source=chatgpt.com "PRAVILNIK KOMISIJE ZA SPELEOLOGIJU HRVATSKOG PLANINARSKOG SAVEZA"))
 
-*Week 2 – [Bosnia & Herzegovina]({{< relref "posts/Bosnia & Herzegovina.md" >}}) 
+*Week 2 – [Bosnia & Herzegovina]({{< relref "posts/Bosnia & Herzegovina.md" >}})* 
 Trebinje karst & Popovo Polje*
 
 Cross the border to Trebinje and link up with Speleological Society **Zelena Brda**, whose members are mapping the extensive Popovo Polje hydrologic network, including Vjetrenica—the largest and most biodiverse cave in the country—along with multiple sumps that still need survey dives. Expect warm hospitality and the chance to exchange mapping and photogrammetry techniques.([gotrebinje.com](https://gotrebinje.com/destinations/speleolosko-drustvo-zelena-brda/?utm_source=chatgpt.com "Спелеолошко друштво “Зелена брда”"), [en.wikipedia.org](https://en.wikipedia.org/wiki/Vjetrenica_Cave?utm_source=chatgpt.com "Vjetrenica Cave - Wikipedia"), [visitsrpska.org](https://visitsrpska.org/en/orjen/?utm_source=chatgpt.com "Orjen – Tourist organization Republic of Srpska"))
 
-*Week 3 – [Montenegro]({{< relref "posts/montenegro.md" >}}) & [Serbia]({{< relref "posts/serbia.md" >}}) 
+*Week 3 – [Montenegro]({{< relref "posts/montenegro.md" >}}) & [Serbia]({{< relref "posts/serbia.md" >}})* 
 Dinaric Alps transect*
 Begin in northern Montenegro near Bijelo Polje with Speleo-Club **Akovo**, active around the Đalovića Cave system and Osoja Cave springs. From there drive east to Serbia’s classic karst terrain, teaming up with Belgrade’s Student Speleological & Alpinistic Club **ASAK** for dives in the Resava and Valjevo karsts, and for a quick ascent-rope exchange on deep shafts such as Potpećka. Wrap up in Belgrade for flights out.([en.vijesti.me](https://en.vijesti.me/news-b/society/342884/abroad%2C-our-speleologists-would-end-up-in-prison?utm_source=chatgpt.com "Abroad, our speleologists would end up in prison - en.vijesti.me"), [link.springer.com](https://link.springer.com/chapter/10.1007/978-3-031-49375-1_1?utm_source=chatgpt.com "Historical Overview of Speleological Research on the Territory of ..."), [myguidemontenegro.com](https://www.myguidemontenegro.com/things-to-do/osoja-cave?utm_source=chatgpt.com "Osoja Cave in Montenegro"), [asak.org.rs](https://www.asak.org.rs/index_e.php?utm_source=chatgpt.com "ASAK - Student Speleologic and Alpinistic Club from Belgrade, Serbia"))
 

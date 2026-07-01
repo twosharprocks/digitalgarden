@@ -43,7 +43,7 @@ Related:
 	- [ExSim-Max for CISSP](https://www.boson.com/practice-exam/cissp-isc2-practice-exam) - $99/year
 	- [CISSPrep.net](https://cissprep.net/register/) $25/6months
 	- [ThorTeaches](https://thorteaches.com/cissp/) - Range ($ 225/year), Hard-only ($ 120/year)
-	- [UDemy - CISSP Practice Exam Questions](https://www.udemy.com/course/master-the-cissp-exam-practice-questions-and-explanations/) $20
+	- [Udemy - CISSP Practice Exam Questions](https://www.udemy.com/course/master-the-cissp-exam-practice-questions-and-explanations/) $20
 	- [CISSPprep.net](https://cissprep.net/free-practice-cissp-quiz/) (free quiz)
 	- [Reddit - Anki Flash Cards](https://www.reddit.com/r/cissp/comments/13vllp3/i_created_a_free_cissp_practice_question_deck/)
 

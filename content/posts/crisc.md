@@ -36,7 +36,7 @@ Industry: Suits industries with strong risk management requirements like insuran
 # Study Material
 - [CRISC Official Review Manual, 7th Edition Revised eBook](https://store.isaca.org/s/store#/store/browse/detail/a2S4w000004Tx60EAC) - US$109
 - PocketPrep
-- UDemy - [Masterclas CRISC Exam](https://www.udemy.com/course/masterclass-crisc-exam/)
+- Udemy - [Masterclas CRISC Exam](https://www.udemy.com/course/masterclass-crisc-exam/)
 - LinkedIn Learning - [Prepare for the Certified in Risk and Information Systems Control (CRISC) Certification Exam (2021)](https://www.linkedin.com/learning/paths/prepare-for-the-certified-in-risk-and-information-systems-control-crisc-certification-exam-2021)
 - ISACA QAE Database - https://store.isaca.org/s/store#/store/browse/detail/a2S4w000004Ko5TEAS
 - 

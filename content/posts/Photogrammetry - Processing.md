@@ -19,13 +19,13 @@ For Will
 
 ---
 # [Sulawesi]({{< relref "posts/Sulawesi.md" >}})
-[Gua La Pahia]({{< relref "posts/Gua La Pahia.md" >}}) - *UW COMPLETE
+[Gua La Pahia]({{< relref "posts/Gua La Pahia.md" >}}) - *UW COMPLETE*
 - Surface: NEEDS DRONE WITH GPS DATA
 - Underwater: Fully processed & on website
-[Gua Wandoke]({{< relref "posts/Gua Wandoke.md" >}}) - *UW COMPLETE
+[Gua Wandoke]({{< relref "posts/Gua Wandoke.md" >}}) - *UW COMPLETE*
 - Surface: NEEDS DRONE WITH GPS DATA
 - Underwater: Fully processed & on website
-[Moko Morete]({{< relref "posts/Moko Morete.md" >}}) - *UW COMPLETE
+[Moko Morete]({{< relref "posts/Moko Morete.md" >}}) - *UW COMPLETE*
 - Surface: NEEDS DRONE WITH GPS DATA
 - Underwater: Fully processed & on website
 
@@ -51,12 +51,12 @@ For Will
 - Surface: NEEDS DRONE WITH GPS DATA, video frames split, requires initial alignment
 - Underwater: Video frames split, requires initial alignment
 # [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}})
-[Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) - *SURFACE COMPLETE
+[Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) - *SURFACE COMPLETE*
 - Drone: External model complete
 - Sumps: Requires data
 - Underwater: Requires data
 
-[Madura Cave]({{< relref "posts/Madura Cave.md" >}}) - *SURFACE COMPONENT MATCHING
+[Madura Cave]({{< relref "posts/Madura Cave.md" >}}) - *SURFACE COMPONENT MATCHING*
 - Drone: External model complete
 - Surface: Initial alignment complete, requires component matching
 
@@ -65,7 +65,7 @@ For Will
 - Sumps: 360 video created, requires video frame splitting & alignment
 - Underwater: Video frames split, requires initial alignment
 
-[Nurina Cave]({{< relref "posts/Nurina Cave.md" >}}) - *SURFACE COMPONENT MATCHING
+[Nurina Cave]({{< relref "posts/Nurina Cave.md" >}}) - *SURFACE COMPONENT MATCHING*
 - Drone: External model complete
 - Surface: Initial alignment complete, requires component matching and connection to drone model
 - Underwater: Requires Data
@@ -80,7 +80,7 @@ For Will
 - Surface: Initial alignment complete, requires component matching and connection to drone model
 - Underwater: Requires Data 
 # [New South Wales]({{< relref "posts/New South Wales.md" >}})
-[Limekiln-McCavity Cave]({{< relref "posts/Limekiln-McCavity Cave.md" >}}) - *UW & SURFACE COMPONENT MATCHING
+[Limekiln-McCavity Cave]({{< relref "posts/Limekiln-McCavity Cave.md" >}}) - *UW & SURFACE COMPONENT MATCHING*
 - Drone: External model complete
 - Surface: Initial alignment complete, requires component matching and connection to drone model
 - Underwater: Initial alignment complete, requires component matching and connection to surface model

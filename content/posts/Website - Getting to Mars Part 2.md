@@ -49,7 +49,7 @@ Obviously you also don’t aim for where Mars is when you’re _launching_ fro
 
 Because Earth orbits the Sun once every 365.25 days and _**Mars orbits the sun once every 687 Earth days***_, they only line up for this kind of transfer _**once every 22 Earth months.**_
 
-*Mars has a “day” of 24 hour and 36 minutes called a “Sol”, so 1 year on Mars is 668.6 sols
+*Mars has a “day” of 24 hour and 36 minutes called a “Sol”, so 1 year on Mars is 668.6 sols*
 
 ![](https://web.archive.org/web/20170617195929im_/https://i2.wp.com/joshrichards.space/wp-content/uploads/2017/03/angry-baby-too-many-numbers-e1490795274471.jpg?resize=388%2C271)
 
