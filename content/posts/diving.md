@@ -1,8 +1,8 @@
 ---
 title: Diving
 created: 2026-06-19
-updated: 2026-06-28
-status: seed
+updated: 2026-06-30
+status: Index
 draft: false
 tags:
   - index
@@ -17,6 +17,7 @@ Related:
   - "[[CaveDB]]"
   - "[[Exploration]]"
   - "[[Caving]]"
+  - "[[About]]"
 ---
 Dive sites, cave regions, exploration notes, gear, trips, photogrammetry, and cave-diving projects.
 

@@ -18,7 +18,6 @@ Related:
   - "[[Mini Essay - Ridiculous Bucket List]]"
   - "[[Mini Essay - What do you really want to do before you die]]"
 ---
----
 Write [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) about each entry here and how to complete them
 -  ***"Could Do" vs WANT to do***
 # ***Priorities***

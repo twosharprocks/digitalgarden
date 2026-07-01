@@ -1,7 +1,7 @@
 ---
 title: Cyber Security
 created: 2026-06-19
-updated: 2026-06-27
+updated: 2026-06-30
 status: seed
 draft: false
 tags:
@@ -17,6 +17,7 @@ Related:
   - "[[CISSP]]"
   - "[[CISA]]"
   - "[[OT Cyber Security]]"
+  - "[[About]]"
 ---
 
 Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{< relref "posts/oscp.md" >}})/[CISSP]({{< relref "posts/CISSP.md" >}})/[CISA]({{< relref "posts/CISA.md" >}}) notes, and work-related security references.

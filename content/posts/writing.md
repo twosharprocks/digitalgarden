@@ -1,8 +1,8 @@
 ---
 title: Writing
 created: 2026-06-19
-updated: 2026-06-28
-status: seed
+updated: 2026-06-30
+status: Index
 draft: false
 tags:
   - index
@@ -10,9 +10,10 @@ tags:
   - writing
 Related:
   - "[[Writing - Ideas]]"
-  - "Books"
+  - Books
   - "[[Mini Essays]]"
   - "[[Articles]]"
+  - "[[About]]"
 ---
 Writing, essays, articles, book projects, older website posts, and notes about making ideas easier to return to.
 
