@@ -48,22 +48,22 @@ def parse_front_matter(path):
     return metadata
 
 
-def load_meals(content_dir):
-    meals = []
+def load_notes(content_dir):
+    notes = []
     for path in content_dir.rglob("*.md"):
         try:
             metadata = parse_front_matter(path)
         except (OSError, UnicodeError) as exc:
             print(f"[WARN] Dataview skipped unreadable file {path.name}: {exc}")
             continue
-        if metadata and "meal" in {tag.lower() for tag in metadata["tags"]}:
-            meals.append(metadata)
-    return meals
+        if metadata:
+            notes.append(metadata)
+    return notes
 
 
-def relref_link(meal):
-    relative = meal["_relative"].as_posix()
-    return f'[{meal["title"]}]({{{{< relref "{relative}" >}}}})'
+def relref_link(note):
+    relative = note["_relative"].as_posix()
+    return f'[{note["title"]}]({{{{< relref "{relative}" >}}}})'
 
 
 def required_tags(query):
@@ -86,12 +86,21 @@ def required_tags(query):
     return tags
 
 
-def filtered_meals(query, meals):
+def filtered_notes(query, notes, current_path=None):
     tags = required_tags(query)
     selected = [
-        meal
-        for meal in meals
-        if tags.issubset({tag.lower() for tag in meal.get("tags", [])})
+        note
+        for note in notes
+        if tags.issubset({tag.lower() for tag in note.get("tags", [])})
+        and not (
+            current_path
+            and note["_path"] == current_path
+            and re.search(
+                r"page\.file\.path\s*!==?\s*dv\.current\(\)\.file\.path",
+                query,
+                flags=re.IGNORECASE,
+            )
+        )
     ]
 
     sort_match = re.search(
@@ -111,8 +120,8 @@ def filtered_meals(query, meals):
     reverse = direction.upper() == "DESC"
     key_name = "_filename" if field.lower() == "file.name" else field.lower()
 
-    def sort_key(meal):
-        value = meal.get(key_name, "")
+    def sort_key(note):
+        value = note.get(key_name, "")
         try:
             return float(value)
         except (TypeError, ValueError):
@@ -127,11 +136,11 @@ def escape_cell(value):
     return str(value or "—").replace("|", r"\|").replace("\n", " ")
 
 
-def render_list(query, meals):
-    selected = filtered_meals(query, meals)
+def render_list(query, notes, current_path=None):
+    selected = filtered_notes(query, notes, current_path)
     if not selected:
-        return "_No matching meals._"
-    return "\n".join(f"- {relref_link(meal)}" for meal in selected)
+        return "_No matching notes._"
+    return "\n".join(f"- {relref_link(note)}" for note in selected)
 
 
 def table_columns(query):
@@ -155,8 +164,8 @@ def table_columns(query):
     return columns
 
 
-def render_table(query, meals):
-    selected = filtered_meals(query, meals)
+def render_table(query, notes, current_path=None):
+    selected = filtered_notes(query, notes, current_path)
     columns = table_columns(query)
     headers = ["Meal", *[label for _, label in columns]]
     separator = ["---"] * len(headers)
@@ -174,18 +183,18 @@ def render_table(query, meals):
     ]
     lines.extend("| " + " | ".join(row) + " |" for row in rows)
     if not rows:
-        lines.append("| _No matching meals._ | " + " | ".join("—" for _ in columns) + " |")
+        lines.append("| _No matching notes._ | " + " | ".join("—" for _ in columns) + " |")
     return "\n".join(lines)
 
 
-def render_dataview(query, meals):
+def render_dataview(query, notes, current_path=None):
     normalized = query.lstrip().upper()
     if normalized.startswith("LIST"):
-        return render_list(query, meals)
+        return render_list(query, notes, current_path)
     if normalized.startswith("TABLE"):
-        return render_table(query, meals)
+        return render_table(query, notes, current_path)
     if "DV.PAGES" in normalized and "FOR (CONST PAGE OF PAGES)" in normalized:
-        return render_list(query, meals)
+        return render_list(query, notes, current_path)
     return f"```dataview\n{query}```"
 
 
@@ -194,7 +203,7 @@ def main():
         raise SystemExit("Usage: dataview.py <content_dir>")
 
     content_dir = Path(sys.argv[1]).resolve()
-    meals = load_meals(content_dir)
+    notes = load_notes(content_dir)
     changed = 0
 
     for path in content_dir.rglob("*.md"):
@@ -203,12 +212,15 @@ def main():
         except (OSError, UnicodeError) as exc:
             print(f"[WARN] Dataview skipped unreadable file {path.name}: {exc}")
             continue
-        rendered = DATAVIEW_RE.sub(lambda match: render_dataview(match.group(1), meals), original)
+        rendered = DATAVIEW_RE.sub(
+            lambda match: render_dataview(match.group(1), notes, path),
+            original,
+        )
         if rendered != original:
             path.write_text(rendered, encoding="utf-8")
             changed += 1
 
-    print(f"[INFO] Expanded Dataview blocks in {changed} files using {len(meals)} meal notes.")
+    print(f"[INFO] Expanded Dataview blocks in {changed} files using {len(notes)} notes.")
 
 
 if __name__ == "__main__":

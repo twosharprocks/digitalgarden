@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Script - PowerShell - AD-OUMaintenance :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="#List Any Disabled users in the &#34;Office Users&#34; OU function Find-Disabled-Office { $ouPath = &#34;OU=Office Users,DC=int&#34; $OfficeUsers = Get-ADUser -Filter { Enabled -eq $false } -SearchBase $ouPath -Properties LastLogonDate,Enabled | Select-Object SamAccountName,LastLogonDate,Enabled Write-host &#34;Disabled Users in OU=Office Users (Check for an offboarding ticket in Jira - Move to Off Boarding?)&#34; $OfficeUsers | Format-Table -AutoSize write-host &#34;#####&#34; } ### #List Enabled users in the &#34;Inactive Users&#34; OU function Find-Enabled-Inactive { $ouPath = &#34;OU=Inactive Users,DC=int&#34; $EnabledInactive = Get-ADUser -Filter { Enabled -eq $true } -SearchBase $ouPath -Properties LastLogonDate,Enabled | Select-Object SamAccountName,LastLogonDate,Enabled Write-host &#34;Enabled Users in OU=Inactive Users (Check for notification of Leave in Jira - Disable? Or move to Office Users?)&#34; $EnabledInactive | Format-Table -AutoSize write-host &#34;#####&#34; } ### #List Enabled users in the &#34;Offboarding&#34; OU function Find-Enabled-Offboarding { $ouPath = &#34;OU=Off Boarding,DC=int&#34; $EnabledOffboarding = Get-ADUser -Filter { Enabled -eq $true } -SearchBase $ouPath -Properties LastLogonDate,Enabled | Select-Object SamAccountName,LastLogonDate,Enabled Write-host &#34;Enabled Users in OU=Off Boarding (Check for an offboarding ticket in Jira - Disable? Or move to Office Users?)&#34; $EnabledOffboarding | Format-Table -AutoSize write-host &#34;#####&#34; } ### #Office Users who have not been logged in for 6 months or more function Find-NoLogin6mo { $ouPath = &#34;OU=Office Users,DC=int&#34; $sixMonthsAgo = (Get-Date).AddMonths(-6) # Get users from the specified OU who have not logged in for 6 months or more $users = Get-ADUser -Filter { LastLogonDate -lt $sixMonthsAgo -and Enabled -eq $true } -SearchBase $ouPath -Properties LastLogonDate,Enabled | Select-Object SamAccountName,LastLogonDate,Enabled # Display the results $users | Format-Table -AutoSize } ### #Students who have not been logged in for 1 month or more function Find-StudentNoLogin { $ouPath = &#34;OU=Students,DC=int&#34; $OneMonthAgo = (Get-Date).AddMonths(-1) $users = Get-ADUser -Filter { LastLogonDate -lt $OneMonthAgo -and Enabled -eq $true } -SearchBase $ouPath -Properties LastLogonDate,Enabled | Select-Object SamAccountName,LastLogonDate,Enabled $users | Format-Table -AutoSize } ### #Disable every account in a specific OU (eg. “Inactive”) function disable-inactive { $ouPath = &#34;OU=Inactive Users,DC=int&#34; # Get a list of user accounts in the specified OU $inactiveUsers = Get-ADUser -Filter * -SearchBase $ouPath # Disable each user account in the OU foreach ($user in $inactiveUsers) { Disable-ADAccount -Identity $user Set-ADUser -Identity $user Write-Host &#34;Disabled user account: $($user.SamAccountName)&#34; } } ### # List Groups Assigned to Offboarded Users and Remove all groups Except &#34;Domain Users&#34; function Remove-OffboardingGroups { $ouPath = &#34;OU=Off Boarding,DC=int&#34; $users = Get-ADUser -Filter * -SearchBase $ouPath # Iterate each user foreach ($user in $users) { # Get groups that the user is a member of $userGroups = Get-ADUser $user | Get-ADPrincipalGroupMembership | Where-Object { $_.Name -ne &#34;Domain Users&#34; -and $_.Name -notlike &#34;Group_*&#34; } | Select-Object Name if ($userGroups.Count -gt 0) { # Display groups Write-Host &#34;Groups:&#34; $userGroups | ForEach-Object { Write-Host &#34; - $($_.Name)&#34; } # Removing user from non-&#34;Domain Users&#34; groups $confirm = Read-Host &#34;Remove $($user.Name) from all groups except &#39;Domain Users&#39;? (Y/N)&#34; if ($confirm -eq &#34;Y&#34; -or $confirm -eq &#34;y&#34;) { $userGroups | ForEach-Object { Remove-ADGroupMember -Identity $_.Name -Members $user -confirm:$false -erroraction SilentlyContinue Write-Host &#34;Removed $($user.Name) from $($_.Name)&#34; } } } } } ### #List users in &#34;OU=Offboarding&#34; who have not been modified for &gt;3months function Find-Offboarded-unmodified { Write-host &#34;Users in OU=Off Boarding not modified for &gt;3months (Delete from AD)&#34; $ouPath = &#34;OU=Off Boarding,DC=int&#34; $thresholdDate = (Get-Date).AddMonths(-3) $OffboardedUnmodified = Get-ADUser -Filter * -SearchBase $ouPath -Properties * | Where-Object { $_.whenChanged -lt $thresholdDate } if ($users) { $users | Select-Object SamAccountName, whenChanged $confirmation = Read-Host &#34;Do you want to delete offboarded user accounts older than 3 months? (yes/no)&#34; if ($confirmation -eq &#34;yes&#34;) { foreach ($user in $OffboardedUnmodified) { Remove-ADUser -Identity $user -Confirm:$false Write-Host &#34;User $($user.Name) has been deleted.&#34; }} } else { Write-Host &#34;No users last modified &gt;3 months ago.&#34; } } write-host &#34;#####&#34; ### #Show if accounts in $employeeIDList are enabled or disabled foreach ($employeeID in $employeeIDList) { $adUser = Get-ADUser -Filter {EmployeeID -eq $employeeID} -Properties Enabled if ($adUser) { $isEnabled = $adUser.Enabled Write-Host &#34;Employee ID: $employeeID - Account $adUser Enabled: $isEnabled&#34; } else { Write-Host &#34;Employee ID: $employeeID - Account not found in Active Directory&#34; } } ### #List all Office Users missing an EmployeeID function Find-NoEmployeeID { $ouPath = &#34;OU=Office Users,DC=int&#34; Write-Host &#34;Office Users without EmployeeID&#34; $usersWithoutEmployeeID = Get-ADUser -Filter {EmployeeID -notlike &#34;*&#34;} -SearchBase $ouPath -Properties EmployeeID foreach ($user in $usersWithoutEmployeeID) { Write-Host &#34;$($user.SAMAccountName) - $user&#34; } } ### #New Employee List from Payroll - Finding Missing employeeIDs function find-missing-employeeIDs { $excelFilePath = Read-Host &#34;Provide full filepath to New Employee Report&#34; $worksheetName = &#34;New Employees Report&#34; $columnName = &#34;Emp No&#34; $newusers = Import-Excel -Path $excelFilePath -WorksheetName $worksheetName | Select-Object -ExpandProperty $columnName $employeeIdList = $newusers -replace &#39;(.&#43;),$&#39;, &#39;&#34;$1&#34;&#39; Get-ADUser -Filter {employeeID -eq $employeeIdList} -Properties Enabled,employeeID foreach ($employeeID in $employeeIDList) { # Get the user based on employeeID $user = Get-ADUser -Filter {employeeID -eq $employeeID} # Check if the user exists if ($user) { if (-not $user.Enabled) { Write-Host &#34;Disabled - $($employeeID) is $user.&#34;} else { } } else { Write-Host &#34;User with employeeID $employeeID not found in Active Directory.&#34; $username = Read-Host &#34;Enter Username to assign this EmployeeID&#34; Set-ADUser -Identity &#34;$username&#34; -Replace @{employeeID=$employeeID} } } } ### #Terminated Employee List from Payroll - Finding Active Users who no longer work for UC function find-terminated-users { $excelFilePath = Read-Host &#34;Provide full filepath to Terminated Employee Report&#34; $worksheetName = &#34;Terminated Employees Report&#34; $columnName = &#34;Emp No&#34; $terminated = Import-Excel -Path $excelFilePath -WorksheetName $worksheetName | Select-Object -ExpandProperty $columnName # $employeeIdList = $terminated -replace &#39;(.&#43;),$&#39;, &#39;&#34;$1&#34;&#39; Get-ADUser -Filter {employeeID -eq $employeeIDList} -Properties Enabled,employeeID foreach ($employeeID in $employeeIDList) { $user = Get-ADUser -Filter {employeeID -eq $employeeID} # Check if the user exists if ($user) { if (-not $user.Enabled) { } else {Write-Host &#34;Enabled - $($employeeID) is $user.&#34; $action = Read-Host &#34;Disable this account? (y/n)&#34;} if ($action -eq &#39;y&#39;) { Disable-ADAccount -Identity $user Write-Host &#34;$user account disabled&#34; } else { } } } else { Write-Host &#34;User with employeeID $employeeID not found in Active Directory.&#34; } } " />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/script---powershell---ad-oumaintenance/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Script - PowerShell - AD-OUMaintenance">
+<meta property="og:description" content="#List Any Disabled users in the &#34;Office Users&#34; OU function Find-Disabled-Office { $ouPath = &#34;OU=Office Users,DC=int&#34; $OfficeUsers = Get-ADUser -Filter { Enabled -eq $false } -SearchBase $ouPath -Properties LastLogonDate,Enabled | Select-Object SamAccountName,LastLogonDate,Enabled Write-host &#34;Disabled Users in OU=Office Users (Check for an offboarding ticket in Jira - Move to Off Boarding?)&#34; $OfficeUsers | Format-Table -AutoSize write-host &#34;#####&#34; } ### #List Enabled users in the &#34;Inactive Users&#34; OU function Find-Enabled-Inactive { $ouPath = &#34;OU=Inactive Users,DC=int&#34; $EnabledInactive = Get-ADUser -Filter { Enabled -eq $true } -SearchBase $ouPath -Properties LastLogonDate,Enabled | Select-Object SamAccountName,LastLogonDate,Enabled Write-host &#34;Enabled Users in OU=Inactive Users (Check for notification of Leave in Jira - Disable? Or move to Office Users?)&#34; $EnabledInactive | Format-Table -AutoSize write-host &#34;#####&#34; } ### #List Enabled users in the &#34;Offboarding&#34; OU function Find-Enabled-Offboarding { $ouPath = &#34;OU=Off Boarding,DC=int&#34; $EnabledOffboarding = Get-ADUser -Filter { Enabled -eq $true } -SearchBase $ouPath -Properties LastLogonDate,Enabled | Select-Object SamAccountName,LastLogonDate,Enabled Write-host &#34;Enabled Users in OU=Off Boarding (Check for an offboarding ticket in Jira - Disable? Or move to Office Users?)&#34; $EnabledOffboarding | Format-Table -AutoSize write-host &#34;#####&#34; } ### #Office Users who have not been logged in for 6 months or more function Find-NoLogin6mo { $ouPath = &#34;OU=Office Users,DC=int&#34; $sixMonthsAgo = (Get-Date).AddMonths(-6) # Get users from the specified OU who have not logged in for 6 months or more $users = Get-ADUser -Filter { LastLogonDate -lt $sixMonthsAgo -and Enabled -eq $true } -SearchBase $ouPath -Properties LastLogonDate,Enabled | Select-Object SamAccountName,LastLogonDate,Enabled # Display the results $users | Format-Table -AutoSize } ### #Students who have not been logged in for 1 month or more function Find-StudentNoLogin { $ouPath = &#34;OU=Students,DC=int&#34; $OneMonthAgo = (Get-Date).AddMonths(-1) $users = Get-ADUser -Filter { LastLogonDate -lt $OneMonthAgo -and Enabled -eq $true } -SearchBase $ouPath -Properties LastLogonDate,Enabled | Select-Object SamAccountName,LastLogonDate,Enabled $users | Format-Table -AutoSize } ### #Disable every account in a specific OU (eg. “Inactive”) function disable-inactive { $ouPath = &#34;OU=Inactive Users,DC=int&#34; # Get a list of user accounts in the specified OU $inactiveUsers = Get-ADUser -Filter * -SearchBase $ouPath # Disable each user account in the OU foreach ($user in $inactiveUsers) { Disable-ADAccount -Identity $user Set-ADUser -Identity $user Write-Host &#34;Disabled user account: $($user.SamAccountName)&#34; } } ### # List Groups Assigned to Offboarded Users and Remove all groups Except &#34;Domain Users&#34; function Remove-OffboardingGroups { $ouPath = &#34;OU=Off Boarding,DC=int&#34; $users = Get-ADUser -Filter * -SearchBase $ouPath # Iterate each user foreach ($user in $users) { # Get groups that the user is a member of $userGroups = Get-ADUser $user | Get-ADPrincipalGroupMembership | Where-Object { $_.Name -ne &#34;Domain Users&#34; -and $_.Name -notlike &#34;Group_*&#34; } | Select-Object Name if ($userGroups.Count -gt 0) { # Display groups Write-Host &#34;Groups:&#34; $userGroups | ForEach-Object { Write-Host &#34; - $($_.Name)&#34; } # Removing user from non-&#34;Domain Users&#34; groups $confirm = Read-Host &#34;Remove $($user.Name) from all groups except &#39;Domain Users&#39;? (Y/N)&#34; if ($confirm -eq &#34;Y&#34; -or $confirm -eq &#34;y&#34;) { $userGroups | ForEach-Object { Remove-ADGroupMember -Identity $_.Name -Members $user -confirm:$false -erroraction SilentlyContinue Write-Host &#34;Removed $($user.Name) from $($_.Name)&#34; } } } } } ### #List users in &#34;OU=Offboarding&#34; who have not been modified for &gt;3months function Find-Offboarded-unmodified { Write-host &#34;Users in OU=Off Boarding not modified for &gt;3months (Delete from AD)&#34; $ouPath = &#34;OU=Off Boarding,DC=int&#34; $thresholdDate = (Get-Date).AddMonths(-3) $OffboardedUnmodified = Get-ADUser -Filter * -SearchBase $ouPath -Properties * | Where-Object { $_.whenChanged -lt $thresholdDate } if ($users) { $users | Select-Object SamAccountName, whenChanged $confirmation = Read-Host &#34;Do you want to delete offboarded user accounts older than 3 months? (yes/no)&#34; if ($confirmation -eq &#34;yes&#34;) { foreach ($user in $OffboardedUnmodified) { Remove-ADUser -Identity $user -Confirm:$false Write-Host &#34;User $($user.Name) has been deleted.&#34; }} } else { Write-Host &#34;No users last modified &gt;3 months ago.&#34; } } write-host &#34;#####&#34; ### #Show if accounts in $employeeIDList are enabled or disabled foreach ($employeeID in $employeeIDList) { $adUser = Get-ADUser -Filter {EmployeeID -eq $employeeID} -Properties Enabled if ($adUser) { $isEnabled = $adUser.Enabled Write-Host &#34;Employee ID: $employeeID - Account $adUser Enabled: $isEnabled&#34; } else { Write-Host &#34;Employee ID: $employeeID - Account not found in Active Directory&#34; } } ### #List all Office Users missing an EmployeeID function Find-NoEmployeeID { $ouPath = &#34;OU=Office Users,DC=int&#34; Write-Host &#34;Office Users without EmployeeID&#34; $usersWithoutEmployeeID = Get-ADUser -Filter {EmployeeID -notlike &#34;*&#34;} -SearchBase $ouPath -Properties EmployeeID foreach ($user in $usersWithoutEmployeeID) { Write-Host &#34;$($user.SAMAccountName) - $user&#34; } } ### #New Employee List from Payroll - Finding Missing employeeIDs function find-missing-employeeIDs { $excelFilePath = Read-Host &#34;Provide full filepath to New Employee Report&#34; $worksheetName = &#34;New Employees Report&#34; $columnName = &#34;Emp No&#34; $newusers = Import-Excel -Path $excelFilePath -WorksheetName $worksheetName | Select-Object -ExpandProperty $columnName $employeeIdList = $newusers -replace &#39;(.&#43;),$&#39;, &#39;&#34;$1&#34;&#39; Get-ADUser -Filter {employeeID -eq $employeeIdList} -Properties Enabled,employeeID foreach ($employeeID in $employeeIDList) { # Get the user based on employeeID $user = Get-ADUser -Filter {employeeID -eq $employeeID} # Check if the user exists if ($user) { if (-not $user.Enabled) { Write-Host &#34;Disabled - $($employeeID) is $user.&#34;} else { } } else { Write-Host &#34;User with employeeID $employeeID not found in Active Directory.&#34; $username = Read-Host &#34;Enter Username to assign this EmployeeID&#34; Set-ADUser -Identity &#34;$username&#34; -Replace @{employeeID=$employeeID} } } } ### #Terminated Employee List from Payroll - Finding Active Users who no longer work for UC function find-terminated-users { $excelFilePath = Read-Host &#34;Provide full filepath to Terminated Employee Report&#34; $worksheetName = &#34;Terminated Employees Report&#34; $columnName = &#34;Emp No&#34; $terminated = Import-Excel -Path $excelFilePath -WorksheetName $worksheetName | Select-Object -ExpandProperty $columnName # $employeeIdList = $terminated -replace &#39;(.&#43;),$&#39;, &#39;&#34;$1&#34;&#39; Get-ADUser -Filter {employeeID -eq $employeeIDList} -Properties Enabled,employeeID foreach ($employeeID in $employeeIDList) { $user = Get-ADUser -Filter {employeeID -eq $employeeID} # Check if the user exists if ($user) { if (-not $user.Enabled) { } else {Write-Host &#34;Enabled - $($employeeID) is $user.&#34; $action = Read-Host &#34;Disable this account? (y/n)&#34;} if ($action -eq &#39;y&#39;) { Disable-ADAccount -Identity $user Write-Host &#34;$user account disabled&#34; } else { } } } else { Write-Host &#34;User with employeeID $employeeID not found in Active Directory.&#34; } } " />
+<meta property="og:url" content="/posts/script---powershell---ad-oumaintenance/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+<script defer src="/search.js"></script>
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    <div class="site-search" role="search">
+      <label class="sr-only" for="garden-search">Search the digital garden</label>
+      <input
+        id="garden-search"
+        class="site-search__input"
+        type="search"
+        placeholder="Search pages..."
+        autocomplete="off"
+        aria-autocomplete="list"
+        aria-controls="garden-search-results"
+        aria-expanded="false"
+      >
+      <div
+        id="garden-search-results"
+        class="site-search__results"
+        role="listbox"
+        hidden
+      ></div>
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/script---powershell---ad-oumaintenance/">Script - PowerShell - AD-OUMaintenance</a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/script/">script</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#List Any Disabled users in the &#34;Office Users&#34; OU</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-Disabled-Office</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Office Users,DC=int&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$OfficeUsers</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Enabled</span> <span class="o">-eq</span> <span class="vm">$false</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span><span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Write-host</span> <span class="s2">&#34;Disabled Users in OU=Office Users (Check for an offboarding ticket in Jira - Move to Off Boarding?)&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$OfficeUsers</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">-AutoSize</span>
+</span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;#####&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#List Enabled users in the &#34;Inactive Users&#34; OU</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-Enabled-Inactive</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Inactive Users,DC=int&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$EnabledInactive</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Enabled</span> <span class="o">-eq</span> <span class="vm">$true</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span><span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Write-host</span> <span class="s2">&#34;Enabled Users in OU=Inactive Users (Check for notification of Leave in Jira - Disable? Or move to Office Users?)&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$EnabledInactive</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">-AutoSize</span>
+</span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;#####&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#List Enabled users in the &#34;Offboarding&#34; OU</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-Enabled-Offboarding</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Off Boarding,DC=int&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$EnabledOffboarding</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Enabled</span> <span class="o">-eq</span> <span class="vm">$true</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span><span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Write-host</span> <span class="s2">&#34;Enabled Users in OU=Off Boarding (Check for an offboarding ticket in Jira - Disable? Or move to Office Users?)&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$EnabledOffboarding</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">-AutoSize</span>
+</span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;#####&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Office Users who have not been logged in for 6 months or more</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-NoLogin6mo</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Office Users,DC=int&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$sixMonthsAgo</span> <span class="p">=</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="py">AddMonths</span><span class="p">(</span><span class="mf">-6</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Get users from the specified OU who have not logged in for 6 months or more</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$users</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">LastLogonDate</span> <span class="o">-lt</span> <span class="nv">$sixMonthsAgo</span> <span class="o">-and</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Enabled</span> <span class="o">-eq</span> <span class="vm">$true</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span><span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Display the results</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$users</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">-AutoSize</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Students who have not been logged in for 1 month or more</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-StudentNoLogin</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Students,DC=int&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$OneMonthAgo</span> <span class="p">=</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="py">AddMonths</span><span class="p">(</span><span class="mf">-1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$users</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">LastLogonDate</span> <span class="o">-lt</span> <span class="nv">$OneMonthAgo</span> <span class="o">-and</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Enabled</span> <span class="o">-eq</span> <span class="vm">$true</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span><span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$users</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">-AutoSize</span> 
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Disable every account in a specific OU (eg. “Inactive”)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">disable-inactive</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Inactive Users,DC=int&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Get a list of user accounts in the specified OU</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$inactiveUsers</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">*</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Disable each user account in the OU</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$user</span> <span class="k">in</span> <span class="nv">$inactiveUsers</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Disable-ADAccount</span> <span class="n">-Identity</span> <span class="nv">$user</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span>
+</span></span><span class="line"><span class="cl">	<span class="nb">Write-Host</span> <span class="s2">&#34;Disabled user account: </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">SamAccountName</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c"># List Groups Assigned to Offboarded Users and Remove all groups Except &#34;Domain Users&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Remove-OffboardingGroups</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Off Boarding,DC=int&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$users</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">*</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Iterate each user</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$user</span> <span class="k">in</span> <span class="nv">$users</span><span class="p">)</span> <span class="p">{</span>  
+</span></span><span class="line"><span class="cl">    <span class="c"># Get groups that the user is a member of</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$userGroups</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="nv">$user</span> <span class="p">|</span> <span class="nb">Get-ADPrincipalGroupMembership</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Name</span> <span class="o">-ne</span> <span class="s2">&#34;Domain Users&#34;</span> <span class="o">-and</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Name</span> <span class="o">-notlike</span> <span class="s2">&#34;Group_*&#34;</span> <span class="p">}</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">Name</span>    
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$userGroups</span><span class="p">.</span><span class="py">Count</span> <span class="o">-gt</span> <span class="mf">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Display groups</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;Groups:&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$userGroups</span> <span class="p">|</span> <span class="nb">ForEach-Object</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Host</span> <span class="s2">&#34; - </span><span class="p">$(</span><span class="nv">$_</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Removing user from non-&#34;Domain Users&#34; groups</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$confirm</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Remove </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2"> from all groups except &#39;Domain Users&#39;? (Y/N)&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$confirm</span> <span class="o">-eq</span> <span class="s2">&#34;Y&#34;</span> <span class="o">-or</span> <span class="nv">$confirm</span> <span class="o">-eq</span> <span class="s2">&#34;y&#34;</span><span class="p">)</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl">				<span class="nv">$userGroups</span> <span class="p">|</span> <span class="nb">ForEach-Object</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">Remove-ADGroupMember</span> <span class="n">-Identity</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Name</span> <span class="n">-Members</span> <span class="nv">$user</span> <span class="n">-confirm:</span><span class="vm">$false</span> <span class="n">-erroraction</span> <span class="n">SilentlyContinue</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">Write-Host</span> <span class="s2">&#34;Removed </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2"> from </span><span class="p">$(</span><span class="nv">$_</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#List users in &#34;OU=Offboarding&#34; who have not been modified for &gt;3months</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-Offboarded-unmodified</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Write-host</span> <span class="s2">&#34;Users in OU=Off Boarding not modified for &gt;3months (Delete from AD)&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Off Boarding,DC=int&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$thresholdDate</span> <span class="p">=</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="py">AddMonths</span><span class="p">(</span><span class="mf">-3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$OffboardedUnmodified</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">*</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="p">*</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="py">whenChanged</span> <span class="o">-lt</span> <span class="nv">$thresholdDate</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nv">$users</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$users</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span> <span class="n">whenChanged</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">$confirmation</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Do you want to delete offboarded user accounts older than 3 months? (yes/no)&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$confirmation</span> <span class="o">-eq</span> <span class="s2">&#34;yes&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">foreach</span> <span class="p">(</span><span class="nv">$user</span> <span class="k">in</span> <span class="nv">$OffboardedUnmodified</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Remove-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span> <span class="n">-Confirm:</span><span class="vm">$false</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Host</span> <span class="s2">&#34;User </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2"> has been deleted.&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-Host</span> <span class="s2">&#34;No users last modified &gt;3 months ago.&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;#####&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Show if accounts in $employeeIDList are enabled or disabled</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$employeeID</span> <span class="k">in</span> <span class="nv">$employeeIDList</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$adUser</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">EmployeeID</span> <span class="o">-eq</span> <span class="nv">$employeeID</span><span class="p">}</span> <span class="n">-Properties</span> <span class="n">Enabled</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$adUser</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$isEnabled</span> <span class="p">=</span> <span class="nv">$adUser</span><span class="p">.</span><span class="py">Enabled</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;Employee ID: </span><span class="nv">$employeeID</span><span class="s2"> - Account </span><span class="nv">$adUser</span><span class="s2"> Enabled: </span><span class="nv">$isEnabled</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;Employee ID: </span><span class="nv">$employeeID</span><span class="s2"> - Account not found in Active Directory&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#List all Office Users missing an EmployeeID</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-NoEmployeeID</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Office Users,DC=int&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Write-Host</span> <span class="s2">&#34;Office Users without EmployeeID&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$usersWithoutEmployeeID</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">EmployeeID</span> <span class="o">-notlike</span> <span class="s2">&#34;*&#34;</span><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">EmployeeID</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$user</span> <span class="k">in</span> <span class="nv">$usersWithoutEmployeeID</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nb">Write-Host</span> <span class="s2">&#34;</span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">SAMAccountName</span><span class="p">)</span><span class="s2"> - </span><span class="nv">$user</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#New Employee List from Payroll - Finding Missing employeeIDs</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">find-missing-employeeIDs</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$excelFilePath</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Provide full filepath to New Employee Report&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$worksheetName</span> <span class="p">=</span> <span class="s2">&#34;New Employees Report&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$columnName</span> <span class="p">=</span> <span class="s2">&#34;Emp No&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$newusers</span> <span class="p">=</span> <span class="nb">Import-Excel</span> <span class="n">-Path</span> <span class="nv">$excelFilePath</span> <span class="n">-WorksheetName</span> <span class="nv">$worksheetName</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="nv">$columnName</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$employeeIdList</span> <span class="p">=</span> <span class="nv">$newusers</span> <span class="o">-replace</span> <span class="s1">&#39;(.+),$&#39;</span><span class="p">,</span> <span class="s1">&#39;&#34;$1&#34;&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">employeeID</span> <span class="o">-eq</span> <span class="nv">$employeeIdList</span><span class="p">}</span> <span class="n">-Properties</span> <span class="n">Enabled</span><span class="p">,</span><span class="n">employeeID</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$employeeID</span> <span class="k">in</span> <span class="nv">$employeeIDList</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Get the user based on employeeID</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">employeeID</span> <span class="o">-eq</span> <span class="nv">$employeeID</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Check if the user exists</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$user</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="o">-not</span> <span class="nv">$user</span><span class="p">.</span><span class="n">Enabled</span><span class="p">)</span> <span class="p">{</span> <span class="nb">Write-Host</span> <span class="s2">&#34;Disabled - </span><span class="p">$(</span><span class="nv">$employeeID</span><span class="p">)</span><span class="s2"> is </span><span class="nv">$user</span><span class="s2">.&#34;</span><span class="p">}</span> 
+</span></span><span class="line"><span class="cl">		<span class="k">else</span> <span class="p">{</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span> <span class="nb">Write-Host</span> <span class="s2">&#34;User with employeeID </span><span class="nv">$employeeID</span><span class="s2"> not found in Active Directory.&#34;</span> 
+</span></span><span class="line"><span class="cl">			<span class="nv">$username</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter Username to assign this EmployeeID&#34;</span>
+</span></span><span class="line"><span class="cl">			<span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="s2">&#34;</span><span class="nv">$username</span><span class="s2">&#34;</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">employeeID</span><span class="p">=</span><span class="nv">$employeeID</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Terminated Employee List from Payroll - Finding Active Users who no longer work for UC</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">find-terminated-users</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$excelFilePath</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Provide full filepath to Terminated Employee Report&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$worksheetName</span> <span class="p">=</span> <span class="s2">&#34;Terminated Employees Report&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$columnName</span> <span class="p">=</span> <span class="s2">&#34;Emp No&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$terminated</span> <span class="p">=</span> <span class="nb">Import-Excel</span> <span class="n">-Path</span> <span class="nv">$excelFilePath</span> <span class="n">-WorksheetName</span> <span class="nv">$worksheetName</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="nv">$columnName</span>
+</span></span><span class="line"><span class="cl"><span class="c">#</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$employeeIdList</span> <span class="p">=</span> <span class="nv">$terminated</span> <span class="o">-replace</span> <span class="s1">&#39;(.+),$&#39;</span><span class="p">,</span> <span class="s1">&#39;&#34;$1&#34;&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">employeeID</span> <span class="o">-eq</span> <span class="nv">$employeeIDList</span><span class="p">}</span> <span class="n">-Properties</span> <span class="n">Enabled</span><span class="p">,</span><span class="n">employeeID</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$employeeID</span> <span class="k">in</span> <span class="nv">$employeeIDList</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">employeeID</span> <span class="o">-eq</span> <span class="nv">$employeeID</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Check if the user exists</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$user</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="o">-not</span> <span class="nv">$user</span><span class="p">.</span><span class="n">Enabled</span><span class="p">)</span> <span class="p">{</span> <span class="p">}</span> 
+</span></span><span class="line"><span class="cl">		<span class="k">else</span> <span class="p">{</span><span class="nb">Write-Host</span> <span class="s2">&#34;Enabled - </span><span class="p">$(</span><span class="nv">$employeeID</span><span class="p">)</span><span class="s2"> is </span><span class="nv">$user</span><span class="s2">.&#34;</span> 
+</span></span><span class="line"><span class="cl">		<span class="nv">$action</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Disable this account? (y/n)&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="k">if</span> <span class="p">(</span><span class="nv">$action</span> <span class="o">-eq</span> <span class="s1">&#39;y&#39;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nb">Disable-ADAccount</span> <span class="n">-Identity</span> <span class="nv">$user</span>
+</span></span><span class="line"><span class="cl">		<span class="nb">Write-Host</span> <span class="s2">&#34;</span><span class="nv">$user</span><span class="s2"> account disabled&#34;</span> 
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="k">else</span> <span class="p">{</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span> <span class="nb">Write-Host</span> <span class="s2">&#34;User with employeeID </span><span class="nv">$employeeID</span><span class="s2"> not found in Active Directory.&#34;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/script---powershell---ad-offboarding/" class="button inline prev">
+        &lt; [<span class="button__text">Script - PowerShell - AD-Offboarding</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/script---powershell---archive-userfiles/" class="button inline next">
+         [<span class="button__text">Script - PowerShell - Archive-UserFiles</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

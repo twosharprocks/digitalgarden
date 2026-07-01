@@ -179,14 +179,14 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/slovakia/">Slovakia</a>
+          <a href="/posts/script---powershell---ad-offboarding/">Script - PowerShell - AD-Offboarding</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -196,53 +196,60 @@
 
         <div class="post-content">
           
-            <p>Slovakia is listed under <a href="/posts/europe/">Europe</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-<hr>
-<h1 id="existing-notes">Existing Notes</h1>
-<h1 id="about">About</h1>
-<h1 id="caves">Caves</h1>
-<ul>
-<li><a href="https://www.scubadiving.com/scuba-diving-through-slovakias-enchanting-opal-mines">Opal Mine, Presov</a></li>
-</ul>
-<h1 id="trips">Trips</h1>
-<ul>
-<li></li>
-</ul>
-<hr>
-<h1 id="references">References</h1>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#Specific username to offboard and the updated description</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">move-user-offboarding</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">read-host</span> <span class="s1">&#39;Username&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$updatedDescription</span> <span class="p">=</span> <span class="nb">read-host</span> <span class="s1">&#39;ICT Number and Date&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Do not edit anything below this</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Disable-ADAccount</span> <span class="n">-Identity</span> <span class="nv">$user</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$destinationOU</span> <span class="p">=</span> <span class="s2">&#34;OU=Off Boarding,OU=Users,OU=_Users &amp; Groups,DC=acm,DC=int&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="c">#Hide user from Address Lists</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">msExchHideFromAddressLists</span><span class="p">=</span><span class="s2">&#34;TRUE&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Get the user object &amp; update their description</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Get-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span> <span class="p">|</span> <span class="nb">Set-ADUser</span> <span class="n">-description</span> <span class="nv">$updatedDescription</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$user</span> <span class="o">-eq</span> <span class="vm">$null</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;User not found.&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">exit</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Move the user to the new OU</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Get-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span> <span class="p">|</span> <span class="nb">Move-ADObject</span> <span class="n">-TargetPath</span> <span class="nv">$destinationOU</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Get the group memberships of the user</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$userGroups</span> <span class="p">=</span> <span class="nb">Get-ADPrincipalGroupMembership</span> <span class="n">-Identity</span> <span class="nv">$user</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Loop through the user&#39;s group memberships and remove them, excluding &#34;Domain Users&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">foreach</span> <span class="p">(</span><span class="nv">$group</span> <span class="k">in</span> <span class="nv">$userGroups</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$group</span><span class="p">.</span><span class="py">objectClass</span> <span class="o">-eq</span> <span class="s1">&#39;group&#39;</span> <span class="o">-and</span> <span class="nv">$group</span><span class="p">.</span><span class="py">Name</span> <span class="o">-ne</span> <span class="s2">&#34;Domain Users&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="c"># Use Try-Catch to handle any potential errors (e.g., if the user is not a member of the group)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">Remove-ADGroupMember</span> <span class="n">-Identity</span> <span class="nv">$group</span> <span class="n">-Members</span> <span class="nv">$user</span> <span class="n">-Confirm:</span><span class="vm">$false</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">Write-Host</span> <span class="s2">&#34;Removed </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">SamAccountName</span><span class="p">)</span><span class="s2"> from </span><span class="p">$(</span><span class="nv">$group</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="k">catch</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">Write-Host</span> <span class="s2">&#34;Failed to remove </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">SamAccountName</span><span class="p">)</span><span class="s2"> from </span><span class="p">$(</span><span class="nv">$group</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-Host</span> <span class="s2">&#34;</span><span class="nv">$user</span><span class="s2"> moved to Off Boarding and Group memberships (excluding &#39;Domain Users&#39;) removed&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span></code></pre></div>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/slovakia/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---powershell---ad-offboarding/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/slovenia/">Slovenia</a>
+          <a href="/posts/script---powershell---ad-oumaintenance/">Script - PowerShell - AD-OUMaintenance</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -252,68 +259,205 @@
 
         <div class="post-content">
           
-            <p>Slovenia is listed under <a href="/posts/europe/">Europe</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-<hr>
-<h1 id="existing-notes">Existing Notes</h1>
-<h1 id="about">About</h1>
-<p>Soča Valley</p>
-<h1 id="caves">Caves</h1>
-<ul>
-<li>Planina cave - <a href="https://www.facebook.com/photo/?fbid=23913715701557305&amp;set=gm.10161358380363639&amp;idorvanity=2205123638">boat tours</a>, <a href="https://www.facebook.com/groups/caversgroup/posts/10161492638843639/">facebook - book</a></li>
-<li></li>
-</ul>
-<h1 id="trips">Trips</h1>
-<ul>
-<li></li>
-</ul>
-<hr>
-<h1 id="references">References</h1>
-<ul>
-<li>
-<table>
-  <thead>
-      <tr>
-          <th>InDepth Mag - No Direction Home A Slovenia  Cave Diving Adventure</th>
-      </tr>
-  </thead>
-  <tbody>
-  </tbody>
-</table>
-</li>
-</ul>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#List Any Disabled users in the &#34;Office Users&#34; OU</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-Disabled-Office</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Office Users,DC=int&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$OfficeUsers</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Enabled</span> <span class="o">-eq</span> <span class="vm">$false</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span><span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Write-host</span> <span class="s2">&#34;Disabled Users in OU=Office Users (Check for an offboarding ticket in Jira - Move to Off Boarding?)&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$OfficeUsers</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">-AutoSize</span>
+</span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;#####&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#List Enabled users in the &#34;Inactive Users&#34; OU</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-Enabled-Inactive</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Inactive Users,DC=int&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$EnabledInactive</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Enabled</span> <span class="o">-eq</span> <span class="vm">$true</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span><span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Write-host</span> <span class="s2">&#34;Enabled Users in OU=Inactive Users (Check for notification of Leave in Jira - Disable? Or move to Office Users?)&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$EnabledInactive</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">-AutoSize</span>
+</span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;#####&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#List Enabled users in the &#34;Offboarding&#34; OU</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-Enabled-Offboarding</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Off Boarding,DC=int&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$EnabledOffboarding</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Enabled</span> <span class="o">-eq</span> <span class="vm">$true</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span><span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Write-host</span> <span class="s2">&#34;Enabled Users in OU=Off Boarding (Check for an offboarding ticket in Jira - Disable? Or move to Office Users?)&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$EnabledOffboarding</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">-AutoSize</span>
+</span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;#####&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Office Users who have not been logged in for 6 months or more</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-NoLogin6mo</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Office Users,DC=int&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$sixMonthsAgo</span> <span class="p">=</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="py">AddMonths</span><span class="p">(</span><span class="mf">-6</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Get users from the specified OU who have not logged in for 6 months or more</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$users</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">LastLogonDate</span> <span class="o">-lt</span> <span class="nv">$sixMonthsAgo</span> <span class="o">-and</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Enabled</span> <span class="o">-eq</span> <span class="vm">$true</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span><span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Display the results</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$users</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">-AutoSize</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Students who have not been logged in for 1 month or more</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-StudentNoLogin</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Students,DC=int&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$OneMonthAgo</span> <span class="p">=</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="py">AddMonths</span><span class="p">(</span><span class="mf">-1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$users</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">LastLogonDate</span> <span class="o">-lt</span> <span class="nv">$OneMonthAgo</span> <span class="o">-and</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Enabled</span> <span class="o">-eq</span> <span class="vm">$true</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span><span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$users</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">-AutoSize</span> 
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Disable every account in a specific OU (eg. “Inactive”)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">disable-inactive</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Inactive Users,DC=int&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Get a list of user accounts in the specified OU</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$inactiveUsers</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">*</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Disable each user account in the OU</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$user</span> <span class="k">in</span> <span class="nv">$inactiveUsers</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Disable-ADAccount</span> <span class="n">-Identity</span> <span class="nv">$user</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span>
+</span></span><span class="line"><span class="cl">	<span class="nb">Write-Host</span> <span class="s2">&#34;Disabled user account: </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">SamAccountName</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c"># List Groups Assigned to Offboarded Users and Remove all groups Except &#34;Domain Users&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Remove-OffboardingGroups</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Off Boarding,DC=int&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$users</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">*</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Iterate each user</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$user</span> <span class="k">in</span> <span class="nv">$users</span><span class="p">)</span> <span class="p">{</span>  
+</span></span><span class="line"><span class="cl">    <span class="c"># Get groups that the user is a member of</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$userGroups</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="nv">$user</span> <span class="p">|</span> <span class="nb">Get-ADPrincipalGroupMembership</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Name</span> <span class="o">-ne</span> <span class="s2">&#34;Domain Users&#34;</span> <span class="o">-and</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Name</span> <span class="o">-notlike</span> <span class="s2">&#34;Group_*&#34;</span> <span class="p">}</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">Name</span>    
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$userGroups</span><span class="p">.</span><span class="py">Count</span> <span class="o">-gt</span> <span class="mf">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Display groups</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;Groups:&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$userGroups</span> <span class="p">|</span> <span class="nb">ForEach-Object</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Host</span> <span class="s2">&#34; - </span><span class="p">$(</span><span class="nv">$_</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Removing user from non-&#34;Domain Users&#34; groups</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$confirm</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Remove </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2"> from all groups except &#39;Domain Users&#39;? (Y/N)&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$confirm</span> <span class="o">-eq</span> <span class="s2">&#34;Y&#34;</span> <span class="o">-or</span> <span class="nv">$confirm</span> <span class="o">-eq</span> <span class="s2">&#34;y&#34;</span><span class="p">)</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl">				<span class="nv">$userGroups</span> <span class="p">|</span> <span class="nb">ForEach-Object</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">Remove-ADGroupMember</span> <span class="n">-Identity</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Name</span> <span class="n">-Members</span> <span class="nv">$user</span> <span class="n">-confirm:</span><span class="vm">$false</span> <span class="n">-erroraction</span> <span class="n">SilentlyContinue</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">Write-Host</span> <span class="s2">&#34;Removed </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2"> from </span><span class="p">$(</span><span class="nv">$_</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#List users in &#34;OU=Offboarding&#34; who have not been modified for &gt;3months</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-Offboarded-unmodified</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Write-host</span> <span class="s2">&#34;Users in OU=Off Boarding not modified for &gt;3months (Delete from AD)&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Off Boarding,DC=int&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$thresholdDate</span> <span class="p">=</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="py">AddMonths</span><span class="p">(</span><span class="mf">-3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$OffboardedUnmodified</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">*</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="p">*</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="py">whenChanged</span> <span class="o">-lt</span> <span class="nv">$thresholdDate</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nv">$users</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$users</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span> <span class="n">whenChanged</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">$confirmation</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Do you want to delete offboarded user accounts older than 3 months? (yes/no)&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$confirmation</span> <span class="o">-eq</span> <span class="s2">&#34;yes&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">foreach</span> <span class="p">(</span><span class="nv">$user</span> <span class="k">in</span> <span class="nv">$OffboardedUnmodified</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Remove-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span> <span class="n">-Confirm:</span><span class="vm">$false</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Host</span> <span class="s2">&#34;User </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2"> has been deleted.&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-Host</span> <span class="s2">&#34;No users last modified &gt;3 months ago.&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;#####&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Show if accounts in $employeeIDList are enabled or disabled</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$employeeID</span> <span class="k">in</span> <span class="nv">$employeeIDList</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$adUser</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">EmployeeID</span> <span class="o">-eq</span> <span class="nv">$employeeID</span><span class="p">}</span> <span class="n">-Properties</span> <span class="n">Enabled</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$adUser</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$isEnabled</span> <span class="p">=</span> <span class="nv">$adUser</span><span class="p">.</span><span class="py">Enabled</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;Employee ID: </span><span class="nv">$employeeID</span><span class="s2"> - Account </span><span class="nv">$adUser</span><span class="s2"> Enabled: </span><span class="nv">$isEnabled</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;Employee ID: </span><span class="nv">$employeeID</span><span class="s2"> - Account not found in Active Directory&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#List all Office Users missing an EmployeeID</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-NoEmployeeID</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Office Users,DC=int&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Write-Host</span> <span class="s2">&#34;Office Users without EmployeeID&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$usersWithoutEmployeeID</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">EmployeeID</span> <span class="o">-notlike</span> <span class="s2">&#34;*&#34;</span><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">EmployeeID</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$user</span> <span class="k">in</span> <span class="nv">$usersWithoutEmployeeID</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nb">Write-Host</span> <span class="s2">&#34;</span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">SAMAccountName</span><span class="p">)</span><span class="s2"> - </span><span class="nv">$user</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#New Employee List from Payroll - Finding Missing employeeIDs</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">find-missing-employeeIDs</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$excelFilePath</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Provide full filepath to New Employee Report&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$worksheetName</span> <span class="p">=</span> <span class="s2">&#34;New Employees Report&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$columnName</span> <span class="p">=</span> <span class="s2">&#34;Emp No&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$newusers</span> <span class="p">=</span> <span class="nb">Import-Excel</span> <span class="n">-Path</span> <span class="nv">$excelFilePath</span> <span class="n">-WorksheetName</span> <span class="nv">$worksheetName</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="nv">$columnName</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$employeeIdList</span> <span class="p">=</span> <span class="nv">$newusers</span> <span class="o">-replace</span> <span class="s1">&#39;(.+),$&#39;</span><span class="p">,</span> <span class="s1">&#39;&#34;$1&#34;&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">employeeID</span> <span class="o">-eq</span> <span class="nv">$employeeIdList</span><span class="p">}</span> <span class="n">-Properties</span> <span class="n">Enabled</span><span class="p">,</span><span class="n">employeeID</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$employeeID</span> <span class="k">in</span> <span class="nv">$employeeIDList</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Get the user based on employeeID</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">employeeID</span> <span class="o">-eq</span> <span class="nv">$employeeID</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Check if the user exists</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$user</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="o">-not</span> <span class="nv">$user</span><span class="p">.</span><span class="n">Enabled</span><span class="p">)</span> <span class="p">{</span> <span class="nb">Write-Host</span> <span class="s2">&#34;Disabled - </span><span class="p">$(</span><span class="nv">$employeeID</span><span class="p">)</span><span class="s2"> is </span><span class="nv">$user</span><span class="s2">.&#34;</span><span class="p">}</span> 
+</span></span><span class="line"><span class="cl">		<span class="k">else</span> <span class="p">{</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span> <span class="nb">Write-Host</span> <span class="s2">&#34;User with employeeID </span><span class="nv">$employeeID</span><span class="s2"> not found in Active Directory.&#34;</span> 
+</span></span><span class="line"><span class="cl">			<span class="nv">$username</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter Username to assign this EmployeeID&#34;</span>
+</span></span><span class="line"><span class="cl">			<span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="s2">&#34;</span><span class="nv">$username</span><span class="s2">&#34;</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">employeeID</span><span class="p">=</span><span class="nv">$employeeID</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Terminated Employee List from Payroll - Finding Active Users who no longer work for UC</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">find-terminated-users</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$excelFilePath</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Provide full filepath to Terminated Employee Report&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$worksheetName</span> <span class="p">=</span> <span class="s2">&#34;Terminated Employees Report&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$columnName</span> <span class="p">=</span> <span class="s2">&#34;Emp No&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$terminated</span> <span class="p">=</span> <span class="nb">Import-Excel</span> <span class="n">-Path</span> <span class="nv">$excelFilePath</span> <span class="n">-WorksheetName</span> <span class="nv">$worksheetName</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="nv">$columnName</span>
+</span></span><span class="line"><span class="cl"><span class="c">#</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$employeeIdList</span> <span class="p">=</span> <span class="nv">$terminated</span> <span class="o">-replace</span> <span class="s1">&#39;(.+),$&#39;</span><span class="p">,</span> <span class="s1">&#39;&#34;$1&#34;&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">employeeID</span> <span class="o">-eq</span> <span class="nv">$employeeIDList</span><span class="p">}</span> <span class="n">-Properties</span> <span class="n">Enabled</span><span class="p">,</span><span class="n">employeeID</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$employeeID</span> <span class="k">in</span> <span class="nv">$employeeIDList</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">employeeID</span> <span class="o">-eq</span> <span class="nv">$employeeID</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Check if the user exists</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$user</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="o">-not</span> <span class="nv">$user</span><span class="p">.</span><span class="n">Enabled</span><span class="p">)</span> <span class="p">{</span> <span class="p">}</span> 
+</span></span><span class="line"><span class="cl">		<span class="k">else</span> <span class="p">{</span><span class="nb">Write-Host</span> <span class="s2">&#34;Enabled - </span><span class="p">$(</span><span class="nv">$employeeID</span><span class="p">)</span><span class="s2"> is </span><span class="nv">$user</span><span class="s2">.&#34;</span> 
+</span></span><span class="line"><span class="cl">		<span class="nv">$action</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Disable this account? (y/n)&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="k">if</span> <span class="p">(</span><span class="nv">$action</span> <span class="o">-eq</span> <span class="s1">&#39;y&#39;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nb">Disable-ADAccount</span> <span class="n">-Identity</span> <span class="nv">$user</span>
+</span></span><span class="line"><span class="cl">		<span class="nb">Write-Host</span> <span class="s2">&#34;</span><span class="nv">$user</span><span class="s2"> account disabled&#34;</span> 
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="k">else</span> <span class="p">{</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span> <span class="nb">Write-Host</span> <span class="s2">&#34;User with employeeID </span><span class="nv">$employeeID</span><span class="s2"> not found in Active Directory.&#34;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/slovenia/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---powershell---ad-oumaintenance/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/solomon-islands/">Solomon Islands</a>
+          <a href="/posts/script---powershell---archive-userfiles/">Script - PowerShell - Archive-UserFiles</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -323,60 +467,103 @@
 
         <div class="post-content">
           
-            <p>Solomon Islands is listed under <a href="/posts/oceania/">Oceania</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-<hr>
-<h1 id="existing-notes">Existing Notes</h1>
-<h1 id="about">About</h1>
-<p>Guadalcanal &amp; Choiseul Karst</p>
-<ul>
-<li><strong>Why:</strong> Volcanic-limestone islands with known karst features and resurgence-fed streams.</li>
-<li><strong>Status:</strong> Some dry cave records, but very little underwater exploration.</li>
-<li><strong>Potential:</strong> Remote karst spring diving with oceanic isolation appeal.</li>
-<li><strong>Best Season:</strong> May to October.</li>
-</ul>
-<h1 id="caves">Caves</h1>
-<ul>
-<li></li>
-</ul>
-<h1 id="trips">Trips</h1>
-<ul>
-<li></li>
-</ul>
-<hr>
-<h1 id="references">References</h1>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#Create an archive for user files, search directories for folders titled with variations of the user&#39;s name, </span>
+</span></span><span class="line"><span class="cl"><span class="c">#then offer to copy/delete/ignore the files to the recently created archive</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">New-Archive</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$firstName</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter User First Name&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$lastName</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter User Last Name&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">function</span><span class="w"> </span><span class="nb">New-Folders</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">param</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">            <span class="p">[</span><span class="no">string</span><span class="p">]</span><span class="nv">$firstName</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="p">[</span><span class="no">string</span><span class="p">]</span><span class="nv">$lastName</span>
+</span></span><span class="line"><span class="cl">        <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$currentdate</span> <span class="p">=</span> <span class="nb">Get-Date</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$targetdate</span> <span class="p">=</span> <span class="nv">$currentDate</span><span class="p">.</span><span class="py">Addmonths</span><span class="p">(</span><span class="mf">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$basePath</span> <span class="p">=</span> <span class="s2">&#34;\\fsfs02\Archived$&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$folderName</span> <span class="p">=</span> <span class="s2">&#34;{0:yyyy-MM-dd}_{1}_{2}&#34;</span> <span class="o">-f</span> <span class="nv">$targetDate</span><span class="p">,</span> <span class="nv">$firstName</span><span class="p">,</span> <span class="nv">$lastName</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">New-Item</span> <span class="n">-ItemType</span> <span class="n">Directory</span> <span class="n">-Path</span> <span class="p">(</span><span class="nb">Join-Path</span> <span class="nv">$basePath</span> <span class="nv">$folderName</span><span class="p">)</span> <span class="n">-ErrorAction</span> <span class="n">SilentlyContinue</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">New-Item</span> <span class="n">-ItemType</span> <span class="n">Directory</span> <span class="n">-Path</span> <span class="p">(</span><span class="nb">Join-Path</span> <span class="p">(</span><span class="nb">Join-Path</span> <span class="nv">$basePath</span> <span class="nv">$folderName</span><span class="p">)</span> <span class="s2">&#34;Home Folder&#34;</span><span class="p">)</span> <span class="n">-ErrorAction</span> <span class="n">SilentlyContinue</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">New-Item</span> <span class="n">-ItemType</span> <span class="n">Directory</span> <span class="n">-Path</span> <span class="p">(</span><span class="nb">Join-Path</span> <span class="p">(</span><span class="nb">Join-Path</span> <span class="nv">$basePath</span> <span class="nv">$folderName</span><span class="p">)</span> <span class="s2">&#34;Folder Redirect&#34;</span><span class="p">)</span> <span class="n">-ErrorAction</span> <span class="n">SilentlyContinue</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">New-Folders</span> <span class="n">-firstName</span> <span class="nv">$firstName</span> <span class="n">-lastName</span> <span class="nv">$lastName</span>
+</span></span><span class="line"><span class="cl">    <span class="c">#Construct the naming patterns</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$pattern1</span> <span class="p">=</span> <span class="s2">&#34;</span><span class="nv">$firstName</span><span class="s2">.</span><span class="nv">$lastName</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$pattern2</span> <span class="p">=</span> <span class="s2">&#34;</span><span class="p">$(</span><span class="nv">$firstName</span><span class="p">[</span><span class="mf">0</span><span class="p">])</span><span class="nv">$lastName</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$pattern3</span> <span class="p">=</span> <span class="s2">&#34;</span><span class="nv">$firstName</span><span class="p">$(</span><span class="nv">$lastName</span><span class="p">[</span><span class="mf">0</span><span class="p">])</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Define the directories to search in</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$directoriesToSearch</span> <span class="p">=</span> <span class="vm">@</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;\\dc.int\folder\UserFiles\HomeDirectory&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;C:\Users&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;\\dc.int\folder\UserFiles\CitrixRedirected&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;D:\FldRdr&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;\\fsctxfile01\D$\FSLogix\FSLOffice&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;\\fsctxfile01\D$\FSLogix\FSLProfile&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Iterate through each directory</span>
+</span></span><span class="line"><span class="cl">    <span class="k">foreach</span> <span class="p">(</span><span class="nv">$directory</span> <span class="k">in</span> <span class="nv">$directoriesToSearch</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Check the directory exists</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nb">Test-Path</span> <span class="nv">$directory</span> <span class="n">-PathType</span> <span class="n">Container</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="c"># Iterate naming patterns</span>
+</span></span><span class="line"><span class="cl">            <span class="k">foreach</span> <span class="p">(</span><span class="nv">$pattern</span> <span class="k">in</span> <span class="nv">$pattern1</span><span class="p">,</span> <span class="nv">$pattern2</span><span class="p">,</span> <span class="nv">$pattern3</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="c"># Construct the full path</span>
+</span></span><span class="line"><span class="cl">                <span class="nv">$fullPath</span> <span class="p">=</span> <span class="nb">Join-Path</span> <span class="n">-Path</span> <span class="nv">$directory</span> <span class="n">-ChildPath</span> <span class="nv">$pattern</span>
+</span></span><span class="line"><span class="cl">                <span class="c"># Check if the folder exists</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="p">(</span><span class="nb">Test-Path</span> <span class="nv">$fullPath</span> <span class="n">-PathType</span> <span class="n">Container</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="nb">Write-Host</span> <span class="s2">&#34;Found folder: </span><span class="nv">$fullPath</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">                    <span class="c"># Ask copy, delete, ignore, or just delete</span>
+</span></span><span class="line"><span class="cl">                    <span class="nv">$action</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Do you want to (C)opy and delete, (D)elete only, (I)gnore, or take no action? (C/D/I/N)&#34;</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">if</span> <span class="p">(</span><span class="nv">$action</span> <span class="o">-eq</span> <span class="s1">&#39;C&#39;</span> <span class="o">-or</span> <span class="nv">$action</span> <span class="o">-eq</span> <span class="s1">&#39;c&#39;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="c"># Ask the user for the destination directory</span>
+</span></span><span class="line"><span class="cl">                        <span class="nv">$destinationDirectory</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the destination directory for </span><span class="p">$(</span><span class="nv">$fullPath</span><span class="p">)</span><span class="s2">:&#34;</span>
+</span></span><span class="line"><span class="cl">                        <span class="c"># Create the target directory if it doesn&#39;t exist</span>
+</span></span><span class="line"><span class="cl">                        <span class="k">if</span> <span class="p">(!(</span><span class="nb">Test-Path</span> <span class="nv">$destinationDirectory</span> <span class="n">-PathType</span> <span class="n">Container</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                            <span class="nb">New-Item</span> <span class="n">-ItemType</span> <span class="n">Directory</span> <span class="n">-Path</span> <span class="nv">$destinationDirectory</span>
+</span></span><span class="line"><span class="cl">                        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                        <span class="c"># Copy contents to target directory</span>
+</span></span><span class="line"><span class="cl">                        <span class="n">robocopy</span> <span class="nv">$fullPath</span> <span class="nv">$destinationDirectory</span> <span class="p">/</span><span class="n">E</span>
+</span></span><span class="line"><span class="cl">                        <span class="c"># Remove the original folder</span>
+</span></span><span class="line"><span class="cl">                        <span class="nb">Write-Host</span> <span class="s2">&#34;Removing original folder...&#34;</span>
+</span></span><span class="line"><span class="cl">                        <span class="nb">Remove-Item</span> <span class="n">-Path</span> <span class="nv">$fullPath</span> <span class="n">-Recurse</span> <span class="n">-Force</span>
+</span></span><span class="line"><span class="cl">                        <span class="nb">Write-Host</span> <span class="s2">&#34;Contents copied to </span><span class="nv">$destinationDirectory</span><span class="s2"> and original folder deleted: </span><span class="nv">$fullPath</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">}</span> <span class="k">elseif</span> <span class="p">(</span><span class="nv">$action</span> <span class="o">-eq</span> <span class="s1">&#39;D&#39;</span> <span class="o">-or</span> <span class="nv">$action</span> <span class="o">-eq</span> <span class="s1">&#39;d&#39;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="c"># Just delete the folder</span>
+</span></span><span class="line"><span class="cl">                        <span class="nb">Write-Host</span> <span class="s2">&#34;Removing original folder...&#34;</span>
+</span></span><span class="line"><span class="cl">                        <span class="nb">Remove-Item</span> <span class="n">-Path</span> <span class="nv">$fullPath</span> <span class="n">-Recurse</span> <span class="n">-Force</span>
+</span></span><span class="line"><span class="cl">                        <span class="nb">Write-Host</span> <span class="s2">&#34;Folder deleted: </span><span class="nv">$fullPath</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">}</span> <span class="k">elseif</span> <span class="p">(</span><span class="nv">$action</span> <span class="o">-eq</span> <span class="s1">&#39;I&#39;</span> <span class="o">-or</span> <span class="nv">$action</span> <span class="o">-eq</span> <span class="s1">&#39;i&#39;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="nb">Write-Host</span> <span class="s2">&#34;Folder ignored: </span><span class="nv">$fullPath</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">}</span> <span class="k">elseif</span> <span class="p">(</span><span class="nv">$action</span> <span class="o">-eq</span> <span class="s1">&#39;N&#39;</span> <span class="o">-or</span> <span class="nv">$action</span> <span class="o">-eq</span> <span class="s1">&#39;n&#39;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="nb">Write-Host</span> <span class="s2">&#34;No action taken for folder: </span><span class="nv">$fullPath</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="nb">Write-Host</span> <span class="s2">&#34;Invalid input. No action taken.&#34;</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-Host</span> <span class="s2">&#34;Script Complete&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>    
+</span></span></code></pre></div>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/solomon-islands/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---powershell---archive-userfiles/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/south-africa/">South Africa</a>
+          <a href="/posts/script---powershell---servicedesk/">Script - PowerShell - ServiceDesk</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -386,61 +573,138 @@
 
         <div class="post-content">
           
-            <p>South Africa is listed under <a href="/posts/africa/">Africa</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-<hr>
-<h1 id="existing-notes">Existing Notes</h1>
-<h1 id="about">About</h1>
-<p>Talk to Ebi Hussain</p>
-<h1 id="caves">Caves</h1>
-<ul>
-<li>Komati Springs</li>
-<li>Boesmansgat</li>
-<li><a href="https://en.m.wikipedia.org/wiki/Sterkfontein">Sterkfontein</a> - Access restricted - go as researchers
-<ul>
-<li><a href="https://www.upi.com/Archives/1984/11/12/Scuba-diver-lost-in-cave-dies-waiting-for-rescue/7366469083600/">Diver died in 1984</a></li>
-</ul>
-</li>
-</ul>
-<h1 id="trips">Trips</h1>
-<ul>
-<li></li>
-</ul>
-<hr>
-<h1 id="references">References</h1>
-<p><a href="http://www.technicaldivingafrica.co.za/">Technical Diving Africa - Don Shirley</a></p>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#Check a laptop&#39;s battery health</span>
+</span></span><span class="line"><span class="cl"><span class="n">powercfg</span> <span class="p">/</span><span class="n">batteryreport</span> <span class="p">/</span><span class="n">output</span> <span class="s2">&#34;filepath eg. C:\Documents\Battery-Report.html&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#boot-time</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Remotely check another system&#39;s boot time</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">find-boottime</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$servicetag</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter service tag&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">SystemInfo</span> <span class="p">/</span><span class="n">s</span> <span class="nv">$servicetag</span> <span class="p">|</span> <span class="n">find</span> <span class="s2">&#34;Boot Time:&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nb">boot-time</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#free-space</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">find-freespace</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$servicetag</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter service tag&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Invoke-Command</span> <span class="n">-ComputerName</span> <span class="nv">$servicetag</span> <span class="p">{</span><span class="nb">Get-PSDrive</span> <span class="n">C</span><span class="p">}</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">PSComputerName</span><span class="p">,</span><span class="n">Used</span><span class="p">,</span><span class="n">Free</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Check E3 and E5 licences for a list of usernames in $usernames</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$username</span> <span class="k">in</span> <span class="nv">$usernames</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Get licenses for the user</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$userLicenses</span> <span class="p">=</span> <span class="nb">Get-MsolUser</span> <span class="n">-UserPrincipalName</span> <span class="nv">$username</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="n">Licenses</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Check if the user has both E3 and E5 licenses</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$hasE3</span> <span class="p">=</span> <span class="nv">$userLicenses</span><span class="p">.</span><span class="py">AccountSkuId</span> <span class="o">-contains</span> <span class="s2">&#34;your_E3_license_sku&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$hasE5</span> <span class="p">=</span> <span class="nv">$userLicenses</span><span class="p">.</span><span class="py">AccountSkuId</span> <span class="o">-contains</span> <span class="s2">&#34;your_E5_license_sku&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c"># Output results</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-Host</span> <span class="s2">&#34;</span><span class="nv">$username</span><span class="s2"> - E3: </span><span class="nv">$hasE3</span><span class="s2">, E5: </span><span class="nv">$hasE5</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">### Remotely clear user profiles</span>
+</span></span><span class="line"><span class="cl"><span class="c">#clear-profiles</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">clear-profiles</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$computer</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Please enter a computer name&#34;</span>    
+</span></span><span class="line"><span class="cl">    <span class="c"># Test network connection before making connection</span>
+</span></span><span class="line"><span class="cl">    <span class="k">If</span> <span class="p">(</span><span class="nv">$computer</span> <span class="o">-ne</span> <span class="nv">$Env:Computername</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">If</span> <span class="p">(!(</span><span class="nb">Test-Connection</span> <span class="n">-ComputerName</span> <span class="nv">$computer</span> <span class="n">-Count</span> <span class="mf">1</span> <span class="n">-Quiet</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Warning</span> <span class="s2">&#34;</span><span class="nv">$computer</span><span class="s2"> is not accessible, please try a different computer or verify it is powered on.&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$continueRemoving</span> <span class="p">=</span> <span class="vm">$true</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="nv">$continueRemoving</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Gather all of the user profiles on the computer</span>
+</span></span><span class="line"><span class="cl">        <span class="k">Try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="p">[</span><span class="no">array</span><span class="p">]</span><span class="nv">$users</span> <span class="p">=</span> <span class="nb">Get-WmiObject</span> <span class="n">-ComputerName</span> <span class="nv">$computer</span> <span class="n">Win32_UserProfile</span> <span class="n">-Filter</span> <span class="s2">&#34;LocalPath Like &#39;C:\\Users\\%&#39;&#34;</span> <span class="n">-ErrorAction</span> <span class="n">Stop</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">Catch</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Warning</span> <span class="s2">&#34;Error retrieving user profiles: </span><span class="nv">$_</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Cache the number of users</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$num_users</span> <span class="p">=</span> <span class="nv">$users</span><span class="p">.</span><span class="py">Count</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="n">-ForegroundColor</span> <span class="n">Green</span> <span class="s2">&#34;User profiles on </span><span class="p">$(</span><span class="nv">$computer</span><span class="p">)</span><span class="s2">:&#34;</span>        
+</span></span><span class="line"><span class="cl">        <span class="c"># Display all user profiles</span>
+</span></span><span class="line"><span class="cl">        <span class="k">For</span> <span class="p">(</span><span class="nv">$i</span> <span class="p">=</span> <span class="mf">0</span><span class="p">;</span> <span class="nv">$i</span> <span class="o">-lt</span> <span class="nv">$num_users</span><span class="p">;</span> <span class="nv">$i</span><span class="p">++)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Host</span> <span class="n">-ForegroundColor</span> <span class="n">Green</span> <span class="s2">&#34;</span><span class="p">$(</span><span class="nv">$i</span><span class="p">)</span><span class="s2">: </span><span class="p">$((</span><span class="nv">$users</span><span class="p">[</span><span class="nv">$i</span><span class="p">].</span><span class="n">LocalPath</span><span class="p">).</span><span class="py">Replace</span><span class="p">(</span><span class="s1">&#39;C:\Users\&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">))</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="n">-ForegroundColor</span> <span class="n">Green</span> <span class="s2">&#34;q: Quit&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$validSelection</span> <span class="p">=</span> <span class="vm">$false</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="p">(</span><span class="o">-not</span> <span class="nv">$validSelection</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="c"># Prompt for user to select profiles to remove from computer</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$accountInput</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Select numbers to delete local profiles (comma-separated) or &#39;q&#39; to quit&#34;</span>            
+</span></span><span class="line"><span class="cl">            <span class="c"># Check if user selected to quit</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="nv">$accountInput</span> <span class="o">-eq</span> <span class="s2">&#34;q&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="c"># Validate the input</span>
+</span></span><span class="line"><span class="cl">                <span class="nv">$accounts</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">                <span class="k">foreach</span> <span class="p">(</span><span class="nv">$input</span> <span class="k">in</span> <span class="nv">$accountInput</span> <span class="n">-split</span> <span class="s2">&#34;,&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="nv">$trimmedInput</span> <span class="p">=</span> <span class="nv">$input</span><span class="p">.</span><span class="py">Trim</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">if</span> <span class="p">(</span><span class="nv">$trimmedInput</span> <span class="o">-match</span> <span class="s2">&#34;^\d+$&#34;</span> <span class="o">-and</span> <span class="p">[</span><span class="no">int</span><span class="p">]</span><span class="nv">$trimmedInput</span> <span class="o">-lt</span> <span class="nv">$num_users</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="nv">$accounts</span> <span class="p">+=</span> <span class="p">[</span><span class="no">int</span><span class="p">]</span><span class="nv">$trimmedInput</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="nv">$validSelection</span> <span class="p">=</span> <span class="nv">$accounts</span><span class="p">.</span><span class="py">Count</span> <span class="o">-gt</span> <span class="mf">0</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="p">(</span><span class="o">-not</span> <span class="nv">$validSelection</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="nb">Write-Warning</span> <span class="s2">&#34;Invalid selection, please try again.&#34;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Confirm selection</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$confirm</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Are you sure you want to delete the selected profiles? (Y/N)&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$confirm</span> <span class="o">-like</span> <span class="s2">&#34;Y*&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="c"># Remove the selected profiles</span>
+</span></span><span class="line"><span class="cl">            <span class="k">foreach</span> <span class="p">(</span><span class="nv">$account</span> <span class="k">in</span> <span class="nv">$accounts</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">Write-Host</span> <span class="n">-ForegroundColor</span> <span class="n">Yellow</span> <span class="s2">&#34;Deleting profile: </span><span class="p">$((</span><span class="nv">$users</span><span class="p">[</span><span class="nv">$account</span><span class="p">].</span><span class="n">LocalPath</span><span class="p">).</span><span class="py">Replace</span><span class="p">(</span><span class="s1">&#39;C:\Users\&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">))</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">                <span class="k">Try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">(</span><span class="nv">$users</span><span class="p">[</span><span class="nv">$account</span><span class="p">]).</span><span class="py">Delete</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">                    <span class="nb">Write-Host</span> <span class="n">-ForegroundColor</span> <span class="n">Green</span> <span class="s2">&#34;Profile: </span><span class="p">$((</span><span class="nv">$users</span><span class="p">[</span><span class="nv">$account</span><span class="p">].</span><span class="n">LocalPath</span><span class="p">).</span><span class="py">Replace</span><span class="p">(</span><span class="s1">&#39;C:\Users\&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">))</span><span class="s2"> has been deleted&#34;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="k">Catch</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="nb">Write-Warning</span> <span class="s2">&#34;Failed to delete profile: </span><span class="p">$((</span><span class="nv">$users</span><span class="p">[</span><span class="nv">$account</span><span class="p">].</span><span class="n">LocalPath</span><span class="p">).</span><span class="py">Replace</span><span class="p">(</span><span class="s1">&#39;C:\Users\&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">))</span><span class="s2">. Error: </span><span class="nv">$_</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Configure yes choice</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$yes</span> <span class="p">=</span> <span class="nb">New-Object</span> <span class="n">System</span><span class="p">.</span><span class="py">Management</span><span class="p">.</span><span class="py">Automation</span><span class="p">.</span><span class="py">Host</span><span class="p">.</span><span class="py">ChoiceDescription</span> <span class="s2">&#34;&amp;Yes&#34;</span><span class="p">,</span> <span class="s2">&#34;Remove another profile.&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Configure no choice</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$no</span> <span class="p">=</span> <span class="nb">New-Object</span> <span class="n">System</span><span class="p">.</span><span class="py">Management</span><span class="p">.</span><span class="py">Automation</span><span class="p">.</span><span class="py">Host</span><span class="p">.</span><span class="py">ChoiceDescription</span> <span class="s2">&#34;&amp;No&#34;</span><span class="p">,</span> <span class="s2">&#34;Quit profile removal&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Determine Values for Choice</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$choice</span> <span class="p">=</span> <span class="p">[</span><span class="no">System.Management.Automation.Host.ChoiceDescription[]</span><span class="p">]</span><span class="vm">@</span><span class="p">(</span><span class="nv">$yes</span><span class="p">,</span> <span class="nv">$no</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Determine Default Selection</span>
+</span></span><span class="line"><span class="cl">        <span class="p">[</span><span class="no">int</span><span class="p">]</span><span class="nv">$default</span> <span class="p">=</span> <span class="mf">0</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Present choice option to user</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$userchoice</span> <span class="p">=</span> <span class="nv">$host</span><span class="p">.</span><span class="py">ui</span><span class="p">.</span><span class="py">PromptForChoice</span><span class="p">(</span><span class="s2">&#34;&#34;</span><span class="p">,</span> <span class="s2">&#34;Remove Another Profile?&#34;</span><span class="p">,</span> <span class="nv">$choice</span><span class="p">,</span> <span class="nv">$default</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$userchoice</span> <span class="o">-eq</span> <span class="mf">1</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$continueRemoving</span> <span class="p">=</span> <span class="vm">$false</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span></code></pre></div>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/south-africa/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---powershell---servicedesk/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/south-australia/">South Australia</a>
+          <a href="/posts/script---python---pdftoterminal/">Script - Python - pdftoterminal</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -450,52 +714,34 @@
 
         <div class="post-content">
           
-            <p>South Australia is listed under <a href="/posts/oceania/">Oceania</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li><a href="/posts/mount-gambier---lower-south-east/">Mount Gambier - Lower South East</a></li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>Centenary Cave, Myponga</li>
-<li>Curramulka Cave</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-<hr>
-<h1 id="existing-notes">Existing Notes</h1>
-<h1 id="about">About</h1>
-<p><a href="/posts/mount-gambier---lower-south-east/">Mount Gambier - Lower South East</a></p>
-<p>Eyre Peninsula</p>
-<ul>
-<li>Speak to Martin Maidment</li>
-<li>Whaler’s Way Sinkhole</li>
-<li>Delamere</li>
-</ul>
-<p>Yorke Peninsula</p>
-<ul>
-<li>Coastal limestone cliffs - sea caves?</li>
-</ul>
-<p><a href="https://goo.gl/maps/sBKG1e63cmWK4SAU7">Sellicks Beach</a></p>
-<ul>
-<li>Bubbling sand</li>
-<li>Connected to Sellick&rsquo;s Hill?
-<ul>
-<li><a href="https://cavesaustralia.caves.org.au/archive/v107161/ac_136.pdf">Sellicks Hill Cave History</a></li>
-</ul>
-</li>
-</ul>
-<p>Delamere</p>
-<p>Coromandel Valley</p>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">subprocess</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">shlex</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">convert_pdf_to_text</span><span class="p">(</span><span class="n">pdf_file</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># Use shlex.split to handle file paths with spaces correctly</span>
+</span></span><span class="line"><span class="cl">        <span class="n">cmd</span> <span class="o">=</span> <span class="n">shlex</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;pdftotext </span><span class="si">{</span><span class="n">shlex</span><span class="o">.</span><span class="n">quote</span><span class="p">(</span><span class="n">pdf_file</span><span class="p">)</span><span class="si">}</span><span class="s1"> -&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># Convert PDF to text and capture the output</span>
+</span></span><span class="line"><span class="cl">        <span class="n">result</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cmd</span><span class="p">,</span> <span class="n">check</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">stdout</span><span class="o">=</span><span class="n">subprocess</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span> <span class="n">stderr</span><span class="o">=</span><span class="n">subprocess</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">stdout</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">except</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">CalledProcessError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Error converting </span><span class="si">{</span><span class="n">pdf_file</span><span class="si">}</span><span class="s2"> to text: </span><span class="si">{</span><span class="n">e</span><span class="o">.</span><span class="n">stderr</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="n">pdf_file</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the path to the PDF file: &#34;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c1"># Convert PDF to text and print to terminal</span>
+</span></span><span class="line"><span class="cl">    <span class="n">convert_pdf_to_text</span><span class="p">(</span><span class="n">pdf_file</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">main</span><span class="p">()</span>
+</span></span></code></pre></div>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/south-australia/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---python---pdftoterminal/">[Read more]</a>
           </div>
         
       </article>
