@@ -180,6 +180,263 @@
     
       <article class="post on-list">
         <h1 class="post-title">
+          <a href="/posts/photogrammetry/">Photogrammetry</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/caving/">caving</a>&nbsp;
+            
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+            #<a href="/tags/photogrammetry/">photogrammetry</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="ideas">Ideas</h1>
+<ul>
+<li>Photogrammetry - Rig Setup
+<em>For a dedicated Windows photogrammetry box:</em></li>
+<li>Install NVIDIA Studio Drivers (not Game Ready)</li>
+<li>Disable Windows sleep/hibernation</li>
+<li>Set Power Plan to High Performance</li>
+<li>Exclude project folders from Windows Defender scanning</li>
+<li>Disable automatic reboots for updates</li>
+<li>Put your project cache/scratch on a separate NVMe drive</li>
+</ul>
+<p>Other</p>
+<ul>
+<li>Share models on Soggy Wombats Website</li>
+</ul>
+<h1 id="software">Software</h1>
+<ul>
+<li><a href="https://www.agisoft.com/">Metashape</a>
+<ul>
+<li>Buy <a href="https://www.agisoft.com/features/professional-edition/">Metashape Pro</a>? &amp; run <a href="https://www.agisoft.com/features/cloud/">Metashape Cloud</a>?</li>
+</ul>
+</li>
+<li><a href="https://www.capturingreality.com/realitycapture-1-5">Reality Capture</a>
+<ul>
+<li>Free it but can&rsquo;t do spherical/360 images</li>
+</ul>
+</li>
+<li><a href="https://www.jawset.com/">Postshot</a></li>
+<li><a href="https://poly.cam/tools/photogrammetry#get-app-section">Polycam phone app</a></li>
+</ul>
+<h1 id="data-storage--processing">Data Storage &amp; Processing</h1>
+<ul>
+<li>On-Prem: SSD storage in a NAS (see Gear)
+<ul>
+<li>Citrix to remotely access home server?</li>
+</ul>
+</li>
+<li>Portable: <a href="https://www.amazon.com.au/Silicon-Power-SP020TBPHDA80S3K-Shockproof-Waterproof/dp/B075J4YJHS/ref=pd_sbs_d_sccl_2_2/355-9176792-2952911">Rugged 2Tb HDD - $130</a></li>
+<li>Cloud: AWS with S3 bucket
+<ul>
+<li>ChatGPT - Remote Photogrammetry with StarLink</li>
+<li>Use S3 to store final models that display on a website - <a href="https://stackoverflow.com/questions/59720658/storing-stl-files-in-s3-bucket-for-rendering-by-stl-viewer-javascript-plugin-in">Stack Overflow</a></li>
+<li><a href="https://ap-southeast-2.console.aws.amazon.com/">Amazon Console - Login</a></li>
+<li>ChatGPT - Cloud-Based Photogrammetry]]</li>
+</ul>
+<ul>
+<li><a href="https://www.instructables.com/Run-Photogrammetry-in-the-Cloud/">Run Photogrammetry in the Cloud - AWS How-To</a> &lt;&ndash; <em><strong>READ THIS IT&rsquo;S IMPORTANT</strong></em></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Other Cloud: <a href="https://photogrammetry.maxcloudon.com/">MaxCloudOn</a> is dedicated photogrammetry service with $20 credit</li>
+<li><a href="https://belowjs.com/">belowJS</a> - Sharing cave models</li>
+</ul>
+<h1 id="gear">Gear</h1>
+<ul>
+<li>X5 - <a href="https://www.wired.com/review/insta360-x5-360-camera/">Wired - X5 Review</a> - <a href="https://store.insta360.com/product/x5-replacement-lens-kit">X5 replacement lenses ($30)</a>
+<ul>
+<li>Benefit of X5 having user replaceable lens - scratches from dry caving</li>
+<li>Dive Case Polish? <a href="https://www.bunnings.com.au/autosol-75ml-acrylic-polish_p4461011">Autosol 75ml Acrylic Polish</a> <em><strong>TESTED - POOR RESULTS</strong></em></li>
+</ul>
+</li>
+<li>Lighting
+<ul>
+<li>Third <a href="https://adreno.com.au/products/big-blue-vl18000pbrc-led-video-light-w-optional-remote-control">BigBlue VL18000PBRC</a>? $1500AUD (Adreno)</li>
+<li>BigBlue <a href="https://bigbluedivelights.com/products/complete-remote-control-kit-for-rc-ready-lights/">Remote Control</a> - $150US (From BigBlue)</li>
+</ul>
+</li>
+<li>Geolocation
+<ul>
+<li><a href="https://www.aliexpress.com/p/tesla-landing/index.html?scenario=c_ppc_item_bridge&amp;productId=1005008772082697&amp;_immersiveMode=true&amp;withMainCard=true&amp;src=google&amp;aff_platform=true&amp;isdl=y">Insta360 GPS Remote</a> for $80 from AliExpress</li>
+<li>Drone - use metadata from photos</li>
+</ul>
+</li>
+<li>LiDAR
+<ul>
+<li><a href="https://store.3dmakerpro.com/pages/raven">Raven Spatial Scanner</a> - $999USD
+<ul>
+<li>Don&rsquo;t get RTK - no GPS inside caves, and GPS fix provided by drone)</li>
+<li>Don&rsquo;t need Max version - use X4/5 for high res textures</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="other-ideas">Other Ideas</h1>
+<ul>
+<li>Improved photogrammetry rig?
+<ul>
+<li>4x GoPros on helmet? Concerns about weight/neck strain</li>
+<li>Clamp <a href="https://www.amazon.com.au/LetonPower-Underwater-Ultralight-Buoyancy-Floating/dp/B0CSJRL442/ref=sr_1_18">two Carbon Fibre Floats</a>
+<ul>
+<li>4x triple ball clamps</li>
+<li>4x GoPros at the front</li>
+<li>3-4x lights at the back</li>
+</ul>
+</li>
+<li>Hose Clamps with foam/rubber between?)</li>
+</ul>
+</li>
+<li>Is there an exploration/business plan here?
+<ul>
+<li>How do you visit amazing places share the experience?</li>
+</ul>
+</li>
+<li>Drones are essential for geolocation
+<ul>
+<li>Pre-program flight/photography path to centre on a cave, then fly around it in a manner that captures the data required for a 3D model?</li>
+<li>Insta360 Drone with 360 cameras</li>
+</ul>
+</li>
+<li><a href="https://www.facebook.com/marcin.stempniewicz">Marcin Stempniewicz</a> - Maria Concordia Project, <a href="https://www.facebook.com/marcin.cela/videos/1416202782903181/?idorvanity=2263629560406211">running a course on presenting 3D models</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=HelaJQWoQOE&amp;list=PL9C8D_aYLcg_JnztwAs5yPff-WH8YKnmJ">Youtube - Marcin&rsquo;s U3DA Course (Demo)</a></li>
+<li><a href="https://www.u3da.pl/">Underwater photogrammetry Academy</a></li>
+<li><a href="https://www.domestika.org/en/courses/92-introduction-to-3d-design-and-modeling-with-blender">Do a Domestika course on using Blender</a></li>
+</ul>
+</li>
+<li>Collect Photogrammetry data for a <a href="https://www.youtube.com/watch?v=r8ZhJy4Uqz8">caving game</a>?</li>
+<li>Upload 360 footage to Google <a href="https://streetviewstudio.maps.google.com/">Street View Studio</a>
+<ul>
+<li>Requires GPS data (upload GPX file)</li>
+</ul>
+</li>
+<li>Work with ASF to 3D model important caves - become the specialist for photogrammetry here.
+<ul>
+<li>Important to include radio location - Aren Leishman
+<ul>
+<li>Place pingers in cave, do photogrammetry scan, then use pinger GPS data to scale the size of the photogrammetry data</li>
+<li>Place pingers on 1st dive (one at entrance, one at far end), get gps fixes on surface, then do photogrammetry while recovering pingers</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="notes-from-will-passos">Notes from Will Passos</h1>
+<p>Hey, couple of things to make your life easier if you want to process up to the model…</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/photogrammetry/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/photogrammetry---processing/">Photogrammetry - Processing</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+            #<a href="/tags/photogrammetry/">photogrammetry</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>Priorities</p>
+<ul>
+<li>Split:</li>
+<li>Align: Murra, La Ode Palsu, La Ode Panu,</li>
+</ul>
+<p>For Will</p>
+<ul>
+<li>Match Components: Kaidaiula? La Hambe? Madura, Limekiln-McCavity,</li>
+<li>Match Drone/Subsurface: Nurina, Madura</li>
+</ul>
+<hr>
+<h1 id="sulawesi"><a href="/posts/sulawesi/">Sulawesi</a></h1>
+<p><a href="/posts/gua-la-pahia/">Gua La Pahia</a> - <em>UW COMPLETE</em></p>
+<ul>
+<li>Surface: NEEDS DRONE WITH GPS DATA</li>
+<li>Underwater: Fully processed &amp; on website
+<a href="/posts/gua-wandoke/">Gua Wandoke</a> - <em>UW COMPLETE</em></li>
+<li>Surface: NEEDS DRONE WITH GPS DATA</li>
+<li>Underwater: Fully processed &amp; on website
+<a href="/posts/moko-morete/">Moko Morete</a> - <em>UW COMPLETE</em></li>
+<li>Surface: NEEDS DRONE WITH GPS DATA</li>
+<li>Underwater: Fully processed &amp; on website</li>
+</ul>
+<p><a href="/posts/kaidaiula/">Kaidaiula</a> - <strong>UW ALIGNMENT</strong></p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/photogrammetry---processing/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/photogrammetry---wills-notes/">Photogrammetry - Will&rsquo;s Notes</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/photogrammetry/">photogrammetry</a>&nbsp;
+            
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <hr>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/photogrammetry---wills-notes/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
           <a href="/posts/picanninnie-ponds---5l72---closed/">Picanninnie Ponds - 5L72 - CLOSED</a>
         </h1>
         <div class="post-meta"></div>
@@ -308,164 +565,6 @@ KML Survey:</p>
         
           <div>
             <a class="read-more button inline" href="/posts/planning---nullarbor/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/poland/">Poland</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Poland is listed under <a href="/posts/europe/">Europe</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-<hr>
-<h1 id="existing-notes">Existing Notes</h1>
-<h1 id="about">About</h1>
-<p><a href="https://xray-mag.com/content/kowary-uranium-mine-poland">Kowary Uranium Mine</a></p>
-<h1 id="caves">Caves</h1>
-<ul>
-<li></li>
-</ul>
-<h1 id="trips">Trips</h1>
-<ul>
-<li></li>
-</ul>
-<hr>
-<h1 id="references">References</h1>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/poland/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/portugal/">Portugal</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Portugal is listed under <a href="/posts/europe/">Europe</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-<hr>
-<h1 id="existing-notes">Existing Notes</h1>
-<p>Go in September, then stay for <a href="https://www.facebook.com/divingtalks">Diving Talks Conference</a></p>
-<h1 id="about">About</h1>
-<ul>
-<li><strong>Algarve coastal sea caves:</strong><br>
-Best between <strong>June and September</strong>, when visibility is highest and seas are calm. This is when marine traffic is highest too, so early or late in this period is best for quieter exploration.</li>
-<li><strong>Inland karst systems (e.g., Mira de Aire, Serras de Aire e Candeeiros):</strong><br>
-Access is best in <strong>spring and autumn (April–June, September–October)</strong> when groundwater levels are manageable and temperatures mild. Winter rains can flood systems, and summer can see restrictions due to fire risk or access limits.</li>
-<li><strong>Water Temperatures:</strong> Range from 14–26°C depending on depth and region, so a <strong>5–7mm wetsuit or drysuit</strong> is advised for inland cave systems, even in summer.</li>
-<li><strong>Local Festivals &amp; Holidays:</strong> Avoid major holiday periods (especially August) to reduce crowds and booking difficulties.</li>
-</ul>
-<h1 id="caves">Caves</h1>
-<p><a href="https://www.portugaldive.com/best-dives/spots/all/cave/all/all.html">List of Portugal Caves - portugaldive.com</a>
-<a href="https://cavedivingportugal.com/caves">Cavedivingportugal.com</a> - Anton Zhuchov&rsquo;s shop (<a href="https://www.youtube.com/@CaveDivingPortugal">YouTube Channel</a>)</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/portugal/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/puerto-rico/">Puerto Rico</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Puerto Rico is listed under Central America in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/puerto-rico/">[Read more]</a>
           </div>
         
       </article>

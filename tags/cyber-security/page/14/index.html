@@ -180,6 +180,125 @@
     
       <article class="post on-list">
         <h1 class="post-title">
+          <a href="/posts/oscp---lavita---linux/">OSCP - LaVita - Linux</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="lavita">LaVita</h1>
+<p>This box started out really well with plenty of through enumeration to identify the vulnerability, but I fell down trying to gain initial access with the exploits. I tried several, and persisted with the most well developed exploit thinking it would be the way forward.</p>
+<p>The issue was not realising the exploit would stop working after the first success, so after testing it with the <code>uname -a</code> or <code>id</code> commands, it would then not work when I tried to repeat with a reverse shell command. it took awhile to realise that there were 21 chains available, and so there was no need to keep using the &ldquo;last working&rdquo; chain, because it was only working once anyway. I also stopped trying to test with <code>id</code> and just threw the reverse shell command in straight away - I already knew the exploit worked <em>sometimes</em> so may as well try to establish a shell each time I tried.</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---lavita---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/oscp---law---linux/">OSCP - Law - Linux</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="law">Law</h1>
+<p>This one was another absolute slog. Identifying exploits for htmLawed v1.2.5 was very straightforward, and I got a little excited when I saw an RCE exploit had been found this year (2024).</p>
+<p>Running the exploit didn&rsquo;t work though, so I started researching the vulnerability further while trying to avoid the walkthroughs. I found the <a href="https://mayfly277.github.io/posts/GLPI-htmlawed-CVE-2022-35914/">Mayfly article on the CVE</a> which added a lot of extra context, and checking the walkthrough helped me realise why the Burpsuite request wasn&rsquo;t working properly (the request was to a non-existent page, and needed to be changed to <code>/</code>).</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---law---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/oscp---levram---linux/">OSCP - Levram - Linux</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="levram">Levram</h1>
+<h1 id="resolution-summary">Resolution summary</h1>
+<ul>
+<li>Nmap to identify services on port 22 and 8000</li>
+<li>Password guessed admin credentials to Gerapy platform</li>
+<li>Used exploit for CVE-2021-243857 to achieve shell</li>
+<li>Upgraded shell by running bash script on target</li>
+<li>Identified vulnerable python setuid configuration</li>
+<li>Used GTFObins to find python command providing privilege escalation to root</li>
+</ul>
+<h2 id="improved-skills">Improved skills</h2>
+<ul>
+<li>Linux Privilege Escalation</li>
+<li>Establishing Full TTYs</li>
+</ul>
+<h2 id="used-tools">Used tools</h2>
+<ul>
+<li>nmap</li>
+<li>python</li>
+<li>linpeas.sh</li>
+<li>gerapy</li>
+<li>GTFObins</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering</h1>
+<p>Scanned all TCP ports:</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---levram---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
           <a href="/posts/oscp---ochima---linux/">OSCP - Ochima - Linux</a>
         </h1>
         <div class="post-meta"></div>
@@ -260,145 +379,6 @@
         
           <div>
             <a class="read-more button inline" href="/posts/oscp---pc---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/oscp---pelican---linux/">OSCP - Pelican - Linux</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="pelican">Pelican</h1>
-<p>Pretty happy with this one considering I figured most of it out without really looking at a walkthrough. Identifying Exhibition vs Zookeeper was a little confusing, but as soon as I identified that Exhibition v1.0 was vulenerable to command injection then finding &amp; using an exploit (which was really just adding a reverse shell to a java script field) became fairly straightforward.</p>
-<p>Privilege escalation with <code>gcore</code> was a little tricky, as it&rsquo;s been awhile since I needed to remember how <code>strings</code> worked. But once it became clear I could search for plaintext passwords then it made sense and switching to root was easy.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/oscp---pelican---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/oscp---plum---linux/">OSCP - Plum - Linux</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="plum">Plum</h1>
-<p>This one was relatively easy to achieve initial access on, but enumerating the target once I had initial access was frustrating. I&rsquo;d learned on the previous box that I could pull up locally stored mail by visiting <code>/var/mail</code> but hadn&rsquo;t quite realised that it should be part of my standard privesc process.</p>
-<p>Anyway, once I got the nudge from the walkthrough to check mail, it became straight-forward to switch to root and grab the flag, but 100% an important lesson in seeing the <code>var/mail/www-data</code> in the <code>Linpeas</code> output and being sure to read the mail incase there&rsquo;s anything important or useful (like credentials) saved there.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/oscp---plum---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/oscp---provinggrounds---linux/">OSCP - ProvingGrounds - Linux</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
-<h1 id="tj-null---pg-play---11">TJ Null - PG Play - 11</h1>
-<ul>
-<li><input disabled="" type="checkbox"> eLection1</li>
-<li><input disabled="" type="checkbox"> Stapler</li>
-<li><input disabled="" type="checkbox"> Monitoring</li>
-<li><input disabled="" type="checkbox"> InsanityHosting</li>
-<li><input disabled="" type="checkbox"> DriftingBlue6</li>
-<li><input disabled="" type="checkbox"> Loly</li>
-<li><input disabled="" type="checkbox"> Blogger</li>
-<li><input disabled="" type="checkbox"> Amaterasu</li>
-<li><input disabled="" type="checkbox"> Blogger</li>
-<li><input disabled="" type="checkbox"> Potato</li>
-<li><input disabled="" type="checkbox"> DC-9</li>
-</ul>
-<h1 id="tj-null---pg-practice---0">TJ Null - PG Practice - 0</h1>
-<p>Easy - 0/7</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Twiggy</li>
-<li><input checked="" disabled="" type="checkbox"> Exfiltrated</li>
-<li><input checked="" disabled="" type="checkbox"> Astronaut</li>
-<li><input checked="" disabled="" type="checkbox"> Codo</li>
-<li><input checked="" disabled="" type="checkbox"> Levram</li>
-<li><input checked="" disabled="" type="checkbox"> Hub</li>
-<li><input checked="" disabled="" type="checkbox"> RubyDome</li>
-</ul>
-<p>Intermediate - 0/15</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Pelican</li>
-<li><input checked="" disabled="" type="checkbox"> Boolean</li>
-<li><input checked="" disabled="" type="checkbox"> Crane</li>
-<li><input checked="" disabled="" type="checkbox"> Extplorer</li>
-<li><input checked="" disabled="" type="checkbox"> Image</li>
-<li><input checked="" disabled="" type="checkbox"> Iaw</li>
-<li><input checked="" disabled="" type="checkbox"> Lavita</li>
-<li><input checked="" disabled="" type="checkbox"> PC</li>
-<li><input checked="" disabled="" type="checkbox"> Fired</li>
-<li><input checked="" disabled="" type="checkbox"> Press</li>
-<li><input checked="" disabled="" type="checkbox"> Scrutiny</li>
-<li><input checked="" disabled="" type="checkbox"> Flu</li>
-<li><input checked="" disabled="" type="checkbox"> Ochima</li>
-<li><input checked="" disabled="" type="checkbox"> PyLoader</li>
-<li><input checked="" disabled="" type="checkbox"> Plum</li>
-<li><input checked="" disabled="" type="checkbox"> Cockpit</li>
-</ul>
-<p>Hard - 0/3</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/oscp---provinggrounds---linux/">[Read more]</a>
           </div>
         
       </article>
