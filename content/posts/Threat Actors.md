@@ -1,7 +1,7 @@
 ---
 title: Threat Actors
 created: 2025-10-25
-updated: 2026-06-27
+updated: 2026-07-01
 status: seed
 draft: false
 tags:
@@ -14,6 +14,7 @@ Related:
 ---
 Re-sort this into types/Targets rather than countries of origin
 
+---
 APT - State Sponsored
 - People's Republic of China
 	- Threat Actor - Volt Typhoon

@@ -180,6 +180,161 @@
     
       <article class="post on-list">
         <h1 class="post-title">
+          <a href="/posts/cisa---3b---is-implementation/">CISA - 3B - IS Implementation</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+            #<a href="/tags/cisa/">cisa</a>&nbsp;
+            
+            #<a href="/tags/study/">study</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="1---testing-methodologies">1 - Testing Methodologies</h1>
+<ul>
+<li><strong>1. Unit Testing</strong>: Individual program module (by developers)</li>
+<li><strong>2. Integration Testing</strong>: Testing connection and data flow between modules</li>
+<li><strong>3. System Testing</strong>: Testing entire integrated system to verify it meets technical and functional requirements (by test team in non-prod environment)
+<ul>
+<li><strong>Recovery Testing</strong>: Check systems ability to recover after failure</li>
+<li><strong>Security Testing</strong>: Verify access controls and no new security holes introduced</li>
+<li><strong>Load, Volume and Stress Testing</strong>
+<ul>
+<li>Load: Performance with large data quantity (peak hours)</li>
+<li>Volume: Maximum volume of records the system can handle</li>
+<li>Stress: Maximum number of concurrent users the system can handle</li>
+</ul>
+</li>
+<li><strong>Performance Testing</strong>: Testing system against benchmarks</li>
+</ul>
+</li>
+<li><strong>4. Acceptance Testing</strong>: Final gate before implementation, users validate system meets business needs
+<ul>
+<li><strong>Quality Assurance Testing (QAT)</strong>: &ldquo;Did we build the system right?&rdquo;. Focused on technical aspects, performed by IT department, Verify it works as documented and to all tech specs</li>
+<li><strong>User Acceptance testing (UAT)</strong>: &ldquo;Did we build the right system&rdquo;. Focused on functional aspects and business readiness, performed by business users, ensure system is production-ready and meets business requirements from user perspective (This is the <em><strong>final sign-off</strong></em>)</li>
+</ul>
+</li>
+</ul>
+<p><em>Exam Tip: UAT is the most critical milestone before implementation, and <strong>business users</strong> give final approval not the IT department</em></p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/cisa---3b---is-implementation/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/cisa---4a---is-operations/">CISA - 4A - IS Operations</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+            #<a href="/tags/cisa/">cisa</a>&nbsp;
+            
+            #<a href="/tags/study/">study</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="1---common-technology-comonents">1 - Common Technology Comonents</h1>
+<h2 id="open-systems-interconnection-osi-model">Open Systems Interconnection (OSI) Model</h2>
+<ul>
+<li>Application: User facing (HTTP, FTP, SMTP)</li>
+<li>Presentation: Data formatting, encryption, compression</li>
+<li>Session: Establishes, manages, terminates connections</li>
+<li>Transport: Reliable end-to-end data transfer (TCP, UDP)</li>
+<li>Network: Addressing and routing (IP addresses routers)</li>
+<li>Data Link: Physical addressing and error detection (MAC addresses, switches)</li>
+<li>Physical: Hardware that transmits the bits (cables/hubs)
+<em>Exam Tip: Must understand the function and devices in each layer</em></li>
+<li>Focus on 3,4 and 7 (maybe 6)</li>
+</ul>
+<h2 id="lanwan-devices">LAN/WAN Devices</h2>
+<ul>
+<li><strong>Repeater/Hub</strong>: Layer 1, regenerates signal to extend network range. Hubs are multi-port repeaters</li>
+<li><strong>Bridge/Layer 2 Switch</strong>: Layer 2, connects network segments, reduces collision domains, uses MAC addresses to filter and forward <em>frames</em>,  hardware-based and more efficient than bridges</li>
+<li><strong>Router</strong>: Layer 3, logically links networks, makes intelligent routing decisions based on IP addresses</li>
+</ul>
+<h2 id="common-physical-topologies">Common Physical Topologies</h2>
+<ul>
+<li><strong>Star</strong>: Most common, all connected to central hub</li>
+<li><strong>Bus</strong>: All devices share a single communication line</li>
+<li><strong>Ring</strong>: Outdated, connected in circular fashion</li>
+</ul>
+<h2 id="tcpit-suite">TCP/IT Suite</h2>
+<ul>
+<li><strong>Defacto standard protocol suite for the internet</strong></li>
+<li>Internet Protocol
+<ul>
+<li>IPv4: 32-bit address (most used today)</li>
+<li>IPv6: 128-bit address (gradually replacing IPv4)</li>
+</ul>
+</li>
+<li><strong>Network Address Translation</strong>
+<ul>
+<li>Converts private internal IP addresses into public external IP addresses</li>
+<li>Hides internal network structure and IP addresses from external attacks</li>
+</ul>
+</li>
+</ul>
+<h2 id="converged-protocols">Converged Protocols</h2>
+<ul>
+<li>Merging specialised/proprietary protocols with stabdard TCP/IP
+<ul>
+<li><strong>VoIP</strong>: Voice over IP, transports voice calls</li>
+<li><strong>FCoE</strong>: Fiber Channel over Ethernet, encapsulates high-speed storage over ethernet</li>
+<li><strong>iSCSI</strong>: Lower-cost alternative to Fiber Channel, allows storage device access over TCP/IP network</li>
+<li><strong>MPLS</strong>: High-performance network tech that directs data using short path labels instead of long network addresses, independent of routing tables</li>
+</ul>
+</li>
+</ul>
+<h2 id="hardware">Hardware</h2>
+<ul>
+<li><strong>Maintenance</strong>: Auditor&rsquo;s role is to <strong>verify a formal maintenance plan exists</strong> and is being followed, and <strong>reviewing hardware monitoring reports</strong> to detect problems and predict future needs.</li>
+<li><strong>USB Mass Storage</strong>: Malware vector, data theft risk, risk of data and media loss.
+<ul>
+<li><strong>Key controls</strong>: Encryption, Granular Control Software (allow keyboards, block storage), Policy &amp; Awareness (screen lock)</li>
+</ul>
+</li>
+</ul>
+<h1 id="2---it-asset-management">2 - IT Asset Management</h1>
+<p>Ensuring organisations assets are accounted for, deployed, maintained and disposed of when no longer needed</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/cisa---4a---is-operations/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
           <a href="/posts/cisa---4b---business-resilience/">CISA - 4B - Business Resilience</a>
         </h1>
         <div class="post-meta"></div>
@@ -305,125 +460,6 @@ Education</li>
         
           <div>
             <a class="read-more button inline" href="/posts/cisa---5b---security-event-management/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/cissp/">CISSP</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/cissp/">cissp</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <hr>
-<p><a href="https://www.isc2.org/Certifications/CISSP">ISC2 - Certified Information Systems Security Professional</a></p>
-<ul>
-<li>
-<p><strong>Domains</strong> (with personal notes)</p>
-<ol>
-<li><a href="/posts/cissp---1---security--risk-management/">CISSP - 1 - Security &amp; Risk Management</a></li>
-<li><a href="/posts/cissp---2---asset-security/">CISSP - 2 - Asset Security</a></li>
-<li><a href="/posts/cissp---3---security-architecture--engineering/">CISSP - 3 - Security Architecture &amp; Engineering</a></li>
-<li><a href="/posts/cissp---4---communication--network-security/">CISSP - 4 - Communication &amp; Network Security</a></li>
-<li><a href="/posts/cissp---5---identity--access-management-iam/">CISSP - 5 - Identity &amp; Access Management (IAM)</a></li>
-<li><a href="/posts/cissp---6---security-assessment--testing/">CISSP - 6 - Security Assessment &amp; Testing</a></li>
-<li><a href="/posts/cissp---7---security-operations/">CISSP - 7 - Security Operations</a></li>
-<li><a href="/posts/cissp---8---software-development-security/">CISSP - 8 - Software Development Security</a></li>
-</ol>
-</li>
-<li>
-<p><strong>Requirements</strong>:</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/cissp/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/cissp---1---security--risk-management/">CISSP - 1 - Security &amp; Risk Management</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/cissp/">cissp</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Reference: <a href="https://cissprep.net/domain-1-security-and-risk-management/">https://cissprep.net/domain-1-security-and-risk-management/</a></p>
-<hr>
-<p>Import and Export Controls</p>
-<ul>
-<li>Wassenaar Arrangement
-<ul>
-<li>42 countries agreeing not to distribute weapons &amp; cryptographic tools</li>
-<li>Some states have outright bans on the import of cryptographic technologies (often about preventing challenges to government authority)</li>
-</ul>
-</li>
-</ul>
-<p>Program Effectiveness Evaluation</p>
-<ul>
-<li>Due care requires effective <em><strong>education, training, and awareness</strong></em> for employees</li>
-<li>Due diligence requires <em><strong>evaluation</strong></em> of the effectiveness of that training</li>
-<li>Ask the right questions: Purpose of an awareness program is to enable and empower all organisation members to achieve safer, more secure and more compliant actions when using information
-<ul>
-<li>Do your workers have the tools, processes, and procedures to do this?</li>
-<li>Do they know how to use then effectively</li>
-<li>Do they have the resource have have what they need to deal with the unexpected</li>
-</ul>
-</li>
-<li>User Participation
-<ul>
-<li>List of training outcomes, then test participants, audits, spot checks</li>
-</ul>
-</li>
-<li>Social Engineering response
-<ul>
-<li>Mock attack attempts to determine if personnel respond appropriately</li>
-</ul>
-</li>
-<li>Log Reviews
-<ul>
-<li>Review user activity to determine if it&rsquo;s compliant with policies</li>
-</ul>
-</li>
-</ul>
-<p>Education, Training, and Awareness</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/cissp---1---security--risk-management/">[Read more]</a>
           </div>
         
       </article>

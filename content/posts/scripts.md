@@ -11,12 +11,8 @@ Related:
   - "[[Cyber Security]]"
   - "[[Scripts]]"
 ---
----
-- Don't save scripts in Obsidian - copy their contents to a markdown file for sharing/editing
----
 # Bash
 - [Script - Bash - ping-sweep]({{< relref "posts/Script - Bash - ping-sweep.md" >}})
-
 # Powershell
 Active Directory
 - [Script - PowerShell - AD-Audit]({{< relref "posts/Script - PowerShell - AD-Audit.md" >}})
@@ -27,7 +23,7 @@ Active Directory
 - [Script - PowerShell - AD-Offboarding]({{< relref "posts/Script - PowerShell - AD-Offboarding.md" >}})
 - [Script - PowerShell - AD-OUMaintenance]({{< relref "posts/Script - PowerShell - AD-OUMaintenance.md" >}})
 
-Misc
+Other
 - [Script - PowerShell - Archive-UserFiles]({{< relref "posts/Script - PowerShell - Archive-UserFiles.md" >}})
 - [Script - PowerShell - ServiceDesk]({{< relref "posts/Script - PowerShell - ServiceDesk.md" >}})
 

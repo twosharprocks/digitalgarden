@@ -1,7 +1,7 @@
 ---
 title: Threat Modelling
 created: 2025-05-28
-updated: 2026-06-27
+updated: 2026-07-01
 status: seed
 draft: false
 tags:
@@ -27,5 +27,3 @@ Focuses on identifying possible threats, prioritizing risks, and planning mitiga
    * Identify exploitable vulnerabilities.
    * Prioritize identified risks.
    * Mitigate risks.
-
-# [Threat Actors]({{< relref "posts/Threat Actors.md" >}})

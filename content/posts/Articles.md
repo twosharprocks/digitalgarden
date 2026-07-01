@@ -5,7 +5,9 @@ updated: 2025-10-30
 status: seed
 draft: false
 tags:
-  - tag1
+  - index
+  - digital-garden
+  - writing
 Related:
 ---
 ---

@@ -5,7 +5,7 @@ updated: 2026-06-27
 status: seed
 draft: false
 tags:
-  - tag1
+  - cyber-security
 Related:
   - "[[Cyber Security]]"
   - "[[Cyber Glossary]]"

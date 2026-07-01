@@ -1,7 +1,7 @@
 ---
 title: Cyber Security
 created: 2026-06-19
-updated: 2026-06-30
+updated: 2026-07-01
 status: seed
 draft: false
 tags:
@@ -19,7 +19,6 @@ Related:
   - "[[OT Cyber Security]]"
   - "[[About]]"
 ---
-
 Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{< relref "posts/oscp.md" >}})/[CISSP]({{< relref "posts/CISSP.md" >}})/[CISA]({{< relref "posts/CISA.md" >}}) notes, and work-related security references.
 
 # General
@@ -38,8 +37,7 @@ Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{<
 
 - OT Cyber Security
 	- [Notes - Burning Down Cities]({{< relref "posts/Notes - Burning Down Cities.md" >}})
-	- [Epochalypse]({{< relref "posts/epochalypse.md" >}})
-		- [Epochalypse Project](https://epochalypse-project.org/) & [Group.io](https://groups.io/g/epochalypse-discuss/topics)
+	- [Epochalypse]({{< relref "posts/epochalypse.md" >}}) - [Epochalypse Project](https://epochalypse-project.org/) & [Group.io](https://groups.io/g/epochalypse-discuss/topics)
 
 
 # [Cyber - Training & Certifications]({{< relref "posts/Cyber - Training & Certifications.md" >}})
