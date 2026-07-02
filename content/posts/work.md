@@ -19,11 +19,11 @@ Related:
 - Futurism: Post Quantum Cryptography, Epocalypse
 - Auditing: IRAP Assessor
 	- Ideal: Senior GRC Consultant — Cybersecurity
-- OT: 
+- OT: Energy, Water, Defence, Radiation
 
 ***Look for [Remote Cyber Auditing roles](https://www.seek.com.au/cybersecurity-auditor-jobs/remote?pos=1)***
 - Job crafting - I'm looking for flexible & well paying remote work that I find interesting and uses my skills/experience
-	- Part-time : Find 3-4 days/week
+	- Part-time (3-4 days/week)
 	- House/petsitting while working remotely?
 
 Places to Apply
