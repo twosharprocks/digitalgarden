@@ -1,7 +1,7 @@
 ---
 title: Expedition Calendar
 created: 2025-06-29
-updated: 2026-06-28
+updated: 2026-07-02
 status: tree
 draft: false
 tags:
@@ -46,42 +46,50 @@ April
 - [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
 
 May
-- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
-- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
-- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
-- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
+- Oceania & SE Asia
+	- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
+	- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
+	- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
+	- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
 
 June
-- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
-- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
-- [Bikini Atoll]({{< relref "posts/Bikini Atoll.md" >}}) - June-July
-	- [Lust4Rust 2027](https://petemesley.com/lust4rust/bikini-atoll/)
-- [Malaysian International Dive Expo - always June](https://mide.com.my/)
-- [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
-- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
-- [Iceland]({{< relref "posts/iceland.md" >}}) - June-Sept
-- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
+- Oceania & Asia
+	- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
+	- [Malaysian International Dive Expo - always June](https://mide.com.my/)
+	- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
+	- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
+	- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
+- Other
+	- [Bikini Atoll]({{< relref "posts/Bikini Atoll.md" >}}) - June-July
+		- [Lust4Rust 2027](https://petemesley.com/lust4rust/bikini-atoll/)
+	- [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
+	- [Iceland]({{< relref "posts/iceland.md" >}}) - June-Sept
 
 July
-- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
-- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
-- [Bikini Atoll]({{< relref "posts/Bikini Atoll.md" >}}) - June-July
-	- [Lust4Rust 2027](https://petemesley.com/lust4rust/bikini-atoll/)
-- [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
-- [Madagascar]({{< relref "posts/madagascar.md" >}}) - July-August
-- [Malta - Gozo]({{< relref "posts/Malta - Gozo.md" >}}) - July-September 
-- [Sulawesi]({{< relref "posts/Sulawesi.md" >}}) July-Oct
-- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
-- [Iceland]({{< relref "posts/iceland.md" >}}) - June-Sept
-- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
+- Oceania & Asia
+	- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-October
+	- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
+	- [Sulawesi]({{< relref "posts/Sulawesi.md" >}}) July-Oct
+	- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
+	- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
+- Mediterranean 
+	- [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
+	- [Malta - Gozo]({{< relref "posts/Malta - Gozo.md" >}}) - July-September 
+	- [Crete]({{< relref "posts/crete.md" >}}) - July-Sept
+- Other
+	- [Madagascar]({{< relref "posts/madagascar.md" >}}) - July-August
+	- [Iceland]({{< relref "posts/iceland.md" >}}) - June-Sept
+	- [Bikini Atoll]({{< relref "posts/Bikini Atoll.md" >}}) - June-July
+		- [Lust4Rust 2027](https://petemesley.com/lust4rust/bikini-atoll/)
 
 August
 - [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - May-Oct
 - [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - May-Nov
 - [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
-- [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
 - [Madagascar]({{< relref "posts/madagascar.md" >}}) - July-Aug
 - [Malta - Gozo]({{< relref "posts/Malta - Gozo.md" >}}) - July-Sept 
+- [Crete]({{< relref "posts/crete.md" >}}) - July-Sept
+	- 2025 AUG-23-SEP-07 [SPOK Trip](https://docs.google.com/forms/d/e/1FAIpQLSd4DBKophrBjy7aQao10iRA19GqDuEcPKPqwjnRgJynr0tEeQ/viewform)
 - [Sulawesi]({{< relref "posts/Sulawesi.md" >}}) July-Oct
 - [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
 - [Iceland]({{< relref "posts/iceland.md" >}}) - June-Sept
@@ -127,10 +135,7 @@ December
 - [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}}) - Oct-Dec
 
 
-- 
-- [Crete]({{< relref "posts/crete.md" >}})
-	- 2025 AUG-23-SEP-07 [SPOK Trip](https://docs.google.com/forms/d/e/1FAIpQLSd4DBKophrBjy7aQao10iRA19GqDuEcPKPqwjnRgJynr0tEeQ/viewform)
-- 
+
 
 
 # Country Interest
