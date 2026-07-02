@@ -5,6 +5,7 @@ updated: 2026-01-04
 status: seed
 draft: false
 tags:
+  - article
   - writing
   - diving
   - exploration

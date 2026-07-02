@@ -5,6 +5,7 @@ updated: 2026-06-20
 status: seed
 draft: false
 tags:
+  - article
   - diving
   - caving
 Region:

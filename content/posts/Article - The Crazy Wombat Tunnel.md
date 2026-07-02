@@ -1,10 +1,11 @@
-﻿---
+---
 title: "Article - The Crazy Wombat Tunnel"
 created: 2025-05-31
 updated: 2025-10-30
 status: reference
 draft: false
 tags:
+  - article
   - diving
   - writing
   - published

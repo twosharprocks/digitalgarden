@@ -5,6 +5,7 @@ updated: 2025-10-30
 status: reference
 draft: false
 tags:
+  - article
   - diving
   - writing
   - published

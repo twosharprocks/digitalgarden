@@ -5,6 +5,7 @@ updated: 2026-05-25
 status: In-Progress
 draft: false
 tags:
+  - article
   - diving
   - expeditions
   - exploration
