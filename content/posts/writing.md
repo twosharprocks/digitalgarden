@@ -1,7 +1,7 @@
 ---
 title: Writing
 created: 2026-06-19
-updated: 2026-06-30
+updated: 2026-07-02
 status: Index
 draft: false
 tags:
@@ -18,7 +18,6 @@ Related:
 Writing, essays, articles, book projects, older website posts, and notes about making ideas easier to return to.
 
 # Books
-- Book - Ideas 
 - *[Becoming Martian](https://www.amazon.com.au/gp/product/B07492C61L/)*
 - *[Cosmic Nomad](https://www.amazon.com.au/gp/product/B08FZRTYDW)*
 - Book - Cave Diving
@@ -35,7 +34,6 @@ Writing, essays, articles, book projects, older website posts, and notes about m
 - [Article - Unveiling the Crazy Wombat Tunnel]({{< relref "posts/Article - Unveiling the Crazy Wombat Tunnel.md" >}})
 - [Article - What's Your ppO2]({{< relref "posts/Article - What's Your ppO2.md" >}})
 # [Mini Essays]({{< relref "posts/Mini Essays.md" >}})
-- [Effective Note-Taking to Remember More + Create New Ideas]({{< relref "posts/Effective Note-Taking to Remember More + Create New Ideas.md" >}})
 - [Mini Essay - If you had a year to live]({{< relref "posts/Mini Essay - If you had a year to live.md" >}})
 - [Mini Essay - Dune]({{< relref "posts/Mini Essay - Dune.md" >}})
 - [Mini Essay - Appeal of a dark, empty forest outpost]({{< relref "posts/Mini Essay - Appeal of a dark, empty forest outpost.md" >}})

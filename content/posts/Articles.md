@@ -1,7 +1,7 @@
 ---
 title: Articles
 created: 2025-05-01
-updated: 2025-10-30
+updated: 2026-07-02
 status: seed
 draft: false
 tags:
@@ -9,7 +9,6 @@ tags:
   - digital-garden
   - writing
 Related:
----
 ---
 # Published
 - [Exploring Pines Cave - Scuba Diver Magazine](https://app.scubadivermag.com/issues/scuba-diver-anz-85/exploring-pines-cave)

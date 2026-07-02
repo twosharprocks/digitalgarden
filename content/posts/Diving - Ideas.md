@@ -1,11 +1,12 @@
 ---
 title: Diving - Ideas
 created: 2025-01-01
-updated: 2026-06-28
+updated: 2026-07-02
 status: seed
 draft: false
 tags:
   - diving
+  - ideas
 Related:
   - "[[Diving]]"
   - "[[Diving - Gear]]"

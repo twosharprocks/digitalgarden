@@ -36,7 +36,6 @@ Places to Apply
 		- [Information Technology Officer](https://jobs.antarctica.gov.au/jobs-in-antarctica/telecommunications/information-technology-officer/)
 		- [BoM Technical Officer](https://jobs.antarctica.gov.au/jobs-in-antarctica/bom/technical-officer/)
 - Financial: Work for a bank?
-
 # Remote Work
 - Get [portable screen extenders?](https://www.tomsguide.com/computing/monitors/i-just-tried-this-laptop-screen-extender-and-its-almost-the-triple-monitor-setup-of-my-dreams) Or just a portable screen? 12V converter for existing screens?
 [Timezone Hacking/Digital Nomading](https://www.instagram.com/p/DIMXjgDuLQX/) to remain employable with ADHD.  
