@@ -17,31 +17,25 @@ Related:
 ---
 # Cyber Niches
 - Futurism: Post Quantum Cryptography, Epocalypse
-- Auditing: IRAP Assessment
+- Auditing: IRAP Assessor
+	- Ideal: Senior GRC Consultant — Cybersecurity
 - OT: 
 
 ***Look for [Remote Cyber Auditing roles](https://www.seek.com.au/cybersecurity-auditor-jobs/remote?pos=1)***
-- Job crafting
-	- Ask what opportunities are available for someone like me to work in cyber threat intelligence? I'm ideally looking for flexible, well paying remote work, and I'm keen to be involved in tracking cyber threats, as well as managing vulnerabilities and risk.
-	- Ideal: Senior GRC Consultant — Cybersecurity
-- Part-time : Find 3-4 days/week
-- Look at house/petsitting while cyber remote
-- Become IRAP Assessor
+- Job crafting - I'm looking for flexible & well paying remote work that I find interesting and uses my skills/experience
+	- Part-time : Find 3-4 days/week
+	- House/petsitting while working remotely?
 
 Places to Apply
 - **LinkedIn: [Recommended](https://www.linkedin.com/jobs/collections/recommended/) & [Saved](https://www.linkedin.com/my-items/saved-jobs/)**
 - [Seek Recommended](https://www.seek.com.au/)
-- Remote First: [Crowdstrike](https://crowdstrike.wd5.myworkdayjobs.com/en-GB/crowdstrikecareers), [Atlassian](https://www.atlassian.com/company/careers/all-jobs)
+- Remote 1st: [Crowdstrike](https://crowdstrike.wd5.myworkdayjobs.com/en-GB/crowdstrikecareers), [Atlassian](https://www.atlassian.com/company/careers/all-jobs)
 - Hybrid: [BAE](https://jobsearch.baesystems.com/browse-jobs/country/australia), [ASC](https://careeropportunities.asc.com.au/jobs/search), [SAAB](https://www.saab.com/markets/australia/careers/job-opportunities), [Vectra](https://www.vectra-corp.com/)
 - Gov: IWorkForSA? ACCC?
 	- AAD
 		- [Information Technology Officer](https://jobs.antarctica.gov.au/jobs-in-antarctica/telecommunications/information-technology-officer/)
 		- [BoM Technical Officer](https://jobs.antarctica.gov.au/jobs-in-antarctica/bom/technical-officer/)
 - Financial: Work for a bank?
-
-# General
-[Using ChatGPT to improve resume](https://resumeofficial.com/2024/07/12/chatgpt-resume-prompts/)
-- [Insta Post](https://www.instagram.com/p/DJuhklOTN9Y/): "Lie on your resume, lie in your interview, google how to do your job if you get hired, your boss doesn't know what they're doing either, lie, have your best friend pretend to be your old boss and give you a good referral, lie on LinkedIn"
 
 # Remote Work
 - Get [portable screen extenders?](https://www.tomsguide.com/computing/monitors/i-just-tried-this-laptop-screen-extender-and-its-almost-the-triple-monitor-setup-of-my-dreams) Or just a portable screen? 12V converter for existing screens?
@@ -63,17 +57,14 @@ Places to Apply
 	- [Insta - Digital Nomad Visas](https://www.instagram.com/p/DLP4esLOK0C/)
 # Ideas
 In Praise of Idleness, by Bertrand Russell
-- On the nature of work
 - [4-hour work week](https://www.amazon.com.au/4-Hour-Work-Week-Escape-Anywhere-ebook/dp/B006X0M2TS/ref=tmm_kin_swatch_0)
 - [*Life*-Work Philosophy](https://www.instagram.com/p/DGYKYcqs3mU/) 
-- "Work/Life balance is bullshit. There should be no balance. Life is way more important than work. If you are working nearly as much as you are living, then you are fucked."
+	- "Work/Life balance is bullshit. There should be no balance. Life is way more important than work. 
+	- If you are working nearly as much as you are living, then you are fucked."
 - [Quitting your job adds more years to your life than quitting smoking](https://www.instagram.com/p/DJPffd9IMWB/)
+- [Insta - Cosmic Convergence to do bullshit for some rich motherfucker](https://www.instagram.com/p/DOI_soWjlsc/) 
+- [Using ChatGPT to improve your resume](https://resumeofficial.com/2024/07/12/chatgpt-resume-prompts/)
+- [Insta Post](https://www.instagram.com/p/DJuhklOTN9Y/): "Lie on your resume, lie in your interview, google how to do your job if you get hired, your boss doesn't know what they're doing either, lie, have your best friend pretend to be your old boss and give you a good referral, lie on LinkedIn"
 
 Work at Sea? - [Melbourne's Mission to Seafarers](https://www.abc.net.au/news/2026-02-21/melbourne-mission-to-seafarers-global-maritime-workforce/106305250)
-
-- [Insta - Cosmic Convergence to do bullshit for some rich motherfucker](https://www.instagram.com/p/DOI_soWjlsc/) 
-
----
-# References
-
 
