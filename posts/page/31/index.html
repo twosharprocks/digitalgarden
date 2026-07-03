@@ -179,7 +179,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/cissp---1---security--risk-management/">CISSP - 1 - Security &amp; Risk Management</a>
+          <a href="/posts/cisa---3b---is-implementation/">CISA - 3B - IS Implementation</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -188,7 +188,9 @@
             
             #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
-            #<a href="/tags/cissp/">cissp</a>&nbsp;
+            #<a href="/tags/cisa/">cisa</a>&nbsp;
+            
+            #<a href="/tags/study/">study</a>&nbsp;
             
           </span>
         
@@ -198,58 +200,45 @@
 
         <div class="post-content">
           
-            <p>Reference: <a href="https://cissprep.net/domain-1-security-and-risk-management/">https://cissprep.net/domain-1-security-and-risk-management/</a></p>
-<hr>
-<p>Import and Export Controls</p>
+            <h1 id="1---testing-methodologies">1 - Testing Methodologies</h1>
 <ul>
-<li>Wassenaar Arrangement
+<li><strong>1. Unit Testing</strong>: Individual program module (by developers)</li>
+<li><strong>2. Integration Testing</strong>: Testing connection and data flow between modules</li>
+<li><strong>3. System Testing</strong>: Testing entire integrated system to verify it meets technical and functional requirements (by test team in non-prod environment)
 <ul>
-<li>42 countries agreeing not to distribute weapons &amp; cryptographic tools</li>
-<li>Some states have outright bans on the import of cryptographic technologies (often about preventing challenges to government authority)</li>
+<li><strong>Recovery Testing</strong>: Check systems ability to recover after failure</li>
+<li><strong>Security Testing</strong>: Verify access controls and no new security holes introduced</li>
+<li><strong>Load, Volume and Stress Testing</strong>
+<ul>
+<li>Load: Performance with large data quantity (peak hours)</li>
+<li>Volume: Maximum volume of records the system can handle</li>
+<li>Stress: Maximum number of concurrent users the system can handle</li>
+</ul>
+</li>
+<li><strong>Performance Testing</strong>: Testing system against benchmarks</li>
+</ul>
+</li>
+<li><strong>4. Acceptance Testing</strong>: Final gate before implementation, users validate system meets business needs
+<ul>
+<li><strong>Quality Assurance Testing (QAT)</strong>: &ldquo;Did we build the system right?&rdquo;. Focused on technical aspects, performed by IT department, Verify it works as documented and to all tech specs</li>
+<li><strong>User Acceptance testing (UAT)</strong>: &ldquo;Did we build the right system&rdquo;. Focused on functional aspects and business readiness, performed by business users, ensure system is production-ready and meets business requirements from user perspective (This is the <em><strong>final sign-off</strong></em>)</li>
 </ul>
 </li>
 </ul>
-<p>Program Effectiveness Evaluation</p>
-<ul>
-<li>Due care requires effective <em><strong>education, training, and awareness</strong></em> for employees</li>
-<li>Due diligence requires <em><strong>evaluation</strong></em> of the effectiveness of that training</li>
-<li>Ask the right questions: Purpose of an awareness program is to enable and empower all organisation members to achieve safer, more secure and more compliant actions when using information
-<ul>
-<li>Do your workers have the tools, processes, and procedures to do this?</li>
-<li>Do they know how to use then effectively</li>
-<li>Do they have the resource have have what they need to deal with the unexpected</li>
-</ul>
-</li>
-<li>User Participation
-<ul>
-<li>List of training outcomes, then test participants, audits, spot checks</li>
-</ul>
-</li>
-<li>Social Engineering response
-<ul>
-<li>Mock attack attempts to determine if personnel respond appropriately</li>
-</ul>
-</li>
-<li>Log Reviews
-<ul>
-<li>Review user activity to determine if it&rsquo;s compliant with policies</li>
-</ul>
-</li>
-</ul>
-<p>Education, Training, and Awareness</p>
+<p><em>Exam Tip: UAT is the most critical milestone before implementation, and <strong>business users</strong> give final approval not the IT department</em></p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/cissp---1---security--risk-management/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/cisa---3b---is-implementation/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/cissp---2---asset-security/">CISSP - 2 - Asset Security</a>
+          <a href="/posts/cisa---4a---is-operations/">CISA - 4A - IS Operations</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -258,7 +247,9 @@
             
             #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
-            #<a href="/tags/cissp/">cissp</a>&nbsp;
+            #<a href="/tags/cisa/">cisa</a>&nbsp;
+            
+            #<a href="/tags/study/">study</a>&nbsp;
             
           </span>
         
@@ -268,41 +259,82 @@
 
         <div class="post-content">
           
-            <hr>
-<h1 id="information-asset-security">Information Asset Security</h1>
-<h4 id="learning-objectives"><strong>Learning Objectives</strong></h4>
+            <h1 id="1---common-technology-comonents">1 - Common Technology Comonents</h1>
+<h2 id="open-systems-interconnection-osi-model">Open Systems Interconnection (OSI) Model</h2>
 <ul>
-<li>Identify, classify, and categorize information assets.</li>
-<li>Explain the importance of treating information as an asset.</li>
-<li>Differentiate the IT asset management lifecycle from the data security lifecycle.​</li>
-<li>Relate the data states of in use, in transit, and at rest to the data lifecycle.​</li>
-<li>Relate the different roles that people and organizations have with respect to data.​</li>
-<li>Describe the different security control types and categories. ​</li>
-<li>Explain the use of data security standards and baselines to meet organizational compliance requirements.</li>
+<li>Application: User facing (HTTP, FTP, SMTP)</li>
+<li>Presentation: Data formatting, encryption, compression</li>
+<li>Session: Establishes, manages, terminates connections</li>
+<li>Transport: Reliable end-to-end data transfer (TCP, UDP)</li>
+<li>Network: Addressing and routing (IP addresses routers)</li>
+<li>Data Link: Physical addressing and error detection (MAC addresses, switches)</li>
+<li>Physical: Hardware that transmits the bits (cables/hubs)
+<em>Exam Tip: Must understand the function and devices in each layer</em></li>
+<li>Focus on 3,4 and 7 (maybe 6)</li>
 </ul>
-<h4 id="key-topics"><strong>Key Topics</strong></h4>
+<h2 id="lanwan-devices">LAN/WAN Devices</h2>
 <ul>
-<li>Provision Information &amp; Assets Securely</li>
-<li>Information &amp; Asset Handling</li>
-<li>Manage Data Life Cycle</li>
-<li>Appropriate Asset Retention</li>
-<li>Data Security Controls &amp; Compliance</li>
+<li><strong>Repeater/Hub</strong>: Layer 1, regenerates signal to extend network range. Hubs are multi-port repeaters</li>
+<li><strong>Bridge/Layer 2 Switch</strong>: Layer 2, connects network segments, reduces collision domains, uses MAC addresses to filter and forward <em>frames</em>,  hardware-based and more efficient than bridges</li>
+<li><strong>Router</strong>: Layer 3, logically links networks, makes intelligent routing decisions based on IP addresses</li>
 </ul>
-<hr>
-<p>The IT Asset Management Life Cycle</p>
+<h2 id="common-physical-topologies">Common Physical Topologies</h2>
+<ul>
+<li><strong>Star</strong>: Most common, all connected to central hub</li>
+<li><strong>Bus</strong>: All devices share a single communication line</li>
+<li><strong>Ring</strong>: Outdated, connected in circular fashion</li>
+</ul>
+<h2 id="tcpit-suite">TCP/IT Suite</h2>
+<ul>
+<li><strong>Defacto standard protocol suite for the internet</strong></li>
+<li>Internet Protocol
+<ul>
+<li>IPv4: 32-bit address (most used today)</li>
+<li>IPv6: 128-bit address (gradually replacing IPv4)</li>
+</ul>
+</li>
+<li><strong>Network Address Translation</strong>
+<ul>
+<li>Converts private internal IP addresses into public external IP addresses</li>
+<li>Hides internal network structure and IP addresses from external attacks</li>
+</ul>
+</li>
+</ul>
+<h2 id="converged-protocols">Converged Protocols</h2>
+<ul>
+<li>Merging specialised/proprietary protocols with stabdard TCP/IP
+<ul>
+<li><strong>VoIP</strong>: Voice over IP, transports voice calls</li>
+<li><strong>FCoE</strong>: Fiber Channel over Ethernet, encapsulates high-speed storage over ethernet</li>
+<li><strong>iSCSI</strong>: Lower-cost alternative to Fiber Channel, allows storage device access over TCP/IP network</li>
+<li><strong>MPLS</strong>: High-performance network tech that directs data using short path labels instead of long network addresses, independent of routing tables</li>
+</ul>
+</li>
+</ul>
+<h2 id="hardware">Hardware</h2>
+<ul>
+<li><strong>Maintenance</strong>: Auditor&rsquo;s role is to <strong>verify a formal maintenance plan exists</strong> and is being followed, and <strong>reviewing hardware monitoring reports</strong> to detect problems and predict future needs.</li>
+<li><strong>USB Mass Storage</strong>: Malware vector, data theft risk, risk of data and media loss.
+<ul>
+<li><strong>Key controls</strong>: Encryption, Granular Control Software (allow keyboards, block storage), Policy &amp; Awareness (screen lock)</li>
+</ul>
+</li>
+</ul>
+<h1 id="2---it-asset-management">2 - IT Asset Management</h1>
+<p>Ensuring organisations assets are accounted for, deployed, maintained and disposed of when no longer needed</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/cissp---2---asset-security/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/cisa---4a---is-operations/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/cissp---3---security-architecture--engineering/">CISSP - 3 - Security Architecture &amp; Engineering</a>
+          <a href="/posts/cisa---4b---business-resilience/">CISA - 4B - Business Resilience</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -311,7 +343,9 @@
             
             #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
-            #<a href="/tags/cissp/">cissp</a>&nbsp;
+            #<a href="/tags/cisa/">cisa</a>&nbsp;
+            
+            #<a href="/tags/study/">study</a>&nbsp;
             
           </span>
         
@@ -321,53 +355,28 @@
 
         <div class="post-content">
           
-            <hr>
-<h4 id="learning-objectives"><strong>Learning Objectives</strong></h4>
+            <h1 id="1---business-impact-analysis-bia">1 - Business Impact Analysis (BIA)</h1>
+<p><strong>Resilience</strong> is an organisation&rsquo;s ability to adapt to disruptions and maintain continuous assets while protecting assets</p>
+<p>Three Core Questions the BIA must answer;</p>
 <ul>
-<li>Explain the significance of basic secure design principles.​</li>
-<li>Compare and contrast the key security characteristics of security models.​</li>
-<li>Explain the hardware foundations of security.​</li>
-<li>Apply security principles to different information systems and their environments.​</li>
-<li>Determine the best application of cryptographic approaches to solving organizational information security needs.</li>
-<li>Manage the use of certificates and digital signatures to meet organizational information security needs.</li>
-<li>Apply different cryptographic management solutions to meet organizational information security needs.</li>
-<li>Describe defenses against common cryptanalytic attacks.</li>
-<li>Apply the lessons of Crime Prevention through Environmental Design (CPTED) to information systems security design and operation.</li>
-<li>Identify information security implications of various physical facilities, systems and infrastructure.</li>
+<li>What are the organisation&rsquo;s critical business processes?</li>
+<li>What critical IT resources are related to these processes?</li>
+<li>What is the critical recovery period before unacceptable losses are suffered? (Maximum tolerable downtime (MTD)</li>
 </ul>
-<h4 id="key-topics"><strong>Key Topics</strong></h4>
-<table>
-  <thead>
-      <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>- Secure Design Principles     <!-- raw HTML omitted -->- Security Models     <!-- raw HTML omitted -->- Controls &amp; Systems Security Requirements     <!-- raw HTML omitted -->- Security Capabilities</td>
-          <td>- Vulnerabilities of Security Architectures &amp; Designs      <!-- raw HTML omitted -->- Cryptographic Solutions     <!-- raw HTML omitted -->- Cryptanalytic Attacks     <!-- raw HTML omitted -->- Secure Site &amp; Facility Design</td>
-          <td>- Site &amp; Facility Security Controls     <!-- raw HTML omitted -->- Information System Life Cycle</td>
-      </tr>
-  </tbody>
-</table>
-<hr>
-<p>Operationalising Risk Management
-Threat Modelling -</p>
+<p><em>Exam Tip: Auditor&rsquo;s role is to verify the BIA process is comprehensive, outputs are accurate, and it&rsquo;s sponsored and approved by senior management</em></p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/cissp---3---security-architecture--engineering/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/cisa---4b---business-resilience/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/cissp---4---communication--network-security/">CISSP - 4 - Communication &amp; Network Security</a>
+          <a href="/posts/cisa---5a---info-asset-security-and-control/">CISA - 5A - Info Asset Security and Control</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -376,7 +385,9 @@ Threat Modelling -</p>
             
             #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
-            #<a href="/tags/cissp/">cissp</a>&nbsp;
+            #<a href="/tags/cisa/">cisa</a>&nbsp;
+            
+            #<a href="/tags/study/">study</a>&nbsp;
             
           </span>
         
@@ -386,39 +397,28 @@ Threat Modelling -</p>
 
         <div class="post-content">
           
-            <hr>
-<h4 id="learning-objectives"><strong>Learning Objectives</strong></h4>
+            <h1 id="1---information-asset-security-frameworks-standards-and-guidelines">1 - Information Asset Security Frameworks, Standards and Guidelines</h1>
+<p><strong>Policies</strong> are the high-level statements of management&rsquo;s intent (what and why). They must be;</p>
 <ul>
-<li>Understand the role of the ISO OSI 7-Layer and TCP/IP models in internetworking and data communications.</li>
-<li>Describe the architectural characteristics, relevant technologies, protocols, and security threats associated with each layer in the OSI model.</li>
-<li>Describe the evolution of methods to secure IP communications protocols.</li>
-<li>Contrast the security considerations of network virtualization with physical networks.</li>
-<li>Describe key software-defined networking (SDN) concepts.</li>
-<li>Describe the evolution of and security implications for key network devices.</li>
-<li>Describe the architecture and design of computer hardware security.</li>
-<li>Evaluate the security issues and implications of communications in traditional and VoIP infrastructures and of remote computing tools.</li>
+<li><strong>Business driven</strong>: Aligned with business objectives</li>
+<li><strong>Accessible</strong>: Everyone in the company must be able to access them</li>
+<li><strong>Enforceable</strong>: Must contain penalties for noncompliance
+<em>Auditor&rsquo;s Focus</em>: Review the policy&rsquo;s last update to ensure it is current and relevant to the organisation&rsquo;s needs</li>
 </ul>
-<h4 id="key-topics"><strong>Key Topics</strong></h4>
-<ul>
-<li>Secure Design Principles in Network Architectures</li>
-<li>Secure Network Components</li>
-<li>Secure Communication Channels</li>
-</ul>
-<hr>
-<p>Communications and Internetworking (Overview)</p>
+<p><strong>Standards</strong> are the mandatory requirements that support  policy</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/cissp---4---communication--network-security/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/cisa---5a---info-asset-security-and-control/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/cissp---5---identity--access-management-iam/">CISSP - 5 - Identity &amp; Access Management (IAM)</a>
+          <a href="/posts/cisa---5b---security-event-management/">CISA - 5B - Security Event Management</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -427,7 +427,9 @@ Threat Modelling -</p>
             
             #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
-            #<a href="/tags/cissp/">cissp</a>&nbsp;
+            #<a href="/tags/cisa/">cisa</a>&nbsp;
+            
+            #<a href="/tags/study/">study</a>&nbsp;
             
           </span>
         
@@ -437,30 +439,26 @@ Threat Modelling -</p>
 
         <div class="post-content">
           
-            <hr>
-<h4 id="learning-objectives"><strong>Learning Objectives</strong></h4>
+            <h1 id="1---security-awareness-training-and-programs">1 - Security Awareness Training and Programs</h1>
+<p>Effective security is dependent on people.</p>
 <ul>
-<li>Explain the identity lifecycle as it applies to human and nonhuman users.</li>
-<li>Compare and contrast access control models, mechanisms and concepts.</li>
-<li>Explain the role of authentication, authorization and accounting in achieving information security goals and objectives.</li>
-<li>Explain how IAM implementations must protect physical and logical assets.</li>
-<li>Describe the role of credentials and the identity store in IAM systems.</li>
+<li>Change their behaviour and foster a culture of good security practices so they change from the weakest link to the first line of defence.</li>
 </ul>
-<h4 id="key-topics"><strong>Key Topics</strong></h4>
+<p>Awareness</p>
 <ul>
-<li>Control Access</li>
-<li>Design Strategy</li>
-<li>Implementation</li>
-<li>Identity &amp; Account Management</li>
+<li>Change behaviour (answer the &ldquo;what&rdquo;). All employees from day one. Passive - videos, newsletters, posters
+Training</li>
+<li>Teach how to do a job securely (answer the &ldquo;how&rdquo;). Specific to function areas, hands-on learning with instructors and labs
+Education</li>
+<li>InDepth knowledge for security professionals (answer the &ldquo;how&rdquo;). For security professionals seeking career expertise, intensive learning through univerity/courses/seminars/research</li>
 </ul>
-<hr>
-<p>IAM Administration Choices - Physical and Logical</p>
+<p><em>Auditor&rsquo;s Role is to assess if the organisation is applying the right level of learning to the right audience to achieve its security goals</em></p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/cissp---5---identity--access-management-iam/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/cisa---5b---security-event-management/">[Read more]</a>
           </div>
         
       </article>
