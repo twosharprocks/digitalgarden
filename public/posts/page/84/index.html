@@ -179,6 +179,183 @@
     
       <article class="post on-list">
         <h2 class="post-title">
+          <a href="/posts/oscp---crane---linux/">OSCP - Crane - Linux</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="crane">Crane</h1>
+<p>This was the most straight-forward box so far. While a walkthrough was referenced for some of the exploit syntax, the exploit itself had already been found and tested before hand, so catching the reverse shell was straightforward.</p>
+<p>After initial access, it was clear <code>usr/sbin/service</code> could be used for privilege escalation. It took a bit of testing, but combining <code>www-data</code>&rsquo;s sudo privileges with directory traversal led to <code>root</code> access</p>
+<h1 id="resolution-summary">Resolution summary</h1>
+<ul>
+<li>Scanned with Nmap to find ports 22, 80, &amp; 3306</li>
+<li>Navigated to <code>http://192.168.137.146:80</code></li>
+<li>Password guessed admin login, and identified SuiteCRM 7.12.3</li>
+<li>Found exploit for CVE-2022-23940, executed against target &amp; achieved shell</li>
+<li>Checked sudo privileges and found <code>/usr/sbin/services</code></li>
+<li>Used <code>sbin</code> &amp; directory traversal to escalate to <code>root</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills</h2>
+<ul>
+<li>Finding/testing exploits</li>
+<li>Linux Privilege Escalation</li>
+</ul>
+<h2 id="used-tools">Used tools</h2>
+<ul>
+<li>Nmap</li>
+<li>NetCat</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering</h1>
+<p>Scanned all TCP ports:</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---crane---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---exam-prep/">OSCP - Exam Prep</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>ProvingGrounds (very close to OSCP)</p>
+<ul>
+<li><strong>PG Practice</strong>: Structured, guided learning with focused challenges to teach specific skills.</li>
+<li><strong>PG Play</strong>: Open, unguided labs that simulate real-world penetration testing <em>(best for OSCP prep)</em></li>
+</ul>
+<p>OffSec Challenge labs</p>
+<ul>
+<li>Challenge 0-2: Good warmup</li>
+<li>Challenge 3: Beyond scope of exam</li>
+<li><strong>Challenge 4-6</strong>: <em>OSCP-like experience</em>
+<ul>
+<li>Give yourself 24hrs for each</li>
+</ul>
+</li>
+</ul>
+<p>TjNull&rsquo;s List (excellent)</p>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLidcsTyj9JXK-fnabFLVEvHinQ14Jy5tf">Ipsec videos</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLcSbj5mz-wxPK8KD522vH5Gny4bSemX2H">NoxLumens Walkthroughs</a></li>
+</ul>
+<p>HTB Academy - CPTS</p>
+<ul>
+<li>Active Directory &amp; Enumeration</li>
+<li>Pivoting and tunnelling</li>
+<li>Attacking Common Services</li>
+<li>PrivEsc - Windows &amp; Linux</li>
+<li>File Transfer</li>
+</ul>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---exam-prep/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---exfiltrated---linux/">OSCP - Exfiltrated - Linux</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="exfiltration">Exfiltration</h1>
+<p>Relatively easy box turned into a VERY frustrating experience at not being able to properly execute <code>exiftool</code> exploit because of missing library dependencies. Exploit actually detailed exactly <em>how</em> to install those dependencies, but I was looking for instructions on Stack Overflow instead of in the script itself - <em><strong>always read the script!</strong></em></p>
+<p>Exploits were relatively straight forward once the dependencies were sorted though, so all round good practice on the process of popping boxes. Local user had also been identified by <code>linpeas.sh</code> but ended up getting root first (flag = <code>proof.txt</code>) then using root privilege to find the <code>coaran</code> user with GID=1000 and the local flag (flag = <code>local.txt</code>).</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---exfiltrated---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---extplorer---linux/">OSCP - Extplorer - Linux</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="extplorer">Extplorer</h1>
+<p>This was simultaneously the easiest and most frustrating box yet. Identifying and accessing <code>filemanager</code> was ridiculously easy, and uploading a reverse shell php and catching the shell <em>seemed</em> easy initially. Even finding credentials for <code>dora</code> was easy once I started looking through all the info that was available in the <code>filemanager</code> folder.</p>
+<p>What I wasn&rsquo;t expecting was to spend 2 hours trying to figure out why I couldn&rsquo;t upgrade the dumb shell I&rsquo;d caught to a full shell, even though I <em><strong>knew</strong></em> the target was running <code>python3</code>.</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---extplorer---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
           <a href="/posts/oscp---fired---linux/">OSCP - Fired - Linux</a>
         </h2>
         <div class="post-meta"></div>
@@ -204,176 +381,6 @@
         
            <div>
             <a class="read-more button inline" href="/posts/oscp---fired---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---flu---linux/">OSCP - Flu - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="flu">Flu</h1>
-<p>This is the first box I can confidently say I did <em><strong>NOT</strong></em> look at a walkthrough for any help on! I&rsquo;ve included one in the details above, but it remained as a background tab the entire way through this - massive confidence boost to know I can do this without needing to follow someone else&rsquo;s footsteps!</p>
-<p>Seeing Confluence when I checked the html port was a big confidence booster too, as I&rsquo;ve worked with it a lot already and knew there were plenty of vulnerabilities and exploit available for older versions. Getting RCE was incredibly simple, and then it was simply a case of enumerating the target to find a privilege escalation vector.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---flu---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---htb---active-directory/">OSCP - HTB - Active Directory</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
-<hr>
-<h1 id="tj-null">TJ Null</h1>
-<ul>
-<li><input disabled="" type="checkbox"> Active (Enterprise)</li>
-<li><input disabled="" type="checkbox"> Forest</li>
-<li><input disabled="" type="checkbox"> Sauna</li>
-<li><input disabled="" type="checkbox"> Monteverde</li>
-<li><input disabled="" type="checkbox"> Timelapse</li>
-<li><input disabled="" type="checkbox"> Return (Enterprise)</li>
-<li><input disabled="" type="checkbox"> Cascade</li>
-<li><input disabled="" type="checkbox"> Flight</li>
-</ul>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---htb---active-directory/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---htb---linux/">OSCP - HTB - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
-<hr>
-<h1 id="tj-null">TJ Null</h1>
-<ul>
-<li><input disabled="" type="checkbox"> Busqueda</li>
-<li><input disabled="" type="checkbox"> UpDown</li>
-<li><input disabled="" type="checkbox"> Sau</li>
-<li><input disabled="" type="checkbox"> Help</li>
-<li><input disabled="" type="checkbox"> Broker</li>
-<li><input disabled="" type="checkbox"> Intentions</li>
-<li><input disabled="" type="checkbox"> Soccer</li>
-<li><input disabled="" type="checkbox"> Keeper</li>
-<li><input disabled="" type="checkbox"> Monitored</li>
-<li><input disabled="" type="checkbox"> Boardlight</li>
-<li><input disabled="" type="checkbox"> Networked</li>
-<li><input disabled="" type="checkbox"> CozyHosting</li>
-<li><input disabled="" type="checkbox"> Editorial</li>
-<li><input disabled="" type="checkbox"> Help</li>
-<li><input disabled="" type="checkbox"> Magic</li>
-<li><input disabled="" type="checkbox"> Pandora</li>
-<li><input disabled="" type="checkbox"> Usage</li>
-</ul>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---htb---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---htb---windows/">OSCP - HTB - Windows</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
-<hr>
-<h1 id="tj-null">TJ Null</h1>
-<ul>
-<li><input disabled="" type="checkbox"> Escape</li>
-<li><input disabled="" type="checkbox"> Servmon - Enterprise</li>
-<li><input disabled="" type="checkbox"> Support</li>
-<li><input disabled="" type="checkbox"> StreamIO</li>
-<li><input disabled="" type="checkbox"> Blackfield</li>
-<li><input disabled="" type="checkbox"> Intelligence</li>
-<li><input disabled="" type="checkbox"> Jeeves</li>
-<li><input disabled="" type="checkbox"> Manager</li>
-<li><input disabled="" type="checkbox"> Access</li>
-<li><input disabled="" type="checkbox"> Aero</li>
-<li><input disabled="" type="checkbox"> Mailing</li>
-</ul>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---htb---windows/">[Read more]</a>
           </div>
         
       </article>
