@@ -31,21 +31,23 @@ Toad Hall (4-6): Chloe, Josh, James, Corey
 # To Do
 For me
  - [ ] Write draft of Book - Cave Diving
- - [ ] Established with Alpha Echo
+ - [x] Established with Alpha Echo
 
 For Trip
 - [ ] Complete tasks for VW Transporter
 	- [ ] Panelling
 	- [ ] Power
 	- [ ] Toilet
-	- [ ] Repaired
+	- [ ] Repaired Rear Right
 - [ ] Gear
 	- [ ] DPV from Matt Rochford
-	- [ ] Build/Test Dry Tube
+	- [ ] Build & Test Dry Tube
 	- [ ] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) 
 - [ ] Murra map from Krunchy
 - [ ] Ken Smith and Pingers + JDZ data
-- [ ] Jarred Hotchkin & nearby cave
+- [ ] Contact - Jarred Hotchkin & nearby cave
+- [ ] Contact - Ceduna to speak? M
+
 # Trip Log
 ***Dates: 08-21 to 08-31 (Murra) & 09-01 to 09-12 (Cocklebiddy)***
 ![Messenger Creation F8c65974 345A 497F 8A46 8e6a5c8145a8](/images/Messenger_creation_F8C65974-345A-497F-8A46-8E6A5C8145A8.jpeg)
@@ -123,7 +125,7 @@ For Trip
 	- Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
 - 2026-09-11 Fri: Travel
 	- Leave Cocklebiddy
-	- Stay: Ceduna? 
+	- Stay: Ceduna (Speak?)
 - 2026-09-12 Sat: Travel
 	- Final drive back
 	- Stay: Adelaide

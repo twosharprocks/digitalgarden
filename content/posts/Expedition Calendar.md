@@ -62,6 +62,7 @@ June
 - Other
 	- [Bikini Atoll]({{< relref "posts/Bikini Atoll.md" >}}) - June-July
 		- [Lust4Rust 2027](https://petemesley.com/lust4rust/bikini-atoll/)
+		- Trip - Bikini Atoll - 2028 June
 	- [Lot - France]({{< relref "posts/Lot - France.md" >}}) - June-Oct
 	- [Iceland]({{< relref "posts/iceland.md" >}}) - June-Sept
 
