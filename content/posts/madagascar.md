@@ -27,6 +27,7 @@ Related:
 	- Mitoho
 		- [YouTube - Cave Diving Mitoho Cave](https://youtu.be/RbuwlQ7elHk) (Guy Bryant)
 	- Malazamanga
+		- [YouTube - Exploring Malamanga Cave](https://youtu.be/GTVbQ7B_AUU)
 		- [Insta - Indepth Magazine](https://www.instagram.com/p/DMpHevnx7ii/?img_index=1) 
 	- Anjanamba
 # Trips
