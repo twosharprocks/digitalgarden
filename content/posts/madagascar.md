@@ -1,7 +1,7 @@
 ---
 title: Madagascar
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-07-05
 status: seed
 draft: false
 tags:
@@ -15,20 +15,7 @@ Related:
   - "[[Diving]]"
   - "[[Africa]]"
 ---
-Madagascar is listed under [Africa]({{< relref "posts/africa.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
-# Cave Regions
-- No local cave regions listed yet.
-
-# Caves & Dive Sites
-- See the linked cave regions above.
-
-# Backlinks
-- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
-- [Diving]({{< relref "posts/diving.md" >}})
-
----
-# Existing Notes
 # About
 **Why:** Massive karst regions like the Tsingy de Bemaraha and Ankarana contain hundreds of limestone caves, many barely explored or surveyed. The warm climate and remoteness suggest the potential for flooded sections, especially during the wet season.  
 **Status:** Speleologists have mapped many dry caves, but little to no published cave diving.  
@@ -36,12 +23,16 @@ Madagascar is listed under [Africa]({{< relref "posts/africa.md" >}}) in [Cave R
 # Caves
 - [Tsimanampetsotsa National Park](https://www.madacaves.com/) 
 	- Aven
+		- [YouTube - Cave Diving at Aven Cave](https://www.youtube.com/@GuyBryantCaveDiver/videos) (Guy Bryant)
 	- Mitoho
+		- [YouTube - Cave Diving Mitoho Cave](https://youtu.be/RbuwlQ7elHk) (Guy Bryant)
 	- Malazamanga
 		- [Insta - Indepth Magazine](https://www.instagram.com/p/DMpHevnx7ii/?img_index=1) 
 	- Anjanamba
 # Trips
-- Contact Ryan Dart
+- Contact 
+	- Ryan Dart
+	- Marissa Eckert, [Guy Bryant](https://www.youtube.com/@GuyBryantCaveDiver/videos)
 - Dry Season: May–October
 - Best months are July/August
 - Organise trip with recreational diving too ([Cavern & Ocean dives available](https://www.madacaves.com/copy-of-team-1))

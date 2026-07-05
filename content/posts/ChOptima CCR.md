@@ -1,7 +1,7 @@
 ---
 title: ChOptima CCR
 created: 2025-11-08
-updated: 2025-11-08
+updated: 2026-07-05
 status: seed
 draft: false
 tags:
@@ -39,4 +39,5 @@ Manuals
 [Youtube - Effects of the 3 H's in CCR Diving](https://www.youtube.com/watch?v=z8J51-xXQmg)
 [John Bentley - Choptima Updates](https://barefootbentley.com/choptima-updates/) - summary of unit changes since 2020
 - Recommend Locking Quick Disconnect
+[YouTube - How to clean and lubricate a Dive Rite DSV](https://youtu.be/y-umkCRIRyI?si=AfvBqrEnI_rXKukX)
 
