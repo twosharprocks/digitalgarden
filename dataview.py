@@ -216,6 +216,60 @@ def render_categorized_list(query, notes, current_path=None):
     return "\n\n".join(sections)
 
 
+def oscp_system(note):
+    name = note.get("_filename", "")
+    parts = [
+        re.sub(r"\s*\(DNF\)\s*$", "", part, flags=re.IGNORECASE).strip()
+        for part in re.sub(r"^OSCP\s*-\s*", "", name, flags=re.IGNORECASE).split(" - ")
+    ]
+
+    if re.search(r"cheat sheet", name, flags=re.IGNORECASE):
+        return "General"
+    if any(re.fullmatch(r"(ad|active directory)", part, flags=re.IGNORECASE) for part in parts):
+        return "Active Directory"
+    if any(re.fullmatch(r"windows", part, flags=re.IGNORECASE) for part in parts):
+        return "Windows"
+    if any(re.fullmatch(r"linux", part, flags=re.IGNORECASE) for part in parts):
+        return "Linux"
+    if any(re.fullmatch(r"(core|exam prep)", part, flags=re.IGNORECASE) for part in parts):
+        return "General"
+    return "Other"
+
+
+def render_oscp_index(query, notes, current_path=None):
+    normalized = query.upper()
+    if not (
+        "OSCP" in normalized
+        and "GROUPORDER" in normalized
+        and "OSCPSYSTEM" in normalized
+        and "FILE.NAME.STARTSWITH" in normalized
+    ):
+        return None
+
+    group_order = ["General", "Windows", "Linux", "Active Directory", "Other"]
+    selected = []
+    for note in notes:
+        if current_path and note["_path"] == current_path:
+            continue
+        tags = {str(tag).replace("#", "", 1).lower() for tag in note.get("tags", [])}
+        filename = note.get("_filename", "")
+        if filename.startswith("OSCP - ") or "oscp" in tags:
+            selected.append(note)
+
+    selected.sort(key=lambda note: note.get("_filename", "").lower())
+
+    sections = []
+    for group_name in group_order:
+        group_notes = [note for note in selected if oscp_system(note) == group_name]
+        if not group_notes:
+            continue
+        lines = [f"## {group_name}"]
+        lines.extend(f"- {relref_link(note)}" for note in group_notes)
+        sections.append("\n".join(lines))
+
+    return "\n\n".join(sections) if sections else "_No matching OSCP notes._"
+
+
 def table_columns(query):
     table_match = re.search(
         r"(?is)^\s*TABLE\s+(.*?)\s+FROM\s+",
@@ -262,6 +316,9 @@ def render_table(query, notes, current_path=None):
 
 def render_dataview(query, notes, current_path=None):
     normalized = query.lstrip().upper()
+    oscp_index = render_oscp_index(query, notes, current_path)
+    if oscp_index is not None:
+        return oscp_index
     if normalized.startswith("LIST"):
         return render_list(query, notes, current_path)
     if normalized.startswith("TABLE"):

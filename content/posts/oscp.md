@@ -12,70 +12,49 @@ Related:
   - "[[Cyber Security]]"
   - "[[OSCP]]"
 ---
-```dataview
-const groupOrder = ["General", "Windows", "Linux", "Active Directory", "Other"];
+## General
+- [OSCP - Cheat Sheet - Active Directory]({{< relref "posts/OSCP - Cheat Sheet - Active Directory.md" >}})
+- [OSCP - Cheat Sheet - Core]({{< relref "posts/OSCP - Cheat Sheet - Core.md" >}})
+- [OSCP - Cheat Sheet - Linux]({{< relref "posts/OSCP - Cheat Sheet - Linux.md" >}})
+- [OSCP - Cheat Sheet - Windows]({{< relref "posts/OSCP - Cheat Sheet - Windows.md" >}})
+- [OSCP - Exam Prep]({{< relref "posts/OSCP - Exam Prep.md" >}})
 
-function hasTag(page, tag) {
-  return dv.array(page.tags).map(t => String(t).replace(/^#/, "").toLowerCase()).includes(tag);
-}
+## Windows
+- [OSCP - Algernon - Windows]({{< relref "posts/OSCP - Algernon - Windows.md" >}})
+- [OSCP - Authby - Windows]({{< relref "posts/OSCP - Authby - Windows.md" >}})
+- [OSCP - Hutch - Windows]({{< relref "posts/OSCP - Hutch - Windows.md" >}})
+- [OSCP - Internal - Windows]({{< relref "posts/OSCP - Internal - Windows.md" >}})
+- [OSCP - Jacko - Windows]({{< relref "posts/OSCP - Jacko - Windows.md" >}})
+- [OSCP - Kevin - Windows (DNF)]({{< relref "posts/OSCP - Kevin - Windows (DNF).md" >}})
+- [OSCP - Squid - Windows]({{< relref "posts/OSCP - Squid - Windows.md" >}})
+- [OSCP - Windows]({{< relref "posts/OSCP - Windows.md" >}})
 
-function oscpSystem(page) {
-  const name = page.file.name;
-  const parts = name
-    .replace(/^OSCP\s*-\s*/i, "")
-    .split(" - ")
-    .map(part => part.replace(/\s*\(DNF\)\s*$/i, "").trim());
+## Linux
+- [OSCP - Astronaut - Linux]({{< relref "posts/OSCP - Astronaut - Linux.md" >}})
+- [OSCP - Blackgate - Linux]({{< relref "posts/OSCP - Blackgate - Linux.md" >}})
+- [OSCP - Boolean - Linux]({{< relref "posts/OSCP - Boolean - Linux.md" >}})
+- [OSCP - Clue - Linux]({{< relref "posts/OSCP - Clue - Linux.md" >}})
+- [OSCP - Cockpit - Linux]({{< relref "posts/OSCP - Cockpit - Linux.md" >}})
+- [OSCP - Codo - Linux]({{< relref "posts/OSCP - Codo - Linux.md" >}})
+- [OSCP - Crane - Linux]({{< relref "posts/OSCP - Crane - Linux.md" >}})
+- [OSCP - Exfiltrated - Linux]({{< relref "posts/OSCP - Exfiltrated - Linux.md" >}})
+- [OSCP - Extplorer - Linux]({{< relref "posts/OSCP - Extplorer - Linux.md" >}})
+- [OSCP - Fired - Linux]({{< relref "posts/OSCP - Fired - Linux.md" >}})
+- [OSCP - Flu - Linux]({{< relref "posts/OSCP - Flu - Linux.md" >}})
+- [OSCP - Hub - Linux]({{< relref "posts/OSCP - Hub - Linux.md" >}})
+- [OSCP - Image - Linux]({{< relref "posts/OSCP - Image - Linux.md" >}})
+- [OSCP - LaVita - Linux]({{< relref "posts/OSCP - LaVita - Linux.md" >}})
+- [OSCP - Law - Linux]({{< relref "posts/OSCP - Law - Linux.md" >}})
+- [OSCP - Levram - Linux]({{< relref "posts/OSCP - Levram - Linux.md" >}})
+- [OSCP - Ochima - Linux]({{< relref "posts/OSCP - Ochima - Linux.md" >}})
+- [OSCP - PC - Linux]({{< relref "posts/OSCP - PC - Linux.md" >}})
+- [OSCP - Pelican - Linux]({{< relref "posts/OSCP - Pelican - Linux.md" >}})
+- [OSCP - Plum - Linux]({{< relref "posts/OSCP - Plum - Linux.md" >}})
+- [OSCP - ProvingGrounds - Linux]({{< relref "posts/OSCP - ProvingGrounds - Linux.md" >}})
+- [OSCP - PyLoader - Linux]({{< relref "posts/OSCP - PyLoader - Linux.md" >}})
+- [OSCP - RubyDome - Linux]({{< relref "posts/OSCP - RubyDome - Linux.md" >}})
+- [OSCP - Scrutiny - Linux]({{< relref "posts/OSCP - Scrutiny - Linux.md" >}})
+- [OSCP - Twiggy - Linux]({{< relref "posts/OSCP - Twiggy - Linux.md" >}})
 
-  if (/cheat sheet/i.test(name)) return "General";
-  if (parts.some(part => /^(ad|active directory)$/i.test(part))) return "Active Directory";
-  if (parts.some(part => /^windows$/i.test(part))) return "Windows";
-  if (parts.some(part => /^linux$/i.test(part))) return "Linux";
-  if (parts.some(part => /^(core|exam prep)$/i.test(part))) return "General";
-  return "Other";
-}
-
-const pages = dv.pages("")
-  .where(page =>
-    page.file.path !== dv.current().file.path &&
-    (page.file.name.startsWith("OSCP - ") || hasTag(page, "oscp"))
-  )
-  .sort(page => page.file.name, "asc");
-
-for (const groupName of groupOrder) {
-  const groupPages = pages.where(page => oscpSystem(page) === groupName);
-  if (!groupPages.length) continue;
-
-  dv.header(2, groupName);
-
-  const list = dv.container.createDiv();
-  list.setAttribute(
-    "style",
-    "padding-inline-start: 1.4em !important; margin-block: var(--p-spacing) !important;"
-  );
-
-  for (const page of groupPages) {
-    const item = list.createDiv();
-    item.setAttribute(
-      "style",
-      "display: flex !important; align-items: baseline !important; margin: 0 !important; padding: 0 !important; font-size: var(--font-text-size) !important; line-height: var(--line-height-normal) !important;"
-    );
-    const marker = item.createSpan({ text: "›" });
-    marker.setAttribute(
-      "style",
-      "flex: 0 0 1.2em !important; color: var(--text-accent) !important; font-weight: 800 !important;"
-    );
-    const link = item.createEl("a", {
-      text: page.file.name,
-      cls: "internal-link",
-      attr: {
-        "data-href": page.file.path,
-        href: page.file.path
-      }
-    });
-    link.setAttribute(
-      "style",
-      "font-size: inherit !important; line-height: inherit !important;"
-    );
-  }
-}
-```
+## Active Directory
+- [OSCP - Access - AD]({{< relref "posts/OSCP - Access - AD.md" >}})

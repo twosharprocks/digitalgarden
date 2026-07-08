@@ -6,7 +6,7 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="const groupOrder = [&#34;General&#34;, &#34;Windows&#34;, &#34;Linux&#34;, &#34;Active Directory&#34;, &#34;Other&#34;];function hasTag(page, tag) {return dv.array(page.tags).map(t =&gt; String(t).replace(/^#/, &#34;&#34;).toLowerCase()).includes(tag);}function oscpSystem(page) {const name = page.file.name;const parts = name.replace(/^OSCP\s*-\s*/i, &#34;&#34;).split(&#34; - &#34;).map(part =&gt; part.replace(/\s*\(DNF\)\s*$/i, &#34;&#34;).trim());if (/cheat sheet/i.test(name)) return &#34;General&#34;;if (parts.some(part =&gt; /^(ad|active directory)$/i.test(part))) return &#34;Active Directory&#34;;if (parts.some(part =&gt; /^windows$/i.test(part))) return &#34;Windows&#34;;if (parts.some(part =&gt; /^linux$/i.test(part))) return &#34;Linux&#34;;if (parts.some(part =&gt; /^(core|exam prep)$/i.test(part))) return &#34;General&#34;;return &#34;Other&#34;;}const pages = dv.pages(&#34;&#34;).where(page =&gt;page.file.path !== dv.current().file.path &amp;&amp;(page.file.name.startsWith(&#34;OSCP - &#34;) || hasTag(page, &#34;oscp&#34;))).sort(page =&gt; page.file.name, &#34;asc&#34;);for (const groupName of groupOrder) {const groupPages = pages.where(page =&gt; oscpSystem(page) === groupName);if (!groupPages.length) continue;dv.header(2, groupName);const list = dv.container.createDiv();list.setAttribute(&#34;style&#34;,&#34;padding-inline-start: 1.4em !important; margin-block: var(--p-spacing) !important;&#34;);for (const page of groupPages) {const item = list.createDiv();item.setAttribute(&#34;style&#34;,&#34;display: flex !important; align-items: baseline !important; margin: 0 !important; padding: 0 !important; font-size: var(--font-text-size) !important; line-height: var(--line-height-normal) !important;&#34;);const marker = item.createSpan({ text: &#34;›&#34; });marker.setAttribute(&#34;style&#34;,&#34;flex: 0 0 1.2em !important; color: var(--text-accent) !important; font-weight: 800 !important;&#34;);const link = item.createEl(&#34;a&#34;, {text: page.file.name,cls: &#34;internal-link&#34;,attr: {&#34;data-href&#34;: page.file.path,href: page.file.path}});link.setAttribute(&#34;style&#34;,&#34;font-size: inherit !important; line-height: inherit !important;&#34;);}} " />
+<meta name="description" content="General OSCP - Cheat Sheet - Active Directory OSCP - Cheat Sheet - Core OSCP - Cheat Sheet - Linux OSCP - Cheat Sheet - Windows OSCP - Exam Prep Windows OSCP - Algernon - Windows OSCP - Authby - Windows OSCP - Hutch - Windows OSCP - Internal - Windows OSCP - Jacko - Windows OSCP - Kevin - Windows (DNF) OSCP - Squid - Windows OSCP - Windows Linux OSCP - Astronaut - Linux OSCP - Blackgate - Linux OSCP - Boolean - Linux OSCP - Clue - Linux OSCP - Cockpit - Linux OSCP - Codo - Linux OSCP - Crane - Linux OSCP - Exfiltrated - Linux OSCP - Extplorer - Linux OSCP - Fired - Linux OSCP - Flu - Linux OSCP - Hub - Linux OSCP - Image - Linux OSCP - LaVita - Linux OSCP - Law - Linux OSCP - Levram - Linux OSCP - Ochima - Linux OSCP - PC - Linux OSCP - Pelican - Linux OSCP - Plum - Linux OSCP - ProvingGrounds - Linux OSCP - PyLoader - Linux OSCP - RubyDome - Linux OSCP - Scrutiny - Linux OSCP - Twiggy - Linux Active Directory OSCP - Access - AD " />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
@@ -78,7 +78,7 @@
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="OSCP">
-<meta property="og:description" content="const groupOrder = [&#34;General&#34;, &#34;Windows&#34;, &#34;Linux&#34;, &#34;Active Directory&#34;, &#34;Other&#34;];function hasTag(page, tag) {return dv.array(page.tags).map(t =&gt; String(t).replace(/^#/, &#34;&#34;).toLowerCase()).includes(tag);}function oscpSystem(page) {const name = page.file.name;const parts = name.replace(/^OSCP\s*-\s*/i, &#34;&#34;).split(&#34; - &#34;).map(part =&gt; part.replace(/\s*\(DNF\)\s*$/i, &#34;&#34;).trim());if (/cheat sheet/i.test(name)) return &#34;General&#34;;if (parts.some(part =&gt; /^(ad|active directory)$/i.test(part))) return &#34;Active Directory&#34;;if (parts.some(part =&gt; /^windows$/i.test(part))) return &#34;Windows&#34;;if (parts.some(part =&gt; /^linux$/i.test(part))) return &#34;Linux&#34;;if (parts.some(part =&gt; /^(core|exam prep)$/i.test(part))) return &#34;General&#34;;return &#34;Other&#34;;}const pages = dv.pages(&#34;&#34;).where(page =&gt;page.file.path !== dv.current().file.path &amp;&amp;(page.file.name.startsWith(&#34;OSCP - &#34;) || hasTag(page, &#34;oscp&#34;))).sort(page =&gt; page.file.name, &#34;asc&#34;);for (const groupName of groupOrder) {const groupPages = pages.where(page =&gt; oscpSystem(page) === groupName);if (!groupPages.length) continue;dv.header(2, groupName);const list = dv.container.createDiv();list.setAttribute(&#34;style&#34;,&#34;padding-inline-start: 1.4em !important; margin-block: var(--p-spacing) !important;&#34;);for (const page of groupPages) {const item = list.createDiv();item.setAttribute(&#34;style&#34;,&#34;display: flex !important; align-items: baseline !important; margin: 0 !important; padding: 0 !important; font-size: var(--font-text-size) !important; line-height: var(--line-height-normal) !important;&#34;);const marker = item.createSpan({ text: &#34;›&#34; });marker.setAttribute(&#34;style&#34;,&#34;flex: 0 0 1.2em !important; color: var(--text-accent) !important; font-weight: 800 !important;&#34;);const link = item.createEl(&#34;a&#34;, {text: page.file.name,cls: &#34;internal-link&#34;,attr: {&#34;data-href&#34;: page.file.path,href: page.file.path}});link.setAttribute(&#34;style&#34;,&#34;font-size: inherit !important; line-height: inherit !important;&#34;);}} " />
+<meta property="og:description" content="General OSCP - Cheat Sheet - Active Directory OSCP - Cheat Sheet - Core OSCP - Cheat Sheet - Linux OSCP - Cheat Sheet - Windows OSCP - Exam Prep Windows OSCP - Algernon - Windows OSCP - Authby - Windows OSCP - Hutch - Windows OSCP - Internal - Windows OSCP - Jacko - Windows OSCP - Kevin - Windows (DNF) OSCP - Squid - Windows OSCP - Windows Linux OSCP - Astronaut - Linux OSCP - Blackgate - Linux OSCP - Boolean - Linux OSCP - Clue - Linux OSCP - Cockpit - Linux OSCP - Codo - Linux OSCP - Crane - Linux OSCP - Exfiltrated - Linux OSCP - Extplorer - Linux OSCP - Fired - Linux OSCP - Flu - Linux OSCP - Hub - Linux OSCP - Image - Linux OSCP - LaVita - Linux OSCP - Law - Linux OSCP - Levram - Linux OSCP - Ochima - Linux OSCP - PC - Linux OSCP - Pelican - Linux OSCP - Plum - Linux OSCP - ProvingGrounds - Linux OSCP - PyLoader - Linux OSCP - RubyDome - Linux OSCP - Scrutiny - Linux OSCP - Twiggy - Linux Active Directory OSCP - Access - AD " />
 <meta property="og:url" content="/posts/oscp/" />
 <meta property="og:site_name" content="Digital Garden" />
 
@@ -168,72 +168,58 @@
   
 
   <div class="post-content"><div>
-        <pre tabindex="0"><code class="language-dataview" data-lang="dataview">const groupOrder = [&#34;General&#34;, &#34;Windows&#34;, &#34;Linux&#34;, &#34;Active Directory&#34;, &#34;Other&#34;];
+        <h2 id="general">General<a href="#general" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><a href="/posts/oscp---cheat-sheet---active-directory/">OSCP - Cheat Sheet - Active Directory</a></li>
+<li><a href="/posts/oscp---cheat-sheet---core/">OSCP - Cheat Sheet - Core</a></li>
+<li><a href="/posts/oscp---cheat-sheet---linux/">OSCP - Cheat Sheet - Linux</a></li>
+<li><a href="/posts/oscp---cheat-sheet---windows/">OSCP - Cheat Sheet - Windows</a></li>
+<li><a href="/posts/oscp---exam-prep/">OSCP - Exam Prep</a></li>
+</ul>
+<h2 id="windows">Windows<a href="#windows" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><a href="/posts/oscp---algernon---windows/">OSCP - Algernon - Windows</a></li>
+<li><a href="/posts/oscp---authby---windows/">OSCP - Authby - Windows</a></li>
+<li><a href="/posts/oscp---hutch---windows/">OSCP - Hutch - Windows</a></li>
+<li><a href="/posts/oscp---internal---windows/">OSCP - Internal - Windows</a></li>
+<li><a href="/posts/oscp---jacko---windows/">OSCP - Jacko - Windows</a></li>
+<li><a href="/posts/oscp---kevin---windows-dnf/">OSCP - Kevin - Windows (DNF)</a></li>
+<li><a href="/posts/oscp---squid---windows/">OSCP - Squid - Windows</a></li>
+<li><a href="/posts/oscp---windows/">OSCP - Windows</a></li>
+</ul>
+<h2 id="linux">Linux<a href="#linux" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><a href="/posts/oscp---astronaut---linux/">OSCP - Astronaut - Linux</a></li>
+<li><a href="/posts/oscp---blackgate---linux/">OSCP - Blackgate - Linux</a></li>
+<li><a href="/posts/oscp---boolean---linux/">OSCP - Boolean - Linux</a></li>
+<li><a href="/posts/oscp---clue---linux/">OSCP - Clue - Linux</a></li>
+<li><a href="/posts/oscp---cockpit---linux/">OSCP - Cockpit - Linux</a></li>
+<li><a href="/posts/oscp---codo---linux/">OSCP - Codo - Linux</a></li>
+<li><a href="/posts/oscp---crane---linux/">OSCP - Crane - Linux</a></li>
+<li><a href="/posts/oscp---exfiltrated---linux/">OSCP - Exfiltrated - Linux</a></li>
+<li><a href="/posts/oscp---extplorer---linux/">OSCP - Extplorer - Linux</a></li>
+<li><a href="/posts/oscp---fired---linux/">OSCP - Fired - Linux</a></li>
+<li><a href="/posts/oscp---flu---linux/">OSCP - Flu - Linux</a></li>
+<li><a href="/posts/oscp---hub---linux/">OSCP - Hub - Linux</a></li>
+<li><a href="/posts/oscp---image---linux/">OSCP - Image - Linux</a></li>
+<li><a href="/posts/oscp---lavita---linux/">OSCP - LaVita - Linux</a></li>
+<li><a href="/posts/oscp---law---linux/">OSCP - Law - Linux</a></li>
+<li><a href="/posts/oscp---levram---linux/">OSCP - Levram - Linux</a></li>
+<li><a href="/posts/oscp---ochima---linux/">OSCP - Ochima - Linux</a></li>
+<li><a href="/posts/oscp---pc---linux/">OSCP - PC - Linux</a></li>
+<li><a href="/posts/oscp---pelican---linux/">OSCP - Pelican - Linux</a></li>
+<li><a href="/posts/oscp---plum---linux/">OSCP - Plum - Linux</a></li>
+<li><a href="/posts/oscp---provinggrounds---linux/">OSCP - ProvingGrounds - Linux</a></li>
+<li><a href="/posts/oscp---pyloader---linux/">OSCP - PyLoader - Linux</a></li>
+<li><a href="/posts/oscp---rubydome---linux/">OSCP - RubyDome - Linux</a></li>
+<li><a href="/posts/oscp---scrutiny---linux/">OSCP - Scrutiny - Linux</a></li>
+<li><a href="/posts/oscp---twiggy---linux/">OSCP - Twiggy - Linux</a></li>
+</ul>
+<h2 id="active-directory">Active Directory<a href="#active-directory" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><a href="/posts/oscp---access---ad/">OSCP - Access - AD</a></li>
+</ul>
 
-function hasTag(page, tag) {
-  return dv.array(page.tags).map(t =&gt; String(t).replace(/^#/, &#34;&#34;).toLowerCase()).includes(tag);
-}
-
-function oscpSystem(page) {
-  const name = page.file.name;
-  const parts = name
-    .replace(/^OSCP\s*-\s*/i, &#34;&#34;)
-    .split(&#34; - &#34;)
-    .map(part =&gt; part.replace(/\s*\(DNF\)\s*$/i, &#34;&#34;).trim());
-
-  if (/cheat sheet/i.test(name)) return &#34;General&#34;;
-  if (parts.some(part =&gt; /^(ad|active directory)$/i.test(part))) return &#34;Active Directory&#34;;
-  if (parts.some(part =&gt; /^windows$/i.test(part))) return &#34;Windows&#34;;
-  if (parts.some(part =&gt; /^linux$/i.test(part))) return &#34;Linux&#34;;
-  if (parts.some(part =&gt; /^(core|exam prep)$/i.test(part))) return &#34;General&#34;;
-  return &#34;Other&#34;;
-}
-
-const pages = dv.pages(&#34;&#34;)
-  .where(page =&gt;
-    page.file.path !== dv.current().file.path &amp;&amp;
-    (page.file.name.startsWith(&#34;OSCP - &#34;) || hasTag(page, &#34;oscp&#34;))
-  )
-  .sort(page =&gt; page.file.name, &#34;asc&#34;);
-
-for (const groupName of groupOrder) {
-  const groupPages = pages.where(page =&gt; oscpSystem(page) === groupName);
-  if (!groupPages.length) continue;
-
-  dv.header(2, groupName);
-
-  const list = dv.container.createDiv();
-  list.setAttribute(
-    &#34;style&#34;,
-    &#34;padding-inline-start: 1.4em !important; margin-block: var(--p-spacing) !important;&#34;
-  );
-
-  for (const page of groupPages) {
-    const item = list.createDiv();
-    item.setAttribute(
-      &#34;style&#34;,
-      &#34;display: flex !important; align-items: baseline !important; margin: 0 !important; padding: 0 !important; font-size: var(--font-text-size) !important; line-height: var(--line-height-normal) !important;&#34;
-    );
-    const marker = item.createSpan({ text: &#34;›&#34; });
-    marker.setAttribute(
-      &#34;style&#34;,
-      &#34;flex: 0 0 1.2em !important; color: var(--text-accent) !important; font-weight: 800 !important;&#34;
-    );
-    const link = item.createEl(&#34;a&#34;, {
-      text: page.file.name,
-      cls: &#34;internal-link&#34;,
-      attr: {
-        &#34;data-href&#34;: page.file.path,
-        href: page.file.path
-      }
-    });
-    link.setAttribute(
-      &#34;style&#34;,
-      &#34;font-size: inherit !important; line-height: inherit !important;&#34;
-    );
-  }
-}
-</code></pre>
       </div></div>
 
   
