@@ -18,7 +18,6 @@ Related:
 Writing, essays, articles, book projects, older website posts, and notes about making ideas easier to return to.
 
 # Books
-
 - *[Becoming Martian](https://www.amazon.com.au/gp/product/B07492C61L/)*
 - *[Cosmic Nomad](https://www.amazon.com.au/gp/product/B08FZRTYDW)*
 - Book - Cave Diving
@@ -29,7 +28,6 @@ Writing, essays, articles, book projects, older website posts, and notes about m
 - Book - Apocalypse
 - Book - Information Theory
 # [Articles]({{< relref "posts/Articles.md" >}})
-
 - [Article - Corra-Lynn]({{< relref "posts/Article - Corra-Lynn.md" >}})
 - [Article - Iddlebiddy Cave - Soggy Wombats - DRAFT]({{< relref "posts/Article - Iddlebiddy Cave - Soggy Wombats.md" >}})
 - [Article - Exploring Japan’s Hidden Rivers]({{< relref "posts/Article - Exploring Japan’s Hidden Rivers.md" >}})
