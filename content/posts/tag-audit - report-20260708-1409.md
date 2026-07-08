@@ -83,7 +83,7 @@ These are the strongest candidates to remove, merge, or replace with links/prope
 - `#fruit` ? 2 - Unpublished/Daily & Weekly/Weekly - 2025-10-05.md
 - `#gear` ? 2 - Unpublished/Notes/Mini PC.md
 - `#halloumi` ? 1 - Published/Meal - Hash Brown, Halloumi & Chorizo Hash.md
-- `#hash` ? 1 - Published/Meal - Hash Brown, Halloumi & Chorizo Hash.md
+- `#hash` ? 1 - Published/[Meal - Hash Brown, Halloumi & Chorizo Hash]({{< relref "posts/Meal - Hash Brown, Halloumi & Chorizo Hash.md" >}})
 - `#hash-brown` ? 1 - Published/Meal - Hash Brown Feta Bites.md
 - `#important-linux-directories-and-their-structure` ? 1 - Published/Cheat Sheet - Linux.md
 - `#informationtheory` ? 2 - Unpublished/Daily & Weekly/2026-04-16.md
