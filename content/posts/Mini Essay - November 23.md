@@ -9,7 +9,6 @@ tags:
   - antarctica
   - bucket-list
   - expeditions
-  - mars-one
   - mini-essay
   - personal
   - writing

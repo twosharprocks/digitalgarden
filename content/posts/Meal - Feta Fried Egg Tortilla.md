@@ -8,8 +8,6 @@ status: seed
 draft: false
 tags:
   - meal
-  - egg
-  - feta
   - wrap
   - quick
   - breakfast

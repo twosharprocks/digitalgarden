@@ -7,7 +7,6 @@ draft: false
 tags:
   - trips
   - diving
-  - completed
 Template: "[[Template - Trip]]"
 Destination:
 Region:

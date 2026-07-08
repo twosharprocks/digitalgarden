@@ -10,7 +10,6 @@ tags:
   - meal
   - beef
   - rice
-  - mexican
   - high-protein
   - meal-prep
   - easy

@@ -9,9 +9,7 @@ draft: false
 tags:
   - meal
   - chicken
-  - tortellini
   - pasta
-  - creamy
   - one-pan
   - easy
 Related: 

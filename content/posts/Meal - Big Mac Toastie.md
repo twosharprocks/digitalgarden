@@ -9,8 +9,6 @@ draft: false
 tags:
   - meal
   - beef
-  - sandwich
-  - toastie
   - quick
   - indulgent
 Related: 

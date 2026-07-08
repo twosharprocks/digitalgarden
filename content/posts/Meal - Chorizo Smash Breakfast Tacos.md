@@ -12,7 +12,6 @@ tags:
   - chorizo
   - tacos
   - high-protein
-  - stovetop
 Related: 
   - "[[Meals]]"
 meal_type: breakfast

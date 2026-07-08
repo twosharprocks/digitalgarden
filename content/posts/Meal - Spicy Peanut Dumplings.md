@@ -8,8 +8,6 @@ status: seed
 draft: false
 tags:
   - meal
-  - dumplings
-  - peanut
   - spicy
   - quick
   - oven

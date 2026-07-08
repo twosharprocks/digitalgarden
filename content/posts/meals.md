@@ -5,8 +5,6 @@ updated: 2026-06-30
 status: seed
 draft: false
 tags:
-  - dashboard
-  - dataview
 Related:
   - "[[Personal]]"
 ---

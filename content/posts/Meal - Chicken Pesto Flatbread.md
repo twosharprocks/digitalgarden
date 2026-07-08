@@ -9,7 +9,6 @@ draft: false
 tags:
   - meal
   - chicken
-  - flatbread
   - quick
 Related: 
   - "[[Meals]]"

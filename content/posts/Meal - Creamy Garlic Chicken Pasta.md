@@ -10,7 +10,6 @@ tags:
   - meal
   - chicken
   - pasta
-  - creamy
   - high-protein
 Related: 
   - "[[Meals]]"

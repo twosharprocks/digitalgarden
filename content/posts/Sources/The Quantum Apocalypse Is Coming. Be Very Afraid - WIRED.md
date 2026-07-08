@@ -10,7 +10,6 @@ tags:
   - seed
   - cyber-security
   - personal
-  - book-quantum-mechanics
 relevant:
   - "[[Quantum Computing]]"
 original: https://www.wired.com/story/q-day-apocalypse-quantum-computers-encryption/

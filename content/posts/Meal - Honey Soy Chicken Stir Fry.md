@@ -9,7 +9,6 @@ draft: false
 tags:
   - meal
   - chicken
-  - stir-fry
   - quick
 Related: 
   - "[[Meals]]"

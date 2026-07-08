@@ -9,8 +9,6 @@ draft: false
 tags:
   - meal
   - snack
-  - croissant
-  - cheese
   - quick
   - indulgent
 Related: 

@@ -5,7 +5,6 @@ updated: 2026-07-02
 status: seed
 draft: false
 tags:
-  - science
   - ideas
 Related:
   - "[[Personal]]"

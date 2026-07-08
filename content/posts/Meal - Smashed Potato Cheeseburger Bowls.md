@@ -9,8 +9,6 @@ draft: false
 tags:
   - meal
   - beef
-  - potatoes
-  - burger
   - bowl
   - high-protein
 Related: 

@@ -9,8 +9,6 @@ draft: false
 tags:
   - meal
   - snack
-  - bread
-  - cheese
   - oven
   - indulgent
 Related: 

@@ -8,11 +8,8 @@ status: seed
 draft: false
 tags:
   - meal
-  - noodles
-  - pork
   - spicy
   - quick
-  - stovetop
 Related: 
   - "[[Meals]]"
 meal_type: dinner

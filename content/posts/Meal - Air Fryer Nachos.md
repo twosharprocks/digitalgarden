@@ -9,7 +9,6 @@ draft: false
 tags:
   - meal
   - snack
-  - nachos
   - air-fryer
   - quick
   - to-try

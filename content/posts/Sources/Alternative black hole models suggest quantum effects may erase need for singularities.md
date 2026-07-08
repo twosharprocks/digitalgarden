@@ -8,7 +8,6 @@ tags:
   - unread
   - source
   - seed
-  - book-quantum-mechanics
   - physics
 relevant:
   - "[[Cosmology]]"

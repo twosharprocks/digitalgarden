@@ -10,9 +10,7 @@ tags:
   - meal
   - chicken
   - gnocchi
-  - soup
   - high-protein
-  - one-pot
 Related: 
   - "[[Meals]]"
 meal_type: dinner

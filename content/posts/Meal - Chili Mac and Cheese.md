@@ -10,8 +10,6 @@ tags:
   - meal
   - beef
   - pasta
-  - chili
-  - one-pot
   - meal-prep
 Related: 
   - "[[Meals]]"

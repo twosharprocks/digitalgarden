@@ -10,7 +10,6 @@ tags:
   - meal
   - chicken
   - rice
-  - fried-rice
   - high-protein
   - meal-prep
   - oven

@@ -7,7 +7,6 @@ draft: false
 tags:
   - mini-essay
   - writing
-  - mars-one
 Related: 
   - "[[Mini Essays]]"
   - "[[Writing]]"

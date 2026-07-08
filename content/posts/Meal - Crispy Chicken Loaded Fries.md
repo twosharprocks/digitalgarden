@@ -9,7 +9,6 @@ draft: false
 tags:
   - meal
   - chicken
-  - fries
   - indulgent
 Related: 
   - "[[Meals]]"

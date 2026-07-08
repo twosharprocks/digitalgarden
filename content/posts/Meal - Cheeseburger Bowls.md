@@ -10,7 +10,6 @@ tags:
   - meal
   - beef
   - bowl
-  - burger
   - high-protein
   - meal-prep
   - to-try

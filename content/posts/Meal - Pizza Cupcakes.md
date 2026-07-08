@@ -9,8 +9,6 @@ draft: false
 tags:
   - meal
   - snack
-  - pizza
-  - appetizer
   - quick
   - oven
   - indulgent

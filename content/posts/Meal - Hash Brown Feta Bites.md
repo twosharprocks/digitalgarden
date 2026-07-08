@@ -9,10 +9,8 @@ draft: false
 tags:
   - meal
   - snack
-  - feta
   - quick
   - oven
-  - vegetarian
 Related:
   - "[[Meals]]"
 meal_type: snack

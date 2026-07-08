@@ -9,7 +9,6 @@ draft: false
 tags:
   - meal
   - wrap
-  - bacon
 Related:
   - "[[Meals]]"
 ---

@@ -9,7 +9,6 @@ draft: false
 tags:
   - meal
   - gnocchi
-  - bacon
   - high-protein
   - one-pan
   - meal-prep

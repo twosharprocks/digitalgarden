@@ -8,9 +8,6 @@ status: seed
 draft: false
 tags:
   - meal
-  - dessert
-  - no-bake
-  - chocolate
   - snack
 Related: 
   - "[[Meals]]"

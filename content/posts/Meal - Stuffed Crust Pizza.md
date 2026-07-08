@@ -8,9 +8,6 @@ status: seed
 draft: false
 tags:
   - meal
-  - pizza
-  - tortillas
-  - low-carb
   - oven
 Related: 
   - "[[Meals]]"

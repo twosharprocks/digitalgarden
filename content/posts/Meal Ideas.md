@@ -5,7 +5,6 @@ updated: 2026-06-30
 status: seed
 draft: false
 tags:
-  - meal-ideas
 Related:
   - "[[Meals]]"
 ---

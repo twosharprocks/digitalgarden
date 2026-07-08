@@ -6,7 +6,6 @@ status: complete
 draft: false
 tags:
   - trips
-  - completed
 Template: "[[Template - Trip]]"
 Destination:
 Region:

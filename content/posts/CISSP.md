@@ -12,15 +12,16 @@ Related:
   - "[[Cyber - Training & Certifications]]"
 ---
 [ISC2 - Certified Information Systems Security Professional](https://www.isc2.org/Certifications/CISSP)
-- **Domains** (with personal notes)
- 1. [CISSP - 1 - Security & Risk Management]({{< relref "posts/CISSP - 1 - Security & Risk Management.md" >}})
- 2. [CISSP - 2 - Asset Security]({{< relref "posts/CISSP - 2 - Asset Security.md" >}})
- 3. [CISSP - 3 - Security Architecture & Engineering]({{< relref "posts/CISSP - 3 - Security Architecture & Engineering.md" >}})
- 4. [CISSP - 4 - Communication & Network Security]({{< relref "posts/CISSP - 4 - Communication & Network Security.md" >}})
- 5. [CISSP - 5 - Identity & Access Management (IAM)]({{< relref "posts/CISSP - 5 - Identity & Access Management (IAM).md" >}})
- 6. [CISSP - 6 - Security Assessment & Testing]({{< relref "posts/CISSP - 6 - Security Assessment & Testing.md" >}})
- 7. [CISSP - 7 - Security Operations]({{< relref "posts/CISSP - 7 - Security Operations.md" >}})
- 8. [CISSP - 8 - Software Development Security]({{< relref "posts/CISSP - 8 - Software Development Security.md" >}})
+
+**Domains**
+- [CISSP - 1 - Security & Risk Management]({{< relref "posts/CISSP - 1 - Security & Risk Management.md" >}})
+- [CISSP - 2 - Asset Security]({{< relref "posts/CISSP - 2 - Asset Security.md" >}})
+- [CISSP - 3 - Security Architecture & Engineering]({{< relref "posts/CISSP - 3 - Security Architecture & Engineering.md" >}})
+- [CISSP - 4 - Communication & Network Security]({{< relref "posts/CISSP - 4 - Communication & Network Security.md" >}})
+- [CISSP - 5 - Identity & Access Management (IAM)]({{< relref "posts/CISSP - 5 - Identity & Access Management (IAM).md" >}})
+- [CISSP - 6 - Security Assessment & Testing]({{< relref "posts/CISSP - 6 - Security Assessment & Testing.md" >}})
+- [CISSP - 7 - Security Operations]({{< relref "posts/CISSP - 7 - Security Operations.md" >}})
+- [CISSP - 8 - Software Development Security]({{< relref "posts/CISSP - 8 - Software Development Security.md" >}})
 
  **Requirements**:
 - Pass the CISSP exam.
@@ -32,10 +33,10 @@ Related:
 - [CISSP 7th Edition - Self-paced Training](https://isc2.obrizum.io/org/cissp)
 - [Youtube - CISSP Exam Cram 2025 - Pete Zerger](https://youtube.com/playlist?list=PL7XJSuT7Dq_XPK_qmYMqfiBjbtHJRWigD&si=HhCZRq1pua0ZZcpE)
 	- Study - Pete Zerger CISSP Exam
-		- Study - Pete Zerger CISSP 2024 Addendum
+	- Study - Pete Zerger CISSP 2024 Addendum
 	- [Youtube - 100 Most Important Topics](https://www.youtube.com/watch?v=tdtbZc2w8JM)
 	- cissplastmile.pdf
-- [3x Mock Exams](https://study.pocketprep.com/mock-exam-intro
+- [3x Mock Exams](https://study.pocketprep.com/mock-exam-intro) 
 
 **Exam - Test Questions & Prep**
 - [Official Practice tests](https://www.amazon.com.au/Certified-Information-Security-Professional-Official-ebook/dp/B0D6J8PYZK/) $50 (Kindle)

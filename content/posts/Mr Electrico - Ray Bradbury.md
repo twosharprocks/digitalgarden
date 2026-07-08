@@ -5,7 +5,6 @@ updated: 2026-06-28
 status: reference
 draft: false
 tags:
-  - quotes
   - source
 Related:
   - "[[Writing - Quotes]]"
