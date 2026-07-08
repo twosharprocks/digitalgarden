@@ -10,7 +10,7 @@ Related:
   - "[[Writing]]"
   - "[[Personal Website]]"
 ---
-These are links to old posts from my previous websites that I thought I'd lost, and have then attempted to save using the [wayback machine](https://web.archive.org/).
+These are links to old posts from my previous websites that I thought I'd lost, and then attempted to save using the [wayback machine](https://web.archive.org/). I'm still working to clean up their formatting, but expect a lot of them to still be a bit of a mess.
 
 - [Patreon - Drawing February 20 2018]({{< relref "posts/Patreon - Drawing February 20 2018.md" >}})
 - [Patreon - Journal 2017-02-25]({{< relref "posts/Patreon - Journal 2017-02-25.md" >}})

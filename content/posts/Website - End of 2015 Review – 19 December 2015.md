@@ -14,7 +14,7 @@ author:
 published: 2023-03-26
 description:
 ---
-Hi everyone!  
+Hi everyone!
 Many of you may not know, but for the last 5 years I’ve been keeping handwritten diaries & journals of my adventures – ranging from purely mundane “To Do” lists, right through to incredibly personal thoughts on life, the universe and everything. And over the last two weeks I’ve been reviewing all 7 books worth of journals I’ve kept since 2011: taking notes, photographing interesting entries and transcribing them ready to be [published on Patreon](https://www.patreon.com/joshrichards).
 
 It’s been pretty incredible reviewing just how much things have changed, realising things you thought you remembered one way actually happened in completely the reverse order, seeing foreshadowing of the end of relationships (even if I didn’t realise it when I was writing), and collating notes I’d written but forgotten that will certainly help in the years ahead. I’m just about to start reviewing my most recent journal (covering April 2016 to now) and while it’s obviously recent history I’m intrigued to see what ideas and gems of wisdom I came up with during the year but forgot in the rushed chaos this year brought.
@@ -26,23 +26,23 @@ As the journals are incredibly personal (and I have to spend a fair bit of time 
 
 Enjoy the journal entry, and if you want more the consider [becoming a Patron](https://www.patreon.com/bePatron?u=3040417)!
 
-All the best in 2017,  
+All the best in 2017,
 Josh
 
 P.S. I love that my scribbling of “Carl Sagan riding a velociraptor while Rick Sanchez rides a honey badger” that [became my left shoulder tattoo](http://joshrichards.space/wp-content/uploads/2016/12/sagan-raptor-rick-badger.jpg) has bled through the last page
 
 —————————–
 
-> *Day 11, 092*  
-> *19 December 2015*  
-> *  
-> *I wonder where I’ll be in a year. What I’ll be doing, who I’ll be with, and where I’m heading next. I wonder what I’ll have remembered of 2016 best. I wonder what I’ve thrown my energy into most, what has made the biggest difference in my life and in the world.*  
-> *My best bet is to ask the same questions of myself for 2015 – what have been my favourite moments, what have been the highlights & lowlights. Who has influenced me the most, what have I learnt from each of them, and where have I grown most & least.*  
-> *  
+> *Day 11, 092*
+> *19 December 2015*
+> *
+> *I wonder where I’ll be in a year. What I’ll be doing, who I’ll be with, and where I’m heading next. I wonder what I’ll have remembered of 2016 best. I wonder what I’ve thrown my energy into most, what has made the biggest difference in my life and in the world.*
+> *My best bet is to ask the same questions of myself for 2015 – what have been my favourite moments, what have been the highlights & lowlights. Who has influenced me the most, what have I learnt from each of them, and where have I grown most & least.*
+> *
 > *Probably best to put all this in the context of* [*Altucher’s 4 steps: Health, Emotional, Mental & Spiritual*](http://www.jamesaltucher.com/2011/02/how-to-be-the-luckiest-guy-on-the-planet-in-4-easy-steps/)*. Some area have excelled, some have been refined, some feel like they’ve slipped & some haven’t moved. There’s a lot of shit in the air at the moment, so the end of the year clarity you’d expect is being obstructed by the chaff being thrown out into the air. Meditation is a clear and easy way to stop your mind racing – to free yourself from the mind’s bullshit, it’s frantic list making & stress. It’s useful for working through all you’ve set your heart on, but it’s also often excessive.*
-> 
-> *Remember the* [*Cult of Done*](http://joshrichards.space/wp-content/uploads/2016/12/cult-of-done.png) *– ideas that take more than a week to work on are unlikely to lead where you need to go. Form good habits and exploit opportunities, but let go of what feels like work. Some things you put off because you want to “get it right” or you think something is more important – either do it, or let it go. Don’t allow frivolous shit get in the way of your real priorities – focus on what is most important. Ask yourself if what you’re doing is more important than what you want to do. If you keep being pulled by something minor, ask why it feels so important. Is it just to “complete” something? What are you doing it for.*  
-> *  
-> *Right now you’re thinking about closing things out – finishing Demon Haunted World, finishing the pages in this book, using all the pages in your A4 book. To do those 3 things in the next 10 days will require concerted reading and writing – NOT typing. Not listening to more podcasts. The biggest one is writing* [*Cosmic Nomad*](http://joshrichards.space/speaking/comedy/)*, which will require writing on the A4 book AND typing to Evernote. But you should be breaking this up with reading Demon Haunted World. Keep your other distractions to a minimum, develop those good mental habits; and the fitness, emotional & spiritual elements will follow.*  
-> *  
+>
+> *Remember the* [*Cult of Done*](http://joshrichards.space/wp-content/uploads/2016/12/cult-of-done.png) *– ideas that take more than a week to work on are unlikely to lead where you need to go. Form good habits and exploit opportunities, but let go of what feels like work. Some things you put off because you want to “get it right” or you think something is more important – either do it, or let it go. Don’t allow frivolous shit get in the way of your real priorities – focus on what is most important. Ask yourself if what you’re doing is more important than what you want to do. If you keep being pulled by something minor, ask why it feels so important. Is it just to “complete” something What are you doing it for.*
+> *
+> *Right now you’re thinking about closing things out – finishing Demon Haunted World, finishing the pages in this book, using all the pages in your A4 book. To do those 3 things in the next 10 days will require concerted reading and writing – NOT typing. Not listening to more podcasts. The biggest one is writing* [*Cosmic Nomad*](http://joshrichards.space/speaking/comedy/)*, which will require writing on the A4 book AND typing to Evernote. But you should be breaking this up with reading Demon Haunted World. Keep your other distractions to a minimum, develop those good mental habits; and the fitness, emotional & spiritual elements will follow.*
+> *
 > *Forget the emails – they can ALL wait till January 4th. Read the book & write the show. GO!*

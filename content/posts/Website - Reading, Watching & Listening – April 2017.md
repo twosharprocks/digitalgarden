@@ -18,7 +18,7 @@ Hey Patreons!
 
 Well if I thought last month was chaotic, this month has been next level. I’ll explain all in the monthly newsletter I’ll send out in the next few hours, but this has truly been one of the busier and more bizarre months I’ve had in quite awhile. April is sure to be a productive one in terms of writing though, as I’ll be housesitting for the next 3 weeks and can finally focus on editing that damn book!
 
-**What** **I’m** **Reading**  
+**What** **I’m** **Reading**
 With all the travel I’ve done this month, it’s also been an excellent opportunity to catch up on a **lot** of reading. There’s often a push on my part to write instead of “wasting time reading”, but the reality is regular reading each day and night puts me in the mental state to get on with my other work and makes writing *so much easier*.
 
 So with that in mind I’ve finished off **Learned Optimism** by Martin Seligman, churned through months of unread articles saved on Instapaper, and moved into more of my “Mars One Preparation” reading list, including:
@@ -27,7 +27,7 @@ So with that in mind I’ve finished off **Learned Optimism** by Martin Seligman
 
 **Religion of the Samurai: A Study of Zen Philosophy and Discipline in China and Japan** by Kaiten Nukariya – In a similar vein to *The Obstacle is The Way*, I’ve had an interest in Zen philosophy for decades and I’m revisting it through this book at the moment. While there are entire pages that ramble off listing all the different students of a particular Zen teacher, the stories of the teachers are always the most instructive in breaking through the illusions we wrap reality with. I’m only halfway through it at the moment, but I’m certain that it’s helping strip back some of the more hedonistic habits I’ve developed just as reading *The Obstacle Is The Way* has.
 
-**What I’m watching  
+**What I’m watching
 **Besides re-watching *Hidden Figures* and *Interstellar*, I haven’t really had time to watch many movies or TV this month. That’s sure to change during April though – I’ll be doing plenty of intensive writing/editing while I’m housesitting, and I usually break up writing sessions with an episode of something funny and/or stupid.
 
 Last time I housesat like this was late 2014 and it was episode after episode of Bob’s Burgers – I haven’t watched an episode of Bob’s Burgers since, and just discovered there’s **FOUR** **ENTIRE SEASONS** I haven’t seen! So suspect I’ll be catching up on that along with finally seeing season 2 of **The Expanse.**
@@ -42,7 +42,7 @@ Eventually I managed to find a copy shared online and watched it… and lost my 
 
 Also, this is my desktop background for the foreseeable future…
 
-**What I’m listening to**  
+**What I’m listening to**
 I’ve listened to a bit of ***Spreading Rumours*** by Grouplove, as well as ***Read Music/Speak Spanish*** by Desaparecidos this month, however I briefly mentioned last month that I’d been venturing back into some old albums a little while running – I’ve heartily embraced that now.
 
 Interestingly almost all of the albums I’ve been re-listening to (or thought about re-listening to) come from roughly the same 2009-2010 time period, which pretty much covers the entire time I was preparing for and then serving with the British Commandos. It’s crossed my mind more than once that I’m re-visiting these albums because I’m in a similar emotional space now: excited about the coming months and the potential with Mars One, as well as questioning much of who I am and what is really important to me.

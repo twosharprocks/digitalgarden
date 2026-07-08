@@ -61,7 +61,7 @@ In June 2009, I’d just been accepted into the Royal Marines but had to wait un
 
 which helped with about half the properties, but it took a solid week of research to find pubs/bars for each property and what tubes needed to use to get there -
 
-[buses were obviously out of the question](https://web.archive.org/web/20140921211809/http://www.themightyginge.com/blog/2009/08/10/menstrual-mondays-unbridled-terror/ "Oooooh, the first Menstrual Monday! We are going back a bit today..."). Thankfully for people doing it now there’s a [dedicated website](https://web.archive.org/web/20140921211809/http://monopolypubcrawl.org.uk/) that’s updated regularly as things change, but in 2009 this was not the case.
+[buses were obviously out of the question](https://web.archive.org/web/20140921211809/http://www.themightyginge.com/blog/2009/08/10/menstrual-mondays-unbridled-terror/ "Oooooh, the first Menstrual Monday! We are going back a bit today..."). Thankfully for people doing it now there’s a [dedicated website](https://web.archive.org/web/20140921211809/http://monopolypubcrawl.org.uk/) that’s updated regularly as things change, but in 2009 this was not the case.
 
 There’s no point even trying to describe the crawl itself – as I said, I’ve run two of them now (one in June 2009 with an old uni friend and one of her other mates; the other at Christmas the same year with two of my mates from the marines and the manliest woman I know) – and there’s so much drunken stupidity going on that sharing it all here would spoilt it. I do recommend introducing several rules to spice things up and help you survive though;
 

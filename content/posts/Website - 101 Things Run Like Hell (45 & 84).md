@@ -15,7 +15,7 @@ description:
 ---
 [![](https://web.archive.org/web/20160530020004im_/http://www.themightyginge.com/blog/wp-content/uploads/2012/03/101Things4.jpg "101Things")](https://web.archive.org/web/20160530020004/http://www.themightyginge.com/blog/wp-content/uploads/2012/03/101Things4.jpg)
 
-You’re job’s bullshit? Girlfriend turned into a passive-aggressive sociopath? Accidentally walked into a Jimeoin gig? Sometimes in life you just have to cut your losses and run. So considering how many times I’ve spontaneously disappeared in the face of danger/emotional-commitment, and it’s Deebs’ birthday on Saturday – it’s only fitting we have a 101 Things about running away from your problems.
+You’re job’s bullshit Girlfriend turned into a passive-aggressive sociopath Accidentally walked into a Jimeoin gig Sometimes in life you just have to cut your losses and run. So considering how many times I’ve spontaneously disappeared in the face of danger/emotional-commitment, and it’s Deebs’ birthday on Saturday – it’s only fitting we have a 101 Things about running away from your problems.
 
 45 – Do a Runner From a Fancy Restaurant
 
@@ -23,7 +23,7 @@ In June 2009, I’d spent a month in Exeter applying for the marines doing all o
 
 [![](https://web.archive.org/web/20160530020004im_/http://www.themightyginge.com/blog/wp-content/uploads/2012/03/canada-day-225x300.jpg "canada day")](https://web.archive.org/web/20160530020004/http://www.themightyginge.com/blog/wp-content/uploads/2012/03/canada-day.jpg)
 
-Mum? Dad? We may need to talk about what happened in Canada…
+Mum Dad We may need to talk about what happened in Canada…
 
 And I mention Canada because on returning to the UK I met a funny little Canadian girl – “Deebs” who I mentioned above – in the hostel I was living out of. After we got chatting about Canada (and I dropped out the bit about the handbag or the homeless guitar player I demanded play Electric Six songs at 3am) I ended up showing her around the museums of London for a week, becoming what can only be described as the dodgiest tour guide since Ivan Milat started showing backpackers around the Belanglo State Forest. But because Deebs was a lactose-intolerant vegetarian and I’ll only eat food if an animal had to give its life for it, finding somewhere to eat lunch was a constant nightmare
 
@@ -33,7 +33,7 @@ Lactose Intolerance – the worst kind of intolerance
 
 But on the day before she headed off on a tour of Ireland we *finally* managed to find somewhere that would serve tofu for her **and** a barely cooked dead cow for me **– [The Ultimate Burger](https://web.archive.org/web/20160530020004/http://www.ultimateburger.co.uk/)** in Tottenham. We were both so overjoyed to have found somewhere we could both eat, we practically *bounced* into the restaurant. And while it may have been a “Burger Joint”, the pictures on the website show you – this place was *fancy*. It was also completely empty, and I’m sure the staff were just glad to have a few friendly customers in.
 
-So after we’d ordered our respective tofu/pound of seared cow burgers, we both tucked in heartily. These were some [tasty burgers](https://web.archive.org/web/20160530020004/http://youtu.be/ecc0nbg9m-8). So tasty in fact we swung back to the counter after we’d finished to thank the staff for such awesome food. Now *I* maintain Deebs thanked the staff, then started heading to the door – she thinks I thanked them, and then led us out the door. All I know is once we were outside and around the corner, I turned to her and said “That was awesome, but I guess we’re never going back” Deebs: “Why not?” Me: “Because we just walked out without paying”. And she *freaked out*.
+So after we’d ordered our respective tofu/pound of seared cow burgers, we both tucked in heartily. These were some [tasty burgers](https://web.archive.org/web/20160530020004/http://youtu.be/ecc0nbg9m-8). So tasty in fact we swung back to the counter after we’d finished to thank the staff for such awesome food. Now *I* maintain Deebs thanked the staff, then started heading to the door – she thinks I thanked them, and then led us out the door. All I know is once we were outside and around the corner, I turned to her and said “That was awesome, but I guess we’re never going back” Deebs: “Why not?” Me: “Because we just walked out without paying”. And she *freaked out*.
 
 [![](https://web.archive.org/web/20160530020004im_/http://www.themightyginge.com/blog/wp-content/uploads/2012/03/freakout-225x300.jpg "freakout")](https://web.archive.org/web/20160530020004/http://www.themightyginge.com/blog/wp-content/uploads/2012/03/freakout.jpg)
 

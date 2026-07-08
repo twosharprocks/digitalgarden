@@ -23,17 +23,17 @@ In all of the different arms of the military I worked with, I never ONCE had to 
 
 Before heading out into the field I’d empty all the tubes, collect the storm matches together into one tube and bin the rest. More often than not you couldn’t have a fire at all, because if you were doing sneaky squirrel business it would give away where you were. But if you DID get to light a fire to heat up the amorphous slob in the meal packs, then you wanted a storm match that would light the first time and stay lit – regardless of the weather.
 
-**10** storm matches in **one tube**? What is this SORCERY!?
+**10** storm matches in **one tube** What is this SORCERY!?
 
 I *can* and *have* started a fire without matches while camping though. But just like several of my former relationships, it was a hell of a lot harder than it needed to be.
 
 In [August 2010 I flew back to the UK for two reasons](https://web.archive.org/web/20160302222856/http://www.themightyginge.com/blog/2010/08/06/news-edinburgh-v2-0/). First, to help behind the scenes while
 
-[John Robertson](https://web.archive.org/web/20160302222856/http://www.thejohnrobertson.com/) ran his début solo show at the Edinburgh Fringe. The second was to keep a promise to spend the week of my birthday camping & hiking in the Lake District with my girlfriend at the time –
+[John Robertson](https://web.archive.org/web/20160302222856/http://www.thejohnrobertson.com/) ran his début solo show at the Edinburgh Fringe. The second was to keep a promise to spend the week of my birthday camping & hiking in the Lake District with my girlfriend at the time –
 
 [the primary teacher I’ve mentioned before](https://web.archive.org/web/20160302222856/http://www.themightyginge.com/blog/2014/03/07/learn-that-instrument/), who for this article we’ll refer to as… that primary teacher.
 
-Those initial 10 days in Edinburgh were great – helping out on a fringe show and learning from John was exactly the kind of comedy apprenticeship I needed after the disillusionment that followed leaving the Royal Marines. It also helped that John’s girlfriend (now his wife) Jo and I get along like a house on fire – I’d be one of her bridesmaids at their wedding 3 years later. Mix in a mountain of laughs from the masterful wit of [Cameron Davis](https://web.archive.org/web/20160302222856/http://www.cameronthecomediandavis.com/), and meeting that [ginger sign-post I’d eventually name my ukulele after](https://web.archive.org/web/20160302222856/http://www.themightyginge.com/blog/2014/03/07/learn-that-instrument/) – it felt like this was closer to what I should be doing, and Edinburgh closer to where I should be doing it.
+Those initial 10 days in Edinburgh were great – helping out on a fringe show and learning from John was exactly the kind of comedy apprenticeship I needed after the disillusionment that followed leaving the Royal Marines. It also helped that John’s girlfriend (now his wife) Jo and I get along like a house on fire – I’d be one of her bridesmaids at their wedding 3 years later. Mix in a mountain of laughs from the masterful wit of [Cameron Davis](https://web.archive.org/web/20160302222856/http://www.cameronthecomediandavis.com/), and meeting that [ginger sign-post I’d eventually name my ukulele after](https://web.archive.org/web/20160302222856/http://www.themightyginge.com/blog/2014/03/07/learn-that-instrument/) – it felt like this was closer to what I should be doing, and Edinburgh closer to where I should be doing it.
 
 [![Some nights were better than others...](https://web.archive.org/web/20160302222856im_/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/59252_510226292328_1657594_n-225x300.jpg)](https://web.archive.org/web/20160302222856/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/59252_510226292328_1657594_n.jpg)
 
@@ -47,7 +47,7 @@ But here I was. The bus ride had been thankfully uneventful, the sun was shining
 
 And then predictably, it all turned to shit.
 
-It’d been sunny the afternoon we arrived, but then it poured down with rain for the next 6 days. The tent she’d brought didn’t have all it’s parts, so it flooded every night – soaked sleeping bags for everyone. The only showers were in a sheep barn (“What do you need a shower for? We’re **camping**!”) and you had to trudge through a muddy field to get to them. The list went on, but what it really boiled down to was:
+It’d been sunny the afternoon we arrived, but then it poured down with rain for the next 6 days. The tent she’d brought didn’t have all it’s parts, so it flooded every night – soaked sleeping bags for everyone. The only showers were in a sheep barn (“What do you need a shower for We’re **camping**!”) and you had to trudge through a muddy field to get to them. The list went on, but what it really boiled down to was:
 
 1. I’d just left 12 months of walking up & down hills while being screamed at in the Royal Marine Commandos – all I wanted to do was **sit & admire the scenery**. 2. She’d just finished 12 months of in classrooms being screamed at by kids during her teaching practical – all she wanted to do was **yell at someone else while** **climbing the scenery**.
 
@@ -65,7 +65,7 @@ I dug out my multi-tool and shaved some magnesium onto a pile of grass I’d fou
 
 They say the definition of insanity is doing the same thing over & over again, and expecting the same result – after 15 minutes of scraping, sparking and despairing I was well and truly mad. The frustrating part was seeing the magnesium dust/shavings catch for a split-second, then disappear without igniting anything else. Over and over again. The matches were right next to me, but now it had become a matter of pride – I wasn’t going to let some stupid wet cardboard beat me. I was pissed off, hungry, and fighting with a piece of soggy cardboard – great combination.
 
-I decided to try one last time with the mother of all magnesium shaving piles, and ground off half the block onto the cardboard & grass pile. I’d **make** this thing light, and I **would** create a flame without matches. The moment of truth came just as she started walking back from the shower: I hovered over the shaving pile, ready to strike the flint… and FLASH! The shaving pile scorched white-hot for a second, and suddenly there was a flame from the cardboard! It flicked over the edge where the pile had been, and glowed red underneath.
+I decided to try one last time with the mother of all magnesium shaving piles, and ground off half the block onto the cardboard & grass pile. I’d **make** this thing light, and I **would** create a flame without matches. The moment of truth came just as she started walking back from the shower: I hovered over the shaving pile, ready to strike the flint… and FLASH! The shaving pile scorched white-hot for a second, and suddenly there was a flame from the cardboard! It flicked over the edge where the pile had been, and glowed red underneath.
 
 [![](https://web.archive.org/web/20160302222856im_/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/fire-embers-by-kristian-birchall-300x164.jpg)](https://web.archive.org/web/20160302222856/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/fire-embers-by-kristian-birchall.jpg)
 

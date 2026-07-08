@@ -17,7 +17,7 @@ description:
 
 Last Thursday was the closest conjunction between Venus and Jupiter in 24 years, so this week’s “101 things” are all about astronomy and the wonders of the night sky.
 
-Now people have been looking up to the heavens for millennia to answer life’s biggest question – if I show her Cassiopeia, will she show me her boobs? And as humanity’s continued existence undoubtedly proves, the ladies love a man that knows how to read the stars. But before I give you all the cheat-sheet on impressing women with your astronomy knowledge, we need to start with the basics…
+Now people have been looking up to the heavens for millennia to answer life’s biggest question – if I show her Cassiopeia, will she show me her boobs And as humanity’s continued existence undoubtedly proves, the ladies love a man that knows how to read the stars. But before I give you all the cheat-sheet on impressing women with your astronomy knowledge, we need to start with the basics…
 
 49 – See both solar and lunar eclipses
 

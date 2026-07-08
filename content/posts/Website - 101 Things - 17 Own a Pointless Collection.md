@@ -13,8 +13,6 @@ author:
 published: 2014-03-14
 description:
 ---
-By Josh, on March 14th, 2014
-
 ![bill ted](https://web.archive.org/web/20150211034422im_/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/1922014_773954986025540_1294521206_n.jpg)
 
 The only commandments you’ll ever really need
@@ -39,7 +37,7 @@ Carlin turned the corner with [“A Place For My Stuff”](https://web.archive.o
 
 I’ve collected a **lot** of pointless crap over the years. As a kid I collected hundreds of stamps (dozens of exactly the same ones), model aircraft, Star Wars cards out of promotional chip packets, everything. And all of it just sat on my shelf as decoration – I never played or really looked at any of them, it was just **stuff** that I had. Like every 9-year-old boy I was obsessed with dinosaurs, so my parents subscribed me to a monthly dinosaur magazine. After awhile I stopped reading the magazine, but we didn’t cancel the subscription – I would just get them and store them in the special binder I had. Same went for my subscription to New Scientist during uni: I just kept collecting them and piling them up in the Physics common room.
 
-Things got really weird in Year 7 when I started chopping up erasers into little cubes and storing them in a tissue box under my bed. I have **no** idea how this started, but for some reason I’d always had this plan to melt down all the bits into one oversized ***mega eraser***. But looking back all I really did was steal hundreds of erasers and chop them up into useless crap for about 12 months, which I’m sure is the sort of thing you’d find on those check-lists used to profile serial killers. *“Broke all of his toys? Nope. Played okay with the other kids? Yup. Chopped up erasers into tiny pieces with a plan to melt them all down into one impractically huge eraser?… BINGO!”*
+Things got really weird in Year 7 when I started chopping up erasers into little cubes and storing them in a tissue box under my bed. I have **no** idea how this started, but for some reason I’d always had this plan to melt down all the bits into one oversized ***mega eraser***. But looking back all I really did was steal hundreds of erasers and chop them up into useless crap for about 12 months, which I’m sure is the sort of thing you’d find on those check-lists used to profile serial killers. *“Broke all of his toys Nope. Played okay with the other kids Yup. Chopped up erasers into tiny pieces with a plan to melt them all down into one impractically huge eraser?… BINGO!”*
 
 [![In the end, all the police needed to do was follow the trail of eraser shavings...](https://web.archive.org/web/20150211034422im_/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/83-Hannibal-Lecter-face-mask-300x194.jpg)](https://web.archive.org/web/20150211034422/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/83-Hannibal-Lecter-face-mask.jpg)
 
@@ -49,9 +47,9 @@ I know it’s really easy to blame your parents for things – George Carlin cer
 
 [![pool-noodles](https://web.archive.org/web/20150211034422im_/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/pool-noodles-300x231.jpg)](https://web.archive.org/web/20150211034422/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/pool-noodles.jpg)
 
-POOL NOODLES? WHY?! YOU LIVE ON A **FARM!**
+POOL NOODLES WHY?! YOU LIVE ON A **FARM!**
 
-For the last few years Dad and I have quietly clashed over the ***stuff***: his desire to keep things *just incase*, and my desire to sell/burn/give away anything that sat in one place long enough to collect a particle of dust. In Dad’s defence the place is much better than it was, but I’m not sure if that’s because he got wind of a stand-up set I started doing in early 2012 called “Shit From My Dad’s Shed”, where I played an increasingly rage-filled game show host giving away *actual items from my Dad’s shed* to random people in the crowd. Either that or I just got rid of a *lot* more stuff than I realised… but there’s certainly a lot less shit in the shed.
+For the last few years Dad and I have quietly clashed over the ***stuff***: his desire to keep things *just incase*, and my desire to sell/burn/give away anything that sat in one place long enough to collect a particle of dust. In Dad’s defence the place is much better than it was, but I’m not sure if that’s because he got wind of a stand-up set I started doing in early 2012 called “Shit From My Dad’s Shed”, where I played an increasingly rage-filled game show host giving away *actual items from my Dad’s shed* to random people in the crowd. Either that or I just got rid of a *lot* more stuff than I realised… but there’s certainly a lot less shit in the shed.
 
 [![Burning ALL of the things](https://web.archive.org/web/20150211034422im_/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/burning-254x300.jpg)](https://web.archive.org/web/20150211034422/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/burning.jpg)
 
@@ -71,7 +69,7 @@ Because even Bender can appreciate the cloud
 
 There’s certain things you keep for the memories they carry too – I keep framed copies of my solo show posters on my wall, and they’re a reminder of the memories I have of writing & performing them. But at the same time they’re *just posters*. They’re only a stand-in for those memories. And memories are *stuff* too: unless you learn something from them, or you can use them to pass on lessons to others, why are you still carrying them around?
 
-I’ve still got a lot to clear, but there’s progress every day. It’s not just giving away the very limited amount of physical *stuff* I have left after all the years of purging – it’s also cleaning out some of the ugly old memories that go with it. I’ve still got a black box of old memorabilia from my time with the military, and it’s a fear I’ll lose those memories that’s stopping me from getting rid of it. But if those memories don’t serve me any more, who are they serving? And what am I holding myself back from by hanging onto this old stuff? I’d be lucky to be allowed to take a shoebox of memorabilia with me to Mars, so why am I carrying around a black tub filled purely with memories from a previous life?
+I’ve still got a lot to clear, but there’s progress every day. It’s not just giving away the very limited amount of physical *stuff* I have left after all the years of purging – it’s also cleaning out some of the ugly old memories that go with it. I’ve still got a black box of old memorabilia from my time with the military, and it’s a fear I’ll lose those memories that’s stopping me from getting rid of it. But if those memories don’t serve me any more, who are they serving And what am I holding myself back from by hanging onto this old stuff I’d be lucky to be allowed to take a shoebox of memorabilia with me to Mars, so why am I carrying around a black tub filled purely with memories from a previous life?
 
 [![The arrow is rather apt in retrospect](https://web.archive.org/web/20150211034422im_/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/IMAG0033.jpg)](https://web.archive.org/web/20150211034422/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/IMAG0033.jpg)
 

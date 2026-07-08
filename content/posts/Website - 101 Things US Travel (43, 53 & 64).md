@@ -55,7 +55,7 @@ And then we flew into New York. Now you’ve seen Skippy the Drug-Smuggling Kang
 
 [![](https://web.archive.org/web/20160628163008im_/http://www.themightyginge.com/blog/wp-content/uploads/2012/05/george-bush-225x300.jpg "george bush")](https://web.archive.org/web/20160628163008/http://www.themightyginge.com/blog/wp-content/uploads/2012/05/george-bush.jpg)
 
-What’s the capital of Thailand, George? BAM! BANGKOK!
+What’s the capital of Thailand, George BAM! BANGKOK!
 
 Flying into Chicago, we knew it’d be cold. We weren’t expecting to be locked in the hostel for most of the 3 days. The one day we did manage to get out, the aquarium we were trying to visit wasn’t having its “Free-Day” as we’d been told, so we sat around and watched Comedy Central. In retrospect though, I’m glad we had a chance to relax and do nothing for a few days after 2 weeks of on the go travelling.
 

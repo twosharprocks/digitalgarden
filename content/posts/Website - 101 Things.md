@@ -161,8 +161,8 @@ It also encourages him to sound like a tool by writing in the third person.
 [98 – Go on a demonstration](https://web.archive.org/web/20160628164529/http://www.abc.net.au/news/2005-08-10/vsu-protests-held-across-the-country/2078206)
 
 **To be Completed (31 of 101)**
-1 – Write a Best Seller (_At this point I feel like Brian Griffin… before he died_)  
-5 – Make a Discovery  
+1 – Write a Best Seller (_At this point I feel like Brian Griffin… before he died_)
+5 – Make a Discovery
 12 – Get a Piece of Art into an Exhibition _(I love “Interpretive Art” aka “A 5 year old finger-painted it”)
 13 – Meet Someone with Your Own Name _(A NASCAR driver or a Welsh actor…)_
 
@@ -206,7 +206,7 @@ It also encourages him to sound like a tool by writing in the third person.
 
 85 – Visit the World’s Tallest Buildings
 
-88 â€“ Get Married UnusuallyÂ (_I used to want a Green Card marriage until I realised Trump will be the next US president)_Â
+88 â€“ Get Married UnusuallyÂ (_I used to want a Green Card marriage until I realised Trump will be the next US president)_Â
 
 90 – Join the 16-mile-high club (_Pretty sure I can tick this off if I intend to help colonise Mars…_)
 

@@ -49,7 +49,7 @@ The boat was about 100m away from the nearest reef, with a mix of sandy bottom a
 
 Taken minutes before it all got WAY too real
 
-Reaching the reef, I noticed all the smaller fish were hiding under rocks and staying out of sight right before I noticed the 4 foot white-tip reef shark hanging around. But it’s not usually **that** quiet just for a reef shark – something else bigger and more bitey was hanging around in the shadows too. But ADHD kid didn’t think about that very much, noooooo. Because there was **gigantic** painted crayfish sitting in the first hole I looked into.
+Reaching the reef, I noticed all the smaller fish were hiding under rocks and staying out of sight right before I noticed the 4 foot white-tip reef shark hanging around. But it’s not usually **that** quiet just for a reef shark – something else bigger and more bitey was hanging around in the shadows too. But ADHD kid didn’t think about that very much, noooooo. Because there was **gigantic** painted crayfish sitting in the first hole I looked into.
 
 [![Pretty much to scale](https://web.archive.org/web/20150806203141im_/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/1280px-Giant_lobster_sculpture-300x225.jpg)](https://web.archive.org/web/20150806203141/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/1280px-Giant_lobster_sculpture.jpg)
 
@@ -69,7 +69,7 @@ So now I’m about 80m away from the boat in open water: $1500 camera that’s h
 
 The crayfish goes for a third option, deciding my chest can replace the reef as its new home after all, wrapping its gargantuan legs around my back and starting to dig in. I managed to grab its carapace and hold it’s head down against my chest – away from my face – while trying to peddle across the surface and get out of the water before big-bitey-things come to see what all the noise is about.
 
-Once the crayfish was under control and had securely wrapped itself around me, I checked that my camera was still clipped off to… my **weight belt? WHY AM I STILL WEARING MY WEIGHT BELT WHEN I’M BEING DROWNED BY THE KRAKEN?** I glanced down into the water to see that not only was is it now too deep to retrieve my weight belt if I drop it, but as an added bonus an 8-9 foot size bronze whaler (see: “big-bitey-shark-thing”) has decided to follow along as a spectator to my war against crustaceans & drowning.
+Once the crayfish was under control and had securely wrapped itself around me, I checked that my camera was still clipped off to… my **weight belt WHY AM I STILL WEARING MY WEIGHT BELT WHEN I’M BEING DROWNED BY THE KRAKEN?** I glanced down into the water to see that not only was is it now too deep to retrieve my weight belt if I drop it, but as an added bonus an 8-9 foot size bronze whaler (see: “big-bitey-shark-thing”) has decided to follow along as a spectator to my war against crustaceans & drowning.
 
 Suddenly a huge shadow loomed up behind me just as something else brushed the back of my leg. I squealed, then realised I’d swum into the shadow of the boat and kicked the anchor line… I spat out my snorkel, yelled at Dad to take the camera, threw my fins & mask/snorkel into the boat, and scrambled up the ladder with mega-crayfish still latched onto my chest. Then we spent the next 5 minutes trying to get it to detach from my chest, because mega-crayfish had dug into the neoprene of my wetsuit with its legs.
 
@@ -77,4 +77,4 @@ Suddenly a huge shadow loomed up behind me just as something else brushed the ba
 
 Just before cooking the corpse of my defeated foe
 
-And the worst part? I don’t even **eat** crayfish.
+And the worst part I don’t even **eat** crayfish.

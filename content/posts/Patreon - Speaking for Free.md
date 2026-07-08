@@ -9,9 +9,6 @@ tags:
   - patreon
 Related: "[[Writing]]"
 ---
-from email 2018-02-27
-
----
 Over the last two years I've had a couple of fairly nasty experiences with friends and colleagues asking me to speak at their STEM event.
 
 My general rule for the last few year has been to charge everyone booking me to speak, even if it's just a small amount, because as soon as money is involved everyone (schools in particular) take things much more seriously. When they're paying for your time, people make sure the presentation room is ready for you, the projector is working, and the kids are prepped. Teachers get their shit together when something is coming out of their budget, and because they're so focused on doing their jobs they also tend to dismiss anything they're getting for free. Zero dollars, zero investment.

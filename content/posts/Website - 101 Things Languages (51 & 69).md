@@ -19,7 +19,7 @@ This week’s 101 things entry is all about going global and learning other lang
 
 51 – Learn Another Language
 
-When I was 9, my Dad took a job working for the [Jordanian royal family](https://web.archive.org/web/20141101045651/http://en.wikipedia.org/wiki/Hashemite) as a “water-sport instructor”; basically teaching royals/foreign dignitaries/celebrities to scuba dive and water-ski. Not bad work if you can get it, and Dad loved it. But it also meant moving the whole family to Aqaba, and as you’ve probably guessed [living in a place that’s all sun and beach isn’t exactly my idea of heaven](https://web.archive.org/web/20141101045651/http://www.themightyginge.com/blog/2009/03/12/an-open-letter-to-the-city-of-perth/) – I hated it. I kicked off at the Arabic local school I was sent to – one lunch, after I’d locked myself in the classroom to escape the kids who then started yelling stuff at me through a window, I snapped and threw my schoolbag through a window, showering the kids outside with glass. I’d mix vinegar and baking soda in a 2L soft drink bottle, jam a cork in the top & a wait for the pressure to build up, then aim it at the kids in the street. I was the ginger Edward Scissorhands…
+When I was 9, my Dad took a job working for the [Jordanian royal family](https://web.archive.org/web/20141101045651/http://en.wikipedia.org/wiki/Hashemite) as a “water-sport instructor”; basically teaching royals/foreign dignitaries/celebrities to scuba dive and water-ski. Not bad work if you can get it, and Dad loved it. But it also meant moving the whole family to Aqaba, and as you’ve probably guessed [living in a place that’s all sun and beach isn’t exactly my idea of heaven](https://web.archive.org/web/20141101045651/http://www.themightyginge.com/blog/2009/03/12/an-open-letter-to-the-city-of-perth/) – I hated it. I kicked off at the Arabic local school I was sent to – one lunch, after I’d locked myself in the classroom to escape the kids who then started yelling stuff at me through a window, I snapped and threw my schoolbag through a window, showering the kids outside with glass. I’d mix vinegar and baking soda in a 2L soft drink bottle, jam a cork in the top & a wait for the pressure to build up, then aim it at the kids in the street. I was the ginger Edward Scissorhands…
 
 [![scissorhands 300x265 101 Things: Languages (#51 & #69)](https://web.archive.org/web/20141101045651im_/http://www.themightyginge.com/blog/wp-content/uploads/2012/03/scissorhands-300x265.jpg "scissorhands")](https://web.archive.org/web/20141101045651/http://www.themightyginge.com/blog/wp-content/uploads/2012/03/scissorhands.jpg)
 
@@ -31,7 +31,7 @@ Don’t expect me to start-up a conversation with you though – I basically rem
 
 But it did make for a pretty funny way of [escaping a terrifying job a few years later](https://web.archive.org/web/20141101045651/http://www.themightyginge.com/blog/2009/08/19/college-of-awesome-how-to-quit-your-shitty-job/), and for a rather amusing conversation with my old troop commander when he looked over my personnel file when I was leaving the army:
 
-Troop commander: “Oh! You speak Arabic? We could put you on a military language course and have you deployed to Iraq before the end of the month if you’re interested!”
+Troop commander: “Oh! You speak Arabic We could put you on a military language course and have you deployed to Iraq before the end of the month if you’re interested!”
 
 Me: “No sir…just… no…”
 

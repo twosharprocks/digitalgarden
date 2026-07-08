@@ -20,7 +20,7 @@ It’s been an absolutely mental few weeks here with overseas trips, job intervi
 
 In among all the madness though I’m still managing to do a little reading and watch the odd show or film too!
 
-**What** **I’m** **Reading**  
+**What** **I’m** **Reading**
 Truth be told my Mars One study has slowed a lot since last month: I’m still reading Learned Optimism by Martin Seligman when I can, although most of my reading this month has been either articles or rereading some of my favourite pieces of writing:
 
 Andy Warner’s article [**“500 Days to Mars”**](https://thenib.com/getting-to-mars) is easily the best introduction to the psychological challenges of a human Mars mission that I’ve ever read. Besides sharing some unique stories about humans in space that are really discussed outside space psychology circles, it strikes a perfect tone acknowledging what sending people to Mars for years may do to them psychologically, without flalling around in hysterics like most popular science articles about the psychology of space exploration do.
@@ -31,14 +31,14 @@ Simon Driver makes a compelling case in [**“Why it’s time for Australia to l
 
 And if Dr Stuhlinger’s letter isn’t enough to remind me what I’m doing is worthwhile, then rereading [**a letter/death threat sent to me several years ago by a friend**](https://www.facebook.com/joshrichardsspacepirate/photos/a.414763908460.190774.97584028460/10154314794873461/?type=3&theater) is certainly enough motivation to stay focused on making humanity a dual-planet species with Mars One!
 
-**What I’m watching**  
+**What I’m watching**
 As you’d expect, there is NOT a lot of TV going on at the moment. That said I did manage to watch the season 2 premiere of **The Expanse** a few days ago, but was distracted and will probably need to go back to watch it again at some point. Arrival has just come out on the Google Play store too, so naturally I’ve already rewatched it.
 
 **Passengers** – I was stupidly excited about this before it came out – it’s set in set in space and held an absolutely incredible premise. When it came out I heard a few mixed things, and between everything else going on I didn’t end up seeing it till a few days ago. There was a lot that felt off, however generally the first 2/3’s of the film wasn’t too bad… the final act had me rolling my eyes in frustration, and I literally stopped watching what was going on in the final few minutes. Amazing potential screwed over by lame plot devices and an overly-soppy love story.
 
 **Hudson Hawk** – Now THIS is one of my favourite movies of all time. Hudson Hawk rightly flopped at the cinemas: billed as a Bruce Willis action film released on the back of Die Hard, no one expected an absurdist nonsense comedy about Leonard Da Vinci, alchemy, and everyone in the CIA using candy bars as codenames. It’s 100% not for everyone, but definitely an occassional favourite.
 
-**What I’m listening to**  
+**What I’m listening to**
 With everything going on I’ve still been using voiceless background music while I work – especially the “Atmosphere” app to produce a thunder and rain forest soundscape with the occasional frog that’s fantastic to work to. With my running music though I’ve been venturing out into both new and old territory.
 
 **American Idiot** by Green Day – Taking the title single out of the equation, this entire album is some pretty incredible rock opera. I haven’t listened to it for years, and relistening has brought up a lot of old memories from 10 years ago that blended a really positive sense of excitiement, hope and direction… even if that direction wasn’t a particularly good one. There’s a couple of slower songs that need to be skipped during a run, but for the most part the tempo is perfect and that sense of excitement for the future is ideal for burning yourself out on a treadmill.
