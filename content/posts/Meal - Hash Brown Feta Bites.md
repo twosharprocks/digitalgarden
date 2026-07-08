@@ -1,20 +1,19 @@
 ---
-title: "Meal - Hash Brown Feta Bites"
+title: Meal - Hash Brown Feta Bites
 source: https://www.instagram.com/p/C9EosS0o_Xz/
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-07-08
 Type:
 status: seed
 draft: false
 tags:
   - meal
   - snack
-  - hash-brown
   - feta
   - quick
   - oven
   - vegetarian
-Related: 
+Related:
   - "[[Meals]]"
 meal_type: snack
 cook_method: oven

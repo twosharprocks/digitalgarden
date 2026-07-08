@@ -1,3 +1,7 @@
+---
+created: 2026-07-08
+updated: 2026-07-08
+---
 # Digital Garden tag audit
 
 - Vault scanned: `G:\My Drive\Vaults\Digital-Garden`
@@ -79,20 +83,16 @@ These are the strongest candidates to remove, merge, or replace with links/prope
 - `#fakenews` ? 1 - Published/Website - Choosing a Crew for Mars.md
 - `#fitness` ? 2 - Unpublished/Notes/Physical.md
 - `#flatbread` ? 1 - Published/Meal - Chicken Pesto Flatbread.md
-- `#fries` ? 1 - Published/Meal - Crispy Chicken Loaded Fries.md
-- `#fruit` ? 2 - Unpublished/Daily & Weekly/Weekly - 2025-10-05.md
-- `#gear` ? 2 - Unpublished/Notes/Mini PC.md
-- `#halloumi` ? 1 - Published/Meal - Hash Brown, Halloumi & Chorizo Hash.md
-- `#hash` ? 1 - Published/[Meal - Hash Brown, Halloumi & Chorizo Hash]({{< relref "posts/Meal - Hash Brown, Halloumi & Chorizo Hash.md" >}})
-- `#hash-brown` ? 1 - Published/Meal - Hash Brown Feta Bites.md
-- `#important-linux-directories-and-their-structure` ? 1 - Published/Cheat Sheet - Linux.md
-- `#informationtheory` ? 2 - Unpublished/Daily & Weekly/2026-04-16.md
-- `#japan` ? 1 - Published/Article - Exploring Japan’s Hidden Rivers.md
-- `#journeytomars` ? 1 - Published/Website - Getting to Mars Part 3.md
-- `#low-carb` ? 1 - Published/Meal - Stuffed Crust Pizza.md
-- `#mac-and-cheese` ? 1 - Published/Meal - High Protein Honey BBQ Chicken Mac & Cheese.md
-- `#mars` ? 2 - Unpublished/Sources/Living on Mars are there lessons from the terrible conditions of prisons.md
-- `#meal-ideas` ? 1 - Published/Meal Ideas.md
+- `#fries` ? 1 - Published/[Meal - Crispy Chicken Loaded Fries]({{< relref "posts/Meal - Crispy Chicken Loaded Fries.md" >}})
+- `#fruit` ? 2 - Unpublished/Daily & Weekly/Weekly - 2025-10-05
+- `#important-linux-directories-and-their-structure` ? 1 - Published/Cheat Sheet - Linux
+- `#informationtheory` ? 2 - Unpublished/Daily & Weekly/2026-04-16
+- `#japan` ? 1 - Published/[Article - Exploring Japan’s Hidden Rivers]({{< relref "posts/Article - Exploring Japan’s Hidden Rivers.md" >}})
+- `#journeytomars` ? 1 - Published/[Website - Getting to Mars Part 3]({{< relref "posts/Website - Getting to Mars Part 3.md" >}})
+- `#low-carb` ? 1 - Published/[Meal - Stuffed Crust Pizza]({{< relref "posts/Meal - Stuffed Crust Pizza.md" >}})
+- `#mac-and-cheese` ? 1 - Published/[Meal - High Protein Honey BBQ Chicken Mac & Cheese]({{< relref "posts/Meal - High Protein Honey BBQ Chicken Mac & Cheese.md" >}})
+- `#mars` ? 2 - Unpublished/Sources/Living on Mars are there lessons from the terrible conditions of prisons
+- `#meal-ideas` ? 1 - Published/[Meal Ideas]({{< relref "posts/Meal Ideas.md" >}})
 - `#mental` ? 2 - Unpublished/Notes/2024 - Annual Review.md
 - `#mexican` ? 1 - Published/Meal - High Protein Mexican Bowl.md
 - `#nachos` ? 1 - Published/Meal - Air Fryer Nachos.md
