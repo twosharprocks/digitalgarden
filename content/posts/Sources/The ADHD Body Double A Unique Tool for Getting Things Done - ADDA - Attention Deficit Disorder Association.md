@@ -7,8 +7,9 @@ related: "[[Reading]]"
 tags:
   - unread
   - source
-  - adhd
-  - time-management
+relevant:
+  - "[[ADHD]]"
+  - "[[Time Management]]"
 ---
 Can something as simple as another person’s presence make it easier to stay on task?
 
@@ -126,12 +127,12 @@ Body doubling can be a powerful tool, especially if you struggle with focus and 
 
 If you’re not already convinced to give it a try, here are the possible benefits of body doubling: 
 
--   **Improved focus:** Having a body double helps you stay accountable. This technique creates positive reinforcement by gently nudging you to focus and stay on track. 
--   **Increased motivation:** The presence of someone else can create a sense of accountability and novelty, increasing your motivation to get the ball rolling. 
--   **Reduced procrastination:** By planning and setting aside time to work alongside someone else, you’re more likely to get started when the time comes. This helps you avoid postponing and delaying your tasks. 
--   **Improved time management:** You can dedicate a specific time block in your day to body doubling sessions. This reduces wasted time due to delays and can save time by minimizing distractions. 
--   **Improved mood:** Having someone around you when you work can create a positive atmosphere and reduce stress. Your body double can also serve as a source of support, cheering you on as you reach your session goals. 
--   **Boosted productivity:** When focused and motivated, you’re bound to get more done in less time. 
+- **Improved focus:** Having a body double helps you stay accountable. This technique creates positive reinforcement by gently nudging you to focus and stay on track. 
+- **Increased motivation:** The presence of someone else can create a sense of accountability and novelty, increasing your motivation to get the ball rolling. 
+- **Reduced procrastination:** By planning and setting aside time to work alongside someone else, you’re more likely to get started when the time comes. This helps you avoid postponing and delaying your tasks. 
+- **Improved time management:** You can dedicate a specific time block in your day to body doubling sessions. This reduces wasted time due to delays and can save time by minimizing distractions. 
+- **Improved mood:** Having someone around you when you work can create a positive atmosphere and reduce stress. Your body double can also serve as a source of support, cheering you on as you reach your session goals. 
+- **Boosted productivity:** When focused and motivated, you’re bound to get more done in less time. 
 
 Of course, if you want to reap these benefits and get the best results, it’s essential to find a suitable body double. The right body double won’t distract you or create _too much_ pressure. Instead, their presence should help you feel encouraged, empowered, and ready to tackle your to-do list! 
 

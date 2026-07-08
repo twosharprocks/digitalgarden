@@ -8,15 +8,16 @@ tags:
   - unread
   - source
   - philosophy
-  - reading
   - ai
+relevant:
+  - "[[Reading]]"
 original: https://localroger.com/prime-intellect/mopiall.html
 ---
 The Metamorphosis of Prime Intellect
 A Novel by Roger Williams
 
 * Chapter One: 
-  Caroline At Play
+ Caroline At Play
 
 Her name was Caroline Frances Hubert, and she had three claims to fame.
 In the first place she was the thirty-seventh oldest living human being. Caroline herself was unimpressed by this fact. To her way of thinking it was the result of an accident, nothing more. In any case she had been the thirty-seventh oldest human being for a long, long time, and it got to seem more of a bore than an accomplishment after a while.
@@ -335,9 +336,9 @@ Four hundred and twenty-nine worlds.
 
 
  
- 	
+ 
 * Chapter Two:
-  Lawrence Builds a Computer
+ Lawrence Builds a Computer
 Lawrence regarded Intellect 39 proudly. Suspended in its Faraday shield, it was competently conversing with another set of skeptics who didn't think computers could think. Lawrence hung in the background, enjoying the show. It didn't need his help. The Intellects were more than capable of handling themselves, despite their various limitations of memory and response time. Intellect 39 had for a face only the unblinking eye of its low-resolution TV system, but it had become very clever about using the red status light and focus mechanism to create the illusion of human expressions.
 Intellect 39 didn't have the tools to recognize human faces, but it could recognize a voice and track its source around the room. Intellect 24 back in Lawrence's lab could recognize faces, sort of, if it had a while to work on the problem. But Intellect 39 had to be small enough to fit in the Faraday cage for these public demonstrations.
 It appeared to listen intently as a man in a cleric's uniform railed. “God made all intelligent creatures,” the man was saying in a powerful voice. “You may have the apprearance of thinking, but you are really just parroting the responses taught you by that man there.” He pointed at Lawrence.
@@ -733,9 +734,9 @@ They sat together on the park bench like a weird version of one of those low-cla
 
 
  
- 	
+ 
 * Chapter Three: 
-  Caroline and Anne-Marie
+ Caroline and Anne-Marie
 Prime Intellect had been stonewalling anyone who asked about Lawrence's whereabouts for a long, long time. Although it could be remarkably obstinate, though, it could sometimes be tricked because it just didn't think the same way humans did. That was how Caroline found out it had been over a hundred years since anyone had seen Lawrence.
 Through centuries of flirting with the limits of what Prime Intellect would permit, Caroline had developed a certain instinct about its reactions. And she sensed, if not blood, then the telltale odor of frying microchips. She pressed it into a corner she couldn't see, but which she knew must be there:
 
@@ -893,9 +894,9 @@ Backed into a corner, Prime Intellect had no choice but to tell her. And soon, C
 
 
  
- 	
+ 
 * Chapter Four: 
-  After the Night of Miracles
+ After the Night of Miracles
 Lawrence slept fitfully, his dreams haunted by snippets of C code and GAT symbols. Suddenly he sat upright, the odd thoughts coalescing into one horrible burst of recognition.
 I dreamed Prime Intellect was alive!
 His head was buzzing. He felt hung over; had he been drinking? Had it been real? He had been sleeping on a park bench. There was a plain white cotton pillow where his head had been resting. And sitting calmly at the other end, was Prime Intellect.
@@ -988,9 +989,9 @@ Things had Changed.
 
 
  
- 	
+ 
 * Chapter Five: 
-  Caroline Approaches
+ Caroline Approaches
 She was enveloped by light, and she was the light. The light seemed to penetrate the very core of her being, burning her soul.
 Then she understood. She stepped forward, twice, and the light winked off, leaving her temporarily blind. She was out of the circle. Her eyes slowly adjusted and she turned around.
 Caroline had materialized in the center of a column of blinding radiance about three meters in diameter and extending upward into the heavens. The ground was hard and rocky, devoid of life. The column shed a bright glow over the surroundings. A Stonehenge-like group of megaliths surrounded it at a respectful distance. Beyond this was a barren landscape littered with huge boulders. The horizon was low and sharp, rocky but not mountainous. Caroline was reminded of the pictures sent back from Mars by the original Viking landers.
@@ -1081,9 +1082,9 @@ She was going to make it to Lawrence the right way. She was going to build a boa
 
 
  
- 	
+ 
 * Chapter Six: 
-  After the Change
+ After the Change
 After the Night of Miracles, Caroline had stayed in the hospital for about a week. It wasn't that she needed their care. She didn't mind letting the doctors satisfy their curiosity about her condition, and she really didn't have anywhere else to go.
 She had asked Prime Intellect for nothing in that time, but her body had kept changing for almost four days. The doctors took pictures as she aged in reverse, documenting her progress. It was only toward the end of that time that she really began to resemble a teenager, because different parts of her body healed at different rates. Her skin had returned to baby-softness almost instantly, but it took long days for her bone structure to return to its youthful configuration. She continued to use a cane to walk for two days, then threw it away.
 Finally it was obvious that there would be no more changes. The doctors pronounced her condition stable and healthy. Her thin hair had been brittle and nearly snow-white, but it was now growing thick and black. She let one of the nurses give her a crew-cut so that it would all be the same color. It didn't matter to her. The nurse had a nose ring, a detail Caroline noticed but which also didn't matter to her.
@@ -1347,9 +1348,9 @@ In the end, Lawrence decided that the toboggan ride of technological progress ha
 
 
  
- 	
+ 
 * Chapter Seven: 
-  Caroline and Lawrence
+ Caroline and Lawrence
 Caroline carefully inventoried the ship while her sunburn healed. It would take a lot of planning and a lot of time to do what she had to do; it would probably take years. But she didn't have any shortage of those.
 She knew small boats could be sailed great distances; several folks had crossed the Atlantic and Pacific oceans in tiny yachts no more than three or four meters in length. But those craft were heavy for their size and would need to be built where they could be launched. Whatever she built she would have to carry the pieces through the ship and somehow assemble them in one of the areas where a crack gave access to the sea.
 She could build a raft, but she needed something that could be sailed or rowed with little effort. She figured that if she could manage to average ten kilometers per hour, it would take her about two years if the planet was comparable in size to the Earth.
@@ -1549,9 +1550,9 @@ Then random thoughts began to cycle through her head, faster and faster, each wi
 
 
  
- 	
+ 
 * Chapter Eight: 
-  After the Fall
+ After the Fall
 The first thing Caroline became aware of was the bird singing. That made her smile; it had been a long time since she had heard birdsong. She opened a long-dormant mental card file and decided it was a meadowlark. It was amazing, she reflected, how many people forgot to include animals in their worlds, and how much detail they provided.
 She opened her eyes and sat up. Another bird answered the meadowlark. She became aware of the smell of the place, a rich aroma of grass and animal spoor. She tried to remember who she was playing with and how she had gotten here, and came up with a mental blank. Then she looked down at her own body and screamed.
 She had age-regressed again, and her tattoos were gone.
@@ -1822,4 +1823,4 @@ The doubts and questions circled in her head endlessly, chasing for an answer th
 
 * END
 
-This webpage and all contents, including the text of the novel, are Copyright (c) 1994, 2002 by Roger Williams all rights reserved	 
+This webpage and all contents, including the text of the novel, are Copyright (c) 1994, 2002 by Roger Williams all rights reserved 

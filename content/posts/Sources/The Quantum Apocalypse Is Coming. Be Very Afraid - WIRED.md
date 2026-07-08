@@ -11,7 +11,8 @@ tags:
   - cyber-security
   - personal
   - book-quantum-mechanics
-  - quantum-computing
+relevant:
+  - "[[Quantum Computing]]"
 original: https://www.wired.com/story/q-day-apocalypse-quantum-computers-encryption/
 ---
 One day soon, at a research lab near Santa Barbara or Seattle or a secret facility in the Chinese mountains, it will begin: the sudden unlocking of the world’s secrets. Your secrets.

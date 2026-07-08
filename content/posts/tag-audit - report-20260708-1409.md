@@ -133,7 +133,7 @@ These are worth reviewing. Some may be genuinely useful, but many are probably t
 - `#sort` ? 3 files ? 2 - Unpublished/Notes/Book - Apocalypse.md; 2 - Unpublished/Notes/Book - Calling ET.md; 2 - Unpublished/Notes/Book - Death, Time & Reality.md
 - `#adhd` ? 2 files ? 1 - Published/ADHD.md; 1 - Published/Sources/The ADHD Body Double A Unique Tool for Getting Things Done - ADDA - Attention Deficit Disorder Association.md
 - `#bacon` ? 2 files ? 1 - Published/Meal - Cheesy Bacon Jalapeño Popper Wrap.md; 1 - Published/Meal - Smokey Bacon Gnocchi.md
-- `#book-quantum-mechanics` ? 2 files ? 1 - Published/Sources/Alternative black hole models suggest quantum effects may erase need for singularities.md; 1 - Published/Sources/The Quantum Apocalypse Is Coming. Be Very Afraid - WIRED.md
+- `#book-quantum-mechanics` ? 2 files ? 1 - Published/Sources/[Alternative black hole models suggest quantum effects may erase need for singularities]({{< relref "posts/Sources/Alternative black hole models suggest quantum effects may erase need for singularities.md" >}}).md; 1 - Published/Sources/[The Quantum Apocalypse Is Coming. Be Very Afraid - WIRED]({{< relref "posts/Sources/The Quantum Apocalypse Is Coming. Be Very Afraid - WIRED.md" >}})
 - `#burger` ? 2 files ? 1 - Published/Meal - Cheeseburger Bowls.md; 1 - Published/Meal - Smashed Potato Cheeseburger Bowls.md
 - `#cheese` ? 2 files ? 1 - Published/Meal - Cheese Pull Apart Bread.md; 1 - Published/Meal - Garlic Butter Jalapeño Popper Croissants.md
 - `#comedy` ? 2 files ? 2 - Unpublished/Notes/Art - Ideas.md; 2 - Unpublished/Notes/Comedy.md

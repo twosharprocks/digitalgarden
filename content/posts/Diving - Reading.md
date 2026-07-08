@@ -5,8 +5,9 @@ updated: 2026-06-27
 status: seed
 draft: false
 tags:
-  - reading
   - diving
+relevant:
+  - "[[Reading]]"
 Related: "[[Diving]]"
 ---
 General
@@ -27,7 +28,7 @@ Psychology
 Decompression Theory
 * [Dive Rite - Gradient Factors Explainer](https://www.diverite.com/articles/gradient-factors/)
 * [Eliminating the Helium Penalty](https://shearwater.com/blogs/community/eliminating-helium-penalty?_pos=1&_psq=Helium&_ss=e&_v=1.0) Heliox vs Trimix 
-    * Same total deco time, but less deep stops & more time in shallows
+ * Same total deco time, but less deep stops & more time in shallows
 * [Avoiding Deep Stops](https://gue.com/blog/gradient-factors-in-a-post-deep-stops-world/) - Doolette (GFLow = 83% of GFHigh) [eg. 60/85 or 50/70]
 * [Metabolism-Based Bubble Model](https://alertdiver.eu/en_US/articles/it-s-the-metabolism-stupid-a-new-model-for-bubble-formation?fbclid=IwAR3fzHqnAMG0Gxa0u3hd-K7puzcPoLO-SoRMZKPlqR-I8g4VjiSAGnxvjAE)
 

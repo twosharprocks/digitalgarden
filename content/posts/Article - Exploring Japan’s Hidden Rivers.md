@@ -9,7 +9,8 @@ tags:
   - diving
   - expeditions
   - exploration
-  - japan
+relevant:
+  - "[[Japan]]"
 Related:
   - "[[Diving]]"
   - "[[Articles]]"
@@ -19,7 +20,7 @@ Related:
 ---
 # Exploring Japan’s Hidden Rivers
 
-_An Australian cave diving expedition to the Mine–Akiyoshidai Karst Plateau Geopark_  
+_An Australian cave diving expedition to the Mine–Akiyoshidai Karst Plateau Geopark_ 
 _By Josh Richards & Will Passos_
 
 ![Japan May 2026 Image1](/images/Japan%20May%202026%20-%20Image1.jpg)

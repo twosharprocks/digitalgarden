@@ -9,8 +9,9 @@ tags:
   - source
   - seed
   - book-quantum-mechanics
-  - cosmology
   - physics
+relevant:
+  - "[[Cosmology]]"
 original: https://phys.org/news/2025-05-alternative-black-hole-quantum-effects.amp
 ---
 ![Black holes: Beyond the singularity](https://scx2.b-cdn.net/gfx/news/2025/black-holes-beyond-the.jpg)
