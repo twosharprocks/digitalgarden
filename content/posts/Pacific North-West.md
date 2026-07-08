@@ -15,7 +15,6 @@ Related:
   - "[[Diving]]"
   - "[[North America]]"
 ---
-
 Pacific North-West is listed under [North America]({{< relref "posts/North America.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions

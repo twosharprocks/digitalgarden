@@ -179,7 +179,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---pyloader---linux/">OSCP - PyLoader - Linux</a>
+          <a href="/posts/oscp---clue---linux/">OSCP - Clue - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -196,22 +196,21 @@
 
         <div class="post-content">
           
-            <h1 id="pyloader">PyLoader</h1>
-<p>I&rsquo;m still shocked at how quick and incredibly easy this was - I went from boot to root in &lt;15mins!</p>
-<p>After Nmap showed responses to <code>22</code> and <code>9666</code> I checked <code>9666</code> in Firefox immediately (while the Nmap scan is still running) as I&rsquo;m prone to doing for anything I don&rsquo;t immediately recognise. As soon as I saw a page with <code>pyLoad</code> I just threw &ldquo;pyload exploit&rdquo; into Google, found a bunch of RCE exploits for CVE-2023-0297, and pulled up the entry on Exploit-DB.</p>
+            <h1 id="clue">Clue</h1>
+<p>This was definitely a hard box, but the biggest challenges came from the range of different services AND the box itself not working properly. After a couple of hours bashing my head against the brick wall trying to get initial access, I finally relented and looked at a walkthrough&hellip; only to find that the <code>cassandra</code> exploit I&rsquo;d tried to use to display files on the target hadn&rsquo;t worked because the box needed to be reverted.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---pyloader---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---clue---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---rubydome---linux/">OSCP - RubyDome - Linux</a>
+          <a href="/posts/oscp---cockpit---linux/">OSCP - Cockpit - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -228,22 +227,22 @@
 
         <div class="post-content">
           
-            <h1 id="rubydome">RubyDome</h1>
-<p>Frustrating that a couple of key points in this box were only broken through with the use of the walkthrough. Throwing <code>127.0.0.1</code> into the website to break it was a new one (something to keep in mind for the future) but I&rsquo;d have never worked out without the walkthrough.</p>
-<p>Likewise the exploit initially appeared to be working perfectly but wasn&rsquo;t catching a shell, and it turned out I had to add &ldquo;pdf&rdquo; onto the end of the target web address.</p>
+            <h1 id="cockpit">Cockpit</h1>
+<p>This one was originally listed as &ldquo;Hard&rdquo; in my list, but when I checked during startup it showed as &ldquo;Intermediate&rdquo;. Definitely don&rsquo;t think it should be listed as &ldquo;Intermediate&rdquo; though - this was definitely the trickest boxes I&rsquo;ve done, and I absolutely leaned heavily on the walkthrough to make progress here.</p>
+<p>The biggest challenge ofcourse was the box breaking everytime I tried to run <code>gobuster</code> against it to find directories or files. Turned out there was a hidden <code>login.php</code> file on the port <code>80</code> server, but I couldn&rsquo;t find the damn thing with the first few gobuster scans because the whole box would break and require revert. Worse was finding the <code>blocked.html</code> page which would break the box every time I visited it OR scanned it with <code>gobuster</code>.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---rubydome---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---cockpit---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---scrutiny---linux/">OSCP - Scrutiny - Linux</a>
+          <a href="/posts/oscp---codo---linux/">OSCP - Codo - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -260,22 +259,22 @@
 
         <div class="post-content">
           
-            <h1 id="scrutiny">Scrutiny</h1>
-<p>This whole box felt like a whole lot of enumeration - digging through files to find SSH keys and cleartext passwords. Probably the biggest lesson I learned out of it however was how to setup and run python libraries in a virtual environment!</p>
-<p>The exploit required <code>urllib3 faker</code> to run, and <code>python3</code> kept throwing the <code>externally managed</code> error that drove me crazy awhile back when I was trying to install the <code>bzz</code> library - I must have found another way around that, but this time around I actually dug into what this error was all about. Turns out <code>python</code> likes to run it&rsquo;s external libraries in a self-contained virtual environment, and while there is an override pretty much everyone on stackoverflow was screaming that it&rsquo;d break the system.</p>
+            <h1 id="codo">Codo</h1>
+<p>Interesting experience just slowly working through this over the day. Having the walkthrough as a reference is handy, although I should have done more enumeration to identify everything <code>linpeas</code> was providing. Helpful experience updating the cheatsheet for fully interactive TTS too - most references just use <code>python</code> when pretty much everyone/thing is using <code>python3</code>, so be sure to watch out for that when copy/pasting from references.</p>
+<p>Keep revshells.com handy too, and keep practicing with msfvenom too, as a lot of your holdup today was trying to find the right reverse shell for php, when you should have just been able to pull it up in a heartbeat</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---scrutiny---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---codo---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---squid---windows/">OSCP - Squid - Windows</a>
+          <a href="/posts/oscp---crane---linux/">OSCP - Crane - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -292,27 +291,51 @@
 
         <div class="post-content">
           
-            <h1 id="squid">Squid</h1>
-<p>Everything about this box was a refresher, and there&rsquo;s no doubt I leaned heavily on the walkthrough as I was doing it. Learning about Squid and <code>spose.py</code> was interesting, but there&rsquo;s a concern that <code>spose.py</code> is pretty niche and I may never have found it (or realised I needed it) without the walkthrough.</p>
-<p>Maybe it&rsquo;s just more familiarity though, and with more practice I&rsquo;ll get better at knowing how to tackle different Windows services. There&rsquo;s no question I learned more about how proxies work from this box, and setting up FoxyProxy to reach the target&rsquo;s open ports was particularly interesting.</p>
+            <h1 id="crane">Crane</h1>
+<p>This was the most straight-forward box so far. While a walkthrough was referenced for some of the exploit syntax, the exploit itself had already been found and tested before hand, so catching the reverse shell was straightforward.</p>
+<p>After initial access, it was clear <code>usr/sbin/service</code> could be used for privilege escalation. It took a bit of testing, but combining <code>www-data</code>&rsquo;s sudo privileges with directory traversal led to <code>root</code> access</p>
+<h1 id="resolution-summary">Resolution summary</h1>
+<ul>
+<li>Scanned with Nmap to find ports 22, 80, &amp; 3306</li>
+<li>Navigated to <code>http://192.168.137.146:80</code></li>
+<li>Password guessed admin login, and identified SuiteCRM 7.12.3</li>
+<li>Found exploit for CVE-2022-23940, executed against target &amp; achieved shell</li>
+<li>Checked sudo privileges and found <code>/usr/sbin/services</code></li>
+<li>Used <code>sbin</code> &amp; directory traversal to escalate to <code>root</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills</h2>
+<ul>
+<li>Finding/testing exploits</li>
+<li>Linux Privilege Escalation</li>
+</ul>
+<h2 id="used-tools">Used tools</h2>
+<ul>
+<li>Nmap</li>
+<li>NetCat</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering</h1>
+<p>Scanned all TCP ports:</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---squid---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---crane---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---twiggy---linux/">OSCP - Twiggy - Linux</a>
+          <a href="/posts/oscp---exam-prep/">OSCP - Exam Prep</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
+            
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
             
             #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
@@ -324,16 +347,40 @@
 
         <div class="post-content">
           
-            <h1 id="twiggy">Twiggy</h1>
-<p>Went down the rabbit hole with port 80 &amp; port 8000 too quickly, thinking this would require SQL injection or some sort of weird user enumeration to get into a web platform.</p>
-<p>Turns out the I needed to run nmap again with a full port scan (<code>-p- -T5</code>) and pick up ALL the ports before an aggressive service scan (<code>-A -p 22,55,ect</code>).</p>
-<p>2nd scan picked up <code>4505</code> and <code>4506</code> which correspond to ZeroMQ ZMTP 2.0 (saltStack). Looking up Saltstack showed a vulnerability (CVE-2020-11652)</p>
+            <p>ProvingGrounds (very close to OSCP)</p>
+<ul>
+<li><strong>PG Practice</strong>: Structured, guided learning with focused challenges to teach specific skills.</li>
+<li><strong>PG Play</strong>: Open, unguided labs that simulate real-world penetration testing <em>(best for OSCP prep)</em></li>
+</ul>
+<p>OffSec Challenge labs</p>
+<ul>
+<li>Challenge 0-2: Good warmup</li>
+<li>Challenge 3: Beyond scope of exam</li>
+<li><strong>Challenge 4-6</strong>: <em>OSCP-like experience</em>
+<ul>
+<li>Give yourself 24hrs for each</li>
+</ul>
+</li>
+</ul>
+<p>TjNull&rsquo;s List (excellent)</p>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLidcsTyj9JXK-fnabFLVEvHinQ14Jy5tf">Ipsec videos</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLcSbj5mz-wxPK8KD522vH5Gny4bSemX2H">NoxLumens Walkthroughs</a></li>
+</ul>
+<p>HTB Academy - CPTS</p>
+<ul>
+<li>Active Directory &amp; Enumeration</li>
+<li>Pivoting and tunnelling</li>
+<li>Attacking Common Services</li>
+<li>PrivEsc - Windows &amp; Linux</li>
+<li>File Transfer</li>
+</ul>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---twiggy---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---exam-prep/">[Read more]</a>
           </div>
         
       </article>

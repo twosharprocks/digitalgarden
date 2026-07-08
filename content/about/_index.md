@@ -14,7 +14,6 @@ Related:
   - "[[Physics]]"
   - "[[Personal]]"
 ---
-
 Welcome to the [Digital Garden]({{< relref "posts/Digital Garden.md" >}}) of [Josh Richards](https://joshrichards.com.au/).
 
 This is a working notebook made public: part personal wiki, part field notebook, part archive, and part long-running attempt to connect ideas before they have settled into something polished.
@@ -27,6 +26,6 @@ Most notes here are connected with `wiki links`. Some are tiny seeds, some are m
 - **[Writing]({{< relref "posts/writing.md" >}})** - [Mini Essays]({{< relref "posts/Mini Essays.md" >}}), [Articles]({{< relref "posts/Articles.md" >}}), Book - Ideas, old website posts, and related notes.
 - **[Diving]({{< relref "posts/diving.md" >}})** - [Diving - Reading]({{< relref "posts/Diving - Reading.md" >}}), [Diving - Ideas]({{< relref "posts/Diving - Ideas.md" >}}), [Cave Regions]({{< relref "posts/Cave Regions.md" >}}), Trips [Diving - Gear]({{< relref "posts/Diving - Gear.md" >}}), [Photogrammetry]({{< relref "posts/photogrammetry.md" >}}), [Exploration]({{< relref "posts/exploration.md" >}}), and field notes.
 - **[Cyber Security]({{< relref "posts/Cyber Security.md" >}})** - [CISSP]({{< relref "posts/CISSP.md" >}}), [CISA]({{< relref "posts/CISA.md" >}}) and [OSCP]({{< relref "posts/oscp.md" >}}) Study notes; cheat sheets, [Threat Modelling]({{< relref "posts/Threat Modelling.md" >}}), and [Cyber Security - Resources]({{< relref "posts/Cyber Security - Resources.md" >}}).
-- **[Physics]({{< relref "posts/physics.md" >}})** - Cosmology, quantum mechanics, Information Theory, Science - Ideas, and other deep-space rabbit holes.
-- **Personal** - [Philosophy]({{< relref "posts/philosophy.md" >}}), [Bucket List]({{< relref "posts/Bucket List.md" >}}), reflections, [Meals]({{< relref "posts/meals.md" >}}), and experiments in being a person.
+- **[Physics]({{< relref "posts/physics.md" >}})** - [Cosmology]({{< relref "posts/Cosmology.md" >}}), quantum mechanics, Information Theory, [Science - Ideas]({{< relref "posts/Science - Ideas.md" >}}), and other deep-space rabbit holes.
+- **[Personal]({{< relref "posts/Personal.md" >}})** - [Philosophy]({{< relref "posts/philosophy.md" >}}), [Bucket List]({{< relref "posts/Bucket List.md" >}}), reflections, [Meals]({{< relref "posts/meals.md" >}}), and experiments in being a person.
 - **Trips** - [Expedition Calendar]({{< relref "posts/Expedition Calendar.md" >}}), [Exploration]({{< relref "posts/exploration.md" >}}), logistics, and place-based notes.

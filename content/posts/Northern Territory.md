@@ -15,7 +15,6 @@ Related:
   - "[[Diving]]"
   - "[[Oceania]]"
 ---
-
 Northern Territory is listed under [Oceania]({{< relref "posts/oceania.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions

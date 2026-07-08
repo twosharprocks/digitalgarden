@@ -179,14 +179,14 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/sweden/">Sweden</a>
+          <a href="/posts/script---powershell---ad-emailtouser/">Script - PowerShell - AD-EmailToUser</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -196,54 +196,78 @@
 
         <div class="post-content">
           
-            <p>Sweden is listed under <a href="/posts/europe/">Europe</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-<hr>
-<h1 id="existing-notes">Existing Notes</h1>
-<h1 id="about">About</h1>
-<p><a href="https://aventyrsgruvan.se/en/">Aventyrsgruvan Mine</a>, Långban Mine</p>
-<h1 id="caves">Caves</h1>
-<ul>
-<li></li>
-</ul>
-<h1 id="trips">Trips</h1>
-<ul>
-<li></li>
-</ul>
-<hr>
-<h1 id="references">References</h1>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># The following is a series of scripts that can be used to find email addresses in text, then search for Active Directory users with matching emails and determine if they&#39;re enabled or disabled.</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$text</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s1">&#39;Paste the block of text to search for email addresses here:&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$emailPattern</span> <span class="p">=</span> <span class="s1">&#39;\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$matches</span> <span class="p">=</span> <span class="nv">$text</span> <span class="p">|</span> <span class="nb">Select-String</span> <span class="n">-Pattern</span> <span class="nv">$emailPattern</span> <span class="n">-AllMatches</span> <span class="p">|</span> <span class="nb">ForEach-Object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Matches</span><span class="p">.</span><span class="py">Value</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$emailAddresses</span> <span class="p">=</span> <span class="nv">$matches</span> <span class="o">-replace</span> <span class="s1">&#39;(.+)&#39;</span><span class="p">,</span> <span class="s1">&#39;&#34;$1&#34;,&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Write-Host</span> <span class="nv">$emailAddresses</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Copy the output from above, but exclude the comma on the final line, then redefine $emailAddresses using 2.1 below;</span>
+</span></span><span class="line"><span class="cl"><span class="c">## (2.1) Creating an &#34;emailAddresses&#34; variable if you already have the list formatted correctly</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$emailAddresses</span> <span class="p">=</span> <span class="vm">@</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;email1@company.co&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;email2@gmail.com&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;email3@notforprofit.org&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c">## (3) Search AD for users with email addresses found in $emailAddresses</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$email</span> <span class="k">in</span> <span class="nv">$emailAddresses</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">$user</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span>
+</span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="p">(</span><span class="nv">$user</span> <span class="o">-ne</span> <span class="vm">$null</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nb">Write-Output</span> <span class="s2">&#34;</span><span class="nv">$email</span><span class="s2"> belongs to </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">SamAccountName</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nb">Write-Output</span> <span class="s2">&#34;</span><span class="nv">$email</span><span class="s2"> does not match any user&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">## (4.1) Enabled AD Users with email addresses listed in the emailAddresses variable</span>
+</span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;--- Enabled Users found with matching email addresses ---&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$email</span> <span class="k">in</span> <span class="nv">$emailAddresses</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">EmailAddress</span> <span class="o">-eq</span> <span class="nv">$email</span><span class="p">}</span> <span class="n">-Properties</span> <span class="n">Enabled</span>
+</span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="p">(</span><span class="nv">$user</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$user</span><span class="p">.</span><span class="py">Enabled</span> <span class="o">-eq</span> <span class="vm">$true</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Host</span> <span class="s2">&#34;Enabled - </span><span class="nv">$email</span><span class="s2"> is </span><span class="nv">$user</span><span class="s2">.identity&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span> <span class="k">else</span> <span class="p">{}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;</span><span class="nv">$email</span><span class="s2"> not found in Active Directory.&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">## (4.2) Enabled AD Users from a specific Domain group (eg. Administrators) with email address matches </span>
+</span></span><span class="line"><span class="cl"><span class="c">#Define $ouPath for which Group to search (eg. Administrators, Office, Inactive, Resources, ect)</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=AdministratorsDC=int&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Disabled users with matching emails</span>
+</span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;--- Users in </span><span class="nv">$ouPath</span><span class="s2"> with matching email addresses ---&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Filter and print user with description</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$email</span> <span class="k">in</span> <span class="nv">$emailAddresses</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">EmailAddress</span> <span class="o">-eq</span> <span class="nv">$email</span><span class="p">}</span> <span class="n">-SearchBase</span> <span class="s2">&#34;OU=Administrators,OU=Users,OU=_Users &amp; Groups,DC=acm,DC=int&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="p">(</span><span class="nv">$user</span><span class="p">.</span><span class="py">Enabled</span> <span class="o">-eq</span> <span class="vm">$true</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Host</span> <span class="s2">&#34;Enabled - </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">SamAccountName</span><span class="p">)</span><span class="s2"> Description: </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">Description</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nb">Write-Host</span> <span class="s2">&#34;Disabled - </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">SamAccountName</span><span class="p">)</span><span class="s2"> Description: </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">Description</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/sweden/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---powershell---ad-emailtouser/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/tajikistan/">Tajikistan</a>
+          <a href="/posts/script---powershell---ad-groupmembers/">Script - PowerShell - AD-GroupMembers</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -253,62 +277,40 @@
 
         <div class="post-content">
           
-            <p>Tajikistan is listed under Asia in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-<hr>
-<h1 id="existing-notes">Existing Notes</h1>
-<h1 id="about">About</h1>
-<p><a href="https://en.wikipedia.org/wiki/Pamir-Alay">Pamir-Alay</a> Karst System</p>
-<ul>
-<li><strong>Why:</strong> High-altitude karst with known large caves like Festivalnaya and resurgence-fed systems.</li>
-<li><strong>Status:</strong> Explored by Russian and European dry cavers, but no known cave diving.</li>
-<li><strong>Potential:</strong> Alpine resurgence diving and high-altitude sump exploration in untouched systems.</li>
-<li><strong>Best Season:</strong> July to September.</li>
-</ul>
-<h1 id="caves">Caves</h1>
-<ul>
-<li></li>
-</ul>
-<h1 id="trips">Trips</h1>
-<ul>
-<li></li>
-</ul>
-<hr>
-<h1 id="references">References</h1>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#List AD accounts assigned to a member group</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-GroupMembers</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$GroupName</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the member group name to search&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$OU</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the Organisational Unit to search&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Users</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">*</span> <span class="n">-SearchBase</span> <span class="nv">$OU</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$User</span> <span class="k">in</span> <span class="nv">$Users</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Check if the user is a member of the &#34;Domain Users&#34; group</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$isGroupMember</span> <span class="p">=</span> <span class="nb">Get-ADGroupMember</span> <span class="n">-Identity</span> <span class="nv">$GroupName</span> <span class="n">-Recursive</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span><span class="nv">$_</span><span class="p">.</span><span class="py">SamAccountName</span> <span class="o">-eq</span> <span class="nv">$User</span><span class="p">.</span><span class="n">SamAccountName</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$isGroupMember</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Output</span> <span class="s2">&#34;User </span><span class="p">$(</span><span class="nv">$User</span><span class="p">.</span><span class="n">SamAccountName</span><span class="p">)</span><span class="s2"> is a member of </span><span class="nv">$GroupName</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/tajikistan/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---powershell---ad-groupmembers/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/tank-cave---5l230/">Tank Cave - 5L230</a>
+          <a href="/posts/script---powershell---ad-misc/">Script - PowerShell - AD-Misc</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/caving/">caving</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -318,43 +320,64 @@
 
         <div class="post-content">
           
-            <h1 id="to-do">To Do</h1>
-<p>Diving
-Dry
-Photogrammetry</p>
-<hr>
-<h1 id="about">About</h1>
-<p>Description:</p>
-<h2 id="maps">Maps</h2>
-<h2 id="survey">Survey</h2>
-<p>TML Data:
-KML Survey:</p>
-<hr>
-<h1 id="logged-dives">Logged Dives</h1>
-<ul>
-<li></li>
-</ul>
-<h1 id="references">References</h1>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#Set or change an employeeID</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">set-employeeID</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$username</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter username to add employeeID to&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$employeeID</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter employeeID for </span><span class="nv">$username</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$username</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">employeeID</span><span class="p">=</span><span class="s2">&#34;</span><span class="nv">$employeeID</span><span class="s2">&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Set or change &#34;workdays&#34; (or any other user attirbute)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">set-UserAttribute</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$username</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter username to add workdays to&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$workdays</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter user&#39;s work days&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$username</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">extensionAttribute10</span><span class="p">=</span><span class="s2">&#34;</span><span class="nv">$workdays</span><span class="s2">&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Edit a mailbox</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">edit-mailbox</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$NewMailbox</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s1">&#39;Enter the username of the new shared mailbox&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$description</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s1">&#39;Enter the mailbox description&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$office</span> <span class="p">=</span> <span class="s2">&#34;Office name here&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$department</span> <span class="p">=</span> <span class="s2">&#34;Add Department here&#34;</span> 
+</span></span><span class="line"><span class="cl">    <span class="nv">$streetAddress</span> <span class="p">=</span> <span class="s2">&#34;Add address here&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$city</span> <span class="p">=</span> <span class="s1">&#39;City name here&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$postalCode</span> <span class="p">=</span> <span class="s1">&#39;Postcode here&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="c">#Code starts here - do not edit below this point</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$NewMailbox</span> <span class="n">-Office</span> <span class="nv">$office</span> <span class="n">-department</span> <span class="nv">$department</span> <span class="n">-streetAddress</span> <span class="nv">$streetAddress</span> <span class="n">-state</span> <span class="n">STATE</span> <span class="n">-city</span> <span class="nv">$city</span> <span class="n">-PostalCode</span> <span class="nv">$postalCode</span> <span class="n">-description</span> <span class="nv">$description</span> <span class="n">-title</span> <span class="nv">$description</span> <span class="n">-company</span> <span class="s2">&#34;Company Name&#34;</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">c</span><span class="p">=</span><span class="s2">&#34;AU&#34;</span><span class="p">;</span><span class="n">wWWHomePage</span><span class="p">=</span><span class="s2">&#34;http:\\www.websitehere.com&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">write-host</span> <span class="s2">&#34;Details added to </span><span class="nv">$NewMailbox</span><span class="s2"> in Active Directory&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">#Find AD accounts from a list of display names</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$text</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Paste list of display names here:&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$displayNameList</span> <span class="p">=</span> <span class="nv">$text</span> <span class="o">-replace</span> <span class="s1">&#39;(.+)&#39;</span><span class="p">,</span> <span class="s1">&#39;&#34;$1&#34;,&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter OU to search&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$displayName</span> <span class="k">in</span> <span class="nv">$displayNameList</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span> <span class="n">DisplayName</span> <span class="o">-eq</span> <span class="nv">$displayName</span> <span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$user</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;&#39;</span><span class="nv">$displayName</span><span class="s2">&#39; matches </span><span class="nv">$user</span><span class="s2"> in </span><span class="nv">$ouPath</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;&#39;</span><span class="nv">$displayName</span><span class="s2">&#39; not found in </span><span class="nv">$ouPath</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/tank-cave---5l230/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---powershell---ad-misc/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/tanzania/">Tanzania</a>
+          <a href="/posts/script---powershell---ad-newuser/">Script - PowerShell - AD-NewUser</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -364,60 +387,101 @@ KML Survey:</p>
 
         <div class="post-content">
           
-            <p>Tanzania is listed under <a href="/posts/africa/">Africa</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-<hr>
-<h1 id="existing-notes">Existing Notes</h1>
-<h1 id="about">About</h1>
-<p><a href="https://maps.app.goo.gl/jM4sQe2BBDRaYxfs9">Zanzibar Archipelago</a></p>
-<ul>
-<li><strong>Karst Type</strong>: Coral limestone base.</li>
-<li><strong>Cave Diving</strong>: Limited underwater cave diving, but <strong>inland freshwater caves</strong> like <strong>Kuza Cave</strong> and <strong>Mangapwani Cave</strong> offer snorkeling and could present sumps.</li>
-<li><strong>Potential</strong>: Possibly unexplored submerged systems, especially around <strong>Pemba Island</strong>.</li>
-</ul>
-<h1 id="caves">Caves</h1>
-<ul>
-<li>Kuza Cave - <a href="https://www.tripadvisor.com.au/Attraction_Review-g635745-d11925961-Reviews-Kuza_Cave-Jambiani_Zanzibar_Island_Zanzibar_Archipelago.html">https://www.tripadvisor.com.au/Attraction_Review-g635745-d11925961-Reviews-Kuza_Cave-Jambiani_Zanzibar_Island_Zanzibar_Archipelago.html</a></li>
-<li>Mangapwani Cave - <a href="https://en.wikipedia.org/wiki/Mangapwani">https://en.wikipedia.org/wiki/Mangapwani</a></li>
-</ul>
-<h1 id="trips">Trips</h1>
-<ul>
-<li></li>
-</ul>
-<hr>
-<h1 id="references">References</h1>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Edit-ADUser</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$NewUser</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the new user&#39;s pre-2000 username&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$sourceUser</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the source user&#39;s pre-2000 username&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$manager</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the manager&#39;s pre-2000 username&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$jobtitle</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the user&#39;s job title&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$department</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the user&#39;s department or site name for Jo&#39;s&#34;</span>    
+</span></span><span class="line"><span class="cl">    <span class="c">#Address selection</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-host</span> <span class="s2">&#34;Select the user&#39;s office (or select 0 to manually input address details)&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-host</span> <span class="s2">&#34;1: CITY1 - Address&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-host</span> <span class="s2">&#34;2: CITY2 - Address&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-host</span> <span class="s2">&#34;3: CITY3 - Address&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-host</span> <span class="s2">&#34;4: CITY4 - Address&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-host</span> <span class="s2">&#34;5: CITY5 - Address&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-host</span> <span class="s2">&#34;6: CITY6 - Address&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-host</span> <span class="s2">&#34;7: CITY7 - Address&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-host</span> <span class="s2">&#34;8: CITY8 - Address&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-host</span> <span class="s2">&#34;9: CITY9 - Address&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-host</span> <span class="s2">&#34;0: Manually input address details&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$officeChoice</span> <span class="p">=</span> <span class="nb">Read-host</span> <span class="s2">&#34;Enter option number&#34;</span>    
+</span></span><span class="line"><span class="cl">    <span class="k">switch</span> <span class="p">(</span><span class="nv">$officeChoice</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="mf">0</span> <span class="p">{</span> <span class="nv">$office</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the user&#39;s city (ALL CAPS)&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$streetAddress</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the user&#39;s street address&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$city</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the user&#39;s city&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$postalCode</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the user&#39;s postcode&#34;</span>        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="mf">1</span> <span class="p">{</span> <span class="nv">$office</span> <span class="p">=</span> <span class="s1">&#39;CITY1 - Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$streetAddress</span> <span class="p">=</span> <span class="s1">&#39;Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$city</span> <span class="p">=</span> <span class="s1">&#39;city&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$postalCode</span> <span class="p">=</span> <span class="s1">&#39;00000&#39;</span>        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="mf">2</span> <span class="p">{</span> <span class="nv">$office</span> <span class="p">=</span> <span class="s1">&#39;CITY2 - Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$streetAddress</span> <span class="p">=</span> <span class="s1">&#39;Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$city</span> <span class="p">=</span> <span class="s1">&#39;city&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$postalCode</span> <span class="p">=</span> <span class="s1">&#39;00000&#39;</span>        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="mf">3</span> <span class="p">{</span> <span class="nv">$office</span> <span class="p">=</span> <span class="s1">&#39;CITY3 - Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$streetAddress</span> <span class="p">=</span> <span class="s1">&#39;Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$city</span> <span class="p">=</span> <span class="s1">&#39;city&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$postalCode</span> <span class="p">=</span> <span class="s1">&#39;00000&#39;</span>        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="mf">4</span> <span class="p">{</span> <span class="nv">$office</span> <span class="p">=</span> <span class="s1">&#39;CITY4 - Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$streetAddress</span> <span class="p">=</span> <span class="s1">&#39;Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$city</span> <span class="p">=</span> <span class="s1">&#39;city&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$postalCode</span> <span class="p">=</span> <span class="s1">&#39;00000&#39;</span>        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="mf">5</span> <span class="p">{</span> <span class="nv">$office</span> <span class="p">=</span> <span class="s1">&#39;CITY5 - Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$streetAddress</span> <span class="p">=</span> <span class="s1">&#39;Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$city</span> <span class="p">=</span> <span class="s1">&#39;city&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$postalCode</span> <span class="p">=</span> <span class="s1">&#39;00000&#39;</span>        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="mf">6</span> <span class="p">{</span> <span class="nv">$office</span> <span class="p">=</span> <span class="s1">&#39;CITY6 - Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$streetAddress</span> <span class="p">=</span> <span class="s1">&#39;Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$city</span> <span class="p">=</span> <span class="s1">&#39;city&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$postalCode</span> <span class="p">=</span> <span class="s1">&#39;00000&#39;</span>        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="mf">7</span> <span class="p">{</span> <span class="nv">$office</span> <span class="p">=</span> <span class="s1">&#39;CITY7 - Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$streetAddress</span> <span class="p">=</span> <span class="s1">&#39;Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$city</span> <span class="p">=</span> <span class="s1">&#39;city&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$postalCode</span> <span class="p">=</span> <span class="s1">&#39;00000&#39;</span>        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="mf">8</span> <span class="p">{</span> <span class="nv">$office</span> <span class="p">=</span> <span class="s1">&#39;CITY8 - Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$streetAddress</span> <span class="p">=</span> <span class="s1">&#39;Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$city</span> <span class="p">=</span> <span class="s1">&#39;city&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$postalCode</span> <span class="p">=</span> <span class="s1">&#39;00000&#39;</span>        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="mf">9</span> <span class="p">{</span> <span class="nv">$office</span> <span class="p">=</span> <span class="s1">&#39;CITY9 - Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$streetAddress</span> <span class="p">=</span> <span class="s1">&#39;Address&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$city</span> <span class="p">=</span> <span class="s1">&#39;city&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$postalCode</span> <span class="p">=</span> <span class="s1">&#39;00000&#39;</span>        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Home Directory Creation</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$ADIdentity</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Identity</span> <span class="nv">$NewUser</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$BasePath</span> <span class="p">=</span> <span class="s2">&#34;\\dc.int\UserFiles\HomeDirectory\&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$HomeDirectory</span> <span class="p">=</span> <span class="nv">$BasePath</span> <span class="p">+</span> <span class="nv">$ADIdentity</span><span class="p">.</span><span class="py">SamAccountName</span>   
+</span></span><span class="line"><span class="cl">    <span class="c"># Copy Group Permissions from sourcename to New User</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$NewUser</span> <span class="n">-Office</span> <span class="nv">$office</span> <span class="n">-department</span> <span class="nv">$department</span> <span class="n">-streetAddress</span> <span class="nv">$streetAddress</span> <span class="n">-state</span> <span class="n">STATE</span> <span class="n">-city</span> <span class="nv">$city</span> <span class="n">-PostalCode</span> <span class="nv">$postalCode</span> <span class="n">-description</span> <span class="nv">$jobtitle</span> <span class="n">-title</span> <span class="nv">$jobtitle</span> <span class="n">-company</span> <span class="s2">&#34;Company Name&#34;</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">c</span><span class="p">=</span><span class="s2">&#34;COUNTRYCODE&#34;</span><span class="p">;</span><span class="n">wWWHomePage</span><span class="p">=</span><span class="s2">&#34;http:\\www.companyname.org&#34;</span><span class="p">}</span> <span class="n">-HomeDirectory</span> <span class="nv">$HomeDirectory</span> <span class="n">-HomeDrive</span> <span class="s2">&#34;NetworkDrive:&#34;</span> <span class="n">-manager</span> <span class="nv">$manager</span>   
+</span></span><span class="line"><span class="cl">    <span class="nv">$sourceGroups</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Identity</span> <span class="nv">$sourceUser</span> <span class="n">-Properties</span> <span class="n">MemberOf</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="n">MemberOf</span>
+</span></span><span class="line"><span class="cl">    <span class="k">foreach</span> <span class="p">(</span><span class="nv">$group</span> <span class="k">in</span> <span class="nv">$sourceGroups</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Add the group to the target user</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Add-ADGroupMember</span> <span class="n">-Identity</span> <span class="nv">$group</span> <span class="n">-Members</span> <span class="nv">$NewUser</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>    
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-Host</span> <span class="s2">&#34;Details and Membership groups added to </span><span class="nv">$NewUser</span><span class="s2"> in Active Directory&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/tanzania/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---powershell---ad-newuser/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/tasmania/">Tasmania</a>
+          <a href="/posts/script---powershell---ad-offboarding/">Script - PowerShell - AD-Offboarding</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -427,53 +491,46 @@ KML Survey:</p>
 
         <div class="post-content">
           
-            <p>Tasmania is listed under <a href="/posts/oceania/">Oceania</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-<hr>
-<h1 id="existing-notes">Existing Notes</h1>
-<h1 id="about">About</h1>
-<ul>
-<li>Flinders Island - Ranga Cave? Surrounding area?</li>
-<li>King Island? Other small islands?</li>
-<li>Mole Creek</li>
-<li>Florentine Valley (Junee-Florentine)</li>
-<li>Tassie caves require SRT/Vert Access, Dry Cave experience and local cave association support
-<ul>
-<li>Exit Cave (Ida Bay) [Access issues?]</li>
-<li>Junee (Mt Field) [Tim Payne has explored]</li>
-<li>Tiger’s Eye (Mt Field) [<a href="http://www.agnesmilowka.com/articles/cave-diving/61-tigers-eye">Who supported Agnes?</a>]</li>
-</ul>
-</li>
-<li><a href="http://www.tsdc.org.au/sites.php">TSDC Dive Site Database</a> [TSDC]</li>
-</ul>
-<h1 id="caves">Caves</h1>
-<ul>
-<li></li>
-</ul>
-<h1 id="trips">Trips</h1>
-<ul>
-<li></li>
-</ul>
-<hr>
-<h1 id="references">References</h1>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#Specific username to offboard and the updated description</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">move-user-offboarding</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">read-host</span> <span class="s1">&#39;Username&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$updatedDescription</span> <span class="p">=</span> <span class="nb">read-host</span> <span class="s1">&#39;ICT Number and Date&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Do not edit anything below this</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Disable-ADAccount</span> <span class="n">-Identity</span> <span class="nv">$user</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$destinationOU</span> <span class="p">=</span> <span class="s2">&#34;OU=Off Boarding,OU=Users,OU=_Users &amp; Groups,DC=acm,DC=int&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="c">#Hide user from Address Lists</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">msExchHideFromAddressLists</span><span class="p">=</span><span class="s2">&#34;TRUE&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Get the user object &amp; update their description</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Get-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span> <span class="p">|</span> <span class="nb">Set-ADUser</span> <span class="n">-description</span> <span class="nv">$updatedDescription</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$user</span> <span class="o">-eq</span> <span class="vm">$null</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;User not found.&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">exit</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Move the user to the new OU</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Get-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span> <span class="p">|</span> <span class="nb">Move-ADObject</span> <span class="n">-TargetPath</span> <span class="nv">$destinationOU</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Get the group memberships of the user</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$userGroups</span> <span class="p">=</span> <span class="nb">Get-ADPrincipalGroupMembership</span> <span class="n">-Identity</span> <span class="nv">$user</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Loop through the user&#39;s group memberships and remove them, excluding &#34;Domain Users&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">foreach</span> <span class="p">(</span><span class="nv">$group</span> <span class="k">in</span> <span class="nv">$userGroups</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$group</span><span class="p">.</span><span class="py">objectClass</span> <span class="o">-eq</span> <span class="s1">&#39;group&#39;</span> <span class="o">-and</span> <span class="nv">$group</span><span class="p">.</span><span class="py">Name</span> <span class="o">-ne</span> <span class="s2">&#34;Domain Users&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="c"># Use Try-Catch to handle any potential errors (e.g., if the user is not a member of the group)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">Remove-ADGroupMember</span> <span class="n">-Identity</span> <span class="nv">$group</span> <span class="n">-Members</span> <span class="nv">$user</span> <span class="n">-Confirm:</span><span class="vm">$false</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">Write-Host</span> <span class="s2">&#34;Removed </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">SamAccountName</span><span class="p">)</span><span class="s2"> from </span><span class="p">$(</span><span class="nv">$group</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="k">catch</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">Write-Host</span> <span class="s2">&#34;Failed to remove </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">SamAccountName</span><span class="p">)</span><span class="s2"> from </span><span class="p">$(</span><span class="nv">$group</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-Host</span> <span class="s2">&#34;</span><span class="nv">$user</span><span class="s2"> moved to Off Boarding and Group memberships (excluding &#39;Domain Users&#39;) removed&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span></code></pre></div>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/tasmania/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---powershell---ad-offboarding/">[Read more]</a>
           </div>
         
       </article>

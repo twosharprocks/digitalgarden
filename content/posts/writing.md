@@ -27,11 +27,11 @@ Writing, essays, articles, book projects, older website posts, and notes about m
 - Book - Death, Time & Reality
 - Book - Futurism & Work
 - Book - Apocalypse
-- Book - Quantum Mechanics
+- Book - Information Theory
 # [Articles]({{< relref "posts/Articles.md" >}})
 
 - [Article - Corra-Lynn]({{< relref "posts/Article - Corra-Lynn.md" >}})
-- [Article - Iddlebiddy Cave - Soggy Wombats - DRAFT]({{< relref "posts/Article - Iddlebiddy Cave - Soggy Wombats - DRAFT.md" >}})
+- [Article - Iddlebiddy Cave - Soggy Wombats - DRAFT]({{< relref "posts/Article - Iddlebiddy Cave - Soggy Wombats.md" >}})
 - [Article - Exploring Japan’s Hidden Rivers]({{< relref "posts/Article - Exploring Japan’s Hidden Rivers.md" >}})
 - [Article - Making Sense with MNemo]({{< relref "posts/Article - Making Sense with MNemo.md" >}})
 - [Article - The Crazy Wombat Tunnel]({{< relref "posts/Article - The Crazy Wombat Tunnel.md" >}})
@@ -42,7 +42,6 @@ Writing, essays, articles, book projects, older website posts, and notes about m
 - [Mini Essay - Not Fade Away (Jim Dodge)]({{< relref "posts/Mini Essay - Not Fade Away (Jim Dodge).md" >}})
 - [Mini Essay - Peaceful Warrior vs the Alchemist]({{< relref "posts/Mini Essay - Peaceful Warrior vs the Alchemist.md" >}})
 - [Mini Essay - Where do I want to be in 2028]({{< relref "posts/Mini Essay - Where do I want to be in 2028.md" >}})
-- [Mini Essay - Letter to Yourself in 2031]({{< relref "posts/Mini Essay - Letter to Yourself in 2031.md" >}})
 - [Mini Essay - April 19 (2023)]({{< relref "posts/Mini Essay - April 19 (2023).md" >}})
 - [Mini Essay - Appeal of Thronglets]({{< relref "posts/Mini Essay - Appeal of Thronglets.md" >}})
 - [Mini Essay - Thoughts on 2025 Media]({{< relref "posts/Mini Essay - Thoughts on 2025 Media.md" >}})

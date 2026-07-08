@@ -12,7 +12,6 @@ Related:
   - "[[Writing]]"
   - "[[Tattoo - Ideas]]"
 ---
- 
 ---
 Getting a new tattoo has been a consideration for several years now, however there's been some hesitation over what, where, and why. 
 

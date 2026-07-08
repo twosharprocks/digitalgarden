@@ -179,7 +179,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---jacko---windows/">OSCP - Jacko - Windows</a>
+          <a href="/posts/oscp---access---ad/">OSCP - Access - AD</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -196,47 +196,62 @@
 
         <div class="post-content">
           
-            <h1 id="box">Box</h1>
-<p>What the actual fuck&hellip; I&rsquo;ll write this up tomorrow, but this was a combination of &ldquo;Why the fuck isn&rsquo;t this working&rdquo; with &ldquo;that is so fucking dumb&rdquo; when it did finally work</p>
-<h1 id="resolution-summary">Resolution summary</h1>
+            <h2 id="improved-skills">Improved skills</h2>
 <ul>
-<li>Ran Nmap to identify ports <code>80</code>, <code>135/445</code>, <code>445</code>, <code>5040</code>, <code>8082</code> &amp; <code>9092</code></li>
-<li>Navigated to port <code>8082</code> with browser and logged in with default credentials</li>
-<li>Found exploit for <code>H2 Database</code> and achieved code execution via SQL</li>
-<li>Uploaded &amp; executed reverse shell via SQL statements for initial access</li>
-<li>Identified <code>Paperstream</code> software and found exploit <code>49382.py</code></li>
-<li>Used <code>msfvenom</code> to create reverse shell <code>dll</code> with <code>x86</code> architecture &amp; <code>xor_dynamic</code></li>
-<li>Uploaded <code>dll</code> and <code>49382.ps1</code> to target via <code>iwr</code></li>
-<li>Ran <code>49382.ps1</code> on target and recieved reverse shell as <code>NT-system</code></li>
-</ul>
-<h2 id="improved-skills">Improved skills</h2>
-<ul>
-<li>Generating msfvenom payloads</li>
-<li>Working with Windows kernel exploits (specifically potatos)</li>
+<li>PHP bypasses</li>
+<li>Windows PrivEsc</li>
+<li>SeManageVolume Privilege Abuse</li>
 </ul>
 <h2 id="used-tools">Used tools</h2>
 <ul>
 <li>nmap</li>
 <li>python</li>
-<li>msfvenom</li>
 <li>powershell</li>
 </ul>
 <hr>
 <h1 id="information-gathering">Information Gathering</h1>
 <p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -p- -vvv -oN access.nmap 192.168.230.187
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">PORT      STATE SERVICE          REASON
+</span></span><span class="line"><span class="cl">53/tcp    open  domain           syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">80/tcp    open  http             syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">88/tcp    open  kerberos-sec     syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">135/tcp   open  msrpc            syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">139/tcp   open  netbios-ssn      syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">389/tcp   open  ldap             syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">445/tcp   open  microsoft-ds     syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">464/tcp   open  kpasswd5         syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">593/tcp   open  http-rpc-epmap   syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">636/tcp   open  ldapssl          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">3268/tcp  open  globalcatLDAP    syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">3269/tcp  open  globalcatLDAPssl syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">5985/tcp  open  wsman            syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">9389/tcp  open  adws             syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49666/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49668/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49673/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49674/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49677/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49704/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49791/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span></code></pre></div><hr>
+<h1 id="enumeration">Enumeration</h1>
+<h2 id="port-53---dns">Port 53 - DNS</h2>
+<p>No enumeration conducted</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---jacko---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---access---ad/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---kevin---windows-dnf/">OSCP - Kevin - Windows (DNF)</a>
+          <a href="/posts/oscp---algernon---windows/">OSCP - Algernon - Windows</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -253,22 +268,21 @@
 
         <div class="post-content">
           
-            <h1 id="kevin">Kevin</h1>
-<p>I&rsquo;ve checked all the walkthroughs, tried countless variations of the easily available exploits, even reimaged my entire Kali VM trying to make this script work&hellip; and nothing I&rsquo;ve done has caught a reverse shell.</p>
-<p>Honestly not sure what else to do, other than to write this off as a learning experience (?) and move on. If I get a buffer overflow exploit in the exam (which I think they&rsquo;ve stopped now anyway) I&rsquo;ll just move the fuck on because nothing I&rsquo;ve done on this box or the last one has really made any sense.</p>
+            <h1 id="algernon">Algernon</h1>
+<p>This was my first shift across from Linux into Windows, and I&rsquo;ll freely admit to being a little overwhelmed at all the open ports and not knowing quite where to start. Realising the FTP had an anonymous login was straight forward, and identifiying the <code>admin</code> user from the logs was nice, but it turned out to be a deadend and the real solution was 10x easier than what I&rsquo;d experienced with the last few Linux boxes - I really needed to reset my expectations.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---kevin---windows-dnf/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---algernon---windows/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---lavita---linux/">OSCP - LaVita - Linux</a>
+          <a href="/posts/oscp---astronaut---linux/">OSCP - Astronaut - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -285,22 +299,22 @@
 
         <div class="post-content">
           
-            <h1 id="lavita">LaVita</h1>
-<p>This box started out really well with plenty of through enumeration to identify the vulnerability, but I fell down trying to gain initial access with the exploits. I tried several, and persisted with the most well developed exploit thinking it would be the way forward.</p>
-<p>The issue was not realising the exploit would stop working after the first success, so after testing it with the <code>uname -a</code> or <code>id</code> commands, it would then not work when I tried to repeat with a reverse shell command. it took awhile to realise that there were 21 chains available, and so there was no need to keep using the &ldquo;last working&rdquo; chain, because it was only working once anyway. I also stopped trying to test with <code>id</code> and just threw the reverse shell command in straight away - I already knew the exploit worked <em>sometimes</em> so may as well try to establish a shell each time I tried.</p>
+            <h1 id="astronaut">Astronaut</h1>
+<p>Much quicker and more useful experience than <code>Exfiltrated</code>. Did my own enumeration, and used the <a href="https://medium.com/@ardian.danny/oscp-practice-series-20-proving-grounds-astronaut-627bc41a86ef">walkthrough</a> only as a guide when getting stuck.</p>
+<p>Discovering &ldquo;blind&rdquo; exploits was interesting, however it made sense that if the exploit isn&rsquo;t generating any output and not creating a reverse shell, that you might need to add a <code>-c</code> command with a line of bash to establish a reverse shell instead. Although once again all the instructions were in the script if you looked - <em><strong>always read the script!</strong></em></p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---lavita---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---astronaut---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---law---linux/">OSCP - Law - Linux</a>
+          <a href="/posts/oscp---authby---windows/">OSCP - Authby - Windows</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -317,22 +331,21 @@
 
         <div class="post-content">
           
-            <h1 id="law">Law</h1>
-<p>This one was another absolute slog. Identifying exploits for htmLawed v1.2.5 was very straightforward, and I got a little excited when I saw an RCE exploit had been found this year (2024).</p>
-<p>Running the exploit didn&rsquo;t work though, so I started researching the vulnerability further while trying to avoid the walkthroughs. I found the <a href="https://mayfly277.github.io/posts/GLPI-htmlawed-CVE-2022-35914/">Mayfly article on the CVE</a> which added a lot of extra context, and checking the walkthrough helped me realise why the Burpsuite request wasn&rsquo;t working properly (the request was to a non-existent page, and needed to be changed to <code>/</code>).</p>
+            <h1 id="authby">Authby</h1>
+<p>These Windows are doing my absolute head in. I spent hours on this box the day before following a multiple walkthroughs to the letter and got nowhere. I and wound up feeling so frustrated at not receiving even an initial shell that I marked this box as &ldquo;Aborted&rdquo; and shut down for the night - I figured there was no point pushing on and to just move on to the next Windows box.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---law---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---authby---windows/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---levram---linux/">OSCP - Levram - Linux</a>
+          <a href="/posts/oscp---blackgate---linux/">OSCP - Blackgate - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -349,38 +362,14 @@
 
         <div class="post-content">
           
-            <h1 id="levram">Levram</h1>
-<h1 id="resolution-summary">Resolution summary</h1>
-<ul>
-<li>Nmap to identify services on port 22 and 8000</li>
-<li>Password guessed admin credentials to Gerapy platform</li>
-<li>Used exploit for CVE-2021-243857 to achieve shell</li>
-<li>Upgraded shell by running bash script on target</li>
-<li>Identified vulnerable python setuid configuration</li>
-<li>Used GTFObins to find python command providing privilege escalation to root</li>
-</ul>
-<h2 id="improved-skills">Improved skills</h2>
-<ul>
-<li>Linux Privilege Escalation</li>
-<li>Establishing Full TTYs</li>
-</ul>
-<h2 id="used-tools">Used tools</h2>
-<ul>
-<li>nmap</li>
-<li>python</li>
-<li>linpeas.sh</li>
-<li>gerapy</li>
-<li>GTFObins</li>
-</ul>
-<hr>
-<h1 id="information-gathering">Information Gathering</h1>
-<p>Scanned all TCP ports:</p>
+            <h1 id="blackgate">Blackgate</h1>
+<p>This is the first of the &ldquo;Hard&rdquo; machines I&rsquo;ve tackled, so I&rsquo;d been worried it may have been a major step up from what I&rsquo;d been doing previously. Surprisingly though, this was very much a case of googling and learning about a service I&rsquo;d never heard of (Redis), connecting to it to test a few commands, and then finding the version I was connected to had a well known RCE exploit and using it to achieve initial access!</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---levram---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---blackgate---linux/">[Read more]</a>
           </div>
         
       </article>

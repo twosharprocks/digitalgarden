@@ -11,7 +11,6 @@ Related:
   - "[[Mini Essays]]"
   - "[[Writing]]"
 ---
- 
 ---
 Right now you're looking at two different job opportunities, and both of them offer different elements of what you're looking for in a career in cyber. It's also important to remember that you don't *need* either of these roles - they're the first to come back to you, and they've both provided you with 2nd interviews today, but that doesn't mean that either of them is the right fit for you - only that they're the things that are being offered this week.
 

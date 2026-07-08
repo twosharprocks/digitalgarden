@@ -3,13 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/source/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/sources/there-is-no-hard-problem-of-consciousness/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/unread/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/sources/notes-on-going-solo-celebrating-6-years-of-studio-self/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/sources/collaboration-is-bullshit/</loc>
+    <lastmod>2026-03-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/sources/is-time-a-fundamental-part-of-reality-a-quiet-revolution-in-physics-suggests-not/</loc>
+    <lastmod>2026-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/sources/2025-volume-6-future-proofing-cybersecurity----a-practical-roadmap-to-quantum-resilience/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/sources/2025-volume-6-the-impact-of-quantum-computing-on-digital-trust/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/interests/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/physics/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/sources/we-get-to-really-cherish-each-other-why-more-couples-choose-to-live-apart/</loc>
+    <lastmod>2025-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/sources/the-100-best-movies-of-the-21st-century/</loc>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/sources/cardiac-health-surveillance-for-divers/</loc>
+    <lastmod>2024-07-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/website---cosmic-nomad--12-july-2015/</loc>
     <lastmod>2023-03-26T00:00:00+00:00</lastmod>
@@ -70,6 +109,18 @@
   </url><url>
     <loc>/tags/writing/</loc>
     <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/sources/book-review-g%C3%B6del-escher-bach-an-in-depth-explainer--lesswrong/</loc>
+    <lastmod>2021-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/diving/</loc>
+    <lastmod>2021-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/expeditions/</loc>
+    <lastmod>2021-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/sources/no-direction-home-a-slovenia--cave-diving-adventure/</loc>
+    <lastmod>2021-02-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/website---getting-to-mars-part-3/</loc>
     <lastmod>2017-04-28T00:00:00+00:00</lastmod>
@@ -155,9 +206,6 @@
     <loc>/posts/website---101-things-languages-51--69/</loc>
     <lastmod>2012-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/unread/</loc>
-    <lastmod>2012-05-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/posts/website---us-relations-tour-days-21-26--29/</loc>
     <lastmod>2012-05-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -197,6 +245,12 @@
     <loc>/posts/website---home-made-kfc/</loc>
     <lastmod>2009-10-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/posts/sources/hendra-virus/</loc>
+    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/sources/in-praise-of-idleness-by-bertrand-russell/</loc>
+    <lastmod>1932-10-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/posts/oe-mamba-kecil/</loc>
   </url><url>
     <loc>/posts/oscp---active-directory/</loc>
@@ -206,8 +260,6 @@
     <loc>/posts/oscp---htb---linux/</loc>
   </url><url>
     <loc>/posts/oscp---htb---windows/</loc>
-  </url><url>
-    <loc>/posts/physics/</loc>
   </url><url>
     <loc>/posts/101-things---complete-list/</loc>
   </url><url>
@@ -253,6 +305,8 @@
   </url><url>
     <loc>/posts/africa/</loc>
   </url><url>
+    <loc>/tags/ai/</loc>
+  </url><url>
     <loc>/posts/ai---ideas/</loc>
   </url><url>
     <loc>/tags/ai-content/</loc>
@@ -271,6 +325,8 @@
   </url><url>
     <loc>/posts/allendale-east-cave--soggy-wombats/</loc>
   </url><url>
+    <loc>/posts/sources/alternative-black-hole-models-suggest-quantum-effects-may-erase-need-for-singularities/</loc>
+  </url><url>
     <loc>/posts/antarctica/</loc>
   </url><url>
     <loc>/tags/antarctica/</loc>
@@ -287,7 +343,7 @@
   </url><url>
     <loc>/posts/article---exploring-japans-hidden-rivers/</loc>
   </url><url>
-    <loc>/posts/article---iddlebiddy-cave---soggy-wombats---draft/</loc>
+    <loc>/posts/article---iddlebiddy-cave---soggy-wombats/</loc>
   </url><url>
     <loc>/posts/article---making-sense-with-mnemo/</loc>
   </url><url>
@@ -311,6 +367,8 @@
   </url><url>
     <loc>/posts/baubau-island/</loc>
   </url><url>
+    <loc>/posts/sources/be-a-property-owner-and-not-a-renter-on-the-internet--den-delimarsky/</loc>
+  </url><url>
     <loc>/tags/beef/</loc>
   </url><url>
     <loc>/posts/belgium/</loc>
@@ -324,6 +382,8 @@
     <loc>/posts/blue-eye/</loc>
   </url><url>
     <loc>/posts/boh-yah-mines/</loc>
+  </url><url>
+    <loc>/tags/book-quantum-mechanics/</loc>
   </url><url>
     <loc>/posts/books/</loc>
   </url><url>
@@ -344,6 +404,8 @@
     <loc>/tags/bucket-list/</loc>
   </url><url>
     <loc>/posts/buddism/</loc>
+  </url><url>
+    <loc>/posts/sources/building-your-own-ai-powered-life-management-system/</loc>
   </url><url>
     <loc>/posts/bulgaria/</loc>
   </url><url>
@@ -465,6 +527,10 @@
   </url><url>
     <loc>/posts/cook-islands/</loc>
   </url><url>
+    <loc>/posts/cosmology/</loc>
+  </url><url>
+    <loc>/tags/cosmology/</loc>
+  </url><url>
     <loc>/posts/costa-rica/</loc>
   </url><url>
     <loc>/tags/creamy/</loc>
@@ -499,6 +565,8 @@
   </url><url>
     <loc>/posts/czechia/</loc>
   </url><url>
+    <loc>/tags/daily-notes/</loc>
+  </url><url>
     <loc>/tags/dashboard/</loc>
   </url><url>
     <loc>/tags/dataview/</loc>
@@ -517,13 +585,13 @@
   </url><url>
     <loc>/posts/diving/</loc>
   </url><url>
-    <loc>/tags/diving/</loc>
-  </url><url>
     <loc>/posts/diving---gear/</loc>
   </url><url>
     <loc>/posts/diving---ideas/</loc>
   </url><url>
     <loc>/posts/diving---reading/</loc>
+  </url><url>
+    <loc>/posts/sources/does-time-work-differently-in-the-quantum-realm--scientific-american/</loc>
   </url><url>
     <loc>/posts/dominican-republic/</loc>
   </url><url>
@@ -549,11 +617,13 @@
   </url><url>
     <loc>/posts/expedition-calendar/</loc>
   </url><url>
-    <loc>/tags/expeditions/</loc>
-  </url><url>
     <loc>/posts/exploration/</loc>
   </url><url>
     <loc>/tags/exploration/</loc>
+  </url><url>
+    <loc>/posts/explorer-storyteller/</loc>
+  </url><url>
+    <loc>/posts/explorers_index_517/</loc>
   </url><url>
     <loc>/tags/feta/</loc>
   </url><url>
@@ -617,6 +687,8 @@
   </url><url>
     <loc>/posts/horse--cart-sinkhole---5l129/</loc>
   </url><url>
+    <loc>/posts/sources/how-to-become-a-hacker/</loc>
+  </url><url>
     <loc>/posts/hungary/</loc>
   </url><url>
     <loc>/posts/iceland/</loc>
@@ -632,8 +704,6 @@
     <loc>/posts/indonesia/</loc>
   </url><url>
     <loc>/tags/indulgent/</loc>
-  </url><url>
-    <loc>/tags/interests/</loc>
   </url><url>
     <loc>/posts/iran/</loc>
   </url><url>
@@ -652,6 +722,8 @@
     <loc>/posts/jenolan/</loc>
   </url><url>
     <loc>/posts/jordan/</loc>
+  </url><url>
+    <loc>/posts/sources/k2-18b-and-detection-of-biosignature-dimethyl-sulfide--bbc-sky-at-night-magazine/</loc>
   </url><url>
     <loc>/posts/kaidaiula/</loc>
   </url><url>
@@ -711,9 +783,13 @@
   </url><url>
     <loc>/tags/mars-one/</loc>
   </url><url>
+    <loc>/posts/sources/mathematicians-solve-125-year-old-quest-to-unite-key-laws-of-physics--new-scientist/</loc>
+  </url><url>
     <loc>/posts/mauritius/</loc>
   </url><url>
     <loc>/posts/maxs-hole---5l100---closed/</loc>
+  </url><url>
+    <loc>/posts/sources/maxwells-demon-strikes-back-as-quantum-physics-unveils-a-thermodynamic-loophole/</loc>
   </url><url>
     <loc>/posts/mckays-shaft---5l125---closed/</loc>
   </url><url>
@@ -885,8 +961,6 @@
   </url><url>
     <loc>/posts/mini-essay---kids-meals-on-planes/</loc>
   </url><url>
-    <loc>/posts/mini-essay---letter-to-yourself-in-2031/</loc>
-  </url><url>
     <loc>/posts/mini-essay---mechwarrior/</loc>
   </url><url>
     <loc>/posts/mini-essay---mental-baggage/</loc>
@@ -936,6 +1010,8 @@
     <loc>/posts/mini-essays/</loc>
   </url><url>
     <loc>/tags/mini-essay/</loc>
+  </url><url>
+    <loc>/posts/sources/mit-scientists-capture-heat-waves-in-superfluid-quantum-gas/</loc>
   </url><url>
     <loc>/posts/moko-morete/</loc>
   </url><url>
@@ -1133,6 +1209,8 @@
   </url><url>
     <loc>/posts/permandian-moko/</loc>
   </url><url>
+    <loc>/posts/personal/</loc>
+  </url><url>
     <loc>/tags/personal/</loc>
   </url><url>
     <loc>/posts/philippines/</loc>
@@ -1150,6 +1228,10 @@
     <loc>/posts/photogrammetry---wills-notes/</loc>
   </url><url>
     <loc>/posts/physical-access/</loc>
+  </url><url>
+    <loc>/posts/sources/physicists-just-witnessed-a-quantum-phase-flip-and-its-more-mind-bending-than-expected/</loc>
+  </url><url>
+    <loc>/posts/physics/</loc>
   </url><url>
     <loc>/posts/picanninnie-ponds---5l72---closed/</loc>
   </url><url>
@@ -1172,6 +1254,8 @@
     <loc>/posts/puerto-rico/</loc>
   </url><url>
     <loc>/tags/python/</loc>
+  </url><url>
+    <loc>/tags/quantum-computing/</loc>
   </url><url>
     <loc>/posts/queensland/</loc>
   </url><url>
@@ -1208,6 +1292,14 @@
     <loc>/tags/sandwich/</loc>
   </url><url>
     <loc>/posts/sardinia---italy/</loc>
+  </url><url>
+    <loc>/tags/science/</loc>
+  </url><url>
+    <loc>/posts/science---ideas/</loc>
+  </url><url>
+    <loc>/posts/sources/scientists-discover-simpler-way-to-achieve-einsteins-spooky-action-at-a-distance-thanks-to-ai-breakthrough--bringing-quantum-internet-closer-to-reality--space/</loc>
+  </url><url>
+    <loc>/posts/sources/scientists-think-light-may-hold-the-memory-of-ancient-cataclysms/</loc>
   </url><url>
     <loc>/tags/script/</loc>
   </url><url>
@@ -1247,6 +1339,8 @@
   </url><url>
     <loc>/posts/scripts/</loc>
   </url><url>
+    <loc>/tags/seed/</loc>
+  </url><url>
     <loc>/posts/serbia/</loc>
   </url><url>
     <loc>/posts/seychelles/</loc>
@@ -1264,8 +1358,6 @@
     <loc>/posts/solomon-islands/</loc>
   </url><url>
     <loc>/tags/soup/</loc>
-  </url><url>
-    <loc>/tags/source/</loc>
   </url><url>
     <loc>/posts/south-africa/</loc>
   </url><url>
@@ -1317,17 +1409,31 @@
   </url><url>
     <loc>/posts/thailand/</loc>
   </url><url>
+    <loc>/posts/sources/the-quantum-principle-that-says-why-atoms-are-as-they-are/</loc>
+  </url><url>
+    <loc>/posts/sources/the-adhd-body-double-a-unique-tool-for-getting-things-done---adda---attention-deficit-disorder-association/</loc>
+  </url><url>
     <loc>/posts/the-black-hole---5l47---closed/</loc>
   </url><url>
     <loc>/posts/the-bullock-hole---5l163---closed/</loc>
   </url><url>
+    <loc>/posts/sources/the-metamorphosis-of-prime-intellect/</loc>
+  </url><url>
+    <loc>/posts/sources/the-obsolescence-of-man---g%C3%BCnther-anders/</loc>
+  </url><url>
     <loc>/posts/the-pines---5l61/</loc>
+  </url><url>
+    <loc>/posts/sources/the-quantum-apocalypse-is-coming.-be-very-afraid---wired/</loc>
+  </url><url>
+    <loc>/posts/sources/the-real-internet-of-things---daniel-miessler/</loc>
   </url><url>
     <loc>/posts/the-shaft---5l158/</loc>
   </url><url>
     <loc>/posts/the-sisters-sinkhole---5l43-44/</loc>
   </url><url>
     <loc>/posts/the-three-sisters---5l13/</loc>
+  </url><url>
+    <loc>/posts/sources/this-twist-on-einsteins-greatest-theory-deserves-more-attention---scientific-american/</loc>
   </url><url>
     <loc>/posts/threat-actor---apt28/</loc>
   </url><url>
@@ -1342,6 +1448,8 @@
     <loc>/tags/threat-modelling/</loc>
   </url><url>
     <loc>/posts/time-management/</loc>
+  </url><url>
+    <loc>/tags/time-management/</loc>
   </url><url>
     <loc>/posts/timor-leste/</loc>
   </url><url>
@@ -1393,6 +1501,8 @@
   </url><url>
     <loc>/tags/upcoming/</loc>
   </url><url>
+    <loc>/posts/sources/vannevar-bush---as-we-may-think---the-atlantic/</loc>
+  </url><url>
     <loc>/posts/vanuatu/</loc>
   </url><url>
     <loc>/tags/vegetarian/</loc>
@@ -1417,6 +1527,8 @@
   </url><url>
     <loc>/posts/weebubbie-cave---6n2/</loc>
   </url><url>
+    <loc>/tags/weekly-review/</loc>
+  </url><url>
     <loc>/posts/wellington-caves/</loc>
   </url><url>
     <loc>/posts/west-papua---indonesia/</loc>
@@ -1430,6 +1542,8 @@
     <loc>/posts/wh40k---armies---dark-angels/</loc>
   </url><url>
     <loc>/posts/wh40k---armies---imperial-knights/</loc>
+  </url><url>
+    <loc>/posts/sources/why-the-future-doesnt-need-us/</loc>
   </url><url>
     <loc>/posts/whyalla/</loc>
   </url><url>

@@ -15,7 +15,6 @@ Related:
   - "[[Diving]]"
   - "[[Asia]]"
 ---
-
 Japan is listed under Asia in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions

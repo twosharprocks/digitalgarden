@@ -12,7 +12,6 @@ Related:
   - "[[Writing]]"
   - "[[Trip - Antarctica - 2025 Nov]]"
 ---
- 
 ---
 I've just started my journey to Antarctica, or more accurately I've started the first overseas step to Antarctica with the flight from Melbourne to Santiago, and I'm getting used to working on the small Bluetooth keyboard I bought to avoid my laptop. This trip will be the first major test of this, not only learning to use a small form keyboard like this, but also the experience of travelling without a laptop - something I haven't done since I left the marines. 
 

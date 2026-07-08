@@ -48,7 +48,7 @@ Gunter Anders
 - [Under Capitalism, the Colonization of Space Means the Destruction of Earth](https://jacobin.com/2022/07/colonization-space-exploration-moon-gunther-anders-privatization-earth-destruction)
 - https://libcom.org/tags/gunther-anders
 	- [Work will not set you free - Notes on Günther Anders – Franz Schandl | libcom.org](https://libcom.org/article/work-will-not-set-you-free-notes-gunther-anders-franz-schandl)
-	- The obsolescence of man - Günther Anders
+	- [The obsolescence of man - Günther Anders]({{< relref "posts/Sources/The obsolescence of man - Günther Anders.md" >}})
 
 [Year 2038 Problem](https://en.wikipedia.org/wiki/Year_2038_problem) or [Epochalypse]({{< relref "posts/epochalypse.md" >}})
 - [The Year 2038 Problem - What it is, Why it will happen & How to fix it](https://theyear2038problem.com/)

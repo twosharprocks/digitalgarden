@@ -11,7 +11,6 @@ Related:
   - "[[Mini Essays]]"
   - "[[Writing]]"
 ---
- 
 ---
 One of the ideas that has stuck with me for decades now is the idea of living alone out of a van. I had the opportunity to do it when I went to Iceland in 2016, and it's always stuck with me as a wonderful but slightly dislocated existence - like I knew I enjoyed having everything in my car and being free to go anywhere at any time, but not feeling like I could really stop anywhere either.
 

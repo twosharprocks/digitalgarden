@@ -16,7 +16,6 @@ Related:
   - "[[Mini Essay - If Mars One rebooted]]"
   - "[[Mars Analog]]"
 ---
- 
 ---
 An unexpected idea that appeared recently is to organise a Mars analog with a bunch of Mars One candidates in Wadi Rum. I'm not sure why something like this wasn't organised previously, but the contact from DIrk through LinkedIn has triggered a cascade of ideas around a filmed Mars analogue featuring folks who volunteered for Mars One. 
 

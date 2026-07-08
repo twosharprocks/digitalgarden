@@ -15,7 +15,6 @@ Related:
   - "[[Diving]]"
   - "[[Africa]]"
 ---
-
 # About
 **Why:** Massive karst regions like the Tsingy de Bemaraha and Ankarana contain hundreds of limestone caves, many barely explored or surveyed. The warm climate and remoteness suggest the potential for flooded sections, especially during the wet season.  
 **Status:** Speleologists have mapped many dry caves, but little to no published cave diving.  

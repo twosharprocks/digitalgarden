@@ -1,0 +1,134 @@
+{{ define "main" }}
+<article class="post">
+  <h1 class="post-title">
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+  </h1>
+  <div class="post-meta">
+    {{- if .Date -}}
+      <time class="post-date">
+        {{- partial "post-date" . -}}
+        {{- if and $.Site.Params.showLastUpdated .Lastmod -}}
+          &nbsp;{{- partial "post-lastmod" . -}}
+        {{- end -}}
+      </time>
+    {{- end -}}
+    {{- with .Params.Author -}}
+      <span class="post-author">{{ . }}</span>
+    {{- end -}}
+    {{- if and (.Param "readingTime") (eq (.Param "readingTime") true) -}}
+      <span class="post-reading-time">{{ .ReadingTime }} {{ $.Site.Params.minuteReadingTime | default "min read" }} ({{ .WordCount }} {{ $.Site.Params.words | default "words" }})</span>
+    {{- end -}}
+  </div>
+
+  {{- $relatedRaw := or .Params.related .Params.Related -}}
+  {{- $relatedItems := slice -}}
+  {{- with $relatedRaw -}}
+    {{- if reflect.IsSlice . -}}
+      {{- range . -}}
+        {{- $relatedItems = $relatedItems | append . -}}
+      {{- end -}}
+    {{- else -}}
+      {{- $relatedItems = $relatedItems | append . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if or .Params.created .Params.updated .Params.status .Params.tags $relatedItems -}}
+    <dl class="post-frontmatter">
+      {{- with .Params.created -}}
+        <div class="post-frontmatter__row">
+          <dt>Created</dt>
+          <dd>{{ . | time.Format "2006-01-02" }}</dd>
+        </div>
+      {{- end -}}
+
+      {{- with .Params.updated -}}
+        <div class="post-frontmatter__row">
+          <dt>Updated</dt>
+          <dd>{{ . | time.Format "2006-01-02" }}</dd>
+        </div>
+      {{- end -}}
+
+      {{- with .Params.status -}}
+        <div class="post-frontmatter__row">
+          <dt>Status</dt>
+          <dd>{{ . | printf "%v" | replaceRE "^#+" "" }}</dd>
+        </div>
+      {{- end -}}
+
+      {{- with .Params.tags -}}
+        <div class="post-frontmatter__row">
+          <dt>Tags</dt>
+          <dd class="post-frontmatter__links">
+            {{- range . -}}
+              <a href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">#{{ . }}</a>
+            {{- end -}}
+          </dd>
+        </div>
+      {{- end -}}
+
+      {{- with $relatedItems -}}
+        <div class="post-frontmatter__row">
+          <dt>Related</dt>
+          <dd class="post-frontmatter__links">
+            {{- range . -}}
+              {{- $raw := . | printf "%v" | strings.TrimSpace -}}
+              {{- if $raw -}}
+                {{- $target := $raw | replaceRE "^\\[\\[([^\\]|]+)(?:\\|[^\\]]+)?\\]\\]$" "$1" | replaceRE "\\.md$" "" | strings.TrimSpace -}}
+                {{- $label := $target -}}
+                {{- if findRE "^\\[\\[[^\\]|]+\\|[^\\]]+\\]\\]$" $raw -}}
+                  {{- $label = $raw | replaceRE "^\\[\\[[^\\]|]+\\|([^\\]]+)\\]\\]$" "$1" | strings.TrimSpace -}}
+                {{- end -}}
+                {{- $targetKey := $target | lower -}}
+                {{- $targetURLKey := $target | urlize -}}
+                {{- $match := false -}}
+                {{- range $.Site.RegularPages -}}
+                  {{- $titleKey := .Title | lower -}}
+                  {{- $fileKey := "" -}}
+                  {{- with .File -}}
+                    {{- $fileKey = .BaseFileName | lower -}}
+                  {{- end -}}
+                  {{- if or (eq $titleKey $targetKey) (eq $fileKey $targetKey) (eq (.RelPermalink | strings.TrimSuffix "/" | path.Base) $targetURLKey) -}}
+                    {{- $match = . -}}
+                  {{- end -}}
+                {{- end -}}
+                {{- if $match -}}
+                  <a href="{{ $match.RelPermalink }}">{{ $label }}</a>
+                {{- else -}}
+                  <span>{{ $label }}</span>
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}
+          </dd>
+        </div>
+      {{- end -}}
+    </dl>
+  {{- end -}}
+
+  {{ partial "cover.html" . }}
+
+  {{ if (.Params.Toc | default .Site.Params.Toc) }}
+    <div class="table-of-contents">
+      <h2>
+        {{ (.Params.TocTitle | default .Site.Params.TocTitle) | default "Table of Contents" }}
+      </h2>
+      {{ .TableOfContents }}
+    </div>
+  {{ end }}
+
+  <div class="post-content">
+    {{- with .Content -}}
+      <div>
+        {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">#</a> ${3}` | safeHTML }}
+      </div>
+    {{- end -}}
+  </div>
+
+  {{ if eq .Type $.Site.Params.contentTypeName }}
+    {{ partial "posts_pagination.html" . }}
+  {{ end }}
+
+  {{ if not (.Params.hideComments | default false) }}
+    {{ partial "comments.html" . }}
+  {{ end }}
+</article>
+{{ end }}

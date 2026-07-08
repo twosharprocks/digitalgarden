@@ -10,8 +10,7 @@ Related: "[[Writing]]"
 source: https://web.archive.org/web/20160530020056/http://www.themightyginge.com/blog/2016/02/04/martian/
 author:
   - Josh Richards
-published:
-description:
+published_text: "description:"
 ---
 By Josh, on February 4th, 2016
 

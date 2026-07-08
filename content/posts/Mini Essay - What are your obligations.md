@@ -12,7 +12,6 @@ Related:
   - "[[Writing]]"
   - "[[Philosophy]]"
 ---
- 
 ---
 As I put together the final things ready for the next few weeks in Antarctica and then Perth, I'm asking myself what my outstanding obligations are. This can be my emotional obligations (like people and things I feel I owe something to), physical obligations (like things that I have and feel responsible for), and my own spiritual obligations (the things that I feel I need to work on or do to feel fulfilled). 
 

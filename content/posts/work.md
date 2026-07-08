@@ -55,7 +55,7 @@ Places to Apply
 	- Consider Vietnam for regular cave exploration?
 	- [Insta - Digital Nomad Visas](https://www.instagram.com/p/DLP4esLOK0C/)
 # Ideas
-In Praise of Idleness, by Bertrand Russell
+[In Praise of Idleness, by Bertrand Russell]({{< relref "posts/Sources/In Praise of Idleness, by Bertrand Russell.md" >}})
 - [4-hour work week](https://www.amazon.com.au/4-Hour-Work-Week-Escape-Anywhere-ebook/dp/B006X0M2TS/ref=tmm_kin_swatch_0)
 - [*Life*-Work Philosophy](https://www.instagram.com/p/DGYKYcqs3mU/) 
 	- "Work/Life balance is bullshit. There should be no balance. Life is way more important than work. 

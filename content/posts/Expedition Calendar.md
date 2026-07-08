@@ -1,7 +1,7 @@
 ---
 title: Expedition Calendar
 created: 2025-06-29
-updated: 2026-07-02
+updated: 2026-07-07
 status: tree
 draft: false
 tags:
@@ -13,6 +13,23 @@ Related:
   - "[[Trips - Ideas]]"
   - "[[ChatGPT - Cave Expedition Calendar]]"
 ---
+2026
+- Jan: [Trip - Thailand - Boh Yai Mines - 2026 Jan]({{< relref "posts/Trip - Thailand - Boh Yai Mines - 2026 Jan.md" >}})
+- Apr: Trip - ADEX Singapore - 2026 April
+- May: [Trip - Japan - 2026 May]({{< relref "posts/Trip - Japan - 2026 May.md" >}})
+	- Incident - Long Tieng, Laos - May 2026
+- Aug: [Trip - Murra-Cocklebiddy - 2026 Aug]({{< relref "posts/Trip - Murra-Cocklebiddy - 2026 Aug.md" >}})
+
+2027
+- Apr: Trip - Vanuatu - 2027 April
+	- Trip - ADEX Singapore - 2027 April
+- Sep: Trip - Sydney GoDiving Conference  - 2027 Sept
+- Oct: Trip - Spain France Portugal - 2027 Sept
+- Dec: Trip - Mexico - 2027 Dec 
+
+2028
+- June: Trip - Bikini Atoll - 2028 June
+- 
 # Best Times
 Jan
 - **[New Zealand]({{< relref "posts/New Zealand.md" >}}) - Jan-March

@@ -12,7 +12,6 @@ Related:
   - "[[Writing]]"
   - "[[Philosophy]]"
 ---
- 
 ---
 Turning 40 hasn't had any obvious impact on me so far, at least not in the way that turning 30 did as I discussed in [Mini Essay - Why you didn't think you'd make it to 30]({{< relref "posts/Mini Essay - Why you didn't think you'd make it to 30.md" >}}). I still joke about not living particularly long because of the stuff I do while cave diving, but the last 10 years haven't had the same edge to them that the previous 10 did. As I've written elsewhere, I think being involved with Mars One made me think about where I'd be in 10 years time (eg. on my way to mars) rather than where I'd be when I turned a particular age. 
 
@@ -28,7 +27,7 @@ By all means figure out a list of things to do in the 10 years before I turn 50,
 
 ---
 **This also reminds me of**... 
-[Mini Essay - Letter to Yourself in 2031]({{< relref "posts/Mini Essay - Letter to Yourself in 2031.md" >}})
+Mini Essay - Letter to Yourself in 2031
 Mini Essay - Drafting my 500 Dives book
 [Website - Dear Josh in 2020]({{< relref "posts/Website - Dear Josh in 2020.md" >}})
 

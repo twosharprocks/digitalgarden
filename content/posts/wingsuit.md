@@ -11,7 +11,7 @@ Related:
 Related: 
 
 ---
-You've previously listed "Parachuting" under "Let This Go" in your Personal. 
+You've previously listed "Parachuting" under "Let This Go" in your [Personal]({{< relref "posts/Personal.md" >}}). 
 - What is it about wingsuits that interests you so much, and is there a different path to that feeling?
 
 ---

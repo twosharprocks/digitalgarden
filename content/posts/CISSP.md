@@ -1,7 +1,7 @@
 ---
 title: CISSP
 created: 2025-07-15
-updated: 2026-07-01
+updated: 2026-07-08
 status: seed
 draft: false
 tags:
@@ -10,7 +10,6 @@ tags:
 Related: 
   - "[[Cyber Security]]"
   - "[[Cyber - Training & Certifications]]"
----
 ---
 [ISC2 - Certified Information Systems Security Professional](https://www.isc2.org/Certifications/CISSP)
 - **Domains** (with personal notes)
@@ -27,7 +26,6 @@ Related:
     - Pass the CISSP exam.
     - Have a minimum of **five years of paid, full-time work experience** in at least two of the eight domains. 
     - A waiver of one year can be obtained for certain qualifications, like a relevant degree.
-
 - **Study**
 	- [ISC2 Self Study Resources](https://www.isc2.org/Training/Self-Study-Resources/CISSP)
 		- [CISSP 7th Edition - Self-paced Training](https://isc2.obrizum.io/org/cissp)
@@ -36,10 +34,11 @@ Related:
 		- Study - Pete Zerger CISSP 2024 Addendum
 		- [Youtube - 100 Most Important Topics](https://www.youtube.com/watch?v=tdtbZc2w8JM)
 	- cissplastmile.pdf
-	- [PocketPrep](https://www.pocketprep.com/exams/isc2-cissp/) - $21/month
+	- 
 	- [3x Mock Exams](https://study.pocketprep.com/mock-exam-intro
-- Exam Questions & Prep
+- **Exam - Test Questions & Prep**
 	- [Official Practice tests](https://www.amazon.com.au/Certified-Information-Security-Professional-Official-ebook/dp/B0D6J8PYZK/) $50 (Kindle)
+	- ***[PocketPrep](https://www.pocketprep.com/exams/isc2-cissp/)*** - $21/month, (**Most useful option**)
 	- [ExSim-Max for CISSP](https://www.boson.com/practice-exam/cissp-isc2-practice-exam) - $99/year
 	- [CISSPrep.net](https://cissprep.net/register/) $25/6months
 	- [ThorTeaches](https://thorteaches.com/cissp/) - Range ($ 225/year), Hard-only ($ 120/year)

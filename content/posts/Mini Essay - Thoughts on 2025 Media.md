@@ -12,7 +12,6 @@ Related:
   - "[[Writing]]"
   - "[[2025 - Media]]"
 ---
- 
 ---
 # Kindle 
 **Not Fade Away (Jim Dodge)**

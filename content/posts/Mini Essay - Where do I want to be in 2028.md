@@ -11,7 +11,6 @@ Related:
   - "[[Mini Essays]]"
   - "[[Writing]]"
 ---
- 
 ---
 There's no denying that the last few months have been pretty turbulent, and I have a whole series of fairly significant life changes heading my way in the next month too. My perspective on life has massively shifted since turning 40 in August, leaving ElectraNet in September, and especially since [Trip - Antarctica - 2025 Nov]({{< relref "posts/Trip - Antarctica - 2025 Nov.md" >}}) so it's natural to look ahead and wonder where I'm trying to go next. 
 

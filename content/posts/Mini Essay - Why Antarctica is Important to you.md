@@ -13,7 +13,6 @@ Related:
   - "[[Writing]]"
   - "[[Antarctica]]"
 ---
- 
 ---
 As you sit in the airport at Buenos Aires after such a hefty few days of flying, it's starting to really dawn on me that I'm about to flying to Ushuaia - the gateway to Antarctica. And in just a few days, I'll be getting onboard an expedition ship Going to the Antarctic Peninsula! 
 

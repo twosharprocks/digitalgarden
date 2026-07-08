@@ -16,7 +16,7 @@ Related:
 - Kindle: Hotel New Hampshire
 - Kindle: Bonfire of the Vanities (end of 101)
 - Kindle: Roger's Book
-- Why the Future Doesn’t Need Us
+- [Why the Future Doesn’t Need Us]({{< relref "posts/Sources/Why the Future Doesn’t Need Us.md" >}})
 - Permissionless - JA Westenberg.pdf
 # Clear
 - Bookshelf
@@ -28,7 +28,7 @@ Related:
 SciFi
 - [ ] Wanderers (Chuck Wendig)
 - [ ] The Fifth Season (NK Jemisin)
-- [ ] The Metamorphosis of Prime Intellect
+- [ ] [The Metamorphosis of Prime Intellect]({{< relref "posts/Sources/The Metamorphosis of Prime Intellect.md" >}})
 - [ ] The Left Hand of Darkness (Ursula K Le Guin)
 - [ ] The Xeelee Sequence (Stephen Baxter)
 - [ ] Children of Time (Adrian Tchaikovsky)

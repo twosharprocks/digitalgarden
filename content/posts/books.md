@@ -14,7 +14,6 @@ Related:
   - "[[Book - 101 Things]]"
   - "[[Book - Cave Diving]]"
 ---
-
 Book projects, reading notes, publishing ideas, and source material that keeps resurfacing.
 
 

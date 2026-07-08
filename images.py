@@ -163,6 +163,32 @@ def build_page_index(content_dir: Path):
             index.setdefault(k, rel)
     return index, readable_files
 
+def sanitize_hugo_front_matter(text: str) -> str:
+    """Make generated Markdown safe for Hugo's reserved front matter fields."""
+    m = re.match(r"^---\s*\n(.*?)\n---\s*\n", text, flags=re.S)
+    if not m:
+        return text
+
+    front_matter = m.group(1)
+
+    def sanitize_published(match: re.Match) -> str:
+        prefix = match.group(1)
+        raw_value = match.group(2).strip()
+        value = raw_value.strip('"').strip("'")
+        if not value or re.match(r"^\d{4}-\d{2}-\d{2}(?:[tT\s].*)?$", value):
+            return match.group(0)
+        escaped = value.replace("\\", "\\\\").replace('"', '\\"')
+        indent = re.match(r"^(\s*)", prefix).group(1)
+        return f'{indent}published_text: "{escaped}"'
+
+    front_matter = re.sub(
+        r"(?mi)^(\s*published\s*:\s*)(.+?)\s*$",
+        sanitize_published,
+        front_matter,
+    )
+
+    return f"---\n{front_matter}\n---\n{text[m.end():]}"
+
 # Match page wikilinks: [[Target]], [[Target|Alias]], [[Target#Section]], [[Target|Alias#Section]]
 WIKILINK_RE = re.compile(r"\[\[([^\]\|\#]+)(?:#([^\]\|]+))?(?:\|([^\]]+))?\]\]")
 
@@ -254,8 +280,10 @@ if mode == "--wikilinks-only":
             raw = md.read_text(encoding="utf-8")
         except UnicodeDecodeError:
             raw = md.read_text(encoding="utf-8-sig")
+        original_raw = raw
+        raw = sanitize_hugo_front_matter(raw)
         new = replace_wikilinks_outside_code(raw, index, md_files, content_mount, content_dir)
-        if new != raw:
+        if new != original_raw:
             if not DRY_RUN:
                 md.write_text(new, encoding="utf-8")
             changed += 1
@@ -279,6 +307,7 @@ for md in posts_dir.rglob("*.md"):
         print(f"[WARN] Skipping unreadable Markdown file {md.name}: {exc}")
         continue
     original = text
+    text = sanitize_hugo_front_matter(text)
 
     # Replace wikilink images like ![[pic.jpg]]
     def repl_wiki(m: re.Match) -> str:
@@ -364,8 +393,10 @@ for md in posts_dir.rglob("*.md"):
     except OSError as exc:
         print(f"[WARN] Skipping unreadable Markdown file {md.name}: {exc}")
         continue
+    original_raw = raw
+    raw = sanitize_hugo_front_matter(raw)
     new = replace_wikilinks_outside_code(raw, index, md_files, CONTENT_MOUNT, posts_dir)
-    if new != raw:
+    if new != original_raw:
         if not DRY_RUN:
             md.write_text(new, encoding="utf-8")
         changed += 1

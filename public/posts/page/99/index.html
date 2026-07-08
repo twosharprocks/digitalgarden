@@ -179,14 +179,14 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/script---python---redact/">Script - Python - redact</a>
+          <a href="/posts/puerto-rico/">Puerto Rico</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/script/">script</a>&nbsp;
+            #<a href="/tags/diving/">diving</a>&nbsp;
             
           </span>
         
@@ -196,348 +196,234 @@
 
         <div class="post-content">
           
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">re</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">chardet</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">read_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">raw_data</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">        <span class="n">result</span> <span class="o">=</span> <span class="n">chardet</span><span class="o">.</span><span class="n">detect</span><span class="p">(</span><span class="n">raw_data</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="n">encoding</span> <span class="o">=</span> <span class="n">result</span><span class="p">[</span><span class="s1">&#39;encoding&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="n">encoding</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">write_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">content</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">content</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">redact_company_name</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">company_name</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">escape</span><span class="p">(</span><span class="n">company_name</span><span class="p">),</span> <span class="s1">&#39;[REDACTED]&#39;</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">    <span class="c1"># Prompt the user to enter the file paths and company name</span>
-</span></span><span class="line"><span class="cl">    <span class="n">input_file</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the path to the input file: &#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="n">output_file</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the name for the output file: &#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="n">company_name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the company name to redact: &#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">try</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="c1"># Read the original file</span>
-</span></span><span class="line"><span class="cl">        <span class="n">original_text</span> <span class="o">=</span> <span class="n">read_file</span><span class="p">(</span><span class="n">input_file</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="k">except</span> <span class="ne">UnicodeDecodeError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Error reading file: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1"># Redact the company name</span>
-</span></span><span class="line"><span class="cl">    <span class="n">redacted_text</span> <span class="o">=</span> <span class="n">redact_company_name</span><span class="p">(</span><span class="n">original_text</span><span class="p">,</span> <span class="n">company_name</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1"># Write the redacted text to the output file</span>
-</span></span><span class="line"><span class="cl">    <span class="n">write_file</span><span class="p">(</span><span class="n">output_file</span><span class="p">,</span> <span class="n">redacted_text</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="n">main</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">    
-</span></span></code></pre></div>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/script---python---redact/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/script---python---search-replace/">Script - Python - search-replace</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/env python3</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">argparse</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">re</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">slugify</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;Replace spaces with dashes and strip leading/trailing spaces.&#34;&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">,</span> <span class="s2">&#34;-&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">process_file</span><span class="p">(</span><span class="n">path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="n">pattern</span><span class="p">:</span> <span class="n">re</span><span class="o">.</span><span class="n">Pattern</span><span class="p">,</span> <span class="n">repl_func</span><span class="p">,</span> <span class="n">dry_run</span><span class="p">:</span> <span class="nb">bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;
-</span></span></span><span class="line"><span class="cl"><span class="s2">
-</span></span></span><span class="line"><span class="cl"><span class="s2">    Returns number of replacements made in this file.
-</span></span></span><span class="line"><span class="cl"><span class="s2">
-</span></span></span><span class="line"><span class="cl"><span class="s2">    &#34;&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">text</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">read_text</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">updated</span><span class="p">,</span> <span class="n">n</span> <span class="o">=</span> <span class="n">pattern</span><span class="o">.</span><span class="n">subn</span><span class="p">(</span><span class="n">repl_func</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">dry_run</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">path</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">updated</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">n</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">description</span><span class="o">=</span><span class="s2">&#34;Replace [[text]] with #text (spaces become dashes) in markdown files.&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;text&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Search term inside [[...]] to replace (e.g., &#39;Bucket List&#39;).&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--root&#34;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s2">&#34;.&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Root folder to scan (default: current directory).&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--recursive&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Recurse into subfolders.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--dry-run&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Show what would change, but don&#39;t write files.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--ignore-case&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Match [[text]] case-insensitively.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">args</span> <span class="o">=</span> <span class="n">ap</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">root</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">root</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">pattern_glob</span> <span class="o">=</span> <span class="s2">&#34;**/*.md&#34;</span> <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">recursive</span> <span class="k">else</span> <span class="s2">&#34;*.md&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1"># Build regex that matches [[&lt;text&gt;]], allowing for internal spaces</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">flags</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span> <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">ignore_case</span> <span class="k">else</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">escaped</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">escape</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">needle</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&#34;\[\[\s*&#34;</span> <span class="o">+</span> <span class="n">escaped</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="sa">r</span><span class="s2">&#34;\ &#34;</span><span class="p">,</span> <span class="sa">r</span><span class="s2">&#34;\s+&#34;</span><span class="p">)</span> <span class="o">+</span> <span class="sa">r</span><span class="s2">&#34;\s*\]\]&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">pattern</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">needle</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="n">flags</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1"># Replacement function (keeps proper slug formatting)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">repl_func</span><span class="p">(</span><span class="k">match</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="s2">&#34;#&#34;</span> <span class="o">+</span> <span class="n">slugify</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">files</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="n">pattern_glob</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">total_files</span> <span class="o">=</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">changed_files</span> <span class="o">=</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">total_replacements</span> <span class="o">=</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="ow">not</span> <span class="n">f</span><span class="o">.</span><span class="n">is_file</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="k">continue</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">total_files</span> <span class="o">+=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">n</span> <span class="o">=</span> <span class="n">process_file</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">pattern</span><span class="o">=</span><span class="n">pattern</span><span class="p">,</span> <span class="n">repl_func</span><span class="o">=</span><span class="n">repl_func</span><span class="p">,</span> <span class="n">dry_run</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">dry_run</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">total_replacements</span> <span class="o">+=</span> <span class="n">n</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="n">changed_files</span> <span class="o">+=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[UPDATED</span><span class="si">{</span><span class="s1">&#39;&#39;</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">args</span><span class="o">.</span><span class="n">dry_run</span> <span class="k">else</span> <span class="s1">&#39; (dry)&#39;</span><span class="si">}</span><span class="s2">] </span><span class="si">{</span><span class="n">f</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> (+</span><span class="si">{</span><span class="n">n</span><span class="si">}</span><span class="s2">)&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[SKIPPED] </span><span class="si">{</span><span class="n">f</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">Done. Files scanned: </span><span class="si">{</span><span class="n">total_files</span><span class="si">}</span><span class="s2">. Files changed: </span><span class="si">{</span><span class="n">changed_files</span><span class="si">}</span><span class="s2">. Replacements: </span><span class="si">{</span><span class="n">total_replacements</span><span class="si">}</span><span class="s2">.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">dry_run</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;No files were written (dry run). Use without --dry-run to apply changes.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">main</span><span class="p">()</span>
-</span></span></code></pre></div>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/script---python---search-replace/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/script---python---unredact/">Script - Python - unredact</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">re</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">chardet</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">read_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">raw_data</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">        <span class="n">result</span> <span class="o">=</span> <span class="n">chardet</span><span class="o">.</span><span class="n">detect</span><span class="p">(</span><span class="n">raw_data</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="n">encoding</span> <span class="o">=</span> <span class="n">result</span><span class="p">[</span><span class="s1">&#39;encoding&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="n">encoding</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">write_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">content</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">content</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">replace_redacted_with_company_name</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">company_name</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;\[REDACTED\]&#39;</span><span class="p">,</span> <span class="n">company_name</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">    <span class="c1"># Prompt the user to enter the file paths and company name</span>
-</span></span><span class="line"><span class="cl">    <span class="n">input_file</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the path to the input file: &#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="n">output_file</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the name for the output file: &#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="n">company_name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the company name to replace [REDACTED]: &#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    
-</span></span><span class="line"><span class="cl">    <span class="k">try</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="c1"># Read the original file</span>
-</span></span><span class="line"><span class="cl">        <span class="n">original_text</span> <span class="o">=</span> <span class="n">read_file</span><span class="p">(</span><span class="n">input_file</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="k">except</span> <span class="ne">UnicodeDecodeError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Error reading file: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span>
-</span></span><span class="line"><span class="cl">    
-</span></span><span class="line"><span class="cl">    <span class="c1"># Replace [REDACTED] with the company name</span>
-</span></span><span class="line"><span class="cl">    <span class="n">replaced_text</span> <span class="o">=</span> <span class="n">replace_redacted_with_company_name</span><span class="p">(</span><span class="n">original_text</span><span class="p">,</span> <span class="n">company_name</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    
-</span></span><span class="line"><span class="cl">    <span class="c1"># Write the replaced text to the output file</span>
-</span></span><span class="line"><span class="cl">    <span class="n">write_file</span><span class="p">(</span><span class="n">output_file</span><span class="p">,</span> <span class="n">replaced_text</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="n">main</span><span class="p">()</span>
-</span></span></code></pre></div>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/script---python---unredact/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/scripts/">Scripts</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="bash">Bash</h1>
+            <p>Puerto Rico is listed under Central America in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
+<h1 id="cave-regions">Cave Regions</h1>
 <ul>
-<li><a href="/posts/script---bash---ping-sweep/">Script - Bash - ping-sweep</a></li>
+<li>No local cave regions listed yet.</li>
 </ul>
-<h1 id="powershell">Powershell</h1>
-<p>Active Directory</p>
+<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
 <ul>
-<li><a href="/posts/script---powershell---ad-audit/">Script - PowerShell - AD-Audit</a></li>
-<li><a href="/posts/script---powershell---ad-emailtouser/">Script - PowerShell - AD-EmailToUser</a></li>
-<li><a href="/posts/script---powershell---ad-groupmembers/">Script - PowerShell - AD-GroupMembers</a></li>
-<li><a href="/posts/script---powershell---ad-misc/">Script - PowerShell - AD-Misc</a></li>
-<li><a href="/posts/script---powershell---ad-newuser/">Script - PowerShell - AD-NewUser</a></li>
-<li><a href="/posts/script---powershell---ad-offboarding/">Script - PowerShell - AD-Offboarding</a></li>
-<li><a href="/posts/script---powershell---ad-oumaintenance/">Script - PowerShell - AD-OUMaintenance</a></li>
+<li>See the linked cave regions above.</li>
+</ul>
+<h1 id="backlinks">Backlinks</h1>
+<ul>
+<li><a href="/posts/cave-regions/">Cave Regions</a></li>
+<li><a href="/posts/diving/">Diving</a></li>
+</ul>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/puerto-rico/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/queensland/">Queensland</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>Queensland is listed under <a href="/posts/oceania/">Oceania</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
+<h1 id="cave-regions">Cave Regions</h1>
+<ul>
+<li>No local cave regions listed yet.</li>
+</ul>
+<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
+<ul>
+<li>See the linked cave regions above.</li>
+</ul>
+<h1 id="backlinks">Backlinks</h1>
+<ul>
+<li><a href="/posts/cave-regions/">Cave Regions</a></li>
+<li><a href="/posts/diving/">Diving</a></li>
+</ul>
+<hr>
+<h1 id="existing-notes">Existing Notes</h1>
+<h1 id="about">About</h1>
+<ul>
+<li>Camooweal</li>
+<li>Chillagoe-Mungana
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Chillagoe-Mungana_Caves_National_Park">Caves national Park</a> (Elevation +400m)</li>
+<li><a href="https://parks.desi.qld.gov.au/parks/chillagoe-caves">https://parks.desi.qld.gov.au/parks/chillagoe-caves</a></li>
+<li><a href="https://www.asfconference2027.com.au/home">ASF Conference 2027</a> 20-26 June</li>
+</ul>
+</li>
+<li>Mt Etna
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Mount_Etna_Caves_National_Park">Caves National Park</a></li>
+<li><a href="https://parks.desi.qld.gov.au/parks/mount-etna-caves/about">https://parks.desi.qld.gov.au/parks/mount-etna-caves/about</a></li>
+<li>Cammoo Caves (100m elevation)</li>
+</ul>
+</li>
+</ul>
+<h1 id="caves">Caves</h1>
+<ul>
+<li></li>
+</ul>
+<h1 id="trips">Trips</h1>
+<ul>
+<li></li>
+</ul>
+<hr>
+<h1 id="references">References</h1>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/queensland/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/reading/">Reading</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/books/">books</a>&nbsp;
+            
+            #<a href="/tags/interests/">interests</a>&nbsp;
+            
+            #<a href="/tags/personal/">personal</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="current">Current</h1>
+<ul>
+<li>Kindle: Hotel New Hampshire</li>
+<li>Kindle: Bonfire of the Vanities (end of 101)</li>
+<li>Kindle: Roger&rsquo;s Book</li>
+<li><a href="/posts/sources/why-the-future-doesnt-need-us/">Why the Future Doesn’t Need Us</a></li>
+<li>Permissionless - JA Westenberg.pdf</li>
+</ul>
+<h1 id="clear">Clear</h1>
+<ul>
+<li>Bookshelf</li>
+<li>Kindle</li>
+<li>Audible</li>
+<li>Bookerei/PDF - &ldquo;To Read&rdquo; Tag</li>
+</ul>
+<hr>
+<p>SciFi</p>
+<ul>
+<li><input disabled="" type="checkbox"> Wanderers (Chuck Wendig)</li>
+<li><input disabled="" type="checkbox"> The Fifth Season (NK Jemisin)</li>
+<li><input disabled="" type="checkbox"> <a href="/posts/sources/the-metamorphosis-of-prime-intellect/">The Metamorphosis of Prime Intellect</a></li>
+<li><input disabled="" type="checkbox"> The Left Hand of Darkness (Ursula K Le Guin)</li>
+<li><input disabled="" type="checkbox"> The Xeelee Sequence (Stephen Baxter)</li>
+<li><input disabled="" type="checkbox"> Children of Time (Adrian Tchaikovsky)</li>
+<li><input disabled="" type="checkbox"> Story of Your Life (Ted Chiang)</li>
+<li><input disabled="" type="checkbox"> The Bohr Maker (Linda Nagata)</li>
+<li><input disabled="" type="checkbox"> <a href="https://www.amazon.com.au/gp/aw/d/B0CL7KFDDQ/ref=tmm_kin_swatch_0">Audition</a> (Pip Adam)</li>
+<li><input disabled="" type="checkbox"> <a href="https://amzn.to/3FXOjVm">A Wrinkle in Time by Madeleine L’Engle</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://amzn.to/41t7dfW">The Time Machine by H. G. Wells**</a></li>
+<li><a href="https://amzn.to/41pP82Z">Oryx and Crake by Margaret Atwood</a></li>
+<li><a href="https://amzn.to/47pVjqn">Childhood’s End by Arthur C. Clarke</a></li>
+<li><a href="https://amzn.to/3xUTzoh"><strong>Do Androids Dream of Electric Sheep? by Philip K. Dick</strong></a></li>
+<li><a href="https://amzn.to/3QjBiva">Station Eleven by Emily St. John Mandel</a></li>
+<li><a href="https://amzn.to/3YhmY8C">The Left Hand of Darkness by Ursula K. Le Guin</a></li>
 </ul>
 <p>Other</p>
-<ul>
-<li><a href="/posts/script---powershell---archive-userfiles/">Script - PowerShell - Archive-UserFiles</a></li>
-<li><a href="/posts/script---powershell---servicedesk/">Script - PowerShell - ServiceDesk</a></li>
-</ul>
-<h1 id="python">Python</h1>
-<ul>
-<li><a href="/posts/script---python---pdftoterminal/">Script - Python - pdftoterminal</a></li>
-<li><a href="/posts/script---python---redact/">Script - Python - redact</a></li>
-<li><a href="/posts/script---python---unredact/">Script - Python - unredact</a></li>
-<li><a href="/posts/script---python---search-replace/">Script - Python - search-replace</a></li>
-</ul>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/scripts/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/reading/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/serbia/">Serbia</a>
+          <a href="/posts/rebreathers/">Rebreathers</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <hr>
+<h1 id="my-ccrs">My CCRs</h1>
+<h2 id="choptima-dive-rite">ChOptima (Dive Rite)</h2>
+<ul>
+<li>Best O2 cylinder size = <a href="https://perthscuba.com/collections/tanks-cylinders/products/s-13-aluminium-cylinder">AL13</a> or <a href="https://perthscuba.com/collections/tanks-cylinders/products/fabersteelcylinder2lt">2L steel</a> with <a href="https://perthscuba.com/products/sos-cylinder-x-flow-valve">X-Flow valve</a></li>
+<li>Training: <a href="https://www.diveaddiction.me/">Joseph Bicanic (WA, Australia)</a>, Por (Thailand), Rob Thomas (NSW), <a href="https://deepblueventures.com.au/rebreather/optima-cm-ccr">Rubens Monaco (Vic, Australia)</a></li>
+<li>Accessories
+<ul>
+<li><a href="https://diverite.com/products/o2ptima/o2ptima-cm-scooter-ring/">ChOptima Scooter Ring</a></li>
+<li><a href="https://scubadorag.com/product/scubado-rebreather-bcd-inflator-hose-ponytail-hair-cover/">Hose Covers - ScubaDo</a></li>
+<li><a href="https://www.instagram.com/divingsirenfl/">Hose Covers - Diving Siren (Custom)</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="sidewinder-kiss">Sidewinder (KISS)</h2>
+<p>Total Hours: 67hours (4013 mins)</p>
+<h2 id="jj-ccr">JJ-CCR</h2>
+<p>Total Hours: 50 hours (3005 mins)</p>
+<h1 id="other-ccrs">Other CCRs</h1>
+<p><a href="https://s7ccr.com/">S7</a></p>
+<ul>
+<li><a href="https://indepthmag.com/s7-rebreather-size-of-a-ccr/">InDepth Article on S7</a></li>
+<li>~â‚¬5k + cells &amp; monitor</li>
+<li>IT: Anton is IT, Mikko/Rubens/Skanda instructors</li>
+</ul>
+<p><a href="https://www.multi-3s.com/les-produits/triton">Triton (M3S)</a>
+<a href="https://www.multi-3s.com/les-produits/configurations/ccr-loisir">Neptune (M3S)</a>
+<a href="https://ccr.sub-gravity.com/fx-ccr/">FXCCR (Sub-Gravity)</a>
+<a href="https://ccr.sub-gravity.com/product/flex-2-ccr/">Flex2 (Sub-Gravity)</a>
+<a href="https://www.divesoft.com/en/products/ccr-liberty/ccr-liberty-sidemount">Liberty (Divesoft)</a></p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/rebreathers/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/region---wa/">Region - WA</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -562,17 +448,8 @@
           
             <h1 id="about">About</h1>
 <h1 id="caves">Caves</h1>
-<p>Vrelo Mlave, 44.1952, 21.7864,</p>
 <ul>
-<li>Powerful spring near Žagubica; explored to 80m depth.<br>
-Krupajsko Vrelo, 44.2175, 21.6984,</li>
-<li>Turquoise spring in Homolje region; dived to 123m depth.<br>
-Vrelo Banje, 43.6442, 21.7228,</li>
-<li>Submerged spring near Sokobanja; potential cave system.
-Resava Spring, 44.0708, 21.6215,</li>
-<li>Karst spring below Resavska Cave; possible sump connection.<br>
-Toplica Karst Resurgence, 43.2394, 21.3976,</li>
-<li>Intermittent spring in carbonate terrain; strong seasonal flow suggests underground river.</li>
+<li></li>
 </ul>
 <h1 id="trips">Trips</h1>
 <ul>
@@ -585,7 +462,7 @@ Toplica Karst Resurgence, 43.2394, 21.3976,</li>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/serbia/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/region---wa/">[Read more]</a>
           </div>
         
       </article>

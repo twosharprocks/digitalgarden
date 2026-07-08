@@ -11,7 +11,6 @@ Related:
   - "[[Mini Essays]]"
   - "[[Writing]]"
 ---
- 
 ---
 It's your first day in Ushuaia and you're naturally shattered from not sleeping in the last 2.5 days, but you're managing well considering that. You definitely got a good feel for this place though, enough that you certainly reached a point earlier where you were tired, hungry and sore, and the magic of being so close to Antarctica (with the matching weather) had worn off and you just wanted to stop. 
 

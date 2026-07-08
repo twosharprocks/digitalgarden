@@ -16,7 +16,6 @@ Related:
   - "[[Cave Regions]]"
   - "[[Sulawesi]]"
 ---
-
 # About
 Region - Mawasangka (South)
 Flow from fresh water lens to ocean
