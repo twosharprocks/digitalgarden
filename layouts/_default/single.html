@@ -60,7 +60,7 @@
           <span class="post-frontmatter__label">Tags:</span>
           <span class="post-frontmatter__value post-frontmatter__links">
             {{- range . -}}
-              <a href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">#{{ . }}</a>{{ " " }}
+              <a href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">#{{ . }}</a>&nbsp;
             {{- end -}}
           </span>
         </div>
