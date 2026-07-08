@@ -1,7 +1,7 @@
 ---
 title: Patreon - Speaking for Free
 created: 2026-06-18
-updated: 2026-06-18
+updated: 2026-07-08
 status: seed
 draft: false
 tags:
@@ -13,7 +13,7 @@ Over the last two years I've had a couple of fairly nasty experiences with frien
 
 My general rule for the last few year has been to charge everyone booking me to speak, even if it's just a small amount, because as soon as money is involved everyone (schools in particular) take things much more seriously. When they're paying for your time, people make sure the presentation room is ready for you, the projector is working, and the kids are prepped. Teachers get their shit together when something is coming out of their budget, and because they're so focused on doing their jobs they also tend to dismiss anything they're getting for free. Zero dollars, zero investment.
 
-Where this breaks down though is when I try to do a favour for a friend. The usual pattern has been someone I've known for years and often worked asks me to talk about Mars One at their event (a festival, school-opening, ect), which I agreed to do for free because I want to support someone who's science communication efforts I value. Once I'm in touch with their superiors to work out the details though, the superiors immediately see as a free resource to exploit and start throwing other things into the mix that I didn't agree to. Things I wouldn't have agreed to do for free if they'd been discussed upfront, but I will now feel bad turning down because I initially agreed to support a friend.
+Where this breaks down though is when I try to do a favour for a friend. The usual pattern has been someone I've known for years and often worked asks me to talk about Mars One at their event (a festival, school-opening, etc), which I agreed to do for free because I want to support someone who's science communication efforts I value. Once I'm in touch with their superiors to work out the details though, the superiors immediately see as a free resource to exploit and start throwing other things into the mix that I didn't agree to. Things I wouldn't have agreed to do for free if they'd been discussed upfront, but I will now feel bad turning down because I initially agreed to support a friend.
 
 The worst of these situations involved the opening of a huge technology education centre that had numerous state and federal ministers present for the ribbon cutting ceremony because of the millions of dollars of government and private sector money that had been invested into it... Not enough to pay for a keynote speaker though apparently. I was initially invited to be there in presence only, but a few days before the event my participation was suddenly bumped up to delivering the 10 minute keynote address that I'd otherwise charge quite a bit of money for.
 
