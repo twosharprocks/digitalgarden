@@ -1,7 +1,7 @@
 ---
 title: Mini Essay - Secret to dealing with work
 created: 2025-04-27
-updated: 2025-10-30
+updated: 2026-07-08
 status: tree
 draft: false
 tags:
@@ -10,9 +10,6 @@ tags:
   - work
 Related:
   - "[[Mini Essays]]"
----
-Related:
-
 ---
 Surviving any uncomfortable workplace always requires an evil secret plan on your part, and your current situation is no different.
 
@@ -23,6 +20,3 @@ The corporate experience is just as important though, as you work in a flexible 
 For you, the secret to working where you are for the last 10 months, and what will get you through the final 6, is knowing that this is a massive stepping stone towards the flexibility and income you desire. You're being sponsored to study the certification ([CISSP]({{< relref "posts/CISSP.md" >}})) which you've known for years is the goal, and you're gaining highly relevant experience in a vital field. The responsibility for fixing issues weighs heavily on you, and when it's combined with the organisational bureaucracy you witness, the result is soul-crushing. But if you step back from the responsibility and the misguided sense you "need to fix it all" then it's a very easy job to do, and it supports your end goals. 
 
 While work may have been a source of angst and depression for you over the last few months, having made the decision to leave has eased that pressure and allow you to recognise the real secret of working there - this is just a stepping stone to greater things. Finish the next 6 months, and get everything you need in terms of experience and certifications to go so much further.
-
----
-# References

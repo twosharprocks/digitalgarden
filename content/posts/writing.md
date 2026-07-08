@@ -39,6 +39,7 @@ Writing, essays, articles, book projects, older website posts, and notes about m
 - [Article - What's Your ppO2]({{< relref "posts/Article - What's Your ppO2.md" >}})
 # [Mini Essays]({{< relref "posts/Mini Essays.md" >}})
 
+- [Mini Essay - Secret to dealing with work]({{< relref "posts/Mini Essay - Secret to dealing with work.md" >}})
 - [Mini Essay - Not Fade Away (Jim Dodge)]({{< relref "posts/Mini Essay - Not Fade Away (Jim Dodge).md" >}})
 - [Mini Essay - Peaceful Warrior vs the Alchemist]({{< relref "posts/Mini Essay - Peaceful Warrior vs the Alchemist.md" >}})
 - [Mini Essay - Where do I want to be in 2028]({{< relref "posts/Mini Essay - Where do I want to be in 2028.md" >}})
@@ -68,7 +69,6 @@ Writing, essays, articles, book projects, older website posts, and notes about m
 - [Mini Essay - If you had a year to live]({{< relref "posts/Mini Essay - If you had a year to live.md" >}})
 - [Mini Essay - Kids Meals on Planes]({{< relref "posts/Mini Essay - Kids Meals on Planes.md" >}})
 - [Mini Essay - Mental Baggage]({{< relref "posts/Mini Essay - Mental Baggage.md" >}})
-- [Mini Essay - Secret to dealing with work]({{< relref "posts/Mini Essay - Secret to dealing with work.md" >}})
 - [Mini Essay - Why it's easy to put off writing]({{< relref "posts/Mini Essay - Why it's easy to put off writing.md" >}})
 - [Mini Essay - Your evil secret plan]({{< relref "posts/Mini Essay - Your evil secret plan.md" >}})
 - [Mini Essay - MechWarrior]({{< relref "posts/Mini Essay - MechWarrior.md" >}})
