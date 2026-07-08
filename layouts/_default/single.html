@@ -33,43 +33,43 @@
   {{- end -}}
 
   {{- if or .Params.created .Params.updated .Params.status .Params.tags $relatedItems -}}
-    <dl class="post-frontmatter">
+    <div class="post-frontmatter">
       {{- with .Params.created -}}
         <div class="post-frontmatter__row">
-          <dt>Created</dt>
-          <dd>{{ . | time.Format "2006-01-02" }}</dd>
+          <span class="post-frontmatter__label">Created:</span>
+          <span class="post-frontmatter__value">{{ . | time.Format "2006-01-02" }}</span>
         </div>
       {{- end -}}
 
       {{- with .Params.updated -}}
         <div class="post-frontmatter__row">
-          <dt>Updated</dt>
-          <dd>{{ . | time.Format "2006-01-02" }}</dd>
+          <span class="post-frontmatter__label">Updated:</span>
+          <span class="post-frontmatter__value">{{ . | time.Format "2006-01-02" }}</span>
         </div>
       {{- end -}}
 
       {{- with .Params.status -}}
         <div class="post-frontmatter__row">
-          <dt>Status</dt>
-          <dd>{{ . | printf "%v" | replaceRE "^#+" "" }}</dd>
+          <span class="post-frontmatter__label">Status:</span>
+          <span class="post-frontmatter__value">{{ . | printf "%v" | replaceRE "^#+" "" }}</span>
         </div>
       {{- end -}}
 
       {{- with .Params.tags -}}
         <div class="post-frontmatter__row">
-          <dt>Tags</dt>
-          <dd class="post-frontmatter__links">
+          <span class="post-frontmatter__label">Tags:</span>
+          <span class="post-frontmatter__value post-frontmatter__links">
             {{- range . -}}
-              <a href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">#{{ . }}</a>
+              <a href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">#{{ . }}</a>{{ " " }}
             {{- end -}}
-          </dd>
+          </span>
         </div>
       {{- end -}}
 
       {{- with $relatedItems -}}
         <div class="post-frontmatter__row">
-          <dt>Related</dt>
-          <dd class="post-frontmatter__links">
+          <span class="post-frontmatter__label">Related:</span>
+          <span class="post-frontmatter__value post-frontmatter__links">
             {{- range . -}}
               {{- $raw := . | printf "%v" | strings.TrimSpace -}}
               {{- if $raw -}}
@@ -92,16 +92,16 @@
                   {{- end -}}
                 {{- end -}}
                 {{- if $match -}}
-                  <a href="{{ $match.RelPermalink }}">{{ $label }}</a>
+                  <a href="{{ $match.RelPermalink }}">{{ $label }}</a>{{ " " }}
                 {{- else -}}
-                  <span>{{ $label }}</span>
+                  <span>{{ $label }}</span>{{ " " }}
                 {{- end -}}
               {{- end -}}
             {{- end -}}
-          </dd>
+          </span>
         </div>
       {{- end -}}
-    </dl>
+    </div>
   {{- end -}}
 
   {{ partial "cover.html" . }}

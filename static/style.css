@@ -81,31 +81,21 @@
 .post-frontmatter {
   border-bottom: 1px dashed color-mix(in srgb, var(--accent) 55%, transparent);
   border-top: 1px dashed color-mix(in srgb, var(--accent) 55%, transparent);
-  display: grid;
-  gap: 0.4rem;
   margin: 1rem 0 1.5rem;
   padding: 0.85rem 0;
 }
 
 .post-frontmatter__row {
-  display: grid;
-  gap: 0.75rem;
-  grid-template-columns: 6rem 1fr;
+  line-height: 1.6;
 }
 
-.post-frontmatter dt {
+.post-frontmatter__label {
   color: var(--accent);
   font-weight: 700;
 }
 
-.post-frontmatter dd {
-  margin: 0;
-}
-
 .post-frontmatter__links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem 0.75rem;
+  word-spacing: 0.2rem;
 }
 
 .sr-only {
@@ -129,8 +119,4 @@
     width: 100%;
   }
 
-  .post-frontmatter__row {
-    gap: 0.2rem;
-    grid-template-columns: 1fr;
-  }
 }
