@@ -15,8 +15,6 @@ Related:
   - "[[Adventure]]"
   - "[[About]]"
 ---
-Trip plans, expedition ideas, travel logistics, past trips, and upcoming trips
-
 # Upcoming
 - [Trip - Murra-Cocklebiddy - 2026 Aug]({{< relref "posts/Trip - Murra-Cocklebiddy - 2026 Aug.md" >}})
 

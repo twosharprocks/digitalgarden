@@ -353,6 +353,29 @@ def render_trips_index(query, notes, current_path=None):
     return "\n\n".join(sections)
 
 
+def render_old_website_posts(query, notes, current_path=None):
+    normalized = query.upper()
+    if not (
+        "WEBSITE - " in normalized
+        and "PATREON - " in normalized
+        and "FILE.NAME.STARTSWITH" in normalized
+    ):
+        return None
+
+    selected = []
+    for note in notes:
+        if current_path and note["_path"] == current_path:
+            continue
+        filename = note.get("_filename", "")
+        if filename.startswith("Website - ") or filename.startswith("Patreon - "):
+            selected.append(note)
+
+    selected.sort(key=lambda note: note.get("_filename", "").lower())
+    if not selected:
+        return "_No matching notes._"
+    return "\n".join(f"- {relref_link(note)}" for note in selected)
+
+
 def table_columns(query):
     table_match = re.search(
         r"(?is)^\s*TABLE\s+(.*?)\s+FROM\s+",
@@ -405,6 +428,9 @@ def render_dataview(query, notes, current_path=None):
     trips_index = render_trips_index(query, notes, current_path)
     if trips_index is not None:
         return trips_index
+    old_website_posts = render_old_website_posts(query, notes, current_path)
+    if old_website_posts is not None:
+        return old_website_posts
     if normalized.startswith("LIST"):
         return render_list(query, notes, current_path)
     if normalized.startswith("TABLE"):

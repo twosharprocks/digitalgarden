@@ -1,7 +1,7 @@
 ---
 title: Writing
 created: 2026-06-19
-updated: 2026-07-02
+updated: 2026-07-08
 status: Index
 draft: false
 tags:
