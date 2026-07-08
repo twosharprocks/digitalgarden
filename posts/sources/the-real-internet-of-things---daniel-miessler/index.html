@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>The Real Internet of Things - Daniel Miessler :: Digital Garden</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+Acknowledgments Thanks to Saša Zdjelar, Andrew Ringlein, and Jason Haddix for reading various fragments and versions of this text. Your input and support throughout this precarious first-book experience was deeply felt and appreciated.
+Introduction The &ldquo;Internet of Things&rdquo; means many different things to many different people, so let&rsquo;s start with what this book is and is not.
+This book is not about the transient technical details that will inevitably transition over the next few years. It&rsquo;s early, and there will be countless iterations and battles over standards.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/sources/the-real-internet-of-things---daniel-miessler/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css?v=orange-default">
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="The Real Internet of Things - Daniel Miessler">
+<meta property="og:description" content="
+Acknowledgments Thanks to Saša Zdjelar, Andrew Ringlein, and Jason Haddix for reading various fragments and versions of this text. Your input and support throughout this precarious first-book experience was deeply felt and appreciated.
+Introduction The &ldquo;Internet of Things&rdquo; means many different things to many different people, so let&rsquo;s start with what this book is and is not.
+This book is not about the transient technical details that will inevitably transition over the next few years. It&rsquo;s early, and there will be countless iterations and battles over standards.
+" />
+<meta property="og:url" content="/posts/sources/the-real-internet-of-things---daniel-miessler/" />
+<meta property="og:site_name" content="Digital Garden" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+<script defer src="/search.js"></script>
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Digital Garden
+  </div>
+</a>
+
+    </div>
+    <div class="site-search" role="search">
+      <label class="sr-only" for="garden-search">Search the digital garden</label>
+      <input
+        id="garden-search"
+        class="site-search__input"
+        type="search"
+        placeholder="Search pages..."
+        autocomplete="off"
+        aria-autocomplete="list"
+        aria-controls="garden-search-results"
+        aria-expanded="false"
+      >
+      <div
+        id="garden-search-results"
+        class="site-search__results"
+        role="listbox"
+        hidden
+      ></div>
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/sources/the-real-internet-of-things---daniel-miessler/">The Real Internet of Things - Daniel Miessler</a>
+  </h1>
+  <div class="post-meta"></div><dl class="post-frontmatter"><div class="post-frontmatter__row">
+          <dt>Tags</dt>
+          <dd class="post-frontmatter__links"><a href="/tags/unread/">#unread</a><a href="/tags/source/">#source</a><a href="/tags/personal/">#personal</a><a href="/tags/cyber-security/">#cyber-security</a></dd>
+        </div><div class="post-frontmatter__row">
+          <dt>Related</dt>
+          <dd class="post-frontmatter__links"><a href="/posts/reading/">Reading</a></dd>
+        </div></dl>
+
+
+  
+
+  <div class="post-content"><div>
+        <p><img src="https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/dbbb63a3-96fb-42ff-b6de-f577ab88e6e2/triot-blog-cover.png?t=1745508347" alt="The Real Internet of Things"></p>
+<h2 id="acknowledgments">Acknowledgments <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#acknowledgments"></a><a href="#acknowledgments" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Thanks to Saša Zdjelar, Andrew Ringlein, and Jason Haddix for reading various fragments and versions of this text. Your input and support throughout this precarious first-book experience was deeply felt and appreciated.</p>
+<h2 id="introduction">Introduction <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#introduction"></a><a href="#introduction" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>The &ldquo;Internet of Things&rdquo; means many different things to many different people, so let&rsquo;s start with what this book is and is not.</p>
+<p>This book is not about the transient technical details that will inevitably transition over the next few years. It&rsquo;s early, and there will be countless iterations and battles over standards.</p>
+<p>What this book is about is an inevitable IoT that I believe isn&rsquo;t just a technology upgrade, but a humanity upgrade.</p>
+<p>There are three central themes throughout: <em>prediction</em>, <em>interface</em>, and <em>evolution</em>.</p>
+<p><em>Prediction</em> argues&mdash;against common opinion&mdash;that it is possible to see what technology will look like even decades into the future. It&rsquo;s not that I can tell you all the forms water could take (that&rsquo;s insanity), but what I <em>can</em> tell you is the shape of a pothole in a rainstorm.</p>
+<p><em>Interface</em> describes how our interactions with technology are about to become fundamentally less tech-centric and more natural and focused around the human.</p>
+<p><em>Evolution</em> discusses the discussed technologies&rsquo; ultimate form and function, its value to humans, and the effect it will have on society.</p>
+<p>It&rsquo;s a short book, made up of around twenty micro-chapters of one to three pages. Each one introduces a single, discrete concept and has a numbered summary that captures the key points.</p>
+<p>You can easily read the whole thing in one session, and when you&rsquo;re done I believe you&rsquo;ll have a unique view into the inevitable intersection between technology and society.</p>
+<p>I&rsquo;m aware of the strength of that claim, so let&rsquo;s get started.</p>
+<h2 id="prediction-and-trends">Prediction and Trends <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#prediction-and-trends"></a><a href="#prediction-and-trends" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Before we discuss the main concepts, I want to call out a number of technological and civilizational trends that are useful to notice and observe. While the forces are somewhat independent, they often interact with one another, and when grouped together they can show us a great deal about where we&rsquo;re going.</p>
+<p>First, you might still be stuck on the massive claim made in the introduction.</p>
+<blockquote>
+<p>Is this guy really so arrogant as to think he can predict technology decades into the future? Only geniuses and fools attempt this, and most who think they&rsquo;re the former are actually the latter.</p>
+</blockquote>
+<p>I hear you, and I agree. When I hear crazy long-term predictions I always think two things: either the prediction is going to be obvious, or it&rsquo;s going to be wrong.</p>
+<p>I think my approach is different in a subtle and powerful way. Rather than predicting the exact form, of the exact tech, in the exact order that it&rsquo;ll emerge, I&rsquo;m taking a reverse engineering approach.</p>
+<p>Specifically, instead of starting with tech and seeing where it&rsquo;s going, I&rsquo;m starting with humans and what they seek, need, and desire. In other words, I think we can predict the future of technology through a strong understanding of what humans ultimately want as a species.</p>
+<p>So if you want to know the shape of water&mdash;which can take any shape&mdash;your strongest play is to study the shape of the potholes (and other containers) it&rsquo;ll end up in.</p>
+<p>To that end, humans have always sought forms of the following:</p>
+<ul>
+<li>enjoying friends and family</li>
+<li>telling, or listening to, a great story</li>
+<li>falling into, and enjoying, romantic love</li>
+<li>having children and seeing them thrive</li>
+<li>creating useful and/or beautiful things</li>
+<li>becoming more socially influential</li>
+<li>receiving attention and praise from others</li>
+<li>becoming more powerful</li>
+</ul>
+<p>These were fundamental human desires 100,000 years ago, and they remain so today. So that brings us this question:</p>
+<blockquote>
+<p>How do we maximize these experiences and capabilities within us, both at an individual level and at the level of society?</p>
+</blockquote>
+<p>Answering that question is the ultimate purpose for technology, and the following trends are some of the forms that this change will take.</p>
+<p><em>From centralized to peer-to-peer</em></p>
+<p>We&rsquo;re moving from a world of proxies and mediators to a world of direct interactions. They may use a platform, but the interactions are increasingly between individuals rather than from individual to broker and broker to individual. Not only are direct interactions more efficient, they reduce the opportunity to control others by limiting their access to services.</p>
+<p><em>From forced to natural</em></p>
+<p>Because we as humans are still fundamentally what we were on the African plains, technology interfaces that flow naturally with our human intuitions and behaviors will dominate those that require superfluous, foreign actions to work. Expect technological interfaces to move steadily towards thinking, speaking, gesturing, and otherwise emoting, as these are the most human of all behaviors.</p>
+<p><em>From obvious to invisible</em></p>
+<p>Technology that distracts from thinking, speaking, and emoting by being obtuse or otherwise distracting will lose to technologies that are invisible. Expect to see technology disappear to whatever degree possible based on current advancement.</p>
+<p><em>From manual to automatic</em></p>
+<p>Some tasks are manual and can give pleasure in their execution, such as cooking or tending to a garden. Other tasks are tedious and without redeeming qualities. Expect all such tasks, such as paying bills, handling insurance, driving to work, keeping ones&rsquo; living space clean, etc., to be handled by technology.</p>
+<p><em>From periodic to continuous</em></p>
+<p>Many activities only happen periodically because they are resource (time, money, attention) intensive to execute. These include: assessing the value of assets, adjusting insurance rates, checking the health and happiness of various groups, etc.</p>
+<p><em>From private to open</em></p>
+<p>Private information is sensitive because it is private. A natural way to reduce the sensitivity of data (and therefore the risk associated with its loss and misuse) is to have the data become more public in nature. We won&rsquo;t need to do anything to make this happen (although some will try to speed the process for various reasons). It&rsquo;ll mostly take place on its own simply because 1) the value and scale of private data usage in thousands of connected systems and companies, 2) the lifespan of sensitive data (D.O.B/Address/etc.) is much longer than is practical to rotate, and 3) the fact that it&rsquo;s easier to add data to the public knowledge store than it is to remove it.</p>
+<p><em>From visual to multi-sensory</em></p>
+<p>While visual and audible inputs are the most natural in terms of interacting outside ourselves, we should expect the use of touch and smell to be incorporated into more and more interfaces. This will happen simply because they provide additional native bandwidth into the brain in a way that can be both rich and subtle at the same time.</p>
+<p><em>From aggregated to curated</em></p>
+<p>Information services were initially focused on providing as much data to the user as possible because we were information starved. Now the problem is the opposite: Instead of needing more information, we are now overwhelmed by it and are instead in need of filters. The trend, therefore, is to move from raw information being provided to the user, towards the data being processed and tailored by services that produce relatively few curated results.</p>
+<p>*From designed to evolved *</p>
+<p>Perhaps the apex of all trends, this deals with the transition from design to evolution, or from top-down to bottom-up. It&rsquo;s from small numbers of ideas pushed downward by small numbers of people, who think they know best, to large numbers of ideas combined, mutated, and spread laterally and upward by everyone.</p>
+<p>The primary benefit of this shift is that ideas will massive variation and are free to combine and be tested as viable solutions to problems. When this combination, mutation, and testing of ideas is performed continuously we end up with infinitely more chances to fail and adjust the approach, ultimately leading to superior outputs.</p>
+<p>Many of the concepts discussed starting in the next section will vibrate at the frequency of one or more of these trends.</p>
+<h2 id="universal-daemonization">Universal Daemonization <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#universal-daemonization"></a><a href="#universal-daemonization" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>There currently isn’t a good way to maintain real-time information about objects in the world.</p>
+<p>The way it’s currently done is indirect in a way that will seem primitive once we leave it behind. If you want information about a human, for example, you can’t contact the human directly. Instead you need to contact assorted third-party collections of information about them, and basically cobble together a best-case view.</p>
+<p>Where is that data located? Hard to say&mdash;could be lots of places. What format is it in? Many options available there too. When was it last updated? That varies. How accurate is the information? Well, that’ll require research to determine.</p>
+<p>It&rsquo;s gross.</p>
+<p>The eventual and forthcoming solution is to have information about objects emanate from the objects themselves. The centerpiece of evolved information architecture will be to have objects serve (or appear to serve) as their own sources of truth, with what I call a daemon (DAY-mun) serving as the interface.</p>
+<p>All objects will have these daemons. Cars, houses, buildings, cities, businesses, etc. Objects will conceptually emanate their daemons from their physical locations, like a broadcast. Sometimes this will be associated with actual local and physical signals, but will usually be handled through precise online geolocation.</p>
+<p>People will interact with objects through their daemons, which will be fully functioning interfaces that allow you to push and pull information as well as modify configurations and execute commands. In traditional computer terms, objects will have universally understood&mdash;and functionally comprehensive&mdash;APIs.</p>
+<p>Daemons will first come to large objects, but will be useful for increasingly smaller, more granular, and more conceptual objects over time. Park benches, trees, sofas, clothing, etc. Physical objects will be obvious enough, but the subsequent step will be to add daemons to conceptual and virtual objects as well, such as businesses, contracts, applications, operating systems, relationships, etc.</p>
+<p>The remarkable thing about these daemons is that the technology that will be used to build them is already quite common and available. These are technologies such as TCP/IP, IPv6, HTTPs, and RESTful services. Daemons will be very much like web services technology, which millions of developers already know how to use.</p>
+<p>So this is the first building block: every object has a daemon&mdash;An API to the world that all other objects understand. Any computer, system, or even a human with appropriate access, can look at any other object’s daemon and know precisely how to interact with it, what its status is, and what it’s capable of.</p>
+<p>Most importantly, humans themselves will also have daemons, and we’ll be moving through a world full of other daemons. Human daemons will hold all information about a person, compartmentalized based on type, sensitivity, access restrictions, etc., and that data will be used to send hyper-personalized requests to the daemons around us.</p>
+<p>Walking a city block could bring us in contact with hundreds or thousands of them. Every business. Every car. Every person. The street lights, the city cameras, the park benches, the restaurants, the businesses, and the buildings.</p>
+<p>Everything will have information and configuration options available, requests we can make, commands we can issue, and it will all be available through standardized protocols and schemas that the whole world speaks fluently.</p>
+<p><strong>Summary</strong></p>
+<ol>
+<li>The future of information architecture is for objects to become authoritative for their own data.</li>
+<li>Every object in the world will have a daemon that presents itself in a common, transparent, and universally accessible way.</li>
+<li>Daemons will be fully interactive, with the ability to learn about the object as well as interact with and/or control it.</li>
+<li>The protocols for building and using the daemons will be standard across the world.</li>
+</ol>
+<h2 id="realtime-data">Realtime Data <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#realtime-data"></a><a href="#realtime-data" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Perhaps the best way to think of a daemonized world is to imagine a fabric of interactive and interconnected nodes made up of every object.</p>
+<p>Then imagine each of these nodes having instant access to the state of every other node in the fabric. Except it&rsquo;s not just knowledge of state, but the ability to modify, adjust, and command those nodes based on needs, desires, and access.</p>
+<p>The power of this should not be underestimated.</p>
+<p>Unbelievable amounts of waste can be attributed to imprecise guesses about the state and nature of reality. How far is that city? Is that person married or single? How many people do I know within two city blocks? How many devices are plugged into power on this city block? How happy is this country compared to that one, and what are the factors for that difference?</p>
+<p>These are ephemeral truths that have always been to us for any given moment in time because the fact&rsquo;s lifespan has always been shorter than its acquisition period. Stated differently, it always took so much time and resources to learn this information, assuming we knew enough to ask the question correctly from the beginning, that it would often be stale by the time it was gathered, making the whole effort a waste.</p>
+<p>When objects maintain their own precise, authoritative, and realtime state, and when that information is available to every other object in the world in a fraction of a second, our connection to reality changes dramatically.</p>
+<p>At that point, sensors simply become inputs for realtime data streams published through daemonization. This includes sensors for: light, sound, heat, vibration, chemical composition, EM/RF energy, etc. Cameras and microphones (light and sound sensors) will be the most powerful and prolific of these, and they&rsquo;ll be transformed from hardware used by applications to sensors used to supply data to algorithms.</p>
+<p>We learn about the world through analysis of data. We use machine learning and other types of Artificial Intelligence to look at data and give us answers to interesting questions, as well as, to help us ask better ones.</p>
+<p>This will be done through a hybrid of local and global resources as is required by the particular application. Certain real-time applications will require instant responses and won&rsquo;t have time to go to the network and back, while others will not have such constraints.</p>
+<p><em>[ NOTE: I prefer the term &ldquo;synthetic&rdquo; vs. &ldquo;artificial&rdquo; intelligence, as its capabilities will end up being just as real as our own despite having non-biological origins. ]</em></p>
+<p>But the problem will continue to be the collection and curation of that data. What daemonization provides is an infinite stream of data coming from the sources themselves, i.e., trillions of objects telling you their exact state at every moment&mdash;constantly.</p>
+<p>Think about universal interfaces between data analysis algorithms and the sources of data they consume. Think about every object&rsquo;s data being presented in a way that natively facilitates continuous data analysis at scale.</p>
+<p>From the practical, &ldquo;What percentage of moving vehicles in Colorado currently have more than two people in them?&rdquo;, to the specific, &ldquo;Which top three factors most caused unhappiness in the city of London within the last 24 hours?&rdquo; The point is not any particular query, but rather that we&rsquo;ll be able to ask nearly <em>any</em> question and almost instantly know the answer.</p>
+<p>When combined with Synthetic Intelligence powered continuous analysis, this is not just game-changing&mdash;it&rsquo;s civilization-changing.</p>
+<p>And that&rsquo;s just the <em>reading</em> part of daemon capabilities.</p>
+<p><strong>Summary</strong></p>
+<ol>
+<li>The lack of realtime data about the world severely restricts our ability to learn about it.</li>
+<li>Universal Daemonization will provide us accurate realtime data about the objects in our world.</li>
+<li>This enables sensors (such as light and sound) to continuously feed realtime data into analysis algorithms.</li>
+<li>This will enable us to have a realtime view of the entire world, constrained only by how much we can evaluate at one time.</li>
+</ol>
+<h2 id="frictionless-interaction">Frictionless Interaction <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#frictionless-interaction"></a><a href="#frictionless-interaction" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>We&rsquo;ve seen the benefits of realtime data for gathering information about the world, but the interactive part of daemons will prove even more powerful. Daemons will likely begin as REST APIs, and all manner of intuitive endpoints will be available depending on the object.</p>
+<p>Restaurants will have <em>/information</em>, and <em>/business</em>, and <em>/menu</em>, and <em>/climate</em>, and <em>/entertainment</em>, among dozens of others. The parent organization for the restaurant will query the <em>/statistics</em> endpoint constantly to know exactly how many patrons are present, what they&rsquo;re eating, what they&rsquo;re talking about, which waiters they prefer, which meals they finish and which they don&rsquo;t, etc.</p>
+<p>This is not updated every hour or every day&mdash;it&rsquo;s updated many times per second as interactions from other daemons within the restaurant stream in.</p>
+<p>So when a customer wants to order, they (actually their assistant) will do so by transparently interacting with the restaurant&rsquo;s <em>/menu</em> endpoint. When it&rsquo;s time to pay, it&rsquo;ll be done automatically via the <em>/payment</em> endpoint. If they want information on what&rsquo;s showing on the displays, or who the waiters are, or what type of live music will be here this week, they can get all of that easily from the daemon as well.</p>
+<p>The same will apply to vehicles and people and cities, with endpoints such as <em>/routes</em>, and <em>/preferences</em>, and <em>/population</em> as respective examples.</p>
+<p>This is all powerful, but there’s a problem. What are we as individual humans supposed to do with these thousands of daemons that constantly surround us? How can we possibly parse all that information and make use of it, let alone manage all the requests we&rsquo;ll be submitting on our own behalf?</p>
+<p>We can’t really. That’s what Synthetic Intelligence is for.</p>
+<p><strong>Summary</strong></p>
+<ol>
+<li>Daemons not only enable data gathering about objects, but also the making of requests and other types of interactions.</li>
+<li>The various intuitive functions of an object will be presented in this way, depending on the type of object.</li>
+<li>In order to make use of daemonization, we&rsquo;ll need to be SI-augmented.</li>
+</ol>
+<h2 id="digital-assistants">Digital Assistants <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#digital-assistants"></a><a href="#digital-assistants" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>The most visible and significant role that Synthetic Intelligence will play in the near future will be serving as the interface between humans and the world.</p>
+<p>To clarify, I don’t mean the ever-promised, conscious, and self-improving brand of SI that so much science fiction is based on. The SI I’m referring to I define as:</p>
+<blockquote>
+<p>A computer system that can monitor human context, intentions, and commands, interpret them, and then take action as well as or better than a (human) professional personal assistant.</p>
+</blockquote>
+<p>Whether this comes from extraordinary breakthroughs that result in true SI (however you define that), or a mere combination of clever tricks that can emulate it, matters little.</p>
+<p>It’s been noted, by many who’ve entered the upper classes, that nothing magnifies productivity and individual effectiveness more than having a good personal assistant. Personal mobile devices combined with SI will bring this advantage to countless more people through digital assistants, and the benefits will be substantial.</p>
+<p>To clarify, it’s not simply that digital assistants (DAs) will be intelligent, that they’ll know our preferences, and that they’ll be able to adjust the world to our liking. What’s more significant is that they will do this for us continuously.</p>
+<p>The preferences piece is essential, because the better your DA understands you the better it can represent you when making requests on your behalf. Your DA will be essentially bound to your own personal daemon, and it will have access to the most protected information within it. Most notably, your preferences and experiences, which will both be used to help construct the ideal contextual requests on your behalf.</p>
+<p>This will change how we interact with everything.</p>
+<p>The current model is for you to physically manipulate technology, most of which has widely varied interfaces. So you have to find the interface, learn it, and then (hopefully) start using it in some fairly unique way. Then, when you use a different product or service, repeat the process all over again.</p>
+<p>The new model is far more simple: voice, gestures, and text. Voice and gestures are part of our natural human communication paradigm and are thus extremely comfortable already, but text has arguably become (for a large portion of the population) a new equivalent of voice. With text you&rsquo;re not learning or using a new tech interface&mdash;you&rsquo;re simply &ldquo;speaking&rdquo; in a different way and it&rsquo;s the job of the other side to sort out what you meant.</p>
+<p>So instead of interacting with technology directly, we will interact with our DA, and our DA will work out the details with the necessary daemon. We speak, things happen. We gesture, things happen. We text, things happen. No need to find, understand, or master new tech&mdash;that&rsquo;s for the service and the DA to work out amongst themselves.</p>
+<p>What’s important is that Digital Assistants will become the preferred interface between humans and the world in a disruptive and foundational way. The idea of having technology that can do something, but that cannot be used perfectly by a DA on your behalf, will soon become extremely uncommon except for specific use-cases.</p>
+<p><strong>Summary</strong></p>
+<ol>
+<li>Daemons are designed to be used by machines, not humans, and the number of interactions required to make them useful will be dozens, hundreds, or thousands per second.</li>
+<li>Humans simply cannot (and should not) interact with daemons in this way, and digital assistants using SI will be the broker between us and the technology.</li>
+<li>Services (which nearly everything will become) will be designed (and/or retrofitted) to be consumed by Digital Assistants, not by humans.</li>
+<li>Humans interact with DAs, and DAs interact with the world.</li>
+</ol>
+<h2 id="tireless-advocate">Tireless Advocate <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#tireless-advocate"></a><a href="#tireless-advocate" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>One of the most powerful aspects of Digital Assistants is that they will be constant and inexhaustible consumers of the world’s services on behalf of their principals.</p>
+<p>What music should you listen to? What food should you try? Who should you date? In all of these examples there are thousands or millions of options, but your DA can bring that down to one or a few based on its knowledge of you combined with the help of some services that specialize in this. That’s curation, and in an environment where there is far too much information for anyone to manage, it’s going to become one of the most pronounced benefits to SI-based Digital Assistants.</p>
+<p>Think about how much information there is in the world that might help you at any given moment. In books, in articles, in video. In the postings of friends, family, and experts. This will all be harvested for you, while you sleep, while you&rsquo;re distracted, and while you work on other projects.</p>
+<p>It&rsquo;s hard to quantify how much value there is for you to benefit from, but your Digital Assistant will work diligently, using all this context, without rest, in multiple concurrent threads, to find everything in the world that could help you in some way. It will then make use of even more services to curate that data for you and then present it to you in the best possible way.</p>
+<p><strong>Summary</strong></p>
+<ol>
+<li>Your DA will use its knowledge of your preferences to be the best possible advocate.</li>
+<li>Your DA will not sleep, will not rest, and will not get distracted. And it (unlike humans) can actually multi-task.</li>
+<li>While you are doing other things (or nothing) your DA will be scouring the world for ways to optimize your life based on your needs, desires, and goals.</li>
+</ol>
+<h2 id="augmented-reality">Augmented Reality <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#augmented-reality"></a><a href="#augmented-reality" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Augmented Reality is a particularly important addition to the combination of Daemonization and Digital Assistants, as it will give humans entirely new ways of seeing and interacting with the world.</p>
+<p>When you look at a strange person in a non-augmented (NAUG) way, you see only what light bounces off of them. You hear only what sounds they can make themselves.</p>
+<p><em>[ NOTE: AUG and NAUG refer to whether someone is enhanced or not by a responsive technology system like a digital assistant. AUG is short for Augmented, and NAUG is short for Non-Augmented. The short and/or spoken versions of these (one syllable) are “Og” and “Nog”. An example of usage would be to have someone ask after hearing of a high score on a history test, “Wow, was that aug or naug?” ]</em></p>
+<p>With daemonization, objects will have extraordinary amounts of data available about them, but, as discussed, humans will be unable to innately interpret that data.</p>
+<p>Using the combination of visual, audio, and other sensory enhancement, DAs will use various services (business Daemons/APIs) to create enhanced overlays onto the world. These overlays, or filters, or skins, will communicate context and capabilities available in the surrounding reality that humans would not otherwise be able to see.</p>
+<p>Two things are critical for optimal Augmented Reality (AR) experience: Context, and Subtlety.</p>
+<ul>
+<li>With context, DAs will understand the preferences, mood, and intentions of their principals, and they will use this to decide what should be presented to the user through various means, e.g., the visor/lens, temperature adjustments, vibrations, audibly through their earpieces, or even potentially via smell/taste.</li>
+<li>Subtlety refers to how the information is conveyed. It will obviously be possible to overlay giant red text on top of a building that reads “CLOSED”, but a simple reddish hue, or a black and white overlay will no-doubt be preferred. Many companies will emerge that excel at producing the best possible experiences of this kind, which will require a combination of creativity, design, and UI/UX expertise.</li>
+</ul>
+<p>Now imagine the various contexts that can exist as one moves through life in a given day, and the type of augmented interfaces that can accompany those contexts.</p>
+<ul>
+<li>Looking at a street and having all open shops be green.</li>
+<li>Seeing all highly rated restaurants with a star above them.</li>
+<li>Hearing a musical chime when you talk to someone who is a musician.</li>
+<li>Hearing a backdrop of scary music when you enter a dangerous area.</li>
+<li>Seeing a wordcloud on someone&rsquo;s chest representing what others think of them.</li>
+<li>Seeing a truth indicator as a red or green field of vision halo while talking to a stranger.</li>
+<li>Being able to follow a holographic person or familiar/animal as a form of guided walking directions.</li>
+<li>A mood indicator for the room you&rsquo;re in.</li>
+<li>Different music accompanies proximity with people based on their relationship status.</li>
+<li>A Cupid icon floats above romantic matches.</li>
+<li>Best friends or couples who are together are seen with a &ldquo;besties&rdquo; or &ldquo;lovers&rdquo; label near them.</li>
+</ul>
+<p>There will be thousands of these, all made possibly by the combination of these components:</p>
+<ol>
+<li>Everything is daemonized and displaying data about themselves.</li>
+<li>Your DA knows your preferences, your current context (happy, lonely, angry, sad, etc.) and is parsing all those daemons.</li>
+<li>Based on the intersection between those two, your DA uses various AR services (which are business services themselves) to display a contextually rich overlay upon the world.</li>
+</ol>
+<p>Companies will specialize, in other words, in making the perfect overlay on a person when they are a romantic match. It&rsquo;s subtle, elegant, and you at once barely notice it and get extreme value from it. And companies will compete to be the AR interface used by DAs for that purpose. And it will be the same for restaurants, detecting danger in an environment, or displaying food on a menu.</p>
+<p>The way you see, and can interact with, the world will be constantly augmented in subtle ways based on information your DA knows about you and the environment. And you&rsquo;re not doing anything but going about your day.</p>
+<p><strong>Summary</strong></p>
+<ol>
+<li>Businesses will be competing to artfully display information about reality as AR overlays.</li>
+<li>These overlays are populated by object daemons combined with the preferences and context of the principal.</li>
+<li>Your DA determines based on preferences and context which filters to use at any given time.</li>
+</ol>
+<p>So with this discussion of Augmented Reality, we&rsquo;ve now combined the three core concepts and technologies that make up the main changes to <em>Interface</em>:</p>
+<ol>
+<li>The Universal Daemonization of all objects.</li>
+<li>Digital Assistants that interact with technology on our behalf.</li>
+<li>Augmented Reality that adjusts how we perceive and interact with the world based on our preferences and context.</li>
+</ol>
+<p>Now let&rsquo;s talk about some of the infrastructure that we&rsquo;ll need to make it all work.</p>
+<h2 id="identity-and-authentication">Identity and Authentication <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#identity-and-authentication"></a><a href="#identity-and-authentication" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>A key component of daemonization is the fact that each person’s (or object’s) daemon represents their unique and centralized identity online, and all object daemons are speaking authoritatively as themselves.</p>
+<p>So when a DA requests to see products, requests a ride, votes for something, pays for meals, opens doors, or sends a payment to someone, these actions will all come from the centralized identity of the principal that all receiving systems can associate properly. The receiving daemon will then determine whether the requesting entity is able to perform the action in question, and will either approve or deny it.</p>
+<p>This is the same way that access is limited to one’s own daemon. Only certain people can interact with a daemon to pull information, make requests, etc., depending on the sensitivity of the data/action and the requester’s relationship to it. So when someone authenticates to their device&mdash;a mobile device for example&mdash;they’ll be proving that they not only own that device, but also that they are authorized to broadcast and update their daemon as well.</p>
+<p>Their DA will then be given access to their daemon, and then they can go about their regular activities.</p>
+<p>However, this is going to require a very different approach to authentication.</p>
+<p>Right now our identities, and authentication thereof, are handled in a very primitive way. We are who we are because we know something that anyone else could easily know. Or because we have something that anyone else could have. Fingerprints, iris scans, and other types of biometric authentication help, but they don&rsquo;t solve the problem.</p>
+<p>The problem is the Last Mile of Authentication, meaning the links between the user, the device, and requests coming from the device, aren&rsquo;t strong enough to enable the kind of functionality that will come with daemonization.</p>
+<p>I believe what we&rsquo;re going to move to is continuous authentication, and I think it&rsquo;ll make use of a separate type of service, which I&rsquo;ll call an Identity Validation Service (IVS). And rather than your authentication being based on one thing, or even two or three, it&rsquo;ll be based on dozens or hundreds.</p>
+<p>People and things will constantly stream data points to the IVS, and those markers will be used to maintain a real-time confidence rating that the person (or thing) is actually itself. For humans that&rsquo;ll mean you&rsquo;ll be streaming your voiceprint, your fingerprints, the shape of your face, the way you walk, the places you normally are, the sounds in the area, your heartbeat, and dozens of others.</p>
+<p>All these flow in constantly to the IVS. Then, when your DA goes to make a request to a daemon on your behalf, it will send your request with a number of signatures. It&rsquo;ll be signed by the device, perhaps some other entities, but <em>most importantly</em>, the request will be signed by the IVS. The signature will include a confidence score that&mdash;for this particular request, at this particular time&mdash;the service is X% confident that it&rsquo;s in fact the right person making this request.</p>
+<p>So if someone grabs your mobile device and starts running, they&rsquo;re suddenly lacking wearable input, they&rsquo;re sprinting in a way that&rsquo;s different from you, and when they try to enter a password (which they somehow know) they type differently than you and/or their voice is different. This is all streamed to the IVS (maybe combined with a theft report you just made from your watch), and the IVS is now refusing to sign requests made from that system. Your DA also disassociates from the device.</p>
+<p>Additionally, different types of requests will have different levels of sensitivity. Most things you want to do, and that your DA will request for you, will require no additional authentication prompts because your authentication stream and its associated confidence level will be adequately strong. But for certain events, like sending large sums of money, or entering protected areas, your DA might prompt you to authenticate in some way. The requirement will be mapped to the sensitivity of the activity and will depend on how deeply and securely you&rsquo;re already authenticated through your stream.</p>
+<p>This is the type of identity and authentication system that will be needed for a daemonized world where your DA is making dozens, hundreds, or thousands of requests on your behalf throughout the day.</p>
+<p><strong>Summary</strong></p>
+<ol>
+<li>Daemonization will require an extremely robust identity and authentication infrastructure.</li>
+<li>Each object will be presenting authoritatively as itself.</li>
+<li>Authentication will move from a periodic model to a continuous model, and will make use of an Identity Validation Service.</li>
+<li>Most authentication will be transparent, but certain sensitive activities will require additional, DA-brokered prompts.</li>
+</ol>
+<h2 id="reputation-as-infrastructure">Reputation as Infrastructure <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#reputation-as-infrastructure"></a><a href="#reputation-as-infrastructure" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Once identity (supported by proper authentication) is thoroughly established, the next thing it&rsquo;ll enable is a rich reputation infrastructure.</p>
+<p>Reputation has been a crucial human attribute for thousands of years. Whether you’re in a village, a family, or a corporation, your reputation largely makes the difference between opportunity and obsolescence.</p>
+<p>Universal Daemonization will greatly magnify the impact of reputation because it will now be global instead of local, and will be validated by third-parties.</p>
+<p>This will turn reputation into one of the most important attributes of a person or business, since it’ll determine whether someone wants to interact with you or not&mdash;as a business, as an institution, and as an individual. Again, it&rsquo;s not actually a new thing. It&rsquo;s been the case since the beginning; it&rsquo;ll simply convert to being represented digitally by being part of your daemon.</p>
+<p>Reputation, just as in reality, does not mean just one score. It refers to the multitude of ways that various things are rated, combined with the validation of those ratings by trusted parties.</p>
+<p>There will be many types of ratings:</p>
+<ul>
+<li>Reliability at work</li>
+<li>Quality of work</li>
+<li>Attention to detail</li>
+<li>Reliable when friends need you</li>
+<li>Punctuality</li>
+<li>Knowledge of Victorian literature</li>
+<li>Sense of humor</li>
+<li>Attractiveness</li>
+<li>Charisma</li>
+<li>Agreeableness</li>
+<li>Skill with misbehaving dogs</li>
+<li>Attention to detail</li>
+<li>Film sophistication</li>
+<li>Loyalty to employer</li>
+<li>Ability to make complete strangers feel better about themselves</li>
+</ul>
+<p>There will be dozens of primary ratings and thousands of subcategories.</p>
+<p>One important component of these ratings is that updates to them will stream in continuously from the world. When you make someone laugh, when someone makes comments about you, when you receive a comment on a job you performed, or a performance you gave, etc.</p>
+<p>These inputs will be captured by whatever is capable and filtered, interpreted, and weighed by organizations that specialize in ensuring only authentic adjustments are made to your reputation scores. These same companies will then sign/authenticate your scores for consumption, so that anyone looking at the ratings know they are authentic.</p>
+<p>Ratings can also appear variably to different people, based on one’s weighing of different sources. If someone scores a 79 in Humor, for example, but nine of my closest friends, which I find hilarious, score them at an 85 or above, the score I see may show higher. The same will go for any other rating. Ratings from people you trust, or with similar perspectives, can adjust aggregate ratings.</p>
+<p>Most importantly, these ratings will become key attributes of people. They will indicate (with varying levels of accuracy) how smart you are, how funny you are, how reliable you are, how loyal you are as a friend, how attractive you (and others) think you are, how strong you are, quality and level of education, how much money you make, etc.</p>
+<p>People will largely control what their daemons are displaying about themselves, so many will choose not to display many things in their daemons, or to only display them to a restricted group of people. But it should fail to surprise that many will display significant amounts of data about themselves.</p>
+<p>There are a number of key use cases for these ratings, but one of the most important ones will be the interaction with augmented reality. As people look at other people or objects they will see not just the object itself but information about that object that your DA thinks is most useful at that moment based on your current context.</p>
+<p>Your DA may overlay data on an unaltered view of the object, or it may convey the information through modification of the object itself. It could give dangerous people horns, or kind people halos. It could show you highly-rated businesses in color while greying out low-rated options. The options are plentiful and we can expect them to be explored.</p>
+<p>Signaling our capabilities to others is one of the most innate and powerfully human behaviors we participate in, we already do this constantly in a myriad of ways. Daemonization and augmented reality will simply make this activity more explicit and accessible.</p>
+<p><strong>Summary</strong></p>
+<ol>
+<li>Our daemons will host and present dozens of ratings (and thousands of subratings) about us.</li>
+<li>Ratings will be validated by third parties so that DAs, people, and objects viewing your daemon will know which ratings to trust when making decisions.</li>
+<li>These scores will then be used by the world to make decisions about whether to interact with said person (or object) in various ways.</li>
+</ol>
+<h2 id="continuous-customization">Continuous Customization <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#continuous-customization"></a><a href="#continuous-customization" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>In addition to curation and advocacy, digital assistants will also provide another key type of experience enhancement&mdash;continuous customization of our environment according to one&rsquo;s desires and preferences.</p>
+<p>When you consider all potentially customizable elements of a restaurant, a vehicle, a workplace, a home, or even a city street, you start to realize the impact this will have.</p>
+<p>There are two main ways things can be customized, objects themselves can be customizable (e.g., the interior of a piece of furniture, the interior of a vehicle or workplace, etc.)&mdash;and you can also customize experiences.</p>
+<p>When you enter a resort or a restaurant or something similar, there are countless interactions that actually occur. You have lighting, you have music, you have the appearance and configuration of the interior, and you have the appearance and style of the people you talk to. How does staff interact with you? Are they aggressively taking care of your needs or are they mostly out of sight?</p>
+<p>People have different preferences in these regards, and these are preferences that everyone&rsquo;s DAs will have. When you participate in any sort of managed experience (which everything is increasingly becoming) your preferences will be transmitted to the appropriate daemon for customization.</p>
+<p>When you enter a sports bar the lighting will adjust, the displays will change to your favorite sport, and a waiter might approach and engage in a style that you prefer (or not at all). Your favorite beverage will be brought to you, your DA will have already consumed the <em>/menu</em> portion of the restaurant&rsquo;s daemon, and will have options available for you if you ask.</p>
+<p>Businesses, buildings, and ultimately every type of object will have an increasing number of configurable options that can potentially be activated according to requests from patrons or anyone where there is mutual benefit.</p>
+<p><strong>Summary</strong></p>
+<ol>
+<li>The world&rsquo;s objects will become highly configurable, with the interface for customization being their daemon.</li>
+<li>Peoples&rsquo; DAs will automatically configure physical surroundings, media and displays, as well as overall experiences, for their principals based on their preferences and context.</li>
+</ol>
+<p>Connecting algorithms to sensors is going to have a profound impact on how we parse reality, and this effect will be magnified exponentially as people start lifecasting.</p>
+<p>Lifecasting, as I wrote about in 2008, is where a significant percentage of the population starts continuously broadcasting what they see and hear. They&rsquo;ll do this to be social with their friends, they&rsquo;ll do it to get famous, they&rsquo;ll do it for practical reasons, and they&rsquo;ll do it for money. It&rsquo;ll simply happen.</p>
+<p>What makes it interesting is the combination of these feeds with algorithms.</p>
+<p>Humans don&rsquo;t care about video feeds. What they care about are <em>events</em>. We want to see first kisses, love triangle fights, humans reacting to new media, car crashes, rescues, heroism, cowardice, and everything in between. We want to see life, and that&rsquo;s precisely what the algorithms will provide us.</p>
+<p>As someone goes about their busy day their feed will be monitored and streamed for all manner of events. Aggression, racism, humor, accidents, embarrassment, negligence, wrecks, fights, love, affection, compassion, etc.</p>
+<p>When a fight happens in front of someone, for example, the algorithm will clip the video, tag it appropriately, and share it with the appropriate services according to the principal&rsquo;s preferences.</p>
+<p>Maybe your DA just sent it to your closest friends, or maybe it sent the clip to a service that pays people for the latest fight clips, passionate kisses, and kindness found in unlikely places.</p>
+<p>As a bonus, it also sent a copy to the local law enforcement daemon, and it all happened with no human friction. No clipping, no editing, none of that. The algorithms know when the fight started (the trash-talking, body language, etc.), and it knows when it ended (when everyone fled). It packaged the whole thing up in a fraction of a second, and put a clip in your face and asked, &ldquo;Should I send it out to these people?&rdquo; A simple nod was enough.</p>
+<p>The same will happen for car wrecks, physical assaults, freak accidents, and any other type of situation where it will be beneficial to have a clean clip of the incident that can be instantly sent to numerous places.</p>
+<p><strong>Summary</strong></p>
+<ol>
+<li>Sensors + Algorithms is a potent combination, as they allow the algorithms to extract meaningful events from life in a continuous and intelligent way.</li>
+<li>Once those events are extracted they can be shared in countless ways with various services that specialize in or benefit from them.</li>
+</ol>
+<h2 id="omniscient-defender">Omniscient Defender <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#omniscient-defender"></a><a href="#omniscient-defender" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>We’ve already discussed the concept of continuous advocacy, whereby the digital assistant is constantly studying the world, curating, and presenting you context-sensitive data that might help you in your life. But there&rsquo;s another use case for your digital assistant being continuously aware, and that&rsquo;s the monitoring of your safety.</p>
+<p>Because we&rsquo;re talking about a future of unified identity and ecosystems rather than standalone devices, people will have visual, audible, and other types of access to many places at once. They&rsquo;ll be able to see and hear in and around their home, their vehicles, and any other place that they have extended access to.</p>
+<p>This will include networks of monitors controlled by people who&rsquo;ve given you access. Your kids, your elderly family, friends, and many others. They could give you access to their personal live stream (when they&rsquo;re not in dark mode or doing something private) so you could see what they see by simply switching to their POV. You could see the environments your children are in, listen to what&rsquo;s going on around them, etc.</p>
+<p>Now there are a few reasons why we&rsquo;d not want to do this. First of all, it&rsquo;s a bit weird to sit and watch everything your kids (or anyone else) are doing just because you could. Second, it doesn&rsquo;t scale. It&rsquo;s hard enough to watch our own live stream (reality), let alone trying to watch your house, vehicles, kids&rsquo; surroundings, the home of your parents while they&rsquo;re on holiday, etc.</p>
+<p>That&rsquo;s what your DA is for.</p>
+<p>Your DA will have access to all these systems based on them being either part of your ecosystem, or access being granted by others. So if it&rsquo;s 47 or 470 live feeds, that&rsquo;s fine. Drone visuals so you have overhead views of a plot of land you own? Overhead shots provided by the city of a place where you know you have loved ones? It&rsquo;s all covered.</p>
+<p>Why?</p>
+<p>Because your DA will watch, listen to, and otherwise monitor all those feeds constantly looking for signs of danger. Is someone moving in a strange way? Is someone following your daughter too close on her walk home? Is their body language similar to that of a purse-grabber or other type of assailant? And if so, what then?</p>
+<p>Your DA can do a number of things instantly as a response. It can summon a local private citizen who is in the neighborhood watch to simply come outside and help her walk home. It can call a law enforcement person nearby. It can issue a micro-payment to summon a nearby drone (now enrolled under your DA) and fly over both of their heads while playing Eye of the Tiger or Every Step You Take.</p>
+<p>What&rsquo;s so interesting about this is that each stream can have a massive amount of analysis attached to it. Audio streams will go through voice and speech analysis. Your DA will know the likelihood that people are lying around you and your loved ones. The chances that someone in the area is a criminal, or is about to commit a crime, based on body language. Facial and voice recognition.</p>
+<p>If you&rsquo;re panicking right now, I am right there with you. It&rsquo;s unbelievably powerful, and the potential for abuse is ruining every chart that tries to measure it.</p>
+<p>One concept that you have to keep in mind here is that functionality usually wins over nearly any objection, and the ability to monitor content feeds (visual, audio, RF, air pressure, barometric pressure, chemical air composition, etc.) will simply provide too much benefit for it to not be used at scale.</p>
+<p>Thousands of companies will be competing to provide analysis algorithms to look at incoming streams of this data. You simply prove that you&rsquo;re allowed to see the stream, provide access to the company, and it&rsquo;ll give you all manner of live and interesting data about the feed. And where safety is the question, the game will be prediction.</p>
+<p>So you&rsquo;ll have access to dozens of your own and your loved ones&rsquo; feeds, and your DA will be able to monitor them all continuously, using sets of algorithms provided by various companies, paid via micro-payments and subscriptions, that allow you to keep the safety of what you care about within acceptable levels.</p>
+<p><strong>Summary</strong></p>
+<ol>
+<li>Safety is one of humans&rsquo; most sacred needs and thus will be one of the main applications of technology as it advances.</li>
+<li>Your DA never needs to rest and will be able to monitor hundreds or thousands of input feeds simultaneously to protect your interests.</li>
+<li>This monitoring will be augmented by the use of thousands of companies&rsquo; algorithms for intelligently analyzing the inputs.</li>
+<li>You will be able to relax knowing your DA is watching what you care about in ways you couldn&rsquo;t hope to.</li>
+</ol>
+<h2 id="human-enhancement">Human Enhancement <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#human-enhancement"></a><a href="#human-enhancement" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>The combination of daemonization and digital assistants will have another application (beyond providing monitoring for safety) that will prove extremely compelling: They will give people extraordinary powers of perception, knowledge, and even action.</p>
+<p>As you move through the world on a regular day, your abilities as a human will be greatly enhanced by your digital assistant.</p>
+<p>If you are across the street from a building, and there is a visual of the inside of it available, your DA will allow you to look through it. Perhaps like X-Ray vision. Perhaps like thermal vision. Perhaps like you’re inside and moving around. But you’ll be able to see within as if gifted with extraordinary powers.</p>
+<p>When you are looking at a game of Go or Chess, the ideal move&mdash;powered by the world’s top supercomputers&mdash;will be overlaid upon the board as you look at it. Perhaps it will show a green outline of the piece you should move, or give you a lighted arrow showing the path of the piece. It might even give multiple options labeled by what famous players did before in your situation. The AR options are nearly limitless; the key is that you&rsquo;ll be constantly provided with real-time intelligence and curated guidance.</p>
+<p>Sitting in a crowded restaurant in Washington D.C., you’ll be able to glance at a particular group across the room and indicate that you want to hear what they’re saying. All other conversations will fade into a background lull, and you’ll hear that group clearly.</p>
+<p>When listening to a sales pitch about something that sounds too good to be true, you’ll see a meter in the upper left field of view, or an outline around the face of the person you’re talking to. It&rsquo;s a visual indicator that will tell you if he is being deceptive or not.</p>
+<p>How will your DA know this? Your DA will stream their voice to a business&rsquo;s daemon (or many) that does nothing but rate voices for truth (and other elements). It can tell you if someone is flirting, if they’re aroused, if they’re angry, or if they’re lying. And it gives percentages based on multiple factors (including fact-checking what’s being said in realtime).</p>
+<p>You’ll walk out of a crowded restaurant and ask if anyone was talking about anything interesting in the room, and your DA will give you a three-sentence summary of every conversation you&rsquo;d probably find interesting.</p>
+<p>But it won’t just be sound that’s enhanced. It will be possible to leverage available cameras to see things with varying levels of magnification and clarity.</p>
+<p>If you’re in Central Park, for example, and you see a rare bird in the distance. You’ll make a gesture and it’ll suddenly appear closer and with increasing detail. You’ll see it as if you had a powerful telescope perfectly aimed at it. You’ll be able to look down at areas from above using the latest available camera, drone, or satellite images.</p>
+<p>Your DA will be harvesting all available interfaces to make these views available to you, at all times.</p>
+<p>These are not arbitrary features that may or may not be invented. They are guaranteed to happen&mdash;and likely early in the cycle of daemonization&mdash;because they fulfill a fundamental human desire to become more evolutionarily capable.</p>
+<p>Being more aware and more knowledgeable than your competitors is a survival advantage, and these types of capabilities will drive a massive and vibrant marketplace.</p>
+<p><strong>Summary</strong></p>
+<ol>
+<li>One of the most fundamental human desires is to become more knowledgeable and more powerful, as these things are tied to survival.</li>
+<li>Our DAs will use all resources available to them to provide us with the most and the best possible ways of interfacing with anything we are dealing with.</li>
+<li>This type of functionality will very quickly spawn vibrant marketplaces because they appeal so directly to human instinct.</li>
+</ol>
+<h2 id="businesses-as-daemons">Businesses as Daemons <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#businesses-as-daemons"></a><a href="#businesses-as-daemons" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>The algorithm is the centerpiece of expertise. It&rsquo;s ultimately the way of doing something, and that’s what makes one offering better than another.</p>
+<p>In the past, the core algorithm of a business has been combined with a massive number of other factors to determine success. These include things like having great employees, being in a fortuitous location, or having a given idea at a particular time. As technology connects more and more people to each other and becomes more of the interface to a business, these non-central, non-algorithmic variables will either be removed or will have diminishing effect.</p>
+<p>As this happens, algorithm(s) will become increasingly primary to the effectiveness of any given company, and daemons will be the interface that presents that value externally.</p>
+<p>Most software businesses will become algorithms presented to others through their business daemons. And many traditional businesses will continue to become software businesses.</p>
+<p>Examples will include:</p>
+<ul>
+<li>Finding gifts customized to the exact individual</li>
+<li>Organizing the perfect vacation based on the four people going</li>
+<li>Navigating all the logistics, in the best way possible, of that four-person vacation</li>
+<li>Determining the current mood of a person or a location based on what is known about them</li>
+<li>Finding the optimal route from one place to another, based on the values and states of mind of the various travelers</li>
+<li>Determining the best way to charge a customer based on evolving competition, logistics, and conditions on the ground</li>
+</ul>
+<p>All these tasks will be services available online, and there will be several or thousands of competitors in any particular space. There will even be services that consume and rate those services, and present their output (value) through their own daemons.</p>
+<p>Many foundational businesses and services will still exist, moving matter from one place to another, the performing arts are an example of this. Some industries and businesses will maintain an analog component simply due to the constraints of physics, but the way they are consumed and marketed will change fundamentally.</p>
+<p><strong>Changing the business interaction model</strong></p>
+<p>One important way this will occur with software businesses, such as retail sites, is through the decoupling of business components that traditionally reside together. Software businesses started as unified experiences: you go to them for the display of the product, you stay with them as you interface with their offerings, and then you use them to pay.</p>
+<p>These will soon be separated into discreet pieces. Companies who make things will not be experts in displaying that content to humans. Companies that are experts in UI/UX will not focus on creating content or products. It&rsquo;s specialization, but at an increasingly granular level.</p>
+<p>The biggest change, however, will be that the activity itself will be centered around the digital assistant and not with the business.</p>
+<p>Users will ask (via voice or text) to view the wares of a business, and this experience will be broken into multiple components. In this example, Sara is working with her digital assistant named Jan.</p>
+<ul>
+<li>Sarah will ask Jan to see headphones from Sequoia (a very popular service for products).</li>
+<li>Jan will contact Sequoia&rsquo;s daemon and retrieve their product list which includes list of recommended UI/UX options.</li>
+<li>Jan notices that Sequoia recommends Ambient&rsquo;s UI/UX filter within the daemon response.</li>
+<li>Jan calls and instantiates the Ambient UI/UX interface and passes the Sequoia product content through it, and then presents that to Sarah.</li>
+<li>Sarah navigates Sequoia&rsquo;s content, using Ambient&rsquo;s UI/UX, using a series of voice commands and gestures.</li>
+<li>Sarah finally says, &ldquo;This one and this one. Ship to Abdul and Micah. Make sure they&rsquo;re there tomorrow.&rdquo;</li>
+<li>Jan then submits a request to Sequoia&rsquo;s daemon to complete the purchase.</li>
+<li>Sequoia then submits a request to Arrival&mdash;their preferred shipping provider, which Jan allows.</li>
+</ul>
+<p>The crucial point here is that Sarah spent no time interacting directly with Sequoia&rsquo;s systems.</p>
+<p>Jan acted as Sarah’s advocate in all of these interactions&mdash;retrieving what needed to be retrieved, finding the best way to display it, listening for commands to change the display, and then finally making the purchase and arranging delivery.</p>
+<p>The function of the business changes fundamentally in this model. Instead of being in charge of the user’s entire experience, businesses become part of an algorithm marketplace used by DAs to satisfy the requests of their principals.</p>
+<p>The DA is now the centerpiece of the user experience, and they utilize the services fabric (consisting of business daemons) to choose what will serve their principals best.</p>
+<p>Humans make their wishes known and assistants sort out those desires and interact with the requisite services and then present options via a combination of voice, text, and AR interfaces.</p>
+<p><strong>Summary</strong></p>
+<ol>
+<li>Many businesses will become digital and service-oriented because many businesses can (and will) ultimately be reduced to their algorithms.</li>
+<li>Those algorithms will be presented externally to the world as daemons (APIs).</li>
+<li>We will interact with our DAs, and our DAs will interact with the APIs required to produce our optimal experience.</li>
+</ol>
+<h2 id="the-future-of-work">The Future of Work <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#the-future-of-work"></a><a href="#the-future-of-work" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Daemonization will fundamentally alter how people work.</p>
+<p>Businesses will continue shedding human jobs because humans will become increasingly costly, inconsistent, and low-quality compared to algorithms. The future of work is the exchange of value between individuals and groups of individuals, which will become possible with daemonization.</p>
+<p>With daemonization you are the source of truth for your own information, and this includes what you&rsquo;re good at. For everything you&rsquo;re skilled in you&rsquo;ll have third-party-validated ratings, and when someone (or more likely their DA) looks at your daemon, they&rsquo;ll know which skills you&rsquo;re competent in, as validated by others (or not if it doesn&rsquo;t matter).</p>
+<p>And the same goes for the person requesting the work. They will have been rated by others on how pleasant they are to work with, whether they paid on time, etc.</p>
+<p>So the assistants on each side will, using one or more of the thousands of competing matchmaker algorithm companies available, find the ideal match between someone who needs something done, and someone who&rsquo;s able to do it.</p>
+<p>At any given moment there are billions of people who need something, and who are willing to pay something for it. There are also billions who have skills and the willingness to help in exchange for something in return.</p>
+<p>Daemonization turns work (and value exchange more generally) into a peer-to-peer exchange rather than one mediated by institutions.</p>
+<p>So as you&rsquo;re sitting in a coffee shop, your DA will ask and/or present to you through AR, if you want to take incoming jobs. Reviewing a legal document, cat-sitting, talking to a stranger who needs to hear something positive, performing a security audit&mdash;whatever. As pre-filtered jobs come in, your DA will present them to you and you can accept or decline them.</p>
+<p>But even the word &lsquo;work&rsquo; is a bit limiting. The better way to think about this is value exchange. The fundamental idea at play is that of peer-to-peer exchange and the elimination of the need for institutions in the middle.</p>
+<p>Think about other types of services that are currently done by government, such as safety. The future of value exchange has those services coming from peers, not from institutions. If a woman is walking home, and she realizes it&rsquo;s later than she thought, her DA will summon local protection.</p>
+<p>People who are rated as safety qualified (large enough to be a deterrent if assisting alone, has training, rated as trustworthy, etc.) will get summoned by their DAs to either accept or reject an urgent, local request. And within a few seconds one or more people will walk up, nod, smile, and walk with her to her destination. Payment could be in actual currency or in appreciation, depending on the transparent and mutual agreement, and the ratings will be logged in the various daemons.</p>
+<p>The same might apply for someone hurting themselves and needing help, a child being lost, providing loans, sharing resources, or anything else that a fellow citizen could do faster (and maybe better) than a limited and centralized source of that service.</p>
+<p>Those who own particular resources or have particular attributes can make them available to others as part of their value portfolio as well. People who own apartments with a certain view, people who are particularly good looking or charming, people with a sense of humor, etc. You could have the best comic book collection within 50 miles, you could be a highly rated calligraphy instructor, you can have a horse ranch and a bed and breakfast.</p>
+<p>People will be able to provide their talents, their traits, their expertise, and their possessions as value to others&mdash;all on demand as part of their daemonized value portfolio.</p>
+<p>Basically anything you know, are, or have will become experiences you can create and value you can exchange with others. And that will become the new foundation of work.</p>
+<p><strong>Summary</strong></p>
+<ol>
+<li>Businesses would rather not have employees, and they&rsquo;re actively working to discard them.</li>
+<li>The answer is peer-to-peer exchange of value enabled by matching needs with capabilities.</li>
+<li>People will provide many such services to each other based on their personalities, skills, and possessions.</li>
+<li>Daemonization enables the discovery, the vetting, and the coordination of every part of this interaction.</li>
+</ol>
+<h2 id="the-four-components-of-information-infrastructure">The Four Components of Information Infrastructure <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#the-four-components-of-information-infrastructure"></a><a href="#the-four-components-of-information-infrastructure" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>There are many different information technologies that will be invented and adopted in the coming decades, but I believe there are four (4) primary categories that they will all fall into.</p>
+<ol>
+<li>Realtime Data</li>
+<li>Data Transfer</li>
+<li>Analysis Algorithms</li>
+<li>Presentation Interfaces</li>
+</ol>
+<p><em>Realtime Data</em></p>
+<p>As I spoke about in the realtime data chapter, knowledge of the current state of the world is extraordinarily empowering. It allows us to ask questions about the state of the world and adjust behavior as a result. The more realtime the better, and the more standardized and usable the format the better.</p>
+<p><em>Data Transfer</em></p>
+<p>Now that we have the data available, we need to be able to get it to the algorithms that will perform work on it. The protocols will have to be not only standardized, but built to allow trillions of tiny queries and updates, since even one object&rsquo;s various state attributes could be changing in tens, dozens, hundreds, or thousands of times per second.</p>
+<p><em>Analysis Algorithms</em></p>
+<p>Once we have this data the focus turns to the algorithms that will do the analysis. As we talked about in the &lsquo;Businesses as Daemons&rsquo; chapter, companies will largely compete as data analysis algorithms. Companies will largely have access to the same data; the question will be what you can do with that same data that gives you the competitive advantage.</p>
+<p><em>Presentation Interfaces</em></p>
+<p>Finally we have the output step. We&rsquo;ve captured the realtime data, we&rsquo;ve moved it to where it&rsquo;ll be analyzed in a standard and efficient way, some company has done their unique analysis on it, and now we&rsquo;re going to display it to someone or something. That&rsquo;s presentation, and it will be another opportunity for companies to differentiate.</p>
+<p>Creating the ability to track and present realtime data about objects (and ultimately the world) is hard. That&rsquo;s an engineering problem. The other engineering problem is creating the protocols that will allow us to constantly poll and update objects for their state changes, which will be trillions per second in any large set of objects (like a company, or a city).</p>
+<p>Those are efficiency and scalability problems.</p>
+<p>The algorithm and presentation steps are significantly more creativity and innovation based. They are ultimately what will differentiate competitors in a long-term business market.</p>
+<p>There will be innovators solving the engineering problems as well, but it&rsquo;s infrastructure. It&rsquo;s the connective tissue that enables the competition in the spaces of algorithmic analysis and presentation of results.</p>
+<p><em>[ NOTE: There is also the option for the output of one algorithm to be sent to one or many others as well, of course. ]</em></p>
+<p><strong>Summary</strong></p>
+<ol>
+<li>Realtime data is collected from the world.</li>
+<li>The data gets evaluated by algorithms.</li>
+<li>The output of those algorithms gets presented in some useful way.</li>
+<li>The collection and transfer of the realtime data are engineering problems, and the analysis and presentation are creative/innovative problems.</li>
+</ol>
+<h2 id="getting-better-at-getting-better">Getting Better at Getting Better <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#getting-better-at-getting-better"></a><a href="#getting-better-at-getting-better" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Once we are powered by realtime data and the infrastructure that makes use of it, the intelligence of our algorithms will become paramount.</p>
+<p>Two areas seem particularly promising: machine learning and evolutionary algorithms.</p>
+<p><em>Machine Learning</em></p>
+<p>Machine Learning is basically the upgrade to our previous-best method of analyzing data&mdash;statistics. Where statistics are largely static (the model for extracting truth from data doesn&rsquo;t improve as you add data), with machine learning the analysis actually improves itself automatically.</p>
+<p>Machine Learning, in other words, is the ability for computers to learn without being explicitly programmed. And when you apply that to the algorithms doing realtime data analysis of trillions of objects, we can expect the results to be truly remarkable.</p>
+<p>We&rsquo;re not just learning about the world; we&rsquo;re improving our ability to learn about the world automatically. And the more data we see the better it gets at improving itself.</p>
+<p><em>Evolutionary Algorithms</em></p>
+<p>As excited as I am about machine learning, I&rsquo;m even more excited about evolutionary algorithms&mdash;especially when they&rsquo;re eventually combined.</p>
+<p>Evolutionary algorithms work by modeling evolution&rsquo;s method of improving things. It has three basic steps:</p>
+<ol>
+<li>Collect lots of different things together</li>
+<li>Combine or mate them with each other</li>
+<li>Introduce randomness into the output</li>
+<li>Test that output against the environment to see what wins</li>
+</ol>
+<p>Another way to say that is:</p>
+<ol>
+<li>Descent with Modification</li>
+<li>Natural Selection</li>
+</ol>
+<p>That means lots of varied input, combined, random mutation, and then selection of winners.</p>
+<p>It&rsquo;s important that you have a good, varied pool to start with. It&rsquo;s also important that you add randomness to the output step so that completely new things are created. And finally, it&rsquo;s crucial that you have a good environment to test in (one that truly represents success or failure).</p>
+<p>In nature this is easy&mdash;it&rsquo;s just the real world the organism is trying to survive and reproduce in. In the digital world it&rsquo;s a bit more complex.</p>
+<p>But the concept is the same, and so is the benefit.</p>
+<p>The promise of evolutionary algorithms is that they will allow us to create, very quickly, solutions that human designers couldn&rsquo;t possibly conceive of (and definitely not in that span of time). They work by taking simple inputs, mating them together, adding some random component, and then automatically testing the output to see how successful that generation is. The winners go on and reproduce, with some randomness, and new outputs are tested again.</p>
+<p>This is repeated through a number of generations until the line either dies out or something successful is created.</p>
+<p>What&rsquo;s so spectacular about this is that with constantly improving hardware, combined with better ways of modeling reality, we can go through thousands or millions of generations of evolution looking for solutions to our problems, all in minutes or hours. Using this technique we can potentially outperform the creative capabilities of billions of the smartest humans, doing their best on a problem for hundreds of years, all in the span of a few hours.</p>
+<p>Now imagine that mechanism for improvement, i.e. the one that got single-celled organisms all the way to the point of being able to explore our solar system, and combine that with machine learning algorithms trained to improve the quality of the evolutionary algorithms.</p>
+<p>It&rsquo;s difficult to overstate the benefits that can come from being able to accelerate not just our ability to learn, but our ability to learn how to learn. That&rsquo;s precisely what the combination of machine learning and evolutionary algorithms can do&mdash;both on their own and when used together to enhance each other.</p>
+<p><strong>Summary</strong></p>
+<ol>
+<li>Traditionally the best method we&rsquo;ve had for learning about the world has been statistics, which are largely static; the analysis model doesn&rsquo;t improve when you get more data.</li>
+<li>With machine learning, the system gets smarter by itself, i.e., without needing to be reprogrammed.</li>
+<li>Evolutionary algorithms leverage the power of descent with modification and natural selection to create and test possible solutions to problems that we never could as humans.</li>
+<li>Combining these two&mdash;with machine learning improving the modeling and testing capabilities of evolutionary algorithms&mdash;may be one of the most powerful advances in technology we&rsquo;ll see for the foreseeable future.</li>
+</ol>
+<h2 id="desired-outcome-management-dom">Desired Outcome Management (DOM) <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#desired-outcome-management-dom"></a><a href="#desired-outcome-management-dom" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Now that we&rsquo;ve talked about the infrastructure for collecting, analyzing, and presenting information, we can move on to a concept I call Desired Outcome Management (DOM).</p>
+<p>The assumption underpinning DOM is the simple claim that we want to improve things but we don&rsquo;t know exactly how to go about it.</p>
+<p>DOM provides a model for improving almost anything, and data plays one of the central roles.</p>
+<p>DOM is broken into a few main components:</p>
+<ul>
+<li>
+<p><em>Define your goals</em>. This could be for a business, a city, a family, a department, a country, a team, or an individual. Examples are things like: graduate from a top-10 university, make 100K/year, reach the top 10 ranking in quality of life, attain 150K in passive income, have a happy and fulfilled family, etc.</p>
+</li>
+<li>
+<p><em>Define your model</em>. A model in this case is a method or approach for attaining a goal or set of goals. For example, if you want to live a fulfilled life, there might be a Tony Robbins model, or a Dr. Phil model, or a model you make for yourself. It’ll have statements in it like, &ldquo;You need to be healthy to be happy. You need to exercise. You need to eat plenty of raw foods, etc.&rdquo;</p>
+</li>
+<li>
+<p><em>Capture data</em>. From there, you need to capture data about your entity’s behavior, from the real world, and get it into the system. So if you have a model that talks about diet, you need inputs regarding what you eat, how much you exercise, etc. If your model cares about grades in school, you need to get those grades into the system.</p>
+</li>
+<li>
+<p><em>Provide Ratings</em>. Next your system needs to provide clear ratings on how you’re doing in the various areas you’ve chosen to monitor. I prefer A through F, but you can use anything you want as long as it’s both clear and simple. Ratings will also include a composite, overall score for your progress vs. your goals.</p>
+</li>
+<li>
+<p><em>Provide Recommendations</em>. Finally, the system tells you exactly what to do to improve your ratings in the various areas and overall. So if you’re tracking health, for example, and you have a C in activity because you’ve been sedentary, the system will tell you what to do to improve it. It’ll give clear and prescriptive advice, such as, &ldquo;Row 500 meters, do one set of push-ups, and one set of sit-ups every morning.&rdquo; If you’re working on building a great team, the advice after a bad rating might be, “Have more frequent team meetings, and focus on building trust through reduced competitive focus.”</p>
+</li>
+<li>
+<p><em>Adjustment</em>. The last component of the system is the means by which the model can be updated. Updates to the system come in the form of modifications to the model. This can be addition, subtraction, or changes in importance for elements under consideration. For example, if you’re tracking a family’s health and happiness, a new study could come out that says shared laughter is crucial to individual happiness. This will be incorporated into the model and recommendations accordingly, based on the research. Similar adjustments will also be made to the model as new information about the world is made available to us.</p>
+</li>
+</ul>
+<p>The adjustment phase is where algorithms will be so crucial. Using machine learning, evolutionary algorithms, and still-undiscovered AI techniques we will continue to extract increasingly valuable insights from the data we have. And because of our access to realtime data through Universal Daemonization, the data being fed into these models will be continuous and fluid.</p>
+<p>DOM is just a methodology&mdash;a name for a simple yet powerful concept.</p>
+<ol>
+<li>Have goals</li>
+<li>Have an approach to achieving them</li>
+<li>Bring in data about the world</li>
+<li>Rate how you&rsquo;re doing</li>
+<li>Recommend changes based on where you could improve</li>
+<li>Adjust the approach based on new data</li>
+<li>(optional and/or occasional) Ensure that your goals have not changed</li>
+</ol>
+<p>This is a framework for using technology, data, and science to steward humanity&rsquo;s progress forward.</p>
+<p><strong>Summary</strong></p>
+<ol>
+<li>It&rsquo;s one thing to be able to capture data in realtime, move it around, and analyze it.</li>
+<li>It&rsquo;s quite another to be able to use that data to power your models for improving outcomes.</li>
+<li>That&rsquo;s what frameworks similar to DOM, realtime data, and machine learning and evolutionary algorithms will help us accomplish.</li>
+</ol>
+<h2 id="peer-to-peer-value-exchange">Peer-to-peer Value Exchange <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#peer-to-peer-value-exchange"></a><a href="#peer-to-peer-value-exchange" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>We&rsquo;ve talked about how the future of work is largely person-to-person interaction mediated by a daemon-powered tech layer, but the peer-to-peer model goes far beyond employment.</p>
+<p>What daemonized peer-to-peer really enables is less reliance on centralized institutions.</p>
+<p>If you are in need of medical attention and there are 38,761 people within one square kilometer, it may not make sense to call on a centralized authority to provide that service. What if, upon injuring your leg in an accident, your DA could simply beacon out to nearby people. Less than 90 seconds later someone with the proper training, equipment, credentials, and ratings shows up and provides assistance. A micropayment of currency, appreciation, and a high rating is sent from daemon to daemon and the two people go on their way.</p>
+<p>The same will apply to safety. Imagine a woman walking alone in a dangerous area and receiving a notification from her DA:</p>
+<p>&ldquo;It&rsquo;s not safe here. I&rsquo;m getting you some company.&rdquo;</p>
+<p>Within a few seconds she&rsquo;s joined by three other people on the street (outlined in green within her view) who smile and walk with her to her destination. There is another exchange of appreciation, smiles, and/or currency, which is reflected on both sides.</p>
+<p>Now think of how this could apply to building homes, providing fresh and healthy food, and many other core human needs. Institutions will still have a role, of course, but we the people are in fact the ultimate institution.</p>
+<p>Daemonization will allow us to provide ourselves with what in the past needed to be abstracted. It&rsquo;s bottom-up vs. top-down at the ultimate scale.</p>
+<h2 id="details-and-examples">Details and Examples <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#details-and-examples"></a><a href="#details-and-examples" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Each of the chapters you&rsquo;ve read so far have introduced a single concept per section. I did this to make the concept crisp and simple, which isn&rsquo;t possible if you start talking about how it might be implemented.</p>
+<p>In this section I give a few additional ideas and likely/possible applications for each.</p>
+<p><strong>Universal Daemonization</strong></p>
+<ul>
+<li>Most objects will have an <em>/info</em> endpoint in their daemon that allows other objects to understand its basic attributes. This might be where the schema is stored, i.e., all the different endpoints that are available (that can be seen by the current viewer), etc.</li>
+<li>Restaurants will have <em>/menu</em> and <em>/order</em> and <em>/payment</em> endpoints. Buildings will have <em>/safety</em>, <em>/blueprints</em>, and hundreds of other <em>/infrastructure</em> endpoints, and these will become quite standardized over time. The same will apply to millions of obvious entries for certain objects. Books will have info on the author, the length, where they were written and when, what tools were used, the list of references, and countless other pieces of information that you&rsquo;d expect to see. The key is that these will become standardized for the basic info types for each object based on the object type, even though they may have many custom endpoints as well.</li>
+<li>Consumables and construction materials will have, as part of their daemons, a series of elements related to lifespan, integrity, etc. These values are updated through numerous means: time in use, official inspections, etc. So a city can simply look at 10 city blocks and instantly evaluate what structures are most in need of upgrades. And consumers&rsquo; DAs can read a principal&rsquo;s entire list of things they own, and order/recommend replacements based on it being time. Car tires, bike tires, the roof on the house, toothpaste, polo shirts, chicken soup, diapers, etc. The key point here is not just that someone (like the manufacturer) knows these things and can nag you&mdash;it&rsquo;s that the object itself will know, and that your DA can manage replacement according to a combination of requirements and your preferences.</li>
+<li>The more up-to-date an object&rsquo;s information the better, so the informational endpoints will have update/validate options available for external clients that aren&rsquo;t able to make changes to the daemon itself. For example, if a mobile business is marked as being at a certain street corner, but it moves without updating itself for whatever reason, it will be able to accept update requests from people who see that it&rsquo;s moved in the last minute. This will depend on the authority, reputation, trustworthiness, and how many votes come in that agree. Entire economies will likely rise on paying micro-payments for providing high-quality validation of reality. The status of businesses, the location of common objects, ratings of service, etc. People could possibly make a living by simply observing and reporting in a responsible and valuable way, with updates being pushed right into the objects&rsquo; daemons themselves. - Even basic information about an object will have their own ratings based on a number of these factors&mdash;how often they&rsquo;re updated (per day, per minute, per second, etc.). How many external validations have been made with what authority, etc.</li>
+<li>Daemonization won&rsquo;t be just for physical objects like vehicles and buildings and people. They will also be used for (and useful to) conceptual and virtual objects such as applications, systems, etc. Think of the use case of an IT asset database, where all applications, servers, operating systems, tests, builds, vulnerabilities, etc&mdash;all have their own daemons and their own realtime status. This makes queries and updates simple and elegant&mdash;exactly as they should be. When you run a security scan and find vulnerabilities, they each have their own daemon with their own schema, and they&rsquo;re attached to an application that has its own, which sits on top of an operating system, which sits on a piece of hardware, etc. So finding out what version of software sits on what OS, what data is being used where, how that data is changing, where it&rsquo;s moving&mdash;these all become daemon status updates.</li>
+</ul>
+<p><strong>Realtime Data</strong></p>
+<ul>
+<li>One of the biggest advantages of realtime data will be serving as a constant stream into scientific studies. So rather than data analysis taking days, weeks, months, or years, we&rsquo;ll be able to pull that data ever day, every hour, every minute, or multiple times per second, constantly, and at scale.</li>
+<li>Realtime data also allows us to more quickly study the effect of variables in these scientific studies. If we&rsquo;re able to track mood in realtime, for an entire city, then we&rsquo;re more likely to be able to say that a particular variable was the cause of change in that mood.</li>
+<li>Realtime data will also be able to speak to, at a more granular level, the difference between causation and correlation.</li>
+<li>Ultimately realtime data is the most important component in the information infrastructure and Desired Outcome Management concepts, since it&rsquo;s the data that&rsquo;s feeding the algorithms and output.</li>
+<li>People or systems can simply ask questions about the state of the world and get answers, e.g., how many dolphins are there within one mile? is this area more star trek or star wars? How many airplanes are there over my head, which country&rsquo;s currency has lost the most value in the last hour, how many single people who prefer cats to dogs are within a 10 minute drive, what&rsquo;s the most popular fast food in this area? These types of queries will obviously require the other pieces of the information infrastructure as well (data transfer, algorithms, etc.), but the data is the most important piece.</li>
+</ul>
+<p><strong>Digital Assistants</strong></p>
+<ul>
+<li>DAs will basically run our lives, from wakeup time (based on your sleep cycles and the latest research), to which method works best (raising the lights and playing certain music), to starting your favorite food and beverage, preparing to read/display your preferred news sources, etc.</li>
+<li>Your household, work environment, and any other place you spend time in will be run by your DA as the custodian of your life ecosystem (you&rsquo;re the owner). When you buy new equipment it will of course be daemonized, and the enrollment process will involve it being added to your digital ecosystem. That means it&rsquo;ll be automatically hardened and access controlled based on your ecosystem. So if friends and family can do certain things with certain kinds of devices, but not with others, those settings will automatically apply to this system as well.</li>
+<li>Instead of household items like food and dish soap and paper towels ordering replacements for themselves, i.e. talking directly to businesses, every household item will register with the head-of-household&rsquo;s DA, and the DA will manage the household based on its knowledge of preferences, calendars, etc.</li>
+<li>Your DA will notify you in certain ways, which will over time produce Pavlovian responses, when certain situations arise. You&rsquo;ll hear a sound when a single person of the opposite sex nears you while you&rsquo;re not working, but only if they pass a few filters that are important to you.</li>
+<li>You might let your DA use a number of commercial algorithms to find matches for you that you wouldn&rsquo;t have thought to explore yourself. So you may put yourself in Cupid mode, or Spontaneity mode, where two DAs create pre-filtered but semi-chance meetings between two principals.</li>
+</ul>
+<p><strong>Tireless Advocate</strong></p>
+<ul>
+<li>If someone mentions to you casually about a particular sport, your DA (knowing you like to immerse yourself in new hobbies) will find the nearest training locations, the best local trainers, the best and nearest places to play, and some top tips for getting into shape. So when you inevitably ask about it in the next day or so, your DA will have an entire plan sorted out for you.</li>
+<li>Any research topic you express interest in, or ask your DA to look into, will get a full parsing and summary treatment, ultimately resulting in a summary (which probably comes from its own commercial API) that gives you exactly how much information you wanted on that topic.</li>
+<li>Summaries will have depth levels, so you&rsquo;ll be able to say things like, &ldquo;less depth&rdquo;, or, &ldquo;more depth&rdquo; as desired, but that&rsquo;ll only be when it doesn&rsquo;t get it right in the first place.</li>
+<li>DAs will scour the world looking for negative information about you, news that could negatively affect you, etc., and will bring it to your attention if it finds something.</li>
+</ul>
+<p><strong>Augmented Reality</strong></p>
+<ul>
+<li>When speaking to someone either in person or remotely, you will see indicators in your field of vision telling you how truthful they&rsquo;re being. This will be from voice analysis, facial expressions (if it&rsquo;s a visual call), etc. The visual indicators might be a Pinocchio nose, a red outline around them or your field of view, or it may be a non-visual indicator, like a subtle hissing or vibration.</li>
+<li>As you&rsquo;re talking to people you&rsquo;ll have metadata about them displayed, such as humor scores, attractiveness ratings, favorite foods, favorite books, and interesting connections to you like mutual connections, that they attended the same college, etc.</li>
+<li>Single people in public places will automatically see potential matches in different ways, e.g., displaying a cupid over their heads, showing them in color while everyone else is grayed out, etc.</li>
+<li>The context that you&rsquo;re currently in will be explicitly set by you or automatically set by your DA. If you haven&rsquo;t eaten and your stomach rumbles your DA might switch you into &ldquo;food finding mode&rdquo;, which displays restaurants near you in particular ways based on what you&rsquo;ve eaten recently, your favorite type of food, which places have the best ratings, etc.</li>
+<li>Kind people will be able to turn on the Gloomy filter and see a gray and raining cloud over the heads of people who need cheering up.</li>
+<li>You&rsquo;ll be able to see live crime statistics for the area you&rsquo;re currently in whenever it&rsquo;s after a certain hour and you&rsquo;re in an unfamiliar place.</li>
+<li>Companies will specialize in providing artfully subtle yet powerful AR indicators for various contexts, e.g., hungry, lustful, angry, skeptical, curious, tired, frightened, sad, depressed, euphoric. Each of these will have different displays in your visual field, ambient and directional sounds, subtle vibrations in parts of your body, smells, etc.</li>
+<li>Becoming frightened in a strange area could outline everyone in green or red to indicate who to avoid or seek help from based on facial imagery, gait analysis, body language, etc.&mdash;all of which is being streamed in realtime to a series of business daemons that specialize in this type of analysis and UI/UX display.</li>
+<li>When people are sad or angry, your DA will stream the situation and the context to a company/algorithm which will display the perfect thing to say to solve the problem. It could be a de-escalation phrase, or a phrase that takes responsibility, or shows empathy, or whatever that situation needs.</li>
+</ul>
+<p><strong>Identity and Authentication</strong></p>
+<ul>
+<li>As you move throughout the environment, whether at home or overseas, doors will open or not open based on who you are and what level of authority you have according to that resource. If you&rsquo;re a police officer in the United States, for example, and you are in Munich, you might be granted access to POV access to a certain street camera, while your friend who is not in law enforcement will not.</li>
+<li>When you purchase (or lease) a new object, such as furniture or technology, you&rsquo;ll simply enroll it through your DA into your ecosystem. All of your preferences will be automatically applied to it, including how it&rsquo;s locked down, who can access it, under what circumstances, etc.</li>
+<li>When you sign up for new services and experiences, your DA will transparently convey both your authentication validation (which will be signed by your Identity Verification Service) and all your preferences.</li>
+</ul>
+<p><strong>Reputation as Infrastructure</strong></p>
+<ul>
+<li>You ask your DA where to go for a weekend trip, and it calculates all the variables based on the best experience, price, and ratings by people in your network who have gone there. Your DA recommends the winner and then uses a separate daemon/business/API to build the travel plan and add it to the calendar</li>
+<li>There will be algorithms/companies that do nothing but find special combinations of high ratings in random things. Like making people laugh, combined with being able to bake, combined with cosmology knowledge, and will use this cocktail to recommend relationships or problem-solving connections for people.</li>
+<li>People rated extremely high in altruism and selflessness in terms of actually giving time and resources will be able to soak up micropayments from those around them. I may have a small amount of money that I transparently give to those like that around me, for example, and they might be able to just go through life giving of themselves without worry of where to eat or sleep. It&rsquo;s an extreme case but it will be possible, especially with local businesses helping with free goods.</li>
+<li>People will be more likely to treat others well since they won&rsquo;t want their selfishness ratings to rise too high, which could lead to paying higher prices for things, not getting access to certain places, or people choosing not to interact with them.</li>
+</ul>
+<p><strong>Continuous Customization</strong></p>
+<ul>
+<li>Walking into a sports bar could see the content on the displays change, the music over the speakers change, etc. You could get one waiter vs. another, be asked about your day or not, have the temperature in the place raised or lowered, etc.</li>
+<li>If you work at a physical location, your settings will instantly transfer, including your desk height and angle, your chair settings, the lighting in your cube, your communication settings, how often you are to be interrupted, etc.</li>
+<li>When you visit a hotel your DA will have everything configured for you according to the maximum capabilities of the property. This will include bed style, products in the bathroom, what&rsquo;s playing on the display, the temperature in the room, etc. These are not things that you ask for&mdash;they&rsquo;re all things that your DA knows best about you, and it simply transfers that to the property as a customization package request.</li>
+<li>As you move from place to place (say hotels or airplanes) your context will transfer with you through your DA. If you&rsquo;re halfway through watching a show on a plane when you land, your DA will ask if you want to pick it up where you left off when you get in bed at the hotel.</li>
+<li>Anything that&rsquo;s customizable that you visit will be adjusted by your DA in this way. Walk into a new home dealership and you&rsquo;ll hear your favorite music, or an ideal experience for that environment, you&rsquo;ll get your favorite drink, and someone will interact with you in a way you&rsquo;ll enjoy.</li>
+<li>Customization will include spontaneity, since your previous likes will inevitably get old. Part of your DA&rsquo;s job, as well as the job of various experiences, will be to delight you with new music, new lighting, new interactions, etc. This will be handled through thousands of competing businesses/algorithms/daemons.</li>
+<li>At certain really important times in your life, like when you&rsquo;re out riding bikes with a childhood friend in your hometown, you might both hear a perfect soundtrack of the music you used to listen to together. These are perfectly curated experiences, performed by your DA, using specialized experience companies/algorithms. The purpose of these APIs is to always have the perfect song, or the perfect view, or the perfect whatever, for that situation.</li>
+</ul>
+<p><strong>Omniscient Defender</strong></p>
+<ul>
+<li>You&rsquo;ll be notified by your DA if anyone in your family is in a dangerous situation that falls above a certain threshold.</li>
+<li>You&rsquo;ll be able to switch your visual point of view instantly to any camera you have access to, whether that&rsquo;s inside your house, through the eyes of someone you&rsquo;re sharing access with, drones hovering over your house, etc.</li>
+<li>You and your loved ones&rsquo; DAs will be scanning the environment for situations that seem dangerous. More specifically, they&rsquo;ll be streaming live footage to their preferred company/algorithm that specializes in assigning danger ratings to environments.</li>
+<li>Your DA will stream surrounding conversations to a company/algorithm to alert you of anything that could be dangerous to you.</li>
+<li>Your entire ecosystem becomes eyes, ears, and noses for your DA to monitor your family and possessions 24/7.</li>
+<li>Your DA will let you know when you are being monitored, when you should disable your daemon, take other countermeasures, etc.</li>
+<li>Your DA will let you know when you&rsquo;re doing something that could be controversial, and give you the capture points that it could be pulled from. It will be constantly monitoring ways you could be monitored and make sure that you&rsquo;re not causing harm to your reputation.</li>
+</ul>
+<p><strong>Human Enhancement</strong></p>
+<ul>
+<li>As you move into new areas your DA will query and load up various views of different objects you might look at. So you could look at a building and see the people inside as heat signatures, or you might see the schematics of a building from a distance, all as AR overlays.</li>
+<li>With a gesture or a voice command you will simply enable X-Ray vision, or heat signature, and then see the world through that perspective. Things that were pre-loaded will show quickly, others will take time, and others will not show at all because there&rsquo;s no data for them. But over time, and with enough daemon access, we&rsquo;ll be able to see much of the world in this way.</li>
+<li>The same will apply to hearing, with the ability to focus on someone across a parking lot and hear what they&rsquo;re saying. You&rsquo;ll be able to gesture, target, or do some other aesthetically appealing way to initiate and visualize the effect. When it kicks in you&rsquo;ll hear the person talking as if they&rsquo;re speaking in your ear.</li>
+<li>You&rsquo;ll be able to zoom into things visually as well, and things you can do this with will be subtly indicated within your AR interface, perhaps with a tiny telescope in the top right corner. For any of those items you can make a gesture and zoom in and out using whatever nearby cameras that exist (that you have access to).</li>
+</ul>
+<p><strong>Businesses as Daemons</strong></p>
+<ul>
+<li>Play the perfect song for this moment.</li>
+<li>Find the perfect gift for this person.</li>
+<li>Write the perfect letter for this situation.</li>
+<li>Create the perfect song for this situation.</li>
+<li>Give me the best path from A to Z given this cargo and time of travel.</li>
+<li>Display this content to me in the way that will help me make the best decisions in the least amount of time.</li>
+<li>What should I watch right now?</li>
+<li>When I look at the cover of a book, give me a perfect summary that fills the cover, along with the rating.</li>
+<li>What should I listen to?</li>
+<li>Why am I not happy?</li>
+<li>If I redesigned my living room, what are the top best options?</li>
+<li>What do I waste the most time on in my life?</li>
+<li>Surprise me with an interesting music choice that I&rsquo;ll love but never would have picked myself.</li>
+<li>Remind me when there&rsquo;s someone I care about that I haven&rsquo;t told how much I love them.</li>
+<li>Show me how much danger I am in at any given moment.</li>
+<li>Show me the local crime statistics for the area I&rsquo;m in.</li>
+<li>Spend up to 5,000 to automatically deploy local defenders if anyone in my family gets in danger.</li>
+<li>Only show me menu items that I should eat as part of my new health plan.</li>
+<li>Build me a perfect daily routine based on my life goals.</li>
+<li>Find the perfect girl for me.</li>
+<li>What comic series would I like?</li>
+<li>I&rsquo;m new to Sushi, what should I try on this menu?</li>
+<li>I just got this text, how should I respond?</li>
+<li>I need to impress this person I just met; build me a weekend spending no more than 1,000 that they&rsquo;ll love.</li>
+<li>Who&rsquo;s hurting the most within 1 mile, and what can I do for them?</li>
+</ul>
+<p><strong>The Future of Work</strong></p>
+<ul>
+<li>Jason is rated highly in many local and global skills, and he sits relaxing at his favorite coffee shop. He&rsquo;s asked his DA to only bother him with incoming job requests if they pay over a certain amount. Because of his high ratings in these skills, he often gets fiction editing requests, requests to help move things, cat-sitting, legal contract review, and empathic listening. When a job passes the threshold, his DA (named Timmothy), will break in quietly in his earpiece. &ldquo;Legal contract review, 37 pages, due by tomorrow morning, are we interested?&rdquo; Jason nods his head and the details are worked out between DAs transparently.</li>
+<li>Nadia sits at her favorite co-working location watching incoming job requests scroll by her AR display. She&rsquo;s a coder so she&rsquo;s watching the logos for various languages scroll by, with the size of the icon representing the payment for the project. She also gets lots of requests for helping people with programming, which she sometimes takes just to be nice, since they don&rsquo;t pay much. She sees a big project in her favorite language scroll by and tells her DA (Vira), &ldquo;I&rsquo;ll take that one.&rdquo;</li>
+<li>Companies will specialize in finding better matches of job seeker and job taker based on hidden truths they extract using their proprietary algorithms.</li>
+<li>You&rsquo;ll be able to simply say, &ldquo;Find me someone to help me move this pile of rocks,&rdquo; or, &ldquo;Find me the best person to edit this photo.&rdquo; Your DA will contact multiple companies/algorithms to find the best fit for you (if it doesn&rsquo;t know already) and that company will connect you with the best service or person.</li>
+<li>You&rsquo;ll be able to specify that you prefer local, that you prefer in person, that you prefer best in the world, that you prefer cheap, etc. And the algorithms your DA uses will take this into account.</li>
+</ul>
+<p><strong>The Four Components of Information Infrastructure</strong></p>
+<ul>
+<li>There will be countless companies competing to provide various parts of the sensor, daemon, transfer, algorithm, and interface infrastructure. They will be modular in nature so that one company&rsquo;s sensors can interface cleanly with another company&rsquo;s daemon technology.</li>
+<li>Each piece is a bottleneck to the entire system, so realtime data for increasingly large systems (consisting of billions and trillions of nodes) will become possible as the minimum capacity component in the infrastructure is upgraded at any given time.</li>
+</ul>
+<p><strong>Getting Better at Getting Better</strong></p>
+<ul>
+<li>Machine learning and evolutionary algorithms will be used to improve each other, accelerating the pace at which both can improve.</li>
+<li>As algorithms start replacing humans, the pace of improvement will only increase; shown by algorithms getting better at handling customer service issues, driving, obtaining knowledge, etc. The advantages of these gains can be almost instantly transferred and applied elsewhere in the industry.</li>
+</ul>
+<p><strong>Desired Outcome Management</strong></p>
+<ul>
+<li>Algorithms will be pointed to realtime datasets that are continuously updated, and the algorithms will continue to optimize themselves as they consume more data.</li>
+<li>Philosophy will become far more interesting because once the data infrastructure is more standardized and modular, the value from data, statistics, and machine learning will increasingly hinge upon asking the right questions. The right questions, in turn, will hinge upon our goals and will unfortunately require philosophers to figure out (and articulate) what those should be.</li>
+</ul>
+<p><strong>Peer-to-peer Value Exchange</strong></p>
+<ul>
+<li>Eventually people will build communities that are functionally, emotionally, and economically tied to each other through mutual dependence and support. Value exchange, providing of services, infrastructure mechanisms, etc.&mdash;will all be handled internally to a significant degree in order to return to a sense of community.</li>
+<li>Fewer services (but still many) will require centralized, institutionalized resources, as the peer structure will eventually be robust enough to handle most needs. Exceptions to this norm will be in the areas where it makes sense, construction and emergency vehicles for example, to have a permanent staff available at all times.</li>
+</ul>
+<h2 id="summary">Summary <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#summary"></a><a href="#summary" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Let&rsquo;s review what we&rsquo;ve talked about.</p>
+<p><em>Central concepts</em></p>
+<ul>
+<li>PREDICTION: It&rsquo;s possible to predict where technology is going by predicting what humans want, i.e., to be more capable and more successful in evolutionary terms.</li>
+<li>INTERFACE: We&rsquo;re moving to a model where humans control their own information, broadcast that realtime updated information through daemons, and interact with assistants who then use other daemons to carry out our wishes.</li>
+<li>EVOLUTION: This is the start of infrastructure that will enable a peer-to-peer vs. institutional interaction model, i.e., ultimately enabling a bottom-up vs. top-down structure of society.</li>
+</ul>
+<p><em>Chapter topics</em></p>
+<ul>
+<li>There are basic trends in technology that we can see crystallizing: centralized to peer-to-peer, forced to natural, obvious to invisible, manual to automatic, periodic to continuous, scheduled to realtime, private to open, visual to multi-sensory, aggregated to curated, and designed to evolved.</li>
+<li>Objects, including humans, will become their own authoritative sources of truth for information about them through a concept called Universal Daemonization.</li>
+<li>Universal Daemonization will allow for realtime data gathering about objects in the world at nearly any scale.</li>
+<li>Daemonization will be bi-directional, allowing for the updating of, pushing to, and issuing of commands to other objects.</li>
+<li>Because humans will not be able to parse and interact with billions of daemons, Digital Assistants will perform this task for them.</li>
+<li>Digital Assistants or Advocates (DAs) will work to optimize the life of their principals continuously, without rest, 24/7/365, and in multiple threads.</li>
+<li>Our DAs will use AI to subtly alter their principals&rsquo; interface to the world, giving them better knowledge and providing interfaces for modification.</li>
+<li>All requests made from your daemon will be made as a centralized identity, and third parties will validate that it was truly you that made those requests.</li>
+<li>Our daemons will display numerous reputation scores about us which are also validated by third parties.</li>
+<li>Our DAs will constantly customize our experiences around us by modifying what things look like, how they&rsquo;re configured, and how we experience them, through transparent daemon interaction.</li>
+<li>Constantly improving algorithms will be connected to the billions (then trillions) of sensors in the world, and they will constantly parse reality into events and data that are meaningful to humans that can then be shared with various entities.</li>
+<li>Our DAs will use whatever resources they have (thousands of eyes and ears) to monitor us, our loved ones, and our valuables for safety.</li>
+<li>Our DAs will functionally grant us superpowers through the enhancement of our sight, hearing, and many other sense types that we don&rsquo;t even naturally possess.</li>
+<li>Businesses will become daemonized forms of their core algorithms, and the primary consumers of these business daemons will not be humans themselves, but rather their DAs using the services on behalf of their principles.</li>
+<li>People will broadcast their third-party-validated capabilities through their daemons, and this peer-to-peer infrastructure will represent the future of finding and securing work.</li>
+<li>The four ways of gathering and using data will be: realtime data from objects, transferring that data, analyzing the data using algorithms, and then presenting it in some way.</li>
+<li>The combination of machine learning and evolutionary algorithms will not only improve our ability to learn about the world, but will improve our ability to improve that ability.</li>
+<li>This will culminate in a framework that allows humankind to systematically define its goals, study reality in realtime using AI, and then make optimizations to our behavior that best lead to our desired outcomes.</li>
+<li>Daemonization will ultimately allow humans to forego reliance on large, abstracted institutions and instead look to each other for their needs.</li>
+</ul>
+<h2 id="conclusion">Conclusion <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#conclusion"></a><a href="#conclusion" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>There have been three main themes throughout this book:</p>
+<ol>
+<li>That we can predict the future of technology through our understanding of what humans ultimately want</li>
+<li>That human-to-technology interface is about to fundamentally change by placing daemons and AI between humans and technology</li>
+<li>That we&rsquo;re moving towards a bottom-up and evolution-based model vs. one that&rsquo;s top-down and design-based</li>
+</ol>
+<p><strong>Prediction</strong></p>
+<p>We cannot know what technology will be capable of in the future, but the more we understand ourselves the more we will know exactly how it&rsquo;ll be used. That dynamic is the key to our predictive power. We are the imperfect pothole, and technology is the puddle inside. Know the shape of the container and you&rsquo;ll know the shape of what fills it.</p>
+<p>Given that perspective, technology is perhaps best defined as:</p>
+<p><em>An artificial layer of abstraction that converts an entity’s desire into reality</em>.</p>
+<p>Technology is what fills the gap between the world we have and the world we want, and in that sense it is far more predictable than most realize.</p>
+<p><strong>Interface</strong></p>
+<p>We&rsquo;re not just moving to a model where humans interact with their computers via voice and text&mdash;that&rsquo;s a small detail in the larger point.</p>
+<p>What we&rsquo;re moving toward is a model where humans don&rsquo;t really interact with computers at all. Instead, humans will interact with digital assistants who then interact with computers on our behalf. It&rsquo;s mediation. It&rsquo;s abstraction. It&rsquo;s humans simply wanting or needing things, communicating those needs either automatically, implicitly, or explicitly, and having those things simply happen.</p>
+<p>We as humans will simply go about our day, with little &ldquo;technology&rdquo; to be found. Our assistants will filter thousands of incoming grasps for our attention, bringing us only those they know we&rsquo;ll care about, filtering and reconfiguring world around us according to our preferences.</p>
+<p><strong>Evolution</strong></p>
+<p>Finally, daemonization will unify a person&rsquo;s identity into a single source of truth that lives where it should: <em>with you</em>.</p>
+<p>Instead of being the fleshy, abstracted subject of thousands of imperfect databases, you will become the single authority for who you are, your realtime state, what you care about, and how you prefer to interface with everything else.</p>
+<p>This not a technology upgrade, it&rsquo;s a humanity upgrade.</p>
+<p>It&rsquo;s knowledge of, and connectedness with, all other objects through your respective daemons, allowing you the ability to exchange ideas and value in realtime.</p>
+<p>It will transition us from a model where institutions slowly and imprecisely interact with other institutions about us, to a model where we interact in realtime with each other, about ourselves.</p>
+<p>This is the real Internet of Things.</p>
+<h2 id="afterword">Afterword <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#afterword"></a><a href="#afterword" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Having heard the main concepts at this point, you might be experiencing one of the following:</p>
+<ol>
+<li>You&rsquo;re realizing how likely and inevitable this type of change is, and you&rsquo;re feeling excited and optimistic.</li>
+<li>You&rsquo;re realizing how likely and inevitable these predictions are, but you feel like it&rsquo;s inviting a horrible dystopia.</li>
+<li>You&rsquo;re thinking this has been an exercise in wild conjecture, and that it&rsquo;s far less about prediction than science fiction.</li>
+</ol>
+<p>If you don&rsquo;t see any of this happening then I guess we&rsquo;ll just have to disagree. If you&rsquo;re feeling positive and optimistic, then I&rsquo;m happy about that. If you&rsquo;re feeling sick to your stomach that anyone could see this future and think it a positive one, then I&rsquo;m with you there as well. Some thoughts that go through my head as I think about these things include:</p>
+<ul>
+<li>Who would want to live in this world?</li>
+<li>What about privacy?</li>
+<li>What about human interaction?</li>
+<li>Think of the abuse this will enable!</li>
+<li>Think about how it’ll enable the haves vs. the have-nots.</li>
+<li>No thanks—-this is a soulless existence I wouldn’t want to live in.</li>
+</ul>
+<p>I know. I hear you and everyone else who feels this way. Like I said, I have the same feelings quite often myself while exploring these ideas.</p>
+<p>What’s important to understand, however, is that I’m not conjuring this reality into existence. I’m not enabling it to happen. I’m simply describing what is&mdash;without question&mdash;<em>going</em> to happen. As I talk about in the initial concept of Prediction, these are things that will come to pass not from conscious, planned thought, but rather because this is what humans will demand&mdash;and inevitably receive&mdash;because of what our species innately desires.</p>
+<p>These are not merely interesting ideas. They’re not novel possibilities about what could come happen. They’re the actual future of technology, regardless of the way we arrive at it. I’m simply letting you know about it before it gets here.</p>
+<p>The amount of functionality these technologies will bring, and the demand for them by both consumers and industry, will be too powerful to oppose. They are the train, and all we can do is get ready for it. When it gets here, it might run us down or it might take us comfortably to our destination. But it&rsquo;s coming either way.</p>
+<p>Many of these ideas trouble me. As someone who cares about inequality, I see DAs as powerful levers for the successful to pull even further away from the masses. As someone in cybersecurity, I have compiled my own personal legion of abuse cases for so many of these capabilities, and they range from the troubling to the terrifying.</p>
+<p>But my distaste for, and concern about, many of the possibilities will not stop me from either alerting you of what&rsquo;s coming, nor from seeking a way to transform it into something positive.</p>
+<p>Hating the thought of this tech harming our humanity is natural, but don&rsquo;t allow the unpleasantness convince you that it isn&rsquo;t there, or that it isn&rsquo;t coming. It <em>is</em> there. And it <em>is</em> coming.</p>
+<p>So let&rsquo;s use our energy to make the arrival as safe, secure, and beneficial to humanity as possible. Denial and dismissal help no one.</p>
+<h2 id="extended-content">Extended content <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#extended-content"></a><a href="#extended-content" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>There is far more to say on each individual topic presented here, as well as more topics to add. As I do I&rsquo;ll be capturing them on my site at: <a href="https://danielmiessler.com/blog/">danielmiessler.com/blog/</a>. Please join me there as I continue to to explore the ideas with related ideas, additional use cases, and conversation about how the technologies will intersect with society.</p>
+<p><a href="https://danielmiessler.com/blog/">danielmiessler.com/blog/</a></p>
+<h2 id="colophon">Colophon <a href="https://danielmiessler.com/blog/the-real-internet-of-things?utm_source=newsletter.danielmiessler.com&amp;utm_medium=referral&amp;utm_campaign=unsupervised-learning-no-478#colophon"></a><a href="#colophon" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>San Francisco CA, Newark CA</li>
+<li>2016</li>
+<li>macOS Sierra</li>
+<li>Vim</li>
+<li>Zomby, Glitch Mob, Technoboy, Ratatat, Behemoth, Opeth, Gojira</li>
+<li>Markdown</li>
+<li>Pandoc</li>
+</ul>
+<h4 id="notes">Notes<a href="#notes" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="/posts/sources/the-quantum-apocalypse-is-coming.-be-very-afraid---wired/" class="button inline prev">
+        &lt; [<span class="button__text">The Quantum Apocalypse Is Coming. Be Very Afraid - WIRED</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="/posts/the-shaft---5l158/" class="button inline next">
+         [<span class="button__text">The Shaft - 5L158</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

@@ -179,7 +179,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---windows/">OSCP - Windows</a>
+          <a href="/posts/oscp---exfiltrated---linux/">OSCP - Exfiltrated - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -196,53 +196,29 @@
 
         <div class="post-content">
           
-            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
-<h1 id="tj-null---pg-practice">TJ Null - PG Practice</h1>
-<p><del>Helpdesk</del> (Not available)</p>
-<p>Easy - 1/4</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Algernon - Easy</li>
-<li><input checked="" disabled="" type="checkbox"> Squid - Easy</li>
-<li><input checked="" disabled="" type="checkbox"> Internal - Easy</li>
-<li><input disabled="" type="checkbox"> <del>Kevin - Easy</del> (Aborted)</li>
-</ul>
-<p>Intermediate - 6/9</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Authby - Intermediate</li>
-<li><input checked="" disabled="" type="checkbox"> Hutch - Intermediate</li>
-<li><input checked="" disabled="" type="checkbox"> Jacko - Intermediate</li>
-<li><input disabled="" type="checkbox"> Resourced - Intermediate</li>
-<li><input disabled="" type="checkbox"> DVR4 - Intermediate</li>
-<li><input disabled="" type="checkbox"> Hepet - Intermediate</li>
-<li><input disabled="" type="checkbox"> Shenzi - Intermediate</li>
-<li><input disabled="" type="checkbox"> Nickel - Intermediate</li>
-<li><input disabled="" type="checkbox"> Slort - Intermediate</li>
-</ul>
-<p>Hard 1/1</p>
+            <h1 id="exfiltration">Exfiltration</h1>
+<p>Relatively easy box turned into a VERY frustrating experience at not being able to properly execute <code>exiftool</code> exploit because of missing library dependencies. Exploit actually detailed exactly <em>how</em> to install those dependencies, but I was looking for instructions on Stack Overflow instead of in the script itself - <em><strong>always read the script!</strong></em></p>
+<p>Exploits were relatively straight forward once the dependencies were sorted though, so all round good practice on the process of popping boxes. Local user had also been identified by <code>linpeas.sh</code> but ended up getting root first (flag = <code>proof.txt</code>) then using root privilege to find the <code>coaran</code> user with GID=1000 and the local flag (flag = <code>local.txt</code>).</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---exfiltrated---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/outside-magazine/">Outside Magazine</a>
+          <a href="/posts/oscp---extplorer---linux/">OSCP - Extplorer - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/personal/">personal</a>&nbsp;
-            
-            #<a href="/tags/expeditions/">expeditions</a>&nbsp;
-            
-            #<a href="/tags/exploration/">exploration</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -252,36 +228,29 @@
 
         <div class="post-content">
           
-            <h1 id="articles">Articles</h1>
-<ul>
-<li><a href="https://www.outsideonline.com/outdoor-adventure/exploration-survival/wim-hof-method/">How Iceman Wim Hof Uncovered the Secrets to Our Health</a></li>
-<li><a href="https://www.outsideonline.com/outdoor-adventure/water-activities/raising-dead/">Raising the Dead - Dave Shaw</a></li>
-</ul>
-<h1 id="references">References</h1>
-<p><a href="https://www.outsideonline.com/tag/outside-features/">Outside - Long Reads</a>
-<a href="https://www.outsideonline.com/collection/outside-classics/">The Best Stories We’ve Ever Told - Greatest Long Reads of All Time)</a>
-<a href="https://www.outsideonline.com/collection/greatest-outside-adventure-stories-ever-told/">The Greatest Outside Adventure Stories Ever Told</a></p>
-<p><a href="https://www.amazon.com.au/Out-There-Wildest-Stories-Magazine-ebook/dp/B07DRB4BC6/ref=tmm_kin_swatch_0">Kindle - Out There: The Wildest Stories from Outside Magazine</a></p>
+            <h1 id="extplorer">Extplorer</h1>
+<p>This was simultaneously the easiest and most frustrating box yet. Identifying and accessing <code>filemanager</code> was ridiculously easy, and uploading a reverse shell php and catching the shell <em>seemed</em> easy initially. Even finding credentials for <code>dora</code> was easy once I started looking through all the info that was available in the <code>filemanager</code> folder.</p>
+<p>What I wasn&rsquo;t expecting was to spend 2 hours trying to figure out why I couldn&rsquo;t upgrade the dumb shell I&rsquo;d caught to a full shell, even though I <em><strong>knew</strong></em> the target was running <code>python3</code>.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/outside-magazine/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---extplorer---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/pacific-north-west/">Pacific North-West</a>
+          <a href="/posts/oscp---fired---linux/">OSCP - Fired - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -291,72 +260,28 @@
 
         <div class="post-content">
           
-            <p>Pacific North-West is listed under <a href="/posts/north-america/">North America</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-<hr>
-<h1 id="existing-notes">Existing Notes</h1>
-<h1 id="about">About</h1>
-<h2 id="us">US</h2>
-<ul>
-<li><a href="https://nwdiveclub.com/viewtopic.php?t=13516">Clear Lake, Oregon</a> (Cave)</li>
-</ul>
-<ul>
-<li><a href="http://www.underseaadventures.net/titan-i-missile-silo-silo-diving-dive-into-history.htm">Royal City, Washington - Titan I Missile Silo</a></li>
-<li>Colorado - <a href="https://en.wikipedia.org/wiki/Spring_Cave">Spring Cave </a>(Only open April 16 - Aug 14), Aspen (<a href="https://www.beaverdivers.com/">Beaver Divers</a>)</li>
-</ul>
-<h2 id="canada">Canada</h2>
-<p>British Columbia - <a href="http://www.cavediver.net/forum/showthread.php/7140-Caves-on-Vancouver-Island-British-Columbia?s=a31f1a0e05071f932947b790ea1bc266">Vancouver Island</a>, <a href="https://www.narcity.com/amp/7-cool-caves-to-explore-in-british-columbia-this-summer">7 Caves in BC</a>, <a href="https://www.cbc.ca/amp/1.4488952">Canada’s Deepest Cave</a>, <a href="https://www.canadiangeographic.ca/article/subterranean-trailblazers">Castleguard</a></p>
-<ul>
-<li><a href="https://doublearrowdivecompany.ca/dive-sites/">Double Arrow Dive Company</a></li>
-</ul>
-<h1 id="caves">Caves</h1>
-<ul>
-<li></li>
-</ul>
-<h1 id="trips">Trips</h1>
-<ul>
-<li></li>
-</ul>
-<hr>
-<h1 id="references">References</h1>
+            <h1 id="fired">Fired</h1>
+<p>This box was relatively straightforward until the very last step, where I simply couldn&rsquo;t find credentials to move forward. I needed a bit of guidance finding how to setup the admin panel to establish a reverse shell, but all the details were on an exploit page when I went looking. The walkthrough support for the box itself was very limited (or atleast I could only find a single walkthrough for it) and the only major barrier was the very final step - finding a script file in the <code>openfire</code> directory that had cleartext root credentials.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/pacific-north-west/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---fired---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/palau/">Palau</a>
+          <a href="/posts/oscp---flu---linux/">OSCP - Flu - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/personal/">personal</a>&nbsp;
-            
-            #<a href="/tags/trips/">trips</a>&nbsp;
-            
-            #<a href="/tags/expeditions/">expeditions</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -366,36 +291,29 @@
 
         <div class="post-content">
           
-            <h1 id="about">About</h1>
-<p>Best time to go is May (Rubens)
-Palau offers <strong>year-round diving</strong>, but the <strong>dry season</strong> from <strong>October to May</strong> is considered the best time to visit. During this period, divers can expect calmer seas, better visibility (often exceeding 30 meters), and a higher likelihood of encountering diverse marine life.</p>
-<p>Palau&rsquo;s <strong>Rock Islands</strong>, a UNESCO World Heritage Site, are characterized by <strong>uplifted coral limestone formations</strong> that have been sculpted over millions of years by natural processes such as erosion, tidal action, and sea-level changes. This has resulted in a stunning karst topography featuring <strong>mushroom-shaped islands</strong>, <strong>caves</strong>, <strong>sinkholes</strong>, and <strong>underground channels</strong>. These formations are not only geologically significant but also contribute to the rich biodiversity and unique ecosystems found in the region</p>
+            <h1 id="flu">Flu</h1>
+<p>This is the first box I can confidently say I did <em><strong>NOT</strong></em> look at a walkthrough for any help on! I&rsquo;ve included one in the details above, but it remained as a background tab the entire way through this - massive confidence boost to know I can do this without needing to follow someone else&rsquo;s footsteps!</p>
+<p>Seeing Confluence when I checked the html port was a big confidence booster too, as I&rsquo;ve worked with it a lot already and knew there were plenty of vulnerabilities and exploit available for older versions. Getting RCE was incredibly simple, and then it was simply a case of enumerating the target to find a privilege escalation vector.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/palau/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---flu---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/pannikin-plains---6n49/">Pannikin Plains - 6N49</a>
+          <a href="/posts/oscp---hub---linux/">OSCP - Hub - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/caving/">caving</a>&nbsp;
-            
-            #<a href="/tags/personal/">personal</a>&nbsp;
-            
-            #<a href="/tags/trips/">trips</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -405,29 +323,15 @@ Palau offers <strong>year-round diving</strong>, but the <strong>dry season</str
 
         <div class="post-content">
           
-            <h1 id="about">About</h1>
-<p>Ask Ryan how to do Pannikin differently?</p>
-<ul>
-<li>What Equipment is Needed?
-<ul>
-<li>CCR &amp; DPV</li>
-<li>Ropes &amp; Rigging</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h1 id="to-do">To Do</h1>
-<p>Diving
-Dry
-Photogrammetry</p>
-<hr>
-<h1 id="references">References</h1>
+            <h1 id="hub">Hub</h1>
+<p>This was a bit of an odd one that required more than a few reverts. Identifying that FuguForum was the target (not barracuda as initially suspected) was a nice realisation that I&rsquo;m picking up on the details that I need to, and that searching for exploits is becoming a more common and clear thing to do.</p>
+<p>What was really frustrating was finding that none of those exploit actually work, and then needing to dig into the website to write a reverse shell into page. So much of this box didn&rsquo;t work properly, and what should have been straight forward was unnecessarily difficult - not because it was secure, but because it simply wasn&rsquo;t working properly. Even once I managed to get a shell, there was no way to upgrade it to full TTY, so once I had root through a binary exploit, I was still stuck with a shitty shell.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/pannikin-plains---6n49/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---hub---linux/">[Read more]</a>
           </div>
         
       </article>
