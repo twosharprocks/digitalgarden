@@ -270,6 +270,89 @@ def render_oscp_index(query, notes, current_path=None):
     return "\n\n".join(sections) if sections else "_No matching OSCP notes._"
 
 
+def trip_sort_key(note):
+    month_numbers = {
+        "jan": 1,
+        "feb": 2,
+        "mar": 3,
+        "apr": 4,
+        "may": 5,
+        "jun": 6,
+        "jul": 7,
+        "aug": 8,
+        "sep": 9,
+        "oct": 10,
+        "nov": 11,
+        "dec": 12,
+    }
+    match = re.search(
+        r"\b(20\d{2})\s+"
+        r"(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|"
+        r"Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|"
+        r"Nov(?:ember)?|Dec(?:ember)?)\b",
+        note.get("_filename", ""),
+        flags=re.IGNORECASE,
+    )
+    if not match:
+        return 0
+    year = int(match.group(1))
+    month = month_numbers.get(match.group(2)[:3].lower(), 0)
+    return year * 100 + month
+
+
+def uses_trip_template(note):
+    templates = note.get("template", [])
+    if not isinstance(templates, list):
+        templates = [templates]
+    for template in templates:
+        target = str(template or "").strip().strip('"').strip("'")
+        if re.sub(r"\.md$", "", target, flags=re.IGNORECASE).endswith("Template - Trip"):
+            return True
+    return False
+
+
+def render_trips_index(query, notes, current_path=None):
+    normalized = query.upper()
+    if not (
+        "USESTRIPTEMPLATE" in normalized
+        and re.search(r"\bTRIPS\s*=\s*DV\.PAGES", normalized)
+        and "TRIPS" in normalized
+        and "TRIP - " in normalized
+    ):
+        return None
+
+    categories = [
+        ("Upcoming", "planning"),
+        ("Past", "complete"),
+        ("Cancelled", "cancelled"),
+    ]
+
+    trips = []
+    for note in notes:
+        filename = note.get("_filename", "")
+        if filename.startswith("Template - "):
+            continue
+        if filename.startswith("Trip - ") or uses_trip_template(note):
+            trips.append(note)
+
+    sections = []
+    for heading, status in categories:
+        selected = [
+            note
+            for note in trips
+            if str(note.get("status", "")).lower() == status
+        ]
+        selected.sort(key=trip_sort_key, reverse=True)
+        lines = [f"# {heading}"]
+        if selected:
+            lines.extend(f"- {relref_link(note)}" for note in selected)
+        else:
+            lines.append("_No matching notes._")
+        sections.append("\n".join(lines))
+
+    return "\n\n".join(sections)
+
+
 def table_columns(query):
     table_match = re.search(
         r"(?is)^\s*TABLE\s+(.*?)\s+FROM\s+",
@@ -319,6 +402,9 @@ def render_dataview(query, notes, current_path=None):
     oscp_index = render_oscp_index(query, notes, current_path)
     if oscp_index is not None:
         return oscp_index
+    trips_index = render_trips_index(query, notes, current_path)
+    if trips_index is not None:
+        return trips_index
     if normalized.startswith("LIST"):
         return render_list(query, notes, current_path)
     if normalized.startswith("TABLE"):
