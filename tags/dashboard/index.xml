@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dashboard on Digital Garden</title>
+    <link>/tags/dashboard/</link>
+    <description>Recent content in Dashboard on Digital Garden</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/tags/dashboard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digital Garden - Dashboard</title>
+      <link>/posts/digital-garden---dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/digital-garden---dashboard/</guid>
+      <description>&lt;h1 id=&#34;digital-garden---dashboard&#34;&gt;Digital Garden - Dashboard&lt;/h1&gt;&#xA;&lt;p&gt;Generated: 2026-07-09 16:19:55&lt;/p&gt;&#xA;&lt;p&gt;This dashboard is a pre-publish lint snapshot generated from the Hugo-ready Markdown output.&lt;/p&gt;&#xA;&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Check&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;Count&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Markdown files scanned&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;617&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Likely mojibake files&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Body-level Obsidian embeds&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Body-level Obsidian wikilinks&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Files using relevant instead of related&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Duplicate related fields&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Missing created&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Missing updated&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Missing status&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Missing tags&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Missing title&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Missing related&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;likely-mojibake-files&#34;&gt;Likely mojibake files&lt;/h2&gt;&#xA;&lt;p&gt;Count: 0&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

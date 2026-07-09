@@ -251,18 +251,6 @@
     <loc>/posts/sources/in-praise-of-idleness-by-bertrand-russell/</loc>
     <lastmod>1932-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/oe-mamba-kecil/</loc>
-  </url><url>
-    <loc>/posts/oscp---active-directory/</loc>
-  </url><url>
-    <loc>/posts/oscp---htb---active-directory/</loc>
-  </url><url>
-    <loc>/posts/oscp---htb---linux/</loc>
-  </url><url>
-    <loc>/posts/oscp---htb---windows/</loc>
-  </url><url>
-    <loc>/posts/tag-audit---report-20260708-1409/</loc>
-  </url><url>
     <loc>/posts/101-things---complete-list/</loc>
   </url><url>
     <loc>/posts/101-things---to-do/</loc>
@@ -543,11 +531,15 @@
   </url><url>
     <loc>/tags/daily-notes/</loc>
   </url><url>
+    <loc>/tags/dashboard/</loc>
+  </url><url>
     <loc>/posts/daves-cave---5l215/</loc>
   </url><url>
     <loc>/posts/democratic-republic-of-congo/</loc>
   </url><url>
     <loc>/posts/digital-garden/</loc>
+  </url><url>
+    <loc>/posts/digital-garden---dashboard/</loc>
   </url><url>
     <loc>/tags/digital-garden/</loc>
   </url><url>
@@ -1017,6 +1009,8 @@
   </url><url>
     <loc>/posts/oceania/</loc>
   </url><url>
+    <loc>/posts/oe-mamba-kecil/</loc>
+  </url><url>
     <loc>/posts/olwolgin---6n/</loc>
   </url><url>
     <loc>/posts/oman/</loc>
@@ -1030,6 +1024,8 @@
     <loc>/posts/oscp/</loc>
   </url><url>
     <loc>/posts/oscp---access---ad/</loc>
+  </url><url>
+    <loc>/posts/oscp---active-directory/</loc>
   </url><url>
     <loc>/posts/oscp---algernon---windows/</loc>
   </url><url>
@@ -1066,6 +1062,12 @@
     <loc>/posts/oscp---fired---linux/</loc>
   </url><url>
     <loc>/posts/oscp---flu---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---htb---active-directory/</loc>
+  </url><url>
+    <loc>/posts/oscp---htb---linux/</loc>
+  </url><url>
+    <loc>/posts/oscp---htb---windows/</loc>
   </url><url>
     <loc>/posts/oscp---hub---linux/</loc>
   </url><url>
@@ -1292,6 +1294,8 @@
     <loc>/posts/sweden/</loc>
   </url><url>
     <loc>/tags/tacos/</loc>
+  </url><url>
+    <loc>/posts/tag-audit---report-20260708-1409/</loc>
   </url><url>
     <loc>/posts/tajikistan/</loc>
   </url><url>
