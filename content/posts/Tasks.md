@@ -10,7 +10,7 @@ Related:
   - "[[Strays]]"
   - "[[2025]]"
   - "[[2026]]"
-updated: 2026-07-07
+updated: 2026-07-09
 ---
 ---
 ==Priority - [Writing]({{< relref "posts/writing.md" >}})==
@@ -54,6 +54,7 @@ Admin
 		- New copy for website
 	- [ ] Sell RAM?
 	- [ ] Update AGSVA: Laos
+	- [ ] Tax Return
 
 Clear Up Data
 - [ ] Clear Instagram
