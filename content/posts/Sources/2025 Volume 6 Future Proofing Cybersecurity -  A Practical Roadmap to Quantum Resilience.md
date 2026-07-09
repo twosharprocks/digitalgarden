@@ -12,6 +12,8 @@ tags:
   - physics
   - interests
 description: Source
+updated: 2026-07-09
+status: seed
 ---
 ![A digital lock symbolizing security and privacy in the modern online landscape, emphasizing the importance of data protection.](https://www.isaca.org/-/media/images/isacadp/project/isaca/journal/2025/volume-6/j25v6_future-proofing.png?mw=550&hash=ED9BC6D2BE2C174AE0A485208007358D)
 

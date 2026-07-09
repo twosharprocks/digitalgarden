@@ -2,7 +2,8 @@
 title: "The obsolescence of man - Günther Anders"
 source:
 author:
-published_text: "created: 2025-06-14"
+published_text: ""
+created: 2025-06-14
 related: "[[Reading]]"
 tags:
   - unread
@@ -10,6 +11,8 @@ tags:
   - seed
   - personal
 original: https://libcom.org/book/export/html/51647
+updated: 2026-07-09
+status: seed
 ---
 ![](https://files.libcom.org/files/styles/small_wide/public/images/library/Anders.jpg?itok=rQ_yCmcr)
 

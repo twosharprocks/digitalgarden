@@ -10,6 +10,8 @@ tags:
   - unread
   - source
 description: Source
+updated: 2026-07-09
+status: seed
 ---
 !["Collaboration" is bullshit.](https://www.joanwestenberg.com/content/images/size/w2000/2026/03/W-Insight-1-HT-Jan11-e1666985964510-2688358860.jpg)
 

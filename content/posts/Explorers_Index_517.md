@@ -7,6 +7,8 @@ Related:
   - "[[Book - Cave Diving]]"
   - "[[Diving]]"
   - "[[Exploration]]"
+status: seed
+tags: []
 ---
 # Explorer's Index — 517 Cave-Dive Spine
 

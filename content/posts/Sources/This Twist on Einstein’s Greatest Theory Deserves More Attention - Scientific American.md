@@ -2,13 +2,16 @@
 title: "This Twist on Einstein’s Greatest Theory Deserves More Attention - Scientific American"
 source: "https://www.scientificamerican.com/article/this-twist-on-einsteins-greatest-theory-deserves-more-attention/"
 author:
-published_text: "created: 2026-06-19"
+published_text: ""
+created: 2026-06-19
 related: "[[Reading]]"
 tags:
   - unread
   - source
   - personal
   - physics
+updated: 2026-07-09
+status: seed
 ---
 February 26, 2025
 

@@ -2,14 +2,17 @@
 title: "The ADHD Body Double A Unique Tool for Getting Things Done - ADDA - Attention Deficit Disorder Association"
 source: "https://add.org/the-body-double/"
 author:
-published_text: "created: 2026-06-19"
-related: "[[Reading]]"
+published_text: ""
+created: 2026-06-19
+related:
+  - "[[Reading]]"
+  - "[[ADHD]]"
+  - "[[Time Management]]"
 tags:
   - unread
   - source
-relevant:
-  - "[[ADHD]]"
-  - "[[Time Management]]"
+updated: 2026-07-09
+status: seed
 ---
 Can something as simple as another person’s presence make it easier to stay on task?
 

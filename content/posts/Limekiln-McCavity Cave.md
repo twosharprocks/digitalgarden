@@ -26,4 +26,4 @@ Photogrammetry
 2025-09-27 - McCavity cave
 
 # References
-![[3WE - Wellington - 5-14 Mitchell-Limekilns Caves.pdf]]
+3WE - Wellington - 5-14 Mitchell-Limekilns Caves.pdf

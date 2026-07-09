@@ -6,9 +6,9 @@ status: seed
 draft: false
 tags:
   - diving
-relevant:
+related:
   - "[[Reading]]"
-Related: "[[Diving]]"
+  - "[[Diving]]"
 ---
 General
 - [NSS-CDS Underwater Speleology Magazine](https://nsscds.org/uws/)

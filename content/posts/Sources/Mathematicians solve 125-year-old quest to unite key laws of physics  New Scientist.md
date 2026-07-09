@@ -2,12 +2,15 @@
 title: "Mathematicians solve 125-year-old quest to unite key laws of physics  New Scientist"
 source: "https://www.newscientist.com/article/2472399-mathematicians-solve-125-year-old-problem-to-unite-key-laws-of-physics/"
 author:
-published_text: "created: 2026-06-19"
+published_text: ""
+created: 2026-06-19
 related: "[[Reading]]"
 tags:
   - unread
   - source
   - physics
+updated: 2026-07-09
+status: seed
 ---
 Can one single mathematical framework describe the motion of a fluid and the individual particles within it? This question, first asked in 1900, now has a solution that could help us understand the complex behaviour of the atmosphere and oceans.
 

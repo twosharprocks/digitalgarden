@@ -2,13 +2,16 @@
 title: "The Real Internet of Things - Daniel Miessler"
 source:
 author:
-published_text: "created: 2026-06-19"
+published_text: ""
+created: 2026-06-19
 related: "[[Reading]]"
 tags:
   - unread
   - source
   - personal
   - cyber-security
+updated: 2026-07-09
+status: seed
 ---
 ![The Real Internet of Things](https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/dbbb63a3-96fb-42ff-b6de-f577ab88e6e2/triot-blog-cover.png?t=1745508347)
 

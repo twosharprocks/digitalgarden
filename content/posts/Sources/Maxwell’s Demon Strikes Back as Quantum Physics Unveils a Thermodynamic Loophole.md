@@ -2,13 +2,16 @@
 title: "Maxwell’s Demon Strikes Back as Quantum Physics Unveils a Thermodynamic Loophole"
 source: "https://scitechdaily.com/maxwells-demon-strikes-back-as-quantum-physics-unveils-a-thermodynamic-loophole/"
 author:
-published_text: "created: 2026-06-19"
+published_text: ""
+created: 2026-06-19
 related: "[[Reading]]"
 tags:
   - unread
   - source
   - personal
   - physics
+updated: 2026-07-09
+status: seed
 ---
 [![No Quantum Exorcism for Maxwell’s Demon](https://scitechdaily.com/images/No-Quantum-Exorcism-for-Maxwells-Demon-777x437.jpg)](https://scitechdaily.com/images/No-Quantum-Exorcism-for-Maxwells-Demon.jpg)
 

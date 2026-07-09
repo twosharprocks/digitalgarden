@@ -22,6 +22,7 @@ Related:
 ## Windows
 - [OSCP - Algernon - Windows]({{< relref "posts/OSCP - Algernon - Windows.md" >}})
 - [OSCP - Authby - Windows]({{< relref "posts/OSCP - Authby - Windows.md" >}})
+- [OSCP - HTB - Windows]({{< relref "posts/OSCP - HTB - Windows.md" >}})
 - [OSCP - Hutch - Windows]({{< relref "posts/OSCP - Hutch - Windows.md" >}})
 - [OSCP - Internal - Windows]({{< relref "posts/OSCP - Internal - Windows.md" >}})
 - [OSCP - Jacko - Windows]({{< relref "posts/OSCP - Jacko - Windows.md" >}})
@@ -41,6 +42,7 @@ Related:
 - [OSCP - Extplorer - Linux]({{< relref "posts/OSCP - Extplorer - Linux.md" >}})
 - [OSCP - Fired - Linux]({{< relref "posts/OSCP - Fired - Linux.md" >}})
 - [OSCP - Flu - Linux]({{< relref "posts/OSCP - Flu - Linux.md" >}})
+- [OSCP - HTB - Linux]({{< relref "posts/OSCP - HTB - Linux.md" >}})
 - [OSCP - Hub - Linux]({{< relref "posts/OSCP - Hub - Linux.md" >}})
 - [OSCP - Image - Linux]({{< relref "posts/OSCP - Image - Linux.md" >}})
 - [OSCP - LaVita - Linux]({{< relref "posts/OSCP - LaVita - Linux.md" >}})
@@ -58,3 +60,5 @@ Related:
 
 ## Active Directory
 - [OSCP - Access - AD]({{< relref "posts/OSCP - Access - AD.md" >}})
+- [OSCP - Active Directory]({{< relref "posts/OSCP - Active Directory.md" >}})
+- [OSCP - HTB - Active Directory]({{< relref "posts/OSCP - HTB - Active Directory.md" >}})

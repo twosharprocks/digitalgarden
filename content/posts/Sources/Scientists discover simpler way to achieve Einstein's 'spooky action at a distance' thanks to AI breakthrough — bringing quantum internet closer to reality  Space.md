@@ -2,13 +2,16 @@
 title: "Scientists discover simpler way to achieve Einstein's 'spooky action at a distance' thanks to AI breakthrough — bringing quantum internet closer to reality  Space"
 source: "https://www.space.com/space-exploration/tech/scientists-discover-simpler-way-to-achieve-einsteins-spooky-action-at-a-distance-thanks-to-ai-breakthrough-bringing-quantum-internet-closer-to-reality"
 author:
-published_text: "created: 2026-06-19"
+published_text: ""
+created: 2026-06-19
 related: "[[Reading]]"
 tags:
   - unread
   - source
   - personal
   - physics
+updated: 2026-07-09
+status: seed
 ---
 Scientists have used AI to discover an easier method to form quantum entanglement between subatomic particles, paving the way for simpler quantum technologies.
 

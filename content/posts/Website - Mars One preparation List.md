@@ -10,7 +10,8 @@ Related: "[[Writing]]"
 source: https://web.archive.org/web/20170617121955/http://joshrichards.space/2017/04/24/personal-mars-one-preparation-list/
 author:
   - Josh Richards
-published_text: "description:"
+published_text: ""
+description:
 ---
 Recently I’ve had a lot of folks asking if I’m “doing any training to prepare” ahead of Mars One’s next selection phase, and I tell them that every single thing I’ve done since I heard about Mars One in early September 2012 has been about preparing for life on Mars. What they _really_ mean though is “Are you trying to get as physically fit as possible?”. The truth is I’m not even remotely as fit as I was in my mid-20’s training with the Royal Marine Commandos, and right now **I don’t want to be**.
 

@@ -2,13 +2,16 @@
 title: "The ‘quantum’ principle that says why atoms are as they are"
 source: "https://www.nature.com/articles/d41586-025-00731-x (Paywalled)"
 author:
-published_text: "created: 2026-06-19"
+published_text: ""
+created: 2026-06-19
 related: "[[Reading]]"
 tags:
   - unread
   - source
   - personal
   - physics
+updated: 2026-07-09
+status: seed
 ---
 What makes matter stable? Why are atoms as they are? Why do different materials vary in their properties, such as electrical conductivity, density, melting temperature or light-absorption spectra?
 

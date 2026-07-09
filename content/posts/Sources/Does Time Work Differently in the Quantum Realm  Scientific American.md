@@ -2,12 +2,15 @@
 title: "Does Time Work Differently in the Quantum Realm  Scientific American"
 source: "https://www.scientificamerican.com/article/does-time-work-differently-in-the-quantum-realm/"
 author:
-published_text: "created: 2026-06-19"
+published_text: ""
+created: 2026-06-19
 related: "[[Reading]]"
 tags:
   - unread
   - source
   - physics
+updated: 2026-07-09
+status: seed
 ---
 February 26, 2025
 

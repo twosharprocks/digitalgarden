@@ -2,16 +2,18 @@
 title: "The Metamorphosis of Prime Intellect"
 source:
 author:
-published_text: "created: 2026-06-19"
-related: "[[Reading]]"
+published_text: ""
+created: 2026-06-19
+related:
+  - "[[Reading]]"
 tags:
   - unread
   - source
   - philosophy
   - ai
-relevant:
-  - "[[Reading]]"
 original: https://localroger.com/prime-intellect/mopiall.html
+updated: 2026-07-09
+status: seed
 ---
 The Metamorphosis of Prime Intellect
 A Novel by Roger Williams

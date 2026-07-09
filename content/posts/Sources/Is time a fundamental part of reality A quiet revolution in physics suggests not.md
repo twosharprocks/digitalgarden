@@ -10,6 +10,8 @@ tags:
   - unread
   - source
 description: Source
+updated: 2026-07-09
+status: seed
 ---
 ![Clock sculpture in front of the Saint Lazare station in Paris.](https://images.theconversation.com/files/713591/original/file-20260121-56-ahajey.jpg?ixlib=rb-4.1.0&rect=0%2C348%2C4176%2C2088&q=75&auto=format&w=1336&h=668&fit=crop&dpr=1)
 

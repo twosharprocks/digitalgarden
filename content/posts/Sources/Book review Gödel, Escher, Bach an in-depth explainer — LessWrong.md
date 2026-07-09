@@ -10,6 +10,8 @@ tags:
   - unread
   - source
 description:
+updated: 2026-07-09
+status: seed
 ---
 *\[Thanks to Jacob Falkovich, Eric Neyman, and my LessWrong reviewer, among others, for their feedback on earlier drafts.\]*
 

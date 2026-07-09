@@ -2,12 +2,15 @@
 title: "How To Become A Hacker"
 source: "http://www.catb.org/~esr/faqs/hacker-howto.html"
 author:
-published_text: "created: 2025-09-15"
+published_text: ""
+created: 2025-09-15
 related: "[[Reading]]"
 tags:
   - unread
   - source
 description: "[[Cyber Security]]"
+updated: 2026-07-09
+status: seed
 ---
 Tags: Mental [Philosophy]({{< relref "posts/philosophy.md" >}})
 

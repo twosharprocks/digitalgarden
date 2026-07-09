@@ -2,13 +2,16 @@
 title: "Scientists Think Light May Hold the Memory of Ancient Cataclysms"
 source: "https://www.popularmechanics.com/space/deep-space/a64088911/gravitational-memory/"
 author:
-published_text: "created: 2026-06-19"
+published_text: ""
+created: 2026-06-19
 related: "[[Reading]]"
 tags:
   - unread
   - source
   - personal
   - physics
+updated: 2026-07-09
+status: seed
 ---
 ![network speed](https://hips.hearstapps.com/hmg-prod/images/network-speed-royalty-free-image-1741384232.pjpeg?crop=0.66635xw:1xh;center,top&resize=640:* "Network speed")
 

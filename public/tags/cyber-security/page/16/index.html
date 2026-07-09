@@ -151,6 +151,155 @@
     
       <article class="post on-list">
         <h1 class="post-title">
+          <a href="/posts/oscp---scrutiny---linux/">OSCP - Scrutiny - Linux</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="scrutiny">Scrutiny</h1>
+<p>This whole box felt like a whole lot of enumeration - digging through files to find SSH keys and cleartext passwords. Probably the biggest lesson I learned out of it however was how to setup and run python libraries in a virtual environment!</p>
+<p>The exploit required <code>urllib3 faker</code> to run, and <code>python3</code> kept throwing the <code>externally managed</code> error that drove me crazy awhile back when I was trying to install the <code>bzz</code> library - I must have found another way around that, but this time around I actually dug into what this error was all about. Turns out <code>python</code> likes to run it&rsquo;s external libraries in a self-contained virtual environment, and while there is an override pretty much everyone on stackoverflow was screaming that it&rsquo;d break the system.</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---scrutiny---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/oscp---squid---windows/">OSCP - Squid - Windows</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="squid">Squid</h1>
+<p>Everything about this box was a refresher, and there&rsquo;s no doubt I leaned heavily on the walkthrough as I was doing it. Learning about Squid and <code>spose.py</code> was interesting, but there&rsquo;s a concern that <code>spose.py</code> is pretty niche and I may never have found it (or realised I needed it) without the walkthrough.</p>
+<p>Maybe it&rsquo;s just more familiarity though, and with more practice I&rsquo;ll get better at knowing how to tackle different Windows services. There&rsquo;s no question I learned more about how proxies work from this box, and setting up FoxyProxy to reach the target&rsquo;s open ports was particularly interesting.</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---squid---windows/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/oscp---twiggy---linux/">OSCP - Twiggy - Linux</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="twiggy">Twiggy</h1>
+<p>Went down the rabbit hole with port 80 &amp; port 8000 too quickly, thinking this would require SQL injection or some sort of weird user enumeration to get into a web platform.</p>
+<p>Turns out the I needed to run nmap again with a full port scan (<code>-p- -T5</code>) and pick up ALL the ports before an aggressive service scan (<code>-A -p 22,55,ect</code>).</p>
+<p>2nd scan picked up <code>4505</code> and <code>4506</code> which correspond to ZeroMQ ZMTP 2.0 (saltStack). Looking up Saltstack showed a vulnerability (CVE-2020-11652)</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---twiggy---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/oscp---windows/">OSCP - Windows</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
+<h1 id="tj-null---pg-practice">TJ Null - PG Practice</h1>
+<p><del>Helpdesk</del> (Not available)</p>
+<p>Easy - 1/4</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Algernon - Easy</li>
+<li><input checked="" disabled="" type="checkbox"> Squid - Easy</li>
+<li><input checked="" disabled="" type="checkbox"> Internal - Easy</li>
+<li><input disabled="" type="checkbox"> <del>Kevin - Easy</del> (Aborted)</li>
+</ul>
+<p>Intermediate - 6/9</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Authby - Intermediate</li>
+<li><input checked="" disabled="" type="checkbox"> Hutch - Intermediate</li>
+<li><input checked="" disabled="" type="checkbox"> Jacko - Intermediate</li>
+<li><input disabled="" type="checkbox"> Resourced - Intermediate</li>
+<li><input disabled="" type="checkbox"> DVR4 - Intermediate</li>
+<li><input disabled="" type="checkbox"> Hepet - Intermediate</li>
+<li><input disabled="" type="checkbox"> Shenzi - Intermediate</li>
+<li><input disabled="" type="checkbox"> Nickel - Intermediate</li>
+<li><input disabled="" type="checkbox"> Slort - Intermediate</li>
+</ul>
+<p>Hard 1/1</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---windows/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
           <a href="/posts/pentesting/">Pentesting</a>
         </h1>
         <div class="post-meta"></div>
@@ -195,219 +344,6 @@
         
           <div>
             <a class="read-more button inline" href="/posts/pentesting/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/physical-access/">Physical Access</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <hr>
-<h1 id="physical-attacks">Physical Attacks</h1>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=rnmcRTnTNC8">Youtube - I&rsquo;ll Let Myself In: Tactics of Physical Pen Testers</a> - Deviant Ollam presenting at Wild West Hackin&rsquo; Fest 2017</li>
-<li><a href="https://www.udemy.com/course/learn-physical-red-team-operations/?couponCode=OPPPOT42722">Udemy - Physical Red Teaming</a></li>
-<li><a href="https://www.amazon.com.au/Unauthorised-Access-Physical-Penetration-Security-ebook/dp/B005DIAPKE">Book - Unauthorised Access: Physical Penetration Testing For IT Security Teams</a></li>
-</ul>
-<h2 id="essentials">Essentials</h2>
-<ul>
-<li><a href="https://www.redteamtools.com/magneticsearchpole">Red Team Tools - Magnetic Search Pole - $7</a></li>
-<li><a href="https://www.redteamtools.com/hammerless-hinge-tool">Red Team Tools - Hammerless Hinge Pine Tool - $17.50</a></li>
-<li><a href="https://www.redteamtools.com/traveler-hook-steel">Red Team Tools - Traveller Hook - $6</a></li>
-<li><a href="https://www.redteamtools.com/covert-comb-pick-set-of-2">Red Team Tools - Comb Pick (Pair) - $8</a></li>
-<li><a href="https://www.redteamtools.com/best-tamper-bit-set/">Red Team Tools - Tamper Bit Set - $9.45</a></li>
-</ul>
-<h2 id="door-tools">Door Tools</h2>
-<ul>
-<li><a href="https://www.amazon.com.au/Tool-Thumb-Turn-Bypass/dp/B09MT54HCD">Amazon - J Tool Thumb Turn Bypass</a></li>
-<li><a href="https://www.pickpals.com.au/buy-lockpicks/bypass-tools/sparrows-double-door-tool/">Pickpals - Double Door Tool</a> - DDT Bypass Demo <a href="https://www.youtube.com/watch?v=GLMyIvgG3zs">Video</a></li>
-<li><a href="https://www.redteamtools.com/film-canister">Red Team Tools - Film Canister - $14</a></li>
-<li><a href="https://www.amazon.com.au/Duolamila-Professional-Emergency-Multi-Function-Household/dp/B0B51CP743">Car Tool Kit</a> - 173cm Long Reach, Air Wedges, and Plastic Wedges</li>
-<li><a href="https://www.amazon.com.au/Super-Latch-Release-Slipping-Cards/dp/B0CB4CTRL4/ref=sr_1_1">Super Mica Slipping Cards (Pack of 5) - $22</a></li>
-<li><a href="https://www.amazon.com.au/dp/B0CHLVR76R">Amazon - &ldquo;Level Opening Tool&rdquo;</a> - Attach a borescope?</li>
-<li><a href="https://www.youtube.com/watch?v=gdkCsC90RMc">Youtube - Collapsible Under Door Tool</a> - Uses threaded steel rod with joiners</li>
-</ul>
-<h2 id="lock-picking--combs">Lock Picking &amp; Combs</h2>
-<p><a href="https://locklab.com/">Locklab</a></p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/physical-access/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/scripts/">Scripts</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="bash">Bash</h1>
-<ul>
-<li><a href="/posts/script---bash---ping-sweep/">Script - Bash - ping-sweep</a></li>
-</ul>
-<h1 id="powershell">Powershell</h1>
-<p>Active Directory</p>
-<ul>
-<li><a href="/posts/script---powershell---ad-audit/">Script - PowerShell - AD-Audit</a></li>
-<li><a href="/posts/script---powershell---ad-emailtouser/">Script - PowerShell - AD-EmailToUser</a></li>
-<li><a href="/posts/script---powershell---ad-groupmembers/">Script - PowerShell - AD-GroupMembers</a></li>
-<li><a href="/posts/script---powershell---ad-misc/">Script - PowerShell - AD-Misc</a></li>
-<li><a href="/posts/script---powershell---ad-newuser/">Script - PowerShell - AD-NewUser</a></li>
-<li><a href="/posts/script---powershell---ad-offboarding/">Script - PowerShell - AD-Offboarding</a></li>
-<li><a href="/posts/script---powershell---ad-oumaintenance/">Script - PowerShell - AD-OUMaintenance</a></li>
-</ul>
-<p>Other</p>
-<ul>
-<li><a href="/posts/script---powershell---archive-userfiles/">Script - PowerShell - Archive-UserFiles</a></li>
-<li><a href="/posts/script---powershell---servicedesk/">Script - PowerShell - ServiceDesk</a></li>
-</ul>
-<h1 id="python">Python</h1>
-<ul>
-<li><a href="/posts/script---python---pdftoterminal/">Script - Python - pdftoterminal</a></li>
-<li><a href="/posts/script---python---redact/">Script - Python - redact</a></li>
-<li><a href="/posts/script---python---unredact/">Script - Python - unredact</a></li>
-<li><a href="/posts/script---python---search-replace/">Script - Python - search-replace</a></li>
-</ul>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/scripts/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/speaking/">Speaking</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/speaking/">speaking</a>&nbsp;
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/books/">books</a>&nbsp;
-            
-            #<a href="/tags/work/">work</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <hr>
-<p>My next keynote will be about being a life-long diver.</p>
-<ul>
-<li>Being one hell of a swimmer &amp; tolerant to the cold.</li>
-</ul>
-<p>Topics
-AI, Quantum Computing, Gunter Anders, Year 2038 Problem</p>
-<p><a href="/posts/ai---ideas/">AI - Ideas</a></p>
-<ul>
-<li><a href="https://www.cnbc.com/2022/09/13/ai-has-bigger-role-in-cybersecurity-but-hackers-may-benefit-the-most.html">AI has bigger role in cybersecurity, but hackers may benefit the most</a></li>
-<li><a href="https://www.abc.net.au/news/science/2023-01-25/chatgpt-midjourney-generative-ai-and-future-of-work/101882580">How ChatGPT and other new AI tools are being used by lawyers, architects and coders - ABC News</a></li>
-<li><a href="https://openai.com/blog/chatgpt/">ChatGPT: Optimizing Language Models for Dialogue</a></li>
-<li><a href="https://en.wikipedia.org/wiki/AlphaGo_Zero">AlphaGo Zero - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Tensor_Processing_Unit">Tensor Processing Unit - Wikipedia</a></li>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt&amp;ssr=false">Code GPT - Visual Studio Marketplace</a></li>
-<li><a href="https://godinabox.co/">God In A Box | GPT-3.5 on Whatsapp</a></li>
-<li><a href="https://platform.openai.com/docs/guides/code/quickstart">Code completion - OpenAI API</a></li>
-<li><a href="https://arxiv.org/pdf/1706.03762.pdf">Attention is All You Need.pdf</a></li>
-<li><a href="https://github.com/karpathy/nanoGPT">karpathy/nanoGPT: The simplest, fastest repository for training/finetuning medium-sized GPTs.</a></li>
-<li><a href="https://www.pcgamer.com/experts-say-the-ai-singularity-could-be-here-in-the-next-two-decades/">Experts say the AI singularity could be here in the next two decades | PC Gamer</a></li>
-<li><a href="https://www.pcgamer.com/oops-chatgpt-can-be-hacked-to-offer-illicit-ai-generated-content-including-malware/">Oops, ChatGPT can be hacked to offer illicit AI-generated content including malware | PC Gamer</a></li>
-<li><a href="https://www.abc.net.au/news/2023-02-17/google-bard-microsoft-bing-ai-search-chatbots-jailbreaking/101976150?utm_medium=social&amp;utm_content=sf264311585&amp;utm_campaign=abc_news&amp;utm_source=m.facebook.com&amp;sf264311585=1">Google and Microsoft&rsquo;s AI search chatbots are here, but they aren&rsquo;t perfect. Here&rsquo;s why they are getting things wrong - ABC News</a></li>
-<li><a href="https://course.fast.ai/">Practical Deep Learning for Coders - Practical Deep Learning</a></li>
-</ul>
-<p>Quantum Computing</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/speaking/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="/posts/sources/the-quantum-apocalypse-is-coming.-be-very-afraid---wired/">The Quantum Apocalypse Is Coming. Be Very Afraid - WIRED</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/unread/">unread</a>&nbsp;
-            
-            #<a href="/tags/source/">source</a>&nbsp;
-            
-            #<a href="/tags/seed/">seed</a>&nbsp;
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/personal/">personal</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>One day soon, at a research lab near Santa Barbara or Seattle or a secret facility in the Chinese mountains, it will begin: the sudden unlocking of the world’s secrets. Your secrets.</p>
-<p>Cybersecurity analysts call this Q-Day—the day someone builds a <a href="https://www.wired.com/story/quantum-computing-is-dead-alive">quantum computer</a> that can crack the most widely used forms of encryption. These math problems have kept humanity’s intimate data safe for decades, but on Q-Day, everything could become vulnerable, for everyone: emails, text messages, anonymous posts, location histories, bitcoin wallets, police reports, hospital records, power stations, the entire global financial system.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/sources/the-quantum-apocalypse-is-coming.-be-very-afraid---wired/">[Read more]</a>
           </div>
         
       </article>

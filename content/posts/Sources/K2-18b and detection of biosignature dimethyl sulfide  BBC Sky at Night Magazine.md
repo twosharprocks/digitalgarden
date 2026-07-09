@@ -2,11 +2,14 @@
 title: "K2-18b and detection of biosignature dimethyl sulfide  BBC Sky at Night Magazine"
 source:
 author:
-published_text: "created: 2026-06-19"
+published_text: ""
+created: 2026-06-19
 related: "[[Reading]]"
 tags:
   - unread
   - source
+updated: 2026-07-09
+status: seed
 ---
 Status: #source #unread 
 Tags: [Physics]({{< relref "posts/physics.md" >}})

@@ -2,7 +2,8 @@
 title: "Vannevar Bush - As We May Think - The Atlantic"
 source:
 author:
-published_text: "created: 2025-05-21"
+published_text: ""
+created: 2025-05-21
 related: "[[Reading]]"
 tags:
   - unread
@@ -10,6 +11,8 @@ tags:
   - seed
   - personal
 original: https://web.archive.org/web/20201114003135/http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/?single_page=true
+updated: 2026-07-09
+status: seed
 ---
 ![Black-and-white photo of a telegram](https://cdn.theatlantic.com/thumbor/zz_vagQJO7FlTnHCHiidJ3wGveU=/1x416:2999x2102/960x540/media/img/2018/03/AP_413517775098/original.jpg)
 

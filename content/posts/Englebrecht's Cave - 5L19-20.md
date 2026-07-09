@@ -25,12 +25,12 @@ Description:
 
 ## Maps
 5L19/20 Fault Lines (Lewis)
-![5l019 20 Englebrecht's Cave Fault Lines (lewis) MAP](/images/5L019-20%20-%20Englebrecht%27s%20Cave%20-%20Fault%20Lines%20%28Lewis%29%20-%20MAP.jpg)
+![5L019 20 Englebrecht's Cave Fault Lines (Lewis) MAP](5L019-20 - Englebrecht's Cave - Fault Lines (Lewis) - MAP.jpg)
 
 5L19/20 (Horne) 
-![5l019 20 Englebrechts Cave MAP](/images/5L019-20%20-%20Englebrechts%20Cave%20-%20MAP.gif)
+![5L019 20 Englebrechts Cave MAP](/images/5L019-20%20-%20Englebrechts%20Cave%20-%20MAP.gif)
 
-![[5L019 - Englebrecht's East (Richards, 2022).jpg]]
+![5L019 Englebrecht's East (Richards, 2022)](5L019 - Englebrecht's East (Richards, 2022).jpg)
 
 
 
@@ -39,10 +39,10 @@ TML Data:
 KML Survey: Englebrecht's E Extension - KML.kml
 
 Englebrecht's East Extension (Richards)
-![5l019 Englebrecht's East Satellite (richards, 2022) MAP](/images/5L019%20-%20Englebrecht%27s%20East%20-%20Satellite%20%28Richards%2C%202022%29%20-%20MAP.jpg)
+![5L019 Englebrecht's East Satellite (Richards, 2022) MAP](5L019 - Englebrecht's East - Satellite (Richards, 2022) - MAP.jpg)
 
 Englebrecht's West Survey (Richards)
-![5l019 Pasted Image 20250412173012](/images/5L019%20-%20Pasted%20image%2020250412173012.png)
+![5L019 Pasted image 20250412173012](/images/5L019%20-%20Pasted%20image%2020250412173012.png)
 
 
 ---

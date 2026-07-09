@@ -10,6 +10,8 @@ tags:
   - unread
   - source
 description: Source
+updated: 2026-07-09
+status: seed
 ---
 A fierce debate is raging around the slippery notion of consciousness. It retraces a trotted pattern of cultural resistance: We humans are often scared by anything that may disturb our image of ourselves.
 

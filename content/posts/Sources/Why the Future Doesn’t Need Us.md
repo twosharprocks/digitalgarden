@@ -10,6 +10,8 @@ tags:
   - unread
   - source
 description: Source
+updated: 2026-07-09
+status: seed
 ---
 **Why the future doesn’t need us.**
 

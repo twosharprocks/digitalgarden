@@ -2,16 +2,19 @@
 title: "Alternative black hole models suggest quantum effects may erase need for singularities"
 source:
 author:
-published_text: "created: 2025-05-08"
-related: "[[Reading]]"
+published_text: ""
+created: 2025-05-08
+related:
+  - "[[Reading]]"
+  - "[[Cosmology]]"
 tags:
   - unread
   - source
   - seed
   - physics
-relevant:
-  - "[[Cosmology]]"
 original: https://phys.org/news/2025-05-alternative-black-hole-quantum-effects.amp
+updated: 2026-07-09
+status: seed
 ---
 ![Black holes: Beyond the singularity](https://scx2.b-cdn.net/gfx/news/2025/black-holes-beyond-the.jpg)
 

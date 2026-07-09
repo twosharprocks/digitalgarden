@@ -10,6 +10,8 @@ tags:
   - unread
   - source
 description:
+updated: 2026-07-09
+status: seed
 ---
 Tags: [Philosophy]({{< relref "posts/philosophy.md" >}}),
 

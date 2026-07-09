@@ -12,6 +12,8 @@ tags:
   - diving
   - expeditions
 description: Source
+updated: 2026-07-09
+status: seed
 ---
 ![](https://indepthmag.com/wp-content/uploads/2021/01/ANDREA-MURDOCK-ALPINI-PHY-DIVING-EQUIPMENT-NO-DIRECTION-HOME-SLOVENIA-CAVES-CHAPTER-II-2.jpg)
 

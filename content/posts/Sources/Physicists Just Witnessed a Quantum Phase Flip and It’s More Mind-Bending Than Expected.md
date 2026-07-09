@@ -2,13 +2,16 @@
 title: "Physicists Just Witnessed a Quantum Phase Flip and It’s More Mind-Bending Than Expected"
 source: "https://scitechdaily.com/physicists-just-witnessed-a-quantum-phase-flip-and-its-more-mind-bending-than-expected/"
 author:
-published_text: "created: 2026-06-19"
+published_text: ""
+created: 2026-06-19
 related: "[[Reading]]"
 tags:
   - unread
   - source
   - personal
   - physics
+updated: 2026-07-09
+status: seed
 ---
 [![Nonlinear Superconducting Resonator Circuit for Investigating Dissipative Phase Transitions](https://scitechdaily.com/images/Nonlinear-Superconducting-Resonator-Circuit-for-Investigating-Dissipative-Phase-Transitions-777x437.jpg)](https://scitechdaily.com/images/Nonlinear-Superconducting-Resonator-Circuit-for-Investigating-Dissipative-Phase-Transitions.jpg)
 

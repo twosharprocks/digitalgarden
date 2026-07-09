@@ -3,12 +3,15 @@ title: "Building Your Own AI-powered Life Management System"
 source: "https://newsletter.danielmiessler.com/p/building-your-own-ai-powered-life-management-system?utm_source=newsletter.danielmiessler.com&utm_medium=newsletter&utm_campaign=building-your-own-ai-powered-life-management-system&_bhlid=f5a5d379fea3f52b40bab3e6748f3c67b6e84a05"
 author:
   - "Daniel Miessler"
-published_text: "created: 2025-09-09"
+published_text: ""
+created: 2025-09-09
 related: "[[Reading]]"
 tags:
   - unread
   - source
 description:
+updated: 2026-07-09
+status: seed
 ---
 - [Home](https://newsletter.danielmiessler.com/)
 - Posts

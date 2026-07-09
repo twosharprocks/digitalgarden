@@ -15,13 +15,13 @@ related: "[[Diving]]"
 Description: 
 
 
-![5l250 Iddlebiddy Sat Web](/images/5L250%20-%20iddlebiddy%20sat%20-%20web.jpg)
-![5l250 Iddlebiddy Line Web](/images/5L250%20-%20iddlebiddy%20line%20-%20web.jpg)
-![5l250 Iddlebiddy Full Line Survey](/images/5L250%20-%20Iddlebiddy%20-%20full%20line%20survey.jpg)
-![5l250 Iddlebiddy Satellite & Photogrammetry MAP](/images/5L250%20-%20Iddlebiddy%20-%20Satellite%20%26%20Photogrammetry%20-%20MAP.jpg)
+![5L250 iddlebiddy sat web](/images/5L250%20-%20iddlebiddy%20sat%20-%20web.jpg)
+![5L250 iddlebiddy line web](/images/5L250%20-%20iddlebiddy%20line%20-%20web.jpg)
+![5L250 Iddlebiddy full line survey](/images/5L250%20-%20Iddlebiddy%20-%20full%20line%20survey.jpg)
+![5L250 Iddlebiddy Satellite & Photogrammetry MAP](/images/5L250%20-%20Iddlebiddy%20-%20Satellite%20%26%20Photogrammetry%20-%20MAP.jpg)
 
 ## Maps
-![[5L250 - Iddlebiddy - Will Passos (Dec 2023).pdf]]
+5L250 - Iddlebiddy - Will Passos (Dec 2023).pdf
 
 ## Survey
 TML Data: Iddlebiddy.tml

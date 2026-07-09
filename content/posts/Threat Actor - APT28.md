@@ -1,4 +1,4 @@
-﻿---
+---
 title: Threat Actor - APT28
 created: 2026-01-26
 updated: 2025-10-25

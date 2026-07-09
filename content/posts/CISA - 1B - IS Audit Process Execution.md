@@ -103,7 +103,7 @@ If **Compliance Testing** shows controls are weak/non-existent, the amount of *s
 - **Stratified Mean Per Unit**: Variable sampling that divides population into subgroups (strata) to reduce variability, allows smaller more efficient sample size
 - **Judgmental Sampling**: No-statistical method using auditor experience to select items of risk or significance
 
-![[CISA - Domain 1B - Sampling Methods]] 
+!CISA - Domain 1B - Sampling Methods 
 
 # 3 - Audit Evidence Collection Techniques
 - **What is audit evidence?**: Information used by the auditor to determine if the entity or data being audited follows the established criteria or objectives. 

@@ -14,6 +14,8 @@ Related:
   - "[[Quantum Computing]]"
   - "[[Book - Information Theory]]"
 description: Source
+updated: 2026-07-09
+status: seed
 ---
 ![A networked ball, illustrating quantum computing](https://www.isaca.org/-/media/images/isacadp/project/isaca/journal/2025/volume-6/j25v6_the-impact.png?mw=550&hash=05DBE60B08DFB960380A2C59C4831404)
 

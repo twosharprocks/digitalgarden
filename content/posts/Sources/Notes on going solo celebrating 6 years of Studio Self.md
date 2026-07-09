@@ -10,6 +10,8 @@ tags:
   - unread
   - source
 description: Source
+updated: 2026-07-09
+status: seed
 ---
 ![Notes on going solo: celebrating 6 years of Studio Self](https://images.unsplash.com/photo-1599153066743-08810dc8a419?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDV8fGxhcHRvcCUyMHN0aWNrZXJzfGVufDB8fHx8MTc3NDg0OTg3OXww&ixlib=rb-4.1.0&q=80&w=2000)
 

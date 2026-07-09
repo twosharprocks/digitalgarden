@@ -175,14 +175,17 @@ def sanitize_hugo_front_matter(text: str) -> str:
         prefix = match.group(1)
         raw_value = match.group(2).strip()
         value = raw_value.strip('"').strip("'")
-        if not value or re.match(r"^\d{4}-\d{2}-\d{2}(?:[tT\s].*)?$", value):
+        if value and re.match(r"^\d{4}-\d{2}-\d{2}(?:[tT\s].*)?$", value):
             return match.group(0)
+        if not value:
+            indent = re.match(r"^(\s*)", prefix).group(1)
+            return f'{indent}published_text: ""'
         escaped = value.replace("\\", "\\\\").replace('"', '\\"')
         indent = re.match(r"^(\s*)", prefix).group(1)
         return f'{indent}published_text: "{escaped}"'
 
     front_matter = re.sub(
-        r"(?mi)^(\s*published\s*:\s*)(.+?)\s*$",
+        r"(?mi)^([ \t]*published[ \t]*:[ \t]*)([^\r\n]*)$",
         sanitize_published,
         front_matter,
     )

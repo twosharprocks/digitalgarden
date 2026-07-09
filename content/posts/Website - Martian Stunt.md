@@ -10,7 +10,8 @@ Related: "[[Writing]]"
 source: https://web.archive.org/web/20160530020056/http://www.themightyginge.com/blog/2016/02/04/martian/
 author:
   - Josh Richards
-published_text: "description:"
+published_text: ""
+description:
 ---
 ![watney](https://web.archive.org/web/20160530020056im_/http://www.themightyginge.com/blog/wp-content/uploads/2016/02/watney.jpg)
 

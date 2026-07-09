@@ -9,12 +9,10 @@ tags:
   - diving
   - expeditions
   - exploration
-relevant:
+related:
   - "[[Japan]]"
-Related:
   - "[[Diving]]"
   - "[[Articles]]"
-  - "[[Japan]]"
   - "[[Trip - Japan - 2026 May]]"
 ---
 ---

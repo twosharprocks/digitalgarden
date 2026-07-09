@@ -206,7 +206,7 @@ It also encourages him to sound like a tool by writing in the third person.
 
 85 – Visit the World’s Tallest Buildings
 
-88 â€“ Get Married UnusuallyÂ (_I used to want a Green Card marriage until I realised Trump will be the next US president)_Â
+88 – Get Married UnusuallyÂ (_I used to want a Green Card marriage until I realised Trump will be the next US president)_Â
 
 90 – Join the 16-mile-high club (_Pretty sure I can tick this off if I intend to help colonise Mars…_)
 

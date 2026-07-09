@@ -2,13 +2,16 @@
 title: "MIT Scientists Capture Heat Waves in Superfluid Quantum Gas"
 source: "https://www.popularmechanics.com/science/a64093045/second-wave-superfluid-existence/"
 author:
-published_text: "created: 2026-06-19"
+published_text: ""
+created: 2026-06-19
 related: "[[Reading]]"
 tags:
   - unread
   - source
   - personal
   - physics
+updated: 2026-07-09
+status: seed
 ---
 -   Usually, when something gets warmed up, heat tends to spread outward before eventually dissipating. But things are a little different in the world of superfluid quantum gas.
 -   For the first time, MIT scientists have successfully imaged how heat actually travels in a wave, known as a “second sound,” through this exotic fluid.

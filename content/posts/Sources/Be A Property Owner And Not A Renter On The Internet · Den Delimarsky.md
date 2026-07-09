@@ -2,13 +2,16 @@
 title: "Be A Property Owner And Not A Renter On The Internet · Den Delimarsky"
 source: "https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/"
 author:
-published_text: "created: 2025-04-16"
+published_text: ""
+created: 2025-04-16
 related: "[[Reading]]"
 tags:
   - unread
   - source
   - seed
   - philosophy
+updated: 2026-07-09
+status: seed
 ---
 January 2, 2025·5807 words
 

@@ -9,6 +9,8 @@ related: "[[Reading]]"
 tags:
   - unread
   - source
+updated: 2026-07-09
+status: seed
 ---
 **Hendra virus** (*Henipavirus hendraense*) is a zoonotic [virus](https://en.wikipedia.org/wiki/Virus "Virus") found solely in [Australia](https://en.wikipedia.org/wiki/Australia "Australia"). First isolated in 1994, the virus has since been connected to numerous outbreaks of disease in domestic horses and seven human cases.[^1] Hendra virus belongs to the genus *[Henipavirus](https://en.wikipedia.org/wiki/Henipavirus "Henipavirus")*, which also contains the zoonotic [Nipah virus](https://en.wikipedia.org/wiki/Nipah_virus "Nipah virus").[^2] The reservoir species of Hendra virus are four species of bat within the genus *[Pteropus](https://en.wikipedia.org/wiki/Pteropus "Pteropus")* native to Australia.[^3]
 

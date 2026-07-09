@@ -2,17 +2,20 @@
 title: "The Quantum Apocalypse Is Coming. Be Very Afraid - WIRED"
 source:
 author:
-published_text: "created: 2025-05-07"
-related: "[[Reading]]"
+published_text: ""
+created: 2025-05-07
+related:
+  - "[[Reading]]"
+  - "[[Quantum Computing]]"
 tags:
   - unread
   - source
   - seed
   - cyber-security
   - personal
-relevant:
-  - "[[Quantum Computing]]"
 original: https://www.wired.com/story/q-day-apocalypse-quantum-computers-encryption/
+updated: 2026-07-09
+status: seed
 ---
 One day soon, at a research lab near Santa Barbara or Seattle or a secret facility in the Chinese mountains, it will begin: the sudden unlocking of the world’s secrets. Your secrets.
 
