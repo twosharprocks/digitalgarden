@@ -1,7 +1,7 @@
 ---
 title: Explorer-Storyteller
 created: 2026-05-14
-updated: 2026-06-28
+updated: 2026-07-10
 status: tree
 draft: false
 tags:
@@ -31,11 +31,7 @@ I am **not** just
 I am an **Explorer**, and everything else supports that identity.
 # Financial Engine vs Meaning Engine
 
-**Financial Engine** - [Cyber Security]({{< relref "posts/Cyber Security.md" >}}) funds exploration.
-- Consulting
-- Threat Intelligence
-- GRC
-- Auditing
+**Financial Engine** - [Cyber Security]({{< relref "posts/Cyber Security.md" >}}) funds exploration. Consulting on GRC, Threat Intelligence, Auditing, and Training are just ways to make money
 
 **Meaning Engine** - Work I want to be remembered for.
 - [Exploration]({{< relref "posts/exploration.md" >}})
@@ -45,9 +41,9 @@ I am an **Explorer**, and everything else supports that identity.
 - Science Communication 
 - [Speaking]({{< relref "posts/speaking.md" >}})
 
-Everything I create should ultimately contribute to one lifelong conversation: **What happens when humans choose to explore the unknown?**
+Everything I create should ultimately contribute to one lifelong conversation: 
 
-This includes:
+**What happens when humans choose to explore the unknown?**
 - caves 
 - space
 - mapping
@@ -56,7 +52,7 @@ This includes:
 - hostile environments
 - science
 
-These are all different expressions of exploration. Every experience follows the same path and nothing should skip this process.
+Nothing should skip my [Exploration]({{< relref "posts/exploration.md" >}}) process.
 
 ***Experience -> Capture -> Reflect -> Connect ideas -> Digital Garden -> Essays -> Talks -> Books*** -> Legacy
 # Digital Garden
@@ -71,14 +67,17 @@ Top-level structure:
 - Exploration
 	- Space
 	- Cave Diving
-- Expedition Notes & Mapping
-	- Risk & Technology
-- Writing & Storytelling
-	- Questions, Wonder & Curiosity
+- Storytelling
+	- Writing 
+	- Speaking
 	- Comedy
+	- Questions, Wonder & Curiosity
+- Data Steward
+	- Expedition Notes & Mapping
+	- Risk & Technology
+	- Scientific Publication
 
-***Every note should answer "Why does this matter?"***
-Not "What happened?" but "What does this teach about exploration?"
+***Every note should answer "Why does this matter to exploration, storytelling, or being a data steward?"***
 
 # Explorer's Index
 The Explorer's Index becomes the foundation of everything. It is not just for one book. It becomes the archive of my life. Every important experience eventually enters it.
