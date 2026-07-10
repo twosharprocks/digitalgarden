@@ -10,31 +10,62 @@ Related:
   - "[[Strays]]"
   - "[[2025]]"
   - "[[2026]]"
-updated: 2026-07-09
+updated: 2026-07-10
 ---
 ---
 ==Priority - [Writing]({{< relref "posts/writing.md" >}})==
-- Write: Book - Cave Diving first draft
-	- Make a list of interesting cave dives
-		- [Explorers_Index_517]({{< relref "posts/Explorers_Index_517.md" >}})
-		- Develop into stage show for Adelaide Fringe
-	- Use subsurface notes
+- 
 - Write: [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) each day for Book - 101 Things
 - Read: 2026 - Media, Bookshelf, Kindle
 ---
 ==Current==
-Planning
+Explorer
+- [ ] ***Prepare presentations on Incident - Long Tieng, Laos - May 2026 
 - [ ] Goals before & at [Trip - Murra-Cocklebiddy - 2026 Aug]({{< relref "posts/Trip - Murra-Cocklebiddy - 2026 Aug.md" >}})
+
+Storyteller
+- [ ] Update Speaker Bio and General Speaker Outlook
+	- Use [Explorer-Storyteller]({{< relref "posts/Explorer-Storyteller.md" >}})
+	- Update Celebrity Speakers Content (see strays for link) and replicate to other agencies
+	- New copy for website
 - [ ] Write Report - Akiyoshidai Expedition (Explorers Club)
 - [ ] [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) - What do I want to do?
 	- [ ] Review [Bucket List]({{< relref "posts/Bucket List.md" >}}), [101 Things - To Do]({{< relref "posts/101 Things - To Do.md" >}}) 
-- [ ] Plan and organise [Mini Essay - New Tattoo]({{< relref "posts/Mini Essay - New Tattoo.md" >}}) & Tattoo - Ideas
+- [ ] Write: Book - Cave Diving first draft
+	- Make a list of interesting cave dives with subsurface & use [Explorers_Index_517]({{< relref "posts/Explorers_Index_517.md" >}})
+	- Develop into stage show for Adelaide Fringe
 
-Other
+Data Steward
 - [ ] Clear Photos from 2019 forward 
 - [ ] Extract videos from X5 (for TikTok)
-- [ ] Prepare presentations on Incident - Long Tieng, Laos - May 2026 
+- [ ] YouTube [Watch Later](https://www.youtube.com/playlist?list=WL) 
+- [ ] Clear Instagram
+- [ ] Clear photos from 2019 onward
+- [ ] Clear Add to Obsidian
+- Review ChatGPT chats
+	- [ ] Website Updates
+	- [ ] Vet Script platform idea
+	- [ ] Read & Sort unread
+	- [ ] Write up [Threat Actors]({{< relref "posts/Threat Actors.md" >}})
+	- [ ] Play with Canvas - Get your ideas spread out (with Gemini?)
+
+[Personal]({{< relref "posts/Personal.md" >}}) Admin
+- [ ] Plan and organise [Mini Essay - New Tattoo]({{< relref "posts/Mini Essay - New Tattoo.md" >}}) & Tattoo - Ideas
 - [ ] Check in with Justin
+- [ ] Update AGSVA: Laos
+- [ ] Tax Return
+
+
+---
+
+
+
+
+Online
+- Personal Website
+	- [ ] Front Page: Add books & contact (one-pager)
+	- [ ] Add LinkedIn and GitHub
+	- [ ] Add Soggy Wombats link/YouTube
 
 - VW Transporter 
 	- [ ] Connect Shunt & Monitor
@@ -44,34 +75,6 @@ Other
 		- [ ] Repair Rear Right (& other dents?)
 	- [ ] Cover metal screws in vapour barrier
 	- [ ] RAA Roadside and insurance? 
----
-Admin
-- Sort [Personal]({{< relref "posts/Personal.md" >}})
-	- [ ] Clear YouTube [Watch Later](https://www.youtube.com/playlist?list=WL) 
-	- [ ] Update Speaker Bio and General Speaker Outlook
-		- Use [Explorer-Storyteller]({{< relref "posts/Explorer-Storyteller.md" >}})
-		- Update Celebrity Speakers Content (see strays for link) and replicate to other agencies
-		- New copy for website
-	- [ ] Sell RAM?
-	- [ ] Update AGSVA: Laos
-	- [ ] Tax Return
-
-Clear Up Data
-- [ ] Clear Instagram
-- [ ] Clear photos from 2019 onward
-- [ ] Clear Add to Obsidian
-- [ ] Review ChatGPT chats
-	- [ ] Website Updates
-	- [ ] Vet Script platform idea
-	- [ ] Read & Sort unread
-	- [ ] Write up [Threat Actors]({{< relref "posts/Threat Actors.md" >}})
-	- [ ] Play with Canvas - Get your ideas spread out (with Gemini?)
-
-Online
-- Personal Website
-	- [ ] Front Page: Add books & contact (one-pager)
-	- [ ] Add LinkedIn and GitHub
-	- [ ] Add Soggy Wombats link/YouTube
 
 - Diving
 	- [Photogrammetry]({{< relref "posts/photogrammetry.md" >}})
