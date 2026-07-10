@@ -24,7 +24,7 @@ updated: 2026-07-09
 ---
 ==Current==
 Planning
-- [ ] Plan before [Trip - Murra-Cocklebiddy - 2026 Aug]({{< relref "posts/Trip - Murra-Cocklebiddy - 2026 Aug.md" >}})
+- [ ] Goals before & at [Trip - Murra-Cocklebiddy - 2026 Aug]({{< relref "posts/Trip - Murra-Cocklebiddy - 2026 Aug.md" >}})
 - [ ] Write Report - Akiyoshidai Expedition (Explorers Club)
 - [ ] [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) - What do I want to do?
 	- [ ] Review [Bucket List]({{< relref "posts/Bucket List.md" >}}), [101 Things - To Do]({{< relref "posts/101 Things - To Do.md" >}}) 
