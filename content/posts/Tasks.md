@@ -36,18 +36,24 @@ Storyteller
 	- Develop into stage show for Adelaide Fringe
 
 Data Steward
-- [ ] Clear Photos from 2019 forward 
+- [ ] Clear 
+	- [ ] Photos from 2019 forward 
+	- [ ] Instagram
+	- [ ] Photos from 2019 onward
+	- [ ] Add to Obsidian
+	- [ ] YouTube [Watch Later](https://www.youtube.com/playlist?list=WL) 
+	- [ ] Unread
 - [ ] Extract videos from X5 (for TikTok)
-- [ ] YouTube [Watch Later](https://www.youtube.com/playlist?list=WL) 
-- [ ] Clear Instagram
-- [ ] Clear photos from 2019 onward
-- [ ] Clear Add to Obsidian
-- Review ChatGPT chats
-	- [ ] Website Updates
+- [ ] Review 
 	- [ ] Vet Script platform idea
-	- [ ] Read & Sort unread
-	- [ ] Write up [Threat Actors]({{< relref "posts/Threat Actors.md" >}})
-	- [ ] Play with Canvas - Get your ideas spread out (with Gemini?)
+- [ ] Read & Sort 
+- [ ] Write up [Threat Actors]({{< relref "posts/Threat Actors.md" >}})
+- [ ] Play with Canvas - Get your ideas spread out (with Gemini?)
+- [ ] Personal Website
+	- [ ] Check ChatGPT chats
+	- [ ] Front Page: Add books & contact (one-pager)
+	- [ ] Add LinkedIn and GitHub
+	- [ ] Add Soggy Wombats link/YouTube
 
 [Personal]({{< relref "posts/Personal.md" >}}) Admin
 - [ ] Plan and organise [Mini Essay - New Tattoo]({{< relref "posts/Mini Essay - New Tattoo.md" >}}) & Tattoo - Ideas
@@ -62,10 +68,7 @@ Data Steward
 
 
 Online
-- Personal Website
-	- [ ] Front Page: Add books & contact (one-pager)
-	- [ ] Add LinkedIn and GitHub
-	- [ ] Add Soggy Wombats link/YouTube
+
 
 - VW Transporter 
 	- [ ] Connect Shunt & Monitor

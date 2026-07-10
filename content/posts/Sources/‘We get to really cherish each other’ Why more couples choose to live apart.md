@@ -1,8 +1,8 @@
 ---
-title: "‘We get to really cherish each other’ Why more couples choose to live apart"
-source: "https://www.smh.com.au/lifestyle/life-and-relationships/we-get-to-really-cherish-each-other-why-more-couples-choose-to-live-apart-20250630-p5mbff.html?fbclid=IwY2xjawMjneRleHRuA2FlbQIxMABicmlkETFJcU02eFhtaDdlbWJOWU9NAR6F1i9rrhVRCOOZC8ZVg_4znqQ7i9dB2Gc13a22iWLbCZqlAdxSEy46RuNMBw_aem_PdQd3WKJ235kTU-OUwReJw"
+title: ‘We get to really cherish each other’ Why more couples choose to live apart
+source: https://www.smh.com.au/lifestyle/life-and-relationships/we-get-to-really-cherish-each-other-why-more-couples-choose-to-live-apart-20250630-p5mbff.html?fbclid=IwY2xjawMjneRleHRuA2FlbQIxMABicmlkETFJcU02eFhtaDdlbWJOWU9NAR6F1i9rrhVRCOOZC8ZVg_4znqQ7i9dB2Gc13a22iWLbCZqlAdxSEy46RuNMBw_aem_PdQd3WKJ235kTU-OUwReJw
 author:
-  - "Lauren Ironmonger"
+  - Lauren Ironmonger
 published: 2025-08-06
 created: 2025-09-02
 related: "[[Reading]]"
@@ -10,7 +10,7 @@ tags:
   - unread
   - source
 description:
-updated: 2026-07-09
+updated: 2026-07-10
 status: seed
 ---
 Tags: [Philosophy]({{< relref "posts/philosophy.md" >}}),
