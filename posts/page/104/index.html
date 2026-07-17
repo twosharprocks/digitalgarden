@@ -167,8 +167,8 @@
 
         <div class="post-content">
           
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#Create an archive for user files, search directories for folders titled with variations of the user&#39;s name, </span>
-</span></span><span class="line"><span class="cl"><span class="c">#then offer to copy/delete/ignore the files to the recently created archive</span>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Create an archive for user files, search directories for folders titled with variations of the user&#39;s name, </span>
+</span></span><span class="line"><span class="cl"><span class="c"># then offer to copy/delete/ignore the files to the recently created archive</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">New-Archive</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$firstName</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter User First Name&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$lastName</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter User Last Name&#34;</span>
@@ -186,7 +186,7 @@
 </span></span><span class="line"><span class="cl">        <span class="nb">New-Item</span> <span class="n">-ItemType</span> <span class="n">Directory</span> <span class="n">-Path</span> <span class="p">(</span><span class="nb">Join-Path</span> <span class="p">(</span><span class="nb">Join-Path</span> <span class="nv">$basePath</span> <span class="nv">$folderName</span><span class="p">)</span> <span class="s2">&#34;Folder Redirect&#34;</span><span class="p">)</span> <span class="n">-ErrorAction</span> <span class="n">SilentlyContinue</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">New-Folders</span> <span class="n">-firstName</span> <span class="nv">$firstName</span> <span class="n">-lastName</span> <span class="nv">$lastName</span>
-</span></span><span class="line"><span class="cl">    <span class="c">#Construct the naming patterns</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Construct the naming patterns</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$pattern1</span> <span class="p">=</span> <span class="s2">&#34;</span><span class="nv">$firstName</span><span class="s2">.</span><span class="nv">$lastName</span><span class="s2">&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$pattern2</span> <span class="p">=</span> <span class="s2">&#34;</span><span class="p">$(</span><span class="nv">$firstName</span><span class="p">[</span><span class="mf">0</span><span class="p">])</span><span class="nv">$lastName</span><span class="s2">&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$pattern3</span> <span class="p">=</span> <span class="s2">&#34;</span><span class="nv">$firstName</span><span class="p">$(</span><span class="nv">$lastName</span><span class="p">[</span><span class="mf">0</span><span class="p">])</span><span class="s2">&#34;</span>

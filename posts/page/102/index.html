@@ -476,7 +476,7 @@
 
         <div class="post-content">
           
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#This script </span>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># This script </span>
 </span></span><span class="line"><span class="cl"><span class="kd">Function</span><span class="w"> </span><span class="nb">DecodeUserAccountControl</span> <span class="p">([</span><span class="no">int</span><span class="p">]</span><span class="nv">$UAC</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$UACPropertyFlags</span> <span class="p">=</span> <span class="vm">@</span><span class="p">(</span>
@@ -923,12 +923,12 @@
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">## (4.2) Enabled AD Users from a specific Domain group (eg. Administrators) with email address matches </span>
-</span></span><span class="line"><span class="cl"><span class="c">#Define $ouPath for which Group to search (eg. Administrators, Office, Inactive, Resources, ect)</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Define $ouPath for which Group to search (eg. Administrators, Office, Inactive, Resources, ect)</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=AdministratorsDC=int&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Disabled users with matching emails</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Disabled users with matching emails</span>
 </span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;--- Users in </span><span class="nv">$ouPath</span><span class="s2"> with matching email addresses ---&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Filter and print user with description</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Filter and print user with description</span>
 </span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$email</span> <span class="k">in</span> <span class="nv">$emailAddresses</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">EmailAddress</span> <span class="o">-eq</span> <span class="nv">$email</span><span class="p">}</span> <span class="n">-SearchBase</span> <span class="s2">&#34;OU=Administrators,OU=Users,OU=_Users &amp; Groups,DC=acm,DC=int&#34;</span>
 </span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="p">(</span><span class="nv">$user</span><span class="p">.</span><span class="py">Enabled</span> <span class="o">-eq</span> <span class="vm">$true</span><span class="p">)</span> <span class="p">{</span>

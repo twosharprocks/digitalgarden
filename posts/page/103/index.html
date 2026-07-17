@@ -167,7 +167,7 @@
 
         <div class="post-content">
           
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#List AD accounts assigned to a member group</span>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># List AD accounts assigned to a member group</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-GroupMembers</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$GroupName</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the member group name to search&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$OU</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the Organisational Unit to search&#34;</span>
@@ -231,7 +231,7 @@
 </span></span><span class="line"><span class="cl">    <span class="nv">$streetAddress</span> <span class="p">=</span> <span class="s2">&#34;Add address here&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$city</span> <span class="p">=</span> <span class="s1">&#39;City name here&#39;</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$postalCode</span> <span class="p">=</span> <span class="s1">&#39;Postcode here&#39;</span>
-</span></span><span class="line"><span class="cl">    <span class="c">#Code starts here - do not edit below this point</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Code starts here - do not edit below this point</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$NewMailbox</span> <span class="n">-Office</span> <span class="nv">$office</span> <span class="n">-department</span> <span class="nv">$department</span> <span class="n">-streetAddress</span> <span class="nv">$streetAddress</span> <span class="n">-state</span> <span class="n">STATE</span> <span class="n">-city</span> <span class="nv">$city</span> <span class="n">-PostalCode</span> <span class="nv">$postalCode</span> <span class="n">-description</span> <span class="nv">$description</span> <span class="n">-title</span> <span class="nv">$description</span> <span class="n">-company</span> <span class="s2">&#34;Company Name&#34;</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">c</span><span class="p">=</span><span class="s2">&#34;AU&#34;</span><span class="p">;</span><span class="n">wWWHomePage</span><span class="p">=</span><span class="s2">&#34;http:\\www.websitehere.com&#34;</span><span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">write-host</span> <span class="s2">&#34;Details added to </span><span class="nv">$NewMailbox</span><span class="s2"> in Active Directory&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
@@ -381,14 +381,14 @@
 
         <div class="post-content">
           
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#Specific username to offboard and the updated description</span>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Specific username to offboard and the updated description</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">move-user-offboarding</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">read-host</span> <span class="s1">&#39;Username&#39;</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$updatedDescription</span> <span class="p">=</span> <span class="nb">read-host</span> <span class="s1">&#39;ICT Number and Date&#39;</span>
 </span></span><span class="line"><span class="cl">    <span class="c"># Do not edit anything below this</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">Disable-ADAccount</span> <span class="n">-Identity</span> <span class="nv">$user</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$destinationOU</span> <span class="p">=</span> <span class="s2">&#34;OU=Off Boarding,OU=Users,OU=_Users &amp; Groups,DC=acm,DC=int&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="c">#Hide user from Address Lists</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Hide user from Address Lists</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">msExchHideFromAddressLists</span><span class="p">=</span><span class="s2">&#34;TRUE&#34;</span><span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="c"># Get the user object &amp; update their description</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">Get-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span> <span class="p">|</span> <span class="nb">Set-ADUser</span> <span class="n">-description</span> <span class="nv">$updatedDescription</span>
@@ -444,7 +444,7 @@
 
         <div class="post-content">
           
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#List Any Disabled users in the &#34;Office Users&#34; OU</span>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># List Any Disabled users in the &#34;Office Users&#34; OU</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-Disabled-Office</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Office Users,DC=int&#34;</span> 
 </span></span><span class="line"><span class="cl"><span class="nv">$OfficeUsers</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
@@ -455,7 +455,7 @@
 </span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;#####&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#List Enabled users in the &#34;Inactive Users&#34; OU</span>
+</span></span><span class="line"><span class="cl"><span class="c"># List Enabled users in the &#34;Inactive Users&#34; OU</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-Enabled-Inactive</span> <span class="p">{</span> 
 </span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Inactive Users,DC=int&#34;</span> 
 </span></span><span class="line"><span class="cl"><span class="nv">$EnabledInactive</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
@@ -466,7 +466,7 @@
 </span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;#####&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#List Enabled users in the &#34;Offboarding&#34; OU</span>
+</span></span><span class="line"><span class="cl"><span class="c"># List Enabled users in the &#34;Offboarding&#34; OU</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-Enabled-Offboarding</span> <span class="p">{</span> 
 </span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Off Boarding,DC=int&#34;</span> 
 </span></span><span class="line"><span class="cl"><span class="nv">$EnabledOffboarding</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
@@ -477,7 +477,7 @@
 </span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;#####&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Office Users who have not been logged in for 6 months or more</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Office Users who have not been logged in for 6 months or more</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-NoLogin6mo</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Office Users,DC=int&#34;</span> 
 </span></span><span class="line"><span class="cl"><span class="nv">$sixMonthsAgo</span> <span class="p">=</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="py">AddMonths</span><span class="p">(</span><span class="mf">-6</span><span class="p">)</span>
@@ -490,7 +490,7 @@
 </span></span><span class="line"><span class="cl"><span class="nv">$users</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">-AutoSize</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Students who have not been logged in for 1 month or more</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Students who have not been logged in for 1 month or more</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-StudentNoLogin</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Students,DC=int&#34;</span> 
 </span></span><span class="line"><span class="cl"><span class="nv">$OneMonthAgo</span> <span class="p">=</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="py">AddMonths</span><span class="p">(</span><span class="mf">-1</span><span class="p">)</span>
@@ -501,7 +501,7 @@
 </span></span><span class="line"><span class="cl"><span class="nv">$users</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">-AutoSize</span> 
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Disable every account in a specific OU (eg. “Inactive”)</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Disable every account in a specific OU (eg. “Inactive”)</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">disable-inactive</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Inactive Users,DC=int&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Get a list of user accounts in the specified OU</span>
@@ -538,7 +538,7 @@
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#List users in &#34;OU=Offboarding&#34; who have not been modified for &gt;3months</span>
+</span></span><span class="line"><span class="cl"><span class="c"># List users in &#34;OU=Offboarding&#34; who have not been modified for &gt;3months</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-Offboarded-unmodified</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl"><span class="nb">Write-host</span> <span class="s2">&#34;Users in OU=Off Boarding not modified for &gt;3months (Delete from AD)&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Off Boarding,DC=int&#34;</span>
@@ -557,7 +557,7 @@
 </span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;#####&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Show if accounts in $employeeIDList are enabled or disabled</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Show if accounts in $employeeIDList are enabled or disabled</span>
 </span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$employeeID</span> <span class="k">in</span> <span class="nv">$employeeIDList</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$adUser</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">EmployeeID</span> <span class="o">-eq</span> <span class="nv">$employeeID</span><span class="p">}</span> <span class="n">-Properties</span> <span class="n">Enabled</span>
 </span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$adUser</span><span class="p">)</span> <span class="p">{</span>
@@ -568,7 +568,7 @@
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#List all Office Users missing an EmployeeID</span>
+</span></span><span class="line"><span class="cl"><span class="c"># List all Office Users missing an EmployeeID</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-NoEmployeeID</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Office Users,DC=int&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="nb">Write-Host</span> <span class="s2">&#34;Office Users without EmployeeID&#34;</span>
@@ -577,7 +577,7 @@
 </span></span><span class="line"><span class="cl">	<span class="nb">Write-Host</span> <span class="s2">&#34;</span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">SAMAccountName</span><span class="p">)</span><span class="s2"> - </span><span class="nv">$user</span><span class="s2">&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#New Employee List from Payroll - Finding Missing employeeIDs</span>
+</span></span><span class="line"><span class="cl"><span class="c"># New Employee List from Payroll - Finding Missing employeeIDs</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">find-missing-employeeIDs</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$excelFilePath</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Provide full filepath to New Employee Report&#34;</span> 
 </span></span><span class="line"><span class="cl"><span class="nv">$worksheetName</span> <span class="p">=</span> <span class="s2">&#34;New Employees Report&#34;</span>
@@ -598,7 +598,7 @@
 </span></span><span class="line"><span class="cl">			<span class="p">}</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Terminated Employee List from Payroll - Finding Active Users who no longer work for UC</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Terminated Employee List from Payroll - Finding Active Users who no longer work for UC</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">find-terminated-users</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$excelFilePath</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Provide full filepath to Terminated Employee Report&#34;</span> 
 </span></span><span class="line"><span class="cl"><span class="nv">$worksheetName</span> <span class="p">=</span> <span class="s2">&#34;Terminated Employees Report&#34;</span>
