@@ -1,7 +1,7 @@
 ---
 title: Script - PowerShell - ServiceDesk
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-17
 status: seed
 draft: false
 tags:
@@ -12,10 +12,10 @@ related:
 language: PowerShell
 ---
 ```powershell
-#Check a laptop's battery health
+# Check a laptop's battery health
 powercfg /batteryreport /output "filepath eg. C:\Documents\Battery-Report.html"
 ###
-#boot-time
+# boot-time
 # Remotely check another system's boot time
 function find-boottime { 
 $servicetag = Read-Host "Enter service tag"
@@ -23,13 +23,13 @@ SystemInfo /s $servicetag | find "Boot Time:"
 }
 boot-time
 ###
-#free-space
+# free-space
 function find-freespace { 
 $servicetag = Read-Host "Enter service tag"
 Invoke-Command -ComputerName $servicetag {Get-PSDrive C} | Select-Object PSComputerName,Used,Free
 }
 ###
-#Check E3 and E5 licences for a list of usernames in $usernames
+# Check E3 and E5 licences for a list of usernames in $usernames
 foreach ($username in $usernames) {
     # Get licenses for the user
     $userLicenses = Get-MsolUser -UserPrincipalName $username | Select-Object -ExpandProperty Licenses
@@ -41,7 +41,7 @@ foreach ($username in $usernames) {
     Write-Host "$username - E3: $hasE3, E5: $hasE5"
 }
 ### Remotely clear user profiles
-#clear-profiles
+# clear-profiles
 function clear-profiles {
     $computer = Read-Host "Please enter a computer name"    
     # Test network connection before making connection

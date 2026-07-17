@@ -7,7 +7,6 @@ draft: false
 tags:
   - writing
   - patreon
-  - psychology
 related:
   - "[[Writing]]"
   - "[[Mars]]"

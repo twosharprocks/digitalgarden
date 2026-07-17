@@ -292,19 +292,19 @@
 
         <div class="post-content">
           
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#Set or change an employeeID</span>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Set or change an employeeID</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">set-employeeID</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$username</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter username to add employeeID to&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$employeeID</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter employeeID for </span><span class="nv">$username</span><span class="s2">&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$username</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">employeeID</span><span class="p">=</span><span class="s2">&#34;</span><span class="nv">$employeeID</span><span class="s2">&#34;</span><span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Set or change &#34;workdays&#34; (or any other user attirbute)</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Set or change &#34;workdays&#34; (or any other user attirbute)</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">set-UserAttribute</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$username</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter username to add workdays to&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$workdays</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter user&#39;s work days&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$username</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">extensionAttribute10</span><span class="p">=</span><span class="s2">&#34;</span><span class="nv">$workdays</span><span class="s2">&#34;</span><span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Edit a mailbox</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Edit a mailbox</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">edit-mailbox</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$NewMailbox</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s1">&#39;Enter the username of the new shared mailbox&#39;</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$description</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s1">&#39;Enter the mailbox description&#39;</span>
@@ -317,7 +317,7 @@
 </span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$NewMailbox</span> <span class="n">-Office</span> <span class="nv">$office</span> <span class="n">-department</span> <span class="nv">$department</span> <span class="n">-streetAddress</span> <span class="nv">$streetAddress</span> <span class="n">-state</span> <span class="n">STATE</span> <span class="n">-city</span> <span class="nv">$city</span> <span class="n">-PostalCode</span> <span class="nv">$postalCode</span> <span class="n">-description</span> <span class="nv">$description</span> <span class="n">-title</span> <span class="nv">$description</span> <span class="n">-company</span> <span class="s2">&#34;Company Name&#34;</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">c</span><span class="p">=</span><span class="s2">&#34;AU&#34;</span><span class="p">;</span><span class="n">wWWHomePage</span><span class="p">=</span><span class="s2">&#34;http:\\www.websitehere.com&#34;</span><span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">write-host</span> <span class="s2">&#34;Details added to </span><span class="nv">$NewMailbox</span><span class="s2"> in Active Directory&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Find AD accounts from a list of display names</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Find AD accounts from a list of display names</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$text</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Paste list of display names here:&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$displayNameList</span> <span class="p">=</span> <span class="nv">$text</span> <span class="o">-replace</span> <span class="s1">&#39;(.+)&#39;</span><span class="p">,</span> <span class="s1">&#39;&#34;$1&#34;,&#39;</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter OU to search&#34;</span>
@@ -365,7 +365,7 @@
 </span></span><span class="line"><span class="cl">    <span class="nv">$manager</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the manager&#39;s pre-2000 username&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$jobtitle</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the user&#39;s job title&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$department</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the user&#39;s department or site name for Jo&#39;s&#34;</span>    
-</span></span><span class="line"><span class="cl">    <span class="c">#Address selection</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Address selection</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">Write-host</span> <span class="s2">&#34;Select the user&#39;s office (or select 0 to manually input address details)&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">Write-host</span> <span class="s2">&#34;1: CITY1 - Address&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">Write-host</span> <span class="s2">&#34;2: CITY2 - Address&#34;</span>

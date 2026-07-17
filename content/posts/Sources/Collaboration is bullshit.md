@@ -10,12 +10,10 @@ tags:
   - unread
   - source
 description: Source
-updated: 2026-07-09
+updated: 2026-07-17
 status: seed
 ---
 !["Collaboration" is bullshit.](https://www.joanwestenberg.com/content/images/size/w2000/2026/03/W-Insight-1-HT-Jan11-e1666985964510-2688358860.jpg)
-
-"Collaboration" is bullshit.
 
 In 1944, the Wehrmacht launched into Hitler’s last ditch effort to save the Third Reich. The Battle of the Bulge was a doomed campaign and a doomed gamble from a doomed regime, but its brutality was a true second test of the US Army on the Western Front. During the battle, Army historian S.L.A Marshall began interviewing infantry companies who’d been baptised in combat. Published 3 years later in his 1947 book, Men Against Fire, Marshall’s research showed that just 15-20% of riflemen in active combat positions ever fired their weapons - most kept their heads down. They moved when they were ordered and they held their positions, and they mimicked the outward appearance of a soldier in battle - but shoot, they did not. By any standard organisational metric, the men were present and accounted for, but 4 out of 5 never pulled the trigger.
 
@@ -45,7 +43,7 @@ The collaboration industry has spent a fortune obscuring a dirty truth: most com
 
 Communication matters, and shared context matters. But there’s a huge difference between communication and collaboration as infrastructure to support individual, high-agency ownership, and communication and collaboration as the primary activity of an organisation. Which, if we’re honest, is what most collaboration-first cultures have actually built. They’ve constructed extraordinarily sophisticated machinery for the social management of work, without actually doing the work they’re socialising about.
 
-If and when it exists, ownership looks like an individual who deeply gives a shit, making a call without waiting for group-consensus. That individual will be right sometimes, and they’ll be wrong other times, and they’ll own it. They won’t sit around waiting to find out who has the authority to move a card from one column to another and post about it in the #celebrations channel.
+If and when it exists, ownership looks like an individual who deeply gives a shit, making a call without waiting for group-consensus. That individual will be right sometimes, and they’ll be wrong other times, and they’ll own it. They won’t sit around waiting to find out who has the authority to move a card from one column to another and post about it in the celebrations channel.
 
 But being that person sucks when “collaboration” is the reigning value, because every unilateral decision gets read as a cultural violation and a signal that you aren’t a team player. Collaboration-as-ideology has made ownership and responsibility feel antisocial, which is a hell of a thing, given that ownership is the only mechanism that gets anything across the finish line.
 

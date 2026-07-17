@@ -1,8 +1,8 @@
 ---
-title: "Meal - Beef Taco Rice Bowl"
+title: Meal - Beef Taco Rice Bowl
 source: https://www.instagram.com/p/DDeKRB0I_sw/
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-07-17
 type:
 status: seed
 draft: false
@@ -10,9 +10,8 @@ tags:
   - meal
   - beef
   - rice
-  - bowl
   - meal-prep
-related: 
+related:
   - "[[Meals]]"
 meal_type: dinner
 cook_method: stovetop

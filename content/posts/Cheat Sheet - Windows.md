@@ -1,7 +1,7 @@
 ---
 title: "Cheat Sheet - Windows"
 created: 2023-10-10
-updated: 2025-10-30
+updated: 2026-07-17
 status: seed
 draft: false
 tags:
@@ -145,7 +145,7 @@ Free Security Tools
 * `choco install <package>` to install package
     * `-y` parameter to auto-confirm
 * `choco uninstall <package>` to uninstall a package
-### Active Directory {#active-directory}
+# Active Directory 
 [Understanding Active Directory](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc781408(v=ws.10)) [General Reference]
 [Active Directory Best Practices](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc778219(v=ws.10))
 [Securing Active Directory](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc728372(v=ws.10))

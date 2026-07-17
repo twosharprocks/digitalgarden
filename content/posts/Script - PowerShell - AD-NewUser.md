@@ -1,7 +1,7 @@
 ---
 title: Script - PowerShell - AD-NewUser
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-17
 status: seed
 draft: false
 tags:
@@ -18,7 +18,7 @@ function Edit-ADUser {
     $manager = Read-Host "Enter the manager's pre-2000 username"
     $jobtitle = Read-Host "Enter the user's job title"
     $department = Read-Host "Enter the user's department or site name for Jo's"    
-    #Address selection
+    # Address selection
     Write-host "Select the user's office (or select 0 to manually input address details)"
     Write-host "1: CITY1 - Address"
     Write-host "2: CITY2 - Address"
