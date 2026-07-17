@@ -1,7 +1,7 @@
 ---
 title: Script - Bash - ping-sweep
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-17
 status: seed
 draft: false
 tags:
@@ -21,7 +21,7 @@ echo "Hosts in 10.0.0.x range"
 for ip in $(seq 0 254); do
   ping -c 1 10.0.0.$ip | grep "bytes from" | cut -d " " -f 4 | cut -d ":" -f 1 &
 done
-sleep 1 #implemented incase the response from a host arrives after the "for" loop completes
+sleep 1 # implemented incase the response from a host arrives after the "for" loop completes
 
 echo "Hosts in 172.16.0.x range"
 for ip2 in $(seq 0 254); do

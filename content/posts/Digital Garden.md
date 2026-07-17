@@ -1,7 +1,7 @@
 ---
 title: Digital Garden
 created: 2025-04-12
-updated: 2025-10-30
+updated: 2026-07-17
 status: seed
 draft: false
 tags:
@@ -13,14 +13,13 @@ My digital garden: https://digitalgarden.joshrichards.com.au/
 
 ---
 # Digital Garden
-Seen as an add-on to traditional blogging - bi-Directional Links between Obsidian and your Blog
+Seen as an add-on to traditional blogging - bi-directional Links between Obsidian and your Blog
 Non-linear writing, Low effort & low friction
 Offers a way to build your own, future-proof, decentralised platform
 
 Three Elements
 - #seed - Very rough and early ideas. Take smart personal notes to develop
 - #tree - Work that's cleaned up and clarified
-- #evergreen - Work that is reasonably complete (but still tended to over time)
 - #reference - A completed piece primarily meant to support or inform others
 `Also: atoms (single concept)/molecules(linked concepts)/alloys(crafted)`
 

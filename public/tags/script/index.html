@@ -177,7 +177,7 @@
 </span></span><span class="line"><span class="cl"><span class="k">for</span> ip in <span class="k">$(</span>seq <span class="m">0</span> 254<span class="k">)</span><span class="p">;</span> <span class="k">do</span>
 </span></span><span class="line"><span class="cl">  ping -c <span class="m">1</span> 10.0.0.<span class="nv">$ip</span> <span class="p">|</span> grep <span class="s2">&#34;bytes from&#34;</span> <span class="p">|</span> cut -d <span class="s2">&#34; &#34;</span> -f <span class="m">4</span> <span class="p">|</span> cut -d <span class="s2">&#34;:&#34;</span> -f <span class="m">1</span> <span class="p">&amp;</span>
 </span></span><span class="line"><span class="cl"><span class="k">done</span>
-</span></span><span class="line"><span class="cl">sleep <span class="m">1</span> <span class="c1">#implemented incase the response from a host arrives after the &#34;for&#34; loop completes</span>
+</span></span><span class="line"><span class="cl">sleep <span class="m">1</span> <span class="c1"># implemented incase the response from a host arrives after the &#34;for&#34; loop completes</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Hosts in 172.16.0.x range&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="k">for</span> ip2 in <span class="k">$(</span>seq <span class="m">0</span> 254<span class="k">)</span><span class="p">;</span> <span class="k">do</span>

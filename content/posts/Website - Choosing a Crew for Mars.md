@@ -1,8 +1,8 @@
 ---
 title: Website - Choosing a Crew for Mars
 created: 2026-01-26
-updated: 2026-06-18
-status: seed
+updated: 2026-07-17
+status: reference
 draft: false
 tags:
   - writing
@@ -11,7 +11,6 @@ source: https://web.archive.org/web/20170617195929/http://joshrichards.space/cat
 author:
   - Josh Richards
 published: 2017-01-20
-description:
 ---
 With Mars One’s next astronaut selection round [later this year](https://web.archive.org/web/20170617195929/http://www.mars-one.com/about-mars-one/current-mission-status) looking to bring the [current crop of 100 candidates down to 18-36](https://web.archive.org/web/20170617195929/http://www.mars-one.com/faq/selection-and-preparation-of-the-astronauts/how-will-the-astronaut-selection-proceed) who will then start full-time training, I figured it was time to talk a little about how the next round will progress and what the selectors have said they want from the first Martian colonists.
 
@@ -61,7 +60,7 @@ Many look to Shackleton as one of the greatest leaders of all time, and rightly 
 
 > “Men wanted for hazardous journey, small wages, bitter cold, long months of complete darkness, constant danger, safe return doubtful, honor and recognition in case of success. Ernest Shackleton 4 Burlington st.”
 
-There’s been a persistent myth that Shackleton took out this advert to recruit for the Endurance expedition, but unfortunately it’s [almost certainly #fakenews](https://web.archive.org/web/20170617195929/http://www.smithsonianmag.com/smart-news/shackleton-probably-never-took-out-an-ad-seeking-men-for-a-hazardous-journey-5552379/). The reality is Shackleton didn’t need to put out an advert: he received more than 5,000 applications when the expedition was announced, which is surprisingly similar to the 4,227 people who submitted completed applications to Mars One [(Note: **202,586** people registered & confirmed their online applications, but the process to actually **complete** the application was… _thorough_)](https://web.archive.org/web/20170617195929/https://community.mars-one.com/blog/the-science-of-screening-astronauts).
+There’s been a persistent myth that Shackleton took out this advert to recruit for the Endurance expedition, but unfortunately it’s [almost certainly fake news](https://web.archive.org/web/20170617195929/http://www.smithsonianmag.com/smart-news/shackleton-probably-never-took-out-an-ad-seeking-men-for-a-hazardous-journey-5552379/). The reality is Shackleton didn’t need to put out an advert: he received more than 5,000 applications when the expedition was announced, which is surprisingly similar to the 4,227 people who submitted completed applications to Mars One [(Note: **202,586** people registered & confirmed their online applications, but the process to actually **complete** the application was… _thorough_)](https://web.archive.org/web/20170617195929/https://community.mars-one.com/blog/the-science-of-screening-astronauts).
 
 Shackleton had the applications sorted into 3 boxes: “Mad”, “Hopeless”, and “Possible”. You could argue everyone applying was “Mad”, but Shackleton was looking for people who knew what they were getting themselves in for, had the experience he needed, and most importantly **shared his vision and enthusiasm for exploration**. After discarding the “Mad” and “Hopeless” boxes, the “Possible” applicants were then put through some pretty unconventional interviews, like asking the expedition physicist if he could sing. Shackleton wasn’t looking for the “best of the best” – he was looking for people who were qualified for the work and could live together peacefully for long periods without any outside communication. In the wise words of the man himself “Science or seamanship weigh little against the kind of chaps they were”. As Mars One selectors [Dr Norbert Kraft](https://web.archive.org/web/20170617195929/http://www.huffingtonpost.com/author/norbert-kraft) and [Dr Raye Kass](https://web.archive.org/web/20170617195929/http://www.huffingtonpost.com/author/raye-kass) point out in [their Huffington Post article](https://web.archive.org/web/20170617195929/http://www.huffingtonpost.com/norbert-kraft/mars-travel_b_1646458.html) on Mars One crew selection, Shackleton chose people who were optimistic and could keep morale up like musicians and storytellers.
 

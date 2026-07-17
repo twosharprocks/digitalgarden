@@ -16,7 +16,6 @@ updated: 2026-07-10
 - [Cardiac Health Surveillance for Divers]({{< relref "Sources/Cardiac Health Surveillance for Divers.md" >}})
 - [Collaboration is bullshit]({{< relref "Sources/Collaboration is bullshit.md" >}})
 - [Does Time Work Differently in the Quantum Realm  Scientific American]({{< relref "Sources/Does Time Work Differently in the Quantum Realm  Scientific American.md" >}})
-- [Hendra virus]({{< relref "Sources/Hendra virus.md" >}})
 - [How To Become A Hacker]({{< relref "Sources/How To Become A Hacker.md" >}})
 - [In Praise of Idleness, by Bertrand Russell]({{< relref "Sources/In Praise of Idleness, by Bertrand Russell.md" >}})
 - [Is time a fundamental part of reality A quiet revolution in physics suggests not]({{< relref "Sources/Is time a fundamental part of reality A quiet revolution in physics suggests not.md" >}})

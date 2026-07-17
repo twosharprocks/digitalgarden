@@ -1,7 +1,7 @@
 ---
 title: "Cheat Sheet - Linux"
 created: 2023-10-10
-updated: 2025-10-30
+updated: 2026-07-17
 status: seed
 draft: false
 tags:
@@ -12,12 +12,12 @@ related:
 ---
 # Bash
 [explainshell.com](https://explainshell.com/) - Lists out meaning of a line of script
-[Linux Command Resources](https://linuxcommand.org/lc3_resources.php) \[HUGE Resource with links to more\]
+[Linux Command Resources](https://linuxcommand.org/lc3_resources.php) - HUGE Resource with links to more
 [Linux man-pages project](https://www.kernel.org/doc/man-pages/)
 [Linux MAN Pages](https://man7.org/linux/man-pages/index.html)
 [Full “Intro to BASH” Reference](https://programminghistorian.org/en/lessons/intro-to-bash)
-[BASH Beginners Guide \[HUGE reference\]](https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html)
-[BASH Cheat Sheet \[Top 25\]](https://www.educative.io/blog/bash-shell-command-cheat-sheet)
+[BASH Beginners Guide](https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html) - HUGE reference
+[BASH Cheat Sheet - Top 25](https://www.educative.io/blog/bash-shell-command-cheat-sheet)
 ## Core
 `↑ ↓` - Scrolls through previous commands, `→` Completes partial path with available file/dir
 `CtrlC` - Cancels/stops your current line/command (displays as _^C_)
