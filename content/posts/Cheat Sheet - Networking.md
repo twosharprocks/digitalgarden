@@ -1,7 +1,7 @@
 ---
 title: Cheat Sheet - Networking
 created: 2023-10-10
-updated: 2025-10-30
+updated: 2026-07-17
 status: seed
 draft: false
 tags:
@@ -230,7 +230,7 @@ Routing can also be either static or dynamic
     * 8005 (Tomcat Remote Shutdown)
     * 8333 (Bitcoin)
 * **[Dynamic/Private ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Dynamic,_private_or_ephemeral_ports)** (49152-65535) “Source” ports for machine→machine
-## Network Tools {#network-tools}
+## Network Tools
 <span style="text-decoration:underline;">Nmap</span> - IP address & Port scanner
 * [Nmap Cheat Sheet](https://www.stationx.net/nmap-cheat-sheet/)
 ### Wireshark

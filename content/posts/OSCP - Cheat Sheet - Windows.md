@@ -1,7 +1,7 @@
 ---
 title: OSCP - Cheat Sheet - Windows
 created: 2024-06-10
-updated: 2026-06-30
+updated: 2026-07-17
 status: reference
 draft: false
 tags:
@@ -93,8 +93,8 @@ Try each of these steps ***for each user you get access to***
 		- With path to a folder you control (see `$env:path` for paths)
 - Create a DLL with that name (eg. `mousepad myDLL.cpp`) 
 ```
-#include <stdlib.h>
-#include <windows.h>
+# include <stdlib.h>
+# include <windows.h>
 
 BOOL APIENTRY DllMain(
 HANDLE hModule,// Handle to DLL module
@@ -130,7 +130,7 @@ LPVOID lpReserved ) // Reserved
 ## Permissions for Icacls
 - Replace original binary with a new one written in C (`adduser.c`) that will create a new administrator (`dave2:password123!`)
 ```
-#include <stdlib.h>
+# include <stdlib.h>
 
 int main ()
 {
@@ -172,8 +172,8 @@ Start Process monitor and filter for target process (Use ProcMon64.exe?)
 	- With path to a folder you control (see `$env:path` for paths)
 - Create a DLL with that name (eg. `mousepad myDLL.cpp`) 
 ```
-#include <stdlib.h>
-#include <windows.h>
+# include <stdlib.h>
+# include <windows.h>
 
 BOOL APIENTRY DllMain(
 HANDLE hModule,// Handle to DLL module

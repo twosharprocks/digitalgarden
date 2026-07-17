@@ -2,7 +2,7 @@
 title: Patreon - Space - Martian Basic Training
 created: 2026-06-18
 updated: 2026-07-17
-status: reference
+status: tree
 draft: false
 tags:
   - writing
@@ -55,7 +55,7 @@ You can also use the increased pressure of a hyperbaric chamber to deliver oxyge
 **Submariner Firefighting**
 You know where it really sucks to have a fire? Somewhere small that recycles it's air and you can't escape from.
 
-When flooding aboard the Canadian submarine [_HMCS ​Chicoutimi_ caused an electrical fire](https://en.wikipedia.org/wiki/HMCS_Chicoutimi_\(SSK_879\)#october-2004-fire), the crew had it extinguished [in 75 seconds](https://www.royalnavy.mod.uk/news-and-latest-activity/news/2015/january/14/150114-raleigh-fire-training). In those 75 seconds though nine of the crew suffered smoke inhalation, three badly enough to require airlifting to a hospital, with one dying during the flight.
+When flooding aboard the Canadian submarine [_HMCS ​Chicoutimi_ caused an electrical fire](https://en.wikipedia.org/wiki/HMCS_Chicoutimi_(SSK_879)), the crew had it extinguished [in 75 seconds](https://www.royalnavy.mod.uk/news-and-latest-activity/news/2015/january/14/150114-raleigh-fire-training). In those 75 seconds though, nine of the crew suffered smoke inhalation, with three badly enough to require airlifting to a hospital, and one dying during the flight.
 
 When an oxygen generator malfunctioned on space station _Mir_, the fire it created burned for just 90 seconds. But trapped inside a [space station with a fire hot enough to melt metal](https://www.universetoday.com/100229/fire-how-the-mir-incident-changed-space-station-safety/), the crew of six were forced to don respirators to protect them from the toxic gases released. Had the fire melted through the hull the entire crew would have been instantly killed.
 

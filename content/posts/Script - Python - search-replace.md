@@ -1,7 +1,7 @@
 ---
 title: Script - Python - search-replace
 created: 2026-03-25
-updated: 2026-03-24
+updated: 2026-07-17
 status: seed
 draft: false
 tags:
@@ -54,7 +54,7 @@ def main():
 
     ap = argparse.ArgumentParser(
 
-        description="Replace [[text]] with #text (spaces become dashes) in markdown files."
+        description="Replace [[text]] in markdown files."
 
     )
 

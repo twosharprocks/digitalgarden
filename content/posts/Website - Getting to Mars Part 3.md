@@ -2,7 +2,7 @@
 title: Website - Getting to Mars Part 3
 created: 2026-01-26
 updated: 2026-07-17
-status: seed
+status: evergreen
 draft: false
 tags:
   - writing
@@ -38,7 +38,7 @@ This category is mostly the kind of spacecraft propulsion everyone is familiar w
 Rockets are also _**ridiculously**_ expensive and absurdly inefficient at getting things to space. The Saturn V that launched men to the Moon* weighed nearly 3 million kilos on launch, but only 5,560kg of that was left by the time the Command Module splashed down in the ocean. To put it in context, **0.185% of the original rocket’s mass came back to Earth and the other 2,964,440kg was either burnt as fuel, dumped in the ocean/space, or left on the Moon**. Considering each Saturn V launch cost about US$1.16 billion in 2016 figures, that’s a whole lot of specialised and expensive stuff to be just throwing away.
 _* Don’t even start with me Moon Hoaxers – I will destroy you_
 
-I’d talk about how NASA’s “Space Launch System” is supposed to (eventually) be more powerful than Saturn V… buuuuuuuut since SLS & the Orion capsule are basically the worst parts of the [Bush-era Constellation program](https://web.archive.org/web/20170617195929/https://en.wikipedia.org/wiki/Constellation_program) that have already cost US$18 billion and are now projected to reach US$35 billion in 2025, at this point it really looks like it’s just a [pork-barreling jobs program](https://web.archive.org/web/20170617195929/https://www.buzzfeed.com/danvergano/nasa-is-a-jobs-program?utm_term=.aeqaJQV3X#.tvY5kapRW) for a bundle of US Senators through the old conservative aerospace manufacturers. A jobs program which is also takes funding away from **real** exploration opportunities (like the underfunded [Commercial Crew Program](https://web.archive.org/web/20170617195929/http://www.slate.com/blogs/bad_astronomy/2015/08/24/congress_and_nasa_commercial_crew_program_is_underfunded.html)) to build a rocket that’s going anywhere. #notevensorry
+I’d talk about how NASA’s “Space Launch System” is supposed to (eventually) be more powerful than Saturn V… buuuuuuuut since SLS & the Orion capsule are basically the worst parts of the [Bush-era Constellation program](https://web.archive.org/web/20170617195929/https://en.wikipedia.org/wiki/Constellation_program) that have already cost US$18 billion and are now projected to reach US$35 billion in 2025, at this point it really looks like it’s just a [pork-barreling jobs program](https://web.archive.org/web/20170617195929/https://www.buzzfeed.com/danvergano/nasa-is-a-jobs-program?utm_term=.aeqaJQV3X#.tvY5kapRW) for a bundle of US Senators through the old conservative aerospace manufacturers. A jobs program which is also takes funding away from **real** exploration opportunities (like the underfunded [Commercial Crew Program](https://web.archive.org/web/20170617195929/http://www.slate.com/blogs/bad_astronomy/2015/08/24/congress_and_nasa_commercial_crew_program_is_underfunded.html)) to build a rocket that’s going anywhere.
 
 I currently have a bet with a fellow space geek about SLS: I’m convinced it will be cancelled before it ever flies, whereas she thinks it’ll fly _once_ before it’s cancelled. The loser has to buy the other a ticket to Mars aboard this…
 

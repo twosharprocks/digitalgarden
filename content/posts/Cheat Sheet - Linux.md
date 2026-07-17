@@ -193,12 +193,10 @@ bzip2/bunzip2
     * `nano index.html` will open the index.html file for editing 
     * If the file does not already exist, nano/vim will create it
     * `CtrlS` saves the file, and CrtlX exits the editor
-----------
-
 # User, Group & System Management
 
-[Linux Handbook [Huge Free Resource]](https://linuxhandbook.com/)
-[Important Linux Directories and their structure](https://www.tecmint.com/linux-directory-structure-and-important-files-paths-explained/) {#important-linux-directories-and-their-structure}
+- [Linux Handbook](https://linuxhandbook.com/) - Huge Free Resource
+- [Important Linux Directories and their structure](https://www.tecmint.com/linux-directory-structure-and-important-files-paths-explained/)
 ## Important folders in /etc
 
 * `/etc/passwd` - used to keep track of every registered user that has access to a system
@@ -206,20 +204,15 @@ bzip2/bunzip2
 * `/etc/group` - used to keep track of every registered group that has access to a system
     * `/etc/groups` - **does not exist**
 * `/etc/shadow` - system file storing encrypted user passwords (accessible only to root)
-
-**<span style="text-decoration:underline;">sudo</span>**
+## sudo
 * `sudo su` Switch to root user
 * `sudo -l List` sudo permissions of current user
 * `sudo -lU :user` List sudo permissions of &lt;user>
 * `sudo visudo` Allows safe editing of the 'sudoers' file
 
-**<span style="text-decoration:underline;">User & Group management</span>** 
-
-[chmod, chgrp, groupadd, usermod -g](https://www.howtogeek.com/50787/add-a-user-to-a-group-or-second-group-on-linux/), 
-
-[Chgrp](https://linuxize.com/post/chgrp-command-in-linux/) and [Sharing Linux Directories](https://www.tutorialspoint.com/how-to-create-a-shared-directory-for-all-users-in-linux#)
-
-
+## User & Group management
+- [chmod, chgrp, groupadd, usermod -g](https://www.howtogeek.com/50787/add-a-user-to-a-group-or-second-group-on-linux/)
+- [Chgrp](https://linuxize.com/post/chgrp-command-in-linux/) and [Sharing Linux Directories](https://www.tutorialspoint.com/how-to-create-a-shared-directory-for-all-users-in-linux#)
 
 * `groups <user>` List groups user is in 
     * `id <user>` Same as above but with GIDs
