@@ -3,7 +3,7 @@ title: "Meal - High Protein Chicken Katsu Fried Rice"
 source: https://www.instagram.com/reels/C7172jjI9j0/
 created: 2026-04-16
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -14,7 +14,7 @@ tags:
   - meal-prep
   - air-fryer
   - easy
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: dinner
 cook_method: stovetop

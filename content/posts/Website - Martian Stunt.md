@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20160530020056/http://www.themightyginge.com/blog/2016/02/04/martian/
 author:
   - Josh Richards

@@ -9,12 +9,12 @@ tags:
   - personal
   - trips
   - expeditions
-Region:
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/north-macedonia
+region:
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/europe/north-macedonia
 related: "[[Diving]]"
-Map: https://maps.app.goo.gl/AhMTHCFxj9ukW5Fj6
+map: https://maps.app.goo.gl/AhMTHCFxj9ukW5Fj6
 ---
 # About
 [Matka Canyon Caves](https://en.wikipedia.org/wiki/Matka_Canyon) - [Facebook](https://www.facebook.com/groups/2218647744?multi_permalinks=10162120691602745&hoisted_section_header_type=recently_seen)

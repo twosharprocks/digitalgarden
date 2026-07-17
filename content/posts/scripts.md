@@ -7,7 +7,7 @@ draft: false
 tags:
   - cyber-security
   - script
-Related: 
+related: 
   - "[[Cyber Security]]"
   - "[[Scripts]]"
 ---

@@ -8,9 +8,9 @@ tags:
   - cyber-security
   - cisa
   - study
-Related:
+related:
   - "[[CISA]]"
-Video: https://www.youtube.com/watch?v=gQGoUwcwr8A&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=9
+video: https://www.youtube.com/watch?v=gQGoUwcwr8A&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=9
 ---
 # 1 - Information Asset Security Frameworks, Standards and Guidelines
 **Policies** are the high-level statements of management's intent (what and why). They must be;

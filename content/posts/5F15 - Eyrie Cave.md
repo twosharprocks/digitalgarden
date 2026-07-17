@@ -7,8 +7,8 @@ draft: false
 tags:
   - diving
   - caving
-Region: Flinders Ranges
-CaveDB:
+region: Flinders Ranges
+cavedb:
 related:
   - "[[Caving]]"
   - "[[Diving]]"

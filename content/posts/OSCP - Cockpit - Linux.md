@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cyber Security]]"
+related: "[[Cyber Security]]"
 ---
 # Cockpit
 This one was originally listed as "Hard" in my list, but when I checked during startup it showed as "Intermediate". Definitely don't think it should be listed as "Intermediate" though - this was definitely the trickest boxes I've done, and I absolutely leaned heavily on the walkthrough to make progress here.

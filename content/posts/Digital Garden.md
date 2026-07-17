@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - knowledge-management
-Related: "[[Knowledge-Management]]"
+related: "[[Knowledge-Management]]"
 ---
 Reference: https://youtu.be/en56OKg5hyc?si=W3YCDI4uDlcOk5Nd
 My digital garden: https://digitalgarden.joshrichards.com.au/

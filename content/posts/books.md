@@ -8,7 +8,7 @@ tags:
   - index
   - digital-garden
   - books
-Related:
+related:
   - "[[Writing]]"
   - "[[Reading]]"
   - "[[Book - 101 Things]]"

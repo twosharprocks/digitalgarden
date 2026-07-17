@@ -7,7 +7,7 @@ draft: false
 tags:
   - diving
   - photogrammetry
-Related:
+related:
 ---
 Priorities 
 - Split: 

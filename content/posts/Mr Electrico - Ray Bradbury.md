@@ -6,7 +6,7 @@ status: reference
 draft: false
 tags:
   - source
-Related:
+related:
   - "[[Writing - Quotes]]"
 ---
 ---

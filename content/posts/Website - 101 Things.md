@@ -8,7 +8,7 @@ tags:
   - 101-things
   - writing
   - bucket-list
-Related: "[[Writing]]"
+related: "[[Writing]]"
 author:
   - Josh Richards
 ---
@@ -223,4 +223,4 @@ _101 – Continue Your Gene Pool (_Does ANYONE think this is a good idea?__)_|
 
 ---
 # References
-[Personal]({{< relref "posts/Personal.md" >}})
+Personal

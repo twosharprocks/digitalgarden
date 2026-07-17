@@ -8,7 +8,7 @@ tags:
   - diving
   - python
   - script
-Related:
+related:
   - "[[Scripts]]"
   - "[[Vanuatu]]"
   - "[[Trips - Ideas]]"

@@ -7,7 +7,7 @@ draft: false
 tags:
   - writing
   - patreon
-Related: "[[Writing]]"
+related: "[[Writing]]"
 ---
 I wanted to share something that happens when you regularly visit schools and talk about something awesome like exploring Mars: the job isn’t just answering questions for kids at the school on the day, it also usually means answering questions for kids (and adults) who couldn’t make it or didn’t have time to ask their question on the day too!
 

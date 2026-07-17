@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: 
+related: 
   - "[[Cyber Security]]"
   - "[[Threat Actors]]"
   - "[[Threat Modelling]]"

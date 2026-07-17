@@ -8,7 +8,7 @@ tags:
   - interests
   - antarctica
   - expeditions
-Related: 
+related: 
   - "[[VW Transporter|living in the van]]"
   - "[[Mini Essay - Appeal of living out of a van]]"
   - "[[Long Solo]]"

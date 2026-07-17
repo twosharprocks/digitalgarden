@@ -3,7 +3,7 @@ title: "Meal - Nacho Cheese Beef Burritos"
 source: https://www.instagram.com/reel/C-Z9YjWS0-j/
 created: 2026-06-30
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -12,7 +12,7 @@ tags:
   - beef
   - high-protein
   - meal-prep
-Related:
+related:
   - "[[Meals]]"
 ---
 # Ingredients

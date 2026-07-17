@@ -1,16 +1,15 @@
 ---
 title: Diving - Gear
 created: 2026-01-26
-updated: 2026-06-28
+updated: 2026-07-17
 status: tree
 draft: false
 tags:
   - diving
-Related:
+related:
   - "[[Diving]]"
   - "[[Diving - Ideas]]"
   - "[[Gear]]"
----
 ---
 # Reels, Spools, Cookies
 * Big Reels
@@ -64,7 +63,9 @@ Video Lights:
 	- 12L: 178mm [Kinetic 172 - 194mm 316 Stainless Steel Hose Clamp](https://www.bunnings.com.au/kinetic-172-194mm-316-stainless-steel-hose-clamp_p0110767)
 	- A40: 133mm [Kinetic 127-152mm 316 Stainless Steel Hose Clamp](https://www.bunnings.com.au/kinetic-127-152mm-316-stainless-steel-hose-clamp_p0110764)
 	- A80: 184mm [Kinetic 172 - 194mm 316 Stainless Steel Hose Clamp](https://www.bunnings.com.au/kinetic-172-194mm-316-stainless-steel-hose-clamp_p0110767)
+
 * Stage regs - Compact MC9 from Daz
+	* Talk to Matt Waters about Apollo regs?
 
 * [Dive Case for InReach Mini](https://adreno.com.au/products/garmin-dive-case-for-inreach-mini)
 * [Compass - Silva AW19](https://www.amazon.com.au/dp/B01FSKRACC/) - $33 (for survey slates)

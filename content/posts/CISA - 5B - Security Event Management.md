@@ -8,10 +8,10 @@ tags:
   - cyber-security
   - cisa
   - study
-Related: 
+related: 
   - "[[CISA]]"
   - "[[Cyber Security]]"
-Video: https://www.youtube.com/watch?v=gQGoUwcwr8A&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=10
+video: https://www.youtube.com/watch?v=gQGoUwcwr8A&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=10
 ---
 # 1 - Security Awareness Training and Programs
 Effective security is dependent on people. 

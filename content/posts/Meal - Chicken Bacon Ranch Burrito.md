@@ -3,7 +3,7 @@ title: "Meal - Chicken Bacon Ranch Burrito"
 source: https://www.instagram.com/reel/C-CxvcxSodf/
 created: 2026-06-30
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -12,7 +12,7 @@ tags:
   - chicken
   - high-protein
   - meal-prep
-Related:
+related:
   - "[[Meals]]"
 ---
 # Ingredients

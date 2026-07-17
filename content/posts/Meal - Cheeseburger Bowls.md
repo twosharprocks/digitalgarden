@@ -3,7 +3,7 @@ title: "Meal - Cheeseburger Bowls"
 source: https://www.instagram.com/p/C9KoaBooGUt/
 created: 2026-04-16
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -13,7 +13,7 @@ tags:
   - high-protein
   - meal-prep
   - to-try
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: dinner
 cook_method: stovetop

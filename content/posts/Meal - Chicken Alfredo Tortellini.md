@@ -3,7 +3,7 @@ title: "Meal - Chicken Alfredo Tortellini"
 source: https://www.instagram.com/p/C3sWSfiAxvw/
 created: 2026-04-16
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -12,7 +12,7 @@ tags:
   - pasta
   - one-pan
   - easy
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: dinner
 cook_method: stovetop

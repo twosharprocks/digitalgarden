@@ -6,10 +6,10 @@ status: seed
 draft: false
 tags:
   - diving
-Region:
-Sub-Region:
-CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
+region:
+sub-region:
+cavedb:
+smarttraveller: www.smartraveller.gov.au/destinations/
 related:
   - "[[Diving]]"
   - "[[Caving]]"

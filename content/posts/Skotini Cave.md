@@ -9,8 +9,8 @@ tags:
   - caving
   - personal
   - trips
-Region:
-CaveDB:
+region:
+cavedb:
 related: "[[Diving]]"
 ---
 # To Do

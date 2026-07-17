@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cyber Security]]"
+related: "[[Cyber Security]]"
 ---
 # Fired
 This box was relatively straightforward until the very last step, where I simply couldn't find credentials to move forward. I needed a bit of guidance finding how to setup the admin panel to establish a reverse shell, but all the details were on an exploit page when I went looking. The walkthrough support for the box itself was very limited (or atleast I could only find a single walkthrough for it) and the only major barrier was the very final step - finding a script file in the `openfire` directory that had cleartext root credentials. 

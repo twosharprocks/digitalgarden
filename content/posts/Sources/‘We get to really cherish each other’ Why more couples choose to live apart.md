@@ -5,19 +5,17 @@ author:
   - Lauren Ironmonger
 published: 2025-08-06
 created: 2025-09-02
-related: "[[Reading]]"
+related:
+  - "[[Reading]]"
+  - "[[Philosophy]]"
 tags:
   - unread
   - source
+  - philosophy
 description:
 updated: 2026-07-10
 status: seed
 ---
-Tags: [Philosophy]({{< relref "posts/philosophy.md" >}}),
-
----
-##### By Lauren Ironmonger
-
 Judy Wolff and Alex Ruschanow have been in a committed relationship for three decades. But they have never reached a major milestone traditionally considered to be a key part of a serious partnership: cohabitation.
 
 “Every time we meet, it’s like an event. It’s something to look forward to, and that’s a nice thing,” says Wolff.

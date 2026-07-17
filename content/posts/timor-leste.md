@@ -6,16 +6,16 @@ status: seed
 draft: false
 tags:
   - diving
-Region: Oceania
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/timor-leste
-Related:
+region: Oceania
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/asia/timor-leste
+related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[Oceania]]"
 ---
-Timor-Leste is listed under [Oceania]({{< relref "posts/oceania.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
+Timor-Leste is listed under [Oceania]({{< relref "posts/Oceania.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions
 - No local cave regions listed yet.

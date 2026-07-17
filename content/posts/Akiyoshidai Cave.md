@@ -7,8 +7,8 @@ draft: false
 tags:
   - diving
   - caving
-Region: "[[Japan]]"
-CaveDB:
+region: "[[Japan]]"
+cavedb:
 related: "[[Diving]]"
 ---
 # To Do

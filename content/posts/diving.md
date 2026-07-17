@@ -8,7 +8,7 @@ tags:
   - index
   - digital-garden
   - diving
-Related:
+related:
   - "[[Cave Regions]]"
   - "[[Diving - Gear]]"
   - "[[Diving - Ideas]]"

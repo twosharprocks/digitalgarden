@@ -7,7 +7,7 @@ draft: false
 tags:
   - knowledge-management
   - personal
-Related:
+related:
   - "[[Time Management]]"
   - "[[Digital Garden]]"
   - "[[Knowledge-Management]]"

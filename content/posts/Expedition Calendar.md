@@ -1,14 +1,14 @@
 ---
 title: Expedition Calendar
 created: 2025-06-29
-updated: 2026-07-07
+updated: 2026-07-17
 status: tree
 draft: false
 tags:
   - diving
   - expeditions
   - exploration
-Related:
+related:
   - "[[Diving]]"
   - "[[Trips - Ideas]]"
   - "[[ChatGPT - Cave Expedition Calendar]]"
@@ -24,12 +24,12 @@ Related:
 - Apr: Trip - Vanuatu - 2027 April
 	- Trip - ADEX Singapore - 2027 April
 - Sep: Trip - Sydney GoDiving Conference  - 2027 Sept
-- Oct: Trip - Spain France Portugal - 2027 Sept
+- Oct: Trip - Spain France Portugal - 2027 Sept DivingTalks Conference
 - Dec: Trip - Mexico - 2027 Dec 
 
 2028
 - June: Trip - Bikini Atoll - 2028 June
-- 
+- [Madagascar]({{< relref "posts/madagascar.md" >}})
 # Best Times
 Jan
 - **[New Zealand]({{< relref "posts/New Zealand.md" >}}) - Jan-March
@@ -124,6 +124,7 @@ September
 - [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
 - [Iceland]({{< relref "posts/iceland.md" >}}) - June-Sept
 - [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
+- [China]({{< relref "posts/china.md" >}}) Sept-Dec
 
 October
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
@@ -137,6 +138,7 @@ October
 - [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
 - [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}}) - May-Oct
 - [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}}) - Oct-Dec
+- [China]({{< relref "posts/china.md" >}}) Sept-Dec
 
 November
 - [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
@@ -145,12 +147,14 @@ November
 - [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Apr-Nov
 - [Antarctica]({{< relref "posts/antarctica.md" >}}) - Nov-Feb
 - [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}}) - Oct-Dec
+- [China]({{< relref "posts/china.md" >}}) Sept-Dec
 
 December
 - [Thailand]({{< relref "posts/thailand.md" >}}) - Nov-April
 - [Palau]({{< relref "posts/palau.md" >}}) & [Vanuatu]({{< relref "posts/vanuatu.md" >}}) - Oct-May
 - [Antarctica]({{< relref "posts/antarctica.md" >}}) - Nov-Feb
 - [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}}) - Oct-Dec
+- [China]({{< relref "posts/china.md" >}}) Sept-Dec
 
 
 
@@ -158,7 +162,7 @@ December
 
 # Country Interest
 ## Interest - Highest
-- [Oceania]({{< relref "posts/oceania.md" >}})
+- [Oceania]({{< relref "posts/Oceania.md" >}})
 	- [New Zealand]({{< relref "posts/New Zealand.md" >}}) (Q1)
 	- [Philippines]({{< relref "posts/philippines.md" >}}) (Q1)
 	- [Malaysia]({{< relref "posts/malaysia.md" >}})
@@ -179,7 +183,7 @@ December
 - Central Asia: 
 	- [Georgia]({{< relref "posts/georgia.md" >}}), [Kazakhstan]({{< relref "posts/kazakhstan.md" >}}), [Kyrgyzstan]({{< relref "posts/kyrgyzstan.md" >}}), [Armenia]({{< relref "posts/armenia.md" >}}), 
 
-- [Oceania]({{< relref "posts/oceania.md" >}})
+- [Oceania]({{< relref "posts/Oceania.md" >}})
 	- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - June
 	- [Cook Islands]({{< relref "posts/Cook Islands.md" >}})
 	- [Sulawesi]({{< relref "posts/Sulawesi.md" >}})

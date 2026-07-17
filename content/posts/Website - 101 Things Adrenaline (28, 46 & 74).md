@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20160530085338/http://www.themightyginge.com/blog/2012/04/16/college-of-awesome-101-things-28-46-74/#28
 author:
   - Josh Richards

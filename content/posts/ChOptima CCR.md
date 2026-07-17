@@ -6,13 +6,17 @@ status: seed
 draft: false
 tags:
   - diving
-Related: 
+related: 
   - "[[Diving]]"
   - "[[Rebreathers]]"
 ---
 ---
 Template - ChOptima Build
 [ChOptima - Post-Dive Checklist]({{< relref "posts/ChOptima - Post-Dive Checklist.md" >}})
+
+Need
+- 30cm reg hose
+- Loosen DSV
 
 Parts to get from [TecDiveGear](https://www.tecdivegear.com.au/), [Dive Gear Express](https://www.divegearexpress.com/rebreathers/o2ptima-parts) or [Paragon Dive Group](https://www.paragondivestore.com/collections/o2ptima-parts) 
 - [Exhalation Snorkel Tube](https://www.paragondivestore.com/products/dive-rite-exhalation-snorkel-cm-o2ptima) - US$50

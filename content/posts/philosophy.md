@@ -9,7 +9,7 @@ tags:
   - writing
   - creativity
   - personal
-Related: 
+related: 
   - "[[Philosophy]]"
   - "[[Writing]]"
   - "[[Creativity]]"

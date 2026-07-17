@@ -8,8 +8,8 @@ tags:
   - article
   - diving
   - caving
-Region:
-CaveDB:
+region:
+cavedb:
 related: "[[Diving]]"
 ---
 ## Introduction

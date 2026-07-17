@@ -3,7 +3,7 @@ title: "Meal - Honey Garlic Chicken Fried Rice"
 source: https://www.instagram.com/p/DOlMf60EwTk/
 created: 2026-04-16
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -14,7 +14,7 @@ tags:
   - meal-prep
   - oven
   - to-try
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: dinner
 cook_method: oven

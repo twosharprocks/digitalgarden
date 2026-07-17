@@ -8,7 +8,7 @@ tags:
   - knowledge-management
   - writing
   - creativity
-Related: 
+related: 
   - "[[Knowledge-Management]]"
   - "[[Writing]]"
   - "[[Creativity]]"

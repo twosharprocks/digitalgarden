@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: "https://web.archive.org/web/20160302222850/http://www.themightyginge.com/blog/2010/08/06/news-edinburgh-v2-0/"
 author:
   - "Josh Richards"

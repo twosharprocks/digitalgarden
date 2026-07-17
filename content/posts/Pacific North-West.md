@@ -6,11 +6,11 @@ status: seed
 draft: false
 tags:
   - diving
-Region: North America
-Sub-Region:
-CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-Related:
+region: North America
+sub-region:
+cavedb:
+smarttraveller: www.smartraveller.gov.au/destinations/
+related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[North America]]"

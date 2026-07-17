@@ -5,7 +5,7 @@ updated: 2026-07-08
 status: seed
 draft: false
 tags:
-Related:
+related:
   - "[[About]]"
   - "[[Writing]]"
   - "[[Personal Website]]"

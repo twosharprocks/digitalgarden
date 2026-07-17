@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cyber Security]]"
+related: "[[Cyber Security]]"
 ---
 # Blackgate
 This is the first of the "Hard" machines I've tackled, so I'd been worried it may have been a major step up from what I'd been doing previously. Surprisingly though, this was very much a case of googling and learning about a service I'd never heard of (Redis), connecting to it to test a few commands, and then finding the version I was connected to had a well known RCE exploit and using it to achieve initial access!

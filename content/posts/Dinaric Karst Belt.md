@@ -9,16 +9,16 @@ tags:
   - interests
   - trips
   - expeditions
-Region:
-Sub-Region:
-CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
+region:
+sub-region:
+cavedb:
+smarttraveller: www.smartraveller.gov.au/destinations/
 related:
   - "[[Diving]]"
   - "[[Personal]]"
   - "[[Trips]]"
   - "[[Trips - Ideas]]"
-Map: https://www.google.com/maps/place/
+map: https://www.google.com/maps/place/
 ---
 # About
 The **Dinaric Karst Belt** (aka **Dinaric Alps Karst** or **Dinarides Karst**) 

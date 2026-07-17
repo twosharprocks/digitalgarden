@@ -3,7 +3,7 @@ title: "Meal - Beef Bulgogi Burrito"
 source: https://www.instagram.com/p/C8SA1OVp6Hp/
 created: 2026-06-30
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -11,7 +11,7 @@ tags:
   - burrito
   - beef
   - meal-prep
-Related:
+related:
   - "[[Meals]]"
 ---
 # Ingredients

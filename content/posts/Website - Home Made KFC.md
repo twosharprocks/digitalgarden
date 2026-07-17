@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20141025180730/http://www.themightyginge.com/blog/2009/10/07/home-made-kfc/
 author:
   - Josh Richards

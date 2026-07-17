@@ -6,11 +6,11 @@ status: seed
 draft: false
 tags:
   - diving
-Region: "[[South Australia]]"
-Sub-Region: "[[Mount Gambier - Lower South East]]"
-CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-Related:
+region: "[[South Australia]]"
+sub-region: "[[Mount Gambier - Lower South East]]"
+cavedb:
+smarttraveller: www.smartraveller.gov.au/destinations/
+related:
   - "[[Diving]]"
   - "[[Cave Regions]]"
 ---

@@ -9,7 +9,7 @@ tags:
   - knowledge-management
   - interests
   - creativity
-Related: 
+related: 
   - "[[Personal]]"
   - "[[Knowledge-Management]]"
 ---

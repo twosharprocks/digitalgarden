@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: "https://joshrichards.com.au/2023/03/26/personal-meeting-current-heroes-cultivating-future-ones-womadelaide/"
 author:
   - "Admin"

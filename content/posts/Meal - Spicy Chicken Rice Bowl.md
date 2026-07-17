@@ -3,7 +3,7 @@ title: "Meal - Spicy Chicken Rice Bowl"
 source: https://www.instagram.com/reels/C-xeB-AROUv/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -12,7 +12,7 @@ tags:
   - rice
   - spicy
   - meal-prep
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: dinner
 cook_method: stovetop

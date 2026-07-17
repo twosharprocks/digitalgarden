@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cyber Security]]"
+related: "[[Cyber Security]]"
 ---
 # Extplorer
 This was simultaneously the easiest and most frustrating box yet. Identifying and accessing `filemanager` was ridiculously easy, and uploading a reverse shell php and catching the shell *seemed* easy initially. Even finding credentials for `dora` was easy once I started looking through all the info that was available in the `filemanager` folder. 

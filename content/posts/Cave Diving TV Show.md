@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - diving
-Related: 
+related: 
   - "[[Diving - Ideas]]"
   - "[[Bucket List]]"
 ---

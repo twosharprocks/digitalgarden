@@ -6,11 +6,11 @@ status: seed
 draft: false
 tags:
   - diving
-Region: "[[Western Australia]]"
-Sub-Region: "[[Roe Plains]]"
-CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-Related:
+region: "[[Western Australia]]"
+sub-region: "[[Roe Plains]]"
+cavedb:
+smarttraveller: www.smartraveller.gov.au/destinations/
+related:
   - "[[Diving]]"
   - "[[Cave Regions]]"
 ---

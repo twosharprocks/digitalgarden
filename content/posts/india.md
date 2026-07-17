@@ -6,10 +6,10 @@ status: seed
 draft: false
 tags:
   - diving
-Region: India
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/india
+region: India
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/asia/india
 related:
   - "[[Diving]]"
   - "[[Trips - Ideas]]"

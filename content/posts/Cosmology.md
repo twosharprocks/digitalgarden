@@ -7,7 +7,7 @@ draft: false
 tags:
   - personal
   - physics
-Related:
+related:
 ---
 ---
 **This also reminds me of**... 

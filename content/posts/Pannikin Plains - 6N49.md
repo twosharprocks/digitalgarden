@@ -9,10 +9,10 @@ tags:
   - caving
   - personal
   - trips
-Region:
-CaveDB:
+region:
+cavedb:
 related: "[[Diving]]"
-Rating: Advanced Cave/TDI Full Cave
+rating: Advanced Cave/TDI Full Cave
 ---
 # About
 Ask Ryan how to do Pannikin differently?

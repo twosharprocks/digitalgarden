@@ -3,7 +3,7 @@ title: "Meal - Spicy Peanut Dumplings"
 source: https://www.instagram.com/p/DNh4AFBpWTc/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -11,7 +11,7 @@ tags:
   - spicy
   - quick
   - oven
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: dinner
 cook_method: oven

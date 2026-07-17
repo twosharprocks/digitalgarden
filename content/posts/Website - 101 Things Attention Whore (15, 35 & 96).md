@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20140529160748/http://www.themightyginge.com/blog/2012/07/25/coa-101-things-attention-whore-15-35-96/
 author:
   - Josh Richards

@@ -7,11 +7,10 @@ draft: false
 tags:
   - diving
   - caving
-Region: "[[Nullarbor High Plains]]"
-CaveDB: https://app.cavedb.net/share/41c22713-fcc8-479f-b4f8-fe9a9d9d1234.html
+region: "[[Nullarbor High Plains]]"
+cavedb: https://app.cavedb.net/share/41c22713-fcc8-479f-b4f8-fe9a9d9d1234.html
 related: "[[Diving]]"
-Status:
-Location: -32.043, 126.038 (WGS84)
+location: -32.043, 126.038 (WGS84)
 ---
 ---
 # About

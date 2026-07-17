@@ -7,10 +7,10 @@ draft: false
 tags:
   - caving
   - diving
-Region:
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/africa/algeria
+region:
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/africa/algeria
 related:
   - "[[Diving]]"
   - "[[Trips]]"

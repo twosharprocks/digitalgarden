@@ -1,7 +1,7 @@
 ---
 title: Speaking
 created: 2025-11-01
-updated: 2026-06-28
+updated: 2026-07-13
 status: seed
 draft: false
 tags:
@@ -9,15 +9,17 @@ tags:
   - cyber-security
   - books
   - work
-Related: 
+related: 
   - "[[Exploration]]"
   - "[[Diving]]"
 ---
 ---
 My next keynote will be about being a life-long diver. 
 - Being one hell of a swimmer & tolerant to the cold.
+- Risk Management, Operational/Mission Focus, Small Teams
 
-Topics
+---
+Other Topics
 AI, Quantum Computing, Gunter Anders, Year 2038 Problem
 
 [AI - Ideas]({{< relref "posts/AI - Ideas.md" >}})

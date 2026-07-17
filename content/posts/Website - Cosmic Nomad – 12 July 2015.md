@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://joshrichards.com.au/2023/03/26/journal-cosmic-nomad-12-july-2015/
 author:
   - Admin

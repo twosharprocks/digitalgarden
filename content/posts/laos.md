@@ -6,11 +6,11 @@ status: seed
 draft: false
 tags:
   - diving
-Region: Asia
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/laos
-Related:
+region: Asia
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/asia/laos
+related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[Asia]]"

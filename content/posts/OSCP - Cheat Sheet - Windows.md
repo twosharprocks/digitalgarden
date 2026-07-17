@@ -7,7 +7,7 @@ draft: false
 tags:
   - cyber-security
   - oscp
-Related:
+related:
   - "[[OSCP]]"
 ---
 # Quick Reference

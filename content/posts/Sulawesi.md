@@ -6,16 +6,16 @@ status: seed
 draft: false
 tags:
   - diving
-Region: Oceania
-Sub-Region: "[[Indonesia]]"
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/indonesia
-Related:
+region: Oceania
+sub-region: "[[Indonesia]]"
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/asia/indonesia
+related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[Oceania]]"
 ---
-Sulawesi - Indonesia is listed under [Oceania]({{< relref "posts/oceania.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
+Sulawesi - Indonesia is listed under [Oceania]({{< relref "posts/Oceania.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions
 - [Baubau Island]({{< relref "posts/Baubau Island.md" >}})

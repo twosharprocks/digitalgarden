@@ -7,7 +7,7 @@ draft: false
 tags:
   - cyber-security
   - cissp
-Related: 
+related: 
   - "[[CISSP]]"
 ---
 Reference: https://cissprep.net/domain-1-security-and-risk-management/

@@ -7,8 +7,8 @@ draft: false
 tags:
   - diving
   - caving
-Region:
-CaveDB:
+region:
+cavedb:
 related:
   - "[[Diving]]"
   - "[[Englebrecht's Cave - 5L19-20]]"

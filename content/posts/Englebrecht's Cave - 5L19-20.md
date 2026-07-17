@@ -7,10 +7,9 @@ draft: false
 tags:
   - diving
   - caving
-Region: "[[Mount Gambier - Lower South East]]"
-CaveDB: https://app.cavedb.net/share/6d271bdf-043b-4b80-a53d-3616fe4e1db7.html
+region: "[[Mount Gambier - Lower South East]]"
+cavedb: https://app.cavedb.net/share/6d271bdf-043b-4b80-a53d-3616fe4e1db7.html
 related: "[[Diving]]"
-Status:
 ---
 ---
 

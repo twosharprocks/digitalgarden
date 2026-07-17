@@ -5,7 +5,7 @@ updated: 2025-12-19
 status: seed
 draft: false
 tags:
-Related:
+related:
   - "[[Bucket List]]"
   - "[[Exploration]]"
   - "[[Trips - Ideas]]"

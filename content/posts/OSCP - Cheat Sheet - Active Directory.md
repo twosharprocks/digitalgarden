@@ -7,7 +7,7 @@ draft: false
 tags:
   - cyber-security
   - oscp
-Related:
+related:
   - "[[OSCP]]"
 ---
 [HackTricks - AD Methodology](https://book.hacktricks.xyz/windows-hardening/active-directory-methodology)

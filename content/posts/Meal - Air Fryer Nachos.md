@@ -3,7 +3,7 @@ title: "Meal - Air Fryer Nachos"
 source: https://www.instagram.com/reels/DXKH9sHDbMS/
 created: 2026-04-16
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -12,7 +12,7 @@ tags:
   - air-fryer
   - quick
   - to-try
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: snack
 cook_method: air-fryer

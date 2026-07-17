@@ -7,7 +7,7 @@ draft: false
 tags:
   - mini-essay
   - writing
-Related: 
+related: 
   - "[[Mini Essays]]"
   - "[[Writing]]"
   - "[[2025 - Media]]"

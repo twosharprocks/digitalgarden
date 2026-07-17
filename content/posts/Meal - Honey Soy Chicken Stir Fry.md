@@ -3,14 +3,14 @@ title: "Meal - Honey Soy Chicken Stir Fry"
 source: https://www.instagram.com/p/CwAd5Bms4WY/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
   - meal
   - chicken
   - quick
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: dinner
 cook_method: stovetop

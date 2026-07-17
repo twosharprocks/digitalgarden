@@ -7,7 +7,7 @@ draft: false
 tags:
   - mini-essay
   - writing
-Related: 
+related: 
   - "[[Mini Essays]]"
   - "[[Bucket List]]"
   - "[[101 Things - Complete List]]"

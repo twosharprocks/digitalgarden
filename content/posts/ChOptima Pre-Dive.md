@@ -7,7 +7,7 @@ draft: false
 tags:
   - diving
   - rebreather
-Related: 
+related: 
   - "[[ChOptima CCR]]"
   - "[[ChOptima - Post-Dive Checklist]]"
 ---

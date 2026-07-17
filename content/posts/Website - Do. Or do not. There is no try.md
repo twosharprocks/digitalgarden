@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20140921212258/http://www.themightyginge.com/blog/2012/09/17/news-do-or-do-not-there-is-no-try/
 author:
   - Josh Richards

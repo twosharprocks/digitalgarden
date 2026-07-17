@@ -6,10 +6,10 @@ status: seed
 draft: false
 tags:
   - diving
-Region:
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/indonesia
+region:
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/asia/indonesia
 related:
   - "[[Diving]]"
   - "[[Trips - Ideas]]"
@@ -27,7 +27,7 @@ related:
 
 
 Status: #seed 
-Tags: #diving [Personal]({{< relref "posts/Personal.md" >}}) #trips #expeditions
+Tags: #diving Personal #trips #expeditions
 Map: https://www.google.com/maps/place/
 SmartTraveller: www.smartraveller.gov.au/destinations/
 

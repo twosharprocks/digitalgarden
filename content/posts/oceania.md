@@ -9,10 +9,10 @@ tags:
   - personal
   - trips
   - expeditions
-Region:
-Sub-Region:
-CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
+region:
+sub-region:
+cavedb:
+smarttraveller: www.smartraveller.gov.au/destinations/
 related: "[[Diving]]"
 ---
 # About

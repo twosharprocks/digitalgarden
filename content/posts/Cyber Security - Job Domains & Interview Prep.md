@@ -7,7 +7,7 @@ draft: false
 tags:
   - cyber-security
   - work
-Related:
+related:
   - "[[Cyber Security]]"
   - "[[Work]]"
   - "[[IRAP Assessor]]"

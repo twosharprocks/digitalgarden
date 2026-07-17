@@ -8,7 +8,7 @@ tags:
   - mini-essay
   - philosophy
   - writing
-Related:
+related:
   - "[[Mini Essays]]"
   - "[[Mini Essay - Fear Is The Mind Killer]]"
 ---

@@ -8,7 +8,7 @@ tags:
   - index
   - digital-garden
   - cyber-security
-Related:
+related:
   - "[[Cyber Glossary]]"
   - "[[Cyber Security - Job Domains & Interview Prep]]"
   - "[[Pentesting - Tools & Techniques]]"

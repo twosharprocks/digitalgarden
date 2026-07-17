@@ -6,7 +6,7 @@ status: reference
 draft: false
 tags:
   - knowledge-management
-Related:
+related:
   - "[[Knowledge-Management]]"
 ---
 ---

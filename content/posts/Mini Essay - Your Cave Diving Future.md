@@ -8,7 +8,7 @@ tags:
   - mini-essay
   - diving
   - writing
-Related:
+related:
   - "[Writing]"
   - "[[Mini Essays]]"
 ---

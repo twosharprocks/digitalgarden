@@ -3,13 +3,13 @@ title: "Meal - Stuffed Crust Pizza"
 source: https://www.instagram.com/p/C2SbQozuEPP/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
   - meal
   - oven
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: dinner
 cook_method: oven

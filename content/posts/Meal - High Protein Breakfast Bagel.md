@@ -3,14 +3,14 @@ title: "Meal - High Protein Breakfast Bagel"
 source: https://www.instagram.com/p/C9CdPt3sL4G/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
   - meal
   - breakfast
   - high-protein
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: breakfast
 cook_method: stovetop

@@ -7,7 +7,7 @@ draft: false
 tags:
   - unread
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20141101041028/http://www.themightyginge.com/blog/2012/05/29/news-us-relations-tour-days-21-26-29/
 author:
   - Josh Richards

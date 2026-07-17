@@ -3,7 +3,7 @@ title: "Meal - Creamy Garlic Chicken Pasta"
 source: https://www.instagram.com/reels/C_I1c6OpKFo/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -11,7 +11,7 @@ tags:
   - chicken
   - pasta
   - high-protein
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: dinner
 cook_method: stovetop

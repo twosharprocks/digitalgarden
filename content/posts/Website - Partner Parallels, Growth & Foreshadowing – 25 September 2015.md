@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://joshrichards.com.au/2023/03/26/journal-partner-parallels-growth-foreshadowing-25-september-2015/
 author:
   - Admin

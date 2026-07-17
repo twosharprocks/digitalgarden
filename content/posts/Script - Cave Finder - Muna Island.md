@@ -8,7 +8,7 @@ tags:
   - diving
   - python
   - script
-Related:
+related:
   - "[[Scripts]]"
   - "[[Sulawesi]]"
   - "[[Trips - Ideas]]"

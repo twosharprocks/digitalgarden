@@ -1,23 +1,23 @@
 ---
 title: "Trip - Murra-Cocklebiddy - 2026 Aug"
 created: 2025-10-19
-updated: 2026-06-27
+updated: 2026-07-15
 status: planning
 draft: false
 tags:
   - trips
   - diving
   - caving
-Template: "[[Template - Trip]]"
-Destination:
+template: "[[Template - Trip]]"
+destination:
   - "[[Murra El Elevyn - 6N47]]"
   - "[[Cocklebiddy Cave - 6N48]]"
-Region: "[[Nullarbor High Plains]]"
-Dates:
+region: "[[Nullarbor High Plains]]"
+dates:
   - "[[2026-08-21]]"
   - "[[2026-09-12]]"
-Weather: https://www.bom.gov.au/wa/forecasts/
-CaveDB: https://app.cavedb.net/share/
+weather: https://www.bom.gov.au/wa/forecasts/
+cavedb: https://app.cavedb.net/share/
 Other Info: "[Facebook Event](https://www.facebook.com/events/1606881853901545/)"
 related:
   - "[[Trips]]"
@@ -35,22 +35,26 @@ For me
 
 For Trip
 - [ ] Complete tasks for VW Transporter
-	- [ ] Panelling
+	- [ ] Full Service
+	- [ ] Interior Panelling
 	- [ ] Power
-	- [ ] Toilet
+	- [x] Toilet
 	- [ ] Repaired Rear Right
 - [ ] Gear
 	- [ ] DPV from Matt Rochford
 	- [ ] Build & Test Dry Tube
-	- [ ] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) 
+	- [ ] Kilsbys Shakeout - 2026-08-08
+	- [ ] Check [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) 
+	- Get 30cm reg hose
 - [ ] Murra map from Krunchy
 - [ ] Ken Smith and Pingers + JDZ data
 - [ ] Contact - Jarred Hotchkin & nearby cave
-- [ ] Contact - Ceduna to speak? M
+	- [ ] Intro to Lewy
+- [ ] Contact - Ceduna to speak?
 
 # Trip Log
 ***Dates: 08-21 to 08-31 (Murra) & 09-01 to 09-12 (Cocklebiddy)***
-![Messenger Creation F8c65974 345A 497F 8A46 8e6a5c8145a8](/images/Messenger_creation_F8C65974-345A-497F-8A46-8E6A5C8145A8.jpeg)
+![Trip Cocklebiddy 2026 Plan](/images/Trip%20-%20Cocklebiddy%202026%20-%20Plan.jpg)
 
 - 2026-08-21 Friday: Travel
 	- *Drive: ADL-Ceduna (8.5hrs)*
@@ -124,11 +128,11 @@ For Trip
 	- Finish Haul out
 	- Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
 - 2026-09-11 Fri: Travel
-	- Leave Cocklebiddy
+	- *Drive: Cocklebiddy-Ceduna (8hrs)*
 	- Stay: Ceduna (Speak?)
 - 2026-09-12 Sat: Travel
-	- Final drive back
-	- Stay: Adelaide
+	- Speak in Ceduna?
+	- *Drive: Ceduna-ADL (8.5hrs)*
 
 # Packing List
 - Photogrammetry

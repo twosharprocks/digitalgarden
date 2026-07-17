@@ -3,7 +3,7 @@ title: "Meal - High Protein KFC Chicken Bowl"
 source: https://www.instagram.com/reels/C-m1IBVyHo1/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -13,7 +13,7 @@ tags:
   - high-protein
   - meal-prep
   - air-fryer
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: dinner
 cook_method: air-fryer

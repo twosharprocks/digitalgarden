@@ -10,7 +10,7 @@ tags:
   - 101-things
   - philosophy
   - writing
-Related: 
+related: 
   - "[[Mini Essays]]"
   - "[[Writing]]"
 ---

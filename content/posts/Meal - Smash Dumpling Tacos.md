@@ -3,14 +3,14 @@ title: "Meal - Smash Dumpling Tacos"
 source: https://www.instagram.com/p/C5RTQ11IhB5/
 created: 2026-06-30
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
   - meal
   - wrap
   - tacos
-Related:
+related:
   - "[[Meals]]"
 ---
 # Ingredients

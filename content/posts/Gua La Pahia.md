@@ -7,10 +7,9 @@ draft: false
 tags:
   - diving
   - caving
-Region: "[[Sulawesi]]"
-CaveDB:
+region: "[[Sulawesi]]"
+cavedb:
 related: "[[Diving]]"
-Status: Seed
 ---
 ---
 

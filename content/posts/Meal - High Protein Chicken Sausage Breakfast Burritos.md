@@ -3,7 +3,7 @@ title: "Meal - High Protein Chicken Sausage Breakfast Burritos"
 source: https://www.instagram.com/reels/C_I1c6OpKFo/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -12,7 +12,7 @@ tags:
   - burrito
   - high-protein
   - meal-prep
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: breakfast
 cook_method: stovetop

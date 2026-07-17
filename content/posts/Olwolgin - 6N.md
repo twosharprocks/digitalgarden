@@ -7,10 +7,10 @@ draft: false
 tags:
   - diving
   - caving
-Region:
-CaveDB:
+region:
+cavedb:
 related: "[[Diving]]"
-Rating: Advanced Cave/TDI Full Cave
+rating: Advanced Cave/TDI Full Cave
 ---
 [Planning - Nullarbor]({{< relref "posts/Planning - Nullarbor.md" >}})
 # To Do

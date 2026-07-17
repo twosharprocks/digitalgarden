@@ -7,7 +7,7 @@ draft: false
 tags:
   - cyber-security
   - cissp
-Related: 
+related: 
   - "[[Cyber Security]]"
   - "[[Cyber - Training & Certifications]]"
 ---

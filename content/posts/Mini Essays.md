@@ -7,11 +7,12 @@ draft: false
 tags:
   - writing
   - interests
-Related:
+related:
   - "[[Writing]]"
   - "[[Mini Essays - Ideas]]"
   - "[[Template - Mini Essay]]"
 ---
+- [Mini Essay - If Mars One rebooted]({{< relref "posts/Mini Essay - If Mars One rebooted.md" >}})
 - [Mini Essay - Secret to dealing with work]({{< relref "posts/Mini Essay - Secret to dealing with work.md" >}})
 - [Mini Essay - Not Fade Away (Jim Dodge)]({{< relref "posts/Mini Essay - Not Fade Away (Jim Dodge).md" >}})
 - [Mini Essay - Peaceful Warrior vs the Alchemist]({{< relref "posts/Mini Essay - Peaceful Warrior vs the Alchemist.md" >}})
@@ -20,7 +21,6 @@ Related:
 - [Mini Essay - Appeal of Thronglets]({{< relref "posts/Mini Essay - Appeal of Thronglets.md" >}})
 - [Mini Essay - Thoughts on 2025 Media]({{< relref "posts/Mini Essay - Thoughts on 2025 Media.md" >}})
 - [Mini Essay - November 23]({{< relref "posts/Mini Essay - November 23.md" >}})
-- [Mini Essay - If Mars One rebooted]({{< relref "posts/Mini Essay - If Mars One rebooted.md" >}})
 - [Mini Essay - Organising a Mars One Analog]({{< relref "posts/Mini Essay - Organising a Mars One Analog.md" >}})
 - [Mini Essay - First Day in Ushuaia]({{< relref "posts/Mini Essay - First Day in Ushuaia.md" >}})
 - [Mini Essay - Why Antarctica is Important to you]({{< relref "posts/Mini Essay - Why Antarctica is Important to you.md" >}})

@@ -3,13 +3,13 @@ title: "Meal - Cheesy Bacon Jalapeño Popper Wrap"
 source: https://www.instagram.com/p/C4Q2y9YPWNv/
 created: 2026-06-30
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
   - meal
   - wrap
-Related:
+related:
   - "[[Meals]]"
 ---
 # Ingredients

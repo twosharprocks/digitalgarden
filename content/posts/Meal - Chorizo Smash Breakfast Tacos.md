@@ -3,7 +3,7 @@ title: "Meal - Chorizo Smash Breakfast Tacos"
 source: https://www.instagram.com/p/CwAd5Bms4WY/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -12,7 +12,7 @@ tags:
   - chorizo
   - tacos
   - high-protein
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: breakfast
 cook_method: stovetop

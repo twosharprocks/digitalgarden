@@ -2,8 +2,8 @@
 title: "Meal - Chicken Gnocchi Soup"
 source: https://www.instagram.com/p/DS0J8yTDcR3/
 created: 2026-04-16
-updated: 2026-04-16
-Type:
+updated: 2026-07-17
+type:
 status: seed
 draft: false
 tags:
@@ -11,7 +11,7 @@ tags:
   - chicken
   - gnocchi
   - high-protein
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: dinner
 cook_method: stovetop
@@ -21,7 +21,6 @@ protein_g: 52
 carbs_g: 48
 fat_g: 10
 macros_note: From the reel caption
----
 ---
 # Ingredients
 - Chicken breast - 500g

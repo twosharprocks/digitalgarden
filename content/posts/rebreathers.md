@@ -1,17 +1,15 @@
 ---
 title: Rebreathers
 created: 2025-08-16
-updated: 2025-08-16
+updated: 2026-07-10
 status: seed
 draft: false
 tags:
   - diving
-Related: 
+related: 
   - "[[Diving - Gear]]"
 ---
----
-# My CCRs
-## ChOptima (Dive Rite)
+# ChOptima (Dive Rite)
 - Best O2 cylinder size = [AL13](https://perthscuba.com/collections/tanks-cylinders/products/s-13-aluminium-cylinder) or [2L steel](https://perthscuba.com/collections/tanks-cylinders/products/fabersteelcylinder2lt) with [X-Flow valve](https://perthscuba.com/products/sos-cylinder-x-flow-valve)
 - Training: [Joseph Bicanic (WA, Australia)](https://www.diveaddiction.me/), Por (Thailand), Rob Thomas (NSW), [Rubens Monaco (Vic, Australia)](https://deepblueventures.com.au/rebreather/optima-cm-ccr)
 - Accessories 
@@ -19,10 +17,10 @@ Related:
 	- [Hose Covers - ScubaDo](https://scubadorag.com/product/scubado-rebreather-bcd-inflator-hose-ponytail-hair-cover/) 
 	- [Hose Covers - Diving Siren (Custom)](https://www.instagram.com/divingsirenfl/)
 
-## Sidewinder (KISS)
+# Sidewinder (KISS)
 Total Hours: 67hours (4013 mins)
 
-## JJ-CCR 
+# JJ-CCR 
 Total Hours: 50 hours (3005 mins)
 
 # Other CCRs
@@ -36,16 +34,7 @@ Total Hours: 50 hours (3005 mins)
 [FXCCR (Sub-Gravity)](https://ccr.sub-gravity.com/fx-ccr/)
 [Flex2 (Sub-Gravity)](https://ccr.sub-gravity.com/product/flex-2-ccr/) 
 [Liberty (Divesoft)](https://www.divesoft.com/en/products/ccr-liberty/ccr-liberty-sidemount)
-- Training: 
 
-
-
----
-**This also reminds me of**... 
-
-
-
----
 # References
 
 

@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related:
+related:
   - "[[OSCP]]"
   - "[[Cyber Security]]"
 ---

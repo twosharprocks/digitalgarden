@@ -7,7 +7,7 @@ draft: false
 tags:
   - mini-essay
   - writing
-Related:
+related:
   - "[[Mini Essays]]"
 ---
 What's the holdup on writing the article about your Crazy Wombat Tunnel discovery in Pines? You announced it all 2.5 months ago now, and yet you've never dedicated yourself to actually sitting down and writing something very important. Is this just procrastination, or is there something else here?

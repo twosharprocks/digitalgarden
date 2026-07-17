@@ -3,7 +3,7 @@ title: "Meal - Healthy Chicken Nuggets"
 source: https://www.instagram.com/reels/C8Zw9jANkZz/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -12,7 +12,7 @@ tags:
   - air-fryer
   - high-protein
   - meal-prep
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: dinner
 cook_method: air-fryer

@@ -6,10 +6,10 @@ status: seed
 draft: false
 tags:
   - diving
-Region:
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/pacific/marshall-islands
+region:
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/pacific/marshall-islands
 related:
   - "[[Diving]]"
   - "[[Trips - Ideas]]"

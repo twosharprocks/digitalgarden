@@ -8,10 +8,10 @@ tags:
   - cyber-security
   - study
   - cisa
-Related:
+related:
   - "[[CISA]]"
   - "[[CISA - 2A - Governance]]"
-Video: https://www.youtube.com/watch?v=8__h8iThjF0&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=4
+video: https://www.youtube.com/watch?v=8__h8iThjF0&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=4
 ---
 # 1 - IT Resource Management
 The effective and efficient management of all IT resources: people, technology, and finances to achieve enterprise goals

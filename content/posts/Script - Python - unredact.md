@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - script
-Related:
+related:
   - "[[Scripts]]"
   - "[[Cyber Security]]"
   - "[[Script - Python - redact]]"

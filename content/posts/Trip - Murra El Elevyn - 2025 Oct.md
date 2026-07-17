@@ -8,12 +8,12 @@ tags:
   - trips
   - diving
   - caving
-Template: "[[Template - Trip]]"
-Destination: "[[Murra El Elevyn - 6N47]]"
-Region: "[[Nullarbor High Plains]]"
-Dates:
-Weather: https://www.bom.gov.au/wa/forecasts/cocklebiddy.shtml
-CaveDB: https://app.cavedb.net/share/41c22713-fcc8-479f-b4f8-fe9a9d9d1234.html
+template: "[[Template - Trip]]"
+destination: "[[Murra El Elevyn - 6N47]]"
+region: "[[Nullarbor High Plains]]"
+dates:
+weather: https://www.bom.gov.au/wa/forecasts/cocklebiddy.shtml
+cavedb: https://app.cavedb.net/share/41c22713-fcc8-479f-b4f8-fe9a9d9d1234.html
 Other Info: https://www.facebook.com/events/971113211634910/
 related:
   - "[[Trips]]"

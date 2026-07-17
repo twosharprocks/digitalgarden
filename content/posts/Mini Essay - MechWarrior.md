@@ -7,7 +7,7 @@ draft: false
 tags:
   - mini-essay
   - writing
-Related: 
+related: 
   - "[[Mini Essays]]"
   - "[[Mechwarrior 2 - Codes and Procedures of the Warrior Caste.pdf]]"
   - "[[Mechwarrior 2 - Ghost Bears Legacy.pdf]]"

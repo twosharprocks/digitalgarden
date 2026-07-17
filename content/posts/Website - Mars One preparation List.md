@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20170617121955/http://joshrichards.space/2017/04/24/personal-mars-one-preparation-list/
 author:
   - Josh Richards

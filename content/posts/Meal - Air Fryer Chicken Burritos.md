@@ -3,7 +3,7 @@ title: "Meal - Air Fryer Chicken Burritos"
 source: https://www.instagram.com/reels/C9PQtp8PwaH/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -12,7 +12,7 @@ tags:
   - burrito
   - air-fryer
   - meal-prep
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: dinner
 cook_method: air-fryer

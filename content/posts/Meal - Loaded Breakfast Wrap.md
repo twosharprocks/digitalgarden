@@ -3,7 +3,7 @@ title: "Meal - Loaded Breakfast Wrap"
 source: https://www.instagram.com/p/C372WVWSgKY/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -12,7 +12,7 @@ tags:
   - wrap
   - high-protein
   - quick
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: breakfast
 cook_method: stovetop

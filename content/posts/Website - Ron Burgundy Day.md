@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20160407061801/http://www.themightyginge.com/blog/2012/01/11/college-of-awesome-ron-burgundy-day/
 author:
   - Josh Richards

@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - interests
-Related: 
+related: 
   - "[[Personal]]"
   - "[[Mars]]"
   - "[[Cosmology]]"

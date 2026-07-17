@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20160302222856/http://www.themightyginge.com/blog/2014/03/12/101-fire-without-matches/
 author:
   - Josh Richards

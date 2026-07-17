@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: "https://web.archive.org/web/20160531020623/http://www.themightyginge.com/blog/2014/11/06/news-there-and-back-again-part-1-europe/"
 author:
   - "Josh Richards"

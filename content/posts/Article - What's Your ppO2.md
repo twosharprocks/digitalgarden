@@ -8,7 +8,7 @@ tags:
   - article
   - diving
   - writing
-Related:
+related:
   - "[[Diving]]"
   - "[[Writing]]"
 ---

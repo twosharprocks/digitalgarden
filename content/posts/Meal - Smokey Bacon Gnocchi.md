@@ -3,7 +3,7 @@ title: "Meal - Smokey Bacon Gnocchi"
 source: https://www.instagram.com/reels/DAV5PRLo8Iv/
 created: 2026-04-16
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -13,7 +13,7 @@ tags:
   - one-pan
   - meal-prep
   - easy
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: dinner
 cook_method: stovetop

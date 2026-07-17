@@ -6,11 +6,11 @@ status: seed
 draft: false
 tags:
   - diving
-Region: Europe
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/ireland
-Related:
+region: Europe
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/europe/ireland
+related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[Europe]]"

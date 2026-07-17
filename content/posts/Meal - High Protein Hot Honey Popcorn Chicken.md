@@ -3,7 +3,7 @@ title: "Meal - High Protein Hot Honey Popcorn Chicken"
 source: https://www.instagram.com/reels/C_vZm5TtDPx/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -13,7 +13,7 @@ tags:
   - air-fryer
   - meal-prep
   - spicy
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: dinner
 cook_method: air-fryer

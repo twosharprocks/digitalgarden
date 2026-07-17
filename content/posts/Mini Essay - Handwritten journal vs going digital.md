@@ -7,7 +7,7 @@ draft: false
 tags:
   - mini-essay
   - writing
-Related: "[[Mini Essays]]"
+related: "[[Mini Essays]]"
 ---
 There's no question that writing has played an absolutely vital role in your development since you first discovered Mars One in September 2012. It took awhile for you to figure out how you wanted to do this, but handwritten journals have formed the mainstay for more than a decade. In the last few years though, you've noticed your journaling drop right off, with regular gaps ever since 2020 and the COVID nightmare. You were working so hard on Cosmic Nomad that you poured out your heart and mind into that book, leaving no desire or need to then write by hand in a journal. And the reality is you've never really picked that up properly since. 
 

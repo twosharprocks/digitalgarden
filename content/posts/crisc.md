@@ -7,7 +7,7 @@ draft: false
 tags:
   - cyber-security
   - study
-Related: 
+related: 
   - "[[Cyber Security]]"
   - "[[IRAP Assessor]]"
 ---

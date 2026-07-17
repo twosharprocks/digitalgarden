@@ -1,12 +1,12 @@
 ---
 title: About
 created: 2025-04-01
-updated: 2026-07-08
+updated: 2026-07-13
 status: seed
 draft: false
 tags:
   - digital-garden
-Related:
+related:
   - "[[Digital Garden]]"
   - "[[Writing]]"
   - "[[Diving]]"
@@ -27,4 +27,4 @@ Most notes here are connected with `wiki links`. Some are tiny seeds, some are m
 - **[Diving]({{< relref "posts/diving.md" >}})** - [Diving - Reading]({{< relref "posts/Diving - Reading.md" >}}), [Diving - Ideas]({{< relref "posts/Diving - Ideas.md" >}}), [Cave Regions]({{< relref "posts/Cave Regions.md" >}}), [Diving - Gear]({{< relref "posts/Diving - Gear.md" >}}), [Expedition Calendar]({{< relref "posts/Expedition Calendar.md" >}}), [Exploration]({{< relref "posts/exploration.md" >}}) and [Trips]({{< relref "posts/Trips.md" >}}).
 - **[Cyber Security]({{< relref "posts/Cyber Security.md" >}})** - [CISSP]({{< relref "posts/CISSP.md" >}}), [CISA]({{< relref "posts/CISA.md" >}}) and [OSCP]({{< relref "posts/oscp.md" >}}) Study notes; cheat sheets, [Threat Modelling]({{< relref "posts/Threat Modelling.md" >}}), and [Cyber Security - Resources]({{< relref "posts/Cyber Security - Resources.md" >}}).
 - **[Physics]({{< relref "posts/physics.md" >}})** - [Cosmology]({{< relref "posts/Cosmology.md" >}}), quantum mechanics, Information Theory, [Science - Ideas]({{< relref "posts/Science - Ideas.md" >}}), and other deep-space rabbit holes.
-- **[Personal]({{< relref "posts/Personal.md" >}})** - [Philosophy]({{< relref "posts/philosophy.md" >}}), [Bucket List]({{< relref "posts/Bucket List.md" >}}), [Tasks]({{< relref "posts/Tasks.md" >}}), [Meals]({{< relref "posts/meals.md" >}}), and other experiments in being a person.
+- **Personal** - [Philosophy]({{< relref "posts/philosophy.md" >}}), [Bucket List]({{< relref "posts/Bucket List.md" >}}), [Meals]({{< relref "posts/meals.md" >}}), and other experiments in being a person.

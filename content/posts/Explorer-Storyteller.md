@@ -8,12 +8,12 @@ tags:
   - ai-content
   - speaking
   - exploration
-Related:
+related:
   - "[[Personal]]"
   - "[[Personal Website]]"
   - "[[Exploration]]"
   - "[[Explorers_Index_517]]"
-External: https://chatgpt.com/share/6a3d1783-7820-83ec-9bd5-1082dd9b6824
+external: https://chatgpt.com/share/6a3d1783-7820-83ec-9bd5-1082dd9b6824
 ---
 # Mission
 
@@ -91,8 +91,7 @@ Each dive contains:
 
 Over decades this becomes books, talks, documentaries, essays, & presentations. 
 # 517 Book
-This is not a dive log. It is the story of becoming an explorer.
-The chronology matters, and the themes emerge naturally.
+This is not a dive log. It is the story of becoming an explorer. The chronology matters, and the themes emerge naturally.
 
 The protagonist is not the caves. The protagonist is the gradual transformation of Josh Richards into an explorer capable of answering the call to Laos.
 

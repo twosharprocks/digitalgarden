@@ -6,11 +6,11 @@ status: seed
 draft: false
 tags:
   - diving
-Region: "[[Oceania]]"
-Sub-Region: "[[Indonesia]]"
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/indonesia
-Related:
+region: "[[Oceania]]"
+sub-region: "[[Indonesia]]"
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/asia/indonesia
+related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
 ---

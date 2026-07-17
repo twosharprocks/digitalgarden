@@ -3,7 +3,7 @@ title: "Meal - Cheese Pull Apart Bread"
 source: https://www.instagram.com/reels/C_FI0yUxhx9/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -11,7 +11,7 @@ tags:
   - snack
   - oven
   - indulgent
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: snack
 cook_method: oven

@@ -9,12 +9,12 @@ tags:
   - personal
   - trips
   - expeditions
-Region:
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/americas/united-states-america
+region:
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/americas/united-states-america
 related: "[[Diving]]"
-Map: https://www.google.com/maps/place/
+map: https://www.google.com/maps/place/
 ---
 # About
 [Arkansas]({{< relref "posts/arkansas.md" >}})

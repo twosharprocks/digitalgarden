@@ -8,7 +8,7 @@ tags:
   - personal
   - expeditions
   - exploration
-Related:
+related:
   - "[[Adventure]]"
   - "[[Exploration]]"
   - Exped

@@ -6,11 +6,11 @@ status: seed
 draft: false
 tags:
   - diving
-Region: Middle East
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/middle-east/oman
-Related:
+region: Middle East
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/middle-east/oman
+related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[Middle East]]"

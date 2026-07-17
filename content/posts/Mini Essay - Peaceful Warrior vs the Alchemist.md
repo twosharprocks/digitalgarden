@@ -8,7 +8,7 @@ tags:
   - mini-essay
   - philosophy
   - writing
-Related: "[[Mini Essays]]"
+related: "[[Mini Essays]]"
 ---
 Having just finished two of the Peaceful Warrior books as well as the Alchemist, it feels like the perfect opportunity to compare and contrast the two in order to figure out what it is that makes them so special.
 

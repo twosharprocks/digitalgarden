@@ -3,7 +3,7 @@ title: "Meal - Pizza Cupcakes"
 source: https://www.instagram.com/reels/DA3x-IsyokK/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -12,7 +12,7 @@ tags:
   - quick
   - oven
   - indulgent
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: snack
 cook_method: oven

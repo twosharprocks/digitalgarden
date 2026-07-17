@@ -8,7 +8,7 @@ tags:
   - mini-essay
   - writing
   - antarctica
-Related: 
+related: 
   - "[[Mini Essays]]"
   - "[[Writing]]"
   - "[[Antarctica]]"

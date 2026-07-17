@@ -7,7 +7,7 @@ draft: false
 tags:
   - knowledge-management
   - writing
-Related:
+related:
   - "[[Knowledge-Management]]"
   - "[[Writing]]"
   - "[[Mini Essays]]"

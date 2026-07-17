@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20141101045651/http://www.themightyginge.com/blog/2012/07/11/coa-101-things-languages-51-69/#69
 author:
   - Josh Richards

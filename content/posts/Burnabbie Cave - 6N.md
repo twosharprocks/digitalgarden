@@ -8,8 +8,8 @@ tags:
   - diving
   - caving
   - trips
-Region:
-CaveDB:
+region:
+cavedb:
 related: "[[Diving]]"
 ---
 # To Do

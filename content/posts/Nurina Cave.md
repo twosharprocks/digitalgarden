@@ -7,10 +7,9 @@ draft: false
 tags:
   - diving
   - caving
-Region: "[[Roe Plains]]"
-CaveDB:
+region: "[[Roe Plains]]"
+cavedb:
 related: "[[Diving]]"
-Status: Seed
 ---
 ---
 

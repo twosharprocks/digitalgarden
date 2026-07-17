@@ -7,7 +7,7 @@ draft: false
 tags:
   - personal
   - work
-Related: 
+related: 
   - "[[Personal]]"
   - "[[Work]]"
   - "[[VW Transporter|living in the van]]"

@@ -8,7 +8,7 @@ tags:
   - writing
   - diving
   - caving
-Related: 
+related: 
   - "[[Writing]]"
   - "[[Diving]]"
   - "[[CaveDB]]"

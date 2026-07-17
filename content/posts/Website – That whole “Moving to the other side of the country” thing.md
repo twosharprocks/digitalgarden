@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: "https://web.archive.org/web/20160530020051/http://www.themightyginge.com/blog/2015/09/01/news-that-whole-moving-to-the-other-side-of-the-country-thing-stuff/"
 author:
   - "Josh Richards"

@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - ideas
-Related:
+related:
   - "[[Personal]]"
   - "[[Knowledge-Management]]"
 ---

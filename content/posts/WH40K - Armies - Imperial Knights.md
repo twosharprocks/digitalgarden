@@ -7,7 +7,7 @@ draft: false
 tags:
   - interests
   - personal
-Related: 
+related: 
   - "[[WH40k]]"
   - "[[WH40K - Armies - Dark Angels]]"
   - "[[Personal]]"

@@ -6,7 +6,7 @@ status: tree
 draft: false
 tags:
   - cyber-security
-Related: 
+related: 
   - "[[Cyber Security]]"
   - "[[Study]]"
   - "[[CPE Record]]"

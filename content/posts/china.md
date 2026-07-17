@@ -1,19 +1,20 @@
 ---
 title: China
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-07-16
 status: seed
 draft: false
 tags:
   - diving
-Region: Asia
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/china
-Related:
+region: Asia
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/asia/china
+related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[Asia]]"
+  - "[[Expedition Calendar]]"
 ---
 China is listed under Asia in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
@@ -30,6 +31,9 @@ China is listed under Asia in [Cave Regions]({{< relref "posts/Cave Regions.md" 
 ---
 # Existing Notes
 # About
+Contact Vincent Lou
+- Best time to go is Sept-Dec
+
 [Guangxi Province - Du’an County](https://www.uw360.asia/the-middle-kingdom/) 
 - [Wetmules Exploration](http://www.wetmules.com/projects/china-cave-exploration) - Dave Hurst
 

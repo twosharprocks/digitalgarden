@@ -1,20 +1,19 @@
 ---
 title: Mini Essay - If Mars One rebooted
 created: 2025-11-28
-updated: 2025-11-28
+updated: 2026-07-10
 status: tree
 draft: false
 tags:
   - mini-essay
   - writing
-Related: 
+related: 
   - "[[Mini Essays]]"
   - "[[Writing]]"
   - "[[Mars]]"
   - "[[Mini Essay - Organising a Mars One Analog]]"
   - "[[Space]]"
   - "[[Website - Mars One preparation List]]"
----
 ---
 For some time you've been aware that the shutdown of Mars One in 2020 has left you very adrift and directionless in the world, and one of the questions that's come up repeatedly is what you'd do if Mars One suddenly rebooted. Bas floated the idea when the Ridley Scott documentary was first being discussed, but we've heard nothing on that for well beyond the 12 month exclusivity contract. But the question remains - what would you do if Mars One rebooted tomorrow? 
 

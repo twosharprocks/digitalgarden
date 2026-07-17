@@ -7,7 +7,7 @@ draft: false
 tags:
   - mini-essay
   - writing
-Related:
+related:
   - "[[Mini Essays]]"
 ---
 There's something uniquely engaging about the world of the small. Whether it's plastic [WH40k]({{< relref "posts/wh40k.md" >}}) miniatures, bonsai trees, LEGO, tilt-shift photography, ant colonies, model railways, or any one of a dozen other examples, there's something that hooks the attention of many people in a way that the full scale version doesn't. 

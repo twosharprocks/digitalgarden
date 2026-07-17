@@ -7,7 +7,7 @@ draft: false
 tags:
   - diving
   - ideas
-Related:
+related:
   - "[[Diving]]"
   - "[[Diving - Gear]]"
   - "[[Diving - Reading]]"

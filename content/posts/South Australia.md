@@ -6,16 +6,16 @@ status: seed
 draft: false
 tags:
   - diving
-Region: Oceania
-Sub-Region:
-CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
-Related:
+region: Oceania
+sub-region:
+cavedb:
+smarttraveller: www.smartraveller.gov.au/destinations/
+related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[Oceania]]"
 ---
-South Australia is listed under [Oceania]({{< relref "posts/oceania.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
+South Australia is listed under [Oceania]({{< relref "posts/Oceania.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions
 - [Mount Gambier - Lower South East]({{< relref "posts/Mount Gambier - Lower South East.md" >}})

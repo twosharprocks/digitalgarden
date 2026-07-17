@@ -12,7 +12,7 @@ tags:
   - mini-essay
   - personal
   - writing
-Related: "[[Mini Essays]]"
+related: "[[Mini Essays]]"
 ---
 Related: 
 

@@ -3,7 +3,7 @@ title: "Meal - Garlic Honey BBQ Pulled Chicken Tacos"
 source: https://www.instagram.com/reel/C9zmtXKIEzV/
 created: 2026-06-30
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -11,7 +11,7 @@ tags:
   - wrap
   - tacos
   - chicken
-Related:
+related:
   - "[[Meals]]"
 ---
 # Ingredients

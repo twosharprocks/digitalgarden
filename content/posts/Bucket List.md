@@ -7,7 +7,7 @@ draft: false
 tags:
   - 101-things
   - bucket-list
-Related: 
+related: 
   - "[[Writing]]"
   - "[[Personal]]"
   - "[[50 Goals (Old Version)]]"

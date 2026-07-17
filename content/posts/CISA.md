@@ -8,7 +8,7 @@ tags:
   - cyber-security
   - work
   - study
-Related:
+related:
   - "[[IRAP Assessor]]"
   - "[[CRISC]]"
   - "[[Cyber Security]]"

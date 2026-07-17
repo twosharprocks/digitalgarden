@@ -8,10 +8,10 @@ tags:
   - diving
   - personal
   - trips
-Region:
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/kosovo
+region:
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/europe/kosovo
 related: "[[Diving]]"
 ---
 # About

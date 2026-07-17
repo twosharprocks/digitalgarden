@@ -7,7 +7,7 @@ draft: false
 tags:
   - diving
   - caving
-Related: 
+related: 
   - "[[Diving]]"
   - "[[Albania]]"
 ---

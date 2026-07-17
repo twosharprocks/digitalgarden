@@ -3,14 +3,14 @@ title: "Meal - Bolognese Tacos"
 source: https://www.instagram.com/reel/C2SI84uoBoc/
 created: 2026-06-30
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
   - meal
   - wrap
   - tacos
-Related:
+related:
   - "[[Meals]]"
 ---
 # Ingredients

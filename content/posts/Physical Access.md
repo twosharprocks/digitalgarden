@@ -6,7 +6,7 @@ status: reference
 draft: false
 tags:
   - cyber-security
-Related:
+related:
   - "[[Cyber Security]]"
   - "[[Pentesting]]"
 ---

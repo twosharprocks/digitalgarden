@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20160628102243/http://www.themightyginge.com/blog/2016/06/28/news-the-best-the-worst-the-breather-florida/
 author:
   - Josh Richards

@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20160530020447/http://www.themightyginge.com/blog/2016/04/27/ethiopia-uk-ireland/
 author:
   - Josh Richards

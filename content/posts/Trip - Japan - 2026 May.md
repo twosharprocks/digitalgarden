@@ -6,12 +6,12 @@ status: complete
 draft: false
 tags:
   - trips
-Template: "[[Template - Trip]]"
-Destination:
-Region:
-Dates:
-Weather:
-CaveDB:
+template: "[[Template - Trip]]"
+destination:
+region:
+dates:
+weather:
+cavedb:
 Other Info:
 related:
   - "[[Trips]]"

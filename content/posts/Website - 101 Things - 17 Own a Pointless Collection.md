@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20150211034422/http://www.themightyginge.com/blog/2014/03/14/17-pointless-collection/
 author:
   - Josh Richards

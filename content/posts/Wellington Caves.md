@@ -7,10 +7,9 @@ draft: false
 tags:
   - diving
   - caving
-Region: "[[New South Wales]]"
-CaveDB:
+region: "[[New South Wales]]"
+cavedb:
 related: "[[Diving]]"
-Status: Seed
 ---
 ---
 # About

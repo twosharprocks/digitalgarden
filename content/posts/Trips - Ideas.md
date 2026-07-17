@@ -7,7 +7,7 @@ draft: false
 tags:
   - diving
   - trips
-Related:
+related:
   - "[[Expedition Calendar]]"
   - "[[Diving - Ideas]]"
   - "[[Bucket List]]"

@@ -9,12 +9,12 @@ tags:
   - personal
   - trips
   - expeditions
-Region:
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/pacific/cook-islands
+region:
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/pacific/cook-islands
 related: "[[Diving]]"
-Map: https://www.google.com/maps/place/
+map: https://www.google.com/maps/place/
 ---
 # About
 [Getting to Mauke, Cook Islands](https://cookislandspocketguide.com/the-complete-travel-guide-to-mauke/) 

@@ -3,14 +3,14 @@ title: "Meal - Chicken Pesto Flatbread"
 source: https://www.instagram.com/p/C372WVWSgKY/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
   - meal
   - chicken
   - quick
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: lunch
 cook_method: oven

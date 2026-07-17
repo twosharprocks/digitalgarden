@@ -2,8 +2,8 @@
 title: "Meal - Big Mac Toastie"
 source: https://www.instagram.com/p/C754tzfMtw_/
 created: 2026-04-16
-updated: 2026-04-16
-Type:
+updated: 2026-07-17
+type:
 status: seed
 draft: false
 tags:
@@ -11,7 +11,7 @@ tags:
   - beef
   - quick
   - indulgent
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: lunch
 cook_method: stovetop
@@ -23,7 +23,6 @@ fat_g: 38
 macros_note: Estimated
 confidence: medium
 ---
----
 # Ingredients
 - Bread slices - 4
 - Ground beef - 300g
@@ -32,7 +31,6 @@ confidence: medium
 - Onion - 1/4 (finely diced)
 - Lettuce - 1 cup (shredded)
 - Butter - 1 tbsp
-
 ## Big Mac Sauce
 - Mayonnaise - 3 tbsp
 - Ketchup - 1 tbsp
@@ -47,13 +45,8 @@ confidence: medium
 4. On the inside, layer beef, cheese, pickles, onion, lettuce and sauce
 5. Close sandwich and cook in a pan or sandwich press until golden and crispy
 6. Slice and serve
-
 # Macros
 - Calories - 680
 - Protein - 38g
 - Carbs - 42g
 - Fat - 38g
-
-# Notes
-- Corrected from previous misclassification (was incorrectly labelled as a chicken wrap)
-- Classic fast-food style toastie — high calorie, high fat

@@ -9,9 +9,9 @@ tags:
   - caving
   - personal
   - trips
-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/spain
+region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/europe/spain
 related: "[[Diving]]"
 ---
 # To Do

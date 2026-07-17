@@ -7,7 +7,7 @@ draft: false
 tags:
   - source
   - interests
-Related: 
+related: 
   - "[[Personal]]"
 ---
 Reference: https://www.facebook.com/cronus.my/posts/pfbid02Ap9duW8AJk9S9EiKkQswWdKwN1G16fpjFcWhoNfLfDhszZKaRE4k1Dn5m3qB7SpXl

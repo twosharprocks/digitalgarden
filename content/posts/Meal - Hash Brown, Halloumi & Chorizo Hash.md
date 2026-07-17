@@ -3,7 +3,7 @@ title: Meal - Hash Brown, Halloumi & Chorizo Hash
 source: https://www.instagram.com/p/DDeKRB0I_sw/
 created: 2026-04-16
 updated: 2026-07-08
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -12,7 +12,7 @@ tags:
   - chorizo
   - one-pan
   - high-protein
-Related:
+related:
   - "[[Meals]]"
 meal_type: breakfast
 cook_method: stovetop

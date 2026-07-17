@@ -7,7 +7,7 @@ draft: false
 tags:
   - 101-things
   - bucket-list
-Related: 
+related: 
   - "[[Bucket List]]"
   - "[[101 Things - Complete List]]"
   - "[[101 Things - To Do]]"

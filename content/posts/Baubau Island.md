@@ -6,11 +6,11 @@ status: seed
 draft: false
 tags:
   - diving
-Region: "[[Indonesia]]"
-Sub-Region: "[[Sulawesi]]"
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/indonesia
-Related:
+region: "[[Indonesia]]"
+sub-region: "[[Sulawesi]]"
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/asia/indonesia
+related:
   - "[[Diving]]"
   - "[[Cave Regions]]"
 ---

@@ -8,7 +8,7 @@ tags:
   - mini-essay
   - books
   - writing
-Related: "[[Mini Essays]]"
+related: "[[Mini Essays]]"
 ---
 During your walk this morning you finished "Surely Your Joking Mr Feynman", and it's been an interesting audiobook to listen to. 
 

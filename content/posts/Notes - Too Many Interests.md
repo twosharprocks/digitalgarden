@@ -7,7 +7,7 @@ draft: false
 tags:
   - knowledge-management
   - interests
-Related:
+related:
   - "[[Time Management]]"
   - "[[Personal]]"
 ---

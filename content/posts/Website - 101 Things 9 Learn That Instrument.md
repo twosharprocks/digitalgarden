@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20150806200521/http://www.themightyginge.com/blog/2014/03/07/learn-that-instrument/
 author:
   - Josh Richards

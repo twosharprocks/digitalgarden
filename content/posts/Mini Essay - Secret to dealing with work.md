@@ -8,7 +8,7 @@ tags:
   - mini-essay
   - writing
   - work
-Related:
+related:
   - "[[Mini Essays]]"
 ---
 Surviving any uncomfortable workplace always requires an evil secret plan on your part, and your current situation is no different.

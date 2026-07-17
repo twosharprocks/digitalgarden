@@ -10,7 +10,7 @@ tags:
   - diving
   - exploration
   - interests
-Related: 
+related: 
   - "[[Personal]]"
   - "[[Caving]]"
   - "[[Writing]]"

@@ -8,7 +8,7 @@ tags:
   - index
   - digital-garden
   - physics
-Related:
+related:
   - "[[Cosmology]]"
   - "[[Book - Information Theory]]"
   - "[[Book - Calling ET]]"

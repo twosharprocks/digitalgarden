@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cyber Security]]"
+related: "[[Cyber Security]]"
 ---
 Tags: [OSCP]({{< relref "posts/oscp.md" >}})
 # TJ Null - PG Practice

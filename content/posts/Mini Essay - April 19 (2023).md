@@ -9,7 +9,7 @@ tags:
   - personal
   - mini-essay
   - writing
-Related: 
+related: 
   - "[[Mini Essays]]"
   - "[[Writing]]"
 ---

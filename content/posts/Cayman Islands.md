@@ -6,11 +6,11 @@ status: seed
 draft: false
 tags:
   - diving
-Region: Central America
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/americas/cayman-islands
-Related:
+region: Central America
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/americas/cayman-islands
+related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[Central America]]"

@@ -3,14 +3,14 @@ title: "Meal - Arayes"
 source: https://www.instagram.com/p/C86hGzVKpzA/
 created: 2026-06-30
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
   - meal
   - wrap
   - beef
-Related:
+related:
   - "[[Meals]]"
 ---
 # Ingredients

@@ -150,38 +150,6 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---astronaut---linux/">OSCP - Astronaut - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="astronaut">Astronaut</h1>
-<p>Much quicker and more useful experience than <code>Exfiltrated</code>. Did my own enumeration, and used the <a href="https://medium.com/@ardian.danny/oscp-practice-series-20-proving-grounds-astronaut-627bc41a86ef">walkthrough</a> only as a guide when getting stuck.</p>
-<p>Discovering &ldquo;blind&rdquo; exploits was interesting, however it made sense that if the exploit isn&rsquo;t generating any output and not creating a reverse shell, that you might need to add a <code>-c</code> command with a line of bash to establish a reverse shell instead. Although once again all the instructions were in the script if you looked - <em><strong>always read the script!</strong></em></p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---astronaut---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
           <a href="/posts/oscp---authby---windows/">OSCP - Authby - Windows</a>
         </h2>
         <div class="post-meta"></div>
@@ -354,6 +322,84 @@
         
            <div>
             <a class="read-more button inline" href="/posts/oscp---cheat-sheet---active-directory/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---cheat-sheet---core/">OSCP - Cheat Sheet - Core</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="pre-exam">Pre-Exam</h1>
+<ul>
+<li>Download the resources from the dedicated lab clients;</li>
+<li>Document your report as you go during the exam</li>
+<li>Do a practice exam!</li>
+</ul>
+<h1 id="setup">Setup</h1>
+<p>Create directories: <code>mkdir dc host1 host2</code></p>
+<ul>
+<li>Create sub directories: <code>mkdir enu loot files exploits</code>
+Setup hostnames: <code>sudo nano /etc/hosts</code> then add host/kali IPs</li>
+</ul>
+<h1 id="quick-reference">Quick Reference</h1>
+<ul>
+<li><code>sudo nmap -T5 -p- -v host1 -oN enu/host1.nmap</code></li>
+<li><code>sudo nmap -T5 -p80,443,1978-1980 -sCV -v host1 -oN enu/nmap-services.nmap</code></li>
+<li><code>gobuster dir -u http://host1 -w /usr/share/dirb/wordlists/common.txt | tee gobuster-p80.nmap</code></li>
+<li><code>usr/share/wordlists/rockyou.txt</code></li>
+<li><code>usr/share/wordlists/SecLists</code></li>
+<li><code>nc -nvlp 4444</code> <a href="https://gist.github.com/cmbaughman/c91f41ba7b2cf71106f1">NetCat Cheat Sheet</a></li>
+<li><a href="https://www.revshells.com/">https://www.revshells.com/</a></li>
+</ul>
+<h1 id="easy-wins">Easy wins</h1>
+<ul>
+<li>Linux: Capabilities, SUIDs/GUIDs, cronjobs, modifiable binaries running as root, out-of-date binaries, known-binary exploits, history files.</li>
+<li>Windows: Weak service permissions, Unquoted service paths, outdated binaries, scheduled tasks, custom</li>
+<li>Take breaks, and set timers: If you&rsquo;re not getting anywhere for more than half an hour, take a break. Get some fresh air, and you&rsquo;ll almost definitely think of a new idea.
+<ul>
+<li>Similarly, celebrate when you make progress! If you finish a machine its a good time for a rest</li>
+</ul>
+</li>
+<li>Regularly review the information you have for a machine - key services, known version numbers, and any known credentials.</li>
+<li>Document as you go - take screenshots of key moments in the machine, and of course when you read a proof file.</li>
+<li>Metasploit - pick the machine that you think you have the least chance of exploiting manually</li>
+</ul>
+<h1 id="general-tips">General Tips</h1>
+<ul>
+<li>xfreerdp can pass the hash to login</li>
+<li><code>runas /user:domain\username cmd.exe</code> (or rdp and open CMD as admin)</li>
+<li>Use the Kali directory: <strong>/usr/share/webshells</strong> for all your payloads.</li>
+<li>MSFVenom Shell code for Buffer Overflow <a href="https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/">https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/</a></li>
+<li>If it&rsquo;s running SSH, find/replace the id_rsa</li>
+<li><code>!/bin/bash</code></li>
+<li>SMB - <code>crackmapexec</code> show available shares: <code>crackmapexec smb 192.168.50.242 -u john -p &quot;dqsTwTpZPn#nL&quot; --shares</code></li>
+<li>Scanning UDP Ports for SNMP - <a href="https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727">https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727</a></li>
+</ul>
+<p><img src="https://johnjhacking.com/uploads/autonmap.png" alt=""></p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---core/">[Read more]</a>
           </div>
         
       </article>

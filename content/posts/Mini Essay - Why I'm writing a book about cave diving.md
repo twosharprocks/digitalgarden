@@ -7,7 +7,7 @@ draft: false
 tags:
   - mini-essay
   - writing
-Related: 
+related: 
   - "[[Mini Essays]]"
   - "[[Writing]]"
   - "[[Book - Cave Diving]]"
@@ -21,7 +21,7 @@ There's also no doubt that a lot has happened in the last 6 years too, as much a
 
 I have numerous things that I could write, and probably plenty of other things that in some ways I *should* write before a book on cave diving... but I know this is the right thing to do. If I were to switch my daily [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) over to writing about various dives I've done, I have no doubt I'd be able to create this book in a matter of months. Better yet, I'd love to turn my daily [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) into a project to write up the 101 Things that I've completed, and then allocate a separate hour each day to writing about my 500 cave dives. 
 
-Part of me worries that I'll need more time to write these things than I'm currently willing to give, or that I won't write them properly because I'm trying to make them fit into the #mini-essay format. But those are both poor excuses for procrastination - ultimately this is just about showing up and writing the next thing on the list. The Book - 101 Things will be incredibly straight forward because you just need to write the next entry on the [101 Things - Complete List]({{< relref "posts/101 Things - Complete List.md" >}}) list. Likewise with your cave diving book, you just need to write about the next dive. That may mean putting together a list of your cave diving experiences so you can simply pick the next entry and start writing about it, but creating that list should be fairly straight-forward (especially if you add "Make a list of cave dives" to your [Tasks]({{< relref "posts/Tasks.md" >}})).
+Part of me worries that I'll need more time to write these things than I'm currently willing to give, or that I won't write them properly because I'm trying to make them fit into the #mini-essay format. But those are both poor excuses for procrastination - ultimately this is just about showing up and writing the next thing on the list. The Book - 101 Things will be incredibly straight forward because you just need to write the next entry on the [101 Things - Complete List]({{< relref "posts/101 Things - Complete List.md" >}}) list. Likewise with your cave diving book, you just need to write about the next dive. That may mean putting together a list of your cave diving experiences so you can simply pick the next entry and start writing about it, but creating that list should be fairly straight-forward (especially if you add "Make a list of cave dives" to your Tasks).
 
 So why am I writing a book about cave diving? Because I have some incredible experiences to share and stories to tell - I saw that first hand talking to Mitch and Keith at the bottom of Murra El Elevyn when I was causally dropping stories while sorting out gear that was blowing the minds of them both. I'm writing this book because people are interested in what I do, the cave diving stories are particularly great, and I love sharing experiences with people who are interested. 
 

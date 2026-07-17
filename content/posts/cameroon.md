@@ -6,10 +6,10 @@ status: seed
 draft: false
 tags:
   - diving
-Region:
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/africa/cameroon
+region:
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/africa/cameroon
 related:
   - "[[Diving]]"
   - "[[Trips - Ideas]]"

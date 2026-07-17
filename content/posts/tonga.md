@@ -9,12 +9,12 @@ tags:
   - personal
   - trips
   - expeditions
-Region:
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/pacific/tonga
+region:
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/pacific/tonga
 related: "[[Diving]]"
-Map: https://www.google.com/maps/place/
+map: https://www.google.com/maps/place/
 ---
 # About
 Best time is April to October (Dry season). Excellent visibility and the chance to encounter humpback whales during their migration (June to November).

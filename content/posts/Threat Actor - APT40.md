@@ -7,7 +7,7 @@ draft: false
 tags:
   - cyber-security
   - threat-modelling
-Related: "[[Cyber Security]]"
+related: "[[Cyber Security]]"
 ---
 ---
 ## Description

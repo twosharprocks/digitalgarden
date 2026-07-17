@@ -3,7 +3,7 @@ title: "Meal - Giant Chicken Poppers"
 source: https://www.instagram.com/reels/C9NbaRrMsno/
 created: 2026-04-16
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -13,7 +13,7 @@ tags:
   - high-protein
   - meal-prep
   - easy
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: dinner
 cook_method: air-fryer

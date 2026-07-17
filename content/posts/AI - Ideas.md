@@ -10,7 +10,7 @@ tags:
   - work
   - philosophy
   - ideas
-Related:
+related:
   - "[[Cyber Security]]"
   - "[[Philosophy]]"
   - "[[Knowledge-Management]]"

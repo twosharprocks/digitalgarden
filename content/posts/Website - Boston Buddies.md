@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20160530020232/http://www.themightyginge.com/blog/2016/05/17/news-boston-nyc/
 author:
   - Josh Richards

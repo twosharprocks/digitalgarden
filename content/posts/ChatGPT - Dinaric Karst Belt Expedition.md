@@ -7,7 +7,7 @@ draft: false
 tags:
   - interests
   - ai-content
-Related: 
+related: 
   - "[[Personal]]"
   - "[[Caving]]"
   - "[[Exploration]]"

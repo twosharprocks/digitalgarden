@@ -7,7 +7,7 @@ draft: false
 tags:
   - photogrammetry
   - diving
-Related:
+related:
   - "[[Photogrammetry]]"
 ---
 Reference: https://axel-busch.medium.com/how-to-quickly-create-a-3d-model-from-360-underwater-video-in-1h-or-less-b45b1cf29655

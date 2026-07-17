@@ -5,7 +5,7 @@ updated: 2026-06-30
 status: seed
 draft: false
 tags:
-Related:
+related:
   - "[[Personal]]"
 ---
 # Ideas

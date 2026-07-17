@@ -3,14 +3,14 @@ title: "Meal - Chicken Parm Baked Wraps"
 source: https://www.instagram.com/reel/C-YNCyitW-P/
 created: 2026-06-30
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
   - meal
   - wrap
   - chicken
-Related:
+related:
   - "[[Meals]]"
 ---
 # Ingredients

@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20160226050959/http://www.themightyginge.com/blog/2015/02/16/mars-project-you-are-go-to-continue-descent/
 author:
   - Josh Richards

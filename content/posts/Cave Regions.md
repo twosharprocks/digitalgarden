@@ -9,7 +9,7 @@ tags:
   - diving
   - expeditions
   - caving
-Related:
+related:
   - "[[Diving]]"
   - "[[ChatGPT - Cave Expedition Calendar]]"
   - "[[CaveDB]]"

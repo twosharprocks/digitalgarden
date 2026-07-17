@@ -7,7 +7,7 @@ draft: false
 tags:
   - writing
   - patreon
-Related: "[[Writing]]"
+related: "[[Writing]]"
 ---
 Well I finally got to start on the little monsters today...
 

@@ -8,7 +8,7 @@ tags:
   - books
   - interests
   - personal
-Related:
+related:
   - "[[Personal]]"
   - "Books"
 ---

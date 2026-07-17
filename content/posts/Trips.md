@@ -1,14 +1,14 @@
 ---
 title: Trips
 created: 2026-06-19
-updated: 2026-07-08
+updated: 2026-07-13
 status: Index
 draft: false
 tags:
   - index
   - digital-garden
   - trips
-Related:
+related:
   - "[[Trips - Ideas]]"
   - "[[Expedition Calendar]]"
   - "[[Diving]]"

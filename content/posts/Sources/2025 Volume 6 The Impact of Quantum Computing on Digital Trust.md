@@ -8,7 +8,7 @@ created: 2025-11-08
 tags:
   - unread
   - source
-Related:
+related:
   - "[[Reading]]"
   - "[[Physics]]"
   - "[[Quantum Computing]]"

@@ -7,7 +7,7 @@ draft: false
 tags:
   - writing
   - patreon
-Related: "[[Writing]]"
+related: "[[Writing]]"
 ---
 Hey everyone,
 

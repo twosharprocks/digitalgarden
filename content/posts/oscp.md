@@ -8,7 +8,7 @@ tags:
   - study
   - oscp
   - cyber-security
-Related:
+related:
   - "[[Cyber Security]]"
   - "[[OSCP]]"
 ---

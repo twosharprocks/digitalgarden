@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - caving
-Related: 
+related: 
   - "[[Diving]]"
   - "[[Exploration]]"
   - "[[CaveDB]]"

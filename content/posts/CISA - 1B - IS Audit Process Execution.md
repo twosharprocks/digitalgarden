@@ -8,10 +8,10 @@ tags:
   - cyber-security
   - cisa
   - study
-Related:
+related:
   - "[[CISA]]"
   - "[[CISA - 1A - IS Audit Process Planning]]"
-Video: https://www.youtube.com/watch?v=iR5sRFWbpnA&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=2
+video: https://www.youtube.com/watch?v=iR5sRFWbpnA&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=2
 ---
 # 1 - Audit Project Management
 ## Structured Repeatable Process

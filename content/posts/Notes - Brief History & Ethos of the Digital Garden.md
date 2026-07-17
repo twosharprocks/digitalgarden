@@ -7,7 +7,7 @@ draft: false
 tags:
   - knowledge-management
   - creativity
-Related:
+related:
   - "[[Knowledge-Management]]"
   - "[[Creativity]]"
   - "[[Time Management]]"

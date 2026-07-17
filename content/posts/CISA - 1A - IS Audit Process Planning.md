@@ -8,9 +8,9 @@ tags:
   - cyber-security
   - cisa
   - study
-Related:
+related:
   - "[[CISA]]"
-Video: https://www.youtube.com/watch?v=6raFkNkbUAc&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb
+video: https://www.youtube.com/watch?v=6raFkNkbUAc&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb
 ---
 ---
 # Domain 1A - Information Systems Auditing Process Planning

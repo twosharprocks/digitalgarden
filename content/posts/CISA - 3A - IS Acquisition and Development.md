@@ -8,9 +8,9 @@ tags:
   - study
   - cisa
   - cyber-security
-Related:
+related:
   - "[[CISA]]"
-Video: https://www.youtube.com/watch?v=tvXiHA4Ft00&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=5
+video: https://www.youtube.com/watch?v=tvXiHA4Ft00&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=5
 ---
 # 1 - Project Governance and Management
 - **Initiating**: High level objectives and securing approvals, documented in project charter

@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20160603120203/http://www.themightyginge.com/blog/2012/03/19/coa-101-things-astronomy-49-77/#49
 author:
   - Josh Richards

@@ -3,7 +3,7 @@ title: "Meal - Chicken & Chorizo One Pan Rice"
 source: https://www.instagram.com/p/C3a3lXLo_E-/
 created: 2026-04-16
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -13,7 +13,7 @@ tags:
   - rice
   - one-pan
   - high-protein
-Related:
+related:
   - "[[Meals]]"
 meal_type: dinner
 cook_method: stovetop

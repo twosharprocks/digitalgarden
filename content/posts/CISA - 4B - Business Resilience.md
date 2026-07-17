@@ -8,7 +8,7 @@ tags:
   - cyber-security
   - cisa
   - study
-Related:
+related:
   - "[[CISA]]"
   - "[[CISA - 4A - IS Operations]]"
 ---

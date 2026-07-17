@@ -9,12 +9,12 @@ tags:
   - personal
   - trips
   - expeditions
-Region:
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/italy
+region:
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/europe/italy
 related: "[[Diving]]"
-Map: https://www.google.com/maps/place/
+map: https://www.google.com/maps/place/
 ---
 # About
 

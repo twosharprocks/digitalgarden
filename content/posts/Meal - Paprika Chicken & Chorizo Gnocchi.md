@@ -3,7 +3,7 @@ title: "Meal - Paprika Chicken & Chorizo Gnocchi"
 source: https://www.instagram.com/reels/C_ipqoNIj3v/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -12,7 +12,7 @@ tags:
   - gnocchi
   - one-pan
   - high-protein
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: dinner
 cook_method: stovetop

@@ -8,7 +8,7 @@ tags:
   - mini-essay
   - work
   - writing
-Related:
+related:
   - "[[Mini Essays]]"
 ---
 To determine what you want from work and your career in cybersecurity more generally, you really need to go back to why you got into cyber in the first place. This whole journey started because you were looking for work that was IT-related, because you haven't never worked in IT have an aptitude for it. Your initial investigations were leading you down the Gaming pathway - that's why you spoke to Martin about his work as much as you did, and why you bought a couple of cheap courses in modelling/gaming design in Unity. The interest in working with computers came first, and then the specialisation.

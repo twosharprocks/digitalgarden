@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20160530015830/http://www.themightyginge.com/blog/2012/09/19/coa-101-things-school-stupidity-10-21-83-95/#21
 author:
   - Josh Richards

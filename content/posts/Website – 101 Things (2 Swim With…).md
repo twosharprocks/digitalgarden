@@ -7,7 +7,7 @@ draft: false
 tags:
   - unread
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: "https://web.archive.org/web/20120207185706/http://www.themightyginge.com/blog/2012/01/30/coa-101-things-2-swim-with/"
 author:
 published: 2012-02-07

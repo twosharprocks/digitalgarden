@@ -9,12 +9,12 @@ tags:
   - caving
   - personal
   - trips
-Region:
-CaveDB:
+region:
+cavedb:
 related: 
   - "[[Diving]]"
   - 
-Rating: Cave/TDI Intro to Cave
+rating: Cave/TDI Intro to Cave
 ---
 # To Do
 Dive 

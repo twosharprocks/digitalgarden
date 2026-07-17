@@ -7,7 +7,7 @@ draft: false
 tags:
   - writing
   - patreon
-Related: "[[Writing]]"
+related: "[[Writing]]"
 ---
 Over the last two years I've had a couple of fairly nasty experiences with friends and colleagues asking me to speak at their STEM event.
 

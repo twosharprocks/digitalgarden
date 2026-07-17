@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cyber Security]]"
+related: "[[Cyber Security]]"
 ---
 # Image
 This box was objectively quite easy, however the issues I had *around* it made things far more complicated/frustrating than they needed to be. 

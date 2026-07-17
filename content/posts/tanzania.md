@@ -6,11 +6,11 @@ status: seed
 draft: false
 tags:
   - diving
-Region: Africa
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/africa/tanzania
-Related:
+region: Africa
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/africa/tanzania
+related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[Africa]]"

@@ -8,7 +8,7 @@ tags:
   - philosophy
   - mini-essay
   - writing
-Related:
+related:
   - "[[Mini Essays]]"
 ---
 ---

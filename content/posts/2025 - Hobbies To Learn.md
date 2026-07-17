@@ -8,7 +8,7 @@ tags:
   - knowledge-management
   - personal
   - interests
-Related:
+related:
   - "[[Time Management]]"
 ---
 Reference: https://www.youtube.com/watch?v=t2JFOA023Kk

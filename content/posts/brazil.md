@@ -6,11 +6,11 @@ status: seed
 draft: false
 tags:
   - diving
-Region: South America
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/americas/brazil
-Related:
+region: South America
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/americas/brazil
+related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[South America]]"

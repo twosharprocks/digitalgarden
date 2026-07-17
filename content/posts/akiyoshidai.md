@@ -6,11 +6,11 @@ status: seed
 draft: false
 tags:
   - diving
-Region: "[[Japan]]"
-Sub-Region: Mine Prefecture
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/asia/japan
-Related:
+region: "[[Japan]]"
+sub-region: Mine Prefecture
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/asia/japan
+related:
   - "[[Diving]]"
   - "[[Cave Regions]]"
 ---

@@ -1,16 +1,16 @@
 ---
 title: Madagascar
 created: 2026-06-19
-updated: 2026-07-05
+updated: 2026-07-17
 status: seed
 draft: false
 tags:
   - diving
-Region: Africa
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/africa/madagascar
-Related:
+region: Africa
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/africa/madagascar
+related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[Africa]]"
@@ -31,10 +31,11 @@ Related:
 	- Anjanamba
 # Trips
 - Contact 
-	- Ryan Dart
+	- **Ryan Dart** via Matt Waters
 	- Marissa Eckert, [Guy Bryant](https://www.youtube.com/@GuyBryantCaveDiver/videos)
+	- Andrew Stempel
 - Dry Season: May–October
-- Best months are July/August
+- Best months are July/August (?)
 - Organise trip with recreational diving too ([Cavern & Ocean dives available](https://www.madacaves.com/copy-of-team-1))
     - [Lakato Organised Trips](https://www.facebook.com/pg/Lakato-Madagascar-113546700105746/services/?ref=page_internal)
     - [Madagascar Flights via Nairobi & Johannesburg](https://www.roughguides.com/destinations/africa/madagascar/getting/)

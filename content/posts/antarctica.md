@@ -10,10 +10,10 @@ tags:
   - expeditions
   - bucket-list
   - diving
-Region:
-Sub-Region:
-CaveDB:
-SmartTraveller: www.smartraveller.gov.au/destinations/
+region:
+sub-region:
+cavedb:
+smarttraveller: www.smartraveller.gov.au/destinations/
 related:
   - "[[Diving]]"
   - "[[Trip - Antarctica - 2025 Nov]]"

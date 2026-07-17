@@ -3,7 +3,7 @@ title: "Meal - Feta Fried Egg Tortilla"
 source: https://www.instagram.com/reels/C9igdXmOdOX/
 created: 2026-04-16
 updated: 2026-04-16
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -11,7 +11,7 @@ tags:
   - wrap
   - quick
   - breakfast
-Related: 
+related: 
   - "[[Meals]]"
 meal_type: breakfast
 cook_method: stovetop

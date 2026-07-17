@@ -1,17 +1,16 @@
 ---
 title: Website - Getting to Mars Part 3
 created: 2026-01-26
-updated: 2026-06-18
+updated: 2026-07-17
 status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20170617195929/http://joshrichards.space/category/space/
 author:
   - Josh Richards
 published: 2017-04-28
-description:
 ---
 ![](https://web.archive.org/web/20170617195929im_/https://i0.wp.com/joshrichards.space/wp-content/uploads/2017/04/Raptor-test-9-25-2016.jpg?resize=400%2C266)
 
@@ -129,11 +128,11 @@ Here’s a fun fact: the global satellite communication industry generates over 
 
 So if telecommunication companies can launch new satellites to a much cheaper Low-Earth Orbit and then use solar powered ion drives (aka “[Solar Electric Propulsion](https://web.archive.org/web/20170617195929/https://en.wikipedia.org/wiki/Solar_electric_propulsion)” aka “The bane of my existence”) [to slowly shift new satellites up to geo-synchronous orbit over several months](https://web.archive.org/web/20170617195929/http://www.energymatters.com.au/renewable-news/em3041/), they’ll save literally **billions** in launch costs alone.
 
-Are you bored by this yet  ![](https://web.archive.org/web/20170617195929im_/https://i0.wp.com/joshrichards.space/wp-content/uploads/2017/04/chimp.jpg?resize=400%2C308)
+Are you bored by this yet?  ![](https://web.archive.org/web/20170617195929im_/https://i0.wp.com/joshrichards.space/wp-content/uploads/2017/04/chimp.jpg?resize=400%2C308)
 
-No shit – the satellite communication industry is boring, but it’s also really big money. Do you know what is _**not**_ boring, but also means risking lives for something that won’t make anywhere near as much money **SENDING PEOPLE TO MARS**.
+No shit – the satellite communication industry is boring, but it’s also really big money. Do you know what is _**not**_ boring, but also means risking lives for something that won’t make anywhere near as much money? **SENDING PEOPLE TO MARS**.
 
-Which is why there’s a huge amount of money and research going into solar electric propulsion at the moment, and why I roll my eyes obnoxiously at everyone who tells me it’ll “help with NASA’s #journeytomars”. Because they either don’t understand how weak solar electric propulsion currently is, or they’re trying to bullshit me and others into believing a technology being developed to reduce the cost of deploying communication satellites around Earth will somehow get me to Mars.
+Which is why there’s a huge amount of money and research going into solar electric propulsion at the moment, and why I roll my eyes obnoxiously at everyone who tells me it’ll “help with NASA’s journeytomars”. Because they either don’t understand how weak solar electric propulsion currently is, or they’re trying to bullshit me and others into believing a technology being developed to reduce the cost of deploying communication satellites around Earth will somehow get me to Mars.
 
 I’m happy to be proven wrong on all of this, and I’m certain in the far future we’ll use ion drives to zip between Earth and Mars. I’m even sure some of them will even use solar power. They’ve been trying since 1971, but maybe [Ad Astra](https://web.archive.org/web/20170617195929/http://www.adastrarocket.com/aarc/) will finally [get somewhere with VASIMR afterall](https://web.archive.org/web/20170617195929/https://arstechnica.com/science/2017/02/nasas-longshot-bet-on-a-revolutionary-rocket-may-be-about-to-pay-off/). Maybe the [EM Drive will be completely validated and change everything](https://web.archive.org/web/20170617195929/https://en.wikipedia.org/wiki/RF_resonant_cavity_thruster). But don’t tell me we to **need** to pour billions more into solar electric propulsion research to get to Mars – chemical rockets have been getting things there just fine for decades.
 

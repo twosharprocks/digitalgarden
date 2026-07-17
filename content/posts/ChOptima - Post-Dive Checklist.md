@@ -7,7 +7,7 @@ draft: false
 tags:
   - diving
   - rebreather
-Related:
+related:
   - "[[ChOptima CCR]]"
   - "[[Template - ChOptima Build]]"
   - "[[Diving]]"

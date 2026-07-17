@@ -8,10 +8,10 @@ tags:
   - diving
   - expeditions
   - exploration
-Region:
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/europe/azerbaijan
+region:
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/europe/azerbaijan
 related:
   - "[[Diving]]"
   - "[[Trips - Ideas]]"

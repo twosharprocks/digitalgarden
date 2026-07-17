@@ -8,9 +8,9 @@ tags:
   - cyber-security
   - study
   - cisa
-Related:
+related:
   - "[[CISA]]"
-Video: https://www.youtube.com/watch?v=OUij4a2MGOQ&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=3
+video: https://www.youtube.com/watch?v=OUij4a2MGOQ&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=3
 ---
 # 1 - Laws, Regulations, and Industry Standards
 ## External Environment

@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: "https://web.archive.org/web/20160628102705/http://www.themightyginge.com/blog/2016/05/16/news-diving-between-continents-hiking-to-desolation-iceland/"
 author:
   - "Josh Richards"

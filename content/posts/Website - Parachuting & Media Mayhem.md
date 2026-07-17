@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - writing
-Related: "[[Writing]]"
+related: "[[Writing]]"
 source: https://web.archive.org/web/20150305165153/http://www.themightyginge.com/blog/2015/03/02/parachuting-media-mayhem/
 author:
   - Josh Richards

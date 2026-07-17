@@ -8,9 +8,9 @@ tags:
   - cyber-security
   - cisa
   - study
-Related:
+related:
   - "[[CISA]]"
-Video: https://www.youtube.com/watch?v=2MMZ-hqSY50&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=6
+video: https://www.youtube.com/watch?v=2MMZ-hqSY50&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=6
 ---
 # 1 - Testing Methodologies
 - **1. Unit Testing**: Individual program module (by developers)

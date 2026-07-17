@@ -7,8 +7,8 @@ draft: false
 tags:
   - diving
   - caving
-Region: "[[Mount Gambier - Lower South East]]"
-CaveDB:
+region: "[[Mount Gambier - Lower South East]]"
+cavedb:
 related: "[[Diving]]"
 ---
 # About

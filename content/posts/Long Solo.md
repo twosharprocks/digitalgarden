@@ -8,7 +8,7 @@ tags:
   - interests
   - bucket-list
   - personal
-Related: 
+related: 
   - "[[Personal]]"
   - "[[Bucket List]]"
 ---

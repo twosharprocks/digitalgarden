@@ -3,7 +3,7 @@ title: "Meal - Pepper Jack Chicken Burrito"
 source: https://www.instagram.com/p/C3C9joqLri5/
 created: 2026-06-30
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
@@ -11,7 +11,7 @@ tags:
   - burrito
   - chicken
   - meal-prep
-Related:
+related:
   - "[[Meals]]"
 ---
 # Ingredients

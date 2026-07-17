@@ -1,14 +1,14 @@
 ---
 title: Work
 created: 2025-11-02
-updated: 2026-07-02
+updated: 2026-07-17
 status: seed
 draft: false
 tags:
   - work
   - personal
   - philosophy
-Related:
+related:
   - "[[Personal]]"
   - "[[Philosophy]]"
   - "[[Workbook - Work Backwards]]"
@@ -20,40 +20,21 @@ Related:
 - Auditing: IRAP Assessor
 	- Ideal: Senior GRC Consultant — Cybersecurity
 - OT: Energy, Water, Defence, Radiation
-
+# Remote Work
 ***Look for [Remote Cyber Auditing roles](https://www.seek.com.au/cybersecurity-auditor-jobs/remote?pos=1)***
 - Job crafting - I'm looking for flexible & well paying remote work that I find interesting and uses my skills/experience
 	- Part-time (3-4 days/week)
 	- House/petsitting while working remotely?
+[Timezone Hacking/Digital Nomading](https://www.instagram.com/p/DIMXjgDuLQX/) to remain employable with ADHD.  
+- Work from somewhere that facilitates cave exploration
+	- Vietnam considering [Digital Nomad visa](https://www.thedigitalnomad.asia/inspiration/digital-nomads/vietnam-digital-nomad-visa/) similar to [Thailand's digital nomad visa](https://www.thedigitalnomad.asia/inspiration/digital-nomads/thailand-digital-nomad-visa/) 
 
-Places to Apply
+# Places to Apply
 - **LinkedIn: [Recommended](https://www.linkedin.com/jobs/collections/recommended/) & [Saved](https://www.linkedin.com/my-items/saved-jobs/)**
 - [Seek Recommended](https://www.seek.com.au/)
-- Remote 1st: [Crowdstrike](https://crowdstrike.wd5.myworkdayjobs.com/en-GB/crowdstrikecareers), [Atlassian](https://www.atlassian.com/company/careers/all-jobs)
-- Hybrid: [BAE](https://jobsearch.baesystems.com/browse-jobs/country/australia), [ASC](https://careeropportunities.asc.com.au/jobs/search), [SAAB](https://www.saab.com/markets/australia/careers/job-opportunities), [Vectra](https://www.vectra-corp.com/)
-- Gov: IWorkForSA? ACCC?
-	- AAD
+- Antarctica
 		- [Information Technology Officer](https://jobs.antarctica.gov.au/jobs-in-antarctica/telecommunications/information-technology-officer/)
 		- [BoM Technical Officer](https://jobs.antarctica.gov.au/jobs-in-antarctica/bom/technical-officer/)
-- Financial: Work for a bank?
-# Remote Work
-- Get [portable screen extenders?](https://www.tomsguide.com/computing/monitors/i-just-tried-this-laptop-screen-extender-and-its-almost-the-triple-monitor-setup-of-my-dreams) Or just a portable screen? 12V converter for existing screens?
-[Timezone Hacking/Digital Nomading](https://www.instagram.com/p/DIMXjgDuLQX/) to remain employable with ADHD.  
-- Benefits:  
-	- 💃🏻 Exhausting Energy: you can let loose all morning/afternoon so you’re not hyperactive at your desk.  
-	- 🛒 Taming Distractions: you have time to tackle errands during the day, keeping them from hanging over your head when you’re trying to focus.  
-	- 👩‍💻Productivity without distractions: You can start work early and get things done before everyone else is awake, which is super helpful to not have any incoming distractions  
-	- 📆Inherent Deadline: ADHD makes us procrastinate as much as possible. Having bedtime as a built in deadline will force you to actually work because you want to go to bed.  
-	- ☀️SO MUCH Sunshine  
-	- 🏃‍♀️More Movement: Way more walking and exercise when you aren’t exhausted after work  
-	- 😎Less Stress: No calendar-checking before bed, thanks to no early morning meetings.  
-	- 🥗Healthier Eating: when you’re antsy you can step away from your desk and cook a healthy dinner…something you’re likely too tired to do after a long work day but you’ll really enjoy when it means you get a break from the computer screen.  
-	- 😴Work-Life Balance: it’s much easier to keep working past 5pm and end up a workaholic but since you want to sleep it’s easier to shut down your laptop and say goodnight to the work day.
-
-- Digital Nomad
-	- Vietnam considering [Digital Nomad visa](https://www.thedigitalnomad.asia/inspiration/digital-nomads/vietnam-digital-nomad-visa/) similar to [Thailand's digital nomad visa](https://www.thedigitalnomad.asia/inspiration/digital-nomads/thailand-digital-nomad-visa/) 
-	- Consider Vietnam for regular cave exploration?
-	- [Insta - Digital Nomad Visas](https://www.instagram.com/p/DLP4esLOK0C/)
 # Ideas
 [In Praise of Idleness, by Bertrand Russell]({{< relref "posts/Sources/In Praise of Idleness, by Bertrand Russell.md" >}})
 - [4-hour work week](https://www.amazon.com.au/4-Hour-Work-Week-Escape-Anywhere-ebook/dp/B006X0M2TS/ref=tmm_kin_swatch_0)

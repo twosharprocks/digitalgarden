@@ -9,7 +9,7 @@ tags:
   - philosophy
   - personal
   - writing
-Related: 
+related: 
   - "[[Mini Essays]]"
   - "[[Philosophy]]"
   - "[[Personal]]"

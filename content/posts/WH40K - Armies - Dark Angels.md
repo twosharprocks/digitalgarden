@@ -7,7 +7,7 @@ draft: false
 tags:
   - interests
   - personal
-Related:
+related:
   - "[[Personal]]"
 ---
 ---

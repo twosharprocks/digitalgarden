@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related:
+related:
   - "[[Cyber Security]]"
   - "[[Cyber Glossary]]"
   - "[[Cyber Security - Job Domains & Interview Prep]]"

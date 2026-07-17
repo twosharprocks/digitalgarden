@@ -3,14 +3,14 @@ title: "Meal - Grilled Cheese Burrito"
 source: https://www.instagram.com/reel/C-S7lLrR8xd/
 created: 2026-06-30
 updated: 2026-06-30
-Type:
+type:
 status: seed
 draft: false
 tags:
   - meal
   - burrito
   - beef
-Related:
+related:
   - "[[Meals]]"
 ---
 # Ingredients

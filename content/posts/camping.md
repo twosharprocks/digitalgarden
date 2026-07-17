@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - trips
-Related: 
+related: 
   - "[[Trips]]"
   - "[[Diving]]"
   - "[[Caving]]"

@@ -7,10 +7,9 @@ draft: false
 tags:
   - diving
   - caving
-Region: "[[Nullarbor High Plains]]"
-CaveDB:
+region: "[[Nullarbor High Plains]]"
+cavedb:
 related: "[[Diving]]"
-Status: Seed
 ---
 ---
 

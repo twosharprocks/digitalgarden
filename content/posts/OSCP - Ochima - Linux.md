@@ -6,7 +6,7 @@ status: seed
 draft: false
 tags:
   - cyber-security
-Related: "[[Cyber Security]]"
+related: "[[Cyber Security]]"
 ---
 # Ochima
 This one was an exercise in frustration purely because the exploit didn't seem to work on the port I wanted it to (`4444`) but *would* work on port `80`!? 

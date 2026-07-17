@@ -10,10 +10,10 @@ tags:
   - personal
   - trips
   - expeditions
-Region:
-CaveDB:
+region:
+cavedb:
 related: "[[Diving]]"
-Map: https://www.google.com/maps/place/
+map: https://www.google.com/maps/place/
 ---
 # About
 

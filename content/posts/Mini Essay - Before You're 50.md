@@ -10,7 +10,7 @@ tags:
   - 101-things
   - bucket-list
   - books
-Related: 
+related: 
   - "[[Mini Essays]]"
   - "[[Writing]]"
   - "[[Bucket List]]"

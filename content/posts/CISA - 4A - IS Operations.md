@@ -8,7 +8,7 @@ tags:
   - cyber-security
   - cisa
   - study
-Related:
+related:
   - "[[CISA]]"
 ---
 # 1 - Common Technology Comonents

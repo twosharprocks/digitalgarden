@@ -8,7 +8,7 @@ tags:
   - index
   - digital-garden
   - writing
-Related:
+related:
 ---
 # Published
 - [Exploring Pines Cave - Scuba Diver Magazine](https://app.scubadivermag.com/issues/scuba-diver-anz-85/exploring-pines-cave)

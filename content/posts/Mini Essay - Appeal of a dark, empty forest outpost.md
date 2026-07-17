@@ -7,7 +7,7 @@ draft: false
 tags:
   - mini-essay
   - writing
-Related: "[[Mini Essays]]"
+related: "[[Mini Essays]]"
 ---
 For years now there's been something drawing you to the quiet darkness of an otherwise empty forest outpost. There are critical elements to this interest though which are non-negotiable - it they're not present, then the entire vibe is thrown off and it doesn't work.
 

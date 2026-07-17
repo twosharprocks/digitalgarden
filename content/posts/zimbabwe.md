@@ -6,11 +6,11 @@ status: seed
 draft: false
 tags:
   - diving
-Region: Africa
-Sub-Region:
-CaveDB:
-SmartTraveller: https://www.smartraveller.gov.au/destinations/africa/zimbabwe
-Related:
+region: Africa
+sub-region:
+cavedb:
+smarttraveller: https://www.smartraveller.gov.au/destinations/africa/zimbabwe
+related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[Africa]]"
