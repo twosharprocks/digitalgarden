@@ -204,12 +204,12 @@
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">## (4.2) Enabled AD Users from a specific Domain group (eg. Administrators) with email address matches </span>
-</span></span><span class="line"><span class="cl"><span class="c">#Define $ouPath for which Group to search (eg. Administrators, Office, Inactive, Resources, ect)</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Define $ouPath for which Group to search (eg. Administrators, Office, Inactive, Resources, ect)</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=AdministratorsDC=int&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Disabled users with matching emails</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Disabled users with matching emails</span>
 </span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;--- Users in </span><span class="nv">$ouPath</span><span class="s2"> with matching email addresses ---&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Filter and print user with description</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Filter and print user with description</span>
 </span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$email</span> <span class="k">in</span> <span class="nv">$emailAddresses</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">EmailAddress</span> <span class="o">-eq</span> <span class="nv">$email</span><span class="p">}</span> <span class="n">-SearchBase</span> <span class="s2">&#34;OU=Administrators,OU=Users,OU=_Users &amp; Groups,DC=acm,DC=int&#34;</span>
 </span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="p">(</span><span class="nv">$user</span><span class="p">.</span><span class="py">Enabled</span> <span class="o">-eq</span> <span class="vm">$true</span><span class="p">)</span> <span class="p">{</span>
@@ -249,7 +249,7 @@
 
         <div class="post-content">
           
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#List AD accounts assigned to a member group</span>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># List AD accounts assigned to a member group</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-GroupMembers</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$GroupName</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the member group name to search&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$OU</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter the Organisational Unit to search&#34;</span>
@@ -313,7 +313,7 @@
 </span></span><span class="line"><span class="cl">    <span class="nv">$streetAddress</span> <span class="p">=</span> <span class="s2">&#34;Add address here&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$city</span> <span class="p">=</span> <span class="s1">&#39;City name here&#39;</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$postalCode</span> <span class="p">=</span> <span class="s1">&#39;Postcode here&#39;</span>
-</span></span><span class="line"><span class="cl">    <span class="c">#Code starts here - do not edit below this point</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Code starts here - do not edit below this point</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$NewMailbox</span> <span class="n">-Office</span> <span class="nv">$office</span> <span class="n">-department</span> <span class="nv">$department</span> <span class="n">-streetAddress</span> <span class="nv">$streetAddress</span> <span class="n">-state</span> <span class="n">STATE</span> <span class="n">-city</span> <span class="nv">$city</span> <span class="n">-PostalCode</span> <span class="nv">$postalCode</span> <span class="n">-description</span> <span class="nv">$description</span> <span class="n">-title</span> <span class="nv">$description</span> <span class="n">-company</span> <span class="s2">&#34;Company Name&#34;</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">c</span><span class="p">=</span><span class="s2">&#34;AU&#34;</span><span class="p">;</span><span class="n">wWWHomePage</span><span class="p">=</span><span class="s2">&#34;http:\\www.websitehere.com&#34;</span><span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">write-host</span> <span class="s2">&#34;Details added to </span><span class="nv">$NewMailbox</span><span class="s2"> in Active Directory&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
@@ -463,14 +463,14 @@
 
         <div class="post-content">
           
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#Specific username to offboard and the updated description</span>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Specific username to offboard and the updated description</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">move-user-offboarding</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">read-host</span> <span class="s1">&#39;Username&#39;</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$updatedDescription</span> <span class="p">=</span> <span class="nb">read-host</span> <span class="s1">&#39;ICT Number and Date&#39;</span>
 </span></span><span class="line"><span class="cl">    <span class="c"># Do not edit anything below this</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">Disable-ADAccount</span> <span class="n">-Identity</span> <span class="nv">$user</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$destinationOU</span> <span class="p">=</span> <span class="s2">&#34;OU=Off Boarding,OU=Users,OU=_Users &amp; Groups,DC=acm,DC=int&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="c">#Hide user from Address Lists</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Hide user from Address Lists</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">msExchHideFromAddressLists</span><span class="p">=</span><span class="s2">&#34;TRUE&#34;</span><span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="c"># Get the user object &amp; update their description</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">Get-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span> <span class="p">|</span> <span class="nb">Set-ADUser</span> <span class="n">-description</span> <span class="nv">$updatedDescription</span>

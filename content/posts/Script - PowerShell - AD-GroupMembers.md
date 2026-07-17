@@ -12,7 +12,7 @@ related:
 language: PowerShell
 ---
 ```powershell
-#List AD accounts assigned to a member group
+# List AD accounts assigned to a member group
 function Find-GroupMembers {
 $GroupName = Read-Host "Enter the member group name to search"
 $OU = Read-Host "Enter the Organisational Unit to search"

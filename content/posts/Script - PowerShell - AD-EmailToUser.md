@@ -48,12 +48,12 @@ foreach ($email in $emailAddresses) {
     }
 }
 ## (4.2) Enabled AD Users from a specific Domain group (eg. Administrators) with email address matches 
-#Define $ouPath for which Group to search (eg. Administrators, Office, Inactive, Resources, ect)
+# Define $ouPath for which Group to search (eg. Administrators, Office, Inactive, Resources, ect)
 $ouPath = "OU=AdministratorsDC=int"
-#Disabled users with matching emails
+# Disabled users with matching emails
 write-host "--- Users in $ouPath with matching email addresses ---"
 write-host ""
-#Filter and print user with description
+# Filter and print user with description
 foreach ($email in $emailAddresses) {
     $user = Get-ADUser -Filter {EmailAddress -eq $email} -SearchBase "OU=Administrators,OU=Users,OU=_Users & Groups,DC=acm,DC=int"
 	if ($user.Enabled -eq $true) {

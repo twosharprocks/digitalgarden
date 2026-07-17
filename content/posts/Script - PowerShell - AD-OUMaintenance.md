@@ -12,7 +12,7 @@ related:
 language: PowerShell
 ---
 ```powershell
-#List Any Disabled users in the "Office Users" OU
+# List Any Disabled users in the "Office Users" OU
 function Find-Disabled-Office {
 $ouPath = "OU=Office Users,DC=int" 
 $OfficeUsers = Get-ADUser -Filter {
@@ -23,7 +23,7 @@ $OfficeUsers | Format-Table -AutoSize
 write-host "#####"
 }
 ###
-#List Enabled users in the "Inactive Users" OU
+# List Enabled users in the "Inactive Users" OU
 function Find-Enabled-Inactive { 
 $ouPath = "OU=Inactive Users,DC=int" 
 $EnabledInactive = Get-ADUser -Filter {
@@ -34,7 +34,7 @@ $EnabledInactive | Format-Table -AutoSize
 write-host "#####"
 }
 ###
-#List Enabled users in the "Offboarding" OU
+# List Enabled users in the "Offboarding" OU
 function Find-Enabled-Offboarding { 
 $ouPath = "OU=Off Boarding,DC=int" 
 $EnabledOffboarding = Get-ADUser -Filter {
@@ -45,7 +45,7 @@ $EnabledOffboarding | Format-Table -AutoSize
 write-host "#####"
 }
 ###
-#Office Users who have not been logged in for 6 months or more
+# Office Users who have not been logged in for 6 months or more
 function Find-NoLogin6mo {
 $ouPath = "OU=Office Users,DC=int" 
 $sixMonthsAgo = (Get-Date).AddMonths(-6)
@@ -58,7 +58,7 @@ $users = Get-ADUser -Filter {
 $users | Format-Table -AutoSize
 }
 ###
-#Students who have not been logged in for 1 month or more
+# Students who have not been logged in for 1 month or more
 function Find-StudentNoLogin {
 $ouPath = "OU=Students,DC=int" 
 $OneMonthAgo = (Get-Date).AddMonths(-1)
@@ -69,7 +69,7 @@ $users = Get-ADUser -Filter {
 $users | Format-Table -AutoSize 
 }
 ###
-#Disable every account in a specific OU (eg. “Inactive”)
+# Disable every account in a specific OU (eg. “Inactive”)
 function disable-inactive {
 $ouPath = "OU=Inactive Users,DC=int"
 # Get a list of user accounts in the specified OU
@@ -106,7 +106,7 @@ foreach ($user in $users) {
     }
 }
 ###
-#List users in "OU=Offboarding" who have not been modified for >3months
+# List users in "OU=Offboarding" who have not been modified for >3months
 function Find-Offboarded-unmodified {
 Write-host "Users in OU=Off Boarding not modified for >3months (Delete from AD)"
 $ouPath = "OU=Off Boarding,DC=int"
@@ -125,7 +125,7 @@ if ($users) {
 } }
 write-host "#####"
 ###
-#Show if accounts in $employeeIDList are enabled or disabled
+# Show if accounts in $employeeIDList are enabled or disabled
 foreach ($employeeID in $employeeIDList) {
     $adUser = Get-ADUser -Filter {EmployeeID -eq $employeeID} -Properties Enabled
     if ($adUser) {
@@ -136,7 +136,7 @@ foreach ($employeeID in $employeeIDList) {
     }
 }
 ###
-#List all Office Users missing an EmployeeID
+# List all Office Users missing an EmployeeID
 function Find-NoEmployeeID {
 $ouPath = "OU=Office Users,DC=int"
 Write-Host "Office Users without EmployeeID"
@@ -145,7 +145,7 @@ foreach ($user in $usersWithoutEmployeeID) {
 	Write-Host "$($user.SAMAccountName) - $user"
 } }
 ###
-#New Employee List from Payroll - Finding Missing employeeIDs
+# New Employee List from Payroll - Finding Missing employeeIDs
 function find-missing-employeeIDs {
 $excelFilePath = Read-Host "Provide full filepath to New Employee Report" 
 $worksheetName = "New Employees Report"
@@ -166,7 +166,7 @@ foreach ($employeeID in $employeeIDList) {
 			} }
 }
 ###
-#Terminated Employee List from Payroll - Finding Active Users who no longer work for UC
+# Terminated Employee List from Payroll - Finding Active Users who no longer work for UC
 function find-terminated-users {
 $excelFilePath = Read-Host "Provide full filepath to Terminated Employee Report" 
 $worksheetName = "Terminated Employees Report"

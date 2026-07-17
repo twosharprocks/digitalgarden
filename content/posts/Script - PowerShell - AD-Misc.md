@@ -33,7 +33,7 @@ function edit-mailbox {
     $streetAddress = "Add address here"
     $city = 'City name here'
     $postalCode = 'Postcode here'
-    #Code starts here - do not edit below this point
+    # Code starts here - do not edit below this point
     Set-ADUser -Identity $NewMailbox -Office $office -department $department -streetAddress $streetAddress -state STATE -city $city -PostalCode $postalCode -description $description -title $description -company "Company Name" -Replace @{c="AU";wWWHomePage="http:\\www.websitehere.com"}
     write-host "Details added to $NewMailbox in Active Directory"
     }

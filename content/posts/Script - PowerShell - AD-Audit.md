@@ -12,7 +12,7 @@ related:
 language: PowerShell
 ---
 ```powershell
-#This script 
+# This script 
 Function DecodeUserAccountControl ([int]$UAC)
 {
 $UACPropertyFlags = @(

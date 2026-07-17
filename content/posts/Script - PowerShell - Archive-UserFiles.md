@@ -12,8 +12,8 @@ related:
 language: PowerShell
 ---
 ```powershell
-#Create an archive for user files, search directories for folders titled with variations of the user's name, 
-#then offer to copy/delete/ignore the files to the recently created archive
+# Create an archive for user files, search directories for folders titled with variations of the user's name, 
+# then offer to copy/delete/ignore the files to the recently created archive
 function New-Archive {
     $firstName = Read-Host "Enter User First Name"
     $lastName = Read-Host "Enter User Last Name"
@@ -31,7 +31,7 @@ function New-Archive {
         New-Item -ItemType Directory -Path (Join-Path (Join-Path $basePath $folderName) "Folder Redirect") -ErrorAction SilentlyContinue
     }
     New-Folders -firstName $firstName -lastName $lastName
-    #Construct the naming patterns
+    # Construct the naming patterns
     $pattern1 = "$firstName.$lastName"
     $pattern2 = "$($firstName[0])$lastName"
     $pattern3 = "$firstName$($lastName[0])"

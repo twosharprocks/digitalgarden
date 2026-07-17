@@ -12,14 +12,14 @@ related:
 language: PowerShell
 ---
 ```powershell
-#Specific username to offboard and the updated description
+# Specific username to offboard and the updated description
 function move-user-offboarding {
     $user = read-host 'Username'
     $updatedDescription = read-host 'ICT Number and Date'
     # Do not edit anything below this
     Disable-ADAccount -Identity $user
     $destinationOU = "OU=Off Boarding,OU=Users,OU=_Users & Groups,DC=acm,DC=int"
-    #Hide user from Address Lists
+    # Hide user from Address Lists
     Set-ADUser -Identity $user -Replace @{msExchHideFromAddressLists="TRUE"}
     # Get the user object & update their description
     Get-ADUser -Identity $user | Set-ADUser -description $updatedDescription
