@@ -150,60 +150,6 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---crane---linux/">OSCP - Crane - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="crane">Crane</h1>
-<p>This was the most straight-forward box so far. While a walkthrough was referenced for some of the exploit syntax, the exploit itself had already been found and tested before hand, so catching the reverse shell was straightforward.</p>
-<p>After initial access, it was clear <code>usr/sbin/service</code> could be used for privilege escalation. It took a bit of testing, but combining <code>www-data</code>&rsquo;s sudo privileges with directory traversal led to <code>root</code> access</p>
-<h1 id="resolution-summary">Resolution summary</h1>
-<ul>
-<li>Scanned with Nmap to find ports 22, 80, &amp; 3306</li>
-<li>Navigated to <code>http://192.168.137.146:80</code></li>
-<li>Password guessed admin login, and identified SuiteCRM 7.12.3</li>
-<li>Found exploit for CVE-2022-23940, executed against target &amp; achieved shell</li>
-<li>Checked sudo privileges and found <code>/usr/sbin/services</code></li>
-<li>Used <code>sbin</code> &amp; directory traversal to escalate to <code>root</code></li>
-</ul>
-<h2 id="improved-skills">Improved skills</h2>
-<ul>
-<li>Finding/testing exploits</li>
-<li>Linux Privilege Escalation</li>
-</ul>
-<h2 id="used-tools">Used tools</h2>
-<ul>
-<li>Nmap</li>
-<li>NetCat</li>
-</ul>
-<hr>
-<h1 id="information-gathering">Information Gathering</h1>
-<p>Scanned all TCP ports:</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---crane---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
           <a href="/posts/oscp---exam-prep/">OSCP - Exam Prep</a>
         </h2>
         <div class="post-meta"></div>
@@ -352,6 +298,38 @@
         
            <div>
             <a class="read-more button inline" href="/posts/oscp---fired---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---flu---linux/">OSCP - Flu - Linux</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="flu">Flu</h1>
+<p>This is the first box I can confidently say I did <em><strong>NOT</strong></em> look at a walkthrough for any help on! I&rsquo;ve included one in the details above, but it remained as a background tab the entire way through this - massive confidence boost to know I can do this without needing to follow someone else&rsquo;s footsteps!</p>
+<p>Seeing Confluence when I checked the html port was a big confidence booster too, as I&rsquo;ve worked with it a lot already and knew there were plenty of vulnerabilities and exploit available for older versions. Getting RCE was incredibly simple, and then it was simply a case of enumerating the target to find a privilege escalation vector.</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---flu---linux/">[Read more]</a>
           </div>
         
       </article>
