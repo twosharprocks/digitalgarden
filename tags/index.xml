@@ -37,6 +37,13 @@
       <description></description>
     </item>
     <item>
+      <title>Philosophy</title>
+      <link>/tags/philosophy/</link>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Writing</title>
       <link>/tags/writing/</link>
       <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
@@ -191,13 +198,6 @@
       <description></description>
     </item>
     <item>
-      <title>Daily-Notes</title>
-      <link>/tags/daily-notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/daily-notes/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Dashboard</title>
       <link>/tags/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -331,17 +331,17 @@
       <description></description>
     </item>
     <item>
-      <title>Philosophy</title>
-      <link>/tags/philosophy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/philosophy/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Photogrammetry</title>
       <link>/tags/photogrammetry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/photogrammetry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Psychology</title>
+      <link>/tags/psychology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/psychology/</guid>
       <description></description>
     </item>
     <item>
@@ -440,13 +440,6 @@
       <link>/tags/trips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/trips/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Weekly-Review</title>
-      <link>/tags/weekly-review/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/weekly-review/</guid>
       <description></description>
     </item>
     <item>

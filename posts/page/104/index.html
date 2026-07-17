@@ -150,277 +150,6 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/script---powershell---ad-offboarding/">Script - PowerShell - AD-Offboarding</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#Specific username to offboard and the updated description</span>
-</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">move-user-offboarding</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">read-host</span> <span class="s1">&#39;Username&#39;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$updatedDescription</span> <span class="p">=</span> <span class="nb">read-host</span> <span class="s1">&#39;ICT Number and Date&#39;</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># Do not edit anything below this</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">Disable-ADAccount</span> <span class="n">-Identity</span> <span class="nv">$user</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$destinationOU</span> <span class="p">=</span> <span class="s2">&#34;OU=Off Boarding,OU=Users,OU=_Users &amp; Groups,DC=acm,DC=int&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="c">#Hide user from Address Lists</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">msExchHideFromAddressLists</span><span class="p">=</span><span class="s2">&#34;TRUE&#34;</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># Get the user object &amp; update their description</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">Get-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span> <span class="p">|</span> <span class="nb">Set-ADUser</span> <span class="n">-description</span> <span class="nv">$updatedDescription</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$user</span> <span class="o">-eq</span> <span class="vm">$null</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;User not found.&#34;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">exit</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># Move the user to the new OU</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">Get-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span> <span class="p">|</span> <span class="nb">Move-ADObject</span> <span class="n">-TargetPath</span> <span class="nv">$destinationOU</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># Get the group memberships of the user</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$userGroups</span> <span class="p">=</span> <span class="nb">Get-ADPrincipalGroupMembership</span> <span class="n">-Identity</span> <span class="nv">$user</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># Loop through the user&#39;s group memberships and remove them, excluding &#34;Domain Users&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">foreach</span> <span class="p">(</span><span class="nv">$group</span> <span class="k">in</span> <span class="nv">$userGroups</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$group</span><span class="p">.</span><span class="py">objectClass</span> <span class="o">-eq</span> <span class="s1">&#39;group&#39;</span> <span class="o">-and</span> <span class="nv">$group</span><span class="p">.</span><span class="py">Name</span> <span class="o">-ne</span> <span class="s2">&#34;Domain Users&#34;</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="c"># Use Try-Catch to handle any potential errors (e.g., if the user is not a member of the group)</span>
-</span></span><span class="line"><span class="cl">            <span class="k">try</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">                <span class="nb">Remove-ADGroupMember</span> <span class="n">-Identity</span> <span class="nv">$group</span> <span class="n">-Members</span> <span class="nv">$user</span> <span class="n">-Confirm:</span><span class="vm">$false</span>
-</span></span><span class="line"><span class="cl">                <span class="nb">Write-Host</span> <span class="s2">&#34;Removed </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">SamAccountName</span><span class="p">)</span><span class="s2"> from </span><span class="p">$(</span><span class="nv">$group</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2">&#34;</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="k">catch</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">                <span class="nb">Write-Host</span> <span class="s2">&#34;Failed to remove </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">SamAccountName</span><span class="p">)</span><span class="s2"> from </span><span class="p">$(</span><span class="nv">$group</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2">&#34;</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">Write-Host</span> <span class="s2">&#34;</span><span class="nv">$user</span><span class="s2"> moved to Off Boarding and Group memberships (excluding &#39;Domain Users&#39;) removed&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span></code></pre></div>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/script---powershell---ad-offboarding/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/script---powershell---ad-oumaintenance/">Script - PowerShell - AD-OUMaintenance</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#List Any Disabled users in the &#34;Office Users&#34; OU</span>
-</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-Disabled-Office</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Office Users,DC=int&#34;</span> 
-</span></span><span class="line"><span class="cl"><span class="nv">$OfficeUsers</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">Enabled</span> <span class="o">-eq</span> <span class="vm">$false</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span><span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span>
-</span></span><span class="line"><span class="cl"><span class="nb">Write-host</span> <span class="s2">&#34;Disabled Users in OU=Office Users (Check for an offboarding ticket in Jira - Move to Off Boarding?)&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$OfficeUsers</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">-AutoSize</span>
-</span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;#####&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#List Enabled users in the &#34;Inactive Users&#34; OU</span>
-</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-Enabled-Inactive</span> <span class="p">{</span> 
-</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Inactive Users,DC=int&#34;</span> 
-</span></span><span class="line"><span class="cl"><span class="nv">$EnabledInactive</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">Enabled</span> <span class="o">-eq</span> <span class="vm">$true</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span><span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span>
-</span></span><span class="line"><span class="cl"><span class="nb">Write-host</span> <span class="s2">&#34;Enabled Users in OU=Inactive Users (Check for notification of Leave in Jira - Disable? Or move to Office Users?)&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$EnabledInactive</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">-AutoSize</span>
-</span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;#####&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#List Enabled users in the &#34;Offboarding&#34; OU</span>
-</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-Enabled-Offboarding</span> <span class="p">{</span> 
-</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Off Boarding,DC=int&#34;</span> 
-</span></span><span class="line"><span class="cl"><span class="nv">$EnabledOffboarding</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">Enabled</span> <span class="o">-eq</span> <span class="vm">$true</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span><span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span>
-</span></span><span class="line"><span class="cl"><span class="nb">Write-host</span> <span class="s2">&#34;Enabled Users in OU=Off Boarding (Check for an offboarding ticket in Jira - Disable? Or move to Office Users?)&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$EnabledOffboarding</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">-AutoSize</span>
-</span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;#####&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Office Users who have not been logged in for 6 months or more</span>
-</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-NoLogin6mo</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Office Users,DC=int&#34;</span> 
-</span></span><span class="line"><span class="cl"><span class="nv">$sixMonthsAgo</span> <span class="p">=</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="py">AddMonths</span><span class="p">(</span><span class="mf">-6</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c"># Get users from the specified OU who have not logged in for 6 months or more</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$users</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">LastLogonDate</span> <span class="o">-lt</span> <span class="nv">$sixMonthsAgo</span> <span class="o">-and</span>
-</span></span><span class="line"><span class="cl">    <span class="n">Enabled</span> <span class="o">-eq</span> <span class="vm">$true</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span><span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span>
-</span></span><span class="line"><span class="cl"><span class="c"># Display the results</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$users</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">-AutoSize</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Students who have not been logged in for 1 month or more</span>
-</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-StudentNoLogin</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Students,DC=int&#34;</span> 
-</span></span><span class="line"><span class="cl"><span class="nv">$OneMonthAgo</span> <span class="p">=</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="py">AddMonths</span><span class="p">(</span><span class="mf">-1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$users</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">LastLogonDate</span> <span class="o">-lt</span> <span class="nv">$OneMonthAgo</span> <span class="o">-and</span>
-</span></span><span class="line"><span class="cl">    <span class="n">Enabled</span> <span class="o">-eq</span> <span class="vm">$true</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span><span class="n">LastLogonDate</span><span class="p">,</span><span class="n">Enabled</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$users</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">-AutoSize</span> 
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Disable every account in a specific OU (eg. “Inactive”)</span>
-</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">disable-inactive</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Inactive Users,DC=int&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="c"># Get a list of user accounts in the specified OU</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$inactiveUsers</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">*</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span>
-</span></span><span class="line"><span class="cl"><span class="c"># Disable each user account in the OU</span>
-</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$user</span> <span class="k">in</span> <span class="nv">$inactiveUsers</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">Disable-ADAccount</span> <span class="n">-Identity</span> <span class="nv">$user</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span>
-</span></span><span class="line"><span class="cl">	<span class="nb">Write-Host</span> <span class="s2">&#34;Disabled user account: </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">SamAccountName</span><span class="p">)</span><span class="s2">&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c"># List Groups Assigned to Offboarded Users and Remove all groups Except &#34;Domain Users&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Remove-OffboardingGroups</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Off Boarding,DC=int&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$users</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">*</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span>
-</span></span><span class="line"><span class="cl"><span class="c"># Iterate each user</span>
-</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$user</span> <span class="k">in</span> <span class="nv">$users</span><span class="p">)</span> <span class="p">{</span>  
-</span></span><span class="line"><span class="cl">    <span class="c"># Get groups that the user is a member of</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$userGroups</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="nv">$user</span> <span class="p">|</span> <span class="nb">Get-ADPrincipalGroupMembership</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Name</span> <span class="o">-ne</span> <span class="s2">&#34;Domain Users&#34;</span> <span class="o">-and</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Name</span> <span class="o">-notlike</span> <span class="s2">&#34;Group_*&#34;</span> <span class="p">}</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">Name</span>    
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$userGroups</span><span class="p">.</span><span class="py">Count</span> <span class="o">-gt</span> <span class="mf">0</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="c"># Display groups</span>
-</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;Groups:&#34;</span>
-</span></span><span class="line"><span class="cl">        <span class="nv">$userGroups</span> <span class="p">|</span> <span class="nb">ForEach-Object</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="nb">Write-Host</span> <span class="s2">&#34; - </span><span class="p">$(</span><span class="nv">$_</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2">&#34;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="c"># Removing user from non-&#34;Domain Users&#34; groups</span>
-</span></span><span class="line"><span class="cl">        <span class="nv">$confirm</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Remove </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2"> from all groups except &#39;Domain Users&#39;? (Y/N)&#34;</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$confirm</span> <span class="o">-eq</span> <span class="s2">&#34;Y&#34;</span> <span class="o">-or</span> <span class="nv">$confirm</span> <span class="o">-eq</span> <span class="s2">&#34;y&#34;</span><span class="p">)</span> <span class="p">{</span> 
-</span></span><span class="line"><span class="cl">				<span class="nv">$userGroups</span> <span class="p">|</span> <span class="nb">ForEach-Object</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">                <span class="nb">Remove-ADGroupMember</span> <span class="n">-Identity</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Name</span> <span class="n">-Members</span> <span class="nv">$user</span> <span class="n">-confirm:</span><span class="vm">$false</span> <span class="n">-erroraction</span> <span class="n">SilentlyContinue</span>
-</span></span><span class="line"><span class="cl">                <span class="nb">Write-Host</span> <span class="s2">&#34;Removed </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2"> from </span><span class="p">$(</span><span class="nv">$_</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2">&#34;</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#List users in &#34;OU=Offboarding&#34; who have not been modified for &gt;3months</span>
-</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-Offboarded-unmodified</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl"><span class="nb">Write-host</span> <span class="s2">&#34;Users in OU=Off Boarding not modified for &gt;3months (Delete from AD)&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Off Boarding,DC=int&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$thresholdDate</span> <span class="p">=</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="py">AddMonths</span><span class="p">(</span><span class="mf">-3</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$OffboardedUnmodified</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">*</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="p">*</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="py">whenChanged</span> <span class="o">-lt</span> <span class="nv">$thresholdDate</span> <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nv">$users</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$users</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">SamAccountName</span><span class="p">,</span> <span class="n">whenChanged</span>
-</span></span><span class="line"><span class="cl">	<span class="nv">$confirmation</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Do you want to delete offboarded user accounts older than 3 months? (yes/no)&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$confirmation</span> <span class="o">-eq</span> <span class="s2">&#34;yes&#34;</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">foreach</span> <span class="p">(</span><span class="nv">$user</span> <span class="k">in</span> <span class="nv">$OffboardedUnmodified</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="nb">Remove-ADUser</span> <span class="n">-Identity</span> <span class="nv">$user</span> <span class="n">-Confirm:</span><span class="vm">$false</span>
-</span></span><span class="line"><span class="cl">            <span class="nb">Write-Host</span> <span class="s2">&#34;User </span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2"> has been deleted.&#34;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">Write-Host</span> <span class="s2">&#34;No users last modified &gt;3 months ago.&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="nb">write-host</span> <span class="s2">&#34;#####&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Show if accounts in $employeeIDList are enabled or disabled</span>
-</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$employeeID</span> <span class="k">in</span> <span class="nv">$employeeIDList</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$adUser</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">EmployeeID</span> <span class="o">-eq</span> <span class="nv">$employeeID</span><span class="p">}</span> <span class="n">-Properties</span> <span class="n">Enabled</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$adUser</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="nv">$isEnabled</span> <span class="p">=</span> <span class="nv">$adUser</span><span class="p">.</span><span class="py">Enabled</span>
-</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;Employee ID: </span><span class="nv">$employeeID</span><span class="s2"> - Account </span><span class="nv">$adUser</span><span class="s2"> Enabled: </span><span class="nv">$isEnabled</span><span class="s2">&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;Employee ID: </span><span class="nv">$employeeID</span><span class="s2"> - Account not found in Active Directory&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#List all Office Users missing an EmployeeID</span>
-</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Find-NoEmployeeID</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="s2">&#34;OU=Office Users,DC=int&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nb">Write-Host</span> <span class="s2">&#34;Office Users without EmployeeID&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$usersWithoutEmployeeID</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">EmployeeID</span> <span class="o">-notlike</span> <span class="s2">&#34;*&#34;</span><span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span> <span class="n">-Properties</span> <span class="n">EmployeeID</span>
-</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$user</span> <span class="k">in</span> <span class="nv">$usersWithoutEmployeeID</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="nb">Write-Host</span> <span class="s2">&#34;</span><span class="p">$(</span><span class="nv">$user</span><span class="p">.</span><span class="n">SAMAccountName</span><span class="p">)</span><span class="s2"> - </span><span class="nv">$user</span><span class="s2">&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#New Employee List from Payroll - Finding Missing employeeIDs</span>
-</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">find-missing-employeeIDs</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$excelFilePath</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Provide full filepath to New Employee Report&#34;</span> 
-</span></span><span class="line"><span class="cl"><span class="nv">$worksheetName</span> <span class="p">=</span> <span class="s2">&#34;New Employees Report&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$columnName</span> <span class="p">=</span> <span class="s2">&#34;Emp No&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$newusers</span> <span class="p">=</span> <span class="nb">Import-Excel</span> <span class="n">-Path</span> <span class="nv">$excelFilePath</span> <span class="n">-WorksheetName</span> <span class="nv">$worksheetName</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="nv">$columnName</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$employeeIdList</span> <span class="p">=</span> <span class="nv">$newusers</span> <span class="o">-replace</span> <span class="s1">&#39;(.+),$&#39;</span><span class="p">,</span> <span class="s1">&#39;&#34;$1&#34;&#39;</span>
-</span></span><span class="line"><span class="cl"><span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">employeeID</span> <span class="o">-eq</span> <span class="nv">$employeeIdList</span><span class="p">}</span> <span class="n">-Properties</span> <span class="n">Enabled</span><span class="p">,</span><span class="n">employeeID</span>
-</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$employeeID</span> <span class="k">in</span> <span class="nv">$employeeIDList</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># Get the user based on employeeID</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">employeeID</span> <span class="o">-eq</span> <span class="nv">$employeeID</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># Check if the user exists</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$user</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="o">-not</span> <span class="nv">$user</span><span class="p">.</span><span class="n">Enabled</span><span class="p">)</span> <span class="p">{</span> <span class="nb">Write-Host</span> <span class="s2">&#34;Disabled - </span><span class="p">$(</span><span class="nv">$employeeID</span><span class="p">)</span><span class="s2"> is </span><span class="nv">$user</span><span class="s2">.&#34;</span><span class="p">}</span> 
-</span></span><span class="line"><span class="cl">		<span class="k">else</span> <span class="p">{</span> <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span> <span class="nb">Write-Host</span> <span class="s2">&#34;User with employeeID </span><span class="nv">$employeeID</span><span class="s2"> not found in Active Directory.&#34;</span> 
-</span></span><span class="line"><span class="cl">			<span class="nv">$username</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter Username to assign this EmployeeID&#34;</span>
-</span></span><span class="line"><span class="cl">			<span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="s2">&#34;</span><span class="nv">$username</span><span class="s2">&#34;</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">employeeID</span><span class="p">=</span><span class="nv">$employeeID</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">			<span class="p">}</span> <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Terminated Employee List from Payroll - Finding Active Users who no longer work for UC</span>
-</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">find-terminated-users</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$excelFilePath</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Provide full filepath to Terminated Employee Report&#34;</span> 
-</span></span><span class="line"><span class="cl"><span class="nv">$worksheetName</span> <span class="p">=</span> <span class="s2">&#34;Terminated Employees Report&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$columnName</span> <span class="p">=</span> <span class="s2">&#34;Emp No&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$terminated</span> <span class="p">=</span> <span class="nb">Import-Excel</span> <span class="n">-Path</span> <span class="nv">$excelFilePath</span> <span class="n">-WorksheetName</span> <span class="nv">$worksheetName</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="nv">$columnName</span>
-</span></span><span class="line"><span class="cl"><span class="c">#</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$employeeIdList</span> <span class="p">=</span> <span class="nv">$terminated</span> <span class="o">-replace</span> <span class="s1">&#39;(.+),$&#39;</span><span class="p">,</span> <span class="s1">&#39;&#34;$1&#34;&#39;</span>
-</span></span><span class="line"><span class="cl"><span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">employeeID</span> <span class="o">-eq</span> <span class="nv">$employeeIDList</span><span class="p">}</span> <span class="n">-Properties</span> <span class="n">Enabled</span><span class="p">,</span><span class="n">employeeID</span>
-</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$employeeID</span> <span class="k">in</span> <span class="nv">$employeeIDList</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">employeeID</span> <span class="o">-eq</span> <span class="nv">$employeeID</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># Check if the user exists</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$user</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="o">-not</span> <span class="nv">$user</span><span class="p">.</span><span class="n">Enabled</span><span class="p">)</span> <span class="p">{</span> <span class="p">}</span> 
-</span></span><span class="line"><span class="cl">		<span class="k">else</span> <span class="p">{</span><span class="nb">Write-Host</span> <span class="s2">&#34;Enabled - </span><span class="p">$(</span><span class="nv">$employeeID</span><span class="p">)</span><span class="s2"> is </span><span class="nv">$user</span><span class="s2">.&#34;</span> 
-</span></span><span class="line"><span class="cl">		<span class="nv">$action</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Disable this account? (y/n)&#34;</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">		<span class="k">if</span> <span class="p">(</span><span class="nv">$action</span> <span class="o">-eq</span> <span class="s1">&#39;y&#39;</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="nb">Disable-ADAccount</span> <span class="n">-Identity</span> <span class="nv">$user</span>
-</span></span><span class="line"><span class="cl">		<span class="nb">Write-Host</span> <span class="s2">&#34;</span><span class="nv">$user</span><span class="s2"> account disabled&#34;</span> 
-</span></span><span class="line"><span class="cl">		<span class="p">}</span>
-</span></span><span class="line"><span class="cl">		<span class="k">else</span> <span class="p">{</span> <span class="p">}</span>
-</span></span><span class="line"><span class="cl">		<span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span> <span class="nb">Write-Host</span> <span class="s2">&#34;User with employeeID </span><span class="nv">$employeeID</span><span class="s2"> not found in Active Directory.&#34;</span> <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/script---powershell---ad-oumaintenance/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
           <a href="/posts/script---powershell---archive-userfiles/">Script - PowerShell - Archive-UserFiles</a>
         </h2>
         <div class="post-meta"></div>
@@ -713,6 +442,237 @@
         
            <div>
             <a class="read-more button inline" href="/posts/script---python---pdftoterminal/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/script---python---redact/">Script - Python - redact</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/script/">script</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">re</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">chardet</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">read_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">raw_data</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="n">result</span> <span class="o">=</span> <span class="n">chardet</span><span class="o">.</span><span class="n">detect</span><span class="p">(</span><span class="n">raw_data</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">encoding</span> <span class="o">=</span> <span class="n">result</span><span class="p">[</span><span class="s1">&#39;encoding&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="n">encoding</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">write_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">content</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">content</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">redact_company_name</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">company_name</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">escape</span><span class="p">(</span><span class="n">company_name</span><span class="p">),</span> <span class="s1">&#39;[REDACTED]&#39;</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># Prompt the user to enter the file paths and company name</span>
+</span></span><span class="line"><span class="cl">    <span class="n">input_file</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the path to the input file: &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">output_file</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the name for the output file: &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">company_name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the company name to redact: &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># Read the original file</span>
+</span></span><span class="line"><span class="cl">        <span class="n">original_text</span> <span class="o">=</span> <span class="n">read_file</span><span class="p">(</span><span class="n">input_file</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">except</span> <span class="ne">UnicodeDecodeError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Error reading file: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># Redact the company name</span>
+</span></span><span class="line"><span class="cl">    <span class="n">redacted_text</span> <span class="o">=</span> <span class="n">redact_company_name</span><span class="p">(</span><span class="n">original_text</span><span class="p">,</span> <span class="n">company_name</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># Write the redacted text to the output file</span>
+</span></span><span class="line"><span class="cl">    <span class="n">write_file</span><span class="p">(</span><span class="n">output_file</span><span class="p">,</span> <span class="n">redacted_text</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">main</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    
+</span></span></code></pre></div>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/script---python---redact/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/script---python---search-replace/">Script - Python - search-replace</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/script/">script</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/env python3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">argparse</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">re</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">slugify</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;Replace spaces with dashes and strip leading/trailing spaces.&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">,</span> <span class="s2">&#34;-&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">process_file</span><span class="p">(</span><span class="n">path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="n">pattern</span><span class="p">:</span> <span class="n">re</span><span class="o">.</span><span class="n">Pattern</span><span class="p">,</span> <span class="n">repl_func</span><span class="p">,</span> <span class="n">dry_run</span><span class="p">:</span> <span class="nb">bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s2">
+</span></span></span><span class="line"><span class="cl"><span class="s2">    Returns number of replacements made in this file.
+</span></span></span><span class="line"><span class="cl"><span class="s2">
+</span></span></span><span class="line"><span class="cl"><span class="s2">    &#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">text</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">read_text</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">updated</span><span class="p">,</span> <span class="n">n</span> <span class="o">=</span> <span class="n">pattern</span><span class="o">.</span><span class="n">subn</span><span class="p">(</span><span class="n">repl_func</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">dry_run</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">path</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">updated</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">n</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">ap</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">description</span><span class="o">=</span><span class="s2">&#34;Replace [[text]] with #text (spaces become dashes) in markdown files.&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;text&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Search term inside [[...]] to replace (e.g., &#39;Bucket List&#39;).&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--root&#34;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s2">&#34;.&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Root folder to scan (default: current directory).&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--recursive&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Recurse into subfolders.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--dry-run&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Show what would change, but don&#39;t write files.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--ignore-case&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Match [[text]] case-insensitively.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">args</span> <span class="o">=</span> <span class="n">ap</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">root</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">root</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">pattern_glob</span> <span class="o">=</span> <span class="s2">&#34;**/*.md&#34;</span> <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">recursive</span> <span class="k">else</span> <span class="s2">&#34;*.md&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># Build regex that matches [[&lt;text&gt;]], allowing for internal spaces</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">flags</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span> <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">ignore_case</span> <span class="k">else</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">escaped</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">escape</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">needle</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&#34;\[\[\s*&#34;</span> <span class="o">+</span> <span class="n">escaped</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="sa">r</span><span class="s2">&#34;\ &#34;</span><span class="p">,</span> <span class="sa">r</span><span class="s2">&#34;\s+&#34;</span><span class="p">)</span> <span class="o">+</span> <span class="sa">r</span><span class="s2">&#34;\s*\]\]&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">pattern</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">needle</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="n">flags</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># Replacement function (keeps proper slug formatting)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">repl_func</span><span class="p">(</span><span class="k">match</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="s2">&#34;#&#34;</span> <span class="o">+</span> <span class="n">slugify</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">files</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="n">pattern_glob</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">total_files</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">changed_files</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">total_replacements</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="ow">not</span> <span class="n">f</span><span class="o">.</span><span class="n">is_file</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">continue</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">total_files</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">n</span> <span class="o">=</span> <span class="n">process_file</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">pattern</span><span class="o">=</span><span class="n">pattern</span><span class="p">,</span> <span class="n">repl_func</span><span class="o">=</span><span class="n">repl_func</span><span class="p">,</span> <span class="n">dry_run</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">dry_run</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">total_replacements</span> <span class="o">+=</span> <span class="n">n</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="n">changed_files</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[UPDATED</span><span class="si">{</span><span class="s1">&#39;&#39;</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">args</span><span class="o">.</span><span class="n">dry_run</span> <span class="k">else</span> <span class="s1">&#39; (dry)&#39;</span><span class="si">}</span><span class="s2">] </span><span class="si">{</span><span class="n">f</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> (+</span><span class="si">{</span><span class="n">n</span><span class="si">}</span><span class="s2">)&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[SKIPPED] </span><span class="si">{</span><span class="n">f</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">Done. Files scanned: </span><span class="si">{</span><span class="n">total_files</span><span class="si">}</span><span class="s2">. Files changed: </span><span class="si">{</span><span class="n">changed_files</span><span class="si">}</span><span class="s2">. Replacements: </span><span class="si">{</span><span class="n">total_replacements</span><span class="si">}</span><span class="s2">.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">dry_run</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;No files were written (dry run). Use without --dry-run to apply changes.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">main</span><span class="p">()</span>
+</span></span></code></pre></div>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/script---python---search-replace/">[Read more]</a>
           </div>
         
       </article>
