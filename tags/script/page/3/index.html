@@ -482,10 +482,10 @@
 
         <div class="post-content">
           
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c">#Check a laptop&#39;s battery health</span>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Check a laptop&#39;s battery health</span>
 </span></span><span class="line"><span class="cl"><span class="n">powercfg</span> <span class="p">/</span><span class="n">batteryreport</span> <span class="p">/</span><span class="n">output</span> <span class="s2">&#34;filepath eg. C:\Documents\Battery-Report.html&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#boot-time</span>
+</span></span><span class="line"><span class="cl"><span class="c"># boot-time</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Remotely check another system&#39;s boot time</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">find-boottime</span> <span class="p">{</span> 
 </span></span><span class="line"><span class="cl"><span class="nv">$servicetag</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter service tag&#34;</span>
@@ -493,13 +493,13 @@
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="nb">boot-time</span>
 </span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#free-space</span>
+</span></span><span class="line"><span class="cl"><span class="c"># free-space</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">find-freespace</span> <span class="p">{</span> 
 </span></span><span class="line"><span class="cl"><span class="nv">$servicetag</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter service tag&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="nb">Invoke-Command</span> <span class="n">-ComputerName</span> <span class="nv">$servicetag</span> <span class="p">{</span><span class="nb">Get-PSDrive</span> <span class="n">C</span><span class="p">}</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">PSComputerName</span><span class="p">,</span><span class="n">Used</span><span class="p">,</span><span class="n">Free</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">###</span>
-</span></span><span class="line"><span class="cl"><span class="c">#Check E3 and E5 licences for a list of usernames in $usernames</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Check E3 and E5 licences for a list of usernames in $usernames</span>
 </span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$username</span> <span class="k">in</span> <span class="nv">$usernames</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="c"># Get licenses for the user</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$userLicenses</span> <span class="p">=</span> <span class="nb">Get-MsolUser</span> <span class="n">-UserPrincipalName</span> <span class="nv">$username</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="n">Licenses</span>
@@ -511,7 +511,7 @@
 </span></span><span class="line"><span class="cl">    <span class="nb">Write-Host</span> <span class="s2">&#34;</span><span class="nv">$username</span><span class="s2"> - E3: </span><span class="nv">$hasE3</span><span class="s2">, E5: </span><span class="nv">$hasE5</span><span class="s2">&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">### Remotely clear user profiles</span>
-</span></span><span class="line"><span class="cl"><span class="c">#clear-profiles</span>
+</span></span><span class="line"><span class="cl"><span class="c"># clear-profiles</span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">clear-profiles</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$computer</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Please enter a computer name&#34;</span>    
 </span></span><span class="line"><span class="cl">    <span class="c"># Test network connection before making connection</span>
