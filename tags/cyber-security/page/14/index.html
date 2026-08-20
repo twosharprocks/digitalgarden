@@ -151,38 +151,6 @@
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---lavita---linux/">OSCP - LaVita - Linux</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="lavita">LaVita</h1>
-<p>This box started out really well with plenty of through enumeration to identify the vulnerability, but I fell down trying to gain initial access with the exploits. I tried several, and persisted with the most well developed exploit thinking it would be the way forward.</p>
-<p>The issue was not realising the exploit would stop working after the first success, so after testing it with the <code>uname -a</code> or <code>id</code> commands, it would then not work when I tried to repeat with a reverse shell command. it took awhile to realise that there were 21 chains available, and so there was no need to keep using the &ldquo;last working&rdquo; chain, because it was only working once anyway. I also stopped trying to test with <code>id</code> and just threw the reverse shell command in straight away - I already knew the exploit worked <em>sometimes</em> so may as well try to establish a shell each time I tried.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/oscp---lavita---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
           <a href="/posts/oscp---law---linux/">OSCP - Law - Linux</a>
         </h1>
         <div class="post-meta"></div>
@@ -350,6 +318,38 @@
         
           <div>
             <a class="read-more button inline" href="/posts/oscp---pc---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/oscp---pelican---linux/">OSCP - Pelican - Linux</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="pelican">Pelican</h1>
+<p>Pretty happy with this one considering I figured most of it out without really looking at a walkthrough. Identifying Exhibition vs Zookeeper was a little confusing, but as soon as I identified that Exhibition v1.0 was vulenerable to command injection then finding &amp; using an exploit (which was really just adding a reverse shell to a java script field) became fairly straightforward.</p>
+<p>Privilege escalation with <code>gcore</code> was a little tricky, as it&rsquo;s been awhile since I needed to remember how <code>strings</code> worked. But once it became clear I could search for plaintext passwords then it made sense and switching to root was easy.</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---pelican---linux/">[Read more]</a>
           </div>
         
       </article>

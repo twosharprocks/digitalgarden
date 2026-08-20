@@ -150,14 +150,14 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---image---linux/">OSCP - Image - Linux</a>
+          <a href="/posts/papua-new-guinea/">Papua New Guinea</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            #<a href="/tags/diving/">diving</a>&nbsp;
             
           </span>
         
@@ -167,117 +167,57 @@
 
         <div class="post-content">
           
-            <h1 id="image">Image</h1>
-<p>This box was objectively quite easy, however the issues I had <em>around</em> it made things far more complicated/frustrating than they needed to be.</p>
-<p>Prior to starting this box I&rsquo;d tried to setup a shared folder on the VM that would also upload to Google drive (with the intent being I could pull the box folder to any desktop/laptop I was working from). However when I started running the exploit to try to create the <code>.png</code> with the reverse shell in the name, I started getting an error message saying the file didn&rsquo;t exist.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---image---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---internal---windows/">OSCP - Internal - Windows</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="internal">Internal</h1>
-<p>These Windows boxes are getting more and more frustrating. This one I had four separate walkthroughs available and 5 different exploits I could run, and in the end I had to resort to Metasploit to catch a meterpreter shell. Even the Meterpreter shell was a pain in the ass - once I was in I knew I could navigate directly to the Administrator&rsquo;s desktop, but I had to type in each directory change one-by-one rather than going directly to the proof file.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---internal---windows/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---jacko---windows/">OSCP - Jacko - Windows</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="box">Box</h1>
-<p>What the actual fuck&hellip; I&rsquo;ll write this up tomorrow, but this was a combination of &ldquo;Why the fuck isn&rsquo;t this working&rdquo; with &ldquo;that is so fucking dumb&rdquo; when it did finally work</p>
-<h1 id="resolution-summary">Resolution summary</h1>
+            <p>Papua New Guinea is listed under <a href="/posts/oceania/">Oceania</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
+<h1 id="cave-regions">Cave Regions</h1>
 <ul>
-<li>Ran Nmap to identify ports <code>80</code>, <code>135/445</code>, <code>445</code>, <code>5040</code>, <code>8082</code> &amp; <code>9092</code></li>
-<li>Navigated to port <code>8082</code> with browser and logged in with default credentials</li>
-<li>Found exploit for <code>H2 Database</code> and achieved code execution via SQL</li>
-<li>Uploaded &amp; executed reverse shell via SQL statements for initial access</li>
-<li>Identified <code>Paperstream</code> software and found exploit <code>49382.py</code></li>
-<li>Used <code>msfvenom</code> to create reverse shell <code>dll</code> with <code>x86</code> architecture &amp; <code>xor_dynamic</code></li>
-<li>Uploaded <code>dll</code> and <code>49382.ps1</code> to target via <code>iwr</code></li>
-<li>Ran <code>49382.ps1</code> on target and recieved reverse shell as <code>NT-system</code></li>
+<li>No local cave regions listed yet.</li>
 </ul>
-<h2 id="improved-skills">Improved skills</h2>
+<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
 <ul>
-<li>Generating msfvenom payloads</li>
-<li>Working with Windows kernel exploits (specifically potatos)</li>
+<li>See the linked cave regions above.</li>
 </ul>
-<h2 id="used-tools">Used tools</h2>
+<h1 id="backlinks">Backlinks</h1>
 <ul>
-<li>nmap</li>
-<li>python</li>
-<li>msfvenom</li>
-<li>powershell</li>
+<li><a href="/posts/cave-regions/">Cave Regions</a></li>
+<li><a href="/posts/diving/">Diving</a></li>
 </ul>
 <hr>
-<h1 id="information-gathering">Information Gathering</h1>
-<p>Scanned all TCP ports:</p>
+<h1 id="existing-notes">Existing Notes</h1>
+<h1 id="about">About</h1>
+<h1 id="caves">Caves</h1>
+<ul>
+<li><a href="http://www.pngbd.com/photos/scuba-ventures-kavieng/p11986-panapai-cave.html">Panapai Cave</a></li>
+<li><a href="https://www.michaelmcfadyenscuba.info/viewpage.php?page_id=726">Liga Onui</a></li>
+</ul>
+<h1 id="trips">Trips</h1>
+<ul>
+<li></li>
+</ul>
+<hr>
+<h1 id="references">References</h1>
+<p>PNG Divers Association <a href="https://pngdive.net/the-association">https://pngdive.net/the-association</a></p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---jacko---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/papua-new-guinea/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---kevin---windows-dnf/">OSCP - Kevin - Windows (DNF)</a>
+          <a href="/posts/patreon---drawing-february-20-2018/">Patreon - Drawing February 20 2018</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            #<a href="/tags/writing/">writing</a>&nbsp;
+            
+            #<a href="/tags/patreon/">patreon</a>&nbsp;
             
           </span>
         
@@ -287,29 +227,33 @@
 
         <div class="post-content">
           
-            <h1 id="kevin">Kevin</h1>
-<p>I&rsquo;ve checked all the walkthroughs, tried countless variations of the easily available exploits, even reimaged my entire Kali VM trying to make this script work&hellip; and nothing I&rsquo;ve done has caught a reverse shell.</p>
-<p>Honestly not sure what else to do, other than to write this off as a learning experience (?) and move on. If I get a buffer overflow exploit in the exam (which I think they&rsquo;ve stopped now anyway) I&rsquo;ll just move the fuck on because nothing I&rsquo;ve done on this box or the last one has really made any sense.</p>
+            <p>Well I finally got to start on the little monsters today&hellip;</p>
+<p>To paraphrase Ira Glass, there&rsquo;s always a gap for beginners between their amazing taste and their limited ability, and the trick is to keep going and do the volume of work needed to close the gap.</p>
+<p><a href="https://zenpencils.com/comic/90-ira-glass-advice-for-beginners/">https://zenpencils.com/comic/90-ira-glass-advice-for-beginners/</a></p>
+<p>It&rsquo;s just that days like today make it painfully clear how wide that gap is right now.</p>
+<p>I could come up with plenty of other excuses: I was drawing in a shopping centre café, self concious of the staff and other customers who were curious to see what the weird ginger kid was doing scribbling with a Kawaii book in front of him. There&rsquo;s also a lot of stressful things going on with people I care about at the moment, and I&rsquo;m also feeling generally out of balance at the moment as I question my direction and struggle to find my drive. Maybe they&rsquo;re just doodles and I&rsquo;m just being too hard on myself.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---kevin---windows-dnf/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/patreon---drawing-february-20-2018/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---lavita---linux/">OSCP - LaVita - Linux</a>
+          <a href="/posts/patreon---journal-2017-02-25/">Patreon - Journal 2017-02-25</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            #<a href="/tags/writing/">writing</a>&nbsp;
+            
+            #<a href="/tags/patreon/">patreon</a>&nbsp;
             
           </span>
         
@@ -319,15 +263,79 @@
 
         <div class="post-content">
           
-            <h1 id="lavita">LaVita</h1>
-<p>This box started out really well with plenty of through enumeration to identify the vulnerability, but I fell down trying to gain initial access with the exploits. I tried several, and persisted with the most well developed exploit thinking it would be the way forward.</p>
-<p>The issue was not realising the exploit would stop working after the first success, so after testing it with the <code>uname -a</code> or <code>id</code> commands, it would then not work when I tried to repeat with a reverse shell command. it took awhile to realise that there were 21 chains available, and so there was no need to keep using the &ldquo;last working&rdquo; chain, because it was only working once anyway. I also stopped trying to test with <code>id</code> and just threw the reverse shell command in straight away - I already knew the exploit worked <em>sometimes</em> so may as well try to establish a shell each time I tried.</p>
+            <p>Hey everyone,</p>
+<p>The last few weeks have been incredibly turbulent. Between a mountain of chaos with school visits gone wrong, being knocked back for science communication work in Australia at the same time as incredible offers for work overseas, leading me to question whether I should keep trying to make a difference in my home country&hellip; I&rsquo;ve also had someone who I honestly never thought I&rsquo;d see again come back into my life. And just as quickly as she reappeared, it now looks like she&rsquo;ll disappear from it again.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---lavita---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/patreon---journal-2017-02-25/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/patreon---post-visit-mars-one-qa/">Patreon - Post Visit Mars One Q&amp;A</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/writing/">writing</a>&nbsp;
+            
+            #<a href="/tags/patreon/">patreon</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>I wanted to share something that happens when you regularly visit schools and talk about something awesome like exploring Mars: the job isn’t just answering questions for kids at the school on the day, it also usually means answering questions for kids (and adults) who couldn’t make it or didn’t have time to ask their question on the day too!</p>
+<p>After my run of school visits recently one of the teachers at a school I spoke at was bombarded by their 9-10 year olds who didn’t get a chance to ask everything they were curious about, so when I made my usual offer to answer via email they took me up on it. For those of you curious about what sorts of questions I usually get from students and the answers I give them, read on!</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/patreon---post-visit-mars-one-qa/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/patreon---space---martian-basic-training/">Patreon - Space - Martian Basic Training</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/writing/">writing</a>&nbsp;
+            
+            #<a href="/tags/patreon/">patreon</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>One of the most common questions I&rsquo;m asked by kids and adults a-like is  what I&rsquo;d be learning if I&rsquo;m selected as one of the 12-24 candidates who become full-time employees and start astronaut training leading up to 2031 - what are we <em>actually</em> going to be learning over the next 14 years My standard response in interviews is usually &ldquo;everything&rdquo;, before listing a bundle of different skill-sets that are both obvious (like repairing life support systems) and unexpected (like dentistry or politics).</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/patreon---space---martian-basic-training/">[Read more]</a>
           </div>
         
       </article>

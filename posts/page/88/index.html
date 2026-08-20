@@ -150,14 +150,12 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---exam-prep/">OSCP - Exam Prep</a>
+          <a href="/posts/oscp---pyloader---linux/">OSCP - PyLoader - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
-            
-            #<a href="/tags/oscp/">oscp</a>&nbsp;
             
             #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
@@ -169,47 +167,22 @@
 
         <div class="post-content">
           
-            <p>ProvingGrounds (very close to OSCP)</p>
-<ul>
-<li><strong>PG Practice</strong>: Structured, guided learning with focused challenges to teach specific skills.</li>
-<li><strong>PG Play</strong>: Open, unguided labs that simulate real-world penetration testing <em>(best for OSCP prep)</em></li>
-</ul>
-<p>OffSec Challenge labs</p>
-<ul>
-<li>Challenge 0-2: Good warmup</li>
-<li>Challenge 3: Beyond scope of exam</li>
-<li><strong>Challenge 4-6</strong>: <em>OSCP-like experience</em>
-<ul>
-<li>Give yourself 24hrs for each</li>
-</ul>
-</li>
-</ul>
-<p>TjNull&rsquo;s List (excellent)</p>
-<ul>
-<li><a href="https://www.youtube.com/playlist?list=PLidcsTyj9JXK-fnabFLVEvHinQ14Jy5tf">Ipsec videos</a></li>
-<li><a href="https://www.youtube.com/playlist?list=PLcSbj5mz-wxPK8KD522vH5Gny4bSemX2H">NoxLumens Walkthroughs</a></li>
-</ul>
-<p>HTB Academy - CPTS</p>
-<ul>
-<li>Active Directory &amp; Enumeration</li>
-<li>Pivoting and tunnelling</li>
-<li>Attacking Common Services</li>
-<li>PrivEsc - Windows &amp; Linux</li>
-<li>File Transfer</li>
-</ul>
+            <h1 id="pyloader">PyLoader</h1>
+<p>I&rsquo;m still shocked at how quick and incredibly easy this was - I went from boot to root in &lt;15mins!</p>
+<p>After Nmap showed responses to <code>22</code> and <code>9666</code> I checked <code>9666</code> in Firefox immediately (while the Nmap scan is still running) as I&rsquo;m prone to doing for anything I don&rsquo;t immediately recognise. As soon as I saw a page with <code>pyLoad</code> I just threw &ldquo;pyload exploit&rdquo; into Google, found a bunch of RCE exploits for CVE-2023-0297, and pulled up the entry on Exploit-DB.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---exam-prep/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---pyloader---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---exfiltrated---linux/">OSCP - Exfiltrated - Linux</a>
+          <a href="/posts/oscp---rubydome---linux/">OSCP - RubyDome - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -226,22 +199,22 @@
 
         <div class="post-content">
           
-            <h1 id="exfiltration">Exfiltration</h1>
-<p>Relatively easy box turned into a VERY frustrating experience at not being able to properly execute <code>exiftool</code> exploit because of missing library dependencies. Exploit actually detailed exactly <em>how</em> to install those dependencies, but I was looking for instructions on Stack Overflow instead of in the script itself - <em><strong>always read the script!</strong></em></p>
-<p>Exploits were relatively straight forward once the dependencies were sorted though, so all round good practice on the process of popping boxes. Local user had also been identified by <code>linpeas.sh</code> but ended up getting root first (flag = <code>proof.txt</code>) then using root privilege to find the <code>coaran</code> user with GID=1000 and the local flag (flag = <code>local.txt</code>).</p>
+            <h1 id="rubydome">RubyDome</h1>
+<p>Frustrating that a couple of key points in this box were only broken through with the use of the walkthrough. Throwing <code>127.0.0.1</code> into the website to break it was a new one (something to keep in mind for the future) but I&rsquo;d have never worked out without the walkthrough.</p>
+<p>Likewise the exploit initially appeared to be working perfectly but wasn&rsquo;t catching a shell, and it turned out I had to add &ldquo;pdf&rdquo; onto the end of the target web address.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---exfiltrated---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---rubydome---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---extplorer---linux/">OSCP - Extplorer - Linux</a>
+          <a href="/posts/oscp---scrutiny---linux/">OSCP - Scrutiny - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -258,22 +231,22 @@
 
         <div class="post-content">
           
-            <h1 id="extplorer">Extplorer</h1>
-<p>This was simultaneously the easiest and most frustrating box yet. Identifying and accessing <code>filemanager</code> was ridiculously easy, and uploading a reverse shell php and catching the shell <em>seemed</em> easy initially. Even finding credentials for <code>dora</code> was easy once I started looking through all the info that was available in the <code>filemanager</code> folder.</p>
-<p>What I wasn&rsquo;t expecting was to spend 2 hours trying to figure out why I couldn&rsquo;t upgrade the dumb shell I&rsquo;d caught to a full shell, even though I <em><strong>knew</strong></em> the target was running <code>python3</code>.</p>
+            <h1 id="scrutiny">Scrutiny</h1>
+<p>This whole box felt like a whole lot of enumeration - digging through files to find SSH keys and cleartext passwords. Probably the biggest lesson I learned out of it however was how to setup and run python libraries in a virtual environment!</p>
+<p>The exploit required <code>urllib3 faker</code> to run, and <code>python3</code> kept throwing the <code>externally managed</code> error that drove me crazy awhile back when I was trying to install the <code>bzz</code> library - I must have found another way around that, but this time around I actually dug into what this error was all about. Turns out <code>python</code> likes to run it&rsquo;s external libraries in a self-contained virtual environment, and while there is an override pretty much everyone on stackoverflow was screaming that it&rsquo;d break the system.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---extplorer---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---scrutiny---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---fired---linux/">OSCP - Fired - Linux</a>
+          <a href="/posts/oscp---squid---windows/">OSCP - Squid - Windows</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -290,21 +263,22 @@
 
         <div class="post-content">
           
-            <h1 id="fired">Fired</h1>
-<p>This box was relatively straightforward until the very last step, where I simply couldn&rsquo;t find credentials to move forward. I needed a bit of guidance finding how to setup the admin panel to establish a reverse shell, but all the details were on an exploit page when I went looking. The walkthrough support for the box itself was very limited (or atleast I could only find a single walkthrough for it) and the only major barrier was the very final step - finding a script file in the <code>openfire</code> directory that had cleartext root credentials.</p>
+            <h1 id="squid">Squid</h1>
+<p>Everything about this box was a refresher, and there&rsquo;s no doubt I leaned heavily on the walkthrough as I was doing it. Learning about Squid and <code>spose.py</code> was interesting, but there&rsquo;s a concern that <code>spose.py</code> is pretty niche and I may never have found it (or realised I needed it) without the walkthrough.</p>
+<p>Maybe it&rsquo;s just more familiarity though, and with more practice I&rsquo;ll get better at knowing how to tackle different Windows services. There&rsquo;s no question I learned more about how proxies work from this box, and setting up FoxyProxy to reach the target&rsquo;s open ports was particularly interesting.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---fired---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---squid---windows/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---flu---linux/">OSCP - Flu - Linux</a>
+          <a href="/posts/oscp---twiggy---linux/">OSCP - Twiggy - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -321,15 +295,16 @@
 
         <div class="post-content">
           
-            <h1 id="flu">Flu</h1>
-<p>This is the first box I can confidently say I did <em><strong>NOT</strong></em> look at a walkthrough for any help on! I&rsquo;ve included one in the details above, but it remained as a background tab the entire way through this - massive confidence boost to know I can do this without needing to follow someone else&rsquo;s footsteps!</p>
-<p>Seeing Confluence when I checked the html port was a big confidence booster too, as I&rsquo;ve worked with it a lot already and knew there were plenty of vulnerabilities and exploit available for older versions. Getting RCE was incredibly simple, and then it was simply a case of enumerating the target to find a privilege escalation vector.</p>
+            <h1 id="twiggy">Twiggy</h1>
+<p>Went down the rabbit hole with port 80 &amp; port 8000 too quickly, thinking this would require SQL injection or some sort of weird user enumeration to get into a web platform.</p>
+<p>Turns out the I needed to run nmap again with a full port scan (<code>-p- -T5</code>) and pick up ALL the ports before an aggressive service scan (<code>-A -p 22,55,ect</code>).</p>
+<p>2nd scan picked up <code>4505</code> and <code>4506</code> which correspond to ZeroMQ ZMTP 2.0 (saltStack). Looking up Saltstack showed a vulnerability (CVE-2020-11652)</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---flu---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---twiggy---linux/">[Read more]</a>
           </div>
         
       </article>
