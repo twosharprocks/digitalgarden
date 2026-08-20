@@ -1,7 +1,7 @@
 ---
 title: Article - Making Sense with MNemo
 created: 2025-05-11
-updated: 2026-01-04
+updated: 2026-08-20
 status: seed
 draft: false
 tags:
@@ -21,7 +21,7 @@ related:
 ---
 Reference: https://soggywombats.com.au/2024/04/15/making-sense-with-mnemo/
 
-![Pasted image 20250412172637](/images/Pasted%20image%2020250412172637.png)
+mnemo
 `My v1 MNemo with a graphite pencil for note-taking`
 
 Like most folks stuck in Melbourne's lockdown, I didn't have much to get excited about during 2020. Having finished my cave course in late 2019 and then leaving Mount Gambier under less than ideal circumstances, all I could do was dream about was getting back to explore the caves I was finally qualified to get into. More than just diving and admiring them though, I desperately wanted to get back to try and understand Mount Gambier's caves - why they're shaped the way they are, understand how the different rock formations have developed, and (like every new and overly optimistic cave diver) hopefully use all of that to discover something new!

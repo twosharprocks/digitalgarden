@@ -27,10 +27,10 @@ Writing, essays, articles, book projects, older website posts, and ideas to retu
 - Book - Apocalypse
 - Book - Information Theory
 # [Articles]({{< relref "posts/Articles.md" >}})
+- [Article - Making Sense with MNemo]({{< relref "posts/Article - Making Sense with MNemo.md" >}})
 - [Article - Exploring Japan’s Hidden Rivers]({{< relref "posts/Article - Exploring Japan’s Hidden Rivers.md" >}})
 - [Article - Corra-Lynn]({{< relref "posts/Article - Corra-Lynn.md" >}})
 - [Article - Iddlebiddy Cave - Soggy Wombats - DRAFT]({{< relref "posts/Article - Iddlebiddy Cave - Soggy Wombats.md" >}})
-- [Article - Making Sense with MNemo]({{< relref "posts/Article - Making Sense with MNemo.md" >}})
 - [Article - The Crazy Wombat Tunnel]({{< relref "posts/Article - The Crazy Wombat Tunnel.md" >}})
 - [Article - Unveiling the Crazy Wombat Tunnel]({{< relref "posts/Article - Unveiling the Crazy Wombat Tunnel.md" >}})
 - [Article - What's Your ppO2]({{< relref "posts/Article - What's Your ppO2.md" >}})
