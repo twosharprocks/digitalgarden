@@ -2,7 +2,7 @@
 title: Website - US Relations Tour Days 21, 26 & 29
 created: 2026-01-21
 updated: 2026-06-18
-status: seed
+status: tree
 draft: false
 tags:
   - unread
@@ -12,7 +12,7 @@ source: https://web.archive.org/web/20141101041028/http://www.themightyginge.com
 author:
   - Josh Richards
 published: 2012-05-30
-description: Source
+description: reference
 ---
 News – US Relations Tour Days 21, 26 & 29
 

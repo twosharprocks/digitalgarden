@@ -2,7 +2,7 @@
 title: Website – That whole “Moving to the other side of the country” thing
 created: 2026-01-21
 updated: 2026-06-18
-status: seed
+status: tree
 draft: false
 tags:
   - writing

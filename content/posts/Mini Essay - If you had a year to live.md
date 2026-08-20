@@ -13,9 +13,12 @@ tags:
 related:
   - "[[Mini Essays]]"
   - "[[101 Things - Complete List]]"
-  - "[[101 Things - To Do]]"
-  - "[[Philosophy]]"
   - "[[Bucket List]]"
+
+
+  - "[[Philosophy]]"
+
+
 ---
 ---
 If you knew you were going to die in a year, what would you do? Would you stay at work? Fuck no. Would you stay here with Chloe? Maybe, but only if it were to write as much as you possibly could with your final year. If you were going to die before you turned 41, there's no question you'd travel and write constantly. And you certainly wouldn't be diving in Mt Gambier - you'd be going straight to Spain to cave dive, maybe France for more of the same. 

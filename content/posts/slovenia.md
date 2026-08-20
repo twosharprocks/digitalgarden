@@ -39,5 +39,5 @@ Soča Valley
 - 
 ---
 # References
-- InDepth Mag - [No Direction Home A Slovenia  Cave Diving Adventure]({{< relref "posts/Sources/No Direction Home A Slovenia  Cave Diving Adventure.md" >}})
+- InDepth Mag - No Direction Home A Slovenia  Cave Diving Adventure
 -

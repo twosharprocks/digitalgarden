@@ -8,9 +8,12 @@ tags:
   - 101-things
   - bucket-list
 related: 
+
+
   - "[[Bucket List]]"
   - "[[101 Things - Complete List]]"
-  - "[[101 Things - To Do]]"
+
+
 ---
 1. Live on Mars as a scribe
 2. <code style="color : red">Have a cave diving TV show</code>  

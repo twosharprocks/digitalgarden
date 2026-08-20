@@ -1,13 +1,13 @@
 ---
 title: Olwolgin - 6N
 created: 2026-06-18
-updated: 2026-06-18
-status: tree sort
+updated: 2026-07-17
+status: seed
 draft: false
 tags:
   - diving
   - caving
-region:
+region: "[[Roe Plains]]"
 cavedb:
 related: "[[Diving]]"
 rating: Advanced Cave/TDI Full Cave
@@ -17,7 +17,7 @@ rating: Advanced Cave/TDI Full Cave
 Dive
 - Survey Downstream - List gaps in Ariane's Line
 - Inspect - Bilby Tunnel & Haven
-- Connect - Yudura?
+- Connect - Yubdura?
 Dry 
 - 
 Photogram 

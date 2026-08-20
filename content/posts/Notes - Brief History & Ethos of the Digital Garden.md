@@ -68,5 +68,5 @@ Losing so much work because I published everything on Patreon and then deleted m
 
 ---
 # Other References
-[Be A Property Owner And Not A Renter On The Internet · Den Delimarsky]({{< relref "posts/Sources/Be A Property Owner And Not A Renter On The Internet · Den Delimarsky.md" >}})
+Be A Property Owner And Not A Renter On The Internet · Den Delimarsky
 [The Garden and the Stream: A Technopastoral - Joel Hooks](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/) 

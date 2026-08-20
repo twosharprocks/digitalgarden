@@ -26,12 +26,12 @@ First Timer Trips: Weebubbie, Murra, Burnabbie, Tommy Graham's
 Basic Cave
 - [Weebubbie Cave - 6N2]({{< relref "posts/Weebubbie Cave - 6N2.md" >}})
 Cave
-- [Murra El Elevyn - 6N47]({{< relref "posts/Murra El Elevyn - 6N47.md" >}})
+- [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
 - [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
 Advanced Cave
 - [Pannikin Plains - 6N49]({{< relref "posts/Pannikin Plains - 6N49.md" >}}) - Req. CCR
 - [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
-- [Murra El Elevyn - 6N47]({{< relref "posts/Murra El Elevyn - 6N47.md" >}}) - Leads to Push
+- [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) - Leads to Push
 
 ---
 # Other References

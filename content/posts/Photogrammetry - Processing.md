@@ -60,7 +60,7 @@ For Will
 - Drone: External model complete
 - Surface: Initial alignment complete, requires component matching
 
-[Murra El Elevyn - 6N47]({{< relref "posts/Murra El Elevyn - 6N47.md" >}}) - **UW ALIGNMENT**
+[Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) - **UW ALIGNMENT**
 - Drone: External model complete
 - Sumps: 360 video created, requires video frame splitting & alignment
 - Underwater: Video frames split, requires initial alignment

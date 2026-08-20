@@ -1,10 +1,12 @@
 ---
 title: Meals
 created: 2026-04-16
-updated: 2026-06-30
-status: seed
+updated: 2026-07-17
+status: index
 draft: false
 tags:
+  - meal
+  - meal-prep
 related:
   - "[[Personal]]"
 ---

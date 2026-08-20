@@ -1,7 +1,7 @@
 ---
 title: Explorer-Storyteller
 created: 2026-05-14
-updated: 2026-07-10
+updated: 2026-07-18
 status: tree
 draft: false
 tags:
@@ -12,7 +12,8 @@ related:
   - "[[Personal]]"
   - "[[Personal Website]]"
   - "[[Exploration]]"
-  - "[[Explorers_Index_517]]"
+  - "[[Book - Cave Diving]]"
+  - "[[Role models for when I'm 60]]"
 external: https://chatgpt.com/share/6a3d1783-7820-83ec-9bd5-1082dd9b6824
 ---
 # Mission
@@ -21,12 +22,12 @@ external: https://chatgpt.com/share/6a3d1783-7820-83ec-9bd5-1082dd9b6824
 
 Not just caves. Not just space. Not just science. The universe.
 
-I am **not** just
-- a [Cyber Security]({{< relref "posts/Cyber Security.md" >}}) consultant
-- a cave diver
-- a Mars-One candidate
-- an author
-- a keynote speaker
+I am **not** just a
+- [Cyber Security]({{< relref "posts/Cyber Security.md" >}}) consultant
+- cave diver
+- Mars-One candidate
+- author
+- keynote speaker
 
 I am an **Explorer**, and everything else supports that identity.
 # Financial Engine vs Meaning Engine
@@ -78,7 +79,6 @@ Top-level structure:
 	- Scientific Publication
 
 ***Every note should answer "Why does this matter to exploration, storytelling, or being a data steward?"***
-
 # Explorer's Index
 The Explorer's Index becomes the foundation of everything. It is not just for one book. It becomes the archive of my life. Every important experience eventually enters it.
 

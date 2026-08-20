@@ -1,7 +1,7 @@
 ---
 title: Reading
 created: 2025-06-26
-updated: 2026-06-27
+updated: 2026-07-23
 status: seed
 draft: false
 tags:
@@ -16,7 +16,8 @@ related:
 - Kindle: Hotel New Hampshire
 - Kindle: Bonfire of the Vanities (end of 101)
 - Kindle: Roger's Book
-- [Why the Future Doesn’t Need Us]({{< relref "posts/Sources/Why the Future Doesn’t Need Us.md" >}})
+- Kindle: Tao Te Ching
+- Why the Future Doesn’t Need Us
 - Permissionless - JA Westenberg.pdf
 # Clear
 - Bookshelf
@@ -28,7 +29,7 @@ related:
 SciFi
 - [ ] Wanderers (Chuck Wendig)
 - [ ] The Fifth Season (NK Jemisin)
-- [ ] [The Metamorphosis of Prime Intellect]({{< relref "posts/Sources/The Metamorphosis of Prime Intellect.md" >}})
+- [ ] The Metamorphosis of Prime Intellect
 - [ ] The Left Hand of Darkness (Ursula K Le Guin)
 - [ ] The Xeelee Sequence (Stephen Baxter)
 - [ ] Children of Time (Adrian Tchaikovsky)

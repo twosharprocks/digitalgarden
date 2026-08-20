@@ -1,16 +1,13 @@
 ---
 title: Threat Modelling
 created: 2025-05-28
-updated: 2026-07-01
+updated: 2026-07-22
 status: seed
 draft: false
 tags:
   - cyber-security
-  - threat-modelling
-related: 
+related:
   - "[[Cyber Security]]"
-  - "[[Threat Modelling]]"
-  - "[[Threat Actors]]"
 ---
 # Methologies
 [PASTA - Process for Attack Simulation and Threat Analysis](https://threat-modeling.com/pasta-threat-modeling/) 
@@ -27,3 +24,5 @@ Focuses on identifying possible threats, prioritizing risks, and planning mitiga
    * Identify exploitable vulnerabilities.
    * Prioritize identified risks.
    * Mitigate risks.
+
+

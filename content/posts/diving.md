@@ -2,7 +2,7 @@
 title: Diving
 created: 2026-06-19
 updated: 2026-06-30
-status: Index
+status: index
 draft: false
 tags:
   - index

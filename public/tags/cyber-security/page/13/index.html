@@ -151,38 +151,6 @@
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="/posts/oscp---hutch---windows/">OSCP - Hutch - Windows</a>
-        </h1>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="box">Box</h1>
-<p>Rinse and repeat on the Windows bullshit here. Just like Authby, this was an exercise in absolute frustration yesterday - trying every possible exploit combination and following numerous walkthroughs - only for the entire thing to crack in a heartbeat tonight using the exact same tools and exploit I ran 24 hours earlier.</p>
-<p>Once again this is a reminder that these Windows boxes are unbelievable unreliable and unstable, so if you&rsquo;re following the exact steps of a walkthrough and things are not working, then shut the box down and move on. There is absolutely no point bashing your head against a broken box, so let it go.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/oscp---hutch---windows/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
           <a href="/posts/oscp---image---linux/">OSCP - Image - Linux</a>
         </h1>
         <div class="post-meta"></div>
@@ -329,6 +297,38 @@
         
           <div>
             <a class="read-more button inline" href="/posts/oscp---kevin---windows-dnf/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/oscp---lavita---linux/">OSCP - LaVita - Linux</a>
+        </h1>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="lavita">LaVita</h1>
+<p>This box started out really well with plenty of through enumeration to identify the vulnerability, but I fell down trying to gain initial access with the exploits. I tried several, and persisted with the most well developed exploit thinking it would be the way forward.</p>
+<p>The issue was not realising the exploit would stop working after the first success, so after testing it with the <code>uname -a</code> or <code>id</code> commands, it would then not work when I tried to repeat with a reverse shell command. it took awhile to realise that there were 21 chains available, and so there was no need to keep using the &ldquo;last working&rdquo; chain, because it was only working once anyway. I also stopped trying to test with <code>id</code> and just threw the reverse shell command in straight away - I already knew the exploit worked <em>sometimes</em> so may as well try to establish a shell each time I tried.</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/oscp---lavita---linux/">[Read more]</a>
           </div>
         
       </article>

@@ -2,7 +2,7 @@
 title: Website - Host a Bogan-free Australia Day BBQ
 created: 2026-01-26
 updated: 2026-06-18
-status: seed
+status: tree
 draft: false
 tags:
   - writing

@@ -9,7 +9,7 @@ tags:
   - diving
   - caving
 template: "[[Template - Trip]]"
-destination: "[[Murra El Elevyn - 6N47]]"
+destination: "[[Murra-El-Elevyn - 6N47]]"
 region: "[[Nullarbor High Plains]]"
 dates:
 weather: https://www.bom.gov.au/wa/forecasts/cocklebiddy.shtml
@@ -34,7 +34,7 @@ Trip photos: https://photos.app.goo.gl/n9dyvhS3y9WGnorx6
 		- 1640: On-air interview
 		- 1850: Arrive at hotel
 		- Reheat leftover breakfast burrito
-		- Research [Murra El Elevyn - 6N47]({{< relref "posts/Murra El Elevyn - 6N47.md" >}}) & [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
+		- Research [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) & [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
 		- *Stay: East West Motel Ceduna (Overnight)*
 
 - 2025-10-10 Fri: *Drive Ceduna-Nurina (7hrs)*

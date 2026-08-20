@@ -20,7 +20,7 @@ Offers a way to build your own, future-proof, decentralised platform
 Three Elements
 - #seed - Very rough and early ideas. Take smart personal notes to develop
 - #tree - Work that's cleaned up and clarified
-- #reference - A completed piece primarily meant to support or inform others
+- #reference - A supporting document written by another
 `Also: atoms (single concept)/molecules(linked concepts)/alloys(crafted)`
 
 Obsidian to Hugo Publishing

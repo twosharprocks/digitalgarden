@@ -150,18 +150,14 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/reading/">Reading</a>
+          <a href="/posts/script---powershell---servicedesk/">Script - PowerShell - ServiceDesk</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/books/">books</a>&nbsp;
-            
-            #<a href="/tags/interests/">interests</a>&nbsp;
-            
-            #<a href="/tags/personal/">personal</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -171,62 +167,138 @@
 
         <div class="post-content">
           
-            <h1 id="current">Current</h1>
-<ul>
-<li>Kindle: Hotel New Hampshire</li>
-<li>Kindle: Bonfire of the Vanities (end of 101)</li>
-<li>Kindle: Roger&rsquo;s Book</li>
-<li><a href="/posts/sources/why-the-future-doesnt-need-us/">Why the Future Doesn’t Need Us</a></li>
-<li>Permissionless - JA Westenberg.pdf</li>
-</ul>
-<h1 id="clear">Clear</h1>
-<ul>
-<li>Bookshelf</li>
-<li>Kindle</li>
-<li>Audible</li>
-<li>Bookerei/PDF - &ldquo;To Read&rdquo; Tag</li>
-</ul>
-<hr>
-<p>SciFi</p>
-<ul>
-<li><input disabled="" type="checkbox"> Wanderers (Chuck Wendig)</li>
-<li><input disabled="" type="checkbox"> The Fifth Season (NK Jemisin)</li>
-<li><input disabled="" type="checkbox"> <a href="/posts/sources/the-metamorphosis-of-prime-intellect/">The Metamorphosis of Prime Intellect</a></li>
-<li><input disabled="" type="checkbox"> The Left Hand of Darkness (Ursula K Le Guin)</li>
-<li><input disabled="" type="checkbox"> The Xeelee Sequence (Stephen Baxter)</li>
-<li><input disabled="" type="checkbox"> Children of Time (Adrian Tchaikovsky)</li>
-<li><input disabled="" type="checkbox"> Story of Your Life (Ted Chiang)</li>
-<li><input disabled="" type="checkbox"> The Bohr Maker (Linda Nagata)</li>
-<li><input disabled="" type="checkbox"> <a href="https://www.amazon.com.au/gp/aw/d/B0CL7KFDDQ/ref=tmm_kin_swatch_0">Audition</a> (Pip Adam)</li>
-<li><input disabled="" type="checkbox"> <a href="https://amzn.to/3FXOjVm">A Wrinkle in Time by Madeleine L’Engle</a></li>
-<li><input disabled="" type="checkbox"> <a href="https://amzn.to/41t7dfW">The Time Machine by H. G. Wells**</a></li>
-<li><a href="https://amzn.to/41pP82Z">Oryx and Crake by Margaret Atwood</a></li>
-<li><a href="https://amzn.to/47pVjqn">Childhood’s End by Arthur C. Clarke</a></li>
-<li><a href="https://amzn.to/3xUTzoh"><strong>Do Androids Dream of Electric Sheep? by Philip K. Dick</strong></a></li>
-<li><a href="https://amzn.to/3QjBiva">Station Eleven by Emily St. John Mandel</a></li>
-<li><a href="https://amzn.to/3YhmY8C">The Left Hand of Darkness by Ursula K. Le Guin</a></li>
-</ul>
-<p>Other</p>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Check a laptop&#39;s battery health</span>
+</span></span><span class="line"><span class="cl"><span class="n">powercfg</span> <span class="p">/</span><span class="n">batteryreport</span> <span class="p">/</span><span class="n">output</span> <span class="s2">&#34;filepath eg. C:\Documents\Battery-Report.html&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c"># boot-time</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Remotely check another system&#39;s boot time</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">find-boottime</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$servicetag</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter service tag&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">SystemInfo</span> <span class="p">/</span><span class="n">s</span> <span class="nv">$servicetag</span> <span class="p">|</span> <span class="n">find</span> <span class="s2">&#34;Boot Time:&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nb">boot-time</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c"># free-space</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">find-freespace</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$servicetag</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter service tag&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Invoke-Command</span> <span class="n">-ComputerName</span> <span class="nv">$servicetag</span> <span class="p">{</span><span class="nb">Get-PSDrive</span> <span class="n">C</span><span class="p">}</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">PSComputerName</span><span class="p">,</span><span class="n">Used</span><span class="p">,</span><span class="n">Free</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Check E3 and E5 licences for a list of usernames in $usernames</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$username</span> <span class="k">in</span> <span class="nv">$usernames</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Get licenses for the user</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$userLicenses</span> <span class="p">=</span> <span class="nb">Get-MsolUser</span> <span class="n">-UserPrincipalName</span> <span class="nv">$username</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="n">Licenses</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Check if the user has both E3 and E5 licenses</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$hasE3</span> <span class="p">=</span> <span class="nv">$userLicenses</span><span class="p">.</span><span class="py">AccountSkuId</span> <span class="o">-contains</span> <span class="s2">&#34;your_E3_license_sku&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$hasE5</span> <span class="p">=</span> <span class="nv">$userLicenses</span><span class="p">.</span><span class="py">AccountSkuId</span> <span class="o">-contains</span> <span class="s2">&#34;your_E5_license_sku&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c"># Output results</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-Host</span> <span class="s2">&#34;</span><span class="nv">$username</span><span class="s2"> - E3: </span><span class="nv">$hasE3</span><span class="s2">, E5: </span><span class="nv">$hasE5</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">### Remotely clear user profiles</span>
+</span></span><span class="line"><span class="cl"><span class="c"># clear-profiles</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">clear-profiles</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$computer</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Please enter a computer name&#34;</span>    
+</span></span><span class="line"><span class="cl">    <span class="c"># Test network connection before making connection</span>
+</span></span><span class="line"><span class="cl">    <span class="k">If</span> <span class="p">(</span><span class="nv">$computer</span> <span class="o">-ne</span> <span class="nv">$Env:Computername</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">If</span> <span class="p">(!(</span><span class="nb">Test-Connection</span> <span class="n">-ComputerName</span> <span class="nv">$computer</span> <span class="n">-Count</span> <span class="mf">1</span> <span class="n">-Quiet</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Warning</span> <span class="s2">&#34;</span><span class="nv">$computer</span><span class="s2"> is not accessible, please try a different computer or verify it is powered on.&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$continueRemoving</span> <span class="p">=</span> <span class="vm">$true</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="nv">$continueRemoving</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Gather all of the user profiles on the computer</span>
+</span></span><span class="line"><span class="cl">        <span class="k">Try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="p">[</span><span class="no">array</span><span class="p">]</span><span class="nv">$users</span> <span class="p">=</span> <span class="nb">Get-WmiObject</span> <span class="n">-ComputerName</span> <span class="nv">$computer</span> <span class="n">Win32_UserProfile</span> <span class="n">-Filter</span> <span class="s2">&#34;LocalPath Like &#39;C:\\Users\\%&#39;&#34;</span> <span class="n">-ErrorAction</span> <span class="n">Stop</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">Catch</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Warning</span> <span class="s2">&#34;Error retrieving user profiles: </span><span class="nv">$_</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Cache the number of users</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$num_users</span> <span class="p">=</span> <span class="nv">$users</span><span class="p">.</span><span class="py">Count</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="n">-ForegroundColor</span> <span class="n">Green</span> <span class="s2">&#34;User profiles on </span><span class="p">$(</span><span class="nv">$computer</span><span class="p">)</span><span class="s2">:&#34;</span>        
+</span></span><span class="line"><span class="cl">        <span class="c"># Display all user profiles</span>
+</span></span><span class="line"><span class="cl">        <span class="k">For</span> <span class="p">(</span><span class="nv">$i</span> <span class="p">=</span> <span class="mf">0</span><span class="p">;</span> <span class="nv">$i</span> <span class="o">-lt</span> <span class="nv">$num_users</span><span class="p">;</span> <span class="nv">$i</span><span class="p">++)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Host</span> <span class="n">-ForegroundColor</span> <span class="n">Green</span> <span class="s2">&#34;</span><span class="p">$(</span><span class="nv">$i</span><span class="p">)</span><span class="s2">: </span><span class="p">$((</span><span class="nv">$users</span><span class="p">[</span><span class="nv">$i</span><span class="p">].</span><span class="n">LocalPath</span><span class="p">).</span><span class="py">Replace</span><span class="p">(</span><span class="s1">&#39;C:\Users\&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">))</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="n">-ForegroundColor</span> <span class="n">Green</span> <span class="s2">&#34;q: Quit&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$validSelection</span> <span class="p">=</span> <span class="vm">$false</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="p">(</span><span class="o">-not</span> <span class="nv">$validSelection</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="c"># Prompt for user to select profiles to remove from computer</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$accountInput</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Select numbers to delete local profiles (comma-separated) or &#39;q&#39; to quit&#34;</span>            
+</span></span><span class="line"><span class="cl">            <span class="c"># Check if user selected to quit</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="nv">$accountInput</span> <span class="o">-eq</span> <span class="s2">&#34;q&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="c"># Validate the input</span>
+</span></span><span class="line"><span class="cl">                <span class="nv">$accounts</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">                <span class="k">foreach</span> <span class="p">(</span><span class="nv">$input</span> <span class="k">in</span> <span class="nv">$accountInput</span> <span class="n">-split</span> <span class="s2">&#34;,&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="nv">$trimmedInput</span> <span class="p">=</span> <span class="nv">$input</span><span class="p">.</span><span class="py">Trim</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">if</span> <span class="p">(</span><span class="nv">$trimmedInput</span> <span class="o">-match</span> <span class="s2">&#34;^\d+$&#34;</span> <span class="o">-and</span> <span class="p">[</span><span class="no">int</span><span class="p">]</span><span class="nv">$trimmedInput</span> <span class="o">-lt</span> <span class="nv">$num_users</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="nv">$accounts</span> <span class="p">+=</span> <span class="p">[</span><span class="no">int</span><span class="p">]</span><span class="nv">$trimmedInput</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="nv">$validSelection</span> <span class="p">=</span> <span class="nv">$accounts</span><span class="p">.</span><span class="py">Count</span> <span class="o">-gt</span> <span class="mf">0</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="p">(</span><span class="o">-not</span> <span class="nv">$validSelection</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="nb">Write-Warning</span> <span class="s2">&#34;Invalid selection, please try again.&#34;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Confirm selection</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$confirm</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Are you sure you want to delete the selected profiles? (Y/N)&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$confirm</span> <span class="o">-like</span> <span class="s2">&#34;Y*&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="c"># Remove the selected profiles</span>
+</span></span><span class="line"><span class="cl">            <span class="k">foreach</span> <span class="p">(</span><span class="nv">$account</span> <span class="k">in</span> <span class="nv">$accounts</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">Write-Host</span> <span class="n">-ForegroundColor</span> <span class="n">Yellow</span> <span class="s2">&#34;Deleting profile: </span><span class="p">$((</span><span class="nv">$users</span><span class="p">[</span><span class="nv">$account</span><span class="p">].</span><span class="n">LocalPath</span><span class="p">).</span><span class="py">Replace</span><span class="p">(</span><span class="s1">&#39;C:\Users\&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">))</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">                <span class="k">Try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">(</span><span class="nv">$users</span><span class="p">[</span><span class="nv">$account</span><span class="p">]).</span><span class="py">Delete</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">                    <span class="nb">Write-Host</span> <span class="n">-ForegroundColor</span> <span class="n">Green</span> <span class="s2">&#34;Profile: </span><span class="p">$((</span><span class="nv">$users</span><span class="p">[</span><span class="nv">$account</span><span class="p">].</span><span class="n">LocalPath</span><span class="p">).</span><span class="py">Replace</span><span class="p">(</span><span class="s1">&#39;C:\Users\&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">))</span><span class="s2"> has been deleted&#34;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="k">Catch</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="nb">Write-Warning</span> <span class="s2">&#34;Failed to delete profile: </span><span class="p">$((</span><span class="nv">$users</span><span class="p">[</span><span class="nv">$account</span><span class="p">].</span><span class="n">LocalPath</span><span class="p">).</span><span class="py">Replace</span><span class="p">(</span><span class="s1">&#39;C:\Users\&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">))</span><span class="s2">. Error: </span><span class="nv">$_</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Configure yes choice</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$yes</span> <span class="p">=</span> <span class="nb">New-Object</span> <span class="n">System</span><span class="p">.</span><span class="py">Management</span><span class="p">.</span><span class="py">Automation</span><span class="p">.</span><span class="py">Host</span><span class="p">.</span><span class="py">ChoiceDescription</span> <span class="s2">&#34;&amp;Yes&#34;</span><span class="p">,</span> <span class="s2">&#34;Remove another profile.&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Configure no choice</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$no</span> <span class="p">=</span> <span class="nb">New-Object</span> <span class="n">System</span><span class="p">.</span><span class="py">Management</span><span class="p">.</span><span class="py">Automation</span><span class="p">.</span><span class="py">Host</span><span class="p">.</span><span class="py">ChoiceDescription</span> <span class="s2">&#34;&amp;No&#34;</span><span class="p">,</span> <span class="s2">&#34;Quit profile removal&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Determine Values for Choice</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$choice</span> <span class="p">=</span> <span class="p">[</span><span class="no">System.Management.Automation.Host.ChoiceDescription[]</span><span class="p">]</span><span class="vm">@</span><span class="p">(</span><span class="nv">$yes</span><span class="p">,</span> <span class="nv">$no</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Determine Default Selection</span>
+</span></span><span class="line"><span class="cl">        <span class="p">[</span><span class="no">int</span><span class="p">]</span><span class="nv">$default</span> <span class="p">=</span> <span class="mf">0</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Present choice option to user</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$userchoice</span> <span class="p">=</span> <span class="nv">$host</span><span class="p">.</span><span class="py">ui</span><span class="p">.</span><span class="py">PromptForChoice</span><span class="p">(</span><span class="s2">&#34;&#34;</span><span class="p">,</span> <span class="s2">&#34;Remove Another Profile?&#34;</span><span class="p">,</span> <span class="nv">$choice</span><span class="p">,</span> <span class="nv">$default</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$userchoice</span> <span class="o">-eq</span> <span class="mf">1</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$continueRemoving</span> <span class="p">=</span> <span class="vm">$false</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span></code></pre></div>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/reading/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---powershell---servicedesk/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/rebreathers/">Rebreathers</a>
+          <a href="/posts/script---python---pdftoterminal/">Script - Python - pdftoterminal</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -236,60 +308,48 @@
 
         <div class="post-content">
           
-            <h1 id="choptima-dive-rite">ChOptima (Dive Rite)</h1>
-<ul>
-<li>Best O2 cylinder size = <a href="https://perthscuba.com/collections/tanks-cylinders/products/s-13-aluminium-cylinder">AL13</a> or <a href="https://perthscuba.com/collections/tanks-cylinders/products/fabersteelcylinder2lt">2L steel</a> with <a href="https://perthscuba.com/products/sos-cylinder-x-flow-valve">X-Flow valve</a></li>
-<li>Training: <a href="https://www.diveaddiction.me/">Joseph Bicanic (WA, Australia)</a>, Por (Thailand), Rob Thomas (NSW), <a href="https://deepblueventures.com.au/rebreather/optima-cm-ccr">Rubens Monaco (Vic, Australia)</a></li>
-<li>Accessories
-<ul>
-<li><a href="https://diverite.com/products/o2ptima/o2ptima-cm-scooter-ring/">ChOptima Scooter Ring</a></li>
-<li><a href="https://scubadorag.com/product/scubado-rebreather-bcd-inflator-hose-ponytail-hair-cover/">Hose Covers - ScubaDo</a></li>
-<li><a href="https://www.instagram.com/divingsirenfl/">Hose Covers - Diving Siren (Custom)</a></li>
-</ul>
-</li>
-</ul>
-<h1 id="sidewinder-kiss">Sidewinder (KISS)</h1>
-<p>Total Hours: 67hours (4013 mins)</p>
-<h1 id="jj-ccr">JJ-CCR</h1>
-<p>Total Hours: 50 hours (3005 mins)</p>
-<h1 id="other-ccrs">Other CCRs</h1>
-<p><a href="https://s7ccr.com/">S7</a></p>
-<ul>
-<li><a href="https://indepthmag.com/s7-rebreather-size-of-a-ccr/">InDepth Article on S7</a></li>
-<li>~â‚¬5k + cells &amp; monitor</li>
-<li>IT: Anton is IT, Mikko/Rubens/Skanda instructors</li>
-</ul>
-<p><a href="https://www.multi-3s.com/les-produits/triton">Triton (M3S)</a>
-<a href="https://www.multi-3s.com/les-produits/configurations/ccr-loisir">Neptune (M3S)</a>
-<a href="https://ccr.sub-gravity.com/fx-ccr/">FXCCR (Sub-Gravity)</a>
-<a href="https://ccr.sub-gravity.com/product/flex-2-ccr/">Flex2 (Sub-Gravity)</a>
-<a href="https://www.divesoft.com/en/products/ccr-liberty/ccr-liberty-sidemount">Liberty (Divesoft)</a></p>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">subprocess</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">shlex</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">convert_pdf_to_text</span><span class="p">(</span><span class="n">pdf_file</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># Use shlex.split to handle file paths with spaces correctly</span>
+</span></span><span class="line"><span class="cl">        <span class="n">cmd</span> <span class="o">=</span> <span class="n">shlex</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;pdftotext </span><span class="si">{</span><span class="n">shlex</span><span class="o">.</span><span class="n">quote</span><span class="p">(</span><span class="n">pdf_file</span><span class="p">)</span><span class="si">}</span><span class="s1"> -&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># Convert PDF to text and capture the output</span>
+</span></span><span class="line"><span class="cl">        <span class="n">result</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cmd</span><span class="p">,</span> <span class="n">check</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">stdout</span><span class="o">=</span><span class="n">subprocess</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span> <span class="n">stderr</span><span class="o">=</span><span class="n">subprocess</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">stdout</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">except</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">CalledProcessError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Error converting </span><span class="si">{</span><span class="n">pdf_file</span><span class="si">}</span><span class="s2"> to text: </span><span class="si">{</span><span class="n">e</span><span class="o">.</span><span class="n">stderr</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="n">pdf_file</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the path to the PDF file: &#34;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c1"># Convert PDF to text and print to terminal</span>
+</span></span><span class="line"><span class="cl">    <span class="n">convert_pdf_to_text</span><span class="p">(</span><span class="n">pdf_file</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">main</span><span class="p">()</span>
+</span></span></code></pre></div>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/rebreathers/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---python---pdftoterminal/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/region---wa/">Region - WA</a>
+          <a href="/posts/script---python---redact/">Script - Python - redact</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/personal/">personal</a>&nbsp;
-            
-            #<a href="/tags/trips/">trips</a>&nbsp;
-            
-            #<a href="/tags/expeditions/">expeditions</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -299,37 +359,67 @@
 
         <div class="post-content">
           
-            <h1 id="about">About</h1>
-<h1 id="caves">Caves</h1>
-<ul>
-<li></li>
-</ul>
-<h1 id="trips">Trips</h1>
-<ul>
-<li></li>
-</ul>
-<hr>
-<h1 id="references">References</h1>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">re</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">chardet</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">read_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">raw_data</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="n">result</span> <span class="o">=</span> <span class="n">chardet</span><span class="o">.</span><span class="n">detect</span><span class="p">(</span><span class="n">raw_data</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">encoding</span> <span class="o">=</span> <span class="n">result</span><span class="p">[</span><span class="s1">&#39;encoding&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="n">encoding</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">write_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">content</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">content</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">redact_company_name</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">company_name</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">escape</span><span class="p">(</span><span class="n">company_name</span><span class="p">),</span> <span class="s1">&#39;[REDACTED]&#39;</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># Prompt the user to enter the file paths and company name</span>
+</span></span><span class="line"><span class="cl">    <span class="n">input_file</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the path to the input file: &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">output_file</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the name for the output file: &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">company_name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the company name to redact: &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># Read the original file</span>
+</span></span><span class="line"><span class="cl">        <span class="n">original_text</span> <span class="o">=</span> <span class="n">read_file</span><span class="p">(</span><span class="n">input_file</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">except</span> <span class="ne">UnicodeDecodeError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Error reading file: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># Redact the company name</span>
+</span></span><span class="line"><span class="cl">    <span class="n">redacted_text</span> <span class="o">=</span> <span class="n">redact_company_name</span><span class="p">(</span><span class="n">original_text</span><span class="p">,</span> <span class="n">company_name</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># Write the redacted text to the output file</span>
+</span></span><span class="line"><span class="cl">    <span class="n">write_file</span><span class="p">(</span><span class="n">output_file</span><span class="p">,</span> <span class="n">redacted_text</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">main</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    
+</span></span></code></pre></div>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/region---wa/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---python---redact/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/r%C3%A9union-island/">Réunion Island</a>
+          <a href="/posts/script---python---search-replace/">Script - Python - search-replace</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -339,72 +429,158 @@
 
         <div class="post-content">
           
-            <p>Réunion Island is listed under <a href="/posts/africa/">Africa</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-<hr>
-<h1 id="existing-notes">Existing Notes</h1>
-<h1 id="about">About</h1>
-<p>Fly Perth -&gt; Mauritius - Réunion</p>
-<ul>
-<li>Cheapest flights Jan-Aug</li>
-</ul>
-<p><strong>Why:</strong> Volcanic island with isolated limestone bands and possible lava tubes intersecting freshwater lenses.</p>
-<ul>
-<li><strong>Status:</strong> Known dry caves and lava tubes, but freshwater cave diving is almost nonexistent.</li>
-<li><strong>Potential:</strong> Search for anchialine pools or submerged karst pockets inland or near coastal freshwater springs.</li>
-<li><strong>Best Season:</strong> May to October (dry season).</li>
-</ul>
-<h1 id="caves">Caves</h1>
-<ul>
-<li>Source de la Rivière Sainte-Suzanne, -20.9065, 55.6017, Strong resurgence on eastern slopes; spring-fed river emerging from volcanic fissure.</li>
-<li>Source Bras Cabot (Salazie Cirque), -21.0003, 55.5376, High-altitude spring at base of basalt cliffs; potentially linked to perched aquifer system.</li>
-<li>Source de la Rivière des Roches, -21.0084, 55.6661, Powerful spring from fractured basalt; popular canyoning area with high discharge.</li>
-<li>Source du Bras de Cilaos, -21.1422, 55.4749, Resurgence below vertical cliffs in Cilaos cirque; likely fracture-controlled groundwater flow.</li>
-<li>Takamaka Valley Spring, -21.0431, 55.6356, Remote and high-flow spring at base of volcanic wall; difficult access, high potential for unexplored source conduit.</li>
-<li>Source de Grand Galet (Langevin Falls), -21.2856, 55.7083, Large spring-fed cascade; major discharge from volcanic plateau into Langevin River.</li>
-<li>Source de Bras d&rsquo;Annette, -21.0624, 55.6078, Spring in upper Takamaka basin; steep terrain with high groundwater flow potential.</li>
-<li>Source de Bras Patience, -21.1187, 55.6081, Perennial spring from cliffside in upper Ravine Blanche; minor but consistent discharge.</li>
-<li>Source Ravine Citron Galet, -21.1396, 55.6362, Emergent spring in deep ravine near Grand Étang; high rainfall recharge zone.</li>
-<li>Source de la Plaine des Palmistes, -21.1123, 55.6379, Widespread seepage and spring outflows on elevated plateau; volcanic aquifer discharge zone.</li>
-</ul>
-<h1 id="trips">Trips</h1>
-<ul>
-<li></li>
-</ul>
-<hr>
-<h1 id="references">References</h1>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/env python3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">argparse</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">re</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">slugify</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;Replace spaces with dashes and strip leading/trailing spaces.&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">,</span> <span class="s2">&#34;-&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">process_file</span><span class="p">(</span><span class="n">path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="n">pattern</span><span class="p">:</span> <span class="n">re</span><span class="o">.</span><span class="n">Pattern</span><span class="p">,</span> <span class="n">repl_func</span><span class="p">,</span> <span class="n">dry_run</span><span class="p">:</span> <span class="nb">bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s2">
+</span></span></span><span class="line"><span class="cl"><span class="s2">    Returns number of replacements made in this file.
+</span></span></span><span class="line"><span class="cl"><span class="s2">
+</span></span></span><span class="line"><span class="cl"><span class="s2">    &#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">text</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">read_text</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">updated</span><span class="p">,</span> <span class="n">n</span> <span class="o">=</span> <span class="n">pattern</span><span class="o">.</span><span class="n">subn</span><span class="p">(</span><span class="n">repl_func</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">dry_run</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">path</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">updated</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">n</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">ap</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">description</span><span class="o">=</span><span class="s2">&#34;Replace [[text]] in markdown files.&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;text&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Search term inside [[...]] to replace (e.g., &#39;Bucket List&#39;).&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--root&#34;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s2">&#34;.&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Root folder to scan (default: current directory).&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--recursive&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Recurse into subfolders.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--dry-run&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Show what would change, but don&#39;t write files.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--ignore-case&#34;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&#34;store_true&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Match [[text]] case-insensitively.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">args</span> <span class="o">=</span> <span class="n">ap</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">root</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">root</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">pattern_glob</span> <span class="o">=</span> <span class="s2">&#34;**/*.md&#34;</span> <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">recursive</span> <span class="k">else</span> <span class="s2">&#34;*.md&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># Build regex that matches [[&lt;text&gt;]], allowing for internal spaces</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">flags</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span> <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">ignore_case</span> <span class="k">else</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">escaped</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">escape</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">needle</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&#34;\[\[\s*&#34;</span> <span class="o">+</span> <span class="n">escaped</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="sa">r</span><span class="s2">&#34;\ &#34;</span><span class="p">,</span> <span class="sa">r</span><span class="s2">&#34;\s+&#34;</span><span class="p">)</span> <span class="o">+</span> <span class="sa">r</span><span class="s2">&#34;\s*\]\]&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">pattern</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">needle</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="n">flags</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># Replacement function (keeps proper slug formatting)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">repl_func</span><span class="p">(</span><span class="k">match</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="s2">&#34;#&#34;</span> <span class="o">+</span> <span class="n">slugify</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">files</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="n">pattern_glob</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">total_files</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">changed_files</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">total_replacements</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="ow">not</span> <span class="n">f</span><span class="o">.</span><span class="n">is_file</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">continue</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">total_files</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">n</span> <span class="o">=</span> <span class="n">process_file</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">pattern</span><span class="o">=</span><span class="n">pattern</span><span class="p">,</span> <span class="n">repl_func</span><span class="o">=</span><span class="n">repl_func</span><span class="p">,</span> <span class="n">dry_run</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">dry_run</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">total_replacements</span> <span class="o">+=</span> <span class="n">n</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="n">changed_files</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[UPDATED</span><span class="si">{</span><span class="s1">&#39;&#39;</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">args</span><span class="o">.</span><span class="n">dry_run</span> <span class="k">else</span> <span class="s1">&#39; (dry)&#39;</span><span class="si">}</span><span class="s2">] </span><span class="si">{</span><span class="n">f</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> (+</span><span class="si">{</span><span class="n">n</span><span class="si">}</span><span class="s2">)&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[SKIPPED] </span><span class="si">{</span><span class="n">f</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">Done. Files scanned: </span><span class="si">{</span><span class="n">total_files</span><span class="si">}</span><span class="s2">. Files changed: </span><span class="si">{</span><span class="n">changed_files</span><span class="si">}</span><span class="s2">. Replacements: </span><span class="si">{</span><span class="n">total_replacements</span><span class="si">}</span><span class="s2">.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">dry_run</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;No files were written (dry run). Use without --dry-run to apply changes.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">main</span><span class="p">()</span>
+</span></span></code></pre></div>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/r%C3%A9union-island/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---python---search-replace/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/roe-plains/">Roe Plains</a>
+          <a href="/posts/script---python---unredact/">Script - Python - unredact</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -414,48 +590,52 @@
 
         <div class="post-content">
           
-            <h1 id="to-do">To Do</h1>
-<p>Dive</p>
-<ul>
-<li>Slot
-<ul>
-<li>Downstream Survey</li>
-<li>Connect to Upstream?</li>
-</ul>
-</li>
-<li>Nurina</li>
-<li><a href="/posts/weebubbie-cave---6n2/">Weebubbie Cave - 6N2</a></li>
-<li><a href="/posts/burnabbie-cave---6n/">Burnabbie Cave - 6N</a> - Survey Nasty</li>
-<li>Alvarium - Dive/Film/Survey/Explore</li>
-</ul>
-<p>Dry</p>
-<ul>
-<li>N2799 (near slot - Underwater?)</li>
-<li>Double Slot</li>
-<li>Fur Cave</li>
-<li>N2777, (near slot)</li>
-<li>N2793 (near slot)</li>
-<li>N1956 (near Blackadder)</li>
-<li>N2785 (Cave snorkel)</li>
-</ul>
-<h2 id="photogram">Photogram</h2>
-<hr>
-<h1 id="about">About</h1>
-<p>First-timer trips: Olwolgin, Slot, Nurina</p>
-<h1 id="caves">Caves</h1>
-<ul>
-<li><a href="/posts/burnabbie-cave---6n/">Burnabbie Cave - 6N</a></li>
-<li><a href="/posts/nurina-cave/">Nurina Cave</a></li>
-<li><a href="/posts/olwolgin---6n/">Olwolgin - 6N</a></li>
-<li>Slot Cave - 6N</li>
-</ul>
-<h1 id="references">References</h1>
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">re</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">chardet</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">read_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">raw_data</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="n">result</span> <span class="o">=</span> <span class="n">chardet</span><span class="o">.</span><span class="n">detect</span><span class="p">(</span><span class="n">raw_data</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">encoding</span> <span class="o">=</span> <span class="n">result</span><span class="p">[</span><span class="s1">&#39;encoding&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="n">encoding</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">write_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">content</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">content</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">replace_redacted_with_company_name</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">company_name</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;\[REDACTED\]&#39;</span><span class="p">,</span> <span class="n">company_name</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># Prompt the user to enter the file paths and company name</span>
+</span></span><span class="line"><span class="cl">    <span class="n">input_file</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the path to the input file: &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">output_file</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the name for the output file: &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">company_name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter the company name to replace [REDACTED]: &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># Read the original file</span>
+</span></span><span class="line"><span class="cl">        <span class="n">original_text</span> <span class="o">=</span> <span class="n">read_file</span><span class="p">(</span><span class="n">input_file</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">except</span> <span class="ne">UnicodeDecodeError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Error reading file: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c1"># Replace [REDACTED] with the company name</span>
+</span></span><span class="line"><span class="cl">    <span class="n">replaced_text</span> <span class="o">=</span> <span class="n">replace_redacted_with_company_name</span><span class="p">(</span><span class="n">original_text</span><span class="p">,</span> <span class="n">company_name</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c1"># Write the replaced text to the output file</span>
+</span></span><span class="line"><span class="cl">    <span class="n">write_file</span><span class="p">(</span><span class="n">output_file</span><span class="p">,</span> <span class="n">replaced_text</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">main</span><span class="p">()</span>
+</span></span></code></pre></div>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/roe-plains/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---python---unredact/">[Read more]</a>
           </div>
         
       </article>

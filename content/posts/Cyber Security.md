@@ -1,7 +1,7 @@
 ---
 title: Cyber Security
 created: 2026-06-19
-updated: 2026-07-01
+updated: 2026-08-06
 status: seed
 draft: false
 tags:
@@ -29,7 +29,6 @@ Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{<
 - [Cyber Security - Job Domains & Interview Prep]({{< relref "posts/Cyber Security - Job Domains & Interview Prep.md" >}})
 
 - [Threat Modelling]({{< relref "posts/Threat Modelling.md" >}}) 
-	- [Threat Actors]({{< relref "posts/Threat Actors.md" >}})
 	- [Pentesting]({{< relref "posts/pentesting.md" >}}) & [Physical Access]({{< relref "posts/Physical Access.md" >}})
 	- [Web App Vulnerability]({{< relref "posts/Web App Vulnerability.md" >}})
 	- [Notes - ASD Annual Cyber Threat Report 2023-2024]({{< relref "posts/Notes - ASD Annual Cyber Threat Report 2023-2024.md" >}})
@@ -37,7 +36,7 @@ Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{<
 
 - OT Cyber Security
 	- [Notes - Burning Down Cities]({{< relref "posts/Notes - Burning Down Cities.md" >}})
-	- [Epochalypse]({{< relref "posts/epochalypse.md" >}}) - [Epochalypse Project](https://epochalypse-project.org/) & [Group.io](https://groups.io/g/epochalypse-discuss/topics)
+	- [Y2038 - Epochalypse]({{< relref "posts/Y2038 - Epochalypse.md" >}}) - [Epochalypse Project](https://epochalypse-project.org/) & [Group.io](https://groups.io/g/epochalypse-discuss/topics)
 
 
 # [Cyber - Training & Certifications]({{< relref "posts/Cyber - Training & Certifications.md" >}})
@@ -67,7 +66,6 @@ Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{<
 
 - [CISSP - Misc Notes]({{< relref "posts/CISSP - Misc Notes.md" >}})
 - [Notes - I Took The World’s HARDEST Cybersecurity Exam (CISSP)]({{< relref "posts/Notes - I Took The World’s HARDEST Cybersecurity Exam (CISSP).md" >}})
-
 ## [OSCP]({{< relref "posts/oscp.md" >}})
 - General
 	- [OSCP]({{< relref "posts/oscp.md" >}}) [Exam Guide](https://help.offsec.com/hc/en-us/articles/360040165632-OSCP-Exam-Guide-Newly-Updated)
@@ -117,6 +115,7 @@ Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{<
 	- [OSCP - Kevin - Windows (DNF)]({{< relref "posts/OSCP - Kevin - Windows (DNF).md" >}})
 	- [OSCP - Squid - Windows]({{< relref "posts/OSCP - Squid - Windows.md" >}})
 
+SecOT+ 
 # References
 - [Threats: What Every Engineer Should Learn From Star Wars](https://www.amazon.com/Threats-Every-Engineer-Should-Learn-ebook/dp/B0BT3RGRKS/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
 - [DISP - Defence Industry Security Program](https://www.defence.gov.au/business-industry/industry-governance/defence-security-principles-framework) 

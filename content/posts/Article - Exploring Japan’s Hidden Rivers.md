@@ -1,8 +1,8 @@
 ---
 title: Article - Exploring Japan’s Hidden Rivers
 created: 2026-05-25
-updated: 2026-05-25
-status: In-Progress
+updated: 2026-07-17
+status: complete
 draft: false
 tags:
   - article

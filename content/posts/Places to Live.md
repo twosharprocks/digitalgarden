@@ -7,11 +7,10 @@ draft: false
 tags:
   - personal
   - work
-related: 
+related:
   - "[[Personal]]"
   - "[[Work]]"
   - "[[VW Transporter|living in the van]]"
-  - "[[Housesitting]]"
 ---
 ---
 # Australia
@@ -80,7 +79,7 @@ You’ll have to live there for at least a decade, and undergo the rigorous proc
 ---
 **This also reminds me of**... 
 - Think more about Darryl's apartment
-- Housesitting 
+- [Housesitting - Mindahome.com.au](https://mindahome.com.au/members) 
 
 ---
 # References

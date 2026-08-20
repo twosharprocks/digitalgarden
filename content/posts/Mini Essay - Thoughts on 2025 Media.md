@@ -28,7 +28,9 @@ This was the first book I finished in 2025, and I'll admit my memory of it is al
 This is another book that I read early in the year and don't have clear memories of. I do know that I enjoyed it, and it felt like quite a gentle read - there wasn't anything groundbreaking in it for me, but it wasn't in any way boring or pandering. Like the Holographic Universe, this is something I should probably read again in 2026.
 
 **Being Ram Dass (Ram Dass)**
-My first introduction to Ram Dass was through "The Midnight Gospel" on Netflix, with the classic "Just Be Here Now" quote ending the series. I've been intrigued for awhile by Alan Watts, and I felt a similar strain of impish spiritualism while listening to Ram Dass's lectures in "Becoming Nobody" last year, so I picked up "Being Ram Dass" as a way to learn more about Richard Alprin and later Ram Dass. Understanding the journey he took and the person he evolved into as he delvd deeper into love was fascinating, and in many ways this book was more important to read and understand than just his lectures in "Becoming Nobody". His book "Be Here Now" is in my kindle too, and I expect that it'll be one of the first things I read in 2026 once I've finished the books left from [101 Things - To Do]({{< relref "posts/101 Things - To Do.md" >}}).
+My first introduction to Ram Dass was through "The Midnight Gospel" on Netflix, with the classic "Just Be Here Now" quote ending the series. I've been intrigued for awhile by Alan Watts, and I felt a similar strain of impish spiritualism while listening to Ram Dass's lectures in "Becoming Nobody" last year, so I picked up "Being Ram Dass" as a way to learn more about Richard Alprin and later Ram Dass. Understanding the journey he took and the person he evolved into as he delvd deeper into love was fascinating, and in many ways this book was more important to read and understand than just his lectures in "Becoming Nobody". His book "Be Here Now" is in my kindle too, and I expect that it'll be one of the first things I read in 2026 once I've finished the books left from [Bucket List]({{< relref "posts/Bucket List.md" >}}).
+
+
 
 **Showing Up (Nedd Brockmann)**
 All I can say about this and Nedd Brockmann is what an absolute legend. Some people know they love pushing themselves to do remarkable things, and then there are folks like Nedd who go out and do remarkable things over and over and over again. Not only does Nedd share what it was like to run such epic distances day-in and day-out, but it's clear throughout the book that he's just a genuinely good guy who's doing what he's doing as a way of supporting a cause he believes in. A genuine pleasure to listen to, and finishing this I felt absolutely inspired to go out and do more remarkable things with my life too. 
@@ -217,4 +219,3 @@ HL: Uplink - Replay
 Splinter Cell
 - Pandora Tomorrow - Replay
 - Chaos Theory - Replay
-

@@ -24,7 +24,7 @@ related:
 - Apr: Trip - Vanuatu - 2027 April
 	- Trip - ADEX Singapore - 2027 April
 - Sep: Trip - Sydney GoDiving Conference  - 2027 Sept
-- Oct: Trip - Spain France Portugal - 2027 Sept DivingTalks Conference
+- Oct: Trip - Spain France Portugal - 2028 Sept DivingTalks Conference
 - Dec: Trip - Mexico - 2027 Dec 
 
 2028

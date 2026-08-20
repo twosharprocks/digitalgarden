@@ -15,7 +15,7 @@ related:
   - "[[Writing]]"
   - "[[Bucket List]]"
   - "[[Mini Essay - Ridiculous Bucket List]]"
-  - "[[101 Things - To Do]]"
+  - "[[Bucket List]]"
   - "[[101 Things - Complete List]]"
 ---
 ---
@@ -25,7 +25,9 @@ With all of that going on, it feels like looking back and sorting everything out
 
 So much of the last 20 years has been future focused, but now I'm really struggling to set new goals and push for new things. Part of me wants to say I'm "tired" but that's not true - it feels more like I want to truly experience things, appreciate them fully, and write about them to share with others too. So maybe the next 10 years before I turn 50 is about appreciating what I do rather than simply rushing to do more. I don't want to drop my bundle and just do the minimum, but I do want to fully appreciate and savour the things I put my time and energy into. That will inevitably mean doing things at a slower pace than I have in the past, but that's okay - I'm sucking more out of each experience instead of just going fast.
 
-So what are some of the experiences you want to fully appreciate before you turn 50? There is undoubtably diving experiences you want to tackle, and some of them are in your near future, with a trip to  Cocklebiddy in 2026 and Bikini Atoll in 2027 already being organised. Looking at my [Bucket List]({{< relref "posts/Bucket List.md" >}}) I see things like the [Long Solo]({{< relref "posts/Long Solo.md" >}}), walking the Inca Trail, and crossing the Sahara, as well as seeing a rocket launch and an erupting volcano. There are other experiences like doing a biathalon, racing skeleton, and other things from the [101 Things - To Do]({{< relref "posts/101 Things - To Do.md" >}}). 
+So what are some of the experiences you want to fully appreciate before you turn 50? There is undoubtably diving experiences you want to tackle, and some of them are in your near future, with a trip to  Cocklebiddy in 2026 and Bikini Atoll in 2027 already being organised. Looking at my [Bucket List]({{< relref "posts/Bucket List.md" >}}) I see things like the [Long Solo]({{< relref "posts/Long Solo.md" >}}), walking the Inca Trail, and crossing the Sahara, as well as seeing a rocket launch and an erupting volcano. There are other experiences like doing a biathalon, racing skeleton, and other things from the [Bucket List]({{< relref "posts/Bucket List.md" >}}). 
+
+
 
 All of these feel a little bit flat right now though, and I think it's to do with that writing "constipation" I'm experiencing. I have *so* many incredible stories to tell already that I'm wary of doing more incredible things without writing about what I've already done. I write this 2 days before I leave for an expedition to Antarctica, but that feeling still stands - so much of the last 20 years has been pushing to tick off bucket list items one after another and to experience consistently incredible things, I now feel like I haven't put in the effort to share those experiences with others through my writing. 
 
@@ -39,4 +41,3 @@ I have no doubt that I'll still go on wild adventures between now and when I tur
 
 ---
 ***Tomorrow's Mini Essay***: [Mini Essay - What are your obligations]({{< relref "posts/Mini Essay - What are your obligations.md" >}})
-

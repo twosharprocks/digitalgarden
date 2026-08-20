@@ -1,7 +1,7 @@
 ---
 title: Philosophy
 created: 2025-12-19
-updated: 2025-12-19
+updated: 2026-07-21
 status: tree
 draft: false
 tags:
@@ -9,19 +9,13 @@ tags:
   - writing
   - creativity
   - personal
-related: 
+related:
   - "[[Philosophy]]"
   - "[[Writing]]"
   - "[[Creativity]]"
   - "[[Personal]]"
----
----
-Priorities 
-- Writing books 
-- Discovering, understanding and sharing the universe
-- Create art with people I love
-- Do cool shit with cool people 
-
+  - "[[TELOS]]"
+  - "[[Identity]]"
 ---
 Comics - Write [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) about these
 - [Oatmeal - Plane](https://theoatmeal.com/comics/plane)
@@ -40,14 +34,17 @@ Four Agreements
 4. Always do your best - It alwasy gets better, 80/20 rule, Practice the basics
 
 **Principles**
-- **Priorities** - ⚑ Reading/Writing ⚑ Chloe ⚑ Diving ⚑ Health ⚑ Learning
+- **Priorities** - ⚑ Reading/Writing ⚑ Diving ⚑ Health ⚑ Learning
+- What do you want your life to look like?
 - **Do Less** - Simplify Daily Habits, “Want To” vs “Have To”
 	- When You Stop Doing, Life Speaks
 - **Dream MUCH Bigger**
-- Always ask **Will I write a book about this?**
+- Always ask "**Will I write a book about this?**"
+- **Be very clear on what you love, what you WANT to do vs CAN do, and what are just passing interests**
 - Live a life where you **haven't** seen the latest TV series
-- Who you are: Cave Explorer, Future Martian, Author, Speaker, Professional Troublemaker
-![Markup 1000018545](/images/markup_1000018545.png)
+- `First say to yourself what you would be; and then do what you have to do. - Epictetus`
+- Who you are: [Explorer-Storyteller]({{< relref "posts/Explorer-Storyteller.md" >}}) 
+	- Cave Explorer, Future Martian, Author, Speaker, Professional Troublemaker
 
 **Physical**
 - Get up early - Wake by 6am, start before the world does

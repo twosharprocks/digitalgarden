@@ -1,13 +1,13 @@
 ---
 title: 5F9 - Wooltana Cave
 created: 2026-05-22
-updated: 2026-05-22
-status: #seed
+updated: 2026-07-17
+status: seed
 draft: false
 tags:
   - diving
   - caving
-region:
+region: Flinders Ranges
 cavedb:
 related: "[[Diving]]"
 ---

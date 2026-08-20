@@ -2,7 +2,7 @@
 title: Patreon - Journal 2017-02-25
 created: 2026-06-18
 updated: 2026-07-08
-status: seed
+status: tree
 draft: false
 tags:
   - writing

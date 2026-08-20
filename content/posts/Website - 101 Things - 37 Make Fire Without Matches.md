@@ -2,7 +2,7 @@
 title: Website - 101 Things - 37 Make Fire Without Matches
 created: 2026-01-21
 updated: 2026-06-27
-status: seed
+status: tree
 draft: false
 tags:
   - writing

@@ -1,8 +1,8 @@
 ---
 title: 5F89 - Blinman Bat Cave
 created: 2026-05-22
-updated: 2026-05-22
-status: #seed
+updated: 2026-07-17
+status: seed
 draft: false
 tags:
   - diving

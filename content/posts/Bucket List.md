@@ -1,7 +1,7 @@
 ---
 title: Bucket List
 created: 2025-04-01
-updated: 2025-10-30
+updated: 2026-07-22
 status: seed
 draft: false
 tags:
@@ -12,7 +12,6 @@ related:
   - "[[Personal]]"
   - "[[50 Goals (Old Version)]]"
   - "[[Adventure]]"
-  - "[[101 Things - To Do]]"
   - "[[101 Things - Complete List]]"
   - "[[Book - 101 Things]]"
   - "[[Mini Essay - Ridiculous Bucket List]]"
@@ -26,30 +25,47 @@ Write [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) about each entry here
 - #3 Be a ginger space unicorn
 - #4 Have a cave diving TV show
 - #5 Create music & drawings I'm proud of
-
----
-# [101 Things - To Do]({{< relref "posts/101 Things - To Do.md" >}})
+# 101 Things
 - [101 Things - Complete List]({{< relref "posts/101 Things - Complete List.md" >}})
-Achieveable
-- #13 - Meet someone with my name 
-	- Perth (BASE jumper) (interview for podcast)
-- #14 - Steel Dragon 2000 
-	- Nagashima Spa Land, Japan
-- #24 - See Huge Rocket Launch 
-	- Starship's first crew launch
-- #27 - Erupting Volcano 
-	- Nyiragongo (Congo), Kilueau (Hawaii), [Sicily](https://www.muchbetteradventures.com/products/10776-adventures-hike-kayak-aeolian-islands-sicily/), [Lombok](https://www.muchbetteradventures.com/products/10637-adventures-volcano-trekking-bali-lombok/), [Vanuatu](https://www.tripadvisor.com.au/Attraction_Review-g317047-d311942-Reviews-Mount_Yasur-Tanna_Island.html)
-- #31 - Weightlessness 
-	- https://www.gozerog.com/public-flights
-- #52 Finish Greatest Books - [Reading]({{< relref "posts/reading.md" >}})
-- #62 Mile High Club 
-- #67 Visit Colosseum, Christ the Redeemer, Angkor Wat, Great Wall, Taj Mahal
-- #73 Stand on International Date Line - Tuvalu
-- #76 Invent Something
-- #82 Build Own Home
-- #88 Get Married Unusually
-- #90 16 Mile High Club - https://www.worldview.space/
-
+## To Do - Check these numbers
+#13 Meet someone with Your Own Name 
+- Perth (BASE jumper) (interview for podcast)
+- FIFO Mechanic in Rockingham [Survived BASE Jump](https://www.perthnow.com.au/news/wa/perth-man-josh-richards-luckiest-person-alive-after-horror-base-jump-ng-1a62d6a03acc581698180ef68ddf4dca) - [Facebook Profile](https://www.facebook.com/josh.richards.5811)
+#14 Ride the World's Biggest Rollercoasters
+- Steel Dragon 2000 (Nagashima Spa Land, Japan)
+#19 Master Poker and Win Big in a Casino
+#20 Get Arrested
+#24 See Huge Rocket Launch 
+- Starship's first crew launch
+- Starship from Starbase (Texas) or Kennedy (Florida)
+25 Capture the Moment in an Award-winning Photograph
+- Photo of Mikko in Laos
+#27 See an Erupting Volcano 
+- Mount Nyiragongo (Congo), Kilueau (Hawaii), Vesuvius (Naples), Stromboli ([Sicily](https://www.muchbetteradventures.com/products/10776-adventures-hike-kayak-aeolian-islands-sicily/)), [Lombok](https://www.muchbetteradventures.com/products/10637-adventures-volcano-trekking-bali-lombok/), [Vanuatu](https://www.tripadvisor.com.au/Attraction_Review-g317047-d311942-Reviews-Mount_Yasur-Tanna_Island.html)
+#31 Experience Weightlessness 
+- https://www.gozerog.com/public-flights
+- Niamh's contacts (Star City), Zero-G corp
+#36 Visit Every Country - ***CONTINENTS COMPLETE***
+- Costa Rica (Sloths), Cave Dive Belize, Inca Trail - 3 days
+#48 Be Present When Your Country Wins the World Cup (or Olympics)
+- Los Angeles 2028
+#52 Finish Greatest Books - [Reading]({{< relref "posts/reading.md" >}})
+- Hotel new Hampshire (John Irving)
+- The Bonfire of the Vanities (Tom Wolfe)
+#60 Take Part in a Police Line-Up
+#61 Join the Mile High Club 
+#62 Visit...
+- Colosseum (Rome), Machu Pichu (Peru), Christ the Redeemer (Rio De Janeiro), Taj Mahal (Delhi) Angkor Wat (Cambodia), Great Wall (China)
+#72 Have Enough Money to Do All the Things on This List
+#73 Invent Something
+#74 Build Your Own House
+#73 Stand on International Date Line 
+- Tuvalu
+#75 Visit the World's Tallest Buildings
+- Burj (Dubai), One World Trade Center (Freedom Tower) (NYC), Taipei 101 (Taiwan), Shanghai World Financial Center (Shanghai), Jin Mao Building (Shanghai), Citic Plaza (Guangzhou), Shun Hing Square (Shenzhen), International Commerce Centre (Union Square Phase 7) (Hong Kong), Two International Finance Centre (Hong Kong), Central Plaza (Hong Kong), Bank of China Tower (Hong Kong)
+#88 Get Married Unusually
+#89 16 Mile High Club
+#100 Reach 100 Years of Age
 # ***Diving***
 1. **Have a [Cave Diving TV Show]({{< relref "posts/Cave Diving TV Show.md" >}})
 	- Focus on conservation & fresh water access
@@ -58,20 +74,21 @@ Achieveable
 3. **Organise & Lead Adventure around the world**
 	- Soggy Wombat Safaris
 4. Dive 
-	- Bikini Atoll (2028)
-	- Bushman's Hole (2029-30?)
-	- Below 200m
-	- 500 hours on a rebreather
+	- Trip - Bikini Atoll - 2028 June
+	- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) 2027
+	- [Madagascar]({{< relref "posts/madagascar.md" >}})
 # ***Writing & Art***
 - **Publish 10 Books**
 	- 1 - Becoming Martian, 2 - Cosmic Nomad, 
 	- *3 - Book - Cave Diving,* 
-	- 4 - Book - 101 Things, 5 - Book - Calling ET? Or Book - Death, Time & Reality 
-	- 6 - Apocalypse? 7? 8?, 9? 10?*
+	- 4 - Book - 101 Things, 
+	- 5 - Book - Calling ET 
+	- 6 - Book - Death, Time & Reality 
+	- 7 - Apocalypse? 8?, 9? 10?
 - Draw cartoons I'm proud of - *Tablet*
 - To sing & play music I'm proud of - *Practice Ukulele*
-- Finish the "101 Things" Reading List - [101 Things - To Do]({{< relref "posts/101 Things - To Do.md" >}})
 
+- Finish the "101 Things" Reading List
 # ***Experience***
 - Meditate for an hour without interruption - *Practice*
 - Travel 
@@ -141,4 +158,3 @@ Achieveable
 - [7 day Arctic hike/paddleboard in Greenland](https://www.muchbetteradventures.com/products/10554-adventures-canoe-expedition-in-the-yukon-wilderness/)
 
  
-

@@ -8,8 +8,10 @@ tags:
   - 101-things
   - bucket-list
 related: 
-  - "[[Bucket List]]"
-  - "[[101 Things - To Do]]"
+  - "
+"
+  - "
+"
   - "[[Book - 101 Things]]"
 ---
 Write these up and add links
@@ -22,12 +24,12 @@ Remaining: 20
 - *Becoming Martian* & *Cosmic Nomad*
 
 2 - Swim With...
-- [Website – 101 Things (2 Swim With…)]({{< relref "posts/Website – 101 Things (2 Swim With…).md" >}})
+- [Website – 101 Things - 2 Swim With…]({{< relref "posts/Website – 101 Things - 2 Swim With….md" >}})
 
 3 - Win an Award, Trophy or Prize
 
 4 - Catch a Fish With Your Bare Hands
-- [Website - 101 Things 4 Catch a Fish With Your Bare Hands]({{< relref "posts/Website - 101 Things 4 Catch a Fish With Your Bare Hands.md" >}})
+- [Website - 101 Things - 4 Catch a Fish With Your Bare Hands]({{< relref "posts/Website - 101 Things - 4 Catch a Fish With Your Bare Hands.md" >}})
 
 5 - Make a Discovery
 
@@ -38,10 +40,10 @@ Remaining: 20
 8 - Realise Your Childhood Dream
 
 9 - Learn That Instrument
-- [Website - 101 Things 9 Learn That Instrument]({{< relref "posts/Website - 101 Things 9 Learn That Instrument.md" >}})
+- [Website - 101 Things - 9 Learn That Instrument]({{< relref "posts/Website - 101 Things - 9 Learn That Instrument.md" >}})
 
 10 - Leave Your Mark in Graffiti
-- [Website - 101 Things School Stupidity (10, 21, 83 & 95)]({{< relref "posts/Website - 101 Things School Stupidity (10, 21, 83 & 95).md" >}})
+- [Website - 101 Things - School Stupidity (10, 21, 83 & 95)]({{< relref "posts/Website - 101 Things - School Stupidity (10, 21, 83 & 95).md" >}})
 11 - Storm Chase a Tornado
 - 
 
@@ -56,7 +58,7 @@ Remaining: 20
 
 15 - Stage Dive or Crowd Surf
 - Living End, Relationship with music
-- [Website - 101 Things Attention Whore (15, 35 & 96)]({{< relref "posts/Website - 101 Things Attention Whore (15, 35 & 96).md" >}})
+- [Website - 101 Things - Attention Whore (15, 35 & 96)]({{< relref "posts/Website - 101 Things - Attention Whore (15, 35 & 96).md" >}})
 
 16 - Get into the Guinness Book of World Records
 
@@ -72,7 +74,7 @@ Remaining: 20
 - Edinburgh Artist bar, The Mint
 
 21 - Be a Human Guinea Pig
-- [Website - 101 Things School Stupidity (10, 21, 83 & 95)]({{< relref "posts/Website - 101 Things School Stupidity (10, 21, 83 & 95).md" >}})
+- [Website - 101 Things - School Stupidity (10, 21, 83 & 95)]({{< relref "posts/Website - 101 Things - School Stupidity (10, 21, 83 & 95).md" >}})
 
 22 - Go Up in a Hot Air Balloon
 - Breda
@@ -91,7 +93,7 @@ Remaining: 20
 
 28 - Sky Dive
 - Bad Jump
-- [Website - 101 Things Adrenaline (28, 46 & 74)]({{< relref "posts/Website - 101 Things Adrenaline (28, 46 & 74).md" >}})
+- [Website - 101 Things - Adrenaline (28, 46 & 74)]({{< relref "posts/Website - 101 Things - Adrenaline (28, 46 & 74).md" >}})
 
 29 - Meet Your Idol
 - Star Struck by Sam Simmons, Tim Jarvis
@@ -110,11 +112,11 @@ Remaining: 20
 
 34 - Design Your Own Cocktail
 - Uni shenanigans
-- [Website - 101 Things Drinking (34, 65 & 93)]({{< relref "posts/Website - 101 Things Drinking (34, 65 & 93).md" >}})
+- [Website - 101 Things - Drinking (34, 65 & 93)]({{< relref "posts/Website - 101 Things - Drinking (34, 65 & 93).md" >}})
 
 35 - Play a Part in Your Favourite TV Show
 - Creatif, Mad As Hell cameo
-- [Website - 101 Things Attention Whore (15, 35 & 96)]({{< relref "posts/Website - 101 Things Attention Whore (15, 35 & 96).md" >}})
+- [Website - 101 Things - Attention Whore (15, 35 & 96)]({{< relref "posts/Website - 101 Things - Attention Whore (15, 35 & 96).md" >}})
 
 36 - Visit Every Country (or Continent)
 - [Trip - Antarctica - 2025 Nov]({{< relref "posts/Trip - Antarctica - 2025 Nov.md" >}})
@@ -138,17 +140,17 @@ Remaining: 20
 
 43 - Throw a Dart into a Map and Travel to Where it Lands 
 - Citibank with Paul (First deliberate 101 attempt)
-- [Website - 101 Things US Travel (43, 53 & 64)]({{< relref "posts/Website - 101 Things US Travel (43, 53 & 64).md" >}})
+- [Website - 101 Things - US Travel (43, 53 & 64)]({{< relref "posts/Website - 101 Things - US Travel (43, 53 & 64).md" >}})
 
 44 - Attend a Film Premiere
 - With Alex Ryan
 
 45 - Do a Runner From a Fancy Restaurant 
 - Difference between Sara and Alice
-- [Website - 101 Things Run Like Hell (45 & 84)]({{< relref "posts/Website - 101 Things Run Like Hell (45 & 84).md" >}})
+- [Website - 101 Things - Run Like Hell (45 & 84)]({{< relref "posts/Website - 101 Things - Run Like Hell (45 & 84).md" >}})
 - 
 46 - Scuba Dive
-- [Website - 101 Things Adrenaline (28, 46 & 74)]({{< relref "posts/Website - 101 Things Adrenaline (28, 46 & 74).md" >}})
+- [Website - 101 Things - Adrenaline (28, 46 & 74)]({{< relref "posts/Website - 101 Things - Adrenaline (28, 46 & 74).md" >}})
 
 47 - Milk a Cow | Tony's farm 
 
@@ -157,13 +159,13 @@ Remaining: 20
 
 49 - See Both Solar and Lunar Eclipses
 - School solar eclipse & Antarctica
-- - [Website - 101 Things Astronomy (49 & 77)]({{< relref "posts/Website - 101 Things Astronomy (49 & 77).md" >}})
+- - [Website - 101 Things - Astronomy (49 & 77)]({{< relref "posts/Website - 101 Things - Astronomy (49 & 77).md" >}})
 
 50 - Write Your Name Over a Star on the Walk of Fame
 - Tim Allen
 
 51 - Learn Another Language
-- [Website - 101 Things Languages (51 & 69)]({{< relref "posts/Website - 101 Things Languages (51 & 69).md" >}})
+- [Website - 101 Things - Languages (51 & 69)]({{< relref "posts/Website - 101 Things - Languages (51 & 69).md" >}})
 
 ==52 - Read the Greatest Books Ever Written - INCOMPLETE==
 - Hotel New Hampshire (John Irving)
@@ -171,7 +173,7 @@ Remaining: 20
 
 53 - Complete a Coast to Coast Road Trip Across America
 - With Paul
-- [Website - 101 Things US Travel (43, 53 & 64)]({{< relref "posts/Website - 101 Things US Travel (43, 53 & 64).md" >}})
+- [Website - 101 Things - US Travel (43, 53 & 64)]({{< relref "posts/Website - 101 Things - US Travel (43, 53 & 64).md" >}})
 
 54 - Make at Least One Huge Purchase You Can't Afford
 - Ed Fringe 2010 trip
@@ -200,10 +202,10 @@ Remaining: 20
 - Front page of ABC website for EEX (and Pines)
 
 64 - Drive a Car at Top Speed
-- [Website - 101 Things US Travel (43, 53 & 64)]({{< relref "posts/Website - 101 Things US Travel (43, 53 & 64).md" >}})
+- [Website - 101 Things - US Travel (43, 53 & 64)]({{< relref "posts/Website - 101 Things - US Travel (43, 53 & 64).md" >}})
 
 65 - Shout "Drinks Are on Me!" in a Pub or a Bar
-- [Website - 101 Things Drinking (34, 65 & 93)]({{< relref "posts/Website - 101 Things Drinking (34, 65 & 93).md" >}})
+- [Website - 101 Things - Drinking (34, 65 & 93)]({{< relref "posts/Website - 101 Things - Drinking (34, 65 & 93).md" >}})
 
 66 - Be Part of a Flash Mob
 
@@ -214,7 +216,7 @@ Remaining: 20
 - Written in Cosmic Nomad
 
 69 - In Various Languages Learn To...
-- [Website - 101 Things Languages (51 & 69)]({{< relref "posts/Website - 101 Things Languages (51 & 69).md" >}})
+- [Website - 101 Things - Languages (51 & 69)]({{< relref "posts/Website - 101 Things - Languages (51 & 69).md" >}})
 
 70 - Invent a Word That Makes it into the Dictionary
 
@@ -227,7 +229,7 @@ Remaining: 20
 
 74 - Learn to Fly a Plane 
 - Last flight near crash, then learned to skydive instead
-- [Website - 101 Things Adrenaline (28, 46 & 74)]({{< relref "posts/Website - 101 Things Adrenaline (28, 46 & 74).md" >}})
+- [Website - 101 Things - Adrenaline (28, 46 & 74)]({{< relref "posts/Website - 101 Things - Adrenaline (28, 46 & 74).md" >}})
 
 75 - Get a Tattoo and/or a Piercing
 
@@ -236,7 +238,7 @@ Remaining: 20
 
 77 - Learn Astronomy and Read the Night Sky
 - Written about in Cosmic Nomad
-- [Website - 101 Things Astronomy (49 & 77)]({{< relref "posts/Website - 101 Things Astronomy (49 & 77).md" >}})
+- [Website - 101 Things - Astronomy (49 & 77)]({{< relref "posts/Website - 101 Things - Astronomy (49 & 77).md" >}})
 
 78 - Drink a Vintage Wine
 - 
@@ -252,11 +254,11 @@ Remaining: 20
 ==82 - Build Your Own House - INCOMPLETE==
 
 83 - Skinny Dip at Midnight
-- [Website - 101 Things School Stupidity (10, 21, 83 & 95)]({{< relref "posts/Website - 101 Things School Stupidity (10, 21, 83 & 95).md" >}})
+- [Website - 101 Things - School Stupidity (10, 21, 83 & 95)]({{< relref "posts/Website - 101 Things - School Stupidity (10, 21, 83 & 95).md" >}})
 
 84 - Sell All Your Junk on eBay and Make a Profit
 - Warhammer 40K, Camera Parts
-- - [Website - 101 Things Run Like Hell (45 & 84)]({{< relref "posts/Website - 101 Things Run Like Hell (45 & 84).md" >}})
+- - [Website - 101 Things - Run Like Hell (45 & 84)]({{< relref "posts/Website - 101 Things - Run Like Hell (45 & 84).md" >}})
 
 ==85 - Visit the World's Tallest Buildings - INCOMPLETE==
 - Burj (Dubai), One World Trade Center (Freedom Tower) (NYC), Taipei 101 (Taiwan), Shanghai World Financial Center (Shanghai), Jin Mao Building (Shanghai), Citic Plaza (Guangzhou), Shun Hing Square (Shenzhen), International Commerce Centre (Union Square Phase 7) (Hong Kong), Two International Finance Centre (Hong Kong), Central Plaza (Hong Kong), Bank of China Tower (Hong Kong)
@@ -282,17 +284,17 @@ Remaining: 20
 
 93 - Complete the Monopoly Board Pub Crawl
 - Twice - 1st with Matilda, 2nd with RM
-- [Website - 101 Things Drinking (34, 65 & 93)]({{< relref "posts/Website - 101 Things Drinking (34, 65 & 93).md" >}})
+- [Website - 101 Things - Drinking (34, 65 & 93)]({{< relref "posts/Website - 101 Things - Drinking (34, 65 & 93).md" >}})
 
 94 - Get Something Named After You 
 - JAM Cave, La Ode Palsu
 
 95 - Get Revenge
-- [Website - 101 Things School Stupidity (10, 21, 83 & 95)]({{< relref "posts/Website - 101 Things School Stupidity (10, 21, 83 & 95).md" >}})
+- [Website - 101 Things - School Stupidity (10, 21, 83 & 95)]({{< relref "posts/Website - 101 Things - School Stupidity (10, 21, 83 & 95).md" >}})
 
 96 - Be an Extra in a Film
 - Not Art
-- [Website - 101 Things Attention Whore (15, 35 & 96)]({{< relref "posts/Website - 101 Things Attention Whore (15, 35 & 96).md" >}})
+- [Website - 101 Things - Attention Whore (15, 35 & 96)]({{< relref "posts/Website - 101 Things - Attention Whore (15, 35 & 96).md" >}})
 
 97 - Live Out of a Van 
 - Iceland, US Trip, Mt Gambier
@@ -307,8 +309,6 @@ Remaining: 20
 
 101 - Continue Your Gene Pool
 
+[Bucket List]({{< relref "posts/Bucket List.md" >}})
 # References
 [Book - 101 Things To Do Before You Die (Richard Horne)](https://www.goodreads.com/book/show/452240.101_Things_to_Do_Before_You_Die)
-[101 Things - To Do]({{< relref "posts/101 Things - To Do.md" >}})
-
-

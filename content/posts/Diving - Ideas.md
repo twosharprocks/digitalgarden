@@ -1,7 +1,7 @@
 ---
 title: Diving - Ideas
 created: 2025-01-01
-updated: 2026-07-02
+updated: 2026-07-22
 status: seed
 draft: false
 tags:
@@ -18,7 +18,7 @@ related:
 **I truly love cave diving and exploration**. Even if the interest of others fades, mine keeps coming *back over and over again*.
 
 # Random
-- Investigate https://cavewhere.com/ & [CaveAI App](https://www.caveaipro.com/)
+Investigate https://cavewhere.com/ & [CaveAI App](https://www.caveaipro.com/)
 Training - Full Cave CCR in Thailand with Por?
 
 Join NSS-CDS? https://www.facebook.com/share/1BNCb4BAjU/ 
@@ -28,17 +28,13 @@ Investigate [Dive Saga Youtube channel](https://www.youtube.com/@DiveSAGA)
 - [ ] [Writing]({{< relref "posts/writing.md" >}}) - Create/update [Wikipedia](https://en.wikipedia.org/w/index.php?title=Special:Homepage&namespace=-1&source=personaltoolslink)pages for caves
 - [ ] Create Obsidian Pages from CaveDB 
 
-- [LiDAR - Raven Handheld Unit](https://store.3dmakerpro.com/products/raven) 
-	- What do you want to do with all this photogrammetry & lidar data?
-
 - Soggy Wombats merch store (Redbubble?)
 - CEGSA Presentation on Sulawesi? On Murra? Thailand?
 - Articles written about each discovery (Eng East, Iddlebiddy, Pines, Murra, Gua Lapahia, Moko Morete) 
 - Create #tightsqueezetuesday of Gadi Gap
 - "Josh's Restriction" in La Ode Palsu (Sulawesi) (first time something named after me?)
 - Get CCR hours at Burra Mine Pool
-
-
+- Explore/Dive Mullamullang Cave - 6N37
 - Migrate all cave data onto Google Earth
 	- Get all your cave data from CaveDB onto Google Maps (remember this is ***Streetview for caves***)
 
@@ -56,7 +52,6 @@ Investigate [Dive Saga Youtube channel](https://www.youtube.com/@DiveSAGA)
 	- https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201011/JNJ-S-1011-19.html
 	- Fuzz? https://st1.asflib.net/MEDIA/
 	- [Link to ChatGPT chat](https://chatgpt.com/share/68e79a30-23c8-8006-b67a-3658b82567f7) 
-	- Matt Aisbett keen to do MOD2
 - Look at Dive Talk's approach (Speaking Sidemount with Gus Gonzales)
 - Cave diving TV show is becoming more important - think about filming expeditions
 - Test [Minotaur Cave mapping Software](https://github.com/VlasovAlexey/Minotaur)

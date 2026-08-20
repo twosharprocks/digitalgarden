@@ -2,7 +2,7 @@
 title: Trips
 created: 2026-06-19
 updated: 2026-07-13
-status: Index
+status: index
 draft: false
 tags:
   - index

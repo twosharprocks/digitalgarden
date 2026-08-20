@@ -2,7 +2,7 @@
 title: Patreon - Drawing February 20 2018
 created: 2026-06-18
 updated: 2026-06-18
-status: seed
+status: tree
 draft: false
 tags:
   - writing

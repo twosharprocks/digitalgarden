@@ -29,15 +29,15 @@ related:
 - [Little Blue Lake - 5L9]({{< relref "posts/Little Blue Lake - 5L9.md" >}})
 - [Hell's Hole - 5L40]({{< relref "posts/Hell's Hole - 5L40.md" >}})
 - [The Sisters Sinkhole - 5L43-44]({{< relref "posts/The Sisters Sinkhole - 5L43-44.md" >}})
-- [Kilby's Sinkhole - 5L46]({{< relref "posts/Kilby's Sinkhole - 5L46.md" >}})
+- [Kilsby's Sinkhole - 5L46]({{< relref "posts/Kilsby's Sinkhole - 5L46.md" >}})
 - [Tea Tree Sinkhole - 5L128]({{< relref "posts/Tea Tree Sinkhole - 5L128.md" >}})
 - [Horse & Cart Sinkhole - 5L129]({{< relref "posts/Horse & Cart Sinkhole - 5L129.md" >}})
 - [The Shaft - 5L158]({{< relref "posts/The Shaft - 5L158.md" >}})
-- [Ela Elap - 5L14 - CLOSED]({{< relref "posts/Ela Elap - 5L14 - CLOSED.md" >}})
+- [Ela Elap - 5L14]({{< relref "posts/Ela Elap - 5L14.md" >}})
 - [Ten Eighty Sinkhole - 5L42 - CLOSED]({{< relref "posts/Ten Eighty Sinkhole - 5L42 - CLOSED.md" >}})
 - [The Bullock Hole - 5L163 - CLOSED]({{< relref "posts/The Bullock Hole - 5L163 - CLOSED.md" >}})
 - [The Black Hole - 5L47 - CLOSED]({{< relref "posts/The Black Hole - 5L47 - CLOSED.md" >}})
-- [Picanninnie Ponds - 5L72 - CLOSED]({{< relref "posts/Picanninnie Ponds - 5L72 - CLOSED.md" >}})
+- [Picanninnie Ponds - 5L72]({{< relref "posts/Picanninnie Ponds - 5L72.md" >}})
 - [Allendale - 5L11]({{< relref "posts/Allendale - 5L11.md" >}})
 - [Englebrecht's Cave - 5L19-20]({{< relref "posts/Englebrecht's Cave - 5L19-20.md" >}})
 - [The Pines - 5L61]({{< relref "posts/The Pines - 5L61.md" >}})
@@ -47,7 +47,7 @@ related:
 - [Bakers Cave - 5L285]({{< relref "posts/Bakers Cave - 5L285.md" >}})
 - [Nettlebed - 5L290]({{< relref "posts/Nettlebed - 5L290.md" >}})
 - [Max's Hole - 5L100 - CLOSED]({{< relref "posts/Max's Hole - 5L100 - CLOSED.md" >}})
-- Hancock’s Cave - 5L66 - CLOSED
+- Hancock’s Cave - 5L66
 - [McKay's Shaft - 5L125 - CLOSED]({{< relref "posts/McKay's Shaft - 5L125 - CLOSED.md" >}})
 - [The Three Sisters - 5L13]({{< relref "posts/The Three Sisters - 5L13.md" >}})
 - [5L20 - Englebrecht's West]({{< relref "posts/5L20 - Englebrecht's West.md" >}})
@@ -56,7 +56,7 @@ related:
 - [Tank Cave - 5L230]({{< relref "posts/Tank Cave - 5L230.md" >}})
 - [Hann's Cave - 5L - CLOSED]({{< relref "posts/Hann's Cave - 5L - CLOSED.md" >}})
 - [5L019 - Englebrecht's East]({{< relref "posts/5L019 - Englebrecht's East.md" >}})
-- Hancock's Cave - 5L66 - CLOSED
+- Hancock's Cave - 5L66
 
 # References
 - Lower South East Cave Reference (Horne, 1993).pdf

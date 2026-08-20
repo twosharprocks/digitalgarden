@@ -2,7 +2,7 @@
 title: Website - 101 Things
 created: 2025-11-17
 updated: 2026-06-18
-status: seed
+status: tree
 draft: false
 tags:
   - 101-things

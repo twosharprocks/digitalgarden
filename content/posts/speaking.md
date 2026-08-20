@@ -13,14 +13,14 @@ related:
   - "[[Exploration]]"
   - "[[Diving]]"
 ---
----
 My next keynote will be about being a life-long diver. 
 - Being one hell of a swimmer & tolerant to the cold.
-- Risk Management, Operational/Mission Focus, Small Teams
-
----
-Other Topics
-AI, Quantum Computing, Gunter Anders, Year 2038 Problem
+- Risk Management, Operational/Mission Focus, Small Teams (aka Antarctic Field Officer)
+# Topics
+- [AI - Ideas]({{< relref "posts/AI - Ideas.md" >}})
+- Quantum Computing,
+- The obsolescence of man - Günther Anders, 
+- [Y2038 - Epochalypse]({{< relref "posts/Y2038 - Epochalypse.md" >}})
 
 [AI - Ideas]({{< relref "posts/AI - Ideas.md" >}})
 - [AI has bigger role in cybersecurity, but hackers may benefit the most](https://www.cnbc.com/2022/09/13/ai-has-bigger-role-in-cybersecurity-but-hackers-may-benefit-the-most.html)
@@ -45,14 +45,14 @@ Quantum Computing
 - [Can a Quantum Computer Hack Bitcoin? | NGRAVE](https://www.ngrave.io/en/blog/can-a-quantum-computer-hack-bitcoin)
 - [Quantum computing for the determined (Link) - LessWrong](https://www.lesswrong.com/posts/GjDQgyGhZ4EepW3YR/quantum-computing-for-the-determined-link)
 
-Gunter Anders
+The obsolescence of man - Günther Anders
 - [Günther Anders, a forgotten prophet for the 21st century? | Aeon Essays](https://aeon.co/essays/gunther-anders-a-forgotten-prophet-for-the-21st-century)
 - [Under Capitalism, the Colonization of Space Means the Destruction of Earth](https://jacobin.com/2022/07/colonization-space-exploration-moon-gunther-anders-privatization-earth-destruction)
 - https://libcom.org/tags/gunther-anders
-	- [Work will not set you free - Notes on Günther Anders – Franz Schandl | libcom.org](https://libcom.org/article/work-will-not-set-you-free-notes-gunther-anders-franz-schandl)
-	- [The obsolescence of man - Günther Anders]({{< relref "posts/Sources/The obsolescence of man - Günther Anders.md" >}})
+- [Work will not set you free - Notes on Günther Anders – Franz Schandl | libcom.org](https://libcom.org/article/work-will-not-set-you-free-notes-gunther-anders-franz-schandl)
 
-[Year 2038 Problem](https://en.wikipedia.org/wiki/Year_2038_problem) or [Epochalypse]({{< relref "posts/epochalypse.md" >}})
+[Y2038 - Epochalypse]({{< relref "posts/Y2038 - Epochalypse.md" >}})
+- [Wikipedia - Year 2038 Problem](https://en.wikipedia.org/wiki/Year_2038_problem)
 - [The Year 2038 Problem - What it is, Why it will happen & How to fix it](https://theyear2038problem.com/)
 - https://epochalypse-project.org/
 - https://www.epochalypse.today/

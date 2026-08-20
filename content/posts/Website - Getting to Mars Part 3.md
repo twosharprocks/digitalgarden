@@ -2,7 +2,7 @@
 title: Website - Getting to Mars Part 3
 created: 2026-01-26
 updated: 2026-07-17
-status: evergreen
+status: tree
 draft: false
 tags:
   - writing

@@ -11,7 +11,7 @@ related:
   - "[[Mini Essays]]"
   - "[[Bucket List]]"
   - "[[101 Things - Complete List]]"
-  - "[[101 Things - To Do]]"
+  - "[[Bucket List]]"
   - "[[Book - 101 Things]]"
   - "[[50 Goals (Old Version)]]"
   - "[[Writing]]"
@@ -25,7 +25,9 @@ In many ways, I'd really like to sort through and tick off a lot of the things o
 
 Right now I have too many different boring things pulling me in too many different directions, and I really lack the strong sense of direction that I've experienced before while pursuing my bucket list items. Putting together a ridiculous bucket list that pulls all my different lists together and distils them into something that provides purpose and the opportunity for incredible storytelling is what's most important here. 
 
-So with that in mind, go through the remaining [101 Things - To Do]({{< relref "posts/101 Things - To Do.md" >}}) and start putting together the mini-essays you'll need to write Book - 101 Things. Look at your [Bucket List]({{< relref "posts/Bucket List.md" >}}) and figure out which parts are genuinely important to you - from that, you'll be able to refine it all into this "Ridiculous Bucket List" you're thinking of. But above all, it's vital that you're writing about all of this, because there's no point in having these incredible experiences if you can't share them through storytelling. Ultimately it's the books you write that will remain when you're long gone, and they'll indirectly help people far more than you ever could directly.
+So with that in mind, go through the remaining [Bucket List]({{< relref "posts/Bucket List.md" >}}) and start putting together the mini-essays you'll need to write Book - 101 Things. Look at your [Bucket List]({{< relref "posts/Bucket List.md" >}}) and figure out which parts are genuinely important to you - from that, you'll be able to refine it all into this "Ridiculous Bucket List" you're thinking of. But above all, it's vital that you're writing about all of this, because there's no point in having these incredible experiences if you can't share them through storytelling. Ultimately it's the books you write that will remain when you're long gone, and they'll indirectly help people far more than you ever could directly.
+
+
 
 
 ---

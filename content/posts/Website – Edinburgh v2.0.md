@@ -2,7 +2,7 @@
 title: Website – Edinburgh v2.0
 created: 2026-01-21
 updated: 2026-06-18
-status: seed
+status: tree
 draft: false
 tags:
   - writing

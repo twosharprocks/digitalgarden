@@ -1,7 +1,7 @@
 ---
 title: Diving - Gear
 created: 2026-01-26
-updated: 2026-07-17
+updated: 2026-07-18
 status: tree
 draft: false
 tags:
@@ -53,6 +53,7 @@ Video Lights:
 
 * *[Certification - TDI Cave DPV](https://www.tdisdi.com/tdi/get-certified/tdi-dpv-cave-diver/)*
 * *[Accessory - Seacraft ENC3 Console](https://www.mydivegear.com.au/products/seacraftenc3fullset) - $3,900AUD*
+* Helmets - [NRS Tactyl](https://www.nrs.com/nrs-tactyl-helmet/py3c) (Speak to Matt Waters)
 # CCR
 *  [Dive Rite ChOptima](https://deepblueventures.com.au/rebreather/optima-cm-ccr) 
 	* [ChOptima Scooter Ring](https://diverite.com/products/o2ptima/o2ptima-cm-scooter-ring/)

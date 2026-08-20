@@ -5,7 +5,7 @@ updated: 2026-01-04
 status: seed
 draft: false
 tags:
-  - source
+  - reference
   - interests
 related: 
   - "[[Personal]]"

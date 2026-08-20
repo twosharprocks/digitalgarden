@@ -1,8 +1,8 @@
 ---
 title: Writing
 created: 2026-06-19
-updated: 2026-07-08
-status: Index
+updated: 2026-07-18
+status: index
 draft: false
 tags:
   - index
@@ -10,13 +10,12 @@ tags:
   - writing
 related:
   - "[[Writing - Ideas]]"
-  - Books
   - "[[Mini Essays]]"
   - "[[Articles]]"
   - "[[About]]"
+  - "[[Books]]"
 ---
-Writing, essays, articles, book projects, older website posts, and notes about making ideas easier to return to.
-
+Writing, essays, articles, book projects, older website posts, and ideas to return to.
 # Books
 - *[Becoming Martian](https://www.amazon.com.au/gp/product/B07492C61L/)*
 - *[Cosmic Nomad](https://www.amazon.com.au/gp/product/B08FZRTYDW)*
@@ -28,15 +27,14 @@ Writing, essays, articles, book projects, older website posts, and notes about m
 - Book - Apocalypse
 - Book - Information Theory
 # [Articles]({{< relref "posts/Articles.md" >}})
+- [Article - Exploring Japan’s Hidden Rivers]({{< relref "posts/Article - Exploring Japan’s Hidden Rivers.md" >}})
 - [Article - Corra-Lynn]({{< relref "posts/Article - Corra-Lynn.md" >}})
 - [Article - Iddlebiddy Cave - Soggy Wombats - DRAFT]({{< relref "posts/Article - Iddlebiddy Cave - Soggy Wombats.md" >}})
-- [Article - Exploring Japan’s Hidden Rivers]({{< relref "posts/Article - Exploring Japan’s Hidden Rivers.md" >}})
 - [Article - Making Sense with MNemo]({{< relref "posts/Article - Making Sense with MNemo.md" >}})
 - [Article - The Crazy Wombat Tunnel]({{< relref "posts/Article - The Crazy Wombat Tunnel.md" >}})
 - [Article - Unveiling the Crazy Wombat Tunnel]({{< relref "posts/Article - Unveiling the Crazy Wombat Tunnel.md" >}})
 - [Article - What's Your ppO2]({{< relref "posts/Article - What's Your ppO2.md" >}})
 # [Mini Essays]({{< relref "posts/Mini Essays.md" >}})
-
 - [Mini Essay - If Mars One rebooted]({{< relref "posts/Mini Essay - If Mars One rebooted.md" >}})
 - [Mini Essay - Secret to dealing with work]({{< relref "posts/Mini Essay - Secret to dealing with work.md" >}})
 - [Mini Essay - Not Fade Away (Jim Dodge)]({{< relref "posts/Mini Essay - Not Fade Away (Jim Dodge).md" >}})
@@ -84,16 +82,16 @@ Writing, essays, articles, book projects, older website posts, and notes about m
 - [Website - 101 Things]({{< relref "posts/Website - 101 Things.md" >}})
 - [Website - 101 Things - 17 Own a Pointless Collection]({{< relref "posts/Website - 101 Things - 17 Own a Pointless Collection.md" >}})
 - [Website - 101 Things - 37 Make Fire Without Matches]({{< relref "posts/Website - 101 Things - 37 Make Fire Without Matches.md" >}})
-- [Website - 101 Things 4 Catch a Fish With Your Bare Hands]({{< relref "posts/Website - 101 Things 4 Catch a Fish With Your Bare Hands.md" >}})
-- [Website - 101 Things 9 Learn That Instrument]({{< relref "posts/Website - 101 Things 9 Learn That Instrument.md" >}})
-- [Website - 101 Things Adrenaline (28, 46 & 74)]({{< relref "posts/Website - 101 Things Adrenaline (28, 46 & 74).md" >}})
-- [Website - 101 Things Astronomy (49 & 77)]({{< relref "posts/Website - 101 Things Astronomy (49 & 77).md" >}})
-- [Website - 101 Things Attention Whore (15, 35 & 96)]({{< relref "posts/Website - 101 Things Attention Whore (15, 35 & 96).md" >}})
-- [Website - 101 Things Drinking (34, 65 & 93)]({{< relref "posts/Website - 101 Things Drinking (34, 65 & 93).md" >}})
-- [Website - 101 Things Languages (51 & 69)]({{< relref "posts/Website - 101 Things Languages (51 & 69).md" >}})
-- [Website - 101 Things Run Like Hell (45 & 84)]({{< relref "posts/Website - 101 Things Run Like Hell (45 & 84).md" >}})
-- [Website - 101 Things School Stupidity (10, 21, 83 & 95)]({{< relref "posts/Website - 101 Things School Stupidity (10, 21, 83 & 95).md" >}})
-- [Website - 101 Things US Travel (43, 53 & 64)]({{< relref "posts/Website - 101 Things US Travel (43, 53 & 64).md" >}})
+- [Website - 101 Things - 4 Catch a Fish With Your Bare Hands]({{< relref "posts/Website - 101 Things - 4 Catch a Fish With Your Bare Hands.md" >}})
+- [Website - 101 Things - 9 Learn That Instrument]({{< relref "posts/Website - 101 Things - 9 Learn That Instrument.md" >}})
+- [Website - 101 Things - Adrenaline (28, 46 & 74)]({{< relref "posts/Website - 101 Things - Adrenaline (28, 46 & 74).md" >}})
+- [Website - 101 Things - Astronomy (49 & 77)]({{< relref "posts/Website - 101 Things - Astronomy (49 & 77).md" >}})
+- [Website - 101 Things - Attention Whore (15, 35 & 96)]({{< relref "posts/Website - 101 Things - Attention Whore (15, 35 & 96).md" >}})
+- [Website - 101 Things - Drinking (34, 65 & 93)]({{< relref "posts/Website - 101 Things - Drinking (34, 65 & 93).md" >}})
+- [Website - 101 Things - Languages (51 & 69)]({{< relref "posts/Website - 101 Things - Languages (51 & 69).md" >}})
+- [Website - 101 Things - Run Like Hell (45 & 84)]({{< relref "posts/Website - 101 Things - Run Like Hell (45 & 84).md" >}})
+- [Website - 101 Things - School Stupidity (10, 21, 83 & 95)]({{< relref "posts/Website - 101 Things - School Stupidity (10, 21, 83 & 95).md" >}})
+- [Website - 101 Things - US Travel (43, 53 & 64)]({{< relref "posts/Website - 101 Things - US Travel (43, 53 & 64).md" >}})
 - [Website - 2016 End of Year Review]({{< relref "posts/Website - 2016 End of Year Review.md" >}})
 - [Website - Airport Hell]({{< relref "posts/Website - Airport Hell.md" >}})
 - [Website - Badgers, Bender and Ink]({{< relref "posts/Website - Badgers, Bender and Ink.md" >}})
@@ -133,8 +131,8 @@ Writing, essays, articles, book projects, older website posts, and notes about m
 - [Website - US Relations Tour Days 21, 26 & 29]({{< relref "posts/Website - US Relations Tour Days 21, 26 & 29.md" >}})
 - [Website - Why I don't get invited to writers festivals anymore]({{< relref "posts/Website - Why I don't get invited to writers festivals anymore.md" >}})
 - [Website - Womadelaide]({{< relref "posts/Website - Womadelaide.md" >}})
-- [Website – 101 Things (2 Swim With…)]({{< relref "posts/Website – 101 Things (2 Swim With…).md" >}})
-- [Website – 101 Things (79 Speed Dating)  The Mighty Ginge]({{< relref "posts/Website – 101 Things (79 Speed Dating)  The Mighty Ginge.md" >}})
+- [Website – 101 Things - 2 Swim With…]({{< relref "posts/Website – 101 Things - 2 Swim With….md" >}})
+- [Website – 101 Things - 79 Speed Dating]({{< relref "posts/Website – 101 Things - 79 Speed Dating.md" >}})
 - [Website – 28 November 2016]({{< relref "posts/Website – 28 November 2016.md" >}})
 - [Website – A Message to God]({{< relref "posts/Website – A Message to God.md" >}})
 - [Website – Diving between continents & hiking to desolation Iceland]({{< relref "posts/Website – Diving between continents & hiking to desolation Iceland.md" >}})
