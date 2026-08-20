@@ -21,13 +21,13 @@ related:
 ---
 Reference: https://soggywombats.com.au/2024/04/15/making-sense-with-mnemo/
 
-mnemo
+![Mnemov1](/images/MNemoV1.jpg)
 `My v1 MNemo with a graphite pencil for note-taking`
 
 Like most folks stuck in Melbourne's lockdown, I didn't have much to get excited about during 2020. Having finished my cave course in late 2019 and then leaving Mount Gambier under less than ideal circumstances, all I could do was dream about was getting back to explore the caves I was finally qualified to get into. More than just diving and admiring them though, I desperately wanted to get back to try and understand Mount Gambier's caves - why they're shaped the way they are, understand how the different rock formations have developed, and (like every new and overly optimistic cave diver) hopefully use all of that to discover something new!
 
 But trapped in lockdown, all I could do was dream, plan... and shop online. A few months into the pandemic I'd learned about a little black box being used by exploration cave divers all around the world to develop quick and relatively accurate line surveys, and immediately realised the best way to use my COVID-19 relief payment was to send it to a German electrical engineer in Mexico called Sébastien. Six weeks later a package from Playa Del Carmen arrived on my doorstep, I opened it up, and started jumping with excitement at the idea of surveying every cave on the Limestone Coast... as soon as the borders reopened.
-![Pasted image 20250412172744](/images/Pasted%20image%2020250412172744.png)
+![Backofrav4](/images/backofRav4.jpg)
 `The back of the car, ready to roll back over the border with Russ & the Space Narwhal`
 
 At it's core, the MNemo is a just an underwater line-measuring device with a built in depth gauge and compass. By pulling open a Delrin gate in the middle of the device, you place the cave line inside and lock it into place. From there it's simply a case of holding the MNemo level to take a compass and depth reading, and pushing the MNemo along the line to measure it's length. Once you get to the other end, you take a second compass & depth measurement, and the MNemo averages out the two readings and uses the line length to provide a straight-line "shot". Put a series of these shots together consecutively, and you wind up with a stick map survey of your cave - easy!
