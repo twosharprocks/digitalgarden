@@ -23,73 +23,16 @@ related:
   - "[[Trips]]"
   - "[[Diving]]"
   - "[[Planning - Nullarbor]]"
+  - "[[Filming - Documentary on Nullarbor]]"
 ---
 # To Do
-- [ ] Plan/Review Trip Filming
-	 - [ ] Filming - Documentary on Nullarbor
-- [ ] Organise Masterclass - Expedition Planning (2026-09-05)
+- [x] Plan Filming - Documentary on Nullarbor
+- [x] Plan Podcast
+- [x] $500 cash
+- [ ] Organise Presentation - Expedition Planning (2026-09-05)
 - [ ] CaveDB - Extract Nullabor Data
- - [ ] Organise/Plan Masterclass - Expedition Planning (2026-09-05)
-- [ ] CaveDB - Extract Nullabor Data
-- [ ] Organise/Plan Masterclass - Expedition Planning (2026-09-05)
 - [ ] BlackTip VSEC Tool
 - [ ] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) - Download dives
-
-For Trip
-- Complete tasks for VW Transporter
-	- [x] Full Service
-	- [x] Toilet
-	- [x] Order Airfryer
-	- [x] Order Fridge Seat
-	- [x] Insulation & Paneling
-	- [x] Fit Busbars
-	- [x] Fix Headlight
-- Gear
-	- [x] DPV from Matt Rochford
-	- [x] Build & Test Dry Tube (Add clips)
-	- [x] Build/Test 360 Camera
-		- [x] SS Clips for video lights (x4)
-	- [x] Kilsby Shakeout - 2026-08-08
-		- [x] Test DPV
-		- [x] Test Drytubes
-		- [x] Take LiDAR
-	- [x] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) - Full build & Check
-	- [x] Drybox for LiDAR & X4
-	- [x] Order [Kings - 3x3m Portable Gazebo](https://www.4wdsupacentre.com.au/specials/kings-portable-gazebo-3m-x-3m-heavy-duty-steel-frame-upf50-waterproof.html)
-	- [x] Camping Gas
-	- [x] Test Shower
-- [x] Contact - Krunchy for Murra map
-- [x] Contact - Ken Smith for Pingers & JDZ data
-- [x] Contact - Jarred Hotchkin for nearby cave & Intro to Lewy
-# Packing List
-- Photogrammetry
-	- [x] 2x BigBlue 18k lights
-	- [x] 2x Skywood video lights
-	- [x] 2x Float arms & 2x clamps
-	- [x] 2x Triple Clamp
-	- [x] 1x Float stick
-	- [x] Selfie stick (for DPV)
-	- Cameras 
-		- [x] X5 with glass & plastic
-		- [x] X4 with Raven
-- Camping
-	- [x] Water - 20L, Shower, 10L, 6L, all flasks
-	- [x] Wetwipes
-	- [x] Firepit
-	- [x] Campchair 
-- Food (22 days)
-	- [ ] 2x Eggs (12 packs)
-	- [x] 2x Sausages (12 packs)
-	- [x] 3x Wraps (8 packs)
-	- [x] 4x Avocado
-	- [x] 4x Noodles (5 packs)
-	- [x] 3x Salami
-	- [ ] Snacks - Salami Sticks, Cashews, 
-	- [ ] *Freezer - move to fridge*
-- Drinks
-	- [x] Coke Zero, Ginger Beer
-	- [ ] Cider
-	- [ ] Spirits
 # To Do - On-Site
 [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
 - [ ] LiDAR - Vardose
@@ -118,6 +61,7 @@ For Trip
 	- Stay: Near/Beyond Ceduna
 - 2026-08-22 Sat: Travel
 	- *Drive: Ceduna-Madura (7hrs) onto Murra (1hr via roadhouse)*
+	- Setup camp
 	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
 - 2026-08-23 Sun: Action
 	- 
@@ -193,6 +137,60 @@ For Trip
 
 # Other Notes
 
+## To Do
+- Complete tasks for VW Transporter
+	- [x] Full Service
+	- [x] Toilet
+	- [x] Order Airfryer
+	- [x] Order Fridge Seat
+	- [x] Insulation & Paneling
+	- [x] Fit Busbars
+	- [x] Fix Headlight
+- Gear
+	- [x] DPV from Matt Rochford
+	- [x] Build & Test Dry Tube (Add clips)
+	- [x] Build/Test 360 Camera
+		- [x] SS Clips for video lights (x4)
+	- [x] Kilsby Shakeout - 2026-08-08
+		- [x] Test DPV
+		- [x] Test Drytubes
+		- [x] Take LiDAR
+	- [x] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) - Full build & Check
+	- [x] Drybox for LiDAR & X4
+	- [x] Order [Kings - 3x3m Portable Gazebo](https://www.4wdsupacentre.com.au/specials/kings-portable-gazebo-3m-x-3m-heavy-duty-steel-frame-upf50-waterproof.html)
+	- [x] Camping Gas
+	- [x] Test Shower
+- [x] Contact - Krunchy for Murra map
+- [x] Contact - Ken Smith for Pingers & JDZ data
+- [x] Contact - Jarred Hotchkin for nearby cave & Intro to Lewy
+# Packing List
+- Photogrammetry
+	- [x] 2x BigBlue 18k lights
+	- [x] 2x Skywood video lights
+	- [x] 2x Float arms & 2x clamps
+	- [x] 2x Triple Clamp
+	- [x] 1x Float stick
+	- [x] Selfie stick (for DPV)
+	- Cameras 
+		- [x] X5 with glass & plastic
+		- [x] X4 with Raven
+- Camping
+	- [x] Water - 20L, Shower, 10L, 6L, all flasks
+	- [x] Wetwipes
+	- [x] Firepit
+	- [x] Campchair 
+- Food (22 days)
+	- [x] 2x Eggs (12 packs)
+	- [x] 2x Sausages (12 packs)
+	- [x] 3x Wraps (8 packs)
+	- [x] 4x Avocado
+	- [x] 4x Noodles (5 packs)
+	- [x] 3x Salami
+	- [x] Snacks - Salami Sticks, Cashews, 
+	- [x] *Freezer - move to fridge*
+- Drinks
+	- [x] Coke Zero, Ginger Beer
+	- [x] Spirits
 
 ---
 # References
