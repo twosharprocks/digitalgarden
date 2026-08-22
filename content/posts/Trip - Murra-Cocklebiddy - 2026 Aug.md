@@ -1,7 +1,7 @@
 ---
 title: Trip - Murra-Cocklebiddy - 2026 Aug
 created: 2025-10-19
-updated: 2026-08-20
+updated: 2026-08-22
 status: planning
 draft: false
 tags:
@@ -26,9 +26,6 @@ related:
   - "[[Filming - Documentary on Nullarbor]]"
 ---
 # To Do
-- [x] Plan Filming - Documentary on Nullarbor
-- [x] Plan Podcast
-- [x] $500 cash
 - [ ] Organise Presentation - Expedition Planning (2026-09-05)
 - [ ] CaveDB - Extract Nullabor Data
 - [ ] BlackTip VSEC Tool
@@ -58,33 +55,35 @@ related:
 
 - 2026-08-21 Friday: Travel
 	- *Drive: ADL-Ceduna (8.5hrs)*
-	- Stay: Near/Beyond Ceduna
-- 2026-08-22 Sat: Travel
-	- *Drive: Ceduna-Madura (7hrs) onto Murra (1hr via roadhouse)*
+	- Stay: Penong (Ampol Service Station)
+- 2026-08-22 Sat: Travel & Setup
+	- *Drive: Ceduna-Madura (7hrs) onto Murra (1hr via Cocklebiddy roadhouse)*
+		- Saw James & Nancy at WA Border, drove together to Murra
 	- Setup camp
-	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
-- 2026-08-23 Sun: Action
+	- Setup Cave: Bags and Cylinders 75% into cave, exhausted and out by 8pm
+	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 1 of 8
+- 2026-08-23 Sun: Diving
 	- 
-	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
-- 2026-08-24 Mon: Action
+	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 2 of 8
+- 2026-08-24 Mon: Diving
 	- 
-	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
-- 2026-08-25 Tue: Action
+	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 3 of 8
+- 2026-08-25 Tue: Diving
 	- 
-	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
-- 2026-08-26 Wed: Action
+	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 4 of 8
+- 2026-08-26 Wed: Diving
 	- 
-	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
-- 2026-08-27 Thu: Action
+	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 5 of 8
+- 2026-08-27 Thu: Diving
 	- 
-	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
-- 2026-08-28 Fri: Action
+	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 6 of 8
+- 2026-08-28 Fri: Diving
 	- 
-	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
-- 2026-08-29 Sat: Action
+	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 7 of 8
+- 2026-08-29 Sat: Diving
 	- 
-	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
-- 2026-08-30 Sun: Murra - Pack up
+	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 8 of 8
+- 2026-08-30 Sun: Haul Out
 	- 
 	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
 - 2026-08-31 Mon: Move campsites
@@ -160,9 +159,13 @@ related:
 	- [x] Order [Kings - 3x3m Portable Gazebo](https://www.4wdsupacentre.com.au/specials/kings-portable-gazebo-3m-x-3m-heavy-duty-steel-frame-upf50-waterproof.html)
 	- [x] Camping Gas
 	- [x] Test Shower
-- [x] Contact - Krunchy for Murra map
-- [x] Contact - Ken Smith for Pingers & JDZ data
-- [x] Contact - Jarred Hotchkin for nearby cave & Intro to Lewy
+- Other
+	- [x] Contact - Krunchy for Murra map
+	- [x] Contact - Ken Smith for Pingers & JDZ data
+	- [x] Contact - Jarred Hotchkin for nearby cave & Intro to Lewy
+	- [x] Plan Filming - Documentary on Nullarbor
+	- [x] Plan Podcast
+- [x] $500 cash
 # Packing List
 - Photogrammetry
 	- [x] 2x BigBlue 18k lights
