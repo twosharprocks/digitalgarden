@@ -1,7 +1,7 @@
 ---
 title: Expedition Calendar
 created: 2025-06-29
-updated: 2026-07-17
+updated: 2026-08-23
 status: tree
 draft: false
 tags:
@@ -23,13 +23,13 @@ related:
 2027
 - Apr: Trip - Vanuatu - 2027 April
 	- Trip - ADEX Singapore - 2027 April
-- Sep: Trip - Sydney GoDiving Conference  - 2027 Sept
-- Oct: Trip - Spain France Portugal - 2028 Sept DivingTalks Conference
-- Dec: Trip - Mexico - 2027 Dec 
+- Aug: Trip - Christmas Island 2027 Aug
+- Sept: Trip - Sydney GoDiving Conference  - 2027 Sept
 
 2028
 - June: Trip - Bikini Atoll - 2028 June
-- [Madagascar]({{< relref "posts/madagascar.md" >}})
+- [Madagascar]({{< relref "posts/madagascar.md" >}})?
+- Sept: Trip - Spain France Portugal - 2028 Sept
 # Best Times
 Jan
 - **[New Zealand]({{< relref "posts/New Zealand.md" >}}) - Jan-March
