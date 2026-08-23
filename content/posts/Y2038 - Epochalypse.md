@@ -1,7 +1,7 @@
 ---
 title: Y2038 - Epochalypse
 created: 2025-11-01
-updated: 2026-07-30
+updated: 2026-08-23
 status: seed
 draft: false
 tags:
@@ -13,8 +13,6 @@ related:
 *On 19 January 2038 at 03:14:07 UTC implementations relying on 32-bit signed integer representations of Unix epoch time will overflow, resulting in a system time of 20:45:52 UTC on 13 December 1901*
 
 [Time Security SIG](https://www.first.org/global/sigs/time/) - The Time Security SIG exists to help the global FIRST community prepare for the 2036–2038 epoch rollovers. By coordinating research, testing, and outreach on time integrity, the SIG connects CSIRTs, vendors, and standards bodies to strengthen resilience across critical infrastructure. Our goal: ensure the world’s clocks keep running — securely — long past 2038.
-
-[Youtube - 2038 Is Not A Future Issue Get That Through Your Thick Skull](https://www.youtube.com/watch?v=zKk_pBQKTHg)
 
 # MilCom Presentation
 **Title**: After the Epochalypse - Assuring Defence and Critical Infrastructure in 2038 and beyond
@@ -30,10 +28,18 @@ The presentation will offer a practical approach to managing Y2038 risk by locat
 **Alignment with Criteria:**
 This presentation reinforces AE's reputation as an industry leader providing cyberworthiness, risk management, and technical expertise to support Defence through a threat-informed and risk-based approach. The presentation topic supports AE's mission to "Secure Australia" by raising awareness about a significant threat to the future capability of Defence and Critical Infrastructure, providing vulnerability information to clients and stakeholders, while also showcasing and building Alpha Echo's reputation as an innovative and forward-thinking contractor. If scanning for time representations that use signed 32-bit integers can be integrated into a developing AE product (one that detects vulnerabilities in systems it's connected to) then this presentation could also help showcase an emerging AE capability and offer a potential solution to the issue.
 
+---
+- Research Unix Time
+- Show timeline (why it jumps to 1902)
+- Where can we find 32-bit systems?
+	- What will they do in 2038?
+	- What will they do before then?
 
 ---
 **This also reminds me of**... 
-
+- Releated to Book - Death, Time & Reality
+	- PQC is also related
+- [Youtube - 2038 Is Not A Future Issue Get That Through Your Thick Skull](https://www.youtube.com/watch?v=zKk_pBQKTHg)
 ---
 # References
 

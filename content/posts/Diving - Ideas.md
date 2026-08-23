@@ -1,7 +1,7 @@
 ---
 title: Diving - Ideas
 created: 2025-01-01
-updated: 2026-07-22
+updated: 2026-08-23
 status: seed
 draft: false
 tags:
@@ -87,6 +87,7 @@ Investigate [Dive Saga Youtube channel](https://www.youtube.com/@DiveSAGA)
 - Organise CCR only fun trip to [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}})
 - DPV Photogrammetry of Stockton Lake Mine
 - Soggy Wombat Safaris Catalog (list destinations with potential months to go)
+	- Look at people and projects like [Tom Popper and diving in Greenland](https://sevenoceansexpeditions.com/about/)
 - Bergherring Winery (top Sellicks Hill - Chloe & Sam Fitzgerald) - potential for caves?
 
 - Review https://www.abc.net.au/news/2026-06-02/cave-explorer-josh-richards-laos-cave-rescue/106744958
