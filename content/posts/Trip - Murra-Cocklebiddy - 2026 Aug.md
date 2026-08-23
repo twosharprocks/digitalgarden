@@ -26,7 +26,7 @@ related:
   - "[[Filming - Documentary on Nullarbor]]"
 ---
 # To Do
-- [ ] Organise Presentation - Expedition Planning (2026-09-05)
+- [ ] Organise Presentation - Expedition Planning
 - [ ] CaveDB - Extract Nullabor Data
 - [ ] BlackTip VSEC Tool
 - [ ] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) - Download dives
