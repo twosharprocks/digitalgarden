@@ -63,6 +63,10 @@ related:
 	- Setup Cave: Bags and Cylinders 75% into cave, exhausted and out by 8pm
 	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 1 of 8
 - 2026-08-23 Sun: Diving
+	- Rain overnight 
+	- Told by Joseph to stop social media posts
+	- Cylinders and gear to water
+	- Dive with James and Nancy - Continue line from A6-A8-counterclock big room to A12, connect 60m line, connect A12-A8, jump at A7
 	- 
 	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 2 of 8
 - 2026-08-24 Mon: Diving
