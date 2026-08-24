@@ -1,7 +1,7 @@
 ---
 title: Trip - Murra-Cocklebiddy - 2026 Aug
 created: 2025-10-19
-updated: 2026-08-22
+updated: 2026-08-24
 status: planning
 draft: false
 tags:
