@@ -1,7 +1,7 @@
 ---
 title: Trip - Murra-Cocklebiddy - 2026 Aug
 created: 2025-10-19
-updated: 2026-08-24
+updated: 2026-08-25
 status: planning
 draft: false
 tags:
@@ -39,13 +39,13 @@ related:
 - [ ] Drone
 - [ ] LiDAR - Vardose Cave
 - [ ] Photogrammetry - All Underwater
-- [ ] LiDAR - Rockpile
+- [ ] LiDAR - Airchamber Rockpile?
 [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
 - [ ] LiDAR - Vardose
 - [ ] Photogrammetry - 1st Sump
-- [ ] LiDAR - 1st Rockpile
+- [ ] LiDAR - 1st Rockpile?
 - [ ] Photogrammetry - 2nd Sump
-- [ ] LiDAR - Toad Hall
+- [ ] LiDAR - Toad Hall?
 - [ ] Photogrammetry - 3rd Sump
 - [ ] Check Leads - 1st Sump
 # Trip Log
@@ -54,90 +54,89 @@ related:
 
 - 2026-08-21 Friday: Travel
 	- *Drive: ADL-Ceduna (8.5hrs)*
-	- Stay: Penong (Ampol Service Station)
+	- *Stay: Penong (Ampol Service Station)*
 - 2026-08-22 Sat: Travel & Setup
 	- *Drive: Ceduna-Madura (7hrs) onto Murra (1hr via Cocklebiddy roadhouse)*
 		- Saw James & Nancy at WA Border, drove together to Murra
 	- Setup camp
 	- Setup Cave: Bags and Cylinders 75% into cave, exhausted and out by 8pm
-	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 1 of 8
-- 2026-08-23 Sun: Diving
+	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 1 of 8*
+- 2026-08-23 Sun: Diving - Murra
 	- Rain overnight 
 	- Told by Joseph to stop social media posts
 	- Cylinders and gear to waterline
 	- Dive with James and Nancy - Continue line from A6-A8-counterclock big room to A12, connect 60m line, connect A12-A8, jump at A7
 	- No fire - James & Nancy to roadhouse
-	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 2 of 8
-- 2026-08-24 Mon: Diving
+	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 2 of 8*
+- 2026-08-24 Mon: Diving - Murra
 	- Solo Dive: Photogrammetry to end of 60m line, back to big room (A12), clockwise to snowflake room (A9) (surface), see James & Nancy near A8 (on their way to A12 & 60m line), 
-	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 3 of 8
-- 2026-08-25 Tue: Diving
+	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 3 of 8*
+- 2026-08-25 Tue: Diving - Murra
 	- 
-	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 4 of 8
-- 2026-08-26 Wed: Diving
+	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 4 of 8*
+- 2026-08-26 Wed: Diving - Murra
 	- 
-	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 5 of 8
-- 2026-08-27 Thu: Diving
+	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 5 of 8*
+- 2026-08-27 Thu: Diving - Murra
 	- 
-	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 6 of 8
-- 2026-08-28 Fri: Diving
+	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 6 of 8*
+- 2026-08-28 Fri: Haul Out - Murra
 	- 
-	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 7 of 8
-- 2026-08-29 Sat: Diving
+	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 7 of 8*
+- 2026-08-29 Sat: Diving Tommy's
 	- 
-	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 8 of 8
-- 2026-08-30 Sun: Haul Out
-	- 
-	- Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
-- 2026-08-31 Mon: Move campsites
+	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 8 of 8*
+- 2026-08-30 Sun: Move campsites
 	- Move from Murra to Cocklebiddy
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) of *
+- 2026-08-31 Mon: Setup Cocklebiddy
 	- Start rigging cave
-	- Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) of *
 - 2026-09-01 Tues: Rigging
 	- Finish rigging, install power/fill lines
-	- Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) of *
 - 2026-09-02 Wed: Gear to Sump 1 & Initial Photogrammetry
 	- Finish Haul in
 	- Initial photogrammetry of 1st Sump
 	- Start ferrying gear to rockpile
-	- Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) of *
 - 2026-09-03 Thu: Gear to Rockpile
 	- Dive gear all to rockpile
-	- Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) of *
 - 2026-09-04 Fri: Gear over Rockpile
 	- Carry all gear over rockpile to Sump 2
-	- Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) of *
 - 2026-09-05 Sat: Rest & Final Setup
 	- Group 1: Rest day
 	- Group 2: Final gear
-	- Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) of *
 - 2026-09-06 Sun: Diving
 	- Group 1: Toad Hall (max 6 divers)
 	- Group 2: Rest day
-	- Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) of *
 - 2026-09-07 Mon: Diving
 	- Group 1: Rest or start haul out
 	- Group 2: Toad Hall (max 6 divers)
-	- Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) of *
 - 2026-09-08 Tue: Action
 	- Group 1: Gear to Sump 1
 	- Group 2: Late start
-	- Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) of *
 - 2026-09-09 Wed: Action
 	- Clean up dives
 	- Start Haul out
-	- Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) of *
 - 2026-09-10 Thu: Haul & Pack
 	- Finish Haul out
-	- Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) of *
 - 2026-09-11 Fri: Travel
 	- *Drive: Cocklebiddy-Ceduna (8hrs)*
-	- Stay: Ceduna (Speak?)
+	- *Stay: Ceduna (Speak?)
 - 2026-09-12 Sat: Travel
 	- Speak in Ceduna?
 	- *Drive: Ceduna-ADL (8.5hrs)*
 
-# Other Notes
+# Notes
 
 ## To Do
 - Complete tasks for VW Transporter
