@@ -26,13 +26,12 @@ related:
   - "[[Filming - Documentary on Nullarbor]]"
 ---
 # To Do
-- [ ] Organise Presentation - Expedition Planning
 - [ ] CaveDB - Extract Nullabor Data
 - [ ] BlackTip VSEC Tool
 - [ ] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) - Download dives
 # To Do - On-Site
 [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
-- [ ] LiDAR - Vardose
+- [x] LiDAR - Vardose
 - [ ] Photogrammetry - All Underwater 
 - [ ] Check Leads - NW Corner (Dry)
 - [ ] Check Leads - Gary's Back Passage (Wet)
