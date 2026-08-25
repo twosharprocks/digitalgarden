@@ -1,7 +1,7 @@
 ---
 title: Murra-El-Elevyn - 6N47
 created: 2026-06-18
-updated: 2026-07-22
+updated: 2026-08-25
 status: seed
 draft: false
 tags:
@@ -28,18 +28,27 @@ There are fixed lines in the side passages, these are shown on the map N47-CEG34
 ## Land use 
 The cave is on Nuytsland Nature Reserve, and specific permission is required to visit the cave. 
 ## Maps 
-Caves of the Nullarbor 1967 p6 (N47-CEG30047) 
-
-N47-CEG3402
+Caves of the Nullarbor 1967 p6 (N47-CEG30047)
+![6N47 Murra El Elevyn Cegsa N47 Ceg3402](/images/6N47-%20Murra-El-Elevyn%20-%20CEGSA%20-%20N47-CEG3402.jpg)
 ![6N47 Murra El Elevyn Cegsa N47 Ceg3402](/images/6N47-%20Murra-El-Elevyn%20-%20CEGSA%20-%20N47-CEG3402.jpg)
 
+![[6N47 - Murra-El-Elevyn (Porter, 2024) (High-Res PDF) - MAP.pdf]]
 6N47 - Murra-El-Elevyn (Porter, 2024) (High-Res PDF) - MAP.pdf
+
 ![6N47 Murra El Elevyn (porter, 2024) MAP](/images/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20-%20MAP.png)
+![6N47 Murra El Elevyn (porter, 2024) MAP](/images/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20-%20MAP.png)
+
+![6N47 Murra El Elevyn (porter, 2024) MAP With Leads](/images/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20-%20MAP%20with%20Leads%20.jpg)
 ![6N47 Murra El Elevyn (porter, 2024) MAP With Leads](/images/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20-%20MAP%20with%20Leads%20.jpg) (Richards)
 
 ![6N47 Murra El Elevyn (unknown) MAP](/images/6N47%20-%20Murra%20El%20Elevyn%20%28Unknown%29%20-%20MAP.jpg)
+![6N47 Murra El Elevyn (unknown) MAP](/images/6N47%20-%20Murra%20El%20Elevyn%20%28Unknown%29%20-%20MAP.jpg)
+
 ![6N47 Murra El Elevyn (bicanic, 2022) MAP](/images/6N47%20-%20Murra%20El%20Elevyn%20%28Bicanic%2C%202022%29%20-%20MAP.jpg)
+![6N47 Murra El Elevyn (bicanic, 2022) MAP](/images/6N47%20-%20Murra%20El%20Elevyn%20%28Bicanic%2C%202022%29%20-%20MAP.jpg)
+
 [st1.asflib.net - Joe N. Jennings Slide Box #1011 - Nullarbor - Maps and Sketches](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201011/JNJ-S-1011-09.html)
+
 ## Potential Leads
 - *Interfaces around the “large rock” in the main chamber*  
 Breakdown piles often mask bypass tubes. Check behind and above the boulder for blind domes or tube lips; inspect for faint percolation staining or clean, eddy-scoured floor patches indicating through-draft water movement.
