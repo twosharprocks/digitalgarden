@@ -12,6 +12,7 @@ template: "[[Template - Trip]]"
 destination:
   - "[[Murra-El-Elevyn - 6N47]]"
   - "[[Cocklebiddy Cave - 6N48]]"
+  - "[[Tommy Graham's Cave - 6N56]]"
 region: "[[Nullarbor High Plains]]"
 dates:
   - "[[2026-08-21]]"
