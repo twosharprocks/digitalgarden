@@ -1,7 +1,7 @@
 ---
 title: Cocklebiddy Cave - 6N48
 created: 2026-06-18
-updated: 2026-08-25
+updated: 2026-08-26
 status: seed
 draft: false
 tags:
@@ -16,7 +16,24 @@ related:
   - 
 rating: Cave/TDI Intro to Cave
 ---
-# About
+# From CaveDB
+### Cocklebiddy Cave: A Hidden Gem in the Nullarbor
+Located in the vast expanse of the Nullarbor karst, the largest arid area of limestone in the world, lies a hidden gem known as the Cocklebiddy Cave. This cave is one of the hundreds that dot the Nullarbor landscape, but it stands out for its unique features and fascinating history.
+### A Cave of Epic Proportions
+The entrance to the Cocklebiddy Cave is a collapsed doline, a sinkhole created when the cave roof gave way. This collapse revealed a system of massive underground caverns and more than six kilometers of underwater passages. The cave system extensively penetrates an aquifer lying 90 meters below the Nullarbor Plain.
+
+Within the cave, you can find vast limestone caverns, rockfalls, and saline subterranean lakes that extend for several hundred meters. However, access to the cave is not open to the public due to its delicate ecosystem and the potential dangers associated with cave exploration.
+### A Site of World Records
+Cocklebiddy Cave has gained international recognition as a site for one of the world’s largest cave systems. In August 1983, a French caving expedition set a world record by exploring the Cocklebiddy Cave to an unprecedented distance of 6.4 kilometers3. This record was later broken in 1995 by an Australian named Christopher Brown, who bettered the 1983 record by a mere 20 meters.
+### A Rich History
+During World War II, Australian Army engineers attempted to tap water supplies from Cocklebiddy’s vast underground lakes. However, their attempts proved in vain as they discovered that a thin skin of fresh water overlay a much greater volume of highly saline lake waters.
+### A Must-Visit for the Adventurous
+While the Cocklebiddy Cave is a marvel of nature, caving in the area is recommended only for highly organized and experienced caving groups. For those who prefer to stay above ground, the area around the cave offers a wealth of information boards to read and a chance to observe the local wildlife.
+
+In conclusion, the Cocklebiddy Cave is a testament to the wonders that lie beneath the surface of the Earth. Its vast underwater passages, rich history, and the records it holds make it a fascinating subject of study and a must-visit for any cave enthusiast.
+
+# From ASF
+## About
 Cocklebiddy Cave is over 6.5km long and is the longest single underwater passage in Australia. The entrance is in a degraded doline 120m long and a steep talus slope beneath overhang at the North end leads to large chamber 360 x 45 x 30m high with 180m long lake. The lake contains “mud islands”.
 
 It is possible to snorkel the lake to look down at the first sump, the water can be muddy after rain. 
