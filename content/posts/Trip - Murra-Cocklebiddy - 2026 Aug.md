@@ -1,7 +1,7 @@
 ---
 title: Trip - Murra-Cocklebiddy - 2026 Aug
 created: 2025-10-19
-updated: 2026-08-25
+updated: 2026-08-26
 status: planning
 draft: false
 tags:
@@ -32,9 +32,9 @@ related:
 # To Do - On-Site
 [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
 - [x] LiDAR - Vardose
-- [ ] Photogrammetry - All Underwater 
+- [x] Photogrammetry - All Underwater 
 - [ ] Check Leads - NW Corner (Dry)
-- [ ] Check Leads - Gary's Back Passage (Wet)
+- [x] Check Leads - Gary's Back Passage (Wet)
 [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
 - [ ] Drone
 - [ ] LiDAR - Vardose Cave
@@ -72,7 +72,7 @@ related:
 	- Solo Dive: Photogrammetry to end of 60m line, back to big room (A12), clockwise to snowflake room (A9) (surface), see James & Nancy near A8 (on their way to A12 & 60m line), 
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 3 of 8*
 - 2026-08-25 Tue: Diving - Murra
-	- 
+	- Placed pingers at Crystal Room and End of 60m line.
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 4 of 8*
 - 2026-08-26 Wed: Diving - Murra
 	- 
