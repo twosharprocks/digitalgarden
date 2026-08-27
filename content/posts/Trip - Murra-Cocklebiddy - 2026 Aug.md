@@ -79,9 +79,12 @@ related:
 	- 
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 5 of 22
 - 2026-08-27 Thu: Diving - Murra
-	- 
+	- Early start, into cave at 8am
+	- Dive1: Into Mitch's Maze
+		- 
+	- Haul Out
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 6 of 22
-- 2026-08-28 Fri: Haul Out - Murra
+- 2026-08-28 Fri:  - Murra
 	- 
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 7 of 22
 - 2026-08-29 Sat: Diving Tommy's
