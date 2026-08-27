@@ -69,7 +69,7 @@ related:
 	- No fire - James & Nancy to roadhouse
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 2 of 22
 - 2026-08-24 Mon: Diving - Murra
-	- Solo Dive: Photogrammetry to end of 60m line, back to big room (A12), clockwise to snowflake room (A9) (surface), see James & Nancy near A8 (on their way to A12 & 60m line), 
+	- Solo Dive: Photogrammetry to end of 60m line, back to big room (A12), clockwise to snowflake room (A9) (surface), see James & Nancy near A8 (on their way to A12 & 60m line), follow jump into A7 for photogrammetry data, drop camera to pickup line, then back to surface
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 3 of 22
 - 2026-08-25 Tue: Diving - Murra
 	- Placed pingers at Crystal Room and End of 60m line.
