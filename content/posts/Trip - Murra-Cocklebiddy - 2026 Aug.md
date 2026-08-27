@@ -27,7 +27,6 @@ related:
   - "[[Filming - Documentary on Nullarbor]]"
 ---
 # To Do
-- [ ] CaveDB - Extract Nullabor Data
 - [ ] BlackTip VSEC Tool
 - [ ] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) - Download dives
 # To Do - On-Site
@@ -138,11 +137,11 @@ related:
 	- Speak in Ceduna?
 	- *Drive: Ceduna-ADL (8.5hrs)* 22 of 22
 
+---
 # Notes
 Remember
 - Hand sanitiser
 - More coffee (min 500g ground)
-
 ## To Do
 - Complete tasks for VW Transporter
 	- [x] Full Service
@@ -172,7 +171,8 @@ Remember
 	- [x] Contact - Jarred Hotchkin for nearby cave & Intro to Lewy
 	- [x] Plan Filming - Documentary on Nullarbor
 	- [x] Plan Podcast
-- [x] $500 cash
+	- [x] CaveDB - Extract Nullabor Data
+	- [x] $500 cash
 # Packing List
 - Photogrammetry
 	- [x] 2x BigBlue 18k lights
