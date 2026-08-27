@@ -1,7 +1,7 @@
 ---
 title: Trip - Murra-Cocklebiddy - 2026 Aug
 created: 2025-10-19
-updated: 2026-08-26
+updated: 2026-08-27
 status: planning
 draft: false
 tags:
@@ -34,7 +34,7 @@ related:
 [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
 - [x] LiDAR - Vardose
 - [x] Photogrammetry - All Underwater 
-- [ ] Check Leads - NW Corner (Dry)
+- [x] Check Leads - NW Corner (Dry)
 - [x] Check Leads - Gary's Back Passage (Wet)
 [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
 - [ ] Drone
@@ -74,6 +74,7 @@ related:
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 3 of 8*
 - 2026-08-25 Tue: Diving - Murra
 	- Placed pingers at Crystal Room and End of 60m line.
+	- Located both pingers on surface
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 4 of 8*
 - 2026-08-26 Wed: Diving - Murra
 	- 
@@ -138,6 +139,9 @@ related:
 	- *Drive: Ceduna-ADL (8.5hrs)*
 
 # Notes
+Remember
+- Hand sanitiser
+- More coffee (min 500g ground)
 
 ## To Do
 - Complete tasks for VW Transporter
