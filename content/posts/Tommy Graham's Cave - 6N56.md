@@ -9,7 +9,10 @@ tags:
   - caving
 region: "[[Nullarbor High Plains]]"
 cavedb:
-related: "[[Diving]]"
+related:
+  - "[[Diving]]"
+  - "[[CaveDB - Tommy Grahams Cave - a865a78d]]"
+  - "[[CaveDB - Tommy Graham's Entrance - a81eecf1]]"
 ---
 # About
 Description: 
@@ -69,9 +72,7 @@ https://www.tdisdi.com/tdi-diver-news/trip-report-tommy-grahams-cave/
 [Tommy Grahams Cave - cavedivers.com.au](https://www.cavedivers.com.au/index.cfm?action=details&module=BUSINESSDIRECTORY&pageMode=indiv&page_id=1404666) 
 [Speleotherms - st1.asflib.net](https://st1.asflib.net/JNS/AUNat/ASF/ASF-ConfProc/ASF-26thConfMat-2007-CavesCratersCritters/ASF-26th-DVD/08-LakeSpeleothemsNullarbor.pdf)
 [ASF-26th-DVD/08-LakeSpeleothemsNullarbor.pdf - st1.asflib.net](https://st1.asflib.net/JNS/AUNat/ASF/ASF-ConfProc/ASF-26thConfMat-2007-CavesCratersCritters/ASF-26th-DVD/08-LakeSpeleothemsNullarbor.pdf)
-[new.ackma.org](https://new.ackma.org/wordpress/wp-content/uploads/2025/01/78/Tommy-Grahams-Cave-Visitor-Book-Peter-Buzzacott.pdf?utm_source=chatgpt.com "The Tommy Grahams Cave Visitor Book - new.ackma.org")
-
-
+[new.ackma.org](https://new.ackma.org/wordpress/wp-content/uploads/2025/01/78/Tommy-Grahams-Cave-Visitor-Book-Peter-Buzzacott.pdf")
 
 
 
