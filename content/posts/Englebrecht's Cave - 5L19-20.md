@@ -50,3 +50,13 @@ Englebrecht's West Survey (Richards)
 
 # References
 [ABC Australia - Instagram](https://www.instagram.com/p/Ck5FcAAgw9O/)
+
+<!-- CaveDB media links: start -->
+## CaveDB media
+- ![5L19 20 Englebrecht's Cave Cavedb 20230713 151715 3f121da8 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20CaveDB%20-%2020230713_151715%20-%203f121da8-6d271bdf.jpg) — CaveDB
+- ![5L19 20 Englebrecht's Cave Cavedb 20230713 151744 Ef8fa107 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20CaveDB%20-%2020230713_151744%20-%20ef8fa107-6d271bdf.jpg) — CaveDB
+- ![5L19 20 Englebrecht's Cave Cavedb 5l019 20 Engelbrechts With Streets 3271295b 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20CaveDB%20-%205L019-20%20Engelbrechts%20with%20streets%20-%203271295b-6d271bdf.jpg) — CaveDB
+- ![5L19 20 Englebrecht's Cave Cavedb EEX Overlay (in Progress) 42049248 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20CaveDB%20-%20EEX%20Overlay%20%28In%20Progress%29%20-%2042049248-6d271bdf.jpg) — CaveDB
+- ![5L19 20 Englebrecht's Cave Cavedb Eng E (sat) 48b0e016 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20CaveDB%20-%20Eng%20E%20%28Sat%29%20-%2048b0e016-6d271bdf.jpg) — CaveDB
+- ![5L19 20 Englebrecht's Cave Cavedb Englebrechts (lewy) 8e78a58c 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20CaveDB%20-%20Englebrechts%20%28lewy%29%20-%208e78a58c-6d271bdf.jpg) — CaveDB
+<!-- CaveDB media links: end -->

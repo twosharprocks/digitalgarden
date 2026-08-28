@@ -29,5 +29,8 @@ related:
 # References
 [Cave Diving Down Under - Camooweal](https://www.cavediving.net.au/index.php/caves/?region=Camooweal) 
 
-
-
+<!-- CaveDB media links: start -->
+## CaveDB media
+- ![Camooweal Cavedb 20250724 154024 9f6dd418 B7324517](/images/Camooweal%20-%20CaveDB%20-%2020250724_154024%20-%209f6dd418-b7324517.jpg) — CaveDB
+- ![Camooweal Cavedb Image Eca825ae B7324517](/images/Camooweal%20-%20CaveDB%20-%20Image%20-%20eca825ae-b7324517.jpg) — CaveDB
+<!-- CaveDB media links: end -->

@@ -34,3 +34,9 @@ KML Survey: Baker's Cave
 
 # References
 
+<!-- CaveDB media links: start -->
+## CaveDB media
+- ![5l285 Bakers Cave Cavedb 2294856 B5e9914f B57547cc](/images/5L285%20-%20Bakers%20Cave%20-%20CaveDB%20-%202294856%20-%20b5e9914f-b57547cc.jpg) — CaveDB
+- ![5l285 Bakers Cave Cavedb Bakers 6d10fec5 B57547cc](/images/5L285%20-%20Bakers%20Cave%20-%20CaveDB%20-%20bakers%20-%206d10fec5-b57547cc.jpg) — CaveDB
+- ![5l285 Bakers Cave Cavedb Bakers2 940409f3 B57547cc](/images/5L285%20-%20Bakers%20Cave%20-%20CaveDB%20-%20bakers2%20-%20940409f3-b57547cc.jpg) — CaveDB
+<!-- CaveDB media links: end -->

@@ -84,3 +84,8 @@ Several expeditions have explored Christmas Island's caves, providing valuable i
 - **2013 National Geographic Expedition**: [advanceddivermagazine.com+1youtube.com+1](https://www.advanceddivermagazine.com/articles/christmasisland.html?utm_source=chatgpt.com) (March 2013, with Wet mules)
 - **Western Australian Speleological Group (WASG)**: [wasg.org.au](https://wasg.org.au/117-christmas-island-2023)) (October 2023)
 - **Helictite Journal**: Ken Grimes' publication, "Karst Features of Christmas Island," [helictite.caves.org.au](https://helictite.caves.org.au/pdf1/37.2.Grimes.pdf?utm_source=chatgpt.com)
+
+<!-- CaveDB media links: start -->
+## CaveDB media
+- ![Christmas Island Cavedb Xmas 9358c9e8 0bc8566f](/images/Christmas%20Island%20-%20CaveDB%20-%20xmas%20-%209358c9e8-0bc8566f.jpg) — CaveDB
+<!-- CaveDB media links: end -->

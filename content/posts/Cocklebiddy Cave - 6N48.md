@@ -75,3 +75,11 @@ N48-CEG1321
 - ![6N48 Cocklebiddy Cave ASF JNJ S 1010 06 Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-06%20-%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg) - JNJ-S-1010-06, Box 1010 - Cocklebiddy - Copyright by F. Le Guen
 - ![6N48 Cocklebiddy Cave ASF JNJ S 1010 07 Camp Above Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-07%20-%20Camp%20above%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg) - JNJ-S-1010-07, Box 1010 - Camp above Cocklebiddy - Copyright by F. Le Guen
 - ![6N48 Cocklebiddy Cave ASF JNJ S 1011 05 Map N48 Cocklebiddy Cave](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1011-05%20-%20Map%20-%20N48%20Cocklebiddy%20cave.jpg) - JNJ-S-1011-05, Box 1011 - Map - N48 Cocklebiddy cave
+
+<!-- CaveDB media links: start -->
+## CaveDB media
+- ![6N48 Cocklebiddy Cave Cavedb 2019 01 09 06.28.36 84b2c69c C3fffd30](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20CaveDB%20-%202019-01-09%2006.28.36%20-%2084b2c69c-c3fffd30.jpg) — CaveDB
+- ![6N48 Cocklebiddy Cave Cavedb 2019 01 09 06.48.53 400a365a C3fffd30](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20CaveDB%20-%202019-01-09%2006.48.53%20-%20400a365a-c3fffd30.jpg) — CaveDB
+- ![6N48 Cocklebiddy Cave Cavedb 2019 01 09 06.52.17 6ab1fca4 C3fffd30](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20CaveDB%20-%202019-01-09%2006.52.17%20-%206ab1fca4-c3fffd30.jpg) — CaveDB
+- ![6N48 Cocklebiddy Cave Cavedb 2019 01 09 06.52.55 E52738b0 C3fffd30](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20CaveDB%20-%202019-01-09%2006.52.55%20-%20e52738b0-c3fffd30.jpg) — CaveDB
+<!-- CaveDB media links: end -->
