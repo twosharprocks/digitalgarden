@@ -1,36 +1,37 @@
 ---
 title: Boh Yah Mines
 created: 2026-01-06
-updated: 2026-01-06
+updated: 2026-08-30
 status: seed
 draft: false
 tags:
   - diving
   - caving
-related: 
+  - thailand
+related:
   - "[[Diving]]"
+  - "[[Trip - Thailand - Boh Yai Mines - 2026 Jan]]"
+  - "[[empty files]]"
+  - "[[Trip - Thailand - Boh Yai Mines - 2027 Jan]]"
+region: "[[Thailand]]"
+cavedb:
+rating:
 ---
----
-
-# To Do
+# Other Descriptions
+## To Do
 Diving
 Dry 
-Photogrammetry 
+Photogrammetry
+
+## About
+
+## Logged Dives
 
 ---
-# About
-Description: 
 
-## Maps
-
-## Survey
-TML Data: 
-KML Survey: 
-
+# Maps
+_No maps are currently linked._
 
 ---
-# Logged Dives
-- 
 
 # References
-

@@ -1,30 +1,32 @@
 ---
 title: 5F89 - Blinman Bat Cave
 created: 2026-05-22
-updated: 2026-07-17
+updated: 2026-08-30
 status: seed
 draft: false
 tags:
   - diving
   - caving
-region:
+  - flinders-ranges
+region: "[[Flinders Ranges]]"
 cavedb:
 related:
   - "[[Caving]]"
   - "[[Diving]]"
+  - "[[Flinders Ranges]]"
+  - "[[empty files]]"
+rating:
 ---
-# About
-Description: 
+# Other Descriptions
+## About
 
-## Maps
-
-## Survey
-TML Data: 
-KML Survey: 
-
+## Logged Dives
 
 ---
-# Logged Dives
-- 
+
+# Maps
+_No maps are currently linked._
+
+---
 
 # References

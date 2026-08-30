@@ -1,35 +1,40 @@
 ---
 title: Akiyoshidai Cave
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-08-30
 status: seed
 draft: false
 tags:
   - diving
   - caving
+  - japan
 region: "[[Japan]]"
 cavedb:
-related: "[[Diving]]"
+related:
+  - "[[Diving]]"
+  - "[[Article - Exploring Japan’s Hidden Rivers]]"
+  - "[[Akiyoshidai]]"
+  - "[[Trip - Japan - 2026 May]]"
+  - "[[2026-05-11]]"
+  - "[[Weekly - 2026-05-10]]"
+rating:
 ---
-# To Do
+# Other Descriptions
+## To Do
 Diving
 Dry 
-Photogrammetry 
+Photogrammetry
+
+## About
+
+## Logged Dives
 
 ---
-# About
-Description: 
 
-## Maps
-
-## Survey
-TML Data: 
-KML Survey: 
-
+# Maps
+_No maps are currently linked._
 
 ---
-# Logged Dives
-- 
 
 # References
-- [Google Maps - Akiyoshidai Cave](https://maps.app.goo.gl/tv18VhciYJeyRJpH6) 
+- [Google Maps - Akiyoshidai Cave](https://maps.app.goo.gl/tv18VhciYJeyRJpH6)

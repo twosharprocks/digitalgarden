@@ -1,37 +1,46 @@
 ---
 title: Nurina Cave
 created: 2026-06-18
-updated: 2026-08-25
+updated: 2026-08-30
 status: seed
 draft: false
 tags:
   - diving
   - caving
+  - roe-plains
 region: "[[Roe Plains]]"
-cavedb:
-related: "[[Diving]]"
+cavedb: https://app.cavedb.net/share/69f453d4-3746-47c7-89c2-d18ccef28e10.html
+related:
+  - "[[Diving]]"
+  - "[[Photogrammetry - Processing]]"
+  - "[[Roe Plains]]"
+rating: CDAA Advanced Cave, TDI Full Cave
 ---
+# From CaveDB
+Situated to the east of Madura Pass, approximately 1400km from Perth, you’ll find a fascinating cave on the Roe Plain. Here, the limestone surface is in close proximity to the water table. This underwater cave is a complex network of intersecting fissures, with a generally small breakdown passage. It features distinct bedding planes at depths of 3, 5, and 7 meters, which house stunning horizontal elliptical phreatic passages as well as low flat passages, all interconnected. The deepest point is a 7m bedding plane, and so far, 410m of underwater passage has been explored (as of February 2004).
+
+The water in the cave, with a temperature of a cool 16C, is saline at 18,000ppm salt, just slightly less than sea water’s 19,000ppm. It has a unique blue hue, reminiscent of Tommy Grahams Cave located to the west. This cave is particularly interesting to speleological biologists due to its rich biodiversity. It is home to the highest number of troglobitic animal species found in a single cave on the Nullarbor, including two different types of troglobitic spiders, a troglobitic cockroach, an isopod, and an amphipod, which is a small aquatic crustacean.
+
+small enterence with little traffic, ropes recommened to get down due to lose rocks and no defined path.
+
 ---
 
-# To Do
+# Other Descriptions
+## To Do
 Diving
 Dry 
-Photogrammetry 
+Photogrammetry
+
+## About
+
+## Logged Dives
 
 ---
-# About
-Description: 
 
-## Maps
-
-## Survey
-TML Data: 
-KML Survey: 
-
+# Maps
+- ![6N46 + 6N63 Nurina Cave + Thylacine Hole ASF JNJ S 1011 12 Map N46 Nurina Cave (part Only) N63 Thylacine Hole](/images/6N46%20%2B%206N63%20-%20Nurina%20Cave%20%2B%20Thylacine%20Hole%20-%20ASF%20JNJ-S-1011-12%20-%20Map%20-%20N46%20Nurina%20cave%20%28part%20only%29%20-%20N63%20Thylacine%20hole.jpg) - JNJ-S-1011-12, Box 1011 - Map - N46 Nurina cave (part only) - N63 Thylacine hole
 
 ---
-# Logged Dives
-- 
 
 # References
 
@@ -47,9 +56,8 @@ KML Survey:
 - ![6N46 Nurina Cave ASF JNJ S 00130 Nurina Cave Spongework, Madura](/images/6N46%20-%20Nurina%20Cave%20-%20ASF%20JNJ-S-00130%20-%20Nurina%20Cave%20spongework%2C%20Madura.jpg) - JNJ-S-00130, Box 41 - Nurina Cave spongework, Madura
 - ![6N46 Nurina Cave ASF JNJ S 00131 Nurina Cave, Madura](/images/6N46%20-%20Nurina%20Cave%20-%20ASF%20JNJ-S-00131%20-%20Nurina%20Cave%2C%20Madura.jpg) - JNJ-S-00131, Box 41 - Nurina Cave, Madura
 - ![6N46 Nurina Cave ASF JNJ S 00132 Eccentric Decoration In Nurina Cave Jan 1965](/images/6N46%20-%20Nurina%20Cave%20-%20ASF%20JNJ-S-00132%20-%20Eccentric%20decoration%20in%20Nurina%20Cave%20Jan%201965.jpg) - JNJ-S-00132, Box 41 - Eccentric decoration in Nurina Cave Jan 1965
-- ![6N46 + 6N63 Nurina Cave + Thylacine Hole ASF JNJ S 1011 12 Map N46 Nurina Cave (part Only) N63 Thylacine Hole](/images/6N46%20%2B%206N63%20-%20Nurina%20Cave%20%2B%20Thylacine%20Hole%20-%20ASF%20JNJ-S-1011-12%20-%20Map%20-%20N46%20Nurina%20cave%20%28part%20only%29%20-%20N63%20Thylacine%20hole.jpg) - JNJ-S-1011-12, Box 1011 - Map - N46 Nurina cave (part only) - N63 Thylacine hole
-
 <!-- CaveDB media links: start -->
+
 ## CaveDB media
 - ![Nurina Cave Cavedb IMG 2110 A4217b89 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20IMG_2110%20-%20a4217b89-69f453d4.jpeg) — CaveDB
 - ![Nurina Cave Cavedb IMG 2111 C71e6885 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20IMG_2111%20-%20c71e6885-69f453d4.jpeg) — CaveDB
@@ -59,4 +67,3 @@ KML Survey:
 - ![Nurina Cave Cavedb Nurina Water 1b793f4f 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20nurina%20water%20-%201b793f4f-69f453d4.jpg) — CaveDB; MW
 - ![Nurina Cave Cavedb Nurina Water2 9278781c 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20nurina%20water2%20-%209278781c-69f453d4.jpg) — CaveDB; MW
 - ![Nurina Cave Cavedb Nuruna Drone2 0431e294 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20nuruna%20drone2%20-%200431e294-69f453d4.jpg) — CaveDB; MW
-<!-- CaveDB media links: end -->

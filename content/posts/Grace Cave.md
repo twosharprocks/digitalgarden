@@ -1,41 +1,44 @@
 ---
 title: Grace Cave
 created: 2025-11-11
-updated: 2025-11-11
+updated: 2026-08-30
 status: seed
 draft: false
 tags:
   - diving
   - caving
-region:
-cavedb:
+  - victoria
+region: "[[Victoria]]"
+cavedb: https://app.cavedb.net/share/41ca9934-e35b-4a1f-8b59-1d0e4c8ca9c1.html
 related:
   - "[[Diving]]"
   - "[[Caving]]"
+  - "[[Photogrammetry - Processing]]"
+  - "[[Photogrammetry]]"
+  - "[[Mount Gambier - Lower South East]]"
+  - "[[empty files]]"
+  - "[[2026-01-04]]"
+rating: CDAA Advanced Cave, TDI Full Cave
 ---
-# To Do
+# Other Descriptions
+## To Do
 Diving
 Dry 
-Photogrammetry 
+Photogrammetry
+
+## About
+
+## Logged Dives
 
 ---
-# About
-Description: 
 
-## Maps
-
-## Survey
-TML Data: 
-KML Survey: 
-
+# Maps
+_No maps are currently linked._
 
 ---
-# Logged Dives
-- 
 
 # References
 
-<!-- CaveDB media links: start -->
 ## CaveDB media
 - ![Grace Cave Cavedb 2023 04 24 07.34.04 21371a1c 41ca9934](/images/Grace%20Cave%20-%20CaveDB%20-%202023-04-24%2007.34.04%20-%2021371a1c-41ca9934.jpg) — CaveDB
 - ![Grace Cave Cavedb 2023 04 24 07.34.07 0cc7dcbe 41ca9934](/images/Grace%20Cave%20-%20CaveDB%20-%202023-04-24%2007.34.07%20-%200cc7dcbe-41ca9934.jpg) — CaveDB
@@ -48,4 +51,3 @@ KML Survey:
 - ![Grace Cave Cavedb 2023 04 24 08.25.10 8a6cd4fe 41ca9934](/images/Grace%20Cave%20-%20CaveDB%20-%202023-04-24%2008.25.10%20-%208a6cd4fe-41ca9934.jpg) — CaveDB
 - ![Grace Cave Cavedb PXL 20250919 045248022 8caaf780 41ca9934](/images/Grace%20Cave%20-%20CaveDB%20-%20PXL_20250919_045248022%20-%208caaf780-41ca9934.jpg) — CaveDB
 - ![Grace Cave Cavedb PXL 20250919 045302104 89ad4c6d 41ca9934](/images/Grace%20Cave%20-%20CaveDB%20-%20PXL_20250919_045302104%20-%2089ad4c6d-41ca9934.jpg) — CaveDB
-<!-- CaveDB media links: end -->

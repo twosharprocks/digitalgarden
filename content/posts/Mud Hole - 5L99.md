@@ -1,27 +1,32 @@
 ---
 title: Mud Hole - 5L99
 created: 2026-06-18
-updated: 2026-06-18
+updated: 2026-08-30
 status: seed
 draft: false
 tags:
   - diving
   - caving
-region:
+  - mount-gambier
+region: "[[Mount Gambier - Lower South East]]"
 cavedb:
-related: "[[Diving]]"
+related:
+  - "[[Diving]]"
+  - "[[Cave Entries to Write]]"
+  - "[[Mount Gambier - Lower South East]]"
+  - "[[empty files]]"
+rating:
 ---
-# About
-Description: 
+# Other Descriptions
+## About
 
-## Maps
-
-## Survey
-TML Data: 
-KML Survey: 
+## Logged Dives
 
 ---
-# Logged Dives
-- 
+
+# Maps
+_No maps are currently linked._
+
+---
 
 # References

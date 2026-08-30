@@ -1,36 +1,35 @@
 ---
 title: Cavetone Park Estate Cave - 5L179
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2026-08-30
 status: seed
 draft: false
 tags:
   - diving
   - caving
-region:
+  - mount-gambier
+region: "[[Mount Gambier - Lower South East]]"
 cavedb:
-related: "[[Diving]]"
+related:
+  - "[[Diving]]"
+  - "[[Mount Gambier - Lower South East]]"
+rating:
 ---
-# To Do
+# Other Descriptions
+## To Do
 Diving
 Dry 
-Photogrammetry 
+Photogrammetry
+
+## About
+
+## Logged Dives
 
 ---
-# About
-Description: 
 
-## Maps
+# Maps
 5L179 - Caveton Park Estate Cave - Report (Horne, 1981) - MAP.pdf
 
-## Survey
-TML Data: 
-KML Survey: 
-
-
 ---
-# Logged Dives
-- 
 
 # References
-

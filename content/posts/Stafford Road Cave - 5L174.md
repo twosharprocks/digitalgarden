@@ -1,42 +1,45 @@
 ---
 title: Stafford Road Cave - 5L174
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2026-08-30
 status: seed
 draft: false
 tags:
   - diving
   - caving
-region:
-cavedb:
+  - mount-gambier
+region: "[[Mount Gambier - Lower South East]]"
+cavedb: https://app.cavedb.net/share/f59b17b5-a516-4423-ab4c-bdab5eab5832.html
 related:
   - "[[Diving]]"
   - "[[Caving]]"
+  - "[[Mount Gambier - Lower South East]]"
+rating:
 ---
-# To Do
+# From CaveDB
+15m solution tube with squeeze and drop at the bottom into large dry doline collapse. On further pentetration there is a highly decorated and decorated room which care is needed to not damage.
+
+---
+
+# Other Descriptions
+## To Do
 Diving
 Dry 
-Photogrammetry 
+Photogrammetry
+
+## About
+
+## Logged Dives
 
 ---
-# About
-Description: 
 
-## Maps
+# Maps
 ![5l174 Stafford Road Cave (horne, 1983) MAP](/images/5L174%20-%20Stafford%20Road%20Cave%20%28Horne%2C%201983%29%20-%20MAP.jpg)
 
-## Survey
-TML Data: 
-KML Survey: 
-
-
 ---
-# Logged Dives
-- 
 
 # References
 
-<!-- CaveDB media links: start -->
 ## CaveDB media
 - ![5l174 Stafford Road Cave Cavedb 20231014 123930 Feb9a3c4 F59b17b5](/images/5L174%20-%20Stafford%20Road%20Cave%20-%20CaveDB%20-%2020231014_123930%20-%20feb9a3c4-f59b17b5.jpg) — CaveDB
 - ![5l174 Stafford Road Cave Cavedb 20231014 123940 3d99144d F59b17b5](/images/5L174%20-%20Stafford%20Road%20Cave%20-%20CaveDB%20-%2020231014_123940%20-%203d99144d-f59b17b5.jpg) — CaveDB
@@ -53,4 +56,3 @@ KML Survey:
 - ![5l174 Stafford Road Cave Cavedb Crystal Down B6822a64 F59b17b5](/images/5L174%20-%20Stafford%20Road%20Cave%20-%20CaveDB%20-%20crystal%20down%20-%20b6822a64-f59b17b5.jpeg) — CaveDB
 - ![5l174 Stafford Road Cave Cavedb Staff 6624f21b F59b17b5](/images/5L174%20-%20Stafford%20Road%20Cave%20-%20CaveDB%20-%20staff%20-%206624f21b-f59b17b5.jpg) — CaveDB
 - ![5l174 Stafford Road Cave Cavedb Staff2 E8018d91 F59b17b5](/images/5L174%20-%20Stafford%20Road%20Cave%20-%20CaveDB%20-%20staff2%20-%20e8018d91-f59b17b5.jpg) — CaveDB
-<!-- CaveDB media links: end -->

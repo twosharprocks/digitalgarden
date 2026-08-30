@@ -1,34 +1,36 @@
 ---
 title: Ewens Ponds - 5L159-161
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-08-30
 status: seed
 draft: false
 tags:
   - diving
   - caving
+  - mount-gambier
 region: "[[Mount Gambier - Lower South East]]"
 cavedb:
-related: "[[Diving]]"
+related:
+  - "[[Diving]]"
+  - "[[Mount Gambier - Lower South East]]"
+  - "[[empty files]]"
+rating:
 ---
-# To Do
+# Other Descriptions
+## To Do
 Diving
 Dry 
-Photogrammetry 
+Photogrammetry
+
+## About
+
+## Logged Dives
 
 ---
-# About
-Description: 
 
-## Maps
-
-## Survey
-TML Data: 
-KML Survey: 
-
+# Maps
+_No maps are currently linked._
 
 ---
-# Logged Dives
-- 
 
 # References

@@ -1,21 +1,33 @@
 ---
 title: Tommy Graham's Cave - 6N56
 created: 2026-06-18
-updated: 2026-07-22
+updated: 2026-08-30
 status: seed
 draft: false
 tags:
   - diving
   - caving
+  - nullarbor
 region: "[[Nullarbor High Plains]]"
-cavedb:
+cavedb: https://app.cavedb.net/share/a865a78d-2356-46f9-b612-6c86c102f5a8.html
 related:
   - "[[Diving]]"
   - "[[CaveDB - Tommy Grahams Cave - a865a78d]]"
   - "[[CaveDB - Tommy Graham's Entrance - a81eecf1]]"
+  - "[[Planning - Nullarbor]]"
+  - "[[Trip - Murra-Cocklebiddy - 2026 Aug]]"
+  - "[[Trip - Murra El Elevyn - 2025 Oct]]"
+  - "[[Nullarbor High Plains]]"
+  - "[[Filming - Documentary on Nullarbor]]"
+  - "[[Weekly - 2026-08-30]]"
+  - "[[2025-10-09]]"
+  - "[[2026-08-27]]"
+  - "[[2026-08-28]]"
+rating: CDAA Cave, TDI Intro to Cave
 ---
-# About
-Description: 
+# Other Descriptions
+## About
+
 The entrance to the cave is a large doline 50m in diameter. The obvious route into the doline leads to short cave below the Northwest cliff line. 
 
 The main cave has been described as a “wombat- sized hole” which is found in the Southeast end of the doline, about 3m down from the level of the plain. There is a visitor book on a rock shelf in the entrance. The way on is not obvious and goes through a rock squeeze at the end of the low entrance chamber. 
@@ -37,17 +49,6 @@ The lake on the entrance side of the “inner sanctum” is surprisingly small, 
 Although it is possible to exit the water into the terminal rock pile through a small lake at the end of the second sump, most people don’t. 
 ## Land use 
 The cave is on Nuytsland Nature Reserve, and specific permission is required to visit the cave. 
-## Maps 
-N56-CEG 20056
-N56-CEG3001
-
-Tommy Graham’s Sketch Map 2004
-![6N56 Tommy Grahams (mcgregor, 2004)](/images/6N56%20-%20Tommy%20Grahams%20%28McGregor%2C%202004%29.jpg)
-
-N56-CEG8105 (in prep)
-## Survey
-TML Data: 
-KML Survey:  
 ## Potential Leads
 May have more sumps (See DiverNet article)
 
@@ -66,6 +67,19 @@ May have more sumps (See DiverNet article)
 5. **Air-chamber margins (CO₂ caution)**  
     High CO₂ discourages exploration; that also means **less traffic**. If you do enter (with proper monitoring), check **condensation-corrosion features** and **roof pockets** for perched tubes that reconnect underwater downslope. Keep exposure short and staged. ([oxy-doc.com](https://www.oxy-doc.com/index.php?content=dry_caving&lang=eng&utm_source=chatgpt.com "Naracoorte Cave - Tantanoola Cave - Morgan Cave - Nullarbor Plain 2008 ..."))
 
+---
+
+# Maps
+N56-CEG 20056
+N56-CEG3001
+
+Tommy Graham’s Sketch Map 2004
+![6N56 Tommy Grahams (mcgregor, 2004)](/images/6N56%20-%20Tommy%20Grahams%20%28McGregor%2C%202004%29.jpg)
+
+N56-CEG8105 (in prep)
+
+---
+
 # References
 https://www.cavediving.net.au/index.php/siteinfo/?site=10
 https://www.tdisdi.com/tdi-diver-news/trip-report-tommy-grahams-cave/
@@ -73,7 +87,3 @@ https://www.tdisdi.com/tdi-diver-news/trip-report-tommy-grahams-cave/
 [Speleotherms - st1.asflib.net](https://st1.asflib.net/JNS/AUNat/ASF/ASF-ConfProc/ASF-26thConfMat-2007-CavesCratersCritters/ASF-26th-DVD/08-LakeSpeleothemsNullarbor.pdf)
 [ASF-26th-DVD/08-LakeSpeleothemsNullarbor.pdf - st1.asflib.net](https://st1.asflib.net/JNS/AUNat/ASF/ASF-ConfProc/ASF-26thConfMat-2007-CavesCratersCritters/ASF-26th-DVD/08-LakeSpeleothemsNullarbor.pdf)
 [new.ackma.org](https://new.ackma.org/wordpress/wp-content/uploads/2025/01/78/Tommy-Grahams-Cave-Visitor-Book-Peter-Buzzacott.pdf")
-
-
-
-

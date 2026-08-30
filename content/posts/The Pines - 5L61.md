@@ -1,20 +1,39 @@
 ---
 title: The Pines - 5L61
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-08-30
 status: seed
 draft: false
 tags:
   - diving
   - caving
+  - mount-gambier
 region: "[[Mount Gambier - Lower South East]]"
 cavedb: https://app.cavedb.net/share/5529d2bd-cea1-4b16-853b-6acd272774db.html
-related: "[[Diving]]"
+related:
+  - "[[Diving]]"
+  - "[[Article - The Crazy Wombat Tunnel]]"
+  - "[[Mini Essay - Procrastinating Writing the Pines Article]]"
+  - "[[Mount Gambier - Lower South East]]"
+  - "[[Book - Cave Diving]]"
+  - "[[Mt Gambier - PROTECTED]]"
+rating: CDAA Cave, TDI Intro to Cave
 ---
-# About
-Description: 
+# From CaveDB
+https://www.forestrysa.com.au/visit-our-forests/green-triangle-forest/caving/
 
-## Maps
+Booking is through Forestry SA [here](https://forestrysa2.rezdy.com/387300/pines-and-mud-hole-caves)
+
+---
+
+# Other Descriptions
+## About
+
+## Logged Dives
+
+---
+
+# Maps
 5L061 - The Pines (Passos, 2024) (Hi-Res) - MAP.pdf
 - ![5l061 The Pines Photogram & Satellite (passos, 2025) MAP](/images/5L061%20-%20The%20Pines%20-%20Photogram%20%26%20Satellite%20%28Passos%2C%202025%29%20-%20MAP.jpg)
 ![5l061 The Pines (ace, 2020) MAP](/images/5L061%20-%20The%20Pines%20%28ACE%2C%202020%29%20-%20MAP.png)
@@ -27,7 +46,6 @@ Full Line Survey (Richards)
 Initial photogrammetry without Crazy Wombat Tunnel (Passos)
 ![5l061 The Pines Photogram & Satellite (passos, 2025) MAP](/images/5L061%20-%20The%20Pines%20-%20Photogram%20%26%20Satellite%20%28Passos%2C%202025%29%20-%20MAP.jpg)
 
----
 ## Survey
 TML Data: Pines.tml Pines.tml
 KML Survey: Pines April 2022 - KML.kml
@@ -36,8 +54,6 @@ KML Survey: Pines April 2022 - KML.kml
 ![5l061 Survey To CCR](/images/5L061%20-%20Survey%20to%20CCR.png)
 
 ---
-# Logged Dives
-- 
 
 # References
 Media - Crazy Wombat Tunnel 
@@ -48,7 +64,6 @@ Media - Crazy Wombat Tunnel
 - [ABC Adelaide Facebook Post](https://www.facebook.com/abcadelaide/posts/pfbid035hTeTpqvydwwXkc4tT8vFaA3MSRNo77eMqZx4ktsGZgsEWD7qVYiTV1jC5XSVGb7l)
 - [Scuba Diver Magazine - "Exploring Pines Cave"](https://app.scubadivermag.com/issues/scuba-diver-anz-85/exploring-pines-cave)
 
-<!-- CaveDB media links: start -->
 ## CaveDB media
 - ![5L61 The Pines Cavedb 2019 04 20 08.50.46 1df25bda 5529d2bd](/images/5L61%20-%20The%20Pines%20-%20CaveDB%20-%202019-04-20%2008.50.46%20-%201df25bda-5529d2bd.jpg) — CaveDB
 - ![5L61 The Pines Cavedb 2019 04 20 08.50.50 378ca694 5529d2bd](/images/5L61%20-%20The%20Pines%20-%20CaveDB%20-%202019-04-20%2008.50.50%20-%20378ca694-5529d2bd.jpg) — CaveDB
@@ -72,4 +87,3 @@ Media - Crazy Wombat Tunnel
 - ![5L61 The Pines Cavedb 3y2a5397 8ed9f9a6 5529d2bd](/images/5L61%20-%20The%20Pines%20-%20CaveDB%20-%203Y2A5397%20-%208ed9f9a6-5529d2bd.jpeg) — CaveDB; Will Passos
 - ![5L61 The Pines Cavedb 5l061 Pines Full Line Survey Baf11292 5529d2bd](/images/5L61%20-%20The%20Pines%20-%20CaveDB%20-%205L061%20-%20Pines%20-%20full%20line%20survey%20-%20baf11292-5529d2bd.jpg) — CaveDB; GrubbyWombat
 - ![5L61 The Pines Cavedb Abz Pines (large) 7dec334a 5529d2bd](/images/5L61%20-%20The%20Pines%20-%20CaveDB%20-%20abz-pines%20%28Large%29%20-%207dec334a-5529d2bd.jpg) — CaveDB
-<!-- CaveDB media links: end -->
