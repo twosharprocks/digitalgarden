@@ -36,9 +36,9 @@ related:
 - [x] Check Leads - NW Corner (Dry)
 - [x] Check Leads - Gary's Back Passage (Wet)
 [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
-- [ ] Drone
-- [ ] LiDAR - Vardose Cave
-- [ ] Photogrammetry - All Underwater
+- [x] Drone
+- [x] LiDAR - Vardose Cave
+- [x] Photogrammetry - All Underwater
 - [ ] LiDAR - Airchamber Rockpile?
 [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
 - [ ] LiDAR - Vardose
@@ -84,10 +84,10 @@ related:
 		- 
 	- Haul Out
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 6 of 22
-- 2026-08-28 Fri:  - Murra
+- 2026-08-28 Fri: Diving [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
 	- 
-	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 7 of 22
-- 2026-08-29 Sat: Diving Tommy's
+	- *Stay: [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}}) 7 of 22
+- 2026-08-29 Sat: Diving - [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
 	- 
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 8 of 22
 - 2026-08-30 Sun: Move campsites
