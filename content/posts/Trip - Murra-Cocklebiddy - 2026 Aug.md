@@ -80,8 +80,11 @@ related:
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 5 of 22
 - 2026-08-27 Thu: Diving - Murra
 	- Early start, into cave at 8am
-	- Dive1: Into Mitch's Maze
-		- 
+	- Dive1: Into Mitch's Maze (No camera)
+		- Survey left into "Becoming a Problem"
+		- Lay Line right into "Secret Squirrel Business"
+	- Dive2: Recover pinger from 60m EOL
+	- Dive 3: Recover all line from Corkscrew and Big Room back to surface
 	- Haul Out
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 6 of 22
 - 2026-08-28 Fri: Diving [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
