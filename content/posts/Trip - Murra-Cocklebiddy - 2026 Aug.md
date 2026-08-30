@@ -1,7 +1,7 @@
 ---
 title: Trip - Murra-Cocklebiddy - 2026 Aug
 created: 2025-10-19
-updated: 2026-08-27
+updated: 2026-08-30
 status: planning
 draft: false
 tags:
@@ -94,8 +94,13 @@ related:
 - 2026-08-29 Sat: Diving - [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
 	- Dive with James: Sump1, Dry chamber, Sump 2
 		- Identify lead on right hand side of "Terminal Rockpile"
+		- Major issues crossing Inner Sanctum.
+		- Left X4 behind somewhere - carried X4 over Inner Sanctum, but not sure if it made it off rockpile (dropped somewhere?)
+		- 
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 8 of 22
 - 2026-08-30 Sun: Move campsites
+	- Very lazy day - Slow packup at Murra, stayed there to sort gear (realised X4 missing)
+	- Lunch at roadhouse, check tires
 	- Move from Murra to Cocklebiddy
 	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 9 of 22
 - 2026-08-31 Mon: Setup Cocklebiddy
