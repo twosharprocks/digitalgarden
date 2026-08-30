@@ -7,13 +7,13 @@ draft: false
 tags:
   - diving
   - caving
-  - personal
-  - trips
+  - nullarbor
 region: "[[Nullarbor High Plains]]"
 cavedb: https://app.cavedb.net/share/c3fffd30-d70d-42ed-9d4f-09a4cde11f7a.html
 related:
   - "[[Diving]]"
-  - 
+  - "[[Planning - Nullarbor]]"
+  - "[[Filming - Documentary on Nullarbor]]"
 rating: CDAA Cave, TDI Intro to Cave
 ---
 # From ASF
@@ -55,11 +55,12 @@ In conclusion, the Cocklebiddy Cave is a testament to the wonders that lie benea
 
 ---
 # Maps
-N48-CEG30048
-N48-CEG1321
-- ![6N48 Cocklebiddy Part 1](/images/6N48%20-%20Cocklebiddy%20Part%201.jpg) (Payne)
-- ![6N48 Cocklebiddy Part 2](/images/6N48%20-%20Cocklebiddy%20Part%202.jpg) (Payne)
-- ![6N48 Cocklebiddy Part 3](/images/6N48%20-%20Cocklebiddy%20Part%203.jpg) (Payne)
+- N48-CEG30048
+- N48-CEG1321
+	- ![6N48 Cocklebiddy Part 1](/images/6N48%20-%20Cocklebiddy%20Part%201.jpg) (Payne)
+	- ![6N48 Cocklebiddy Part 2](/images/6N48%20-%20Cocklebiddy%20Part%202.jpg) (Payne)
+	- ![6N48 Cocklebiddy Part 3](/images/6N48%20-%20Cocklebiddy%20Part%203.jpg) (Payne)
+![6N48 Cocklebiddy Cave ASF JNJ S 1011 05 Map N48 Cocklebiddy Cave](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1011-05%20-%20Map%20-%20N48%20Cocklebiddy%20cave.jpg)
 
 ---
 # References
@@ -67,7 +68,6 @@ N48-CEG1321
 * [“Cocklebiddy - Alpine Style”](https://cdg.caves.org.au/CDG-Articles/Articles/S-EBERHARD-CocklebiddyAlpineStyle1998.pdf) (CCR & DPV)
 - ![Cocklebiddy Drone Model Top View](/images/Cocklebiddy%20-%20Drone%20Model%20-%20Top%20View.jpg) (Richards)
 - ![Cocklebiddy Drone Model Side View](/images/Cocklebiddy%20-%20Drone%20Model%20-%20Side%20view.jpg) (Richards)
-
 ## ASF Joe Jennings slide catalogue images
 - ![6N48 Cocklebiddy Cave ASF JNJ S 1010 01 Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-01%20-%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg) 
 - ![6N48 Cocklebiddy Cave ASF JNJ S 1010 02 Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-02%20-%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg) 
@@ -76,7 +76,6 @@ N48-CEG1321
 - ![6N48 Cocklebiddy Cave ASF JNJ S 1010 05 Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-05%20-%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg) 
 - ![6N48 Cocklebiddy Cave ASF JNJ S 1010 06 Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-06%20-%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg) 
 - ![6N48 Cocklebiddy Cave ASF JNJ S 1010 07 Camp Above Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-07%20-%20Camp%20above%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
-- ![6N48 Cocklebiddy Cave ASF JNJ S 1011 05 Map N48 Cocklebiddy Cave](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1011-05%20-%20Map%20-%20N48%20Cocklebiddy%20cave.jpg)
 ## CaveDB media
 - ![6N48 Cocklebiddy Cave Cavedb 2019 01 09 06.28.36 84b2c69c C3fffd30](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20CaveDB%20-%202019-01-09%2006.28.36%20-%2084b2c69c-c3fffd30.jpg) — CaveDB
 - ![6N48 Cocklebiddy Cave Cavedb 2019 01 09 06.48.53 400a365a C3fffd30](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20CaveDB%20-%202019-01-09%2006.48.53%20-%20400a365a-c3fffd30.jpg) — CaveDB
