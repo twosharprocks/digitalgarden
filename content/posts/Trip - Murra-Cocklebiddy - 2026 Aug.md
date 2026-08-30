@@ -88,7 +88,8 @@ related:
 	- Haul Out
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 6 of 22
 - 2026-08-28 Fri: Diving [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
-	- 
+	- Haul In
+	- Dive with James: 
 	- *Stay: [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}}) 7 of 22
 - 2026-08-29 Sat: Diving - [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
 	- 
