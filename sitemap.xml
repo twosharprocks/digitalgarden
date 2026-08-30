@@ -249,6 +249,8 @@
   </url><url>
     <loc>/posts/albania/</loc>
   </url><url>
+    <loc>/tags/albania/</loc>
+  </url><url>
     <loc>/posts/algeria/</loc>
   </url><url>
     <loc>/posts/allendale---5l11/</loc>
@@ -515,6 +517,8 @@
   </url><url>
     <loc>/posts/flinders-ranges/</loc>
   </url><url>
+    <loc>/tags/flinders-ranges/</loc>
+  </url><url>
     <loc>/posts/florida/</loc>
   </url><url>
     <loc>/posts/fossil-cave---5l81/</loc>
@@ -588,6 +592,8 @@
     <loc>/posts/jamaica/</loc>
   </url><url>
     <loc>/posts/japan/</loc>
+  </url><url>
+    <loc>/tags/japan/</loc>
   </url><url>
     <loc>/posts/jenolan/</loc>
   </url><url>
@@ -879,6 +885,8 @@
   </url><url>
     <loc>/posts/mount-gambier---lower-south-east/</loc>
   </url><url>
+    <loc>/tags/mount-gambier/</loc>
+  </url><url>
     <loc>/posts/mozambique/</loc>
   </url><url>
     <loc>/posts/mr-electrico---ray-bradbury/</loc>
@@ -896,6 +904,8 @@
     <loc>/posts/new-south-wales/</loc>
   </url><url>
     <loc>/posts/new-zealand/</loc>
+  </url><url>
+    <loc>/tags/new-south-wales/</loc>
   </url><url>
     <loc>/posts/nigeria/</loc>
   </url><url>
@@ -1119,6 +1129,8 @@
   </url><url>
     <loc>/posts/roe-plains/</loc>
   </url><url>
+    <loc>/tags/roe-plains/</loc>
+  </url><url>
     <loc>/posts/romania/</loc>
   </url><url>
     <loc>/posts/russia/</loc>
@@ -1189,9 +1201,13 @@
   </url><url>
     <loc>/posts/south-australia/</loc>
   </url><url>
+    <loc>/tags/south-australia/</loc>
+  </url><url>
     <loc>/posts/space/</loc>
   </url><url>
     <loc>/posts/spain/</loc>
+  </url><url>
+    <loc>/tags/spain/</loc>
   </url><url>
     <loc>/posts/speaking/</loc>
   </url><url>
@@ -1208,6 +1224,8 @@
     <loc>/tags/study/</loc>
   </url><url>
     <loc>/posts/sulawesi/</loc>
+  </url><url>
+    <loc>/tags/sulawesi/</loc>
   </url><url>
     <loc>/posts/sweden/</loc>
   </url><url>
@@ -1234,6 +1252,8 @@
     <loc>/posts/texas/</loc>
   </url><url>
     <loc>/posts/thailand/</loc>
+  </url><url>
+    <loc>/tags/thailand/</loc>
   </url><url>
     <loc>/posts/the-black-hole---5l47---closed/</loc>
   </url><url>
@@ -1301,6 +1321,8 @@
   </url><url>
     <loc>/posts/victoria/</loc>
   </url><url>
+    <loc>/tags/victoria/</loc>
+  </url><url>
     <loc>/posts/vietnam/</loc>
   </url><url>
     <loc>/posts/web-app-vulnerability/</loc>
@@ -1344,6 +1366,8 @@
     <loc>/posts/writing/</loc>
   </url><url>
     <loc>/posts/y2038---epochalypse/</loc>
+  </url><url>
+    <loc>/tags/yucatan/</loc>
   </url><url>
     <loc>/posts/yucatan---mexico/</loc>
   </url><url>

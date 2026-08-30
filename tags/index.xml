@@ -44,6 +44,13 @@
       <description></description>
     </item>
     <item>
+      <title>Albania</title>
+      <link>/tags/albania/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/albania/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Antarctica</title>
       <link>/tags/antarctica/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -177,6 +184,13 @@
       <description></description>
     </item>
     <item>
+      <title>Flinders-Ranges</title>
+      <link>/tags/flinders-ranges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/flinders-ranges/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Gnocchi</title>
       <link>/tags/gnocchi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -219,6 +233,13 @@
       <description></description>
     </item>
     <item>
+      <title>Japan</title>
+      <link>/tags/japan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/japan/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Knowledge-Management</title>
       <link>/tags/knowledge-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -244,6 +265,20 @@
       <link>/tags/mini-essay/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/mini-essay/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mount-Gambier</title>
+      <link>/tags/mount-gambier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/mount-gambier/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New-South-Wales</title>
+      <link>/tags/new-south-wales/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/new-south-wales/</guid>
       <description></description>
     </item>
     <item>
@@ -352,6 +387,13 @@
       <description></description>
     </item>
     <item>
+      <title>Roe-Plains</title>
+      <link>/tags/roe-plains/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/roe-plains/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Script</title>
       <link>/tags/script/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -363,6 +405,20 @@
       <link>/tags/snack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/snack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>South-Australia</title>
+      <link>/tags/south-australia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/south-australia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spain</title>
+      <link>/tags/spain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/spain/</guid>
       <description></description>
     </item>
     <item>
@@ -387,10 +443,24 @@
       <description></description>
     </item>
     <item>
+      <title>Sulawesi</title>
+      <link>/tags/sulawesi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/sulawesi/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Tacos</title>
       <link>/tags/tacos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/tacos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thailand</title>
+      <link>/tags/thailand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/thailand/</guid>
       <description></description>
     </item>
     <item>
@@ -408,6 +478,13 @@
       <description></description>
     </item>
     <item>
+      <title>Victoria</title>
+      <link>/tags/victoria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/victoria/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Work</title>
       <link>/tags/work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -419,6 +496,13 @@
       <link>/tags/wrap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/wrap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yucatan</title>
+      <link>/tags/yucatan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/yucatan/</guid>
       <description></description>
     </item>
   </channel>
