@@ -92,7 +92,8 @@ related:
 	- Dive with James: 
 	- *Stay: [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}}) 7 of 22
 - 2026-08-29 Sat: Diving - [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
-	- 
+	- Dive with James: Sump1, Dry chamber, Sump 2
+		- Identify lead on right hand side of "Terminal Rockpile"
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 8 of 22
 - 2026-08-30 Sun: Move campsites
 	- Move from Murra to Cocklebiddy
