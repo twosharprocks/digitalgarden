@@ -39,7 +39,7 @@ related:
 - [x] Drone
 - [x] LiDAR - Vardose Cave
 - [x] Photogrammetry - All Underwater
-- [ ] LiDAR - Airchamber Rockpile?
+- [x] Photogram - Airchamber Rockpile
 [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
 - [ ] LiDAR - Vardose
 - [ ] Photogrammetry - 1st Sump
@@ -96,7 +96,6 @@ related:
 		- Identify lead on right hand side of "Terminal Rockpile"
 		- Major issues crossing Inner Sanctum.
 		- Left X4 behind somewhere - carried X4 over Inner Sanctum, but not sure if it made it off rockpile (dropped somewhere?)
-		- 
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 8 of 22
 - 2026-08-30 Sun: Move campsites
 	- Very lazy day - Slow packup at Murra, stayed there to sort gear (realised X4 missing)
