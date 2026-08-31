@@ -1,7 +1,7 @@
 ---
 title: Trip - Murra-Cocklebiddy - 2026 Aug
 created: 2025-10-19
-updated: 2026-08-30
+updated: 2026-08-31
 status: planning
 draft: false
 tags:
@@ -28,7 +28,7 @@ related:
 ---
 # To Do
 - [ ] BlackTip VSEC Tool
-- [ ] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) - Download dives
+- [x] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) - Download dives
 # To Do - On-Site
 [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
 - [x] LiDAR - Vardose
@@ -41,7 +41,7 @@ related:
 - [x] Photogrammetry - All Underwater
 - [x] Photogram - Airchamber Rockpile
 [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
-- [ ] LiDAR - Vardose
+- [ ] LiDAR - Surface & Vardose
 - [ ] Photogrammetry - 1st Sump
 - [ ] LiDAR - 1st Rockpile?
 - [ ] Photogrammetry - 2nd Sump
