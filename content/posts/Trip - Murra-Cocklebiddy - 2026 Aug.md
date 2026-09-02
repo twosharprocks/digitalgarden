@@ -1,7 +1,7 @@
 ---
 title: Trip - Murra-Cocklebiddy - 2026 Aug
 created: 2025-10-19
-updated: 2026-09-01
+updated: 2026-09-03
 status: planning
 draft: false
 tags:
@@ -43,9 +43,9 @@ related:
 [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
 - [ ] LiDAR - Surface & Vardose
 - [x] Photogrammetry - 1st Sump
-- [ ] LiDAR - 1st Rockpile?
+~~- [ ] LiDAR - 1st Rockpile?
 - [ ] Photogrammetry - 2nd Sump
-- [ ] LiDAR - Toad Hall?
+~~- [ ] LiDAR - Toad Hall?
 - [ ] Photogrammetry - 3rd Sump
 - [ ] Check Leads - 1st Sump
 # Trip Log
@@ -115,11 +115,11 @@ related:
 		- Call end of diving for me
 	- Others start ferrying gear to rockpile
 	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 12 of 22
-- 2026-09-03 Thu: Gear to Rockpile
-	- Dive gear all to rockpile
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 13 of 22
-- 2026-09-04 Fri: Gear over Rockpile
+- 2026-09-03 Thu: Gear over Rockpile
 	- Carry all gear over rockpile to Sump 2
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 13 of 22
+- 2026-09-04 Fri: 
+	- 
 	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 14 of 22
 - 2026-09-05 Sat: Rest & Final Setup
 	- Group 1: Rest day
