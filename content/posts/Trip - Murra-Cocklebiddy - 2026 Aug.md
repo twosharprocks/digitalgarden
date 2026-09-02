@@ -1,7 +1,7 @@
 ---
 title: Trip - Murra-Cocklebiddy - 2026 Aug
 created: 2025-10-19
-updated: 2026-08-31
+updated: 2026-09-01
 status: planning
 draft: false
 tags:
@@ -42,7 +42,7 @@ related:
 - [x] Photogram - Airchamber Rockpile
 [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
 - [ ] LiDAR - Surface & Vardose
-- [ ] Photogrammetry - 1st Sump
+- [x] Photogrammetry - 1st Sump
 - [ ] LiDAR - 1st Rockpile?
 - [ ] Photogrammetry - 2nd Sump
 - [ ] LiDAR - Toad Hall?
@@ -89,7 +89,7 @@ related:
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 6 of 22
 - 2026-08-28 Fri: Diving [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
 	- Haul In
-	- Dive with James: 
+	- Dive with James: Photogrammetry Swim through Sump 1, down to BLue Room, through keyhole, home
 	- *Stay: [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}}) 7 of 22
 - 2026-08-29 Sat: Diving - [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
 	- Dive with James: Sump1, Dry chamber, Sump 2
@@ -102,16 +102,18 @@ related:
 	- Lunch at roadhouse, check tires
 	- Move from Murra to Cocklebiddy
 	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 9 of 22
-- 2026-08-31 Mon: Setup Cocklebiddy
+- 2026-08-31 Mon: Rigging
 	- Start rigging cave
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 10 of 22
-- 2026-09-01 Tues: Rigging
 	- Finish rigging, install power/fill lines
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 10 of 22
+- 2026-09-01 Tues: Gear to Sump 1 & Initial Photogrammetry
+	- Haul in Gear
+	- Dive with Will: Gear check and photogrammetry of entrance lake for Sump 1. Swam in ~250m.
 	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 11 of 22
-- 2026-09-02 Wed: Gear to Sump 1 & Initial Photogrammetry
-	- Finish Haul in
-	- Initial photogrammetry of 1st Sump
-	- Start ferrying gear to rockpile
+- 2026-09-02 Wed: Ferrying Gear to Rockpile
+	- Dive with Will: Photogrammetry to rockpile and back. 
+		- Call end of diving for me
+	- Others start ferrying gear to rockpile
 	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 12 of 22
 - 2026-09-03 Thu: Gear to Rockpile
 	- Dive gear all to rockpile
@@ -151,9 +153,6 @@ related:
 
 ---
 # Notes
-Remember
-- Hand sanitiser
-- More coffee (min 500g ground)
 ## To Do
 - Complete tasks for VW Transporter
 	- [x] Full Service
@@ -213,6 +212,7 @@ Remember
 - Drinks
 	- [x] Coke Zero, Ginger Beer
 	- [x] Spirits
+	- [x] Coffee - 250g/week
 
 ---
 # References
