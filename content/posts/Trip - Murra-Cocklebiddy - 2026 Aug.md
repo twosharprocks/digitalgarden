@@ -33,16 +33,18 @@ related:
 [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
 - [x] LiDAR - Vardose
 - [x] Photogrammetry - All Underwater 
-- [x] Check Leads - NW Corner (Dry)
+~~- [ ] Check Leads - NW Corner (Dry)
 - [x] Check Leads - Gary's Back Passage (Wet)
 [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
 - [x] Drone
 - [x] LiDAR - Vardose Cave
 - [x] Photogrammetry - All Underwater
 - [x] Photogram - Airchamber Rockpile
+- [ ] Recover X4
 [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
 - [ ] LiDAR - Surface & Vardose
 - [x] Photogrammetry - 1st Sump
+- [ ] Pinger - 1st Sump
 ~~- [ ] LiDAR - 1st Rockpile?
 - [ ] Photogrammetry - 2nd Sump
 ~~- [ ] LiDAR - Toad Hall?
