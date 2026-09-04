@@ -1,7 +1,7 @@
 ---
 title: Trip - Murra-Cocklebiddy - 2026 Aug
 created: 2025-10-19
-updated: 2026-09-03
+updated: 2026-09-04
 status: planning
 draft: false
 tags:
@@ -48,7 +48,7 @@ related:
 ~~- [ ] LiDAR - 1st Rockpile?
 - [ ] Photogrammetry - 2nd Sump
 ~~- [ ] LiDAR - Toad Hall?
-- [ ] Photogrammetry - 3rd Sump
+~~- [ ] Photogrammetry - 3rd Sump
 - [ ] Check Leads - 1st Sump
 # Trip Log
 ***Dates: 08-21 to 08-31 (Murra) & 09-01 to 09-12 (Cocklebiddy)***
