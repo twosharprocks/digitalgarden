@@ -1,7 +1,7 @@
 ---
 title: Trip - Murra-Cocklebiddy - 2026 Aug
 created: 2025-10-19
-updated: 2026-09-04
+updated: 2026-09-05
 status: planning
 draft: false
 tags:
@@ -33,7 +33,7 @@ related:
 [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}})
 - [x] LiDAR - Vardose
 - [x] Photogrammetry - All Underwater 
-~~- [ ] Check Leads - NW Corner (Dry)
+~~- [ ] Check Leads - NW Corner (Dry)~~
 - [x] Check Leads - Gary's Back Passage (Wet)
 [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
 - [x] Drone
@@ -42,14 +42,14 @@ related:
 - [x] Photogram - Airchamber Rockpile
 - [ ] Recover X4
 [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
-- [ ] LiDAR - Surface & Vardose
+- [x] LiDAR - Surface & Vardose
 - [x] Photogrammetry - 1st Sump
 - [ ] Pinger - 1st Sump
-~~- [ ] LiDAR - 1st Rockpile?
+~~- [ ] LiDAR - 1st Rockpile?~~
 - [ ] Photogrammetry - 2nd Sump
-~~- [ ] LiDAR - Toad Hall?
-~~- [ ] Photogrammetry - 3rd Sump
-- [ ] Check Leads - 1st Sump
+~~- [ ] LiDAR - Toad Hall?~~
+- [ ] Photogrammetry - 3rd Sump 
+~~- [ ] Check Leads - 1st Sump~~
 # Trip Log
 ***Dates: 08-21 to 08-31 (Murra) & 09-01 to 09-12 (Cocklebiddy)***
 ![Trip Cocklebiddy 2026 Plan](/images/Trip%20-%20Cocklebiddy%202026%20-%20Plan.jpg)
@@ -120,20 +120,17 @@ related:
 - 2026-09-03 Thu: Gear over Rockpile
 	- Carry all gear over rockpile to Sump 2
 	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 13 of 22
-- 2026-09-04 Fri: 
-	- 
+- 2026-09-04 Fri: Final Setup
+	- Final gear to Sump 2 entrance
 	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 14 of 22
-- 2026-09-05 Sat: Rest & Final Setup
-	- Group 1: Rest day
-	- Group 2: Final gear
+- 2026-09-05 Sat: Push Day
+	- Toad Hall: Push day
 	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 15 of 22
-- 2026-09-06 Sun: Diving
-	- Group 1: Toad Hall (max 6 divers)
-	- Group 2: Rest day
+- 2026-09-06 Sun: Rest Day
+	- 
 	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 16 of 22
 - 2026-09-07 Mon: Diving
-	- Group 1: Rest or start haul out
-	- Group 2: Toad Hall (max 6 divers)
+	- Start haul out
 	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 17 of 22
 - 2026-09-08 Tue: Action
 	- Group 1: Gear to Sump 1
