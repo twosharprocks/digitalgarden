@@ -40,7 +40,7 @@ related:
 - [x] LiDAR - Vardose Cave
 - [x] Photogrammetry - All Underwater
 - [x] Photogram - Airchamber Rockpile
-- [ ] Recover X4
+~~- [ ] Recover X4~~
 [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
 - [x] LiDAR - Surface & Vardose
 - [x] Photogrammetry - 1st Sump
@@ -98,57 +98,51 @@ related:
 		- Identify lead on right hand side of "Terminal Rockpile"
 		- Major issues crossing Inner Sanctum.
 		- Left X4 behind somewhere - carried X4 over Inner Sanctum, but not sure if it made it off rockpile (dropped somewhere?)
-	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 8 of 22
+	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 8 of 18
 - 2026-08-30 Sun: Move campsites
 	- Very lazy day - Slow packup at Murra, stayed there to sort gear (realised X4 missing)
 	- Lunch at roadhouse, check tires
 	- Move from Murra to Cocklebiddy
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 9 of 22
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 9 of 18
 - 2026-08-31 Mon: Rigging
 	- Start rigging cave
 	- Finish rigging, install power/fill lines
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 10 of 22
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 10 of 18
 - 2026-09-01 Tues: Gear to Sump 1 & Initial Photogrammetry
 	- Haul in Gear
 	- Dive with Will: Gear check and photogrammetry of entrance lake for Sump 1. Swam in ~250m.
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 11 of 22
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 11 of 18
 - 2026-09-02 Wed: Ferrying Gear to Rockpile
 	- Dive with Will: Photogrammetry to rockpile and back. 
-		- Call end of diving for me
+		- End of diving for me
 	- Others start ferrying gear to rockpile
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 12 of 22
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 12 of 18
 - 2026-09-03 Thu: Gear over Rockpile
-	- Carry all gear over rockpile to Sump 2
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 13 of 22
-- 2026-09-04 Fri: Final Setup
-	- Final gear to Sump 2 entrance
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 14 of 22
+	- Team carry all gear over rockpile to Sump 2 - finish at 9pm
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 13 of 18
+- 2026-09-04 Fri: Rest Day
+	- Recovery day, dinner at roadhouse
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 14 of 18
 - 2026-09-05 Sat: Push Day
 	- Toad Hall: Push day
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 15 of 22
-- 2026-09-06 Sun: Rest Day
+	- Search for pinger - no luck
+	- Joseph surfaced with distended bladder - rushed to Norseman Hospital by Chloe & Corey
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 15 of 18
+- 2026-09-06 Sun: Team Rest Day - Tommy Graham's
+	- Retrieve OC gear from cave
+	- Drive to [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
+		- Dive to recover X4 - no luck
+	- Drive back to roadhouse - wait for Joseph/Chloe/Corey
 	- 
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 16 of 22
-- 2026-09-07 Mon: Diving
-	- Start haul out
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 17 of 22
-- 2026-09-08 Tue: Action
+	- *Stay: Ceduna 16 of 18
+- 2026-09-07 Mon: Home
+	- 
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 17 of 18
+- 2026-09-08 Tue: Clean Gear
 	- Group 1: Gear to Sump 1
 	- Group 2: Late start
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 18 of 22
-- 2026-09-09 Wed: Action
-	- Clean up dives
-	- Start Haul out
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 19 of 22
-- 2026-09-10 Thu: Haul & Pack
-	- Finish Haul out
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 20 of 22
-- 2026-09-11 Fri: Travel
-	- *Drive: Cocklebiddy-Ceduna (8hrs)*
-	- *Stay: Ceduna (Speak?) 21 of 22
-- 2026-09-12 Sat: Travel
-	- Speak in Ceduna?
-	- *Drive: Ceduna-ADL (8.5hrs)* 22 of 22
+	- *Stay: Home 18 of 18
+
 
 ---
 # Notes
