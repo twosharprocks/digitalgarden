@@ -1,7 +1,7 @@
 ---
 title: Trip - Murra-Cocklebiddy - 2026 Aug
 created: 2025-10-19
-updated: 2026-09-06
+updated: 2026-09-08
 status: planning
 draft: false
 tags:
@@ -29,6 +29,11 @@ related:
 # To Do
 - [ ] BlackTip VSEC Tool
 - [x] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) - Download dives
+- [ ] From Toby
+	- [ ] Pinger x1
+	- [ ] DeWalt - Box + 4x Batteries
+	- [ ] X5 in small case + bag
+	- [ ] 2x7L Wombat Cylinders
 
 # Trip Log
 ***Dates: 08-21 to 08-31 (Murra) & 09-01 to 09-12 (Cocklebiddy)***
