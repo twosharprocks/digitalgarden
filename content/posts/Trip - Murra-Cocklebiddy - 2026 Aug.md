@@ -1,7 +1,7 @@
 ---
 title: Trip - Murra-Cocklebiddy - 2026 Aug
 created: 2025-10-19
-updated: 2026-09-08
+updated: 2026-09-09
 status: planning
 draft: false
 tags:
@@ -27,7 +27,7 @@ related:
   - "[[Filming - Documentary on Nullarbor]]"
 ---
 # To Do - Post Trip
-- [ ] Empty Van
+- [x] Empty Van
 - [ ] Clean Gear
 - [ ] BlackTip - VSEC Tool
 - [x] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) - Download dives
