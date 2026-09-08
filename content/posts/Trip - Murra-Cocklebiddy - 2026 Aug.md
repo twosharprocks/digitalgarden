@@ -32,6 +32,7 @@ related:
 - [ ] BlackTip - VSEC Tool
 - [x] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) - Download dives
 - [ ] Perdix - Download Dives
+- [ ] Sort Subsurface
 - [ ] Gear from Toby
 	- [ ] Pinger x1
 	- [ ] DeWalt - Box + 4x Batteries
