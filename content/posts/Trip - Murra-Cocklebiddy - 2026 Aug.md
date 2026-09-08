@@ -26,14 +26,17 @@ related:
   - "[[Planning - Nullarbor]]"
   - "[[Filming - Documentary on Nullarbor]]"
 ---
-# To Do
-- [ ] BlackTip VSEC Tool
+# To Do - Post Trip
+- [ ] Empty Van
+- [ ] Clean Gear
+- [ ] BlackTip - VSEC Tool
 - [x] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) - Download dives
-- [ ] From Toby
+- [ ] Perdix - Download Dives
+- [ ] Gear from Toby
 	- [ ] Pinger x1
 	- [ ] DeWalt - Box + 4x Batteries
 	- [ ] X5 in small case + bag
-	- [ ] 2x7L Wombat Cylinders
+	- [ ] 7L Wombat Cylinders x2
 
 # Trip Log
 ***Dates: 08-21 to 08-31 (Murra) & 09-01 to 09-12 (Cocklebiddy)***
