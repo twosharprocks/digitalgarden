@@ -67,7 +67,7 @@ related:
 	- Located both pingers on surface
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 4 of 17
 - 2026-08-26 Wed: Diving - Murra
-	- 
+	- Dive: Recover Pinger from Crystal Room pinger, photogrammetry in Mitch's Maze
 	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 5 of 17
 - 2026-08-27 Thu: Diving - Murra
 	- Early start, into cave at 8am
