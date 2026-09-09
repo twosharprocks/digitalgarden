@@ -30,7 +30,7 @@ related:
 - [x] Empty Van
 - [x] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) - Download dives
 - [x] Perdix - Download Dives
-- [ ] Clean Gear
+- [ ] Clean/Replace Gear
 - [ ] BlackTip - VSEC Tool
 - [ ] Sort Subsurface
 - [ ] Gear from Toby
