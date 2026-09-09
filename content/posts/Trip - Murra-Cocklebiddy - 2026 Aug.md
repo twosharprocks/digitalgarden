@@ -2,7 +2,7 @@
 title: Trip - Murra-Cocklebiddy - 2026 Aug
 created: 2025-10-19
 updated: 2026-09-09
-status: planning
+status: complete
 draft: false
 tags:
   - trips
@@ -28,16 +28,17 @@ related:
 ---
 # To Do - Post Trip
 - [x] Empty Van
+- [x] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) - Download dives
+- [x] Perdix - Download Dives
 - [ ] Clean Gear
 - [ ] BlackTip - VSEC Tool
-- [x] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) - Download dives
-- [ ] Perdix - Download Dives
 - [ ] Sort Subsurface
 - [ ] Gear from Toby
 	- [ ] Pinger x1
 	- [ ] DeWalt - Box + 4x Batteries
 	- [ ] X5 in small case + bag
 	- [ ] 7L Wombat Cylinders x2
+	- [ ] X5 x1 ()
 
 # Trip Log
 ***Dates: 08-21 to 08-31 (Murra) & 09-01 to 09-12 (Cocklebiddy)***
@@ -51,24 +52,24 @@ related:
 		- Saw James & Nancy at WA Border, drove together to Murra
 	- Setup camp
 	- Setup Cave: Bags and Cylinders 75% into cave, exhausted and out by 8pm
-	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 1 of 18
+	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 1 of 17
 - 2026-08-23 Sun: Diving - Murra
 	- Rain overnight 
 	- Told by Joseph to stop social media posts
 	- Cylinders and gear to waterline
 	- Dive with James and Nancy - Continue line from A6-A8-counterclock big room to A12, connect 60m line, connect A12-A8, jump at A7
 	- No fire - James & Nancy to roadhouse
-	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 2 of 18
+	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 2 of 17
 - 2026-08-24 Mon: Diving - Murra
 	- Solo Dive: Photogrammetry to end of 60m line, back to big room (A12), clockwise to snowflake room (A9) (surface), see James & Nancy near A8 (on their way to A12 & 60m line), follow jump into A7 for photogrammetry data, drop camera to pickup line, then back to surface
-	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 3 of 18
+	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 3 of 17
 - 2026-08-25 Tue: Diving - Murra
 	- Dive with Andrew: Through A2 & A3, placed 1x pinger at Crystal Room, place 1x pinger at End of 60m line, back to surface
 	- Located both pingers on surface
-	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 4 of 18
+	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 4 of 17
 - 2026-08-26 Wed: Diving - Murra
 	- 
-	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 5 of 18
+	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 5 of 17
 - 2026-08-27 Thu: Diving - Murra
 	- Early start, into cave at 8am
 	- Dive1: Into Mitch's Maze (No camera)
@@ -77,60 +78,57 @@ related:
 	- Dive2: Recover pinger from 60m EOL
 	- Dive 3: Recover all line from Corkscrew and Big Room back to surface
 	- Haul Out
-	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 6 of 18
+	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 6 of 17
 - 2026-08-28 Fri: Diving [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
 	- Haul In
 	- Dive with James: Photogrammetry Swim through Sump 1, down to BLue Room, through keyhole, home
-	- *Stay: [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}}) 7 of 18
+	- *Stay: [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}}) 7 of 17
 - 2026-08-29 Sat: Diving - [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
 	- Dive with James: Sump1, Dry chamber, Sump 2
 		- Identify lead on right hand side of "Terminal Rockpile"
 		- Major issues crossing Inner Sanctum.
 		- Left X4 behind somewhere - carried X4 over Inner Sanctum, but not sure if it made it off rockpile (dropped somewhere?)
-	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 8 of 18
+	- *Stay: [Murra-El-Elevyn - 6N47]({{< relref "posts/Murra-El-Elevyn - 6N47.md" >}}) 8 of 17
 - 2026-08-30 Sun: Move campsites
 	- Very lazy day - Slow packup at Murra, stayed there to sort gear (realised X4 missing)
 	- Lunch at roadhouse, check tires
 	- Move from Murra to Cocklebiddy
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 9 of 18
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 9 of 17
 - 2026-08-31 Mon: Rigging
 	- Start rigging cave
 	- Finish rigging, install power/fill lines
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 10 of 18
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 10 of 17
 - 2026-09-01 Tues: Gear to Sump 1 & Initial Photogrammetry
 	- Haul in Gear
 	- Dive with Will: Gear check and photogrammetry of entrance lake for Sump 1. Swam in ~250m.
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 11 of 18
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 11 of 17
 - 2026-09-02 Wed: Ferrying Gear to Rockpile
 	- Dive with Will: Photogrammetry to rockpile and back. 
 		- End of diving for me
 	- Others start ferrying gear to rockpile
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 12 of 18
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 12 of 17
 - 2026-09-03 Thu: Gear over Rockpile
 	- Team carry all gear over rockpile to Sump 2 - finish at 9pm
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 13 of 18
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 13 of 17
 - 2026-09-04 Fri: Rest Day
 	- Recovery day, dinner at roadhouse
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 14 of 18
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 14 of 17
 - 2026-09-05 Sat: Push Day
 	- Toad Hall: Push day
 	- Search for pinger - no luck
 	- Joseph surfaced with distended bladder - rushed to Norseman Hospital by Chloe & Corey
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 15 of 18
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 15 of 17
 - 2026-09-06 Sun: Team Rest Day - Tommy Graham's
 	- Retrieve OC gear from cave
 	- Drive to [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
 		- Dive to recover X4 - no luck
 	- Drive back to roadhouse - wait for Joseph/Chloe/Corey
-	- 
-	- *Stay: Ceduna 16 of 18
+	- Pickup Starlink & see Joseph
+	- Drive to Nullarbor Roadhouse
+	- *Stay: 20mins passed Nullarbor Roadhouse 16 of 17
 - 2026-09-07 Mon: Home
 	- 
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 17 of 18
-- 2026-09-08 Tue: Clean Gear
-	- Group 1: Gear to Sump 1
-	- Group 2: Late start
-	- *Stay: Home 18 of 18
+	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 17 of 17
 
 
 ---

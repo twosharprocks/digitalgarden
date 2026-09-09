@@ -16,9 +16,10 @@ related:
   - "[[About]]"
 ---
 # Upcoming
-- [Trip - Murra-Cocklebiddy - 2026 Aug]({{< relref "posts/Trip - Murra-Cocklebiddy - 2026 Aug.md" >}})
+_No matching notes._
 
 # Past
+- [Trip - Murra-Cocklebiddy - 2026 Aug]({{< relref "posts/Trip - Murra-Cocklebiddy - 2026 Aug.md" >}})
 - [Trip - Japan - 2026 May]({{< relref "posts/Trip - Japan - 2026 May.md" >}})
 - [Trip - Thailand - Boh Yai Mines - 2026 Jan]({{< relref "posts/Trip - Thailand - Boh Yai Mines - 2026 Jan.md" >}})
 - [Trip - Antarctica - 2025 Nov]({{< relref "posts/Trip - Antarctica - 2025 Nov.md" >}})
