@@ -36,9 +36,8 @@ related:
 - [ ] Gear from Toby
 	- [ ] Pinger x1
 	- [ ] DeWalt - Box + 4x Batteries
-	- [ ] X5 in small case + bag
+	- [ ] X5 in small case + bag (Move Data. Share with Will)
 	- [ ] 7L Wombat Cylinders x2
-	- [ ] X5 x1 ()
 
 # Trip Log
 ***Dates: 08-21 to 08-31 (Murra) & 09-01 to 09-12 (Cocklebiddy)***
