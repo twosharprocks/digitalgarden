@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
 
   
-  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+  <link rel="stylesheet" href="/css/code.min.c4581949edab7810737609fc5568852bcd908945f14561e366dcd2300a370545.css">
 
   
   <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
@@ -48,7 +48,7 @@
   <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
 
   
-  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+  <link rel="stylesheet" href="/css/syntax.min.a2cc694a9b481f15d41722bffc2cc54eea4c4f74fd9072b0b33253604c22606e.css">
 
   
   <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
@@ -150,7 +150,157 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---windows/">OSCP - Windows</a>
+          <a href="/posts/oscp---ochima---linux/">OSCP - Ochima - Linux</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="ochima">Ochima</h1>
+<p>This one was an exercise in frustration purely because the exploit didn&rsquo;t seem to work on the port I wanted it to (<code>4444</code>) but <em>would</em> work on port <code>80</code>!?</p>
+<p>I tired all sorts of things to get it work, the walkthroughs didn&rsquo;t explain why they used port 80, and the exploit itself indicated it&rsquo;d work on whatever I picked&hellip; but the moment I popped port 80 into the exploit&rsquo;s reverse shell parameters I got an incoming connection. So an important reminder that if a reverse shell isn&rsquo;t working on port <code>4444</code> then try the same thing but with a listener on port <code>80</code> instead</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---ochima---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---pc---linux/">OSCP - PC - Linux</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="pc">PC</h1>
+<p>This was an interesting one, with <code>linpeas</code> showing multiple vulnerabilities and yet the most obvious two didn&rsquo;t work because of missing dependencies and no user credentials.</p>
+<p>Figuring out how <code>rpcpy-exploit</code> worked was interesting, but the real lesson here was understanding how if the SUID binary can be set then you can run Bash in privileged mode with <code>/bin/bash -p</code> and become <code>root</code></p>
+<h1 id="resolution-summary">Resolution summary</h1>
+<ul>
+<li>Ran Nmap to identify ports <code>22</code> &amp; <code>8000</code></li>
+<li>Visited http (<code>8000</code>) &amp; identified <code>ttyd</code></li>
+<li>Created reverse shell and enumerated target</li>
+<li>Ran <code>linpeas.sh</code> and identified multiple vulnerabilities and <code>rpc.sh</code> script</li>
+<li>Identified exploit for <code>rpc.sh</code> and used it to modify <code>/bin/bash</code> set permission</li>
+<li>Used <code>/bin/bash -p</code> to switch to <code>root</code></li>
+</ul>
+<h2 id="improved-skills">Improved skills</h2>
+<ul>
+<li>Identifying vulnerabilities &amp; scripts with <code>linpeas.sh</code></li>
+</ul>
+<h2 id="used-tools">Used tools</h2>
+<ul>
+<li>nmap</li>
+<li>ttyd</li>
+<li>python</li>
+</ul>
+<hr>
+<h1 id="information-gathering">Information Gathering</h1>
+<p>Scanned all TCP ports:</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---pc---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---pelican---linux/">OSCP - Pelican - Linux</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="pelican">Pelican</h1>
+<p>Pretty happy with this one considering I figured most of it out without really looking at a walkthrough. Identifying Exhibition vs Zookeeper was a little confusing, but as soon as I identified that Exhibition v1.0 was vulenerable to command injection then finding &amp; using an exploit (which was really just adding a reverse shell to a java script field) became fairly straightforward.</p>
+<p>Privilege escalation with <code>gcore</code> was a little tricky, as it&rsquo;s been awhile since I needed to remember how <code>strings</code> worked. But once it became clear I could search for plaintext passwords then it made sense and switching to root was easy.</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---pelican---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---plum---linux/">OSCP - Plum - Linux</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="plum">Plum</h1>
+<p>This one was relatively easy to achieve initial access on, but enumerating the target once I had initial access was frustrating. I&rsquo;d learned on the previous box that I could pull up locally stored mail by visiting <code>/var/mail</code> but hadn&rsquo;t quite realised that it should be part of my standard privesc process.</p>
+<p>Anyway, once I got the nudge from the walkthrough to check mail, it became straight-forward to switch to root and grab the flag, but 100% an important lesson in seeing the <code>var/mail/www-data</code> in the <code>Linpeas</code> output and being sure to read the mail incase there&rsquo;s anything important or useful (like credentials) saved there.</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---plum---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---provinggrounds---linux/">OSCP - ProvingGrounds - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -168,246 +318,57 @@
         <div class="post-content">
           
             <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
-<h1 id="tj-null---pg-practice">TJ Null - PG Practice</h1>
-<p><del>Helpdesk</del> (Not available)</p>
-<p>Easy - 1/4</p>
+<h1 id="tj-null---pg-play---11">TJ Null - PG Play - 11</h1>
 <ul>
-<li><input checked="" disabled="" type="checkbox"> Algernon - Easy</li>
-<li><input checked="" disabled="" type="checkbox"> Squid - Easy</li>
-<li><input checked="" disabled="" type="checkbox"> Internal - Easy</li>
-<li><input disabled="" type="checkbox"> <del>Kevin - Easy</del> (Aborted)</li>
+<li><input disabled="" type="checkbox"> eLection1</li>
+<li><input disabled="" type="checkbox"> Stapler</li>
+<li><input disabled="" type="checkbox"> Monitoring</li>
+<li><input disabled="" type="checkbox"> InsanityHosting</li>
+<li><input disabled="" type="checkbox"> DriftingBlue6</li>
+<li><input disabled="" type="checkbox"> Loly</li>
+<li><input disabled="" type="checkbox"> Blogger</li>
+<li><input disabled="" type="checkbox"> Amaterasu</li>
+<li><input disabled="" type="checkbox"> Blogger</li>
+<li><input disabled="" type="checkbox"> Potato</li>
+<li><input disabled="" type="checkbox"> DC-9</li>
 </ul>
-<p>Intermediate - 6/9</p>
+<h1 id="tj-null---pg-practice---0">TJ Null - PG Practice - 0</h1>
+<p>Easy - 0/7</p>
 <ul>
-<li><input checked="" disabled="" type="checkbox"> Authby - Intermediate</li>
-<li><input checked="" disabled="" type="checkbox"> Hutch - Intermediate</li>
-<li><input checked="" disabled="" type="checkbox"> Jacko - Intermediate</li>
-<li><input disabled="" type="checkbox"> Resourced - Intermediate</li>
-<li><input disabled="" type="checkbox"> DVR4 - Intermediate</li>
-<li><input disabled="" type="checkbox"> Hepet - Intermediate</li>
-<li><input disabled="" type="checkbox"> Shenzi - Intermediate</li>
-<li><input disabled="" type="checkbox"> Nickel - Intermediate</li>
-<li><input disabled="" type="checkbox"> Slort - Intermediate</li>
+<li><input checked="" disabled="" type="checkbox"> Twiggy</li>
+<li><input checked="" disabled="" type="checkbox"> Exfiltrated</li>
+<li><input checked="" disabled="" type="checkbox"> Astronaut</li>
+<li><input checked="" disabled="" type="checkbox"> Codo</li>
+<li><input checked="" disabled="" type="checkbox"> Levram</li>
+<li><input checked="" disabled="" type="checkbox"> Hub</li>
+<li><input checked="" disabled="" type="checkbox"> RubyDome</li>
 </ul>
-<p>Hard 1/1</p>
+<p>Intermediate - 0/15</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Pelican</li>
+<li><input checked="" disabled="" type="checkbox"> Boolean</li>
+<li><input checked="" disabled="" type="checkbox"> Crane</li>
+<li><input checked="" disabled="" type="checkbox"> Extplorer</li>
+<li><input checked="" disabled="" type="checkbox"> Image</li>
+<li><input checked="" disabled="" type="checkbox"> Iaw</li>
+<li><input checked="" disabled="" type="checkbox"> Lavita</li>
+<li><input checked="" disabled="" type="checkbox"> PC</li>
+<li><input checked="" disabled="" type="checkbox"> Fired</li>
+<li><input checked="" disabled="" type="checkbox"> Press</li>
+<li><input checked="" disabled="" type="checkbox"> Scrutiny</li>
+<li><input checked="" disabled="" type="checkbox"> Flu</li>
+<li><input checked="" disabled="" type="checkbox"> Ochima</li>
+<li><input checked="" disabled="" type="checkbox"> PyLoader</li>
+<li><input checked="" disabled="" type="checkbox"> Plum</li>
+<li><input checked="" disabled="" type="checkbox"> Cockpit</li>
+</ul>
+<p>Hard - 0/3</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---windows/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/outside-magazine/">Outside Magazine</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/personal/">personal</a>&nbsp;
-            
-            #<a href="/tags/expeditions/">expeditions</a>&nbsp;
-            
-            #<a href="/tags/exploration/">exploration</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="articles">Articles</h1>
-<ul>
-<li><a href="https://www.outsideonline.com/outdoor-adventure/exploration-survival/wim-hof-method/">How Iceman Wim Hof Uncovered the Secrets to Our Health</a></li>
-<li><a href="https://www.outsideonline.com/outdoor-adventure/water-activities/raising-dead/">Raising the Dead - Dave Shaw</a></li>
-</ul>
-<h1 id="references">References</h1>
-<p><a href="https://www.outsideonline.com/tag/outside-features/">Outside - Long Reads</a>
-<a href="https://www.outsideonline.com/collection/outside-classics/">The Best Stories We’ve Ever Told - Greatest Long Reads of All Time)</a>
-<a href="https://www.outsideonline.com/collection/greatest-outside-adventure-stories-ever-told/">The Greatest Outside Adventure Stories Ever Told</a></p>
-<p><a href="https://www.amazon.com.au/Out-There-Wildest-Stories-Magazine-ebook/dp/B07DRB4BC6/ref=tmm_kin_swatch_0">Kindle - Out There: The Wildest Stories from Outside Magazine</a></p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/outside-magazine/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/pacific-north-west/">Pacific North-West</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Pacific North-West is listed under <a href="/posts/north-america/">North America</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
-</ul>
-<h1 id="backlinks">Backlinks</h1>
-<ul>
-<li><a href="/posts/cave-regions/">Cave Regions</a></li>
-<li><a href="/posts/diving/">Diving</a></li>
-</ul>
-<hr>
-<h1 id="existing-notes">Existing Notes</h1>
-<h1 id="about">About</h1>
-<h2 id="us">US</h2>
-<ul>
-<li><a href="https://nwdiveclub.com/viewtopic.php?t=13516">Clear Lake, Oregon</a> (Cave)</li>
-</ul>
-<ul>
-<li><a href="http://www.underseaadventures.net/titan-i-missile-silo-silo-diving-dive-into-history.htm">Royal City, Washington - Titan I Missile Silo</a></li>
-<li>Colorado - <a href="https://en.wikipedia.org/wiki/Spring_Cave">Spring Cave </a>(Only open April 16 - Aug 14), Aspen (<a href="https://www.beaverdivers.com/">Beaver Divers</a>)</li>
-</ul>
-<h2 id="canada">Canada</h2>
-<p>British Columbia - <a href="http://www.cavediver.net/forum/showthread.php/7140-Caves-on-Vancouver-Island-British-Columbia?s=a31f1a0e05071f932947b790ea1bc266">Vancouver Island</a>, <a href="https://www.narcity.com/amp/7-cool-caves-to-explore-in-british-columbia-this-summer">7 Caves in BC</a>, <a href="https://www.cbc.ca/amp/1.4488952">Canada’s Deepest Cave</a>, <a href="https://www.canadiangeographic.ca/article/subterranean-trailblazers">Castleguard</a></p>
-<ul>
-<li><a href="https://doublearrowdivecompany.ca/dive-sites/">Double Arrow Dive Company</a></li>
-</ul>
-<h1 id="caves">Caves</h1>
-<ul>
-<li></li>
-</ul>
-<h1 id="trips">Trips</h1>
-<ul>
-<li></li>
-</ul>
-<hr>
-<h1 id="references">References</h1>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/pacific-north-west/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/palau/">Palau</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/personal/">personal</a>&nbsp;
-            
-            #<a href="/tags/trips/">trips</a>&nbsp;
-            
-            #<a href="/tags/expeditions/">expeditions</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="about">About</h1>
-<p>Best time to go is May (Rubens)
-Palau offers <strong>year-round diving</strong>, but the <strong>dry season</strong> from <strong>October to May</strong> is considered the best time to visit. During this period, divers can expect calmer seas, better visibility (often exceeding 30 meters), and a higher likelihood of encountering diverse marine life.</p>
-<p>Palau&rsquo;s <strong>Rock Islands</strong>, a UNESCO World Heritage Site, are characterized by <strong>uplifted coral limestone formations</strong> that have been sculpted over millions of years by natural processes such as erosion, tidal action, and sea-level changes. This has resulted in a stunning karst topography featuring <strong>mushroom-shaped islands</strong>, <strong>caves</strong>, <strong>sinkholes</strong>, and <strong>underground channels</strong>. These formations are not only geologically significant but also contribute to the rich biodiversity and unique ecosystems found in the region</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/palau/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/pannikin-plains---6n49/">Pannikin Plains - 6N49</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/caving/">caving</a>&nbsp;
-            
-            #<a href="/tags/nullarbor/">nullarbor</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="other-descriptions">Other Descriptions</h1>
-<h2 id="about">About</h2>
-<p>Ask Ryan how to do Pannikin differently?</p>
-<ul>
-<li>What Equipment is Needed?
-<ul>
-<li>CCR &amp; DPV</li>
-<li>Ropes &amp; Rigging</li>
-</ul>
-</li>
-</ul>
-<h2 id="to-do">To Do</h2>
-<p>Diving
-Dry
-Photogrammetry</p>
-<hr>
-<h1 id="maps">Maps</h1>
-<p><em>No maps are currently linked.</em></p>
-<hr>
-<h1 id="references">References</h1>
-<h2 id="cavedb-media">CaveDB media</h2>
-<ul>
-<li><img src="/images/6N49%20-%20Pannikin%20Plains%20-%20CaveDB%20-%2020260214_095527%20-%20704b2f4a-85b9c617.jpg" alt="6N49 Pannikin Plains Cavedb 20260214 095527 704b2f4a 85b9c617"> — CaveDB</li>
-<li><img src="/images/6N49%20-%20Pannikin%20Plains%20-%20CaveDB%20-%2020260214_095707%20-%20d03881b8-85b9c617.jpg" alt="6N49 Pannikin Plains Cavedb 20260214 095707 D03881b8 85b9c617"> — CaveDB</li>
-<li><img src="/images/6N49%20-%20Pannikin%20Plains%20-%20CaveDB%20-%2020260214_095753%20-%20d10cba81-85b9c617.jpg" alt="6N49 Pannikin Plains Cavedb 20260214 095753 D10cba81 85b9c617"> — CaveDB</li>
-<li><img src="/images/6N49%20-%20Pannikin%20Plains%20-%20CaveDB%20-%20461995714_1018561300279946_4096603674264486312_n%20-%20be0c2b94-85b9c617.jpg" alt="6N49 Pannikin Plains Cavedb 461995714 1018561300279946 4096603674264486312 N Be0c2b94 85b9c617"> — CaveDB; Stefan Eberhard</li>
-<li><img src="/images/6N49%20-%20Pannikin%20Plains%20-%20CaveDB%20-%20Image%20-%20d4e6ba6f-85b9c617.jpg" alt="6N49 Pannikin Plains Cavedb Image D4e6ba6f 85b9c617"> — CaveDB</li>
-</ul>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/pannikin-plains---6n49/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---provinggrounds---linux/">[Read more]</a>
           </div>
         
       </article>

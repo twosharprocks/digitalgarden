@@ -237,8 +237,6 @@
   </url><url>
     <loc>/posts/africa/</loc>
   </url><url>
-    <loc>/posts/ai---ideas/</loc>
-  </url><url>
     <loc>/tags/ai-content/</loc>
   </url><url>
     <loc>/tags/air-fryer/</loc>
@@ -429,6 +427,8 @@
   </url><url>
     <loc>/posts/cissp---misc-notes/</loc>
   </url><url>
+    <loc>/posts/cissp---note---i-took-the-worlds-hardest-cybersecurity-exam/</loc>
+  </url><url>
     <loc>/posts/cocklebiddy-cave---6n48/</loc>
   </url><url>
     <loc>/posts/cook-islands/</loc>
@@ -503,8 +503,6 @@
   </url><url>
     <loc>/posts/ewens-ponds---5l159-161/</loc>
   </url><url>
-    <loc>/posts/expedition-calendar/</loc>
-  </url><url>
     <loc>/tags/expeditions/</loc>
   </url><url>
     <loc>/posts/exploration/</loc>
@@ -567,8 +565,6 @@
   </url><url>
     <loc>/posts/iddlebiddy-cave---5l250/</loc>
   </url><url>
-    <loc>/posts/ideas/</loc>
-  </url><url>
     <loc>/tags/ideas/</loc>
   </url><url>
     <loc>/tags/index/</loc>
@@ -601,7 +597,7 @@
   </url><url>
     <loc>/posts/kaidaiula/</loc>
   </url><url>
-    <loc>/posts/kalimantan/</loc>
+    <loc>/posts/kalimantan---indonesia/</loc>
   </url><url>
     <loc>/posts/kayaking/</loc>
   </url><url>
@@ -783,15 +779,21 @@
   </url><url>
     <loc>/posts/mini-essay---surely-youre-joking-mr-feynman-richard-feynman/</loc>
   </url><url>
+    <loc>/posts/mini-essay---15000-days/</loc>
+  </url><url>
     <loc>/posts/mini-essay---appeal-of-a-dark-empty-forest-outpost/</loc>
   </url><url>
     <loc>/posts/mini-essay---appeal-of-living-out-of-a-van/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---appeal-of-sea-kayaking/</loc>
   </url><url>
     <loc>/posts/mini-essay---appeal-of-small/</loc>
   </url><url>
     <loc>/posts/mini-essay---appeal-of-thronglets/</loc>
   </url><url>
     <loc>/posts/mini-essay---april-19-2023/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---april-19-2026/</loc>
   </url><url>
     <loc>/posts/mini-essay---before-youre-40/</loc>
   </url><url>
@@ -803,11 +805,17 @@
   </url><url>
     <loc>/posts/mini-essay---digital-garden/</loc>
   </url><url>
+    <loc>/posts/mini-essay---drafting-my-500-dives-book/</loc>
+  </url><url>
     <loc>/posts/mini-essay---dune/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---emotional-baggage/</loc>
   </url><url>
     <loc>/posts/mini-essay---fear-is-the-mind-killer/</loc>
   </url><url>
     <loc>/posts/mini-essay---first-day-in-ushuaia/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---frustration-at-people-and-communities/</loc>
   </url><url>
     <loc>/posts/mini-essay---greatest-moments-of-joy-in-your-life/</loc>
   </url><url>
@@ -821,9 +829,13 @@
   </url><url>
     <loc>/posts/mini-essay---kids-meals-on-planes/</loc>
   </url><url>
+    <loc>/posts/mini-essay---letter-to-yourself-in-2031/</loc>
+  </url><url>
     <loc>/posts/mini-essay---mechwarrior/</loc>
   </url><url>
     <loc>/posts/mini-essay---mental-baggage/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---murra-cocklebiddy---2026-aug/</loc>
   </url><url>
     <loc>/posts/mini-essay---new-tattoo/</loc>
   </url><url>
@@ -835,6 +847,8 @@
   </url><url>
     <loc>/posts/mini-essay---organising-a-mars-one-analog/</loc>
   </url><url>
+    <loc>/posts/mini-essay---unwritten---ouroboros--the-nonlinear-time-in-arrival/</loc>
+  </url><url>
     <loc>/posts/mini-essay---peaceful-warrior-vs-the-alchemist/</loc>
   </url><url>
     <loc>/posts/mini-essay---procrastinating-writing-the-pines-article/</loc>
@@ -845,6 +859,10 @@
   </url><url>
     <loc>/posts/mini-essay---thoughts-on-2025-media/</loc>
   </url><url>
+    <loc>/posts/mini-essay---physical-baggage/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---unwritten---spiritual-baggage/</loc>
+  </url><url>
     <loc>/posts/mini-essay---using-my-folding-keyboard-while-flying-from-melbourne-to-santiago/</loc>
   </url><url>
     <loc>/posts/mini-essay---what-are-your-obligations/</loc>
@@ -852,6 +870,10 @@
     <loc>/posts/mini-essay---what-do-you-really-want-to-do-before-you-die/</loc>
   </url><url>
     <loc>/posts/mini-essay---what-is-fear-to-you/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---what-were-the-highlights-of-antarctica/</loc>
+  </url><url>
+    <loc>/posts/mini-essay---what-you-need-out-of-work/</loc>
   </url><url>
     <loc>/posts/mini-essay---where-do-i-want-to-be-in-2028/</loc>
   </url><url>
@@ -926,8 +948,6 @@
     <loc>/posts/notes---brief-history--ethos-of-the-digital-garden/</loc>
   </url><url>
     <loc>/posts/notes---burning-down-cities/</loc>
-  </url><url>
-    <loc>/posts/notes---i-took-the-worlds-hardest-cybersecurity-exam-cissp/</loc>
   </url><url>
     <loc>/posts/notes---notebooklm-with-obsidian/</loc>
   </url><url>
@@ -1353,11 +1373,7 @@
   </url><url>
     <loc>/posts/wh40k---armies---imperial-knights/</loc>
   </url><url>
-    <loc>/posts/whyalla/</loc>
-  </url><url>
     <loc>/posts/wingsuit/</loc>
-  </url><url>
-    <loc>/posts/work/</loc>
   </url><url>
     <loc>/tags/work/</loc>
   </url><url>
