@@ -1,7 +1,7 @@
 ---
 title: Diving - Gear
 created: 2026-01-26
-updated: 2026-07-18
+updated: 2026-09-11
 status: tree
 draft: false
 tags:
@@ -28,13 +28,13 @@ related:
 	- [2-Colour Personalised Cave Markers - $5/each ](https://divewithjeff.com/product/custom-cave-line-markers-multicolor/) 
 	- [CaveCookies.com](https://www.cavecookies.com/)
 # Lighting
-Primary: [Dive Rite FX40] or [DivePro Canister Light](https://varuste.net/en/p99606/divepro-cl4200) ($715) 
+Primary: [Dive Rite FX40](https://www.divegearexpress.com/dive-rite-fx40-led-handheld-primary-light) or [DivePro Canister Light](https://varuste.net/en/p99606/divepro-cl4200) ($715) 
 Backups: [Dive Lantern Pygmy 6 (600 lumens)](https://www.divelightshop.com.au/collections/dive-lights/products/pygmy), [DGX Gears 300 Mini](https://www.divegearexpress.com/dgx-300-mini-light-kit)
 Video Lights:
-- [Cheap 27 LED 100m Fill Light](https://www.ebay.com.au/itm/353998099665)
 - [VL18000PBRC BigBlue Wide Beam ($1500)](https://adreno.com.au/collections/bigblue/products/big-blue-vl18000pbrc-led-video-light-w-optional-remote-control) - always check [VL20,000PBRC](https://adreno.com.au/collections/bigblue/products/bigblue-vl20000pbrc-lumen-wide-beam-waterproof-video-photo-light) (often same $ as 18000PBRC) 
 - [70mm BigBlue Diffuser - Fits VL18000 ($50)](https://www.bluewaterphotostore.com/big-blue-globe-light-dome-diffuser-70mm/)
 - [Cheap 3 LED 45m Fill Light for Selfie Stick](https://www.aliexpress.com/item/1005003800239793.html)
+- [Cheap 27 LED 100m Fill Light](https://www.ebay.com.au/itm/353998099665)
 # Video
 * [Insta360 X5 ($930)](https://store.insta360.com/product/x5) (X5 Dive bundle = $1203)
 * [Insta360 X5 Invisible Dive Case ($180)](https://store.insta360.com/product/x5-invisible-dive-case) & [Dive Case Guard($5)](https://www.temu.com/au/-silicone-lens-guard-for-360-x3-x4-durable-protective-cover-for-dive-case-non-electronic-accessory-kit-without-battery-g-601099592763297.html)
@@ -57,7 +57,7 @@ Video Lights:
 # CCR
 *  [Dive Rite ChOptima](https://deepblueventures.com.au/rebreather/optima-cm-ccr) 
 	* [ChOptima Scooter Ring](https://diverite.com/products/o2ptima/o2ptima-cm-scooter-ring/)
-	* [AP Safety Mouthpiece (DGX)](https://www.divegearexpress.com/ap-diving-rebreather-safety-mouthpiece) or [Divesoft Safety Mouthpiece (Paragon)](https://www.paragondivestore.com/products/divesoft-safety-mouthpiece)
+	* [AP Safety Mouthpiece (DGX)](https://www.divegearexpress.com/ap-diving-rebreather-safety-mouthpiece) or [Divesoft Safety Mouthpiece (Paragon)](https://www.paragondivestore.com/products/divesoft-safety-mouthpiece) 
 # Other
 * Cylinder rigging 
 	- 7L: 140mm [Kinetic 127-152mm 316 Stainless Steel Hose Clamp](https://www.bunnings.com.au/kinetic-127-152mm-316-stainless-steel-hose-clamp_p0110764)

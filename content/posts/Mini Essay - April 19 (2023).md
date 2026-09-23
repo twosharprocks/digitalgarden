@@ -13,7 +13,7 @@ related:
   - "[[Mini Essays]]"
   - "[[Writing]]"
 ---
-Mini Essay - April 19 (2026)
+[Mini Essay - April 19 (2026)]({{< relref "posts/Mini Essay - April 19 (2026).md" >}})
 
 ---
 I want to preface this by saying I wasn’t expecting to write it, and I’ve been working for the last few days on an entirely different and unrelated post about how I’m preparing for Mars One selection later this year. I’ll still publish that post in the next few days, but I’m not sure if I’ll publish this outside of Patreon. Maybe next year. Truth be told I may not publish this at all – all I know is I just realised what the date is, it stopped me in my tracks, and I need to write this right down while I’m feeling what I’m feeling.

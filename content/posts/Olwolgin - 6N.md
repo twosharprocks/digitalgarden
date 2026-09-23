@@ -1,7 +1,7 @@
 ---
 title: Olwolgin - 6N
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -14,6 +14,7 @@ related:
   - "[[Diving]]"
   - "[[Roe Plains]]"
   - "[[Trip - Olwolgin - 2025 June]]"
+  - "[[CaveDB - Olwolgin Cave - 864d1f22]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 ---
 # From CaveDB
@@ -62,7 +63,7 @@ _No maps are currently linked._
 # References
 Indemnity: [[Olwolgin-Burnabbie Cave Indemnity [BLANK].docx]]
 
-- 6N920 - Olwolgin (DWG, 2022) (A0 size).pdf
 - 6N920 - Olwolgin (DWG, 2022) (A0 size) - MAP.pdf
-- 6N920 - Olwolgin (DWG, 2022) (A0 size - north up) - MAP.pdf
+- 6N920 - Olwolgin (DWG, 2022) (A0 size) - MAP.pdf
+- 6N920 - Olwolgin (DWG, 2022) (A0 size - north up).pdf
 - 6N920 - Olwolgin (DWG, 2022) (A0 size - north up).pdf

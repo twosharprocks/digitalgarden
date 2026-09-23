@@ -9,7 +9,7 @@ related:
   - "[[Bucket List]]"
   - "[[Exploration]]"
   - "[[Trips - Ideas]]"
-  - "[[Expedition Calendar]]"
+  - "[[Trips]]"
   - "[[Kayaking]]"
   - "[[Long Solo]]"
   - "[[Trips]]"

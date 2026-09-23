@@ -1,7 +1,7 @@
 ---
 title: The Pines - 5L61
 created: 2026-04-09
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -17,6 +17,7 @@ related:
   - "[[Mount Gambier - Lower South East]]"
   - "[[Book - Cave Diving]]"
   - "[[Mt Gambier - PROTECTED]]"
+  - "[[CaveDB - The Pines - 5529d2bd]]"
 rating: CDAA Cave, TDI Intro to Cave
 ---
 # From CaveDB

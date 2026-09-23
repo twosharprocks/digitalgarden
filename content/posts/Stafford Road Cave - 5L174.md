@@ -1,7 +1,7 @@
 ---
 title: Stafford Road Cave - 5L174
 created: 2025-11-03
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -14,6 +14,7 @@ related:
   - "[[Diving]]"
   - "[[Caving]]"
   - "[[Mount Gambier - Lower South East]]"
+  - "[[CaveDB - Stafford Road Cave - f59b17b5]]"
 rating:
 ---
 # From CaveDB

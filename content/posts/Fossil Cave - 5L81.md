@@ -1,7 +1,7 @@
 ---
 title: Fossil Cave - 5L81
 created: 2026-04-09
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -15,6 +15,7 @@ related:
   - "[[Mount Gambier - Lower South East]]"
   - "[[Book - Cave Diving]]"
   - "[[Mt Gambier - PROTECTED]]"
+  - "[[CaveDB - Fossil Cave - 7cb19cbe]]"
 rating: CDAA Cave, TDI Intro to Cave
 ---
 # From CaveDB

@@ -1,7 +1,7 @@
 ---
 title: Dave's Cave - 5L215
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -15,6 +15,7 @@ related:
   - "[[Cave Entries to Write]]"
   - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
+  - "[[CaveDB - Daves Cave - 87fc6216]]"
 rating: CDAA Cave, TDI Intro to Cave
 ---
 # Other Descriptions

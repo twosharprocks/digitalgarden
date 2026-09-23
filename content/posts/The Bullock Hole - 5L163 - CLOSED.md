@@ -1,7 +1,7 @@
 ---
 title: The Bullock Hole - 5L163 - CLOSED
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -15,6 +15,7 @@ related:
   - "[[Cave Entries to Write]]"
   - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
+  - "[[CaveDB - Bullock Hole - fc947a71]]"
 rating:
 ---
 # Other Descriptions

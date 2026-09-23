@@ -1,7 +1,7 @@
 ---
 title: Grace Cave
 created: 2025-11-11
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -18,6 +18,8 @@ related:
   - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
   - "[[2026-01-04]]"
+  - "[[CaveDB - Grace Cave - 41ca9934]]"
+  - "[[Victoria]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 ---
 # Other Descriptions

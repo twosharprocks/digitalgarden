@@ -1,7 +1,7 @@
 ---
 title: Max's Hole - 5L100 - CLOSED
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -15,6 +15,7 @@ related:
   - "[[Cave Entries to Write]]"
   - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
+  - "[[CaveDB - Max's Hole - 5bc790c9]]"
 rating: CDAA Cave, TDI Intro to Cave
 ---
 # From CaveDB

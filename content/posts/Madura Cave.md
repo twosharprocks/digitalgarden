@@ -1,7 +1,7 @@
 ---
 title: Madura Cave
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -16,6 +16,7 @@ related:
   - "[[Planning - Nullarbor]]"
   - "[[Nullarbor High Plains]]"
   - "[[Filming - Documentary on Nullarbor]]"
+  - "[[CaveDB - Madura Cave - 81d18626]]"
 rating:
 ---
 # From CaveDB

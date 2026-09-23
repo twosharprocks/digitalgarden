@@ -1,7 +1,7 @@
 ---
 title: Bakers Cave - 5L285
 created: 2025-04-23
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -15,6 +15,7 @@ related:
   - "[[Cave Entries to Write]]"
   - "[[Mount Gambier - Lower South East]]"
   - "[[Mt Gambier - PROTECTED]]"
+  - "[[CaveDB - Bakers Cave - b57547cc]]"
 rating: CDAA Cave, TDI Intro to Cave
 ---
 # From CaveDB

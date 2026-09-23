@@ -1,7 +1,7 @@
 ---
 title: Gua Lanto
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -17,6 +17,8 @@ related:
   - "[[empty files]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
   - "[[2025-08-03 - Gua Lanto]]"
+  - "[[CaveDB - Gua Lanto - 8355e911]]"
+  - "[[Sulawesi]]"
 rating: TDI Intro to Cave
 ---
 # From CaveDB

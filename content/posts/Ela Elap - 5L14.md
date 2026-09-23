@@ -1,7 +1,7 @@
 ---
 title: Ela Elap - 5L14
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -16,6 +16,7 @@ related:
   - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
   - "[[Book - Cave Diving]]"
+  - "[[CaveDB - Ela Elap - 7ee7ddf4]]"
 rating: CDAA Deep Cavern, TDI Cavern
 ---
 # Other Descriptions

@@ -1,7 +1,7 @@
 ---
 title: Nettlebed - 5L290
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -16,6 +16,7 @@ related:
   - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
   - "[[Book - Cave Diving]]"
+  - "[[CaveDB - Nettlebed Cave - 8a674142]]"
 rating: CDAA Cave, TDI Intro to Cave
 ---
 # From CaveDB

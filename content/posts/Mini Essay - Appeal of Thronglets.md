@@ -28,5 +28,5 @@ I'm not sure how to feel about "Plaything" or *Black Mirror* generally after Sat
 **This also reminds me of**... 
 
 ---
-***Tomorrow's Mini Essay***: Mini Essay - Appeal of Sea Kayaking
+***Tomorrow's Mini Essay***: [Mini Essay - Appeal of Sea Kayaking]({{< relref "posts/Mini Essay - Appeal of Sea Kayaking.md" >}})
 

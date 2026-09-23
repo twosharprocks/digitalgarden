@@ -1,7 +1,7 @@
 ---
 title: ChOptima CCR
 created: 2025-11-08
-updated: 2026-07-05
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -15,22 +15,19 @@ Template - ChOptima Build
 [ChOptima - Post-Dive Checklist]({{< relref "posts/ChOptima - Post-Dive Checklist.md" >}})
 
 Need
-- 30cm reg hose
-- Loosen DSV
+- Rubber stopper (stop sorb down canister tube)
+
+Do
+- Loosen DSV - [Service DSV for easier open/close](https://chatgpt.com/share/6973eed1-c254-8006-8ab2-691c5133df1b) 
 
 Parts to get from [TecDiveGear](https://www.tecdivegear.com.au/), [Dive Gear Express](https://www.divegearexpress.com/rebreathers/o2ptima-parts) or [Paragon Dive Group](https://www.paragondivestore.com/collections/o2ptima-parts) 
 - [Exhalation Snorkel Tube](https://www.paragondivestore.com/products/dive-rite-exhalation-snorkel-cm-o2ptima) - US$50
-- Rubber stopper for canister tube (sorb down tube)
 - [O-rings](https://www.tecdivegear.com.au/catalogue/product.php/1/758) ***(need model number)***
-[Service DSV for easier open/close](https://chatgpt.com/share/6973eed1-c254-8006-8ab2-691c5133df1b) 
 
 Cave cover for ChOptima?
 - Like a rain cover for backpack
 - Protect loop, clip it off behind, pull through?
 - Or use loop protectors and bungee to secure onto unit through restrictions?
-
----
-**This also reminds me of**... 
 
 ---
 # References

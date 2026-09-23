@@ -1,7 +1,7 @@
 ---
 title: Moko Morete
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -20,6 +20,8 @@ related:
   - "[[2025-08-05]]"
   - "[[Weekly - 2025-08-10]]"
   - "[[2025-08-05 - Moko Morete]]"
+  - "[[CaveDB - Moko Morete cave - 9ecbad71]]"
+  - "[[Sulawesi]]"
 rating: TDI Intro to Cave
 ---
 # From CaveDB

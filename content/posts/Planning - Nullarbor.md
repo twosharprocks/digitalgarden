@@ -9,9 +9,9 @@ tags:
   - caving
 region:
 cavedb:
-related: 
-  - "[[Diving]]" 
-  - "[[Expedition Calendar]]"
+related:
+  - "[[Diving]]"
+  - "[[Trips]]"
 ---
 # Before You Go
 - To Do

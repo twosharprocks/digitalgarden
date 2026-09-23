@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-    [string]$VaultPath = 'G:\My Drive\Vaults\Digital-Garden',
+    [string]$VaultPath = (Join-Path $env:USERPROFILE 'My Drive\Vaults\Digital-Garden'),
     [switch]$SkipPush
 )
 

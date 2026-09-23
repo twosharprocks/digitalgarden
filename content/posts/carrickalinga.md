@@ -1,7 +1,7 @@
 ---
 title: Carrickalinga
 created: 2026-01-22
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -11,6 +11,7 @@ tags:
 related:
   - "[[Diving]]"
   - "[[Caving]]"
+  - "[[South Australia]]"
 region: "[[South Australia]]"
 cavedb:
 rating:

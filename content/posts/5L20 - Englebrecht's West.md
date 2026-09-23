@@ -1,7 +1,7 @@
 ---
 title: 5L20 - Englebrecht's West
 created: 2025-11-01
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -17,6 +17,7 @@ related:
   - "[[Cave Entries to Write]]"
   - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
+  - "[[CaveDB - Englebrecht's West - 79dbb77a]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 ---
 # Other Descriptions

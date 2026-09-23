@@ -1,7 +1,7 @@
 ---
 title: Cave Gardens
 created: 2026-04-09
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -11,6 +11,7 @@ tags:
 related:
   - "[[Diving]]"
   - "[[Mount Gambier - Lower South East]]"
+  - "[[CaveDB - Cave Gardens - 543b542e]]"
 region: "[[Mount Gambier - Lower South East]]"
 cavedb: https://app.cavedb.net/share/543b542e-165d-4616-a4d9-efd044fd1b32.html
 rating:

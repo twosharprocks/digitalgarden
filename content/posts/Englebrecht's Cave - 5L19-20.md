@@ -1,7 +1,7 @@
 ---
 title: Englebrecht's Cave - 5L19-20
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -18,6 +18,7 @@ related:
   - "[[Book - Cave Diving]]"
   - "[[Mt Gambier - PROTECTED]]"
   - "[[Reply - Stratis Kas State of Cave Exploration 2026]]"
+  - "[[CaveDB - Englebrecht's East - 6d271bdf]]"
 rating: CDAA Cave, TDI Intro to Cave
 ---
 # Other Descriptions

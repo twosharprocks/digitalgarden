@@ -1,7 +1,7 @@
 ---
 title: Gua La Pahia
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -19,6 +19,8 @@ related:
   - "[[2025-08-04]]"
   - "[[Weekly - 2025-08-10]]"
   - "[[2025-08-04 - Gua La Pahia]]"
+  - "[[CaveDB - Gua La Pahia - 204d672d]]"
+  - "[[Sulawesi]]"
 rating: TDI Intro to Cave
 ---
 # Other Descriptions

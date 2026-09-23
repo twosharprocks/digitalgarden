@@ -1,7 +1,7 @@
 ---
 title: Cocklebiddy Cave - 6N48
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: tree
 draft: false
 tags:
@@ -19,6 +19,7 @@ related:
   - "[[Trip - Murra El Elevyn - 2025 Oct]]"
   - "[[Nullarbor High Plains]]"
   - "[[Weekly - 2026-08-30]]"
+  - "[[CaveDB - Cocklebiddy Cave - c3fffd30]]"
 rating: CDAA Cave, TDI Intro to Cave
 ---
 # From ASF

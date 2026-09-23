@@ -1,7 +1,7 @@
 ---
 title: "Weebubbie Cave - 6N2"
 created: 2025-04-12
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -18,6 +18,7 @@ related:
   - "[[Nullarbor High Plains]]"
   - "[[Trip - Olwolgin - 2025 June]]"
   - "[[Filming - Documentary on Nullarbor]]"
+  - "[[CaveDB - Weebubbie Cave - 47e1d564]]"
 rating: CDAA Cave, TDI Intro to Cave
 ---
 # From CaveDB

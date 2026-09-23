@@ -1,7 +1,7 @@
 ---
 title: Hell's Hole - 5L40
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -14,6 +14,7 @@ related:
   - "[[Diving]]"
   - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
+  - "[[CaveDB - Hells Hole - d7dae2ec]]"
 rating: CDAA Deep Cavern, TDI Cavern
 ---
 # From CaveDB

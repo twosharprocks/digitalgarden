@@ -1,7 +1,7 @@
 ---
 title: Diving - Reading
 created: 2025-06-06
-updated: 2026-06-27
+updated: 2026-09-19
 status: seed
 draft: false
 tags:
@@ -13,6 +13,7 @@ related:
 General
 - [NSS-CDS Underwater Speleology Magazine](https://nsscds.org/uws/)
 - [Shearwater CCR Library](https://shearwater.com/pages/rebreather)
+- [Grading Cave Restrictions](https://indepthmag.com/mapping-cave-restrictions/)
 
 Planning
 * [Rebreather Rule of Thirds](http://www.cavedivers.com.au/rebreather-gas-management-vs-the-rule-of-thirds) (JDZ)

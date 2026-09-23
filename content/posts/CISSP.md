@@ -49,5 +49,5 @@ related:
 - [Reddit - Anki Flash Cards](https://www.reddit.com/r/cissp/comments/13vllp3/i_created_a_free_cissp_practice_question_deck/)
 
 # References
-[Notes - I Took The World’s HARDEST Cybersecurity Exam (CISSP)]({{< relref "posts/Notes - I Took The World’s HARDEST Cybersecurity Exam (CISSP).md" >}})
+[CISSP - Note - I Took The World’s HARDEST Cybersecurity Exam]({{< relref "posts/CISSP - Note - I Took The World’s HARDEST Cybersecurity Exam.md" >}})
 

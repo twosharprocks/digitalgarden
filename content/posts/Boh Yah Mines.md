@@ -1,7 +1,7 @@
 ---
 title: Boh Yah Mines
 created: 2026-01-06
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -13,6 +13,7 @@ related:
   - "[[Trip - Thailand - Boh Yai Mines - 2026 Jan]]"
   - "[[empty files]]"
   - "[[Trip - Thailand - Boh Yai Mines - 2027 Jan]]"
+  - "[[Thailand]]"
 region: "[[Thailand]]"
 cavedb:
 rating:

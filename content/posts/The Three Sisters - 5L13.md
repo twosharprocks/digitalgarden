@@ -1,7 +1,7 @@
 ---
 title: The Three Sisters - 5L13
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -15,6 +15,7 @@ related:
   - "[[Cave Entries to Write]]"
   - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
+  - "[[CaveDB - The Three Sisters - a2404546]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 ---
 # From CaveDB

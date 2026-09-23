@@ -9,7 +9,7 @@ from collections import Counter
 # --- CONFIG ---
 script_dir = Path(__file__).resolve().parent
 posts_dir = script_dir / "content" / "posts"
-attachments_dir = Path(r"G:\My Drive\Vaults\Digital-Garden\3 - Files")
+attachments_dir = Path.home() / "My Drive" / "Vaults" / "Digital-Garden" / "3 - Files"
 static_images_dir = script_dir / "static" / "images"
 
 # For relref generation of page links, this is the mount name under /content

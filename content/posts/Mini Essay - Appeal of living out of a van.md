@@ -31,6 +31,6 @@ Not knowing where to be, not knowing what to do, always feeling out of time and 
 
 
 ---
-***Tomorrow's Mini Essay***: Mini Essay - Drafting my 500 Dives book 
+***Tomorrow's Mini Essay***: [Mini Essay - Drafting my 500 Dives book]({{< relref "posts/Mini Essay - Drafting my 500 Dives book.md" >}}) 
 
 

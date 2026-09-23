@@ -1,7 +1,7 @@
 ---
 title: Wellington Caves
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -14,6 +14,7 @@ related:
   - "[[Diving]]"
   - "[[Trip - Wellington Caves - 2025 Sept]]"
   - "[[New South Wales]]"
+  - "[[CaveDB - Wellington Caves - 783c6963]]"
 rating:
 ---
 # From CaveDB

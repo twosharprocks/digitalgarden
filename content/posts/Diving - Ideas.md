@@ -1,7 +1,7 @@
 ---
 title: Diving - Ideas
 created: 2025-01-01
-updated: 2026-08-23
+updated: 2026-09-23
 status: seed
 draft: false
 tags:
@@ -12,7 +12,7 @@ related:
   - "[[Diving - Gear]]"
   - "[[Diving - Reading]]"
   - "[[Soggy Wombats]]"
-  - "[[Expedition Calendar]]"
+  - "[[Trips]]"
   - "[[Trips - Ideas]]"
 ---
 **I truly love cave diving and exploration**. Even if the interest of others fades, mine keeps coming *back over and over again*.
@@ -23,12 +23,15 @@ Training - Full Cave CCR in Thailand with Por?
 
 Join NSS-CDS? https://www.facebook.com/share/1BNCb4BAjU/ 
 
-Investigate [Dive Saga Youtube channel](https://www.youtube.com/@DiveSAGA)
-- [ ] Develop #podcast  
-- [ ] [Writing]({{< relref "posts/writing.md" >}}) - Create/update [Wikipedia](https://en.wikipedia.org/w/index.php?title=Special:Homepage&namespace=-1&source=personaltoolslink)pages for caves
+# TV Show
+- Investigate [Dive Saga Youtube channel](https://www.youtube.com/@DiveSAGA)
+- Look at Dive Talk's approach (Speaking Sidemount episode with Gus Gonzales)
+- Cave diving TV show is becoming more important - think about filming expeditions
+
+Develop #podcast  
+- [ ] [Writing]({{< relref "posts/writing.md" >}}) - 
 - [ ] Create Obsidian Pages from CaveDB 
 
-- Soggy Wombats merch store (Redbubble?)
 - CEGSA Presentation on Sulawesi? On Murra? Thailand?
 - Articles written about each discovery (Eng East, Iddlebiddy, Pines, Murra, Gua Lapahia, Moko Morete) 
 - Create #tightsqueezetuesday of Gadi Gap
@@ -42,18 +45,15 @@ Investigate [Dive Saga Youtube channel](https://www.youtube.com/@DiveSAGA)
 - Cafpirco Cave Sites - Cpt 28 New Hole - MAP.pdf
 - Talk in Ceduna on next trip 
 
+# Foundation
 - Setup Exploration Foundation with Will (like Mikko)
-	- Explore [Thailand]({{< relref "posts/thailand.md" >}})/[Malaysia]({{< relref "posts/malaysia.md" >}})/[Sulawesi]({{< relref "posts/Sulawesi.md" >}})
-- What to do with the MNemo1? 
 
-- Digging: Use Feathers & Wedges, Use [Expando ](https://expando.com.au/)
-- Unsecured ASF image library
-	- https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201011/JNJ-S-1011-17.html
-	- https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201011/JNJ-S-1011-19.html
-	- Fuzz? https://st1.asflib.net/MEDIA/
-	- [Link to ChatGPT chat](https://chatgpt.com/share/68e79a30-23c8-8006-b67a-3658b82567f7) 
-- Look at Dive Talk's approach (Speaking Sidemount with Gus Gonzales)
-- Cave diving TV show is becoming more important - think about filming expeditions
+Tools
+- What to do with the MNemo1? 
+- Use Feathers & Wedges, [Expando ](https://expando.com.au/)
+
+- 
+- 
 - Test [Minotaur Cave mapping Software](https://github.com/VlasovAlexey/Minotaur)
 	- [Minotaur for Android](https://play.google.com/store/apps/details?id=com.minotaur.minotaur&pcampaignid=web_share)
 - Test DiveProMe dive planning software
@@ -73,22 +73,35 @@ Investigate [Dive Saga Youtube channel](https://www.youtube.com/@DiveSAGA)
 		- Others can submits Q&A
 	- How will you manage your lidar data? 
 	- Aven for survex files
-
-- DPV from Matt Rochford & Map from Krunchy
-- Make drytubes
-
 - Push out a heap of stuff from Japan to TikTok?
 - ADEX Awards - Nominate Will Passos 
 	- Publish a book inside the publication period
-- Molnar Janos - when?
 - Create my own public, open source cave reference (OpenCaves)
-- [Laos]({{< relref "posts/laos.md" >}}), [Vietnam]({{< relref "posts/vietnam.md" >}}), [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) 
-	- Por has dived in Timor-Leste 
-- Organise CCR only fun trip to [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}})
 - DPV Photogrammetry of Stockton Lake Mine
-- Soggy Wombat Safaris Catalog (list destinations with potential months to go)
-	- Look at people and projects like [Tom Popper and diving in Greenland](https://sevenoceansexpeditions.com/about/)
 - Bergherring Winery (top Sellicks Hill - Chloe & Sam Fitzgerald) - potential for caves?
+
+- UIS Karst Conference - where in 2027?
+- Contribute [Trip - Murra-Cocklebiddy - 2026 Aug]({{< relref "posts/Trip - Murra-Cocklebiddy - 2026 Aug.md" >}}) to ASF YouTube channel?
+- [Raven LiDAR Project for Reynella Cave](https://www.facebook.com/groups/2466794357069668/permalink/2657423594673409/)
+	- Raven Photogrammetry project
+- Do more with RGSSSA - speaking, writing, adelaide fringe, ect
+	- RGSSA Library - https://rgssa.org.au/library/catalogue-of-library-holdings
+	- Contribute to RGSSA Magazine (Deadline 2026-10-23)
+	- Have RGSSA host my Book - Cave Diving @ Adelaide fringe 2027/8 (517 as a Fringe show)
+- Do more with Explorers Club
+- Do more with YouTube - review [Spoonfed Study](https://www.youtube.com/@spoonfedstudy/videos) 
+- Do more with ASF/CEGSA
+	- OzKarst support
+- Social videos from X5 - plan this so that you can post every few days
+	- Use virtual machines to cut/edit video for socials?
+	- Use an [Insta X6](https://www.insta360.com/product/insta360-x6) for Tommy Graham's (waterproof to 20m)
+- Dive Andrew Wilson - Photogrammetry project monitoring change
+- [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) Parts
+	- NERD2 - Buy from TecDiveGear (same as DGX)
+	- [2x Pony bottle holders](https://www.aliexpress.com/item/1005004136668314.html) for 7L sidemount (wing inflate & O2)?
+		- AliExpress - also order elastane straps? See shopping cart
+- Norfolk Island Caves? Shit
+	- Investigate Niue and the Loyalty Islands (esp. Lifou) (See ChatGPT discussion)
 
 - Review https://www.abc.net.au/news/2026-06-02/cave-explorer-josh-richards-laos-cave-rescue/106744958
 - Publish articles to the Soggy Wombats page

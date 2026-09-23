@@ -1,7 +1,7 @@
 ---
 title: Tank Cave - 5L230
 created: 2026-04-09
-updated: 2026-08-30
+updated: 2026-09-11
 status:
 draft: false
 tags:
@@ -18,6 +18,7 @@ related:
   - "[[empty files]]"
   - "[[Book - Cave Diving]]"
   - "[[Mt Gambier - PROTECTED]]"
+  - "[[CaveDB - Tank Cave - 7888927e]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 ---
 # From CaveDB

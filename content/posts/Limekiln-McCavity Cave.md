@@ -1,7 +1,7 @@
 ---
 title: Limekiln-McCavity Cave
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -15,6 +15,8 @@ related:
   - "[[Photogrammetry - Processing]]"
   - "[[Wellington Caves]]"
   - "[[2025-09-27]]"
+  - "[[CaveDB - Limekiln-McCavity Cave - cb327bc5]]"
+  - "[[New South Wales]]"
 rating:
 ---
 # Other Descriptions

@@ -1,7 +1,7 @@
 ---
 title: Nohoch
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -14,6 +14,7 @@ related:
   - "[[Diving]]"
   - "[[Yucatan - Mexico]]"
   - "[[empty files]]"
+  - "[[CaveDB - Nohoch Nah Chich - 5dd24265]]"
 rating: TDI Intro to Cave
 ---
 # From CaveDB

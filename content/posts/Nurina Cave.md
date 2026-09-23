@@ -1,7 +1,7 @@
 ---
 title: Nurina Cave
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -14,6 +14,7 @@ related:
   - "[[Diving]]"
   - "[[Photogrammetry - Processing]]"
   - "[[Roe Plains]]"
+  - "[[CaveDB - Nurina Cave - 69f453d4]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 ---
 # From CaveDB

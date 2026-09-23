@@ -1,7 +1,7 @@
 ---
 title: Murra-El-Elevyn - 6N47
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-19
 status: seed
 draft: false
 tags:
@@ -17,10 +17,10 @@ related:
   - "[[Trip - Murra-Cocklebiddy - 2026 Aug]]"
   - "[[Trip - Murra El Elevyn - 2025 Oct]]"
   - "[[Nullarbor High Plains]]"
-  - "[[Mini Essay - What has changed in you since Antarctica]]"
+  - "[[Mini Essay - PRIVATE - What has changed in you since Antarctica]]"
   - "[[2025 - Annual Review]]"
   - "[[Weekly - 2026-08-23]]"
-  - "[[New Moon Intentions - 2026-08-14]]"
+  - "[[New Moon - 2026-08-14]]"
   - "[[Filming - Documentary on Nullarbor]]"
   - "[[Weekly - 2026-08-30]]"
   - "[[2025-10-11]]"
@@ -36,17 +36,12 @@ related:
   - "[[2026-08-22]]"
   - "[[2026-08-23]]"
   - "[[2026-08-24]]"
+  - "[[CaveDB - Murra El Elevyn Cave - 41c22713]]"
 location: -32.043, 126.038 (WGS84)
 rating: CDAA Cave, TDI Intro to Cave
 ---
-# Other Descriptions
-## About
-
-Also known as Cocklebiddy 3 Mile Cave, the entrance is a small overhanging doline 20m in diameter. A 20m pitch leads to a loose talus and silt slope which becomes a boulder floored passage after the doline. The passage continues to a small lake at 89m. There are wetas near the entrance of the cave. There was a thylacine carcase found on early trips to the cave. 
-
-Uphill of the lake leads to further boulder floored chambers with bats. There are 300m of low maze passages beyond the lake, which contains gypsum flowers and needles. The cave breathes in maze section. 
-
-Beyond the lake underwater, the cave extends into a series of passages and boulder floored chambers with an average depth of 10m. There is a section of silt floor and parts of the cave passages which have a colouration similar to “coffee and cream”. There are three cave passages which have small air chambers. 
+# About
+Also known as Cocklebiddy 3 Mile Cave, the entrance is a small overhanging doline 20m in diameter. A 20m pitch leads to a loose talus and silt slope which becomes a boulder floored passage after the doline. The passage continues to a small lake at 89m. There are wetas near the entrance of the cave. There was a thylacine carcase found on early trips to the cave. Uphill of the lake leads to further boulder floored chambers with bats. There are 300m of low maze passages beyond the lake, which contains gypsum flowers and needles. The cave breathes in maze section. Beyond the lake underwater, the cave extends into a series of passages and boulder floored chambers with an average depth of 10m. There is a section of silt floor and parts of the cave passages which have a colouration similar to “coffee and cream”. There are three cave passages which have small air chambers. 
 ## Access 
 The cave is close to a vehicle track. It is possible to camp near the cave. A typical trip into the cave would take up to 5 hours. 
 ## Rigging 
@@ -74,6 +69,15 @@ In mixed air/water sections, inspect cupolas for high-level feeders. Dry-tooling
 ---
 
 # Maps
+## Mitch's Maze MNemo Survey
+![[6N47 - Murra-El-Elevyn (Porter, 2024) - MAP with Mitchs Maze MNemo Survey.pdf]]
+6N47 - Murra-El-Elevyn (Porter, 2024) - MAP with Mitchs Maze MNemo Survey.pdf
+
+![6N47 Murra El Elevyn (porter, 2024) MAP With Mitchs Maze Mnemo Survey](/images/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20-%20MAP%20with%20Mitchs%20Maze%20MNemo%20Survey.png)
+![6N47 Murra El Elevyn (porter, 2024) MAP With Mitchs Maze Mnemo Survey](/images/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20-%20MAP%20with%20Mitchs%20Maze%20MNemo%20Survey.png)
+
+6N47 - Murra-El-Elevyn - Mitchs Maze MNemo Survey.csv
+
 Caves of the Nullarbor 1967 p6 (N47-CEG30047)
 ![6N47 Murra El Elevyn Cegsa N47 Ceg3402](/images/6N47-%20Murra-El-Elevyn%20-%20CEGSA%20-%20N47-CEG3402.jpg)
 ![6N47 Murra El Elevyn Cegsa N47 Ceg3402](/images/6N47-%20Murra-El-Elevyn%20-%20CEGSA%20-%20N47-CEG3402.jpg)

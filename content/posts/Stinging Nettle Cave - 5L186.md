@@ -1,7 +1,7 @@
 ---
 title: Stinging Nettle Cave - 5L186
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -16,6 +16,7 @@ related:
   - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
   - "[[Mt Gambier - PROTECTED]]"
+  - "[[CaveDB - Nettle Cave - e7d5edba]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 ---
 # Other Descriptions

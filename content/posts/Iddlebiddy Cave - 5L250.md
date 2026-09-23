@@ -1,7 +1,7 @@
 ---
 title: Iddlebiddy Cave - 5L250
 created: 2026-04-09
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -16,6 +16,7 @@ related:
   - "[[Article - Iddlebiddy Cave - Soggy Wombats]]"
   - "[[Book - Cave Diving]]"
   - "[[Mt Gambier - PROTECTED]]"
+  - "[[CaveDB - Iddlebiddy - 5a860a82]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 ---
 # From CaveDB

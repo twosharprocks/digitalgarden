@@ -17,12 +17,12 @@ My next keynote will be about being a life-long diver.
 - Being one hell of a swimmer & tolerant to the cold.
 - Risk Management, Operational/Mission Focus, Small Teams (aka Antarctic Field Officer)
 # Topics
-- [AI - Ideas]({{< relref "posts/AI - Ideas.md" >}})
+- AI - Ideas
 - Quantum Computing,
 - The obsolescence of man - Günther Anders, 
 - [Y2038 - Epochalypse]({{< relref "posts/Y2038 - Epochalypse.md" >}})
 
-[AI - Ideas]({{< relref "posts/AI - Ideas.md" >}})
+AI - Ideas
 - [AI has bigger role in cybersecurity, but hackers may benefit the most](https://www.cnbc.com/2022/09/13/ai-has-bigger-role-in-cybersecurity-but-hackers-may-benefit-the-most.html)
 - [How ChatGPT and other new AI tools are being used by lawyers, architects and coders - ABC News](https://www.abc.net.au/news/science/2023-01-25/chatgpt-midjourney-generative-ai-and-future-of-work/101882580)
 - [ChatGPT: Optimizing Language Models for Dialogue](https://openai.com/blog/chatgpt/)

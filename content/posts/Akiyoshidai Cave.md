@@ -1,7 +1,7 @@
 ---
 title: Akiyoshidai Cave
 created: 2026-04-04
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -17,6 +17,7 @@ related:
   - "[[Trip - Japan - 2026 May]]"
   - "[[2026-05-11]]"
   - "[[Weekly - 2026-05-10]]"
+  - "[[Japan]]"
 rating:
 ---
 # Other Descriptions

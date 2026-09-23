@@ -1,11 +1,10 @@
 ---
 title: Cave Regions
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
-  - trips
   - diving
   - expeditions
   - caving
@@ -26,7 +25,7 @@ Cave regions are organised from broad geography down to country pages, local cav
 ## Oceania
 - [ACT]({{< relref "posts/act.md" >}})
 - [Christmas Island]({{< relref "posts/Christmas Island.md" >}})
-- [Kalimantan]({{< relref "posts/Kalimantan.md" >}})
+- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}})
 - [Moluccas - Indonesia]({{< relref "posts/Moluccas - Indonesia.md" >}})
 - [New Caledonia]({{< relref "posts/New Caledonia.md" >}})
 - [New South Wales]({{< relref "posts/New South Wales.md" >}})
@@ -137,3 +136,91 @@ Cave regions are organised from broad geography down to country pages, local cav
 - [South Africa]({{< relref "posts/South Africa.md" >}})
 - [Tanzania]({{< relref "posts/tanzania.md" >}})
 - [Zimbabwe]({{< relref "posts/zimbabwe.md" >}})
+
+---
+
+# Additional indexed cave regions
+This generated index covers imported parent regions and existing region pages not represented in the curated hierarchy above.
+
+## Oceania
+- [ACT]({{< relref "posts/act.md" >}})
+- Australia
+- [Flinders Ranges]({{< relref "posts/Flinders Ranges.md" >}})
+- [Indonesia]({{< relref "posts/indonesia.md" >}})
+- [Palau]({{< relref "posts/palau.md" >}})
+- [Tonga]({{< relref "posts/tonga.md" >}})
+
+## Asia
+- Afghanistan
+- Cambodia
+- [India]({{< relref "posts/india.md" >}})
+- Myanmar
+- Nepal
+- Pakistan
+- South Korea
+- Taiwan
+- Uzbekistan
+
+## Europe
+- [Armenia]({{< relref "posts/armenia.md" >}})
+- Austria
+- [Bosnia & Herzegovina]({{< relref "posts/Bosnia & Herzegovina.md" >}})
+- [Bulgaria]({{< relref "posts/bulgaria.md" >}})
+- [Kosovo]({{< relref "posts/kosovo.md" >}})
+- Latvia
+- Lithuania
+- Moldova
+- [North Macedonia]({{< relref "posts/North Macedonia.md" >}})
+- [Romania]({{< relref "posts/romania.md" >}})
+- [Serbia]({{< relref "posts/serbia.md" >}})
+- Switzerland
+- Ukraine
+
+## Middle East
+- Iraq
+- Israel
+- Qatar
+- Saudi Arabia
+- [Türkiye-Turkey]({{< relref "posts/Türkiye-Turkey.md" >}})
+- Yemen
+
+## North America
+- Bermuda
+- Canada
+- [United States]({{< relref "posts/United States.md" >}})
+
+## Central America
+- Haiti
+- Mexico
+- [Yucatan - Mexico]({{< relref "posts/Yucatan - Mexico.md" >}})
+
+## South America
+- Argentina
+- Bolivia
+- Chile
+- Colombia
+- Ecuador
+- Peru
+- Uruguay
+
+## Africa
+- [Algeria]({{< relref "posts/Algeria.md" >}})
+- Angola
+- Burundi
+- [Cameroon]({{< relref "posts/cameroon.md" >}})
+- Chad
+- Comoros
+- [Democratic Republic of Congo]({{< relref "posts/Democratic Republic of Congo.md" >}})
+- Egypt
+- Equatorial Guinea
+- Eswatini
+- Gabon
+- [Kenya]({{< relref "posts/kenya.md" >}})
+- Libya
+- [Morocco]({{< relref "posts/morocco.md" >}})
+- Namibia
+- Niger
+- Republic of the Congo
+- [Rwanda]({{< relref "posts/rwanda.md" >}})
+- [Tunisia]({{< relref "posts/tunisia.md" >}})
+- Uganda

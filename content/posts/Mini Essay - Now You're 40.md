@@ -27,8 +27,8 @@ By all means figure out a list of things to do in the 10 years before I turn 50,
 
 ---
 **This also reminds me of**... 
-Mini Essay - Letter to Yourself in 2031
-Mini Essay - Drafting my 500 Dives book
+[Mini Essay - Letter to Yourself in 2031]({{< relref "posts/Mini Essay - Letter to Yourself in 2031.md" >}})
+[Mini Essay - Drafting my 500 Dives book]({{< relref "posts/Mini Essay - Drafting my 500 Dives book.md" >}})
 [Website - Dear Josh in 2020]({{< relref "posts/Website - Dear Josh in 2020.md" >}})
 
 ---

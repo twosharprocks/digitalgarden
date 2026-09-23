@@ -1,7 +1,7 @@
 ---
 title: Allendale - 5L11
 created: 2025-04-23
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -16,6 +16,7 @@ related:
   - "[[Mount Gambier - Lower South East]]"
   - "[[Book - Cave Diving]]"
   - "[[Mt Gambier - PROTECTED]]"
+  - "[[CaveDB - Allendale Sinkhole - d38a415b]]"
 rating: CDAA Cave, TDI Intro to Cave
 ---
 # From CaveDB

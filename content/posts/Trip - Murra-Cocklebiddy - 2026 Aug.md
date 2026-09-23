@@ -1,7 +1,7 @@
 ---
 title: Trip - Murra-Cocklebiddy - 2026 Aug
 created: 2025-10-19
-updated: 2026-09-09
+updated: 2026-09-10
 status: complete
 draft: false
 tags:
@@ -26,23 +26,8 @@ related:
   - "[[Planning - Nullarbor]]"
   - "[[Filming - Documentary on Nullarbor]]"
 ---
-# To Do - Post Trip
-- [x] Empty Van
-- [x] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) - Download dives
-- [x] Perdix - Download Dives
-- [ ] Clean/Replace Gear
-- [ ] BlackTip - VSEC Tool
-- [ ] Sort Subsurface
-- [ ] Gear from Toby
-	- [ ] Pinger x1
-	- [ ] DeWalt - Box + 4x Batteries
-	- [ ] X5 in small case + bag (Move Data. Share with Will)
-	- [ ] 7L Wombat Cylinders x2
-
 # Trip Log
 ***Dates: 08-21 to 08-31 (Murra) & 09-01 to 09-12 (Cocklebiddy)***
-![Trip Cocklebiddy 2026 Plan](/images/Trip%20-%20Cocklebiddy%202026%20-%20Plan.jpg)
-
 - 2026-08-21 Friday: Travel
 	- *Drive: ADL-Ceduna (8.5hrs)*
 	- *Stay: Penong (Ampol Service Station)*
@@ -99,7 +84,7 @@ related:
 	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 10 of 17
 - 2026-09-01 Tues: Gear to Sump 1 & Initial Photogrammetry
 	- Haul in Gear
-	- Dive with Will: Gear check and photogrammetry of entrance lake for Sump 1. Swam in ~250m.
+	- Dive with Will: Gear check and photogrammetry of entrance lake for Sump 1. Swam in ~250m
 	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 11 of 17
 - 2026-09-02 Wed: Ferrying Gear to Rockpile
 	- Dive with Will: Photogrammetry to rockpile and back. 
@@ -118,7 +103,7 @@ related:
 	- Joseph surfaced with distended bladder - rushed to Norseman Hospital by Chloe & Corey
 	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 15 of 17
 - 2026-09-06 Sun: Team Rest Day - Tommy Graham's
-	- Retrieve OC gear from cave
+	- Retrieve OC gear from [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
 	- Drive to [Tommy Graham's Cave - 6N56]({{< relref "posts/Tommy Graham's Cave - 6N56.md" >}})
 		- Dive to recover X4 - no luck
 	- Drive back to roadhouse - wait for Joseph/Chloe/Corey
@@ -126,14 +111,14 @@ related:
 	- Drive to Nullarbor Roadhouse
 	- *Stay: 20mins passed Nullarbor Roadhouse 16 of 17
 - 2026-09-07 Mon: Home
-	- 
-	- *Stay: [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) 17 of 17
-
+	- Drive to Ceduna - Fuel and Food
+	- Drive to Port Augusta - Food and Dump Waste
+	- Drive Home
+	- *Stay: Home 17 of 17
 
 ---
 # Notes
 ## To Do
-- 
 - Complete tasks for VW Transporter
 	- [x] Full Service
 	- [x] Toilet
@@ -214,9 +199,17 @@ related:
 ~~- [ ] LiDAR - Toad Hall?~~
 ~~- [ ] Photogrammetry - 3rd Sump ~~
 ~~- [ ] Check Leads - 1st Sump~~
+
+# To Do - Post Trip
+- [x] Empty Van
+- [x] [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) - Download dives
+- [x] Perdix - Download Dives
+- [x] Clean/Replace Gear
+
 ---
 # References
-
+Original Plan for [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}})
+![Trip Cocklebiddy 2026 Plan](/images/Trip%20-%20Cocklebiddy%202026%20-%20Plan.jpg)
 
 
 

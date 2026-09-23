@@ -1,7 +1,7 @@
 ---
 title: Horse & Cart Sinkhole - 5L129
 created: 2026-06-18
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -15,6 +15,7 @@ related:
   - "[[Cave Entries to Write]]"
   - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
+  - "[[CaveDB - Horse and Cart Sinkhole - cc74a70d]]"
 rating: CDAA Deep Cavern, TDI Cavern
 ---
 # Other Descriptions

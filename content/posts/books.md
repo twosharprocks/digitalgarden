@@ -16,4 +16,12 @@ related:
 ---
 Book projects, reading notes, publishing ideas, and source material that keeps resurfacing.
 
+Book - Ideas
+Book - Calling ET
+Book - Cave Diving
+Book - Apocalypse
+Book - 101 Things
+Book - Futurism & Work
+Book - Information Theory
+Book - Death, Time & Reality
 

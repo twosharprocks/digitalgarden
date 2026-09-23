@@ -1,7 +1,7 @@
 ---
 title: "Burnabbie Cave - 6N"
 created: 2026-01-22
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -14,6 +14,7 @@ related:
   - "[[Diving]]"
   - "[[Roe Plains]]"
   - "[[Trip - Olwolgin - 2025 June]]"
+  - "[[CaveDB - Burnabbie Cave - d7500adf]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 ---
 # Other Descriptions

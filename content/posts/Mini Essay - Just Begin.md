@@ -1,12 +1,13 @@
 ---
 title: Mini Essay - Just Begin
 created: 2026-05-26
-updated: 2026-07-21
+updated: 2026-09-13
 status: seed
 draft: false
 tags:
   - writing
   - philosophy
+  - mini-essay
 related:
   - "[[Mini Essays]]"
   - "[[Writing]]"
@@ -23,7 +24,7 @@ This little "1000 words" script is designed to get you writing each day, which i
 
 Your challenge with the Book - Cave Diving is that you're not quite sure how to begin with Book - Cave Diving. Ultimately this is just about having Subsurface open in one window and looking at your early dives, then writing about your memories from each. You don't need a full skeleton or even a specific direction that the book might take, because you know that the first draft is always trash and requires an 80% re-write anyway. So just get that trash out of the way so you can create the read book you want to publish. Initially going over this stuff helps you form your perspective on it by forcing you to think through things and reflect, so your first take is always going to be garbage - accept that, and just begin at the beginning.
 
-You're also realising that you don't need to write so much - you've already dropped this word counter down to 500, and there's serious consideration to drop it to 300 or even 200. You don't need to write a huge amount to get this all going - your ideas form in snippets, and you should use this to start the process then bounce out to other things. You're already doing it now - wanting to breakaway from this to write a #mini-essay on the time-dilation & far-future game you want to create through vibe coding. So drop your daily word count to 300, and start getting your [Ideas]({{< relref "posts/Ideas.md" >}}) down so you can start to create your Book - Cave Diving and get the various ideas and nonsense you have bouncing around your head out and onto a screen where it can be useful.
+You're also realising that you don't need to write so much - you've already dropped this word counter down to 500, and there's serious consideration to drop it to 300 or even 200. You don't need to write a huge amount to get this all going - your ideas form in snippets, and you should use this to start the process then bounce out to other things. You're already doing it now - wanting to breakaway from this to write a #mini-essay on the time-dilation & far-future game you want to create through vibe coding. So drop your daily word count to 300, and start getting your Ideas down so you can start to create your Book - Cave Diving and get the various ideas and nonsense you have bouncing around your head out and onto a screen where it can be useful.
 
 ---
 **This also reminds me of**... 

@@ -1,11 +1,12 @@
 ---
 title: Template - Mini Essay
 created: 2026-05-26
-updated: 2026-08-04
+updated: 2026-09-13
 status: seed
 draft: false
 tags:
   - writing
+  - mini-essay
 related:
   - "[[Mini Essays]]"
   - "[[Writing]]"
@@ -26,4 +27,4 @@ So take what you want to take from each of these amazing people and create your 
 **This also reminds me of**... 
 
 ---
-***Tomorrow's Mini Essay***: Mini Essay - Physical Baggage
+***Tomorrow's Mini Essay***: [Mini Essay - Physical Baggage]({{< relref "posts/Mini Essay - Physical Baggage.md" >}})

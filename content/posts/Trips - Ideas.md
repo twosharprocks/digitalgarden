@@ -1,16 +1,18 @@
 ---
 title: Trips - Ideas
 created: 2025-05-01
-updated: 2026-06-27
+updated: 2026-09-23
 status: planning
 draft: false
 tags:
   - diving
   - trips
 related:
-  - "[[Expedition Calendar]]"
+  - "[[Trips]]"
   - "[[Diving - Ideas]]"
   - "[[Bucket List]]"
+  - "[[Trips - Best Times To Go]]"
+  - "[[ChatGPT - Cave Expedition Calendar]]"
 ---
 - #expeditions & #trips
 	- Where do you want to go on #expeditions? 
@@ -18,18 +20,111 @@ related:
 		- Write books, explore and map caves, cross big distances on foot, 
 	- Where do you want to explore and share? How do you document and collect data for others?
 
+---
+
 Plan 2-3 per year
 - ChatGPT - Cave Expedition Calendar
 
+Trips - Best Times To Go
+
+Also see [Bucket List]({{< relref "posts/Bucket List.md" >}})
+## Africa
+- [Madagascar]({{< relref "posts/madagascar.md" >}})? 
+	- Contact Ryan Dart
+## Asia
+- [China]({{< relref "posts/china.md" >}})? 
+	- Impact on security clearance
+- [Philippines]({{< relref "posts/philippines.md" >}})
+- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}})
+- Pacific Islands
+	- Niue and the Loyalty Islands (esp. Lifou) (See ChatGPT discussion)
+- [Sulawesi]({{< relref "posts/Sulawesi.md" >}}) - Return with survey plan?
+- [Laos]({{< relref "posts/laos.md" >}}), [Vietnam]({{< relref "posts/vietnam.md" >}}), [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) 
+## Oceania
+- Christmas Island
+	- Christmas Island Karst Exploration Project
+
+	- 
 ---
+Diving
+- [Hungary]({{< relref "posts/hungary.md" >}}) - Dive Molnar Janos - when?
+- [Philippines]({{< relref "posts/philippines.md" >}})
+- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}})
+- 
+- 
+- [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}}) - Organise CCR only fun trip?
+- 
+- Nullarbor
+	- Tommy Grahams, Pannikin Plains, surrounding area
+- [Thailand]({{< relref "posts/thailand.md" >}})/[Malaysia]({{< relref "posts/malaysia.md" >}})
+
+
 Non-Diving
 - [120km Desert Trekking Expedition in Jordan](https://www.muchbetteradventures.com/products/10721-adventures-120km-desert-trekking-expedition-in-jordan/)
 - [Source to Sea Kayak Journey in Montenegro & Albania](https://www.muchbetteradventures.com/products/10906-adventures-source-sea-kayak-journey-montenegro-albania/)
 - [Dukono - Active Volcano in Indonesia](https://www.instagram.com/p/DJPCem2s99-/)
 - Kayak Glenelg River Canoe Trail?
 
-# Goals
-Name Idea: Soggy Wombat Safaris
+---
+## Interest - Highest
+- [Oceania]({{< relref "posts/Oceania.md" >}})
+	- [New Zealand]({{< relref "posts/New Zealand.md" >}}) (Q1)
+	- [Philippines]({{< relref "posts/philippines.md" >}}) (Q1)
+	- [Malaysia]({{< relref "posts/malaysia.md" >}})
+	- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}}) (Q4)
+- [Europe]({{< relref "posts/europe.md" >}})
+	- [Malta - Gozo]({{< relref "posts/Malta - Gozo.md" >}}) (Q3)
+	- [France]({{< relref "posts/france.md" >}}), [Spain]({{< relref "posts/spain.md" >}}), [Portugal]({{< relref "posts/portugal.md" >}}) (Q3)
+	- [Balkans]({{< relref "posts/balkans.md" >}}): [Hungary]({{< relref "posts/hungary.md" >}}), [Croatia]({{< relref "posts/croatia.md" >}}), [Bosnia & Herzegovina]({{< relref "posts/Bosnia & Herzegovina.md" >}}), [Montenegro]({{< relref "posts/montenegro.md" >}})
+- [Africa]({{< relref "posts/africa.md" >}})
+	- [Madagascar]({{< relref "posts/madagascar.md" >}}) (Q3)
+## Interest - Strong
+- [Europe]({{< relref "posts/europe.md" >}})
+	- [Balkans]({{< relref "posts/balkans.md" >}}) & Eastern Med: Ideal May/Jun & Sep/Oct
+		- [Greece]({{< relref "posts/greece.md" >}}), [Albania]({{< relref "posts/albania.md" >}}), [Crete]({{< relref "posts/crete.md" >}}), [Cyprus]({{< relref "posts/cyprus.md" >}}), [Czechia]({{< relref "posts/czechia.md" >}}), [Bulgaria]({{< relref "posts/bulgaria.md" >}}), [Serbia]({{< relref "posts/serbia.md" >}}), [Kosovo]({{< relref "posts/kosovo.md" >}}),  [Italy]({{< relref "posts/italy.md" >}}), [Slovakia]({{< relref "posts/slovakia.md" >}}), [Slovenia]({{< relref "posts/slovenia.md" >}}), [Romania]({{< relref "posts/romania.md" >}}), [Croatia]({{< relref "posts/croatia.md" >}}), [Bosnia & Herzegovina]({{< relref "posts/Bosnia & Herzegovina.md" >}}), [Montenegro]({{< relref "posts/montenegro.md" >}})
+	- Western Europe: Aug/Sept
+		- [Portugal]({{< relref "posts/portugal.md" >}}), [Spain]({{< relref "posts/spain.md" >}}), [France]({{< relref "posts/france.md" >}}), [Mallorca - Spain]({{< relref "posts/Mallorca - Spain.md" >}}), [Morocco]({{< relref "posts/morocco.md" >}}), [Sardinia - Italy]({{< relref "posts/Sardinia - Italy.md" >}}), [Sicily - Italy]({{< relref "posts/Sicily - Italy.md" >}})
+
+- Central Asia: 
+	- [Georgia]({{< relref "posts/georgia.md" >}}), [Kazakhstan]({{< relref "posts/kazakhstan.md" >}}), [Kyrgyzstan]({{< relref "posts/kyrgyzstan.md" >}}), [Armenia]({{< relref "posts/armenia.md" >}}), 
+
+- [Oceania]({{< relref "posts/Oceania.md" >}})
+	- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - June
+	- [Cook Islands]({{< relref "posts/Cook Islands.md" >}})
+	- [Sulawesi]({{< relref "posts/Sulawesi.md" >}})
+	- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - Sept
+	- [West Timor - Indonesia]({{< relref "posts/West Timor - Indonesia.md" >}})
+	- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}})
+	- [West Papua - Indonesia]({{< relref "posts/West Papua - Indonesia.md" >}})
+	- [New Caledonia]({{< relref "posts/New Caledonia.md" >}})
+	- [Solomon Islands]({{< relref "posts/Solomon Islands.md" >}}) 
+	- [Samoa]({{< relref "posts/samoa.md" >}}) & [Tonga]({{< relref "posts/tonga.md" >}})
+	- [Vietnam]({{< relref "posts/vietnam.md" >}})
+- Other
+	- #antarctica (Non-diving)
+	- [Dominican Republic]({{< relref "posts/Dominican Republic.md" >}})
+	- [South Africa]({{< relref "posts/South Africa.md" >}})
+	- [Tanzania]({{< relref "posts/tanzania.md" >}})
+
+## Interest - Good
+- Americas: [Bahamas]({{< relref "posts/bahamas.md" >}}), [Belize]({{< relref "posts/belize.md" >}}), [Brazil]({{< relref "posts/brazil.md" >}}), [Cayman Islands]({{< relref "posts/Cayman Islands.md" >}}), [Jamaica]({{< relref "posts/jamaica.md" >}}), [Florida]({{< relref "posts/florida.md" >}}), [Yucatan - Mexico]({{< relref "posts/Yucatan - Mexico.md" >}})
+- Europe: [Mallorca - Spain]({{< relref "posts/Mallorca - Spain.md" >}}) [Iceland]({{< relref "posts/iceland.md" >}})
+- Africa: [Nigeria]({{< relref "posts/nigeria.md" >}}), [Zimbabwe]({{< relref "posts/zimbabwe.md" >}})
+- Asia: [Mongolia]({{< relref "posts/mongolia.md" >}}), [Bhutan]({{< relref "posts/bhutan.md" >}}), [China]({{< relref "posts/china.md" >}}), [Moluccas - Indonesia]({{< relref "posts/Moluccas - Indonesia.md" >}}), [Sri Lanka]({{< relref "posts/Sri Lanka.md" >}})
+- Other: [Oman]({{< relref "posts/oman.md" >}}), [Türkiye-Turkey]({{< relref "posts/Türkiye-Turkey.md" >}}), [Seychelles]({{< relref "posts/seychelles.md" >}}), [Tajikistan]({{< relref "posts/tajikistan.md" >}}), [Azerbaijan]({{< relref "posts/azerbaijan.md" >}})
+
+## Interest - Low & Not Viable
+- Low Interest: [Algeria]({{< relref "posts/Algeria.md" >}}), [Ethiopia]({{< relref "posts/ethiopia.md" >}}), [Roe Plains]({{< relref "posts/Roe Plains.md" >}}), [Mauritius]({{< relref "posts/mauritius.md" >}}), [Vanuatu]({{< relref "posts/vanuatu.md" >}}), [Réunion Island]({{< relref "posts/Réunion Island.md" >}}), [Tunisia]({{< relref "posts/tunisia.md" >}})
+
+- Not Currently Viable: [Cameroon]({{< relref "posts/cameroon.md" >}}), [Democratic Republic of Congo]({{< relref "posts/Democratic Republic of Congo.md" >}}), [Rwanda]({{< relref "posts/rwanda.md" >}}), [Iran]({{< relref "posts/iran.md" >}}), [Lebanon]({{< relref "posts/lebanon.md" >}}), [Cuba]({{< relref "posts/cuba.md" >}}) (High Visa Impact), [Venezuela]({{< relref "posts/venezuela.md" >}})
+
+---
+
+
+---
+**This also reminds me of**... 
+
+Soggy Wombat Safaris
 - Control membership: Create chat group for upcoming expeditions, purchase merch to get access
 - Create list of people you'd go on expeditions with - Think Murra
 - Different from Bottomline Projects Australia (Registered Charity) 
@@ -81,17 +176,12 @@ Funding
 	- Offers Grants and Project Investments
 - [XDeep Expedition Support](https://exploration.xdeep.eu/how-to-apply)
 - Explorer's Club
-	- EC50 - [Applications](https://50.explorers.org/nominate/) for **Class of 2026** close 30 Sept 2025
 
 Use this to support good causes
 - [Habitat for Humanity](https://www.habitat.org/ap)
 - Medicines San Frontiers?
 
 Inspiration from Albie Mangle, Jacques Cousteau, David Attenborough 
-
----
-**This also reminds me of**... 
-
 
 ---
 # References

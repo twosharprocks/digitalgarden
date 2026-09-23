@@ -1,7 +1,7 @@
 ---
 title: 5L019 - Englebrecht's East
 created: 2025-11-01
-updated: 2026-08-30
+updated: 2026-09-11
 status: seed
 draft: false
 tags:
@@ -15,6 +15,7 @@ related:
   - "[[Exploration]]"
   - "[[Article - Making Sense with MNemo]]"
   - "[[Mount Gambier - Lower South East]]"
+  - "[[CaveDB - Englebrecht's East - 6d271bdf]]"
 rating: CDAA Cave, TDI Intro to Cave
 ---
 # Other Descriptions

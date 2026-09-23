@@ -19,7 +19,6 @@ related:
 - Burgers - Buns, Mince/Pattie, Lettuce
 - Enchiladas - Wraps, Beans, Cheese
 - Nachos - Corn Chips, Mince, Beans, Cheese
-
 # Easy
 - [Meal - Chicken Alfredo Tortellini]({{< relref "posts/Meal - Chicken Alfredo Tortellini.md" >}})
 - [Meal - Giant Chicken Poppers]({{< relref "posts/Meal - Giant Chicken Poppers.md" >}})

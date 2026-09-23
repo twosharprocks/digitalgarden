@@ -1,7 +1,7 @@
 ---
 title: Cyber Security
 created: 2026-06-19
-updated: 2026-08-06
+updated: 2026-09-10
 status: seed
 draft: false
 tags:
@@ -21,28 +21,29 @@ related:
 ---
 Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{< relref "posts/oscp.md" >}})/[CISSP]({{< relref "posts/CISSP.md" >}})/[CISA]({{< relref "posts/CISA.md" >}}) notes, and work-related security references.
 
-# General
+---
+# General Resources
 - [Cyber Security - Resources]({{< relref "posts/Cyber Security - Resources.md" >}})
 	- [Cheat Sheet - Linux]({{< relref "posts/Cheat Sheet - Linux.md" >}})
 	- [Cyber Glossary]({{< relref "posts/Cyber Glossary.md" >}})
 	- [Scripts]({{< relref "posts/scripts.md" >}})
 - [Cyber Security - Job Domains & Interview Prep]({{< relref "posts/Cyber Security - Job Domains & Interview Prep.md" >}})
 
-- [Threat Modelling]({{< relref "posts/Threat Modelling.md" >}}) 
-	- [Pentesting]({{< relref "posts/pentesting.md" >}}) & [Physical Access]({{< relref "posts/Physical Access.md" >}})
-	- [Web App Vulnerability]({{< relref "posts/Web App Vulnerability.md" >}})
-	- [Notes - ASD Annual Cyber Threat Report 2023-2024]({{< relref "posts/Notes - ASD Annual Cyber Threat Report 2023-2024.md" >}})
-	- Quantum Computing vs Encryption
+---
+# [Threat Modelling]({{< relref "posts/Threat Modelling.md" >}})
+- [Pentesting]({{< relref "posts/pentesting.md" >}}) & [Physical Access]({{< relref "posts/Physical Access.md" >}})
+- [Web App Vulnerability]({{< relref "posts/Web App Vulnerability.md" >}})
+- [Notes - ASD Annual Cyber Threat Report 2023-2024]({{< relref "posts/Notes - ASD Annual Cyber Threat Report 2023-2024.md" >}})
+- [Book - Threats: What Every Engineer Should Learn From Star Wars](https://www.amazon.com/Threats-Every-Engineer-Should-Learn-ebook/dp/B0BT3RGRKS/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
 
-- OT Cyber Security
-	- [Notes - Burning Down Cities]({{< relref "posts/Notes - Burning Down Cities.md" >}})
-	- [Y2038 - Epochalypse]({{< relref "posts/Y2038 - Epochalypse.md" >}}) - [Epochalypse Project](https://epochalypse-project.org/) & [Group.io](https://groups.io/g/epochalypse-discuss/topics)
+---
+# OT Cyber Security
+- [Notes - Burning Down Cities]({{< relref "posts/Notes - Burning Down Cities.md" >}})
+- [Y2038 - Epochalypse]({{< relref "posts/Y2038 - Epochalypse.md" >}}) - [Epochalypse Project](https://epochalypse-project.org/) & [Group.io](https://groups.io/g/epochalypse-discuss/topics)
 
-
+---
 # [Cyber - Training & Certifications]({{< relref "posts/Cyber - Training & Certifications.md" >}})
-- [CRISC]({{< relref "posts/crisc.md" >}})
-- [HTB Enterprise](https://enterprise.hackthebox.com/)
-
+- [Resource - HTB Enterprise](https://enterprise.hackthebox.com/)
 ## [CISA]({{< relref "posts/CISA.md" >}})
 - [CISA - 1A - IS Audit Process Planning]({{< relref "posts/CISA - 1A - IS Audit Process Planning.md" >}})
 - [CISA - 1B - IS Audit Process Execution]({{< relref "posts/CISA - 1B - IS Audit Process Execution.md" >}})
@@ -63,9 +64,8 @@ Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{<
 - [CISSP - 6 - Security Assessment & Testing]({{< relref "posts/CISSP - 6 - Security Assessment & Testing.md" >}})
 - [CISSP - 7 - Security Operations]({{< relref "posts/CISSP - 7 - Security Operations.md" >}})
 - [CISSP - 8 - Software Development Security]({{< relref "posts/CISSP - 8 - Software Development Security.md" >}})
-
 - [CISSP - Misc Notes]({{< relref "posts/CISSP - Misc Notes.md" >}})
-- [Notes - I Took The World’s HARDEST Cybersecurity Exam (CISSP)]({{< relref "posts/Notes - I Took The World’s HARDEST Cybersecurity Exam (CISSP).md" >}})
+- [CISSP - Note - I Took The World’s HARDEST Cybersecurity Exam]({{< relref "posts/CISSP - Note - I Took The World’s HARDEST Cybersecurity Exam.md" >}})
 ## [OSCP]({{< relref "posts/oscp.md" >}})
 - General
 	- [OSCP]({{< relref "posts/oscp.md" >}}) [Exam Guide](https://help.offsec.com/hc/en-us/articles/360040165632-OSCP-Exam-Guide-Newly-Updated)
@@ -115,12 +115,26 @@ Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{<
 	- [OSCP - Kevin - Windows (DNF)]({{< relref "posts/OSCP - Kevin - Windows (DNF).md" >}})
 	- [OSCP - Squid - Windows]({{< relref "posts/OSCP - Squid - Windows.md" >}})
 
-SecOT+ 
+# Other
+## SecOT+
+Ideas - Quantum Computing vs Encryption
+
+
+---
 # References
-- [Threats: What Every Engineer Should Learn From Star Wars](https://www.amazon.com/Threats-Every-Engineer-Should-Learn-ebook/dp/B0BT3RGRKS/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
-- [DISP - Defence Industry Security Program](https://www.defence.gov.au/business-industry/industry-governance/defence-security-principles-framework) 
-	- [Defence Security Principles Framework](https://www.defence.gov.au/sites/default/files/2026-05/DSPF-Principles-10-11-16.pdf) 
+- 
+## GRC
+DISP - Defence-Industry-Security-Program.pdf
+- [Defence Security Principles Framework](https://www.defence.gov.au/business-industry/industry-governance/defence-security-principles-framework) 
+- [DISP Resources](https://www.defence.gov.au/business-industry/industry-governance/industry-regulators/defence-industry-security-program/resources) 
 
+PSPF -  pspf-release-2025.pdf
+- pspf-release-2025-summary-changes.pdf	
+- pspf-on-a-page-release-2025.pdf]
+- [PSPF Standards](https://www.protectivesecurity.gov.au/pspf-annual-release/pspf-standards) 
 
+ISM - Information security manual (June 2026).pdf
+
+C2M2 -  C2M2 - Version 2.1 2022-06.pdf
 
 
