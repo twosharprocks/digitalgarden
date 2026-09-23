@@ -13,7 +13,7 @@ cavedb: https://app.cavedb.net/share/8355e911-3aff-47dd-b768-66e587b09f4e.html
 related:
   - "[[Diving]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
-  - "[[Baubau Island]]"
+  - "[[Baubau Island - Sulawesi]]"
   - "[[empty files]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
   - "[[2025-08-03 - Gua Lanto]]"

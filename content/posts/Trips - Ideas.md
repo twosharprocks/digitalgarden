@@ -25,15 +25,6 @@ Plan 2-3 per year
 
 Trips - Best Times To Go
 Also see [Bucket List]({{< relref "posts/Bucket List.md" >}})
-Diving
-- 
-- [Philippines]({{< relref "posts/philippines.md" >}})
-- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}})
--
-- Nullarbor
-	- Tommy Grahams, Pannikin Plains, surrounding area
-- [Thailand]({{< relref "posts/thailand.md" >}})/[Malaysia]({{< relref "posts/malaysia.md" >}})
-
 
 Non-Diving
 - [120km Desert Trekking Expedition in Jordan](https://www.muchbetteradventures.com/products/10721-adventures-120km-desert-trekking-expedition-in-jordan/)
@@ -42,22 +33,10 @@ Non-Diving
 - Kayak Glenelg River Canoe Trail?
 
 ---
-## Africa
-- [Madagascar]({{< relref "posts/madagascar.md" >}})? 
-	- 
-## Asia
-- [China]({{< relref "posts/china.md" >}})? 
-	- Impact on security clearance
-- [Philippines]({{< relref "posts/philippines.md" >}})
-- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}})
-- Pacific Islands
-	- Niue and the Loyalty Islands (esp. Lifou) (See ChatGPT discussion)
-- 
-- 
 
+# Research
+- Pacific Islands - Niue and the Loyalty Islands (esp. Lifou) (See ChatGPT discussion)
 
-
----
 ## Interest - Highest
 - [Oceania]({{< relref "posts/Oceania.md" >}})
 	- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - August
@@ -65,8 +44,9 @@ Non-Diving
 	- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}}) (Q4)
 	- [Philippines]({{< relref "posts/philippines.md" >}}) (Q1)
 	- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - September
+	- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Tommy Grahams, Pannikin Plains, & surrounding area
 - Asia
-	- [Laos]({{< relref "posts/laos.md" >}}), [Vietnam]({{< relref "posts/vietnam.md" >}}),
+	- [Laos]({{< relref "posts/laos.md" >}}), [Vietnam]({{< relref "posts/vietnam.md" >}}), [Thailand]({{< relref "posts/thailand.md" >}}), [Malaysia]({{< relref "posts/malaysia.md" >}})
 - [Europe]({{< relref "posts/europe.md" >}})
 	- [Malta - Gozo]({{< relref "posts/Malta - Gozo.md" >}}) (Q3)
 	- [France]({{< relref "posts/france.md" >}}), [Spain]({{< relref "posts/spain.md" >}}), [Portugal]({{< relref "posts/portugal.md" >}}) (Q3)
@@ -87,7 +67,6 @@ Non-Diving
 	- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - June
 	- [Cook Islands]({{< relref "posts/Cook Islands.md" >}})
 	- [Sulawesi]({{< relref "posts/Sulawesi.md" >}})
-	- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - Sept
 	- [West Timor - Indonesia]({{< relref "posts/West Timor - Indonesia.md" >}})
 	- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}})
 	- [West Papua - Indonesia]({{< relref "posts/West Papua - Indonesia.md" >}})
@@ -110,7 +89,7 @@ Non-Diving
 
 ## Interest - Low & Not Viable
 - Low Interest: [Algeria]({{< relref "posts/Algeria.md" >}}), [Ethiopia]({{< relref "posts/ethiopia.md" >}}), [Roe Plains]({{< relref "posts/Roe Plains.md" >}}), [Mauritius]({{< relref "posts/mauritius.md" >}}), [Vanuatu]({{< relref "posts/vanuatu.md" >}}), [Réunion Island]({{< relref "posts/Réunion Island.md" >}}), [Tunisia]({{< relref "posts/tunisia.md" >}})
-- Not Currently Viable: [Cameroon]({{< relref "posts/cameroon.md" >}}), [Democratic Republic of Congo]({{< relref "posts/Democratic Republic of Congo.md" >}}), [Rwanda]({{< relref "posts/rwanda.md" >}}), [Iran]({{< relref "posts/iran.md" >}}), [Lebanon]({{< relref "posts/lebanon.md" >}}), [Cuba]({{< relref "posts/cuba.md" >}}) (High Visa Impact), [Venezuela]({{< relref "posts/venezuela.md" >}})
+- Not Currently Viable: [Cameroon]({{< relref "posts/cameroon.md" >}}), [Democratic Republic of Congo]({{< relref "posts/Democratic Republic of Congo.md" >}}), [Rwanda]({{< relref "posts/rwanda.md" >}}), [Iran]({{< relref "posts/iran.md" >}}), [Lebanon]({{< relref "posts/lebanon.md" >}}), [China]({{< relref "posts/china.md" >}}) (High Security Impact) [Cuba]({{< relref "posts/cuba.md" >}}) (High Visa Impact), [Venezuela]({{< relref "posts/venezuela.md" >}})
 
 
 ---

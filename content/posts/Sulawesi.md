@@ -19,7 +19,7 @@ related:
 Sulawesi - Indonesia is listed under [Oceania]({{< relref "posts/Oceania.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
 
 # Cave Regions
-- [Baubau Island]({{< relref "posts/Baubau Island.md" >}})
+- [Baubau Island - Sulawesi]({{< relref "posts/Baubau Island - Sulawesi.md" >}})
 - [Muna Island - Sulawesi]({{< relref "posts/Muna Island - Sulawesi.md" >}})
 
 # Caves & Dive Sites
