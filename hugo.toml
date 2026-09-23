@@ -1,5 +1,5 @@
 baseurl = "/"
-languageCode = "en-us"
+locale = "en-us"
 refLinksErrorLevel = "WARNING"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
@@ -77,7 +77,7 @@ pagination.pagerSize = 5
 
 [languages]
   [languages.en]
-    languageName = "English"
+    label = "English"
     title = "Digital Garden"
 
     [languages.en.params]
