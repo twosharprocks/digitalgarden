@@ -20,40 +20,16 @@ related:
 		- Write books, explore and map caves, cross big distances on foot, 
 	- Where do you want to explore and share? How do you document and collect data for others?
 
----
-
 Plan 2-3 per year
 - ChatGPT - Cave Expedition Calendar
 
 Trips - Best Times To Go
-
 Also see [Bucket List]({{< relref "posts/Bucket List.md" >}})
-## Africa
-- [Madagascar]({{< relref "posts/madagascar.md" >}})? 
-	- Contact Ryan Dart
-## Asia
-- [China]({{< relref "posts/china.md" >}})? 
-	- Impact on security clearance
-- [Philippines]({{< relref "posts/philippines.md" >}})
-- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}})
-- Pacific Islands
-	- Niue and the Loyalty Islands (esp. Lifou) (See ChatGPT discussion)
-- [Sulawesi]({{< relref "posts/Sulawesi.md" >}}) - Return with survey plan?
-- [Laos]({{< relref "posts/laos.md" >}}), [Vietnam]({{< relref "posts/vietnam.md" >}}), [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) 
-## Oceania
-- Christmas Island
-	- Christmas Island Karst Exploration Project
-
-	- 
----
 Diving
-- [Hungary]({{< relref "posts/hungary.md" >}}) - Dive Molnar Janos - when?
+- 
 - [Philippines]({{< relref "posts/philippines.md" >}})
 - [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}})
-- 
-- 
-- [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}}) - Organise CCR only fun trip?
-- 
+-
 - Nullarbor
 	- Tommy Grahams, Pannikin Plains, surrounding area
 - [Thailand]({{< relref "posts/thailand.md" >}})/[Malaysia]({{< relref "posts/malaysia.md" >}})
@@ -66,25 +42,44 @@ Non-Diving
 - Kayak Glenelg River Canoe Trail?
 
 ---
+## Africa
+- [Madagascar]({{< relref "posts/madagascar.md" >}})? 
+	- 
+## Asia
+- [China]({{< relref "posts/china.md" >}})? 
+	- Impact on security clearance
+- [Philippines]({{< relref "posts/philippines.md" >}})
+- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}})
+- Pacific Islands
+	- Niue and the Loyalty Islands (esp. Lifou) (See ChatGPT discussion)
+- 
+- 
+
+
+
+---
 ## Interest - Highest
 - [Oceania]({{< relref "posts/Oceania.md" >}})
-	- [New Zealand]({{< relref "posts/New Zealand.md" >}}) (Q1)
-	- [Philippines]({{< relref "posts/philippines.md" >}}) (Q1)
-	- [Malaysia]({{< relref "posts/malaysia.md" >}})
+	- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - August
+	- [Sulawesi]({{< relref "posts/Sulawesi.md" >}}) - Return with survey plan?
 	- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}}) (Q4)
+	- [Philippines]({{< relref "posts/philippines.md" >}}) (Q1)
+	- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - September
+- Asia
+	- [Laos]({{< relref "posts/laos.md" >}}), [Vietnam]({{< relref "posts/vietnam.md" >}}),
 - [Europe]({{< relref "posts/europe.md" >}})
 	- [Malta - Gozo]({{< relref "posts/Malta - Gozo.md" >}}) (Q3)
 	- [France]({{< relref "posts/france.md" >}}), [Spain]({{< relref "posts/spain.md" >}}), [Portugal]({{< relref "posts/portugal.md" >}}) (Q3)
-	- [Balkans]({{< relref "posts/balkans.md" >}}): [Hungary]({{< relref "posts/hungary.md" >}}), [Croatia]({{< relref "posts/croatia.md" >}}), [Bosnia & Herzegovina]({{< relref "posts/Bosnia & Herzegovina.md" >}}), [Montenegro]({{< relref "posts/montenegro.md" >}})
+	- [Balkans]({{< relref "posts/balkans.md" >}}): [Hungary]({{< relref "posts/hungary.md" >}}) (Molnar Janos - when?) [Croatia]({{< relref "posts/croatia.md" >}}), [Bosnia & Herzegovina]({{< relref "posts/Bosnia & Herzegovina.md" >}}), [Montenegro]({{< relref "posts/montenegro.md" >}})
 - [Africa]({{< relref "posts/africa.md" >}})
-	- [Madagascar]({{< relref "posts/madagascar.md" >}}) (Q3)
+	- [Madagascar]({{< relref "posts/madagascar.md" >}}) (Q3) - Contact Ryan Dart
 ## Interest - Strong
 - [Europe]({{< relref "posts/europe.md" >}})
 	- [Balkans]({{< relref "posts/balkans.md" >}}) & Eastern Med: Ideal May/Jun & Sep/Oct
 		- [Greece]({{< relref "posts/greece.md" >}}), [Albania]({{< relref "posts/albania.md" >}}), [Crete]({{< relref "posts/crete.md" >}}), [Cyprus]({{< relref "posts/cyprus.md" >}}), [Czechia]({{< relref "posts/czechia.md" >}}), [Bulgaria]({{< relref "posts/bulgaria.md" >}}), [Serbia]({{< relref "posts/serbia.md" >}}), [Kosovo]({{< relref "posts/kosovo.md" >}}),  [Italy]({{< relref "posts/italy.md" >}}), [Slovakia]({{< relref "posts/slovakia.md" >}}), [Slovenia]({{< relref "posts/slovenia.md" >}}), [Romania]({{< relref "posts/romania.md" >}}), [Croatia]({{< relref "posts/croatia.md" >}}), [Bosnia & Herzegovina]({{< relref "posts/Bosnia & Herzegovina.md" >}}), [Montenegro]({{< relref "posts/montenegro.md" >}})
 	- Western Europe: Aug/Sept
 		- [Portugal]({{< relref "posts/portugal.md" >}}), [Spain]({{< relref "posts/spain.md" >}}), [France]({{< relref "posts/france.md" >}}), [Mallorca - Spain]({{< relref "posts/Mallorca - Spain.md" >}}), [Morocco]({{< relref "posts/morocco.md" >}}), [Sardinia - Italy]({{< relref "posts/Sardinia - Italy.md" >}}), [Sicily - Italy]({{< relref "posts/Sicily - Italy.md" >}})
-
+- Asia: [Malaysia]({{< relref "posts/malaysia.md" >}})
 - Central Asia: 
 	- [Georgia]({{< relref "posts/georgia.md" >}}), [Kazakhstan]({{< relref "posts/kazakhstan.md" >}}), [Kyrgyzstan]({{< relref "posts/kyrgyzstan.md" >}}), [Armenia]({{< relref "posts/armenia.md" >}}), 
 
@@ -110,15 +105,12 @@ Non-Diving
 - Americas: [Bahamas]({{< relref "posts/bahamas.md" >}}), [Belize]({{< relref "posts/belize.md" >}}), [Brazil]({{< relref "posts/brazil.md" >}}), [Cayman Islands]({{< relref "posts/Cayman Islands.md" >}}), [Jamaica]({{< relref "posts/jamaica.md" >}}), [Florida]({{< relref "posts/florida.md" >}}), [Yucatan - Mexico]({{< relref "posts/Yucatan - Mexico.md" >}})
 - Europe: [Mallorca - Spain]({{< relref "posts/Mallorca - Spain.md" >}}) [Iceland]({{< relref "posts/iceland.md" >}})
 - Africa: [Nigeria]({{< relref "posts/nigeria.md" >}}), [Zimbabwe]({{< relref "posts/zimbabwe.md" >}})
-- Asia: [Mongolia]({{< relref "posts/mongolia.md" >}}), [Bhutan]({{< relref "posts/bhutan.md" >}}), [China]({{< relref "posts/china.md" >}}), [Moluccas - Indonesia]({{< relref "posts/Moluccas - Indonesia.md" >}}), [Sri Lanka]({{< relref "posts/Sri Lanka.md" >}})
+- Asia: [Mongolia]({{< relref "posts/mongolia.md" >}}), [Bhutan]({{< relref "posts/bhutan.md" >}}), [China]({{< relref "posts/china.md" >}}), [Moluccas - Indonesia]({{< relref "posts/Moluccas - Indonesia.md" >}}), [Sri Lanka]({{< relref "posts/Sri Lanka.md" >}}), [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}}) - CCR only fun trip?
 - Other: [Oman]({{< relref "posts/oman.md" >}}), [Türkiye-Turkey]({{< relref "posts/Türkiye-Turkey.md" >}}), [Seychelles]({{< relref "posts/seychelles.md" >}}), [Tajikistan]({{< relref "posts/tajikistan.md" >}}), [Azerbaijan]({{< relref "posts/azerbaijan.md" >}})
 
 ## Interest - Low & Not Viable
 - Low Interest: [Algeria]({{< relref "posts/Algeria.md" >}}), [Ethiopia]({{< relref "posts/ethiopia.md" >}}), [Roe Plains]({{< relref "posts/Roe Plains.md" >}}), [Mauritius]({{< relref "posts/mauritius.md" >}}), [Vanuatu]({{< relref "posts/vanuatu.md" >}}), [Réunion Island]({{< relref "posts/Réunion Island.md" >}}), [Tunisia]({{< relref "posts/tunisia.md" >}})
-
 - Not Currently Viable: [Cameroon]({{< relref "posts/cameroon.md" >}}), [Democratic Republic of Congo]({{< relref "posts/Democratic Republic of Congo.md" >}}), [Rwanda]({{< relref "posts/rwanda.md" >}}), [Iran]({{< relref "posts/iran.md" >}}), [Lebanon]({{< relref "posts/lebanon.md" >}}), [Cuba]({{< relref "posts/cuba.md" >}}) (High Visa Impact), [Venezuela]({{< relref "posts/venezuela.md" >}})
-
----
 
 
 ---

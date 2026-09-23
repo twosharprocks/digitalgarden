@@ -1,7 +1,7 @@
 ---
 title: Cave Regions
 created: 2026-06-19
-updated: 2026-09-11
+updated: 2026-09-23
 status: seed
 draft: false
 tags:
@@ -22,13 +22,15 @@ Cave regions are organised from broad geography down to country pages, local cav
 - [Google Earth](https://earth.google.com/web/)
 
 # Regions
-## Oceania
-- [ACT]({{< relref "posts/act.md" >}})
-- [Christmas Island]({{< relref "posts/Christmas Island.md" >}})
-- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}})
-- [Moluccas - Indonesia]({{< relref "posts/Moluccas - Indonesia.md" >}})
+## [Oceania]({{< relref "posts/Oceania.md" >}})
+- Australia
+	- [ACT]({{< relref "posts/act.md" >}})
+	- [Christmas Island]({{< relref "posts/Christmas Island.md" >}})
+- [Indonesia]({{< relref "posts/indonesia.md" >}})
+	- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}})
+	- [Moluccas - Indonesia]({{< relref "posts/Moluccas - Indonesia.md" >}})
 - [New Caledonia]({{< relref "posts/New Caledonia.md" >}})
-- [New South Wales]({{< relref "posts/New South Wales.md" >}})
+- 
 - [New Zealand]({{< relref "posts/New Zealand.md" >}})
 - [Northern Territory]({{< relref "posts/Northern Territory.md" >}})
 - [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}})
@@ -66,7 +68,7 @@ Cave regions are organised from broad geography down to country pages, local cav
 - [Thailand]({{< relref "posts/thailand.md" >}})
 - [Vietnam]({{< relref "posts/vietnam.md" >}})
 
-## Europe
+## [Europe]({{< relref "posts/europe.md" >}})
 - [Albania]({{< relref "posts/albania.md" >}})
 - [Belgium]({{< relref "posts/belgium.md" >}})
 - [Bosnia & Herzegovina]({{< relref "posts/Bosnia & Herzegovina.md" >}})
@@ -96,14 +98,14 @@ Cave regions are organised from broad geography down to country pages, local cav
 - [Sweden]({{< relref "posts/sweden.md" >}})
 - [United Kingdom]({{< relref "posts/United Kingdom.md" >}})
 
-## Middle East
+## Central Asia & Middle East
 - [Iran]({{< relref "posts/iran.md" >}})
 - [Jordan]({{< relref "posts/jordan.md" >}})
 - [Lebanon]({{< relref "posts/lebanon.md" >}})
 - [Oman]({{< relref "posts/oman.md" >}})
 - [Türkiye-Turkey]({{< relref "posts/Türkiye-Turkey.md" >}})
 
-## North America
+## [North America]({{< relref "posts/North America.md" >}})
 - [Arkansas]({{< relref "posts/arkansas.md" >}})
 - [Florida]({{< relref "posts/florida.md" >}})
 - [Pacific North-West]({{< relref "posts/Pacific North-West.md" >}})
@@ -125,7 +127,7 @@ Cave regions are organised from broad geography down to country pages, local cav
 - [Brazil]({{< relref "posts/brazil.md" >}})
 - [Venezuela]({{< relref "posts/venezuela.md" >}})
 
-## Africa
+## [Africa]({{< relref "posts/africa.md" >}})
 - [Democratic Republic of Congo]({{< relref "posts/Democratic Republic of Congo.md" >}})
 - [Ethiopia]({{< relref "posts/ethiopia.md" >}})
 - [Madagascar]({{< relref "posts/madagascar.md" >}})
