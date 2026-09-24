@@ -1,7 +1,7 @@
 ---
 title: Bucket List
 created: 2025-04-01
-updated: 2026-09-22
+updated: 2026-09-25
 status: seed
 draft: false
 tags:
@@ -73,13 +73,15 @@ Write [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) about each entry here
 	- Create an art experience that moves people
 3. **Organise & Lead Adventure around the world**
 	- Soggy Wombat Safaris
-4. Destinations - [Bucket List]({{< relref "posts/Bucket List.md" >}})
+4. Destinations - [Trips - Ideas]({{< relref "posts/Trips - Ideas.md" >}})
 	- 2027
-		- Christmas Island Karst Exploration Project
+		- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) for Christmas Island Karst Exploration Project
 	- 2028
 		- Trip - Bikini Atoll - 2028 June
-	- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) 2027
-	- [Madagascar]({{< relref "posts/madagascar.md" >}})
+	- Other
+		- [Madagascar]({{< relref "posts/madagascar.md" >}})
+		- [Croatia]({{< relref "posts/croatia.md" >}})
+		- 
 # ***Writing & Art***
 - **Publish 10 Books**
 	- 1 - Becoming Martian, 2 - Cosmic Nomad, 
