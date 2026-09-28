@@ -1,7 +1,7 @@
 ---
 title: Diving - Ideas
 created: 2025-01-01
-updated: 2026-09-23
+updated: 2026-09-28
 status: seed
 draft: false
 tags:
@@ -38,13 +38,9 @@ Join NSS-CDS? https://www.facebook.com/share/1BNCb4BAjU/
 - Cave diving TV show is becoming more important - think about filming expeditions
 - Talk to Sarah Young
 	- Develop this for YouTube & involve a production house
-	- 
-	- 
+
 Podcast
 
-- [ ] Create Obsidian Pages from CaveDB 
-
-Presentation
 - CEGSA Presentation on Sulawesi? On Murra? Thailand?
 
 Writing - Ideas
@@ -63,6 +59,16 @@ Social Media
 
 # Foundation
 - Setup Exploration Foundation with Will (like Mikko)
+- Call it "Hidden Earth" - ChatGPT - Hidden Earth Foundation
+	- ChatGPT - Starting an Underwater Cave Research Organisation
+	- Determine Structure - [Setting up a charity](https://www.philanthropy.org.au/seeking-funding/setting-up-a-charity/), [Starting a fund or foundation](https://communityfoundation.org.au/philanthropic-services/structured-giving/) 
+	- Option to write off dive gear, Metashape Professional, server costs, ect
+	- Major Projects Foundation
+		- https://majorprojects.org.au/about-us/
+		- https://www.acnc.gov.au/charity/charities/289b7b44-3aaf-e811-a961-000d3ad24182/profile
+- Become [National Geographic Explorer](https://www.nationalgeographic.org/society/grants-and-investments/)
+	- Offers Grants and Project Investments
+- [XDeep Expedition Support](https://exploration.xdeep.eu/how-to-apply)
 
 Tools
 - What to do with the MNemo1? 

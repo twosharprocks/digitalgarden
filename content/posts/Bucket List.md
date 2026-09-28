@@ -1,7 +1,7 @@
 ---
 title: Bucket List
 created: 2025-04-01
-updated: 2026-09-25
+updated: 2026-09-28
 status: seed
 draft: false
 tags:
@@ -23,8 +23,7 @@ Write [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) about each entry here
 - #1 See a huge rocket launch
 - #2 Live in a wood cabin by a lake
 - #3 Be a ginger space unicorn
-- #4 Have a cave diving TV show
-- #5 Create music & drawings I'm proud of
+- #5 Write books I'm proud of
 # 101 Things
 - [101 Things - Complete List]({{< relref "posts/101 Things - Complete List.md" >}})
 ## To Do - Check these numbers
@@ -90,16 +89,15 @@ Write [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) about each entry here
 	- 5 - Book - Calling ET 
 	- 6 - Book - Death, Time & Reality 
 	- 7 - Apocalypse? 8?, 9? 10?
-- Draw cartoons I'm proud of - *Tablet*
-- To sing & play music I'm proud of - *Practice Ukulele*
-
 - Finish the "101 Things" Reading List
 # ***Experience***
 - Meditate for an hour without interruption - *Practice*
 - Travel 
 	1. [Long Solo]({{< relref "posts/Long Solo.md" >}}) (bike? kayak? walk? swim?)
 	2. Walk the Inca Trail
-	3. Cross the Sahara
+	3. Cross a desert
+		1. Sahara
+		2. [120km Desert Trekking Expedition in Jordan](https://www.muchbetteradventures.com/products/10721-adventures-120km-desert-trekking-expedition-in-jordan/)
 - Live 
 	1. ~~living in the van
 	2. **In silent retreat at a wood cabin by a lake**
@@ -110,6 +108,7 @@ Write [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) about each entry here
 	2. ~~Orcas COMPLETE
 	3. **A huge rocket launch** - *BFR*
 	4. Erupting volcano - *Vanuatu (Mt Yasur, Tanna Island)*
+		1. [Dukono - Active Volcano in Indonesia](https://www.instagram.com/p/DJPCem2s99-/)
 	5. Baby sloth - *Costa Rica*
 	6. Polar bear - *Svelbard*
 	7. Snow leopard (Ghost cat)
@@ -119,6 +118,11 @@ Write [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) about each entry here
 	- Finish the "101 Things" rollercoaster list - *Japan - Steel Dragon*
 	- Race skeleton - *Norway*
 	- Fly a Helicopter - [South Coast Helicopters](https://southcoasthelicopters.com.au/26/entry-level-top-gun-package
+	- Kayak
+		- [Source to Sea Kayak Journey in Montenegro & Albania](https://www.muchbetteradventures.com/products/10906-adventures-source-sea-kayak-journey-montenegro-albania/)
+		- Kayak Glenelg River Canoe Trail?
+	- Other
+		- [7 day Arctic hike/paddleboard in Greenland](https://www.muchbetteradventures.com/products/10554-adventures-canoe-expedition-in-the-yukon-wilderness/)
 # ***Space***
 2. Find & Communicate with Extra-terrestrial life - Book - Calling ET
 3. Visit the Moon
@@ -156,10 +160,11 @@ Write [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) about each entry here
 	- Dive Pearce Resurgence
 - Japan
 	- 101 Things: Ride Steel Dragon 2000 rollercoaster
-# ***Ideas***
+---
+# References
 - [Jimmy Chin on Tibetan Plateau](https://www.facebook.com/jimmychinphotography/posts/pfbid031djMZAPMyFw7CioMf7nPfT2Q1tVYhutJi2zpjhamKqk2VeXrsMdjjVJmx9ffdsECl)
 - [Top 5 Bucket List](https://www.instagram.com/p/DL-omp8u0lA/)
 - [Full Time Traveller](https://www.instagram.com/maxtabakin/)
-- [7 day Arctic hike/paddleboard in Greenland](https://www.muchbetteradventures.com/products/10554-adventures-canoe-expedition-in-the-yukon-wilderness/)
+
 
  
