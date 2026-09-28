@@ -1,7 +1,7 @@
 ---
 title: Philosophy
 created: 2025-12-19
-updated: 2026-07-21
+updated: 2026-09-28
 status: tree
 draft: false
 tags:
@@ -45,71 +45,9 @@ Comics - Write [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) about these
 Spiritual
 **Emotional**
 
-**Spiritual** (*Trim this up*)
-Four Agreements
-1. Be impeccable with your word - always be honest, integrity, radical vulnerability
-2. Don't take anything personally - It's not about you, Rule of Thirds, [Explaining is Draining](https://www.instagram.com/p/DNIppPARAvt/)
-3. Don't make assumptions - See it as it is, there are no ordinary moments
-4. Always do your best - It always gets better, 80/20 rule, Practice the basics
 
-- Meditate On - Always grateful, Just say thank you, Act in highest interest of the universe
-- Serve the universe & don't take yourself too seriously (Alan Watts)
-	- Wu Wei - Don't force it
-	- Bender and God (When you do things right, people won't be sure you've done anything at all)
-	- Tao of Pooh - Don't be a bisy backson ("busy back soon") & stop pushing
-		- Bluebear - No hurry & no busy
-	- Intuition - Follow the Ginge, the answers are within you, listen to your little voice, Act donâ€™t react, You always sense the answers far ahead
-	- Synchronicity, "Study" Zen, Meditate
- - Laugh at Reality - It's not to be taken seriously, and there is comedy in everything
-	- There are no ordinary moments - Humour. Change. Paradox
-- Cut Attachments - Expect nothing, Embrace the ebb & flow of the universe
-	- Breathe as part of the universe
-	- Look at the stars, watch clouds, swim in the sea, walk in the rain
-	- Abundance over Scarcity - You have plenty to spare & share
-- This too shall pass - always evolving & accelerating change in others
-	- Only Here & Now - Fears of the future & pain of past are useless
-	- Only constant is change - Mini Essay - Ouroboros & the Nonlinear time in Arrival
-- Albert Camus "Find your question"
-	- Douglas Adams â€œYou canâ€™t have question AND answer"
-- Live Like Youâ€™re Going To Die In A Year
-	- Stop being â€œbusyâ€ & be â€œinterestedâ€
-	- Love what you do & do what you love - [You owe others nothing](https://catapult.co/stories/do-you-want-to-be-known-for-your-writing-or-for-your-swift-email-responses)
-- Idea of new life every 7 years & the Nature of Time
-	- Interplay of time, gravity (spacetime), and light (tears in the universe)
-	- Look at your concerns from 5 years in the future
-- Empower others - People are innately good but often scared
-	- Smile, Perform random acts of kindness, 
-	- Perform/Serenade/Embarrass people
-- Think about Shackleton's challenges - struggling with every day life and always trying to organise and be on the next adventure. 
-- When you choose what to watch or read, you are choosing your future thoughts and perspectives. Consume what youâ€™d like to become.
-- What if the answer to improving your life isnâ€™t to know more? 
-	- What if the answer is focusing on less?
-- We don't see things as they are. We see them as we are. (AnaÃ¯s Nin)
+Writing - Ideas
 
-
-**Writing**
-- [Scott Adams - The Day You Became A Better Writer](https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html)
-- Write EVERY Day - Donâ€™t die with your story untold, die writing your last breath
-- Youâ€™re a writer - You process by writing, running, and meditating
-- Drink Coffee & Take a Huge Shit
-- Read Every Day: Youâ€™ll only get 1 or 1 ideas from even a good book
-- Turn up for work: No discipline = no creative freedom.
-- Trust creativity & love what you do without reward
-- First drafts should take no more than 3 months to write
-- Donâ€™t Ask Permission - Tell stories how you would to friends
-- Be vulnerable & honest: Share something nobody knows about you
-- Write the voice you speak: Read it out loud, if it sounds boring kill it
-- Be scared of what people will think, but donâ€™t deliberately hurt anyone
-- Punch upwards - Purge cynicism & half-smile through all things
-- Live weird & laugh - What makes ME laugh gleefully (Jungian Vs Freudian)
-- Simple writing - Use lots of periods, no semicolons
-- Paint pictures with words - relate by making people laugh & cry
-- Emotion cancels logic - Answer the call of the sea (Saint-Exupery)
-- Heartfelt language, not excessive adjectives and complicated nouns
-- Nest smaller stories inside a grander one
-- Use â€œsaidâ€ instead of ANY other word
-- Let it sleep - Stretch, Coffee, Read, Look again. Rest drafts for >6 weeks before editing
-- Let poor work go - Edit & rewrite until youâ€™ve cut at least 10%
 
 ---
 **This also reminds me of**... 
