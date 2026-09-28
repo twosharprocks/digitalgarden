@@ -1,14 +1,13 @@
 ---
 title: Science - Ideas
 created: 2025-04-06
-updated: 2026-07-02
+updated: 2026-09-28
 status: seed
 draft: false
 tags:
   - ideas
 related:
   - "[[Personal]]"
-  - "[[Knowledge-Management]]"
 ---
 - Teach GoZero with a quantum algorithm? 
 - Quantum Cryptography and Quantum Chromodynamics connection? 

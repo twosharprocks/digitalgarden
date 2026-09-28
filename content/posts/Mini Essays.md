@@ -12,6 +12,9 @@ related:
   - "[[Mini Essays - Ideas]]"
   - "[[Template - Mini Essay]]"
 ---
+- [Mini Essay - Before You're 40]({{< relref "posts/Mini Essay - Before You're 40.md" >}})
+- [Mini Essay - Digital Garden]({{< relref "posts/Mini Essay - Digital Garden.md" >}})
+- [Mini Essay - Mental Baggage]({{< relref "posts/Mini Essay - Mental Baggage.md" >}})
 - [Mini Essay - UNWRITTEN - Physical Baggage]({{< relref "posts/Mini Essay - Physical Baggage.md" >}})
 - [Mini Essay - 15000 days]({{< relref "posts/Mini Essay - 15000 days.md" >}})
 - [Mini Essay - Just Begin]({{< relref "posts/Mini Essay - Just Begin.md" >}})
@@ -48,14 +51,11 @@ related:
 - [Mini Essay - Ouroboros & the Nonlinear time in “Arrival”]({{< relref "posts/Mini Essay - UNWRITTEN - Ouroboros & the Nonlinear time in “Arrival”.md" >}})
 - [Mini Essay - Why you didn't think you'd make it to 30]({{< relref "posts/Mini Essay - Why you didn't think you'd make it to 30.md" >}})
 - [Mini Essay - Ridiculous Bucket List]({{< relref "posts/Mini Essay - Ridiculous Bucket List.md" >}})
-- [Mini Essay - Before You're 40]({{< relref "posts/Mini Essay - Before You're 40.md" >}})
 - [Mini Essay - Desires from work and a career in cyber]({{< relref "posts/Mini Essay - Desires from work and a career in cyber.md" >}})
-- [Mini Essay - Digital Garden]({{< relref "posts/Mini Essay - Digital Garden.md" >}})
 - [Mini Essay - Dune]({{< relref "posts/Mini Essay - Dune.md" >}})
 - [Mini Essay - Fear Is The Mind Killer]({{< relref "posts/Mini Essay - Fear Is The Mind Killer.md" >}})
 - [Mini Essay - If you had a year to live]({{< relref "posts/Mini Essay - If you had a year to live.md" >}})
 - [Mini Essay - Kids Meals on Planes]({{< relref "posts/Mini Essay - Kids Meals on Planes.md" >}})
-- [Mini Essay - Mental Baggage]({{< relref "posts/Mini Essay - Mental Baggage.md" >}})
 - [Mini Essay - Why it's easy to put off writing]({{< relref "posts/Mini Essay - Why it's easy to put off writing.md" >}})
 - [Mini Essay - Your evil secret plan]({{< relref "posts/Mini Essay - Your evil secret plan.md" >}})
 - [Mini Essay - What you need out of work]({{< relref "posts/Mini Essay - What you need out of work.md" >}})

@@ -1,7 +1,7 @@
 ---
 title: Notes - The Garden and the Stream
 created: 2025-04-17
-updated: 2025-04-17
+updated: 2026-09-28
 status: seed
 draft: false
 tags:
@@ -10,7 +10,6 @@ tags:
 related:
   - "[[Time Management]]"
   - "[[Digital Garden]]"
-  - "[[Knowledge-Management]]"
 ---
 Reference: https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/ 
 

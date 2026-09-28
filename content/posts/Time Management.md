@@ -1,7 +1,7 @@
 ---
 title: Time Management
 created: 2025-05-04
-updated: 2025-05-04
+updated: 2026-09-28
 status: seed
 draft: false
 tags:
@@ -9,9 +9,8 @@ tags:
   - knowledge-management
   - interests
   - creativity
-related: 
+related:
   - "[[Personal]]"
-  - "[[Knowledge-Management]]"
 ---
 ---
 ***Use mini keyboard to type before work***

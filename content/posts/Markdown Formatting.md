@@ -1,13 +1,12 @@
 ---
 title: Markdown Formatting
 created: 2025-04-16
-updated: 2026-06-27
+updated: 2026-09-28
 status: reference
 draft: false
 tags:
   - knowledge-management
-related:
-  - "[[Knowledge-Management]]"
+related: "[[Digital Garden]]"
 ---
 ---
 # MD Formatting

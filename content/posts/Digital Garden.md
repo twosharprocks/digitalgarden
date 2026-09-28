@@ -1,12 +1,12 @@
 ---
 title: Digital Garden
 created: 2025-04-12
-updated: 2026-07-17
+updated: 2026-09-28
 status: seed
 draft: false
 tags:
   - knowledge-management
-related: "[[Knowledge-Management]]"
+related:
 ---
 Reference: https://youtu.be/en56OKg5hyc?si=W3YCDI4uDlcOk5Nd
 My digital garden: https://digitalgarden.joshrichards.com.au/
