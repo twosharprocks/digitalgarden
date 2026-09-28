@@ -1,4 +1,4 @@
-﻿---
+---
 title: Philosophy
 created: 2025-12-19
 updated: 2026-07-21
@@ -34,9 +34,9 @@ Four Agreements
 4. Always do your best - It alwasy gets better, 80/20 rule, Practice the basics
 
 **Principles**
-- **Priorities** - âš‘ Reading/Writing âš‘ Diving âš‘ Health âš‘ Learning
+- **Priorities** - [Reading]({{< relref "posts/reading.md" >}}), [Writing]({{< relref "posts/writing.md" >}}) , [Diving]({{< relref "posts/diving.md" >}}), Study
 - What do you want your life to look like?
-- **Do Less** - Simplify Daily Habits, â€œWant Toâ€ vs â€œHave Toâ€
+- **Do Less** - Simplify Daily Habits, Want To vs Have To
 	- When You Stop Doing, Life Speaks
 - **Dream MUCH Bigger**
 - Always ask "**Will I write a book about this?**"
@@ -47,41 +47,9 @@ Four Agreements
 	- Cave Explorer, Future Martian, Author, Speaker, Professional Troublemaker
 
 **Physical**
-- Get up early - Wake by 6am, start before the world does
-- Wim Hof, Early Workout on Empty Stomach, Cold Shower, Meditation
-- Coffee & Writing
-- Food - After exercise/meditation, coffee & writing
-- Move Every Hour - Work in 1 hour blocks, Drink water
-- Screens Away >30mins before bed - Bed by 9pm (Journal/Read) 
-- Wash sheets weekly
-
 **Mental**
-- Read & Write EVERY Day - Journal to warm up, Write to Publish
-- Go Solo - Cultivate â€œfertile solitudeâ€ (Read over TV/Social Media)
-- [Don't think. Do](https://www.outsideonline.com/health/training-performance/forget-motivation-and-focus-action/) - Mood follows action, so begin regardless of motivation
-- [Build Mental Toughness](https://www.outsideonline.com/health/training-performance/building-mental-toughness/) - Separate yourself from the pain
-- ***Organise Trips for Yourself***
-  
-**Emotional** (*Trim this up*)
-- **Say No** - The World keeps turning without you
-	- **Cut Loose Ends** - Tell more people to get fucked
-		- Think about doing fucking awesome things instead of being bogged down in argumentative, draining bullshit, and don't be dragged down by boring losers
-	- Stop Complaining, start doing
-	- Vulnerability Will Set You Free - Be an open book, a peaceful warrior 
-- **Fun, Knowledge, Money** - Only say yes if two out of three apply
-	- **80/20 rule** - 20% of people & activities provide most value
-	- Rule of thirds: Ratio of 3:1, explaining is draining, If it's a struggle it's too complicated
-- You are a conduit for nonsense - Dot, Demoman, Hitchhikerâ€™s Guide, Stubb, Furby
-	- Be Unexpected - Howling Mad Murdock, Information Anarchist, Artist not a scientist
-	- Be a goddamn ginger space unicorn
-- **Dare mighty things** - Allow yourself to suck, fail spectacularly, say â€œFuck Itâ€
-	- Thwart institutional cowardice - Ask forgiveness not permission (Werner Herzog)
-	- Who/What are your gatekeepers? There are no gates
-	- Figure the work-around - Guerrilla tactics are best
-	- Die in a way that boring people will say "He deserved it"
-		- Weâ€™re all going to die, I intend to deserve it
-- Your medium is writing - comedy storytelling, writing, & curiosity
-	- Be an Artist - Forget photography, film, drawing. 
+
+**Emotional**
 
 **Spiritual** (*Trim this up*)
 - Meditate On - Always grateful, Just say thank you, Act in highest interest of the universe

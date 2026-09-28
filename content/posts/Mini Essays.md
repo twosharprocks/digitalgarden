@@ -23,7 +23,7 @@ related:
 - [Mini Essay - Not Fade Away (Jim Dodge)]({{< relref "posts/Mini Essay - Not Fade Away (Jim Dodge).md" >}})
 - [Mini Essay - Peaceful Warrior vs the Alchemist]({{< relref "posts/Mini Essay - Peaceful Warrior vs the Alchemist.md" >}})
 - [Mini Essay - Emotional Baggage]({{< relref "posts/Mini Essay - Emotional Baggage.md" >}})
-- [Mini Essay - UNWRITTEN - Spiritual Baggage]({{< relref "posts/Mini Essay - UNWRITTEN - Spiritual Baggage.md" >}})
+- [Mini Essay - Spiritual Baggage]({{< relref "posts/Mini Essay - Spiritual Baggage.md" >}})
 - [Mini Essay - Where do I want to be in 2028]({{< relref "posts/Mini Essay - Where do I want to be in 2028.md" >}})
 - [Mini Essay - Frustration at People and Communities]({{< relref "posts/Mini Essay - Frustration at People and Communities.md" >}})
 - [Mini Essay - Letter to Yourself in 2031]({{< relref "posts/Mini Essay - Letter to Yourself in 2031.md" >}})

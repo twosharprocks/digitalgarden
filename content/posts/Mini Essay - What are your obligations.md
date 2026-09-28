@@ -32,7 +32,7 @@ The truth is I don't have many "obligations", but the ones I have are very impor
 Ideas
 - [Mini Essay - Physical Baggage]({{< relref "posts/Mini Essay - Physical Baggage.md" >}})
 - [Mini Essay - Emotional Baggage]({{< relref "posts/Mini Essay - Emotional Baggage.md" >}})
-- [Mini Essay - UNWRITTEN - Spiritual Baggage]({{< relref "posts/Mini Essay - UNWRITTEN - Spiritual Baggage.md" >}})
+- [Mini Essay - Spiritual Baggage]({{< relref "posts/Mini Essay - Spiritual Baggage.md" >}})
 
 ---
 ***Tomorrow's Mini Essay***: [Mini Essay - If Mars One rebooted]({{< relref "posts/Mini Essay - If Mars One rebooted.md" >}})

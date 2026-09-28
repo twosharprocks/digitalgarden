@@ -27,4 +27,4 @@ You've just tried to distract yourself with all the different plans you had for 
 
 
 ---
-***Tomorrow's Mini Essay***: [Mini Essay - UNWRITTEN - Spiritual Baggage]({{< relref "posts/Mini Essay - UNWRITTEN - Spiritual Baggage.md" >}}) 
+***Tomorrow's Mini Essay***: [Mini Essay - Spiritual Baggage]({{< relref "posts/Mini Essay - Spiritual Baggage.md" >}}) 
