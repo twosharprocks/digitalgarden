@@ -11,8 +11,7 @@ related:
   - "[[Bucket List]]"
 ---
 ---
-Talk to Sarah Young
-- Develop this for YouTube & involve a production house
+
 
 
 ---

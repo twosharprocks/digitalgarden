@@ -27,14 +27,8 @@ Comics - Write [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) about these
 - [ZP - The Man In The Arena](https://www.zenpencils.com/comic/theodore-roosevelt-the-man-in-the-arena/)
 - ***[ZP - Because It's There](https://www.zenpencils.com/comic/mallory/)***
 
-Four Agreements
-1. Be impeccable with your word - always be honest, integrity, radical vulnerability
-2. Don't take anything personally - It's not about you, Rule of Thirds, [Explaining is Draining](https://www.instagram.com/p/DNIppPARAvt/)
-3. Don't make assumptions - See it as it is, there are no ordinary moments
-4. Always do your best - It alwasy gets better, 80/20 rule, Practice the basics
-
 **Principles**
-- **Priorities** - [Reading]({{< relref "posts/reading.md" >}}), [Writing]({{< relref "posts/writing.md" >}}) , [Diving]({{< relref "posts/diving.md" >}}), Study
+- **Priorities** - [Reading]({{< relref "posts/reading.md" >}}), [Writing]({{< relref "posts/writing.md" >}}), [Diving]({{< relref "posts/diving.md" >}}), Study
 - What do you want your life to look like?
 - **Do Less** - Simplify Daily Habits, Want To vs Have To
 	- When You Stop Doing, Life Speaks
@@ -48,10 +42,16 @@ Four Agreements
 
 **Physical**
 **Mental**
-
+Spiritual
 **Emotional**
 
 **Spiritual** (*Trim this up*)
+Four Agreements
+1. Be impeccable with your word - always be honest, integrity, radical vulnerability
+2. Don't take anything personally - It's not about you, Rule of Thirds, [Explaining is Draining](https://www.instagram.com/p/DNIppPARAvt/)
+3. Don't make assumptions - See it as it is, there are no ordinary moments
+4. Always do your best - It always gets better, 80/20 rule, Practice the basics
+
 - Meditate On - Always grateful, Just say thank you, Act in highest interest of the universe
 - Serve the universe & don't take yourself too seriously (Alan Watts)
 	- Wu Wei - Don't force it
@@ -60,16 +60,16 @@ Four Agreements
 		- Bluebear - No hurry & no busy
 	- Intuition - Follow the Ginge, the answers are within you, listen to your little voice, Act donâ€™t react, You always sense the answers far ahead
 	- Synchronicity, "Study" Zen, Meditate
- - Laugh at Reality - Itâ€™s not to be taken seriously, and there is comedy in everything
-	- There are no ordinary moments - â€œHumour. Change. Paradoxâ€ 
+ - Laugh at Reality - It's not to be taken seriously, and there is comedy in everything
+	- There are no ordinary moments - Humour. Change. Paradox
 - Cut Attachments - Expect nothing, Embrace the ebb & flow of the universe
 	- Breathe as part of the universe
 	- Look at the stars, watch clouds, swim in the sea, walk in the rain
 	- Abundance over Scarcity - You have plenty to spare & share
 - This too shall pass - always evolving & accelerating change in others
 	- Only Here & Now - Fears of the future & pain of past are useless
-	- Only constant is change - Mini Essay - Ouroboros & the Nonlinear time in â€œArrivalâ€
-- Albert Camus â€œFind your questionâ€
+	- Only constant is change - Mini Essay - Ouroboros & the Nonlinear time in Arrival
+- Albert Camus "Find your question"
 	- Douglas Adams â€œYou canâ€™t have question AND answer"
 - Live Like Youâ€™re Going To Die In A Year
 	- Stop being â€œbusyâ€ & be â€œinterestedâ€

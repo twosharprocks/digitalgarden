@@ -21,19 +21,36 @@ related:
 Investigate https://cavewhere.com/ & [CaveAI App](https://www.caveaipro.com/)
 Training - Full Cave CCR in Thailand with Por?
 
+Turn soggywombats.com.au into the website that cavedivers.com.au has failed to be. 
+- https://indepthmag.com/cave-survey-data-management-speleodb/ - SpeleoDB on soggywombats.com.au ?
+- Develop idea for Offshore Volcano search with Ian/Corey
+- Publish 3D photo tours of caves on the Soggy Wombats website!
+	- Get this stuff sharing through the webspace you already own, rather than syncing through Obsidian and Google Drive
+	- 3D Modelling caves - Google Streetview for cave diving
+- Copy out saved places from Google Maps to Add to Obsidian
+
 Join NSS-CDS? https://www.facebook.com/share/1BNCb4BAjU/ 
 
 # TV Show
+- [Cave Diving TV Show]({{< relref "posts/Cave Diving TV Show.md" >}})
 - Investigate [Dive Saga Youtube channel](https://www.youtube.com/@DiveSAGA)
 - Look at Dive Talk's approach (Speaking Sidemount episode with Gus Gonzales)
 - Cave diving TV show is becoming more important - think about filming expeditions
+- Talk to Sarah Young
+	- Develop this for YouTube & involve a production house
+	- 
+	- 
+Podcast
 
-Develop #podcast  
-- [ ] [Writing]({{< relref "posts/writing.md" >}}) - 
 - [ ] Create Obsidian Pages from CaveDB 
 
+Presentation
 - CEGSA Presentation on Sulawesi? On Murra? Thailand?
+
+Writing - Ideas
 - Articles written about each discovery (Eng East, Iddlebiddy, Pines, Murra, Gua Lapahia, Moko Morete) 
+
+Social Media
 - Create #tightsqueezetuesday of Gadi Gap
 - "Josh's Restriction" in La Ode Palsu (Sulawesi) (first time something named after me?)
 - Get CCR hours at Burra Mine Pool
@@ -43,7 +60,6 @@ Develop #podcast
 
 - Writing papers with Robin and Will about cave photogrammetry (WhatsApp)
 - Cafpirco Cave Sites - Cpt 28 New Hole - MAP.pdf
-- Talk in Ceduna on next trip 
 
 # Foundation
 - Setup Exploration Foundation with Will (like Mikko)
@@ -51,9 +67,6 @@ Develop #podcast
 Tools
 - What to do with the MNemo1? 
 - Use Feathers & Wedges, [Expando ](https://expando.com.au/)
-
-- 
-- 
 - Test [Minotaur Cave mapping Software](https://github.com/VlasovAlexey/Minotaur)
 	- [Minotaur for Android](https://play.google.com/store/apps/details?id=com.minotaur.minotaur&pcampaignid=web_share)
 - Test DiveProMe dive planning software
