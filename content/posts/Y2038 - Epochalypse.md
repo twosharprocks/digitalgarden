@@ -1,7 +1,7 @@
 ---
 title: Y2038 - Epochalypse
 created: 2025-11-01
-updated: 2026-08-23
+updated: 2026-09-29
 status: seed
 draft: false
 tags:
@@ -14,6 +14,7 @@ related:
 
 [Time Security SIG](https://www.first.org/global/sigs/time/) - The Time Security SIG exists to help the global FIRST community prepare for the 2036–2038 epoch rollovers. By coordinating research, testing, and outreach on time integrity, the SIG connects CSIRTs, vendors, and standards bodies to strengthen resilience across critical infrastructure. Our goal: ensure the world’s clocks keep running — securely — long past 2038.
 
+---
 # MilCom Presentation
 **Title**: After the Epochalypse - Assuring Defence and Critical Infrastructure in 2038 and beyond
 **Summary**
@@ -36,10 +37,7 @@ This presentation reinforces AE's reputation as an industry leader providing cyb
 	- What will they do before then?
 
 ---
-**This also reminds me of**... 
-- Releated to Book - Death, Time & Reality
-	- PQC is also related
-- [Youtube - 2038 Is Not A Future Issue Get That Through Your Thick Skull](https://www.youtube.com/watch?v=zKk_pBQKTHg)
----
 # References
-
+- https://www.epochalypse.today/
+- https://hertig.blog/posts/epochalypse-when-computers-travel-back-in-time/
+- [Youtube - 2038 Is Not A Future Issue Get That Through Your Thick Skull](https://www.youtube.com/watch?v=zKk_pBQKTHg)
