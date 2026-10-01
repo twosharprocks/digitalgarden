@@ -1,7 +1,7 @@
 ---
 title: Antarctica
 created: 2025-10-06
-updated: 2026-05-25
+updated: 2026-10-02
 status: seed
 draft: false
 tags:
@@ -18,35 +18,46 @@ related:
   - "[[Diving]]"
   - "[[Trip - Antarctica - 2025 Nov]]"
 ---
-#expeditions 
-- [Oceanwide Expeditions](https://oceanwide-expeditions.com/cruises?region=antarctica) - [17Nov-27Nov2025 M/V Hondius](https://oceanwide-expeditions.com/antarctica/cruises/hds22-25-antarctica-discovery-and-learning-voyage)(10nights)
-	- 4-berth Full Price - US$7750 (AUD$12k) 
-	- Waitlisted - paid US$5700 (AUD$8600)
-
-#work After Trip - Bikini Atoll - 2028 June?
-
-[Work for Oceanwide Expeditions](https://oceanwide-expeditions.com/page/careers)?
+# Work - After Trip - Bikini Atoll - 2028 June?
+- Ask yourself ***WHY*** this is important, if at all? You did your trip to Antarctica and saw a leopard seal - do you still feel compelled to go?
+## [Work for Oceanwide Expeditions](https://oceanwide-expeditions.com/page/careers)?
 - [Expedition Staff Application Form](https://oceanwide-expeditions.com/staff-form)
 	- Draft form Application - Oceanwide Expedition Guide
-	- Work as a [Dive Guide](https://oceanwide-expeditions.com/to-do/outdoor-activities/polar-diving) 
-	- Pre-Application Training
-		- [First Aid](https://www.firstaidpro.com.au/locations/sa/findon/)
-		- [Powerboat handling](https://www.sailing.org.au/course-finder/1186?location=-34.9286212%7C138.5999594%7CAdelaide+5000&distance=50&date_from=&date_to=)
-		- [Seaman's Medical Certificate](https://www.amsa.gov.au/qualifications-training/international-qualifications/medical-fitness-international-certificates) - Do as annual medical
-		- https://www.facebook.com/share/p/1KmWoofEQT/
-	- Other Training
-		- [HLTAID013 - Remote First Aid](https://www.survivefirstaid.com.au/service-page/remote-area-first-aid-75-nominal-hours-28?referral=service_list_widget)? 1/2 day course
-			- [FirstAidPro](https://www.firstaidpro.com.au/calendar/hltaid013/sa/adelaide-cbd/), St Johns and Red Cross
-			- [Wilderness First Aid?](https://www.survivefirstaid.com.au/wilderness-first-aid-courses) - 4 day course
-		- [Marine VHF Operator](https://sasearescue.org.au/srocp/)?
-		- [STCW](https://www.amcsearch.com.au/course/certificate-of-safety-training-cost) - Basic ship survival?
+	- Work as a [Dive Guide](https://oceanwide-expeditions.com/to-do/outdoor-activities/polar-diving) ?
+- Pre-Application Training
+	- [First Aid](https://www.firstaidpro.com.au/locations/sa/findon/)
+	- [Powerboat handling](https://www.sailing.org.au/course-finder/1186?location=-34.9286212%7C138.5999594%7CAdelaide+5000&distance=50&date_from=&date_to=)
+	- [Seaman's Medical Certificate](https://www.amsa.gov.au/qualifications-training/international-qualifications/medical-fitness-international-certificates) - Do as annual medical
+	- https://www.facebook.com/share/p/1KmWoofEQT/
+- Other Training
+	- [HLTAID013 - Remote First Aid](https://www.survivefirstaid.com.au/service-page/remote-area-first-aid-75-nominal-hours-28?referral=service_list_widget)? 1/2 day course
+		- [FirstAidPro](https://www.firstaidpro.com.au/calendar/hltaid013/sa/adelaide-cbd/), St Johns and Red Cross
+		- [Wilderness First Aid?](https://www.survivefirstaid.com.au/wilderness-first-aid-courses) - 4 day course
+	- [Marine VHF Operator](https://sasearescue.org.au/srocp/)?
+	- [STCW](https://www.amcsearch.com.au/course/certificate-of-safety-training-cost) - Basic ship survival?
+## [Work for BoM?](https://www.bom.gov.au/about-the-bureau/careers/antarctica-jobs) - [How To Apply](https://www.bom.gov.au/about-the-bureau/careers/how-to-apply)
+- [Field Technician (Level 3) - Position Description](https://bomcareers.nga.net.au/publicfiles/bomcareers/jobs/DE9AD713-AC06-024C-5EB4-ED4B677F7A7E/60005093,%2060005089,%2060005091%20-%20Antarctic%20Technical%20Officer%20Level%203_1.pdf) - Best option given my qualifications
+- Role:
+	- Routine surface, upper-air and aviation weather observations
+	- Monitoring automatic weather-station data and identifying faults.
+	- Working with BoM’s IT Command Centre.
+	- Diagnosing and repairing moderately complex equipment, including IT systems.
+	- Documenting outages and maintenance through BoM’s asset-management system.
+	- Working under minimal supervision.
+	- Potentially acting as a BoM leadership representative on station.
+- From ChatGPT: 
+	- Your recent work is considerably more relevant than “cyber GRC” might initially suggest. You have supported end users and operational systems at ElectraNet, CyberCX and RAAF Headquarters, as well as having genuine service-desk experience across hardware, software, Microsoft 365, Azure and identity systems. That gives you evidence for:
+		- Methodical fault isolation. 
+		- Working on time-sensitive operational problems.
+		- Supporting nontechnical users.
+		- Escalating and documenting incidents.
+		- Coordinating with remote specialist teams.
+		- Applying procedures without losing practical judgement.
+		You also meet the Level 3 leadership requirement unusually well through military service, diving instruction, cyber training, consulting and operational support. Your remote and high-consequence experience is a strong differentiator—but it should be presented as evidence of calmness, reliability and teamwork, rather than primarily as adventure credentials.
+		
+		Your main Level 3 gap is physical instrumentation maintenance. You will need to show examples involving hardware, communications equipment, field repairs, diagnostics, installation, test equipment or maintaining operational systems—not just policy, risk assessments and cybersecurity advice. Your combat-engineering, diving, laboratory and mission-support history may supply that evidence.
 
-[Work for BoM?](https://www.bom.gov.au/about-the-bureau/careers/antarctica-jobs) - [How To Apply](https://www.bom.gov.au/about-the-bureau/careers/how-to-apply)
-- Best option given my qualifications
-- Field Technician roles
-- [Talent Register 2025-2026](https://bomcareers.nga.net.au/cp/index.cfm?event=jobs.checkJobDetailsNewApplication&returnToEvent=jobs.listJobs&jobid=0EA7680B-3495-48DD-B1DA-B2FB00E9C563&CurATC=EXT&CurBID=7B42A027%2D5B8B%2DCC7C%2D26F9%2DD1A55C114271&JobListID=22FC4F47%2DE994%2D46A3%2DB8C9%2D9BC901269F43&jobsListKey=6d10b524%2D34ea%2D45c3%2D8347%2D4407fdc2756d&persistVariables=CurATC,CurBID,JobListID,jobsListKey,JobID&lid=79441840178&rmuh=9FC879ED291672072397E4DA3AD1F42CD4586BBD)
-[Work for AAD](https://jobs.antarctica.gov.au/jobs-in-antarctica/)? 
-- More options but problematic than BoM
+## [Work for AAD](https://jobs.antarctica.gov.au/jobs-in-antarctica/)? More problematic than BoM
 - [IT Officer](https://jobs.antarctica.gov.au/jobs-in-antarctica/telecommunications/information-technology-officer/)?
 
 [Apply for Australian Antarctic Arts Fellowship](https://www.antarctica.gov.au/about-us/antarctic-arts-fellowship/) 
@@ -59,6 +70,9 @@ related:
 
 ---
 **This also reminds me of**... 
+- [Oceanwide Expeditions](https://oceanwide-expeditions.com/cruises?region=antarctica) - [17Nov-27Nov2025 M/V Hondius](https://oceanwide-expeditions.com/antarctica/cruises/hds22-25-antarctica-discovery-and-learning-voyage)(10nights)
+	- 4-berth Full Price - US$7750 (AUD$12k) 
+	- Waitlisted, then paid US$5700 (AUD$8600)
 
 ---
 # References
