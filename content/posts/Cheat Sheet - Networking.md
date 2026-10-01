@@ -12,7 +12,7 @@ related:
 ---
 **Network security** is the practices and policies used to protect and monitor a computer network’s resources against threats and risks.
 
-**Client-server model** is a network computing model that defines how resources and services are shared across a network. Uses a **<span style="text-decoration:underline;">“request and response”</span>** method of device communication.
+**Client-server model** is a network computing model that defines how resources and services are shared across a network. Uses a **“request and response”** method of device communication.
 
 **Network threats and risks**
 * Unauthorized access into networks
@@ -80,7 +80,7 @@ related:
 * Advantages: High redundancy, fast transmission
 * Disadvantages: Complicated setup/management, expensive to establish
 * [Calculating the number of wires for a fully meshed network](https://x-engineer.org/wires-fully-meshed-network/)
-**Mesh** 	Many (but not <span style="text-decoration:underline;">all)</span> devices are connected to find shortest path to forward data
+**Mesh** 	Many (but not **all)** devices are connected to find shortest path to forward data
 * Advantages/Disadvantages: Same as fully connected
 **Hybrid** Mixture of different network topologies
 * Advantages/Disadvantages: Depend on network types being combined
@@ -93,7 +93,7 @@ related:
 ### IP Types
 **IPv4** Four Octets (8 binary bits = one byte) ranging 0-255, separated by decimals (eg. 10.4.79.254)
 **IPv6** Eight groups of 2 bytes encoded in hexidecimal (hex) separated by colon (eg. 2001:0db8:85a3:0000:0000:8a2e:0370:7334)
-* IPv6 has <span style="text-decoration:underline;">not</span> been widely adopted and many devices need to be updated before accepting IPv6 addresses
+* IPv6 has **not** been widely adopted and many devices need to be updated before accepting IPv6 addresses
 ### IP Categories
 **Private IP addresses** are NOT exposed to the internet (typically within a LAN)
 * Assigned by LAN’s network administrator
@@ -106,7 +106,7 @@ related:
     * Class C Private = _192.168.0.0 - 192.168.255.255_	(65,536 available)
 **Public IP addresses** can be accessed over the internet
 * Assigned in IP ranges by an Internet Service Provider (ISP)
-* Any address **<span style="text-decoration:underline;">not</span>** within the Private IP4 ranges is **public**
+* Any address **not** within the Private IP4 ranges is **public**
 * Public IPv4 can also be classed:
     * Class A (Large Org) 	    = 1.0.0.0 - 127.0.0.0 (1oct = 1-127)
     * Class B (Medium Org)      = 128.0.0.0 - 191.0.0.0 (1oct = 128-191)
@@ -124,7 +124,7 @@ related:
 **Classless Inter-Domain Routing (CIDR)** is a format fixing the number of bits which are static for the network. [CIDR-IP Range Calculator](https://www.ipaddressguide.com/cidr)
 * CIDR replaces the older A, B and C classes of IP addresses
 * 0 & 255 are reserved for the subnet ID and broadcasting respectively
-* <span style="text-decoration:underline;">Example:</span> 192.243.3.0 /24 = 24 bits of the address (eg. 1st 3 octets) are static, so 192.243.3 are fixed and up to 255 IP addresses are available with the final octet
+* **Example:** 192.243.3.0 /24 = 24 bits of the address (eg. 1st 3 octets) are static, so 192.243.3 are fixed and up to 255 IP addresses are available with the final octet
 ## MAC Address
 **Media Access Control (MAC) Addresses** are burned-in addresses assigned to network interface cards which must be unique to each NIC on the same network.
 * MAC addresses have 6 sets of alphanumeric characters separated by colons
@@ -146,10 +146,10 @@ related:
 
 **Reverse DNS Lookup** provides the domain name for a given IP address, and is stored as a **PTR (Pointer) record** on the special **_.arpa_** domain name.
 * [Reverse DNS Lookup](https://www.whatsmydns.net/reverse-dns-lookup)
-* IPv4 “A” records are stored under the subdomain_ <code>.in-addr.arpa</code></em>
-* IPv6 “AAAA” records are stored under the subdomain <code><em>.ip6.arpa</em></code>
+* IPv4 “A” records are stored under the subdomain_ `.in-addr.arpa`
+* IPv6 “AAAA” records are stored under the subdomain `.ip6.arpa`
 
-<strong>DNS hijacking</strong> Type of network attack that exploits DNS vulnerabilities to divert web traffic away from legitimate servers and to fake/malicious servers.
+**DNS hijacking** Type of network attack that exploits DNS vulnerabilities to divert web traffic away from legitimate servers and to fake/malicious servers.
 **Uniform Resource Locatior (URL)** is the specific location of a resource in a domain
 * Syntax: [URI scheme]://[subdomain].[domain].[TLD][/path/][filename]
 * Example: https://www.facebook.com/photos/catpicture.jpg
@@ -193,8 +193,8 @@ related:
 
 Routing can also be either static or dynamic
 * **Static routing** is the manual configuration of a network route, typically done by a network administrator.
-    * <span style="text-decoration:underline;">Advantages</span>: Lower router CPU, admin has full control of routing behavior.
-    * <span style="text-decoration:underline;">Disadvantages</span>: Fault tolerance, meaning if a device on a manually created path fails, the route can’t be adjusted.
+    * **Advantages**: Lower router CPU, admin has full control of routing behavior.
+    * **Disadvantages**: Fault tolerance, meaning if a device on a manually created path fails, the route can’t be adjusted.
 * **Dynamic Routing**
 [Types of Routing Protocols](https://www.comparitech.com/net-admin/routing-protocol-types-guide/) [Comprehensive]
 ## Ports
@@ -231,7 +231,7 @@ Routing can also be either static or dynamic
     * 8333 (Bitcoin)
 * **[Dynamic/Private ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Dynamic,_private_or_ephemeral_ports)** (49152-65535) “Source” ports for machine→machine
 ## Network Tools
-<span style="text-decoration:underline;">Nmap</span> - IP address & Port scanner
+**Nmap** - IP address & Port scanner
 * [Nmap Cheat Sheet](https://www.stationx.net/nmap-cheat-sheet/)
 ### Wireshark
 * [Wireshark User Manual](https://www.wireshark.org/docs/wsug_html_chunked/)

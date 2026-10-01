@@ -44,7 +44,7 @@ Later, using the Professional version of [Agisoft Metashape](https://www.agisoft
 
 ![](https://soggywombats.com.au/wp-content/uploads/2025/03/Screenshot-2025-03-29-at-8.54.02%E2%80%AFpm-1024x824.png)
 
-<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/xzrcF3cYabY?si=U9a0dWFKOQ77q_AF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+[Watch the cave video on YouTube](https://www.youtube.com/watch?v=xzrcF3cYabY)
 
 We prepared a ‘swim through’ video of the Allendale Cave (check above). You can have a good idea of what will be your dive before you get there through it.
 

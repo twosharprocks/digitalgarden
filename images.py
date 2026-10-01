@@ -75,6 +75,11 @@ def find_source(raw_target: str):
     base = Path(decoded).name.lower()
     return name_index.get(base)
 
+def is_external_target(raw_target: str) -> bool:
+    """Return True when an image target is hosted outside the local vault/site."""
+    target = raw_target.strip().lstrip("<").rstrip(">").lower()
+    return target.startswith(("http://", "https://", "//"))
+
 def copy_image(src: Path, dest_dir: Path):
     dest = dest_dir / src.name
     if DRY_RUN:
@@ -316,6 +321,10 @@ for md in posts_dir.rglob("*.md"):
     def repl_wiki(m: re.Match) -> str:
         target = m.group(1)
         stats["matched"] += 1
+        if is_external_target(target):
+            stats["external"] += 1
+            return m.group(0)
+        stats["local"] += 1
         src = find_source(target) if attachments_dir.exists() else None
         if not src:
             missing.append((md, f"[[{target}]]"))
@@ -334,6 +343,10 @@ for md in posts_dir.rglob("*.md"):
         alt_existing = (m.group(1) or "").strip()
         target = m.group(2)
         stats["matched"] += 1
+        if is_external_target(target):
+            stats["external"] += 1
+            return m.group(0)
+        stats["local"] += 1
         src = find_source(target) if attachments_dir.exists() else None
         if not src:
             missing.append((md, f"({target})"))
@@ -368,8 +381,10 @@ print("\n=== IMAGE SUMMARY ===")
 print(f"Posts scanned:         {posts_scanned}")
 print(f"Files rewritten:       {files_rewritten}")
 print(f"Image references seen: {stats['matched']}")
+print(f"External references:   {stats['external']}")
+print(f"Local references:      {stats['local']}")
 print(f"Images copied:         {stats['copied']}")
-print(f"Missing:               {len(missing)}")
+print(f"Missing local:         {len(missing)}")
 
 if missing:
     print("\nExamples of missing (up to 10):")

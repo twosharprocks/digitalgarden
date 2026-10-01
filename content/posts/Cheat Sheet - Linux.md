@@ -162,7 +162,7 @@ Zip/Unzip
 * `tar -jxvf archive.tar.bz2` extracts the .bz2 “archive.tar” with verbose output
 * Options:
 	* `-[0-9]`: Level of compression, `-0` is none & `-9` is maximum
-	* `-e` Adds password protection (use this and **<span style="text-decoration:underline;">not</span>** `-P`)
+	* `-e` Adds password protection (use this and **not** `-P`)
 - unzip command format is: `unzip [option(s)] [archive_name.zip]`
 	* `-v` verbose
 	* `-l` list files
@@ -221,10 +221,10 @@ bzip2/bunzip2
 * `sudo addgroup <group>` Add group to system
 * `sudo delgroup <group>` Delete group from system
 * `sudo usermod -aG <user><group>` - adds user to group
-* `sudo usermod -G <user><group>` - add user to group <span style="text-decoration:underline;">exclusively</span> (no other groups)
+* `sudo usermod -G <user><group>` - add user to group **exclusively** (no other groups)
 * `sudo usermod -L <user>` Lock user from accessing system
 
-**<span style="text-decoration:underline;">chown</span>** 
+**chown** 
 
 Command Format is: `sudo chown &lt;owner>:&lt;group> &lt;item>`
 
@@ -233,7 +233,7 @@ Command Format is: `sudo chown &lt;owner>:&lt;group> &lt;item>`
 * `sudo chown :root test` change owner of test to group root
 * `sudo chown -R mike:sally test` change owner test to user mike and group sally
 
-**<span style="text-decoration:underline;">chmod</span>**
+**chmod**
 
 Command Format is: `sudo chmod <command> file`
 
@@ -245,7 +245,7 @@ Command Format is: `sudo chmod <command> file`
 * `sudo chmod u=rw,g=rw,o=w foo.txt` read/write for owner & group, write only for others
 * `sudo chmod u=rwx,g-r,u+r foo.txt` read/write/execute for user to foo.txt, remove read for group, add read for others
 
-**<span style="text-decoration:underline;">System Management</span>**
+**System Management**
 
 * `apt-get` Package Management
     * `apt-get update` Update package information, list possible upgrades

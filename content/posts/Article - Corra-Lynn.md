@@ -40,7 +40,7 @@ Nino pressing his head into the squeeze.
 
 Leigh fared a little better, but still finding his face would need a few extra millimetres of flexibility to get passed the tightest point. The other side of the fissure offered a slightly easier entry, but at the expense of having further to wriggle before reaching the tightest point. Corby wriggled in upside-down and slid straight to the tightest point just centimetres from our side, but like Leigh he just couldn’t get any under the low-hanging ceiling rock without gouging a hole in his face. 
 
-![corralynn corby](corralynn-corby.jpg)
+![corralynn corby](/images/corralynn-corby.jpg)
 Corby trying the same squeeze from the other side
 
 Watching our most experienced guide wriggle upside-down inside a tiny fissure hundreds of meters underground, I started to feel a rising sense of dread that only got worse as Corby got temporarily stuck reversing out… and I soon started to wonder if I was cut out for this whole “dry caving for fun” thing. We’d had a great couple of hours climbing and sliding through mud, wriggling through tunnels, and navigating up and down through holes had turned out to be a lot of fun. But now reached the bottom and squeezed into a few things, so now I was very ready to start heading back out and home.

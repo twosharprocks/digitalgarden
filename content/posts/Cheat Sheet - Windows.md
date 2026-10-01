@@ -71,7 +71,7 @@ Free Security Tools
 ## System Management
 * `systeminfo` Provides system information
 * `driverquery` List all drivers (even drivers not in device manager)
-* `powercfg` (Option <span style="text-decoration:underline;">required</span>: /energy /batteryreport)
+* `powercfg` (Option **required**: /energy /batteryreport)
 * `assoc` File associations
     * _eg. assoc .mp4=vlc (Set .mp4 association to VLC)_
 * `chkdsk` Check disk

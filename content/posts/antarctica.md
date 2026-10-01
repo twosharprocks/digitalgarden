@@ -18,8 +18,9 @@ related:
   - "[[Diving]]"
   - "[[Trip - Antarctica - 2025 Nov]]"
 ---
-# Work - After Trip - Bikini Atoll - 2028 June?
-- Ask yourself ***WHY*** this is important, if at all? You did your trip to Antarctica and saw a leopard seal - do you still feel compelled to go?
+Ask yourself ***IF*** this is still important, and if so ***WHY?*** 
+	You did your trip to Antarctica and kayaked with a leopard seal - do you still feel compelled to go? 
+---
 ## [Work for Oceanwide Expeditions](https://oceanwide-expeditions.com/page/careers)?
 - [Expedition Staff Application Form](https://oceanwide-expeditions.com/staff-form)
 	- Draft form Application - Oceanwide Expedition Guide
@@ -60,7 +61,7 @@ related:
 ## [Work for AAD](https://jobs.antarctica.gov.au/jobs-in-antarctica/)? More problematic than BoM
 - [IT Officer](https://jobs.antarctica.gov.au/jobs-in-antarctica/telecommunications/information-technology-officer/)?
 
-[Apply for Australian Antarctic Arts Fellowship](https://www.antarctica.gov.au/about-us/antarctic-arts-fellowship/) 
+## [Apply for Australian Antarctic Arts Fellowship](https://www.antarctica.gov.au/about-us/antarctic-arts-fellowship/) 
 - [Applications close 5pm 1 Feb 2026](https://www.antarctica.gov.au/about-us/antarctic-arts-fellowship/how-and-when-to-apply/expression-of-interest/)
 - The Australian Antarctic Arts Fellowship aims to support the production of significant works of art and interpretation by professionals in the creative arts, humanities and social sciences.
 - The Australian Antarctic Arts Fellowship takes artists and creative professionals to Antarctica to develop creative work that engages diverse audiences.

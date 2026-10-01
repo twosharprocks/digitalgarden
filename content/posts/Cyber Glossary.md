@@ -14,11 +14,11 @@ related:
 * **Basic Service Set Identifier (BSSID)**: Used by a router to announce its MAC address in a beacon signal.
 * **Brute force attack**: An attack that involves trying all possible authentication combinations to find a match.
 * **CIA Triad**: Confidentiality, Integrity and Availability
-    * <span style="text-decoration:underline;">Confidentiality:</span> Ensuring sensitive information is protected from access by unauthorized persons.
-    * <span style="text-decoration:underline;">Integrity</span>: Protecting information from being modified or tampered by unauthorized persons.
-    * <span style="text-decoration:underline;">Availability:</span> Ensuring that all operating systems, equipment, and data are functioning correctly and accessible by those who need it.
+    * **Confidentiality:** Ensuring sensitive information is protected from access by unauthorized persons.
+    * **Integrity**: Protecting information from being modified or tampered by unauthorized persons.
+    * **Availability:** Ensuring that all operating systems, equipment, and data are functioning correctly and accessible by those who need it.
 * **Code injection**: Type of attack that injects code that is then interpreted and executed by the target application.
-* **Cybersecurity**: The <span style="text-decoration:underline;">assessment of threats</span> and <span style="text-decoration:underline;">mitigation of risk</span>
+* **Cybersecurity**: The **assessment of threats** and **mitigation of risk**
 * **Dorking**: Aka [Google Hacking](https://en.wikipedia.org/wiki/Google_hacking), using custom google queries to find security holes in websites and code
 * **Enumeration** The process of gathering data for a specific network, usually for the purpose of finding ways to gain access into that network.
 * **Keylogger**: A program designed to record which keys are pressed on your computer keyboard. It can obtain passwords or encryption keys and use these to bypass security measures.

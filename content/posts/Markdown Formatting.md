@@ -18,7 +18,7 @@ Front Matter: `---` at start of new file (Switch to Source Mode with `Ctrl+Shift
 **double asterisks = bold**
 ***Triple asterisks = italics and bold***
 
-`<ins>` & `</ins>` <ins>will underline</ins>
+`<ins>` & `</ins>` **will underline**
 ~~Strikethrough uses 2 tilde characters at each end~~
 ==Two equal signs highlight text==
 `Single angle quote makes the text a script`

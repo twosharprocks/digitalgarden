@@ -16,9 +16,9 @@ related:
 
 ---
 1. Live on Mars as a scribe
-2. <code style="color : red">Have a cave diving TV show</code>  
+2. Have a cave diving TV show  
 3. Dive Bikini Atoll for TV
-4. <code style="color : red">Publish 10 books</code>
+4. Publish 10 books
 5. Visit the Moon
 6. Walk more than 3000km solo
 7. Live in a lighthouse
@@ -26,21 +26,21 @@ related:
 9. Dive in Antarctica
 10. Spend a winter in Antarctica
 11. Live on a boat for a year
-12. <code style="color : green">COMPLETED - Explore the Cenotes of the Yucatan</code>
-13. <code style="color : green">COMPLETED - Dive in a flooded mine</code>
-14. <code style="color : red">See a huge rocket launch</code>
+12. COMPLETED - Explore the Cenotes of the Yucatan
+13. COMPLETED - Dive in a flooded mine
+14. See a huge rocket launch
 15. Swim with Orcas
 16. ~~Climb Mt Everest
 17. Swim the English Channel
 18. Draw cartoons I'm proud of
 19. ~~Finish the "12 weeks to BUD/S" program
-20. <code style="color : green">COMPLETED - Finish the Wim Hof program</code>
+20. COMPLETED - Finish the Wim Hof program
 21. Develop/Build something to take humans to another star
 22. Find & Communicate with Extra-terrestrial life
 23. Organise & Lead Adventure around the world
 24. Have more than enough money to spare & share
 25. Develop/Build something to provide easy access to LEO
-26. <code style="color : red">Live in a wood cabin by a lake</code>
+26. Live in a wood cabin by a lake
 27. Help a billion people
 28. Meet a ginger space unicorn like Tilly
 29. Walk the Inca Trail
@@ -48,7 +48,7 @@ related:
 31. To dive below 200m
 32. To sing & play music I'm proud of
 33. To create an art experience that moves people
-34. <code style="color : red">To map caves so others can experience it in VR</code> 
+34. To map caves so others can experience it in VR 
 35. To parachute from an altitude where the sky above is black
 36. Change the way we see ourselves as a species
 37. Die with my story told fully

@@ -347,7 +347,7 @@ Core ↑ ↓ - Scrolls through previous commands, → Completes partial path wit
 <li>Options:
 <ul>
 <li><code>-[0-9]</code>: Level of compression, <code>-0</code> is none &amp; <code>-9</code> is maximum</li>
-<li><code>-e</code> Adds password protection (use this and <strong><!-- raw HTML omitted -->not<!-- raw HTML omitted --></strong> <code>-P</code>)</li>
+<li><code>-e</code> Adds password protection (use this and <strong>not</strong> <code>-P</code>)</li>
 </ul>
 </li>
 </ul>
@@ -450,17 +450,17 @@ bzip2/bunzip2</li>
 <li><code>sudo addgroup &lt;group&gt;</code> Add group to system</li>
 <li><code>sudo delgroup &lt;group&gt;</code> Delete group from system</li>
 <li><code>sudo usermod -aG &lt;user&gt;&lt;group&gt;</code> - adds user to group</li>
-<li><code>sudo usermod -G &lt;user&gt;&lt;group&gt;</code> - add user to group <!-- raw HTML omitted -->exclusively<!-- raw HTML omitted --> (no other groups)</li>
+<li><code>sudo usermod -G &lt;user&gt;&lt;group&gt;</code> - add user to group <strong>exclusively</strong> (no other groups)</li>
 <li><code>sudo usermod -L &lt;user&gt;</code> Lock user from accessing system</li>
 </ul>
-<p><strong><!-- raw HTML omitted -->chown<!-- raw HTML omitted --></strong></p>
+<p><strong>chown</strong></p>
 <p>Command Format is: <code>sudo chown &amp;lt;owner&gt;:&amp;lt;group&gt; &amp;lt;item&gt;</code></p>
 <ul>
 <li><code>sudo chown root test.txt</code> change owner of test.txt to user root</li>
 <li><code>sudo chown :root test</code> change owner of test to group root</li>
 <li><code>sudo chown -R mike:sally test</code> change owner test to user mike and group sally</li>
 </ul>
-<p><strong><!-- raw HTML omitted -->chmod<!-- raw HTML omitted --></strong></p>
+<p><strong>chmod</strong></p>
 <p>Command Format is: <code>sudo chmod &lt;command&gt; file</code></p>
 <ul>
 <li><code>sudo chmod 755 foo.txt</code> adds read, write, execute to foo.txt for owner; read and execute for groups and others</li>
@@ -471,7 +471,7 @@ bzip2/bunzip2</li>
 <li><code>sudo chmod u=rw,g=rw,o=w foo.txt</code> read/write for owner &amp; group, write only for others</li>
 <li><code>sudo chmod u=rwx,g-r,u+r foo.txt</code> read/write/execute for user to foo.txt, remove read for group, add read for others</li>
 </ul>
-<p><strong><!-- raw HTML omitted -->System Management<!-- raw HTML omitted --></strong></p>
+<p><strong>System Management</strong></p>
 <ul>
 <li>
 <p><code>apt-get</code> Package Management</p>
