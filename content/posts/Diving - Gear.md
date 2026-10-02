@@ -1,7 +1,7 @@
 ---
 title: Diving - Gear
 created: 2026-01-26
-updated: 2026-09-11
+updated: 2026-10-02
 status: tree
 draft: false
 tags:
@@ -47,6 +47,7 @@ Video Lights:
 * Mobby's - [Front zip dry](https://mobbys-online.com/product/xdd5400e/) & [front zip hybrid](https://mobbys-online.com/product/xdd4000e/)
 # DPVs
 * ***[DPV - DiveX BlackTip Tech](https://dive-xtras.com/products/tech-blacktip) - $4,000AUD + 2x12Ah [batteries](https://www.bunnings.com.au/dewalt-18-54v-12-0ah-xr-flexvolt-battery_p0079389) (2x $319)
+	* Serial#: 002-3711 (Built: 2022, Firmware: George 0.4)
 * [DPV - Seacraft GO!](https://www.mydivegear.com.au/products/seacraft-go-dpv) - $9,000AUD
 * [DPV - Suex VR-Quantum](https://www.divebondi.com.au/product/suex-vr-quantum-diver-propulsion-vehicle/1749) - $7,400AUD (Battery is not travel safe)
 * [DPV - Seacraft Future 1000](https://www.mydivegear.com.au/collections/seacraft/products/seacraftfuturedpv) - $15,800AUD
