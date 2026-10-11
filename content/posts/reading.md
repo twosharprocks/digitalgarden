@@ -1,7 +1,7 @@
 ---
 title: Reading
 created: 2025-06-26
-updated: 2026-07-23
+updated: 2026-10-11
 status: seed
 draft: false
 tags:
@@ -13,8 +13,8 @@ related:
   - "Books"
 ---
 # Current
-- Kindle: Hotel New Hampshire
-- Kindle: Bonfire of the Vanities (end of 101)
+- [ ] Finish *The Hotel New Hampshire* on Kindle — in progress; prioritise this as the second-last book in the ongoing 101-book reading list.
+- [ ] Read *The Bonfire of the Vanities* on Kindle — the final book on that list, after *The Hotel New Hampshire*.
 - Kindle: Roger's Book
 - Kindle: Tao Te Ching
 - Why the Future Doesn’t Need Us
