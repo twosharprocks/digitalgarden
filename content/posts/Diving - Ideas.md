@@ -18,8 +18,6 @@ related:
 **I truly love cave diving and exploration**. Even if the interest of others fades, mine keeps coming *back over and over again*.
 
 # Random
-What should I do with the Leitner battery? One undeveloped possibility is using its cells to increase the capacity of DeWalt-style battery packs for my DPV. This is only an idea to assess, not a modification plan; battery and underwater-use safety would need proper evaluation first.
-
 Investigate https://cavewhere.com/ & [CaveAI App](https://www.caveaipro.com/)
 Training - Full Cave CCR in Thailand with Por?
 

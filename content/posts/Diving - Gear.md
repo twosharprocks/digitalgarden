@@ -1,7 +1,7 @@
 ---
 title: Diving - Gear
 created: 2026-01-26
-updated: 2026-10-02
+updated: 2026-10-11
 status: tree
 draft: false
 tags:
@@ -11,6 +11,14 @@ related:
   - "[[Diving - Ideas]]"
   - "[[Gear]]"
 ---
+# Repair - Replace
+
+- Consider whether to replace the old Perdix; a Ratio computer is one possibility.
+- Investigate and repair the fault in the Xtreme regulator's second stage, which is fitted to the seven-foot long hose. The hose itself is not the identified fault.
+- Consider whether to replace the wing with a Dive Rite Nomad Ray.
+- Speak to Matt Waters about an Apollo wetsuit.
+- Timing: revisit these after February and in the lead-up to ADEX; consider whether any purchases are best made there.
+
 # Reels, Spools, Cookies
 * Big Reels
 	* [Light Monkey 1200ft Exploration reel](https://www.onlinedivegear.com.au/products/light-monkey-primary-reel-1200) ($375)
