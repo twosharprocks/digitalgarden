@@ -71,6 +71,7 @@ Social Media
 - [XDeep Expedition Support](https://exploration.xdeep.eu/how-to-apply)
 
 Tools
+- Explore whether cloud computing is practical for processing X5 data; estimate the data volume and check SHARGE.
 - What to do with the MNemo1? 
 - Use Feathers & Wedges, [Expando ](https://expando.com.au/)
 - Test [Minotaur Cave mapping Software](https://github.com/VlasovAlexey/Minotaur)

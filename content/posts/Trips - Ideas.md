@@ -1,7 +1,7 @@
 ---
 title: Trips - Ideas
 created: 2025-05-01
-updated: 2026-09-28
+updated: 2026-10-11
 status: planning
 draft: false
 tags:
@@ -109,6 +109,7 @@ Other Folks Doing Similar Things - figure out your own way
 	- Think of ideas for [Explorers Club grants](https://www.explorers.org/grants/)
 
 - **Do good science while you travel**
+	- Explore opportunities for citizen science through cave diving: https://citizenscience.org.au/9
 	- Collect photogrammetry/survey/mapping data
 	- Structure expeditions like [tourist environmentalism in Thailand](https://asiangeo.com/go/)
 	- Take small groups on *cave research trips*: Teach survey/photogram at night, collect data during day, process overnight
