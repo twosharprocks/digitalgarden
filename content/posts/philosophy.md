@@ -1,7 +1,7 @@
 ---
 title: Philosophy
 created: 2025-12-19
-updated: 2026-09-28
+updated: 2026-10-11
 status: tree
 draft: false
 tags:
@@ -40,6 +40,10 @@ Comics - Write Mini Essays - Ideas about these
 	- Cave Explorer, Future Martian, Author, Speaker, Professional Troublemaker
 	- Childhood - Important Things Always Circle Back
 		- [Mini Essay - MechWarrior]({{< relref "posts/Mini Essay - MechWarrior.md" >}}), Far Future, [Antarctica]({{< relref "posts/antarctica.md" >}}), Treehouses in Pine Forests, The Spiral, Everclear, Playing ukulele in park
+
+**Questions to revisit**
+- What would I do if I suddenly had $2 million? Treat life like an experiment.
+- Where would I want to be living in two years: Queensland, Christmas Island, or overseas?
 
 ---
 **This also reminds me of**... 
