@@ -257,29 +257,34 @@ Whip Cave? Runaway Cave?
 - **Details**: Both beaches are bordered by steep limestone with visible dissolution features. No documented caves, but the **geological setting is favourable for sea cave development**, possibly with partially submerged access.
 - **Exploration Status**: No known surveys, but suitable for scouting.   
 
----
-# Trips
-- 
----
+# Maps
+![Christmas Island Cavedb Xmas 9358c9e8 0bc8566f](/images/Christmas%20Island%20-%20CaveDB%20-%20xmas%20-%209358c9e8-0bc8566f.jpg) 
+
 # References
 Satellite Imagery & Karst Mapping
 Christmas Island's unique karst topography is well-documented and can be explored through various resources:
 - **Geoscience Australia**: Offers detailed topographic and geological maps, including the 1:30,000 scale map that highlights karst features and cave locations. [ga.gov.au](https://www.ga.gov.au/static/christmas/metadata/30k_natmap_data.html?utm_source=chatgpt.com) 
 - **NASA Worldview**: Provides high-resolution satellite imagery, allowing you to examine surface features and terrain. [ga.gov.au+5earth.google.com+5zoom.earth+5](https://earth.google.com/intl/en-US/?utm_source=chatgpt.com)
 - **Zoom Earth**: Features daily updated satellite images, useful for observing current conditions and planning field activities. [zoom.earth+1worldview.earthdata.nasa.gov+1](https://zoom.earth/maps/satellite-hd/?utm_source=chatgpt.com)
-- **Google Earth**: Utilize the 3D terrain feature to identify potential cave entrances and understand the island's topography.
----
-Several expeditions have explored Christmas Island's caves, providing valuable insights:
-- **2013 National Geographic Expedition**: [advanceddivermagazine.com+1youtube.com+1](https://www.advanceddivermagazine.com/articles/christmasisland.html?utm_source=chatgpt.com) (March 2013, with Wet mules)
-- **Western Australian Speleological Group (WASG)**: [wasg.org.au](https://wasg.org.au/117-christmas-island-2023)) (October 2023)
-- **Helictite Journal**: Ken Grimes' publication, "Karst Features of Christmas Island" 
-## CaveDB media
-- ![Christmas Island Cavedb Xmas 9358c9e8 0bc8566f](/images/Christmas%20Island%20-%20CaveDB%20-%20xmas%20-%209358c9e8-0bc8566f.jpg) 
 
-# References
 - Paper - The History of Christmas Island and the Management of it's Karst Features - P. Meek.pdf
-- [Google Earth - Christmas Island Cave Locations](https://earth.google.com/web/@-10.43872967,105.68044457,307.50265127a,10011.55477241d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExcTVoX1ZyVGVybEJFazZSYXVGeDRpZW5iMmN5VDFrWDkgAToDCgEwQgIIAEoICN-v09cGEAE?utm_source=gnp&utm_medium=email&utm_campaign=earth_day_2026&utm_content=&authuser=0) 
-- CavesAustralia-227.pdf (Feb-2024) pg 38
-- CavesAustralia-208.pdf (June-2019) pg 13 (eDNA sampling)
+- Paper - Geochronology and Paleoposition of Christmas Island.pdf
 - Paper - Karst Features of Christmas Island - K. Grimes.pdf & [Online](https://helictite.caves.org.au/pdf1/37.2.Grimes.pdf?utm_source=chatgpt.com)
-- 
+
+- [Geosciences Australia - Christmas Island GIS Data - AUSLIG](https://www.ga.gov.au/static/christmas/metadata/auslig.html)
+- [Geosciences Australia - Christmas Island GIS Data - Vegetation](https://www.ga.gov.au/static/christmas/metadata/veg.html)
+- [Geosciences Australia - Christmas Island GIS Data - Geology](https://www.ga.gov.au/static/christmas/metadata/geology.html)
+- [Geosciences Australia - Geological Fault Lineations - Christmas Island](https://catalogue.data.wa.gov.au/dataset/geological-fault-lineations-christmas-island)
+
+- [Google Earth - Christmas Island Cave Locations](https://earth.google.com/web/@-10.43872967,105.68044457,307.50265127a,10011.55477241d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExcTVoX1ZyVGVybEJFazZSYXVGeDRpZW5iMmN5VDFrWDkgAToDCgEwQgIIAEoICN-v09cGEAE?utm_source=gnp&utm_medium=email&utm_campaign=earth_day_2026&utm_content=&authuser=0) 
+
+- ASF Library - Christmas Island
+	- [Caves](http://st1.asflib.net/MEDIA/ASF-CD/ASF-M-00027/HRK/6CI/Photos/indexCIC.htm) 
+	- [Surface Features](http://st1.asflib.net/MEDIA/ASF-CD/ASF-M-00027/HRK/6CI/Photos/indexCIK.htm)
+
+Expeditions
+- **2013 National Geographic Expedition**: [advanceddivermagazine.com](https://www.advanceddivermagazine.com/articles/christmasisland.html) (March 2013, with Wet mules)
+- CavesAustralia-227.pdf (Feb-2024) pg 38
+	- https://wasg.org.au/christmas-island-2023
+- CavesAustralia-208.pdf (June-2019) pg 13 (eDNA sampling)
+	- https://wasg.org.au/christmas-island-2018
