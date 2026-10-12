@@ -9,7 +9,7 @@ tags:
 related:
   - "[[Cyber Security]]"
   - "[[Threat Modelling]]"
-  - "[[OT Cyber Security]]"
+  - "[[OT Cyber]]"
   - "[[SecOT+]]"
 ---
 ---

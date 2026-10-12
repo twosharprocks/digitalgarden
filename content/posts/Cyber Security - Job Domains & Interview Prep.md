@@ -11,7 +11,7 @@ related:
   - "[[Cyber Security]]"
   - "[[Work]]"
   - "[[IRAP Assessor]]"
-  - "[[OT Cyber Security]]"
+  - "[[OT Cyber]]"
 ---
 ---
 # Job Domains

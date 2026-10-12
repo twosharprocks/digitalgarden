@@ -16,7 +16,7 @@ related:
   - "[[Threat Modelling]]"
   - "[[CISSP]]"
   - "[[CISA]]"
-  - "[[OT Cyber Security]]"
+  - "[[OT Cyber]]"
   - "[[About]]"
 ---
 Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{< relref "posts/oscp.md" >}})/[CISSP]({{< relref "posts/CISSP.md" >}})/[CISA]({{< relref "posts/CISA.md" >}}) notes, and work-related security references.
@@ -37,7 +37,7 @@ Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{<
 - [Book - Threats: What Every Engineer Should Learn From Star Wars](https://www.amazon.com/Threats-Every-Engineer-Should-Learn-ebook/dp/B0BT3RGRKS/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
 
 ---
-# OT Cyber Security
+# OT Cyber
 - [Notes - Burning Down Cities]({{< relref "posts/Notes - Burning Down Cities.md" >}})
 - [Y2038 - Epochalypse]({{< relref "posts/Y2038 - Epochalypse.md" >}}) - [Epochalypse Project](https://epochalypse-project.org/) & [Group.io](https://groups.io/g/epochalypse-discuss/topics)
 

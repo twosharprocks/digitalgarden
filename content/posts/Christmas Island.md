@@ -1,7 +1,7 @@
 ---
 title: Christmas Island
 created: 2026-06-19
-updated: 2026-09-11
+updated: 2026-10-13
 status: seed
 draft: false
 tags:
@@ -37,6 +37,7 @@ Go in dry season: **May to November**
 Speak to Kat (Matt's partner) - look at her PhD research
 # Caves
 ## All linked cave records
+
 | Meal | Without Id
   File.Link As "Cave" | "Rating" | "CaveDB" |
 | --- | --- | --- | --- |
@@ -221,7 +222,9 @@ Speak to Kat (Matt's partner) - look at her PhD research
 | [Wellington Caves]({{< relref "posts/Wellington Caves.md" >}}) | — | — | https://app.cavedb.net/share/783c6963-cb4f-4bb3-aac1-f2837c9e164b.html |
 | [Western Australia]({{< relref "posts/Western Australia.md" >}}) | — | — | — |
 | [Yucatan - Mexico]({{< relref "posts/Yucatan - Mexico.md" >}}) | — | — | — |
-| [Zimbabwe]({{< relref "posts/zimbabwe.md" >}}) | — | — | — |Whip Cave? Runaway Cave?
+| [Zimbabwe]({{< relref "posts/zimbabwe.md" >}}) | — | — | — |
+
+Whip Cave? Runaway Cave?
 
 ### Lost Lake Cave
 - **Location**: Western plateau, inland from Flying Fish Cove
@@ -269,9 +272,14 @@ Christmas Island's unique karst topography is well-documented and can be explore
 Several expeditions have explored Christmas Island's caves, providing valuable insights:
 - **2013 National Geographic Expedition**: [advanceddivermagazine.com+1youtube.com+1](https://www.advanceddivermagazine.com/articles/christmasisland.html?utm_source=chatgpt.com) (March 2013, with Wet mules)
 - **Western Australian Speleological Group (WASG)**: [wasg.org.au](https://wasg.org.au/117-christmas-island-2023)) (October 2023)
-- **Helictite Journal**: Ken Grimes' publication, "Karst Features of Christmas Island," [helictite.caves.org.au](https://helictite.caves.org.au/pdf1/37.2.Grimes.pdf?utm_source=chatgpt.com)
-
-<!-- CaveDB media links: start -->
+- **Helictite Journal**: Ken Grimes' publication, "Karst Features of Christmas Island" 
 ## CaveDB media
-- ![Christmas Island Cavedb Xmas 9358c9e8 0bc8566f](/images/Christmas%20Island%20-%20CaveDB%20-%20xmas%20-%209358c9e8-0bc8566f.jpg) — CaveDB
-<!-- CaveDB media links: end -->
+- ![Christmas Island Cavedb Xmas 9358c9e8 0bc8566f](/images/Christmas%20Island%20-%20CaveDB%20-%20xmas%20-%209358c9e8-0bc8566f.jpg) 
+
+# References
+- Paper - The History of Christmas Island and the Management of it's Karst Features - P. Meek.pdf
+- [Google Earth - Christmas Island Cave Locations](https://earth.google.com/web/@-10.43872967,105.68044457,307.50265127a,10011.55477241d,35y,0h,0t,0r/data=CgRCAggBMikKJwolCiExcTVoX1ZyVGVybEJFazZSYXVGeDRpZW5iMmN5VDFrWDkgAToDCgEwQgIIAEoICN-v09cGEAE?utm_source=gnp&utm_medium=email&utm_campaign=earth_day_2026&utm_content=&authuser=0) 
+- CavesAustralia-227.pdf (Feb-2024) pg 38
+- CavesAustralia-208.pdf (June-2019) pg 13 (eDNA sampling)
+- Paper - Karst Features of Christmas Island - K. Grimes.pdf & [Online](https://helictite.caves.org.au/pdf1/37.2.Grimes.pdf?utm_source=chatgpt.com)
+- 
