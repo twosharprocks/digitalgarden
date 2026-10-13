@@ -31,7 +31,6 @@ Writing, essays, articles, book projects, older website posts, and ideas to retu
 - Writing - Reader Journey and Substack Experiment
 - Writing - Ideas
 - Writing - Quotes
-
 # Research papers
 - Paper - Structural Leads and Photogrammetry in Mount Gambier Caves
 

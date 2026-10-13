@@ -1,7 +1,7 @@
 ---
 title: Explorer-Storyteller
 created: 2026-05-14
-updated: 2026-07-18
+updated: 2026-10-13
 status: tree
 draft: false
 tags:
@@ -133,3 +133,15 @@ If it does neither: Decline.
 > **I will not teach exploration from a classroom - I chose to be someone who explores, then comes back to tell the story.**
 
 Everything in your life needs to be aligned with *going somewhere unknown and return with a story that sparks curiosity in others*.
+
+# The Explorer's Code and identity
+
+**Explorer. Author. Storyteller. Curious Leader.** Exploration supplies questions and evidence; writing and speaking turn them into stories that help other people become more curious about the universe. The aim is not simply to be first, but to return with a better map and a story worth sharing.
+
+> Be curious enough to explore. Brave enough to enter the unknown. Disciplined enough to record what you find. Generous enough to share it.
+
+A successful expedition need not produce a spectacular discovery. It can succeed by bringing everyone home safely, preserving reliable observations, improving the map and leaving better questions for the next team. Credit belongs to everyone whose work made that possible. Discoveries should be shared responsibly, with care for the people and places involved.
+
+The story is the final part of the work: it can encourage someone else to ask a question, test an assumption, document what they learn and tell their own story. That is the larger Explorer-Storyteller cycle.
+
+Detailed, unpublished working notes: Explorer's Code and Explorer-Storyteller Identity.

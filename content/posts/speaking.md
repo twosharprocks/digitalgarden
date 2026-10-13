@@ -1,7 +1,7 @@
 ---
 title: Speaking
 created: 2025-11-01
-updated: 2026-07-13
+updated: 2026-10-13
 status: seed
 draft: false
 tags:
@@ -9,9 +9,10 @@ tags:
   - cyber-security
   - books
   - work
-related: 
+related:
   - "[[Exploration]]"
   - "[[Diving]]"
+  - "[[Explorer-Storyteller]]"
 ---
 My next keynote will be about being a life-long diver. 
 - Being one hell of a swimmer & tolerant to the cold.
@@ -61,5 +62,26 @@ The obsolescence of man - Günther Anders
 [Accelerationism - Wikipedia](https://en.wikipedia.org/wiki/Accelerationism)
 [Unabomber Manifesto](https://en.wikipedia.org/wiki/Unabomber_Manifesto)
 [Future history - Wikipedia](https://en.wikipedia.org/wiki/Future_history)
+
+# Explorer-Storyteller keynotes
+
+**Explorer. Author. Storyteller. Curious Leader.** My speaking now draws on a wider life of exploration, writing, science and teamwork. Mars One remains an important chapter, but it is not the whole story. The strongest talks use lived experience, humour and wonder to let audiences reach their own conclusions.
+
+- **Curious Leadership:** Make the best decision possible with the information available, seek the team's knowledge, and change course openly when the evidence changes.
+- **The Universe Is Too Interesting to Waste:** An invitation to explore the questions that matter to us, collect what we learn and share stories that make others curious.
+- **Beyond the Mission:** Adaptability when a deeply held plan changes, and the freedom to build a new chapter without disowning the old one.
+- **Useful Under Pressure:** A developing specialist talk about preparation, earned trust, teamwork and recognising the limits of one's role in a difficult rescue.
+
+Corporate and conference keynotes can support the exploration and writing that generate new stories. Speaking with students remains important for its own sake: helping young people become curious about science and the universe.
+
+## Talks and working material
+
+- Speaking - Explorer Storyteller Keynotes - detailed, unpublished keynote development and story boundaries
+- Curious Leadership - leadership framework and cave-exploration case study
+- Speaking - Habby Exploration Workshop - cave-exploration workshop
+- Presentation - Expedition Planning
+- Presentation - Diving in Sulawesi
+- Presentation - Laos Cave Rescue
+- Presentation - MilCom - Y2038
 
 

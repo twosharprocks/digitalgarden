@@ -1,7 +1,7 @@
 ---
 title: CaveDB
 created: 2025-09-02
-updated: 2026-07-14
+updated: 2026-10-13
 status: seed
 draft: false
 tags:
@@ -52,6 +52,7 @@ Add/Check Original Forestry Data file
 - Brazil
 	- Santana dos Brejos, Bahia, we explored the Gruta do Padre https://www.facebook.com/gabriel.hez.54/posts/pfbid031HbVMJ7AZ8evNnqAKEdkxfaamPX5q7CLq1iRXB5V1QpsnYFkfYfaPLhYYVt9Aqj2l
 	- Brazil Exploration https://www.facebook.com/share/p/1Ck9x6focc/ 
+	- Lagoa Misteriosa - https://www.loleplanet.com/lagoa-misteriosa/
 - Norway
 	- Litjaga Cave - https://www.facebook.com/watch/?v=1358920219029304
 - India https://www.instagram.com/p/DQmTY5pAef3/?igsh=bm56dTFtcHF1cXJm
