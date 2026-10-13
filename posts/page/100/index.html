@@ -150,73 +150,6 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/script---powershell---ad-misc/">Script - PowerShell - AD-Misc</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Set or change an employeeID</span>
-</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">set-employeeID</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$username</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter username to add employeeID to&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$employeeID</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter employeeID for </span><span class="nv">$username</span><span class="s2">&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$username</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">employeeID</span><span class="p">=</span><span class="s2">&#34;</span><span class="nv">$employeeID</span><span class="s2">&#34;</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="c"># Set or change &#34;workdays&#34; (or any other user attirbute)</span>
-</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">set-UserAttribute</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$username</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter username to add workdays to&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$workdays</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter user&#39;s work days&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$username</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">extensionAttribute10</span><span class="p">=</span><span class="s2">&#34;</span><span class="nv">$workdays</span><span class="s2">&#34;</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="c"># Edit a mailbox</span>
-</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">edit-mailbox</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$NewMailbox</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s1">&#39;Enter the username of the new shared mailbox&#39;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$description</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s1">&#39;Enter the mailbox description&#39;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$office</span> <span class="p">=</span> <span class="s2">&#34;Office name here&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$department</span> <span class="p">=</span> <span class="s2">&#34;Add Department here&#34;</span> 
-</span></span><span class="line"><span class="cl">    <span class="nv">$streetAddress</span> <span class="p">=</span> <span class="s2">&#34;Add address here&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$city</span> <span class="p">=</span> <span class="s1">&#39;City name here&#39;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$postalCode</span> <span class="p">=</span> <span class="s1">&#39;Postcode here&#39;</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># Code starts here - do not edit below this point</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$NewMailbox</span> <span class="n">-Office</span> <span class="nv">$office</span> <span class="n">-department</span> <span class="nv">$department</span> <span class="n">-streetAddress</span> <span class="nv">$streetAddress</span> <span class="n">-state</span> <span class="n">STATE</span> <span class="n">-city</span> <span class="nv">$city</span> <span class="n">-PostalCode</span> <span class="nv">$postalCode</span> <span class="n">-description</span> <span class="nv">$description</span> <span class="n">-title</span> <span class="nv">$description</span> <span class="n">-company</span> <span class="s2">&#34;Company Name&#34;</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">c</span><span class="p">=</span><span class="s2">&#34;AU&#34;</span><span class="p">;</span><span class="n">wWWHomePage</span><span class="p">=</span><span class="s2">&#34;http:\\www.websitehere.com&#34;</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">write-host</span> <span class="s2">&#34;Details added to </span><span class="nv">$NewMailbox</span><span class="s2"> in Active Directory&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="c"># Find AD accounts from a list of display names</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$text</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Paste list of display names here:&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$displayNameList</span> <span class="p">=</span> <span class="nv">$text</span> <span class="o">-replace</span> <span class="s1">&#39;(.+)&#39;</span><span class="p">,</span> <span class="s1">&#39;&#34;$1&#34;,&#39;</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter OU to search&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$displayName</span> <span class="k">in</span> <span class="nv">$displayNameList</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span> <span class="n">DisplayName</span> <span class="o">-eq</span> <span class="nv">$displayName</span> <span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$user</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;&#39;</span><span class="nv">$displayName</span><span class="s2">&#39; matches </span><span class="nv">$user</span><span class="s2"> in </span><span class="nv">$ouPath</span><span class="s2">&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;&#39;</span><span class="nv">$displayName</span><span class="s2">&#39; not found in </span><span class="nv">$ouPath</span><span class="s2">&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/script---powershell---ad-misc/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
           <a href="/posts/script---powershell---ad-newuser/">Script - PowerShell - AD-NewUser</a>
         </h2>
         <div class="post-meta"></div>
@@ -692,6 +625,147 @@
         
            <div>
             <a class="read-more button inline" href="/posts/script---powershell---archive-userfiles/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/script---powershell---servicedesk/">Script - PowerShell - ServiceDesk</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/script/">script</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Check a laptop&#39;s battery health</span>
+</span></span><span class="line"><span class="cl"><span class="n">powercfg</span> <span class="p">/</span><span class="n">batteryreport</span> <span class="p">/</span><span class="n">output</span> <span class="s2">&#34;filepath eg. C:\Documents\Battery-Report.html&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c"># boot-time</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Remotely check another system&#39;s boot time</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">find-boottime</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$servicetag</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter service tag&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">SystemInfo</span> <span class="p">/</span><span class="n">s</span> <span class="nv">$servicetag</span> <span class="p">|</span> <span class="n">find</span> <span class="s2">&#34;Boot Time:&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nb">boot-time</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c"># free-space</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">find-freespace</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">$servicetag</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter service tag&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Invoke-Command</span> <span class="n">-ComputerName</span> <span class="nv">$servicetag</span> <span class="p">{</span><span class="nb">Get-PSDrive</span> <span class="n">C</span><span class="p">}</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">PSComputerName</span><span class="p">,</span><span class="n">Used</span><span class="p">,</span><span class="n">Free</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Check E3 and E5 licences for a list of usernames in $usernames</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$username</span> <span class="k">in</span> <span class="nv">$usernames</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Get licenses for the user</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$userLicenses</span> <span class="p">=</span> <span class="nb">Get-MsolUser</span> <span class="n">-UserPrincipalName</span> <span class="nv">$username</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="n">Licenses</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Check if the user has both E3 and E5 licenses</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$hasE3</span> <span class="p">=</span> <span class="nv">$userLicenses</span><span class="p">.</span><span class="py">AccountSkuId</span> <span class="o">-contains</span> <span class="s2">&#34;your_E3_license_sku&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$hasE5</span> <span class="p">=</span> <span class="nv">$userLicenses</span><span class="p">.</span><span class="py">AccountSkuId</span> <span class="o">-contains</span> <span class="s2">&#34;your_E5_license_sku&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c"># Output results</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Write-Host</span> <span class="s2">&#34;</span><span class="nv">$username</span><span class="s2"> - E3: </span><span class="nv">$hasE3</span><span class="s2">, E5: </span><span class="nv">$hasE5</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">### Remotely clear user profiles</span>
+</span></span><span class="line"><span class="cl"><span class="c"># clear-profiles</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">clear-profiles</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$computer</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Please enter a computer name&#34;</span>    
+</span></span><span class="line"><span class="cl">    <span class="c"># Test network connection before making connection</span>
+</span></span><span class="line"><span class="cl">    <span class="k">If</span> <span class="p">(</span><span class="nv">$computer</span> <span class="o">-ne</span> <span class="nv">$Env:Computername</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">If</span> <span class="p">(!(</span><span class="nb">Test-Connection</span> <span class="n">-ComputerName</span> <span class="nv">$computer</span> <span class="n">-Count</span> <span class="mf">1</span> <span class="n">-Quiet</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Warning</span> <span class="s2">&#34;</span><span class="nv">$computer</span><span class="s2"> is not accessible, please try a different computer or verify it is powered on.&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$continueRemoving</span> <span class="p">=</span> <span class="vm">$true</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="nv">$continueRemoving</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Gather all of the user profiles on the computer</span>
+</span></span><span class="line"><span class="cl">        <span class="k">Try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="p">[</span><span class="no">array</span><span class="p">]</span><span class="nv">$users</span> <span class="p">=</span> <span class="nb">Get-WmiObject</span> <span class="n">-ComputerName</span> <span class="nv">$computer</span> <span class="n">Win32_UserProfile</span> <span class="n">-Filter</span> <span class="s2">&#34;LocalPath Like &#39;C:\\Users\\%&#39;&#34;</span> <span class="n">-ErrorAction</span> <span class="n">Stop</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">Catch</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Warning</span> <span class="s2">&#34;Error retrieving user profiles: </span><span class="nv">$_</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Cache the number of users</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$num_users</span> <span class="p">=</span> <span class="nv">$users</span><span class="p">.</span><span class="py">Count</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="n">-ForegroundColor</span> <span class="n">Green</span> <span class="s2">&#34;User profiles on </span><span class="p">$(</span><span class="nv">$computer</span><span class="p">)</span><span class="s2">:&#34;</span>        
+</span></span><span class="line"><span class="cl">        <span class="c"># Display all user profiles</span>
+</span></span><span class="line"><span class="cl">        <span class="k">For</span> <span class="p">(</span><span class="nv">$i</span> <span class="p">=</span> <span class="mf">0</span><span class="p">;</span> <span class="nv">$i</span> <span class="o">-lt</span> <span class="nv">$num_users</span><span class="p">;</span> <span class="nv">$i</span><span class="p">++)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Host</span> <span class="n">-ForegroundColor</span> <span class="n">Green</span> <span class="s2">&#34;</span><span class="p">$(</span><span class="nv">$i</span><span class="p">)</span><span class="s2">: </span><span class="p">$((</span><span class="nv">$users</span><span class="p">[</span><span class="nv">$i</span><span class="p">].</span><span class="n">LocalPath</span><span class="p">).</span><span class="py">Replace</span><span class="p">(</span><span class="s1">&#39;C:\Users\&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">))</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="n">-ForegroundColor</span> <span class="n">Green</span> <span class="s2">&#34;q: Quit&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$validSelection</span> <span class="p">=</span> <span class="vm">$false</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="p">(</span><span class="o">-not</span> <span class="nv">$validSelection</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="c"># Prompt for user to select profiles to remove from computer</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$accountInput</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Select numbers to delete local profiles (comma-separated) or &#39;q&#39; to quit&#34;</span>            
+</span></span><span class="line"><span class="cl">            <span class="c"># Check if user selected to quit</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="nv">$accountInput</span> <span class="o">-eq</span> <span class="s2">&#34;q&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="c"># Validate the input</span>
+</span></span><span class="line"><span class="cl">                <span class="nv">$accounts</span> <span class="p">=</span> <span class="vm">@</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">                <span class="k">foreach</span> <span class="p">(</span><span class="nv">$input</span> <span class="k">in</span> <span class="nv">$accountInput</span> <span class="n">-split</span> <span class="s2">&#34;,&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="nv">$trimmedInput</span> <span class="p">=</span> <span class="nv">$input</span><span class="p">.</span><span class="py">Trim</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">if</span> <span class="p">(</span><span class="nv">$trimmedInput</span> <span class="o">-match</span> <span class="s2">&#34;^\d+$&#34;</span> <span class="o">-and</span> <span class="p">[</span><span class="no">int</span><span class="p">]</span><span class="nv">$trimmedInput</span> <span class="o">-lt</span> <span class="nv">$num_users</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="nv">$accounts</span> <span class="p">+=</span> <span class="p">[</span><span class="no">int</span><span class="p">]</span><span class="nv">$trimmedInput</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="nv">$validSelection</span> <span class="p">=</span> <span class="nv">$accounts</span><span class="p">.</span><span class="py">Count</span> <span class="o">-gt</span> <span class="mf">0</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="p">(</span><span class="o">-not</span> <span class="nv">$validSelection</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="nb">Write-Warning</span> <span class="s2">&#34;Invalid selection, please try again.&#34;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Confirm selection</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$confirm</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Are you sure you want to delete the selected profiles? (Y/N)&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$confirm</span> <span class="o">-like</span> <span class="s2">&#34;Y*&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="c"># Remove the selected profiles</span>
+</span></span><span class="line"><span class="cl">            <span class="k">foreach</span> <span class="p">(</span><span class="nv">$account</span> <span class="k">in</span> <span class="nv">$accounts</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">Write-Host</span> <span class="n">-ForegroundColor</span> <span class="n">Yellow</span> <span class="s2">&#34;Deleting profile: </span><span class="p">$((</span><span class="nv">$users</span><span class="p">[</span><span class="nv">$account</span><span class="p">].</span><span class="n">LocalPath</span><span class="p">).</span><span class="py">Replace</span><span class="p">(</span><span class="s1">&#39;C:\Users\&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">))</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">                <span class="k">Try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">(</span><span class="nv">$users</span><span class="p">[</span><span class="nv">$account</span><span class="p">]).</span><span class="py">Delete</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">                    <span class="nb">Write-Host</span> <span class="n">-ForegroundColor</span> <span class="n">Green</span> <span class="s2">&#34;Profile: </span><span class="p">$((</span><span class="nv">$users</span><span class="p">[</span><span class="nv">$account</span><span class="p">].</span><span class="n">LocalPath</span><span class="p">).</span><span class="py">Replace</span><span class="p">(</span><span class="s1">&#39;C:\Users\&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">))</span><span class="s2"> has been deleted&#34;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="k">Catch</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="nb">Write-Warning</span> <span class="s2">&#34;Failed to delete profile: </span><span class="p">$((</span><span class="nv">$users</span><span class="p">[</span><span class="nv">$account</span><span class="p">].</span><span class="n">LocalPath</span><span class="p">).</span><span class="py">Replace</span><span class="p">(</span><span class="s1">&#39;C:\Users\&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">))</span><span class="s2">. Error: </span><span class="nv">$_</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Configure yes choice</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$yes</span> <span class="p">=</span> <span class="nb">New-Object</span> <span class="n">System</span><span class="p">.</span><span class="py">Management</span><span class="p">.</span><span class="py">Automation</span><span class="p">.</span><span class="py">Host</span><span class="p">.</span><span class="py">ChoiceDescription</span> <span class="s2">&#34;&amp;Yes&#34;</span><span class="p">,</span> <span class="s2">&#34;Remove another profile.&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Configure no choice</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$no</span> <span class="p">=</span> <span class="nb">New-Object</span> <span class="n">System</span><span class="p">.</span><span class="py">Management</span><span class="p">.</span><span class="py">Automation</span><span class="p">.</span><span class="py">Host</span><span class="p">.</span><span class="py">ChoiceDescription</span> <span class="s2">&#34;&amp;No&#34;</span><span class="p">,</span> <span class="s2">&#34;Quit profile removal&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Determine Values for Choice</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$choice</span> <span class="p">=</span> <span class="p">[</span><span class="no">System.Management.Automation.Host.ChoiceDescription[]</span><span class="p">]</span><span class="vm">@</span><span class="p">(</span><span class="nv">$yes</span><span class="p">,</span> <span class="nv">$no</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Determine Default Selection</span>
+</span></span><span class="line"><span class="cl">        <span class="p">[</span><span class="no">int</span><span class="p">]</span><span class="nv">$default</span> <span class="p">=</span> <span class="mf">0</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Present choice option to user</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$userchoice</span> <span class="p">=</span> <span class="nv">$host</span><span class="p">.</span><span class="py">ui</span><span class="p">.</span><span class="py">PromptForChoice</span><span class="p">(</span><span class="s2">&#34;&#34;</span><span class="p">,</span> <span class="s2">&#34;Remove Another Profile?&#34;</span><span class="p">,</span> <span class="nv">$choice</span><span class="p">,</span> <span class="nv">$default</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$userchoice</span> <span class="o">-eq</span> <span class="mf">1</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$continueRemoving</span> <span class="p">=</span> <span class="vm">$false</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">###</span>
+</span></span></code></pre></div>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/script---powershell---servicedesk/">[Read more]</a>
           </div>
         
       </article>
