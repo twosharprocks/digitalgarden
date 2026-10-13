@@ -1,7 +1,7 @@
 ---
 title: Labungkari
 created: 2026-06-18
-updated: 2026-09-11
+updated: 2026-10-13
 status: seed
 draft: false
 tags:
@@ -18,7 +18,6 @@ related:
   - "[[empty files]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
   - "[[2025-08-07]]"
-  - "[[2025-08-07 - Labungkari]]"
   - "[[CaveDB - Gua Labungkari - 508a29bc]]"
   - "[[Sulawesi]]"
 rating: TDI Intro to Cave
@@ -31,7 +30,6 @@ Diving
 Dry 
 Photogrammetry 
 
-## Logged Dives
 
 ---
 

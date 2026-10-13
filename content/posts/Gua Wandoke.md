@@ -1,7 +1,7 @@
 ---
 title: Gua Wandoke
 created: 2026-06-18
-updated: 2026-09-11
+updated: 2026-10-13
 status: seed
 draft: false
 tags:
@@ -17,7 +17,6 @@ related:
   - "[[Muna Island - Sulawesi]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
   - "[[2025-08-09]]"
-  - "[[2025-08-09 - Gua Wandoke]]"
   - "[[CaveDB - Gua Wandoke - f27757da]]"
   - "[[Sulawesi]]"
 rating: TDI Intro to Cave
@@ -31,8 +30,7 @@ Photogrammetry
 ## About
 
 Max depth 49m
-## Logged Dives
-- 2025-08-09 - Gua Wandoke
+
 
 ---
 

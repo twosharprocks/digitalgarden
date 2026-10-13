@@ -1,7 +1,7 @@
 ---
 title: Laulawi
 created: 2026-06-18
-updated: 2026-09-11
+updated: 2026-10-13
 status: seed
 draft: false
 tags:
@@ -17,8 +17,6 @@ related:
   - "[[Muna Island - Sulawesi]]"
   - "[[empty files]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
-  - "[[2025-08-08 - Laulawi]]"
-  - "[[2025-08-12 - Laulawi]]"
   - "[[CaveDB - Gua Laulawi - 352534d7]]"
   - "[[Sulawesi]]"
 rating: TDI Intro to Cave
@@ -31,8 +29,6 @@ Diving
 Dry 
 Photogrammetry 
 
-## Logged Dives
-2025-08-08 - Laulawi
 
 ---
 

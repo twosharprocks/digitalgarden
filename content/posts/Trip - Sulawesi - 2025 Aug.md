@@ -1,7 +1,7 @@
 ---
 title: Trip - Sulawesi - 2025 Aug
 created: 2025-07-15
-updated: 2026-06-30
+updated: 2026-10-13
 status: complete
 draft: false
 tags:
@@ -36,25 +36,24 @@ related:
 - 2025-08-03 Sun: Diving Day 1
 	- Check-out of Zenith Hotel
 	- See Robin: Setup gear, Brief [Gua Lanto]({{< relref "posts/Gua Lanto.md" >}})
-	- Drive to [Gua Lanto]({{< relref "posts/Gua Lanto.md" >}}) & Dive 2025-08-03 - Gua Lanto
+	- Drive to [Gua Lanto]({{< relref "posts/Gua Lanto.md" >}}) & Dive
 	- Drive to Baubau ferry: Get lunch, get sandles, wait until 2pm
 	- Ferry to Wanmengkoli (Muna Island)
 	- Truck to Kadena Glamping Dive Resort -> Check-In
-	- Dive Brief: La Hambe
-		- Dive 2025-08-04 - La Hambe
+	- Dive Brief & Dive La Hambe
 
 - 2025-08-04 Mon: Diving Day 2
 	- Dive Brief: [Kaidaiula]({{< relref "posts/kaidaiula.md" >}})
 		- Drive to [Kaidaiula]({{< relref "posts/kaidaiula.md" >}}): *Rock N Roll Divers already on-site*
 		- Drive back to Kadena Glamping
-	- Dive Brief: [Gua La Pahia]({{< relref "posts/Gua La Pahia.md" >}}) & Dive 2025-08-04 - Gua La Pahia
-	- Drive to [Kaidaiula]({{< relref "posts/kaidaiula.md" >}}) & Dive 2025-08-04 - Kaidaiula
+	- Dive Brief: [Gua La Pahia]({{< relref "posts/Gua La Pahia.md" >}}) & Dive
+	- Drive to [Kaidaiula]({{< relref "posts/kaidaiula.md" >}}) & Dive
 	- Return to Kadena
 
 - 2025-08-05 Tue: Diving Day 3
 	- Breakfast 
 	- Dive Brief: [Moko Morete]({{< relref "posts/Moko Morete.md" >}})
-	- Drive to [Moko Morete]({{< relref "posts/Moko Morete.md" >}}) & Dive 2025-08-05 - Moko Morete
+	- Drive to [Moko Morete]({{< relref "posts/Moko Morete.md" >}}) & Dive
 	- Lunch at [Permandian Moko]({{< relref "posts/Permandian Moko.md" >}}) 
 		- Saw a sea turtle!?
 	- Drive to Kadena: Kid crashed moped in road
@@ -66,14 +65,14 @@ related:
 	- 0730 Breakfast (American)
 		- Google Translate to explain AC issue to hotel staff
 	- 0830 Dive Brief: [La Ode Panu]({{< relref "posts/La Ode Panu.md" >}})
-	- Drive to [La Ode Panu]({{< relref "posts/La Ode Panu.md" >}}), photogram cave entrance, & Dive 2025-08-06 - La Ode Panu then lunch at site
+	- Drive to [La Ode Panu]({{< relref "posts/La Ode Panu.md" >}}), photogram cave entrance, & Dive then lunch at site
 	- Drive Kadena - AC fixed and room cleaned! 
 
 - 2025-08-07 Thu: Diving Day 5
 	- 0430-0455 Call to Prayer
 	- 0830 Breakfast: Buffet
 	- 0900 Dive Brief: [Labungkari]({{< relref "posts/labungkari.md" >}})
-	- Drive to [Labungkari]({{< relref "posts/labungkari.md" >}}) & Dive 2025-08-07 - Labungkari
+	- Drive to [Labungkari]({{< relref "posts/labungkari.md" >}}) & Dive
 	- Drive Kadena (via icecream)
 	- 360 video backups and transfer to phone for posts (1st post)
 
@@ -81,7 +80,7 @@ related:
 	- Last day diving with Kez
 	- Breakfast: Nasi Goreng
 	- 0900 Dive Brief: [Laulawi]({{< relref "posts/laulawi.md" >}}) 
-	- Drive to [Laulawi]({{< relref "posts/laulawi.md" >}}) & Dive 2025-08-08 - Laulawi 
+	- Drive to [Laulawi]({{< relref "posts/laulawi.md" >}}) & Dive
 	- Drive Kadena (via icecream)
 	- 360 video trimming for social media posts
 
@@ -89,28 +88,24 @@ related:
 	- Just me & Faz - No Kez or Chaca
 	- 0800 Analyse gas & breakfast (Nasi Goreng)
 	- 0900 Dive brief: [Oe Mamba Kecil]({{< relref "posts/Oe Mamba Kecil.md" >}}) & [Gua Wandoke]({{< relref "posts/Gua Wandoke.md" >}})
-	- Drive to [Oe Mamba Kecil]({{< relref "posts/Oe Mamba Kecil.md" >}}) & Dive 2025-08-09 - Oe Mamba Kecil
+	- Drive to [Oe Mamba Kecil]({{< relref "posts/Oe Mamba Kecil.md" >}}) & Dive
 	- Lunch, then dive [Gua Wandoke]({{< relref "posts/Gua Wandoke.md" >}})
 	- Drive Kadena (via icecream)
 	- 360 video backups and trimming for social media
 - 2025-08-10 Sun: Diving Day 8
 	- Dive Brief [Moko Panjang]({{< relref "posts/Moko Panjang.md" >}}) & [La Ode Palsu]({{< relref "posts/La Ode Palsu.md" >}}) 
 	- Drive [Moko Panjang]({{< relref "posts/Moko Panjang.md" >}})
-
 - 2025-08-11 Mon: Diving Day 9
 	- Leon/Chris arrive
-
 - 2025-08-12 Tue: Diving Day 10 (Last diving day)
 	- Kez/Susan/Liz fly out 
 	- Dive Brief & Dive [Laulawi]({{< relref "posts/laulawi.md" >}})
 	- Clean, dry, and pack gear
-
 - 2025-08-13 Wed: Leave Muna Island
 	- Breakfast, Pack Gear & Admin, 
 	- Lunch, Check-out Kadena Glamping
 	- 1400 Speedboat to Baubau
 	- Drive to Robin's and stay
-
 - 2025-08-14 Thu: Travelling Day
 	- 0500 Drive to Baubau airport (BAW) 
 	- Fly: 0630-0740 IW1305 BAW-UPG
@@ -120,7 +115,6 @@ related:
 	- Fly: 2355-0615+1 JQ128 DPS-ADL
 		- Missed: Rescheduled for 1115+1
 	- Stay: Denpasar Pod Hotel
-
 - 2025-08-15 Fri: Travelling & Arrive Home
 	- 1000-1100: Speaking - Newcastle Grammar
 		- Connection issues: Joined 1020 via phone with VPN

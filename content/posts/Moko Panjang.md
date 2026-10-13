@@ -1,7 +1,7 @@
 ---
 title: Moko Panjang
 created: 2026-06-18
-updated: 2026-09-11
+updated: 2026-10-13
 status: seed
 draft: false
 tags:
@@ -17,8 +17,6 @@ related:
   - "[[Muna Island - Sulawesi]]"
   - "[[empty files]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
-  - "[[2025-08-11 - Moko Panjang]]"
-  - "[[2025-08-10 - Moko Panjang]]"
   - "[[CaveDB - Moko Panjang - a7168d6f]]"
   - "[[Sulawesi]]"
 rating: TDI Open Water Scuba Diver
@@ -31,9 +29,6 @@ Diving
 Dry 
 Photogrammetry 
 
-## Logged Dives
-2025-08-10 - Moko Panjang
-2025-08-11 - Moko Panjang
 
 ---
 

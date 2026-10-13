@@ -16,6 +16,8 @@ related:
 ---
 Book projects, reading notes, publishing ideas, and source material that keeps resurfacing.
 
+Calibre Library
+
 Book - Ideas
 Book - Calling ET
 Book - Cave Diving
