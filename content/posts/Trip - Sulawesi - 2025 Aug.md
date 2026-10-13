@@ -90,8 +90,7 @@ related:
 	- 0800 Analyse gas & breakfast (Nasi Goreng)
 	- 0900 Dive brief: [Oe Mamba Kecil]({{< relref "posts/Oe Mamba Kecil.md" >}}) & [Gua Wandoke]({{< relref "posts/Gua Wandoke.md" >}})
 	- Drive to [Oe Mamba Kecil]({{< relref "posts/Oe Mamba Kecil.md" >}}) & Dive 2025-08-09 - Oe Mamba Kecil
-	- Lunch, then drive [Gua Wandoke]({{< relref "posts/Gua Wandoke.md" >}})
-	- Dive 2025-08-09 - Gua Wandoke
+	- Lunch, then dive [Gua Wandoke]({{< relref "posts/Gua Wandoke.md" >}})
 	- Drive Kadena (via icecream)
 	- 360 video backups and trimming for social media
 - 2025-08-10 Sun: Diving Day 8
@@ -103,8 +102,7 @@ related:
 
 - 2025-08-12 Tue: Diving Day 10 (Last diving day)
 	- Kez/Susan/Liz fly out 
-	- Dive Brief & Drive to [Laulawi]({{< relref "posts/laulawi.md" >}})
-	- 2025-08-12 - Laulawi
+	- Dive Brief & Dive [Laulawi]({{< relref "posts/laulawi.md" >}})
 	- Clean, dry, and pack gear
 
 - 2025-08-13 Wed: Leave Muna Island

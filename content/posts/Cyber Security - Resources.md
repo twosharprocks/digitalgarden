@@ -1,7 +1,7 @@
 ---
 title: "Cyber Security - Resources"
 created: 2025-10-26
-updated: 2026-06-27
+updated: 2026-10-13
 status: seed
 draft: false
 tags:
@@ -27,6 +27,7 @@ A repository of useful resources for cybersecurity professionals
 * [Cybersec Cheat Sheets](https://github.com/hellmaster559/Cybersec-Cheat-Sheets/blob/09f47b126f086b1c56a0c4ac8abb5dedee8e1de1/README.md) - Huge cheatsheet resource for CTFs, Pentesting, General IT Security, Forensics, Incident Response, Cloud Security and more.
 * [Hak5 Ebook Resources](https://shop.hak5.org/collections/e-books)
 * [OSINT4All](https://start.me/p/L1rEYQ/osint4all) - Huge reference for various OSINT web tools
+* [North Star](https://nstarlive.com/) - unvetted OSINT platform to assess; review provenance, privacy, legality and reliability before any professional use.
 ## Web Tools
 * [Correct Horse Battery Staple](https://www.correcthorsebatterystaple.net/index.html) - Password Generator
 * [Wayback Machine](https://web.archive.org/) - Access archived websites & bypass paywalls

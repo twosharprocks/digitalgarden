@@ -36,7 +36,7 @@ Comics - Write Mini Essays - Ideas about these
 - Always ask "**Will I write a book about this?**"
 - Live a life where you **haven't** seen the latest TV series
 - `First say to yourself what you would be; and then do what you have to do. - Epictetus`
-- Who you are: [Explorer-Storyteller]({{< relref "posts/Explorer-Storyteller.md" >}}) 
+- Who you are: Explorer-Storyteller 
 	- Cave Explorer, Future Martian, Author, Speaker, Professional Troublemaker
 	- Childhood - Important Things Always Circle Back
 		- [Mini Essay - MechWarrior]({{< relref "posts/Mini Essay - MechWarrior.md" >}}), Far Future, [Antarctica]({{< relref "posts/antarctica.md" >}}), Treehouses in Pine Forests, The Spiral, Everclear, Playing ukulele in park

@@ -27,15 +27,13 @@ Writing, essays, articles, book projects, older website posts, and ideas to retu
 - Book - Apocalypse
 - Book - Information Theory
 # Writing projects and working notes
-- Writing - Cave Discovery Articles
-- Writing - Reader Journey and Substack Experiment
+- Writing - Ideas - Cave Discovery Articles
+- Writing - Ideas - Reader Journey and Substack Experiment
 - Writing - Ideas
 - Writing - Quotes
 # Research papers
 - Paper - Structural Leads and Photogrammetry in Mount Gambier Caves
 
-# Writing references
-- Writing - The hobby that can rewire your brain and help you build resilience
 # [Articles]({{< relref "posts/Articles.md" >}})
 - [Article - Making Sense with MNemo]({{< relref "posts/Article - Making Sense with MNemo.md" >}})
 - [Article - Exploring Japan’s Hidden Rivers]({{< relref "posts/Article - Exploring Japan’s Hidden Rivers.md" >}})

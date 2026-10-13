@@ -150,108 +150,6 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/script---cave-finder---new-caledonia/">Script - Cave Finder - New Caledonia</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/python/">python</a>&nbsp;
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">requests</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">json</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">time</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">API_KEY</span> <span class="o">=</span> <span class="s1">&#39;YOUR_GOOGLE_MAPS_API_KEY&#39;</span>  <span class="c1"># Replace this with your valid API key</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">KEYWORDS</span> <span class="o">=</span> <span class="p">[</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;cave&#39;</span><span class="p">,</span> <span class="s1">&#39;hole&#39;</span><span class="p">,</span> <span class="s1">&#39;grotto&#39;</span><span class="p">,</span>               <span class="c1"># English</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;grotte&#39;</span><span class="p">,</span> <span class="s1">&#39;caverne&#39;</span><span class="p">,</span> <span class="s1">&#39;trou&#39;</span><span class="p">,</span> <span class="s1">&#39;aven&#39;</span><span class="p">,</span>    <span class="c1"># French</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;puits naturel&#39;</span><span class="p">,</span> <span class="s1">&#39;faille&#39;</span><span class="p">,</span>              <span class="c1"># Other French karst terms</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;mu&#39;</span><span class="p">,</span> <span class="s1">&#39;koo&#39;</span><span class="p">,</span> <span class="s1">&#39;kou&#39;</span>                      <span class="c1"># Local (Drehu, Paicî)</span>
-</span></span><span class="line"><span class="cl"><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">TILE_LOCATIONS</span> <span class="o">=</span> <span class="p">[</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-21.25,165.3&#39;</span><span class="p">,</span>     <span class="c1"># Nouméa</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-20.8,165.1&#39;</span><span class="p">,</span>      <span class="c1"># Central Grande Terre</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-20.2,164.7&#39;</span><span class="p">,</span>      <span class="c1"># Northern Grande Terre</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-20.9,167.25&#39;</span><span class="p">,</span>     <span class="c1"># Île des Pins</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-20.6,167.0&#39;</span><span class="p">,</span>      <span class="c1"># Lifou</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-21.0,167.5&#39;</span><span class="p">,</span>      <span class="c1"># Maré</span>
-</span></span><span class="line"><span class="cl">    <span class="s1">&#39;-20.4,166.6&#39;</span>       <span class="c1"># Ouvéa</span>
-</span></span><span class="line"><span class="cl"><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">RADIUS</span> <span class="o">=</span> <span class="mi">50000</span>  <span class="c1"># Max for Google Maps Places API</span>
-</span></span><span class="line"><span class="cl"><span class="n">OUTPUT_FILE</span> <span class="o">=</span> <span class="s1">&#39;new_caledonia_caves.json&#39;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">search_places</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">location</span><span class="p">,</span> <span class="n">radius</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://maps.googleapis.com/maps/api/place/nearbysearch/json&#39;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">params</span> <span class="o">=</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;key&#39;</span><span class="p">:</span> <span class="n">API_KEY</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;keyword&#39;</span><span class="p">:</span> <span class="n">keyword</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;location&#39;</span><span class="p">:</span> <span class="n">location</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">        <span class="s1">&#39;radius&#39;</span><span class="p">:</span> <span class="n">radius</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">token</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">params</span><span class="p">[</span><span class="s1">&#39;pagetoken&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">token</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">collect_all_places</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">    <span class="n">all_results</span> <span class="o">=</span> <span class="p">[]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">location</span> <span class="ow">in</span> <span class="n">TILE_LOCATIONS</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">keyword</span> <span class="ow">in</span> <span class="n">KEYWORDS</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Searching &#39;</span><span class="si">{</span><span class="n">keyword</span><span class="si">}</span><span class="s2">&#39; near </span><span class="si">{</span><span class="n">location</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="n">data</span> <span class="o">=</span> <span class="n">search_places</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">location</span><span class="p">,</span> <span class="n">RADIUS</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="n">all_results</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;results&#39;</span><span class="p">,</span> <span class="p">[]))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="c1"># Handle paginated results</span>
-</span></span><span class="line"><span class="cl">            <span class="k">while</span> <span class="s1">&#39;next_page_token&#39;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">                <span class="n">token</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;next_page_token&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">                <span class="n">data</span> <span class="o">=</span> <span class="n">search_places</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">location</span><span class="p">,</span> <span class="n">RADIUS</span><span class="p">,</span> <span class="n">token</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">                <span class="n">all_results</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;results&#39;</span><span class="p">,</span> <span class="p">[]))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1"># Deduplicate by place_id</span>
-</span></span><span class="line"><span class="cl">    <span class="n">deduped_results</span> <span class="o">=</span> <span class="p">{</span><span class="n">place</span><span class="p">[</span><span class="s1">&#39;place_id&#39;</span><span class="p">]:</span> <span class="n">place</span> <span class="k">for</span> <span class="n">place</span> <span class="ow">in</span> <span class="n">all_results</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">deduped_results</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">save_to_json</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">filename</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="n">places</span> <span class="o">=</span> <span class="n">collect_all_places</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">    <span class="n">save_to_json</span><span class="p">(</span><span class="n">places</span><span class="p">,</span> <span class="n">OUTPUT_FILE</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">Saved </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">places</span><span class="p">)</span><span class="si">}</span><span class="s2"> unique cave-related places to &#39;</span><span class="si">{</span><span class="n">OUTPUT_FILE</span><span class="si">}</span><span class="s2">&#39;&#34;</span><span class="p">)</span>
-</span></span></code></pre></div><hr>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/script---cave-finder---new-caledonia/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
           <a href="/posts/script---cave-finder---vanuatu/">Script - Cave Finder - Vanuatu</a>
         </h2>
         <div class="post-meta"></div>
@@ -878,6 +776,73 @@
         
            <div>
             <a class="read-more button inline" href="/posts/script---powershell---ad-groupmembers/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/script---powershell---ad-misc/">Script - PowerShell - AD-Misc</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/script/">script</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Set or change an employeeID</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">set-employeeID</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$username</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter username to add employeeID to&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$employeeID</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter employeeID for </span><span class="nv">$username</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$username</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">employeeID</span><span class="p">=</span><span class="s2">&#34;</span><span class="nv">$employeeID</span><span class="s2">&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Set or change &#34;workdays&#34; (or any other user attirbute)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">set-UserAttribute</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$username</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter username to add workdays to&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$workdays</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter user&#39;s work days&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$username</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">extensionAttribute10</span><span class="p">=</span><span class="s2">&#34;</span><span class="nv">$workdays</span><span class="s2">&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Edit a mailbox</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">edit-mailbox</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$NewMailbox</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s1">&#39;Enter the username of the new shared mailbox&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$description</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s1">&#39;Enter the mailbox description&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$office</span> <span class="p">=</span> <span class="s2">&#34;Office name here&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$department</span> <span class="p">=</span> <span class="s2">&#34;Add Department here&#34;</span> 
+</span></span><span class="line"><span class="cl">    <span class="nv">$streetAddress</span> <span class="p">=</span> <span class="s2">&#34;Add address here&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$city</span> <span class="p">=</span> <span class="s1">&#39;City name here&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$postalCode</span> <span class="p">=</span> <span class="s1">&#39;Postcode here&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Code starts here - do not edit below this point</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-ADUser</span> <span class="n">-Identity</span> <span class="nv">$NewMailbox</span> <span class="n">-Office</span> <span class="nv">$office</span> <span class="n">-department</span> <span class="nv">$department</span> <span class="n">-streetAddress</span> <span class="nv">$streetAddress</span> <span class="n">-state</span> <span class="n">STATE</span> <span class="n">-city</span> <span class="nv">$city</span> <span class="n">-PostalCode</span> <span class="nv">$postalCode</span> <span class="n">-description</span> <span class="nv">$description</span> <span class="n">-title</span> <span class="nv">$description</span> <span class="n">-company</span> <span class="s2">&#34;Company Name&#34;</span> <span class="o">-Replace</span> <span class="vm">@</span><span class="p">{</span><span class="n">c</span><span class="p">=</span><span class="s2">&#34;AU&#34;</span><span class="p">;</span><span class="n">wWWHomePage</span><span class="p">=</span><span class="s2">&#34;http:\\www.websitehere.com&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">write-host</span> <span class="s2">&#34;Details added to </span><span class="nv">$NewMailbox</span><span class="s2"> in Active Directory&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Find AD accounts from a list of display names</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$text</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Paste list of display names here:&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$displayNameList</span> <span class="p">=</span> <span class="nv">$text</span> <span class="o">-replace</span> <span class="s1">&#39;(.+)&#39;</span><span class="p">,</span> <span class="s1">&#39;&#34;$1&#34;,&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$ouPath</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&#34;Enter OU to search&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$displayName</span> <span class="k">in</span> <span class="nv">$displayNameList</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$user</span> <span class="p">=</span> <span class="nb">Get-ADUser</span> <span class="n">-Filter</span> <span class="p">{</span> <span class="n">DisplayName</span> <span class="o">-eq</span> <span class="nv">$displayName</span> <span class="p">}</span> <span class="n">-SearchBase</span> <span class="nv">$ouPath</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$user</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;&#39;</span><span class="nv">$displayName</span><span class="s2">&#39; matches </span><span class="nv">$user</span><span class="s2"> in </span><span class="nv">$ouPath</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;&#39;</span><span class="nv">$displayName</span><span class="s2">&#39; not found in </span><span class="nv">$ouPath</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/script---powershell---ad-misc/">[Read more]</a>
           </div>
         
       </article>

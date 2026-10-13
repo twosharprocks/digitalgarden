@@ -1,7 +1,7 @@
 ---
 title: Diving - Ideas
 created: 2025-01-01
-updated: 2026-10-11
+updated: 2026-10-13
 status: seed
 draft: false
 tags:
@@ -23,6 +23,7 @@ Training - Full Cave CCR in Thailand with Por?
 
 Turn soggywombats.com.au into the website that cavedivers.com.au has failed to be. 
 - https://indepthmag.com/cave-survey-data-management-speleodb/ - SpeleoDB on soggywombats.com.au ?
+- [Cetra's DiveDB project](https://cetra3.github.io/) - reference for dive-site mapping, photos and dive logs when considering CaveDB or Soggy Wombats data-sharing tools.
 - Develop idea for Offshore Volcano search with Ian/Corey
 - Publish 3D photo tours of caves on the Soggy Wombats website!
 	- Get this stuff sharing through the webspace you already own, rather than syncing through Obsidian and Google Drive
