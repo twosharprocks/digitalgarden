@@ -74,7 +74,7 @@ Malaysia is listed under Asia in [Cave Regions]({{< relref "posts/Cave Regions.m
 | [Cavetone Park Estate Cave - 5L179]({{< relref "posts/Cavetone Park Estate Cave - 5L179.md" >}}) | — | — | https://app.cavedb.net/share/a49bb2e5-1ddf-4a51-b92d-e527dcffe023.html |
 | [Caving]({{< relref "posts/caving.md" >}}) | — | — | — |
 | [China]({{< relref "posts/china.md" >}}) | — | — | — |
-| [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) | — | — | — |
+| [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) | — | — | https://app.cavedb.net/#/place/0bc8566f-7f20-4874-8b45-baad5f0758fe |
 | [Cocklebiddy Cave - 6N48]({{< relref "posts/Cocklebiddy Cave - 6N48.md" >}}) | — | CDAA Cave, TDI Intro to Cave | https://app.cavedb.net/share/c3fffd30-d70d-42ed-9d4f-09a4cde11f7a.html |
 | [Croatia]({{< relref "posts/croatia.md" >}}) | — | — | — |
 | [Cuba]({{< relref "posts/cuba.md" >}}) | — | — | — |
