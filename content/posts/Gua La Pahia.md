@@ -1,7 +1,7 @@
 ---
 title: Gua La Pahia
 created: 2026-06-18
-updated: 2026-09-11
+updated: 2026-10-13
 status: seed
 draft: false
 tags:
@@ -18,7 +18,6 @@ related:
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
   - "[[2025-08-04]]"
   - "[[Weekly - 2025-08-10]]"
-  - "[[2025-08-04 - Gua La Pahia]]"
   - "[[CaveDB - Gua La Pahia - 204d672d]]"
   - "[[Sulawesi]]"
 rating: TDI Intro to Cave
@@ -35,8 +34,6 @@ Photogrammetry
 - From Anita: ![Sulawesi Anita Futterer Guidelinesdec2024](/images/Sulawesi%20-%20Anita%20Futterer%20-%20GuidelinesDec2024.jpg)
 	- "In the backyard of where we stayed lies Goa La Pahia, the hidden cave, with an unassuming small rock entrance surrounded by vegetation. As you descend, it slowly unveils its secrets. Calcite crystal formations decorate the ceiling. which tum into whole sections covered in crystal straws. As you swim further along the cave it reveals more and more of its unique formations. Small but impressive, it has a special place in my heart. The first underwater crystal cave that I have ever seen was a dream come true. The sheer beauty, uniqueness and the masses of speleothems took a while to sink in. I was on such a high, but at the same time I was so calm and close to a meditative state as I took in the surroundings with awe and wonder. This was my introduction to cave diving in Muna Island. What a phenomenal start that made me curious for what lay in store for the coming days."
 
-## Logged Dives
-- 2025-08-04 - Gua La Pahia
 
 ---
 

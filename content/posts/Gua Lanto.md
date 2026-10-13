@@ -1,7 +1,7 @@
 ---
 title: Gua Lanto
 created: 2026-06-18
-updated: 2026-09-11
+updated: 2026-10-13
 status: seed
 draft: false
 tags:
@@ -16,7 +16,6 @@ related:
   - "[[Baubau Island - Sulawesi]]"
   - "[[empty files]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
-  - "[[2025-08-03 - Gua Lanto]]"
   - "[[CaveDB - Gua Lanto - 8355e911]]"
   - "[[Sulawesi]]"
 rating: TDI Intro to Cave
@@ -34,9 +33,6 @@ Possible lead at southern end of cave (east side of rockpile) which leads up to 
 Diving
 Dry 
 Photogrammetry 
-
-## Logged Dives
-2025-08-03 - Gua Lanto
 
 ---
 

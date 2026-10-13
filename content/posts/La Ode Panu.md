@@ -1,7 +1,7 @@
 ---
 title: La Ode Panu
 created: 2026-06-18
-updated: 2026-09-11
+updated: 2026-10-13
 status: seed
 draft: false
 tags:
@@ -18,7 +18,6 @@ related:
   - "[[empty files]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
   - "[[2025-08-06]]"
-  - "[[2025-08-06 - La Ode Panu]]"
   - "[[CaveDB - La Ode Panu - fedd84ff]]"
   - "[[Sulawesi]]"
 rating: TDI Intro to Cave

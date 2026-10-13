@@ -1,7 +1,7 @@
 ---
 title: Moko Morete
 created: 2026-06-18
-updated: 2026-09-11
+updated: 2026-10-13
 status: seed
 draft: false
 tags:
@@ -15,11 +15,9 @@ related:
   - "[[Photogrammetry - Processing]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
   - "[[Muna Island - Sulawesi]]"
-  - "[[empty files]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
   - "[[2025-08-05]]"
   - "[[Weekly - 2025-08-10]]"
-  - "[[2025-08-05 - Moko Morete]]"
   - "[[CaveDB - Moko Morete cave - 9ecbad71]]"
   - "[[Sulawesi]]"
 rating: TDI Intro to Cave
@@ -37,8 +35,6 @@ Diving
 Dry 
 Photogrammetry 
 
-## Logged Dives
-2025-08-05 - Moko Morete
 
 ---
 

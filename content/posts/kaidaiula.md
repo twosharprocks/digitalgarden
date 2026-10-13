@@ -1,7 +1,7 @@
 ---
 title: Kaidaiula
 created: 2026-06-18
-updated: 2026-09-11
+updated: 2026-10-13
 status: seed
 draft: false
 tags:
@@ -18,7 +18,6 @@ related:
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
   - "[[2025-08-04]]"
   - "[[Weekly - 2025-08-10]]"
-  - "[[2025-08-04 - Kaidaiula]]"
   - "[[CaveDB - Kadaiula - 35bbc5a3]]"
 rating: TDI Intro to Cave
 ---
@@ -30,8 +29,6 @@ Photogrammetry
 
 ## About
 
-## Logged Dives
-- 2025-08-04 - Kaidaiula
 
 ---
 
