@@ -237,7 +237,13 @@
   </url><url>
     <loc>/posts/africa/</loc>
   </url><url>
-    <loc>/tags/ai-content/</loc>
+    <loc>/posts/agia-sophia-cave/</loc>
+  </url><url>
+    <loc>/posts/agios-georgios-spring/</loc>
+  </url><url>
+    <loc>/posts/agiou-nikolaou-spring/</loc>
+  </url><url>
+    <loc>/posts/ain-dhab/</loc>
   </url><url>
     <loc>/tags/air-fryer/</loc>
   </url><url>
@@ -245,9 +251,15 @@
   </url><url>
     <loc>/posts/akiyoshidai-cave/</loc>
   </url><url>
+    <loc>/posts/akiyoshido-cave/</loc>
+  </url><url>
+    <loc>/posts/alanya-cave/</loc>
+  </url><url>
     <loc>/posts/albania/</loc>
   </url><url>
     <loc>/tags/albania/</loc>
+  </url><url>
+    <loc>/posts/alevkaya-forest-spring/</loc>
   </url><url>
     <loc>/posts/algeria/</loc>
   </url><url>
@@ -255,9 +267,23 @@
   </url><url>
     <loc>/posts/article---allendale-east-cave--soggy-wombats/</loc>
   </url><url>
+    <loc>/posts/altinbesik-cave/</loc>
+  </url><url>
+    <loc>/posts/anou-boussouil/</loc>
+  </url><url>
+    <loc>/posts/ansiao-cave/</loc>
+  </url><url>
     <loc>/posts/antarctica/</loc>
   </url><url>
     <loc>/tags/antarctica/</loc>
+  </url><url>
+    <loc>/posts/antiphonitis-karst-spring/</loc>
+  </url><url>
+    <loc>/posts/aranui-cave/</loc>
+  </url><url>
+    <loc>/posts/arizona/</loc>
+  </url><url>
+    <loc>/posts/arjeri-cave/</loc>
   </url><url>
     <loc>/posts/arkansas/</loc>
   </url><url>
@@ -281,17 +307,33 @@
   </url><url>
     <loc>/posts/articles/</loc>
   </url><url>
+    <loc>/posts/asiklar-cave/</loc>
+  </url><url>
+    <loc>/posts/aurora-cave/</loc>
+  </url><url>
+    <loc>/posts/aven-cave/</loc>
+  </url><url>
+    <loc>/posts/ayios-georgios-cave/</loc>
+  </url><url>
     <loc>/posts/azerbaijan/</loc>
   </url><url>
     <loc>/posts/bahamas/</loc>
   </url><url>
     <loc>/posts/bakers-cave---5l285/</loc>
   </url><url>
+    <loc>/posts/bakua-sink/</loc>
+  </url><url>
     <loc>/posts/balkans/</loc>
   </url><url>
     <loc>/posts/baubau-island---sulawesi/</loc>
   </url><url>
+    <loc>/posts/baucau-district/</loc>
+  </url><url>
+    <loc>/posts/bear-cave-of-ponte-di-nava/</loc>
+  </url><url>
     <loc>/tags/beef/</loc>
+  </url><url>
+    <loc>/posts/beldibi-cave/</loc>
   </url><url>
     <loc>/posts/belgium/</loc>
   </url><url>
@@ -300,6 +342,14 @@
     <loc>/posts/bhutan/</loc>
   </url><url>
     <loc>/posts/bikini-atoll/</loc>
+  </url><url>
+    <loc>/posts/billinghurst-cave/</loc>
+  </url><url>
+    <loc>/posts/biribui-spring/</loc>
+  </url><url>
+    <loc>/posts/bistrica-spring---kosovo/</loc>
+  </url><url>
+    <loc>/posts/blue-creek-resurgence/</loc>
   </url><url>
     <loc>/posts/blue-eye/</loc>
   </url><url>
@@ -315,6 +365,10 @@
   </url><url>
     <loc>/tags/breakfast/</loc>
   </url><url>
+    <loc>/posts/broken-river-cave/</loc>
+  </url><url>
+    <loc>/posts/bucket-cave/</loc>
+  </url><url>
     <loc>/posts/bucket-list/</loc>
   </url><url>
     <loc>/tags/bucket-list/</loc>
@@ -327,7 +381,13 @@
   </url><url>
     <loc>/tags/burrito/</loc>
   </url><url>
+    <loc>/posts/buyukdipsiz-cave/</loc>
+  </url><url>
+    <loc>/posts/buzluk-cave/</loc>
+  </url><url>
     <loc>/posts/cameroon/</loc>
+  </url><url>
+    <loc>/posts/cammoo-caves/</loc>
   </url><url>
     <loc>/posts/camooweal/</loc>
   </url><url>
@@ -337,7 +397,11 @@
   </url><url>
     <loc>/posts/carrickalinga/</loc>
   </url><url>
+    <loc>/posts/cataby-caves/</loc>
+  </url><url>
     <loc>/categories/</loc>
+  </url><url>
+    <loc>/posts/cathedral-caves/</loc>
   </url><url>
     <loc>/posts/cave-diving-tv-show/</loc>
   </url><url>
@@ -345,19 +409,21 @@
   </url><url>
     <loc>/posts/cave-gardens/</loc>
   </url><url>
+    <loc>/posts/cave-nefza/</loc>
+  </url><url>
     <loc>/posts/cave-regions/</loc>
   </url><url>
     <loc>/posts/cavedb/</loc>
   </url><url>
     <loc>/posts/cavetone-park-estate-cave---5l179/</loc>
   </url><url>
-    <loc>/posts/caving/</loc>
-  </url><url>
     <loc>/tags/caving/</loc>
   </url><url>
     <loc>/posts/cayman-islands/</loc>
   </url><url>
-    <loc>/posts/chatgpt---dinaric-karst-belt-expedition/</loc>
+    <loc>/posts/cenote-angelita/</loc>
+  </url><url>
+    <loc>/posts/chantara-spring/</loc>
   </url><url>
     <loc>/posts/cheat-sheet---cryptography/</loc>
   </url><url>
@@ -371,6 +437,8 @@
   </url><url>
     <loc>/posts/china/</loc>
   </url><url>
+    <loc>/posts/choirokoitia-cave/</loc>
+  </url><url>
     <loc>/posts/choptima---post-dive-checklist/</loc>
   </url><url>
     <loc>/posts/choptima-ccr/</loc>
@@ -380,6 +448,8 @@
     <loc>/tags/chorizo/</loc>
   </url><url>
     <loc>/posts/christmas-island/</loc>
+  </url><url>
+    <loc>/tags/christmas-island/</loc>
   </url><url>
     <loc>/tags/cisa/</loc>
   </url><url>
@@ -429,7 +499,13 @@
   </url><url>
     <loc>/posts/cissp---note---i-took-the-worlds-hardest-cybersecurity-exam/</loc>
   </url><url>
+    <loc>/posts/clara-st.-dora-cave/</loc>
+  </url><url>
+    <loc>/posts/clifden-limestone-caves/</loc>
+  </url><url>
     <loc>/posts/cocklebiddy-cave---6n48/</loc>
+  </url><url>
+    <loc>/posts/colorado/</loc>
   </url><url>
     <loc>/posts/cook-islands/</loc>
   </url><url>
@@ -443,11 +519,23 @@
   </url><url>
     <loc>/posts/crisc/</loc>
   </url><url>
+    <loc>/posts/cristalita-de-papaya-cave/</loc>
+  </url><url>
     <loc>/posts/croatia/</loc>
+  </url><url>
+    <loc>/posts/crystal-cave---west-timor---indonesia/</loc>
+  </url><url>
+    <loc>/posts/crystal-springs/</loc>
   </url><url>
     <loc>/posts/cuba/</loc>
   </url><url>
+    <loc>/posts/cueva-de-los-guacharos/</loc>
+  </url><url>
+    <loc>/posts/cueva-de-los-peces/</loc>
+  </url><url>
     <loc>/posts/cueva-del-agua/</loc>
+  </url><url>
+    <loc>/posts/cueva-lila/</loc>
   </url><url>
     <loc>/posts/cyber---training--certifications/</loc>
   </url><url>
@@ -465,6 +553,8 @@
   </url><url>
     <loc>/posts/czechia/</loc>
   </url><url>
+    <loc>/posts/daniel-roux-cave/</loc>
+  </url><url>
     <loc>/posts/daves-cave---5l215/</loc>
   </url><url>
     <loc>/posts/democratic-republic-of-congo/</loc>
@@ -474,6 +564,8 @@
     <loc>/posts/digital-garden---dashboard/</loc>
   </url><url>
     <loc>/tags/digital-garden/</loc>
+  </url><url>
+    <loc>/posts/dikteon-cave/</loc>
   </url><url>
     <loc>/posts/dinaric-karst-belt/</loc>
   </url><url>
@@ -487,21 +579,35 @@
   </url><url>
     <loc>/posts/diving---reading/</loc>
   </url><url>
+    <loc>/posts/dogwood-spring/</loc>
+  </url><url>
     <loc>/posts/dominican-republic/</loc>
+  </url><url>
+    <loc>/posts/dong-son-cung/</loc>
+  </url><url>
+    <loc>/posts/dulux-cave/</loc>
   </url><url>
     <loc>/tags/easy/</loc>
   </url><url>
     <loc>/posts/effective-note-taking-to-remember-more-&#43;-create-new-ideas/</loc>
   </url><url>
+    <loc>/posts/egma-sinkhole/</loc>
+  </url><url>
     <loc>/posts/ela-elap---5l14/</loc>
+  </url><url>
+    <loc>/posts/ellis-basin-cave/</loc>
   </url><url>
     <loc>/posts/englebrechts-cave---5l19-20/</loc>
   </url><url>
     <loc>/posts/ethiopia/</loc>
   </url><url>
+    <loc>/posts/ettein-cave/</loc>
+  </url><url>
     <loc>/posts/europe/</loc>
   </url><url>
     <loc>/posts/ewens-ponds---5l159-161/</loc>
+  </url><url>
+    <loc>/posts/exit-cave/</loc>
   </url><url>
     <loc>/tags/expeditions/</loc>
   </url><url>
@@ -509,7 +615,13 @@
   </url><url>
     <loc>/tags/exploration/</loc>
   </url><url>
+    <loc>/posts/fearby-cave/</loc>
+  </url><url>
     <loc>/posts/finland/</loc>
+  </url><url>
+    <loc>/posts/five-finger-mountain-spring/</loc>
+  </url><url>
+    <loc>/posts/flinders-island---tasmania/</loc>
   </url><url>
     <loc>/posts/flinders-ranges/</loc>
   </url><url>
@@ -521,13 +633,37 @@
   </url><url>
     <loc>/posts/france/</loc>
   </url><url>
+    <loc>/posts/frasassi-caves/</loc>
+  </url><url>
+    <loc>/posts/gadime-cave/</loc>
+  </url><url>
+    <loc>/posts/gardners-gut/</loc>
+  </url><url>
     <loc>/posts/georgia/</loc>
   </url><url>
     <loc>/posts/germany/</loc>
   </url><url>
     <loc>/tags/gnocchi/</loc>
   </url><url>
+    <loc>/posts/goa-bawah-laut/</loc>
+  </url><url>
+    <loc>/posts/goa-kasmibuno/</loc>
+  </url><url>
+    <loc>/posts/goa-koo/</loc>
+  </url><url>
+    <loc>/posts/goa-lakasa-spring/</loc>
+  </url><url>
     <loc>/posts/goa-lalauwi/</loc>
+  </url><url>
+    <loc>/posts/goa-lalay/</loc>
+  </url><url>
+    <loc>/posts/goa-loba-loba/</loc>
+  </url><url>
+    <loc>/posts/goa-mata-air-kamonu/</loc>
+  </url><url>
+    <loc>/posts/goa-matano-spring/</loc>
+  </url><url>
+    <loc>/posts/goa-watu-koo/</loc>
   </url><url>
     <loc>/posts/gouldens-sinkhole---5l8/</loc>
   </url><url>
@@ -537,15 +673,39 @@
   </url><url>
     <loc>/posts/greenland/</loc>
   </url><url>
+    <loc>/posts/grlja-spring/</loc>
+  </url><url>
+    <loc>/posts/grotte-de-gueldaman/</loc>
+  </url><url>
+    <loc>/posts/gua-kontu-bakulu/</loc>
+  </url><url>
     <loc>/posts/gua-la-humbe/</loc>
   </url><url>
     <loc>/posts/gua-la-pahia/</loc>
   </url><url>
+    <loc>/posts/gua-lakaedu-boneoge-selatan/</loc>
+  </url><url>
     <loc>/posts/gua-lanto/</loc>
+  </url><url>
+    <loc>/posts/gua-lapade-spring/</loc>
+  </url><url>
+    <loc>/posts/gua-mabolu-spring/</loc>
+  </url><url>
+    <loc>/posts/gua-oe-bano/</loc>
+  </url><url>
+    <loc>/posts/gua-oe-kawawe/</loc>
+  </url><url>
+    <loc>/posts/gua-owe-bosu/</loc>
   </url><url>
     <loc>/posts/gua-wandoke/</loc>
   </url><url>
+    <loc>/posts/gua-wanupe/</loc>
+  </url><url>
     <loc>/posts/hanns-cave---5l---closed/</loc>
+  </url><url>
+    <loc>/posts/hardy-cave/</loc>
+  </url><url>
+    <loc>/posts/harwoods-hole/</loc>
   </url><url>
     <loc>/posts/hells-hole---5l40/</loc>
   </url><url>
@@ -555,15 +715,31 @@
   </url><url>
     <loc>/posts/honey-badger---natures-most-fearless-animal-alive/</loc>
   </url><url>
+    <loc>/posts/honeycomb-hill-cave/</loc>
+  </url><url>
     <loc>/posts/horse--cart-sinkhole---5l129/</loc>
+  </url><url>
+    <loc>/posts/hosnies-spring-cave/</loc>
+  </url><url>
+    <loc>/posts/hoti-cave/</loc>
+  </url><url>
+    <loc>/posts/humpleu-cave/</loc>
   </url><url>
     <loc>/posts/hungary/</loc>
   </url><url>
+    <loc>/posts/%CA%BBeua-island/</loc>
+  </url><url>
     <loc>/posts/iceland/</loc>
+  </url><url>
+    <loc>/posts/ida-bay---tasmania/</loc>
   </url><url>
     <loc>/posts/iddlebiddy-cave---5l250/</loc>
   </url><url>
     <loc>/tags/ideas/</loc>
+  </url><url>
+    <loc>/posts/ideon-cave/</loc>
+  </url><url>
+    <loc>/posts/ile-k%C3%A9re-k%C3%A9re/</loc>
   </url><url>
     <loc>/tags/index/</loc>
   </url><url>
@@ -579,7 +755,11 @@
   </url><url>
     <loc>/posts/ireland/</loc>
   </url><url>
+    <loc>/posts/istog-springs/</loc>
+  </url><url>
     <loc>/posts/italy/</loc>
+  </url><url>
+    <loc>/posts/izverna-cave-spring/</loc>
   </url><url>
     <loc>/posts/jam-cave---5l301/</loc>
   </url><url>
@@ -591,11 +771,23 @@
   </url><url>
     <loc>/posts/jenolan/</loc>
   </url><url>
+    <loc>/posts/jerimalai-cave/</loc>
+  </url><url>
     <loc>/posts/jordan/</loc>
   </url><url>
     <loc>/posts/kaidaiula/</loc>
   </url><url>
+    <loc>/posts/kakopetria-karst-spring/</loc>
+  </url><url>
     <loc>/posts/kalimantan---indonesia/</loc>
+  </url><url>
+    <loc>/posts/kamu-cave/</loc>
+  </url><url>
+    <loc>/posts/kantara-spring/</loc>
+  </url><url>
+    <loc>/posts/kartchner-caverns/</loc>
+  </url><url>
+    <loc>/posts/kava-island/</loc>
   </url><url>
     <loc>/posts/kayaking/</loc>
   </url><url>
@@ -607,9 +799,19 @@
   </url><url>
     <loc>/posts/kilsbys-sinkhole---5l46/</loc>
   </url><url>
+    <loc>/posts/k%C4%B1z%C3%B6ren-sinkhole/</loc>
+  </url><url>
     <loc>/tags/knowledge-management/</loc>
   </url><url>
+    <loc>/posts/kochora-cave/</loc>
+  </url><url>
+    <loc>/posts/komati-springs/</loc>
+  </url><url>
     <loc>/posts/kosovo/</loc>
+  </url><url>
+    <loc>/posts/kuza-cave/</loc>
+  </url><url>
+    <loc>/posts/kyperounta-spring/</loc>
   </url><url>
     <loc>/posts/kyrgyzstan/</loc>
   </url><url>
@@ -619,23 +821,53 @@
   </url><url>
     <loc>/posts/labungkari/</loc>
   </url><url>
+    <loc>/posts/langun-gobingob-cave-system/</loc>
+  </url><url>
     <loc>/posts/laos/</loc>
+  </url><url>
+    <loc>/posts/lapithos-karst-spring/</loc>
   </url><url>
     <loc>/posts/laulawi/</loc>
   </url><url>
+    <loc>/posts/laut%C3%A9m-municipality/</loc>
+  </url><url>
     <loc>/posts/lebanon/</loc>
+  </url><url>
+    <loc>/posts/lene-hara-cave/</loc>
+  </url><url>
+    <loc>/posts/liangkabori-cave-spring/</loc>
+  </url><url>
+    <loc>/posts/lilaweh%C3%BA/</loc>
+  </url><url>
+    <loc>/posts/lilawy-cave/</loc>
   </url><url>
     <loc>/posts/limekiln-mccavity-cave/</loc>
   </url><url>
+    <loc>/posts/lipa-cave/</loc>
+  </url><url>
     <loc>/posts/little-blue-lake---5l9/</loc>
+  </url><url>
+    <loc>/posts/lizard-cave/</loc>
+  </url><url>
+    <loc>/posts/lobo-cave/</loc>
   </url><url>
     <loc>/posts/long-solo/</loc>
   </url><url>
+    <loc>/posts/lost-creek-cave/</loc>
+  </url><url>
+    <loc>/posts/lost-lake-cave/</loc>
+  </url><url>
     <loc>/posts/lot---france/</loc>
+  </url><url>
+    <loc>/posts/lumbardhi-i-pej%C3%ABs-springs/</loc>
   </url><url>
     <loc>/posts/madagascar/</loc>
   </url><url>
     <loc>/posts/madura-cave/</loc>
+  </url><url>
+    <loc>/posts/magili-cave/</loc>
+  </url><url>
+    <loc>/posts/malamanga-cave/</loc>
   </url><url>
     <loc>/posts/malaysia/</loc>
   </url><url>
@@ -643,7 +875,13 @@
   </url><url>
     <loc>/posts/malta---gozo/</loc>
   </url><url>
+    <loc>/posts/mangapwani-cave/</loc>
+  </url><url>
+    <loc>/posts/mariners-cave/</loc>
+  </url><url>
     <loc>/posts/markdown-formatting/</loc>
+  </url><url>
+    <loc>/posts/matupi-cave/</loc>
   </url><url>
     <loc>/posts/mauritius/</loc>
   </url><url>
@@ -773,6 +1011,8 @@
   </url><url>
     <loc>/posts/meals/</loc>
   </url><url>
+    <loc>/posts/metro-cave/</loc>
+  </url><url>
     <loc>/posts/minamidaito-south-daito/</loc>
   </url><url>
     <loc>/posts/mini-essay---surely-youre-joking-mr-feynman-richard-feynman/</loc>
@@ -891,11 +1131,15 @@
   </url><url>
     <loc>/tags/mini-essay/</loc>
   </url><url>
+    <loc>/posts/mitoho-cave/</loc>
+  </url><url>
     <loc>/posts/moko-morete/</loc>
   </url><url>
     <loc>/posts/moko-panjang/</loc>
   </url><url>
     <loc>/posts/moluccas---indonesia/</loc>
+  </url><url>
+    <loc>/posts/moncks-cave/</loc>
   </url><url>
     <loc>/posts/mongolia/</loc>
   </url><url>
@@ -907,17 +1151,29 @@
   </url><url>
     <loc>/tags/mount-gambier/</loc>
   </url><url>
+    <loc>/posts/moutti-tou-avak/</loc>
+  </url><url>
     <loc>/posts/mozambique/</loc>
   </url><url>
+    <loc>/posts/mozrov-cave/</loc>
+  </url><url>
     <loc>/posts/mr-electrico---ray-bradbury/</loc>
+  </url><url>
+    <loc>/posts/m%C3%BAa-cave/</loc>
   </url><url>
     <loc>/posts/mud-hole---5l99/</loc>
   </url><url>
     <loc>/posts/muna-island---sulawesi/</loc>
   </url><url>
+    <loc>/posts/muqal-cave/</loc>
+  </url><url>
     <loc>/posts/murra-el-elevyn---6n47/</loc>
   </url><url>
+    <loc>/posts/musanze-caves/</loc>
+  </url><url>
     <loc>/posts/nettlebed---5l290/</loc>
+  </url><url>
+    <loc>/posts/nettlebed-cave/</loc>
   </url><url>
     <loc>/posts/new-caledonia/</loc>
   </url><url>
@@ -927,11 +1183,15 @@
   </url><url>
     <loc>/tags/new-south-wales/</loc>
   </url><url>
+    <loc>/posts/ng%C4%81rua-caves/</loc>
+  </url><url>
     <loc>/posts/nigeria/</loc>
   </url><url>
     <loc>/posts/nohoch/</loc>
   </url><url>
     <loc>/posts/north-america/</loc>
+  </url><url>
+    <loc>/posts/north-island---new-zealand/</loc>
   </url><url>
     <loc>/posts/north-macedonia/</loc>
   </url><url>
@@ -959,9 +1219,13 @@
   </url><url>
     <loc>/posts/nurina-cave/</loc>
   </url><url>
+    <loc>/posts/obod-spring/</loc>
+  </url><url>
     <loc>/posts/oceania/</loc>
   </url><url>
     <loc>/posts/oe-mamba-kecil/</loc>
+  </url><url>
+    <loc>/posts/oehani-cave/</loc>
   </url><url>
     <loc>/posts/olwolgin---6n/</loc>
   </url><url>
@@ -970,6 +1234,8 @@
     <loc>/posts/one-tree---5l7/</loc>
   </url><url>
     <loc>/tags/one-pan/</loc>
+  </url><url>
+    <loc>/posts/ono-spring-water/</loc>
   </url><url>
     <loc>/tags/oscp/</loc>
   </url><url>
@@ -1069,6 +1335,8 @@
   </url><url>
     <loc>/posts/palau/</loc>
   </url><url>
+    <loc>/posts/panapai-cave/</loc>
+  </url><url>
     <loc>/posts/pannikin-plains---6n49/</loc>
   </url><url>
     <loc>/posts/papua-new-guinea/</loc>
@@ -1092,6 +1360,8 @@
     <loc>/posts/permandian-moko/</loc>
   </url><url>
     <loc>/tags/personal/</loc>
+  </url><url>
+    <loc>/posts/peshna-cave/</loc>
   </url><url>
     <loc>/posts/philippines/</loc>
   </url><url>
@@ -1121,7 +1391,13 @@
   </url><url>
     <loc>/posts/poland/</loc>
   </url><url>
+    <loc>/posts/ponora-cave/</loc>
+  </url><url>
+    <loc>/posts/portland-caves/</loc>
+  </url><url>
     <loc>/posts/portugal/</loc>
+  </url><url>
+    <loc>/posts/portunhos-cave/</loc>
   </url><url>
     <loc>/posts/puerto-rico/</loc>
   </url><url>
@@ -1130,6 +1406,22 @@
     <loc>/posts/queensland/</loc>
   </url><url>
     <loc>/tags/quick/</loc>
+  </url><url>
+    <loc>/posts/radavc-cave/</loc>
+  </url><url>
+    <loc>/posts/radavc-spring/</loc>
+  </url><url>
+    <loc>/posts/ranga-cave/</loc>
+  </url><url>
+    <loc>/posts/rangitoto-lava-caves/</loc>
+  </url><url>
+    <loc>/posts/rats-cave/</loc>
+  </url><url>
+    <loc>/posts/ravanas-cave/</loc>
+  </url><url>
+    <loc>/posts/rawakalong-goa-lalay/</loc>
+  </url><url>
+    <loc>/posts/rawhiti-cave/</loc>
   </url><url>
     <loc>/posts/reading/</loc>
   </url><url>
@@ -1141,6 +1433,10 @@
   </url><url>
     <loc>/posts/region---wa/</loc>
   </url><url>
+    <loc>/posts/resava-spring/</loc>
+  </url><url>
+    <loc>/posts/resavska-cave/</loc>
+  </url><url>
     <loc>/posts/r%C3%A9union-island/</loc>
   </url><url>
     <loc>/tags/rice/</loc>
@@ -1151,13 +1447,23 @@
   </url><url>
     <loc>/posts/romania/</loc>
   </url><url>
+    <loc>/posts/ruakuri-cave/</loc>
+  </url><url>
+    <loc>/posts/runaway-cave/</loc>
+  </url><url>
     <loc>/posts/russia/</loc>
   </url><url>
     <loc>/posts/rwanda/</loc>
   </url><url>
+    <loc>/posts/ryugen-cave/</loc>
+  </url><url>
+    <loc>/posts/samar/</loc>
+  </url><url>
     <loc>/posts/samoa/</loc>
   </url><url>
     <loc>/posts/sardinia---italy/</loc>
+  </url><url>
+    <loc>/posts/sataplia-cave/</loc>
   </url><url>
     <loc>/posts/science---ideas/</loc>
   </url><url>
@@ -1199,9 +1505,15 @@
   </url><url>
     <loc>/posts/scripts/</loc>
   </url><url>
+    <loc>/posts/senaki-caves/</loc>
+  </url><url>
     <loc>/posts/serbia/</loc>
   </url><url>
     <loc>/posts/seychelles/</loc>
+  </url><url>
+    <loc>/posts/shimoni-caves/</loc>
+  </url><url>
+    <loc>/posts/shpella-e-kusar%C3%ABve-spring/</loc>
   </url><url>
     <loc>/posts/sicily---italy/</loc>
   </url><url>
@@ -1211,13 +1523,19 @@
   </url><url>
     <loc>/posts/slovenia/</loc>
   </url><url>
+    <loc>/posts/smokey-cave/</loc>
+  </url><url>
     <loc>/tags/snack/</loc>
+  </url><url>
+    <loc>/posts/snowy-river-caves/</loc>
   </url><url>
     <loc>/posts/solomon-islands/</loc>
   </url><url>
     <loc>/posts/south-africa/</loc>
   </url><url>
     <loc>/posts/south-australia/</loc>
+  </url><url>
+    <loc>/posts/south-island---new-zealand/</loc>
   </url><url>
     <loc>/tags/south-australia/</loc>
   </url><url>
@@ -1233,7 +1551,11 @@
   </url><url>
     <loc>/tags/spicy/</loc>
   </url><url>
+    <loc>/posts/spring-cave/</loc>
+  </url><url>
     <loc>/posts/sri-lanka/</loc>
+  </url><url>
+    <loc>/tags/sri-lanka/</loc>
   </url><url>
     <loc>/posts/stafford-road-cave---5l174/</loc>
   </url><url>
@@ -1241,21 +1563,35 @@
   </url><url>
     <loc>/tags/study/</loc>
   </url><url>
+    <loc>/posts/stylos-spring/</loc>
+  </url><url>
     <loc>/posts/sulawesi/</loc>
   </url><url>
     <loc>/tags/sulawesi/</loc>
+  </url><url>
+    <loc>/posts/sulpan-cave/</loc>
+  </url><url>
+    <loc>/posts/swallows-cave/</loc>
   </url><url>
     <loc>/posts/sweden/</loc>
   </url><url>
     <loc>/tags/tacos/</loc>
   </url><url>
+    <loc>/posts/tafkoura-cave/</loc>
+  </url><url>
     <loc>/posts/tajikistan/</loc>
+  </url><url>
+    <loc>/posts/takamaka-valley-spring/</loc>
   </url><url>
     <loc>/posts/tank-cave---5l230/</loc>
   </url><url>
     <loc>/posts/tanzania/</loc>
   </url><url>
+    <loc>/posts/tapa-de-cambural-cave/</loc>
+  </url><url>
     <loc>/posts/tasmania/</loc>
+  </url><url>
+    <loc>/posts/te-ana-au-caves/</loc>
   </url><url>
     <loc>/posts/tea-tree-sinkhole---5l128/</loc>
   </url><url>
@@ -1273,9 +1609,19 @@
   </url><url>
     <loc>/tags/thailand/</loc>
   </url><url>
+    <loc>/posts/tham-din-pieng-cave/</loc>
+  </url><url>
+    <loc>/posts/tham-nam-phou-cave/</loc>
+  </url><url>
+    <loc>/posts/tham-phusi-kew-cave/</loc>
+  </url><url>
+    <loc>/posts/tham-pung-cave/</loc>
+  </url><url>
     <loc>/posts/the-black-hole---5l47---closed/</loc>
   </url><url>
     <loc>/posts/the-bullock-hole---5l163---closed/</loc>
+  </url><url>
+    <loc>/posts/the-grotto/</loc>
   </url><url>
     <loc>/posts/the-pines---5l61/</loc>
   </url><url>
@@ -1285,7 +1631,11 @@
   </url><url>
     <loc>/posts/the-three-sisters---5l13/</loc>
   </url><url>
+    <loc>/posts/therisso-gorge-springs/</loc>
+  </url><url>
     <loc>/posts/threat-modelling/</loc>
+  </url><url>
+    <loc>/posts/thysville-caves/</loc>
   </url><url>
     <loc>/posts/time-management/</loc>
   </url><url>
@@ -1293,9 +1643,15 @@
   </url><url>
     <loc>/tags/to-try/</loc>
   </url><url>
+    <loc>/posts/toh-wang/</loc>
+  </url><url>
     <loc>/posts/tommy-grahams-cave---6n56/</loc>
   </url><url>
     <loc>/posts/tonga/</loc>
+  </url><url>
+    <loc>/posts/tongatapu/</loc>
+  </url><url>
+    <loc>/posts/tordo-cave/</loc>
   </url><url>
     <loc>/posts/trip---antarctica---2025-nov/</loc>
   </url><url>
@@ -1333,7 +1689,13 @@
   </url><url>
     <loc>/posts/unread/</loc>
   </url><url>
+    <loc>/posts/vai-gioi-cave/</loc>
+  </url><url>
+    <loc>/posts/valley-cave/</loc>
+  </url><url>
     <loc>/posts/vanuatu/</loc>
+  </url><url>
+    <loc>/posts/vava%CA%BBu/</loc>
   </url><url>
     <loc>/posts/venezuela/</loc>
   </url><url>
@@ -1342,6 +1704,24 @@
     <loc>/tags/victoria/</loc>
   </url><url>
     <loc>/posts/vietnam/</loc>
+  </url><url>
+    <loc>/posts/vrisses-spring/</loc>
+  </url><url>
+    <loc>/posts/vruja-spring/</loc>
+  </url><url>
+    <loc>/posts/vuma-caves/</loc>
+  </url><url>
+    <loc>/posts/waara-karst-spring/</loc>
+  </url><url>
+    <loc>/posts/wai-lia-bere/</loc>
+  </url><url>
+    <loc>/posts/wai-lia-mata/</loc>
+  </url><url>
+    <loc>/posts/waitomo-cave/</loc>
+  </url><url>
+    <loc>/posts/wakulla-springs/</loc>
+  </url><url>
+    <loc>/posts/waterfall-cave/</loc>
   </url><url>
     <loc>/posts/web-app-vulnerability/</loc>
   </url><url>
@@ -1359,11 +1739,13 @@
   </url><url>
     <loc>/posts/wellington-caves/</loc>
   </url><url>
-    <loc>/posts/west-papua---indonesia/</loc>
+    <loc>/posts/west-papua/</loc>
   </url><url>
-    <loc>/posts/west-timor---indonesia/</loc>
+    <loc>/posts/west-timor/</loc>
   </url><url>
     <loc>/posts/western-australia/</loc>
+  </url><url>
+    <loc>/tags/western-australia/</loc>
   </url><url>
     <loc>/posts/wh40k/</loc>
   </url><url>
@@ -1371,7 +1753,11 @@
   </url><url>
     <loc>/posts/wh40k---armies---imperial-knights/</loc>
   </url><url>
+    <loc>/posts/whip-cave/</loc>
+  </url><url>
     <loc>/posts/wingsuit/</loc>
+  </url><url>
+    <loc>/posts/wiri-lava-cave/</loc>
   </url><url>
     <loc>/tags/work/</loc>
   </url><url>
@@ -1381,9 +1767,9 @@
   </url><url>
     <loc>/posts/y2038---epochalypse/</loc>
   </url><url>
-    <loc>/tags/yucatan/</loc>
+    <loc>/posts/yucatan/</loc>
   </url><url>
-    <loc>/posts/yucatan---mexico/</loc>
+    <loc>/tags/yucatan/</loc>
   </url><url>
     <loc>/posts/zimbabwe/</loc>
   </url>
