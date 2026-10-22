@@ -20,7 +20,13 @@ related:
 
 # Caves
 
-
+- [Agia Sophia Cave]({{< relref "posts/Agia Sophia Cave.md" >}})
+- [Dikteon Cave]({{< relref "posts/Dikteon Cave.md" >}})
+- [Ideon Cave]({{< relref "posts/Ideon Cave.md" >}})
+- [Stylos Spring]({{< relref "posts/Stylos Spring.md" >}})
+- [Tafkoura Cave]({{< relref "posts/Tafkoura Cave.md" >}})
+- [Therisso Gorge Springs]({{< relref "posts/Therisso Gorge Springs.md" >}})
+- [Vrisses Spring]({{< relref "posts/Vrisses Spring.md" >}})
 
 # About
 

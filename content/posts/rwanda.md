@@ -21,7 +21,8 @@ related:
 
 # Caves
 
-
+- [Musanze Caves]({{< relref "posts/Musanze Caves.md" >}})
+- [Ubuvumo Bwibihonga]({{< relref "posts/Ubuvumo Bwibihonga.md" >}})
 
 HIGH RISK - ALL KNOWN KARST <10KM FROM [Democratic Republic of Congo]({{< relref "posts/Democratic Republic of Congo.md" >}})
 

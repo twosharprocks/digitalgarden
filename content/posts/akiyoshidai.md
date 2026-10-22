@@ -21,7 +21,10 @@ related:
 
 # Caves
 
-
+- [Akiyoshidai Cave]({{< relref "posts/Akiyoshidai Cave.md" >}})
+- [Akiyoshido Cave]({{< relref "posts/Akiyoshido Cave.md" >}})
+- [Ono Spring Water]({{< relref "posts/Ono Spring Water.md" >}})
+- [Ryugen Cave]({{< relref "posts/Ryugen Cave.md" >}})
 
 # About
 

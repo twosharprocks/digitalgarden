@@ -21,7 +21,7 @@ related:
 
 # Caves
 
-
+- [Sof Omar Cave]({{< relref "posts/Sof Omar Cave.md" >}})
 
 # Cave Notes
 

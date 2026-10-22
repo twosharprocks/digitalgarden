@@ -21,7 +21,7 @@ related:
 
 # Caves
 
-
+- [Phantom Springs Cave]({{< relref "posts/Phantom Springs Cave.md" >}})
 
 # About
 

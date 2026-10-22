@@ -21,7 +21,9 @@ related:
 
 # Caves
 
-
+- [Kuza Cave]({{< relref "posts/Kuza Cave.md" >}})
+- [Mangapwani Cave]({{< relref "posts/Mangapwani Cave.md" >}})
+- [Nan'goma Cave]({{< relref "posts/Nan'goma Cave.md" >}})
 
 # About
 

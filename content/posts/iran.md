@@ -21,4 +21,6 @@ related:
 
 # Caves
 
-
+- [Deh-Sheikh Cave]({{< relref "posts/Deh-Sheikh Cave.md" >}})
+- [Katale Khor]({{< relref "posts/Katale Khor.md" >}})
+- [Nezel Cave]({{< relref "posts/Nezel Cave.md" >}})

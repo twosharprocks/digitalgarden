@@ -21,7 +21,10 @@ related:
 
 # Caves
 
-
+- [Jaskinia Wielka Śnieżna]({{< relref "posts/Jaskinia Wielka Śnieżna.md" >}})
+- [Kowary Uranium Mine]({{< relref "posts/Kowary Uranium Mine.md" >}})
+- [Maria Concordia Mine]({{< relref "posts/Maria Concordia Mine.md" >}})
+- [Marie Agnes Mine]({{< relref "posts/Marie Agnes Mine.md" >}})
 
 # About
 

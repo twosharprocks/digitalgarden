@@ -21,4 +21,6 @@ related:
 
 # Caves
 
-
+- [Blue Eye]({{< relref "posts/Blue Eye.md" >}})
+- [Lengarices system]({{< relref "posts/Lengarices system.md" >}})
+- [Skotini Cave]({{< relref "posts/Skotini Cave.md" >}})

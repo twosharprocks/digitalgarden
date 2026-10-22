@@ -21,7 +21,11 @@ related:
 
 # Caves
 
-
+- [Jordbrugrotta]({{< relref "posts/Jordbrugrotta.md" >}})
+- [Litjåga]({{< relref "posts/Litjåga.md" >}})
+- [Litjåga Cave]({{< relref "posts/Litjåga Cave.md" >}})
+- [Plura]({{< relref "posts/Plura.md" >}})
+- [Tjoarvekrajgge]({{< relref "posts/Tjoarvekrajgge.md" >}})
 
 # About
 

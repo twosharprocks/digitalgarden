@@ -21,7 +21,12 @@ related:
 
 # Caves
 
-
+- [Amatérská Cave]({{< relref "posts/Amatérská Cave.md" >}})
+- [Dul Hraniczna]({{< relref "posts/Dul Hraniczna.md" >}})
+- [Důl Hraničná]({{< relref "posts/Důl Hraničná.md" >}})
+- [Hranická propast]({{< relref "posts/Hranická propast.md" >}})
+- [Malý výtok]({{< relref "posts/Malý výtok.md" >}})
+- [Červíkovy jeskyně]({{< relref "posts/Červíkovy jeskyně.md" >}})
 
 # Cave Notes
 

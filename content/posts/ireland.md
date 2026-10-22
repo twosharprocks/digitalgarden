@@ -21,7 +21,8 @@ related:
 
 # Caves
 
-
+- [Log Na Sionna - Shannon Pot]({{< relref "posts/Log Na Sionna - Shannon Pot.md" >}})
+- [Pollnagossan]({{< relref "posts/Pollnagossan.md" >}})
 
 # About
 

@@ -21,7 +21,7 @@ related:
 
 # Caves
 
-
+- [Rangkulskaya cave]({{< relref "posts/Rangkulskaya cave.md" >}})
 
 # About
 

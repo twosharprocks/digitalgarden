@@ -21,7 +21,9 @@ related:
 
 # Caves
 
-
+- [Lohikäärmeen Luola caves]({{< relref "posts/Lohikäärmeen Luola caves.md" >}})
+- [Montola Mine]({{< relref "posts/Montola Mine.md" >}})
+- [Ojamo]({{< relref "posts/Ojamo.md" >}})
 
 # About
 

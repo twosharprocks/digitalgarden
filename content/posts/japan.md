@@ -19,11 +19,12 @@ related:
 ---
 # Sub-regions
 
-
+- [Akiyoshidai]({{< relref "posts/akiyoshidai.md" >}})
 
 # Caves
 
-
+- [Akkadō (安家洞)]({{< relref "posts/Akkadō (安家洞).md" >}})
+- [Hoshino Cave]({{< relref "posts/Hoshino Cave.md" >}})
 
 # About
 

@@ -21,7 +21,7 @@ related:
 
 # Caves
 
-
+- [Duhlata (Духлата)]({{< relref "posts/Duhlata (Духлата).md" >}})
 
 # About
 

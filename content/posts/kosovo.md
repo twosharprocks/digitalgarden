@@ -20,7 +20,16 @@ related:
 
 # Caves
 
-
+- [Bistrica Spring - Kosovo]({{< relref "posts/Bistrica Spring - Kosovo.md" >}})
+- [Gadime Cave]({{< relref "posts/Gadime Cave.md" >}})
+- [Gryka e Madhe]({{< relref "posts/Gryka e Madhe.md" >}})
+- [Istog Springs]({{< relref "posts/Istog Springs.md" >}})
+- [Lumbardhi i Pejës Springs]({{< relref "posts/Lumbardhi i Pejës Springs.md" >}})
+- [Radavc Cave]({{< relref "posts/Radavc Cave.md" >}})
+- [Radavc Spring]({{< relref "posts/Radavc Spring.md" >}})
+- [Shpella e Kusarëve Spring]({{< relref "posts/Shpella e Kusarëve Spring.md" >}})
+- [The Cave of the Great Gorge [sq]]({{< relref "posts/The Cave of the Great Gorge [sq].md" >}})
+- [Velika Klisura]({{< relref "posts/Velika Klisura.md" >}})
 
 # About
 

@@ -22,7 +22,7 @@ related:
 
 # Caves
 
-
+- [Chandelier Cave]({{< relref "posts/Chandelier Cave.md" >}})
 
 # About
 

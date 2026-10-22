@@ -22,4 +22,5 @@ related:
 
 # Caves
 
-
+- [Friouato Caves]({{< relref "posts/Friouato Caves.md" >}})
+- [Win Timdouine [fr]]({{< relref "posts/Win Timdouine [fr].md" >}})

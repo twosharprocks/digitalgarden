@@ -21,7 +21,8 @@ related:
 
 # Caves
 
-
+- [Grjótagjá]({{< relref "posts/Grjótagjá.md" >}})
+- [Laufbalavatn]({{< relref "posts/Laufbalavatn.md" >}})
 
 # About
 

@@ -22,7 +22,11 @@ related:
 
 # Caves
 
-
+- [Lazareva Pećina]({{< relref "posts/Lazareva Pećina.md" >}})
+- [Resava Spring]({{< relref "posts/Resava Spring.md" >}})
+- [Resavska Cave]({{< relref "posts/Resavska Cave.md" >}})
+- [Vrelo Krupaje]({{< relref "posts/Vrelo Krupaje.md" >}})
+- [Vrelo Mlave]({{< relref "posts/Vrelo Mlave.md" >}})
 
 # Cave Notes
 

@@ -21,7 +21,8 @@ related:
 
 # Caves
 
-
+- [Jeita Grotto]({{< relref "posts/Jeita Grotto.md" >}})
+- [Qattine Azar]({{< relref "posts/Qattine Azar.md" >}})
 
 # About
 

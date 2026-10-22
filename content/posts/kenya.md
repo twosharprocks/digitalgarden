@@ -22,7 +22,9 @@ related:
 
 # Caves
 
-
+- [Leviathan Cave]({{< relref "posts/Leviathan Cave.md" >}})
+- [Shimoni Caves]({{< relref "posts/Shimoni Caves.md" >}})
+- [Vuma Caves]({{< relref "posts/Vuma Caves.md" >}})
 
 # About
 

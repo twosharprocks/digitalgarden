@@ -17,11 +17,23 @@ related:
 ---
 # Sub-regions
 
-
+- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}})
+- [Moluccas - Indonesia]({{< relref "posts/Moluccas - Indonesia.md" >}})
+- [Sulawesi]({{< relref "posts/Sulawesi.md" >}})
+- [West Papua]({{< relref "posts/West Papua.md" >}})
+- [West Timor]({{< relref "posts/West Timor.md" >}})
 
 # Caves
 
-
+- [Aouk-Kladuk Underground River]({{< relref "posts/Aouk-Kladuk Underground River.md" >}})
+- [Goa Lalay]({{< relref "posts/Goa Lalay.md" >}})
+- [Gua Moko cave]({{< relref "posts/Gua Moko cave.md" >}})
+- [Hafasu Tiankeng]({{< relref "posts/Hafasu Tiankeng.md" >}})
+- [Keek Sinkhole]({{< relref "posts/Keek Sinkhole.md" >}})
+- [Kuom Tiankeng Sinkhole]({{< relref "posts/Kuom Tiankeng Sinkhole.md" >}})
+- [Luweng Jaran system]({{< relref "posts/Luweng Jaran system.md" >}})
+- [Rawakalong Goa Lalay]({{< relref "posts/Rawakalong Goa Lalay.md" >}})
+- [Yogoluk Sinkhole]({{< relref "posts/Yogoluk Sinkhole.md" >}})
 
 # References
 

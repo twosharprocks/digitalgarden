@@ -21,7 +21,8 @@ related:
 
 # Caves
 
-
+- [Batze Cave]({{< relref "posts/Batze Cave.md" >}})
+- [Chinhoyi Caves]({{< relref "posts/Chinhoyi Caves.md" >}})
 
 # About
 

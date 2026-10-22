@@ -22,7 +22,8 @@ related:
 
 # Caves
 
-
+- [Shuanghedong Cave Network (双河洞)]({{< relref "posts/Shuanghedong Cave Network (双河洞).md" >}})
+- [Xiaozhai Tiankeng]({{< relref "posts/Xiaozhai Tiankeng.md" >}})
 
 # About
 

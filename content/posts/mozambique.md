@@ -21,7 +21,7 @@ related:
 
 # Caves
 
-
+- [Khodzu (Codzo) Cave]({{< relref "posts/Khodzu (Codzo) Cave.md" >}})
 
 # Trips
 

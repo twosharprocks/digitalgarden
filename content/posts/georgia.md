@@ -21,7 +21,12 @@ related:
 
 # Caves
 
-
+- [Cypress Sink]({{< relref "posts/Cypress Sink.md" >}})
+- [Ellison's Cave]({{< relref "posts/Ellison's Cave.md" >}})
+- [Kochora Cave]({{< relref "posts/Kochora Cave.md" >}})
+- [Sataplia Cave]({{< relref "posts/Sataplia Cave.md" >}})
+- [Senaki Caves]({{< relref "posts/Senaki Caves.md" >}})
+- [Veryovkina Cave]({{< relref "posts/Veryovkina Cave.md" >}})
 
 # About
 

@@ -21,7 +21,8 @@ related:
 
 # Caves
 
-
+- [Demanovsky jaskynny system [cs]]({{< relref "posts/Demanovsky jaskynny system [cs].md" >}})
+- [Opal Mine]({{< relref "posts/Opal Mine.md" >}})
 
 # Cave Notes
 

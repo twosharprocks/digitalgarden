@@ -17,11 +17,16 @@ related:
 ---
 # Sub-regions
 
-
+- [Baucau District]({{< relref "posts/Baucau District.md" >}})
+- [Lautém Municipality]({{< relref "posts/Lautém Municipality.md" >}})
 
 # Caves
 
-
+- [Bakua Sink]({{< relref "posts/Bakua Sink.md" >}})
+- [Biribui Spring]({{< relref "posts/Biribui Spring.md" >}})
+- [Kamu Cave]({{< relref "posts/Kamu Cave.md" >}})
+- [Marobo Hot Spring]({{< relref "posts/Marobo Hot Spring.md" >}})
+- [Uman Ira]({{< relref "posts/Uman Ira.md" >}})
 
 # About
 

@@ -473,12 +473,12 @@ def render_cave_catalog(query, notes, current_path=None):
             if options.get("root"):
                 matches = not parents
             else:
-                matches = any(target.rsplit("/", 1)[-1] == current["_filename"] for target in parents)
+                matches = any(target.rsplit("/", 1)[-1].casefold() == current["_filename"].casefold() for target in parents)
         else:
             if kind != "cave":
                 continue
             parents = catalog_links(note.get("sub-region")) or catalog_links(note.get("region"))
-            matches = any(target.rsplit("/", 1)[-1] == current["_filename"] for target in parents)
+            matches = any(target.rsplit("/", 1)[-1].casefold() == current["_filename"].casefold() for target in parents)
         if matches:
             selected.append(note)
     selected.sort(key=lambda note: note["_filename"].casefold())

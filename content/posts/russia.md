@@ -21,7 +21,8 @@ related:
 
 # Caves
 
-
+- [Botovskaya [ru] (Ботовская пещера)]({{< relref "posts/Botovskaya [ru] (Ботовская пещера).md" >}})
+- [Orda Cave]({{< relref "posts/Orda Cave.md" >}})
 
 # Cave Notes
 

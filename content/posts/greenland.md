@@ -22,7 +22,7 @@ related:
 
 # Caves
 
-
+- [Cove cave]({{< relref "posts/Cove cave.md" >}})
 
 # References
 

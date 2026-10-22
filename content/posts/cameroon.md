@@ -21,7 +21,7 @@ related:
 
 # Caves
 
-
+- [Gaskin Cave]({{< relref "posts/Gaskin Cave.md" >}})
 
 # About
 

@@ -21,7 +21,7 @@ related:
 
 # Caves
 
-
+- [Krem Liat Prah]({{< relref "posts/Krem Liat Prah.md" >}})
 
 ## Chhatarpur
 - [Bhimkund](https://en.wikipedia.org/wiki/Bhimkund) 

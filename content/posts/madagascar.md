@@ -21,7 +21,10 @@ related:
 
 # Caves
 
-
+- [Aven Cave]({{< relref "posts/Aven Cave.md" >}})
+- [Malamanga Cave]({{< relref "posts/Malamanga Cave.md" >}})
+- [Marosakabe cave]({{< relref "posts/Marosakabe cave.md" >}})
+- [Mitoho Cave]({{< relref "posts/Mitoho Cave.md" >}})
 
 # About
 

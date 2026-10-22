@@ -18,11 +18,14 @@ related:
 ---
 # Sub-regions
 
-
+- [Kava Island]({{< relref "posts/Kava Island.md" >}})
+- [Tongatapu]({{< relref "posts/Tongatapu.md" >}})
+- [Vavaʻu]({{< relref "posts/Vavaʻu.md" >}})
+- [ʻEua Island]({{< relref "posts/ʻEua Island.md" >}})
 
 # Caves
 
-
+- [Anahulu Cave]({{< relref "posts/Anahulu Cave.md" >}})
 
 # About
 

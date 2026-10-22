@@ -21,7 +21,11 @@ related:
 
 # Caves
 
-
+- [Coral Cave]({{< relref "posts/Coral Cave.md" >}})
+- [Dolinsjö]({{< relref "posts/Dolinsjö.md" >}})
+- [Långban Mine]({{< relref "posts/Långban Mine.md" >}})
+- [Sala Silver Mine]({{< relref "posts/Sala Silver Mine.md" >}})
+- [Tuna-Hästberg]({{< relref "posts/Tuna-Hästberg.md" >}})
 
 # About
 

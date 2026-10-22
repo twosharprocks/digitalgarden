@@ -21,7 +21,9 @@ related:
 
 # Caves
 
-
+- [Cueva de Los Guacharos]({{< relref "posts/Cueva de Los Guacharos.md" >}})
+- [Cueva del Saman [es]]({{< relref "posts/Cueva del Saman [es].md" >}})
+- [Tapa de Cambural Cave]({{< relref "posts/Tapa de Cambural Cave.md" >}})
 
 # Cave Notes
 - Cave of Guacharo ("El Guácharo" Cave)

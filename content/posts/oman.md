@@ -21,7 +21,10 @@ related:
 
 # Caves
 
-
+- [Al Hoota Cave]({{< relref "posts/Al Hoota Cave.md" >}})
+- [Ettein Cave]({{< relref "posts/Ettein Cave.md" >}})
+- [Hoti Cave]({{< relref "posts/Hoti Cave.md" >}})
+- [Muqal Cave]({{< relref "posts/Muqal Cave.md" >}})
 
 # Cave Notes
 

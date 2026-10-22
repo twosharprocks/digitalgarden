@@ -21,7 +21,8 @@ related:
 
 # Caves
 
-
+- [Jack Daniel's Cave]({{< relref "posts/Jack Daniel's Cave.md" >}})
+- [Lost Creek Cave]({{< relref "posts/Lost Creek Cave.md" >}})
 
 # About
 

@@ -20,7 +20,19 @@ related:
 
 # Caves
 
-
+- [Agios Georgios Spring]({{< relref "posts/Agios Georgios Spring.md" >}})
+- [Agiou Nikolaou Spring]({{< relref "posts/Agiou Nikolaou Spring.md" >}})
+- [Alevkaya Forest Spring]({{< relref "posts/Alevkaya Forest Spring.md" >}})
+- [Antiphonitis Karst Spring]({{< relref "posts/Antiphonitis Karst Spring.md" >}})
+- [Ayios Georgios Cave]({{< relref "posts/Ayios Georgios Cave.md" >}})
+- [Chantara Spring]({{< relref "posts/Chantara Spring.md" >}})
+- [Choirokoitia Cave]({{< relref "posts/Choirokoitia Cave.md" >}})
+- [Five Finger Mountain Spring]({{< relref "posts/Five Finger Mountain Spring.md" >}})
+- [Kakopetria Karst Spring]({{< relref "posts/Kakopetria Karst Spring.md" >}})
+- [Kantara Spring]({{< relref "posts/Kantara Spring.md" >}})
+- [Kyperounta Spring]({{< relref "posts/Kyperounta Spring.md" >}})
+- [Lapithos Karst Spring]({{< relref "posts/Lapithos Karst Spring.md" >}})
+- [Moutti tou Avak]({{< relref "posts/Moutti tou Avak.md" >}})
 
 # About
 

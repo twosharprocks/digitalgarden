@@ -20,7 +20,10 @@ related:
 
 # Caves
 
-
+- [C1035]({{< relref "posts/C1035.md" >}})
+- [Cammoo Caves]({{< relref "posts/Cammoo Caves.md" >}})
+- [Lake Barrine]({{< relref "posts/Lake Barrine.md" >}})
+- [Lake Eacham]({{< relref "posts/Lake Eacham.md" >}})
 
 # About
 
