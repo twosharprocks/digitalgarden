@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Uruguay on Digital Garden</title>
+		<link>/tags/uruguay/</link>
+		<description>Recent content in Uruguay on Digital Garden</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="/tags/uruguay/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Grutas of Salamanque</title>
+				<link>/posts/grutas-of-salamanque/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/posts/grutas-of-salamanque/</guid>
+				<description>&lt;h1 id=&#34;details&#34;&gt;Details&lt;/h1&gt;&#xA;&lt;h2 id=&#34;identification&#34;&gt;Identification&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Feature type:&lt;/strong&gt; Cave&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_longest_cave_by_country&#34;&gt;https://en.wikipedia.org/wiki/List_of_longest_cave_by_country&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cave-and-exploration-data&#34;&gt;Cave and exploration data&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Surveyed length:&lt;/strong&gt; 300 m&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Mina de Oro Arrospide</title>
+				<link>/posts/mina-de-oro-arrospide/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/posts/mina-de-oro-arrospide/</guid>
+				<description>&lt;h1 id=&#34;details&#34;&gt;Details&lt;/h1&gt;&#xA;&lt;h2 id=&#34;identification&#34;&gt;Identification&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Feature type:&lt;/strong&gt; Cave&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cave-and-exploration-data&#34;&gt;Cave and exploration data&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Goes to water:&lt;/strong&gt; Yes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;diving-data&#34;&gt;Diving data&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Water type:&lt;/strong&gt; Fresh&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tidal:&lt;/strong&gt; No&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tasmania on Digital Garden</title>
+		<link>/tags/tasmania/</link>
+		<description>Recent content in Tasmania on Digital Garden</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="/tags/tasmania/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Honeycomb Cave</title>
+				<link>/posts/honeycomb-cave/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/posts/honeycomb-cave/</guid>
+				<description>&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;&#xA;&lt;p&gt;Honeycomb Cave is a river cave, which shows boisterous waterfalls and wet drippy formations. Beneath formations and erosional passages there is a wealth of cave life to explore, although it is tiny and often hard to detect. There are large Tasmanian cave spiders, but they are timid with humans and difficult to find. The glowworms are pretty easy to detect becuase of their light. And they even become brighter every spring, when food is more abundant. This small larvae of flies use the light to attract prey, often their own adult parents. They are endemic to New Zealand and rarely found in Australia. Large blind cave shrimps (Anaspides) can also be seen, but only in the right time of the year. Late November is a good time, if there is not too much rain.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Lawrence Rivulet</title>
+				<link>/posts/lawrence-rivulet/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/posts/lawrence-rivulet/</guid>
+				<description>&lt;h1 id=&#34;details&#34;&gt;Details&lt;/h1&gt;&#xA;&lt;h2 id=&#34;identification&#34;&gt;Identification&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Feature type:&lt;/strong&gt; Cave&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cave-and-exploration-data&#34;&gt;Cave and exploration data&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Goes to water:&lt;/strong&gt; Yes&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
+</rss>
