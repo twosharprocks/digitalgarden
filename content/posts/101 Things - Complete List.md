@@ -287,7 +287,7 @@ Remaining: 20
 - [Website - 101 Things - Drinking (34, 65 & 93)]({{< relref "posts/Website - 101 Things - Drinking (34, 65 & 93).md" >}})
 
 94 - Get Something Named After You 
-- JAM Cave, La Ode Palsu
+- JAM Cave, [La Ode Palsu]({{< relref "posts/La Ode Palsu.md" >}})
 
 95 - Get Revenge
 - [Website - 101 Things - School Stupidity (10, 21, 83 & 95)]({{< relref "posts/Website - 101 Things - School Stupidity (10, 21, 83 & 95).md" >}})

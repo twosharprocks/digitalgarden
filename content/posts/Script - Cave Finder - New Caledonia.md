@@ -13,7 +13,7 @@ related:
   - "[[Trips - Ideas]]"
   - "[[Exploration]]"
   - "[[CaveDB]]"
-  - "[[Caving]]"
+  - "[[Caving - Ideas]]"
 language: Python
 ---
 ```python

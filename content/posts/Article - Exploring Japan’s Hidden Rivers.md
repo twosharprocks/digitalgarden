@@ -60,7 +60,7 @@ Initial point cloud of Terayama Cave's dry section
 After two long and cold days underwater, the team spent a day staying dry at Akiyoshido Cave. While Akiyoshido is touted as a tourist experience, it was immediately clear to the team that there are countless opportunities for further exploration above and below the waterline if the support & permits were available. A substantial river flows through the heart of Akiyoshidai, winding beneath carefully constructed walkways and through chambers large enough to make even experienced cave divers pause. For the Soggy Wombats, it offered a chance to recover, to learn about the region's history, and presented a unique photogrammetry challenge. Walking through one of Japan’s best-known caves with a 360 camera and only the lights installed in the cave, Akiyoshidai offered the Soggy Wombats a chance to attempt to model a dry cave on the fly, to reflect on the region's natural beauty, and consider how much exploration potential still exists throughout the Mine-Akiyoshidai Karst Plateau.
 
 ![Japan May 2026 Image6](/images/Japan%20May%202026%20-%20Image6.jpg)
-Looking up the river running through Akiyoshidai Cave
+Looking up the river running through [Akiyoshidai Cave]({{< relref "posts/Akiyoshidai Cave.md" >}})
 ## Into Shiramizu Pond
 
 ![Japan May 2026 Image7](/images/Japan%20May%202026%20-%20Image7.jpg)

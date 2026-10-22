@@ -1,4 +1,5 @@
 import re
+import json
 import sys
 from pathlib import Path
 
@@ -420,7 +421,62 @@ def render_table(query, notes, current_path=None):
     return "\n".join(lines)
 
 
+def catalog_links(value):
+    values = value if isinstance(value, list) else [value]
+    targets = []
+    for entry in values:
+        if not entry:
+            continue
+        text = str(entry).strip()
+        match = re.fullmatch(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]", text)
+        target = match.group(1) if match else text
+        targets.append(target.replace("\\", "/").removesuffix(".md"))
+    return targets
+
+
+def render_cave_catalog(query, notes, current_path=None):
+    match = re.search(
+        r'''dv\.view\(\s*["']_scripts/cave-catalog["']\s*,\s*(\{[^\n]*\})\s*\)''',
+        query,
+    )
+    if not match:
+        return None
+    options = json.loads(match.group(1))
+    current = next((note for note in notes if note["_path"] == current_path), None)
+    if not current:
+        return ""
+    selected = []
+    for note in notes:
+        if note["_path"] == current_path or str(note.get("draft", "")).lower() == "true":
+            continue
+        if note["_filename"].startswith("Template - "):
+            continue
+        kind = str(note.get("catalog-type", "")).lower()
+        if not kind and "caving" in note.get("tags", []) and (note.get("region") or note.get("sub-region")):
+            kind = "cave"
+        if options.get("kind") == "regions":
+            if kind != "region":
+                continue
+            parents = catalog_links(note.get("region"))
+            if options.get("root"):
+                matches = not parents
+            else:
+                matches = any(target.rsplit("/", 1)[-1] == current["_filename"] for target in parents)
+        else:
+            if kind != "cave":
+                continue
+            parents = catalog_links(note.get("sub-region")) or catalog_links(note.get("region"))
+            matches = any(target.rsplit("/", 1)[-1] == current["_filename"] for target in parents)
+        if matches:
+            selected.append(note)
+    selected.sort(key=lambda note: note["_filename"].casefold())
+    return "\n".join(f"- {relref_link(note)}" for note in selected)
+
+
 def render_dataview(query, notes, current_path=None):
+    cave_catalog = render_cave_catalog(query, notes, current_path)
+    if cave_catalog is not None:
+        return cave_catalog
     normalized = query.lstrip().upper()
     oscp_index = render_oscp_index(query, notes, current_path)
     if oscp_index is not None:

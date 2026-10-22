@@ -1,15 +1,14 @@
 ---
-title: Murra-El-Elevyn - 6N47
+title: "Murra-El-Elevyn - 6N47"
 created: 2026-06-18
-updated: 2026-09-19
+updated: 2026-10-13
 status: seed
 draft: false
 tags:
   - diving
   - caving
   - nullarbor
-region: "[[Nullarbor High Plains]]"
-cavedb: https://app.cavedb.net/share/41c22713-fcc8-479f-b4f8-fe9a9d9d1234.html
+region: "[[Western Australia]]"
 related:
   - "[[Diving]]"
   - "[[Photogrammetry - Processing]]"
@@ -36,11 +35,21 @@ related:
   - "[[2026-08-22]]"
   - "[[2026-08-23]]"
   - "[[2026-08-24]]"
-  - "[[CaveDB - Murra El Elevyn Cave - 41c22713]]"
 location: -32.043, 126.038 (WGS84)
 rating: CDAA Cave, TDI Intro to Cave
+feature_type: "Cave"
+latitude: -32.04278570253757
+longitude: 126.03812551714987
+country: "AUS"
+state: "Western Australia"
+suburb: "Shire of Dundas"
+privacy: public
+cavedb: "https://app.cavedb.net/share/41c22713-fcc8-479f-b4f8-fe9a9d9d1234.html"
+catalog-type: "cave"
+sub-region: "[[Nullarbor High Plains]]"
 ---
 # About
+
 Also known as Cocklebiddy 3 Mile Cave, the entrance is a small overhanging doline 20m in diameter. A 20m pitch leads to a loose talus and silt slope which becomes a boulder floored passage after the doline. The passage continues to a small lake at 89m. There are wetas near the entrance of the cave. There was a thylacine carcase found on early trips to the cave. Uphill of the lake leads to further boulder floored chambers with bats. There are 300m of low maze passages beyond the lake, which contains gypsum flowers and needles. The cave breathes in maze section. Beyond the lake underwater, the cave extends into a series of passages and boulder floored chambers with an average depth of 10m. There is a section of silt floor and parts of the cave passages which have a colouration similar to “coffee and cream”. There are three cave passages which have small air chambers. 
 ## Access 
 The cave is close to a vehicle track. It is possible to camp near the cave. A typical trip into the cave would take up to 5 hours. 
@@ -55,10 +64,10 @@ The cave is on Nuytsland Nature Reserve, and specific permission is required to 
 Breakdown piles often mask bypass tubes. Check behind and above the boulder for blind domes or tube lips; inspect for faint percolation staining or clean, eddy-scoured floor patches indicating through-draft water movement.
 
 - *“Gary’s Back Passage” and the entrance-to-main-tunnel shortcut*
-Both are named as Advanced segments—good flags that they’re tighter/less travelled. These are prime spots to find side tubes that were skipped when the main line was established. Slow, close wall-scans often reveal inset phreatic notches. 
+Both are named as Advanced segments—good flags that they’re tighter/less travelled. These are prime spots to find side tubes that were skipped when the main line was established. Slow, close wall-scans often reveal inset phreatic notches.
 
 - *Joint-controlled leads aligned with regional structure* 
-Nullarbor caves commonly exploit joint sets; historical mapping notes exist for **Murrawijinie** (SA) showing joint frequency plots—useful analogs for what to look for in plan view at Murra-el-Elevyn: straight runs, right-angle turns, bead-string chambers. 
+Nullarbor caves commonly exploit joint sets; historical mapping notes exist for **Murrawijinie** (SA) showing joint frequency plots—useful analogs for what to look for in plan view at Murra-el-Elevyn: straight runs, right-angle turns, bead-string chambers.
 
 - *Ceiling domes & cupolas in the half-filled network*  
 In mixed air/water sections, inspect cupolas for high-level feeders. Dry-tooling to a visible rim may reveal a tubes’ continuation once submerged a few metres farther on.
@@ -66,9 +75,8 @@ In mixed air/water sections, inspect cupolas for high-level feeders. Dry-tooling
 - [Trip - Murra El Elevyn - 2025 Oct]({{< relref "posts/Trip - Murra El Elevyn - 2025 Oct.md" >}}) 
 - [Trip - Murra-Cocklebiddy - 2026 Aug]({{< relref "posts/Trip - Murra-Cocklebiddy - 2026 Aug.md" >}})
 
----
-
 # Maps
+
 ## Mitch's Maze MNemo Survey
 ![[6N47 - Murra-El-Elevyn (Porter, 2024) - MAP with Mitchs Maze MNemo Survey.pdf]]
 6N47 - Murra-El-Elevyn (Porter, 2024) - MAP with Mitchs Maze MNemo Survey.pdf
@@ -99,9 +107,10 @@ Caves of the Nullarbor 1967 p6 (N47-CEG30047)
 
 [st1.asflib.net - Joe N. Jennings Slide Box #1011 - Nullarbor - Maps and Sketches](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201011/JNJ-S-1011-09.html)
 
----
+- CaveDB - 19_Feb_2026_1_15_02_pm - c74c3ec2-41c22713.kml — [Source](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/58b897a1-3601-40dd-aebb-aa97aa5dd3a7.kml)
 
 # References
+
 Nullarbor Field Guide 2023 final.pdf
 [Murra El Elevyn (6N47) - cavedivers.com.au](https://www.cavedivers.com.au/index.cfm?action=details&leca=1831&module=BUSINESSDIRECTORY&pageMode=indiv&page_id=1404675&utm_source= "Murra El Elevyn (6N47) - cavedivers.com.au")
 https://www.cavediving.net.au/index.php/siteinfo/?site=5
@@ -112,3 +121,34 @@ Briefing Docs (Dive Addiction)
 - ![Murra P3](/images/Murra%20-%20p3.jpg)
 - ![Murra P4](/images/Murra%20-%20p4.jpg)
 - ![Murra P5](/images/Murra%20-%20p5.jpg)
+
+- **https://www.youtube.com/watch?v=yRo_DAsBpeg:** Youtube video showing significant cave ladder required
+
+## Images
+- ![Murra El Elevyn Cave Cavedb 419690779 1042849297016885 2642693015512437405 N 271dbead 41c22713](/images/Murra%20El%20Elevyn%20Cave%20-%20CaveDB%20-%20419690779_1042849297016885_2642693015512437405_n%20-%20271dbead-41c22713.jpg)
+- ![Murra El Elevyn Cave Cavedb 419318738 1520079201869287 2485267095906773903 N 1f580aab 41c22713](/images/Murra%20El%20Elevyn%20Cave%20-%20CaveDB%20-%20419318738_1520079201869287_2485267095906773903_n%20-%201f580aab-41c22713.jpg)
+- ![Murra El Elevyn Cave Cavedb 20260219 150209 238c6da6 41c22713](/images/Murra%20El%20Elevyn%20Cave%20-%20CaveDB%20-%2020260219_150209%20-%20238c6da6-41c22713.jpg)
+- CaveDB - MurraElElevyn_HP_V1_1 - 2c2b130a-41c22713.pdf — [Source](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/2c57ba4a-a97f-49bd-8d1c-32328026f156.pdf)
+- [dji_fly_20260219_124934_0041_1771474182058_video_beautify.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/48b59d7b-c3f3-443a-aaf8-bced76ef878b.mp4)
+
+# Details
+
+## Identification
+
+- **Feature type:** Cave
+
+## Location
+
+- **Coordinates:** -32.04278570253757, 126.03812551714987
+- **Altitude:** 90 m
+- **Address:** Unnamed Road, Shire of Dundas, Western Australia, AUS, 6443
+- **Checked:** false
+
+## Cave and exploration data
+
+- **Cave rating:** Cave
+- **Highest cave rating:** Advanced
+- **Vertical access:** Yes
+- **Exploration potential:** Medium
+- **Tourism potential:** Medium
+- **Goes to water:** Yes

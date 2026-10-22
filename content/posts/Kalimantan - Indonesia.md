@@ -1,23 +1,26 @@
 ---
-title: Kalimantan - Indonesia
+title: "Kalimantan - Indonesia"
 created: 2026-06-19
 updated: 2026-09-23
 status: seed
 draft: false
 tags:
   - diving
-region: "[[Oceania]]"
-sub-region: "[[Indonesia]]"
-cavedb:
+region: "[[Indonesia]]"
 smarttraveller: https://www.smartraveller.gov.au/destinations/asia/indonesia
+catalog-type: "region"
 related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
 ---
-# About
-Marc Mentens running trips March/April each year
+# Sub-regions
+
+
 
 # Caves
 
 
-# References
+
+# About
+
+Marc Mentens running trips March/April each year

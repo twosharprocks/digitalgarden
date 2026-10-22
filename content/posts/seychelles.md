@@ -1,44 +1,31 @@
 ---
-title: Seychelles
+title: "Seychelles"
 created: 2026-06-19
 updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-region: Africa
-sub-region:
-cavedb:
+region: "[[Africa]]"
 smarttraveller: https://www.smartraveller.gov.au/destinations/africa/seychelles
+catalog-type: "region"
 related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[Africa]]"
 ---
-Seychelles is listed under [Africa]({{< relref "posts/africa.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
+# Sub-regions
 
-# Cave Regions
-- No local cave regions listed yet.
 
-# Caves & Dive Sites
-- See the linked cave regions above.
 
-# Backlinks
-- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
-- [Diving]({{< relref "posts/diving.md" >}})
+# Caves
 
----
-# Existing Notes
+
+
 # About
+
 Mahé & Praslin Karst Pockets
 - **Why:** Rare karst limestone pockets on granitic islands, overlooked due to small size.
 - **Status:** No formal cave exploration documented; pristine diving environment.
 - **Potential:** Tropical sinkhole or shallow cave diving in marine-influenced karst.
 - **Best Season:** May to October.
-
-# Caves
-- 
-# Trips
-- 
----
-# References

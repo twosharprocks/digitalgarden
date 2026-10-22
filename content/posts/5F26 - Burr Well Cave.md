@@ -8,26 +8,17 @@ tags:
   - diving
   - caving
   - flinders-ranges
-region: "[[Flinders Ranges]]"
-cavedb:
+region: "[[South Australia]]"
 related:
-  - "[[Caving]]"
+  - "[[Caving - Ideas]]"
   - "[[Diving]]"
   - "[[Flinders Ranges]]"
   - "[[empty files]]"
-rating:
+catalog-type: "cave"
+sub-region: "[[Flinders Ranges]]"
 ---
-# Other Descriptions
+# About
+
 ## About
 
 ![5F26 Burr Well Cave (entrance)](/images/5F26%20-%20Burr%20Well%20Cave%20%28Entrance%29.jpg)
-## Logged Dives
-
----
-
-# Maps
-_No maps are currently linked._
-
----
-
-# References

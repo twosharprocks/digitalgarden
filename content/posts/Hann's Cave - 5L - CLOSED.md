@@ -8,25 +8,12 @@ tags:
   - diving
   - caving
   - mount-gambier
-region: "[[Mount Gambier - Lower South East]]"
-cavedb:
+region: "[[South Australia]]"
 related:
   - "[[Diving]]"
   - "[[Cave Entries to Write]]"
   - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
-rating:
+catalog-type: "cave"
+sub-region: "[[Mount Gambier - Lower South East]]"
 ---
-# Other Descriptions
-## About
-
-## Logged Dives
-
----
-
-# Maps
-_No maps are currently linked._
-
----
-
-# References

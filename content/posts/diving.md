@@ -16,7 +16,7 @@ related:
   - "[[Photogrammetry]]"
   - "[[CaveDB]]"
   - "[[Exploration]]"
-  - "[[Caving]]"
+  - "[[Caving - Ideas]]"
   - "[[About]]"
 ---
 Dive sites, cave regions, exploration notes, gear, trips, photogrammetry, and cave-diving projects.
@@ -28,6 +28,6 @@ Dive sites, cave regions, exploration notes, gear, trips, photogrammetry, and ca
 - [Photogrammetry]({{< relref "posts/photogrammetry.md" >}}) - mapping, survey, and 3D reconstruction notes.
 - [CaveDB]({{< relref "posts/cavedb.md" >}}) - cave database and data-management notes.
 - [Exploration]({{< relref "posts/exploration.md" >}}) - broader exploration notes and expedition thinking.
-- [Caving]({{< relref "posts/caving.md" >}}) - dry cave and caving-adjacent notes.
+- Caving - Ideas - dry cave and caving-adjacent notes.
 
 

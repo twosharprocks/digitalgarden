@@ -148,14 +148,14 @@ def build_page_index(content_dir: Path):
                 if t:
                     keys.add(norm_key(t))
             # aliases can be inline list or block list; grab simple cases
-            inline_aliases = re.search(r"(?mi)^\s*aliases\s*:\s*(\[.*\])\s*$", fm)
+            inline_aliases = re.search(r"(?mi)^\s*(?:aliases|obsidian_aliases)\s*:\s*(\[.*\])\s*$", fm)
             if inline_aliases:
                 raw = inline_aliases.group(1)
                 for a in re.findall(r"'([^']+)'|\"([^\"]+)\"|([^\s,\[\]]+)", raw):
                     ali = next((x for x in a if x), None)
                     if ali: keys.add(norm_key(ali))
             block_aliases = re.search(
-                r"(?ms)^\s*aliases\s*:\s*\n((?:\s*-\s*.+\n?)*)",
+                r"(?ms)^\s*(?:aliases|obsidian_aliases)\s*:\s*\n((?:\s*-\s*.+\n?)*)",
                 fm,
             )
             if block_aliases:
@@ -175,6 +175,10 @@ def sanitize_hugo_front_matter(text: str) -> str:
         return text
 
     front_matter = m.group(1)
+    # Cave catalogue aliases name the same Obsidian note; they are not Hugo
+    # redirect paths. Preserve the values without generating alias pages.
+    if re.search(r'(?mi)^catalog-type:\s*["\']?(?:cave|region)["\']?\s*$', front_matter):
+        front_matter = re.sub(r"(?mi)^aliases\s*:", "obsidian_aliases:", front_matter)
 
     def sanitize_published(match: re.Match) -> str:
         prefix = match.group(1)

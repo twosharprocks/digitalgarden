@@ -11,7 +11,7 @@ related:
 ---
 Priorities 
 - Split: 
-- Align: Murra, La Ode Palsu, La Ode Panu, 
+- Align: Murra, [La Ode Palsu]({{< relref "posts/La Ode Palsu.md" >}}), [La Ode Panu]({{< relref "posts/La Ode Panu.md" >}}), 
 
 For Will
 - Match Components: Kaidaiula? La Hambe? Madura, Limekiln-McCavity, 

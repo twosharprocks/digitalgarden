@@ -9,13 +9,13 @@ tags:
   - caving
   - albania
 region: "[[Albania]]"
-cavedb:
 related:
   - "[[Diving]]"
   - "[[Albania]]"
-rating:
+catalog-type: "cave"
 ---
-# Other Descriptions
+# About
+
 ## To Do
 Dive 
 Dry 
@@ -28,13 +28,7 @@ Divers who explored it in 2025: [Bartłomiej Pitala](https://www.facebook.com/gr
 
 [Suggested connection to Like Virua?](https://inca-al.org/en/activities/international-day-of-biodiversity-22-may-2014)
 
----
-
-# Maps
-_No maps are currently linked._
-
----
-
 # References
+
 [Visit-gjirokaster.com - Skotini Cave](https://visit-gjirokastra.com/article/the_cave_of_skotini)
 [2025 Exploration - Facebook Post](https://www.facebook.com/groups/795192310689730/permalink/2764947903714151)

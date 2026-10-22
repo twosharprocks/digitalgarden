@@ -35,13 +35,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Ai-Content</title>
-				<link>/tags/ai-content/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>/tags/ai-content/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Air-Fryer</title>
 				<link>/tags/air-fryer/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -123,6 +116,13 @@
 				<link>/tags/chorizo/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>/tags/chorizo/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Christmas-Island</title>
+				<link>/tags/christmas-island/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/tags/christmas-island/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -441,6 +441,13 @@
 				<description></description>
 			</item>
 			<item>
+				<title>Sri-Lanka</title>
+				<link>/tags/sri-lanka/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/tags/sri-lanka/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>Study</title>
 				<link>/tags/study/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -487,6 +494,13 @@
 				<link>/tags/victoria/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>/tags/victoria/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Western-Australia</title>
+				<link>/tags/western-australia/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/tags/western-australia/</guid>
 				<description></description>
 			</item>
 			<item>

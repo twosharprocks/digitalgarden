@@ -10,9 +10,9 @@ tags:
   - diving
   - exploration
   - interests
-related: 
+related:
   - "[[Personal]]"
-  - "[[Caving]]"
+  - "[[Caving - Ideas]]"
   - "[[Writing]]"
   - "[[Diving]]"
   - "[[5L20 - Englebrecht's West]]"

@@ -9,7 +9,6 @@ tags:
   - caving
   - japan
 region: "[[Japan]]"
-cavedb:
 related:
   - "[[Diving]]"
   - "[[Article - Exploring Japan’s Hidden Rivers]]"
@@ -18,24 +17,9 @@ related:
   - "[[2026-05-11]]"
   - "[[Weekly - 2026-05-10]]"
   - "[[Japan]]"
-rating:
+catalog-type: "cave"
+sub-region: "[[Akiyoshidai]]"
 ---
-# Other Descriptions
-## To Do
-Diving
-Dry 
-Photogrammetry
-
-## About
-
-## Logged Dives
-
----
-
-# Maps
-_No maps are currently linked._
-
----
-
 # References
+
 - [Google Maps - Akiyoshidai Cave](https://maps.app.goo.gl/tv18VhciYJeyRJpH6)

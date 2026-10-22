@@ -6,10 +6,10 @@ status: seed
 draft: false
 tags:
   - trips
-related: 
+related:
   - "[[Trips]]"
   - "[[Diving]]"
-  - "[[Caving]]"
+  - "[[Caving - Ideas]]"
 ---
 ---
 - [Cleaning Pans](https://www.instagram.com/p/CfolrADDALA/) Salt, Baking powder, Dishwash, Place Tissues, Pour White vinegar

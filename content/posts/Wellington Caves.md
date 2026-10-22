@@ -1,28 +1,34 @@
 ---
-title: Wellington Caves
+title: "Wellington Caves"
 created: 2026-06-18
-updated: 2026-09-11
+updated: 2026-10-13
 status: seed
 draft: false
 tags:
   - diving
   - caving
   - new-south-wales
-region: "[[New South Wales]]"
-cavedb: https://app.cavedb.net/share/783c6963-cb4f-4bb3-aac1-f2837c9e164b.html
+region: "[[Australia]]"
 related:
   - "[[Diving]]"
   - "[[Trip - Wellington Caves - 2025 Sept]]"
   - "[[New South Wales]]"
-  - "[[CaveDB - Wellington Caves - 783c6963]]"
-rating:
+  - "[[Limekiln-McCavity Cave]]"
+feature_type: "Cave"
+latitude: -32.620924401729894
+longitude: 148.93865704536438
+country: "AUS"
+state: "New South Wales"
+suburb: "Apsley"
+privacy: public
+cavedb: "https://app.cavedb.net/share/783c6963-cb4f-4bb3-aac1-f2837c9e164b.html"
+catalog-type: "cave"
+sub-region: "[[New South Wales]]"
 ---
-# From CaveDB
+# About
+
 Tourist Caves
 
----
-
-# Other Descriptions
 ## About
 [Trip - Wellington Caves - 2025 Sept]({{< relref "posts/Trip - Wellington Caves - 2025 Sept.md" >}})
 
@@ -32,14 +38,21 @@ Accommodation
 ## Caves
 - [Limekiln-McCavity Cave]({{< relref "posts/Limekiln-McCavity Cave.md" >}})
 
----
-
-# Maps
-_No maps are currently linked._
-
----
-
 # References
+
 https://cdg.caves.org.au/CDG-Articles/NSW/JOHNSTON-Wellington2013-OBrien.pdf
 https://lizrogersphotography.com/2012/01/backlighting-in-mccavity-cave/
 https://www.cavedivers.com.au/index.cfm?module=businessdirectory&pagemode=indiv&action=details&page_id=1404644
+
+# Details
+
+## Identification
+
+- **Feature type:** Cave
+
+## Location
+
+- **Coordinates:** -32.620924401729894, 148.93865704536438
+- **Altitude:** 318 m
+- **Address:** 101, Caves Rd, Apsley, New South Wales, AUS, 2820
+- **Checked:** false

@@ -150,20 +150,14 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/time-management/">Time Management</a>
+          <a href="/posts/oscp---access---ad/">OSCP - Access - AD</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/personal/">personal</a>&nbsp;
-            
-            #<a href="/tags/knowledge-management/">knowledge-management</a>&nbsp;
-            
-            #<a href="/tags/interests/">interests</a>&nbsp;
-            
-            #<a href="/tags/creativity/">creativity</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -173,128 +167,69 @@
 
         <div class="post-content">
           
-            <hr>
-<p><em><strong>Use mini keyboard to type before work</strong></em>
-Productivity</p>
+            <h2 id="improved-skills">Improved skills</h2>
 <ul>
-<li>Pomodoro, Meditation, speech-to-text, Eat the frog, alarm to go to bed</li>
-<li>Each evening, plan ahead for the next day. Max 10 things</li>
-<li>Break down tasks, If it&rsquo;ll take &lt;5 mins then do it right now,</li>
-<li>Do what your future self will thank you for, Ask <em>why</em> you don&rsquo;t want to do a thing</li>
-<li>Show up every day - It doesn’t matter how I perform, just show up consistently.</li>
-<li>Practice the basics: Sleep, exercise, diet.
-<ul>
-<li>Wake up early: First hours of day to myself, then go to work tired</li>
-<li>Wim Hof - 2min cold shower at the start of the day</li>
-<li>Set an alarm at night to go to bed</li>
+<li>PHP bypasses</li>
+<li>Windows PrivEsc</li>
+<li>SeManageVolume Privilege Abuse</li>
 </ul>
-</li>
-<li>Have ADHD Days &amp; <a href="https://www.instagram.com/p/DDk833uTYRP/">Autism Nights</a>
+<h2 id="used-tools">Used tools</h2>
 <ul>
-<li>Paint <a href="/posts/wh40k/">WH40k</a>? LEGO?</li>
-<li><em><strong>Dream Bigger</strong></em>: Space Jump, Breakthrough Listen, 50 marathons in 50 days, <a href="/posts/mini-essay---ridiculous-bucket-list/">Mini Essay - Ridiculous Bucket List</a></li>
-</ul>
-</li>
-</ul>
-<p>Meditation</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/time-management/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/timor-leste/">Timor-Leste</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/caving/">caving</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Timor-Leste is listed under <a href="/posts/oceania/">Oceania</a> in <a href="/posts/cave-regions/">Cave Regions</a>.</p>
-<h1 id="cave-regions">Cave Regions</h1>
-<ul>
-<li>No local cave regions listed yet.</li>
-</ul>
-<h1 id="caves--dive-sites">Caves &amp; Dive Sites</h1>
-<ul>
-<li>See the linked cave regions above.</li>
+<li>nmap</li>
+<li>python</li>
+<li>powershell</li>
 </ul>
 <hr>
-<h1 id="about">About</h1>
-<ul>
-<li><strong>Why:</strong> Tectonically uplifted limestone karst; similar geology to adjacent parts of Indonesia.</li>
-<li><strong>Status:</strong> Limited cave documentation; no cave diving.</li>
-<li><strong>Potential:</strong> First exploration of resurgence systems and flooded karst valleys.</li>
-<li><strong>Best Season:</strong> May to October. Best month = September</li>
-</ul>
-<h1 id="trips">Trips</h1>
-<ul>
-<li>Flights daily Darwin to/from Dili</li>
-<li>Previous exploration by Portuguese cavers
-<ul>
-<li>Get Will Passos for Portuguese?</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>Por has dived in Timor-Leste</li>
-<li>Contact <a href="https://csiro.academia.edu/YusenCooper">Alan Yusen Ley Cooper at CSIRO</a>, <a href="https://www.seequent.com/mapping-the-cenotes-with-airborne-em-protecting-aquifers-in-the-yucatan/">mapping cenotes with Airborne EM</a></li>
-<li><a href="https://www.academia.edu/37402660/_Fatuk_Kuak_Hosi_Timor_Lorosae_Caves_of_Timor_Leste">“Fatuk-kuak hosi Timor-Lorosa’e” project</a> (annually since 2016)
-<ul>
-<li>“Caves of Timor-Leste”</li>
-<li>Organised by 4 Portugese Caving clubs</li>
-<li>Bakua Sink (Maubisse, Ainaro), resurgence at Biribui Spring?</li>
-</ul>
-</li>
-<li>Lautém Municipality: Lene Hara Cave, Jerimalai, Ile Kére Kére</li>
-<li>Baucau District: Lilawy Cave (near Kairiri), Wai-lia-bere and Wai-lia-mata (near Darasula), Lilawehú (resurgence near Karavela)</li>
-<li>Manatuto District: Laili</li>
-<li>Bobonaro District: Marobo Hot Springs</li>
-</ul>
-<h1 id="caves">Caves</h1>
-<p>| Meal | Without Id</p>
+<h1 id="information-gathering">Information Gathering</h1>
+<p>Scanned all TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nmap -p- -vvv -oN access.nmap 192.168.230.187
+</span></span></code></pre></div><p>Enumerated open TCP ports:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">PORT      STATE SERVICE          REASON
+</span></span><span class="line"><span class="cl">53/tcp    open  domain           syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">80/tcp    open  http             syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">88/tcp    open  kerberos-sec     syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">135/tcp   open  msrpc            syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">139/tcp   open  netbios-ssn      syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">389/tcp   open  ldap             syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">445/tcp   open  microsoft-ds     syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">464/tcp   open  kpasswd5         syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">593/tcp   open  http-rpc-epmap   syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">636/tcp   open  ldapssl          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">3268/tcp  open  globalcatLDAP    syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">3269/tcp  open  globalcatLDAPssl syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">5985/tcp  open  wsman            syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">9389/tcp  open  adws             syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49666/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49668/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49673/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49674/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49677/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49704/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span><span class="line"><span class="cl">49791/tcp open  unknown          syn-ack ttl <span class="m">125</span>
+</span></span></code></pre></div><hr>
+<h1 id="enumeration">Enumeration</h1>
+<h2 id="port-53---dns">Port 53 - DNS</h2>
+<p>No enumeration conducted</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/timor-leste/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---access---ad/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/tommy-grahams-cave---6n56/">Tommy Graham&rsquo;s Cave - 6N56</a>
+          <a href="/posts/oscp---active-directory/">OSCP - Active Directory</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/caving/">caving</a>&nbsp;
-            
-            #<a href="/tags/nullarbor/">nullarbor</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -304,34 +239,36 @@ Productivity</p>
 
         <div class="post-content">
           
-            <h1 id="other-descriptions">Other Descriptions</h1>
-<h2 id="about">About</h2>
-<p>The entrance to the cave is a large doline 50m in diameter. The obvious route into the doline leads to short cave below the Northwest cliff line.</p>
-<p>The main cave has been described as a “wombat- sized hole” which is found in the Southeast end of the doline, about 3m down from the level of the plain. There is a visitor book on a rock shelf in the entrance. The way on is not obvious and goes through a rock squeeze at the end of the low entrance chamber.</p>
+            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
+<h1 id="tj-null---6">TJ Null - 6</h1>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Access - Intermediate</li>
+<li><input disabled="" type="checkbox"> Hokkaido - Intermediate</li>
+<li><input disabled="" type="checkbox"> Resourced - Intermediate</li>
+<li><input disabled="" type="checkbox"> Heist - Hard</li>
+<li><input disabled="" type="checkbox"> Vault - Hard</li>
+<li><input disabled="" type="checkbox"> Nagoya - Hard</li>
+</ul>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/tommy-grahams-cave---6n56/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---active-directory/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/tonga/">Tonga</a>
+          <a href="/posts/oscp---algernon---windows/">OSCP - Algernon - Windows</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/expeditions/">expeditions</a>&nbsp;
-            
-            #<a href="/tags/caving/">caving</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -341,32 +278,28 @@ Productivity</p>
 
         <div class="post-content">
           
-            <h1 id="about">About</h1>
-<p>Best time is April to October (Dry season). Excellent visibility and the chance to encounter humpback whales during their migration (June to November).</p>
-<p>Tonga&rsquo;s geological landscape includes islands with uplifted coral limestone formations, leading to the development of karst topography characterized by caves, sinkholes, and underground drainage systems. Notably, <strong>ʻEua Island</strong> exhibits extensive limestone formations with karst features, including numerous caves formed through the dissolution of carbonate rocks.</p>
-<h1 id="caves">Caves</h1>
-<h2 id="all-linked-cave-records">All linked cave records</h2>
-<p>| Meal | Without Id</p>
+            <h1 id="algernon">Algernon</h1>
+<p>This was my first shift across from Linux into Windows, and I&rsquo;ll freely admit to being a little overwhelmed at all the open ports and not knowing quite where to start. Realising the FTP had an anonymous login was straight forward, and identifiying the <code>admin</code> user from the logs was nice, but it turned out to be a deadend and the real solution was 10x easier than what I&rsquo;d experienced with the last few Linux boxes - I really needed to reset my expectations.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/tonga/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---algernon---windows/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/trip---antarctica---2025-nov/">Trip - Antarctica - 2025 Nov</a>
+          <a href="/posts/oscp---astronaut---linux/">OSCP - Astronaut - Linux</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/trips/">trips</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
           </span>
         
@@ -376,211 +309,46 @@ Productivity</p>
 
         <div class="post-content">
           
-            <hr>
-<h1 id="trip-log">Trip Log</h1>
-<p><em><strong>Dates: 13-11 to 30-11</strong></em></p>
-<ul>
-<li>2025-11-13 Thurs: Travel
-<ul>
-<li>eticket - ADL-USH Return - kiwi - booking 685764266.pdf</li>
-<li><em>Fly: 0605-0750 QF670 ADL-MEL (Duration 1:15)</em>
-<ul>
-<li>Melbourne: Wait 4:40</li>
-</ul>
-</li>
-<li><em>Fly: 1230-1110 LA804 MEL-SCL (Duration 12:40)</em>
-<ul>
-<li>Santiago (Chile): Wait 4:25</li>
-</ul>
-</li>
-<li><em>Fly: 1535-1740 AR1283 SCL-AEP (Duration 2:05)</em>
-<ul>
-<li>Buenos Aires (Argentina) Overnight: Wait 10:10</li>
-<li><a href="https://www.sleepinginairports.net/guides/buenos-aires-aeroparque-airport-guide.htm">AEP (SleepingInAirports.com)</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>2025-11-14 Fri: Arrive in Ushuaia (Argentina)
-<ul>
-<li><em>Fly: 0350-0730 AR1886 AEP-USH (Duration 3:40)</em></li>
-<li>Stay: <a href="https://rooms.kiwi.com/hotel/ar/antartica-hostel.en-gb.html">Antarctica Hostel</a> 3 nights
-<ul>
-<li>Check-In from 1300</li>
-<li><a href="https://maps.app.goo.gl/WTSHwv1bsxHhWw978">Walk from Airport to Hostel - 6km</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>2025-11-15 Sat: Ushuaia
-<ul>
-<li>Train Ride: <a href="https://www.tripadvisor.com.au/AttractionProductReview-g312855-d11478145-End_of_the_World_Train_Ticket-Ushuaia_Province_of_Tierra_del_Fuego_Patagonia.html">Tierra del Fuego National park</a>?</li>
-<li><a href="https://www.getyourguide.com/ushuaia-l1851/ushuaia-360deg-adventure-on-a-four-wheeler-with-trekking-and-lunch-t1098440/?ranking_uuid=b9f792dd-bbbb-4f5e-a37a-ff9830be48cf">4Wheeler &amp; Trek</a>?</li>
-<li><a href="https://www.getyourguide.com/ushuaia-l1851/ushuaiatrekking-glaciar-ice-caves-wlunch-and-transfer-t1063453/?ranking_uuid=b9f792dd-bbbb-4f5e-a37a-ff9830be48cf">Trek &amp; Ice Caves</a>?</li>
-</ul>
-</li>
-<li>2025-11-16 Sun: Ushuaia
-<ul>
-<li><a href="https://www.tripadvisor.com.au/Attraction_Review-g312855-d3953147-Reviews-Ushuaia_Divers-Ushuaia_Province_of_Tierra_del_Fuego_Patagonia.html">Ushuaia Divers</a></li>
-<li>0900 Meet at Club Náutico AFASyN
-<ul>
-<li>Cancelled due to weather
-=</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>2025-11-17 Mon: Day 1: Embarkation
-<ul>
-<li>1000 Check-out Antarctica Hostel</li>
-<li>0800-1130: Luggage drop @ <a href="https://maps.app.goo.gl/rmyofbPieayzxH2Y9">Avenida Maipú 1210</a></li>
-<li>1600-1700: Embarkation @ <a href="https://maps.app.goo.gl/BZheT9vAj4D4Zza4A">Av. Prefectura Naval Argentina 470</a>
-<ul>
-<li><a href="https://oceanwide-expeditions.com/antarctica/cruises/hds22-25-antarctica-discovery-and-learning-voyage">Antarctica HDS22-25 - Discovery and learning voyage</a></li>
-<li>Booking Number #181959143</li>
-<li>Expedition Boarding Pass: boarding-pass-181959143.pdf</li>
-<li>Cabin 309</li>
-</ul>
-</li>
-<li>Met Stacey, Soori, Beth, Jeanette (&ldquo;Cheesies&rdquo; named by Victoria)</li>
-<li>Mandatory Safety Brief</li>
-<li>Bad weather in Drake Passage
-<ul>
-<li>Head to Staten Island to wait it out</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>2025-11-18 Tue: Day 2: Drake Passage
-<ul>
-<li>Cruise around Staten Island</li>
-</ul>
-</li>
-<li>2025-11-19 Wed: Day 3: Drake Passage
-<ul>
-<li>Mandatory IAATO briefing</li>
-<li>Kayaking Briefing</li>
-</ul>
-</li>
-<li>2025-11-20 Thu: Day 4: Antarctica
-<ul>
-<li>Saw South Shetland (first Antarctic Islands - incredible visibility)</li>
-<li>Saw Penguins off bow</li>
-<li>Kayak Gear - sizing and Issue</li>
-<li>Final shore gear check &amp; sign-off</li>
-<li>Orca surrounded ship near entrance to Deception</li>
-<li>Landed at Deception Island
-<ul>
-<li>Zodiacs around headland</li>
-<li>Walk up beach to windows (very hot)</li>
-<li>Stacey sick from Zodiac, head back to ship early</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>2025-11-21 Fri: Day 5: Antarctic Peninsula
-<ul>
-<li>Danko Island
-<ul>
-<li>First kayak, paddled all the way around, lots of penguins and shallow/clear water</li>
-</ul>
-</li>
-<li>Neko Harbour
-<ul>
-<li>Covered 5km in glassy water. Saw avalanches, waterfall of snow</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>2025-11-22 Sat: Day 6: Antarctic Peninsula
-<ul>
-<li>Palavert Point
-<ul>
-<li>Kayaking with Jeanette, Upclose with sleeping whale</li>
-</ul>
-</li>
-<li>Graham Passage
-<ul>
-<li>Kayak with Jeanette, Rock kissing, Upclose with feeding juvenile humpback (filmed underwater)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>2025-11-23 Sun: Day 7: Antarctic Peninsula
-<ul>
-<li>Brown Station
-<ul>
-<li>Kayaking with Jeanette, clown costume, lots of penguins</li>
-</ul>
-</li>
-<li>Stoney Point
-<ul>
-<li>Kayaking with Beth, saw leopard seal</li>
-<li>Polar Plunge - double dip</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>2025-11-24 Mon: Day 8: South Shetland Islands
-<ul>
-<li>Yankee Harbour
-<ul>
-<li>Kayaking with Santiago, saw</li>
-</ul>
-</li>
-<li>Edinburgh Hill
-<ul>
-<li>Kayaking with Jeanette, risky waves, Jeanette enjoying swell, Nick led group close to formation while we stayed out</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>2025-11-25 Tue: Day 9: Drake Passage</li>
-<li>2025-11-26 Wed: Day 10: Drake Passage
-=</li>
-<li>2025-11-27 Thu: Disembark &amp; Leave Ushuaia
-<ul>
-<li><em>Fly: 1940-2310 AR1877 USH-AEP (Duration 3:30)</em>
-<ul>
-<li>Buenos Aires: Wait 7:30 (Overnight)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>2025-11-28 1 Fri: Travel
-<ul>
-<li><em>Fly: 0640-0905 AR1280 AEP-SCL (Duration 2:25)</em>
-<ul>
-<li>Santiago: Wait 3:55</li>
-</ul>
-</li>
-<li><em>Fly: 1300-1730+1(Sat) LA801 SCL-AKL (Duration 12:30)</em></li>
-</ul>
-</li>
-<li>2025-11-29 Sat: Travel
-<ul>
-<li>1730 Land in Auckland
-<ul>
-<li>Auckland (Overnight): Wait 23:00</li>
-<li>Stay with Darryl &amp; See Mt G Kiwis</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>2025-11-30 1 Sun: Arrive in Adelaide
-<ul>
-<li><em>Fly: 1630-1850 QF176 AKL-ADL (Duration 4:50)</em></li>
-</ul>
-</li>
-</ul>
-<h1 id="packing-list">Packing List</h1>
-<p>Clothes</p>
+            <h1 id="astronaut">Astronaut</h1>
+<p>Much quicker and more useful experience than <code>Exfiltrated</code>. Did my own enumeration, and used the <a href="https://medium.com/@ardian.danny/oscp-practice-series-20-proving-grounds-astronaut-627bc41a86ef">walkthrough</a> only as a guide when getting stuck.</p>
+<p>Discovering &ldquo;blind&rdquo; exploits was interesting, however it made sense that if the exploit isn&rsquo;t generating any output and not creating a reverse shell, that you might need to add a <code>-c</code> command with a line of bash to establish a reverse shell instead. Although once again all the instructions were in the script if you looked - <em><strong>always read the script!</strong></em></p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/trip---antarctica---2025-nov/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/oscp---astronaut---linux/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/oscp---authby---windows/">OSCP - Authby - Windows</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="authby">Authby</h1>
+<p>These Windows are doing my absolute head in. I spent hours on this box the day before following a multiple walkthroughs to the letter and got nowhere. I and wound up feeling so frustrated at not receiving even an initial shell that I marked this box as &ldquo;Aborted&rdquo; and shut down for the night - I figured there was no point pushing on and to just move on to the next Windows box.</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/oscp---authby---windows/">[Read more]</a>
           </div>
         
       </article>

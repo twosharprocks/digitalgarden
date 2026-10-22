@@ -8,25 +8,20 @@ tags:
   - diving
   - caving
   - flinders-ranges
-region: "[[Flinders Ranges]]"
-cavedb:
+region: "[[South Australia]]"
 related:
-  - "[[Caving]]"
+  - "[[Caving - Ideas]]"
   - "[[Diving]]"
   - "[[Flinders Ranges]]"
-rating:
+catalog-type: "cave"
+sub-region: "[[Flinders Ranges]]"
 ---
-# Other Descriptions
+# About
+
 ## About
 
 ![5F29 Thunderdrum Top Entrance](/images/5F29%20-%20Thunderdrum%20-%20Top%20Entrance.jpg)
-## Logged Dives
-
----
 
 # Maps
+
 ![5F29 Thunderdrum (cegsa, 1997) MAP](/images/5F29%20-%20Thunderdrum%20%28CEGSA%2C%201997%29%20-%20MAP.jpg)
-
----
-
-# References

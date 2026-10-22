@@ -28,12 +28,13 @@ related:
 ## Interest - Highest
 - [Oceania]({{< relref "posts/Oceania.md" >}})
 	- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - August
+		- Christmas Island Karst Exploration Project 
 	- [Sulawesi]({{< relref "posts/Sulawesi.md" >}}) - Return with survey plan?
-	- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}}) (Q4)
+	- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}}) (Q1)
 	- [Philippines]({{< relref "posts/philippines.md" >}}) (Q1)
 	- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - September
 	- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Tommy Grahams, Pannikin Plains, & surrounding area
-- Asia
+- Asia 
 	- [Laos]({{< relref "posts/laos.md" >}}), [Vietnam]({{< relref "posts/vietnam.md" >}}), [Thailand]({{< relref "posts/thailand.md" >}}), [Malaysia]({{< relref "posts/malaysia.md" >}})
 - [Europe]({{< relref "posts/europe.md" >}})
 	- [Malta - Gozo]({{< relref "posts/Malta - Gozo.md" >}}) (Q3)
@@ -49,15 +50,13 @@ related:
 		- [Portugal]({{< relref "posts/portugal.md" >}}), [Spain]({{< relref "posts/spain.md" >}}), [France]({{< relref "posts/france.md" >}}), [Mallorca - Spain]({{< relref "posts/Mallorca - Spain.md" >}}), [Morocco]({{< relref "posts/morocco.md" >}}), [Sardinia - Italy]({{< relref "posts/Sardinia - Italy.md" >}}), [Sicily - Italy]({{< relref "posts/Sicily - Italy.md" >}})
 - Asia: [Malaysia]({{< relref "posts/malaysia.md" >}})
 - Central Asia: 
-	- [Georgia]({{< relref "posts/georgia.md" >}}), [Kazakhstan]({{< relref "posts/kazakhstan.md" >}}), [Kyrgyzstan]({{< relref "posts/kyrgyzstan.md" >}}), [Armenia]({{< relref "posts/armenia.md" >}}), 
+	- [Georgia]({{< relref "posts/georgia.md" >}}), [Kazakhstan]({{< relref "posts/kazakhstan.md" >}}), [Kyrgyzstan]({{< relref "posts/kyrgyzstan.md" >}}), [Armenia]({{< relref "posts/armenia.md" >}}) 
 
 - [Oceania]({{< relref "posts/Oceania.md" >}})
-	- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - June
 	- [Cook Islands]({{< relref "posts/Cook Islands.md" >}})
-	- [Sulawesi]({{< relref "posts/Sulawesi.md" >}})
-	- [West Timor - Indonesia]({{< relref "posts/West Timor - Indonesia.md" >}})
+	- [West Timor]({{< relref "posts/West Timor.md" >}})
 	- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}})
-	- [West Papua - Indonesia]({{< relref "posts/West Papua - Indonesia.md" >}})
+	- [West Papua]({{< relref "posts/West Papua.md" >}})
 	- [New Caledonia]({{< relref "posts/New Caledonia.md" >}})
 	- [Solomon Islands]({{< relref "posts/Solomon Islands.md" >}}) 
 	- [Samoa]({{< relref "posts/samoa.md" >}}) & [Tonga]({{< relref "posts/tonga.md" >}})
@@ -69,7 +68,7 @@ related:
 	- [Tanzania]({{< relref "posts/tanzania.md" >}})
 
 ## Interest - Good
-- Americas: [Bahamas]({{< relref "posts/bahamas.md" >}}), [Belize]({{< relref "posts/belize.md" >}}), [Brazil]({{< relref "posts/brazil.md" >}}), [Cayman Islands]({{< relref "posts/Cayman Islands.md" >}}), [Jamaica]({{< relref "posts/jamaica.md" >}}), [Florida]({{< relref "posts/florida.md" >}}), [Yucatan - Mexico]({{< relref "posts/Yucatan - Mexico.md" >}})
+- Americas: [Bahamas]({{< relref "posts/bahamas.md" >}}), [Belize]({{< relref "posts/belize.md" >}}), [Brazil]({{< relref "posts/brazil.md" >}}), [Cayman Islands]({{< relref "posts/Cayman Islands.md" >}}), [Jamaica]({{< relref "posts/jamaica.md" >}}), [Florida]({{< relref "posts/florida.md" >}}), [Yucatan]({{< relref "posts/Yucatan.md" >}})
 - Europe: [Mallorca - Spain]({{< relref "posts/Mallorca - Spain.md" >}}) [Iceland]({{< relref "posts/iceland.md" >}})
 - Africa: [Nigeria]({{< relref "posts/nigeria.md" >}}), [Zimbabwe]({{< relref "posts/zimbabwe.md" >}})
 - Asia: [Mongolia]({{< relref "posts/mongolia.md" >}}), [Bhutan]({{< relref "posts/bhutan.md" >}}), [China]({{< relref "posts/china.md" >}}), [Moluccas - Indonesia]({{< relref "posts/Moluccas - Indonesia.md" >}}), [Sri Lanka]({{< relref "posts/Sri Lanka.md" >}}), [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}}) - CCR only fun trip?

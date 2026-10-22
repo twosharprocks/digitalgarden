@@ -1,40 +1,27 @@
 ---
-title: Arkansas
+title: "Arkansas"
 created: 2026-06-19
 updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-region: North America
-sub-region:
-cavedb:
+region: "[[United States]]"
 smarttraveller: https://www.smartraveller.gov.au/destinations/americas/united-states-america
+catalog-type: "region"
 related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[North America]]"
 ---
-Arkansas is listed under [North America]({{< relref "posts/North America.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
+# Sub-regions
 
-# Cave Regions
-- No local cave regions listed yet.
 
-# Caves & Dive Sites
-- See the linked cave regions above.
-
-# Backlinks
-- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
-- [Diving]({{< relref "posts/diving.md" >}})
-
----
-# Existing Notes
-# About
-Show Caves with "bottomless" lakes https://www.facebook.com/groups/2376713979319634/permalink/3969327820058234
 
 # Caves
-- 
-# Trips
-- 
----
-# References
+
+
+
+# About
+
+Show Caves with "bottomless" lakes https://www.facebook.com/groups/2376713979319634/permalink/3969327820058234

@@ -15,24 +15,5 @@ related:
   - "[[Trip - Thailand - Boh Yai Mines - 2027 Jan]]"
   - "[[Thailand]]"
 region: "[[Thailand]]"
-cavedb:
-rating:
+catalog-type: "cave"
 ---
-# Other Descriptions
-## To Do
-Diving
-Dry 
-Photogrammetry
-
-## About
-
-## Logged Dives
-
----
-
-# Maps
-_No maps are currently linked._
-
----
-
-# References

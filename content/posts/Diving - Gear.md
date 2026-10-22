@@ -1,7 +1,7 @@
 ---
 title: Diving - Gear
 created: 2026-01-26
-updated: 2026-10-11
+updated: 2026-10-17
 status: tree
 draft: false
 tags:
@@ -51,8 +51,12 @@ Video Lights:
 - [3rd person Backpack Mount ($99)](https://store.insta360.com/product/third_person_backpack_mount)
 - [GoPro HERO12 Black ($500)](https://www.amazon.com.au/GoPro-CHDHX-121-RW-HERO12-Black/dp/B0CF3VVTLG/ref=pd_ci_mcx_mh_mcx_views_3_image)
 # Suits
-* Drysuit - [Seaskin](https://www.seaskin.co.uk/), [O'Three](https://www.othree.co.uk/drysuit-range/ri-2-100-drysuit/), & [Akuana](https://akuanagear.com/collections/diving-suit/products/tech-diving-drysuit-matrix-akuana)
-* Mobby's - [Front zip dry](https://mobbys-online.com/product/xdd5400e/) & [front zip hybrid](https://mobbys-online.com/product/xdd4000e/)
+* Drysuit 
+	- Trilam: [Seaskin](https://www.seaskin.co.uk/) & [Akuana](https://akuanagear.com/collections/diving-suit/products/tech-diving-drysuit-matrix-akuana)
+	- Neoprene Front Zip: [Beauchat Iceberg](https://www.tradeinn.com/diveinn/en/beuchat-iceberg-pro-dry-suit/137281423/p), [Mobby's Drysuit](https://mobbys-online.com/product/xdd5400e/) & [Mobby's Hybrid](https://mobbys-online.com/product/xdd4000e/)
+	* Neoprene Back Zip: [O'Three](https://www.othree.co.uk/drysuit-range/ri-2-100-drysuit/) 
+* Semi-Dry
+	* [Beauchat X-Trem](https://www.tradeinn.com/diveinn/en/beuchat-semidry-x-trem-monosuit-6.5-mm-semi-dry-suit/137861573/p)
 # DPVs
 * ***[DPV - DiveX BlackTip Tech](https://dive-xtras.com/products/tech-blacktip) - $4,000AUD + 2x12Ah [batteries](https://www.bunnings.com.au/dewalt-18-54v-12-0ah-xr-flexvolt-battery_p0079389) (2x $319)
 	* Serial#: 002-3711 (Built: 2022, Firmware: George 0.4)
@@ -65,7 +69,6 @@ Video Lights:
 * Helmets - [NRS Tactyl](https://www.nrs.com/nrs-tactyl-helmet/py3c) (Speak to Matt Waters)
 # CCR
 *  [Dive Rite ChOptima](https://deepblueventures.com.au/rebreather/optima-cm-ccr) 
-	* [ChOptima Scooter Ring](https://diverite.com/products/o2ptima/o2ptima-cm-scooter-ring/)
 	* [AP Safety Mouthpiece (DGX)](https://www.divegearexpress.com/ap-diving-rebreather-safety-mouthpiece) or [Divesoft Safety Mouthpiece (Paragon)](https://www.paragondivestore.com/products/divesoft-safety-mouthpiece) 
 # Other
 * Cylinder rigging 

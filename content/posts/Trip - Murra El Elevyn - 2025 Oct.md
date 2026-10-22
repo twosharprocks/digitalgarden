@@ -45,9 +45,9 @@ Trip photos: https://photos.app.goo.gl/n9dyvhS3y9WGnorx6
 		- 1230 Leave
 	- *Drive to Nullarbor Roadhouse-Eucla (2hrs)*
 		- 1420 Fuel and loo
-	- *Drive Eucla-Madura Cave*
+	- *Drive Eucla-[Madura Cave]({{< relref "posts/Madura Cave.md" >}})*
 		- 360 camera inside and out of cave
-	- *Drive Madura Cave-Nurina Camp Site*
+	- *Drive [Madura Cave]({{< relref "posts/Madura Cave.md" >}})-Nurina Camp Site*
 		- 360 camera inside cave
 		- Setup camp, dinner, tea, journal
 		- *Stay: Nurina Camp Site (Overnight)*

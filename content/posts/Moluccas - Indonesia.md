@@ -1,41 +1,27 @@
 ---
-title: Moluccas - Indonesia
+title: "Moluccas - Indonesia"
 created: 2026-06-19
 updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-region: Oceania
-sub-region:
-cavedb:
+region: "[[Indonesia]]"
 smarttraveller: https://www.smartraveller.gov.au/destinations/asia/indonesia
+catalog-type: "region"
 related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[Oceania]]"
 ---
-Moluccas - Indonesia is listed under [Oceania]({{< relref "posts/Oceania.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
+# Sub-regions
 
-# Cave Regions
-- No local cave regions listed yet.
-
-# Caves & Dive Sites
-- See the linked cave regions above.
-
-# Backlinks
-- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
-- [Diving]({{< relref "posts/diving.md" >}})
-
----
-# Existing Notes
-# About
 
 
 # Caves
-- 
-# Trips
-- 
----
+
+
+
 # References
+
 https://en.wikipedia.org/wiki/Maluku_Islands

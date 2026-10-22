@@ -39,7 +39,7 @@ Spans the following countries:
 # Caves
 - 
 # Trips
-- [ChatGPT - Dinaric Karst Belt Expedition]({{< relref "posts/ChatGPT - Dinaric Karst Belt Expedition.md" >}})
+- ChatGPT - Dinaric Karst Belt Expedition
 ---
 # References
 - [Dinaric Karst Aquifer System](http://diktas.iwlearn.org/the-diktas-area/project-area)

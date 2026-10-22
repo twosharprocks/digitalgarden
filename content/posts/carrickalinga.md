@@ -10,31 +10,19 @@ tags:
   - south-australia
 related:
   - "[[Diving]]"
-  - "[[Caving]]"
+  - "[[Caving - Ideas]]"
   - "[[South Australia]]"
-region: "[[South Australia]]"
-cavedb:
-rating:
+region: "[[Australia]]"
+catalog-type: "cave"
+sub-region: "[[South Australia]]"
 ---
-# Other Descriptions
-## To Do
-Diving
-Dry 
-Photogrammetry
+# About
 
 ## About
 Reports from Matt Smith (CEGSA) of caves on the headland 
 Dellamere?
 
-## Logged Dives
-
----
-
-# Maps
-_No maps are currently linked._
-
----
-
 # References
+
 - [Wikipedia](https://en.wikipedia.org/wiki/Carrickalinga)
 - [Google Maps](https://maps.app.goo.gl/P51FjQVD2bwBViM78)

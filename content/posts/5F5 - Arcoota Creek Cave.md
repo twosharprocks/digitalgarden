@@ -8,24 +8,14 @@ tags:
   - diving
   - caving
   - flinders-ranges
-region: "[[Flinders Ranges]]"
-cavedb:
+region: "[[South Australia]]"
 related:
-  - "[[Caving]]"
+  - "[[Caving - Ideas]]"
   - "[[Diving]]"
   - "[[Flinders Ranges]]"
-rating:
+catalog-type: "cave"
+sub-region: "[[Flinders Ranges]]"
 ---
-# Other Descriptions
-## About
-
-## Logged Dives
-
----
-
 # Maps
+
 ![5F5 Arcoota Cave (cegsa, 1997) MAP](/images/5F5%20-%20Arcoota%20Cave%20%28CEGSA%2C%201997%29%20-%20MAP.jpg)
-
----
-
-# References

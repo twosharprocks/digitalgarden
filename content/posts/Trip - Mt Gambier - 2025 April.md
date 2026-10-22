@@ -30,7 +30,7 @@ Dates: 18-04 to 22-04
 Dive - Little Blue, ~~Allendale~~
 ~~Dive/Photogram - Here Be Dragons~~
 Photogram - Fossil West
-Photogram - Grace Cave 
+Photogram - [Grace Cave]({{< relref "posts/Grace Cave.md" >}}) 
 Photogram - Graveyard
 Dry - Port Mac to Pics (CaveDB list)
 ~~Visit - Jan for Catch up~~

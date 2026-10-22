@@ -12,7 +12,7 @@ tags:
   - trips
 related:
   - "[[Diving]]"
-  - "[[Caving]]"
+  - "[[Caving - Ideas]]"
   - "[[Trips - Ideas]]"
   - "[[Trips]]"
   - "[[Adventure]]"

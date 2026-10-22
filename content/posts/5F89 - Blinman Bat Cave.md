@@ -8,25 +8,12 @@ tags:
   - diving
   - caving
   - flinders-ranges
-region: "[[Flinders Ranges]]"
-cavedb:
+region: "[[South Australia]]"
 related:
-  - "[[Caving]]"
+  - "[[Caving - Ideas]]"
   - "[[Diving]]"
   - "[[Flinders Ranges]]"
   - "[[empty files]]"
-rating:
+catalog-type: "cave"
+sub-region: "[[Flinders Ranges]]"
 ---
-# Other Descriptions
-## About
-
-## Logged Dives
-
----
-
-# Maps
-_No maps are currently linked._
-
----
-
-# References

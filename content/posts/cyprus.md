@@ -1,35 +1,29 @@
 ---
-title: Cyprus
+title: "Cyprus"
 created: 2026-06-19
 updated: 2026-06-19
 status: seed
 draft: false
 tags:
   - diving
-region: Europe
-sub-region:
-cavedb:
+region: "[[Europe]]"
 smarttraveller: https://www.smartraveller.gov.au/destinations/europe/cyprus
+catalog-type: "region"
 related:
   - "[[Cave Regions]]"
   - "[[Diving]]"
   - "[[Europe]]"
 ---
-Cyprus is listed under [Europe]({{< relref "posts/europe.md" >}}) in [Cave Regions]({{< relref "posts/Cave Regions.md" >}}).
+# Sub-regions
 
-# Cave Regions
-- No local cave regions listed yet.
 
-# Caves & Dive Sites
-- See the linked cave regions above.
 
-# Backlinks
-- [Cave Regions]({{< relref "posts/Cave Regions.md" >}})
-- [Diving]({{< relref "posts/diving.md" >}})
+# Caves
 
----
-# Existing Notes
+
+
 # About
+
 ### **Geological Context**
 - Large parts of **western and southern Cyprus**, especially the **Akamas Peninsula**, **Paphos District**, and **Troodos foothills**, are composed of:
     - **Limestone** 
@@ -40,7 +34,7 @@ Cyprus is listed under [Europe]({{< relref "posts/europe.md" >}}) in [Cave Regio
 
 ---
 ### **Known Cave Systems**
-- **Choirokoitia Cave**, **Ayios Georgios Cave**, and **Moutti tou Avak** are known dry caves.
+- **[Choirokoitia Cave]({{< relref "posts/Choirokoitia Cave.md" >}})**, **[Ayios Georgios Cave]({{< relref "posts/Ayios Georgios Cave.md" >}})**, and **[Moutti tou Avak]({{< relref "posts/Moutti tou Avak.md" >}})** are known dry caves.
 - **Sea caves** (e.g. in Cape Greco and Akamas) are abundant, formed in soft limestone and often accessible by snorkeling or shallow diving.
 - **Submerged inland cave systems** are _not well-documented_, but **there are multiple springs and karstic aquifers** that hint at the possibility of underwater conduits or sumps.
 
@@ -74,22 +68,16 @@ This makes it a **promising target for first-pass cave diving expeditions**, esp
 - Sump investigation in known caves
 - Reconnaissance of semi-submerged sea-level karst features
 
-# Caves
+# Cave Notes
+
 **Republic of Cyprus** - Greek Cypriot–controlled south
-- Kakopetria Karst Spring, 34.9844, 32.9101, Spring at the base of the Troodos range; likely fed by carbonate rocks, high seasonal flow.  
-- Chantara Spring (Platres Region), 34.9247, 32.8649, Clear spring near waterfall; limestone area with potential shallow submerged system.  
-- Agiou Nikolaou Spring (Paphos Forest), 34.9521, 32.6267, Karst resurgence on western slopes of Troodos; limited exploration.  
-- Agios Georgios Spring (Akamas Peninsula), 35.0403, 32.3094, Emergent spring near sea-level in carbonate terrain; high flow in wet season.  
-- Kyperounta Spring, 34.9363, 32.9421, Hill slope spring near carbonate-limestone contact; may conceal shallow conduits.
+- [Kakopetria Karst Spring]({{< relref "posts/Kakopetria Karst Spring.md" >}}), 34.9844, 32.9101, Spring at the base of the Troodos range; likely fed by carbonate rocks, high seasonal flow.  
+- [Chantara Spring]({{< relref "posts/Chantara Spring.md" >}}) (Platres Region), 34.9247, 32.8649, Clear spring near waterfall; limestone area with potential shallow submerged system.  
+- [Agiou Nikolaou Spring]({{< relref "posts/Agiou Nikolaou Spring.md" >}}) (Paphos Forest), 34.9521, 32.6267, Karst resurgence on western slopes of Troodos; limited exploration.  
+- [Agios Georgios Spring]({{< relref "posts/Agios Georgios Spring.md" >}}) (Akamas Peninsula), 35.0403, 32.3094, Emergent spring near sea-level in carbonate terrain; high flow in wet season.
 
 **Northern Cyprus** - Turkish controlled north
-- Antiphonitis Karst Spring, 35.3406, 33.7042, Spring near limestone cliffs above Antiphonitis Monastery; possible resurgence below the Beşparmak range.  
-- Kantara Spring, 35.3747, 33.8976, Emergent spring near Kantara Castle; shallow limestone terrain with limited previous exploration.  
-- Lapithos Karst Spring, 35.3403, 33.1664, Historical spring source near Lapithos; sits at junction of carbonate bedrock and coastal plain.  
-- Five Finger Mountain Spring, 35.3089, 33.4085, Located within karstic ridgeline of Beşparmak Mountains; potential shallow conduit-fed flow.  
-- Alevkaya Forest Spring, 35.3136, 33.6768, Cool water spring in karst forest reserve; minor resurgence that may link to deeper subsurface flow.
-
-# Trips
-- 
----
-# References
+- [Antiphonitis Karst Spring]({{< relref "posts/Antiphonitis Karst Spring.md" >}}), 35.3406, 33.7042, Spring near limestone cliffs above Antiphonitis Monastery; possible resurgence below the Beşparmak range.  
+- [Kantara Spring]({{< relref "posts/Kantara Spring.md" >}}), 35.3747, 33.8976, Emergent spring near Kantara Castle; shallow limestone terrain with limited previous exploration.  
+- [Lapithos Karst Spring]({{< relref "posts/Lapithos Karst Spring.md" >}}), 35.3403, 33.1664, Historical spring source near Lapithos; sits at junction of carbonate bedrock and coastal plain.  
+- [Five Finger Mountain Spring]({{< relref "posts/Five Finger Mountain Spring.md" >}}), 35.3089, 33.4085, Located within karstic ridgeline of Beşparmak Mountains; potential shallow conduit-fed flow.

@@ -45,11 +45,11 @@ Podcast
 - CEGSA Presentation on Sulawesi? On Murra? Thailand?
 
 Writing - Ideas
-- Articles written about each discovery (Eng East, Iddlebiddy, Pines, Murra, Gua Lapahia, Moko Morete) 
+- Articles written about each discovery (Eng East, Iddlebiddy, Pines, Murra, Gua Lapahia, [Moko Morete]({{< relref "posts/Moko Morete.md" >}})) 
 
 Social Media
 - Create #tightsqueezetuesday of Gadi Gap
-- "Josh's Restriction" in La Ode Palsu (Sulawesi) (first time something named after me?)
+- "Josh's Restriction" in [La Ode Palsu]({{< relref "posts/La Ode Palsu.md" >}}) (Sulawesi) (first time something named after me?)
 - Get CCR hours at Burra Mine Pool
 - Explore/Dive Mullamullang Cave - 6N37
 - Migrate all cave data onto Google Earth

@@ -1,7 +1,7 @@
 ---
 title: Writing
 created: 2026-06-19
-updated: 2026-10-13
+updated: 2026-10-14
 status: index
 draft: false
 tags:
@@ -19,6 +19,7 @@ Writing, essays, articles, book projects, older website posts, and ideas to retu
 # Books
 - *[Becoming Martian](https://www.amazon.com.au/gp/product/B07492C61L/)*
 - *[Cosmic Nomad](https://www.amazon.com.au/gp/product/B08FZRTYDW)*
+
 - Book - Cave Diving
 - Book - 101 Things
 - Book - Calling ET

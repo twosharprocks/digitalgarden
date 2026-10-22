@@ -14,4 +14,3 @@ related:
   - "[[Book - Calling ET]]"
   - "[[About]]"
 ---
-Physics - Ideas, [Cosmology]({{< relref "posts/Cosmology.md" >}}), Quantum Computing, Information Theory, [Space]({{< relref "posts/space.md" >}}), Mars, and the big strange questions.

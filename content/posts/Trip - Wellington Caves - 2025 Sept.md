@@ -30,7 +30,7 @@ related:
 	- 0900 - Leave Hay
 	- 1200 - Lunch in Parkes
 	- 1400 - Visit Parkes observatory
-	- 1500 - Check-in at Wellington Caves & Holiday Park 
+	- 1500 - Check-in at [Wellington Caves]({{< relref "posts/Wellington Caves.md" >}}) & Holiday Park 
 		- Stay: 2 nights in Park Cabins (checkout Sun 28 Sept)
 		- Pay on arrival: $180 (Deposit paid: $50)
 
