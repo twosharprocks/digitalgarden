@@ -26,7 +26,7 @@ related:
 
 # Cave Notes
 
-Vrelo Mlave, 44.1952, 21.7864, 
+[Vrelo Mlave]({{< relref "posts/Vrelo Mlave.md" >}}), 44.1952, 21.7864, 
 - Powerful spring near Žagubica; explored to 80m depth.  
 Krupajsko Vrelo, 44.2175, 21.6984, 
 - Turquoise spring in Homolje region; dived to 123m depth.   

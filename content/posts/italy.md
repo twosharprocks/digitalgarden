@@ -30,7 +30,7 @@ related:
 		* [Lago dello Svizzero](https://www.facebook.com/XdeepGear/posts/pfbid02m8uruBL6JXc91evAV8zpuHU8NhnTFpTMbLYCTNTJHcJ2Cz7TpLsdRmUr6TDTJ67fl) - [Youtube](https://www.youtube.com/watch?v=JqxOuoHgteo)
 * [Sardinia - Italy]({{< relref "posts/Sardinia - Italy.md" >}})
 	* [Sardinia - Multiple Cave Systems](https://protecsardinia.com/caves-of-sardinia/), [Protec Project Utopia](https://protecsardinia.com/skep/?lang=en)
-* Rome - Pozzo del Merro (Super Deep)
+* Rome - [Pozzo del Merro]({{< relref "posts/Pozzo del Merro.md" >}}) (Super Deep)
 * [Portofino - U455](https://portofinodivers.com/en/diving/wreck/u-455.html) [Deep Trimix][Other wrecks in area too]
 * [Naples - Dive Pompeii](https://worldadventuredivers.com/underwater-pompeii-pozzuoli-italy/) (and see Vesuvius volcano)
 		* https://traveltriangle.com/blog/scuba-diving-in-naples/

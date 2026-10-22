@@ -30,7 +30,7 @@ Contact Joffer Fernandes - d'Iraquara region
 # Cave Notes
 
 - Anhumas Abyss (Bonito)
-- Mimoso Cave (Bonito)
+- [Mimoso Cave]({{< relref "posts/Gruta Do Mimoso.md" >}}) (Bonito)
 	- https://www.instagram.com/p/DKVqLuntaGD/?img_index=1
 
 # References

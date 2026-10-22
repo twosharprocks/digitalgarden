@@ -44,7 +44,7 @@ For Will
 [Labungkari]({{< relref "posts/labungkari.md" >}}) - **UW ALIGNMENT**
 - Surface: NEEDS DRONE WITH GPS DATA
 - Underwater: Video frames split, requires initial alignment
-[Laulawi]({{< relref "posts/laulawi.md" >}}) - **UW ALIGNMENT**
+[Laulawi]({{< relref "posts/Gua Laulawi.md" >}}) - **UW ALIGNMENT**
 - Surface: NEEDS DRONE WITH GPS DATA
 - Underwater: Video frames split, requires initial alignment
 [Moko Panjang]({{< relref "posts/Moko Panjang.md" >}}) - **UW ALIGNMENT**

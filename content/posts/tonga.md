@@ -32,7 +32,7 @@ Tonga's geological landscape includes islands with uplifted coral limestone form
 
 # Cave Notes
 
-**Cathedral Cave (ʻEua Island)**
+**[Cathedral Cave]({{< relref "posts/Cathedral Cave.md" >}}) (ʻEua Island)**
 - **Depth**: Entrance at approximately 28 meters.
 - **Features**: A vast underwater cavern with natural light filtering through openings, creating a cathedral-like ambiance.
 - **Access**: Dives are typically organized by local operators, such as Jones Travel & Tours. [girlsthatscuba.com](https://www.girlsthatscuba.com/scuba-diving-in-tong-humpback-whales/?utm_source=chatgpt.com)[jonestravel.com.to](https://jonestravel.com.to/tours/eua-island-cave-dive/?utm_source=chatgpt.com)  

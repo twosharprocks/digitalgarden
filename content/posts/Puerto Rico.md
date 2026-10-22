@@ -21,4 +21,4 @@ related:
 
 # Caves
 
-
+- [Sistema del Rio Encantado]({{< relref "posts/Sistema del Rio Encantado.md" >}})

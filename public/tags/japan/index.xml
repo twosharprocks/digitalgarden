@@ -18,5 +18,19 @@
 				<guid>/posts/akiyoshidai-cave/</guid>
 				<description>&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://maps.app.goo.gl/tv18VhciYJeyRJpH6&#34;&gt;Google Maps - Akiyoshidai Cave&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
 			</item>
+			<item>
+				<title>Akkadō (安家洞)</title>
+				<link>/posts/akkad%C5%8D-%E5%AE%89%E5%AE%B6%E6%B4%9E/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/posts/akkad%C5%8D-%E5%AE%89%E5%AE%B6%E6%B4%9E/</guid>
+				<description>&lt;h1 id=&#34;details&#34;&gt;Details&lt;/h1&gt;&#xA;&lt;h2 id=&#34;identification&#34;&gt;Identification&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Feature type:&lt;/strong&gt; Cave&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_longest_cave_by_country&#34;&gt;https://en.wikipedia.org/wiki/List_of_longest_cave_by_country&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cave-and-exploration-data&#34;&gt;Cave and exploration data&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Surveyed length:&lt;/strong&gt; 23700 m&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Hoshino Cave</title>
+				<link>/posts/hoshino-cave/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/posts/hoshino-cave/</guid>
+				<description>&lt;h1 id=&#34;details&#34;&gt;Details&lt;/h1&gt;&#xA;&lt;h2 id=&#34;identification&#34;&gt;Identification&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Feature type:&lt;/strong&gt; Cave&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Source:&lt;/strong&gt; Google&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
 	</channel>
 </rss>

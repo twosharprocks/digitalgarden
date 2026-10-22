@@ -21,6 +21,7 @@ related:
 
 # Caves
 
+- [Minyé Sinkhole and Cave]({{< relref "posts/Minyé Sinkhole and Cave.md" >}})
 - [Panapai Cave]({{< relref "posts/Panapai Cave.md" >}})
 
 # Cave Notes

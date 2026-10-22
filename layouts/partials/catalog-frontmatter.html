@@ -1,0 +1,39 @@
+{{- if in (slice "cave" "region") (index .Params "catalog-type") -}}
+  {{- $page := . -}}
+  {{- $fields := slice
+    (dict "key" "region" "label" "Region")
+    (dict "key" "sub-region" "label" "Sub-region")
+    (dict "key" "feature_type" "label" "Feature type")
+    (dict "key" "latitude" "label" "Latitude")
+    (dict "key" "longitude" "label" "Longitude")
+    (dict "key" "altitude" "label" "Altitude")
+    (dict "key" "country" "label" "Country")
+    (dict "key" "state" "label" "State")
+    (dict "key" "suburb" "label" "Locality")
+    (dict "key" "address" "label" "Address")
+    (dict "key" "additional-location-records" "label" "Additional source locations")
+    (dict "key" "location-checked" "label" "Location checked")
+    (dict "key" "location-checked-by" "label" "Location checked by")
+    (dict "key" "privacy" "label" "Source privacy")
+    (dict "key" "verification" "label" "Verification")
+    (dict "key" "rating" "label" "Rating")
+    (dict "key" "depth" "label" "Depth")
+    (dict "key" "length" "label" "Length")
+    (dict "key" "temperature" "label" "Temperature")
+    (dict "key" "map" "label" "Map")
+    (dict "key" "cavedb" "label" "CaveDB record")
+  -}}
+  <div class="post-frontmatter post-frontmatter--catalog">
+    {{- range $fields -}}
+      {{- if isset $page.Params .key -}}
+        {{- $value := index $page.Params .key -}}
+        {{- if ne (printf "%v" $value) "" -}}
+          <div class="post-frontmatter__row">
+            <span class="post-frontmatter__label">{{ .label }}:</span>
+            <span class="post-frontmatter__value">{{ partial "frontmatter-value.html" (dict "page" $page "value" $value) }}</span>
+          </div>
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  </div>
+{{- end -}}

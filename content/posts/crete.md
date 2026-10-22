@@ -33,7 +33,7 @@ Crete, the largest of the Greek islands, offers **significant caving and some li
 
 Crete is renowned in speleological circles for its rich variety of dry caves:
 #### **Notable Dry Caves**
-- **Gourgouthakas Cave**: The **deepest cave in Greece** and among the deepest in Europe, reaching over **1,200 meters vertical depth**. Located in the Lefka Ori (White Mountains), it’s a challenging vertical cave system requiring advanced SRT (single rope technique).
+- **[Gourgouthakas Cave]({{< relref "posts/Gourgouthakas.md" >}})**: The **deepest cave in Greece** and among the deepest in Europe, reaching over **1,200 meters vertical depth**. Located in the Lefka Ori (White Mountains), it’s a challenging vertical cave system requiring advanced SRT (single rope technique).
 - **Sternes**: [Wikipedia entry](https://el.wikipedia.org/wiki/%CE%A3%CF%84%CE%AD%CF%81%CE%BD%CE%B5%CF%82_(%CE%A3%CF%80%CE%B7%CE%BB%CE%B1%CE%B9%CE%BF%CE%B2%CE%AC%CF%81%CE%B1%CE%B8%CF%81%CE%BF))
 
 ---
@@ -61,6 +61,6 @@ Crete is a karst-heavy island with **world-class dry caving**, including extreme
 
 # Cave Notes
 
-- **Gourgouthakas Cave Entrance**, 35.2975, 23.9642, Deepest dry cave in Greece; potential unexplored sumps.
+- **[Gourgouthakas Cave]({{< relref "posts/Gourgouthakas.md" >}}) Entrance**, 35.2975, 23.9642, Deepest dry cave in Greece; potential unexplored sumps.
 - **Plakias Coastal Karst**, 35.1848, 24.3934, Coastal cliff karst zone; possible marine submerged caves.
 - **Sfakia Coastal Caves**, 35.2021, 24.1342, Limestone cliffs and sea caves; exploration needed.

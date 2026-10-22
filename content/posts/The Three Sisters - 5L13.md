@@ -55,7 +55,7 @@ Sheck Exley dived to 85m “not 96m” in the Shaft in the mid 90?s, mapping the
 
 It has been reported to trimixdivers by a member of a joint VIC / SA deep exploration team that a lead in the Shaft has been bottomed at 125m. The South East side of the Shaft has a deep hole down through the rockpile commencing at 60m (this hole can be seen on a regular dive. The hole drops down to 90m and then into a large deep tunnel with a max depth of 125m. It is hoped that the maps and specific details of these recent discoveries will be made available for the future.
 
-The Shaft is one of the three deepest natural freshwater sites in Australia ? the others being Piccaninnie Pond (110m+ Mt Gambier, SA) and Slug Lake (100m+ Jenolan Caves, NSW). Other sites are being investigated by the trimixdivers ferrets around Oz that have the potential to be deeper still !!
+The Shaft is one of the three deepest natural freshwater sites in Australia ? the others being Piccaninnie Pond (110m+ Mt Gambier, SA) and Slug Lake (100m+ [Jenolan Caves]({{< relref "posts/Jenolan Caves.md" >}}), NSW). Other sites are being investigated by the trimixdivers ferrets around Oz that have the potential to be deeper still !!
 
 # Details
 

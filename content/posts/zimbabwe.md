@@ -29,7 +29,7 @@ related:
 
 # Cave Notes
 
-Chinhoyi Caves (Mashonaland West Province)
+[Chinhoyi Caves]({{< relref "posts/Chinhoyi Caves.md" >}}) (Mashonaland West Province)
 - Sleeping Pool
 	- 1992 US Navy divers hit 135m
 	- 2013 divers hit 191m

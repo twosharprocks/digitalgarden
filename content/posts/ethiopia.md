@@ -25,7 +25,7 @@ related:
 
 # Cave Notes
 
-- Sof Omar Caves 
+- [Sof Omar Caves]({{< relref "posts/Sof Omar Cave.md" >}}) 
 	- https://en.wikipedia.org/wiki/Sof_Omar_Caves
 	- https://www.tripadvisor.com.au/Attraction_Review-g6755852-d4223946-Reviews-Sof_Omar_Cave-Bale_Mountains_National_Park_Oromiya_Region.html
 	- https://www.shadowsofafrica.com/sof-omar-caves

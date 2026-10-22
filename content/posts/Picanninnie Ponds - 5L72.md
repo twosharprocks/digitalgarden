@@ -66,7 +66,7 @@ Since around late 1985, a series of mysterious "die-back" events have occurred p
 - **https://www.trimixdivers.com/trimix5/?p=4943:** Located closer to the coastal town of Nelson than Mt Gambier, Piccaninnie Ponds is one of the most beautiful sites, jest a few hundred meters from the beach, with crystal clear fresh water, eels, turtles and schools of freshwater fish. Diving at night in this site is a memorable experience.
 The unassuming ?pond? disappears into a fissure that descends to over 100m into the ground. The landowners have set a depth limit in the site to 36.5m (100ft) where a sign lies on the cave wall. Rangers are familiar with many different types of dive computers and know how to check them for maximum depth.
 
-Piccaninnie Ponds is one of the deepest natiural freshwater sites in Australia ? the others being The Shaft (125m+ Mt Gambier, SA) and Slug Lake (100m+ Jenolan Caves, NSW).
+Piccaninnie Ponds is one of the deepest natiural freshwater sites in Australia ? the others being The Shaft (125m+ Mt Gambier, SA) and Slug Lake (100m+ [Jenolan Caves]({{< relref "posts/Jenolan Caves.md" >}}), NSW).
 
 ‘It’s NOT just a crack and there is definitely UPSTREAM FLOW at the bottom. A fixed line starts at 75m and descends to 98m. If you come back up the wrong side of it in an almost total white out, you jam yourself into a nasty line trap (you?re in the trap, not the line). You can fit through, but the wriggling & jiggling in that really soft shit can cause a major drama.’
 

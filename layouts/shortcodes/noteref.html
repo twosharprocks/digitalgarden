@@ -1,0 +1,5 @@
+{{- with .Site.GetPage (.Get 0) -}}
+  {{- .RelPermalink -}}
+{{- else -}}
+  {{- errorf "Cannot resolve note path %q" (.Get 0) -}}
+{{- end -}}

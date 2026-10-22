@@ -29,6 +29,7 @@ related:
 - [Buzluk Cave]({{< relref "posts/Buzluk Cave.md" >}})
 - [Egma Sinkhole]({{< relref "posts/Egma Sinkhole.md" >}})
 - [Kızören Sinkhole]({{< relref "posts/Kızören Sinkhole.md" >}})
+- [Yalan Dünya Cave]({{< relref "posts/Yalan Dünya Cave.md" >}})
 
 # Cave Notes
 

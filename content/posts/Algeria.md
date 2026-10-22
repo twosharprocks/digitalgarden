@@ -22,6 +22,7 @@ related:
 # Caves
 
 - [Anou Boussouil]({{< relref "posts/Anou Boussouil.md" >}})
+- [Ghar Boumâaza]({{< relref "posts/Ghar Boumâaza.md" >}})
 - [Grotte de Gueldaman]({{< relref "posts/Grotte de Gueldaman.md" >}})
 
 # About

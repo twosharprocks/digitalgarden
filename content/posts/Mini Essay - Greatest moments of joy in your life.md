@@ -14,8 +14,8 @@ Ask yourself what the greatest moments of life have been in your life so far? Th
 - Finishing the fireman's carry for your fitness assessment to leave Hunter Company.
 - Turning around on the top of Uhuru Peak on Mt Kilimanjaro. 
 - Seeing the Northern Lights through the windshield in Norway. 
-- Popping out into the Garden in Englebrecht's East.
-- Your first dive in Downstream Slot Cave.
+- Popping out into the Garden in [Englebrecht's East]({{< relref "posts/Englebrecht's East.md" >}}).
+- Your first dive in Downstream [Slot Cave]({{< relref "posts/Slot Cave.md" >}}).
 - Having a wombat try to steal Russ.
 - Being awarded the Golden Compass
 - Rescuing an echidna from L301

@@ -1,0 +1,10 @@
+{{- $index := newScratch -}}
+{{- range .Site.RegularPages -}}
+  {{- $url := .RelPermalink -}}
+  {{- $index.SetInMap "pages" (.Title | lower) $url -}}
+  {{- with .File -}}
+    {{- $index.SetInMap "pages" (.BaseFileName | lower) $url -}}
+    {{- $index.SetInMap "pages" (.Path | strings.TrimSuffix ".md" | lower) $url -}}
+  {{- end -}}
+{{- end -}}
+{{- return ($index.Get "pages") -}}

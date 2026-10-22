@@ -150,14 +150,18 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---image---linux/">OSCP - Image - Linux</a>
+          <a href="/posts/danau-randano-ghaghe/">Danau Randano Ghaghe</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+            #<a href="/tags/caving/">caving</a>&nbsp;
+            
+            #<a href="/tags/sulawesi/">sulawesi</a>&nbsp;
             
           </span>
         
@@ -167,117 +171,41 @@
 
         <div class="post-content">
           
-            <h1 id="image">Image</h1>
-<p>This box was objectively quite easy, however the issues I had <em>around</em> it made things far more complicated/frustrating than they needed to be.</p>
-<p>Prior to starting this box I&rsquo;d tried to setup a shared folder on the VM that would also upload to Google drive (with the intent being I could pull the box folder to any desktop/laptop I was working from). However when I started running the exploit to try to create the <code>.png</code> with the reverse shell in the name, I started getting an error message saying the file didn&rsquo;t exist.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---image---linux/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---internal---windows/">OSCP - Internal - Windows</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="internal">Internal</h1>
-<p>These Windows boxes are getting more and more frustrating. This one I had four separate walkthroughs available and 5 different exploits I could run, and in the end I had to resort to Metasploit to catch a meterpreter shell. Even the Meterpreter shell was a pain in the ass - once I was in I knew I could navigate directly to the Administrator&rsquo;s desktop, but I had to type in each directory change one-by-one rather than going directly to the proof file.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/oscp---internal---windows/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/oscp---jacko---windows/">OSCP - Jacko - Windows</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="box">Box</h1>
-<p>What the actual fuck&hellip; I&rsquo;ll write this up tomorrow, but this was a combination of &ldquo;Why the fuck isn&rsquo;t this working&rdquo; with &ldquo;that is so fucking dumb&rdquo; when it did finally work</p>
-<h1 id="resolution-summary">Resolution summary</h1>
+            <h1 id="details">Details</h1>
+<h2 id="identification">Identification</h2>
 <ul>
-<li>Ran Nmap to identify ports <code>80</code>, <code>135/445</code>, <code>445</code>, <code>5040</code>, <code>8082</code> &amp; <code>9092</code></li>
-<li>Navigated to port <code>8082</code> with browser and logged in with default credentials</li>
-<li>Found exploit for <code>H2 Database</code> and achieved code execution via SQL</li>
-<li>Uploaded &amp; executed reverse shell via SQL statements for initial access</li>
-<li>Identified <code>Paperstream</code> software and found exploit <code>49382.py</code></li>
-<li>Used <code>msfvenom</code> to create reverse shell <code>dll</code> with <code>x86</code> architecture &amp; <code>xor_dynamic</code></li>
-<li>Uploaded <code>dll</code> and <code>49382.ps1</code> to target via <code>iwr</code></li>
-<li>Ran <code>49382.ps1</code> on target and recieved reverse shell as <code>NT-system</code></li>
+<li><strong>Feature type:</strong> Sinkhole</li>
 </ul>
-<h2 id="improved-skills">Improved skills</h2>
+<h1 id="references">References</h1>
+<h2 id="images">Images</h2>
 <ul>
-<li>Generating msfvenom payloads</li>
-<li>Working with Windows kernel exploits (specifically potatos)</li>
+<li><img src="/images/Danau%20Randano%20Ghaghe%20-%20CaveDB%20-%20Danau%20Randano%20Ghaghe2%20-%20322dd3f9-04113a04.jpg" alt="Danau Randano Ghaghe Cavedb Danau Randano Ghaghe2 322dd3f9 04113a04"></li>
+<li><img src="/images/Danau%20Randano%20Ghaghe%20-%20CaveDB%20-%20Danau%20Randano%20Ghaghe%20-%20bf93259f-04113a04.jpg" alt="Danau Randano Ghaghe Cavedb Danau Randano Ghaghe Bf93259f 04113a04"></li>
 </ul>
-<h2 id="used-tools">Used tools</h2>
-<ul>
-<li>nmap</li>
-<li>python</li>
-<li>msfvenom</li>
-<li>powershell</li>
-</ul>
-<hr>
-<h1 id="information-gathering">Information Gathering</h1>
-<p>Scanned all TCP ports:</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---jacko---windows/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/danau-randano-ghaghe/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---kevin---windows-dnf/">OSCP - Kevin - Windows (DNF)</a>
+          <a href="/posts/danau-wa-piho-piho/">Danau Wa Piho Piho</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+            #<a href="/tags/caving/">caving</a>&nbsp;
+            
+            #<a href="/tags/sulawesi/">sulawesi</a>&nbsp;
             
           </span>
         
@@ -287,29 +215,39 @@
 
         <div class="post-content">
           
-            <h1 id="kevin">Kevin</h1>
-<p>I&rsquo;ve checked all the walkthroughs, tried countless variations of the easily available exploits, even reimaged my entire Kali VM trying to make this script work&hellip; and nothing I&rsquo;ve done has caught a reverse shell.</p>
-<p>Honestly not sure what else to do, other than to write this off as a learning experience (?) and move on. If I get a buffer overflow exploit in the exam (which I think they&rsquo;ve stopped now anyway) I&rsquo;ll just move the fuck on because nothing I&rsquo;ve done on this box or the last one has really made any sense.</p>
+            <h1 id="details">Details</h1>
+<h2 id="identification">Identification</h2>
+<ul>
+<li><strong>Feature type:</strong> Sinkhole</li>
+</ul>
+<h2 id="cave-and-exploration-data">Cave and exploration data</h2>
+<ul>
+<li><strong>Goes to water:</strong> Yes</li>
+</ul>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---kevin---windows-dnf/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/danau-wa-piho-piho/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/oscp---lavita---linux/">OSCP - LaVita - Linux</a>
+          <a href="/posts/danau-wawomata/">Danau Wawomata</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+            #<a href="/tags/caving/">caving</a>&nbsp;
+            
+            #<a href="/tags/sulawesi/">sulawesi</a>&nbsp;
             
           </span>
         
@@ -319,15 +257,115 @@
 
         <div class="post-content">
           
-            <h1 id="lavita">LaVita</h1>
-<p>This box started out really well with plenty of through enumeration to identify the vulnerability, but I fell down trying to gain initial access with the exploits. I tried several, and persisted with the most well developed exploit thinking it would be the way forward.</p>
-<p>The issue was not realising the exploit would stop working after the first success, so after testing it with the <code>uname -a</code> or <code>id</code> commands, it would then not work when I tried to repeat with a reverse shell command. it took awhile to realise that there were 21 chains available, and so there was no need to keep using the &ldquo;last working&rdquo; chain, because it was only working once anyway. I also stopped trying to test with <code>id</code> and just threw the reverse shell command in straight away - I already knew the exploit worked <em>sometimes</em> so may as well try to establish a shell each time I tried.</p>
+            <h1 id="details">Details</h1>
+<h2 id="identification">Identification</h2>
+<ul>
+<li><strong>Feature type:</strong> Sinkhole</li>
+</ul>
+<h1 id="references">References</h1>
+<h2 id="images">Images</h2>
+<ul>
+<li><img src="/images/Danau%20Wawomata%20-%20CaveDB%20-%20Danau%20Wawomata%20-%20fbd9ef79-d1e1499d.jpg" alt="Danau Wawomata Cavedb Danau Wawomata Fbd9ef79 D1e1499d"></li>
+</ul>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/oscp---lavita---linux/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/danau-wawomata/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/daniel-roux-cave/">Daniel Roux Cave</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/caving/">caving</a>&nbsp;
+            
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="notes">Notes</h1>
+<ul>
+<li><strong>Location</strong>: Near the eastern coast, northeast of South Point</li>
+<li><strong>Type</strong>: Dry limestone cave with multiple chambers</li>
+<li><strong>Details</strong>: While primarily dry, reports mention water seepage and active flow in the wet season. Potential exists for deeper sections to be partially flooded.</li>
+<li><strong>Exploration Status</strong>: Surveyed, but no recorded underwater exploration.</li>
+</ul>
+<h1 id="references">References</h1>
+<ul>
+<li><a href="/posts/christmas-island/">Christmas Island</a></li>
+</ul>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/daniel-roux-cave/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/darby-spring/">Darby Spring</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/diving/">diving</a>&nbsp;
+            
+            #<a href="/tags/caving/">caving</a>&nbsp;
+            
+            #<a href="/tags/florida/">florida</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h1 id="details">Details</h1>
+<h2 id="identification">Identification</h2>
+<ul>
+<li><strong>Feature type:</strong> Cave</li>
+</ul>
+<h2 id="cave-and-exploration-data">Cave and exploration data</h2>
+<ul>
+<li><strong>Cave rating:</strong> Advanced</li>
+<li><strong>Highest cave rating:</strong> Advanced</li>
+<li><strong>Goes to water:</strong> Yes</li>
+</ul>
+<h2 id="diving-data">Diving data</h2>
+<ul>
+<li><strong>Water type:</strong> Fresh</li>
+<li><strong>Tidal:</strong> No</li>
+</ul>
+<h1 id="references">References</h1>
+<p>Portions of the following information were taken from Florida Geological Survey Bulletin 66.  Darby Spring is located approximately 1.8 miles north of High Springs. From the intersection of US  441 and CR 236 in High Springs, travel 1.8 miles northwest on US 441 to the Santa Fe River. The  spring is approximately 0.1 miles upstream from the public boat ramp off SR 441 along the south  bank of the Santa Fe River.  Description – The Darby Spring pool has a diameter of 40 ft and a depth of 10 ft. In December  2002, the spring pool had an abundance of aquatic vegetation and was covered with duckweed. The bottom  of the pool and the spring vent were not discernable. During the December 2002 visit, the spring was no  longer flowing and its run contained stagnant water. The run is 150 ft long, 4.0 ft wide and 0.5 ft  deep. The run bottom is soft detritus and is covered with leaves and tree branches. High ground  surrounding the spring gently slopes upward to 7.0 ft. To the east, there is a large, grassy pasture.  Darby Spring is located on wooded private property.</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/darby-spring/">[Read more]</a>
           </div>
         
       </article>

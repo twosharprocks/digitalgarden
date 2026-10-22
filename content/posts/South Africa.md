@@ -21,7 +21,11 @@ related:
 
 # Caves
 
+- [Apocalypse Pothole]({{< relref "posts/Apocalypse Pothole.md" >}})
+- [Boesmansgat Sinkhole]({{< relref "posts/Boesmansgat Sinkhole.md" >}})
 - [Komati Springs]({{< relref "posts/Komati Springs.md" >}})
+- [Sterkfontein Caves]({{< relref "posts/Sterkfontein Caves.md" >}})
+- [The Big Hole]({{< relref "posts/The Big Hole.md" >}})
 
 # About
 

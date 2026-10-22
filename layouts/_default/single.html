@@ -104,6 +104,8 @@
     </div>
   {{- end -}}
 
+  {{ partial "catalog-frontmatter.html" . }}
+
   {{ partial "cover.html" . }}
 
   {{ if (.Params.Toc | default .Site.Params.Toc) }}

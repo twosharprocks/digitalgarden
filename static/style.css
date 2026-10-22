@@ -94,6 +94,10 @@
   font-weight: 700;
 }
 
+.post-frontmatter__value {
+  overflow-wrap: anywhere;
+}
+
 .post-frontmatter__links {
   word-spacing: 0.2rem;
 }

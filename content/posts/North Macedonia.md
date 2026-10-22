@@ -22,7 +22,9 @@ related:
 
 # Caves
 
+- [Izvor Cave]({{< relref "posts/Izvor Cave.md" >}})
 - [Peshna Cave]({{< relref "posts/Peshna Cave.md" >}})
+- [Vrelo]({{< relref "posts/Vrelo.md" >}})
 
 # About
 
@@ -33,8 +35,8 @@ North Macedonia offers some intriguing caving opportunities, particularly for dr
 ---
 ### **Dry Caving Opportunities**
 North Macedonia is home to hundreds of known caves, many of which remain poorly explored. Some of the most significant include:
-- **Slatinski Izvor Cave** (also known as Slatina Cave): One of the longest and most beautiful caves in North Macedonia. Located near Demir Hisar, it features galleries, speleothems, and a river system. While dry sections are well-documented, parts of the cave remain unexplored and could offer sump diving potential.  
-- **Vrelo Cave**, Matka Canyon: This is perhaps the most famous cave in the country and where cave diving becomes especially relevant.
+- **Slatinski [Izvor Cave]({{< relref "posts/Izvor Cave.md" >}})** (also known as Slatina Cave): One of the longest and most beautiful caves in North Macedonia. Located near Demir Hisar, it features galleries, speleothems, and a river system. While dry sections are well-documented, parts of the cave remain unexplored and could offer sump diving potential.  
+- **[Vrelo Cave]({{< relref "posts/Vrelo.md" >}})**, Matka Canyon: This is perhaps the most famous cave in the country and where cave diving becomes especially relevant.
 
 ---
 ### **Potential for Further Exploration**

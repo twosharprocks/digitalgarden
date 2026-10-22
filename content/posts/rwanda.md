@@ -61,7 +61,7 @@ Karst around [Bugarama](https://en.wikipedia.org/wiki/Bugarama) and [Nyungwe For
 - **Geological Features**: This area is characterized by extensive lava tubes formed from ancient volcanic activity, particularly from the Bisoke and Sabyinyo volcanoes.
 - **Notable Caves**:
     - **[Musanze Caves]({{< relref "posts/Musanze Caves.md" >}})**: Approximately 2 km long with 31 known entrances, these caves are part of the lava basaltic layers and are the most frequently visited in Rwanda.
-    - **Ubuvumo Bwibihonga**: The longest cave in Rwanda, featuring a multi-level system of parallel lava tubes.
+    - **[Ubuvumo Bwibihonga]({{< relref "posts/Ubuvumo Bwibihonga.md" >}})**: The longest cave in Rwanda, featuring a multi-level system of parallel lava tubes.
 - **Exploration Potential**: While these caves are primarily known for dry exploration, the presence of lava tubes suggests potential for submerged sections, especially during the rainy season when water levels rise. ([Visit Rwanda](https://visitrwanda.com/interests/caving/?utm_source=chatgpt.com "Caving – Visit Rwanda"))
 ### 2. **Nyungwe Forest Region (Western Rwanda)**
 - **Geological Features**: This region is part of the Albertine Rift and is characterized by ancient Precambrian rocks, including quartzite and schist. While traditional karst formations are less common here, the area's complex geology may host unique subterranean features.

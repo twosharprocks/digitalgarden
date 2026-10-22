@@ -24,7 +24,7 @@ related:
 
 # About
 
-* [Elk River](http://www.cavediving.net.au/index.php/siteinfo/?site=56) - Buchan Caves
+* [Elk River](http://www.cavediving.net.au/index.php/siteinfo/?site=56) - [Buchan Caves]({{< relref "posts/Buchan Caves.md" >}})
 * “Hutchinson property” near Casterton?
 * Daylesford? Where is the spring water coming from?
 * Bendigo

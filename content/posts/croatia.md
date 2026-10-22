@@ -27,7 +27,7 @@ related:
 
 Izvor Une, 44.7542, 15.7746, 
 - Deepest underwater cave in Croatia; dived to 248m  
-Izvor Cetine, 43.9203, 16.494, 
+[Izvor Cetine]({{< relref "posts/Izvor Cetine.md" >}}), 43.9203, 16.494, 
 - Iconic karst spring; narrow shaft dived to 155m.  
 Izvor Gacka (Pećina Vrelo), 44.842, 15.3104, 
 - Multiple spring heads feeding Gacka River; partially explored. 

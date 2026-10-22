@@ -22,7 +22,11 @@ related:
 
 # Caves
 
-
+- [Bohemia Cave]({{< relref "posts/Bohemia Cave.md" >}})
+- [Bulmer Cave]({{< relref "posts/Bulmer Cave.md" >}})
+- [Cave stream]({{< relref "posts/Cave stream.md" >}})
+- [Pearse Resurgence]({{< relref "posts/Pearse Resurgence.md" >}})
+- [Riwaka Resurgence]({{< relref "posts/Riwaka Resurgence.md" >}})
 
 # About
 

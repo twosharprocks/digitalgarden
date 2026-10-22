@@ -64,7 +64,8 @@ def load_notes(content_dir):
 
 def relref_link(note):
     relative = note["_relative"].as_posix()
-    return f'[{note["title"]}]({{{{< relref "{relative}" >}}}})'
+    shortcode = "noteref" if "#" in relative else "relref"
+    return f'[{note["title"]}]({{{{< {shortcode} {json.dumps(relative, ensure_ascii=False)} >}}}})'
 
 
 def required_tags(query):
@@ -103,6 +104,15 @@ def filtered_notes(query, notes, current_path=None):
             )
         )
     ]
+
+    # Obsidian compares link objects here; compare their note names on export.
+    parent_filter = re.search(r'\b(region|sub-region)\s*=\s*this\.file\.link\b', query, re.I)
+    if parent_filter:
+        current = next((note for note in notes if note['_path'] == current_path), None)
+        selected = [note for note in selected if current and any(
+            target.rsplit('/', 1)[-1].casefold() == current['_filename'].casefold()
+            for target in catalog_links(note.get(parent_filter[1].lower()))
+        )]
 
     sort_match = re.search(
         r"(?mi)^\s*SORT\s+([\w.]+)\s+(ASC|DESC)\s*$",
@@ -388,25 +398,27 @@ def table_columns(query):
     columns = []
     for raw_column in table_match.group(1).split(","):
         raw_column = raw_column.strip()
-        alias_match = re.match(r"^([\w-]+)\s+AS\s+(.+)$", raw_column, re.IGNORECASE)
+        raw_column = re.sub(r'^WITHOUT\s+ID\s+', '', raw_column, flags=re.I)
+        alias_match = re.match(r"^([\w.-]+)\s+AS\s+(.+)$", raw_column, re.IGNORECASE)
         if alias_match:
             field, label = alias_match.groups()
         else:
             field = raw_column
             label = raw_column.replace("_", " ").title()
-        columns.append((field.lower(), label.strip()))
+        columns.append((field.lower(), label.strip().strip('"\'')))
     return columns
 
 
 def render_table(query, notes, current_path=None):
     selected = filtered_notes(query, notes, current_path)
     columns = table_columns(query)
-    headers = ["Meal", *[label for _, label in columns]]
+    without_id = bool(re.match(r'^\s*TABLE\s+WITHOUT\s+ID\b', query, re.I))
+    headers = ([] if without_id else ["Note"]) + [label for _, label in columns]
     separator = ["---"] * len(headers)
     rows = [
         [
-            relref_link(meal),
-            *[escape_cell(meal.get(field)) for field, _ in columns],
+            *([] if without_id else [relref_link(meal)]),
+            *[relref_link(meal) if field == 'file.link' else escape_cell(meal.get(field)) for field, _ in columns],
         ]
         for meal in selected
     ]
@@ -417,7 +429,7 @@ def render_table(query, notes, current_path=None):
     ]
     lines.extend("| " + " | ".join(row) + " |" for row in rows)
     if not rows:
-        lines.append("| _No matching notes._ | " + " | ".join("—" for _ in columns) + " |")
+        lines.append("| " + " | ".join(["_No matching notes._"] + ["—"] * (len(headers) - 1)) + " |")
     return "\n".join(lines)
 
 

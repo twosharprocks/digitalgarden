@@ -79,8 +79,8 @@ related:
 - 2025-08-08 Fri: Diving Day 6 
 	- Last day diving with Kez
 	- Breakfast: Nasi Goreng
-	- 0900 Dive Brief: [Laulawi]({{< relref "posts/laulawi.md" >}}) 
-	- Drive to [Laulawi]({{< relref "posts/laulawi.md" >}}) & Dive
+	- 0900 Dive Brief: [Laulawi]({{< relref "posts/Gua Laulawi.md" >}}) 
+	- Drive to [Laulawi]({{< relref "posts/Gua Laulawi.md" >}}) & Dive
 	- Drive Kadena (via icecream)
 	- 360 video trimming for social media posts
 
@@ -99,7 +99,7 @@ related:
 	- Leon/Chris arrive
 - 2025-08-12 Tue: Diving Day 10 (Last diving day)
 	- Kez/Susan/Liz fly out 
-	- Dive Brief & Dive [Laulawi]({{< relref "posts/laulawi.md" >}})
+	- Dive Brief & Dive [Laulawi]({{< relref "posts/Gua Laulawi.md" >}})
 	- Clean, dry, and pack gear
 - 2025-08-13 Wed: Leave Muna Island
 	- Breakfast, Pack Gear & Admin, 

@@ -36,7 +36,7 @@ sub-region: "[[Mount Gambier - Lower South East]]"
 ## Survey
 KML Survey: Englebrecht's E Extension - KML.kml
 
-Englebrecht's East Extension (Richards)
+[Englebrecht's East Extension]({{< relref "posts/Englebrecht's East Extension.md" >}}) (Richards)
 ![5L019 Englebrecht's East Satellite (Richards, 2022) MAP](5L019 - Englebrecht's East - Satellite (Richards, 2022) - MAP.jpg)
 
 Englebrecht's West Survey (Richards)

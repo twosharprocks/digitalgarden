@@ -25,4 +25,4 @@ related:
 
 # About
 
-[Aventyrsgruvan Mine](https://aventyrsgruvan.se/en/), Långban Mine
+[Aventyrsgruvan Mine](https://aventyrsgruvan.se/en/), [Långban Mine]({{< relref "posts/Långban Mine.md" >}})

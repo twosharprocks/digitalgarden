@@ -129,7 +129,7 @@ Goa Kamundomundo
 [Danau Moko 4](https://maps.app.goo.gl/5KQUkJj6vc8xRbkP6) - [Nearby Feature](https://maps.app.goo.gl/KpYTzPqZFRVUWkeq5)
 
 - [Waara Karst Spring]({{< relref "posts/Waara Karst Spring.md" >}}), -5.3489, 122.5312, Major spring near Waara village; likely resurgence from subsurface limestone drainage.  
-- Napabale Lake Underground Connection, -5.491, 122.5245, Tidal lake connected to the sea by submerged karst tunnel; highly dynamic spring and siphon system.  
+- [Napabale Lake]({{< relref "posts/Napabale Lake.md" >}}) Underground Connection, -5.491, 122.5245, Tidal lake connected to the sea by submerged karst tunnel; highly dynamic spring and siphon system.  
 - [Liangkabori Cave Spring]({{< relref "posts/Liangkabori Cave Spring.md" >}}), -5.2685, 122.6267, Spring emerging near archaeological cave system; part of active karst hydrology.  
 - [Gua Mabolu Spring]({{< relref "posts/Gua Mabolu Spring.md" >}}), -5.3724, 122.6503, Cave spring in dense karst area; limited documentation, strong exploration potential.  
 - Lambiku Karst Resurgence, -5.3076, 122.7141, Clear resurgence near Lambiku; emerging from low limestone cliff, likely part of conduit network.  

@@ -27,7 +27,7 @@ related:
 
 - https://www.tripadvisor.com.au/Attraction_Review-g1591387-d10799666-Reviews-Cueva_Del_Agua-Isla_Plana.html
 	- https://youtu.be/i1guL4WRMkM?si=V_uUBmjfbUxwJIOU
-- Zarzalones Cave, Yunquera (Near Malaga)
+- [Zarzalones Cave]({{< relref "posts/Zarzalones.md" >}}), Yunquera (Near Malaga)
 	- The Zarzalones spring, in the Sierra de las Nieves, is located 3 km from Yunquera (Málaga), near the San Pascual power plant. Access is through private properties, so the appropriate permits are required. It can be accessed on all terrain up to about 400 meters from the spring, which involves a 10-minute walk on foot to get there.
 	- It is a spectacular and labyrinthine cave full of galleries with four branches. In one of these branches, the Galería de la Punta, a depth of -63m has been reached. Others do it up to -42m. It is a siphon with many unevenness. Precisely these slopes make the cave a place with a medium-high difficulty for experienced cave divers because you can enter decompression easily. About 40 meters from the entrance is the only dry gallery, about 200m long.
 

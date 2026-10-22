@@ -1,0 +1,22 @@
+{{- $page := .page -}}
+{{- $items := slice .value -}}
+{{- if reflect.IsSlice .value -}}{{- $items = .value -}}{{- end -}}
+{{- range $i, $item := $items -}}
+  {{- if $i -}}{{ "; " }}{{- end -}}
+  {{- $raw := printf "%v" $item -}}
+  {{- if findRE "^\\[\\[.*\\]\\]$" $raw -}}
+    {{- $inner := $raw | strings.TrimPrefix "[[" | strings.TrimSuffix "]]" -}}
+    {{- $parts := split $inner "|" -}}
+    {{- $target := index $parts 0 | strings.TrimSuffix ".md" -}}
+    {{- $label := $target -}}
+    {{- if gt (len $parts) 1 -}}{{- $label = index $parts 1 -}}{{- end -}}
+    {{- $index := partialCached "note-link-index.html" $page -}}
+    {{- $url := index $index ($target | lower) -}}
+    {{- if not $url -}}{{- $url = index $index ($target | path.Base | lower) -}}{{- end -}}
+    {{- if $url -}}<a href="{{ $url }}">{{ $label }}</a>{{- else -}}{{ $label }}{{- end -}}
+  {{- else if findRE "^https?://" $raw -}}
+    <a href="{{ $raw }}">{{ $raw }}</a>
+  {{- else -}}
+    {{ $raw }}
+  {{- end -}}
+{{- end -}}

@@ -26,7 +26,7 @@ related:
 # About
 
 Khammouane and Bolikhamxay Karst
-- **Why:** Home to the vast Xe Bang Fai River Cave and dozens of other major karst systems.
+- **Why:** Home to the vast Xe Bang Fai [River Cave]({{< relref "posts/Grotta del Fiume.md" >}}) and dozens of other major karst systems.
 - **Status:** Limited cave diving despite the presence of massive submerged river systems.
 - **Potential:** Extension of dry expeditions; explore downstream sumps and hidden blue holes.
 - **Best Season:** January to April.

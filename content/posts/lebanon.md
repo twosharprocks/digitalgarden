@@ -25,7 +25,7 @@ related:
 
 # About
 
-Anti-Lebanon Mountains and Jeita Grotto System
+Anti-Lebanon Mountains and [Jeita Grotto]({{< relref "posts/Jeita Grotto.md" >}}) System
 - **Why:** Home to one of the longest caves in the Middle East (Jeita), with a major underground river system.
 - **Status:** Limited diving despite extensive dry exploration and known water-filled passages.
 - **Potential:** Dive terminal sumps or investigate secondary karst systems in the north.

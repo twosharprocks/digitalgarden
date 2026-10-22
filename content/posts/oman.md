@@ -25,7 +25,7 @@ related:
 
 # Cave Notes
 
-- Al Hoota Cave - https://en.wikipedia.org/wiki/Al_Hoota_Cave
+- [Al Hoota Cave]({{< relref "posts/Al Hoota Cave.md" >}}) - https://en.wikipedia.org/wiki/Al_Hoota_Cave
 - Majlis Al Jinn
 
 # References

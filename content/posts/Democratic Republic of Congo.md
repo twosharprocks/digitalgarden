@@ -22,6 +22,7 @@ related:
 # Caves
 
 - [Matupi Cave]({{< relref "posts/Matupi Cave.md" >}})
+- [Ngovo cave]({{< relref "posts/Ngovo cave.md" >}})
 - [Thysville Caves]({{< relref "posts/Thysville Caves.md" >}})
 
 # About

@@ -36,9 +36,9 @@ Avoid
 
 # Cave Notes
 
-- Blue Hole and Inland Sea (Dwejra)
+- [Blue Hole]({{< relref "posts/Blue Hole.md" >}}) and Inland Sea (Dwejra)
 	- [Insta - Murray](https://www.instagram.com/p/DN-2Z2oDFLb/) 
-- Cathedral Cave (Ghar ir-Rih)
+- [Cathedral Cave]({{< relref "posts/Cathedral Cave.md" >}}) (Ghar ir-Rih)
 - Reqqa Point
 
 # References

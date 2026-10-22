@@ -66,7 +66,7 @@ Under windmill
 
 - **LSECR:** Page 198
 Named by divers after a previous landowner, Mr. Max Heininger, Max's Hole (or Max's "R" Hole as it was sometimes known to cruder members of the cave diving fraternity!) is a single chamber which is accessed via two roof window entrances which lie underneath a windmill.
-Appearing for the first time in CEGSA's Records as "Unnamed Cave $155" in February 1966, Max's Hole was described by Trevor Bright as "... two holes each 10 feet across, separated by a rock bridge 3 feet 6 inches wide by 2 feet thick..." and "... surrounded by the remains of a wind- mill and fence. The holes merge to form a 12 foot diam. shaft with 53 feet free-fall to the floor of the cave".
+Appearing for the first time in CEGSA's Records as "[Unnamed Cave]({{< relref "posts/Unnamed Cave.md" >}}) $155" in February 1966, Max's Hole was described by Trevor Bright as "... two holes each 10 feet across, separated by a rock bridge 3 feet 6 inches wide by 2 feet thick..." and "... surrounded by the remains of a wind- mill and fence. The holes merge to form a 12 foot diam. shaft with 53 feet free-fall to the floor of the cave".
 The original cased bore was reportedly sunk many years prior to 1966 by Mr. Jack Clarke of
 Mount Schank, who was an earlier landowner.
 The access shaft narrows a little about halfway down, forming something like an hourglass-shaped rim, before opening up into a chamber roughly 12 metres across. Descending cavers land on the top of a steep dirtpile, which then leads down to two pools of deep water somewhere around the eastern and north-eastern sides.

@@ -34,7 +34,7 @@ sub-region: "[[Muna Island - Sulawesi]]"
 ---
 # About
 
-Moko Morete opens in a vast blue hole. An underwater passage to the west can be followed 10 to 15 m, but then it becomes too narrow. It may lead to Gua Moko. The main passage begins to the east. With 403 m, it is one of the longest sumps explored on Muna so far. The maximum depth is 21 m. The inner part is huge, ending in a collapse due to the very soft nature of the limestone. The cave still needs to be thoroughly explored. Only the few first meters are exposed to daylight.
+Moko Morete opens in a vast blue hole. An underwater passage to the west can be followed 10 to 15 m, but then it becomes too narrow. It may lead to [Gua Moko]({{< relref "posts/Gua Moko.md" >}}). The main passage begins to the east. With 403 m, it is one of the longest sumps explored on Muna so far. The maximum depth is 21 m. The inner part is huge, ending in a collapse due to the very soft nature of the limestone. The cave still needs to be thoroughly explored. Only the few first meters are exposed to daylight.
 
 # References
 
