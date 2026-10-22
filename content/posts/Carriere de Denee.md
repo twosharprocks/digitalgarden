@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 50.313999999999965
 longitude: 4.737585999999965
-country: "BEL"
 state: "Wallonie"
 suburb: "Anhée"
-privacy: public
 region: "[[Belgium]]"
 related:
   - "[[Diving]]"
-  - "[[Belgium]]"
 cavedb: "https://app.cavedb.net/share/e3382be5-53f5-41e7-9712-cbc5521be11a.html"
 catalog-type: "cave"
 altitude: "262 m"
 address: "Rue d'Ermeton, Anhée, Wallonie, BEL, 5537"
-location-checked: "false"
 ---
 # Details
 

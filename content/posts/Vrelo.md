@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 41.938101
 longitude: 21.304625
-country: "MKD"
 state: "Greater Skopje"
 suburb: "Saraj"
-privacy: public
 region: "[[North Macedonia]]"
 related:
   - "[[Diving]]"
-  - "[[North Macedonia]]"
 cavedb: "https://app.cavedb.net/share/84b13d26-c158-4828-a487-c59203adeaca.html"
 catalog-type: "cave"
 altitude: "365 m"
 address: "Rrugë Pa Emër, Saraj, Greater Skopje, MKD"
-location-checked: "false"
 ---
 # Details
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.35499500000003
 longitude: -82.69944700000002
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/967d2835-3ba5-49e0-b607-0904313ff495.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "3 m"
 address: "13705-13601, FL-55, Pasco County, Florida, USA, 34667"
-location-checked: "true"
 ---
 # Details
 

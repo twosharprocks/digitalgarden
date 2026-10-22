@@ -11,23 +11,19 @@ tags:
 feature_type: "Cave"
 latitude: 43.03305999999998
 longitude: -1.1802099999999882
-country: "ESP"
 state: "Comunidad Foral de Navarra"
 suburb: "Orbaizeta"
-privacy: public
 obsidian_aliases:
   - "Grotte d'Arpea"
   - "Harpea's Cave"
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/b3869e4d-1656-4a94-a7f4-a07b004e6db9.html"
 catalog-type: "cave"
 altitude: "862 m"
 address: "Orbaizeta, Comunidad Foral de Navarra, ESP, 31670"
-location-checked: "false"
 ---
 # About
 

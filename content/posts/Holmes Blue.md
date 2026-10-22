@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.851670000000013
 longitude: -85.88584700000001
-country: "USA"
-state: "Florida"
 suburb: "Holmes County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/c0666cbf-ca8f-42c3-b6bc-d699337084ad.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "15 m"
 address: "1809, Hand, Holmes County, Florida, USA, 32464"
-location-checked: "true"
 ---
 # Details
 

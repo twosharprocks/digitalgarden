@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 45.55797000000001
 longitude: -65.52665000000002
-country: "CAN"
 state: "New Brunswick"
 suburb: "Hammond"
-privacy: public
 region: "[[Canada]]"
 related:
   - "[[Diving]]"
-  - "[[Canada]]"
 cavedb: "https://app.cavedb.net/share/d3d1635f-75c5-4902-90c1-c85e508a1bdd.html"
 catalog-type: "cave"
 altitude: "128 m"
 address: "5441, HWY-111, Hammond, New Brunswick, CAN, E4E 3T8"
-location-checked: "false"
 ---
 # Details
 

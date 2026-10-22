@@ -11,22 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: -34.07903400000001
 longitude: 115.02916800000003
-country: "AUS"
-state: "Western Australia"
 suburb: "Boranup"
-privacy: public
 obsidian_aliases:
   - "Cave Works"
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 cavedb: "https://app.cavedb.net/share/51c50961-43a1-4e1e-b4c2-268be1f09459.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "99 m"
 address: "Lake Cave Rd, Boranup, Western Australia, AUS, 6286"
-location-checked: "false"
 ---
 # Details
 

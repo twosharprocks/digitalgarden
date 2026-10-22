@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 46.27735100000001
 longitude: 13.886809999999969
-country: "SVN"
 suburb: "Bohinj"
-privacy: public
 region: "[[Slovenia]]"
 related:
   - "[[Diving]]"
-  - "[[Slovenia]]"
 cavedb: "https://app.cavedb.net/share/c99093ae-43b7-49ff-abe0-8a20fc272135.html"
 catalog-type: "cave"
 altitude: "533 m"
 address: "51, Ribčev Laz, Bohinj, SVN, 4265"
-location-checked: "false"
 ---
 # Details
 

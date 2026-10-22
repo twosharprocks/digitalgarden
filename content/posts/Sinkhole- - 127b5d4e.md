@@ -11,20 +11,15 @@ tags:
 feature_type: "Sinkhole"
 latitude: -38.049381
 longitude: 141.17348
-country: "AUS"
-state: "Victoria"
 suburb: "Glenelg Shire"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/127b5d4e-537a-46c8-846b-2d3c10555939.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "32 m"
 address: "Glenelg Dr, Glenelg Shire, Victoria, AUS, 3292"
-location-checked: "false"
 ---
 # Details
 

@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: -41.22045
 longitude: 172.76198
-country: "NZL"
 state: "Tasman"
 suburb: "Tasman District"
-privacy: public
 region: "[[New Zealand]]"
 related:
   - "[[Diving]]"
-  - "[[New Zealand]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/f43e64c6-29f7-490b-98b1-f6c9b780c0bc.html"
 catalog-type: "cave"
 altitude: "210 m"
 address: "Pearse Valley Rd, Tasman District, Tasman, NZL, 7073"
-location-checked: "true"
 ---
 # Details
 

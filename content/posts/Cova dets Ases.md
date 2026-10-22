@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 39.42567700000001
 longitude: 3.265267999999992
-country: "ESP"
 state: "Illes Balears"
 suburb: "Felanitx"
-privacy: public
 obsidian_aliases:
   - "Donkeys' Cave"
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/9db98957-9db8-4e13-b32e-5a6464dd03ca.html"
 catalog-type: "cave"
 altitude: "8 m"
 address: "10, Plaça de Sant Jaume, Felanitx, Illes Balears, ESP, 07670"
-location-checked: "false"
 ---
 # Details
 

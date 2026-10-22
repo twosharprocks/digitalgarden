@@ -11,21 +11,17 @@ tags:
 feature_type: Cave
 latitude: 20.513166811108363
 longitude: -87.24707320332527
-country: MEX
 state: Quintana Roo
 suburb: Solidaridad
-privacy: public
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
 rating: TDI Cavern
 cavedb: https://app.cavedb.net/share/36b088b7-eaaa-43bb-b05a-0876a875c32a.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
 altitude: "11 m"
 address: "Ruta Sin Nombre, Solidaridad, Quintana Roo, MEX, 77733"
-location-checked: "false"
 ---
 # About
 

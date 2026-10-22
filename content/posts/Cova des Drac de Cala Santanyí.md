@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 39.33017699999999
 longitude: 3.1477219999999306
-country: "ESP"
 state: "Illes Balears"
 suburb: "Santanyí"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/f61dbede-8304-48f5-9edb-948e70e019c2.html"
 catalog-type: "cave"
 altitude: "20 m"
 address: "10, Carrer Cova des Drac, Santanyí, Illes Balears, ESP, 07659"
-location-checked: "false"
 ---
 # Details
 

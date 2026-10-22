@@ -12,19 +12,15 @@ tags:
 feature_type: "Cave"
 latitude: 57.006925000000024
 longitude: 21.987091700000065
-country: "LVA"
 state: "Kuldīga Municipality"
 suburb: "Rumba parish"
-privacy: public
 region: "[[Latvia]]"
 related:
   - "[[Diving]]"
-  - "[[Latvia]]"
 cavedb: "https://app.cavedb.net/share/3002a62c-11b5-4954-97cd-e2a2802c8d35.html"
 catalog-type: "cave"
 altitude: "20 m"
 address: "Rumba parish, Kuldīga Municipality, LVA, 3301"
-location-checked: "true"
 ---
 # Details
 

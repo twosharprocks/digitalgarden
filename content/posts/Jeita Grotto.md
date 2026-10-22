@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 33.94390550000003
 longitude: 35.64410769999995
-country: "LBN"
 state: "Mount Lebanon Governorate"
 suburb: "Kesrouane"
-privacy: public
 region: "[[Lebanon]]"
 related:
   - "[[Diving]]"
-  - "[[Lebanon]]"
 cavedb: "https://app.cavedb.net/share/c017a7e4-e8a6-40c8-ac6e-fac60f7fb95e.html"
 catalog-type: "cave"
 altitude: "97 m"
 address: "Jitta, Kesrouane, Mount Lebanon Governorate, LBN"
-location-checked: "true"
 ---
 # Details
 

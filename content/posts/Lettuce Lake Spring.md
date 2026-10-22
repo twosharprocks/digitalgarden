@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 28.017911000000026
 longitude: -82.35033299999998
-country: "USA"
-state: "Florida"
 suburb: "Tampa"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 cavedb: "https://app.cavedb.net/share/dba89024-f6f6-4e76-bfd8-648c994a0e52.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "5 m"
 address: "7809, US-301, Tampa, Florida, USA, 33637-6781"
-location-checked: "true"
 ---
 # Details
 

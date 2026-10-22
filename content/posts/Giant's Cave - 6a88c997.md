@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -34.09040999999999
 longitude: 115.04303700000003
-country: "AUS"
-state: "Western Australia"
 suburb: "Boranup"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 cavedb: "https://app.cavedb.net/share/6a88c997-932a-45c9-9438-84270768c049.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "121 m"
 address: "Caves Rd, Boranup, Western Australia, AUS, 6286"
-location-checked: "false"
 ---
 # Details
 

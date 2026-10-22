@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.577339999999992
 longitude: -83.26189999999997
-country: "USA"
-state: "Florida"
 suburb: "Madison County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/ba7853d8-2a60-42f9-b184-1b7974d18580.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "20 m"
 address: "Unnamed Road, Madison County, Florida, USA, 32350"
-location-checked: "true"
 ---
 # Details
 

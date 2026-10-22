@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 46.96550000000002
 longitude: 6.011250000000018
-country: "FRA"
 state: "Bourgogne-Franche-Comté"
 suburb: "Nans-sous-Sainte-Anne"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/6c2a5e8c-82db-4ba5-91e7-178ed1eefbcf.html"
 catalog-type: "cave"
 altitude: "436 m"
 address: "D477, Nans-sous-Sainte-Anne, Bourgogne-Franche-Comté, FRA, 25330"
-location-checked: "false"
 ---
 # Details
 

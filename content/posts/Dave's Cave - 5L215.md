@@ -12,16 +12,12 @@ region: "[[South Australia]]"
 related:
   - "[[Diving]]"
   - "[[Cave Entries to Write]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
 rating: CDAA Cave, TDI Intro to Cave
 feature_type: "Cave"
 latitude: -37.96672393
 longitude: 140.58916304000002
-country: "AUS"
-state: "South Australia"
 suburb: "The District Council of Grant"
-privacy: restricted-or-unknown
 obsidian_aliases:
   - "Dave's Secret"
   - "Warnesy's Waterhole"

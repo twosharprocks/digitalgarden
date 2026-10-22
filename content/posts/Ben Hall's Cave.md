@@ -11,20 +11,15 @@ tags:
 feature_type: "RockyOutcrop"
 latitude: -33.91448
 longitude: 147.97532
-country: "AUS"
-state: "New South Wales"
 suburb: "Piney Range"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 cavedb: "https://app.cavedb.net/share/380945ca-5ab7-41f1-8ef8-2b1bf6b26c79.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "510 m"
 address: "Piney Range, New South Wales, AUS, 2810"
-location-checked: "true"
 ---
 # About
 

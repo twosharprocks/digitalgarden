@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 6.906305555555548
 longitude: 40.84488888888893
-country: "ETH"
 state: "Oromia"
 suburb: "Bale"
-privacy: public
 region: "[[Ethiopia]]"
 related:
   - "[[Diving]]"
-  - "[[Ethiopia]]"
 cavedb: "https://app.cavedb.net/share/1ddb52fd-565b-4a69-8ebb-0abd0cdc203b.html"
 catalog-type: "cave"
 altitude: "1237 m"
 address: "C90, Bale, Oromia, ETH"
-location-checked: "true"
 ---
 # About
 

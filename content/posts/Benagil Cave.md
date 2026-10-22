@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 37.087208
 longitude: -8.42373
-country: "PRT"
 state: "Faro District"
 suburb: "Lagoa"
-privacy: public
 region: "[[Portugal]]"
 related:
   - "[[Diving]]"
-  - "[[Portugal]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
   - "[[Trip - Portugal 2026 Oct]]"
 cavedb: "https://app.cavedb.net/share/febdc427-cf7f-48d2-b6ca-e624806595cd.html"
 catalog-type: "cave"
 altitude: "8 m"
 address: "Unnamed Road, Lagoa, Faro District, PRT, 8400"
-location-checked: "false"
 ---
 # Details
 

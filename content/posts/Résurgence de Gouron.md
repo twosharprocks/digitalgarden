@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 47.042219999999986
 longitude: 6.254169999999931
-country: "FRA"
 state: "Bourgogne-Franche-Comté"
 suburb: "Lods"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/066d8171-9c7c-4217-a36d-cff89c3e10ec.html"
 catalog-type: "cave"
 altitude: "377 m"
 address: "D67, Lods, Bourgogne-Franche-Comté, FRA, 25930"
-location-checked: "false"
 ---
 # Details
 

@@ -11,22 +11,17 @@ tags:
 feature_type: Cave
 latitude: 20.297121000000004
 longitude: -87.414493
-country: MEX
 state: Quintana Roo
 suburb: Tulum Municipality
-privacy: public
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
 rating: TDI Cavern
 cavedb: https://app.cavedb.net/share/cf41afc6-41a9-426b-b4db-c2f17bdaf8f1.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
 altitude: "19 m"
 address: "[[Mol Balam]] Rd, Tulum Municipality, Quintana Roo, MEX, 77772"
-location-checked: "true"
-location-checked-by: "BC"
 ---
 # Details
 

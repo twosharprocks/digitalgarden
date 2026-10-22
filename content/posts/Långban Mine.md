@@ -11,19 +11,15 @@ tags:
 feature_type: "Mine"
 latitude: 59.85360700000001
 longitude: 14.263075999999955
-country: "SWE"
 state: "Värmlands län"
 suburb: "Långban"
-privacy: public
 region: "[[Sweden]]"
 related:
   - "[[Diving]]"
-  - "[[Sweden]]"
 cavedb: "https://app.cavedb.net/share/a1a835f4-1e83-4c2f-b43d-1f167a025d38.html"
 catalog-type: "cave"
 altitude: "236 m"
 address: "Långban Hyttbacken, Långban, Värmlands län, SWE, 682 92"
-location-checked: "false"
 ---
 # Details
 

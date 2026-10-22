@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 32.06833333333327
 longitude: 12.694444444444343
-country: "LBY"
 state: "Jabal al Gharbi District"
-privacy: public
 region: "[[Libya]]"
 related:
   - "[[Diving]]"
-  - "[[Libya]]"
 cavedb: "https://app.cavedb.net/share/5cf9efd8-6e3a-4171-830b-052cd2b67141.html"
 catalog-type: "cave"
 altitude: "781 m"
 address: "Tariaq Bedon Esm, Jabal al Gharbi District, LBY"
-location-checked: "true"
 ---
 # About
 

@@ -11,22 +11,18 @@ tags:
 feature_type: "Mine"
 latitude: 50.90198099999998
 longitude: 16.73576700000001
-country: "POL"
 state: "Lower Silesian Voivodeship"
 suburb: "Wrocław County"
-privacy: public
 obsidian_aliases:
   - "Kopalnia Maria Concordia"
 region: "[[Poland]]"
 related:
   - "[[Diving]]"
-  - "[[Poland]]"
 rating: TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/2dafe7a1-f94f-4bf4-80b8-c9e2214d15f4.html"
 catalog-type: "cave"
 altitude: "194 m"
 address: "7-1, Turystyczna, Wrocław County, Lower Silesian Voivodeship, POL, 58"
-location-checked: "false"
 ---
 # Details
 

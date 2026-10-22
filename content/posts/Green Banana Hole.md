@@ -11,16 +11,13 @@ tags:
 feature_type: "Sinkhole"
 latitude: 26.80119000000002
 longitude: -83.08197999999999
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 cavedb: "https://app.cavedb.net/share/575cc25c-4b10-4ba4-b6ad-a870c5586e51.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "-38 m"
-location-checked: "false"
 ---
 # About
 

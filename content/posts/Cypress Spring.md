@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.658145999999988
 longitude: -85.684437
-country: "USA"
-state: "Florida"
 suburb: "Washington County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/653cd467-3914-4c47-8bbc-b311802a0035.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "6 m"
 address: "3099-2989, Cypress Springs Rd, Washington County, Florida, USA, 32462"
-location-checked: "true"
 ---
 # Details
 

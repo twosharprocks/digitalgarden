@@ -11,22 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: -37.40583000000001
 longitude: 148.21114999999998
-country: "AUS"
-state: "Victoria"
 suburb: "Murrindal"
-privacy: public
 obsidian_aliases:
   - "M-3"
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/f82c12d9-3b8c-4c07-b296-a296d7579023.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "227 m"
 address: "1465, Gelantipy Rd, Murrindal, Victoria, AUS, 3885"
-location-checked: "true"
 ---
 # About
 

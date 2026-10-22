@@ -13,18 +13,14 @@ related:
   - "[[Diving]]"
   - "[[Photogrammetry - Processing]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
-  - "[[Muna Island - Sulawesi]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
   - "[[2025-08-09]]"
-  - "[[Sulawesi]]"
 rating: TDI Intro to Cave
 feature_type: Cave
 latitude: -5.372742000000017
 longitude: 122.46892600000001
-country: IDN
 state: South East Sulawesi
 suburb: Buton Regency
-privacy: public
 obsidian_aliases:
   - "Wandoke"
 cavedb: "https://app.cavedb.net/share/f27757da-e3b1-4fda-b7b9-c9ad4670bdf9.html"

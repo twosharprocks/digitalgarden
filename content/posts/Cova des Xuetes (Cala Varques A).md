@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 39.499446179160884
 longitude: 3.295820653438568
-country: "ESP"
 state: "Illes Balears"
 suburb: "Manacor"
-privacy: public
 obsidian_aliases:
   - "Cala Varques Cave"
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/6a50c6b5-1d97-49b2-9c09-2712a55017d9.html"
 catalog-type: "cave"
 altitude: "7 m"
 address: "Camí Cala Falcó, Manacor, Illes Balears, ESP, 07689"
-location-checked: "false"
 ---
 # Details
 

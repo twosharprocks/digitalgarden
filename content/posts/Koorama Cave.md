@@ -11,21 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -37.66548890999999
 longitude: 140.49194639000007
-country: "AUS"
-state: "South Australia"
 suburb: "Tantanoola"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 cavedb: "https://app.cavedb.net/share/9e4fd6fe-d9cb-4e47-9695-8b2abfb45dee.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "75 m"
 address: "Buchanan Rd, Tantanoola, South Australia, AUS, 5280"
-location-checked: "true"
-location-checked-by: "MW - Foot"
 ---
 # About
 

@@ -22,6 +22,12 @@ related:
 
 - [C1035]({{< relref "posts/C1035.md" >}})
 - [Cammoo Caves]({{< relref "posts/Cammoo Caves.md" >}})
+- [Camooweal Caves]({{< relref "posts/Camooweal Caves.md" >}})
+- [Camooweal Karst]({{< relref "posts/Camooweal Karst.md" >}})
+- [Camooweal Karst2]({{< relref "posts/Camooweal Karst2.md" >}})
+- [Camooweal Karst3]({{< relref "posts/Camooweal Karst3.md" >}})
+- [Hassels Cave]({{< relref "posts/Hassels Cave.md" >}})
+- [Innot Hot Springs]({{< relref "posts/Innot Hot Springs.md" >}})
 - [Lake Barrine]({{< relref "posts/Lake Barrine.md" >}})
 - [Lake Eacham]({{< relref "posts/Lake Eacham.md" >}})
 

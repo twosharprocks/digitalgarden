@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 46.01805999999999
 longitude: 11.581109999999967
-country: "ITA"
 state: "Trentino-Alto Adige"
 suburb: "Grigno"
-privacy: public
 obsidian_aliases:
   - "Bigonda cave"
   - "Vigondola"
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/c278763d-a847-45ff-b01f-fe4b6153411f.html"
 catalog-type: "cave"
 altitude: "417 m"
 address: "Frazione Selva, Grigno, Trentino-Alto Adige, ITA, 38055"
-location-checked: "false"
 ---
 # Details
 

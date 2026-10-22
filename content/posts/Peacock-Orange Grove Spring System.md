@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.128780617847042
 longitude: -83.13190340995783
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/8f6bbfe7-5bc9-430e-98de-deb70cd5b94e.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "16 m"
 address: "18532, 180th St, Suwannee County, Florida, USA, 32060"
-location-checked: "false"
 ---
 # Details
 

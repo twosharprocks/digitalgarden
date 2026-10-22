@@ -10,15 +10,11 @@ tags:
   - mount-gambier
 related:
   - "[[Diving]]"
-  - "[[Mount Gambier - Lower South East]]"
 region: "[[South Australia]]"
 feature_type: "Sinkhole"
 latitude: -37.829226000000006
 longitude: 140.78067599999997
-country: "AUS"
-state: "South Australia"
 suburb: "Mount Gambier"
-privacy: public
 obsidian_aliases:
   - "Town Hall"
   - "Mitchell's"

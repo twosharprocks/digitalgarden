@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 45.06677000000002
 longitude: 1.2934999999999945
-country: "FRA"
 state: "Nouvelle-Aquitaine"
 suburb: "La Cassagne"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/e357604f-59a7-4669-8118-e52b23751f37.html"
 catalog-type: "cave"
 altitude: "128 m"
 address: "D62, La Cassagne, Nouvelle-Aquitaine, FRA, 24120"
-location-checked: "true"
 ---
 # Details
 

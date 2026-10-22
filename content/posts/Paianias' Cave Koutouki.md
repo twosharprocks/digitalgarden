@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 37.94682999999998
 longitude: 23.82872999999995
-country: "GRC"
 state: "Αττική"
 suburb: "Παιανία"
-privacy: public
 region: "[[Greece]]"
 related:
   - "[[Diving]]"
-  - "[[Greece]]"
 cavedb: "https://app.cavedb.net/share/e3ac470f-8c32-4437-9160-7aa372947833.html"
 catalog-type: "cave"
 altitude: "521 m"
 address: "Παιανία, Αττική, GRC, 190 02"
-location-checked: "false"
 ---
 # About
 

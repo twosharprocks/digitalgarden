@@ -11,17 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: -5.508330000000001
 longitude: 122.56689000000006
-country: "IDN"
 state: "South East Sulawesi"
 suburb: "Bau-Bau City"
-privacy: public
 obsidian_aliases:
   - "Lakasa Cave"
   - "Goa Lakasa"
 region: "[[Indonesia]]"
 related:
   - "[[Diving]]"
-  - "[[Sulawesi]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
 cavedb: "https://app.cavedb.net/share/a9c25557-c361-4b80-8f0e-5f4bc81af7e9.html"
@@ -29,7 +26,6 @@ catalog-type: "cave"
 sub-region: "[[Sulawesi]]"
 altitude: "68 m"
 address: "Jalan Tanpa Nama, Bau-Bau City, South East Sulawesi, IDN, 93721"
-location-checked: "false"
 ---
 # Details
 

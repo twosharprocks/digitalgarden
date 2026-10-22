@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 40.56083000000001
 longitude: 8.163880000000063
-country: "ITA"
 state: "Sardinia"
 suburb: "Province of Sassari"
-privacy: public
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/7b7cf055-d64a-4ea5-be39-68c858da6ffa.html"
 catalog-type: "cave"
 altitude: "0 m"
 address: "Escala del Cabirol, Province of Sassari, Sardinia, ITA, 07041"
-location-checked: "false"
 ---
 # Details
 

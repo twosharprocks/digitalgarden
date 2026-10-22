@@ -11,23 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: -37.98907714761475
 longitude: 140.99087476730347
-country: "AUS"
-state: "Victoria"
 suburb: "Mumbannar"
-privacy: public
 obsidian_aliases:
   - "G-6"
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/07e049de-ee42-400a-ba1e-2d29d964c01b.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "37 m"
 address: "Princess Margaret Rose Caves Rd, Mumbannar, Victoria, AUS, 3304"
-location-checked: ["false", "true"]
-location-checked-by: "Tourist Cave"
 ---
 # Details
 

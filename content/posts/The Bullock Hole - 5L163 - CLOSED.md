@@ -12,15 +12,11 @@ region: "[[South Australia]]"
 related:
   - "[[Diving]]"
   - "[[Cave Entries to Write]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
 feature_type: "Sinkhole"
 latitude: -37.893111000000005
 longitude: 140.65254900000002
-country: "AUS"
-state: "South Australia"
 suburb: "Mount Schank"
-privacy: restricted-or-unknown
 cavedb: "https://app.cavedb.net/share/fc947a71-c4a6-4a8d-94ed-b798155958c9.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"

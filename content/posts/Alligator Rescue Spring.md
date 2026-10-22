@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 30.101940000000013
 longitude: -83.16583000000003
-country: "USA"
-state: "Florida"
 suburb: "Mayo"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 cavedb: "https://app.cavedb.net/share/163c071d-ab54-4d97-8a68-f1c8e9e76bd5.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "13 m"
 address: "426, NE Suwannee Trl, Mayo, Florida, USA, 32066-3844"
-location-checked: "false"
 ---
 # Details
 

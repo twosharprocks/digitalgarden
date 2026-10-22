@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.99649999999997
 longitude: -82.96659
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/14091a98-4468-4c87-ba88-fd197ea60129.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "5 m"
 address: "24891, 105th Ln, Suwannee County, Florida, USA, 32071"
-location-checked: "true"
 ---
 # Details
 

@@ -11,23 +11,19 @@ tags:
 feature_type: "Cave"
 latitude: 50.02806192137143
 longitude: -126.75057649612427
-country: "CAN"
 state: "British Columbia"
 suburb: "Strathcona"
-privacy: public
 obsidian_aliases:
   - "Nomash River Cave"
   - "Nomash River Resurgence"
 region: "[[Canada]]"
 related:
   - "[[Diving]]"
-  - "[[Canada]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/6b453630-a420-42bf-ab95-8c97c8d08c6d.html"
 catalog-type: "cave"
 altitude: "155 m"
 address: "Nomash Rd, Strathcona, British Columbia, CAN, V0P"
-location-checked: "false"
 ---
 # About
 

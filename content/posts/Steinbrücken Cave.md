@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 47.69094000000001
 longitude: 13.821450000000027
-country: "AUT"
 state: "Steiermark"
 suburb: "Altaussee"
-privacy: public
 region: "[[Austria]]"
 related:
   - "[[Diving]]"
-  - "[[Austria]]"
 cavedb: "https://app.cavedb.net/share/8ebcb435-7187-40e3-b8df-e2e5d854923a.html"
 catalog-type: "cave"
 altitude: "1820 m"
 address: "Altaussee, Steiermark, AUT, 8992"
-location-checked: "false"
 ---
 # Details
 

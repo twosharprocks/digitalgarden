@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -38.33584999999999
 longitude: 141.49577399999998
-country: "AUS"
-state: "Victoria"
 suburb: "Portland West"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/8a777bd3-5a92-4ec3-bb4b-c0f807b74eea.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "72 m"
 address: "86, Telegraph Rd, Portland West, Victoria, AUS, 3305"
-location-checked: "false"
 ---
 # Details
 

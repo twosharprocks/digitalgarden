@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.87387000000001
 longitude: -82.59150999999997
-country: "USA"
-state: "Florida"
 suburb: "Alachua County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/a06c3dec-f0e4-4afb-a2b5-da89e9153b1f.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "10 m"
 address: "Alachua County, Florida, USA, 32643"
-location-checked: "true"
 ---
 # Details
 

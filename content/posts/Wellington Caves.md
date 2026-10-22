@@ -12,15 +12,11 @@ region: "[[Australia]]"
 related:
   - "[[Diving]]"
   - "[[Trip - Wellington Caves - 2025 Sept]]"
-  - "[[New South Wales]]"
   - "[[Limekiln-McCavity Cave]]"
 feature_type: "Cave"
 latitude: -32.620924401729894
 longitude: 148.93865704536438
-country: "AUS"
-state: "New South Wales"
 suburb: "Apsley"
-privacy: public
 cavedb: "https://app.cavedb.net/share/783c6963-cb4f-4bb3-aac1-f2837c9e164b.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"

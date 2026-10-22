@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 45.84476699999999
 longitude: 11.668157999999949
-country: "ITA"
 state: "Veneto"
 suburb: "Valbrenta"
-privacy: public
 obsidian_aliases:
   - "Grotte Di Oliero"
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/322b2b43-d7a1-4ecb-9554-9242dd84d5ca.html"
 catalog-type: "cave"
 altitude: "153 m"
 address: "60A, Via Oliero di Sotto, Valbrenta, Veneto, ITA, 36029"
-location-checked: "false"
 ---
 # Details
 

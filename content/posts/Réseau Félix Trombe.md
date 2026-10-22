@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 42.97249999999997
 longitude: 0.866390000000024
-country: "FRA"
 state: "Occitanie"
 suburb: "Haute-Garonne"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/27a2f8ff-885a-4ea6-b53d-ce55a2a6c732.html"
 catalog-type: "cave"
 altitude: "1361 m"
 address: "Route Sans Nom, Haute-Garonne, Occitanie, FRA, 31160"
-location-checked: "true"
 ---
 # Details
 

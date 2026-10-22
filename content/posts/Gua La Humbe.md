@@ -13,17 +13,13 @@ related:
   - "[[Diving]]"
   - "[[Photogrammetry - Processing]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
-  - "[[Muna Island - Sulawesi]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
-  - "[[Sulawesi]]"
 rating: TDI Intro to Cave
 feature_type: "Cave"
 latitude: -5.346466000000021
 longitude: 122.61137800000006
-country: "IDN"
 state: "South East Sulawesi"
 suburb: "Buton Regency"
-privacy: public
 cavedb: "https://app.cavedb.net/share/a5a4e208-253a-410b-85d4-74b4d661856d.html"
 catalog-type: "cave"
 sub-region: "[[Muna Island - Sulawesi]]"

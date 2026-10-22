@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: -15.377499999999998
 longitude: 166.96694444444438
-country: "VUT"
 state: "Sanma Province"
 suburb: "West Santo"
-privacy: public
 region: "[[Vanuatu]]"
 related:
   - "[[Diving]]"
-  - "[[Vanuatu]]"
   - "[[Trip - Vanuatu - 2027 April]]"
 cavedb: "https://app.cavedb.net/share/1a1bf91b-46bc-407e-8eca-bd6e58506e99.html"
 catalog-type: "cave"
 altitude: "626 m"
 address: "West Santo, Sanma Province, VUT"
-location-checked: "true"
 ---
 # About
 

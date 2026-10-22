@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.332704000000035
 longitude: -82.46405800000002
-country: "USA"
-state: "Florida"
 suburb: "Levy County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/89dcb2ac-526f-4119-971a-3f09cfd097ba.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "18 m"
 address: "Levy County, Florida, USA, 32696"
-location-checked: "true"
 ---
 # Details
 

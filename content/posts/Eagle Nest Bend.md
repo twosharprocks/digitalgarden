@@ -10,20 +10,15 @@ tags:
   - victoria
 latitude: -38.041576
 longitude: 141.157762
-country: "AUS"
-state: "Victoria"
 suburb: "Glenelg Shire"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/ed7f90a2-ae32-482a-9a69-73e8d89563d8.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "19 m"
 address: "Glenelg Dr, Glenelg Shire, Victoria, AUS, 3292"
-location-checked: "false"
 ---
 # Details
 

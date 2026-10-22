@@ -11,10 +11,7 @@ tags:
 feature_type: "Cave"
 latitude: -37.6005571
 longitude: 140.50649700999998
-country: "AUS"
-state: "South Australia"
 suburb: "Mount Burr"
-privacy: public
 obsidian_aliases:
   - "Pub Paddock"
   - "Mt Burr Bat"
@@ -22,14 +19,11 @@ obsidian_aliases:
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 cavedb: "https://app.cavedb.net/share/4f7fc458-ad49-4bc3-8d2c-5f67f62117df.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "93 m"
 address: "TV Tower Rd, Mount Burr, South Australia, AUS, 5279"
-location-checked: "true"
-location-checked-by: "MW - Foot"
 ---
 # Details
 
@@ -61,7 +55,7 @@ Forestry
 # Additional Notes
 
 CAVE/KARST FEATURE NUMBERS: 5L69/70
-MOUNT BURR CAVE (Pub Paddock Cave; Mt. Burr Bat Cave).
+MOUNT BURR CAVE (Pub Paddock Cave; Mt. Burr [Bat Cave]({{< relref "posts/Bat Cave.md" >}})).
 This extensively-developed cave system has long been known, although its relatively isolated location in a swampy area of forest many kilometres from the nearest town has protected it from excessive visitation. Access is best made via SL69, which is a group of low openings at the base of a rockface around the perimeter of a swamp basin, 51.70 is more difficult, being some 50 metres up a nearby rise and consisting of a 2m diameter chimney-type tube or shaft about 4 metres deep. It basically consists of some 300 metres of irregular passage about 50m wide and between 1.5 and 4.5m high, containing quite a lot of decoration, a few weird "sculpted" shapes and some guano (ie, bat poo!).
 The feature was mentioned by the Reverend Julian Edmund Woods in his "Geological Observations in South Australia" (1862), where he described it as being accessible only via a "...very small aperture, through which a man can barely creep" Father Woods went on to say that after moving through the orifice, "a very large chamber is discovered, with the roof not more than sixteen, or, in places, at most twenty, feet from the ground, but very irregular. There are few or no stalactites, but the water drops through in quantities quite large enough to make them in a very short time, and, therefore, we may conclude that the caves have not been very long in existence.
 "...the whole extent of the caves has not been ascertained, but they have been followed for an immense distance, without diminishing in width or in height" Father woods also went on to discuss the fine tree roots, thick mud deposits and fossil bones which he observed.

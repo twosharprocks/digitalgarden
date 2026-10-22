@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 30.162500000000023
 longitude: -83.24221999999997
-country: "USA"
-state: "Florida"
 suburb: "Mayo"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 cavedb: "https://app.cavedb.net/share/fec96554-612a-48e3-8fe4-9de91d75d849.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "8 m"
 address: "232, NW Ezell Landing Rd, Mayo, Florida, USA, 32066"
-location-checked: "false"
 ---
 # Details
 

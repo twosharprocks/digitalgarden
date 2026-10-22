@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: -12.782199999999989
 longitude: -41.149099999999976
-country: "BRA"
 state: "State of Bahia"
 suburb: "Nova Redenção"
-privacy: public
 region: "[[Brazil]]"
 related:
   - "[[Diving]]"
-  - "[[Brazil]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/c278626f-9550-430e-a1c6-70f2dd9f1a1d.html"
 catalog-type: "cave"
 altitude: "350 m"
 address: "Unnamed Road, Nova Redenção, State of Bahia, BRA, 46835-000"
-location-checked: "true"
 ---
 # Details
 

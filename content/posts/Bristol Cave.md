@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 18.298020000000008
 longitude: -77.52064000000001
-country: "JAM"
 state: "Trelawny Parish"
-privacy: public
 region: "[[Jamaica]]"
 related:
   - "[[Diving]]"
-  - "[[Jamaica]]"
 cavedb: "https://app.cavedb.net/share/7fff6b72-917d-44d1-9e51-554f639389c1.html"
 catalog-type: "cave"
 altitude: "407 m"
 address: "Unnamed Road, Trelawny Parish, JAM"
-location-checked: "false"
 ---
 # Details
 

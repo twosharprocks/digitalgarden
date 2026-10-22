@@ -11,21 +11,15 @@ tags:
 feature_type: "SolutionTube"
 latitude: -32.621669999999995
 longitude: 148.93944599999998
-country: "AUS"
-state: "New South Wales"
 suburb: "Dubbo Regional Council"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 cavedb: "https://app.cavedb.net/share/5ca44013-28ca-48ba-bd32-8f3168baeb1a.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "325 m"
 address: "99-101, Caves Rd, Dubbo Regional Council, New South Wales, AUS, 2820"
-location-checked: "true"
-location-checked-by: "Grubby Wombat"
 ---
 # Details
 

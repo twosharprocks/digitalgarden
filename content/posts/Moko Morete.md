@@ -13,19 +13,15 @@ related:
   - "[[Diving]]"
   - "[[Photogrammetry - Processing]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
-  - "[[Muna Island - Sulawesi]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
   - "[[2025-08-05]]"
   - "[[Weekly - 2025-08-10]]"
-  - "[[Sulawesi]]"
 rating: TDI Intro to Cave
 feature_type: "Cave"
 latitude: -5.171496409655106
 longitude: 122.58316464722157
-country: "IDN"
 state: "South East Sulawesi"
 suburb: "Muna Regency"
-privacy: public
 obsidian_aliases:
   - "Danau Moko 3"
 cavedb: "https://app.cavedb.net/share/9ecbad71-038f-4483-a8ed-665f562da5c8.html"

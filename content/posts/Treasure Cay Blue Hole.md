@@ -11,21 +11,17 @@ tags:
 feature_type: "Sinkhole"
 latitude: 26.73356799999999
 longitude: -77.39873799999998
-country: "BHS"
 state: "North Abaco"
-privacy: public
 obsidian_aliases:
   - "Blue Hole"
 region: "[[Bahamas]]"
 related:
   - "[[Diving]]"
-  - "[[Bahamas]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/d7ad99b6-9438-41c5-bccd-560f56b4cd09.html"
 catalog-type: "cave"
 altitude: "7 m"
 address: "Unnamed Road, North Abaco, BHS"
-location-checked: "false"
 ---
 # About
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.531345999999985
 longitude: -82.54381699999999
-country: "USA"
-state: "Florida"
 suburb: "Hernando County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/7099495b-b3c6-4a1c-b4e4-1b79d2349637.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "7 m"
 address: "11010, State Rte 50, Hernando County, Florida, USA, 34613"
-location-checked: "true"
 ---
 # Details
 

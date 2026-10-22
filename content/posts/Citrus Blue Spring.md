@@ -11,10 +11,7 @@ tags:
 feature_type: "Cave"
 latitude: 28.969169999999963
 longitude: -82.31443999999999
-country: "USA"
-state: "Florida"
 suburb: "Hernando"
-privacy: public
 obsidian_aliases:
   - "Citrus Blue"
   - "Big Citrus Blue"
@@ -23,13 +20,11 @@ obsidian_aliases:
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 cavedb: "https://app.cavedb.net/share/1763b9a8-657c-4778-9a64-8c24a5ae1d0c.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "10 m"
 address: "7265, N Big Blue Way, Hernando, Florida, USA, 34442-2420"
-location-checked: "false"
 ---
 # Details
 

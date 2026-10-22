@@ -11,21 +11,17 @@ tags:
 feature_type: Cave
 latitude: 20.498050000000035
 longitude: -87.26138000000003
-country: MEX
 state: Quintana Roo
 suburb: Solidaridad
-privacy: public
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
 rating: TDI Open Water Scuba Diver
 cavedb: https://app.cavedb.net/share/e15bc300-b1a4-4a0d-8eea-469d0927efec.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
 altitude: "10 m"
 address: "Divers parking Access, Solidaridad, Quintana Roo, MEX, 77734"
-location-checked: "true"
 ---
 # Details
 

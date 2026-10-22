@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.27382
 longitude: -84.33866
-country: "USA"
-state: "Florida"
 suburb: "Wakulla County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/80b583c9-5070-41e0-9d7e-2c71b860d1ff.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "6 m"
 address: "127-151, River Sink Rd, Wakulla County, Florida, USA, 32327"
-location-checked: "true"
 ---
 # Details
 

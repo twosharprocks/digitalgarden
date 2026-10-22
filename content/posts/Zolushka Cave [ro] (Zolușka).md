@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 48.28011520000001
 longitude: 26.633511699999985
-country: "MDA"
 state: "Briceni District"
 suburb: "Novoselyts'kyi district"
-privacy: public
 region: "[[Moldova]]"
 related:
   - "[[Diving]]"
-  - "[[Moldova]]"
 cavedb: "https://app.cavedb.net/share/707ceb55-29b9-4f97-a70e-d8f1e6881afb.html"
 catalog-type: "cave"
 altitude: "144 m"
 address: "Vulytsya Bez Nazvy, Novoselyts'kyi district, Briceni District, MDA, 60363"
-location-checked: "true"
 ---
 # Details
 

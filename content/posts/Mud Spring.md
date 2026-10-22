@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.546351000000016
 longitude: -82.62538799999999
-country: "USA"
-state: "Florida"
 suburb: "Hernando County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/92a7d720-ef7b-422d-8967-ab8f10b1dc5f.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "1 m"
 address: "8111-8101, Marys Fish Camp Rd, Hernando County, Florida, USA, 34607"
-location-checked: "true"
 ---
 # Details
 

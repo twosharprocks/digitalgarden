@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -34.273825999999985
 longitude: 115.09840299999996
-country: "AUS"
-state: "Western Australia"
 suburb: "Deepdene"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 cavedb: "https://app.cavedb.net/share/5733479f-e8bc-4125-8ddf-de8792747004.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "79 m"
 address: "35, Jewel Caves Rd, Deepdene, Western Australia, AUS, 6290"
-location-checked: "false"
 ---
 # About
 

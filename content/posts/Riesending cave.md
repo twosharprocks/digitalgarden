@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 47.696939999999984
 longitude: 12.984720000000038
-country: "DEU"
 state: "Bavaria"
 suburb: "Upper Bavaria"
-privacy: public
 region: "[[Germany]]"
 related:
   - "[[Diving]]"
-  - "[[Germany]]"
 cavedb: "https://app.cavedb.net/share/0dc50371-8b90-4872-afdd-a4ea1e4096d3.html"
 catalog-type: "cave"
 altitude: "1854 m"
 address: "Berchtesgadener Hochthronsteig, Upper Bavaria, Bavaria, DEU, 83"
-location-checked: "true"
 ---
 # Details
 

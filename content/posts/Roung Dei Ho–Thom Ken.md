@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 10.616840000000025
 longitude: 104.24289999999996
-country: "KHM"
 state: "Kampot Province"
 suburb: "Tuek Chhou"
-privacy: public
 region: "[[Cambodia]]"
 related:
   - "[[Diving]]"
-  - "[[Cambodia]]"
 cavedb: "https://app.cavedb.net/share/8881bbe0-fd4b-4279-875c-e803be4bd505.html"
 catalog-type: "cave"
 altitude: "9 m"
 address: "139, Tuek Chhou, Kampot Province, KHM"
-location-checked: "true"
 ---
 # Details
 

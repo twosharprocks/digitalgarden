@@ -12,14 +12,10 @@ region: "[[South Australia]]"
 related:
   - "[[Diving]]"
   - "[[Caving - Ideas]]"
-  - "[[Mount Gambier - Lower South East]]"
 feature_type: Cave
 latitude: -37.80999400000002
 longitude: 140.66877499999998
-country: AUS
-state: South Australia
 suburb: Compton
-privacy: restricted-or-unknown
 obsidian_aliases:
   - Crystal Cave
   - Crystal Palace

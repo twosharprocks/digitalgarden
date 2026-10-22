@@ -11,18 +11,13 @@ tags:
 feature_type: "Cave"
 latitude: -38.004110999999995
 longitude: 145.84755900000005
-country: "AUS"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Australia]]"
 cavedb: "https://app.cavedb.net/share/81c0b011-937e-40e3-b34b-369526523807.html"
 catalog-type: "cave"
 altitude: "264 m"
 address: "AUS"
-location-checked: "true"
-location-checked-by: "BC"
 ---
 # About
 

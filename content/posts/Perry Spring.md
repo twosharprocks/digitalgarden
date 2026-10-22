@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.09636999999998
 longitude: -83.18826999999999
-country: "USA"
-state: "Florida"
 suburb: "Lafayette County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/88866e54-9aa5-49ef-9bc5-2648e49c70e9.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "8 m"
 address: "799-761, NW Harlie Lynch Rd, Lafayette County, Florida, USA, 32066"
-location-checked: "true"
 ---
 # Details
 

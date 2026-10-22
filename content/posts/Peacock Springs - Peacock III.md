@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.122029999999995
 longitude: -83.13213999999999
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/92998ca7-6786-4486-b8cb-46aff51b3073.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "8 m"
 address: "Unnamed Road, Suwannee County, Florida, USA, 32060"
-location-checked: "true"
 ---
 # Details
 

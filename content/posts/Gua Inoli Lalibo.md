@@ -11,16 +11,13 @@ tags:
 feature_type: "Cave"
 latitude: -5.30137400000001
 longitude: 122.39843199999996
-country: "IDN"
 state: "South East Sulawesi"
 suburb: "Buton Regency"
-privacy: public
 obsidian_aliases:
   - "AIR GUA INOLI YG TERLUAS DI BUTENG"
 region: "[[Indonesia]]"
 related:
   - "[[Diving]]"
-  - "[[Sulawesi]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
 cavedb: "https://app.cavedb.net/share/9c4b990b-ffb8-4854-8c73-8755dc450a12.html"
@@ -28,7 +25,6 @@ catalog-type: "cave"
 sub-region: "[[Sulawesi]]"
 altitude: "82 m"
 address: "Buton Regency, South East Sulawesi, IDN, 93762"
-location-checked: "false"
 ---
 # Details
 

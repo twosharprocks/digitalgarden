@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 39.27823
 longitude: 20.4456
-country: "GRC"
 state: "Decentralized Administration of Epirus and Western Macedonia"
 suburb: "Epirus"
-privacy: public
 obsidian_aliases:
   - "Cave of Amphitrite"
   - "Amphitrite Cave"
 region: "[[Greece]]"
 related:
   - "[[Diving]]"
-  - "[[Greece]]"
 cavedb: "https://app.cavedb.net/share/b9d0dd83-7172-405a-a073-5c39dae876a5.html"
 catalog-type: "cave"
 altitude: "14 m"
 address: "Epirus, Decentralized Administration of Epirus and Western Macedonia, GRC, 480 60"
-location-checked: "false"
 ---
 # Details
 

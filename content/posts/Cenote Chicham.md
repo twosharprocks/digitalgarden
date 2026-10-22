@@ -11,21 +11,17 @@ tags:
 feature_type: Cave
 latitude: 20.861632999999983
 longitude: -87.02768600000002
-country: MEX
 state: Quintana Roo
 suburb: Puerto Morelos
-privacy: public
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
 rating: TDI Full Cave
 cavedb: https://app.cavedb.net/share/604271d4-eb79-42c1-ac0c-a0087844949a.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
 altitude: "11 m"
 address: "Quintana Roo Puerto Morelos - Leona Vicario, Puerto Morelos, Quintana Roo, MEX, 77582"
-location-checked: "true"
 ---
 # Details
 

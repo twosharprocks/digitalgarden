@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.995769999999993
 longitude: -82.97681
-country: "USA"
-state: "Florida"
 suburb: "Lafayette County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/70a016ad-7b42-4f58-bd3e-a25260b64051.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "6 m"
 address: "NE Ruth Springs Rd, Lafayette County, Florida, USA, 32066"
-location-checked: "true"
 ---
 # Details
 

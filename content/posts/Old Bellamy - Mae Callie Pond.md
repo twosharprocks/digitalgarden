@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.895820000000015
 longitude: -82.56792999999999
-country: "USA"
-state: "Florida"
 suburb: "Alachua County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/6937b3b3-9fcc-420e-a621-6346c12d95e2.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "10 m"
 address: "Unnamed Road, Alachua County, Florida, USA, 32643"
-location-checked: "true"
 ---
 # Details
 

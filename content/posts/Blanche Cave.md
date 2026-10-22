@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -37.034278
 longitude: 140.796562
-country: "AUS"
-state: "South Australia"
 suburb: "Joanna"
-privacy: public
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 cavedb: "https://app.cavedb.net/share/8d88142b-d3df-44fc-b7ea-cc632928f366.html"
 catalog-type: "cave"
 sub-region: "[[Naracoorte Caves]]"
 altitude: "93 m"
 address: "Joanna, South Australia, AUS, 5271"
-location-checked: "true"
 ---
 # About
 

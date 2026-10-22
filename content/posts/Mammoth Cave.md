@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -34.06001499999999
 longitude: 115.02966600000002
-country: "AUS"
-state: "Western Australia"
 suburb: "Boranup"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 cavedb: "https://app.cavedb.net/share/2e2e11d2-a480-4066-a6b0-b6b2dd2486bd.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "82 m"
 address: "Mammoth Cave Rd, Boranup, Western Australia, AUS, 6286"
-location-checked: "false"
 ---
 # About
 

@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -35.724244
 longitude: 148.48571900000002
-country: "AUS"
-state: "New South Wales"
 suburb: "Yarrangobilly"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 cavedb: "https://app.cavedb.net/share/7f7c874f-dd92-41c6-b666-55b14d41f676.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "908 m"
 address: "Castle Walk, Yarrangobilly, New South Wales, AUS, 2720"
-location-checked: "false"
 ---
 # Details
 

@@ -11,18 +11,14 @@ tags:
 feature_type: "Sinkhole"
 latitude: 25.17515000000003
 longitude: 51.21117000000004
-country: "QAT"
 suburb: "الشيحانية"
-privacy: public
 region: "[[Qatar]]"
 related:
   - "[[Diving]]"
-  - "[[Qatar]]"
 cavedb: "https://app.cavedb.net/share/8e2107cd-31a6-4cb4-bca6-dff6c3924be5.html"
 catalog-type: "cave"
 altitude: "47 m"
 address: "الشيحانية, QAT"
-location-checked: "false"
 ---
 # Details
 

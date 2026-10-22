@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 21.206444
 longitude: -76.240901
-country: "CUB"
 state: "Holguin"
 suburb: "Gibara"
-privacy: public
 region: "[[Cuba]]"
 related:
   - "[[Diving]]"
-  - "[[Cuba]]"
 cavedb: "https://app.cavedb.net/share/6052c9b4-7749-405e-bef7-a909dbc95ced.html"
 catalog-type: "cave"
 altitude: "2 m"
 address: "Vía Sin Nombre, Gibara, Holguin, CUB"
-location-checked: "false"
 ---
 # Details
 

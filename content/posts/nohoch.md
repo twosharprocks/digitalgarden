@@ -11,16 +11,13 @@ tags:
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
   - "[[empty files]]"
 rating: TDI Intro to Cave
 feature_type: Cave
 latitude: 20.298530000000028
 longitude: -87.40368999999998
-country: MEX
 state: Quintana Roo
 suburb: Tulum Municipality
-privacy: public
 cavedb: https://app.cavedb.net/share/5dd24265-af40-4b01-9a48-62b215a43734.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"

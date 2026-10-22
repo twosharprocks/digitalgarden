@@ -11,16 +11,12 @@ tags:
 region: "[[Western Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Roe Plains]]"
   - "[[Trip - Olwolgin - 2025 June]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 feature_type: "Cave"
 latitude: -32.10156463274697
 longitude: 126.51527936908269
-country: "AUS"
-state: "Western Australia"
 suburb: "Shire of Dundas"
-privacy: public
 cavedb: "https://app.cavedb.net/share/d7500adf-8598-4334-b851-a8e2dc1f94cf.html"
 catalog-type: "cave"
 sub-region: "[[Roe Plains]]"

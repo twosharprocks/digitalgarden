@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.39533
 longitude: -82.68466999999998
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/6405f639-9d4f-4cd3-8c22-8e522e2ff6ea.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "0 m"
 address: "16540, Old Dixie Hwy, Pasco County, Florida, USA, 34667"
-location-checked: "true"
 ---
 # Details
 

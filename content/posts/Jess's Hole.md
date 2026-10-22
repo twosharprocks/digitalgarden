@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.869199999999978
 longitude: -82.64706000000001
-country: "USA"
-state: "Florida"
 suburb: "Columbia County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/bb9f76e3-f326-443e-bb47-ee7947b6fa33.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "19 m"
 address: "440-329, SW Bonifay Glen, Columbia County, Florida, USA, 32038"
-location-checked: "true"
 ---
 # Details
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.415160000000014
 longitude: -83.20112
-country: "USA"
-state: "Florida"
 suburb: "Madison County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/ab209b74-f260-4b79-a97d-9ef387cdf824.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "13 m"
 address: "4279-4599, SW 77th Blvd, Madison County, Florida, USA, 32052"
-location-checked: "true"
 ---
 # Details
 

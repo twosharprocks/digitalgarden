@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: -15.366388888888878
 longitude: 167.05055555555555
-country: "VUT"
 state: "Sanma Province"
 suburb: "South East Santo"
-privacy: public
 region: "[[Vanuatu]]"
 related:
   - "[[Diving]]"
-  - "[[Vanuatu]]"
   - "[[Trip - Vanuatu - 2027 April]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/b8b6e4f2-3ffa-489a-9523-f08b9bc13d65.html"
 catalog-type: "cave"
 altitude: "265 m"
 address: "Unnamed Road, South East Santo, Sanma Province, VUT"
-location-checked: "true"
 ---
 # About
 

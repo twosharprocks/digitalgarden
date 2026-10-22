@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.394229999999993
 longitude: -82.56248
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/ababe10d-18ec-4db4-9c73-1715509f8d01.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "8 m"
 address: "16427-16337, Eagle Landing Ln, Pasco County, Florida, USA, 34610"
-location-checked: "true"
 ---
 # Details
 

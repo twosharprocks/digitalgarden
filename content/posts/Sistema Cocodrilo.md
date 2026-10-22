@@ -11,21 +11,17 @@ tags:
 feature_type: Cave
 latitude: 20.40098999999998
 longitude: -87.01706999999999
-country: MEX
 state: Quintana Roo
 suburb: Cozumel
-privacy: public
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
 rating: TDI Open Water Scuba Diver
 cavedb: https://app.cavedb.net/share/efcfb763-cba3-40ea-bdce-efe93034116a.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
 altitude: "4 m"
 address: "Carr. Costera Sur, Cozumel, Quintana Roo, MEX, 77687"
-location-checked: "true"
 ---
 # Details
 

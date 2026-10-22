@@ -11,7 +11,6 @@ tags:
 region: "[[Albania]]"
 related:
   - "[[Diving]]"
-  - "[[Albania]]"
 catalog-type: "cave"
 ---
 # About

@@ -11,20 +11,15 @@ tags:
 feature_type: "RockyOutcrop"
 latitude: -38.007887
 longitude: 141.082553
-country: "AUS"
-state: "Victoria"
 suburb: "Glenelg Shire"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/9de84a4c-ea3e-4c7d-ad5d-5c0f0190e1de.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "16 m"
 address: "River Fire Ln, Glenelg Shire, Victoria, AUS, 3304"
-location-checked: "false"
 ---
 # Details
 

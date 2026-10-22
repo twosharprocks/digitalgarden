@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -33.244410000000016
 longitude: 148.921292
-country: "AUS"
-state: "New South Wales"
 suburb: "Lidster"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 cavedb: "https://app.cavedb.net/share/dd940d74-aa9c-4723-aac2-3fa504a13564.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "663 m"
 address: "Veranda Cave Walking Trak, Lidster, New South Wales, AUS, 2800"
-location-checked: "false"
 ---
 # About
 

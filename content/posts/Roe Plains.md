@@ -37,7 +37,7 @@ Dive
 Dry
 - N2799 (near slot - Underwater?) 
 - Double Slot
-- Fur Cave
+- [Fur Cave]({{< relref "posts/Fur Cave.md" >}})
 - N2777, (near slot)
 - N2793 (near slot)
 - N1956 (near Blackadder)

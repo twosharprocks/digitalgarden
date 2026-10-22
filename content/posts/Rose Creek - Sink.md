@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.069309999999973
 longitude: -82.69639000000001
-country: "USA"
-state: "Florida"
 suburb: "Columbia County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/f7655fa6-8b08-4922-b2a6-8b12597ee8f4.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "9 m"
 address: "8151, FL-47, Columbia County, Florida, USA, 32024"
-location-checked: "true"
 ---
 # Details
 

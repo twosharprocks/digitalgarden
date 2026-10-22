@@ -11,14 +11,11 @@ tags:
 feature_type: "Cave"
 latitude: -5.306014000000005
 longitude: 122.63784499999997
-country: "IDN"
 state: "South East Sulawesi"
 suburb: "Buton Regency"
-privacy: public
 region: "[[Indonesia]]"
 related:
   - "[[Diving]]"
-  - "[[Sulawesi]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
 cavedb: "https://app.cavedb.net/share/d84c2432-9fd8-45ce-a32e-a1be05854758.html"
@@ -26,7 +23,6 @@ catalog-type: "cave"
 sub-region: "[[Sulawesi]]"
 altitude: "18 m"
 address: "Jl. Poros Lombe, Buton Regency, South East Sulawesi, IDN, 93761"
-location-checked: "false"
 ---
 # Details
 

@@ -12,16 +12,12 @@ region: "[[Western Australia]]"
 related:
   - "[[Diving]]"
   - "[[Planning - Nullarbor]]"
-  - "[[Nullarbor High Plains]]"
   - "[[Filming - Documentary on Nullarbor]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 feature_type: "Cave"
 latitude: -32.031044943442595
 longitude: 126.18333756923676
-country: "AUS"
-state: "Western Australia"
 suburb: "Shire of Dundas"
-privacy: public
 cavedb: "https://app.cavedb.net/share/85b9c617-d2a1-4d1b-bc22-e2566f18974b.html"
 catalog-type: "cave"
 sub-region: "[[Nullarbor High Plains]]"

@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 60.162019999999984
 longitude: 24.162019999999984
-country: "FIN"
 state: "Uusimaa"
 suburb: "Helsinki"
-privacy: public
 region: "[[Finland]]"
 related:
   - "[[Diving]]"
-  - "[[Finland]]"
 cavedb: "https://app.cavedb.net/share/7540c8b4-f52b-4620-8504-7718ada0e8f1.html"
 catalog-type: "cave"
 altitude: "35 m"
 address: "Nimetön Tie, Helsinki, Uusimaa, FIN, 02570"
-location-checked: "true"
 ---
 # Details
 

@@ -11,14 +11,10 @@ tags:
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Flinders Ranges]]"
 feature_type: "Cave"
 latitude: -30.38566198126304
 longitude: 139.35664236545563
-country: "AUS"
-state: "South Australia"
 suburb: "Arkaroola"
-privacy: restricted-or-unknown
 cavedb: "https://app.cavedb.net/share/f49589ec-666c-4b6a-8afe-9fde895cd22a.html"
 catalog-type: "cave"
 sub-region: "[[Flinders Ranges]]"

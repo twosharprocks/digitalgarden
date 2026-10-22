@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 45.249008
 longitude: 15.322554999999966
-country: "HRV"
 suburb: "Tounj"
-privacy: public
 region: "[[Croatia]]"
 related:
   - "[[Diving]]"
-  - "[[Croatia]]"
 cavedb: "https://app.cavedb.net/share/40605666-2baa-47ff-9d76-d236a4df9db6.html"
 catalog-type: "cave"
 altitude: "226 m"
 address: "16, Tounj, Tounj, HRV, 47300"
-location-checked: "false"
 ---
 # Details
 

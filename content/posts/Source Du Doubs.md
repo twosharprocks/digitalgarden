@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 46.70509900000002
 longitude: 6.2090670000000046
-country: "FRA"
 state: "Bourgogne-Franche-Comté"
 suburb: "Doubs"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/ab26c206-875d-4351-bbc7-2bb3c9f4d404.html"
 catalog-type: "cave"
 altitude: "968 m"
 address: "16, Lot. les Touradons, Doubs, Bourgogne-Franche-Comté, FRA, 25240"
-location-checked: "true"
 ---
 # Details
 

@@ -11,21 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -31.693073999999996
 longitude: 151.12496899999996
-country: "AUS"
-state: "New South Wales"
 suburb: "Upper Hunter Shire Council"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 cavedb: "https://app.cavedb.net/share/862ef963-89b0-41a8-9eaf-ddc1328a0eff.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "541 m"
 address: "Sargeants Gap Rd, Upper Hunter Shire Council, New South Wales, AUS, 2338"
-location-checked: "true"
-location-checked-by: "Google Maps"
 ---
 # About
 

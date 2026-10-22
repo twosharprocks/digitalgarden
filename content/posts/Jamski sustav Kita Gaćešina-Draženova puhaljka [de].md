@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 44.25
 longitude: 15.850000000000023
-country: "HRV"
 state: "Zadar County"
 suburb: "Općina Gračac"
-privacy: public
 region: "[[Croatia]]"
 related:
   - "[[Diving]]"
-  - "[[Croatia]]"
 cavedb: "https://app.cavedb.net/share/6d59aec6-1f89-4ddf-a52c-04150bf7079f.html"
 catalog-type: "cave"
 altitude: "1197 m"
 address: "Općina Gračac, Zadar County, HRV, 23243"
-location-checked: "true"
 ---
 # Details
 

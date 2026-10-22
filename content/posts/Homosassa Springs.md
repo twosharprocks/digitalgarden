@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.798963000000015
 longitude: -82.588322
-country: "USA"
-state: "Florida"
 suburb: "Citrus County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/5f4ace45-bebe-4716-9f7a-42c3b8ca7509.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "1 m"
 address: "9247-9299, State Hwy 490A, Citrus County, Florida, USA, 34448"
-location-checked: "true"
 ---
 # Details
 

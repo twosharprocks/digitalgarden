@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 45.733721
 longitude: 9.751428
-country: "ITA"
 state: "Lombardy"
 suburb: "Province of Bergamo"
-privacy: public
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/8ac9ca6b-9ef9-4c3b-bb98-340defc5169b.html"
 catalog-type: "cave"
 altitude: "344 m"
 address: "Snc, Via J. F. Kennedy, Province of Bergamo, Lombardy, ITA, 24020"
-location-checked: "false"
 ---
 # Details
 

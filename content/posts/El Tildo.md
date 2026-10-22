@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 18.455310999999995
 longitude: -69.69705999999996
-country: "DOM"
 state: "Santo Domingo Province"
 suburb: "Boca Chica"
-privacy: public
 region: "[[Dominican Republic]]"
 related:
   - "[[Diving]]"
-  - "[[Dominican Republic]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/76a1fcb6-718f-4a1b-87c4-615ae74f3e5c.html"
 catalog-type: "cave"
 altitude: "11 m"
 address: "Marginal Avenida Las Américas, Boca Chica, Santo Domingo Province, DOM"
-location-checked: "true"
 ---
 # Details
 

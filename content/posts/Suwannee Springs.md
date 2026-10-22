@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.394569999999987
 longitude: -82.934437
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/621de704-3200-4540-ab1c-cf340547a8f3.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "11 m"
 address: "3224, 91st Dr, Suwannee County, Florida, USA, 32060"
-location-checked: "true"
 ---
 # Details
 

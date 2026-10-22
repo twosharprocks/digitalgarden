@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.65762799999999
 longitude: -82.63476600000001
-country: "USA"
-state: "Florida"
 suburb: "Hernando County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/c163783e-6227-43a4-936c-9930ca5720e6.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "0 m"
 address: "9200-9232, Zebrafinch Ave, Hernando County, Florida, USA, 34614"
-location-checked: "true"
 ---
 # Details
 

@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 44.96528000000001
 longitude: 1.5874999999999773
-country: "FRA"
 state: "Occitanie"
 suburb: "Martel"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/1f6e2887-bf98-4ce2-9be2-25a919452792.html"
 catalog-type: "cave"
 altitude: "207 m"
 address: "Lieu-dit Escougne, Martel, Occitanie, FRA, 46600"
-location-checked: "true"
 ---
 # Details
 

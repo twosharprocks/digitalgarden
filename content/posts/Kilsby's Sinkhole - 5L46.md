@@ -12,17 +12,13 @@ region: "[[South Australia]]"
 related:
   - "[[Diving]]"
   - "[[Cave Entries to Write]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
   - "[[Book - Cave Diving]]"
 rating: CDAA Deep Cavern, TDI Cavern
 feature_type: "Sinkhole"
 latitude: -37.892382999999995
 longitude: 140.676105
-country: "AUS"
-state: "South Australia"
 suburb: "The District Council of Grant"
-privacy: public
 obsidian_aliases:
   - "Kilsby Sinkhole"
   - "Kilsby Cave"

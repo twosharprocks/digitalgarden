@@ -11,20 +11,15 @@ tags:
 feature_type: "Sinkhole"
 latitude: -37.992461
 longitude: 141.127914
-country: "AUS"
-state: "Victoria"
 suburb: "Glenelg Shire"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/6099bad5-d233-4008-885a-67b804e230cf.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "30 m"
 address: "171, Littles Rd, Glenelg Shire, Victoria, AUS, 3304"
-location-checked: "false"
 ---
 # Details
 

@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 36.72181934129594
 longitude: -4.9302273988723755
-country: "ESP"
 state: "Andalucía"
 suburb: "Yunquera"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/fed34201-6517-4396-b347-5b70dd401c63.html"
 catalog-type: "cave"
 altitude: "598 m"
 address: "Yunquera, Andalucía, ESP, 29410"
-location-checked: "false"
 ---
 # Details
 

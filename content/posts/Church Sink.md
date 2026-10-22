@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.38779999999997
 longitude: -84.28613999999999
-country: "USA"
-state: "Florida"
 suburb: "Leon County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/607ec3d6-fb29-4db4-bbbd-0bc48a7a7817.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "16 m"
 address: "4224, FL-61, Leon County, Florida, USA, 32305"
-location-checked: "true"
 ---
 # Details
 

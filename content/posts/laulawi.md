@@ -13,19 +13,15 @@ related:
   - "[[Diving]]"
   - "[[Photogrammetry - Processing]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
-  - "[[Muna Island - Sulawesi]]"
   - "[[empty files]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
-  - "[[Sulawesi]]"
   - "[[Goa Lalauwi]]"
 rating: TDI Intro to Cave
 feature_type: "Cave"
 latitude: -5.256422999999984
 longitude: 122.53919799999994
-country: "IDN"
 state: "South East Sulawesi"
 suburb: "Buton Regency"
-privacy: public
 obsidian_aliases:
   - "Goa Lau Lawi"
   - "Laulawi"

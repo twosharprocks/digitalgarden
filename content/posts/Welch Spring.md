@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 37.39385295048896
 longitude: -91.57426357269281
-country: "USA"
 state: "Missouri"
 suburb: "Salem"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[United States]]"
 cavedb: "https://app.cavedb.net/share/23a8866e-d490-4845-9461-8c579ea1b274.html"
 catalog-type: "cave"
 altitude: "244 m"
 address: "3601, Firing Range Rd, Salem, Missouri, USA, 65560"
-location-checked: "false"
 ---
 # Details
 

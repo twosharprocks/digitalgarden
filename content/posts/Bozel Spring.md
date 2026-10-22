@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.830501000000027
 longitude: -85.23445300000003
-country: "USA"
-state: "Florida"
 suburb: "Jackson County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/e5b08304-5dab-4cea-b8e5-459f105ce4a8.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "22 m"
 address: "4518, Mary E Ln, Jackson County, Florida, USA, 32446"
-location-checked: "true"
 ---
 # Details
 

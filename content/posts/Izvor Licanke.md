@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 45.30962899999997
 longitude: 14.714269000000058
-country: "HRV"
 suburb: "Fužine"
-privacy: public
 region: "[[Croatia]]"
 related:
   - "[[Diving]]"
-  - "[[Croatia]]"
 cavedb: "https://app.cavedb.net/share/be53df20-b439-4294-9ee2-a4bf17c1421f.html"
 catalog-type: "cave"
 altitude: "722 m"
 address: "Ulica Vrelska, Fužine, HRV, 51300"
-location-checked: "false"
 ---
 # Details
 

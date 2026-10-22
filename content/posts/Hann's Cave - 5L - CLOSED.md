@@ -12,7 +12,6 @@ region: "[[South Australia]]"
 related:
   - "[[Diving]]"
   - "[[Cave Entries to Write]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"

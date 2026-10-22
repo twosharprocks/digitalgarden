@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.75540000000001
 longitude: -82.05818
-country: "USA"
-state: "Florida"
 suburb: "Sumter County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/5c367648-de73-421d-8123-42fec6b25690.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "18 m"
 address: "3962-3066, E C 470, Sumter County, Florida, USA, 33585"
-location-checked: "true"
 ---
 # Details
 

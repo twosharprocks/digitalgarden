@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.127099999999984
 longitude: -83.23599999999999
-country: "USA"
-state: "Florida"
 suburb: "Lafayette County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/dd8809ca-5fd6-41df-bd64-02987beabccc.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "10 m"
 address: "411, Blue Springs Rd, Lafayette County, Florida, USA, 32066"
-location-checked: "true"
 ---
 # Details
 

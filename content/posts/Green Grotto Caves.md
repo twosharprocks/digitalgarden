@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 18.460740999999985
 longitude: -77.37478900000002
-country: "JAM"
 state: "St. Ann Parish"
-privacy: public
 region: "[[Jamaica]]"
 related:
   - "[[Diving]]"
-  - "[[Jamaica]]"
 cavedb: "https://app.cavedb.net/share/df5267a0-83e1-4ad3-bdc6-0fda794d9c9c.html"
 catalog-type: "cave"
 altitude: "21 m"
 address: "A1, A1, St. Ann Parish, JAM"
-location-checked: "false"
 ---
 # Details
 

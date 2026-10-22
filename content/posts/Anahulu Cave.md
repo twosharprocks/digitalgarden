@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -21.207978
 longitude: -175.10366
-country: "TON"
 state: "Tongatapu"
 suburb: "Tatakamotonga"
-privacy: public
 region: "[[Tonga]]"
 related:
   - "[[Diving]]"
-  - "[[Tonga]]"
 cavedb: "https://app.cavedb.net/share/91834593-dc2a-44a7-9d2e-d14c4ee3dbaa.html"
 catalog-type: "cave"
 altitude: "22 m"
 address: "Unnamed Road, Tatakamotonga, Tongatapu, TON"
-location-checked: "false"
 ---
 # Details
 

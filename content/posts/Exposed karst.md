@@ -11,21 +11,15 @@ tags:
 feature_type: "RockyOutcrop"
 latitude: -32.045142999999996
 longitude: 126.17693699999995
-country: "AUS"
-state: "Western Australia"
 suburb: "Shire of Dundas"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 cavedb: "https://app.cavedb.net/share/3ef0d80a-3686-49cd-b4c8-589542271a50.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "88 m"
 address: "Unnamed Road, Shire of Dundas, Western Australia, AUS, 6443"
-location-checked: "true"
-location-checked-by: "Bc"
 ---
 # Details
 

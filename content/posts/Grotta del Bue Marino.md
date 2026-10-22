@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 40.245879
 longitude: 9.623468000000003
-country: "ITA"
 state: "Sardegna"
 suburb: "Dorgali"
-privacy: public
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/80e89abb-7373-40fc-93eb-4920263f9e0f.html"
 catalog-type: "cave"
 altitude: "19 m"
 address: "Dorgali, Sardegna, ITA, 08022"
-location-checked: "false"
 ---
 # Details
 

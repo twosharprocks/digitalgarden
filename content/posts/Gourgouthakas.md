@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 35.33217
 longitude: 24.08345
-country: "GRC"
 state: "Decentralized Administration of Crete"
 suburb: "Crete"
-privacy: public
 obsidian_aliases:
   - "Γουργούθακας"
 region: "[[Greece]]"
 related:
   - "[[Diving]]"
-  - "[[Greece]]"
 cavedb: "https://app.cavedb.net/share/01ceadc6-1f34-4d1c-8239-bff1c936875d.html"
 catalog-type: "cave"
 altitude: "1551 m"
 address: "Odos Hvris Onomasia, Crete, Decentralized Administration of Crete, GRC, 730 08"
-location-checked: "false"
 ---
 # About
 

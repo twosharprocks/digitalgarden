@@ -11,17 +11,13 @@ tags:
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[Book - Cave Diving]]"
   - "[[Mt Gambier - PROTECTED]]"
 rating: CDAA Cave, TDI Intro to Cave
 feature_type: "Cave"
 latitude: -37.73186200000001
 longitude: 140.53037300000005
-country: "AUS"
-state: "South Australia"
 suburb: "Wattle Range Council"
-privacy: public
 obsidian_aliases:
   - "The Green Waterhole"
 cavedb: "https://app.cavedb.net/share/7cb19cbe-65bb-4e5d-9d7c-7ac2f972e2e3.html"

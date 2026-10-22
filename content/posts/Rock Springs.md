@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.756042999999977
 longitude: -81.501822
-country: "USA"
-state: "Florida"
 suburb: "Orange County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/77ed7c55-8750-45ef-8cc6-88e41cec8d64.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "12 m"
 address: "400, Unnamed Road, Orange County, Florida, USA, 32712"
-location-checked: "true"
 ---
 # Details
 

@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 28.623055555555595
 longitude: 31.28638888888895
-country: "EGY"
 state: "Beni Suef Governorate"
 suburb: "Bani Suef Desert"
-privacy: public
 region: "[[Egypt]]"
 related:
   - "[[Diving]]"
-  - "[[Egypt]]"
 cavedb: "https://app.cavedb.net/share/6e067ab6-792b-41d4-a373-bf48f7d5e923.html"
 catalog-type: "cave"
 altitude: "233 m"
 address: "Bani Suef Desert, Beni Suef Governorate, EGY, 2663010"
-location-checked: "true"
 ---
 # About
 

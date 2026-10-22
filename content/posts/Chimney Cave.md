@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -38.335680999999994
 longitude: 141.50169600000004
-country: "AUS"
-state: "Victoria"
 suburb: "Portland West"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/69c6dde2-86d8-4d37-a6bc-d23a20506246.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "70 m"
 address: "71, Boltes Ln, Portland West, Victoria, AUS, 3305"
-location-checked: "false"
 ---
 # Details
 

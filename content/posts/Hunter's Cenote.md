@@ -11,19 +11,15 @@ tags:
 feature_type: "Sinkhole"
 latitude: 22.054812
 longitude: -80.99443
-country: "CUB"
 state: "Matanzas"
 suburb: "Cienaga de Zapata"
-privacy: public
 region: "[[Cuba]]"
 related:
   - "[[Diving]]"
-  - "[[Cuba]]"
 cavedb: "https://app.cavedb.net/share/c4ef49f5-4014-4527-a250-2f9a6cc8eea2.html"
 catalog-type: "cave"
 altitude: "9 m"
 address: "Vía Sin Nombre, Cienaga de Zapata, Matanzas, CUB"
-location-checked: "false"
 ---
 # Details
 

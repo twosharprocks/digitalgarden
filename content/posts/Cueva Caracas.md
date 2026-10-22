@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 2.1499999999999773
 longitude: 11.31666666666672
-country: "GNQ"
 state: "Kie-Ntem"
 suburb: "Ebebiyin"
-privacy: public
 region: "[[Equatorial Guinea]]"
 related:
   - "[[Diving]]"
-  - "[[Equatorial Guinea]]"
 cavedb: "https://app.cavedb.net/share/785aaabf-0a95-455e-b91b-fea5fd42a2c5.html"
 catalog-type: "cave"
 altitude: "593 m"
 address: "Unnamed Road, Ebebiyin, Kie-Ntem, GNQ"
-location-checked: "true"
 ---
 # About
 

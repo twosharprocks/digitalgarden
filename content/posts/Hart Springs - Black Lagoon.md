@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.67524000000003
 longitude: -82.94894
-country: "USA"
-state: "Florida"
 suburb: "Gilchrist County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/bf10ba77-2a96-4cc1-b35b-90dc0bd6303c.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "3 m"
 address: "4309, SW 86th Ave, Gilchrist County, Florida, USA, 32619"
-location-checked: "true"
 ---
 # Details
 

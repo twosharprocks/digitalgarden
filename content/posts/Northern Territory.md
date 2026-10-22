@@ -20,15 +20,21 @@ related:
 
 # Caves
 
+- [Bitter Springs]({{< relref "posts/Bitter Springs.md" >}})
 - [Crater Lake]({{< relref "posts/Crater Lake.md" >}})
 - [Katherine Hot Springs]({{< relref "posts/Katherine Hot Springs.md" >}})
+- [Mataranka Springs]({{< relref "posts/Mataranka Springs.md" >}})
 - [Numby Numby]({{< relref "posts/Numby Numby.md" >}})
+- [Pine Creek]({{< relref "posts/Pine Creek.md" >}})
 - [Rum Jungle Lake]({{< relref "posts/Rum Jungle Lake.md" >}})
+- [Sandy Creek Falls]({{< relref "posts/Sandy Creek Falls.md" >}})
+- [Tolmer Falls]({{< relref "posts/Tolmer Falls.md" >}})
 - [Unknown Sinkhole]({{< relref "posts/Unknown Sinkhole.md" >}})
 - [Unnamed - 821806f3]({{< relref "posts/Unnamed - 821806f3.md" >}})
 - [Unnamed - 9b9392d8]({{< relref "posts/Unnamed - 9b9392d8.md" >}})
 - [Unnamed - a115eaba]({{< relref "posts/Unnamed - a115eaba.md" >}})
 - [Unnamed - ff8804cb]({{< relref "posts/Unnamed - ff8804cb.md" >}})
+- [Wangi Falls]({{< relref "posts/Wangi Falls.md" >}})
 
 # About
 
@@ -39,5 +45,5 @@ related:
    * [Bitter Springs](https://www.trimixdivers.com/trimix5/?p=4885)
    * [Mataranka Springs](https://www.trimixdivers.com/trimix5/?p=4891) & [Rainbow Springs]({{< relref "posts/Rainbow Springs.md" >}})
    * [CSIRO - Tracing the source of the Mataranka Springs](https://ecos.csiro.au/tracing-the-source-of-the-mataranka-springs/)
-   - Dr Sebastien Lamontagne is a hydrogeologist who led the Mataranka Springs research
+   - Dr Sebastien Lamontagne is a hydrogeologist who led the [Mataranka Springs]({{< relref "posts/Mataranka Springs.md" >}}) research
    * Fed by Cambrian Limestone Aquifer with two inputs to Mataranka - "Georgina" & "Daly"

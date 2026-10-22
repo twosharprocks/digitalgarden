@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -8.511443999999983
 longitude: 38.88352800000007
-country: "TZA"
 state: "Lindi Region"
 suburb: "Kilwa"
-privacy: public
 region: "[[Tanzania]]"
 related:
   - "[[Diving]]"
-  - "[[Tanzania]]"
 cavedb: "https://app.cavedb.net/share/e18f57c9-2015-4aa8-861f-2585e75bdbce.html"
 catalog-type: "cave"
 altitude: "504 m"
 address: "Kilwa, Lindi Region, TZA"
-location-checked: "true"
 ---
 # Details
 

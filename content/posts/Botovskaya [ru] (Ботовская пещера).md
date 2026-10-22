@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 55.30860000000001
 longitude: 105.34339999999997
-country: "RUS"
 state: "Irkutsk Oblast"
 suburb: "Zhigalovsky District"
-privacy: public
 region: "[[Russia]]"
 related:
   - "[[Diving]]"
-  - "[[Russia]]"
 cavedb: "https://app.cavedb.net/share/b8890cda-9b87-4df6-82e2-bf1277e1c1f1.html"
 catalog-type: "cave"
 altitude: "847 m"
 address: "Zhigalovsky District, Irkutsk Oblast, RUS, 666423"
-location-checked: "true"
 ---
 # Details
 

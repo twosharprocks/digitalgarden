@@ -11,20 +11,16 @@ tags:
 feature_type: "Mine"
 latitude: 50.313225999999986
 longitude: 17.01806899999997
-country: "CZE"
 state: "Olomouc Region"
 suburb: "Jeseník District"
-privacy: public
 region: "[[Czechia]]"
 related:
   - "[[Diving]]"
-  - "[[Czechia]]"
 rating: TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/ac9a41de-3129-4a81-b297-5930715550a8.html"
 catalog-type: "cave"
 altitude: "546 m"
 address: "Silnice Bez Názvu, Jeseník District, Olomouc Region, CZE, 57"
-location-checked: "false"
 ---
 # Details
 

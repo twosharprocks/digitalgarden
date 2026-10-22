@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 58.43132801235373
 longitude: -3.0708994902670383
-country: "GBR"
 state: "Scotland"
 suburb: "Wick"
-privacy: public
 region: "[[United Kingdom]]"
 related:
   - "[[Diving]]"
-  - "[[United Kingdom]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/601a40d3-8289-4204-936b-f7652363131b.html"
 catalog-type: "cave"
 altitude: "14 m"
 address: "3, South Head, Wick, Scotland, GBR, KW1 5"
-location-checked: "false"
 ---
 # About
 

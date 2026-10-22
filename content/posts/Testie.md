@@ -11,21 +11,16 @@ tags:
 feature_type: "Depression"
 latitude: -37.39427509522491
 longitude: 140.19245940303483
-country: "AUS"
-state: "South Australia"
 suburb: "Wattle Range Council"
-privacy: public
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Mount Gambier - Lower South East]]"
 rating: CDAA Deep Cavern, TDI Cavern
 cavedb: "https://app.cavedb.net/share/726e4be2-a966-4165-94ca-422fc8c3a3d3.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
 altitude: "12.0 m"
 address: "1518, Beachport-Penola Rd, Wattle Range Council, South Australia, AUS, 5280"
-location-checked: "False"
 ---
 # Details
 

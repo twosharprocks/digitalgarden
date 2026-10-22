@@ -11,22 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 30.332719999999995
 longitude: -83.98903999999999
-country: "USA"
-state: "Florida"
 suburb: "Jefferson County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/10369fc0-8940-47c9-947b-940d2ddad134.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "9 m"
 address: "Jefferson County, Florida, USA, 32344"
-location-checked: "true"
-additional-location-records: ["Coordinates: 30.332719999999995, -83.98903999999999; Altitude: 9 m; Address: Maloy Lndg, Monticello, Florida, USA, 32344; Checked: false"]
+additional-location-records: ["Coordinates: 30.332719999999995, -83.98903999999999; Altitude: 9 m; Address: Maloy Lndg, Monticello, Florida, USA, 32344"]
 ---
 # Details
 

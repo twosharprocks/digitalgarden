@@ -11,20 +11,16 @@ tags:
 feature_type: "Mine"
 latitude: 51.367002000000014
 longitude: 8.43106899999998
-country: "DEU"
 state: "Nordrhein-Westfalen"
 suburb: "Bestwig"
-privacy: public
 region: "[[Germany]]"
 related:
   - "[[Diving]]"
-  - "[[Germany]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/c0dada27-6114-4f1d-911a-6c2e37278bcb.html"
 catalog-type: "cave"
 altitude: "304 m"
 address: "48A, Briloner Straße, Bestwig, Nordrhein-Westfalen, DEU, 59909"
-location-checked: "false"
 ---
 # About
 

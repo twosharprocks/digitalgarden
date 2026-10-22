@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -30.262990000000002
 longitude: 116.00173999999993
-country: "AUS"
-state: "Western Australia"
 suburb: "Watheroo"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 cavedb: "https://app.cavedb.net/share/cf4a080e-18d0-44e5-b8f2-d76871c2cf91.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "284 m"
 address: "French Rd, Watheroo, Western Australia, AUS, 6513"
-location-checked: "false"
 ---
 # Details
 

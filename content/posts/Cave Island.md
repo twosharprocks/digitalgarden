@@ -11,23 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: -34.990172
 longitude: 148.63780999999994
-country: "AUS"
-state: "New South Wales"
 suburb: "Yass Valley Council"
-privacy: public
 obsidian_aliases:
   - "Cave Flat"
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 rating: CDAA Cave, TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/ae437d0c-e4bd-4559-b286-b2ec172f8c30.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "357 m"
 address: "2373, Burrinjuck Rd, Yass Valley Council, New South Wales, AUS, 2582"
-location-checked: "false"
 ---
 # About
 

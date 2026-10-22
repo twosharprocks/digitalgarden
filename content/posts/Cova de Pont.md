@@ -11,24 +11,20 @@ tags:
 feature_type: "Cave"
 latitude: 39.50746800000002
 longitude: 3.296982000000071
-country: "ESP"
 state: "Balearic Islands"
 suburb: "Balearic Islands"
-privacy: public
 obsidian_aliases:
   - "Cueva Del Puenta"
   - "Bridge Cave"
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/83162bde-5f3f-4f87-9f87-4832ea6cee5e.html"
 catalog-type: "cave"
 altitude: "32 m"
 address: "Via Sense Nom, Balearic Islands, Balearic Islands, ESP, 07680"
-location-checked: "false"
 ---
 # About
 

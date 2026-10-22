@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 47.85982799999999
 longitude: 4.5788499999999885
-country: "FRA"
 state: "Bourgogne-Franche-Comté"
 suburb: "Châtillon-sur-Seine"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/f0dc021a-4908-4d38-b6a8-298656df2c2e.html"
 catalog-type: "cave"
 altitude: "228 m"
 address: "Rue de la Douix, Châtillon-sur-Seine, Bourgogne-Franche-Comté, FRA, 21400"
-location-checked: "false"
 ---
 # Details
 

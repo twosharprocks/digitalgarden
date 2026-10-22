@@ -11,21 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -41.599864999999994
 longitude: 146.40692
-country: "AUS"
-state: "Tasmania"
 suburb: "Meander Valley Council"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Tasmania]]"
 cavedb: "https://app.cavedb.net/share/b4389f15-486c-4c6d-8a52-38456ea1fdf6.html"
 catalog-type: "cave"
 sub-region: "[[Tasmania]]"
 altitude: "316 m"
 address: "Wet Caves Rd, Meander Valley Council, Tasmania, AUS, 7304"
-location-checked: "true"
-location-checked-by: "Google Maps"
 ---
 # About
 

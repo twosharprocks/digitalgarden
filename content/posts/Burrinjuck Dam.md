@@ -11,21 +11,16 @@ tags:
 feature_type: "Sinkhole"
 latitude: -34.99892555707635
 longitude: 148.63429069519043
-country: "AUS"
-state: "New South Wales"
 suburb: "Yass Valley Council"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 rating: CDAA Deep Cavern, TDI Cavern
 cavedb: "https://app.cavedb.net/share/6a69b9c0-cbe9-4bc7-ae84-d660ca80e92c.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "345 m"
 address: "Unnamed Road, Yass Valley Council, New South Wales, AUS, 2582"
-location-checked: "false"
 ---
 # About
 

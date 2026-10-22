@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 45.04900399999997
 longitude: 15.422599999999989
-country: "HRV"
 suburb: "Plaški"
-privacy: public
 region: "[[Croatia]]"
 related:
   - "[[Diving]]"
-  - "[[Croatia]]"
 cavedb: "https://app.cavedb.net/share/a2dfe418-8e5d-4418-9a22-06c0721efd56.html"
 catalog-type: "cave"
 altitude: "378 m"
 address: "36, Jezero, Plaški, HRV, 47304"
-location-checked: "false"
 ---
 # Details
 

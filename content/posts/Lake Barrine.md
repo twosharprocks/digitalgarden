@@ -11,24 +11,18 @@ tags:
 feature_type: "Sinkhole"
 latitude: -17.246348749850767
 longitude: 145.6389605998993
-country: "AUS"
-state: "Queensland"
 suburb: "Tablelands Regional"
-privacy: public
 obsidian_aliases:
   - "Crater Lakes"
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Queensland]]"
 rating: CDAA Deep Cavern, TDI Cavern
 cavedb: "https://app.cavedb.net/share/7d1d0650-375c-4048-bff6-f2e8198b71b3.html"
 catalog-type: "cave"
 sub-region: "[[Queensland]]"
 altitude: "748 m"
 address: "27, Lake Barrine Access, Tablelands Regional, Queensland, AUS, 4884"
-location-checked: "true"
-location-checked-by: "BC"
 ---
 # Details
 

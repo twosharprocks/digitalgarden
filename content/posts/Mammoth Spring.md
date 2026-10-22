@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.216166999999984
 longitude: -82.05266699999999
-country: "USA"
-state: "Florida"
 suburb: "Marion County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/62bb328d-9c32-4669-9a7f-c97fc4fd6328.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "12 m"
 address: "5800, Unnamed Road, Marion County, Florida, USA, 34488"
-location-checked: "true"
 ---
 # Details
 

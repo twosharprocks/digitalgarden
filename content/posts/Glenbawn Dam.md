@@ -11,21 +11,16 @@ tags:
 feature_type: "Sinkhole"
 latitude: -32.095385157724394
 longitude: 150.99109799785788
-country: "AUS"
-state: "New South Wales"
 suburb: "Upper Hunter Shire Council"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 rating: CDAA Deep Cavern, TDI Cavern
 cavedb: "https://app.cavedb.net/share/07df6367-80e5-4e96-90f0-ec1f7a28be82.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "281 m"
 address: "Brush Hill Lookout Rd, Upper Hunter Shire Council, New South Wales, AUS, 2337"
-location-checked: "false"
 ---
 # Details
 

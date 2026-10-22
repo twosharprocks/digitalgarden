@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 48.73756860000003
 longitude: 10.112818500000003
-country: "DEU"
 state: "Baden-Württemberg"
 suburb: "Königsbronn"
-privacy: public
 region: "[[Germany]]"
 related:
   - "[[Diving]]"
-  - "[[Germany]]"
 cavedb: "https://app.cavedb.net/share/fe05533f-4eca-467c-884d-10949e101b50.html"
 catalog-type: "cave"
 altitude: "511 m"
 address: "7, An der Hirschsteige, Königsbronn, Baden-Württemberg, DEU, 89551"
-location-checked: "false"
 ---
 # Details
 

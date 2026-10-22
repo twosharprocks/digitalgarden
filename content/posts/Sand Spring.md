@@ -10,17 +10,13 @@ tags:
   - united-states
 latitude: 37.73652920241756
 longitude: -92.86215841770172
-country: "USA"
 state: "Missouri"
 suburb: "Windyville"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[United States]]"
 cavedb: "https://app.cavedb.net/share/499a3724-70a5-481b-8556-4730703d3810.html"
 catalog-type: "cave"
 altitude: "257 m"
 address: "1996, MO-64, Windyville, Missouri, USA, 65783"
-location-checked: "false"
 ---

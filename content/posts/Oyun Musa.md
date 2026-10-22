@@ -11,18 +11,14 @@ tags:
 feature_type: "Landmark"
 latitude: 29.87693999999999
 longitude: 32.65832999999998
-country: "EGY"
 suburb: "الجناين"
-privacy: public
 region: "[[Egypt]]"
 related:
   - "[[Diving]]"
-  - "[[Egypt]]"
 cavedb: "https://app.cavedb.net/share/fb2ecec9-ceab-4ba3-8315-e64a3bc759f0.html"
 catalog-type: "cave"
 altitude: "15 m"
 address: "طريق السويس شرم الشيخ, الجناين, EGY"
-location-checked: "false"
 ---
 # About
 

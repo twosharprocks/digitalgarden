@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 44.88941999999997
 longitude: 1.6181799999999384
-country: "FRA"
 state: "Occitanie"
 suburb: "Montvalent"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/1f355d5c-d53b-43e5-833b-d90ebd7301ad.html"
 catalog-type: "cave"
 altitude: "111 m"
 address: "Lieu-dit Saint-Georges, Montvalent, Occitanie, FRA, 46600"
-location-checked: "true"
 ---
 # Details
 

@@ -11,18 +11,14 @@ tags:
 feature_type: "Sinkhole"
 latitude: -3.841998999999987
 longitude: 138.90019800000005
-country: "IDN"
 suburb: "Mamberamo Tengah"
-privacy: public
 region: "[[Indonesia]]"
 related:
   - "[[Diving]]"
-  - "[[Indonesia]]"
 cavedb: "https://app.cavedb.net/share/0f719404-c002-4eb4-9839-7e35b3bf3884.html"
 catalog-type: "cave"
 altitude: "2036 m"
 address: "Mamberamo Tengah, IDN, 99392"
-location-checked: "false"
 ---
 # Details
 

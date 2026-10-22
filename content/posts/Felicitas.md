@@ -11,20 +11,16 @@ tags:
 feature_type: "Mine"
 latitude: 51.19897400000002
 longitude: 8.273032999999941
-country: "DEU"
 state: "Nordrhein-Westfalen"
 suburb: "Schmallenberg"
-privacy: public
 region: "[[Germany]]"
 related:
   - "[[Diving]]"
-  - "[[Germany]]"
 rating: TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/a2272f60-1144-4f6f-9cff-039f5cab4f3a.html"
 catalog-type: "cave"
 altitude: "402 m"
 address: "1, Zum Heilstollen, Schmallenberg, Nordrhein-Westfalen, DEU, 57392"
-location-checked: "false"
 ---
 # About
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.08010999999999
 longitude: -84.32951000000003
-country: "USA"
-state: "Florida"
 suburb: "Wakulla County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/85488269-57ce-4e9c-be3d-e9464661f101.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "1 m"
 address: "4199-4171, State Hwy 365, Wakulla County, Florida, USA, 32327"
-location-checked: "true"
 ---
 # Details
 

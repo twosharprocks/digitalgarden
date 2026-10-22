@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 34.104738
 longitude: -4.072425000000067
-country: "MAR"
 state: "فاس - مكناس"
 suburb: "باب بودير"
-privacy: public
 obsidian_aliases:
   - "Gouffre de Friouato"
 region: "[[Morocco]]"
 related:
   - "[[Diving]]"
-  - "[[Morocco]]"
 cavedb: "https://app.cavedb.net/share/b3b5a367-fd79-4c81-8ef5-6ec484c694c0.html"
 catalog-type: "cave"
 altitude: "1469 m"
 address: "باب بودير, فاس - مكناس, MAR"
-location-checked: "false"
 ---
 # Details
 

@@ -11,19 +11,15 @@ tags:
 feature_type: "Sinkhole"
 latitude: 30.75062300000002
 longitude: 109.46944899999994
-country: "CHN"
-privacy: public
 obsidian_aliases:
   - "Xiaozhai Heavenly Pit"
 region: "[[China]]"
 related:
   - "[[Diving]]"
-  - "[[China]]"
 cavedb: "https://app.cavedb.net/share/b32372a0-121f-484a-8ffc-84292efb5817.html"
 catalog-type: "cave"
 altitude: "943 m"
 address: "CHN"
-location-checked: "false"
 ---
 # About
 

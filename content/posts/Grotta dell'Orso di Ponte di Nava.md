@@ -11,23 +11,19 @@ tags:
 feature_type: "Cave"
 latitude: 44.119039999999984
 longitude: 7.875310000000013
-country: "ITA"
 state: "Piedmont"
 suburb: "Province of Cuneo"
-privacy: public
 obsidian_aliases:
   - "Bear Cave of Nava's Bridge"
   - "Cave of the Poggio"
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 rating: TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/8c2264a0-8eab-4798-b65e-b497302f8259.html"
 catalog-type: "cave"
 altitude: "823 m"
 address: "5, Frazione Ponte di Nava, Province of Cuneo, Piedmont, ITA, 12078"
-location-checked: "false"
 ---
 # About
 

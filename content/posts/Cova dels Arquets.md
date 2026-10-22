@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 42.058147230628606
 longitude: 3.212328851222992
-country: "ESP"
 state: "Catalunya"
 suburb: "Torroella de Montgrí"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/677a0f06-809e-4f96-8d6b-9f67763d109a.html"
 catalog-type: "cave"
 altitude: "16 m"
 address: "Passeig del Molinet, Torroella de Montgrí, Catalunya, ESP, 17257"
-location-checked: "false"
 ---
 # Details
 

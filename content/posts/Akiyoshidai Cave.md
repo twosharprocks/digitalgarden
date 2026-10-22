@@ -12,11 +12,9 @@ region: "[[Japan]]"
 related:
   - "[[Diving]]"
   - "[[Article - Exploring Japan’s Hidden Rivers]]"
-  - "[[Akiyoshidai]]"
   - "[[Trip - Japan - 2026 May]]"
   - "[[2026-05-11]]"
   - "[[Weekly - 2026-05-10]]"
-  - "[[Japan]]"
 catalog-type: "cave"
 sub-region: "[[Akiyoshidai]]"
 ---

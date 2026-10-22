@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -5.243200000000002
 longitude: 151.50490000000002
-country: "PNG"
 state: "East New Britain Province"
 suburb: "Pomio District"
-privacy: public
 region: "[[Papua New Guinea]]"
 related:
   - "[[Diving]]"
-  - "[[Papua New Guinea]]"
 cavedb: "https://app.cavedb.net/share/504cfe23-d8b6-43f5-b5bc-4962a5785f04.html"
 catalog-type: "cave"
 altitude: "866 m"
 address: "Pomio District, East New Britain Province, PNG"
-location-checked: "false"
 ---
 # Details
 

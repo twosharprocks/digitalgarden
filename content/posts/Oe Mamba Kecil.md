@@ -12,19 +12,15 @@ region: "[[Sulawesi]]"
 related:
   - "[[Diving]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
-  - "[[Muna Island - Sulawesi]]"
   - "[[empty files]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
   - "[[2025-08-09]]"
-  - "[[Sulawesi]]"
 rating: TDI Intro to Cave
 feature_type: Sinkhole
 latitude: -5.361464000000012
 longitude: 122.46743700000002
-country: IDN
 state: South East Sulawesi
 suburb: Buton Regency
-privacy: public
 obsidian_aliases:
   - "Mamba Kucil"
   - "Mamba Kecil"

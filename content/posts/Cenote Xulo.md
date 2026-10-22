@@ -11,10 +11,8 @@ tags:
 feature_type: Cave
 latitude: 20.061583999999982
 longitude: -87.62751500000002
-country: MEX
 state: Quintana Roo
 suburb: Felipe Carrillo Puerto
-privacy: public
 obsidian_aliases:
   - Cueva De Golondrinas
   - Cave of the Swallows
@@ -22,14 +20,12 @@ obsidian_aliases:
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
 rating: TDI Intro to Cave
 cavedb: https://app.cavedb.net/share/e3f1823e-2e68-45fa-af12-95b6878d84eb.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
 altitude: "15 m"
 address: "México 307, Felipe Carrillo Puerto, Quintana Roo, MEX, 77130"
-location-checked: "true"
 ---
 # About
 

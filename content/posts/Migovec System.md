@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 46.25193999999999
 longitude: 13.763889999999947
-country: "SVN"
 state: "Tolmin"
 suburb: "Municipality of Tolmin"
-privacy: public
 region: "[[Slovenia]]"
 related:
   - "[[Diving]]"
-  - "[[Slovenia]]"
 cavedb: "https://app.cavedb.net/share/b51a84e6-4132-49dd-845d-176e3f10b3dc.html"
 catalog-type: "cave"
 altitude: "1860 m"
 address: "Neimenovana Cesta, Municipality of Tolmin, Tolmin, SVN, 5220"
-location-checked: "true"
 ---
 # Details
 

@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -17.16720000000001
 longitude: 29.18360000000007
-country: "ZWE"
 state: "Mashonaland West Province"
 suburb: "Hurungwe"
-privacy: public
 region: "[[Zimbabwe]]"
 related:
   - "[[Diving]]"
-  - "[[Zimbabwe]]"
 cavedb: "https://app.cavedb.net/share/6394ee5a-f808-41c1-a988-64bd1e22d4a7.html"
 catalog-type: "cave"
 altitude: "853 m"
 address: "Unnamed Road, Hurungwe, Mashonaland West Province, ZWE"
-location-checked: "true"
 ---
 # Details
 

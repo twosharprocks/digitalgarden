@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.844479999999976
 longitude: -82.63116000000002
-country: "USA"
-state: "Florida"
 suburb: "Columbia County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/53afefd4-aa82-4c97-be7d-dc1c25155103.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "11 m"
 address: "27020-27040, FL-20, Columbia County, Florida, USA, 32038"
-location-checked: "true"
 ---
 # Details
 

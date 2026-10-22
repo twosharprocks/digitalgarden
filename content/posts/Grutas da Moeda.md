@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 39.62424599999997
 longitude: -8.705756999999949
-country: "PRT"
 suburb: "Batalha"
-privacy: public
 region: "[[Portugal]]"
 related:
   - "[[Diving]]"
-  - "[[Portugal]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
   - "[[Trip - Portugal 2026 Oct]]"
 cavedb: "https://app.cavedb.net/share/dd11a56a-bb8f-4e16-a2fd-33bb9fefa9bf.html"
 catalog-type: "cave"
 altitude: "376 m"
 address: "Batalha, PRT, 2495-028"
-location-checked: "false"
 ---
 # Details
 

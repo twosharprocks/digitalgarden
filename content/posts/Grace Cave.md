@@ -14,7 +14,6 @@ related:
   - "[[Caving - Ideas]]"
   - "[[Photogrammetry - Processing]]"
   - "[[Photogrammetry]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
   - "[[2026-01-04]]"
   - "[[Victoria]]"
@@ -22,10 +21,8 @@ rating: CDAA Advanced Cave, TDI Full Cave
 feature_type: Cave
 latitude: -38.00386057115699
 longitude: 141.0730202077914
-country: AUS
 state: Victoria
 suburb: Glenelg Shire
-privacy: restricted-or-unknown
 obsidian_aliases:
   - G14
 cavedb: "https://app.cavedb.net/share/41ca9934-e35b-4a1f-8b59-1d0e4c8ca9c1.html"

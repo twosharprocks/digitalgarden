@@ -11,18 +11,13 @@ tags:
 feature_type: "Cave"
 latitude: 30.791382999999996
 longitude: 50.94765400000006
-country: "IRN"
-suburb: "Iran"
-privacy: public
 region: "[[Iran]]"
 related:
   - "[[Diving]]"
-  - "[[Iran]]"
 cavedb: "https://app.cavedb.net/share/4dcd5214-5a79-4081-ac0f-3e745a68f469.html"
 catalog-type: "cave"
 altitude: "2293 m"
 address: "Iran, IRN"
-location-checked: "false"
 ---
 # Details
 

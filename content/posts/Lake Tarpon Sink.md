@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.12597199999999
 longitude: -82.73696899999999
-country: "USA"
-state: "Florida"
 suburb: "Pinellas County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/ffee3e61-2f0a-4c91-9200-27ab97e85cb2.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "1 m"
 address: "39699, Unnamed Road, Pinellas County, Florida, USA, 34689"
-location-checked: "true"
 ---
 # Details
 

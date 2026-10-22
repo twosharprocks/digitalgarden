@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 41.734548483853814
 longitude: -2.863749638199806
-country: "ESP"
 state: "Castile and León"
 suburb: "Soria"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/e78a35a7-c69a-4253-acf8-e05153c74faf.html"
 catalog-type: "cave"
 altitude: "1018 m"
 address: "Soria, Castile and León, ESP, 42146"
-location-checked: "true"
 ---
 # About
 

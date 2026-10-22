@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 35.358472000000006
 longitude: 45.02408300000002
-country: "IRQ"
 state: "Sulaymaniyah Governorate"
 suburb: "Chamchamal"
-privacy: public
 region: "[[Iraq]]"
 related:
   - "[[Diving]]"
-  - "[[Iraq]]"
 cavedb: "https://app.cavedb.net/share/7d45a766-949b-42be-a22e-c65f03603868.html"
 catalog-type: "cave"
 altitude: "728 m"
 address: "Awaboraka Rd, Chamchamal, Sulaymaniyah Governorate, IRQ"
-location-checked: "true"
 ---
 # Details
 

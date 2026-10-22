@@ -11,20 +11,15 @@ tags:
 feature_type: "RockyOutcrop"
 latitude: -31.543300999999985
 longitude: 115.68884600000001
-country: "AUS"
-state: "Western Australia"
 suburb: "Perth"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 cavedb: "https://app.cavedb.net/share/b41b3355-44cc-4a2c-ad13-9c13d953981f.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "22 m"
 address: "Ghosthouse Walk, Perth, Western Australia, AUS, 6035"
-location-checked: "false"
 ---
 # Details
 

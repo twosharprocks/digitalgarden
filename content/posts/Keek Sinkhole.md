@@ -11,18 +11,14 @@ tags:
 feature_type: "Sinkhole"
 latitude: -0.9526989999999955
 longitude: 132.337087
-country: "IDN"
 suburb: "Tambrauw"
-privacy: public
 region: "[[Indonesia]]"
 related:
   - "[[Diving]]"
-  - "[[Indonesia]]"
 cavedb: "https://app.cavedb.net/share/b745b5a7-86f3-4286-a2a6-93d6c9a1b83d.html"
 catalog-type: "cave"
 altitude: "342 m"
 address: "Tambrauw, IDN"
-location-checked: "false"
 ---
 # Details
 

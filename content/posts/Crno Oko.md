@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 42.48388899999998
 longitude: 19.15416700000003
-country: "MNE"
 suburb: "Danilovgrad"
-privacy: public
 region: "[[Montenegro]]"
 related:
   - "[[Diving]]"
-  - "[[Montenegro]]"
 cavedb: "https://app.cavedb.net/share/0b3473d4-121f-41bd-aa0b-e5d12f8ef099.html"
 catalog-type: "cave"
 altitude: "33 m"
 address: "Mugosina Livada, Danilovgrad, MNE, 81412"
-location-checked: "false"
 ---
 # Details
 

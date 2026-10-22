@@ -11,21 +11,15 @@ tags:
 feature_type: "RockyOutcrop"
 latitude: -37.65594999999999
 longitude: 141.92479000000003
-country: "AUS"
-state: "Victoria"
 suburb: "Bochara"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/4e86918d-218c-4d48-ac80-a1d0d1ee1cc8.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "150 m"
 address: "Nigretta Falls Access Rd, Bochara, Victoria, AUS, 3301"
-location-checked: "true"
-location-checked-by: "BC"
 ---
 # Details
 

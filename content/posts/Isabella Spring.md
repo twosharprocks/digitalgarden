@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.39796100000001
 longitude: -82.67418600000002
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/c0e06491-8aef-4e13-af2a-e3baa4840c83.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "0 m"
 address: "8500-8598, Horizon Ln, Pasco County, Florida, USA, 34667"
-location-checked: "true"
 ---
 # Details
 

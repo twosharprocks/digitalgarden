@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 40.141417816622265
 longitude: 9.65822696685791
-country: "ITA"
 state: "Sardinia"
 suburb: "Province of Nuoro"
-privacy: public
 obsidian_aliases:
   - "Fig Cave"
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 rating: TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/7da88e95-394a-4c1b-b566-3e83ba8f31d9.html"
 catalog-type: "cave"
 altitude: "15 m"
 address: "Province of Nuoro, Sardinia, ITA, 08040"
-location-checked: "false"
 ---
 # Details
 

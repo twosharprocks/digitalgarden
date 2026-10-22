@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 26.243607708522404
 longitude: -77.18879342079163
-country: "BHS"
 state: "South Abaco"
-privacy: public
 obsidian_aliases:
   - "Pan's Labyrinth"
 region: "[[Bahamas]]"
 related:
   - "[[Diving]]"
-  - "[[Bahamas]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/fd852e75-c802-48f5-99ab-6131a3dca405.html"
 catalog-type: "cave"
 altitude: "12 m"
 address: "Unnamed Road, South Abaco, BHS"
-location-checked: "false"
 ---
 # About
 

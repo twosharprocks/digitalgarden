@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.09966099999997
 longitude: -82.08026999999998
-country: "USA"
-state: "Florida"
 suburb: "Marion County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/949901d6-2183-4169-a198-0aed07d2d082.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "15 m"
 address: "8420, Chestnut Rd, Marion County, Florida, USA, 34480"
-location-checked: "true"
 ---
 # Details
 

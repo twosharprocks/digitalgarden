@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.51339999999999
 longitude: -85.84652
-country: "USA"
-state: "Florida"
 suburb: "Washington County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/29eda2fa-8b64-4a06-8a83-4c14896202f9.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "4 m"
 address: "Unnamed Road, Washington County, Florida, USA, 32437"
-location-checked: "true"
 ---
 # Details
 

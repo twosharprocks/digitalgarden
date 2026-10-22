@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.091999999999985
 longitude: -83.09820000000002
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/82496d4c-9f30-479c-9239-90f034dde01d.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "9 m"
 address: "19639, 198th Terrace, Suwannee County, Florida, USA, 32060"
-location-checked: "true"
 ---
 # Details
 

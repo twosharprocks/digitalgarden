@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.08353699999998
 longitude: -82.78542199999998
-country: "USA"
-state: "Florida"
 suburb: "Pinellas County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/8a7bef21-e923-429d-af75-60aae115535f.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "-1 m"
 address: "1087-831, Point Seaside Dr, Pinellas County, Florida, USA, 34681"
-location-checked: "true"
 ---
 # Details
 

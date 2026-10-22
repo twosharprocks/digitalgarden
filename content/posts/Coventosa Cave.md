@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 43.251667999999995
 longitude: -3.6266709999999875
-country: "ESP"
 state: "Cantabria"
 suburb: "Arredondo"
-privacy: public
 obsidian_aliases:
   - "Cueva Coventosa"
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/9130c8d9-7e40-4c12-8f7f-366526299152.html"
 catalog-type: "cave"
 altitude: "996 m"
 address: "Arredondo, Cantabria, ESP, 39813"
-location-checked: "false"
 ---
 # Details
 

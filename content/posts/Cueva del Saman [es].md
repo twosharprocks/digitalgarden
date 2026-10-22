@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 10.798000000000002
 longitude: -72.43099999999998
-country: "VEN"
 state: "Zulia"
 suburb: "Mara"
-privacy: public
 region: "[[Venezuela]]"
 related:
   - "[[Diving]]"
-  - "[[Venezuela]]"
 cavedb: "https://app.cavedb.net/share/817b7dc9-0b13-46c1-bc81-d16c61abb9c8.html"
 catalog-type: "cave"
 altitude: "560 m"
 address: "Mara, Zulia, VEN, 4027"
-location-checked: "true"
 ---
 # Details
 

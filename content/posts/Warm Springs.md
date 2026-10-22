@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.635854999999992
 longitude: -82.596742
-country: "USA"
-state: "Florida"
 suburb: "Hernando County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/bfabae63-c5a9-415d-a9df-aea277764363.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "1 m"
 address: "Three Bridges Rd, Hernando County, Florida, USA, 34614"
-location-checked: "true"
 ---
 # Details
 

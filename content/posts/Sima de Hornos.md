@@ -10,22 +10,18 @@ tags:
   - spain
 latitude: 37.58295799999996
 longitude: -1.2065729999999348
-country: "ESP"
 state: "Región de Murcia"
 suburb: "Cartagena"
-privacy: public
 obsidian_aliases:
   - "Horn Chasm"
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/70b8afd4-69bc-4bf0-a1ce-a6d26be23d65.html"
 catalog-type: "cave"
 altitude: "111 m"
 address: "Cartagena, Región de Murcia, ESP, 30868"
-location-checked: "false"
 ---
 # About
 

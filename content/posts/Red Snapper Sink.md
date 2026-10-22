@@ -11,17 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 29.740560000000016
 longitude: -80.74778000000003
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/78c16e47-7f45-45f7-aab5-a10ee4b495fe.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "-26 m"
-location-checked: "true"
 ---
 # Details
 

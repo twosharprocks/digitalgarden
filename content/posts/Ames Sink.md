@@ -11,20 +11,15 @@ tags:
 feature_type: "Sinkhole"
 latitude: 30.318108629145627
 longitude: -84.2998605966568
-country: "USA"
-state: "Florida"
 suburb: "Tallahassee"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 cavedb: "https://app.cavedb.net/share/dc1ccccc-ce37-47d7-ac6f-598764d32363.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "2 m"
 address: "1899, Boatwright Rd, Tallahassee, Florida, USA, 32305-9002"
-location-checked: "false"
 ---
 # Details
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.97966600000001
 longitude: -82.75853999999998
-country: "USA"
-state: "Florida"
 suburb: "Columbia County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/93102aea-a72e-4ee8-87b6-e7a0629cf8aa.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "8 m"
 address: "[[Blue Hole]] Spring Trail, Columbia County, Florida, USA, 32038"
-location-checked: "true"
 ---
 # Details
 

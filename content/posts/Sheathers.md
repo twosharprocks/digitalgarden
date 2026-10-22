@@ -11,25 +11,19 @@ tags:
 feature_type: "Cave"
 latitude: -37.733623669999986
 longitude: 140.75588655
-country: "AUS"
-state: "South Australia"
 suburb: "The District Council of Grant"
-privacy: public
 obsidian_aliases:
   - "One Fourty Four"
   - "Airport Cave"
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 rating: CDAA Cave, TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/c3acbbd0-e313-4bdc-90fb-d1b3646dcd57.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "91 m"
 address: "Hinton Rd, The District Council of Grant, South Australia, AUS, 5291"
-location-checked: "true"
-location-checked-by: "MW - Foot"
 ---
 # About
 

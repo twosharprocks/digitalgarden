@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 44.79083000000003
 longitude: 1.5933300000000372
-country: "FRA"
 state: "Occitanie"
 suburb: "Rocamadour"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/48816aec-38f4-4166-a900-491f856802de.html"
 catalog-type: "cave"
 altitude: "128 m"
 address: "Lieu-dit Magès, Rocamadour, Occitanie, FRA, 46500"
-location-checked: "true"
 ---
 # Details
 

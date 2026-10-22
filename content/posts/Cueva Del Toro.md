@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 42.78393299999999
 longitude: -4.108235000000036
-country: "ESP"
 state: "Castilla y León"
 suburb: "Pomar de Valdivia"
-privacy: public
 obsidian_aliases:
   - "Cave of the Bull"
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/24b0318a-105c-4c1c-bb97-bf6d21d03c1e.html"
 catalog-type: "cave"
 altitude: "1194 m"
 address: "Pomar de Valdivia, Castilla y León, ESP"
-location-checked: "false"
 ---
 # Details
 

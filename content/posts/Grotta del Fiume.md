@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 39.795379000000025
 longitude: 18.33968500000003
-country: "ITA"
 state: "Puglia"
 suburb: "Castrignano del Capo"
-privacy: public
 obsidian_aliases:
   - "River Cave"
   - "Grotte di Frasassi"
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/640d97c5-514c-454a-93ae-15b672a17b3c.html"
 catalog-type: "cave"
 altitude: "2 m"
 address: "Strada Provinciale Gallipoli, Castrignano del Capo, Puglia, ITA, 73040"
-location-checked: "false"
 ---
 # Details
 

@@ -11,20 +11,15 @@ tags:
 feature_type: "Sinkhole"
 latitude: -38.02884
 longitude: 141.116845
-country: "AUS"
-state: "Victoria"
 suburb: "Glenelg Shire"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/a647c3ed-8ff2-4936-ab1c-9edb75a8e9f1.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "21 m"
 address: "Murrells Track, Glenelg Shire, Victoria, AUS, 3292"
-location-checked: "false"
 ---
 # Details
 

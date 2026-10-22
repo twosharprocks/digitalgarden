@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -29.939762
 longitude: 115.10169999999994
-country: "AUS"
-state: "Western Australia"
 suburb: "Warradarge"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 cavedb: "https://app.cavedb.net/share/f99b4a2c-e821-4ed2-a84e-2c64496c03f4.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "51 m"
 address: "Warradarge, Western Australia, AUS, 6518"
-location-checked: "false"
 ---
 # About
 

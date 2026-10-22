@@ -11,23 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 47.518100000000004
 longitude: 19.035930000000008
-country: "HUN"
 state: "Budapest"
 suburb: "Budapest"
-privacy: public
 obsidian_aliases:
   - "Molnár János-barlang"
 region: "[[Hungary]]"
 related:
   - "[[Diving]]"
-  - "[[Hungary]]"
 rating: TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/bb631d82-d186-4aa4-ae7c-3a8804b916fc.html"
 catalog-type: "cave"
 altitude: "109 m"
 address: "46, Frankel Leó út, Budapest, Budapest, HUN, 1023"
-location-checked: "true"
-location-checked-by: "BC"
 ---
 # About
 

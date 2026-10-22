@@ -11,8 +11,6 @@ tags:
 feature_type: "Cave"
 latitude: -30.227113000000003
 longitude: 115.08724499999994
-country: "AUS"
-privacy: public
 obsidian_aliases:
   - "Guano Cave"
   - "Moora Cave"
@@ -22,12 +20,10 @@ obsidian_aliases:
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Australia]]"
 cavedb: "https://app.cavedb.net/share/a672556d-0246-4475-ad73-e5f9ad7dca7e.html"
 catalog-type: "cave"
 altitude: "34 m"
 address: "AUS"
-location-checked: "false"
 ---
 # Details
 
@@ -35,13 +31,13 @@ location-checked: "false"
 
 - **Feature type:** Cave
 - **Reference:** 6J-3
-- **System name:** Drovers Cave National Park
+- **System name:** [Drovers Cave]({{< relref "posts/Drovers Cave.md" >}}) National Park
 
 # Additional Notes
 
 - **Mindat.org:** https://www.mindat.org/loc-25591.html
 
-When you get a collection of bats roosting in a cave, you clearly end up with a pile of bat guano underneath. This sometimes reacts with the chemicals in the rock of the cave, and over time produces minerals, sometimes including rare new species. Often bland and powdery, these species are highly sought after by collectors of rare mineral species. In Australia, mineral species are available from some caves on the Nullarbor in Western Australia, a couple of caves in Victoria, and Moorba Cave which is a little inland from Jurien Bay, Western Australia, in the Drovers Cave National Park. Jurien Bay is 220 kilometres north of Perth.
+When you get a collection of bats roosting in a cave, you clearly end up with a pile of bat guano underneath. This sometimes reacts with the chemicals in the rock of the cave, and over time produces minerals, sometimes including rare new species. Often bland and powdery, these species are highly sought after by collectors of rare mineral species. In Australia, mineral species are available from some caves on the Nullarbor in Western Australia, a couple of caves in Victoria, and Moorba Cave which is a little inland from Jurien Bay, Western Australia, in the [Drovers Cave]({{< relref "posts/Drovers Cave.md" >}}) National Park. Jurien Bay is 220 kilometres north of Perth.
 
 This limestone region contains a number of shallow caves. Moorba Cave is shallow but a torch is still needed and is open to the public. A four-wheel-drive vehicle is essential. The guano was caused by the bat species Macroderma gigas (Ghost Bat). The soluble components in the cave are brushite, ardealite, gypsum, and collophane, with insoluble quartz. Taranakite is minor. Newberyite was recently discovered in the cave.
 

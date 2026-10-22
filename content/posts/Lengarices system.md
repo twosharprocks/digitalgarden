@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 40.244309999999984
 longitude: 20.43213000000003
-country: "ALB"
 state: "Gjirokastër County"
 suburb: "Përmet District"
-privacy: public
 region: "[[Albania]]"
 related:
   - "[[Diving]]"
-  - "[[Albania]]"
 cavedb: "https://app.cavedb.net/share/ab9a0131-7d7a-4e1e-8b5c-818aab682906.html"
 catalog-type: "cave"
 altitude: "332 m"
 address: "Rrugë Pa Emër, Përmet District, Gjirokastër County, ALB"
-location-checked: "true"
 ---
 # Details
 

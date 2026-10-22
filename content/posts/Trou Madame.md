@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 44.453329999999994
 longitude: 1.753060000000005
-country: "FRA"
 state: "Occitanie"
 suburb: "Cénevières"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/f9ab9b81-1ce7-4c05-a615-95f3088cf479.html"
 catalog-type: "cave"
 altitude: "158 m"
 address: "D24, Cénevières, Occitanie, FRA, 46330"
-location-checked: "true"
 ---
 # Details
 

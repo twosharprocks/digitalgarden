@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 37.941350363734045
 longitude: -92.51445829868311
-country: "USA"
 state: "Missouri"
 suburb: "Richland"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[United States]]"
 cavedb: "https://app.cavedb.net/share/52a5c638-454d-4362-8417-85e0b85c99ec.html"
 catalog-type: "cave"
 altitude: "248 m"
 address: "2179, Carroll Cave Rd, Richland, Missouri, USA, 65556"
-location-checked: "false"
 ---
 # About
 

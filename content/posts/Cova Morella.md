@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 39.84438
 longitude: 2.9839299999999866
-country: "ESP"
 state: "Illes Balears"
 suburb: "Pollença"
-privacy: public
 obsidian_aliases:
   - "Morella Cave"
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/e5eca094-3d2b-4a8c-a398-5aae20245d22.html"
 catalog-type: "cave"
 altitude: "516 m"
 address: "Pollença, Illes Balears, ESP, 07460"
-location-checked: "false"
 ---
 # Details
 

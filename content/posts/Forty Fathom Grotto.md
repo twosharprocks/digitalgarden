@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.28874000000002
 longitude: -82.30894999999998
-country: "USA"
-state: "Florida"
 suburb: "Marion County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/f29404ee-cbf4-4973-90f1-2c5478521fc2.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "14 m"
 address: "9648-9096, NW 115th Ave, Marion County, Florida, USA, 34482"
-location-checked: "true"
 ---
 # Details
 

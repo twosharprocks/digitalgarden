@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 30.104394000000013
 longitude: -83.11579999999998
-country: "USA"
-state: "Florida"
 suburb: "Live Oak"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 cavedb: "https://app.cavedb.net/share/c0bde77d-738b-4d41-8ab2-936c8ec184a5.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "6 m"
 address: "17734, Running Springs Dr, Live Oak, Florida, USA, 32060-9085"
-location-checked: "true"
 ---
 # Details
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.314419999999984
 longitude: -84.34712999999999
-country: "USA"
-state: "Florida"
 suburb: "Leon County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/85683824-6927-4b6f-beb2-da6a210174b5.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "5 m"
 address: "8980-8998, US-319, Leon County, Florida, USA, 32305"
-location-checked: "true"
 ---
 # Details
 

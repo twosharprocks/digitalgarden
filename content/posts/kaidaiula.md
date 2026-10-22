@@ -13,7 +13,6 @@ related:
   - "[[Diving]]"
   - "[[Photogrammetry - Processing]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
-  - "[[Sulawesi]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
   - "[[2025-08-04]]"
   - "[[Weekly - 2025-08-10]]"
@@ -21,10 +20,8 @@ rating: TDI Intro to Cave
 feature_type: "Cave"
 latitude: -5.345465999999988
 longitude: 122.61156499999993
-country: "IDN"
 state: "South East Sulawesi"
 suburb: "Buton Regency"
-privacy: public
 obsidian_aliases:
   - "Kadaeula"
   - "Kadai Ula"

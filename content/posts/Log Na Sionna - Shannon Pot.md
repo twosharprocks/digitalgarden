@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 54.234936000000005
 longitude: -7.912903000000028
-country: "IRL"
 suburb: "Glangevlin"
-privacy: public
 region: "[[Ireland]]"
 related:
   - "[[Diving]]"
-  - "[[Ireland]]"
 cavedb: "https://app.cavedb.net/share/04fae754-bcd6-4bac-9011-dfd99414e0fc.html"
 catalog-type: "cave"
 altitude: "130 m"
 address: "Derrylahan, Glangevlin, IRL"
-location-checked: "true"
 ---
 # Details
 

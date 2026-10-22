@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 54.40661
 longitude: -3.052964999999972
-country: "GBR"
 state: "England"
 suburb: "Westmorland and Furness"
-privacy: public
 region: "[[United Kingdom]]"
 related:
   - "[[Diving]]"
-  - "[[United Kingdom]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/d890f528-2d9f-43e4-8392-ffbe08aff2c4.html"
 catalog-type: "cave"
 altitude: "166 m"
 address: "Unnamed Road, Westmorland and Furness, England, GBR, LA21"
-location-checked: "true"
 ---
 # Details
 

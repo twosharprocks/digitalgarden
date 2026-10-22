@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.081000000000017
 longitude: -83.06900000000002
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/3ab0b94c-e845-4e85-b2ce-41a467e28717.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "4 m"
 address: "157th Ln, Suwannee County, Florida, USA, 32066"
-location-checked: "true"
 ---
 # Details
 

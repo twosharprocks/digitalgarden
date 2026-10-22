@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 43.965528000000006
 longitude: 16.41244400000005
-country: "HRV"
 suburb: "Civljane"
-privacy: public
 region: "[[Croatia]]"
 related:
   - "[[Diving]]"
-  - "[[Croatia]]"
 cavedb: "https://app.cavedb.net/share/b95f70d8-7fcd-4ed8-aae7-ce2c4a7d0c63.html"
 catalog-type: "cave"
 altitude: "376 m"
 address: "Vukovići, Civljane, HRV, 22300"
-location-checked: "false"
 ---
 # Details
 

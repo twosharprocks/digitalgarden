@@ -11,21 +11,16 @@ tags:
 feature_type: "Lake"
 latitude: -38.289097
 longitude: 143.22052499999995
-country: "AUS"
-state: "Victoria"
 suburb: "Corangamite Shire"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/61717203-f4be-4622-a03f-c98f4738a54b.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "134 m"
 address: "20-192, Hamilton Ln, Corangamite Shire, Victoria, AUS, 3260"
-location-checked: "true"
 ---
 # About
 

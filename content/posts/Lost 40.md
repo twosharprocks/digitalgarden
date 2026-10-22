@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.535311999999976
 longitude: -82.54202299999997
-country: "USA"
-state: "Florida"
 suburb: "Hernando County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/0c729bb9-6efe-4196-af67-e32f03b7098b.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "5 m"
 address: "7300, Mandrake Rd, Hernando County, Florida, USA, 34613"
-location-checked: "true"
 ---
 # Details
 

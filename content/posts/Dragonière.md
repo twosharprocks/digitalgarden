@@ -11,24 +11,20 @@ tags:
 feature_type: "Cave"
 latitude: 44.51220000000001
 longitude: 1.6484000000000378
-country: "FRA"
 state: "Occitanie"
 suburb: "Cabrerets"
-privacy: public
 obsidian_aliases:
   - "Émergence de la Dragonnière"
   - "Dragonniére De Banne"
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 rating: TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/70f0f379-2ec1-4c6f-a204-73e2836ddca7.html"
 catalog-type: "cave"
 altitude: "161 m"
 address: "D42, Cabrerets, Occitanie, FRA, 46330"
-location-checked: "true"
 ---
 # Details
 

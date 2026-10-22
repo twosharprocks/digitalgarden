@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.783262000000036
 longitude: -85.15619800000002
-country: "USA"
-state: "Florida"
 suburb: "Jackson County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/73065350-d845-4bd1-93f1-3cb85fec6ebc.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "25 m"
 address: "5300, Limestone Ln, Jackson County, Florida, USA, 32446"
-location-checked: "true"
 ---
 # Details
 

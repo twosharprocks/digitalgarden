@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 44.790520000000015
 longitude: 1.5841199999999844
-country: "FRA"
 state: "Occitanie"
 suburb: "Rocamadour"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/b795a806-7f9c-4d12-b70e-dc2e330df363.html"
 catalog-type: "cave"
 altitude: "115 m"
 address: "Rocamadour, Occitanie, FRA, 46500"
-location-checked: "true"
 ---
 # Details
 

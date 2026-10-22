@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.127279999999985
 longitude: -83.13067999999998
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/a7a7e702-6ac1-46f2-ba38-b83592008300.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "9 m"
 address: "18975, 180th St, Suwannee County, Florida, USA, 32060"
-location-checked: "true"
 ---
 # Details
 

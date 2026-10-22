@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 42.52533199999999
 longitude: 19.836418999999978
-country: "MNE"
 suburb: "Gusinje"
-privacy: public
 region: "[[Montenegro]]"
 related:
   - "[[Diving]]"
-  - "[[Montenegro]]"
 cavedb: "https://app.cavedb.net/share/272a5610-1fa8-4d0c-830a-07ac52cbe725.html"
 catalog-type: "cave"
 altitude: "951 m"
 address: "Gusinje, MNE, 84326"
-location-checked: "false"
 ---
 # Details
 

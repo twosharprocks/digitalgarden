@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 43.88515899999999
 longitude: 3.6300350000000208
-country: "FRA"
 state: "Occitanie"
 suburb: "Gorniès"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/3ca8148a-5841-4522-8323-2d3e7c859644.html"
 catalog-type: "cave"
 altitude: "418 m"
 address: "D25, Gorniès, Occitanie, FRA, 34190"
-location-checked: "false"
 ---
 # Details
 

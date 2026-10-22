@@ -12,19 +12,15 @@ tags:
 feature_type: "Cave"
 latitude: 31.755809
 longitude: 35.024226
-country: "ISR"
 state: "ירושלים"
 suburb: "ירושלים"
-privacy: public
 region: "[[Israel]]"
 related:
   - "[[Diving]]"
-  - "[[Israel]]"
 cavedb: "https://app.cavedb.net/share/6280e419-6330-430f-ba21-dd9d7c89fd57.html"
 catalog-type: "cave"
 altitude: "436 m"
 address: "ירושלים, ירושלים, ISR"
-location-checked: "false"
 ---
 # About
 

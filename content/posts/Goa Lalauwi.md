@@ -12,11 +12,9 @@ region: "[[Sulawesi]]"
 related:
   - "[[Diving]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
-  - "[[Muna Island - Sulawesi]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
   - "[[2025-08-08]]"
   - "[[Laulawi]]"
-  - "[[Sulawesi]]"
 rating: TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/352534d7-399b-4eee-b0bf-ac438109a588.html"
 catalog-type: "cave"

@@ -12,16 +12,13 @@ region: "[[Spain]]"
 smarttraveller: https://www.smartraveller.gov.au/destinations/europe/spain
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[empty files]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 feature_type: "Cave"
 latitude: 37.57639799999998
 longitude: -1.2195819999999458
-country: "ESP"
 state: "Región de Murcia"
 suburb: "Cartagena"
-privacy: public
 obsidian_aliases:
   - "Water Cave"
 cavedb: "https://app.cavedb.net/share/b3758c0d-43e2-4a4c-b9b5-d2eca6e7f4f1.html"

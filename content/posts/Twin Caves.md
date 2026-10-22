@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.78666199999998
 longitude: -85.14412800000002
-country: "USA"
-state: "Florida"
 suburb: "Jackson County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/97d48fdb-f353-4b3d-8f93-e56c29c9bdb5.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "23 m"
 address: "3072, Mill Pond Cir, Jackson County, Florida, USA, 32446"
-location-checked: "true"
 ---
 # Details
 

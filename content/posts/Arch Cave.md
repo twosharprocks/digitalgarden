@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -33.254092000000014
 longitude: 148.93805099999997
-country: "AUS"
-state: "New South Wales"
 suburb: "Borenore"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 cavedb: "https://app.cavedb.net/share/41f92938-7190-4f47-b714-2cfb50191811.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "684 m"
 address: "Arch Trak, Borenore, New South Wales, AUS, 2800"
-location-checked: "false"
 ---
 # About
 

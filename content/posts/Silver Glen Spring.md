@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.244647999999984
 longitude: -81.64360999999997
-country: "USA"
-state: "Florida"
 suburb: "Marion County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/77c51b26-4814-4a9c-a813-c8e5d258cefc.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "0 m"
 address: "5271, Silver Gln Spgs, Marion County, Florida, USA, 32134"
-location-checked: "true"
 ---
 # Details
 

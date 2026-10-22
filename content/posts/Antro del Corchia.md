@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 44.02562999999998
 longitude: 10.30007999999998
-country: "ITA"
 state: "Toscana"
 suburb: "Stazzema"
-privacy: public
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/bcbf9a3e-3a87-411b-8abf-9db22aa27089.html"
 catalog-type: "cave"
 altitude: "883 m"
 address: "Via Filadelfo Simi, Stazzema, Toscana, ITA, 55040"
-location-checked: "false"
 ---
 # About
 

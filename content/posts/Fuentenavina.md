@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 40.62708299999997
 longitude: -2.0300210000000334
-country: "ESP"
 state: "Castile-La Mancha"
 suburb: "Guadalajara"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/dd2aa746-803e-48ea-ae32-8fc5e0cbb601.html"
 catalog-type: "cave"
 altitude: "1209 m"
 address: "CM-210, Guadalajara, Castile-La Mancha, ESP, 19463"
-location-checked: "false"
 ---
 # About
 

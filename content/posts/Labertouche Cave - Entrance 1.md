@@ -11,21 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -38.00446199999999
 longitude: 145.84935599999994
-country: "AUS"
-state: "Victoria"
 suburb: "Gentle Annie"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/80aab9e6-364e-4b3f-87dc-bee136db71f8.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "240 m"
 address: "Labertouche Creek Trak, Gentle Annie, Victoria, AUS, 3833"
-location-checked: "true"
-location-checked-by: "BC"
 ---
 # Details
 

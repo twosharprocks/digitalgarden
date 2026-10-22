@@ -11,22 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: -37.55232000000001
 longitude: 144.58382000000006
-country: "AUS"
-state: "Victoria"
 suburb: "Gisborne South"
-privacy: public
 obsidian_aliases:
   - "Bone Cave"
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/bc1368bc-1008-4011-8a32-370b26416dd6.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "414 m"
 address: "147, Tweddle Rd, Gisborne South, Victoria, AUS, 3437"
-location-checked: "false"
 ---
 # Details
 

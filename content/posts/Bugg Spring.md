@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.751985999999988
 longitude: -81.90151700000001
-country: "USA"
-state: "Florida"
 suburb: "Lake County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/722cd100-4a0d-4c74-beb6-cfead4374769.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "19 m"
 address: "27739-27751, Bugg Spring Rd, Lake County, Florida, USA, 34748"
-location-checked: "true"
 ---
 # Details
 

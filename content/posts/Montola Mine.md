@@ -11,19 +11,15 @@ tags:
 feature_type: "Mine"
 latitude: 62.164085
 longitude: 27.30658600000004
-country: "FIN"
 state: "Itä-Suomi"
 suburb: "Pieksämäki"
-privacy: public
 region: "[[Finland]]"
 related:
   - "[[Diving]]"
-  - "[[Finland]]"
 cavedb: "https://app.cavedb.net/share/4d748d02-46a3-4a3d-ad8c-ab6989718887.html"
 catalog-type: "cave"
 altitude: "100 m"
 address: "346, Montolantie, Pieksämäki, Itä-Suomi, FIN, 77350"
-location-checked: "false"
 ---
 # Details
 

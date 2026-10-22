@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 44.56166999999999
 longitude: 1.7716699999999719
-country: "FRA"
 state: "Occitanie"
 suburb: "Marcilhac-sur-Célé"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/60dad8d3-eeda-4c77-80d4-f173644d1328.html"
 catalog-type: "cave"
 altitude: "154 m"
 address: "D41, Marcilhac-sur-Célé, Occitanie, FRA, 46160"
-location-checked: "true"
-location-checked-by: "BC"
 ---
 # Details
 

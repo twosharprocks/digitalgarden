@@ -11,18 +11,14 @@ tags:
 feature_type: "Landmark"
 latitude: 28.397010000000023
 longitude: 34.75159600000006
-country: "SAU"
 suburb: "البدع"
-privacy: public
 region: "[[Saudi Arabia]]"
 related:
   - "[[Diving]]"
-  - "[[Saudi Arabia]]"
 cavedb: "https://app.cavedb.net/share/295a42d4-7f05-4e39-92e2-bb9a4428412e.html"
 catalog-type: "cave"
 altitude: "60 m"
 address: "4370, البدع, SAU, 49743"
-location-checked: "false"
 ---
 # Details
 

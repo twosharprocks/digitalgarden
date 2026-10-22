@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 47.138638000000014
 longitude: 9.164635999999973
-country: "CHE"
 state: "St. Gallen"
 suburb: "See-Gaster District"
-privacy: public
 region: "[[Switzerland]]"
 related:
   - "[[Diving]]"
-  - "[[Switzerland]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/c2841b8b-ea9f-4e00-835a-806c304e2c5f.html"
 catalog-type: "cave"
 altitude: "672 m"
 address: "1790, Wasserfall, See-Gaster District, St. Gallen, CHE, 8873"
-location-checked: "true"
 ---
 # Details
 

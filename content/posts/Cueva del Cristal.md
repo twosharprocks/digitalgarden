@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 37.54007999999999
 longitude: -1.1435500000000047
-country: "ESP"
 state: "Región de Murcia"
 suburb: "Cartagena"
-privacy: public
 obsidian_aliases:
   - "Cave of Crystal"
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/fba3578e-dbe2-4aa4-803c-c53db70db202.html"
 catalog-type: "cave"
 altitude: "47 m"
 address: "Cartagena, Región de Murcia, ESP, 30868"
-location-checked: "false"
 ---
 # Details
 

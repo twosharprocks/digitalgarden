@@ -11,23 +11,19 @@ tags:
 feature_type: "Cave"
 latitude: 42.754323
 longitude: -4.081713000000036
-country: "ESP"
 state: "Castilla y León"
 suburb: "Valle de Valdelucio"
-privacy: public
 obsidian_aliases:
   - "Cave of the Fountain"
   - "Fountain Cave"
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/d5d359f9-30cc-46de-8f55-a824f5efaa20.html"
 catalog-type: "cave"
 altitude: "1098 m"
 address: "Valle de Valdelucio, Castilla y León, ESP, 09127"
-location-checked: "false"
 ---
 # About
 

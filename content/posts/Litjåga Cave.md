@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 66.45348200000001
 longitude: 14.834519999999998
-country: "NOR"
 state: "Nordland"
 suburb: "Storforsheia"
-privacy: public
 region: "[[Norway]]"
 related:
   - "[[Diving]]"
-  - "[[Norway]]"
 cavedb: "https://app.cavedb.net/share/334c22a6-0ede-45e3-bbc6-55276d5b777b.html"
 catalog-type: "cave"
 altitude: "139 m"
 address: "Saltfjellveien, Storforsheia, Nordland, NOR, 8630"
-location-checked: "false"
 ---
 # Details
 

@@ -11,21 +11,17 @@ tags:
 feature_type: Cave
 latitude: 20.182639999999992
 longitude: -87.51718
-country: MEX
 state: Quintana Roo
 suburb: Tulum Municipality
-privacy: public
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
 rating: TDI Intro to Cave
 cavedb: https://app.cavedb.net/share/3cb07a44-bc97-4bf1-8f26-e23704caf30e.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
 altitude: "9 m"
 address: "C. Cenote Corazon, Tulum Municipality, Quintana Roo, MEX, 77763"
-location-checked: "false"
 ---
 # Details
 

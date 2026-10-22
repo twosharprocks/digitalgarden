@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -35.72347300000001
 longitude: 148.48700099999996
-country: "AUS"
-state: "New South Wales"
 suburb: "Yarrangobilly"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 cavedb: "https://app.cavedb.net/share/2f475e7e-3d57-4edb-a149-1e6c59a41782.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "1004 m"
 address: "Karst Loop, Yarrangobilly, New South Wales, AUS, 2720"
-location-checked: "false"
 ---
 # Details
 

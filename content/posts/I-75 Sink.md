@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 28.070987000000002
 longitude: -82.35352799999998
-country: "USA"
-state: "Florida"
 suburb: "Tampa"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 cavedb: "https://app.cavedb.net/share/25ad2f4f-9b5b-45ec-a6ba-00116aa84727.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "9 m"
 address: "I-75, Tampa, Florida, USA, 33637"
-location-checked: "true"
 ---
 # Details
 

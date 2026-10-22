@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 44.36972220000001
 longitude: 4.641111099999989
-country: "FRA"
 state: "Auvergne-Rhône-Alpes"
 suburb: "Bourg-Saint-Andéol"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/c7f2ddd4-a7ee-4b1d-955b-8ca5940834d2.html"
 catalog-type: "cave"
 altitude: "65 m"
 address: "4, Quartier de Tourne, Bourg-Saint-Andéol, Auvergne-Rhône-Alpes, FRA, 07700"
-location-checked: "false"
 ---
 # Details
 

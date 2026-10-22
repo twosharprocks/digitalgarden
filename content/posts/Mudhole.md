@@ -11,10 +11,7 @@ tags:
 feature_type: "Cave"
 latitude: -37.75117990000001
 longitude: 140.54837231
-country: "AUS"
-state: "South Australia"
 suburb: "Wattle Range Council"
-privacy: public
 obsidian_aliases:
   - "Elaines"
   - "Wire"
@@ -26,15 +23,12 @@ obsidian_aliases:
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 rating: CDAA Cave, TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/ea4dacca-78ed-4583-b9cc-c3555c715a16.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "54 m"
 address: "Wattle Range Council, South Australia, AUS, 5280"
-location-checked: "true"
-location-checked-by: "CDAA Rated"
 ---
 # Details
 

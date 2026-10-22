@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 42.103880000000004
 longitude: 3.182549999999992
-country: "ESP"
 state: "Catalonia"
 suburb: "Girona"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 rating: TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/10684be0-86ad-471a-b1a4-73e0b5c887bc.html"
 catalog-type: "cave"
 altitude: "19 m"
 address: "Girona, Catalonia, ESP, 17130"
-location-checked: "false"
 ---
 # Details
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.704549999999983
 longitude: -82.93358
-country: "USA"
-state: "Florida"
 suburb: "Gilchrist County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/e47fc7e0-db17-4b1b-ae3f-30b37f61d0de.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "3 m"
 address: "7599-7467, SW 22nd St, Gilchrist County, Florida, USA, 32619"
-location-checked: "true"
 ---
 # Details
 

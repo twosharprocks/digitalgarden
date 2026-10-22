@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 45.95654000000002
 longitude: 8.994109999999978
-country: "CHE"
 state: "Ticino"
 suburb: "Arogno"
-privacy: public
 region: "[[Switzerland]]"
 related:
   - "[[Diving]]"
-  - "[[Switzerland]]"
 cavedb: "https://app.cavedb.net/share/32ceda84-17eb-4932-ac4d-d1f0919eff86.html"
 catalog-type: "cave"
 altitude: "599 m"
 address: "Tre Merli, Arogno, Ticino, CHE, 6822"
-location-checked: "false"
 ---
 # Details
 

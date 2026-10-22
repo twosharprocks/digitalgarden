@@ -11,8 +11,6 @@ tags:
 feature_type: "Cave"
 latitude: 31.726080000000024
 longitude: 35.02071000000001
-country: "ISR"
-privacy: public
 obsidian_aliases:
   - "Twins Cave"
   - "Mŭghâret Umm et Tûeimîn"
@@ -20,12 +18,10 @@ obsidian_aliases:
 region: "[[Israel]]"
 related:
   - "[[Diving]]"
-  - "[[Israel]]"
 cavedb: "https://app.cavedb.net/share/4673a4bb-04d6-4c78-88c6-703399f3b9c7.html"
 catalog-type: "cave"
 altitude: "377 m"
 address: "ISR"
-location-checked: "false"
 ---
 # Details
 

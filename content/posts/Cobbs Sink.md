@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.181240000000003
 longitude: -82.77125000000001
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/12321a26-e7a8-455e-949b-b1e5bbb090a1.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "2 m"
 address: "1409, Jambalana Dr, Pasco County, Florida, USA, 34691"
-location-checked: "true"
 ---
 # Details
 

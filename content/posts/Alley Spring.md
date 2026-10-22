@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 37.15449141031104
 longitude: -91.44167929887766
-country: "USA"
 state: "Missouri"
 suburb: "Shannon County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[United States]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/93d89f7e-94fa-4a70-9a4b-8fe95c152ade.html"
 catalog-type: "cave"
 altitude: "208 m"
 address: "Co Rd 305, Shannon County, Missouri, USA, 65466"
-location-checked: "false"
 ---
 # About
 

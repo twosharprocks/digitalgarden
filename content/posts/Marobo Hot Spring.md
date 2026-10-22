@@ -11,18 +11,14 @@ tags:
 feature_type: "RockyOutcrop"
 latitude: -8.98687000000001
 longitude: 125.31394999999998
-country: "TLS"
 suburb: "Bobonaro"
-privacy: public
 region: "[[Timor-Leste]]"
 related:
   - "[[Diving]]"
-  - "[[Timor-Leste]]"
 cavedb: "https://app.cavedb.net/share/c63366da-7a72-4e48-89f7-403bd7df92cc.html"
 catalog-type: "cave"
 altitude: "427 m"
 address: "Bobonaro, TLS"
-location-checked: "false"
 ---
 # About
 

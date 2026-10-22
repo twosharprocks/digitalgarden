@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 51.22929999999997
 longitude: -2.671799999999962
-country: "GBR"
 state: "England"
 suburb: "Wells"
-privacy: public
 region: "[[United Kingdom]]"
 related:
   - "[[Diving]]"
-  - "[[United Kingdom]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/d35b68bf-9d60-41f2-ba3b-4234c274cb45.html"
 catalog-type: "cave"
 altitude: "95 m"
 address: "North Bank, Wells, England, GBR, BA5 1"
-location-checked: "true"
 ---
 # About
 

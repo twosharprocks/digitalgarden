@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -2.6802472222221922
 longitude: 37.880238888888925
-country: "KEN"
 state: "Kajiado County"
 suburb: "Loitokitok"
-privacy: public
 region: "[[Kenya]]"
 related:
   - "[[Diving]]"
-  - "[[Kenya]]"
 cavedb: "https://app.cavedb.net/share/e3920b1d-3fae-401a-8fd8-e1a922a4b7c5.html"
 catalog-type: "cave"
 altitude: "1821 m"
 address: "Loitokitok, Kajiado County, KEN"
-location-checked: "true"
 ---
 # About
 

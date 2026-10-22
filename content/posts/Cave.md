@@ -11,21 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -31.606808
 longitude: 129.501756
-country: "AUS"
-state: "South Australia"
 suburb: "Nullarbor"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 cavedb: "https://app.cavedb.net/share/670ddb1f-8377-4674-9484-f91a02c58368.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "83 m"
 address: "Nullarbor, South Australia, AUS, 5690"
-location-checked: "true"
-location-checked-by: "MW"
 ---
 # About
 

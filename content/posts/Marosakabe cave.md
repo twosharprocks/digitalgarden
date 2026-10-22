@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -16.45188999999999
 longitude: 45.335429999999974
-country: "MDG"
 state: "Boeny"
 suburb: "Soalala"
-privacy: public
 region: "[[Madagascar]]"
 related:
   - "[[Diving]]"
-  - "[[Madagascar]]"
 cavedb: "https://app.cavedb.net/share/a9fd862d-66be-4a2b-9c4d-82b0f3ea2426.html"
 catalog-type: "cave"
 altitude: "128 m"
 address: "Soalala, Boeny, MDG"
-location-checked: "true"
 ---
 # About
 

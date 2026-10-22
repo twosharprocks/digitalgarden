@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.045943999999963
 longitude: -83.04112499999997
-country: "USA"
-state: "Florida"
 suburb: "Lafayette County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/36d9f647-c9c4-4363-a531-0dfa22de7ca2.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "6 m"
 address: "2846, County 251, Lafayette County, Florida, USA, 32066"
-location-checked: "true"
 ---
 # Details
 

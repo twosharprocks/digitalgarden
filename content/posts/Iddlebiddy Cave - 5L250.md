@@ -11,7 +11,6 @@ tags:
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[Article - Iddlebiddy Cave - Soggy Wombats]]"
   - "[[Book - Cave Diving]]"
   - "[[Mt Gambier - PROTECTED]]"
@@ -19,10 +18,7 @@ rating: CDAA Advanced Cave, TDI Full Cave
 feature_type: "Cave"
 latitude: -37.78201878537902
 longitude: 140.56013882160187
-country: "AUS"
-state: "South Australia"
 suburb: "The District Council of Grant"
-privacy: public
 cavedb: "https://app.cavedb.net/share/5a860a82-daa2-4db6-b478-16586cd4ddf2.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"

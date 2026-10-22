@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 29.160415
 longitude: -13.439316
-country: "ESP"
 state: "Canary Islands"
 suburb: "Las Palmas"
-privacy: public
 obsidian_aliases:
   - "Cueva de los Verdes"
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/10e8ca57-0aa8-49f9-883e-a8d1ea6e7b63.html"
 catalog-type: "cave"
 altitude: "59 m"
 address: "LZ-205, Las Palmas, Canary Islands, ESP, 35542"
-location-checked: "false"
 ---
 # Details
 

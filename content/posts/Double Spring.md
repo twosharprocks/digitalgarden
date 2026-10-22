@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.03449999999998
 longitude: -82.34235000000001
-country: "USA"
-state: "Florida"
 suburb: "Hillsborough County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/ca8f7a20-bc8d-460a-95e2-db944b476d21.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "2 m"
 address: "9271-9299, Harney Rd, Hillsborough County, Florida, USA, 33592"
-location-checked: "true"
 ---
 # Details
 

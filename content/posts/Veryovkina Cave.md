@@ -11,9 +11,7 @@ tags:
 feature_type: "Cave"
 latitude: 43.41556000000003
 longitude: 40.35639000000003
-country: "GEO"
 suburb: "გაგრა"
-privacy: public
 obsidian_aliases:
   - "Verëvkina Cave"
   - "Вериовкин иҳаԥы"
@@ -23,12 +21,10 @@ obsidian_aliases:
 region: "[[Georgia]]"
 related:
   - "[[Diving]]"
-  - "[[Georgia]]"
 cavedb: "https://app.cavedb.net/share/ba70c4fb-b776-44ed-ba87-d36cabe17b18.html"
 catalog-type: "cave"
 altitude: "2626 m"
 address: "გაგრა, GEO"
-location-checked: "false"
 ---
 # About
 

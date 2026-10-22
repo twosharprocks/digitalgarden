@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.439555999999982
 longitude: -85.547595
-country: "USA"
-state: "Florida"
 suburb: "Washington County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/bf7b93a1-da27-48ac-85ae-db89b7d1dc5f.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "6 m"
 address: "5641, Porter Pond Rd, Washington County, Florida, USA, 32466"
-location-checked: "true"
 ---
 # Details
 

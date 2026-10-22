@@ -11,14 +11,11 @@ tags:
 feature_type: "Cave"
 latitude: 14.952999999999975
 longitude: 98.48815000000002
-country: "THA"
 state: "Kanchanaburi"
 suburb: "Sangkhla Buri District"
-privacy: public
 region: "[[Thailand]]"
 related:
   - "[[Diving]]"
-  - "[[Thailand]]"
   - "[[Trip - Thailand - Boh Yai Mines - 2026 Jan]]"
   - "[[Trip - Thailand - Boh Yai Mines - 2027 Jan]]"
 rating: TDI Full Cave
@@ -26,7 +23,6 @@ cavedb: "https://app.cavedb.net/share/2341a922-6187-466c-b389-f110afa507a0.html"
 catalog-type: "cave"
 altitude: "193 m"
 address: "Sangkhla Buri District, Kanchanaburi, THA, 71240"
-location-checked: "true"
 ---
 # Details
 

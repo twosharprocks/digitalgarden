@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 50.836299999999994
 longitude: 12.84337000000005
-country: "DEU"
 state: "Sachsen"
 suburb: "Chemnitz"
-privacy: public
 region: "[[Germany]]"
 related:
   - "[[Diving]]"
-  - "[[Germany]]"
 cavedb: "https://app.cavedb.net/share/118d8011-92d8-4fc4-b688-b0929445a99d.html"
 catalog-type: "cave"
 altitude: "332 m"
 address: "4, Weg nach dem Kalkwerk, Chemnitz, Sachsen, DEU, 09117"
-location-checked: "false"
 ---
 # Details
 

@@ -11,20 +11,16 @@ tags:
 feature_type: "Sinkhole"
 latitude: 22.99324899999999
 longitude: -98.16574300000002
-country: "MEX"
 state: "Tamaulipas"
 suburb: "Aldama"
-privacy: public
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Mexico]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/cdbd9052-1b3d-44c6-bfff-7a295717273a.html"
 catalog-type: "cave"
 altitude: "204 m"
 address: "Ruta Sin Nombre, Aldama, Tamaulipas, MEX, 89675"
-location-checked: "false"
 ---
 # About
 

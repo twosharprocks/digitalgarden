@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.657528000000013
 longitude: -85.90460000000002
-country: "USA"
-state: "Florida"
 suburb: "Walton County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/d7700f69-9ce1-4dc3-ba27-5aac56c9ac6f.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "8 m"
 address: "1499-841, Morrison Springs Rd, Walton County, Florida, USA, 32455"
-location-checked: "true"
 ---
 # Details
 

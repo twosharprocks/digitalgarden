@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 40.03088100000002
 longitude: 9.705466999999999
-country: "ITA"
 state: "Sardinia"
 suburb: "Province of Nuoro"
-privacy: public
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/f2f7340a-33fc-43ed-a731-9cc547b2a974.html"
 catalog-type: "cave"
 altitude: "5 m"
 address: "Strada Senza Nome, Province of Nuoro, Sardinia, ITA, 08040"
-location-checked: "true"
 ---
 # Details
 

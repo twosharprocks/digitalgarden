@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 32.32583999999997
 longitude: -64.73954000000003
-country: "BMU"
 state: "Hamilton Parish"
-privacy: public
 region: "[[Bermuda]]"
 related:
   - "[[Diving]]"
-  - "[[Bermuda]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/c55608ac-51b6-4328-be84-fdc183f91ea8.html"
 catalog-type: "cave"
 altitude: "9 m"
 address: "15-21, Studio Ln, Hamilton Parish, BMU"
-location-checked: "true"
 ---
 # Details
 

@@ -10,18 +10,14 @@ tags:
   - united-states
 latitude: 32.190560000000005
 longitude: -104.50306
-country: "USA"
 state: "New Mexico"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[United States]]"
 cavedb: "https://app.cavedb.net/share/e0d7e35b-a934-40d4-a2be-e34487206bcd.html"
 catalog-type: "cave"
 altitude: "1422 m"
 address: "New Mexico, USA"
-location-checked: "false"
 ---
 # About
 

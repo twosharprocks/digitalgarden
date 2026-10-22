@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 40.24936100000002
 longitude: 9.623514
-country: "ITA"
 state: "Sardinia"
 suburb: "Province of Nuoro"
-privacy: public
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/cf7b7410-fa7f-46ba-a7bb-ba79c95ec768.html"
 catalog-type: "cave"
 altitude: "35 m"
 address: "Sentiero Cala Fuili - Cala Luna, Province of Nuoro, Sardinia, ITA, 08022"
-location-checked: "true"
 ---
 # Details
 

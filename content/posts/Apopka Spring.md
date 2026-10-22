@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.566797000000008
 longitude: -81.68067000000002
-country: "USA"
-state: "Florida"
 suburb: "Lake County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/9fc1452e-c65b-4fc7-966f-080ba1fc8740.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "20 m"
 address: "16323-16001, Magnolia Creek Ln, Lake County, Florida, USA, 34756"
-location-checked: "true"
 ---
 # Details
 

@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 44.457538
 longitude: 1.70002199999999
-country: "FRA"
 state: "Occitanie"
 suburb: "Crégols"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/be8b3f82-7017-465b-bf69-b68d5aea3c2a.html"
 catalog-type: "cave"
 altitude: "142 m"
 address: "Route de Canteduc, Crégols, Occitanie, FRA, 46330"
-location-checked: "false"
 ---
 # Details
 

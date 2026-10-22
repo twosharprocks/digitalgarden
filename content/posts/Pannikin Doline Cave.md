@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -32.0349058963223
 longitude: 126.18716239929199
-country: "AUS"
-state: "Western Australia"
 suburb: "Cocklebiddy"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 cavedb: "https://app.cavedb.net/share/1cae1c3a-7dd7-409d-b5ab-508a87b2a880.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "85 m"
 address: "Cocklebiddy, Western Australia, AUS, 6443"
-location-checked: "false"
 ---
 # Details
 

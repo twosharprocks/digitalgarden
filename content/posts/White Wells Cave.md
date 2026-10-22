@@ -11,21 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -31.424964999999986
 longitude: 130.99165500000004
-country: "AUS"
-state: "South Australia"
 suburb: "Yalata"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 cavedb: "https://app.cavedb.net/share/232fe0ac-b4d0-4910-93e2-e588c2a253fa.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "51 m"
 address: "Eyre Hwy, Yalata, South Australia, AUS, 5690"
-location-checked: "true"
-location-checked-by: "MW"
 ---
 # About
 

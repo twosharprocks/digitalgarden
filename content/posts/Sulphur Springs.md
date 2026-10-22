@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.02103699999998
 longitude: -82.45173
-country: "USA"
-state: "Florida"
 suburb: "Hillsborough County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/d0114b55-031c-422d-b0fa-5530a471184c.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "2 m"
 address: "8030, Sulpher Springs Park Trail, Hillsborough County, Florida, USA, 33604"
-location-checked: "true"
 ---
 # Details
 

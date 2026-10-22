@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 28.434860000000015
 longitude: -82.64141000000001
-country: "USA"
-state: "Florida"
 suburb: "Spring Hill"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 cavedb: "https://app.cavedb.net/share/360c7a97-c19f-4531-9f0e-943fd9bd51be.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "3 m"
 address: "Travel Park Dr, Spring Hill, Florida, USA, 34607"
-location-checked: "true"
 ---
 # Details
 

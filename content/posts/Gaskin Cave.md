@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 4.19580000000002
 longitude: 9.199200000000019
-country: "CMR"
 state: "Southwest Region"
 suburb: "Fako"
-privacy: public
 region: "[[Cameroon]]"
 related:
   - "[[Diving]]"
-  - "[[Cameroon]]"
 cavedb: "https://app.cavedb.net/share/149617aa-f264-46f9-979c-6ae3071ed6bb.html"
 catalog-type: "cave"
 altitude: "2836 m"
 address: "Fako, Southwest Region, CMR"
-location-checked: "true"
 ---
 # About
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.240935000000036
 longitude: -84.310562
-country: "USA"
-state: "Florida"
 suburb: "Wakulla County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/613408bb-6065-4994-bb93-6590f56d2084.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "2 m"
 address: "465, Wakulla Park Dr, Wakulla County, Florida, USA, 32327"
-location-checked: "true"
 ---
 # Details
 

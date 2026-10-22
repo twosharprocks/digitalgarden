@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.278819999999996
 longitude: -84.34296
-country: "USA"
-state: "Florida"
 suburb: "Wakulla County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/e4a2aa5c-b055-449e-a46c-c2168ddfbf36.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "5 m"
 address: "68, Wilson Estate Rd, Wakulla County, Florida, USA, 32327"
-location-checked: "true"
 ---
 # Details
 

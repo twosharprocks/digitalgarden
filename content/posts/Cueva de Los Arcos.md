@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 38.708123
 longitude: 0.16648299999997107
-country: "ESP"
 state: "Valencian Community"
 suburb: "Alicante"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/b5b04730-8400-4b81-8a83-97973ce8217a.html"
 catalog-type: "cave"
 altitude: "0 m"
 address: "111, C. Hernán Cortés, Alicante, Valencian Community, ESP, 03726"
-location-checked: "false"
 ---
 # About
 

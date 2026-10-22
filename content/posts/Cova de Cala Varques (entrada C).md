@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 39.498995000000036
 longitude: 3.2960349999999607
-country: "ESP"
 state: "Illes Balears"
 suburb: "Manacor"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/94209907-6a70-46fe-9b2c-7481659003f2.html"
 catalog-type: "cave"
 altitude: "5 m"
 address: "Camí Cala Falcó, Manacor, Illes Balears, ESP, 07689"
-location-checked: "false"
 ---
 # Details
 

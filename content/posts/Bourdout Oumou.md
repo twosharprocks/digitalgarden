@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 17.18333333333328
 longitude: 21.583333333333258
-country: "TCD"
 state: "Ennedi-Ouest"
 suburb: "Fada"
-privacy: public
 region: "[[Chad]]"
 related:
   - "[[Diving]]"
-  - "[[Chad]]"
 cavedb: "https://app.cavedb.net/share/3b28d8b6-5451-4371-bea5-f8341fc234d4.html"
 catalog-type: "cave"
 altitude: "562 m"
 address: "Route Sans Nom, Fada, Ennedi-Ouest, TCD"
-location-checked: "true"
 ---
 # About
 

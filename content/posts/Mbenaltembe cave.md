@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -2.342222222222233
 longitude: 11.58888888888896
-country: "GAB"
 state: "Ngounie"
 suburb: "Dola"
-privacy: public
 region: "[[Gabon]]"
 related:
   - "[[Diving]]"
-  - "[[Gabon]]"
 cavedb: "https://app.cavedb.net/share/890b22ba-6513-4426-8c2b-3b0d025af3fc.html"
 catalog-type: "cave"
 altitude: "159 m"
 address: "Route Sans Nom, Dola, Ngounie, GAB"
-location-checked: "true"
 ---
 # About
 

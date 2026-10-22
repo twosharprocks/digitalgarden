@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.368259999999964
 longitude: -82.57917900000001
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/34bdc539-6d48-4933-91f5-ff34f650823f.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "12 m"
 address: "14299, Chesterfield Trail, Pasco County, Florida, USA, 34669"
-location-checked: "true"
 ---
 # Details
 

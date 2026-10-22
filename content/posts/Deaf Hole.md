@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 44.55933300000004
 longitude: 16.219832999999994
-country: "BIH"
 state: "Federacija Bosne i Hercegovine"
 suburb: "Bosanski Petrovac"
-privacy: public
 region: "[[Bosnia & Herzegovina]]"
 related:
   - "[[Diving]]"
-  - "[[Bosnia & Herzegovina]]"
 cavedb: "https://app.cavedb.net/share/c78b4fa3-c2d2-4c4b-b406-53b55918844c.html"
 catalog-type: "cave"
 altitude: "749 m"
 address: "Bosanski Petrovac, Federacija Bosne i Hercegovine, BIH, 77250"
-location-checked: "false"
 ---
 # Details
 

@@ -94,6 +94,7 @@ related:
 - [Pozo Azul]({{< relref "posts/Pozo Azul.md" >}})
 - [Pozo Azul - b374b68c]({{< relref "posts/Pozo Azul - b374b68c.md" >}})
 - [Secret de sa Figuera]({{< relref "posts/Secret de sa Figuera.md" >}})
+- [Secret des Moix]({{< relref "posts/Secret des Moix.md" >}})
 - [Sima de Hornos]({{< relref "posts/Sima de Hornos.md" >}})
 - [Sima del Sombrero]({{< relref "posts/Sima del Sombrero.md" >}})
 - [Sima Destapada]({{< relref "posts/Sima Destapada.md" >}})

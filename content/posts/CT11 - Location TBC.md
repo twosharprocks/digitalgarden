@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 38.70669800000002
 longitude: 0.16541699999993398
-country: "ESP"
 state: "Valencian Community"
 suburb: "Alicante"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/44bf9da3-c884-4f19-8a48-bc83455034f1.html"
 catalog-type: "cave"
 altitude: "0 m"
 address: "114, C. Pizarro, Alicante, Valencian Community, ESP, 03726"
-location-checked: "false"
 ---
 # About
 

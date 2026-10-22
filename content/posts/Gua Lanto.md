@@ -12,18 +12,14 @@ region: "[[Sulawesi]]"
 related:
   - "[[Diving]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
-  - "[[Baubau Island - Sulawesi]]"
   - "[[empty files]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
-  - "[[Sulawesi]]"
 rating: TDI Intro to Cave
 feature_type: Cave
 latitude: -5.4601089999999886
 longitude: 122.627249
-country: IDN
 state: South East Sulawesi
 suburb: Bau-Bau City
-privacy: public
 obsidian_aliases:
   - "Lanto Cave"
   - "Goa Lanto"

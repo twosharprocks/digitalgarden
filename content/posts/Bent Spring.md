@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.483960000000025
 longitude: -82.20238999999998
-country: "USA"
-state: "Florida"
 suburb: "Hernando County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/aab5258f-1b5d-4fb0-89b2-4a10c2002219.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "17 m"
 address: "3423-3385, Riderwood Dr, Hernando County, Florida, USA, 33523"
-location-checked: "true"
 ---
 # Details
 

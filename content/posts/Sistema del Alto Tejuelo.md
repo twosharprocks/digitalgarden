@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 43.253060000000005
 longitude: -3.680790000000002
-country: "ESP"
 state: "Cantabria"
 suburb: "Cantabria"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/38b8e9c3-de99-4bb0-a60d-4c2fcc89bfe2.html"
 catalog-type: "cave"
 altitude: "885 m"
 address: "926, Diseminado Calseca, Cantabria, Cantabria, ESP, 39728"
-location-checked: "true"
 ---
 # Details
 

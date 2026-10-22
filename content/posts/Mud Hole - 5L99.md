@@ -13,16 +13,11 @@ region: "[[South Australia]]"
 related:
   - "[[Diving]]"
   - "[[Cave Entries to Write]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
-  - "[[South Australia]]"
 feature_type: "Cave"
 latitude: -37.66216874
 longitude: 140.49822758999994
-country: "AUS"
-state: "South Australia"
 suburb: "Tantanoola"
-privacy: restricted-or-unknown
 cavedb: "https://app.cavedb.net/share/6d1ba8f8-be4c-4db8-b7dd-ca1155a2c7f2.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"

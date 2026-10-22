@@ -11,21 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -33.420829999999995
 longitude: 150.23364000000004
-country: "AUS"
-state: "New South Wales"
 suburb: "Lithgow City Council"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 cavedb: "https://app.cavedb.net/share/a8d456e5-9ce6-41b0-9079-41969f6822c0.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "1002 m"
 address: "Unnamed Road, Lithgow City Council, New South Wales, AUS, 2790"
-location-checked: "true"
-location-checked-by: "Google Map"
 ---
 # About
 

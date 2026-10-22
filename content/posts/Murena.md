@@ -11,21 +11,17 @@ tags:
 feature_type: Cave
 latitude: 20.41291000000001
 longitude: -87.30489
-country: MEX
 state: Quintana Roo
 suburb: Solidaridad
-privacy: public
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
 rating: TDI Intro to Cave
 cavedb: https://app.cavedb.net/share/dd72cf24-70dd-4f1f-8d64-3a54c9477987.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
 altitude: "-1 m"
 address: "Vía Sin Nombre, Solidaridad, Quintana Roo, MEX, 77734"
-location-checked: "false"
 ---
 # Details
 

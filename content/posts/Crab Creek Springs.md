@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.71711399999998
 longitude: -82.57604500000002
-country: "USA"
-state: "Florida"
 suburb: "Citrus County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/47637ecb-8df4-4c54-a635-850339a91326.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "0 m"
 address: "8698-8600, W Lykes Trail, Citrus County, Florida, USA, 34448"
-location-checked: "true"
 ---
 # Details
 

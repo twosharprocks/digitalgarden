@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: -20.902143999999993
 longitude: -56.559691999999984
-country: "BRA"
 state: "State of Mato Grosso do Sul"
 suburb: "Bonito"
-privacy: public
 region: "[[Brazil]]"
 related:
   - "[[Diving]]"
-  - "[[Brazil]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/d537d576-9807-42f8-b37a-e5776a4330e3.html"
 catalog-type: "cave"
 altitude: "429 m"
 address: "Unnamed Road, Bonito, State of Mato Grosso do Sul, BRA, 79290-000"
-location-checked: "true"
 ---
 # Details
 

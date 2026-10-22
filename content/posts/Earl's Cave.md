@@ -11,22 +11,16 @@ tags:
 feature_type: "Sinkhole"
 latitude: -38.01463215386235
 longitude: 140.76963141560555
-country: "AUS"
-state: "South Australia"
 suburb: "The District Council of Grant"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 rating: CDAA Deep Cavern, TDI Cavern
 cavedb: "https://app.cavedb.net/share/8a52fefd-d54d-4a40-aea9-c522e8cd9892.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "9 m"
 address: "Jess Rd, The District Council of Grant, South Australia, AUS, 5291"
-location-checked: "true"
-location-checked-by: "CDAA Rated"
 ---
 # About
 

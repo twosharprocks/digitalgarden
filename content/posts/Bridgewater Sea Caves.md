@@ -11,22 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: -38.379
 longitude: 141.366
-country: "AUS"
-state: "Victoria"
 suburb: "Glenelg Shire"
-privacy: public
 obsidian_aliases:
   - "VRO site 2-5"
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/a2e751e9-02e0-4b23-860e-9abe47cc64f5.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "12 m"
 address: "Great South West Walk, Glenelg Shire, Victoria, AUS, 3305"
-location-checked: "false"
 ---
 # Details
 

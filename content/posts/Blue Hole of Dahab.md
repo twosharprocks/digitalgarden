@@ -11,18 +11,14 @@ tags:
 feature_type: "Landmark"
 latitude: 28.57229799999999
 longitude: 34.537368000000015
-country: "EGY"
 suburb: "دهب"
-privacy: public
 region: "[[Egypt]]"
 related:
   - "[[Diving]]"
-  - "[[Egypt]]"
 cavedb: "https://app.cavedb.net/share/6a53f785-9594-4aa7-98d3-4fef4f93a27d.html"
 catalog-type: "cave"
 altitude: "26 m"
 address: "دهب, EGY"
-location-checked: "false"
 ---
 # Details
 

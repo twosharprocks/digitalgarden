@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -26.016861000000006
 longitude: 27.73357999999996
-country: "ZAF"
 state: "Gauteng"
 suburb: "Mogale City"
-privacy: public
 region: "[[South Africa]]"
 related:
   - "[[Diving]]"
-  - "[[South Africa]]"
 cavedb: "https://app.cavedb.net/share/4925c1f6-b209-499a-97ee-28796bc7fde8.html"
 catalog-type: "cave"
 altitude: "1477 m"
 address: "Mogale City, Gauteng, ZAF"
-location-checked: "false"
 ---
 # Details
 

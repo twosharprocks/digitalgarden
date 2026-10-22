@@ -22,6 +22,7 @@ related:
 - [Arkansas]({{< relref "posts/arkansas.md" >}})
 - [Colorado]({{< relref "posts/Colorado.md" >}})
 - [Florida]({{< relref "posts/florida.md" >}})
+- [Georgia - United States]({{< relref "posts/Georgia - United States.md" >}})
 - [Pacific North-West]({{< relref "posts/Pacific North-West.md" >}})
 - [Tennessee]({{< relref "posts/tennessee.md" >}})
 - [Texas]({{< relref "posts/texas.md" >}})

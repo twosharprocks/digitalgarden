@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: -41.05599999999998
 longitude: 172.95939999999996
-country: "NZL"
 state: "Tasman"
 suburb: "Tasman District"
-privacy: public
 region: "[[New Zealand]]"
 related:
   - "[[Diving]]"
-  - "[[New Zealand]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/a93c698d-a01d-4e4f-a196-2d46211de734.html"
 catalog-type: "cave"
 altitude: "27 m"
 address: "280, State Hwy 60, Tasman District, Tasman, NZL, 7198"
-location-checked: "true"
 ---
 # Details
 

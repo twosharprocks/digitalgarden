@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -35.62575100000001
 longitude: 148.68230199999994
-country: "AUS"
-state: "New South Wales"
 suburb: "Cooleman"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 cavedb: "https://app.cavedb.net/share/d632e48d-0a5d-4fec-a213-af72f54b5787.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "1199 m"
 address: "Nichols Gorge Walk, Cooleman, New South Wales, AUS, 2611"
-location-checked: "false"
 ---
 # Details
 

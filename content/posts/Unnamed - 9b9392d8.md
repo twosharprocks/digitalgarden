@@ -11,20 +11,15 @@ tags:
 feature_type: "Sinkhole"
 latitude: -13.240938000000028
 longitude: 131.34922900000004
-country: "AUS"
-state: "Northern Territory"
 suburb: "Margaret River"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Northern Territory]]"
 cavedb: "https://app.cavedb.net/share/9b9392d8-ba4d-41ce-b69d-d86bd5a332e9.html"
 catalog-type: "cave"
 sub-region: "[[Northern Territory]]"
 altitude: "55 m"
 address: "Margaret River, Northern Territory, AUS, 0822"
-location-checked: "false"
 ---
 # Details
 

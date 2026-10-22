@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.052700000000016
 longitude: -82.92599999999999
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/f9f23b55-685f-45a3-9505-632d12a8b400.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "15 m"
 address: "21682, 89th Rd, Suwannee County, Florida, USA, 32071"
-location-checked: "true"
 ---
 # Details
 

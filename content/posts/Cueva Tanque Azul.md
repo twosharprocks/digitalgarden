@@ -11,10 +11,8 @@ tags:
 feature_type: "Cave"
 latitude: 21.19205509724448
 longitude: -76.25672712922098
-country: "CUB"
 state: "Holguin"
 suburb: "Gibara"
-privacy: public
 obsidian_aliases:
   - "Caverna Tanque Azul"
   - "Blue Tank Cave"
@@ -22,13 +20,11 @@ obsidian_aliases:
 region: "[[Cuba]]"
 related:
   - "[[Diving]]"
-  - "[[Cuba]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/a5937898-434c-47d4-a78e-62fdb4243e72.html"
 catalog-type: "cave"
 altitude: "8 m"
 address: "Gibara, Holguin, CUB"
-location-checked: "false"
 ---
 # Details
 

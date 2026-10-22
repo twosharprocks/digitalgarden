@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -18.114499999999992
 longitude: -65.8116
-country: "BOL"
 state: "Potosi Department"
 suburb: "Charcas"
-privacy: public
 region: "[[Bolivia]]"
 related:
   - "[[Diving]]"
-  - "[[Bolivia]]"
 cavedb: "https://app.cavedb.net/share/92faa580-1457-49bb-bf29-59b979452cd5.html"
 catalog-type: "cave"
 altitude: "2824 m"
 address: "Vía Sin Nombre, Charcas, Potosi Department, BOL"
-location-checked: "true"
 ---
 # Details
 

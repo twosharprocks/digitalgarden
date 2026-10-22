@@ -11,20 +11,16 @@ tags:
 feature_type: "Mine"
 latitude: 52.932349999999985
 longitude: -3.2080100000000584
-country: "GBR"
 state: "Wales"
 suburb: "Llangollen"
-privacy: public
 region: "[[United Kingdom]]"
 related:
   - "[[Diving]]"
-  - "[[United Kingdom]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/9e04d4ed-882d-4ce6-a3cc-cc9b08cd28ec.html"
 catalog-type: "cave"
 altitude: "325 m"
 address: "Ffordd Y Chwarel, Llangollen, Wales, GBR, LL20 7"
-location-checked: "false"
 ---
 # About
 

@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 42.73577999999998
 longitude: -3.795961000000034
-country: "ESP"
 state: "Castile and León"
 suburb: "Burgos"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/5ec71750-c891-4983-967c-19362a608502.html"
 catalog-type: "cave"
 altitude: "710 m"
 address: "5, Vía Sin Nombre, Burgos, Castile and León, ESP, 09143"
-location-checked: "false"
 ---
 # Details
 

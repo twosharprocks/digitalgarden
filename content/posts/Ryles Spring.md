@@ -11,17 +11,13 @@ tags:
 feature_type: "Cave"
 latitude: 28.686919999999986
 longitude: -82.61416600000001
-country: "USA"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[United States]]"
 cavedb: "https://app.cavedb.net/share/b5f00638-ddd9-4ef4-87de-a7f716fca301.html"
 catalog-type: "cave"
 altitude: "1 m"
 address: "USA"
-location-checked: "true"
 ---
 # Details
 

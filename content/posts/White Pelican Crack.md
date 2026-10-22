@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.799939999999992
 longitude: -82.73968400000001
-country: "USA"
-state: "Florida"
 suburb: "Citrus County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/1de7c011-70ac-4c3c-af8f-3af003d222e7.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "0 m"
 address: "Citrus County, Florida, USA"
-location-checked: "true"
 ---
 # Details
 

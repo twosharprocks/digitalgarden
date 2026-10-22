@@ -2,6 +2,7 @@ import os
 import re
 import sys
 import shutil
+import subprocess
 from pathlib import Path
 from urllib.parse import unquote, quote
 from collections import Counter
@@ -396,8 +397,18 @@ if missing:
         print(f"  - {f.name}: {t}")
 
 print("\nNotes:")
-print("• Set OVERWRITE_EXISTING=True if you want to refresh files in /static/images.")
+print("• Website image copies are optimized separately; vault originals stay unchanged.")
 print("• Alt text now auto-generates from filenames when none is provided.")
+
+if not DRY_RUN:
+    optimizer_python = sys.executable
+    probe = subprocess.run([optimizer_python, '-c', 'import PIL'], capture_output=True)
+    if probe.returncode:
+        bundled_python = Path.home() / '.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'
+        if not bundled_python.exists():
+            raise SystemExit('Pillow is required for website image previews. Install requirements.txt for this Python runtime.')
+        optimizer_python = str(bundled_python)
+    subprocess.run([optimizer_python, str(script_dir / 'web_images.py'), str(static_images_dir), str(attachments_dir), str(posts_dir)], check=True)
 
 # If user asked for images-only, stop here
 if mode == "--images-only":

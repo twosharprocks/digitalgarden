@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 46.552411000000006
 longitude: 8.80191400000001
-country: "CHE"
 state: "Ticino"
 suburb: "Blenio"
-privacy: public
 region: "[[Switzerland]]"
 related:
   - "[[Diving]]"
-  - "[[Switzerland]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/1512dd03-6db5-478a-a9eb-412a8d892211.html"
 catalog-type: "cave"
 altitude: "1850 m"
 address: "416, Blenio, Ticino, CHE, 6718"
-location-checked: "false"
 ---
 # Details
 

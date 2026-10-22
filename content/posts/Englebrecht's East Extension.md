@@ -11,24 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: -37.821721
 longitude: 140.77322600000002
-country: "AUS"
-state: "South Australia"
 suburb: "City of Mount Gambier"
-privacy: public
 obsidian_aliases:
   - "Wonderland"
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 cavedb: "https://app.cavedb.net/share/17f304d3-24db-47e0-afc0-cc716088119a.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "51 m"
 address: "29-35, Victoria Terrace, City of Mount Gambier, South Australia, AUS, 5290"
-location-checked: "true"
-location-checked-by: "CDAA Rated"
 ---
 # Details
 

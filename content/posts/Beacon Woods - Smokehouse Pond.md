@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.347767999999974
 longitude: -82.689122
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/94a428ea-cb2b-4fba-8006-05e366cb5f24.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "0 m"
 address: "7520, Fairlawn Dr, Pasco County, Florida, USA, 34667"
-location-checked: "true"
 ---
 # Details
 

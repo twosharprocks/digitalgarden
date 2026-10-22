@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.517754999999966
 longitude: -82.52912000000003
-country: "USA"
-state: "Florida"
 suburb: "Hernando County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/32b90190-1ca2-4f7f-85ae-8f2de216d027.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "8 m"
 address: "5642, Roble Ave, Hernando County, Florida, USA, 34608"
-location-checked: "true"
 ---
 # Details
 

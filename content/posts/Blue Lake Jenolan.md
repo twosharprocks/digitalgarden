@@ -11,20 +11,15 @@ tags:
 feature_type: "Sinkhole"
 latitude: -33.81960599999999
 longitude: 150.025306
-country: "AUS"
-state: "New South Wales"
 suburb: "Jenolan"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 cavedb: "https://app.cavedb.net/share/730a5742-551b-41f6-93c0-4d7774f5b3df.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "777 m"
 address: "4555, [[Jenolan Caves]] Rd, Jenolan, New South Wales, AUS, 2790"
-location-checked: "false"
 ---
 # Details
 

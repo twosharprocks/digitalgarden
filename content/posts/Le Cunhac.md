@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 44.48611
 longitude: 1.9125000000000227
-country: "FRA"
 state: "Occitanie"
 suburb: "Lot"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/60666535-147b-46e5-b6bb-b6a902b8dad4.html"
 catalog-type: "cave"
 altitude: "157 m"
 address: "526, La Barasquie, Lot, Occitanie, FRA, 46160"
-location-checked: "true"
 ---
 # Details
 

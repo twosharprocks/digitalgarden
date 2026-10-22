@@ -11,23 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 29.980041282561558
 longitude: -82.75849968194956
-country: "USA"
-state: "Florida"
 suburb: "Columbia County"
-privacy: public
 obsidian_aliases:
   - "Jug Spring"
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/5d1d55cc-9320-4de5-9e3d-f6a6e7c5a759.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "7 m"
 address: "[[Blue Hole]] Spring Trail, Columbia County, Florida, USA, 32038"
-location-checked: "false"
 ---
 # Details
 

@@ -11,14 +11,11 @@ tags:
 feature_type: "Cave"
 latitude: 39.44565299999999
 longitude: -8.712158000000045
-country: "PRT"
 state: "Santarém District"
 suburb: "Alcanena"
-privacy: public
 region: "[[Portugal]]"
 related:
   - "[[Diving]]"
-  - "[[Portugal]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
   - "[[Trip - Portugal 2026 Oct]]"
 rating: TDI Intro to Cave
@@ -26,7 +23,6 @@ cavedb: "https://app.cavedb.net/share/3eef770d-a38e-49c0-8796-85ef962fd52e.html"
 catalog-type: "cave"
 altitude: "76 m"
 address: "CM1442, Alcanena, Santarém District, PRT, 2380"
-location-checked: "false"
 ---
 # Details
 

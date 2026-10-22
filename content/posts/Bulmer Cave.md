@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -41.5583
 longitude: 172.51880000000006
-country: "NZL"
 state: "Tasman"
 suburb: "Kahurangi National Park"
-privacy: public
 region: "[[New Zealand]]"
 related:
   - "[[Diving]]"
-  - "[[New Zealand]]"
 cavedb: "https://app.cavedb.net/share/3d95900f-5d3f-409b-a94c-9bd1fc1e1431.html"
 catalog-type: "cave"
 altitude: "1465 m"
 address: "Kahurangi National Park, Tasman, NZL"
-location-checked: "true"
 ---
 # About
 

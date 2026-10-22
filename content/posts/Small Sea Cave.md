@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 39.09606500000001
 longitude: 8.272963000000004
-country: "ITA"
 state: "Sardegna"
 suburb: "Carloforte"
-privacy: public
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/3c382544-a910-4581-bef7-80c5ca083db1.html"
 catalog-type: "cave"
 altitude: "6 m"
 address: "Località La Conca, Carloforte, Sardegna, ITA, 09014"
-location-checked: "false"
 ---
 # About
 

@@ -11,23 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 57.182109999999966
 longitude: 56.88647000000003
-country: "RUS"
 state: "Perm Krai"
 suburb: "Ordinskiy Rayon"
-privacy: public
 obsidian_aliases:
   - "Ординская Пещера"
 region: "[[Russia]]"
 related:
   - "[[Diving]]"
-  - "[[Russia]]"
 rating: TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/805bcf8d-5528-4ed9-99c2-8a25ca9a4a75.html"
 catalog-type: "cave"
 altitude: "164 m"
 address: "Neizvestnaya Doroga, Ordinskiy Rayon, Perm Krai, RUS, 617500"
-location-checked: "true"
-location-checked-by: "BC"
 ---
 # About
 

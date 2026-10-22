@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 39.428169000000025
 longitude: 3.262788999999998
-country: "ESP"
 state: "Balearic Islands"
 suburb: "Balearic Islands"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/5f4620a9-0443-4bc5-9636-87320f71cf51.html"
 catalog-type: "cave"
 altitude: "10 m"
 address: "77, Carrer de Mossèn Tauler, Balearic Islands, Balearic Islands, ESP, 07670"
-location-checked: "false"
 ---
 # About
 

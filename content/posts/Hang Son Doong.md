@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 17.546929999999975
 longitude: 106.144
-country: "VNM"
 suburb: "Huyện Bố Trạch"
-privacy: public
 region: "[[Vietnam]]"
 related:
   - "[[Diving]]"
-  - "[[Vietnam]]"
 cavedb: "https://app.cavedb.net/share/6698dbcb-0d9f-4c23-8914-4b47f7419d47.html"
 catalog-type: "cave"
 altitude: "590 m"
 address: "Huyện Bố Trạch, VNM"
-location-checked: "false"
 ---
 # About
 

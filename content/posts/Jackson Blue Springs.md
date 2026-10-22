@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.790340904182642
 longitude: -85.14013767242426
-country: "USA"
-state: "Florida"
 suburb: "Jackson County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/63289b14-651c-4690-ac89-0ffe8ff2a6fc.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "23 m"
 address: "5160, Marble Ct, Jackson County, Florida, USA, 32446"
-location-checked: "false"
 ---
 # Details
 

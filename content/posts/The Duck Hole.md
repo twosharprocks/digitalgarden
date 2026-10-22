@@ -11,21 +11,15 @@ tags:
 feature_type: "Depression"
 latitude: -37.81494439309873
 longitude: 140.4236626625061
-country: "AUS"
-state: "South Australia"
 suburb: "German Flat"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 cavedb: "https://app.cavedb.net/share/cfe7a061-f2bb-42d9-90c5-102683446b22.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "15 m"
 address: "73, Duck Hole Flat Rd, German Flat, South Australia, AUS, 5280"
-location-checked: "true"
-location-checked-by: "MW"
 ---
 # About
 

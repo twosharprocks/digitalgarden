@@ -11,19 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 34.665067
 longitude: -85.363863
-country: "USA"
 state: "Georgia"
 suburb: "Walker County"
-privacy: public
-region: "[[Georgia]]"
+region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Georgia]]"
 cavedb: "https://app.cavedb.net/share/5fa04746-3dc8-457b-b22f-e187d496de26.html"
 catalog-type: "cave"
 altitude: "302 m"
 address: "1096, Rocky Ct, Walker County, Georgia, USA, 30707"
-location-checked: "false"
+sub-region: "[[Georgia - United States]]"
 ---
 # Details
 

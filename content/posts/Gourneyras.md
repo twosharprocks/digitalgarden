@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 43.864934000000005
 longitude: 3.5216159999999945
-country: "FRA"
 state: "Occitanie"
 suburb: "Saint-Maurice-Navacelles"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/63476a31-924e-4ad0-aeae-19202b8aab40.html"
 catalog-type: "cave"
 altitude: "289 m"
 address: "Lieu-dit Mas du Pont, Saint-Maurice-Navacelles, Occitanie, FRA, 34520"
-location-checked: "false"
 ---
 # Details
 

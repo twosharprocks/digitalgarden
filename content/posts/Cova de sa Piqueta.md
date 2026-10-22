@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 39.507555000000025
 longitude: 3.294710000000009
-country: "ESP"
 state: "Balearic Islands"
 suburb: "Balearic Islands"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/1b459010-c2f9-4d69-98e2-b0238c465c14.html"
 catalog-type: "cave"
 altitude: "33 m"
 address: "214, Carrer les Dàlies, Balearic Islands, Balearic Islands, ESP, 07680"
-location-checked: "false"
 ---
 # Details
 

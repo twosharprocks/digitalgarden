@@ -11,27 +11,22 @@ tags:
 feature_type: "Sinkhole"
 latitude: -37.30978999999999
 longitude: 146.25904400000002
-country: "AUS"
-state: "Victoria"
 suburb: "Mount Buller"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/d503d1a1-71dd-461c-85c8-1e4a2cceb6c8.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "364 m"
 address: "Ferguson Trak, Mount Buller, Victoria, AUS, 3723"
-location-checked: "false"
 ---
 # Details
 
 ## Identification
 
 - **Feature type:** Sinkhole
-- **System name:** Jamieson River
+- **System name:** [Jamieson River]({{< relref "posts/Jamieson River.md" >}})
 - **Source:** Facebook
 
 ## Cave and exploration data

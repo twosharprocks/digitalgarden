@@ -11,20 +11,16 @@ tags:
 feature_type: "Sinkhole"
 latitude: 42.039356999999995
 longitude: 12.680425000000014
-country: "ITA"
 state: "Lazio"
 suburb: "Metropolitan City of Rome Capital"
-privacy: public
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/1bbc6d24-b010-4347-bd21-0e3ded906203.html"
 catalog-type: "cave"
 altitude: "140 m"
 address: "3, Via Ludovico Ariosto, Metropolitan City of Rome Capital, Lazio, ITA, 00010"
-location-checked: "false"
 ---
 # Details
 

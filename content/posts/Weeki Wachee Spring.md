@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.517016000000012
 longitude: -82.57336499999997
-country: "USA"
-state: "Florida"
 suburb: "Hernando County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/94c95049-ad7c-4fb2-b0ec-df3504f32e6c.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "4 m"
 address: "6183, US-19, Hernando County, Florida, USA, 34606"
-location-checked: "true"
 ---
 # Details
 

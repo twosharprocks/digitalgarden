@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.090840000000014
 longitude: -82.34796
-country: "USA"
-state: "Florida"
 suburb: "Hillsborough County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/9c19c0e9-a722-4c06-be3e-eb78e34619ab.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "7 m"
 address: "7519, Yardley Way, Hillsborough County, Florida, USA, 33592"
-location-checked: "true"
 ---
 # Details
 

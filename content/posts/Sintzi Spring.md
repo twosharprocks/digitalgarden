@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 37.76168054078943
 longitude: 22.341242730617523
-country: "GRC"
 state: "Decentralized Administration of Peloponnese, Western Greece and the Ionian"
 suburb: "Peloponnese Region"
-privacy: public
 region: "[[Greece]]"
 related:
   - "[[Diving]]"
-  - "[[Greece]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/cbd6e4b6-e0f4-435f-8d94-e97c5ef7b53d.html"
 catalog-type: "cave"
 altitude: "638 m"
 address: "Odos Hvris Onomasia, Peloponnese Region, Decentralized Administration of Peloponnese, Western Greece and the Ionian, GRC, 220 02"
-location-checked: "false"
 ---
 # Details
 

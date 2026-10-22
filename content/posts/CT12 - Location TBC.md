@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 37.545915000000036
 longitude: -1.1718200000000252
-country: "ESP"
 state: "Región de Murcia"
 suburb: "Cartagena"
-privacy: public
 obsidian_aliases:
   - "The Horseshoe"
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/13341822-38de-42d1-9a74-08875551d1f8.html"
 catalog-type: "cave"
 altitude: "26 m"
 address: "Cartagena, Región de Murcia, ESP, 30868"
-location-checked: "false"
 ---
 # About
 

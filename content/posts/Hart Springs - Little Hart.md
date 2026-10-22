@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.67574000000002
 longitude: -82.95170000000002
-country: "USA"
-state: "Florida"
 suburb: "Gilchrist County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/c021c8ec-a277-4352-a5cc-c7bee1a4a2b5.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "3 m"
 address: "4321, SW 90th Ave, Gilchrist County, Florida, USA, 32619"
-location-checked: "true"
 ---
 # Details
 

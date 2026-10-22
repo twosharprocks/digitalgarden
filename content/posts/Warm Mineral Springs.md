@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 27.05947900000001
 longitude: -82.26047
-country: "USA"
-state: "Florida"
 suburb: "Sarasota County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/5d826ab7-ca95-437c-b8c3-3e1a00023386.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "2 m"
 address: "12263-12295, San Servando Ave, Sarasota County, Florida, USA, 34287"
-location-checked: "true"
 ---
 # Details
 

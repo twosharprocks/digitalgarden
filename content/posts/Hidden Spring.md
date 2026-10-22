@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.102603850000037
 longitude: -83.11399934000002
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/9841b481-5b4e-4395-8b88-0199a7aae82b.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "7 m"
 address: "311, Trestle Dr NE, Suwannee County, Florida, USA, 32060"
-location-checked: "true"
 ---
 # Details
 

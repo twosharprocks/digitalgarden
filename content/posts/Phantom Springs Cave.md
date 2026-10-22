@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.934978
 longitude: -103.84973200000002
-country: "USA"
-state: "Texas"
 suburb: "Jeff Davis County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Texas]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/0847edc0-4bf5-4726-acc2-92a4356edb26.html"
 catalog-type: "cave"
 sub-region: "[[Texas]]"
 altitude: "1066 m"
 address: "Unnamed Road, Jeff Davis County, Texas, USA, 79734"
-location-checked: "true"
 ---
 # Details
 

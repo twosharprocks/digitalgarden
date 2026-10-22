@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.53660000000002
 longitude: -85.16649999999998
-country: "USA"
-state: "Florida"
 suburb: "Calhoun County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/47a5cb8c-164b-4941-95a7-fab24616aa35.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "14 m"
 address: "11849, Co Rd 274, Calhoun County, Florida, USA, 32421"
-location-checked: "true"
 ---
 # Details
 

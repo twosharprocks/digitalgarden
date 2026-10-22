@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.419965999999988
 longitude: -83.20724000000001
-country: "USA"
-state: "Florida"
 suburb: "Hamilton County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/20d1d836-9f53-4826-973d-fe82e975a3a0.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "15 m"
 address: "899-227, NE Madison Bluffs Way, Hamilton County, Florida, USA, 32052"
-location-checked: "true"
 ---
 # Details
 

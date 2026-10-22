@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.344299999999976
 longitude: -82.687367
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/f3a87ecc-3ff0-45b4-a3e6-fbdbe574833e.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "5 m"
 address: "12901-12801, Teakwood Ln, Pasco County, Florida, USA, 34667"
-location-checked: "true"
 ---
 # Details
 

@@ -12,15 +12,10 @@ tags:
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Mount Gambier - Lower South East]]"
-  - "[[South Australia]]"
 feature_type: "Cave"
 latitude: -37.95359709000002
 longitude: 140.83935930000007
-country: "AUS"
-state: "South Australia"
 suburb: "Caveton"
-privacy: restricted-or-unknown
 cavedb: "https://app.cavedb.net/share/a49bb2e5-1ddf-4a51-b92d-e527dcffe023.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
@@ -63,9 +58,9 @@ The prospects of further extensions being discovered are now considered to be re
 - CaveDB - 5L179 - Caveton Park Estate Cave (Initial Report) - afbf869e-a49bb2e5.pdf — [Source](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/a893116d-e798-4239-a679-8779bf664d19.pdf)
 
 - **LSECR:** Page 348
-This beautiful and relatively unpolluted sinkhole is a large open collapse somewhat akin to SL40 (Hells Hole) and SL10 (Caroline Sinkhole) in appearance, although considerably smaller. It is about 30 x 25 metres in diameter and drops some 23 metres to water level, and it has sheer, rugged sides and large shelves of soft, sandy dune limestone which break away extremely easily.
+This beautiful and relatively unpolluted sinkhole is a large open collapse somewhat akin to SL40 (Hells Hole) and SL10 ([Caroline Sinkhole]({{< relref "posts/Caroline Sinkhole.md" >}})) in appearance, although considerably smaller. It is about 30 x 25 metres in diameter and drops some 23 metres to water level, and it has sheer, rugged sides and large shelves of soft, sandy dune limestone which break away extremely easily.
 The cave was first recorded in CEGSA's Records in December 1962 by Phil Connard, and subsequent visits by this writer and his companions during the early 1980s revealed that its underwater extent is very minor (almost no penetration under the ceiling and just 10 metres deep). However, it is very interesting from an ecological viewpoint as it contains fragile and rare sponges and aquatic (and terrestrial) plants, and undoubtedly harbours cave crustacea as well, so it needs to be protected as much as possible.
-Bottlebrush Sinkhole was originally named after the numerous native Banksia trees which were found around the sinkhole, when they were erroneously identified as being Bottlebrushes.
+[Bottlebrush Sinkhole]({{< relref "posts/Bottlebrush Sinkhole.md" >}}) was originally named after the numerous native Banksia trees which were found around the sinkhole, when they were erroneously identified as being Bottlebrushes.
 
 - [CaveDB record](https://app.cavedb.net/share/715202ea-1cdd-4dab-b4eb-3afb793fca60.html)
 

@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 39.91300000000001
 longitude: 3.022179999999935
-country: "ESP"
 state: "Illes Balears"
 suburb: "Pollença"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/ae37be91-11f0-4d9d-9766-6a3154dc1824.html"
 catalog-type: "cave"
 altitude: "317 m"
 address: "Pollença, Illes Balears, ESP, 07460"
-location-checked: "false"
 ---
 # Details
 

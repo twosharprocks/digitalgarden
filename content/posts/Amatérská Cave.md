@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 49.378599699999995
 longitude: 16.728435799999943
-country: "CZE"
 state: "South Moravian Region"
 suburb: "Blansko District"
-privacy: public
 region: "[[Czechia]]"
 related:
   - "[[Diving]]"
-  - "[[Czechia]]"
 cavedb: "https://app.cavedb.net/share/1b63462e-5af6-47d0-8f32-a5acccdc8fbf.html"
 catalog-type: "cave"
 altitude: "438 m"
 address: "Silnice Bez Názvu, Blansko District, South Moravian Region, CZE, 679 13"
-location-checked: "true"
 ---
 # Details
 

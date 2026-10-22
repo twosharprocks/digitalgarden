@@ -12,15 +12,11 @@ region: "[[South Australia]]"
 related:
   - "[[Diving]]"
   - "[[Cave Entries to Write]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
 feature_type: "Sinkhole"
 latitude: -37.892634999999984
 longitude: 140.63347399999998
-country: "AUS"
-state: "South Australia"
 suburb: "Mount Schank"
-privacy: restricted-or-unknown
 obsidian_aliases:
   - "Devil's Punchbowl"
   - "Miniature Blue Lake"

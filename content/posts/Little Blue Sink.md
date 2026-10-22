@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.076939659999994
 longitude: -82.33202813000003
-country: "USA"
-state: "Florida"
 suburb: "Hillsborough County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/6c224ebb-0951-43f1-abca-4530c45e73d2.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "7 m"
 address: "12420-12400, Eloian Dr, Hillsborough County, Florida, USA, 33592"
-location-checked: "true"
 ---
 # Details
 

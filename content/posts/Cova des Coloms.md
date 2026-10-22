@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 39.93288899999999
 longitude: 4.038936000000035
-country: "ESP"
 state: "Illes Balears"
 suburb: "Es Migjorn Gran"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/9f3c74ad-19f2-491a-bc25-3a044c1d353a.html"
 catalog-type: "cave"
 altitude: "77 m"
 address: "Es Migjorn Gran, Illes Balears, ESP, 07749"
-location-checked: "false"
 ---
 # Details
 

@@ -10,20 +10,15 @@ tags:
   - south-australia
 latitude: -37.894469000000015
 longitude: 140.601724
-country: "AUS"
-state: "South Australia"
 suburb: "The District Council of Grant"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 cavedb: "https://app.cavedb.net/share/ff233577-e9c1-4966-9abc-53b0ea0b6361.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "17 m"
 address: "372, Atkin Rd, The District Council of Grant, South Australia, AUS, 5291"
-location-checked: "false"
 ---
 # About
 

@@ -14,17 +14,13 @@ related:
   - "[[Explorer-Storyteller]]"
   - "[[Planning - Nullarbor]]"
   - "[[Roe Plains]]"
-  - "[[Nullarbor High Plains]]"
   - "[[Trip - Olwolgin - 2025 June]]"
   - "[[Filming - Documentary on Nullarbor]]"
 rating: CDAA Cave, TDI Intro to Cave
 feature_type: "Cave"
 latitude: -31.653810640131354
 longitude: 128.77509713172913
-country: "AUS"
-state: "Western Australia"
 suburb: "Shire of Dundas"
-privacy: public
 cavedb: "https://app.cavedb.net/share/47e1d564-63a0-4a2b-937d-7c8d1a778b3a.html"
 catalog-type: "cave"
 sub-region: "[[Nullarbor High Plains]]"

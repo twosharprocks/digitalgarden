@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 37.86486000000002
 longitude: 23.80943000000002
-country: "GRC"
 state: "Αττική"
 suburb: "Κρωπία"
-privacy: public
 region: "[[Greece]]"
 related:
   - "[[Diving]]"
-  - "[[Greece]]"
 cavedb: "https://app.cavedb.net/share/418a6f89-47c7-4999-a8c9-f8dcc313be05.html"
 catalog-type: "cave"
 altitude: "290 m"
 address: "Κρωπία, Αττική, GRC, 194 00"
-location-checked: "false"
 ---
 # Details
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.53057000000001
 longitude: -82.62329999999997
-country: "USA"
-state: "Florida"
 suburb: "Hernando County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/f7ed5814-d4f7-451d-b12c-61eebca15401.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "1 m"
 address: "5472-5598, Darlene St, Hernando County, Florida, USA, 34607"
-location-checked: "true"
 ---
 # Details
 

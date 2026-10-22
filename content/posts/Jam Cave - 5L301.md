@@ -12,16 +12,12 @@ region: "[[South Australia]]"
 related:
   - "[[Diving]]"
   - "[[Photogrammetry - Processing]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[Mt Gambier - PROTECTED]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 feature_type: "Cave"
 latitude: -37.78198201999999
 longitude: 140.55924157999993
-country: "AUS"
-state: "South Australia"
 suburb: "The District Council of Grant"
-privacy: restricted-or-unknown
 obsidian_aliases:
   - "Jam Cave"
 cavedb: "https://app.cavedb.net/share/17b92fe0-324a-4cfc-92e7-1921f5ecc0ea.html"

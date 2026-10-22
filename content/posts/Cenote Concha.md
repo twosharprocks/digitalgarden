@@ -11,20 +11,16 @@ tags:
 feature_type: Sinkhole
 latitude: 20.319234999999992
 longitude: -87.42730799999998
-country: MEX
 state: Quintana Roo
 suburb: Tulum
-privacy: public
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
 cavedb: https://app.cavedb.net/share/49407297-de50-4b39-a820-8c15b3423d0c.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
 altitude: "15 m"
 address: "Tulum, Quintana Roo, MEX, 77760"
-location-checked: "false"
 ---
 # Details
 

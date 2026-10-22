@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 35.33321999999998
 longitude: 25.04717000000005
-country: "GRC"
 state: "Κρήτη"
 suburb: "Γάζι"
-privacy: public
 region: "[[Greece]]"
 related:
   - "[[Diving]]"
-  - "[[Greece]]"
 cavedb: "https://app.cavedb.net/share/d4b8dd48-4460-4089-96d8-08995d6026f6.html"
 catalog-type: "cave"
 altitude: "14 m"
 address: "Βουρεξάκη Ευμ., Γάζι, Κρήτη, GRC, 715 00"
-location-checked: "false"
 ---
 # About
 

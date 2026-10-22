@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.10624899999999
 longitude: -82.773281
-country: "USA"
-state: "Florida"
 suburb: "Pinellas County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/11d18280-d36f-4e7d-8bf2-95438e925109.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "2 m"
 address: "3725, Desoto Blvd, Pinellas County, Florida, USA, 34683"
-location-checked: "true"
 ---
 # Details
 

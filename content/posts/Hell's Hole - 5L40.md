@@ -11,16 +11,12 @@ tags:
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
 rating: CDAA Deep Cavern, TDI Cavern
 feature_type: "Sinkhole"
 latitude: -37.95224754705794
 longitude: 140.8566677570343
-country: "AUS"
-state: "South Australia"
 suburb: "The District Council of Grant"
-privacy: public
 obsidian_aliases:
   - "Hell Hole"
 cavedb: "https://app.cavedb.net/share/d7dae2ec-314c-4189-8545-ec29b3f4de81.html"
@@ -80,7 +76,7 @@ ForestrySA
 Hells Hole is one of the most aptly-named, visually-impressive karst features in the entire South East. Hidden in a small patch of protected native scrub in a recently-replanted pine forest in hilly dune limestone country, this spectacular "cenote"-style sinkhole is 45 metres or so in diameter, and its 30-metre drop to the water often causes unsuspecting visitors to gasp in surprise when they approach its sheer edge!
 The top portion of the rim is undercut and very sandy, and it overlies much harder, whiter limestone in which numerous small scallop-like erosion cavities have formed. One area is particularly useful for divers requiring access, as they can walk down to a sheltered alcove and step onto a ladder belayed from above if such is desired. Although it is not too apparent from the top of the feature, the walls gradually "bell out", continuing to do so more obviously once the water has been reached.
 The talus mound lies at a depth of just 5 metres immediately below the entrance area, where numerous trees and branches lie tangled together (often under thick masses of duckweed which can cover the lake). There was also a dumped 1963 EJ Holden in this area until around early 1983, when five members of the South East Scuba Divers club arranged for its removal ("The Border Watch", 17 Feb 1983). The feature deepens both to the north and south to a maximum depth of around 26 metres, but no signif icant passages have been reported in recent years.
-The sinkhole has long been known in the area, and local legend has it that it was discovered by two people who chanced upon it in the dark with a horse and trap. Bob Sexton placed it in CEGSA's Records in June 1961, when the "discovery" story was mentioned as well as the fact that Hells Hole had incorrectly been called Caroline Sinkhole (and vice versa).
+The sinkhole has long been known in the area, and local legend has it that it was discovered by two people who chanced upon it in the dark with a horse and trap. Bob Sexton placed it in CEGSA's Records in June 1961, when the "discovery" story was mentioned as well as the fact that Hells Hole had incorrectly been called [Caroline Sinkhole]({{< relref "posts/Caroline Sinkhole.md" >}}) (and vice versa).
 Although no fish or other large forms of life were observed by the author in 1980, a single specimen of the crustaceans which were to be later identified as rare syn- carids (Koonunga crenarum) was sighted near the entrance.
 - **Forestry SA:** L0040, Thin Roof: N, Fence: R. Dimensions: 45m x 30m deep. Features: Rare crustaceans, gating to stop vehicle access (dumping)
 - **www.cavediving.net.au:** https://www.cavediving.net.au/images/articles/maps/5L-40.gif

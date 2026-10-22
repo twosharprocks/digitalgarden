@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 29.69266600000003
 longitude: -82.60884900000002
-country: "USA"
-state: "Florida"
 suburb: "Newberry"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 cavedb: "https://app.cavedb.net/share/403eef17-a226-4adc-b809-8970519210e8.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "11 m"
 address: "4066, NW State Road 45, Newberry, Florida, USA, 32669-2577"
-location-checked: "false"
 ---
 # Details
 

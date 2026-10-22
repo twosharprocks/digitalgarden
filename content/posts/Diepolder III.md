@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.522171000000014
 longitude: -82.52896399999997
-country: "USA"
-state: "Florida"
 suburb: "Hernando County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/991290c9-51a8-4b3c-b20f-a554793c2df2.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "7 m"
 address: "12081-12071, Katherwood St, Hernando County, Florida, USA, 34608"
-location-checked: "true"
 ---
 # Details
 

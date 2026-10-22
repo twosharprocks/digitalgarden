@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: -1.0930999999999926
 longitude: 131.79474400000004
-country: "IDN"
 suburb: "Sorong"
-privacy: public
 region: "[[Indonesia]]"
 related:
   - "[[Diving]]"
-  - "[[Indonesia]]"
 cavedb: "https://app.cavedb.net/share/f6b4b3e9-fe50-4f4f-ae79-a6c2e7354bad.html"
 catalog-type: "cave"
 altitude: "120 m"
 address: "Sorong, IDN, 23777"
-location-checked: "false"
 ---
 # About
 

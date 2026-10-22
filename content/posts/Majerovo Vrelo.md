@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 44.81472200000002
 longitude: 15.358888999999976
-country: "HRV"
 suburb: "Otočac"
-privacy: public
 region: "[[Croatia]]"
 related:
   - "[[Diving]]"
-  - "[[Croatia]]"
 cavedb: "https://app.cavedb.net/share/c7d04160-3822-4822-8068-e8533706d614.html"
 catalog-type: "cave"
 altitude: "462 m"
 address: "120, Sinac, Otočac, HRV, 53220"
-location-checked: "false"
 ---
 # Details
 

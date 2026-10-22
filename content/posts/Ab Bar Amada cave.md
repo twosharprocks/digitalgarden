@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 35.24580000000003
 longitude: 69.18000000000006
-country: "AFG"
 state: "Parwan"
 suburb: "Khinjan"
-privacy: public
 region: "[[Afghanistan]]"
 related:
   - "[[Diving]]"
-  - "[[Afghanistan]]"
 cavedb: "https://app.cavedb.net/share/ad88fc6e-c917-4ead-85ef-63eb4c9d3806.html"
 catalog-type: "cave"
 altitude: "2490 m"
 address: "AH76, Khinjan, Parwan, AFG"
-location-checked: "true"
 ---
 # Details
 

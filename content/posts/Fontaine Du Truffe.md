@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 44.82443999999998
 longitude: 1.5505600000000186
-country: "FRA"
 state: "Occitanie"
 suburb: "Calès"
-privacy: public
 obsidian_aliases:
   - "Font del Truffe"
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/21c811e2-08bc-4177-b81c-51799e3d4cc5.html"
 catalog-type: "cave"
 altitude: "145 m"
 address: "Lieu-dit le moulin de la Treille, Calès, Occitanie, FRA, 46350"
-location-checked: "true"
 ---
 # Details
 

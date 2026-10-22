@@ -32,6 +32,7 @@ related:
 - [Cueva Tanques Azul]({{< relref "posts/Cueva Tanques Azul.md" >}})
 - [El Brinco Cave]({{< relref "posts/El Brinco Cave.md" >}})
 - [Hunter's Cenote]({{< relref "posts/Hunter's Cenote.md" >}})
+- [Lila Cave]({{< relref "posts/Lila Cave.md" >}})
 - [Poza de los Patos]({{< relref "posts/Poza de los Patos.md" >}})
 - [Poza de Manzanillo]({{< relref "posts/Poza de Manzanillo.md" >}})
 - [Poza Negra]({{< relref "posts/Poza Negra.md" >}})

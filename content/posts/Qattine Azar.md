@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 33.89280400000001
 longitude: 35.79469100000006
-country: "LBN"
 state: "جبل لبنان"
 suburb: "عينطورة"
-privacy: public
 region: "[[Lebanon]]"
 related:
   - "[[Diving]]"
-  - "[[Lebanon]]"
 cavedb: "https://app.cavedb.net/share/eeeeb234-e72f-4534-a49e-f73e16c5087f.html"
 catalog-type: "cave"
 altitude: "1411 m"
 address: "طريق مجدل ترشيش عينطوره, عينطورة, جبل لبنان, LBN"
-location-checked: "false"
 ---
 # Details
 

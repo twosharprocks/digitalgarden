@@ -11,21 +11,15 @@ tags:
 feature_type: "Depression"
 latitude: -37.611221
 longitude: 140.479019
-country: "AUS"
-state: "South Australia"
 suburb: "Tantanoola"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 cavedb: "https://app.cavedb.net/share/8ea65ce8-1b51-4115-ac2c-d9e04581e542.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "86 m"
 address: "Rock Shelter Trak, Tantanoola, South Australia, AUS, 5280"
-location-checked: "true"
-location-checked-by: "BC"
 ---
 # About
 

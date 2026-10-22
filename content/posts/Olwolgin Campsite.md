@@ -11,20 +11,15 @@ tags:
 feature_type: "Campsite"
 latitude: -32.07842299999999
 longitude: 126.534088
-country: "AUS"
-state: "Western Australia"
 suburb: "Madura"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 cavedb: "https://app.cavedb.net/share/bc0e912a-76f3-4846-89f0-d616acdc64d8.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "13 m"
 address: "Madura, Western Australia, AUS, 6443"
-location-checked: "true"
 ---
 # Details
 

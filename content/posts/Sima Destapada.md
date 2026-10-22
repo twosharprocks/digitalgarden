@@ -10,22 +10,18 @@ tags:
   - spain
 latitude: 37.58276699999999
 longitude: -1.2024559999999838
-country: "ESP"
 state: "Región de Murcia"
 suburb: "Cartagena"
-privacy: public
 obsidian_aliases:
   - "Chasm Uncovered"
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/3a03110d-144c-4278-b08e-ecb083b9fdd8.html"
 catalog-type: "cave"
 altitude: "200 m"
 address: "28, Pasaje Montemar, Cartagena, Región de Murcia, ESP, 30868"
-location-checked: "false"
 ---
 # About
 

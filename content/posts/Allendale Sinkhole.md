@@ -11,17 +11,13 @@ tags:
 feature_type: "Cave"
 latitude: -38.005176000000006
 longitude: 140.70855299999994
-country: "AUS"
-state: "South Australia"
 suburb: "The District Council of Grant"
-privacy: public
 obsidian_aliases:
   - "Allendale East"
   - "Hole-In-The-Road"
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[Allendale - 5L11]]"
 rating: CDAA Cave, TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/d38a415b-35b7-41ac-a81f-b4af745b47aa.html"
@@ -29,8 +25,6 @@ catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
 altitude: "17 m"
 address: "1, Kingsley Rd, The District Council of Grant, South Australia, AUS, 5291"
-location-checked: "true"
-location-checked-by: "CDAA Rated"
 ---
 # About
 

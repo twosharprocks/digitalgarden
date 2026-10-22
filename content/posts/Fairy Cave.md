@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -37.50237227991232
 longitude: 148.16202878952026
-country: "AUS"
-state: "Victoria"
 suburb: "Buchan"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/96698091-a277-4b2a-9091-e688d53b0d0c.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "126 m"
 address: "Caves Rd, Buchan, Victoria, AUS, 3885"
-location-checked: "false"
 ---
 # About
 

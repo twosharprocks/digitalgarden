@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 35.83555999999999
 longitude: 48.16166999999996
-country: "IRN"
 state: "Zanjan Province"
 suburb: "Khodabandeh"
-privacy: public
 region: "[[Iran]]"
 related:
   - "[[Diving]]"
-  - "[[Iran]]"
 cavedb: "https://app.cavedb.net/share/342763e5-ff8b-4da6-b175-586d70496f98.html"
 catalog-type: "cave"
 altitude: "1701 m"
 address: "جاده غار کتله خور, Khodabandeh, Zanjan Province, IRN"
-location-checked: "true"
 ---
 # Details
 

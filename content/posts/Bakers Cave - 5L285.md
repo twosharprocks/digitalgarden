@@ -12,16 +12,12 @@ region: "[[South Australia]]"
 related:
   - "[[Diving]]"
   - "[[Cave Entries to Write]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[Mt Gambier - PROTECTED]]"
 rating: CDAA Cave, TDI Intro to Cave
 feature_type: "Cave"
 latitude: -37.945537
 longitude: 140.68053599999996
-country: "AUS"
-state: "South Australia"
 suburb: "The District Council of Grant"
-privacy: public
 cavedb: "https://app.cavedb.net/share/b57547cc-9ce9-4e3c-8bb2-fe8f327076e0.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"

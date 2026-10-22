@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.996735315403043
 longitude: -82.96644866466522
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/c87e9516-c760-473a-aff1-fda0cb52ed09.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "4 m"
 address: "24891, 105th Ln, Suwannee County, Florida, USA, 32071"
-location-checked: "false"
 ---
 # Details
 

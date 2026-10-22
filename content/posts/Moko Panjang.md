@@ -13,18 +13,14 @@ related:
   - "[[Diving]]"
   - "[[Photogrammetry - Processing]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
-  - "[[Muna Island - Sulawesi]]"
   - "[[empty files]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
-  - "[[Sulawesi]]"
 rating: TDI Open Water Scuba Diver
 feature_type: Cave
 latitude: -5.163746000000003
 longitude: 122.58450100000005
-country: IDN
 state: South East Sulawesi
 suburb: Muna Regency
-privacy: public
 obsidian_aliases:
   - "Danau Moko 4"
 cavedb: "https://app.cavedb.net/share/a7168d6f-9119-44cc-b2ab-598d78ee9a33.html"

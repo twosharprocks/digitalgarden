@@ -12,18 +12,14 @@ tags:
 feature_type: "Cave"
 latitude: 36.22116199999999
 longitude: 32.40189499999997
-country: "TUR"
 suburb: "Gazipaşa"
-privacy: public
 region: "[[Türkiye-Turkey]]"
 related:
   - "[[Diving]]"
-  - "[[Türkiye-Turkey]]"
 cavedb: "https://app.cavedb.net/share/4366c06c-fbd0-4a8b-9f49-2212fea47651.html"
 catalog-type: "cave"
 altitude: "258 m"
 address: "Gazipaşa, TUR, 07900"
-location-checked: "false"
 ---
 # About
 

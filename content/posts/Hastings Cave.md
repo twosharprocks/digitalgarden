@@ -11,27 +11,22 @@ tags:
 feature_type: "Cave"
 latitude: -30.251848999999993
 longitude: 115.09142199999997
-country: "AUS"
-state: "Western Australia"
 suburb: "Jurien Bay"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 cavedb: "https://app.cavedb.net/share/4ccb39c1-c8f0-463f-972a-b731870172a7.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "48 m"
 address: "Sandy Point Rd, Jurien Bay, Western Australia, AUS, 6516"
-location-checked: "false"
 ---
 # Details
 
 ## Identification
 
 - **Feature type:** Cave
-- **System name:** Drovers Cave National Park
+- **System name:** [Drovers Cave]({{< relref "posts/Drovers Cave.md" >}}) National Park
 - **Source:** Google
 
 # References

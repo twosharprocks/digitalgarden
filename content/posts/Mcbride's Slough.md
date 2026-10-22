@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.23982799999999
 longitude: -84.26935500000002
-country: "USA"
-state: "Florida"
 suburb: "Wakulla County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/816f3368-5405-4bc6-ac2f-98bfcf2b80c5.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "2 m"
 address: "3678-3522, FL-267, Wakulla County, Florida, USA, 32327"
-location-checked: "true"
 ---
 # Details
 

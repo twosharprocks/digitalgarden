@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 38.70707600000003
 longitude: 0.16615500000000338
-country: "ESP"
 state: "Comunidad Valenciana"
 suburb: "Benitachell"
-privacy: public
 obsidian_aliases:
   - "CT12 (according to GUE?)"
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/3503a297-b26a-467b-a70c-757773d3a46c.html"
 catalog-type: "cave"
 altitude: "2 m"
 address: "Benitachell, Comunidad Valenciana, ESP, 03726"
-location-checked: "false"
 ---
 # About
 

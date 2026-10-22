@@ -12,16 +12,12 @@ region: "[[South Australia]]"
 related:
   - "[[Diving]]"
   - "[[Cave Entries to Write]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
 rating: CDAA Deep Cavern, TDI Cavern
 feature_type: "Sinkhole"
 latitude: -37.89689899999999
 longitude: 140.648324
-country: "AUS"
-state: "South Australia"
 suburb: "The District Council of Grant"
-privacy: restricted-or-unknown
 obsidian_aliases:
   - "Simpsons Hole"
   - "1080"

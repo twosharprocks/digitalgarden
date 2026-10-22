@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.954538000000014
 longitude: -82.92881
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/583de1b1-f6c2-43a2-a69b-876242a046fa.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "3 m"
 address: "614, SW Ivey Memorial Park Dr, Suwannee County, Florida, USA, 32008"
-location-checked: "true"
 ---
 # Details
 

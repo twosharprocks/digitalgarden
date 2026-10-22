@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 49.004999999999995
 longitude: 19.586940000000027
-country: "SVK"
 state: "Žilina Region"
 suburb: "Liptovský Mikuláš District"
-privacy: public
 region: "[[Slovakia]]"
 related:
   - "[[Diving]]"
-  - "[[Slovakia]]"
 cavedb: "https://app.cavedb.net/share/3702fe21-a88d-4dbd-985b-328fe409926f.html"
 catalog-type: "cave"
 altitude: "919 m"
 address: "584, Liptovský Mikuláš District, Žilina Region, SVK, 031 01"
-location-checked: "true"
 ---
 # Details
 

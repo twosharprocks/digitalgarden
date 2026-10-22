@@ -11,16 +11,13 @@ tags:
 feature_type: "Sinkhole"
 latitude: -5.077548999999976
 longitude: 122.50677900000005
-country: "IDN"
 state: "South East Sulawesi"
 suburb: "Muna Regency"
-privacy: public
 obsidian_aliases:
   - "Mata Air Fotuno Rete Wakumoro"
 region: "[[Indonesia]]"
 related:
   - "[[Diving]]"
-  - "[[Sulawesi]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
 cavedb: "https://app.cavedb.net/share/38b6308f-74f7-400e-aaea-320ab717b454.html"
@@ -28,7 +25,6 @@ catalog-type: "cave"
 sub-region: "[[Sulawesi]]"
 altitude: "37 m"
 address: "Jalan Tanpa Nama, Muna Regency, South East Sulawesi, IDN, 93661"
-location-checked: "false"
 ---
 # Details
 

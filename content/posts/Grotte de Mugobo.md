@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -3.4375
 longitude: 30.604166666666742
-country: "BDI"
 state: "Ruyigi"
 suburb: "Gisuru"
-privacy: public
 region: "[[Burundi]]"
 related:
   - "[[Diving]]"
-  - "[[Burundi]]"
 cavedb: "https://app.cavedb.net/share/21d91273-8e5e-4bd6-923f-f4d143fef3cc.html"
 catalog-type: "cave"
 altitude: "1500 m"
 address: "Gisuru, Ruyigi, BDI"
-location-checked: "true"
 ---
 # About
 

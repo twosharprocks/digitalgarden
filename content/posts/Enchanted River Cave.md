@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 8.458849999999984
 longitude: 126.354829
-country: "PHL"
 state: "Caraga"
 suburb: "Surigao del Sur"
-privacy: public
 region: "[[Philippines]]"
 related:
   - "[[Diving]]"
-  - "[[Philippines]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/a7e3569b-0acc-45ff-b513-42fd96650ac6.html"
 catalog-type: "cave"
 altitude: "21 m"
 address: "Unnamed Road, Surigao del Sur, Caraga, PHL"
-location-checked: "false"
 ---
 # About
 

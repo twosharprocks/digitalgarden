@@ -11,21 +11,15 @@ tags:
 feature_type: "Sinkhole"
 latitude: -37.83884599999999
 longitude: 140.80847100000005
-country: "AUS"
-state: "South Australia"
 suburb: "Mount Gambier"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 cavedb: "https://app.cavedb.net/share/503f044f-ad32-4081-ab5e-04d9779c0d7a.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "45 m"
 address: "Mount Gambier, South Australia, AUS, 5290"
-location-checked: "true"
-location-checked-by: "Tourist Site"
 ---
 # Details
 

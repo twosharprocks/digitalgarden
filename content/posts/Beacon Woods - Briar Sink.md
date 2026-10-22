@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.345932000000005
 longitude: -82.68861500000003
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/f81a68d9-6b91-43ba-97bc-bae8ef783167.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "2 m"
 address: "7591-7401, Mediterranean Ct, Pasco County, Florida, USA, 34667"
-location-checked: "true"
 ---
 # Details
 

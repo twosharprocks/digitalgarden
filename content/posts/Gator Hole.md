@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.777019999999993
 longitude: -85.16717800000004
-country: "USA"
-state: "Florida"
 suburb: "Jackson County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/d134cb1b-7878-4895-84c8-9d807bbe9c0a.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "26 m"
 address: "5001, Deer Haven Ct, Jackson County, Florida, USA, 32446"
-location-checked: "true"
 ---
 # Details
 

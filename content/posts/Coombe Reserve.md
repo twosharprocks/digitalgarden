@@ -10,21 +10,15 @@ tags:
   - western-australia
 latitude: -32.01241199999998
 longitude: 115.77574800000002
-country: "AUS"
-state: "Western Australia"
 suburb: "Perth"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 cavedb: "https://app.cavedb.net/share/02e4b45f-3960-41c7-ab42-4226c993ff07.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "14 m"
 address: "25, The Coombe, Perth, Western Australia, AUS, 6012"
-location-checked: "true"
-location-checked-by: "Joseph Bicanic"
 ---
 # About
 

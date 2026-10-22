@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -37.036607000000004
 longitude: 140.79756599999996
-country: "AUS"
-state: "South Australia"
 suburb: "Joanna"
-privacy: public
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 cavedb: "https://app.cavedb.net/share/b388c3a0-1d30-442b-ad45-8d40ae31f4f8.html"
 catalog-type: "cave"
 sub-region: "[[Naracoorte Caves]]"
 altitude: "86 m"
 address: "World Heritage Hike, Joanna, South Australia, AUS, 5271"
-location-checked: "true"
 ---
 # About
 

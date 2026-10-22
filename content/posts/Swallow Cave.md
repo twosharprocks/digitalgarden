@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -38.56583599999999
 longitude: 143.96102799999994
-country: "AUS"
-state: "Victoria"
 suburb: "Lorne"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/1368dd85-f2fe-4a66-b213-a1f89a489879.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "80 m"
 address: "Great Ocean Rd, Lorne, Victoria, AUS, 3232"
-location-checked: "false"
 ---
 # Details
 

@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 28.826784999999973
 longitude: -82.73575800000003
-country: "USA"
-state: "Florida"
 suburb: "Citrus County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 cavedb: "https://app.cavedb.net/share/0d7983b4-e166-4a84-b73c-10cfceb6ecc8.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "1 m"
 address: "Citrus County, Florida, USA"
-location-checked: "true"
 ---
 # Details
 

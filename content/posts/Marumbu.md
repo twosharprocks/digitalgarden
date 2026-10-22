@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: -15.578888888888883
 longitude: 167.1483333333333
-country: "VUT"
 state: "Sanma Province"
 suburb: "Canal - Fanafo"
-privacy: public
 region: "[[Vanuatu]]"
 related:
   - "[[Diving]]"
-  - "[[Vanuatu]]"
   - "[[Trip - Vanuatu - 2027 April]]"
 cavedb: "https://app.cavedb.net/share/a894e6f3-b379-4e89-85d3-459384be06ea.html"
 catalog-type: "cave"
 altitude: "54 m"
 address: "Canal - Fanafo, Sanma Province, VUT"
-location-checked: "true"
 ---
 # About
 

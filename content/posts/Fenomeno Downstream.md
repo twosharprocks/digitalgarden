@@ -11,21 +11,17 @@ tags:
 feature_type: Cave
 latitude: 20.319770000000005
 longitude: -87.42728
-country: MEX
 state: Quintana Roo
 suburb: Tulum Municipality
-privacy: public
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
 rating: TDI Intro to Cave
 cavedb: https://app.cavedb.net/share/57a3dfaa-d780-4c39-9032-0fdc867d4f72.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
 altitude: "17 m"
 address: "13, Tak Be Ha Rd, Tulum Municipality, Quintana Roo, MEX, 77774"
-location-checked: "false"
 ---
 # Details
 

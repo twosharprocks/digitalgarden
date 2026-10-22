@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 40.18516439421444
 longitude: 9.63249385356903
-country: "ITA"
 state: "Sardegna"
 suburb: "Provincia di Nuoro"
-privacy: public
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 rating: TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/5aefcb54-ec52-477d-a0fb-9da21dc2c24e.html"
 catalog-type: "cave"
 altitude: "10 m"
 address: "Strada Senza Nome, Provincia di Nuoro, Sardegna, ITA, 08040"
-location-checked: "false"
 ---
 # About
 

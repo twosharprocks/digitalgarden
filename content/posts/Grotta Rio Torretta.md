@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 45.89681999999999
 longitude: 11.353839999999991
-country: "ITA"
 state: "Veneto"
 suburb: "Valdastico"
-privacy: public
 obsidian_aliases:
   - "Rio Torretta Cave"
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/3e26cb10-335e-41ae-ba9b-6ad7ae774d8f.html"
 catalog-type: "cave"
 altitude: "484 m"
 address: "Via Friuli 1976, Valdastico, Veneto, ITA, 36040"
-location-checked: "false"
 ---
 # Details
 

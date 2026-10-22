@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 44.84731199999999
 longitude: 1.4961260000000038
-country: "FRA"
 state: "Occitanie"
 suburb: "Pinsac"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/6d626680-8ff6-498e-a665-e00bc2355760.html"
 catalog-type: "cave"
 altitude: "93 m"
 address: "Viaduc de la Dordogne, Pinsac, Occitanie, FRA, 46200"
-location-checked: "false"
 ---
 # Details
 

@@ -10,19 +10,15 @@ tags:
   - switzerland
 latitude: 45.93389000000002
 longitude: 9.00472000000002
-country: "CHE"
 state: "Ticino"
 suburb: "Val Mara"
-privacy: public
 region: "[[Switzerland]]"
 related:
   - "[[Diving]]"
-  - "[[Switzerland]]"
 cavedb: "https://app.cavedb.net/share/0d21a2aa-bee1-4712-9b8d-12beaca91f9e.html"
 catalog-type: "cave"
 altitude: "740 m"
 address: "Via Generoso, Val Mara, Ticino, CHE, 6821"
-location-checked: "false"
 ---
 # About
 

@@ -11,20 +11,15 @@ tags:
 feature_type: "Sinkhole"
 latitude: 29.081310523384673
 longitude: -81.57610416412354
-country: "USA"
-state: "Florida"
 suburb: "Astor"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 cavedb: "https://app.cavedb.net/share/1853f41e-1fdd-4129-90bc-9b9867eaa151.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "3 m"
 address: "NF-445-4.9F, Astor, Florida, USA, 32102"
-location-checked: "false"
 ---
 # Details
 

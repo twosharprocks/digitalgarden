@@ -11,17 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: -5.256422999999984
 longitude: 122.53919799999994
-country: "IDN"
 state: "South East Sulawesi"
 suburb: "Buton Regency"
-privacy: public
 obsidian_aliases:
   - "Goa Lau Lawi"
   - "Laulawi"
 region: "[[Indonesia]]"
 related:
   - "[[Diving]]"
-  - "[[Sulawesi]]"
   - "[[Laulawi]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
@@ -32,8 +29,6 @@ catalog-type: "cave"
 sub-region: "[[Sulawesi]]"
 altitude: "29 m"
 address: "Jalan Tanpa Nama, Buton Regency, South East Sulawesi, IDN, 93763"
-location-checked: "true"
-location-checked-by: "Grubby Wombat"
 ---
 # Details
 

@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 39.39293599999996
 longitude: 3.2473850000000084
-country: "ESP"
 state: "Illes Balears"
 suburb: "Felanitx"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/7df09fd0-d315-4ebd-9c60-f3d5f2eeab67.html"
 catalog-type: "cave"
 altitude: "8 m"
 address: "Carrer del 31 de Març, Felanitx, Illes Balears, ESP, 07669"
-location-checked: "false"
 ---
 # Details
 

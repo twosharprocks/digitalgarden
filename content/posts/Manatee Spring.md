@@ -11,10 +11,7 @@ tags:
 feature_type: "Cave"
 latitude: 29.48959615633828
 longitude: -82.97687709331512
-country: "USA"
-state: "Florida"
 suburb: "Levy County"
-privacy: public
 obsidian_aliases:
   - "Catfish Hotel"
   - "Sue's Sink"
@@ -22,14 +19,12 @@ obsidian_aliases:
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/4d8b08c6-a321-46fe-ba0f-591fd649cb7e.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "1 m"
 address: "11650, NW 115th St, Levy County, Florida, USA, 32626"
-location-checked: "false"
 ---
 # About
 

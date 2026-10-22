@@ -12,18 +12,13 @@ tags:
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
   - "[[Book - Cave Diving]]"
-  - "[[South Australia]]"
 rating: CDAA Deep Cavern, TDI Cavern
 feature_type: "Sinkhole"
 latitude: -37.946537000000006
 longitude: 140.68283099999996
-country: "AUS"
-state: "South Australia"
 suburb: "The District Council of Grant"
-privacy: public
 obsidian_aliases:
   - "Goulden Waterhole"
   - "Goolders"

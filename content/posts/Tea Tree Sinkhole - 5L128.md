@@ -12,16 +12,12 @@ region: "[[South Australia]]"
 related:
   - "[[Diving]]"
   - "[[Cave Entries to Write]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
 rating: CDAA Deep Cavern, TDI Cavern
 feature_type: "Sinkhole"
 latitude: -38.027387000000004
 longitude: 140.91900499999997
-country: "AUS"
-state: "South Australia"
 suburb: "The District Council of Grant"
-privacy: restricted-or-unknown
 cavedb: "https://app.cavedb.net/share/556addf3-8f75-4b12-b544-7d8b57484798.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"

@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -37.38260500000001
 longitude: 146.22484099999997
-country: "AUS"
-state: "Victoria"
 suburb: "Mansfield Shire"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/c3b710dc-0081-4251-a1a1-46c56bd01c75.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "365 m"
 address: "10, Tunnel Bend Track, Mansfield Shire, Victoria, AUS, 3723"
-location-checked: "false"
 ---
 # Details
 

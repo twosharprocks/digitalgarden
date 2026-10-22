@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: -33.82152500000001
 longitude: 150.021934
-country: "AUS"
-state: "New South Wales"
 suburb: "Jenolan"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 cavedb: "https://app.cavedb.net/share/06edb68f-b929-433e-994d-82d4ed5674e3.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "822 m"
 address: "4675, [[Jenolan Caves]] Rd, Jenolan, New South Wales, AUS, 2790"
-location-checked: "true"
-additional-location-records: ["Coordinates: -33.821527, 150.021932; Altitude: 822 m; Address: 4675, [[Jenolan Caves]] Rd, Jenolan, New South Wales, AUS, 2790; Checked: false"]
+additional-location-records: ["Coordinates: -33.821527, 150.021932; Altitude: 822 m; Address: 4675, [[Jenolan Caves]] Rd, Jenolan, New South Wales, AUS, 2790"]
 ---
 # Details
 

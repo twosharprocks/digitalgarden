@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: -21.45818299999999
 longitude: -56.453216999999995
-country: "BRA"
 state: "State of Mato Grosso do Sul"
 suburb: "Jardim"
-privacy: public
 region: "[[Brazil]]"
 related:
   - "[[Diving]]"
-  - "[[Brazil]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/756616f6-d0cc-48c6-9984-fc671a129f06.html"
 catalog-type: "cave"
 altitude: "284 m"
 address: "Jardim, State of Mato Grosso do Sul, BRA, 79240-000"
-location-checked: "true"
 ---
 # Details
 

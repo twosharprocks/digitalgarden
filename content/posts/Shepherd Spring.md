@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.12529699999999
 longitude: -84.28573900000004
-country: "USA"
-state: "Florida"
 suburb: "Wakulla County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/22985e9e-3b56-4e39-a029-8367a8d6cf1c.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "1 m"
 address: "Florida National Scenic Highwater Trail, Wakulla County, Florida, USA, 32327"
-location-checked: "true"
 ---
 # Details
 

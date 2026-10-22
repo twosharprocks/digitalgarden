@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 26.24973799999998
 longitude: -77.18980199999999
-country: "BHS"
 state: "South Abaco"
-privacy: public
 obsidian_aliases:
   - "Glass Factory"
 region: "[[Bahamas]]"
 related:
   - "[[Diving]]"
-  - "[[Bahamas]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/4cf86512-214d-452c-8af4-ae93f90a0531.html"
 catalog-type: "cave"
 altitude: "7 m"
 address: "Unnamed Road, South Abaco, BHS"
-location-checked: "false"
 ---
 # Details
 

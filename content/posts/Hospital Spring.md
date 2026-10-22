@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.530513999999982
 longitude: -82.625542
-country: "USA"
-state: "Florida"
 suburb: "Hernando County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/24c4d025-b357-4757-861f-3436835df9a8.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "1 m"
 address: "5473-5419, Darlene St, Hernando County, Florida, USA, 34607"
-location-checked: "true"
 ---
 # Details
 

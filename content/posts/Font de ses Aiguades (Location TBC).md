@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 39.838324
 longitude: 3.168600999999967
-country: "ESP"
 state: "Balearic Islands"
 suburb: "Balearic Islands"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/8ac71f5e-ff18-4740-b78b-be5829621eb9.html"
 catalog-type: "cave"
 altitude: "2 m"
 address: "Carr. del Far, Balearic Islands, Balearic Islands, ESP, 07400"
-location-checked: "false"
 ---
 # Details
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.47062599999998
 longitude: -83.2346
-country: "USA"
-state: "Florida"
 suburb: "Hamilton County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/08438830-068f-4c1c-ba7a-22f5627658ec.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "13 m"
 address: "Unnamed Road, Hamilton County, Florida, USA, 32052"
-location-checked: "true"
 ---
 # Details
 

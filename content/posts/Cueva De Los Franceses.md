@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 42.772369000000026
 longitude: -4.116549999999961
-country: "ESP"
 state: "Castilla y León"
 suburb: "Pomar de Valdivia"
-privacy: public
 obsidian_aliases:
   - "French Cave"
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/48243ea5-037e-451a-a067-e77537aa6afd.html"
 catalog-type: "cave"
 altitude: "1164 m"
 address: "Pomar de Valdivia, Castilla y León, ESP"
-location-checked: "false"
 ---
 # Details
 

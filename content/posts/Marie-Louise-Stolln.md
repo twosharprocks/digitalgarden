@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 50.87503700000002
 longitude: 13.949391999999989
-country: "DEU"
 state: "Sachsen"
 suburb: "Bad Gottleuba-Berggießhübel"
-privacy: public
 region: "[[Germany]]"
 related:
   - "[[Diving]]"
-  - "[[Germany]]"
 cavedb: "https://app.cavedb.net/share/60ed9601-1039-492f-b3a0-dd9ccc112e73.html"
 catalog-type: "cave"
 altitude: "293 m"
 address: "1, Siedlung, Bad Gottleuba-Berggießhübel, Sachsen, DEU, 01816"
-location-checked: "false"
 ---
 # Details
 

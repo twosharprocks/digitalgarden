@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 30.439369999999997
 longitude: -83.08922999999999
-country: "USA"
-state: "Florida"
 suburb: "Jasper"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 cavedb: "https://app.cavedb.net/share/963e4434-6fe8-4c87-b85d-39262b62b576.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "18 m"
 address: "6645, SW 68th Dr, Jasper, Florida, USA, 32052"
-location-checked: "false"
 ---
 # Details
 

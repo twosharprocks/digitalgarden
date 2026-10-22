@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 46.46505400000001
 longitude: 7.0978509999999915
-country: "CHE"
 state: "Vaud"
 suburb: "Riviera-Pays-d'Enhaut District"
-privacy: public
 region: "[[Switzerland]]"
 related:
   - "[[Diving]]"
-  - "[[Switzerland]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/9ab3f286-fa57-4b7d-852d-602ac4e99410.html"
 catalog-type: "cave"
 altitude: "889 m"
 address: "16, Rte du Flumy, Riviera-Pays-d'Enhaut District, Vaud, CHE, 1658"
-location-checked: "true"
 ---
 # Details
 

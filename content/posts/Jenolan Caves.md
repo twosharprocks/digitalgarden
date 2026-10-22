@@ -11,22 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: -33.82048900000001
 longitude: 150.02119700000003
-country: "AUS"
-state: "New South Wales"
 suburb: "Jenolan"
-privacy: public
 obsidian_aliases:
   - "Fish River Caves"
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 cavedb: "https://app.cavedb.net/share/c3d229e3-729f-4c43-b8a1-53de9ed9ff30.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "795 m"
 address: "4654, Jenolan Caves Rd, Jenolan, New South Wales, AUS, 2790"
-location-checked: "false"
 ---
 # About
 

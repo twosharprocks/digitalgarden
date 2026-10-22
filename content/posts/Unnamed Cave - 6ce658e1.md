@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -31.50972999999999
 longitude: 129.42527500000006
-country: "AUS"
-state: "South Australia"
 suburb: "Nullarbor"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 cavedb: "https://app.cavedb.net/share/6ce658e1-db70-41a9-a9d7-82c6fd9b6ecb.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "94 m"
 address: "Old Eyre Hwy, Nullarbor, South Australia, AUS, 5690"
-location-checked: "false"
 ---
 # Details
 

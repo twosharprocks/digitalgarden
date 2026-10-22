@@ -11,21 +11,17 @@ tags:
 feature_type: Cave
 latitude: 20.481660000000034
 longitude: -87.27114
-country: MEX
 state: Quintana Roo
 suburb: Solidaridad
-privacy: public
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
 rating: TDI Full Cave
 cavedb: https://app.cavedb.net/share/61931948-8471-41ab-9134-71f8db8795f0.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
 altitude: "7 m"
 address: "Minotauro Office Rd, Solidaridad, Quintana Roo, MEX, 77734"
-location-checked: "true"
 ---
 # Details
 

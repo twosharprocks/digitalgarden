@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.688593999999966
 longitude: -81.39554199999998
-country: "USA"
-state: "Florida"
 suburb: "Seminole County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/dd118f11-4500-4abc-b5e7-50f3b57de7a8.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "10 m"
 address: "710, Woodbridge Rd, Seminole County, Florida, USA, 32779"
-location-checked: "true"
 ---
 # Details
 

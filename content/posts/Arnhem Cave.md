@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: -22.70138
 longitude: 18.096379999999954
-country: "NAM"
 state: "Khomas Region"
-privacy: public
 region: "[[Namibia]]"
 related:
   - "[[Diving]]"
-  - "[[Namibia]]"
 cavedb: "https://app.cavedb.net/share/a4fb1888-2754-4a0c-b354-8f1a3d6d138b.html"
 catalog-type: "cave"
 altitude: "1550 m"
 address: "Khomas Region, NAM"
-location-checked: "true"
 ---
 # Details
 

@@ -10,18 +10,14 @@ tags:
   - qatar
 latitude: 25.174960999999996
 longitude: 51.21178699999996
-country: "QAT"
 suburb: "الشيحانية"
-privacy: public
 region: "[[Qatar]]"
 related:
   - "[[Diving]]"
-  - "[[Qatar]]"
 cavedb: "https://app.cavedb.net/share/6a0e378f-832c-444d-b63d-4b0d2fe12827.html"
 catalog-type: "cave"
 altitude: "44 m"
 address: "الشيحانية, QAT"
-location-checked: "false"
 ---
 # Additional Notes
 

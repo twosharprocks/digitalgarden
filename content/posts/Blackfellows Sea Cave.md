@@ -11,22 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: -37.94944699999999
 longitude: 140.46682499999997
-country: "AUS"
-state: "South Australia"
 suburb: "Blackfellows Caves"
-privacy: public
 obsidian_aliases:
   - "Stinky Cave"
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 cavedb: "https://app.cavedb.net/share/dc6de8d2-5f71-456d-a1a0-c430fb977341.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "3 m"
 address: "4, Height Dr, Blackfellows Caves, South Australia, AUS, 5291"
-location-checked: "true"
 ---
 # Details
 

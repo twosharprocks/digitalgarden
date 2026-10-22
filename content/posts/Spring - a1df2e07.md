@@ -10,20 +10,15 @@ tags:
   - victoria
 latitude: -38.019465
 longitude: 141.10577
-country: "AUS"
-state: "Victoria"
 suburb: "Glenelg Shire"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/a1df2e07-f9e5-43cb-a4ab-9c31bd92544a.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "19 m"
 address: "Wilson Hall Track, Glenelg Shire, Victoria, AUS, 3304"
-location-checked: "false"
 ---
 # Details
 

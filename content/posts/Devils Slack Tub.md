@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.593279999999993
 longitude: -82.17268999999999
-country: "USA"
-state: "Florida"
 suburb: "Sumter County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/daee48d9-cb46-4094-a77a-e6c479f895fe.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "21 m"
 address: "11283-11201, Co Rd 682, Sumter County, Florida, USA, 33597"
-location-checked: "true"
 ---
 # Details
 

@@ -10,20 +10,15 @@ tags:
   - south-australia
 latitude: -38.022583999999995
 longitude: 140.57122500000003
-country: "AUS"
-state: "South Australia"
 suburb: "Cape Douglas"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 cavedb: "https://app.cavedb.net/share/7a76181b-7bfd-4b0e-9c9f-85ba276020a1.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "2 m"
 address: "Cape Douglas Rd, Cape Douglas, South Australia, AUS, 5291"
-location-checked: "false"
 ---
 # About
 

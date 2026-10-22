@@ -11,14 +11,11 @@ tags:
 feature_type: "Cave"
 latitude: -5.172891
 longitude: 122.484184
-country: "IDN"
 state: "South East Sulawesi"
 suburb: "Muna Regency"
-privacy: public
 region: "[[Indonesia]]"
 related:
   - "[[Diving]]"
-  - "[[Sulawesi]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
 cavedb: "https://app.cavedb.net/share/40a5daf9-e9f8-40ae-84cf-0320e4f780b1.html"
@@ -26,7 +23,6 @@ catalog-type: "cave"
 sub-region: "[[Sulawesi]]"
 altitude: "35 m"
 address: "Muna Regency, South East Sulawesi, IDN, 93662"
-location-checked: "false"
 ---
 # Details
 

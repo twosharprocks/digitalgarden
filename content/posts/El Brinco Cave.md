@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 22.075564999999983
 longitude: -81.05625700000002
-country: "CUB"
 state: "Matanzas"
 suburb: "Cienaga de Zapata"
-privacy: public
 obsidian_aliases:
   - "Cueva El Brinco"
 region: "[[Cuba]]"
 related:
   - "[[Diving]]"
-  - "[[Cuba]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/2f38dcb5-7d4d-48c3-bdb5-0f8cde3a5b59.html"
 catalog-type: "cave"
 altitude: "12 m"
 address: "122, Cienaga de Zapata, Matanzas, CUB"
-location-checked: "false"
 ---
 # Details
 

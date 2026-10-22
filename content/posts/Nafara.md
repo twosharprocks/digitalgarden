@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: -15.63611111111112
 longitude: 167.22861111111115
-country: "VUT"
 state: "Sanma Province"
 suburb: "East Malo"
-privacy: public
 region: "[[Vanuatu]]"
 related:
   - "[[Diving]]"
-  - "[[Vanuatu]]"
   - "[[Trip - Vanuatu - 2027 April]]"
 cavedb: "https://app.cavedb.net/share/770729ea-0dd7-41e6-848f-62fe4a2fbbd1.html"
 catalog-type: "cave"
 altitude: "14 m"
 address: "Unnamed Road, East Malo, Sanma Province, VUT"
-location-checked: "true"
 ---
 # About
 

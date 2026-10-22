@@ -11,21 +11,15 @@ tags:
 feature_type: "Depression"
 latitude: -32.07035400000001
 longitude: 126.54699700000003
-country: "AUS"
-state: "Western Australia"
 suburb: "Madura"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 cavedb: "https://app.cavedb.net/share/afbd0b2d-022e-47cb-a012-d74a555a6ea5.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "16 m"
 address: "Madura, Western Australia, AUS, 6443"
-location-checked: "true"
-location-checked-by: "MW"
 ---
 # Details
 

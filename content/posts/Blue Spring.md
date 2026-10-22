@@ -11,10 +11,8 @@ tags:
 feature_type: "Cave"
 latitude: 37.16612840980997
 longitude: -91.1621743440628
-country: "USA"
 state: "Missouri"
 suburb: "Shannon County"
-privacy: public
 obsidian_aliases:
   - "Cannonball Cave"
   - "Blue Hole"
@@ -23,13 +21,11 @@ obsidian_aliases:
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[United States]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/63f90f6b-b9ef-46d9-b174-c1386f262477.html"
 catalog-type: "cave"
 altitude: "178 m"
 address: "Shannon County, Missouri, USA, 63638"
-location-checked: "false"
 ---
 # About
 

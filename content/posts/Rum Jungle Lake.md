@@ -11,21 +11,16 @@ tags:
 feature_type: "Sinkhole"
 latitude: -13.041221262216823
 longitude: 130.99798321723938
-country: "AUS"
-state: "Northern Territory"
 suburb: "Coomalie Shire"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Northern Territory]]"
 rating: CDAA Deep Cavern, TDI Cavern
 cavedb: "https://app.cavedb.net/share/23287854-0048-4468-80c4-861b96808deb.html"
 catalog-type: "cave"
 sub-region: "[[Northern Territory]]"
 altitude: "84 m"
 address: "Poett Rd, Coomalie Shire, Northern Territory, AUS, 0822"
-location-checked: "true"
 ---
 # Details
 

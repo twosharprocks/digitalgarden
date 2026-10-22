@@ -11,21 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -37.9940901542708
 longitude: 141.06094814836982
-country: "AUS"
-state: "Victoria"
 suburb: "Glenelg Shire"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/d3b97c17-94db-4d07-9a6e-3c7ded9a3f38.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "38 m"
 address: "Unnamed Road, Glenelg Shire, Victoria, AUS, 3304"
-location-checked: "true"
-location-checked-by: "Grubby Wombat"
 ---
 # Details
 

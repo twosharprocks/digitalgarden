@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.790054999999995
 longitude: -85.14282500000002
-country: "USA"
-state: "Florida"
 suburb: "Jackson County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/5ba31c2c-6005-40d7-8349-c18e15d2adc9.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "24 m"
 address: "3084, Co Rd 164, Jackson County, Florida, USA, 32446"
-location-checked: "true"
 ---
 # Details
 

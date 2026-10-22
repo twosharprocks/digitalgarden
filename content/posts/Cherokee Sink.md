@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.21287000000001
 longitude: -84.30444899999998
-country: "USA"
-state: "Florida"
 suburb: "Wakulla County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/c8c68762-5b02-46cd-b956-395793a26b39.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "5 m"
 address: "1997-2137, Wakulla Arran Rd, Wakulla County, Florida, USA, 32327"
-location-checked: "true"
 ---
 # Details
 

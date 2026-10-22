@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.437123999999983
 longitude: -83.05753099999998
-country: "USA"
-state: "Florida"
 suburb: "Hamilton County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/93e71027-3eaf-4bdf-b313-aead6434470f.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "11 m"
 address: "9098-8188, SW 64th Ter, Hamilton County, Florida, USA, 32052"
-location-checked: "true"
 ---
 # Details
 

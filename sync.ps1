@@ -15,6 +15,12 @@ $myrepo = 'https://github.com/twosharprocks/digitalgarden.git'
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 
+# A file guard also works across Windows sessions, unlike the Local mutex.
+if (Test-Path -LiteralPath (Join-Path $PSScriptRoot '.cache\web-images-publish.gate')) {
+    Write-Host 'Website image publication is being prepared. Exiting.'
+    exit 0
+}
+
 $publishMutex = [Threading.Mutex]::new($false, 'Local\DigitalGardenPublish')
 if (-not $publishMutex.WaitOne(0)) {
     Write-Host 'Another digital garden publish is already running. Exiting.'

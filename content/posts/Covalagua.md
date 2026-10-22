@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 42.77023082006133
 longitude: -4.128515124320984
-country: "ESP"
 state: "Castile and León"
 suburb: "Palencia"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/6e6c92a4-bf32-494c-b5c6-808ea1f4aa54.html"
 catalog-type: "cave"
 altitude: "1105 m"
 address: "11, PP-6222, Palencia, Castile and León, ESP, 34813"
-location-checked: "false"
 ---
 # About
 

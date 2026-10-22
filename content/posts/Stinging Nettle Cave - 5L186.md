@@ -12,17 +12,13 @@ region: "[[South Australia]]"
 related:
   - "[[Diving]]"
   - "[[Cave Entries to Write]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
   - "[[Mt Gambier - PROTECTED]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 feature_type: "Cave"
 latitude: -37.754007748622485
 longitude: 140.54542422294617
-country: "AUS"
-state: "South Australia"
 suburb: "Wattle Range Council"
-privacy: public
 obsidian_aliases:
   - "Stinging Nettle"
 cavedb: "https://app.cavedb.net/share/e7d5edba-07ad-4926-bc66-1b8c79d8eb80.html"

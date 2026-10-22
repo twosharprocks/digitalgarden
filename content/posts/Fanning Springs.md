@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.58621199999999
 longitude: -82.935273
-country: "USA"
-state: "Florida"
 suburb: "Levy County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/400f9523-f6c3-4dd3-9c64-3a14b5c756a0.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "1 m"
 address: "18020, US-19, Levy County, Florida, USA, 32693"
-location-checked: "true"
 ---
 # Details
 

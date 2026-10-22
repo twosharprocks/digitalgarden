@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.48747000000003
 longitude: -82.97231999999997
-country: "USA"
-state: "Florida"
 suburb: "Levy County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/28d000ee-2b12-47fc-b37e-3248f5bc79e1.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "3 m"
 address: "NW 115th St, Levy County, Florida, USA, 32626"
-location-checked: "true"
 ---
 # Details
 

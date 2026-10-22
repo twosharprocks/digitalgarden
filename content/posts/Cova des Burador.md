@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 39.434909000000005
 longitude: 3.2766189999999824
-country: "ESP"
 state: "Illes Balears"
 suburb: "Felanitx"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/0605a781-63a3-411d-b63f-cc61ca823be6.html"
 catalog-type: "cave"
 altitude: "8 m"
 address: "Camí Cala Algar, Felanitx, Illes Balears, ESP, 07670"
-location-checked: "false"
 ---
 # Details
 

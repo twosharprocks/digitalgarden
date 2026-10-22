@@ -11,21 +11,16 @@ tags:
 feature_type: "Lake"
 latitude: -38.245144198393035
 longitude: 143.1152038143873
-country: "AUS"
-state: "Victoria"
 suburb: "Corangamite Shire"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/e945e2b6-2177-42e6-bb36-5fbf13253d83.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "143 m"
 address: "Unnamed Road, Corangamite Shire, Victoria, AUS, 3260"
-location-checked: "true"
 ---
 # About
 

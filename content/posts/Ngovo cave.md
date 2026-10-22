@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -5.301899999999989
 longitude: 14.93730000000005
-country: "COD"
 state: "Kongo Central"
 suburb: "Mbanza-Ngungu"
-privacy: public
 region: "[[Democratic Republic of Congo]]"
 related:
   - "[[Diving]]"
-  - "[[Democratic Republic of Congo]]"
 cavedb: "https://app.cavedb.net/share/38cf4349-271d-47f8-bed0-de50011bc254.html"
 catalog-type: "cave"
 altitude: "596 m"
 address: "Route Sans Nom, Mbanza-Ngungu, Kongo Central, COD"
-location-checked: "true"
 ---
 # About
 

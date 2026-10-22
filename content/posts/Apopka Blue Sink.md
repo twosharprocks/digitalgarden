@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.751679999999965
 longitude: -81.52080999999998
-country: "USA"
-state: "Florida"
 suburb: "Orange County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/a2335fc0-fac1-4537-b6fb-41297de56beb.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "25 m"
 address: "598-500, Sand Wedge Loop, Orange County, Florida, USA, 32712"
-location-checked: "true"
 ---
 # Details
 

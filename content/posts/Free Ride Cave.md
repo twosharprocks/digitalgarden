@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.40522199999998
 longitude: -82.69199900000001
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/5ce0ae94-c2d7-4b06-9312-28116f9f8619.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "3 m"
 address: "7621, Southern Blvd, Pasco County, Florida, USA, 34667"
-location-checked: "true"
 ---
 # Details
 

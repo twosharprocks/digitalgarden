@@ -14,16 +14,12 @@ related:
   - "[[Englebrecht's Cave - 5L19-20]]"
   - "[[Article - Making Sense with MNemo]]"
   - "[[Cave Entries to Write]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 feature_type: "Cave"
 latitude: -37.82050799999999
 longitude: 140.771888
-country: "AUS"
-state: "South Australia"
 suburb: "City of Mount Gambier"
-privacy: public
 obsidian_aliases:
   - "North Terrace"
   - "Vansittarts"

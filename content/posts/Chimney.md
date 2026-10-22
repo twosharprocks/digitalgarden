@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -38.33595
 longitude: 141.49989000000005
-country: "AUS"
-state: "Victoria"
 suburb: "Portland West"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/e4dba038-46ce-42b2-88fd-f6fde1b9056b.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "77 m"
 address: "Portland West, Victoria, AUS, 3305"
-location-checked: "false"
 ---
 # Details
 

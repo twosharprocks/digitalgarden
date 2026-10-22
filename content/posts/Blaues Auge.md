@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 51.506348
 longitude: 11.85205099999996
-country: "DEU"
 state: "Sachsen-Anhalt"
 suburb: "Salzatal"
-privacy: public
 region: "[[Germany]]"
 related:
   - "[[Diving]]"
-  - "[[Germany]]"
 cavedb: "https://app.cavedb.net/share/680836f1-fcb1-4092-8933-9589ef1a016d.html"
 catalog-type: "cave"
 altitude: "94 m"
 address: "Am Kalkofen, Salzatal, Sachsen-Anhalt, DEU, 06198"
-location-checked: "false"
 ---
 # Details
 

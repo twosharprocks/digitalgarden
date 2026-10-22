@@ -29,6 +29,8 @@ related:
 - [Long Cave]({{< relref "posts/Long Cave.md" >}})
 - [Sre Keow]({{< relref "posts/Sre Keow.md" >}})
 - [Tham Din Pieng cave]({{< relref "posts/Tham Din Pieng cave.md" >}})
+- [Tham Lum Pho (Approx)]({{< relref "posts/Tham Lum Pho (Approx).md" >}})
+- [Tham Nong Tao]({{< relref "posts/Tham Nong Tao.md" >}})
 - [Tham Phra Wang Daeng]({{< relref "posts/Tham Phra Wang Daeng.md" >}})
 - [Tham Phusi Kew Cave]({{< relref "posts/Tham Phusi Kew Cave.md" >}})
 - [Tham Pop Kan Mai]({{< relref "posts/Tham Pop Kan Mai.md" >}})

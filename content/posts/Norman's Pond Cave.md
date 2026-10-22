@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 23.788429937365663
 longitude: -76.14107161760325
-country: "BHS"
 state: "Exuma"
-privacy: public
 region: "[[Bahamas]]"
 related:
   - "[[Diving]]"
-  - "[[Bahamas]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/24edc098-d924-4860-a359-ced4dd3c52da.html"
 catalog-type: "cave"
 altitude: "2 m"
 address: "Exuma, BHS"
-location-checked: "false"
 ---
 # Details
 

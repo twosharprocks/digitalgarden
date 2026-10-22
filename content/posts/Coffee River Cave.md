@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 18.211889999999983
 longitude: -77.62484999999998
-country: "JAM"
 state: "Manchester Parish"
-privacy: public
 region: "[[Jamaica]]"
 related:
   - "[[Diving]]"
-  - "[[Jamaica]]"
 cavedb: "https://app.cavedb.net/share/c42cdb02-2e84-4502-b91b-d8b6a2a5d1f0.html"
 catalog-type: "cave"
 altitude: "241 m"
 address: "B 10, Manchester Parish, JAM"
-location-checked: "false"
 ---
 # Details
 

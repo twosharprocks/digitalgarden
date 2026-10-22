@@ -12,17 +12,13 @@ region: "[[Sulawesi]]"
 related:
   - "[[Diving]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
-  - "[[Muna Island - Sulawesi]]"
   - "[[empty files]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
-  - "[[Sulawesi]]"
 rating: TDI Intro to Cave
 feature_type: "Cave"
 latitude: -5.174309999999991
 longitude: 122.58349999999996
-country: "IDN"
 suburb: "Muna"
-privacy: public
 obsidian_aliases:
   - "Permandian Moko"
 cavedb: "https://app.cavedb.net/share/83ed1117-e771-4e80-809a-76734d4b6f84.html"

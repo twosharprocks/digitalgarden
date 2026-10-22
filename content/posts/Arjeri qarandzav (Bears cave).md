@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 39.70990280000001
 longitude: 45.24396999999999
-country: "ARM"
 state: "Vayots Dzor Province"
-privacy: public
 region: "[[Armenia]]"
 related:
   - "[[Diving]]"
-  - "[[Armenia]]"
 cavedb: "https://app.cavedb.net/share/efb99a3f-cef7-4d9e-93ba-09168fdeec17.html"
 catalog-type: "cave"
 altitude: "1658 m"
 address: "Ananun Chanaparh, Vayots Dzor Province, ARM"
-location-checked: "true"
 ---
 # Details
 

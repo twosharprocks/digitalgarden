@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.416089999999997
 longitude: -83.21307000000002
-country: "USA"
-state: "Florida"
 suburb: "Madison County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/b81efafe-7e1a-411a-bc3b-7725be2545f0.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "17 m"
 address: "184, NE Withla Bluffs Way, Madison County, Florida, USA, 32059"
-location-checked: "true"
 ---
 # Details
 

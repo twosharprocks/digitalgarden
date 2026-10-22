@@ -11,23 +11,19 @@ tags:
 feature_type: Cave
 latitude: 20.32289000000003
 longitude: -87.37958500000002
-country: MEX
 state: Quintana Roo
 suburb: Tulum Municipality
-privacy: public
 obsidian_aliases:
   - High Voltage
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
 rating: TDI Intro to Cave
 cavedb: https://app.cavedb.net/share/17702af6-d91b-46c9-a9c5-ae47fea7ea69.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
 altitude: "9 m"
 address: "Cenote Nic Te Ha Rd, Tulum Municipality, Quintana Roo, MEX, 77774"
-location-checked: "false"
 ---
 # Details
 

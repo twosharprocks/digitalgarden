@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.838250000000016
 longitude: -82.70474000000002
-country: "USA"
-state: "Florida"
 suburb: "Gilchrist County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/5b94e6ff-506d-4fc8-8b52-8194c0c791a7.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "7 m"
 address: "Gilchrist County, Florida, USA, 32643"
-location-checked: "true"
 ---
 # Details
 

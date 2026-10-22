@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.413970000000006
 longitude: -82.87529599999999
-country: "USA"
-state: "Florida"
 suburb: "Levy County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/49cc1671-57da-4e4b-be53-8b9eb5572920.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "9 m"
 address: "5850, NW 65 Ave, Levy County, Florida, USA, 32626"
-location-checked: "true"
 ---
 # Details
 

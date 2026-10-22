@@ -12,17 +12,13 @@ region: "[[South Australia]]"
 related:
   - "[[Diving]]"
   - "[[Cave Entries to Write]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
   - "[[Book - Cave Diving]]"
 rating: CDAA Cave, TDI Intro to Cave
 feature_type: "Cave"
 latitude: -37.75140200999999
 longitude: 140.54862308999998
-country: "AUS"
-state: "South Australia"
 suburb: "Wattle Range Council"
-privacy: public
 cavedb: "https://app.cavedb.net/share/8a674142-fb3d-4f40-8a23-50c1bf3a20b9.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"

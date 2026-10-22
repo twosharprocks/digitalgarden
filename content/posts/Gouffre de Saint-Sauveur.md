@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 44.790279999999996
 longitude: 1.5686100000000351
-country: "FRA"
 state: "Occitanie"
 suburb: "Rocamadour"
-privacy: public
 obsidian_aliases:
   - "Source De St Saveur"
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/eecd372c-de32-4477-9c22-8ce2dff54301.html"
 catalog-type: "cave"
 altitude: "128 m"
 address: "Lieu-dit Saint-Sauveur, Rocamadour, Occitanie, FRA, 46500"
-location-checked: "true"
 ---
 # Details
 

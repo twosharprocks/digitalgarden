@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -34.31017700000001
 longitude: 149.96667300000001
-country: "AUS"
-state: "New South Wales"
 suburb: "Wombeyan Caves"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 cavedb: "https://app.cavedb.net/share/85817fd8-824a-4130-9c95-ea9967db6b8c.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "617 m"
 address: "Caves Trak, [[Wombeyan Caves]], New South Wales, AUS, 2580"
-location-checked: "false"
 ---
 # Details
 

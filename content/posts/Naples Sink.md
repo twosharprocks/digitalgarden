@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 25.84581000000003
 longitude: -82.15580999999997
-country: "USA"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[United States]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/051d42e9-b813-4406-af36-b2dc4ea623fb.html"
 catalog-type: "cave"
 altitude: "-20 m"
 address: "USA"
-location-checked: "true"
 ---
 # Details
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.429332999999986
 longitude: -82.70914500000003
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/9974a1d4-4800-42a9-8633-43a4c6f51300.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "0 m"
 address: "Pasco County, Florida, USA"
-location-checked: "true"
 ---
 # Details
 

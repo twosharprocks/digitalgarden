@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 66.28096850620409
 longitude: 14.72718358039856
-country: "NOR"
 state: "Nordland"
 suburb: "Rana Municipality"
-privacy: public
 region: "[[Norway]]"
 related:
   - "[[Diving]]"
-  - "[[Norway]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/454886a8-370d-4b17-bdcb-5e567547f4d8.html"
 catalog-type: "cave"
 altitude: "408 m"
 address: "1495, Plurdalsveien, Rana Municipality, Nordland, NOR, 8615"
-location-checked: "true"
-location-checked-by: "Tourist Cave"
 ---
 # Details
 

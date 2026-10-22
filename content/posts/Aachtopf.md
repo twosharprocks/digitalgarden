@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 47.846014999999966
 longitude: 8.857308999999987
-country: "DEU"
 state: "Baden-Württemberg"
 suburb: "Aach"
-privacy: public
 region: "[[Germany]]"
 related:
   - "[[Diving]]"
-  - "[[Germany]]"
 cavedb: "https://app.cavedb.net/share/9a722746-eb9e-45dd-b116-5b4525f5dc05.html"
 catalog-type: "cave"
 altitude: "478 m"
 address: "6, Oberdorfstraße, Aach, Baden-Württemberg, DEU, 78267"
-location-checked: "false"
 ---
 # Details
 

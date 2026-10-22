@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 38.43393000000003
 longitude: 74.30648999999994
-country: "TJK"
 state: "Gorno-Badakhshan Autonomous Province"
-privacy: public
 region: "[[Central Asia]]"
 related:
   - "[[Diving]]"
-  - "[[Tajikistan]]"
 cavedb: "https://app.cavedb.net/share/ea94e921-176a-4e07-a3d9-e20a13054afd.html"
 catalog-type: "cave"
 sub-region: "[[Tajikistan]]"
 altitude: "4592 m"
 address: "Gorno-Badakhshan Autonomous Province, TJK"
-location-checked: "true"
 ---
 # Details
 

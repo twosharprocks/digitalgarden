@@ -11,21 +11,16 @@ tags:
 feature_type: "Sinkhole"
 latitude: 30.43188039706189
 longitude: -83.19774091243738
-country: "USA"
-state: "Florida"
 suburb: "Hamilton County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/6b84bde3-9f71-40da-8c8b-3b4f4916c7ba.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "16 m"
 address: "9464, Unnamed Road, Hamilton County, Florida, USA, 32052"
-location-checked: "false"
 ---
 # About
 

@@ -11,14 +11,11 @@ tags:
 feature_type: "Sinkhole"
 latitude: -5.411378
 longitude: 122.576836
-country: "IDN"
 state: "South East Sulawesi"
 suburb: "Buton Regency"
-privacy: public
 region: "[[Indonesia]]"
 related:
   - "[[Diving]]"
-  - "[[Sulawesi]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
 cavedb: "https://app.cavedb.net/share/65d966b0-0123-49df-a13a-8592e1f6843e.html"
@@ -26,7 +23,6 @@ catalog-type: "cave"
 sub-region: "[[Sulawesi]]"
 altitude: "13 m"
 address: "Jalan Tanpa Nama, Buton Regency, South East Sulawesi, IDN, 93763"
-location-checked: "false"
 ---
 # Details
 

@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: -27.921807
 longitude: 23.641696000000024
-country: "ZAF"
 state: "Northern Cape"
 suburb: "ZF Mgcawu District Municipality"
-privacy: public
 obsidian_aliases:
   - "Bushman's Hole"
 region: "[[South Africa]]"
 related:
   - "[[Diving]]"
-  - "[[South Africa]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/4d539d0b-6758-45d9-bb61-c29ee7228772.html"
 catalog-type: "cave"
 altitude: "1557 m"
 address: "ZF Mgcawu District Municipality, Northern Cape, ZAF"
-location-checked: "true"
 ---
 # About
 

@@ -11,21 +11,15 @@ tags:
 feature_type: "Sinkhole"
 latitude: -38.027367
 longitude: 140.79118700000004
-country: "AUS"
-state: "South Australia"
 suburb: "Eight Mile Creek"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 cavedb: "https://app.cavedb.net/share/5f5d1e83-be0f-490d-8828-a5d2002c20a2.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "2 m"
 address: "Ewens Ponds Rd, Eight Mile Creek, South Australia, AUS, 5291"
-location-checked: "true"
-location-checked-by: "CDAA Rated"
 ---
 # Details
 

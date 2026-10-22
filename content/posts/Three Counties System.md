@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 54.20699000000002
 longitude: -2.5064519999999675
-country: "GBR"
 state: "England"
 suburb: "Lancashire"
-privacy: public
 region: "[[United Kingdom]]"
 related:
   - "[[Diving]]"
-  - "[[United Kingdom]]"
 cavedb: "https://app.cavedb.net/share/462ad49f-00a9-4e21-91df-d498e2a9ea4c.html"
 catalog-type: "cave"
 altitude: "351 m"
 address: "Unnamed Road, Lancashire, England, GBR, LA6"
-location-checked: "true"
 ---
 # Details
 

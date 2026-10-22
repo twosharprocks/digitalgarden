@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -15.163888888888891
 longitude: 13.297222222222217
-country: "AGO"
 state: "Huila Province"
 suburb: "Humpata"
-privacy: public
 region: "[[Angola]]"
 related:
   - "[[Diving]]"
-  - "[[Angola]]"
 cavedb: "https://app.cavedb.net/share/256e62f8-a40e-42de-9ef6-fe11eae5bfa3.html"
 catalog-type: "cave"
 altitude: "1676 m"
 address: "Unnamed Road, Humpata, Huila Province, AGO"
-location-checked: "true"
 ---
 # About
 

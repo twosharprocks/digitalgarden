@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.387586
 longitude: -82.486061
-country: "USA"
-state: "Florida"
 suburb: "Levy County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/9f950be2-3e4e-4220-ac0e-5c246f1f0c34.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "19 m"
 address: "3854-3748, NE 172 Ct, Levy County, Florida, USA, 32696"
-location-checked: "true"
 ---
 # Details
 

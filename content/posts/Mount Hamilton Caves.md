@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -37.78602000000001
 longitude: 142.98638500000004
-country: "AUS"
-state: "Victoria"
 suburb: "Nerrin Nerrin"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/84c4cae6-e167-47bc-b400-2296c017e91d.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "293 m"
 address: "Nerrin Nerrin, Victoria, AUS, 3351"
-location-checked: "false"
 ---
 # About
 

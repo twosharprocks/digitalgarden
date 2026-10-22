@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.08350999999999
 longitude: -83.07488000000001
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/0ed26b41-011f-400c-b11a-3514a64d8182.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "7 m"
 address: "15900, 198th Trail, Suwannee County, Florida, USA, 32071"
-location-checked: "true"
 ---
 # Details
 

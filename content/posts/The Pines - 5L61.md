@@ -13,17 +13,13 @@ related:
   - "[[Diving]]"
   - "[[Article - The Crazy Wombat Tunnel]]"
   - "[[Mini Essay - Procrastinating Writing the Pines Article]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[Book - Cave Diving]]"
   - "[[Mt Gambier - PROTECTED]]"
 rating: CDAA Cave, TDI Intro to Cave
 feature_type: "Cave"
 latitude: -37.75534802661426
 longitude: 140.54640321885745
-country: "AUS"
-state: "South Australia"
 suburb: "The District Council of Grant"
-privacy: public
 obsidian_aliases:
   - "Springs Cave"
 cavedb: "https://app.cavedb.net/share/5529d2bd-cea1-4b16-853b-6acd272774db.html"

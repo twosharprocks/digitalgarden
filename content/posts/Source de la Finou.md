@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 44.87976800000001
 longitude: 1.6158809999999448
-country: "FRA"
 state: "Occitanie"
 suburb: "Montvalent"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/da8c4c29-fe46-4702-a68c-7adfb0889f76.html"
 catalog-type: "cave"
 altitude: "138 m"
 address: "Montvalent, Occitanie, FRA, 46600"
-location-checked: "false"
 ---
 # Details
 

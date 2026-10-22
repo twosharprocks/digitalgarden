@@ -11,23 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: -38.31813272843607
 longitude: 141.40766859054565
-country: "AUS"
-state: "Victoria"
 suburb: "Cape Bridgewater"
-privacy: public
 obsidian_aliases:
   - "Bridgewater Caves"
   - "VRO 2-7"
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/3d527236-d479-4932-85dd-e6d9120c25b4.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "25 m"
 address: "Tarragal Caves Trak, Cape Bridgewater, Victoria, AUS, 3305"
-location-checked: "false"
 ---
 # About
 

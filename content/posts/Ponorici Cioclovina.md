@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 45.574036999999976
 longitude: 23.136657000000014
-country: "ROU"
 suburb: "Boșorod"
-privacy: public
 region: "[[Romania]]"
 related:
   - "[[Diving]]"
-  - "[[Romania]]"
 cavedb: "https://app.cavedb.net/share/3e2522fa-3b2b-4954-9633-1f271199c7b9.html"
 catalog-type: "cave"
 altitude: "795 m"
 address: "Boșorod, ROU, 337099"
-location-checked: "false"
 ---
 # Details
 

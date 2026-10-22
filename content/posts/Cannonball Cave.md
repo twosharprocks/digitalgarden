@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 37.0308
 longitude: -90.41546700000004
-country: "USA"
 state: "Missouri"
 suburb: "Wayne County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[United States]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/395ba28f-18e2-4fd8-b482-769d25f68f6c.html"
 catalog-type: "cave"
 altitude: "123 m"
 address: "Unnamed Road, Wayne County, Missouri, USA, 63944"
-location-checked: "true"
 ---
 # Details
 

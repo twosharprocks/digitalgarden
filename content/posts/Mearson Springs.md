@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.041135999999995
 longitude: -83.02539999999999
-country: "USA"
-state: "Florida"
 suburb: "Lafayette County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/3997a009-3544-4dff-a209-19bd36d29cf0.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "9 m"
 address: "22405, 135th Ct, Lafayette County, Florida, USA, 32066"
-location-checked: "true"
 ---
 # Details
 

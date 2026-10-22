@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.51339999999999
 longitude: -82.58091100000001
-country: "USA"
-state: "Florida"
 suburb: "Hernando County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/758dbb50-d791-440e-a610-ab22cc32ac85.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "5 m"
 address: "6131, Commercial Way, Hernando County, Florida, USA, 34606"
-location-checked: "true"
 ---
 # Details
 

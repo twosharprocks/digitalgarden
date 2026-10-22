@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.644237999999973
 longitude: -82.94327299999998
-country: "USA"
-state: "Florida"
 suburb: "Gilchrist County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/002cad28-0e89-4cc3-9e7f-bbd87086c65f.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "3 m"
 address: "SW 80th Ave, Gilchrist County, Florida, USA, 32693"
-location-checked: "true"
 ---
 # Details
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.79889000000003
 longitude: -82.918968
-country: "USA"
-state: "Florida"
 suburb: "Gilchrist County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/5fced255-20a5-4408-a819-37bbc2e6e9f0.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "4 m"
 address: "6560, Unnamed Road, Gilchrist County, Florida, USA, 32619"
-location-checked: "true"
 ---
 # Details
 

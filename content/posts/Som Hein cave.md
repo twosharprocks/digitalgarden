@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 21.028258300000005
 longitude: 100.11960829999998
-country: "MMR"
 state: "Shan"
 suburb: "Monghpyak"
-privacy: public
 region: "[[Myanmar]]"
 related:
   - "[[Diving]]"
-  - "[[Myanmar]]"
 cavedb: "https://app.cavedb.net/share/cd925d75-4166-46fa-893a-ff84293d90e3.html"
 catalog-type: "cave"
 altitude: "732 m"
 address: "Monghpyak, Shan, MMR"
-location-checked: "true"
 ---
 # Details
 

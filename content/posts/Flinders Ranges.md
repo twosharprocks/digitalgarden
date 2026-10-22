@@ -49,7 +49,7 @@ Buckalowie Area
 # Cave Notes
 
 - 5F6 - Good Friday
-- 5F3 - Mairs Cave (Buckalowie)
+- 5F3 - [Mairs Cave]({{< relref "posts/Mairs Cave.md" >}}) (Buckalowie)
 - 5F7 - Mt Sims
 - 5F8 - Oraparinna
 - 5F53 - Walpunda Creek Blowhole

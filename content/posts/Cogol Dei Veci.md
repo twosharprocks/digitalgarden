@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 45.84349199999997
 longitude: 11.668586000000005
-country: "ITA"
 state: "Veneto"
 suburb: "Valbrenta"
-privacy: public
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/bfaed176-b0b3-48bb-8d8b-270c5a7e2f7c.html"
 catalog-type: "cave"
 altitude: "188 m"
 address: "60A, Via Oliero di Sotto, Valbrenta, Veneto, ITA, 36029"
-location-checked: "false"
 ---
 # Details
 

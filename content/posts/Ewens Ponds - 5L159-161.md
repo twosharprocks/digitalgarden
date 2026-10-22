@@ -12,20 +12,15 @@ tags:
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
   - "[[Ewens Ponds 2]]"
   - "[[Ewens Ponds 3]]"
   - "[[Ewens Ponds 4]]"
-  - "[[South Australia]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 feature_type: "Sinkhole"
 latitude: -38.02645799999999
 longitude: 140.790438
-country: "AUS"
-state: "South Australia"
 suburb: "Eight Mile Creek"
-privacy: public
 cavedb: "https://app.cavedb.net/share/10ed1c09-4b7a-4117-ade9-2654f2b0b6f0.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"

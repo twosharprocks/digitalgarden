@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.947175000000016
 longitude: -81.33974
-country: "USA"
-state: "Florida"
 suburb: "Volusia County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/d88de206-1087-4e25-a068-ae2f8099ddc3.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "1 m"
 address: "Unnamed Road, Volusia County, Florida, USA, 32763"
-location-checked: "true"
 ---
 # Details
 

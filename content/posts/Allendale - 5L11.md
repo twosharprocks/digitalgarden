@@ -12,17 +12,13 @@ region: "[[South Australia]]"
 related:
   - "[[Diving]]"
   - "[[Article - Allendale East Cave – Soggy Wombats]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[Book - Cave Diving]]"
   - "[[Mt Gambier - PROTECTED]]"
 rating: CDAA Cave, TDI Intro to Cave
 feature_type: "Cave"
 latitude: -38.005176000000006
 longitude: 140.70855299999994
-country: "AUS"
-state: "South Australia"
 suburb: "The District Council of Grant"
-privacy: public
 obsidian_aliases:
   - "Allendale East"
   - "Hole-In-The-Road"

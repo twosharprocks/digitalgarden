@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -5.171670000000006
 longitude: 122.58196999999996
-country: "IDN"
 suburb: "Muna"
-privacy: public
 region: "[[Indonesia]]"
 related:
   - "[[Diving]]"
-  - "[[Indonesia]]"
 rating: TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/ca82aa77-842a-49f0-aede-5ea618b0fa58.html"
 catalog-type: "cave"
 altitude: "20 m"
 address: "Muna, IDN, 93657"
-location-checked: "false"
 ---
 # About
 

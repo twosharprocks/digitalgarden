@@ -1,0 +1,57 @@
+---
+title: "Sheathers C"
+created: 2023-02-04
+updated: 2026-10-13
+status: seed
+draft: false
+tags:
+  - diving
+  - caving
+  - south-australia
+feature_type: "Depression"
+latitude: -37.73256135
+longitude: 140.75519248
+suburb: "Wandilo"
+obsidian_aliases:
+  - "One Fourty Four"
+region: "[[Australia]]"
+related:
+  - "[[Diving]]"
+cavedb: "https://app.cavedb.net/share/e5573e00-b57d-48d1-ac47-8ceefd721043.html"
+catalog-type: "cave"
+sub-region: "[[South Australia]]"
+altitude: "87 m"
+address: "Hinton Rd, Wandilo, South Australia, AUS, 5291"
+---
+# About
+
+Collapse - part of Sheathers but no obvious entrance
+
+# Details
+
+## Identification
+
+- **Feature type:** Depression
+- **Reference:** L0144c
+- **Source:** Forestry SA
+
+## Cave and exploration data
+
+- **Vertical access:** No
+- **Exploration potential:** Low
+- **Tourism potential:** Low
+
+## Access and warnings
+
+Forestry
+
+# References
+
+- **LSECR:** Page 286
+Named after a previous landowner, Mr. J.M. Sheather of Wandilo, this interesting cave is more affectionately known simply as "144" by those of us who participated in the early major explorations of the early 1980s.
+The cave was reportedly first discovered sometime around 1963 or thereabouts, after a calf fell into the entrance hole. It was first explored and sketched by caving-type people in January 1972, when a CEGSA party made up of Grant Ellis, Gordon Ninnes, Ruth and Margrett Richardson and L. & B. Copping discovered that the first chamber was a fairly small affair (around 5 metres wide) containing a sizeable 3 metre deep lake, and prophetically, Grant wrote that "underwater exploration may prove worthwhile; ... the appropriate diving gear would be required".
+Enticed by this rather succinct but tantalizing report, the author and fellow cave diver Peter Stace relocated the entrance in a young, densely-interlocked pine forest on January 3rd, 1982, and, equipped with nothing more than an underwater torch, facemask, shorts and a T-shirt (and considerable enthusiasm to brave 13 degree C. water in such clothes!), the author gasped in shock as he watched his bright blue beam disappear down a crystal clear, 30 metre-long by 10 metre wide flooded passage which had an incredibly flat ceiling! The next day, equipped with small scuba cylinders and other cave diving paraphernalia, they swam along this "First Tunnel" to a root-covered "Hole in the Wall" which led through into a major parallel passage. This passage was an easy snorkel most of the way along, before it sumped again in a series of very silty, low areas which required careful cave diving and line-following techniques. Many side-tunnels were found, and it became immediately apparent that we had stumbled across a most significant feature!
+A. Cox
+During the next 4 years, after a series of additional dives and digs (led by the author), more than half a kilometre of virgin passage had been discovered and mapped, and all but one major potential dig (at the end of the First Tunnel) had been exhausted. Much of the exploration involving the lower passages only took place because the water in the cave dropped almost a metre during that time as the pines grew overhead. This made exploration of almost the entire cave system possible... provided cavers were willing to swim in cold, quicksand-like mud which smelt like a sewer and covered their wetsuits up to their necks!
+The open, sandy entrance was made more secure by the installation of a metal tube and locking plate by the Woods and Forests Department in the mid-1980s.
+- **Forestry SA:** L0144C, Thin Roof: ? , Fence: ?. Dimensions: ?. Features: ?

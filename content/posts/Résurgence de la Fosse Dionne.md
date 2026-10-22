@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 47.85656399999999
 longitude: 3.970564999999965
-country: "FRA"
 state: "Bourgogne-Franche-Comté"
 suburb: "Tonnerre"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/a7d0c289-bb21-4d7c-8317-dc379a896569.html"
 catalog-type: "cave"
 altitude: "149 m"
 address: "14T, Rue de la Fosse Dionne, Tonnerre, Bourgogne-Franche-Comté, FRA, 89700"
-location-checked: "false"
 ---
 # Details
 

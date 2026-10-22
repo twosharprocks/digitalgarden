@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.879670000000033
 longitude: -82.59887000000003
-country: "USA"
-state: "Florida"
 suburb: "Citrus County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/150c7f79-a383-45b6-aa89-00d12b1b9e27.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "0 m"
 address: "1085-1115, N Cres Dr, Citrus County, Florida, USA, 34429"
-location-checked: "true"
 ---
 # Details
 

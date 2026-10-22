@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -31.547566000000018
 longitude: 115.692679
-country: "AUS"
-state: "Western Australia"
 suburb: "Perth"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 cavedb: "https://app.cavedb.net/share/4feb9bf8-555d-4c70-a5e6-d874e086d90b.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "32 m"
 address: "Perth, Western Australia, AUS, 6035"
-location-checked: "false"
 ---
 # Details
 

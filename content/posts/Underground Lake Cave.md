@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 45.859091000000035
 longitude: -64.67377799999997
-country: "CAN"
 state: "New Brunswick"
 suburb: "Hillsborough Parish"
-privacy: public
 region: "[[Canada]]"
 related:
   - "[[Diving]]"
-  - "[[Canada]]"
 cavedb: "https://app.cavedb.net/share/34bf70f7-7a66-43a8-9878-ba3b4e58858c.html"
 catalog-type: "cave"
 altitude: "88 m"
 address: "101, Underground Lake Rd, Hillsborough Parish, New Brunswick, CAN, E4H"
-location-checked: "false"
 ---
 # Details
 

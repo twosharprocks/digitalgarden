@@ -78,6 +78,7 @@ related:
 - [Mata air Labhalano]({{< relref "posts/Mata air Labhalano.md" >}})
 - [Mata Air Lapalai]({{< relref "posts/Mata Air Lapalai.md" >}})
 - [Mata Air Wolio]({{< relref "posts/Mata Air Wolio.md" >}})
+- [Moko Morete - 2nd Entrance-]({{< relref "posts/Moko Morete - 2nd Entrance-.md" >}})
 - [Napabale Lake]({{< relref "posts/Napabale Lake.md" >}})
 - [Oe Mamba Besar]({{< relref "posts/Oe Mamba Besar.md" >}})
 - [Pemandian Air Kambara]({{< relref "posts/Pemandian Air Kambara.md" >}})

@@ -11,20 +11,15 @@ tags:
 feature_type: "Depression"
 latitude: -38.034998
 longitude: 141.294297
-country: "AUS"
-state: "Victoria"
 suburb: "Glenelg Shire"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/9fc16316-e023-45ba-a2c6-9afac8e29f61.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "128 m"
 address: "1143, Winnap-Nelson Rd, Glenelg Shire, Victoria, AUS, 3304"
-location-checked: "false"
 ---
 # Details
 

@@ -11,10 +11,8 @@ tags:
 feature_type: "Cave"
 latitude: 43.97687400000001
 longitude: 16.42974300000003
-country: "HRV"
 state: "Šibenik-Knin County"
 suburb: "Općina Civljane"
-privacy: public
 obsidian_aliases:
   - "Eye of Kroatien"
   - "Dragon's Eye"
@@ -23,13 +21,11 @@ obsidian_aliases:
 region: "[[Croatia]]"
 related:
   - "[[Diving]]"
-  - "[[Croatia]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/870e0b78-7a6b-4c3b-95f6-ebf9d46edb17.html"
 catalog-type: "cave"
 altitude: "388 m"
 address: "28-36, Milaši, Općina Civljane, Šibenik-Knin County, HRV, 22310"
-location-checked: "false"
 ---
 # Details
 

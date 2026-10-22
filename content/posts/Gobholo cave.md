@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: -26.35721000000001
 longitude: 31.16931999999997
-country: "SWZ"
 state: "Hhohho Region"
-privacy: public
 region: "[[Eswatini]]"
 related:
   - "[[Diving]]"
-  - "[[Eswatini]]"
 cavedb: "https://app.cavedb.net/share/655e782b-be83-41ba-b444-78a56afc6b7c.html"
 catalog-type: "cave"
 altitude: "934 m"
 address: "Unnamed Road, Hhohho Region, SWZ"
-location-checked: "true"
 ---
 # About
 

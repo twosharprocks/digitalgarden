@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.791241000000014
 longitude: -82.51115199999998
-country: "USA"
-state: "Florida"
 suburb: "Alachua County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/cd7cd1d6-cb49-457b-a1d8-068f060551ae.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "48 m"
 address: "15068-15328, NW 149th Rd, Alachua County, Florida, USA, 32615"
-location-checked: "false"
 ---
 # Details
 

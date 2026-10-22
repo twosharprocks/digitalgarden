@@ -13,19 +13,15 @@ related:
   - "[[Diving]]"
   - "[[Photogrammetry - Processing]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
-  - "[[Muna Island - Sulawesi]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
   - "[[2025-08-04]]"
   - "[[Weekly - 2025-08-10]]"
-  - "[[Sulawesi]]"
 rating: TDI Intro to Cave
 feature_type: Cave
 latitude: -5.31504000000001
 longitude: 122.63250500000004
-country: IDN
 state: South East Sulawesi
 suburb: Buton Regency
-privacy: public
 obsidian_aliases:
   - "Goa Lapahia"
   - "Goa La Pahia"

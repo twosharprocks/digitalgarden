@@ -13,7 +13,6 @@ related:
   - "[[Trip - Thailand - Boh Yai Mines - 2026 Jan]]"
   - "[[empty files]]"
   - "[[Trip - Thailand - Boh Yai Mines - 2027 Jan]]"
-  - "[[Thailand]]"
 region: "[[Thailand]]"
 catalog-type: "cave"
 ---

@@ -11,22 +11,18 @@ tags:
 feature_type: "Mine"
 latitude: 50.776122999999984
 longitude: 16.444564000000014
-country: "POL"
 state: "Lower Silesian Voivodeship"
 suburb: "Świdnica County"
-privacy: public
 obsidian_aliases:
   - "Sztolnia Marie-Agnes"
 region: "[[Poland]]"
 related:
   - "[[Diving]]"
-  - "[[Poland]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/7c8b80cb-244e-4b1a-aede-295476fb2738.html"
 catalog-type: "cave"
 altitude: "294 m"
 address: "Równoległa doroga, Świdnica County, Lower Silesian Voivodeship, POL, 58"
-location-checked: "false"
 ---
 # About
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.076779180000017
 longitude: -82.33440124000003
-country: "USA"
-state: "Florida"
 suburb: "Hillsborough County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/cbd5c880-1c7e-47ad-bb34-a829619fbe71.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "8 m"
 address: "12634, Idlewood Dr, Hillsborough County, Florida, USA, 33592"
-location-checked: "true"
 ---
 # Details
 

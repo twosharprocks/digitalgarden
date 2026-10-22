@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.08847800000001
 longitude: -83.09626500000002
-country: "USA"
-state: "Florida"
 suburb: "Lafayette County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/b52d025c-019d-47f6-91ab-ee073bdc9efe.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "10 m"
 address: "320-828, NE Primrose Rd, Lafayette County, Florida, USA, 32066"
-location-checked: "true"
 ---
 # Details
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.337519999999984
 longitude: -82.68303800000001
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/c0693e8b-f3a8-45b1-a749-c140abf7a8bc.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "10 m"
 address: "12417, Unnamed Road, Pasco County, Florida, USA, 34667"
-location-checked: "true"
 ---
 # Details
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.770449999999983
 longitude: -85.94844999999998
-country: "USA"
-state: "Florida"
 suburb: "Holmes County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/1d0e3514-65bf-4d7e-ac9d-ad3d6d7b8d3b.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "20 m"
 address: "1518, Vortex Springs Ln, Holmes County, Florida, USA, 32455"
-location-checked: "true"
 ---
 # Details
 

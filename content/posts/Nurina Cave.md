@@ -12,15 +12,11 @@ region: "[[Western Australia]]"
 related:
   - "[[Diving]]"
   - "[[Photogrammetry - Processing]]"
-  - "[[Roe Plains]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 feature_type: "Cave"
 latitude: -32.01630499999999
 longitude: 127.00737800000002
-country: "AUS"
-state: "Western Australia"
 suburb: "Shire of Dundas"
-privacy: restricted-or-unknown
 cavedb: "https://app.cavedb.net/share/69f453d4-3746-47c7-89c2-d18ccef28e10.html"
 catalog-type: "cave"
 sub-region: "[[Roe Plains]]"

@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 26.906802999999968
 longitude: -77.713637
-country: "BHS"
 state: "Abaco"
 suburb: "Abaco"
-privacy: public
 region: "[[Bahamas]]"
 related:
   - "[[Diving]]"
-  - "[[Bahamas]]"
 cavedb: "https://app.cavedb.net/share/00fd9676-f0d2-425d-8424-6eeec2730e74.html"
 catalog-type: "cave"
 altitude: "-1 m"
 address: "SC Bootle Hwy, Abaco, Abaco, BHS"
-location-checked: "false"
 ---
 # About
 

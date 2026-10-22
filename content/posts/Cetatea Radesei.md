@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 46.63006300000001
 longitude: 22.70819000000006
-country: "ROU"
 suburb: "Budureasa"
-privacy: public
 obsidian_aliases:
   - "Rădeasa's Fortress Cave"
 region: "[[Romania]]"
 related:
   - "[[Diving]]"
-  - "[[Romania]]"
 cavedb: "https://app.cavedb.net/share/ae2da9ae-6d45-4c09-a7b8-d2c8fb831263.html"
 catalog-type: "cave"
 altitude: "1290 m"
 address: "Budureasa, ROU, 417100"
-location-checked: "false"
 ---
 # Details
 

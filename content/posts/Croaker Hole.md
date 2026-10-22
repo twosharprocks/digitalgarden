@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.438300000000027
 longitude: -81.68916999999999
-country: "USA"
-state: "Florida"
 suburb: "Putnam County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/c1520e79-179a-442e-96c1-30630101fe5c.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "5 m"
 address: "Unnamed Road, Putnam County, Florida, USA, 32112"
-location-checked: "true"
 ---
 # Details
 

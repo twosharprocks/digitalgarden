@@ -14,14 +14,10 @@ related:
   - "[[Photogrammetry - Processing]]"
   - "[[Wellington Caves]]"
   - "[[2025-09-27]]"
-  - "[[New South Wales]]"
 feature_type: "Cave"
 latitude: -32.622006999999996
 longitude: 148.939206
-country: "AUS"
-state: "New South Wales"
 suburb: "Dubbo Regional Council"
-privacy: public
 obsidian_aliases:
   - "Limekiln"
   - "McCavity"

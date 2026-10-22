@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -37.79276999999999
 longitude: 145.67111999999997
-country: "AUS"
-state: "Victoria"
 suburb: "Wesburn"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/22e432b8-cd64-477e-bb27-8978c0be2157.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "315 m"
 address: "Britannia Creek Rd, Wesburn, Victoria, AUS, 3799"
-location-checked: "false"
 ---
 # About
 

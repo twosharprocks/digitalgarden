@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 46.03996000000001
 longitude: 12.49676999999997
-country: "ITA"
 state: "Friuli-Venezia Giulia"
 suburb: "Polcenigo"
-privacy: public
 obsidian_aliases:
   - "Source of the Gorgazzo"
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/f3db20e0-a28e-4462-9f15-d9207bfefc58.html"
 catalog-type: "cave"
 altitude: "72 m"
 address: "5, Via Sorgente, Polcenigo, Friuli-Venezia Giulia, ITA, 33070"
-location-checked: "false"
 ---
 # About
 

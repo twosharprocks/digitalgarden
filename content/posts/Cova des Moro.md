@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 39.50423627665839
 longitude: 3.3014827966690063
-country: "ESP"
 state: "Illes Balears"
 suburb: "Manacor"
-privacy: public
 obsidian_aliases:
   - "Moors Cave"
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/da7a4207-5468-45ba-bfce-4442bce6334d.html"
 catalog-type: "cave"
 altitude: "7 m"
 address: "Camí Cala Falcó, Manacor, Illes Balears, ESP, 07689"
-location-checked: "false"
 ---
 # Details
 

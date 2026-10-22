@@ -13,7 +13,6 @@ related:
   - "[[Diving]]"
   - "[[5L20 - Englebrecht's West]]"
   - "[[Article - Making Sense with MNemo]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[Book - Cave Diving]]"
   - "[[Mt Gambier - PROTECTED]]"
   - "[[Reply - Stratis Kas State of Cave Exploration 2026]]"

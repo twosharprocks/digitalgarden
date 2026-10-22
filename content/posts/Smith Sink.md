@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.0408003
 longitude: -82.93704860000003
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/c70f1806-2eab-4569-ba0a-8aaf646526aa.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "15 m"
 address: "9301, Howell Rd, Suwannee County, Florida, USA, 32071"
-location-checked: "true"
 ---
 # Details
 

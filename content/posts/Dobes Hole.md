@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.434320000000014
 longitude: -82.17009999999999
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/41b5041f-765a-4993-aeca-9641a6739356.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "18 m"
 address: "38726, Hart Dr, Pasco County, Florida, USA, 33523"
-location-checked: "true"
 ---
 # Details
 

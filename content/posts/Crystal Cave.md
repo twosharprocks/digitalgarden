@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 32.35004500000002
 longitude: -64.71468199999998
-country: "BMU"
 state: "Hamilton Parish"
-privacy: public
 region: "[[Bermuda]]"
 related:
   - "[[Diving]]"
-  - "[[Bermuda]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/e6261eea-ca29-4588-9fd1-0eb3a8acc01c.html"
 catalog-type: "cave"
 altitude: "25 m"
 address: "6-4, Wilkinson Ave, Hamilton Parish, BMU"
-location-checked: "true"
 ---
 # Details
 

@@ -13,16 +13,12 @@ related:
   - "[[Diving]]"
   - "[[Exploration]]"
   - "[[Article - Making Sense with MNemo]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[Englebrecht's Cave - 5L19-20]]"
 rating: CDAA Cave, TDI Intro to Cave
 feature_type: "Cave"
 latitude: -37.820997164671496
 longitude: 140.7724947470581
-country: "AUS"
-state: "South Australia"
 suburb: "City of Mount Gambier"
-privacy: public
 obsidian_aliases:
   - "North Terrace"
   - "Vansittarts"

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.125873000000013
 longitude: -83.22627
-country: "USA"
-state: "Florida"
 suburb: "Lafayette County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/6f9d7ca9-d2b5-41ea-9e89-f7ac55c372a7.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "12 m"
 address: "805, N White Water Trail, Lafayette County, Florida, USA, 32066"
-location-checked: "true"
 ---
 # Details
 

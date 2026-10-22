@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.836149999999975
 longitude: -82.70017000000001
-country: "USA"
-state: "Florida"
 suburb: "Gilchrist County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/ea056d0d-65ff-4e96-a710-842cb7d66d08.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "7 m"
 address: "5000, NE 60th Ave, Gilchrist County, Florida, USA, 32643"
-location-checked: "true"
 ---
 # Details
 

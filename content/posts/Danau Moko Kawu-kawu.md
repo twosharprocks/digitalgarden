@@ -11,14 +11,11 @@ tags:
 feature_type: "Sinkhole"
 latitude: -4.933444
 longitude: 122.759712
-country: "IDN"
 state: "South East Sulawesi"
 suburb: "Muna Regency"
-privacy: public
 region: "[[Indonesia]]"
 related:
   - "[[Diving]]"
-  - "[[Sulawesi]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
 cavedb: "https://app.cavedb.net/share/2c6ba4dc-eedf-4641-9430-353cb5c8ea87.html"
@@ -26,7 +23,6 @@ catalog-type: "cave"
 sub-region: "[[Sulawesi]]"
 altitude: "9 m"
 address: "Muna Regency, South East Sulawesi, IDN, 93658"
-location-checked: "false"
 ---
 # Details
 

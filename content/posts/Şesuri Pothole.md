@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 46.49157300000002
 longitude: 22.812319000000002
-country: "ROU"
 state: "Alba County"
 suburb: "Garda de Sus"
-privacy: public
 obsidian_aliases:
   - "Avenul din Șesuri"
   - "Peștera 1 Mai"
 region: "[[Romania]]"
 related:
   - "[[Diving]]"
-  - "[[Romania]]"
 cavedb: "https://app.cavedb.net/share/28d53d39-0ae9-4c38-9d61-c93d3e3915a2.html"
 catalog-type: "cave"
 altitude: "1138 m"
 address: "DJ750, Garda de Sus, Alba County, ROU, 517317"
-location-checked: "false"
 ---
 # Details
 

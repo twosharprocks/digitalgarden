@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 39.39215899999999
 longitude: 3.251577999999995
-country: "ESP"
 state: "Illes Balears"
 suburb: "Felanitx"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/e3dff5e9-7f2e-41ce-94dc-6fd5ed03c0e4.html"
 catalog-type: "cave"
 altitude: "8 m"
 address: "Felanitx, Illes Balears, ESP, 07669"
-location-checked: "false"
 ---
 # About
 

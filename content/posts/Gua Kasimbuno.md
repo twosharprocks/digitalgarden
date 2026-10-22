@@ -11,14 +11,11 @@ tags:
 feature_type: "Cave"
 latitude: -5.296349
 longitude: 122.31637
-country: "IDN"
 state: "South East Sulawesi"
 suburb: "Buton Regency"
-privacy: public
 region: "[[Indonesia]]"
 related:
   - "[[Diving]]"
-  - "[[Sulawesi]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
 cavedb: "https://app.cavedb.net/share/5c9646dc-c53d-4f73-b678-c57469d093f5.html"
@@ -26,7 +23,6 @@ catalog-type: "cave"
 sub-region: "[[Sulawesi]]"
 altitude: "22 m"
 address: "Buton Regency, South East Sulawesi, IDN, 93762"
-location-checked: "false"
 ---
 # Details
 

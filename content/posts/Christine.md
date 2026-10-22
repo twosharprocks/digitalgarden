@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 51.298832000000004
 longitude: 8.612229999999954
-country: "DEU"
 state: "Hessen"
 suburb: "Willingen (Upland)"
-privacy: public
 region: "[[Germany]]"
 related:
   - "[[Diving]]"
-  - "[[Germany]]"
 cavedb: "https://app.cavedb.net/share/cc1f75c6-b9f5-4bb8-8154-bd0fdf2630a1.html"
 catalog-type: "cave"
 altitude: "551 m"
 address: "32, Schwalefelder Straße, Willingen (Upland), Hessen, DEU, 34508"
-location-checked: "false"
 ---
 # Details
 

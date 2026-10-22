@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 40.225458
 longitude: 9.62607300000002
-country: "ITA"
 state: "Sardegna"
 suburb: "Baunei"
-privacy: public
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/d3c020e4-a1d9-4147-8d45-14568787200c.html"
 catalog-type: "cave"
 altitude: "9 m"
 address: "Baunei, Sardegna, ITA, 08040"
-location-checked: "false"
 ---
 # About
 

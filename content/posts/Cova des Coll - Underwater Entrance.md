@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 39.426874999999995
 longitude: 3.2661150000000134
-country: "ESP"
 state: "Balearic Islands"
 suburb: "Balearic Islands"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/6c426fa9-3b02-4c28-b881-08f0c795c38f.html"
 catalog-type: "cave"
 altitude: "4 m"
 address: "12-190, Carrer del Carme, Balearic Islands, Balearic Islands, ESP, 07670"
-location-checked: "false"
 ---
 # Details
 

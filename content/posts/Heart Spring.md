@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.340039999999988
 longitude: -82.72947199999999
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/6f279b5e-0e54-49d8-a2c3-0835046788c0.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "0 m"
 address: "6153-6101, Tower Dr, Pasco County, Florida, USA, 34667"
-location-checked: "true"
 ---
 # Details
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.684440600000016
 longitude: -85.3163323
-country: "USA"
-state: "Florida"
 suburb: "Jackson County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/ab18bdc0-08d0-4655-9940-8fa3b552d970.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "29 m"
 address: "1573, Co Rd 167, Jackson County, Florida, USA, 32448"
-location-checked: "true"
 ---
 # Details
 

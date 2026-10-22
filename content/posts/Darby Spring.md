@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.85262
 longitude: -82.60595999999998
-country: "USA"
-state: "Florida"
 suburb: "Alachua County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/c7e0f1fe-fbd1-4848-ab1b-184f5e22986f.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "9 m"
 address: "700-24316, NW 212th Ave, Alachua County, Florida, USA, 32643"
-location-checked: "true"
 ---
 # Details
 

@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 22.698775000000012
 longitude: -99.04552699999999
-country: "MEX"
 state: "Tamaulipas"
 suburb: "El Mante"
-privacy: public
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Mexico]]"
 cavedb: "https://app.cavedb.net/share/51a36d73-d98f-4cc7-a551-1ebd4fc532cf.html"
 catalog-type: "cave"
 altitude: "99 m"
 address: "El Mante, Tamaulipas, MEX, 89800"
-location-checked: "false"
 ---
 # Details
 

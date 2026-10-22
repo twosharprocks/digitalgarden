@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 39.41827000000001
 longitude: 3.2744109999999864
-country: "ESP"
 state: "Illes Balears"
 suburb: "Felanitx"
-privacy: public
 obsidian_aliases:
   - "Cova Gran"
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/ae22aa91-65b1-434e-882c-e71063d84052.html"
 catalog-type: "cave"
 altitude: "15 m"
 address: "27, Carrer de la Ciutat de Sette, Felanitx, Illes Balears, ESP, 07670"
-location-checked: "false"
 ---
 # Details
 

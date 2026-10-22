@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -37.384720000000016
 longitude: 148.351
-country: "AUS"
-state: "Victoria"
 suburb: "W Tree"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/decbe907-6f2e-4a97-8942-58d54c36ce02.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "150 m"
 address: "New Guinea Trak, W Tree, Victoria, AUS, 3885"
-location-checked: "false"
 ---
 # About
 

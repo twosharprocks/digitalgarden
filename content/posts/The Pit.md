@@ -11,21 +11,17 @@ tags:
 feature_type: Cave
 latitude: 20.323210000000017
 longitude: -87.40990999999997
-country: MEX
 state: Quintana Roo
 suburb: Tulum Municipality
-privacy: public
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
 rating: TDI Intro to Cave
 cavedb: https://app.cavedb.net/share/0785aa88-5251-4c57-81a8-b3cd3caf5136.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
 altitude: "13 m"
 address: "Vía Sin Nombre, Tulum Municipality, Quintana Roo, MEX, 77774"
-location-checked: "false"
 ---
 # Details
 

@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: -15.713888888888903
 longitude: 167.1344444444444
-country: "VUT"
 state: "Sanma Province"
 suburb: "West Malo"
-privacy: public
 region: "[[Vanuatu]]"
 related:
   - "[[Diving]]"
-  - "[[Vanuatu]]"
   - "[[Trip - Vanuatu - 2027 April]]"
 cavedb: "https://app.cavedb.net/share/c9bdf420-4cb8-4a59-b832-49725df48f35.html"
 catalog-type: "cave"
 altitude: "28 m"
 address: "West Malo, Sanma Province, VUT"
-location-checked: "true"
 ---
 # About
 

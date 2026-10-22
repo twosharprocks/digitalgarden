@@ -11,21 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -31.559788999999995
 longitude: 129.89555500000006
-country: "AUS"
-state: "South Australia"
 suburb: "Nullarbor"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 cavedb: "https://app.cavedb.net/share/35de174b-0597-454e-afb0-c798aa7a8607.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "71 m"
 address: "Koonalda Rd, Nullarbor, South Australia, AUS, 5690"
-location-checked: "true"
-location-checked-by: "MW"
 ---
 # About
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 27.07449600000001
 longitude: -82.23325599999998
-country: "USA"
-state: "Florida"
 suburb: "Sarasota County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/10a6d156-0b79-4ba3-834a-456f7c257b7c.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "6 m"
 address: "6879-6995, W Price Blvd, Sarasota County, Florida, USA, 34287"
-location-checked: "true"
 ---
 # Details
 

@@ -11,20 +11,15 @@ tags:
 feature_type: "RockyOutcrop"
 latitude: -37.990425000000016
 longitude: 140.822491
-country: "AUS"
-state: "South Australia"
 suburb: "Caveton"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 cavedb: "https://app.cavedb.net/share/9c0941bf-37fd-41cb-8120-ed53e6b1185e.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "17 m"
 address: "Bones Rd, Caveton, South Australia, AUS, 5291"
-location-checked: "false"
 ---
 # Details
 

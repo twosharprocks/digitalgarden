@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 44.852967000000035
 longitude: 1.5420830000000478
-country: "FRA"
 state: "Occitanie"
 suburb: "Lacave"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/4b908715-ea20-4815-bb67-d4ab28e07072.html"
 catalog-type: "cave"
 altitude: "104 m"
 address: "Lieu-dit Meyraguet, Lacave, Occitanie, FRA, 46200"
-location-checked: "true"
 ---
 # Details
 

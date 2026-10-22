@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 46.697993
 longitude: 6.345483999999942
-country: "CHE"
 state: "Vaud"
 suburb: "Jura-Nord vaudois District"
-privacy: public
 region: "[[Switzerland]]"
 related:
   - "[[Diving]]"
-  - "[[Switzerland]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/e8a717c7-b20b-4199-9712-3ff8dfa13665.html"
 catalog-type: "cave"
 altitude: "845 m"
 address: "Chem. des Grottes, Jura-Nord vaudois District, Vaud, CHE, 1337"
-location-checked: "true"
 ---
 # Details
 

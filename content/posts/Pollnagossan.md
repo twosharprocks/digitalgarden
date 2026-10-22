@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 54.265926000000036
 longitude: -7.904233999999974
-country: "IRL"
 state: "County Cavan"
 suburb: "Cavan"
-privacy: public
 region: "[[Ireland]]"
 related:
   - "[[Diving]]"
-  - "[[Ireland]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/db3b4f5b-6821-4c4e-9591-2cc8300e17ef.html"
 catalog-type: "cave"
 altitude: "209 m"
 address: "Unnamed Road, Cavan, County Cavan, IRL"
-location-checked: "true"
 ---
 # Details
 

@@ -16,16 +16,12 @@ related:
   - "[[Photogrammetry - Processing]]"
   - "[[Trip - Murra-Cocklebiddy - 2026 Aug]]"
   - "[[Trip - Murra El Elevyn - 2025 Oct]]"
-  - "[[Nullarbor High Plains]]"
   - "[[Weekly - 2026-08-30]]"
 rating: CDAA Cave, TDI Intro to Cave
 feature_type: "Cave"
 latitude: -31.965543320399092
 longitude: 125.91686546802521
-country: "AUS"
-state: "Western Australia"
 suburb: "Shire of Dundas"
-privacy: public
 cavedb: "https://app.cavedb.net/share/c3fffd30-d70d-42ed-9d4f-09a4cde11f7a.html"
 catalog-type: "cave"
 sub-region: "[[Nullarbor High Plains]]"

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.11840000000001
 longitude: -83.16694166669998
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/b59dcb0a-ffb5-45c5-89ee-bec5a459b930.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "9 m"
 address: "18066-18058, 203rd Rd, Suwannee County, Florida, USA, 32060"
-location-checked: "true"
 ---
 # Details
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.005837999999983
 longitude: -82.99742000000003
-country: "USA"
-state: "Florida"
 suburb: "Lafayette County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/34ae3abb-d4ed-4397-a475-27bce81f1881.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "7 m"
 address: "705, Unnamed Road, Lafayette County, Florida, USA, 32066"
-location-checked: "true"
 ---
 # Details
 

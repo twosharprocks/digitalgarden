@@ -11,21 +11,17 @@ tags:
 feature_type: Cave
 latitude: 20.29721999999998
 longitude: -87.41555
-country: MEX
 state: Quintana Roo
 suburb: Tulum Municipality
-privacy: public
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
 rating: TDI Open Water Scuba Diver
 cavedb: https://app.cavedb.net/share/a8ea9002-99de-45e0-9685-bd77a1637a31.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
 altitude: "19 m"
 address: "Caracol Rd, Tulum Municipality, Quintana Roo, MEX, 77772"
-location-checked: "true"
 ---
 # Details
 

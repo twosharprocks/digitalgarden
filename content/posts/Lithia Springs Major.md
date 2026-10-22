@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 27.865996999999993
 longitude: -82.23119099999997
-country: "USA"
-state: "Florida"
 suburb: "Lithia"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 cavedb: "https://app.cavedb.net/share/9f777616-8feb-460e-b297-c432679cc501.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "3 m"
 address: "Lithia Springs Rd, Lithia, Florida, USA, 33547"
-location-checked: "true"
 ---
 # Details
 

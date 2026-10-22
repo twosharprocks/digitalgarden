@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.062419999999975
 longitude: -82.34671000000003
-country: "USA"
-state: "Florida"
 suburb: "Hillsborough County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/da513750-8e86-4703-9be1-99d8a5fe7cd2.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "8 m"
 address: "12129, Old Morris Bridge Rd, Hillsborough County, Florida, USA, 33592"
-location-checked: "true"
 ---
 # Details
 

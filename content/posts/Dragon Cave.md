@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 40.732071
 longitude: 24.731775
-country: "GRC"
 state: "Decentralized Administration of Macedonia and Thrace"
 suburb: "East Macedonia and Thrace"
-privacy: public
 obsidian_aliases:
   - "Cave Drakotrypa"
   - "Thassos Dragon Cave"
 region: "[[Greece]]"
 related:
   - "[[Diving]]"
-  - "[[Greece]]"
 cavedb: "https://app.cavedb.net/share/9d390378-f17c-4f7e-896e-d0ae3a0e22ec.html"
 catalog-type: "cave"
 altitude: "165 m"
 address: "Odos Hvris Onomasia, East Macedonia and Thrace, Decentralized Administration of Macedonia and Thrace, GRC, 640 04"
-location-checked: "false"
 ---
 # Details
 

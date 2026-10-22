@@ -11,24 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: -37.76784977
 longitude: 140.55618207999999
-country: "AUS"
-state: "South Australia"
 suburb: "The District Council of Grant"
-privacy: public
 obsidian_aliases:
   - "Morgan's Cave Main Entrance"
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 rating: CDAA Cave, TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/69771605-f2bb-4903-b4b5-d94415a04d35.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "48 m"
 address: "Unnamed Road, The District Council of Grant, South Australia, AUS, 5291"
-location-checked: "true"
-location-checked-by: "MW - Foot"
 ---
 # About
 

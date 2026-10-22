@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.54618099999999
 longitude: -82.61936600000001
-country: "USA"
-state: "Florida"
 suburb: "Hernando County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/f42543e1-0d9b-4ca1-bc16-147aa7896667.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "1 m"
 address: "6101, Cortez Blvd, Hernando County, Florida, USA, 34607"
-location-checked: "true"
 ---
 # Details
 

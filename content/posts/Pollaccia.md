@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 44.06042000000002
 longitude: 10.303390000000036
-country: "ITA"
 state: "Toscana"
 suburb: "Careggine"
-privacy: public
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/1a809bf5-1bf9-4097-9528-f5e85bafc906.html"
 catalog-type: "cave"
 altitude: "614 m"
 address: "Via d'Arni, Careggine, Toscana, ITA, 55030"
-location-checked: "false"
 ---
 # Details
 

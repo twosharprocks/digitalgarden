@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 47.65753999999998
 longitude: -113.24445000000003
-country: "USA"
 state: "Montana"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[United States]]"
 cavedb: "https://app.cavedb.net/share/777c2b0b-9db6-4175-8f7e-268a41815aea.html"
 catalog-type: "cave"
 altitude: "2275 m"
 address: "Montana, USA"
-location-checked: "false"
 ---
 # About
 

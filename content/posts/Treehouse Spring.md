@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.854885999999965
 longitude: -82.60287800000003
-country: "USA"
-state: "Florida"
 suburb: "Alachua County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/0b973754-5a09-48c1-99be-4abb278ddb6b.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "10 m"
 address: "432, SE Resort Cir, Alachua County, Florida, USA, 32643"
-location-checked: "true"
 ---
 # Details
 

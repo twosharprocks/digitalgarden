@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.480550291815064
 longitude: -83.24435234069819
-country: "USA"
-state: "Florida"
 suburb: "Madison County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/1ab377eb-d245-4dec-8ce7-cecf3bbef559.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "13 m"
 address: "8300, FL-6, Madison County, Florida, USA, 32059"
-location-checked: "false"
 ---
 # Details
 

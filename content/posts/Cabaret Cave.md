@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -31.541606
 longitude: 115.69007199999999
-country: "AUS"
-state: "Western Australia"
 suburb: "Perth"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 cavedb: "https://app.cavedb.net/share/1725a0bd-741f-40f5-9fc6-51b1ad1c3602.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "33 m"
 address: "Ghosthouse Walk, Perth, Western Australia, AUS, 6035"
-location-checked: "false"
 ---
 # About
 

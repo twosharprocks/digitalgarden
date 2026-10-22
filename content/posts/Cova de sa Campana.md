@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 39.84509000000003
 longitude: 2.810259999999971
-country: "ESP"
 state: "Illes Balears"
 suburb: "Escorca"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/b9f3df82-4da8-42d3-82dd-8d5d8df8a374.html"
 catalog-type: "cave"
 altitude: "355 m"
 address: "Ma-2141, Escorca, Illes Balears, ESP, 07315"
-location-checked: "false"
 ---
 # Details
 

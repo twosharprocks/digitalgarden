@@ -20,7 +20,8 @@ related:
 
 # Caves
 
-
+- [Cotter Caves]({{< relref "posts/Cotter Caves.md" >}})
+- [Lennox House Cave - Location TBC]({{< relref "posts/Lennox House Cave - Location TBC.md" >}})
 
 # Cave Notes
 

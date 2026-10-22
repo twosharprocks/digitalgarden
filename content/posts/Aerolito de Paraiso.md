@@ -11,21 +11,17 @@ tags:
 feature_type: Cave
 latitude: 20.446300000000008
 longitude: -86.97812999999996
-country: MEX
 state: Quintana Roo
 suburb: Cozumel
-privacy: public
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
 rating: TDI Intro to Cave
 cavedb: https://app.cavedb.net/share/8a01b4c4-f9b7-4b1d-9eb7-3ced6bdbafc8.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
 altitude: "11 m"
 address: "Quintana Roo C-1, Cozumel, Quintana Roo, MEX, 77688"
-location-checked: "false"
 ---
 # Details
 

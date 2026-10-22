@@ -11,20 +11,16 @@ tags:
 feature_type: "Mine"
 latitude: 47.485134000000016
 longitude: 19.13777600000003
-country: "HUN"
 state: "Budapest"
 suburb: "Budapest"
-privacy: public
 region: "[[Hungary]]"
 related:
   - "[[Diving]]"
-  - "[[Hungary]]"
 rating: TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/b2fed969-cdc5-4a40-8ceb-1434c516ccc6.html"
 catalog-type: "cave"
 altitude: "128 m"
 address: "20, Előd u., Budapest, Budapest, HUN, 1105"
-location-checked: "false"
 ---
 # Details
 

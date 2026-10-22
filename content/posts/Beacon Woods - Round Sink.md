@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.332148000000018
 longitude: -82.67912999999999
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/ab9e6c5f-fbe4-4dc7-a246-1002986fb491.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "3 m"
 address: "8131, Unnamed Road, Pasco County, Florida, USA, 34667"
-location-checked: "true"
 ---
 # Details
 

@@ -13,15 +13,11 @@ related:
   - "[[Diving]]"
   - "[[Photogrammetry - Processing]]"
   - "[[Planning - Nullarbor]]"
-  - "[[Nullarbor High Plains]]"
   - "[[Filming - Documentary on Nullarbor]]"
 feature_type: "Cave"
 latitude: -31.98456886385432
 longitude: 127.0398473739624
-country: "AUS"
-state: "Western Australia"
 suburb: "Madura"
-privacy: public
 cavedb: "https://app.cavedb.net/share/81d18626-fb1a-40ef-84d3-f20f84b9e5e4.html"
 catalog-type: "cave"
 sub-region: "[[Nullarbor High Plains]]"

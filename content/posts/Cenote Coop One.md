@@ -11,20 +11,16 @@ tags:
 feature_type: Cave
 latitude: 20.365706999999986
 longitude: -87.41795400000001
-country: MEX
 state: Quintana Roo
 suburb: Tulum
-privacy: public
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
 cavedb: https://app.cavedb.net/share/ecc80e35-2dca-4971-90f4-e4d2a28450d5.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
 altitude: "16 m"
 address: "Tulum, Quintana Roo, MEX, 77760"
-location-checked: "false"
 ---
 # Details
 

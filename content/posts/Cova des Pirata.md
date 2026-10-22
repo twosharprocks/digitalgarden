@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 39.50695144994597
 longitude: 3.299485221505165
-country: "ESP"
 state: "Balearic Islands"
 suburb: "Balearic Islands"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/962f048b-a12f-4727-a59f-fe00f73a91ca.html"
 catalog-type: "cave"
 altitude: "28 m"
 address: "Via Sense Nom, Balearic Islands, Balearic Islands, ESP, 07680"
-location-checked: "false"
 ---
 # Details
 

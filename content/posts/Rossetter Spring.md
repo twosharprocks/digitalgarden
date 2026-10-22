@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.544700000000034
 longitude: -83.25009999999997
-country: "USA"
-state: "Florida"
 suburb: "Hamilton County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/8feb8826-fcc8-431e-b138-95f612aeba64.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "18 m"
 address: "3012-3632, NW Hardee Cp Rd, Hamilton County, Florida, USA, 32053"
-location-checked: "true"
 ---
 # Details
 

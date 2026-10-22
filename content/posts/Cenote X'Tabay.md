@@ -10,20 +10,16 @@ tags:
   - yucatan-mexico
 latitude: 20.499199999999973
 longitude: -87.26082600000001
-country: MEX
 state: Quintana Roo
 suburb: Solidaridad
-privacy: public
 region: "[[Mexico]]"
 related:
   - "[[Diving]]"
-  - "[[Yucatan]]"
 cavedb: https://app.cavedb.net/share/9a3369e1-e101-433a-b7f6-be3445051acc.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
 altitude: "8 m"
 address: "Solidaridad, Quintana Roo, MEX"
-location-checked: "false"
 ---
 # Details
 

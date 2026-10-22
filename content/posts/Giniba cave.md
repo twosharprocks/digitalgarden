@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 12.435138999999992
 longitude: 53.93927780000001
-country: "YEM"
 state: "Socotra"
 suburb: "Hadibu"
-privacy: public
 region: "[[Yemen]]"
 related:
   - "[[Diving]]"
-  - "[[Yemen]]"
 cavedb: "https://app.cavedb.net/share/9280b356-037e-42d0-93b7-98bbc1ca44c4.html"
 catalog-type: "cave"
 altitude: "390 m"
 address: "Tariaq Bedon Esm, Hadibu, Socotra, YEM"
-location-checked: "true"
 ---
 # Details
 

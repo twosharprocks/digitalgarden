@@ -11,20 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 30.65138889000002
 longitude: -83.37222222000003
-country: "USA"
 state: "Georgia"
 suburb: "Brooks County"
-privacy: public
-region: "[[Georgia]]"
+region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Georgia]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/2aee12cc-b4f3-444f-acc9-d720489b6f23.html"
 catalog-type: "cave"
 altitude: "24 m"
 address: "609, County Rd 83, Brooks County, Georgia, USA, 31643"
-location-checked: "true"
+sub-region: "[[Georgia - United States]]"
 ---
 # Details
 

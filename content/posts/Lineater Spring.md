@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.41669999999999
 longitude: -83.15280000000001
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/d02a57d4-118a-485b-bbe4-c8cfa2818ee1.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "17 m"
 address: "4598, SW 46th Ave, Suwannee County, Florida, USA, 32060"
-location-checked: "true"
 ---
 # Details
 

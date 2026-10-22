@@ -12,7 +12,6 @@ region: "[[South Australia]]"
 related:
   - "[[Caving - Ideas]]"
   - "[[Diving]]"
-  - "[[Flinders Ranges]]"
   - "[[empty files]]"
 catalog-type: "cave"
 sub-region: "[[Flinders Ranges]]"

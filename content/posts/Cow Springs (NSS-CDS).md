@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.105911297823468
 longitude: -83.11464071273798
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/bb79a884-848f-492e-b2c7-c0cdb0e81cca.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "14 m"
 address: "17901, 186th Pl, Suwannee County, Florida, USA, 32060"
-location-checked: "false"
 ---
 # Details
 

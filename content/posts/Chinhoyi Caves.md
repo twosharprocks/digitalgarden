@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: -17.356074000000007
 longitude: 30.12909300000001
-country: "ZWE"
 suburb: "Makonde"
-privacy: public
 region: "[[Zimbabwe]]"
 related:
   - "[[Diving]]"
-  - "[[Zimbabwe]]"
 cavedb: "https://app.cavedb.net/share/e8ecf61c-62dd-41fa-91f8-3c25a6aeaa07.html"
 catalog-type: "cave"
 altitude: "1236 m"
 address: "Makonde, ZWE"
-location-checked: "false"
 ---
 # Details
 
@@ -42,7 +38,7 @@ location-checked: "false"
 - **GoogleMaps:** https://goo.gl/maps/uJa6KUKvCcEZ7vGc6
 - **Wikipedia:** https://en.wikipedia.org/wiki/Chinhoyi_Caves
 
-"The cave system is composed of limestone and dolomite. The main cave contains a pool of cobalt blue water, which is popularly called Sleeping Pool or Chirorodziva ("Pool of the Fallen").[2] Divers have discovered a submarine passage leading from the Bat Cave, a subchamber of the Dark Cave to another room known as the Blind Cave. Diving is possible in the caves all year round, with temperatures never beyond the 22 to 24 °C (72 to 75 °F) range with zero thermocline. Visibility is high, and 50 metres (160 ft) and above is not unusual. This site is often visited by diving expedition teams of technical divers that perform ultra deep diving. It is not uncommon for dives in excess of 100 metres (330 ft) to be made here by experienced technical divers. A campsite, run by the National Parks Authority, and a motel are located on-site."
+"The cave system is composed of limestone and dolomite. The main cave contains a pool of cobalt blue water, which is popularly called Sleeping Pool or Chirorodziva ("Pool of the Fallen").[2] Divers have discovered a submarine passage leading from the [Bat Cave]({{< relref "posts/Bat Cave.md" >}}), a subchamber of the Dark Cave to another room known as the Blind Cave. Diving is possible in the caves all year round, with temperatures never beyond the 22 to 24 °C (72 to 75 °F) range with zero thermocline. Visibility is high, and 50 metres (160 ft) and above is not unusual. This site is often visited by diving expedition teams of technical divers that perform ultra deep diving. It is not uncommon for dives in excess of 100 metres (330 ft) to be made here by experienced technical divers. A campsite, run by the National Parks Authority, and a motel are located on-site."
 
 # References
 

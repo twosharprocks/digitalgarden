@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.875917959144147
 longitude: -82.49668657779688
-country: "USA"
-state: "Florida"
 suburb: "Alachua County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/0aece4f8-875e-4a27-a7cc-cc9da49ef7b1.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "52 m"
 address: "23720, NW 140th St, Alachua County, Florida, USA, 32615"
-location-checked: "false"
 ---
 # Details
 

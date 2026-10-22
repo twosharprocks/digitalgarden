@@ -12,7 +12,6 @@ related:
   - "[[Diving]]"
   - "[[Photogrammetry - Processing]]"
   - "[[Cave Entries to Write]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[empty files]]"
   - "[[Book - Cave Diving]]"
   - "[[Mt Gambier - PROTECTED]]"
@@ -20,10 +19,7 @@ rating: CDAA Advanced Cave, TDI Full Cave
 feature_type: "Cave"
 latitude: -37.734445377832
 longitude: 140.53621083590178
-country: "AUS"
-state: "South Australia"
 suburb: "Wattle Range Council"
-privacy: public
 obsidian_aliases:
   - "Windmill Cave"
   - "Cave-Under-The-Windmill"

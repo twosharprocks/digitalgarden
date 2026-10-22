@@ -11,20 +11,15 @@ tags:
 feature_type: "Landmark"
 latitude: -32.84634
 longitude: 115.98322899999994
-country: "AUS"
-state: "Western Australia"
 suburb: "Waroona"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 cavedb: "https://app.cavedb.net/share/c2683375-1302-49e8-b321-24b4e832f987.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "218 m"
 address: "Invarell Rd, Waroona, Western Australia, AUS, 6215"
-location-checked: "false"
 ---
 # About
 

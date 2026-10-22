@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 43.775230599999986
 longitude: 18.889844400000015
-country: "BIH"
 state: "Republika Srpska"
 suburb: "Bosnian Podrinje Canton"
-privacy: public
 region: "[[Bosnia & Herzegovina]]"
 related:
   - "[[Diving]]"
-  - "[[Bosnia & Herzegovina]]"
 cavedb: "https://app.cavedb.net/share/235870ae-c3f2-4ae0-9480-a2ba36ba444e.html"
 catalog-type: "cave"
 altitude: "614 m"
 address: "M5, Bosnian Podrinje Canton, Republika Srpska, BIH"
-location-checked: "true"
 ---
 # Details
 

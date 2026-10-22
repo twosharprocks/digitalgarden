@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 19.06973
 longitude: 102.96971
-country: "LAO"
 state: "Xaisomboun Province"
 suburb: "Longcheng"
-privacy: public
 region: "[[Laos]]"
 related:
   - "[[Diving]]"
-  - "[[Laos]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/f4e04029-4fe8-4ca4-bce4-fd0177082622.html"
 catalog-type: "cave"
 altitude: "669 m"
 address: "Thanon Bomisu, Longcheng, Xaisomboun Province, LAO"
-location-checked: "true"
-location-checked-by: "Josh Richards"
 ---
 # About
 

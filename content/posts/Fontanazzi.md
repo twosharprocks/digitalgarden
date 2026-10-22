@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 45.831631000000016
 longitude: 11.701986000000034
-country: "ITA"
 state: "Veneto"
 suburb: "Solagna"
-privacy: public
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/ccae2f95-f203-43ea-b39e-c383710fec55.html"
 catalog-type: "cave"
 altitude: "148 m"
 address: "Via Fontanazzi, Solagna, Veneto, ITA, 36020"
-location-checked: "false"
 ---
 # Details
 

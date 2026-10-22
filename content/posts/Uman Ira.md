@@ -10,18 +10,14 @@ tags:
   - timor-leste
 latitude: -8.353999999999985
 longitude: 127.05099999999993
-country: "TLS"
 suburb: "Lautem"
-privacy: public
 region: "[[Timor-Leste]]"
 related:
   - "[[Diving]]"
-  - "[[Timor-Leste]]"
 cavedb: "https://app.cavedb.net/share/bbcfdb1d-1d34-43d1-ad75-cc77d61b1192.html"
 catalog-type: "cave"
 altitude: "20 m"
 address: "Lautem, TLS"
-location-checked: "false"
 ---
 # Details
 

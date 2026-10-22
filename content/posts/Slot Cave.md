@@ -11,22 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: -32.094438989216854
 longitude: 126.52008354663849
-country: "AUS"
-state: "Western Australia"
 suburb: "Shire of Dundas"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 cavedb: "https://app.cavedb.net/share/76c76c32-8179-403b-8608-8cc86565c5e7.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "9 m"
 address: "Shire of Dundas, Western Australia, AUS, 6443"
-location-checked: "true"
-location-checked-by: "RK, MW & BC"
 ---
 # About
 

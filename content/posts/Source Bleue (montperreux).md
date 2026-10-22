@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 46.80933300000004
 longitude: 6.324013000000036
-country: "FRA"
 state: "Bourgogne-Franche-Comté"
 suburb: "Doubs"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/4ed094e3-d5bf-4d10-b277-d3a57af575c8.html"
 catalog-type: "cave"
 altitude: "917 m"
 address: "1, D437, Doubs, Bourgogne-Franche-Comté, FRA, 25160"
-location-checked: "true"
 ---
 # Details
 

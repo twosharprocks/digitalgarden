@@ -57,6 +57,7 @@ related:
 - [Dos Palmas]({{< relref "posts/Dos Palmas.md" >}})
 - [Dos Palmas]({{< relref "posts/Dos Palmas - cde7b827.md" >}})
 - [Escondido]({{< relref "posts/Escondido.md" >}})
+- [Exploradora]({{< relref "posts/Exploradora.md" >}})
 - [Fenomeno Downstream]({{< relref "posts/Fenomeno Downstream.md" >}})
 - [Fenomeno South]({{< relref "posts/Fenomeno South.md" >}})
 - [Gran Cenote]({{< relref "posts/Gran Cenote.md" >}})

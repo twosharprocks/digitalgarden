@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.345640000000003
 longitude: -82.70125000000002
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/4376b49f-26f6-47b3-8ba0-372318c76be6.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "0 m"
 address: "6885-6771, Tower Dr, Pasco County, Florida, USA, 34667"
-location-checked: "true"
 ---
 # Details
 

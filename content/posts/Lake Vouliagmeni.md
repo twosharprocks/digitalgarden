@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 37.807770000000005
 longitude: 23.785560000000032
-country: "GRC"
 state: "Decentralized Administration of Attica"
 suburb: "Attica"
-privacy: public
 obsidian_aliases:
   - "Vouliagmeni Cave"
 region: "[[Greece]]"
 related:
   - "[[Diving]]"
-  - "[[Greece]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/a898c17e-56a1-4a40-9d2a-3f4326cef722.html"
 catalog-type: "cave"
 altitude: "11 m"
 address: "168, Posidonos, Attica, Decentralized Administration of Attica, GRC, 166 71"
-location-checked: "false"
 ---
 # About
 

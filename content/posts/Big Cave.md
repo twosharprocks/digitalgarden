@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -38.335025
 longitude: 141.510494
-country: "AUS"
-state: "Victoria"
 suburb: "Portland West"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/131f2860-154e-469d-bc81-c090cd6f75d9.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "65 m"
 address: "Davies Ln, Portland West, Victoria, AUS, 3305"
-location-checked: "false"
 ---
 # Details
 

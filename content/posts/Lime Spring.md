@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.390999999999963
 longitude: -83.16899999999998
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/2a8a7c39-a6b1-4ee4-b643-0091bd23880b.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "11 m"
 address: "7601-8499, SW 41st Holw, Suwannee County, Florida, USA, 32060"
-location-checked: "true"
 ---
 # Details
 

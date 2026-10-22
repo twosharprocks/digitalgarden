@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.636404999999968
 longitude: -82.95854800000001
-country: "USA"
-state: "Florida"
 suburb: "Gilchrist County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/443098af-76c2-40e2-ae21-21ffd0ac2dd3.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "3 m"
 address: "SW 70th St, Gilchrist County, Florida, USA, 32693"
-location-checked: "true"
 ---
 # Details
 

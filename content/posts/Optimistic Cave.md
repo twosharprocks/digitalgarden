@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 48.73750000000001
 longitude: 25.973330000000033
-country: "UKR"
 state: "Ternopil Oblast"
 suburb: "Borshchivs'kyi district"
-privacy: public
 obsidian_aliases:
   - "Оптимистическая"
 region: "[[Ukraine]]"
 related:
   - "[[Diving]]"
-  - "[[Ukraine]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/c9fafec4-4a97-47c5-ba77-7ca4bcbc6c45.html"
 catalog-type: "cave"
 altitude: "290 m"
 address: "T2018, Borshchivs'kyi district, Ternopil Oblast, UKR"
-location-checked: "false"
 ---
 # About
 

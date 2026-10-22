@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.74612000000002
 longitude: -85.21590000000003
-country: "USA"
-state: "Florida"
 suburb: "Jackson County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/2d23c423-3425-4125-aa79-f6a695fd0ca0.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "20 m"
 address: "4574, Riverbend Rd, Jackson County, Florida, USA, 32448"
-location-checked: "true"
 ---
 # Details
 

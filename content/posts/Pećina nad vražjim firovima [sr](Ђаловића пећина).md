@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 43.072634600000015
 longitude: 19.9205968
-country: "MNE"
 state: "Bijelo Polje Municipality"
-privacy: public
 region: "[[Montenegro]]"
 related:
   - "[[Diving]]"
-  - "[[Montenegro]]"
 cavedb: "https://app.cavedb.net/share/770bb4f5-1adc-4f1d-9556-3f5520761ee2.html"
 catalog-type: "cave"
 altitude: "752 m"
 address: "Bijelo Polje Municipality, MNE"
-location-checked: "true"
 ---
 # Details
 

@@ -11,20 +11,15 @@ tags:
 feature_type: "Landmark"
 latitude: -37.440045999999995
 longitude: 148.19588899999997
-country: "AUS"
-state: "Victoria"
 suburb: "East Gippsland Shire"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/fcda00ee-cb52-4ca3-80c6-4f7187b1f8b8.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "285 m"
 address: "800, Gelantipy Rd, East Gippsland Shire, Victoria, AUS, 3885"
-location-checked: "true"
 ---
 # Details
 

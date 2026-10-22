@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.949333799999977
 longitude: -82.87693819999998
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/cd33849b-0224-43ed-967d-81cc8c45c403.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "15 m"
 address: "27539-27647, 65th Rd, Suwannee County, Florida, USA, 32008"
-location-checked: "true"
 ---
 # Details
 

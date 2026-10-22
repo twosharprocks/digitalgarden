@@ -11,21 +11,15 @@ tags:
 feature_type: "Sinkhole"
 latitude: -37.68005216
 longitude: 140.48962634999998
-country: "AUS"
-state: "South Australia"
 suburb: "Tantanoola"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[South Australia]]"
 cavedb: "https://app.cavedb.net/share/f706db69-6621-410f-9ed7-4ca79edc3520.html"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "46 m"
 address: "Mile Hill Rd, Tantanoola, South Australia, AUS, 5280"
-location-checked: "true"
-location-checked-by: "MW - Foot"
 ---
 # About
 

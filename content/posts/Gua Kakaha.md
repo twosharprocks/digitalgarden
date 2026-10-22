@@ -11,17 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: -5.341817999999989
 longitude: 122.53845799999999
-country: "IDN"
 state: "South East Sulawesi"
 suburb: "Buton Regency"
-privacy: public
 obsidian_aliases:
   - "Goa Kakaha"
   - "Kakaha Cave"
 region: "[[Indonesia]]"
 related:
   - "[[Diving]]"
-  - "[[Sulawesi]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
 cavedb: "https://app.cavedb.net/share/a9d92954-6efd-4c1f-bb6a-31fed1d66f8d.html"
@@ -29,7 +26,6 @@ catalog-type: "cave"
 sub-region: "[[Sulawesi]]"
 altitude: "15 m"
 address: "40, Jl. Gersamata, Buton Regency, South East Sulawesi, IDN, 93763"
-location-checked: "false"
 ---
 # Details
 

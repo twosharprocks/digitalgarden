@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.048068999999998
 longitude: -82.93222200000002
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/ae028ba7-a500-4b6f-8a7a-e20bf8a8f7a9.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "15 m"
 address: "9352-9128, 220th St, Suwannee County, Florida, USA, 32071"
-location-checked: "true"
 ---
 # Details
 

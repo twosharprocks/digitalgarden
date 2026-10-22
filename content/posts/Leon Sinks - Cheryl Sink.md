@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.297939999999983
 longitude: -84.35246000000001
-country: "USA"
-state: "Florida"
 suburb: "Wakulla County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Cavern
 cavedb: "https://app.cavedb.net/share/4f7263fb-26d2-4796-ac0b-1b40b5d90409.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "5 m"
 address: "Log Cabin Rd, Wakulla County, Florida, USA, 32327"
-location-checked: "true"
 ---
 # Details
 

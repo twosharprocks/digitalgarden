@@ -11,18 +11,14 @@ tags:
 feature_type: "Sinkhole"
 latitude: 26.21767349532962
 longitude: -77.21051126718515
-country: "BHS"
 state: "Abaco"
-privacy: public
 region: "[[Bahamas]]"
 related:
   - "[[Diving]]"
-  - "[[Bahamas]]"
 cavedb: "https://app.cavedb.net/share/42dcb269-59ed-4a34-b9f5-310705109aca.html"
 catalog-type: "cave"
 altitude: "8 m"
 address: "Abaco, BHS"
-location-checked: "false"
 ---
 # Details
 

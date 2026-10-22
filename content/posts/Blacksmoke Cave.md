@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.44063
 longitude: -83.22167000000002
-country: "USA"
-state: "Florida"
 suburb: "Madison County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/d2c221e4-3280-43c4-a717-b197c906b086.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "17 m"
 address: "505, NE River Country Trail, Madison County, Florida, USA, 32059"
-location-checked: "true"
 ---
 # Details
 

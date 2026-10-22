@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -18.722739999999988
 longitude: 126.06863999999996
-country: "AUS"
-state: "Western Australia"
 suburb: "Shire of Halls Creek"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Western Australia]]"
 cavedb: "https://app.cavedb.net/share/4600405d-cdac-430f-94f9-5a77f679ba1d.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
 altitude: "237 m"
 address: "Shire of Halls Creek, Western Australia, AUS, 6770"
-location-checked: "true"
 ---
 # About
 

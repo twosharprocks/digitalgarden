@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.36842999999999
 longitude: -82.6945
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/4689b059-a246-4d6f-99cd-0f30fb2d5f4f.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "1 m"
 address: "7284-7330, Stevens Dr, Pasco County, Florida, USA, 34667"
-location-checked: "true"
 ---
 # Details
 

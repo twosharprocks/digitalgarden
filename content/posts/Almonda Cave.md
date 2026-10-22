@@ -11,14 +11,11 @@ tags:
 feature_type: "Cave"
 latitude: 39.50478499999997
 longitude: -8.61514299999999
-country: "PRT"
 state: "Santarém District"
 suburb: "Torres Novas"
-privacy: public
 region: "[[Portugal]]"
 related:
   - "[[Diving]]"
-  - "[[Portugal]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
   - "[[Trip - Portugal 2026 Oct]]"
 rating: TDI Full Cave
@@ -26,7 +23,6 @@ cavedb: "https://app.cavedb.net/share/7cad43c8-fb18-4964-8906-81172f654671.html"
 catalog-type: "cave"
 altitude: "93 m"
 address: "16, R. Marginal, Torres Novas, Santarém District, PRT, 2350"
-location-checked: "false"
 ---
 # Details
 

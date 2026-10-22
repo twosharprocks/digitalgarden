@@ -11,16 +11,13 @@ tags:
 feature_type: "Sinkhole"
 latitude: -5.360812
 longitude: 122.466488
-country: "IDN"
 state: "South East Sulawesi"
 suburb: "Buton Regency"
-privacy: public
 obsidian_aliases:
   - "Mamba Besar"
 region: "[[Indonesia]]"
 related:
   - "[[Diving]]"
-  - "[[Sulawesi]]"
   - "[[Trip - Sulawesi - 2025 Aug]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
 cavedb: "https://app.cavedb.net/share/6578d59d-ed37-4454-b3b0-7becacf3b829.html"
@@ -28,7 +25,6 @@ catalog-type: "cave"
 sub-region: "[[Sulawesi]]"
 altitude: "14 m"
 address: "Jalan Tanpa Nama, Buton Regency, South East Sulawesi, IDN, 93762"
-location-checked: "false"
 ---
 # Details
 

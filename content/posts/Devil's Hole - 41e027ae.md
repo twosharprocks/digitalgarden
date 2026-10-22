@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 36.425343
 longitude: -116.29144100000002
-country: "USA"
 state: "Nevada"
 suburb: "Nye County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[United States]]"
 rating: TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/41e027ae-cba4-4e59-8625-ce33f065e91e.html"
 catalog-type: "cave"
 altitude: "743 m"
 address: "10587, Devils Hole Rd, Nye County, Nevada, USA, 89020"
-location-checked: "false"
 ---
 # Details
 

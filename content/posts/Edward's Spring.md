@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.38407000000001
 longitude: -83.17264
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/609adebf-063c-43a7-b660-b11d2378da00.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "19 m"
 address: "3642-3630, River Rd, Suwannee County, Florida, USA, 32060"
-location-checked: "true"
 ---
 # Details
 

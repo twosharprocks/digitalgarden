@@ -11,10 +11,8 @@ tags:
 feature_type: "Cave"
 latitude: 36.638469999999984
 longitude: 22.380629999999996
-country: "GRC"
 state: "Πελοπόννησος"
 suburb: "Οίτυλο"
-privacy: public
 obsidian_aliases:
   - "Σπήλαια Διρού"
   - "Diros Caves"
@@ -22,12 +20,10 @@ obsidian_aliases:
 region: "[[Greece]]"
 related:
   - "[[Diving]]"
-  - "[[Greece]]"
 cavedb: "https://app.cavedb.net/share/a875a420-e9cb-4310-92ca-546e31e6f309.html"
 catalog-type: "cave"
 altitude: "12 m"
 address: "Οίτυλο, Πελοπόννησος, GRC, 230 62"
-location-checked: "false"
 ---
 # Details
 

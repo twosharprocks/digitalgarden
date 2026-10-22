@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.928094429999987
 longitude: -82.76981389000002
-country: "USA"
-state: "Florida"
 suburb: "Columbia County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/3e27a7d9-b146-459e-a8d8-b71606505588.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "3 m"
 address: "12999-12901, NE 120 Loop, Columbia County, Florida, USA, 32038"
-location-checked: "true"
 ---
 # Details
 

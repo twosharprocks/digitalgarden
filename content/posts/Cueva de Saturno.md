@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 23.071042000000034
 longitude: -81.43656499999997
-country: "CUB"
 state: "Matanzas"
 suburb: "Cardenas"
-privacy: public
 region: "[[Cuba]]"
 related:
   - "[[Diving]]"
-  - "[[Cuba]]"
 cavedb: "https://app.cavedb.net/share/551f7ea9-cf34-44ff-b949-7b6146688c79.html"
 catalog-type: "cave"
 altitude: "28 m"
 address: "Vía Sin Nombre, Cardenas, Matanzas, CUB"
-location-checked: "false"
 ---
 # Details
 

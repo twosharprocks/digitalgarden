@@ -11,14 +11,11 @@ tags:
 feature_type: "Cave"
 latitude: 39.97869000000003
 longitude: -8.572769999999991
-country: "PRT"
 state: "Leiria District"
 suburb: "Pombal"
-privacy: public
 region: "[[Portugal]]"
 related:
   - "[[Diving]]"
-  - "[[Portugal]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
   - "[[Trip - Portugal 2026 Oct]]"
 rating: TDI Full Cave
@@ -26,7 +23,6 @@ cavedb: "https://app.cavedb.net/share/20dddfc1-5f21-438f-a13d-aaddac31523c.html"
 catalog-type: "cave"
 altitude: "75 m"
 address: "50, R. Principal, Pombal, Leiria District, PRT, 3105"
-location-checked: "false"
 ---
 # Details
 

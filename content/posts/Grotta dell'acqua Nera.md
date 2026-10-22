@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 46.06230700000003
 longitude: 11.69291899999996
-country: "ITA"
 state: "Veneto"
 suburb: "Province of Belluno"
-privacy: public
 obsidian_aliases:
   - "Black Water Cave"
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/5adc0931-2dee-47bd-bd23-45b17235fe71.html"
 catalog-type: "cave"
 altitude: "671 m"
 address: "1, Via Vittorio Veneto, Province of Belluno, Veneto, ITA, 32033"
-location-checked: "false"
 ---
 # Details
 

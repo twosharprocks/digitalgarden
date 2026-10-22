@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 39.52639999999997
 longitude: 3.315219999999954
-country: "ESP"
 state: "Illes Balears"
 suburb: "Manacor"
-privacy: public
 region: "[[Spain]]"
 related:
   - "[[Diving]]"
-  - "[[Spain]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/f403bceb-24f9-4594-bb72-16773be1d1f1.html"
 catalog-type: "cave"
 altitude: "20 m"
 address: "1173, Carrer Leonardo da Vinci, Manacor, Illes Balears, ESP, 07680"
-location-checked: "false"
 ---
 # Details
 

@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.14621599999998
 longitude: -82.75922300000002
-country: "USA"
-state: "Florida"
 suburb: "Pinellas County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/0773a6d6-b025-44a8-83db-a28a5e1aa993.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "5 m"
 address: "64, Bath St, Pinellas County, Florida, USA, 34689"
-location-checked: "true"
 ---
 # Details
 

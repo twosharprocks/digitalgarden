@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 64.88868400000001
 longitude: 14.110748999999942
-country: "SWE"
 state: "Jamtland County"
 suburb: "Strömsund Municipality"
-privacy: public
 region: "[[Sweden]]"
 related:
   - "[[Diving]]"
-  - "[[Sweden]]"
 cavedb: "https://app.cavedb.net/share/e0783b82-d401-4d75-b509-5df53b27b43f.html"
 catalog-type: "cave"
 altitude: "784 m"
 address: "Strömsund Municipality, Jamtland County, SWE, 833 99"
-location-checked: "true"
 ---
 # Details
 

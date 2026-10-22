@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 46.25309600000003
 longitude: 5.443941999999993
-country: "FRA"
 state: "Auvergne-Rhône-Alpes"
 suburb: "Simandre-sur-Suran"
-privacy: public
 region: "[[France]]"
 related:
   - "[[Diving]]"
-  - "[[France]]"
   - "[[Trip - Spain France Portugal - 2028 Sept]]"
 cavedb: "https://app.cavedb.net/share/499cd471-6042-4cf3-a8e2-7929f2a5b98e.html"
 catalog-type: "cave"
 altitude: "516 m"
 address: "Chemin de l'Abbaye, Simandre-sur-Suran, Auvergne-Rhône-Alpes, FRA, 01250"
-location-checked: "false"
 ---
 # Details
 

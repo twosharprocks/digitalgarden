@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -33.782219
 longitude: 150.59075600000006
-country: "AUS"
-state: "New South Wales"
 suburb: "Blue Mountains National Park"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 cavedb: "https://app.cavedb.net/share/cca0514f-b912-49f8-aaec-7a71da910d5e.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "199 m"
 address: "Red Hands Trak, Blue Mountains National Park, New South Wales, AUS, 2780"
-location-checked: "true"
 ---
 # About
 

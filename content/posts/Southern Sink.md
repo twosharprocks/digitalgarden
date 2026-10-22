@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 28.508640000000014
 longitude: -82.57506999999998
-country: "USA"
-state: "Florida"
 suburb: "Spring Hill"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 cavedb: "https://app.cavedb.net/share/954463ef-2a24-4794-be0d-50006063aa76.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "3 m"
 address: "8979, Manchester St, Spring Hill, Florida, USA, 34606-1322"
-location-checked: "true"
 ---
 # Details
 

@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 45.930769999999995
 longitude: 8.993330000000014
-country: "CHE"
 state: "Ticino"
 suburb: "Val Mara"
-privacy: public
 region: "[[Switzerland]]"
 related:
   - "[[Diving]]"
-  - "[[Switzerland]]"
 cavedb: "https://app.cavedb.net/share/5f34e463-d711-42c9-8df3-f1633958dd52.html"
 catalog-type: "cave"
 altitude: "433 m"
 address: "15a, Via Trivelli, Val Mara, Ticino, CHE, 6821"
-location-checked: "false"
 ---
 # Details
 

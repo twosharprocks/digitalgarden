@@ -11,9 +11,7 @@ tags:
 feature_type: "Cave"
 latitude: 41.57996109999999
 longitude: 21.213241700000026
-country: "MKD"
 state: "Municipality of Makedonski Brod"
-privacy: public
 obsidian_aliases:
   - "Peștera Izvor"
   - "Slatinski Izvor cave"
@@ -21,12 +19,10 @@ obsidian_aliases:
 region: "[[North Macedonia]]"
 related:
   - "[[Diving]]"
-  - "[[North Macedonia]]"
 cavedb: "https://app.cavedb.net/share/41c85669-f009-46b8-a9aa-58b31b97f882.html"
 catalog-type: "cave"
 altitude: "514 m"
 address: "Slatina, Municipality of Makedonski Brod, MKD"
-location-checked: "true"
 ---
 # Details
 

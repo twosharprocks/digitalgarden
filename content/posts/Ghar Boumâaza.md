@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 34.69999999999999
 longitude: -1.3113888888889278
-country: "DZA"
 state: "Tlemcen Province"
 suburb: "Mansourah"
-privacy: public
 region: "[[Algeria]]"
 related:
   - "[[Diving]]"
-  - "[[Algeria]]"
 cavedb: "https://app.cavedb.net/share/feffcf3b-91de-4937-b915-15aeb07997cd.html"
 catalog-type: "cave"
 altitude: "1092 m"
 address: "N22, Mansourah, Tlemcen Province, DZA"
-location-checked: "true"
 ---
 # About
 

@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 40.31999999999999
 longitude: 9.600332999999978
-country: "ITA"
 state: "Sardinia"
 suburb: "Province of Nuoro"
-privacy: public
 obsidian_aliases:
   - "Ispinigoli Cave"
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/13f4a935-4004-4949-93a4-4b3df8c472aa.html"
 catalog-type: "cave"
 altitude: "253 m"
 address: "Str. per Grotta Ispinigoli e Spiaggia Cartoe, Province of Nuoro, Sardinia, ITA, 08022"
-location-checked: "false"
 ---
 # Details
 

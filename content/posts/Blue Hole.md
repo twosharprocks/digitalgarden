@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 34.940447000000006
 longitude: -104.67323899999997
-country: "USA"
 state: "New Mexico"
 suburb: "Guadalupe County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[United States]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/9ff8a152-1bdc-494a-b8ae-7beb586278b7.html"
 catalog-type: "cave"
 altitude: "1402 m"
 address: "1095-1051, Blue Hole Rd, Guadalupe County, New Mexico, USA, 88435"
-location-checked: "true"
 ---
 # Details
 

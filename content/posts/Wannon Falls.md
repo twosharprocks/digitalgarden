@@ -11,20 +11,15 @@ tags:
 feature_type: "RockyOutcrop"
 latitude: -37.67591999999999
 longitude: 141.84078999999997
-country: "AUS"
-state: "Victoria"
 suburb: "Wannon"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/8bbf6004-2c51-4c28-9066-b7abe2d7198a.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "112 m"
 address: "Wannon, Victoria, AUS, 3301"
-location-checked: "false"
 ---
 # Details
 

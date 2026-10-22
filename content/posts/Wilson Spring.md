@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.899917000000016
 longitude: -82.75851399999999
-country: "USA"
-state: "Florida"
 suburb: "Columbia County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/b69603de-c6e0-41fe-a5d2-994aa9e1f626.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "6 m"
 address: "389-499, SW Memorial Dr, Columbia County, Florida, USA, 32038"
-location-checked: "true"
 ---
 # Details
 

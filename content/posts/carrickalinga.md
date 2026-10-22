@@ -11,7 +11,6 @@ tags:
 related:
   - "[[Diving]]"
   - "[[Caving - Ideas]]"
-  - "[[South Australia]]"
 region: "[[Australia]]"
 catalog-type: "cave"
 sub-region: "[[South Australia]]"

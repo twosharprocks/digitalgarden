@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 35.471299999999985
 longitude: 24.2432
-country: "GRC"
 state: "Κρήτη"
 suburb: "Βάμος"
-privacy: public
 obsidian_aliases:
   - "Elephant's Cave"
 region: "[[Greece]]"
 related:
   - "[[Diving]]"
-  - "[[Greece]]"
 cavedb: "https://app.cavedb.net/share/da650fec-78e9-43e6-a2cc-ebc3cdca7b0e.html"
 catalog-type: "cave"
 altitude: "15 m"
 address: "Βάμος, Κρήτη, GRC, 730 07"
-location-checked: "false"
 ---
 # About
 

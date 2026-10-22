@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.554849999999988
 longitude: -82.60917999999998
-country: "USA"
-state: "Florida"
 suburb: "Hernando County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/da74b285-e088-43d0-a417-b01a10f9b8d2.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "2 m"
 address: "Hernando County, Florida, USA, 34613"
-location-checked: "true"
 ---
 # Details
 

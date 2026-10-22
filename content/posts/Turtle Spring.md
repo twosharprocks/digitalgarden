@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.84739400000001
 longitude: -82.890286
-country: "USA"
-state: "Florida"
 suburb: "Lafayette County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/f519efa3-e0b1-476e-98af-cc6f81f75702.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "3 m"
 address: "435, Nancy Ln, Lafayette County, Florida, USA, 32619"
-location-checked: "true"
 ---
 # Details
 

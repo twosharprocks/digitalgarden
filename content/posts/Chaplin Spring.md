@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.41859999999997
 longitude: -83.20690000000002
-country: "USA"
-state: "Florida"
 suburb: "Hamilton County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/55c3b9eb-21fe-44d3-8d48-7d86282b76c7.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "11 m"
 address: "7691, SW 32nd Ln, Hamilton County, Florida, USA, 32052"
-location-checked: "true"
 ---
 # Details
 

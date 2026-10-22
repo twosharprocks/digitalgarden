@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 45.87171493728516
 longitude: 11.66849434375763
-country: "ITA"
 state: "Veneto"
 suburb: "Valbrenta"
-privacy: public
 obsidian_aliases:
   - "Cave of the White Elephant"
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/c0f4dd39-3adb-499f-b584-8c05da3a3a4e.html"
 catalog-type: "cave"
 altitude: "176 m"
 address: "15, Via Ponte Subiolo, Valbrenta, Veneto, ITA, 36029"
-location-checked: "false"
 ---
 # Details
 

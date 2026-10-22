@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 28.38025700000003
 longitude: -82.70748200000003
-country: "USA"
-state: "Florida"
 suburb: "Pasco County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 cavedb: "https://app.cavedb.net/share/5f9f8486-379d-4d07-bb3e-cfed169e85ef.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "0 m"
 address: "6928-6946, Southwind Dr, Pasco County, Florida, USA, 34667"
-location-checked: "true"
 ---
 # Details
 

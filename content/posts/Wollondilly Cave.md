@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -34.30968899999999
 longitude: 149.96630800000003
-country: "AUS"
-state: "New South Wales"
 suburb: "Wombeyan Caves"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[New South Wales]]"
 cavedb: "https://app.cavedb.net/share/b5e15bb5-d467-40a5-9fa9-d054458c0f62.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "629 m"
 address: "Muilwaree Cave Trak, [[Wombeyan Caves]], New South Wales, AUS, 2580"
-location-checked: "true"
 ---
 # Details
 

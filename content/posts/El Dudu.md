@@ -11,20 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 19.564628999999968
 longitude: -69.907623
-country: "DOM"
 state: "María Trinidad Sánchez Province"
 suburb: "Cabrera"
-privacy: public
 region: "[[Dominican Republic]]"
 related:
   - "[[Diving]]"
-  - "[[Dominican Republic]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/d082f9ca-69c7-43e8-bad7-c801be23d0c7.html"
 catalog-type: "cave"
 altitude: "15 m"
 address: "Vía Sin Nombre, Cabrera, María Trinidad Sánchez Province, DOM, 33000"
-location-checked: "true"
 ---
 # Details
 

@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 44.20524999999998
 longitude: 15.774832999999944
-country: "HRV"
 suburb: "Obrovac"
-privacy: public
 region: "[[Croatia]]"
 related:
   - "[[Diving]]"
-  - "[[Croatia]]"
 cavedb: "https://app.cavedb.net/share/41d45e26-13e2-44da-90de-8fc76e44d5e2.html"
 catalog-type: "cave"
 altitude: "52 m"
 address: "Preko Dabarnice, Obrovac, HRV, 23450"
-location-checked: "false"
 ---
 # Details
 

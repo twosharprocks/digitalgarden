@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: -34.07834170000001
 longitude: -54.6073389
-country: "URY"
 state: "Maldonado Department"
 suburb: "Aigua"
-privacy: public
 region: "[[Uruguay]]"
 related:
   - "[[Diving]]"
-  - "[[Uruguay]]"
 cavedb: "https://app.cavedb.net/share/5073a040-430b-4c58-8a6a-41b493c118c1.html"
 catalog-type: "cave"
 altitude: "108 m"
 address: "Vía Sin Nombre, Aigua, Maldonado Department, URY, 20500"
-location-checked: "true"
 ---
 # Details
 

@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 40.027759
 longitude: 15.269081000000028
-country: "ITA"
 state: "Campania"
 suburb: "Centola"
-privacy: public
 obsidian_aliases:
   - "Cathedral Cave 1"
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/a76682ba-98a8-469b-aeac-45f0b15eb103.html"
 catalog-type: "cave"
 altitude: "43 m"
 address: "Discesa a Punta Quaglia, Centola, Campania, ITA, 84051"
-location-checked: "false"
 ---
 # About
 

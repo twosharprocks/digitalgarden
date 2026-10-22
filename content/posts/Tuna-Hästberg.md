@@ -11,19 +11,15 @@ tags:
 feature_type: "Mine"
 latitude: 60.34117800000001
 longitude: 15.180174999999963
-country: "SWE"
 state: "Dalarnas län"
 suburb: "Idkerberget"
-privacy: public
 region: "[[Sweden]]"
 related:
   - "[[Diving]]"
-  - "[[Sweden]]"
 cavedb: "https://app.cavedb.net/share/4f590195-4481-43c4-83e2-390efec381ac.html"
 catalog-type: "cave"
 altitude: "303 m"
 address: "Idkerberget, Dalarnas län, SWE, 781 99"
-location-checked: "false"
 ---
 # Details
 

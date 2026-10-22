@@ -11,17 +11,13 @@ tags:
 feature_type: "Cave"
 latitude: -37.820997164671496
 longitude: 140.7724947470581
-country: "AUS"
-state: "South Australia"
 suburb: "City of Mount Gambier"
-privacy: public
 obsidian_aliases:
   - "North Terrace"
   - "Vansittarts"
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Mount Gambier - Lower South East]]"
   - "[[Englebrecht's Cave - 5L19-20]]"
   - "[[5L019 - Englebrecht's East]]"
 rating: CDAA Cave, TDI Intro to Cave
@@ -30,8 +26,6 @@ catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
 altitude: "44 m"
 address: "21-23, Chute St, City of Mount Gambier, South Australia, AUS, 5290"
-location-checked: "true"
-location-checked-by: "CDAA Rated"
 ---
 # Details
 

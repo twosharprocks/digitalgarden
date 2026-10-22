@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 22.72994
 longitude: -82.40735999999998
-country: "CUB"
 suburb: "Quivicán"
-privacy: public
 region: "[[Cuba]]"
 related:
   - "[[Diving]]"
-  - "[[Cuba]]"
 cavedb: "https://app.cavedb.net/share/b934d404-e2c2-4e38-b510-dc227f7033bc.html"
 catalog-type: "cave"
 altitude: "12 m"
 address: "Quivicán, CUB"
-location-checked: "false"
 ---
 # Details
 

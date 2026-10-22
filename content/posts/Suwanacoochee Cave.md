@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.385940000000005
 longitude: -83.17200000000003
-country: "USA"
-state: "Florida"
 suburb: "Madison County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/8c28ebda-2bc1-47f9-9dd9-d842f35abe63.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "16 m"
 address: "3630, River Rd, Madison County, Florida, USA, 32052"
-location-checked: "true"
 ---
 # Details
 

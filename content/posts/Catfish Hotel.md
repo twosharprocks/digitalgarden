@@ -11,23 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 29.488631914171947
 longitude: -82.97595173120493
-country: "USA"
-state: "Florida"
 suburb: "Levy County"
-privacy: public
 obsidian_aliases:
   - "Ginnie Springs"
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/4fbc3693-f1e9-442f-a049-85a3d774b08a.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "0 m"
 address: "11650, NW 115th St, Levy County, Florida, USA, 32626"
-location-checked: "false"
 ---
 # About
 

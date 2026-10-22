@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 46.37738999999999
 longitude: 13.429470000000038
-country: "ITA"
 state: "Friuli-Venezia Giulia"
 suburb: "Province of Udine"
-privacy: public
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/0a39a3c2-4cba-4952-8360-377bbd50e3f1.html"
 catalog-type: "cave"
 altitude: "1983 m"
 address: "SP76, Province of Udine, Friuli-Venezia Giulia, ITA, 33010"
-location-checked: "true"
 ---
 # Details
 

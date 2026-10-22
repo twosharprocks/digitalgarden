@@ -10,20 +10,15 @@ tags:
   - victoria
 latitude: -38.032942
 longitude: 141.155123
-country: "AUS"
-state: "Victoria"
 suburb: "Glenelg Shire"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/bb7d0d96-40d2-46a3-ba42-3e8c6fcfc469.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "13 m"
 address: "River Fire Line Track, Glenelg Shire, Victoria, AUS, 3304"
-location-checked: "false"
 ---
 # Details
 

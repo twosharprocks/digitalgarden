@@ -15,7 +15,6 @@ related:
   - "[[Planning - Nullarbor]]"
   - "[[Trip - Murra-Cocklebiddy - 2026 Aug]]"
   - "[[Trip - Murra El Elevyn - 2025 Oct]]"
-  - "[[Nullarbor High Plains]]"
   - "[[Mini Essay - PRIVATE - What has changed in you since Antarctica]]"
   - "[[2025 - Annual Review]]"
   - "[[Weekly - 2026-08-23]]"
@@ -40,10 +39,7 @@ rating: CDAA Cave, TDI Intro to Cave
 feature_type: "Cave"
 latitude: -32.04278570253757
 longitude: 126.03812551714987
-country: "AUS"
-state: "Western Australia"
 suburb: "Shire of Dundas"
-privacy: public
 cavedb: "https://app.cavedb.net/share/41c22713-fcc8-479f-b4f8-fe9a9d9d1234.html"
 catalog-type: "cave"
 sub-region: "[[Nullarbor High Plains]]"

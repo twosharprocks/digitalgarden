@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 65.57487000000003
 longitude: -16.883569999999963
-country: "ISL"
 suburb: "Skútustaðahreppur"
-privacy: public
 region: "[[Iceland]]"
 related:
   - "[[Diving]]"
-  - "[[Iceland]]"
 cavedb: "https://app.cavedb.net/share/e1114fe4-6fdc-41db-b238-fe31edb568e6.html"
 catalog-type: "cave"
 altitude: "293 m"
 address: "Skútustaðahreppur, ISL, 660"
-location-checked: "false"
 ---
 # About
 

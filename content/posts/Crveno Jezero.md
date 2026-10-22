@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 43.45503200000002
 longitude: 17.198202000000038
-country: "HRV"
 suburb: "Imotski"
-privacy: public
 region: "[[Croatia]]"
 related:
   - "[[Diving]]"
-  - "[[Croatia]]"
 cavedb: "https://app.cavedb.net/share/328ab109-403b-4eb7-a129-ea4d4668f56a.html"
 catalog-type: "cave"
 altitude: "348 m"
 address: "Put Crvenog jezera, Imotski, HRV, 21260"
-location-checked: "false"
 ---
 # Details
 

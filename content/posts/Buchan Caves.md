@@ -11,24 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: -37.495801
 longitude: 148.16316600000005
-country: "AUS"
-state: "Victoria"
 suburb: "East Gippsland Shire"
-privacy: public
 obsidian_aliases:
   - "Murrindal Potholes Eastern Master Cave"
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 cavedb: "https://app.cavedb.net/share/2439e007-4202-4b70-b355-ae194dbce882.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "102 m"
 address: "98, Caves Rd, East Gippsland Shire, Victoria, AUS, 3885"
-location-checked: "true"
-location-checked-by: "Tourist Cave"
 ---
 # About
 

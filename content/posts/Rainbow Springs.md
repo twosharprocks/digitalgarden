@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 29.102138999999966
 longitude: -82.43777899999998
-country: "USA"
-state: "Florida"
 suburb: "Marion County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Open Water Scuba Diver
 cavedb: "https://app.cavedb.net/share/b748cd7b-5aac-4aff-956c-ed6287f2ac58.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "9 m"
 address: "19000-19014, SW 83rd Place Rd, Marion County, Florida, USA, 34432"
-location-checked: "true"
 ---
 # Details
 
@@ -128,7 +123,7 @@ downstream from the state park, and private houses are along the west bank. The 
 
 of the river is low-lying and heavily forested state land.
 
-BUBBLING SPRING - Bubbling Spring flows into the Rainbow River from the east
+BUBBLING SPRING - [Bubbling Spring]({{< relref "posts/Bubbling Spring.md" >}}) flows into the Rainbow River from the east
 
 approximately 200 ft downstream from Spring No. 4. The spring pool measures 45
 
@@ -142,7 +137,7 @@ spring pool. The pool bottom is sand and limestone and the water is clear and pa
 
 blue. This spring and its run have very rich aquatic vegetation. Algae are thinly present
 
-on limestone substrate. Bubbling Spring is at the head of a spring run that is approximately
+on limestone substrate. [Bubbling Spring]({{< relref "posts/Bubbling Spring.md" >}}) is at the head of a spring run that is approximately
 
 400 ft long. Densely forested high ground adjoins the east side of the pool and
 

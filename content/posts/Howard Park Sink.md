@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 28.155947999999967
 longitude: -82.80085400000002
-country: "USA"
-state: "Florida"
 suburb: "Pinellas County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/d6d00212-5300-437b-8aeb-9a8679fcca0e.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "-1 m"
 address: "Howard Park Causeway, Pinellas County, Florida, USA, 34689"
-location-checked: "true"
 ---
 # Details
 

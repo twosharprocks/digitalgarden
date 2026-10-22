@@ -11,21 +11,16 @@ tags:
 feature_type: "Cave"
 latitude: 30.107010000000002
 longitude: -83.16573
-country: "USA"
-state: "Florida"
 suburb: "Suwannee County"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/df1dd51d-250a-4f84-9b62-24bf281ea303.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "9 m"
 address: "248-211, NE Suwannee Trail, Suwannee County, Florida, USA, 32060"
-location-checked: "true"
 ---
 # Details
 

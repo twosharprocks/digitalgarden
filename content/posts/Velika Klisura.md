@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 42.74827800000003
 longitude: 20.33027800000002
-country: "KOS"
 suburb: "Pejë"
-privacy: public
 region: "[[Kosovo]]"
 related:
   - "[[Diving]]"
-  - "[[Kosovo]]"
 cavedb: "https://app.cavedb.net/share/28fb8bd3-2041-47a0-befd-cc4bed754cee.html"
 catalog-type: "cave"
 altitude: "584 m"
 address: "Rruga Dëshmorët e Jabllanicës, Pejë, KOS, 30000"
-location-checked: "false"
 ---
 # Details
 

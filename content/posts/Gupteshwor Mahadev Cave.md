@@ -11,22 +11,18 @@ tags:
 feature_type: "Cave"
 latitude: 28.189551999999992
 longitude: 83.95784700000002
-country: "NPL"
 state: "Gandaki Province"
 suburb: "Kaski"
-privacy: public
 obsidian_aliases:
   - "Patale Chango"
   - "गुप्तेश्वर महादेव गुफा"
 region: "[[Nepal]]"
 related:
   - "[[Diving]]"
-  - "[[Nepal]]"
 cavedb: "https://app.cavedb.net/share/72692564-3e33-4389-9d22-14034577b77a.html"
 catalog-type: "cave"
 altitude: "778 m"
 address: "H10, Kaski, Gandaki Province, NPL, 33700"
-location-checked: "true"
 ---
 # Details
 

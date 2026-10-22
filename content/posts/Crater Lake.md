@@ -11,21 +11,16 @@ tags:
 feature_type: "Sinkhole"
 latitude: -13.045443881691085
 longitude: 131.0911899805069
-country: "AUS"
-state: "Northern Territory"
 suburb: "Coomalie Shire"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Northern Territory]]"
 rating: CDAA Deep Cavern, TDI Cavern
 cavedb: "https://app.cavedb.net/share/5f43a6c4-5ecd-4b0e-b978-fa45d6b4f5e6.html"
 catalog-type: "cave"
 sub-region: "[[Northern Territory]]"
 altitude: "71 m"
 address: "183, Crater Lake Rd, Coomalie Shire, Northern Territory, AUS, 0845"
-location-checked: "true"
 ---
 # About
 

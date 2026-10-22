@@ -11,20 +11,16 @@ tags:
 feature_type: "Mine"
 latitude: 51.760088999999994
 longitude: -3.5708889999999656
-country: "GBR"
 state: "Wales"
 suburb: "Neath"
-privacy: public
 region: "[[United Kingdom]]"
 related:
   - "[[Diving]]"
-  - "[[United Kingdom]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/f94a1b94-db1c-419e-8e08-c6f2d8e7c10d.html"
 catalog-type: "cave"
 altitude: "144 m"
 address: "Neath, Wales, GBR, SA11 5ND"
-location-checked: "true"
 ---
 # About
 

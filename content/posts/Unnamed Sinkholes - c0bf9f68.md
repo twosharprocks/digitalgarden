@@ -11,21 +11,15 @@ tags:
 feature_type: "Sinkhole"
 latitude: -38.00158999999999
 longitude: 141.07120199999997
-country: "AUS"
-state: "Victoria"
 suburb: "Glenelg Shire"
-privacy: public
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Victoria]]"
 cavedb: "https://app.cavedb.net/share/c0bf9f68-ac99-4c53-8efb-83d34c8a3d06.html"
 catalog-type: "cave"
 sub-region: "[[Victoria]]"
 altitude: "47 m"
 address: "River Fire Ln, Glenelg Shire, Victoria, AUS, 3304"
-location-checked: "true"
-location-checked-by: "Grubby Wombat"
 ---
 # Details
 

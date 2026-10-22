@@ -11,18 +11,14 @@ tags:
 feature_type: "Cave"
 latitude: 26.240962999999965
 longitude: -77.19326699999999
-country: "BHS"
 state: "Abaco"
-privacy: public
 region: "[[Bahamas]]"
 related:
   - "[[Diving]]"
-  - "[[Bahamas]]"
 cavedb: "https://app.cavedb.net/share/1f80f564-bb89-4e87-b17e-80e4bf449ec8.html"
 catalog-type: "cave"
 altitude: "5 m"
 address: "Abaco, BHS"
-location-checked: "false"
 ---
 # About
 

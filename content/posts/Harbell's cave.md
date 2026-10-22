@@ -11,19 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 45.30029000000002
 longitude: -66.05054999999999
-country: "CAN"
 state: "New Brunswick"
 suburb: "Saint John"
-privacy: public
 region: "[[Canada]]"
 related:
   - "[[Diving]]"
-  - "[[Canada]]"
 cavedb: "https://app.cavedb.net/share/af9c6f2f-0372-44bf-8947-f26116a139b2.html"
 catalog-type: "cave"
 altitude: "48 m"
 address: "186, Promenade Fisher Lakes, Saint John, New Brunswick, CAN, E2K"
-location-checked: "false"
 ---
 # Details
 

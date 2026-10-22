@@ -11,21 +11,17 @@ tags:
 feature_type: "Cave"
 latitude: 40.57078000000001
 longitude: 8.207419999999956
-country: "ITA"
 state: "Sardinia"
 suburb: "Metropolitan City of Sassari"
-privacy: public
 obsidian_aliases:
   - "Grotta dei Fantasmi"
 region: "[[Italy]]"
 related:
   - "[[Diving]]"
-  - "[[Italy]]"
 cavedb: "https://app.cavedb.net/share/1c79fa70-fe7d-41a5-acb3-350e53dd8756.html"
 catalog-type: "cave"
 altitude: "51 m"
 address: "Strada Senza Nome, Metropolitan City of Sassari, Sardinia, ITA, 07041"
-location-checked: "true"
 ---
 # About
 

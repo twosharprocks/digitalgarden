@@ -11,20 +11,15 @@ tags:
 feature_type: "Cave"
 latitude: 28.55153999999999
 longitude: -82.62331
-country: "USA"
-state: "Florida"
 suburb: "Spring Hill"
-privacy: public
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-  - "[[Florida]]"
 cavedb: "https://app.cavedb.net/share/4486e5d6-88b7-453e-8a6f-a23a7eadf712.html"
 catalog-type: "cave"
 sub-region: "[[Florida]]"
 altitude: "1 m"
 address: "5975, Cortez Blvd, Spring Hill, Florida, USA, 34607"
-location-checked: "true"
 ---
 # Details
 
