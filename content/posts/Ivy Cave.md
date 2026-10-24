@@ -29,6 +29,15 @@ address: "Nullarbor, South Australia, AUS, 5690"
 
 # References
 
-## ASF Joe Jennings slide catalogue images
-- ![Ivy Cave ASF JNJ S 1007 20 Ivy Cave South Cave Doline](/images/Ivy%20Cave%20-%20ASF%20JNJ-S-1007-20%20-%20Ivy%20Cave%20South%20cave%20doline%20-.jpg)
-- ![Ivy Cave ASF JNJ S 1007 22 Ivy Cave South Cave Breccia With Black](/images/Ivy%20Cave%20-%20ASF%20JNJ-S-1007-22%20-%20Ivy%20Cave%20South%20cave%20-%20Breccia%20with%20black.jpg)
+<!-- ASF slide images: start -->
+## ASF slide images
+
+Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.
+
+![Ivy Cave ASF JNJ S 1007 20 Ivy Cave South Cave Doline](/images/Ivy%20Cave%20-%20ASF%20JNJ-S-1007-20%20-%20Ivy%20Cave%20South%20cave%20doline%20-.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-1007-20, Box 1007. Catalogue description: Ivy Cave South cave doline - ??. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201007/JNJ-S-1007-20.html).*
+
+![Ivy Cave ASF JNJ S 1007 22 Ivy Cave South Cave Breccia With Black](/images/Ivy%20Cave%20-%20ASF%20JNJ-S-1007-22%20-%20Ivy%20Cave%20South%20cave%20-%20Breccia%20with%20black.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-1007-22, Box 1007. Catalogue description: Ivy Cave South cave - Breccia with black ?. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201007/JNJ-S-1007-22.html).*
+
+<!-- ASF slide images: end -->

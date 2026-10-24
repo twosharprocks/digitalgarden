@@ -50,11 +50,6 @@ Repository - Sketchsheets, Survex and Illustrator files
 
 - **SUSS:** https://suss.caves.org.au/cave/cooleman/CP6_River/
 
-## ASF Joe Jennings slide catalogue images
-- ![Yarrangobilly River Cave ASF JNJ S 1014 27 Hohlen Karren River Cave](/images/Yarrangobilly%20-%20River%20cave%20-%20ASF%20JNJ-S-1014-27%20-%20Hohlen%20karren%20-%20River%20cave.jpg)
-- ![Yarrangobilly River Cave ASF JNJ S 1014 28 Young Beds Of](/images/Yarrangobilly%20-%20River%20cave%20-%20ASF%20JNJ-S-1014-28%20-%20Young%20beds%20of.jpg)
-- ![Yarrangobilly River Cave ASF JNJ S 1014 29 Scallops River Cave](/images/Yarrangobilly%20-%20River%20cave%20-%20ASF%20JNJ-S-1014-29%20-%20Scallops%20-%20River%20cave.jpg)
-
 ## Images
 - ![CP 6 River Cave Cavedb Cp6river D265eb41 9ca45287](/images/CP-6%20-%20River%20Cave%20-%20CaveDB%20-%20cp6river%20-%20d265eb41-9ca45287.jpg)
 - ![CP 6 River Cave Cavedb Cp6riversketch04 82139647 9ca45287](/images/CP-6%20-%20River%20Cave%20-%20CaveDB%20-%20CP6Riversketch04%20-%2082139647-9ca45287.jpg)

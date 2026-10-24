@@ -71,7 +71,6 @@ In conclusion, the Cocklebiddy Cave is a testament to the wonders that lie benea
 	- ![6N48 Cocklebiddy Part 1](/images/6N48%20-%20Cocklebiddy%20Part%201.jpg) (Payne)
 	- ![6N48 Cocklebiddy Part 2](/images/6N48%20-%20Cocklebiddy%20Part%202.jpg) (Payne)
 	- ![6N48 Cocklebiddy Part 3](/images/6N48%20-%20Cocklebiddy%20Part%203.jpg) (Payne)
-![6N48 Cocklebiddy Cave ASF JNJ S 1011 05 Map N48 Cocklebiddy Cave](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1011-05%20-%20Map%20-%20N48%20Cocklebiddy%20cave.jpg)
 
 # References
 
@@ -79,15 +78,6 @@ In conclusion, the Cocklebiddy Cave is a testament to the wonders that lie benea
 * [“Cocklebiddy - Alpine Style”](https://cdg.caves.org.au/CDG-Articles/Articles/S-EBERHARD-CocklebiddyAlpineStyle1998.pdf) (CCR & DPV)
 - ![Cocklebiddy Drone Model Top View](/images/Cocklebiddy%20-%20Drone%20Model%20-%20Top%20View.jpg) (Richards)
 - ![Cocklebiddy Drone Model Side View](/images/Cocklebiddy%20-%20Drone%20Model%20-%20Side%20view.jpg) (Richards)
-
-## ASF Joe Jennings slide catalogue images
-- ![6N48 Cocklebiddy Cave ASF JNJ S 1010 01 Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-01%20-%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
-- ![6N48 Cocklebiddy Cave ASF JNJ S 1010 02 Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-02%20-%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
-- ![6N48 Cocklebiddy Cave ASF JNJ S 1010 03 Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-03%20-%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
-- ![6N48 Cocklebiddy Cave ASF JNJ S 1010 04 Cocklebiddy Lake Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-04%20-%20Cocklebiddy%20Lake%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
-- ![6N48 Cocklebiddy Cave ASF JNJ S 1010 05 Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-05%20-%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
-- ![6N48 Cocklebiddy Cave ASF JNJ S 1010 06 Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-06%20-%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
-- ![6N48 Cocklebiddy Cave ASF JNJ S 1010 07 Camp Above Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-07%20-%20Camp%20above%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
 
 ## Images
 - ![6N48 Cocklebiddy Cave Cavedb 2019 01 09 06.28.36 84b2c69c C3fffd30](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20CaveDB%20-%202019-01-09%2006.28.36%20-%2084b2c69c-c3fffd30.jpg)
@@ -127,3 +117,34 @@ In conclusion, the Cocklebiddy Cave is a testament to the wonders that lie benea
 - **Maximum depth:** 21 m
 - **Water type:** Salt
 - **Tidal:** No
+
+<!-- ASF slide images: start -->
+## ASF slide images
+
+Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.
+
+![6N48 Cocklebiddy Cave ASF JNJ S 1010 01 Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-01%20-%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-1010-01, Box 1010. Catalogue description: Cocklebiddy - Copyright by F. Le Guen. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201010/JNJ-S-1010-01.html).*
+
+![6N48 Cocklebiddy Cave ASF JNJ S 1010 02 Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-02%20-%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-1010-02, Box 1010. Catalogue description: Cocklebiddy - Copyright by F. Le Guen. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201010/JNJ-S-1010-02.html).*
+
+![6N48 Cocklebiddy Cave ASF JNJ S 1010 03 Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-03%20-%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-1010-03, Box 1010. Catalogue description: Cocklebiddy - Copyright by F. Le Guen. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201010/JNJ-S-1010-03.html).*
+
+![6N48 Cocklebiddy Cave ASF JNJ S 1010 04 Cocklebiddy Lake Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-04%20-%20Cocklebiddy%20Lake%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-1010-04, Box 1010. Catalogue description: Cocklebiddy Lake - Copyright by F. Le Guen. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201010/JNJ-S-1010-04.html).*
+
+![6N48 Cocklebiddy Cave ASF JNJ S 1010 05 Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-05%20-%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-1010-05, Box 1010. Catalogue description: Cocklebiddy - Copyright by F. Le Guen. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201010/JNJ-S-1010-05.html).*
+
+![6N48 Cocklebiddy Cave ASF JNJ S 1010 06 Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-06%20-%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-1010-06, Box 1010. Catalogue description: Cocklebiddy - Copyright by F. Le Guen. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201010/JNJ-S-1010-06.html).*
+
+![6N48 Cocklebiddy Cave ASF JNJ S 1010 07 Camp Above Cocklebiddy Copyright By F. Le Guen](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1010-07%20-%20Camp%20above%20Cocklebiddy%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-1010-07, Box 1010. Catalogue description: Camp above Cocklebiddy - Copyright by F. Le Guen. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201010/JNJ-S-1010-07.html).*
+
+![6N48 Cocklebiddy Cave ASF JNJ S 1011 05 Map N48 Cocklebiddy Cave](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1011-05%20-%20Map%20-%20N48%20Cocklebiddy%20cave.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-1011-05, Box 1011. Catalogue description: Map - N48 Cocklebiddy cave. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201011/JNJ-S-1011-05.html).*
+
+<!-- ASF slide images: end -->

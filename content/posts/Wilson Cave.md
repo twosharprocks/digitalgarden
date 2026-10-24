@@ -30,5 +30,12 @@ address: "Buchan-Orbost Rd, Buchan, Victoria, AUS, 3885"
 
 # References
 
-## ASF Joe Jennings slide catalogue images
-- ![Buchan Wilson Cave ASF JNJ S 00159 Blind Valley, Wilson Cave, Buchan](/images/Buchan%20-%20Wilson%20Cave%20-%20ASF%20JNJ-S-00159%20-%20Blind%20Valley%2C%20Wilson%20Cave%2C%20Buchan.jpg)
+<!-- ASF slide images: start -->
+## ASF slide images
+
+Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.
+
+![Buchan Wilson Cave ASF JNJ S 00159 Blind Valley, Wilson Cave, Buchan](/images/Buchan%20-%20Wilson%20Cave%20-%20ASF%20JNJ-S-00159%20-%20Blind%20Valley%2C%20Wilson%20Cave%2C%20Buchan.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-00159, Box 42. Catalogue description: Blind Valley, Wilson Cave, Buchan. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%2042/JNJ-S-00159.html).*
+
+<!-- ASF slide images: end -->

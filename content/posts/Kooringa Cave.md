@@ -45,5 +45,12 @@ First opened to the public in 1875, this striking single-chamber cave contains m
 
 - **National Parks NSW:** https://www.nationalparks.nsw.gov.au/things-to-do/show-caves/kooringa-cave
 
-## ASF Joe Jennings slide catalogue images
-- ![Wombeyan Kooringa Cave ASF JNJ S 1022 04 The Museum](/images/Wombeyan%20-%20Kooringa%20Cave%20-%20ASF%20JNJ-S-1022-04%20-%20The%20Museum.jpg)
+<!-- ASF slide images: start -->
+## ASF slide images
+
+Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.
+
+![Wombeyan Kooringa Cave ASF JNJ S 1022 04 The Museum](/images/Wombeyan%20-%20Kooringa%20Cave%20-%20ASF%20JNJ-S-1022-04%20-%20The%20Museum.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-1022-04, Box 1022. Catalogue description: The Museum. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201022/JNJ-S-1022-04.html).*
+
+<!-- ASF slide images: end -->

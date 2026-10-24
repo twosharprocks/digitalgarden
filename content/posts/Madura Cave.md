@@ -42,10 +42,6 @@ Dry caving site
 
 # References
 
-## ASF Joe Jennings slide catalogue images
-- ![Madura Cave ASF JNJ S 00063 Madura Cave Apse At Junction With Tafoni](/images/Madura%20Cave%20-%20ASF%20JNJ-S-00063%20-%20Madura%20Cave%20-%20Apse%20at%20junction%20with%20Tafoni.jpg) - JNJ-S-00063, Box 37 - Madura Cave - Apse at junction with Tafoni
-- ![Madura Cave ASF JNJ S 00071 Tafoni (rock Formation) Madura Cave](/images/Madura%20Cave%20-%20ASF%20JNJ-S-00071%20-%20Tafoni%20%28rock%20formation%29%20Madura%20Cave.jpg) - JNJ-S-00071, Box 37 - Tafoni (rock formation) Madura Cave
-- ![Madura Cave ASF JNJ S 00072 Madura Cave First Passage](/images/Madura%20Cave%20-%20ASF%20JNJ-S-00072%20-%20Madura%20Cave%20first%20passage.jpg) - JNJ-S-00072, Box 37 - Madura Cave first passage
 <!-- CaveDB media links: start -->
 
 ## Images
@@ -57,11 +53,6 @@ Dry caving site
 - ![Madura Cave Cavedb IMG 2094 5f5d43c8 81d18626](/images/Madura%20Cave%20-%20CaveDB%20-%20IMG_2094%20-%205f5d43c8-81d18626.jpeg)
 - ![Madura Cave Cavedb IMG 2095 C2d04fe6 81d18626](/images/Madura%20Cave%20-%20CaveDB%20-%20IMG_2095%20-%20c2d04fe6-81d18626.jpeg)
 - ![Madura Cave Cavedb IMG 2097 Ef037fc7 81d18626](/images/Madura%20Cave%20-%20CaveDB%20-%20IMG_2097%20-%20ef037fc7-81d18626.jpeg)
-
-## ASF Joe Jennings slide catalogue images
-- ![Madura Cave ASF JNJ S 00063 Madura Cave Apse At Junction With Tafoni](/images/Madura%20Cave%20-%20ASF%20JNJ-S-00063%20-%20Madura%20Cave%20-%20Apse%20at%20junction%20with%20Tafoni.jpg)
-- ![Madura Cave ASF JNJ S 00071 Tafoni (rock Formation) Madura Cave](/images/Madura%20Cave%20-%20ASF%20JNJ-S-00071%20-%20Tafoni%20%28rock%20formation%29%20Madura%20Cave.jpg)
-- ![Madura Cave ASF JNJ S 00072 Madura Cave First Passage](/images/Madura%20Cave%20-%20ASF%20JNJ-S-00072%20-%20Madura%20Cave%20first%20passage.jpg)
 
 ## Images
 - ![Madura Cave Cavedb Drone Facing North 63fd556d 81d18626](/images/Madura%20Cave%20-%20CaveDB%20-%20Drone%20facing%20North%20-%2063fd556d-81d18626.jpg)
@@ -86,3 +77,19 @@ Dry caving site
 - **Exploration potential:** Low
 - **Tourism potential:** Medium
 - **Goes to water:** No
+
+<!-- ASF slide images: start -->
+## ASF slide images
+
+Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.
+
+![Madura Cave ASF JNJ S 00063 Madura Cave Apse At Junction With Tafoni](/images/Madura%20Cave%20-%20ASF%20JNJ-S-00063%20-%20Madura%20Cave%20-%20Apse%20at%20junction%20with%20Tafoni.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-00063, Box 37. Catalogue description: Madura Cave - Apse at junction with Tafoni. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%2037/JNJ-S-00063.html).*
+
+![Madura Cave ASF JNJ S 00071 Tafoni (rock Formation) Madura Cave](/images/Madura%20Cave%20-%20ASF%20JNJ-S-00071%20-%20Tafoni%20%28rock%20formation%29%20Madura%20Cave.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-00071, Box 37. Catalogue description: Tafoni (rock formation) Madura Cave. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%2037/JNJ-S-00071.html).*
+
+![Madura Cave ASF JNJ S 00072 Madura Cave First Passage](/images/Madura%20Cave%20-%20ASF%20JNJ-S-00072%20-%20Madura%20Cave%20first%20passage.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-00072, Box 37. Catalogue description: Madura Cave first passage. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%2037/JNJ-S-00072.html).*
+
+<!-- ASF slide images: end -->

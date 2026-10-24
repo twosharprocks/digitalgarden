@@ -14,8 +14,8 @@ related:
   - "[[Writing]]"
   - "[[Creativity]]"
   - "[[Personal]]"
-  - "[[Explorer OS/TELOS|TELOS]]"
-  - "[[Explorer OS/Identity|Identity]]"
+  - "[[Notes/TELOS|TELOS]]"
+  - "[[Notes/Identity|Identity]]"
 ---
 Comics - Write Mini Essays - Ideas about these
 - [Oatmeal - Plane](https://theoatmeal.com/comics/plane)

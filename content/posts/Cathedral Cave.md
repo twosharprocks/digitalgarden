@@ -44,9 +44,6 @@ address: "99-101, Caves Rd, Dubbo Regional Council, New South Wales, AUS, 2820"
 
 # References
 
-## ASF Joe Jennings slide catalogue images
-- ![Abercrombie Cathedral Cave ASF JNJ S 00243 Abercrombie Cathedral Cave, Entrance Series](/images/Abercrombie%20-%20Cathedral%20Cave%20-%20ASF%20JNJ-S-00243%20-%20Abercrombie%20Cathedral%20Cave%2C%20entrance%20series.jpg)
-
 ## Images
 - ![Cathedral Cave Cavedb PXL 20250926 064838140 F7eb8c0d 28e22a3f](/images/Cathedral%20Cave%20-%20CaveDB%20-%20PXL_20250926_064838140%20-%20f7eb8c0d-28e22a3f.jpg)
 - ![Cathedral Cave Cavedb PXL 20250926 064906021 84db28ee 28e22a3f](/images/Cathedral%20Cave%20-%20CaveDB%20-%20PXL_20250926_064906021%20-%2084db28ee-28e22a3f.jpg)

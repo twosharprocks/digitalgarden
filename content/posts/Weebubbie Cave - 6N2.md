@@ -73,36 +73,20 @@ N2-CEG1094
 N2-CEG8104
 N2-CEG3400
 
-- ![6N2 Weebubbie Cave ASF JNJ S 1011 04 Map Weebubbie Cave](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1011-04%20-%20Map%20-%20Weebubbie%20cave.jpg) - JNJ-S-1011-04, Box 1011 - Map - Weebubbie cave
 
-- ![6N2 Weebubbie Cave ASF JNJ S 1011 13 Map N2 Weebubbie Cave](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1011-13%20-%20Map%20-%20N2%20Weebubbie%20cave.jpg) - JNJ-S-1011-13, Box 1011 - Map - N2 Weebubbie cave
 
-- ![6N2 + 6N3 Weebubbie Cave + Abrakurrie Cave ASF JNJ S 1011 18 Map N2 Weebubbie Cave N3 Abrakurrie Cave](/images/6N2%20%2B%206N3%20-%20Weebubbie%20Cave%20%2B%20Abrakurrie%20Cave%20-%20ASF%20JNJ-S-1011-18%20-%20Map%20-%20N2%20Weebubbie%20cave%20-%20N3%20Abrakurrie%20cave.jpg) - JNJ-S-1011-18, Box 1011 - Map - N2 Weebubbie cave - N3 Abrakurrie cave
 
-- ![6N2 Weebubbie Cave ASF JNJ S 1011 04 Map Weebubbie Cave](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1011-04%20-%20Map%20-%20Weebubbie%20cave.jpg)
-- ![6N2 Weebubbie Cave ASF JNJ S 1011 13 Map N2 Weebubbie Cave](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1011-13%20-%20Map%20-%20N2%20Weebubbie%20cave.jpg)
 
 # References
 
 Nullarbor Field Guide 2023 final.pdf
 
-## ASF Joe Jennings slide catalogue images
-- ![6N2 Weebubbie Cave ASF JNJ S 1010 17 Weebubbie Cave Copyright By F. Le Guen](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1010-17%20-%20Weebubbie%20cave%20-%20Copyright%20by%20F.%20Le%20Guen.jpg) - JNJ-S-1010-17, Box 1010 - Weebubbie cave - Copyright by F. Le Guen
-- ![6N2 Weebubbie Cave ASF JNJ S 1010 18 Weebubbie Cave Copyright By F. Le Guen](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1010-18%20-%20Weebubbie%20cave%20-%20Copyright%20by%20F.%20Le%20Guen.jpg) - JNJ-S-1010-18, Box 1010 - Weebubbie cave - Copyright by F. Le Guen
-- ![6N2 Weebubbie Cave ASF JNJ S 1010 19 Side Lake In Weebubbie Cave Copyright By F. Le Guen](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1010-19%20-%20Side%20lake%20in%20Weebubbie%20cave%20-%20Copyright%20by%20F.%20Le%20Guen.jpg) - JNJ-S-1010-19, Box 1010 - Side lake in Weebubbie cave - Copyright by F. Le Guen
-- ![6N2 Weebubbie Cave ASF JNJ S 1010 20 Weebubbie Cave Copyright By F. Le Guen](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1010-20%20-%20Weebubbie%20cave%20-%20Copyright%20by%20F.%20Le%20Guen.jpg) - JNJ-S-1010-20, Box 1010 - Weebubbie cave - Copyright by F. Le Guen
 <!-- CaveDB media links: start -->
 
 ## Images
 - ![6N2 Weebubbie Cave Cavedb N327 U1 0 A4e9ba09 47e1d564](/images/6N2%20-%20Weebubbie%20Cave%20-%20CaveDB%20-%20n327-u1_0%20-%20a4e9ba09-47e1d564.jpg)
 - ![6N2 Weebubbie Cave Cavedb Weebubbie CAVE 5 D8e10eca 47e1d564](/images/6N2%20-%20Weebubbie%20Cave%20-%20CaveDB%20-%20WEEBUBBIE-CAVE-5%20-%20d8e10eca-47e1d564.jpg)
 - ![6N2 Weebubbie Cave Cavedb Weebubbie CAVE M E74123d7 47e1d564](/images/6N2%20-%20Weebubbie%20Cave%20-%20CaveDB%20-%20WEEBUBBIE-CAVE-m%20-%20e74123d7-47e1d564.png)
-
-## ASF Joe Jennings slide catalogue images
-- ![6N2 Weebubbie Cave ASF JNJ S 1010 17 Weebubbie Cave Copyright By F. Le Guen](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1010-17%20-%20Weebubbie%20cave%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
-- ![6N2 Weebubbie Cave ASF JNJ S 1010 18 Weebubbie Cave Copyright By F. Le Guen](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1010-18%20-%20Weebubbie%20cave%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
-- ![6N2 Weebubbie Cave ASF JNJ S 1010 19 Side Lake In Weebubbie Cave Copyright By F. Le Guen](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1010-19%20-%20Side%20lake%20in%20Weebubbie%20cave%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
-- ![6N2 Weebubbie Cave ASF JNJ S 1010 20 Weebubbie Cave Copyright By F. Le Guen](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1010-20%20-%20Weebubbie%20cave%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
 
 # Details
 
@@ -141,3 +125,28 @@ Nullarbor Field Guide 2023 final.pdf
 - **hasShowers:** No
 - **hasToilets:** No
 - **hasPhone:** No
+
+<!-- ASF slide images: start -->
+## ASF slide images
+
+Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.
+
+![6N2 Weebubbie Cave ASF JNJ S 1010 17 Weebubbie Cave Copyright By F. Le Guen](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1010-17%20-%20Weebubbie%20cave%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-1010-17, Box 1010. Catalogue description: Weebubbie cave - Copyright by F. Le Guen. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201010/JNJ-S-1010-17.html).*
+
+![6N2 Weebubbie Cave ASF JNJ S 1010 18 Weebubbie Cave Copyright By F. Le Guen](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1010-18%20-%20Weebubbie%20cave%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-1010-18, Box 1010. Catalogue description: Weebubbie cave - Copyright by F. Le Guen. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201010/JNJ-S-1010-18.html).*
+
+![6N2 Weebubbie Cave ASF JNJ S 1010 19 Side Lake In Weebubbie Cave Copyright By F. Le Guen](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1010-19%20-%20Side%20lake%20in%20Weebubbie%20cave%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-1010-19, Box 1010. Catalogue description: Side lake in Weebubbie cave - Copyright by F. Le Guen. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201010/JNJ-S-1010-19.html).*
+
+![6N2 Weebubbie Cave ASF JNJ S 1010 20 Weebubbie Cave Copyright By F. Le Guen](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1010-20%20-%20Weebubbie%20cave%20-%20Copyright%20by%20F.%20Le%20Guen.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-1010-20, Box 1010. Catalogue description: Weebubbie cave - Copyright by F. Le Guen. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201010/JNJ-S-1010-20.html).*
+
+![6N2 Weebubbie Cave ASF JNJ S 1011 04 Map Weebubbie Cave](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1011-04%20-%20Map%20-%20Weebubbie%20cave.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-1011-04, Box 1011. Catalogue description: Map - Weebubbie cave. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201011/JNJ-S-1011-04.html).*
+
+![6N2 Weebubbie Cave ASF JNJ S 1011 13 Map N2 Weebubbie Cave](/images/6N2%20-%20Weebubbie%20Cave%20-%20ASF%20JNJ-S-1011-13%20-%20Map%20-%20N2%20Weebubbie%20cave.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-1011-13, Box 1011. Catalogue description: Map - N2 Weebubbie cave. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201011/JNJ-S-1011-13.html).*
+
+<!-- ASF slide images: end -->

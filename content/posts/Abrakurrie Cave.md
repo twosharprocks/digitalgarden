@@ -35,4 +35,3 @@ A bit to the west of Weebubbie Cave, this is the largest, and most imposing, cha
 
 # Maps
 
-- ![6N2 + 6N3 Weebubbie Cave + Abrakurrie Cave ASF JNJ S 1011 18 Map N2 Weebubbie Cave N3 Abrakurrie Cave](/images/6N2%20%2B%206N3%20-%20Weebubbie%20Cave%20%2B%20Abrakurrie%20Cave%20-%20ASF%20JNJ-S-1011-18%20-%20Map%20-%20N2%20Weebubbie%20cave%20-%20N3%20Abrakurrie%20cave.jpg)

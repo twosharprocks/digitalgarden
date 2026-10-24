@@ -43,6 +43,15 @@ The findings were analysed using a special staining process. After the residues 
 
 # References
 
-## ASF Joe Jennings slide catalogue images
-- ![Buchan Cloggs Cave ASF JNJ S 00157 Cloggs Cave, Buchan Anticline](/images/Buchan%20-%20Cloggs%20Cave%20-%20ASF%20JNJ-S-00157%20-%20Cloggs%20Cave%2C%20Buchan%20anticline.jpg)
-- ![Buchan Cloggs Cave ASF JNJ S 00158 Cloggs Cave, Buchan](/images/Buchan%20-%20Cloggs%20Cave%20-%20ASF%20JNJ-S-00158%20-%20Cloggs%20Cave%2C%20Buchan.jpg)
+<!-- ASF slide images: start -->
+## ASF slide images
+
+Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.
+
+![Buchan Cloggs Cave ASF JNJ S 00157 Cloggs Cave, Buchan Anticline](/images/Buchan%20-%20Cloggs%20Cave%20-%20ASF%20JNJ-S-00157%20-%20Cloggs%20Cave%2C%20Buchan%20anticline.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-00157, Box 42. Catalogue description: Cloggs Cave, Buchan anticline. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%2042/JNJ-S-00157.html).*
+
+![Buchan Cloggs Cave ASF JNJ S 00158 Cloggs Cave, Buchan](/images/Buchan%20-%20Cloggs%20Cave%20-%20ASF%20JNJ-S-00158%20-%20Cloggs%20Cave%2C%20Buchan.jpg)
+*ASF Joe N. Jennings slide catalogue, JNJ-S-00158, Box 42. Catalogue description: Cloggs Cave, Buchan. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%2042/JNJ-S-00158.html).*
+
+<!-- ASF slide images: end -->
