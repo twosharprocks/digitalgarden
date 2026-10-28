@@ -97,7 +97,7 @@ def link_targets(text):
     # Wiki links (including embeds), inline Markdown, reference definitions, and HTML.
     for match in re.finditer(r"!?\[\[([^\]]+)\]\]", text):
         yield match[1].split("|", 1)[0].strip(), match.group(0).startswith("!")
-    for match in re.finditer(r"!?\[[^\]\n]*\]\(\s*(<[^>]+>|(?:\\.|[^\n)])+)\)", text):
+    for match in re.finditer(r"!?\[(?:\\.|[^\]\\\n])*\]\(\s*(<[^>]+>|(?:\\.|[^\n)])+)\)", text):
         raw = match[1].strip()
         if raw.startswith("<"):
             raw = raw[1:raw.find(">")]
