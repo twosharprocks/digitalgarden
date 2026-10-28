@@ -3,7 +3,6 @@ title: "Unnamed - 503d8532"
 created: 2023-04-22
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

@@ -3,7 +3,6 @@ title: CISSP - Note - I Took The World’s HARDEST Cybersecurity Exam
 created: 2025-05-16
 updated: 2026-09-10
 status: tree
-draft: false
 tags:
   - cyber-security
   - cissp

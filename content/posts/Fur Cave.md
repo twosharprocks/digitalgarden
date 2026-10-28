@@ -3,7 +3,6 @@ title: "Fur Cave"
 created: 2023-05-29
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -43,5 +42,5 @@ BC and MW (27/5/2023). Goes to very shallow pool at end of hard dry entry. Needs
 - **From RK:** Found and dug to cave 2022 by Ryan Kaczkowski. Large drain leads to water. Currently undoved. Needs some digging to slide into dive.
 
 ## Images
-- ![Fur Cave Cavedb PXL 20230527 012312388 622bc403 645c8d8b](/images/Fur%20Cave%20-%20CaveDB%20-%20PXL_20230527_012312388%20-%20622bc403-645c8d8b.jpg)
-- ![Fur Cave Cavedb PXL 20230527 012312388 Dfa0db5c 645c8d8b](/images/Fur%20Cave%20-%20CaveDB%20-%20PXL_20230527_012312388%20-%20dfa0db5c-645c8d8b.jpg)
+- ![Fur Cave PXL 20230527 012312388 622bc403 645c8d8b](/images/Fur%20Cave%20-%20PXL_20230527_012312388%20-%20622bc403-645c8d8b.jpg)
+- ![Fur Cave PXL 20230527 012312388 Dfa0db5c 645c8d8b](/images/Fur%20Cave%20-%20PXL_20230527_012312388%20-%20dfa0db5c-645c8d8b.jpg)

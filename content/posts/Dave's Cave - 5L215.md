@@ -3,7 +3,6 @@ title: "Dave's Cave - 5L215"
 created: 2026-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -77,6 +76,5 @@ The entrance to the cave is located in a tall pine forest with a remarkable gree
 Although we dive any small place just because “it is out there”, this one does not seem to be very inviting for repeated diving. More than anything else it cries for a huge clean-up! It was great to walk with the gear in the pine forest though.
 
 ## Images
-- ![L0215 Daves Cave Cavedb Daves 5b430544 87fc6216](/images/L0215%20-%20Daves%20Cave%20-%20CaveDB%20-%20daves%20-%205b430544-87fc6216.jpg)
-- ![L0215 Daves Cave Cavedb Daves2 40c6a9a7 87fc6216](/images/L0215%20-%20Daves%20Cave%20-%20CaveDB%20-%20daves2%20-%2040c6a9a7-87fc6216.jpg)
-- [daves.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/90ab03dc-3910-430e-bbc0-85fce8c374f4.mp4)
+- ![L0215 Daves Cave Daves 5b430544 87fc6216](/images/L0215%20-%20Daves%20Cave%20-%20daves%20-%205b430544-87fc6216.jpg)
+- ![L0215 Daves Cave Daves2 40c6a9a7 87fc6216](/images/L0215%20-%20Daves%20Cave%20-%20daves2%20-%2040c6a9a7-87fc6216.jpg)

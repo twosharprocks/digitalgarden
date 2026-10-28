@@ -3,7 +3,6 @@ title: Mini Essay - Where do I want to be in 2028
 created: 2026-01-22
 updated: 2026-06-19
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

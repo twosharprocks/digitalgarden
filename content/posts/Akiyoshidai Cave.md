@@ -3,7 +3,6 @@ title: Akiyoshidai Cave
 created: 2026-04-04
 updated: 2026-09-11
 status: seed
-draft: false
 tags:
   - diving
   - caving

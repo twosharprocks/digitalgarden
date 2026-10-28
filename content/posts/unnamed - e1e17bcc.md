@@ -3,7 +3,6 @@ title: "unnamed - e1e17bcc"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -48,5 +47,4 @@ Forestry
 - **Forestry SA:** L0181, Thin Roof: N, Fence: N. Dimensions: 0.5m x 6m drop. Features: Cave crickets. 20m upslope from Dry Ck Settlement
 
 ## Images
-- ![L0181 Unnamed Cavedb 2023 04 11 09.14.09 A23981fe E1e17bcc](/images/L0181%20-%20unnamed%20-%20CaveDB%20-%202023-04-11%2009.14.09%20-%20a23981fe-e1e17bcc.jpg)
-- [2023-04-11 09.19.01.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/d67f47e7-ef1b-4255-b616-a63c2d8e2aca.mp4)
+- ![L0181 Unnamed 2023 04 11 09.14.09 A23981fe E1e17bcc](/images/L0181%20-%20unnamed%20-%202023-04-11%2009.14.09%20-%20a23981fe-e1e17bcc.jpg)

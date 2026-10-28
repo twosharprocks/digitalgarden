@@ -3,7 +3,6 @@ title: "Unnamed Forestry - d6723564"
 created: 2023-07-31
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -37,5 +36,5 @@ address: "Logging Trak, Tantanoola, South Australia, AUS, 5280"
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: Deep and narrow cave
 
 ## Images
-- ![Unnamed Forestry Cavedb 20240917 084251 Dc64194b D6723564](/images/Unnamed%20Forestry%20-%20CaveDB%20-%2020240917_084251%20-%20dc64194b-d6723564.jpg)
-- ![Unnamed Forestry Cavedb 20240917 084255 Fa537b6d D6723564](/images/Unnamed%20Forestry%20-%20CaveDB%20-%2020240917_084255%20-%20fa537b6d-d6723564.jpg)
+- ![Unnamed Forestry 20240917 084251 Dc64194b D6723564](/images/Unnamed%20Forestry%20-%2020240917_084251%20-%20dc64194b-d6723564.jpg)
+- ![Unnamed Forestry 20240917 084255 Fa537b6d D6723564](/images/Unnamed%20Forestry%20-%2020240917_084255%20-%20fa537b6d-d6723564.jpg)

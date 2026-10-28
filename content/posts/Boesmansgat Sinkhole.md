@@ -3,7 +3,6 @@ title: "Boesmansgat Sinkhole"
 created: 2023-12-19
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -57,5 +56,5 @@ In October 2022 Karen van den Oever broke her own Guinness World Record[4] as th
 # References
 
 ## Images
-- ![Boesmansgat Sinkhole Cavedb View Of The Surface Pool Of Boesmansgat Cave 2 966ab22b 4d539d0b](/images/Boesmansgat%20Sinkhole%20-%20CaveDB%20-%20View-of-the-surface-pool-of-Boesmansgat-cave-2%20-%20966ab22b-4d539d0b.jpg)
-- ![Boesmansgat Sinkhole Cavedb Northern Cape Kalahari Boesmansgat Sinkhole 229e2570 4d539d0b](/images/Boesmansgat%20Sinkhole%20-%20CaveDB%20-%20Northern_Cape_Kalahari_Boesmansgat_Sinkhole%20-%20229e2570-4d539d0b.jpg)
+- ![Boesmansgat Sinkhole View Of The Surface Pool Of Boesmansgat Cave 2 966ab22b 4d539d0b](/images/Boesmansgat%20Sinkhole%20-%20View-of-the-surface-pool-of-Boesmansgat-cave-2%20-%20966ab22b-4d539d0b.jpg)
+- ![Boesmansgat Sinkhole Northern Cape Kalahari Boesmansgat Sinkhole 229e2570 4d539d0b](/images/Boesmansgat%20Sinkhole%20-%20Northern_Cape_Kalahari_Boesmansgat_Sinkhole%20-%20229e2570-4d539d0b.jpg)

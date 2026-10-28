@@ -3,7 +3,6 @@ title: 2025 - Hobbies To Learn
 created: 2025-04-06
 updated: 2025-11-01
 status: seed
-draft: false
 tags:
   - knowledge-management
   - personal

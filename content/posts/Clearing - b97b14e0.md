@@ -3,7 +3,6 @@ title: "Clearing - b97b14e0"
 created: 2023-07-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,4 +38,4 @@ address: "Kennedys Trak, Tantanoola, South Australia, AUS, 5280"
 # References
 
 ## Images
-- ![Clearing Cavedb IMG 20210801 162655 1 5619d77e B97b14e0](/images/Clearing%20-%20CaveDB%20-%20IMG_20210801_162655_1%20-%205619d77e-b97b14e0.jpg)
+- ![Clearing IMG 20210801 162655 1 5619d77e B97b14e0](/images/Clearing%20-%20IMG_20210801_162655_1%20-%205619d77e-b97b14e0.jpg)

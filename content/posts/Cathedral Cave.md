@@ -3,7 +3,6 @@ title: "Cathedral Cave"
 created: 2025-09-26
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -45,6 +44,6 @@ address: "99-101, Caves Rd, Dubbo Regional Council, New South Wales, AUS, 2820"
 # References
 
 ## Images
-- ![Cathedral Cave Cavedb PXL 20250926 064838140 F7eb8c0d 28e22a3f](/images/Cathedral%20Cave%20-%20CaveDB%20-%20PXL_20250926_064838140%20-%20f7eb8c0d-28e22a3f.jpg)
-- ![Cathedral Cave Cavedb PXL 20250926 064906021 84db28ee 28e22a3f](/images/Cathedral%20Cave%20-%20CaveDB%20-%20PXL_20250926_064906021%20-%2084db28ee-28e22a3f.jpg)
-- ![Cathedral Cave Cavedb PXL 20250926 064937501 93c7cbb9 28e22a3f](/images/Cathedral%20Cave%20-%20CaveDB%20-%20PXL_20250926_064937501%20-%2093c7cbb9-28e22a3f.jpg)
+- ![Cathedral Cave PXL 20250926 064838140 F7eb8c0d 28e22a3f](/images/Cathedral%20Cave%20-%20PXL_20250926_064838140%20-%20f7eb8c0d-28e22a3f.jpg)
+- ![Cathedral Cave PXL 20250926 064906021 84db28ee 28e22a3f](/images/Cathedral%20Cave%20-%20PXL_20250926_064906021%20-%2084db28ee-28e22a3f.jpg)
+- ![Cathedral Cave PXL 20250926 064937501 93c7cbb9 28e22a3f](/images/Cathedral%20Cave%20-%20PXL_20250926_064937501%20-%2093c7cbb9-28e22a3f.jpg)

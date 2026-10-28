@@ -3,7 +3,6 @@ title: "Gua Koo"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,4 +37,4 @@ address: "Jalan Tanpa Nama, Buton Regency, South East Sulawesi, IDN, 93762"
 # References
 
 ## Images
-- ![Gua Koo Cavedb Gua Koo 54bffb00 3380cd6f](/images/Gua%20Koo%20-%20CaveDB%20-%20Gua%20Koo%20-%2054bffb00-3380cd6f.jpg)
+- ![Gua Koo Gua Koo 54bffb00 3380cd6f](/images/Gua%20Koo%20-%20Gua%20Koo%20-%2054bffb00-3380cd6f.jpg)

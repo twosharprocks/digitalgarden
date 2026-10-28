@@ -3,7 +3,6 @@ title: "Grotta Rio Torretta"
 created: 2023-06-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -97,6 +96,6 @@ Romano Trevisiol
 - **Youtube:** https://www.youtube.com/watch?v=26hGjVI_1rg
 
 ## Images
-- ![Grotta Rio Torretta Cavedb Rio 0b0b52f5 3e26cb10](/images/Grotta%20Rio%20Torretta%20-%20CaveDB%20-%20rio%20-%200b0b52f5-3e26cb10.jpg)
-- ![Grotta Rio Torretta Cavedb Rio2 39ff4229 3e26cb10](/images/Grotta%20Rio%20Torretta%20-%20CaveDB%20-%20rio2%20-%2039ff4229-3e26cb10.jpg)
-- CaveDB - La risorgenza di Rio Torretta - c480b8b1-3e26cb10.pdf — [Source](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/08d35bec-71f1-4182-be8d-8acf6b1b2971.pdf)
+- ![Grotta Rio Torretta Rio 0b0b52f5 3e26cb10](/images/Grotta%20Rio%20Torretta%20-%20rio%20-%200b0b52f5-3e26cb10.jpg)
+- ![Grotta Rio Torretta Rio2 39ff4229 3e26cb10](/images/Grotta%20Rio%20Torretta%20-%20rio2%20-%2039ff4229-3e26cb10.jpg)
+- La risorgenza di Rio Torretta - c480b8b1-3e26cb10.pdf

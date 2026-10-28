@@ -3,7 +3,6 @@ title: Naharon
 created: 2023-08-14
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -37,4 +36,4 @@ address: "Tulum, Quintana Roo, MEX"
 
 # Maps
 
-- CaveDB - Naharon - 9a8ab098-f57d000e.kml — [Source](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/14903c0d-48b7-4089-bef4-a0a1023423ed.kml)
+- Naharon - 9a8ab098-f57d000e.kml

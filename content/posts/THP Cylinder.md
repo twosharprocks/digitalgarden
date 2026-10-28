@@ -3,7 +3,6 @@ title: "THP Cylinder"
 created: 2023-05-06
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,9 +38,8 @@ From Col's list
 # References
 
 ## Images
-- ![THP Cylinder Cavedb Thp 3580d71a 2e6e3a06](/images/THP%20Cylinder%20-%20CaveDB%20-%20thp%20-%203580d71a-2e6e3a06.jpg)
+- ![THP Cylinder Thp 3580d71a 2e6e3a06](/images/THP%20Cylinder%20-%20thp%20-%203580d71a-2e6e3a06.jpg)
 
 ## Images
-- ![THP Cylinder Cavedb Thp 346c8d0a A231f7a4](/images/THP%20Cylinder%20-%20CaveDB%20-%20thp%20-%20346c8d0a-a231f7a4.jpg)
+- ![THP Cylinder Thp 346c8d0a A231f7a4](/images/THP%20Cylinder%20-%20thp%20-%20346c8d0a-a231f7a4.jpg)
 
-- [CaveDB record](https://app.cavedb.net/share/a231f7a4-ad8c-4555-8029-80cf94edfd31.html)

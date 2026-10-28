@@ -3,7 +3,6 @@ title: "Cova de sa Campana"
 created: 2023-08-10
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -44,4 +43,4 @@ We will certainly be impressed by the size of the cave and the dimensions of its
 - **Mapcarta.com:** https://mapcarta.com/N6368677414
 
 ## Images
-- ![Cova De Sa Campana Cavedb C 08 1 Cova De Sa Campana 6b8e4fd3 B9f3df82](/images/Cova%20de%20sa%20Campana%20-%20CaveDB%20-%20c-08-1-cova-de-sa-campana%20-%206b8e4fd3-b9f3df82.jpg)
+- ![Cova De Sa Campana C 08 1 Cova De Sa Campana 6b8e4fd3 B9f3df82](/images/Cova%20de%20sa%20Campana%20-%20c-08-1-cova-de-sa-campana%20-%206b8e4fd3-b9f3df82.jpg)

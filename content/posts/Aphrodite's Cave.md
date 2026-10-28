@@ -3,7 +3,6 @@ title: "Aphrodite's Cave"
 created: 2025-09-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -35,4 +34,4 @@ address: "Epirus, Decentralized Administration of Epirus and Western Macedonia, 
 - **Facebook:** https://www.facebook.com/groups/2218647744/permalink/10163501386632745/
 
 ## Images
-- ![Aphrodite's Cave Cavedb Cave Of Amphitrite 407697f0 B9d0dd83](/images/Aphrodite%27s%20Cave%20-%20CaveDB%20-%20Cave%20of%20Amphitrite%20-%20407697f0-b9d0dd83.jpg)
+- ![Aphrodite's Cave Cave Of Amphitrite 407697f0 B9d0dd83](/images/Aphrodite%27s%20Cave%20-%20Cave%20of%20Amphitrite%20-%20407697f0-b9d0dd83.jpg)

@@ -3,7 +3,6 @@ title: Diving - Reading
 created: 2025-06-06
 updated: 2026-09-19
 status: seed
-draft: false
 tags:
   - diving
 related:

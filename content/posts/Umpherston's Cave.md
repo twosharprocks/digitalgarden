@@ -3,7 +3,6 @@ title: "Umpherston's Cave"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -43,16 +42,16 @@ Named after Mr. James Umpherston, a former politician who purchased the land in 
 - **ASF:** Entrance is cave type; (Unknown entrances); development is large undercut entrance with water-filled section; karst type is doline; length is Unknown m , surveyed; vertical extent is 22.00 m; reasonably explored, no leads noticed; wet environment.
 
 ## Images
-- ![L0006 Umpherston's Cave Cavedb 20240322 103253 3316c025 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%20CaveDB%20-%2020240322_103253%20-%203316c025-503f044f.jpg)
-- ![L0006 Umpherston's Cave Cavedb 20240322 103621 330ac18e 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%20CaveDB%20-%2020240322_103621%20-%20330ac18e-503f044f.jpg)
-- ![L0006 Umpherston's Cave Cavedb 20240322 103652 D548bcf7 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%20CaveDB%20-%2020240322_103652%20-%20d548bcf7-503f044f.jpg)
-- ![L0006 Umpherston's Cave Cavedb 20240322 103512 C7291846 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%20CaveDB%20-%2020240322_103512%20-%20c7291846-503f044f.jpg)
-- ![L0006 Umpherston's Cave Cavedb 0034 1b43c0dd 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%20CaveDB%20-%200034%20-%201b43c0dd-503f044f.jpg)
-- ![L0006 Umpherston's Cave Cavedb 20240322 104005 834f5fab 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%20CaveDB%20-%2020240322_104005%20-%20834f5fab-503f044f.jpg)
-- ![L0006 Umpherston's Cave Cavedb 20240322 103504 29d60ccf 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%20CaveDB%20-%2020240322_103504%20-%2029d60ccf-503f044f.jpg)
-- ![L0006 Umpherston's Cave Cavedb 0035 Fd74c4ed 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%20CaveDB%20-%200035%20-%20fd74c4ed-503f044f.jpg)
-- ![L0006 Umpherston's Cave Cavedb 20240322 103455 Fd5803de 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%20CaveDB%20-%2020240322_103455%20-%20fd5803de-503f044f.jpg)
-- ![L0006 Umpherston's Cave Cavedb 20240322 103443 7b065198 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%20CaveDB%20-%2020240322_103443%20-%207b065198-503f044f.jpg)
-- ![L0006 Umpherston's Cave Cavedb 20240322 104116 65fdc997 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%20CaveDB%20-%2020240322_104116%20-%2065fdc997-503f044f.jpg)
-- ![L0006 Umpherston's Cave Cavedb 20240322 103357 Feb68ff3 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%20CaveDB%20-%2020240322_103357%20-%20feb68ff3-503f044f.jpg)
-- ![L0006 Umpherston's Cave Cavedb 20240322 103433 350e574f 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%20CaveDB%20-%2020240322_103433%20-%20350e574f-503f044f.jpg)
+- ![L0006 Umpherston's Cave 20240322 103253 3316c025 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%2020240322_103253%20-%203316c025-503f044f.jpg)
+- ![L0006 Umpherston's Cave 20240322 103621 330ac18e 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%2020240322_103621%20-%20330ac18e-503f044f.jpg)
+- ![L0006 Umpherston's Cave 20240322 103652 D548bcf7 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%2020240322_103652%20-%20d548bcf7-503f044f.jpg)
+- ![L0006 Umpherston's Cave 20240322 103512 C7291846 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%2020240322_103512%20-%20c7291846-503f044f.jpg)
+- ![L0006 Umpherston's Cave 0034 1b43c0dd 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%200034%20-%201b43c0dd-503f044f.jpg)
+- ![L0006 Umpherston's Cave 20240322 104005 834f5fab 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%2020240322_104005%20-%20834f5fab-503f044f.jpg)
+- ![L0006 Umpherston's Cave 20240322 103504 29d60ccf 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%2020240322_103504%20-%2029d60ccf-503f044f.jpg)
+- ![L0006 Umpherston's Cave 0035 Fd74c4ed 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%200035%20-%20fd74c4ed-503f044f.jpg)
+- ![L0006 Umpherston's Cave 20240322 103455 Fd5803de 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%2020240322_103455%20-%20fd5803de-503f044f.jpg)
+- ![L0006 Umpherston's Cave 20240322 103443 7b065198 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%2020240322_103443%20-%207b065198-503f044f.jpg)
+- ![L0006 Umpherston's Cave 20240322 104116 65fdc997 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%2020240322_104116%20-%2065fdc997-503f044f.jpg)
+- ![L0006 Umpherston's Cave 20240322 103357 Feb68ff3 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%2020240322_103357%20-%20feb68ff3-503f044f.jpg)
+- ![L0006 Umpherston's Cave 20240322 103433 350e574f 503f044f](/images/L0006%20-%20Umpherston%27s%20Cave%20-%2020240322_103433%20-%20350e574f-503f044f.jpg)

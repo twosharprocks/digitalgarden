@@ -3,7 +3,6 @@ title: Mini Essay - Kids Meals on Planes
 created: 2025-05-11
 updated: 2025-10-30
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

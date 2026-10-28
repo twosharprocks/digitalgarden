@@ -3,7 +3,6 @@ title: "Drovers Cave"
 created: 2023-07-02
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -47,4 +46,4 @@ Location from Waze - locked gate in picture very different from Stockton Gully C
 - **Total Travel:** http://www.totaltravel.com.au/travel/wa/gascoyne/carnarvon/travel-guides/gardens/drovers-cave-9/
 
 ## Images
-- ![6J 2 Drovers Cave Cavedb Drovers 83882965 2887f934](/images/6J-2%20-%20Drovers%20Cave%20-%20CaveDB%20-%20drovers%20-%2083882965-2887f934.jpg)
+- ![6J 2 Drovers Cave Drovers 83882965 2887f934](/images/6J-2%20-%20Drovers%20Cave%20-%20drovers%20-%2083882965-2887f934.jpg)

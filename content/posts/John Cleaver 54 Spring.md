@@ -3,7 +3,6 @@ title: "John Cleaver 54 Spring"
 created: 2023-07-02
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -60,4 +59,4 @@ The water is extraordinarily clear as it is found only in South Australia (this 
 - **Plongeesout:** https://www.plongeesout.com/sites/monde/australie/john%20cleavers_54.htm
 
 ## Images
-- ![John Cleaver 54 Spring Cavedb John Cleavers 54 Topo 73e0615b 9a497b73](/images/John%20Cleaver%2054%20Spring%20-%20CaveDB%20-%20john%20cleavers_54%20topo%20-%2073e0615b-9a497b73.jpg)
+- ![John Cleaver 54 Spring John Cleavers 54 Topo 73e0615b 9a497b73](/images/John%20Cleaver%2054%20Spring%20-%20john%20cleavers_54%20topo%20-%2073e0615b-9a497b73.jpg)

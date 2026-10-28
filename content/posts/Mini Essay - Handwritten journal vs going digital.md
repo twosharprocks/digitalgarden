@@ -3,7 +3,6 @@ title: Mini Essay - Handwritten journal vs going digital
 created: 2025-05-27
 updated: 2025-05-27
 status: seed
-draft: false
 tags:
   - mini-essay
   - writing

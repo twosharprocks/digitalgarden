@@ -3,7 +3,6 @@ title: "Bat Cave"
 created: 2023-04-20
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -44,4 +43,4 @@ During spring and summer months the bats leave the cave for the maternity cave i
 # References
 
 ## Images
-- ![Bat Cave Cavedb 2023 04 10 13.38.39 2df89dea 4fceb843](/images/Bat%20Cave%20-%20CaveDB%20-%202023-04-10%2013.38.39%20-%202df89dea-4fceb843.jpg)
+- ![Bat Cave 2023 04 10 13.38.39 2df89dea 4fceb843](/images/Bat%20Cave%20-%202023-04-10%2013.38.39%20-%202df89dea-4fceb843.jpg)

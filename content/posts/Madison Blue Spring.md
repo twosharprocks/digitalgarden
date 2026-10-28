@@ -3,7 +3,6 @@ title: "Madison Blue Spring"
 created: 2023-04-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,6 +37,6 @@ address: "8300, FL-6, Madison County, Florida, USA, 32059"
 # References
 
 ## Images
-- ![Madison Blue Spring Cavedb Image 6863bed6 1ab377eb](/images/Madison%20Blue%20Spring%20-%20CaveDB%20-%20Image%20-%206863bed6-1ab377eb.jpg)
-- ![Madison Blue Spring Cavedb 465922671 943893771103352 221286184825282550 N F2e287a5 1ab377eb](/images/Madison%20Blue%20Spring%20-%20CaveDB%20-%20465922671_943893771103352_221286184825282550_n%20-%20f2e287a5-1ab377eb.jpg)
+- ![Madison Blue Spring Image 6863bed6 1ab377eb](/images/Madison%20Blue%20Spring%20-%20Image%20-%206863bed6-1ab377eb.jpg)
+- ![Madison Blue Spring 465922671 943893771103352 221286184825282550 N F2e287a5 1ab377eb](/images/Madison%20Blue%20Spring%20-%20465922671_943893771103352_221286184825282550_n%20-%20f2e287a5-1ab377eb.jpg)
 - [0bb0ede0-5a64-40e8-b41e-9eee68376dd9](https://www.youtube.com/watch?v=xuTh5uCLjg8)

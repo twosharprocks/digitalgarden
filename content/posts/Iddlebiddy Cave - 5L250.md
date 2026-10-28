@@ -3,7 +3,6 @@ title: "Iddlebiddy Cave - 5L250"
 created: 2026-04-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -56,24 +55,24 @@ The entrance is via a locked hatch that opens to reveal a solution tube about 8m
 TML Data: Iddlebiddy.tml
 KML Survey: Iddlebiddy.kml
 
-- ![5l250 Iddlebiddy Cave Cavedb Diver At The Main Iddlebiddy Tunnel Section 22781733 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20CaveDB%20-%20Diver%20at%20the%20main%20Iddlebiddy%20tunnel%20section%20-%2022781733-5a860a82.jpeg)
-- ![5l250 Iddlebiddy Cave Cavedb 5l250 Iddlebiddy Full Line Survey 69193e1d 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20CaveDB%20-%205L250%20-%20Iddlebiddy%20-%20full%20line%20survey%20-%2069193e1d-5a860a82.jpg)
-- ![5l250 Iddlebiddy Cave Cavedb Map Overlay (googlemaps) E90f909f 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20CaveDB%20-%20Map%20Overlay%20%28googlemaps%29%20-%20e90f909f-5a860a82.jpeg)
-- CaveDB - Iddlebiddy - f89d1bdd-5a860a82.kml — [Source](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/780d9a6f-b457-4e40-853f-f066bdde8ce9.kml)
+- ![5l250 Iddlebiddy Cave Diver At The Main Iddlebiddy Tunnel Section 22781733 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20Diver%20at%20the%20main%20Iddlebiddy%20tunnel%20section%20-%2022781733-5a860a82.jpeg)
+- ![5l250 Iddlebiddy Cave 5l250 Iddlebiddy Full Line Survey 69193e1d 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%205L250%20-%20Iddlebiddy%20-%20full%20line%20survey%20-%2069193e1d-5a860a82.jpg)
+- ![5l250 Iddlebiddy Cave Map Overlay (googlemaps) E90f909f 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20Map%20Overlay%20%28googlemaps%29%20-%20e90f909f-5a860a82.jpeg)
+- Iddlebiddy - f89d1bdd-5a860a82.kml
 
 # References
 
 - [Clay formations in US cave (like Iddlebiddy)](https://www.facebook.com/reel/507424628475090)
 
 ## Images
-- ![5l250 Iddlebiddy Cave Cavedb 5l250 Iddlebiddy Full Line Survey 69193e1d 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20CaveDB%20-%205L250%20-%20Iddlebiddy%20-%20full%20line%20survey%20-%2069193e1d-5a860a82.jpg) — CaveDB; Grubby Wombat
-- ![5l250 Iddlebiddy Cave Cavedb Cave Entrance 4ba3c9e5 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20CaveDB%20-%20Cave%20entrance%20-%204ba3c9e5-5a860a82.jpg)
-- ![5l250 Iddlebiddy Cave Cavedb Diver At The Main Iddlebiddy Tunnel Section 22781733 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20CaveDB%20-%20Diver%20at%20the%20main%20Iddlebiddy%20tunnel%20section%20-%2022781733-5a860a82.jpeg)
-- ![5l250 Iddlebiddy Cave Cavedb Forestry Sign And Dive Gear Setup Bench At Iddlebiddy Cave Entrance 5245249e 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20CaveDB%20-%20Forestry%20sign%20and%20dive%20gear%20setup%20bench%20at%20Iddlebiddy%20Cave%20entrance%20-%205245249e-5a860a82.jpg)
-- ![5l250 Iddlebiddy Cave Cavedb Forestry Sign At Iddlebiddy Cave Entrance F878cd6a 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20CaveDB%20-%20Forestry%20sign%20at%20Iddlebiddy%20Cave%20entrance%20-%20f878cd6a-5a860a82.jpg)
-- ![5l250 Iddlebiddy Cave Cavedb Iddlebiddy Cave Entrance After Hatch Opened D9f7e9b9 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20CaveDB%20-%20Iddlebiddy%20Cave%20entrance%20after%20hatch%20opened%20-%20d9f7e9b9-5a860a82.jpg)
-- ![5l250 Iddlebiddy Cave Cavedb Map Overlay (googlemaps) E90f909f 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20CaveDB%20-%20Map%20Overlay%20%28googlemaps%29%20-%20e90f909f-5a860a82.jpeg)
-- ![5l250 Iddlebiddy Cave Cavedb Screenshot 2023 10 24 At 11.33.29 Pm F12fea14 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20CaveDB%20-%20Screenshot%202023-10-24%20at%2011.33.29%20pm%20-%20f12fea14-5a860a82.png)
+- ![5l250 Iddlebiddy Cave 5l250 Iddlebiddy Full Line Survey 69193e1d 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%205L250%20-%20Iddlebiddy%20-%20full%20line%20survey%20-%2069193e1d-5a860a82.jpg) — Grubby Wombat
+- ![5l250 Iddlebiddy Cave Cave Entrance 4ba3c9e5 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20Cave%20entrance%20-%204ba3c9e5-5a860a82.jpg)
+- ![5l250 Iddlebiddy Cave Diver At The Main Iddlebiddy Tunnel Section 22781733 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20Diver%20at%20the%20main%20Iddlebiddy%20tunnel%20section%20-%2022781733-5a860a82.jpeg)
+- ![5l250 Iddlebiddy Cave Forestry Sign And Dive Gear Setup Bench At Iddlebiddy Cave Entrance 5245249e 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20Forestry%20sign%20and%20dive%20gear%20setup%20bench%20at%20Iddlebiddy%20Cave%20entrance%20-%205245249e-5a860a82.jpg)
+- ![5l250 Iddlebiddy Cave Forestry Sign At Iddlebiddy Cave Entrance F878cd6a 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20Forestry%20sign%20at%20Iddlebiddy%20Cave%20entrance%20-%20f878cd6a-5a860a82.jpg)
+- ![5l250 Iddlebiddy Cave Iddlebiddy Cave Entrance After Hatch Opened D9f7e9b9 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20Iddlebiddy%20Cave%20entrance%20after%20hatch%20opened%20-%20d9f7e9b9-5a860a82.jpg)
+- ![5l250 Iddlebiddy Cave Map Overlay (googlemaps) E90f909f 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20Map%20Overlay%20%28googlemaps%29%20-%20e90f909f-5a860a82.jpeg)
+- ![5l250 Iddlebiddy Cave Screenshot 2023 10 24 At 11.33.29 Pm F12fea14 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20Screenshot%202023-10-24%20at%2011.33.29%20pm%20-%20f12fea14-5a860a82.png)
 
 - **LSECR:** Page 488
 At the time of its discovery by a small party of unqualified local divers in late 1983 or early 1984, Iddlebiddy Cave (a satirisation of the mighty "Cocklebiddy Cave" in the Nullarbor, because of its smaller but similar underwater appearance) was one of the most significant cave diving finds of the decade.
@@ -87,11 +86,11 @@ Iddlebiddy Cave is indeed a valuable cave diving site worthy of considerable pro
 - **www.cavediving.net.au:** https://www.cavediving.net.au/images/articles/maps/5L-250.gif
 
 ## Images
-- ![5l250 Iddlebiddy Cave Cavedb 5l250 Iddlebiddy Full Line Survey 69193e1d 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20CaveDB%20-%205L250%20-%20Iddlebiddy%20-%20full%20line%20survey%20-%2069193e1d-5a860a82.jpg)
+- ![5l250 Iddlebiddy Cave 5l250 Iddlebiddy Full Line Survey 69193e1d 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%205L250%20-%20Iddlebiddy%20-%20full%20line%20survey%20-%2069193e1d-5a860a82.jpg)
 - [df00a6a8-c184-472d-a46e-e5fe00585dc2](https://www.youtube.com/watch?v=DNh7DX5QidQ)
 - [b7a3eb21-0830-4486-8ac6-170a65c335b8](https://www.youtube.com/watch?v=cRxXXUKfOTw)
 - [83ee4507-4180-4626-8e17-698691bf97c7](https://www.youtube.com/watch?v=k3gbjbuN3ps)
-- CaveDB - Iddlebiddy Map Dec23 - 8c073f79-5a860a82.pdf — [Source](https://media.cavedb.net/ap-southeast-2:7abc1089-d434-43c3-b37a-981b2e0fb25e/84fd233e-356b-4cc1-9969-5d5992e23ee8.pdf)
+- Iddlebiddy Map Dec23 - 8c073f79-5a860a82.pdf
 
 # Details
 

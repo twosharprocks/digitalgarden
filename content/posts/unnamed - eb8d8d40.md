@@ -3,7 +3,6 @@ title: "unnamed - eb8d8d40"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -46,8 +45,7 @@ Forestry
 - **Forestry SA:** L0915, Thin Roof: N, Fence: R. Dimensions: about 7m deep. Features: Maidenhair ferns,  most rubbish removed - July '99
 
 ## Images
-- ![L0915 Unnamed Cavedb 20230421 125812 7d7211f0 Eb8d8d40](/images/L0915%20-%20unnamed%20-%20CaveDB%20-%2020230421_125812%20-%207d7211f0-eb8d8d40.jpg)
-- ![L0915 Unnamed Cavedb 20230421 125636 93b21cc5 Eb8d8d40](/images/L0915%20-%20unnamed%20-%20CaveDB%20-%2020230421_125636%20-%2093b21cc5-eb8d8d40.jpg)
-- ![L0915 Unnamed Cavedb 2023 04 21 12.28.12 D64d242e Eb8d8d40](/images/L0915%20-%20unnamed%20-%20CaveDB%20-%202023-04-21%2012.28.12%20-%20d64d242e-eb8d8d40.jpg)
-- ![L0915 Unnamed Cavedb 20230421 125657 3bc4c909 Eb8d8d40](/images/L0915%20-%20unnamed%20-%20CaveDB%20-%2020230421_125657%20-%203bc4c909-eb8d8d40.jpg)
-- [20230421_125818.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/f2857f27-070d-48c4-81fd-e73465f068f8.mp4)
+- ![L0915 Unnamed 20230421 125812 7d7211f0 Eb8d8d40](/images/L0915%20-%20unnamed%20-%2020230421_125812%20-%207d7211f0-eb8d8d40.jpg)
+- ![L0915 Unnamed 20230421 125636 93b21cc5 Eb8d8d40](/images/L0915%20-%20unnamed%20-%2020230421_125636%20-%2093b21cc5-eb8d8d40.jpg)
+- ![L0915 Unnamed 2023 04 21 12.28.12 D64d242e Eb8d8d40](/images/L0915%20-%20unnamed%20-%202023-04-21%2012.28.12%20-%20d64d242e-eb8d8d40.jpg)
+- ![L0915 Unnamed 20230421 125657 3bc4c909 Eb8d8d40](/images/L0915%20-%20unnamed%20-%2020230421_125657%20-%203bc4c909-eb8d8d40.jpg)

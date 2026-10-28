@@ -3,7 +3,6 @@ title: "Permandian Wakumoro"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -40,4 +39,4 @@ address: "Jalan Tanpa Nama, Muna Regency, South East Sulawesi, IDN, 93661"
 # References
 
 ## Images
-- ![Permandian Wakumoro Cavedb Permandian Wakumoro 28512628 38b6308f](/images/Permandian%20Wakumoro%20-%20CaveDB%20-%20Permandian%20Wakumoro%20-%2028512628-38b6308f.jpg)
+- ![Permandian Wakumoro Permandian Wakumoro 28512628 38b6308f](/images/Permandian%20Wakumoro%20-%20Permandian%20Wakumoro%20-%2028512628-38b6308f.jpg)

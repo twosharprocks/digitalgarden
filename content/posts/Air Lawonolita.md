@@ -3,7 +3,6 @@ title: "Air Lawonolita"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,4 +37,4 @@ address: "Jl. Poros Lombe, Buton Regency, South East Sulawesi, IDN, 93761"
 # References
 
 ## Images
-- ![Air Lawonolita Cavedb Air Lawonolita 4ee6222a D84c2432](/images/Air%20Lawonolita%20-%20CaveDB%20-%20Air%20Lawonolita%20-%204ee6222a-d84c2432.jpg)
+- ![Air Lawonolita Air Lawonolita 4ee6222a D84c2432](/images/Air%20Lawonolita%20-%20Air%20Lawonolita%20-%204ee6222a-d84c2432.jpg)

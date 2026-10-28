@@ -3,7 +3,6 @@ title: "Minyé Sinkhole and Cave"
 created: 2023-08-14
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -51,4 +50,4 @@ And only then it begins… Pristine, incredibly beautiful and opulent dripstone 
 - **Wondermondo.com:** https://www.wondermondo.com/minye-sinkhole-and-cave/
 
 ## Images
-- ![Minyé Sinkhole And Cave Cavedb Minye Af927e53 504cfe23](/images/Miny%C3%A9%20Sinkhole%20and%20Cave%20-%20CaveDB%20-%20Minye%20-%20af927e53-504cfe23.jpg)
+- ![Minyé Sinkhole And Cave Minye Af927e53 504cfe23](/images/Miny%C3%A9%20Sinkhole%20and%20Cave%20-%20Minye%20-%20af927e53-504cfe23.jpg)

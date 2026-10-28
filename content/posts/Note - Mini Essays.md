@@ -3,7 +3,6 @@ title: Note - Mini Essays
 created: 2025-04-06
 updated: 2026-09-28
 status: tree
-draft: false
 tags:
   - knowledge-management
   - writing

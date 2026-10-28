@@ -3,7 +3,6 @@ title: "Upper Dinas Silica Mine"
 created: 2024-11-27
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -55,15 +54,15 @@ Visitors should note that the silica mines and the surface area surrounding is a
 
 # Maps
 
-- ![Upper Dinas Silica Mine Cavedb Explorers Plan 88c6b1b8 F94a1b94](/images/Upper%20Dinas%20Silica%20Mine%20-%20CaveDB%20-%20Explorers%20plan%20-%2088c6b1b8-f94a1b94.jpg)
+- ![Upper Dinas Silica Mine Explorers Plan 88c6b1b8 F94a1b94](/images/Upper%20Dinas%20Silica%20Mine%20-%20Explorers%20plan%20-%2088c6b1b8-f94a1b94.jpg)
 
 # References
 
 ## Images
-- ![Upper Dinas Silica Mine Cavedb Upper Dinas2 V Small Fd95a71e F94a1b94](/images/Upper%20Dinas%20Silica%20Mine%20-%20CaveDB%20-%20upper_dinas2_v_small%20-%20fd95a71e-f94a1b94.jpg)
-- ![Upper Dinas Silica Mine Cavedb Paul Marvin Photo F8e5e584 F94a1b94](/images/Upper%20Dinas%20Silica%20Mine%20-%20CaveDB%20-%20Paul_Marvin_Photo%20-%20f8e5e584-f94a1b94.jpg)
-- ![Upper Dinas Silica Mine Cavedb Main Entrance Small C41c415d F94a1b94](/images/Upper%20Dinas%20Silica%20Mine%20-%20CaveDB%20-%20main_entrance_small%20-%20c41c415d-f94a1b94.jpg)
-- ![Upper Dinas Silica Mine Cavedb Explorers Plan 88c6b1b8 F94a1b94](/images/Upper%20Dinas%20Silica%20Mine%20-%20CaveDB%20-%20Explorers%20plan%20-%2088c6b1b8-f94a1b94.jpg)
-- ![Upper Dinas Silica Mine Cavedb Plan Small 0d87c52e F94a1b94](/images/Upper%20Dinas%20Silica%20Mine%20-%20CaveDB%20-%20plan_small%20-%200d87c52e-f94a1b94.jpg)
+- ![Upper Dinas Silica Mine Upper Dinas2 V Small Fd95a71e F94a1b94](/images/Upper%20Dinas%20Silica%20Mine%20-%20upper_dinas2_v_small%20-%20fd95a71e-f94a1b94.jpg)
+- ![Upper Dinas Silica Mine Paul Marvin Photo F8e5e584 F94a1b94](/images/Upper%20Dinas%20Silica%20Mine%20-%20Paul_Marvin_Photo%20-%20f8e5e584-f94a1b94.jpg)
+- ![Upper Dinas Silica Mine Main Entrance Small C41c415d F94a1b94](/images/Upper%20Dinas%20Silica%20Mine%20-%20main_entrance_small%20-%20c41c415d-f94a1b94.jpg)
+- ![Upper Dinas Silica Mine Explorers Plan 88c6b1b8 F94a1b94](/images/Upper%20Dinas%20Silica%20Mine%20-%20Explorers%20plan%20-%2088c6b1b8-f94a1b94.jpg)
+- ![Upper Dinas Silica Mine Plan Small 0d87c52e F94a1b94](/images/Upper%20Dinas%20Silica%20Mine%20-%20plan_small%20-%200d87c52e-f94a1b94.jpg)
 - [Diving Dinas Silica Mine , South Wales Part One](https://www.youtube.com/watch?v=6iAFA59AmpA)
 - [Diving Dinas Silica Mine , South Wales Part II](https://www.youtube.com/watch?v=cwLtDQybHhU)

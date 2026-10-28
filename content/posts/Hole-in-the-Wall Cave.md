@@ -3,7 +3,6 @@ title: "Hole-in-the-Wall Cave"
 created: 2023-07-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -41,4 +40,4 @@ Location
 # References
 
 ## Images
-- ![Hole In The Wall Cave Cavedb Holeinwall D451bdd6 04119a40](/images/Hole-in-the-Wall%20Cave%20-%20CaveDB%20-%20holeinwall%20-%20d451bdd6-04119a40.jpg)
+- ![Hole In The Wall Cave Holeinwall D451bdd6 04119a40](/images/Hole-in-the-Wall%20Cave%20-%20holeinwall%20-%20d451bdd6-04119a40.jpg)

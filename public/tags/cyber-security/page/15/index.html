@@ -168,9 +168,7 @@
 
         <div class="post-content">
           
-            <h1 id="plum">Plum</h1>
-<p>This one was relatively easy to achieve initial access on, but enumerating the target once I had initial access was frustrating. I&rsquo;d learned on the previous box that I could pull up locally stored mail by visiting <code>/var/mail</code> but hadn&rsquo;t quite realised that it should be part of my standard privesc process.</p>
-<p>Anyway, once I got the nudge from the walkthrough to check mail, it became straight-forward to switch to root and grab the flag, but 100% an important lesson in seeing the <code>var/mail/www-data</code> in the <code>Linpeas</code> output and being sure to read the mail incase there&rsquo;s anything important or useful (like credentials) saved there.</p>
+            Plum This one was relatively easy to achieve initial access on, but enumerating the target once I had initial access was frustrating. I&amp;rsquo;d learned on the previous box that I could pull up locally stored mail by visiting /var/mail but hadn&amp;rsquo;t quite realised that it should be part of my …
           
         </div>
 
@@ -200,52 +198,10 @@
 
         <div class="post-content">
           
-            <p>Tags: <a href="/posts/oscp/">OSCP</a></p>
-<h1 id="tj-null---pg-play---11">TJ Null - PG Play - 11</h1>
-<ul>
-<li><input disabled="" type="checkbox"> eLection1</li>
-<li><input disabled="" type="checkbox"> Stapler</li>
-<li><input disabled="" type="checkbox"> Monitoring</li>
-<li><input disabled="" type="checkbox"> InsanityHosting</li>
-<li><input disabled="" type="checkbox"> DriftingBlue6</li>
-<li><input disabled="" type="checkbox"> Loly</li>
-<li><input disabled="" type="checkbox"> Blogger</li>
-<li><input disabled="" type="checkbox"> Amaterasu</li>
-<li><input disabled="" type="checkbox"> Blogger</li>
-<li><input disabled="" type="checkbox"> Potato</li>
-<li><input disabled="" type="checkbox"> DC-9</li>
-</ul>
-<h1 id="tj-null---pg-practice---0">TJ Null - PG Practice - 0</h1>
-<p>Easy - 0/7</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Twiggy</li>
-<li><input checked="" disabled="" type="checkbox"> Exfiltrated</li>
-<li><input checked="" disabled="" type="checkbox"> Astronaut</li>
-<li><input checked="" disabled="" type="checkbox"> Codo</li>
-<li><input checked="" disabled="" type="checkbox"> Levram</li>
-<li><input checked="" disabled="" type="checkbox"> Hub</li>
-<li><input checked="" disabled="" type="checkbox"> RubyDome</li>
-</ul>
-<p>Intermediate - 0/15</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Pelican</li>
-<li><input checked="" disabled="" type="checkbox"> Boolean</li>
-<li><input checked="" disabled="" type="checkbox"> Crane</li>
-<li><input checked="" disabled="" type="checkbox"> Extplorer</li>
-<li><input checked="" disabled="" type="checkbox"> Image</li>
-<li><input checked="" disabled="" type="checkbox"> Iaw</li>
-<li><input checked="" disabled="" type="checkbox"> Lavita</li>
-<li><input checked="" disabled="" type="checkbox"> PC</li>
-<li><input checked="" disabled="" type="checkbox"> Fired</li>
-<li><input checked="" disabled="" type="checkbox"> Press</li>
-<li><input checked="" disabled="" type="checkbox"> Scrutiny</li>
-<li><input checked="" disabled="" type="checkbox"> Flu</li>
-<li><input checked="" disabled="" type="checkbox"> Ochima</li>
-<li><input checked="" disabled="" type="checkbox"> PyLoader</li>
-<li><input checked="" disabled="" type="checkbox"> Plum</li>
-<li><input checked="" disabled="" type="checkbox"> Cockpit</li>
-</ul>
-<p>Hard - 0/3</p>
+            Tags: OSCP
+TJ Null - PG Play - 11 eLection1 Stapler Monitoring InsanityHosting DriftingBlue6 Loly Blogger Amaterasu Blogger Potato DC-9 TJ Null - PG Practice - 0 Easy - 0/7
+Twiggy Exfiltrated Astronaut Codo Levram Hub RubyDome Intermediate - 0/15
+Pelican Boolean Crane Extplorer Image Iaw Lavita PC …
           
         </div>
 
@@ -275,9 +231,8 @@
 
         <div class="post-content">
           
-            <h1 id="pyloader">PyLoader</h1>
-<p>I&rsquo;m still shocked at how quick and incredibly easy this was - I went from boot to root in &lt;15mins!</p>
-<p>After Nmap showed responses to <code>22</code> and <code>9666</code> I checked <code>9666</code> in Firefox immediately (while the Nmap scan is still running) as I&rsquo;m prone to doing for anything I don&rsquo;t immediately recognise. As soon as I saw a page with <code>pyLoad</code> I just threw &ldquo;pyload exploit&rdquo; into Google, found a bunch of RCE exploits for CVE-2023-0297, and pulled up the entry on Exploit-DB.</p>
+            PyLoader I&amp;rsquo;m still shocked at how quick and incredibly easy this was - I went from boot to root in &amp;lt;15mins!
+After Nmap showed responses to 22 and 9666 I checked 9666 in Firefox immediately (while the Nmap scan is still running) as I&amp;rsquo;m prone to doing for anything I don&amp;rsquo;t …
           
         </div>
 
@@ -307,9 +262,8 @@
 
         <div class="post-content">
           
-            <h1 id="rubydome">RubyDome</h1>
-<p>Frustrating that a couple of key points in this box were only broken through with the use of the walkthrough. Throwing <code>127.0.0.1</code> into the website to break it was a new one (something to keep in mind for the future) but I&rsquo;d have never worked out without the walkthrough.</p>
-<p>Likewise the exploit initially appeared to be working perfectly but wasn&rsquo;t catching a shell, and it turned out I had to add &ldquo;pdf&rdquo; onto the end of the target web address.</p>
+            RubyDome Frustrating that a couple of key points in this box were only broken through with the use of the walkthrough. Throwing 127.0.0.1 into the website to break it was a new one (something to keep in mind for the future) but I&amp;rsquo;d have never worked out without the walkthrough.
+Likewise the …
           
         </div>
 
@@ -339,9 +293,8 @@
 
         <div class="post-content">
           
-            <h1 id="scrutiny">Scrutiny</h1>
-<p>This whole box felt like a whole lot of enumeration - digging through files to find SSH keys and cleartext passwords. Probably the biggest lesson I learned out of it however was how to setup and run python libraries in a virtual environment!</p>
-<p>The exploit required <code>urllib3 faker</code> to run, and <code>python3</code> kept throwing the <code>externally managed</code> error that drove me crazy awhile back when I was trying to install the <code>bzz</code> library - I must have found another way around that, but this time around I actually dug into what this error was all about. Turns out <code>python</code> likes to run it&rsquo;s external libraries in a self-contained virtual environment, and while there is an override pretty much everyone on stackoverflow was screaming that it&rsquo;d break the system.</p>
+            Scrutiny This whole box felt like a whole lot of enumeration - digging through files to find SSH keys and cleartext passwords. Probably the biggest lesson I learned out of it however was how to setup and run python libraries in a virtual environment!
+The exploit required urllib3 faker to run, and …
           
         </div>
 

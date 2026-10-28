@@ -3,7 +3,6 @@ title: "Sima de Hornos"
 created: 2023-06-29
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -31,4 +30,4 @@ Identified from satellite image of Cueva del Agua network.
 # References
 
 ## Images
-- ![Sima De Hornos Cavedb Sima A1e05cb1 70b8afd4](/images/Sima%20de%20Hornos%20-%20CaveDB%20-%20sima%20-%20a1e05cb1-70b8afd4.jpg)
+- ![Sima De Hornos Sima A1e05cb1 70b8afd4](/images/Sima%20de%20Hornos%20-%20sima%20-%20a1e05cb1-70b8afd4.jpg)

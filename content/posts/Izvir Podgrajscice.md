@@ -3,7 +3,6 @@ title: "Izvir Podgrajscice"
 created: 2023-12-12
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

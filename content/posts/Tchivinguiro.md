@@ -3,7 +3,6 @@ title: "Tchivinguiro"
 created: 2024-12-08
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,4 +38,3 @@ Source: Wikipedia article [List of longest cave by country](https://en.wikipedia
 
 # References
 
-- [CaveDB record](https://app.cavedb.net/share/95b45ba4-d4cd-47a5-8e19-354239048077.html)

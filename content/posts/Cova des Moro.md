@@ -3,7 +3,6 @@ title: "Cova des Moro"
 created: 2023-07-27
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -47,6 +46,6 @@ The cave entrance, framed by megaliths at 16 meters above sea level, is surround
 - **Wikipedia:** https://de.wikipedia.org/wiki/Cova_des_Moro_(Manacor)
 
 ## Images
-- ![Cova Des Moro Cavedb Cova Des Moro (manacor) 10 58c68cc7 Da7a4207](/images/Cova%20des%20Moro%20-%20CaveDB%20-%20Cova_des_Moro_%28Manacor%29_10%20-%2058c68cc7-da7a4207.jpg)
-- ![Cova Des Moro Cavedb Yellow 0c9ab74b Da7a4207](/images/Cova%20des%20Moro%20-%20CaveDB%20-%20yellow%20-%200c9ab74b-da7a4207.png)
-- ![Cova Des Moro Cavedb Cova Des Moro (manacor) 03 93ecd311 Da7a4207](/images/Cova%20des%20Moro%20-%20CaveDB%20-%20Cova_des_Moro_%28Manacor%29_03%20-%2093ecd311-da7a4207.jpg)
+- ![Cova Des Moro Cova Des Moro (manacor) 10 58c68cc7 Da7a4207](/images/Cova%20des%20Moro%20-%20Cova_des_Moro_%28Manacor%29_10%20-%2058c68cc7-da7a4207.jpg)
+- ![Cova Des Moro Yellow 0c9ab74b Da7a4207](/images/Cova%20des%20Moro%20-%20yellow%20-%200c9ab74b-da7a4207.png)
+- ![Cova Des Moro Cova Des Moro (manacor) 03 93ecd311 Da7a4207](/images/Cova%20des%20Moro%20-%20Cova_des_Moro_%28Manacor%29_03%20-%2093ecd311-da7a4207.jpg)

@@ -3,7 +3,6 @@ title: Trip - Sydney GoDiving Conference  - 2025 Sept
 created: 2025-09-05
 updated: 2026-06-30
 status: complete
-draft: false
 tags:
   - trips
 template: "[[Template - Trip]]"
@@ -11,7 +10,6 @@ destination:
 region:
 dates:
 weather:
-cavedb:
 Other Info:
 related:
   - "[[Trips]]"

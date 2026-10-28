@@ -3,7 +3,6 @@ title: Mini Essay - If you had a year to live
 created: 2025-05-21
 updated: 2025-10-30
 status: tree
-draft: false
 tags:
   - mini-essay
   - philosophy

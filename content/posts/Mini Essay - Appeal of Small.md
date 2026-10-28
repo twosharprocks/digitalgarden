@@ -3,7 +3,6 @@ title: Mini Essay - Appeal of Small
 created: 2025-06-14
 updated: 2025-06-14
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

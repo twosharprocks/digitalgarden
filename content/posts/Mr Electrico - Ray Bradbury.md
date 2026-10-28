@@ -3,7 +3,6 @@ title: Mr Electrico - Ray Bradbury
 created: 2025-05-24
 updated: 2026-06-28
 status: reference
-draft: false
 tags:
   - reference
 related:

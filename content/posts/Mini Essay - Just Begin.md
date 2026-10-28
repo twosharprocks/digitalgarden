@@ -3,7 +3,6 @@ title: Mini Essay - Just Begin
 created: 2026-05-26
 updated: 2026-09-13
 status: seed
-draft: false
 tags:
   - writing
   - philosophy

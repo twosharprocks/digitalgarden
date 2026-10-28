@@ -3,7 +3,6 @@ title: Mini Essay - Greatest moments of joy in your life
 created: 2025-05-24
 updated: 2025-05-24
 status: tree
-draft: false
 tags:
   - mini-essay
   - philosophy

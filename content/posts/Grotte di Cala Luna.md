@@ -3,7 +3,6 @@ title: "Grotte di Cala Luna"
 created: 2023-06-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -65,6 +64,6 @@ Since the entrance to the cave is under water directly in front of the cliffs in
 - **Cave Atlas:** http://www.caveatlas.com/systems/system.asp?ID=582&co=IT
 
 ## Images
-- ![Grotte Di Cala Luna Cavedb 950d2366f0 B70845b7 D3c020e4](/images/Grotte%20di%20Cala%20Luna%20-%20CaveDB%20-%20950d2366f0%20-%20b70845b7-d3c020e4.jpg)
-- ![Grotte Di Cala Luna Cavedb Cala Luna Texty Pdf 9dd8d50a D3c020e4](/images/Grotte%20di%20Cala%20Luna%20-%20CaveDB%20-%20cala-luna_texty-pdf%20-%209dd8d50a-d3c020e4.jpg)
-- ![Grotte Di Cala Luna Cavedb Cala Luna Grotto 651d68dd D3c020e4](/images/Grotte%20di%20Cala%20Luna%20-%20CaveDB%20-%20Cala_Luna_Grotto%20-%20651d68dd-d3c020e4.jpg)
+- ![Grotte Di Cala Luna 950d2366f0 B70845b7 D3c020e4](/images/Grotte%20di%20Cala%20Luna%20-%20950d2366f0%20-%20b70845b7-d3c020e4.jpg)
+- ![Grotte Di Cala Luna Cala Luna Texty Pdf 9dd8d50a D3c020e4](/images/Grotte%20di%20Cala%20Luna%20-%20cala-luna_texty-pdf%20-%209dd8d50a-d3c020e4.jpg)
+- ![Grotte Di Cala Luna Cala Luna Grotto 651d68dd D3c020e4](/images/Grotte%20di%20Cala%20Luna%20-%20Cala_Luna_Grotto%20-%20651d68dd-d3c020e4.jpg)

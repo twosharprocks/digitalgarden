@@ -3,7 +3,6 @@ title: "Captain Cave"
 created: 2023-06-05
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -42,5 +41,5 @@ BC and MW (27/5/2023) Tight wriggly stuff to get to a very tight passage which I
 # References
 
 ## Images
-- ![N2792 Captain Cave Cavedb Capt2 77fbfce7 1101a0f0](/images/N2792%20-%20Captain%20Cave%20-%20CaveDB%20-%20capt2%20-%2077fbfce7-1101a0f0.jpeg)
-- ![N2792 Captain Cave Cavedb Capt 111e5bae 1101a0f0](/images/N2792%20-%20Captain%20Cave%20-%20CaveDB%20-%20capt%20-%20111e5bae-1101a0f0.jpeg)
+- ![N2792 Captain Cave Capt2 77fbfce7 1101a0f0](/images/N2792%20-%20Captain%20Cave%20-%20capt2%20-%2077fbfce7-1101a0f0.jpeg)
+- ![N2792 Captain Cave Capt 111e5bae 1101a0f0](/images/N2792%20-%20Captain%20Cave%20-%20capt%20-%20111e5bae-1101a0f0.jpeg)

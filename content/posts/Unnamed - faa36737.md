@@ -3,7 +3,6 @@ title: "Unnamed - faa36737"
 created: 2024-03-01
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

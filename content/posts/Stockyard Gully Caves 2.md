@@ -3,7 +3,6 @@ title: "Stockyard Gully Caves 2"
 created: 2023-07-02
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

@@ -3,7 +3,6 @@ title: "Gouldens Sinkhole - 5L8"
 created: 2026-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,11 +37,10 @@ Photogram
 # References
 
 ## Images
-- ![L0008 Goulden's Hole Cavedb 2019 04 20 11.45.07 374ecf7d Da15a321](/images/L0008%20-%20Goulden%27s%20Hole%20-%20CaveDB%20-%202019-04-20%2011.45.07%20-%20374ecf7d-da15a321.jpg)
-- ![L0008 Goulden's Hole Cavedb Gouldens Topo A23f001a Da15a321](/images/L0008%20-%20Goulden%27s%20Hole%20-%20CaveDB%20-%20gouldens%20topo%20-%20a23f001a-da15a321.jpg)
-- ![L0008 Goulden's Hole Cavedb 5L8 From Lower South East Cave Reference By Peter Puddles Horne 3c91321f Da15a321](/images/L0008%20-%20Goulden%27s%20Hole%20-%20CaveDB%20-%205L8%20from%20_Lower%20South%20East%20Cave%20Reference_%20by%20Peter%20_Puddles_%20Horne%20-%203c91321f-da15a321.jpg)
-- ![L0008 Goulden's Hole Cavedb Panoramic Photo Of Goulden's Sinkhole Taken. Photo Includes Martin Slater And Abi Harwood 7dbf0b30 Da15a321](/images/L0008%20-%20Goulden%27s%20Hole%20-%20CaveDB%20-%20Panoramic%20photo%20of%20Goulden%27s%20Sinkhole%20taken.%20Photo%20includes%20Martin%20Slater%20and%20Abi%20Harwood%20-%207dbf0b30-da15a321.jpg)
-- [Gouldens Inwards.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/f57b27de-8425-4bfa-8c92-b84372341c7b.mp4)
+- ![L0008 Goulden's Hole 2019 04 20 11.45.07 374ecf7d Da15a321](/images/L0008%20-%20Goulden%27s%20Hole%20-%202019-04-20%2011.45.07%20-%20374ecf7d-da15a321.jpg)
+- ![L0008 Goulden's Hole Gouldens Topo A23f001a Da15a321](/images/L0008%20-%20Goulden%27s%20Hole%20-%20gouldens%20topo%20-%20a23f001a-da15a321.jpg)
+- ![L0008 Goulden's Hole 5L8 From Lower South East Cave Reference By Peter Puddles Horne 3c91321f Da15a321](/images/L0008%20-%20Goulden%27s%20Hole%20-%205L8%20from%20_Lower%20South%20East%20Cave%20Reference_%20by%20Peter%20_Puddles_%20Horne%20-%203c91321f-da15a321.jpg)
+- ![L0008 Goulden's Hole Panoramic Photo Of Goulden's Sinkhole Taken. Photo Includes Martin Slater And Abi Harwood 7dbf0b30 Da15a321](/images/L0008%20-%20Goulden%27s%20Hole%20-%20Panoramic%20photo%20of%20Goulden%27s%20Sinkhole%20taken.%20Photo%20includes%20Martin%20Slater%20and%20Abi%20Harwood%20-%207dbf0b30-da15a321.jpg)
 
 - **LSECR:** Page 38
 Previously known simply as the "sinkhole in the middle of the road", Gouldens Hole was named after an adjacent landowner, Mr. Reginald H. Goulden, who purchased the property immediately to the east of the sinkhole in 1949 (through the Soldier Settlement Scheme) and leased it from the Lands Department for irrigation pumping purposes. The property was sold to Mr. Eric Childs in the early 1970s, and about a year later it changed hands to Mr. Trevor Telford and his family. Gouldens Hole is an open "cenote"-style waterfilled sinkhole about 30 metres in diameter, and it drops 9 metres to the water all around except on the south-eastern side, where a very large cut ramp leads down to the water. A small horizontal dry passage about 30 metres long also lies a few a metres to the east of a small pumping shed about 7 metres above the bottom of the ramp. The shallowest area of the sinkhole is 3 metres, directly beneath the pipe leading to the shed and on the top of a sloping rockpile which begins from this point, and the deepest region in the north-western area known as "The Alcove" is around 26 metres. There is also a very unstable and restrictive area directly behind the huge mound of debris from the ramp, but this should not be entered by cave divers as it is extremely loose and silty and doesn't lead to any other extensions. Reference to this sinkhole first appeared in CEGSA's Records in a brief note by Elery Hamilton- Smith dated December 1954, when the origin of the name was still unknown. More information appeared in June 1961, when Bob Sexton described its location and gave a brief above-water description. On April 1st, 1962, the first known scuba exploration of the site took place when S.A.S.S.V. cave divers R. Addison, E. Street and L. Newman performed a 17 minute dive and reported finding a maximum depth of 75 feet (which ties in well with today's 26 metres). Mr. Goulden also mentioned around this time that the water level had dropped about 3m during the previous 13 years. This sinkhole was better understood during the late 1980s, when preliminary underwater environmental studies involving the recording of life-forms (such as aquatic plants and animals, and previously-unidentified stromatolitic structures), as well as detailed underwater surveys, were carried out by cave diving researchers.
@@ -56,9 +54,6 @@ The water is 3 metres deep directly beneath the pipe leading to the nearby pump-
 
 The sinkhole was comprehensively mapped by the S.A. Underwater Speleological Society Inc. in the late 1980s, and the map which appears here came from those efforts.
 - **TrimixDivers.com:** https://www.trimixdivers.com/trimix5/wp-content/uploads/pheghmap01.jpg
-
-## Images
-- [Gouldens Inwards.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/f57b27de-8425-4bfa-8c92-b84372341c7b.mp4)
 
 # Details
 

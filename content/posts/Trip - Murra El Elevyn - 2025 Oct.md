@@ -3,7 +3,6 @@ title: Trip - Murra El Elevyn - 2025 Oct
 created: 2025-10-07
 updated: 2026-06-18
 status: complete
-draft: false
 tags:
   - trips
   - diving

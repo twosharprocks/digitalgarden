@@ -3,7 +3,6 @@ title: "Unnamed - beb881e5"
 created: 2026-01-05
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -30,5 +29,5 @@ address: "783, Burrungule Rd, The District Council of Grant, South Australia, AU
 # References
 
 ## Images
-- ![Unnamed Cavedb 20260105 133534 5f583ade Beb881e5](/images/Unnamed%20-%20CaveDB%20-%2020260105_133534%20-%205f583ade-beb881e5.jpg)
-- ![Unnamed Cavedb 20260105 133647 5c6f8bfe Beb881e5](/images/Unnamed%20-%20CaveDB%20-%2020260105_133647%20-%205c6f8bfe-beb881e5.jpg)
+- ![Unnamed 20260105 133534 5f583ade Beb881e5](/images/Unnamed%20-%2020260105_133534%20-%205f583ade-beb881e5.jpg)
+- ![Unnamed 20260105 133647 5c6f8bfe Beb881e5](/images/Unnamed%20-%2020260105_133647%20-%205c6f8bfe-beb881e5.jpg)

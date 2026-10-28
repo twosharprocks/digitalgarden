@@ -3,7 +3,6 @@ title: "Clearing - e5aa9f84"
 created: 2023-07-29
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,4 +38,4 @@ address: "Ryans Rd, Glencoe, South Australia, AUS, 5291"
 # References
 
 ## Images
-- ![Clearing Cavedb Go Photo 1628484386587 089fef52 E5aa9f84](/images/Clearing%20-%20CaveDB%20-%20go_photo_1628484386587%20-%20089fef52-e5aa9f84.jpg)
+- ![Clearing Go Photo 1628484386587 089fef52 E5aa9f84](/images/Clearing%20-%20go_photo_1628484386587%20-%20089fef52-e5aa9f84.jpg)

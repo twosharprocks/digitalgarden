@@ -3,7 +3,6 @@ title: Mini Essay - Not Fade Away (Jim Dodge)
 created: 2025-10-06
 updated: 2026-06-27
 status: tree
-draft: false
 tags:
   - mini-essay
   - books

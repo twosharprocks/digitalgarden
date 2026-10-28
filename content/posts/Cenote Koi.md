@@ -3,7 +3,6 @@ title: Cenote Koi
 created: 2023-08-14
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -37,4 +36,4 @@ address: "Tulum, Quintana Roo, MEX, 77760"
 
 # Maps
 
-- CaveDB - Koox Baal - 7e4880cf-ccee9714.kml — [Source](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/460f54a2-86c6-4a07-be7f-58c0ce08ee70.kml)
+- Koox Baal - 7e4880cf-ccee9714.kml

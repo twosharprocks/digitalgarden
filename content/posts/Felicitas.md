@@ -3,7 +3,6 @@ title: "Felicitas"
 created: 2023-12-12
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -47,9 +46,9 @@ https://www.bergwerktauchen-felicitas.de/
 # References
 
 ## Images
-- ![Felicitas Cavedb FB IMG 1730758024578 16746531 A2272f60](/images/Felicitas%20-%20CaveDB%20-%20FB_IMG_1730758024578%20-%2016746531-a2272f60.jpg)
-- ![Felicitas Cavedb FB IMG 1730758015154 8b0c73b7 A2272f60](/images/Felicitas%20-%20CaveDB%20-%20FB_IMG_1730758015154%20-%208b0c73b7-a2272f60.jpg)
-- ![Felicitas Cavedb FB IMG 1730758018965 0913430b A2272f60](/images/Felicitas%20-%20CaveDB%20-%20FB_IMG_1730758018965%20-%200913430b-a2272f60.jpg)
-- ![Felicitas Cavedb FB IMG 1730758016836 A83f666c A2272f60](/images/Felicitas%20-%20CaveDB%20-%20FB_IMG_1730758016836%20-%20a83f666c-a2272f60.jpg)
-- ![Felicitas Cavedb FB IMG 1730758020687 2c872554 A2272f60](/images/Felicitas%20-%20CaveDB%20-%20FB_IMG_1730758020687%20-%202c872554-a2272f60.jpg)
-- ![Felicitas Cavedb FB IMG 1730758022639 5d6c4bee A2272f60](/images/Felicitas%20-%20CaveDB%20-%20FB_IMG_1730758022639%20-%205d6c4bee-a2272f60.jpg)
+- ![Felicitas FB IMG 1730758024578 16746531 A2272f60](/images/Felicitas%20-%20FB_IMG_1730758024578%20-%2016746531-a2272f60.jpg)
+- ![Felicitas FB IMG 1730758015154 8b0c73b7 A2272f60](/images/Felicitas%20-%20FB_IMG_1730758015154%20-%208b0c73b7-a2272f60.jpg)
+- ![Felicitas FB IMG 1730758018965 0913430b A2272f60](/images/Felicitas%20-%20FB_IMG_1730758018965%20-%200913430b-a2272f60.jpg)
+- ![Felicitas FB IMG 1730758016836 A83f666c A2272f60](/images/Felicitas%20-%20FB_IMG_1730758016836%20-%20a83f666c-a2272f60.jpg)
+- ![Felicitas FB IMG 1730758020687 2c872554 A2272f60](/images/Felicitas%20-%20FB_IMG_1730758020687%20-%202c872554-a2272f60.jpg)
+- ![Felicitas FB IMG 1730758022639 5d6c4bee A2272f60](/images/Felicitas%20-%20FB_IMG_1730758022639%20-%205d6c4bee-a2272f60.jpg)

@@ -3,7 +3,6 @@ title: "Unnamed feature - c274220a"
 created: 2023-11-07
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,5 +37,5 @@ BC 4/11/2023: Small rocky entrance, nothing interesting
 # References
 
 ## Images
-- ![Unnamed Feature Cavedb 2023 11 03 12.00.52 4295c75e C274220a](/images/Unnamed%20feature%20-%20CaveDB%20-%202023-11-03%2012.00.52%20-%204295c75e-c274220a.jpg)
-- ![Unnamed Feature Cavedb 2023 11 03 12.00.56 Ab958386 C274220a](/images/Unnamed%20feature%20-%20CaveDB%20-%202023-11-03%2012.00.56%20-%20ab958386-c274220a.jpg)
+- ![Unnamed Feature 2023 11 03 12.00.52 4295c75e C274220a](/images/Unnamed%20feature%20-%202023-11-03%2012.00.52%20-%204295c75e-c274220a.jpg)
+- ![Unnamed Feature 2023 11 03 12.00.56 Ab958386 C274220a](/images/Unnamed%20feature%20-%202023-11-03%2012.00.56%20-%20ab958386-c274220a.jpg)

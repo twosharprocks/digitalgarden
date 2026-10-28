@@ -3,7 +3,6 @@ title: "Fuente de la Cueva"
 created: 2023-06-29
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -100,5 +99,5 @@ On a new visit to the Clay Branch they advance about 100m up to a narrow pass wi
 - **GAEM:** http://www.espeleogaem.org/fuente_cueva/fuente_cueva.html
 
 ## Images
-- ![Fuente De La Cueva Cavedb Lora Amp C4cd3ffa D5d359f9](/images/Fuente%20de%20la%20Cueva%20-%20CaveDB%20-%20lora-amp%20-%20c4cd3ffa-d5d359f9.jpg)
-- ![Fuente De La Cueva Cavedb Topo Grande Ec9b906f D5d359f9](/images/Fuente%20de%20la%20Cueva%20-%20CaveDB%20-%20topo%20grande%20-%20ec9b906f-d5d359f9.jpg)
+- ![Fuente De La Cueva Lora Amp C4cd3ffa D5d359f9](/images/Fuente%20de%20la%20Cueva%20-%20lora-amp%20-%20c4cd3ffa-d5d359f9.jpg)
+- ![Fuente De La Cueva Topo Grande Ec9b906f D5d359f9](/images/Fuente%20de%20la%20Cueva%20-%20topo%20grande%20-%20ec9b906f-d5d359f9.jpg)

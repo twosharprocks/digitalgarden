@@ -3,7 +3,6 @@ title: "Gua Moko cave"
 created: 2024-12-01
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -45,4 +44,4 @@ address: "Muna, IDN, 93657"
 # References
 
 ## Images
-- CaveDB - 241 - ab736ded-ca82aa77.pdf — [Source](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/31f8eea7-737d-4ed4-b45c-3fd2f789d5b2.pdf)
+- 241 - ab736ded-ca82aa77.pdf

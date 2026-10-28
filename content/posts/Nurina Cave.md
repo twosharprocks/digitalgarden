@@ -3,7 +3,6 @@ title: "Nurina Cave"
 created: 2026-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -29,37 +28,27 @@ The water in the cave, with a temperature of a cool 16C, is saline at 18,000ppm 
 
 small enterence with little traffic, ropes recommened to get down due to lose rocks and no defined path.
 
-# Maps
-
-
 # References
 
-<!-- CaveDB media links: start -->
 
 ## Images
-- ![Nurina Cave Cavedb IMG 2110 A4217b89 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20IMG_2110%20-%20a4217b89-69f453d4.jpeg)
-- ![Nurina Cave Cavedb IMG 2111 C71e6885 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20IMG_2111%20-%20c71e6885-69f453d4.jpeg)
-- ![Nurina Cave Cavedb IMG 2112 0150c170 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20IMG_2112%20-%200150c170-69f453d4.jpeg)
-- ![Nurina Cave Cavedb Nurina 06986bef 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20nurina%20-%2006986bef-69f453d4.jpg) — CaveDB; MW
-- ![Nurina Cave Cavedb Nurina Drone D42d4870 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20nurina%20drone%20-%20d42d4870-69f453d4.jpg) — CaveDB; MW
-- ![Nurina Cave Cavedb Nurina Water 1b793f4f 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20nurina%20water%20-%201b793f4f-69f453d4.jpg) — CaveDB; MW
-- ![Nurina Cave Cavedb Nurina Water2 9278781c 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20nurina%20water2%20-%209278781c-69f453d4.jpg) — CaveDB; MW
-- ![Nurina Cave Cavedb Nuruna Drone2 0431e294 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20nuruna%20drone2%20-%200431e294-69f453d4.jpg) — CaveDB; MW
+- ![Nurina Cave IMG 2110 A4217b89 69f453d4](/images/Nurina%20Cave%20-%20IMG_2110%20-%20a4217b89-69f453d4.jpeg)
+- ![Nurina Cave IMG 2111 C71e6885 69f453d4](/images/Nurina%20Cave%20-%20IMG_2111%20-%20c71e6885-69f453d4.jpeg)
+- ![Nurina Cave IMG 2112 0150c170 69f453d4](/images/Nurina%20Cave%20-%20IMG_2112%20-%200150c170-69f453d4.jpeg)
+- ![Nurina Cave Nurina 06986bef 69f453d4](/images/Nurina%20Cave%20-%20nurina%20-%2006986bef-69f453d4.jpg) — MW
+- ![Nurina Cave Nurina Drone D42d4870 69f453d4](/images/Nurina%20Cave%20-%20nurina%20drone%20-%20d42d4870-69f453d4.jpg) — MW
+- ![Nurina Cave Nurina Water 1b793f4f 69f453d4](/images/Nurina%20Cave%20-%20nurina%20water%20-%201b793f4f-69f453d4.jpg) — MW
+- ![Nurina Cave Nurina Water2 9278781c 69f453d4](/images/Nurina%20Cave%20-%20nurina%20water2%20-%209278781c-69f453d4.jpg) — MW
+- ![Nurina Cave Nuruna Drone2 0431e294 69f453d4](/images/Nurina%20Cave%20-%20nuruna%20drone2%20-%200431e294-69f453d4.jpg) — MW
 
 - **Cave Atlas:** http://caveatlas.com/systems/system.asp?ID=744&co=AU
 
 ## Images
-- ![Nurina Cave Cavedb Nuruna Drone2 0431e294 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20nuruna%20drone2%20-%200431e294-69f453d4.jpg)
-- ![Nurina Cave Cavedb Nurina Water2 9278781c 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20nurina%20water2%20-%209278781c-69f453d4.jpg)
-- ![Nurina Cave Cavedb Nurina Water 1b793f4f 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20nurina%20water%20-%201b793f4f-69f453d4.jpg)
-- ![Nurina Cave Cavedb Nurina Drone D42d4870 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20nurina%20drone%20-%20d42d4870-69f453d4.jpg)
-- ![Nurina Cave Cavedb Nurina 06986bef 69f453d4](/images/Nurina%20Cave%20-%20CaveDB%20-%20nurina%20-%2006986bef-69f453d4.jpg)
-- [nurina.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/9bc6ff29-7341-4d05-a2af-386b083f2cb9.mp4)
-- [nurina3.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/a2e24ccd-934c-4602-a370-b00f0b04c74d.mp4)
-- [nurina5.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/97912ebd-444d-4ce3-9958-18c96c2f4896.mp4)
-- [IMG_2109.mov](https://media.cavedb.net/ap-southeast-2:b1d11bf0-11e4-4d72-ac32-677864751f62/2e8ec138-b676-48fd-9e09-04d2748a71e0.mov)
-- [nurina4.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/9f7cd381-0293-499c-955e-3ac967aa3c72.mp4)
-- [nurina2.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/4938a28b-345f-4adc-8a64-6463718e4c87.mp4)
+- ![Nurina Cave Nuruna Drone2 0431e294 69f453d4](/images/Nurina%20Cave%20-%20nuruna%20drone2%20-%200431e294-69f453d4.jpg)
+- ![Nurina Cave Nurina Water2 9278781c 69f453d4](/images/Nurina%20Cave%20-%20nurina%20water2%20-%209278781c-69f453d4.jpg)
+- ![Nurina Cave Nurina Water 1b793f4f 69f453d4](/images/Nurina%20Cave%20-%20nurina%20water%20-%201b793f4f-69f453d4.jpg)
+- ![Nurina Cave Nurina Drone D42d4870 69f453d4](/images/Nurina%20Cave%20-%20nurina%20drone%20-%20d42d4870-69f453d4.jpg)
+- ![Nurina Cave Nurina 06986bef 69f453d4](/images/Nurina%20Cave%20-%20nurina%20-%2006986bef-69f453d4.jpg)
 
 # Details
 

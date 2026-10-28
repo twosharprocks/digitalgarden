@@ -3,7 +3,6 @@ title: "Buco della Sovaglia"
 created: 2023-06-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -47,4 +46,4 @@ address: "15a, Via Trivelli, Val Mara, Ticino, CHE, 6821"
 - **Hikr.org:** https://www.hikr.org/dir/Buco_della_Sovaglia_13740/
 
 ## Images
-- ![Buco Della Sovaglia Cavedb Images Ede174eb 5f34e463](/images/Buco%20della%20Sovaglia%20-%20CaveDB%20-%20images%20-%20ede174eb-5f34e463.jpg)
+- ![Buco Della Sovaglia Images Ede174eb 5f34e463](/images/Buco%20della%20Sovaglia%20-%20images%20-%20ede174eb-5f34e463.jpg)

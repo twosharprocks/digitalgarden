@@ -3,7 +3,6 @@ title: "Panmure Swimming Hole"
 created: 2024-07-24
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

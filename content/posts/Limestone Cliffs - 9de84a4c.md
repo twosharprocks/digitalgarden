@@ -3,7 +3,6 @@ title: "Limestone Cliffs - 9de84a4c"
 created: 2025-06-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -30,4 +29,4 @@ address: "River Fire Ln, Glenelg Shire, Victoria, AUS, 3304"
 # References
 
 ## Images
-- ![Limestone Cliffs Cavedb Limestone Cliffs2 441df85d 9de84a4c](/images/Limestone%20Cliffs%20-%20CaveDB%20-%20limestone%20cliffs2%20-%20441df85d-9de84a4c.jpg)
+- ![Limestone Cliffs Limestone Cliffs2 441df85d 9de84a4c](/images/Limestone%20Cliffs%20-%20limestone%20cliffs2%20-%20441df85d-9de84a4c.jpg)

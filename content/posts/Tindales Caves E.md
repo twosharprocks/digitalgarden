@@ -3,7 +3,6 @@ title: "Tindales Caves E"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -60,20 +59,18 @@ The entrance to this large (200 metre long?) horizontal cave system is a gated 8
 - **ASF:** Entrance is pothole type; (Unknown entrances); development is entrance tube leads to long fissure passage with bedding plane flatteners; karst type is unknown; length is 180.0 m , surveyed; vertical extent is 11.00 m; reasonably explored, some unexplored leads; pitches 6.0.
 
 ## Images
-- ![L0018 Tindales Caves E Cavedb PXL 20230718 005015360 Fb8d358d 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20CaveDB%20-%20PXL_20230718_005015360%20-%20fb8d358d-60682d31.jpg)
-- ![L0018 Tindales Caves E Cavedb 18 19581e50 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20CaveDB%20-%2018%20-%2019581e50-60682d31.jpg)
-- ![L0018 Tindales Caves E Cavedb PXL 20230718 004645809 1e6059ad 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20CaveDB%20-%20PXL_20230718_004645809%20-%201e6059ad-60682d31.jpg)
-- ![L0018 Tindales Caves E Cavedb IMG 20210809 172110 2 919ad685 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20CaveDB%20-%20IMG_20210809_172110_2%20-%20919ad685-60682d31.jpg)
-- ![L0018 Tindales Caves E Cavedb PXL 20230809 000059380 1a2bf34c 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20CaveDB%20-%20PXL_20230809_000059380%20-%201a2bf34c-60682d31.jpg)
-- ![L0018 Tindales Caves E Cavedb PXL 20230809 001057599 44285e5f 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20CaveDB%20-%20PXL_20230809_001057599%20-%2044285e5f-60682d31.jpg)
-- ![L0018 Tindales Caves E Cavedb PXL 20230809 000453765 B75efac0 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20CaveDB%20-%20PXL_20230809_000453765%20-%20b75efac0-60682d31.jpg)
-- ![L0018 Tindales Caves E Cavedb PXL 20230809 000549488 890666c7 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20CaveDB%20-%20PXL_20230809_000549488%20-%20890666c7-60682d31.jpg)
-- ![L0018 Tindales Caves E Cavedb PXL 20230809 000629222 0ed3c25c 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20CaveDB%20-%20PXL_20230809_000629222%20-%200ed3c25c-60682d31.jpg)
-- ![L0018 Tindales Caves E Cavedb 0059 Bbc0d822 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20CaveDB%20-%200059%20-%20bbc0d822-60682d31.jpg)
-- ![L0018 Tindales Caves E Cavedb PXL 20230809 000839374 2b98baee 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20CaveDB%20-%20PXL_20230809_000839374%20-%202b98baee-60682d31.jpg)
-- ![L0018 Tindales Caves E Cavedb 0058 F89c44df 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20CaveDB%20-%200058%20-%20f89c44df-60682d31.jpg)
-- ![L0018 Tindales Caves E Cavedb PXL 20230809 000459921 A4e319c4 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20CaveDB%20-%20PXL_20230809_000459921%20-%20a4e319c4-60682d31.jpg)
-- ![L0018 Tindales Caves E Cavedb PXL 20230809 000448482 592c5e03 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20CaveDB%20-%20PXL_20230809_000448482%20-%20592c5e03-60682d31.jpg)
-- ![L0018 Tindales Caves E Cavedb PXL 20230718 004901700 F5beed65 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20CaveDB%20-%20PXL_20230718_004901700%20-%20f5beed65-60682d31.jpg)
-- [Tadales North.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/2d8b3766-b940-4bd2-936b-eeda0738cced.mp4)
-- [Tindales South.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/dc624526-0850-423c-bb9d-9110fe462ed6.mp4)
+- ![L0018 Tindales Caves E PXL 20230718 005015360 Fb8d358d 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20PXL_20230718_005015360%20-%20fb8d358d-60682d31.jpg)
+- ![L0018 Tindales Caves E 18 19581e50 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%2018%20-%2019581e50-60682d31.jpg)
+- ![L0018 Tindales Caves E PXL 20230718 004645809 1e6059ad 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20PXL_20230718_004645809%20-%201e6059ad-60682d31.jpg)
+- ![L0018 Tindales Caves E IMG 20210809 172110 2 919ad685 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20IMG_20210809_172110_2%20-%20919ad685-60682d31.jpg)
+- ![L0018 Tindales Caves E PXL 20230809 000059380 1a2bf34c 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20PXL_20230809_000059380%20-%201a2bf34c-60682d31.jpg)
+- ![L0018 Tindales Caves E PXL 20230809 001057599 44285e5f 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20PXL_20230809_001057599%20-%2044285e5f-60682d31.jpg)
+- ![L0018 Tindales Caves E PXL 20230809 000453765 B75efac0 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20PXL_20230809_000453765%20-%20b75efac0-60682d31.jpg)
+- ![L0018 Tindales Caves E PXL 20230809 000549488 890666c7 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20PXL_20230809_000549488%20-%20890666c7-60682d31.jpg)
+- ![L0018 Tindales Caves E PXL 20230809 000629222 0ed3c25c 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20PXL_20230809_000629222%20-%200ed3c25c-60682d31.jpg)
+- ![L0018 Tindales Caves E 0059 Bbc0d822 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%200059%20-%20bbc0d822-60682d31.jpg)
+- ![L0018 Tindales Caves E PXL 20230809 000839374 2b98baee 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20PXL_20230809_000839374%20-%202b98baee-60682d31.jpg)
+- ![L0018 Tindales Caves E 0058 F89c44df 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%200058%20-%20f89c44df-60682d31.jpg)
+- ![L0018 Tindales Caves E PXL 20230809 000459921 A4e319c4 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20PXL_20230809_000459921%20-%20a4e319c4-60682d31.jpg)
+- ![L0018 Tindales Caves E PXL 20230809 000448482 592c5e03 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20PXL_20230809_000448482%20-%20592c5e03-60682d31.jpg)
+- ![L0018 Tindales Caves E PXL 20230718 004901700 F5beed65 60682d31](/images/L0018%20-%20Tindales%20Caves%20E%20-%20PXL_20230718_004901700%20-%20f5beed65-60682d31.jpg)

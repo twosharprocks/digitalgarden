@@ -3,7 +3,6 @@ title: "Surface Feature (NW) - f772fe66"
 created: 2023-08-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -34,4 +33,4 @@ BC 23/9/2023: No visible signs of anything interesting
 # References
 
 ## Images
-- ![Surface Feature (NW) Cavedb 16954311553666440715934554075229 307152f0 F772fe66](/images/Surface%20Feature%20%28NW%29%20-%20CaveDB%20-%2016954311553666440715934554075229%20-%20307152f0-f772fe66.jpg)
+- ![Surface Feature (NW) 16954311553666440715934554075229 307152f0 F772fe66](/images/Surface%20Feature%20%28NW%29%20-%2016954311553666440715934554075229%20-%20307152f0-f772fe66.jpg)

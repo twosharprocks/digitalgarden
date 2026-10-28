@@ -3,7 +3,6 @@ title: "Sinkhole - 912b5ec5"
 created: 2023-08-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -45,4 +44,4 @@ Filled with rubbish
 # References
 
 ## Images
-- ![Sinkhole Cavedb Dji Fly 20241213 172326 701 1734072814548 Photo Optimized 66c4d52c 912b5ec5](/images/Sinkhole%20-%20CaveDB%20-%20dji_fly_20241213_172326_701_1734072814548_photo_optimized%20-%2066c4d52c-912b5ec5.jpg)
+- ![Sinkhole Dji Fly 20241213 172326 701 1734072814548 Photo Optimized 66c4d52c 912b5ec5](/images/Sinkhole%20-%20dji_fly_20241213_172326_701_1734072814548_photo_optimized%20-%2066c4d52c-912b5ec5.jpg)

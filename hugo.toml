@@ -9,6 +9,9 @@ pagination.pagerSize = 5
 [outputs]
   home = ["HTML", "JSON"]
 
+[services.rss]
+  limit = 20
+
 # Required for Chroma and the custom syntax highlighting.
 [markup.highlight]
   noClasses = false

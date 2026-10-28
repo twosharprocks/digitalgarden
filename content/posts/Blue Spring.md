@@ -3,7 +3,6 @@ title: "Blue Spring"
 created: 2023-04-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -54,5 +53,5 @@ Access by Scientific Permit Only
 - **Robert Laird:** https://www.rlaird.net/cb_story.htm
 
 ## Images
-- ![Blue Spring Cavedb Blue Spring Progression Cecc95e6 63f90f6b](/images/Blue%20Spring%20-%20CaveDB%20-%20Blue-Spring-Progression%20-%20cecc95e6-63f90f6b.png)
+- ![Blue Spring Blue Spring Progression Cecc95e6 63f90f6b](/images/Blue%20Spring%20-%20Blue-Spring-Progression%20-%20cecc95e6-63f90f6b.png)
 - [dd49c1d8-bc66-429f-a362-19748b9acece](https://www.youtube.com/watch?v=2_m6ixfc03U)

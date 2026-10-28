@@ -3,7 +3,6 @@ title: Mini Essay - What you need out of work
 created: 2025-10-02
 updated: 2025-10-02
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

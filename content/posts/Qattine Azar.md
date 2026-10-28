@@ -3,7 +3,6 @@ title: "Qattine Azar"
 created: 2024-08-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -53,6 +52,6 @@ address: "طريق مجدل ترشيش عينطوره, عينطورة, جبل ل
 - **Research:** https://www.yumpu.com/fr/document/read/30133517/o-137-qattine-azar-cave-in-lebanon-from-speleology-to-socio-
 
 ## Images
-- ![Qattine Azar Cavedb Qattine Azar 257a9ef3 Eeeeb234](/images/Qattine%20Azar%20-%20CaveDB%20-%20qattine%20azar%20-%20257a9ef3-eeeeb234.jpg)
-- ![Qattine Azar Cavedb Qattine Azar2 808bb717 Eeeeb234](/images/Qattine%20Azar%20-%20CaveDB%20-%20qattine%20azar2%20-%20808bb717-eeeeb234.jpg)
+- ![Qattine Azar Qattine Azar 257a9ef3 Eeeeb234](/images/Qattine%20Azar%20-%20qattine%20azar%20-%20257a9ef3-eeeeb234.jpg)
+- ![Qattine Azar Qattine Azar2 808bb717 Eeeeb234](/images/Qattine%20Azar%20-%20qattine%20azar2%20-%20808bb717-eeeeb234.jpg)
 - [00f3ea82-9109-4ea6-a995-8f385512e206](https://www.youtube.com/watch?v=qTLEnNevLW0)

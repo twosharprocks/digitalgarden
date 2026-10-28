@@ -3,7 +3,6 @@ title: "Jamieson River"
 created: 2024-02-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -27,4 +26,4 @@ Deep shelf in the river, unexplored. May have potential and worth a look.
 # References
 
 ## Images
-- ![Jamieson River Cavedb Screenshot 2024 02 16 205248 8a3cb7c8 9b9b18ce](/images/Jamieson%20River%20-%20CaveDB%20-%20Screenshot%202024-02-16%20205248%20-%208a3cb7c8-9b9b18ce.png)
+- ![Jamieson River Screenshot 2024 02 16 205248 8a3cb7c8 9b9b18ce](/images/Jamieson%20River%20-%20Screenshot%202024-02-16%20205248%20-%208a3cb7c8-9b9b18ce.png)

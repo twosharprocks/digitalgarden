@@ -3,7 +3,6 @@ title: Mini Essay - Desires from work and a career in cyber
 created: 2025-05-17
 updated: 2025-10-30
 status: tree
-draft: false
 tags:
   - mini-essay
   - work

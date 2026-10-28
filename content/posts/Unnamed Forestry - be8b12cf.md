@@ -3,7 +3,6 @@ title: "Unnamed Forestry - be8b12cf"
 created: 2023-08-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -46,5 +45,5 @@ BC 5/8/2023: Visited on foot. Deep brush that would require significant clearing
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: Sinkhole
 
 ## Images
-- ![Unnamed Forestry Cavedb 2023 08 05 17.23.19 050f2fcb Be8b12cf](/images/Unnamed%20Forestry%20-%20CaveDB%20-%202023-08-05%2017.23.19%20-%20050f2fcb-be8b12cf.jpg)
-- ![Unnamed Forestry Cavedb 2023 08 05 17.23.23 02c63350 Be8b12cf](/images/Unnamed%20Forestry%20-%20CaveDB%20-%202023-08-05%2017.23.23%20-%2002c63350-be8b12cf.jpg)
+- ![Unnamed Forestry 2023 08 05 17.23.19 050f2fcb Be8b12cf](/images/Unnamed%20Forestry%20-%202023-08-05%2017.23.19%20-%20050f2fcb-be8b12cf.jpg)
+- ![Unnamed Forestry 2023 08 05 17.23.23 02c63350 Be8b12cf](/images/Unnamed%20Forestry%20-%202023-08-05%2017.23.23%20-%2002c63350-be8b12cf.jpg)

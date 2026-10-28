@@ -3,7 +3,6 @@ title: "Balds Cave - Location TBC"
 created: 2023-07-28
 updated: 2026-10-22
 status: seed
-draft: false
 tags:
   - diving
   - caving

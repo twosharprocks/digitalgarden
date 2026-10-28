@@ -3,7 +3,6 @@ title: "Lewy's Mark #2"
 created: 2024-01-13
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -46,4 +45,4 @@ Spot given by Ian Lewis after checking area NW of Iddlebiddy. Area proposed to b
 # References
 
 ## Images
-- ![Lewy's Mark #2 Cavedb PXL 20250920 024128013 D82b0967 4351c92f](/images/Lewy%27s%20Mark%20%232%20-%20CaveDB%20-%20PXL_20250920_024128013%20-%20d82b0967-4351c92f.jpg)
+- ![Lewy's Mark #2 PXL 20250920 024128013 D82b0967 4351c92f](/images/Lewy%27s%20Mark%20%232%20-%20PXL_20250920_024128013%20-%20d82b0967-4351c92f.jpg)

@@ -3,7 +3,6 @@ title: Trip - Murra-Cocklebiddy - 2026 Aug
 created: 2025-10-19
 updated: 2026-09-10
 status: complete
-draft: false
 tags:
   - trips
   - diving
@@ -147,7 +146,7 @@ related:
 	- [x] Contact - Jarred Hotchkin for nearby cave & Intro to Lewy
 	- [x] Plan Filming - Documentary on Nullarbor
 	- [x] Plan Podcast
-	- [x] CaveDB - Extract Nullabor Data
+	- [x] Extract Nullarbor cave data
 	- [x] $500 cash
 # Packing List
 - Photogrammetry

@@ -3,7 +3,6 @@ title: "Moko Morete - 2nd Entrance-"
 created: 2025-09-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

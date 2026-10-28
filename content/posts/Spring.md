@@ -3,7 +3,6 @@ title: "Spring"
 created: 2025-06-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -29,4 +28,4 @@ address: "River Fire Line Track, Glenelg Shire, Victoria, AUS, 3304"
 # References
 
 ## Images
-- ![Spring Cavedb Mossy Cave Bbd193f4 69384073](/images/Spring%20-%20CaveDB%20-%20mossy%20cave%20-%20bbd193f4-69384073.jpg)
+- ![Spring Mossy Cave Bbd193f4 69384073](/images/Spring%20-%20mossy%20cave%20-%20bbd193f4-69384073.jpg)

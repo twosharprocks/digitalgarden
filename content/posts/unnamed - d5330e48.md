@@ -3,7 +3,6 @@ title: "unnamed - d5330e48"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -47,4 +46,4 @@ Forestry
 - **Forestry SA:** L0914, Thin Roof: N, Fence: N. Dimensions: 15m x 1m deep. Features: Small doline
 
 ## Images
-- ![L0914 Unnamed Cavedb 2023 04 21 12.32.20 F73a8fb6 D5330e48](/images/L0914%20-%20unnamed%20-%20CaveDB%20-%202023-04-21%2012.32.20%20-%20f73a8fb6-d5330e48.jpg)
+- ![L0914 Unnamed 2023 04 21 12.32.20 F73a8fb6 D5330e48](/images/L0914%20-%20unnamed%20-%202023-04-21%2012.32.20%20-%20f73a8fb6-d5330e48.jpg)

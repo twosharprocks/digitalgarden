@@ -3,7 +3,6 @@ title: "Sataplia Cave"
 created: "2026-10-22"
 updated: "2026-10-22"
 status: "seed"
-draft: false
 catalog-type: "cave"
 tags:
   - caving

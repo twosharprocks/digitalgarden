@@ -3,7 +3,6 @@ title: "Unnamed Forestry - 6ef0a1d9"
 created: 2023-07-29
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -41,7 +40,7 @@ address: "223, Ryans Rd, Glencoe, South Australia, AUS, 5291"
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: ?
 
 ## Images
-- ![Unnamed Forestry Cavedb Go Photo 1628484125533 F18d14fd 6ef0a1d9](/images/Unnamed%20Forestry%20-%20CaveDB%20-%20go_photo_1628484125533%20-%20f18d14fd-6ef0a1d9.jpg)
-- ![Unnamed Forestry Cavedb Go Photo 1628484141729 25f69142 6ef0a1d9](/images/Unnamed%20Forestry%20-%20CaveDB%20-%20go_photo_1628484141729%20-%2025f69142-6ef0a1d9.jpg)
-- ![Unnamed Forestry Cavedb IMG 20210809 140146 3 Afd7e3dd 6ef0a1d9](/images/Unnamed%20Forestry%20-%20CaveDB%20-%20IMG_20210809_140146_3%20-%20afd7e3dd-6ef0a1d9.jpg)
-- ![Unnamed Forestry Cavedb IMG 20210809 140131 6 C9e9aeb1 6ef0a1d9](/images/Unnamed%20Forestry%20-%20CaveDB%20-%20IMG_20210809_140131_6%20-%20c9e9aeb1-6ef0a1d9.jpg)
+- ![Unnamed Forestry Go Photo 1628484125533 F18d14fd 6ef0a1d9](/images/Unnamed%20Forestry%20-%20go_photo_1628484125533%20-%20f18d14fd-6ef0a1d9.jpg)
+- ![Unnamed Forestry Go Photo 1628484141729 25f69142 6ef0a1d9](/images/Unnamed%20Forestry%20-%20go_photo_1628484141729%20-%2025f69142-6ef0a1d9.jpg)
+- ![Unnamed Forestry IMG 20210809 140146 3 Afd7e3dd 6ef0a1d9](/images/Unnamed%20Forestry%20-%20IMG_20210809_140146_3%20-%20afd7e3dd-6ef0a1d9.jpg)
+- ![Unnamed Forestry IMG 20210809 140131 6 C9e9aeb1 6ef0a1d9](/images/Unnamed%20Forestry%20-%20IMG_20210809_140131_6%20-%20c9e9aeb1-6ef0a1d9.jpg)

@@ -3,7 +3,6 @@ title: "Izvor Cave"
 created: 2024-12-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,7 +37,7 @@ address: "Slatina, Municipality of Makedonski Brod, MKD"
 
 # Maps
 
-- ![Izvor Cave Cavedb Izvor Cave Map 61b982fa 41c85669](/images/Izvor%20Cave%20-%20CaveDB%20-%20Izvor%20Cave%20-%20map%20-%2061b982fa-41c85669.jpg)
+- ![Izvor Cave Izvor Cave Map 61b982fa 41c85669](/images/Izvor%20Cave%20-%20Izvor%20Cave%20-%20map%20-%2061b982fa-41c85669.jpg)
 
 # References
 
@@ -46,5 +45,5 @@ address: "Slatina, Municipality of Makedonski Brod, MKD"
 - **Facebook Video:** https://www.facebook.com/watch/?ref=saved&v=1132559685391173
 
 ## Images
-- ![Izvor Cave Cavedb Izvor Cave 2f1b454d 41c85669](/images/Izvor%20Cave%20-%20CaveDB%20-%20Izvor%20Cave%20-%202f1b454d-41c85669.jpg)
-- ![Izvor Cave Cavedb Izvor Cave Map 61b982fa 41c85669](/images/Izvor%20Cave%20-%20CaveDB%20-%20Izvor%20Cave%20-%20map%20-%2061b982fa-41c85669.jpg)
+- ![Izvor Cave Izvor Cave 2f1b454d 41c85669](/images/Izvor%20Cave%20-%20Izvor%20Cave%20-%202f1b454d-41c85669.jpg)
+- ![Izvor Cave Izvor Cave Map 61b982fa 41c85669](/images/Izvor%20Cave%20-%20Izvor%20Cave%20-%20map%20-%2061b982fa-41c85669.jpg)

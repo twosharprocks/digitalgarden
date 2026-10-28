@@ -3,7 +3,6 @@ title: "Sinkhole- - f037a71d"
 created: 2023-05-06
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,8 +38,8 @@ BC 14/10/2023: Small sinkholl approx 1.5m deep. Full of forest litter,  needs cl
 # References
 
 ## Images
-- ![Sinkhole Cavedb 20231014 131008 Cb3e6d72 F037a71d](/images/Sinkhole_%20-%20CaveDB%20-%2020231014_131008%20-%20cb3e6d72-f037a71d.jpg)
-- ![Sinkhole Cavedb 20231014 130959 006766f6 F037a71d](/images/Sinkhole_%20-%20CaveDB%20-%2020231014_130959%20-%20006766f6-f037a71d.jpg)
-- ![Sinkhole Cavedb 20231014 131012 323eb0ce F037a71d](/images/Sinkhole_%20-%20CaveDB%20-%2020231014_131012%20-%20323eb0ce-f037a71d.jpg)
-- ![Sinkhole Cavedb 20231014 131005 Fc62374b F037a71d](/images/Sinkhole_%20-%20CaveDB%20-%2020231014_131005%20-%20fc62374b-f037a71d.jpg)
-- ![Sinkhole Cavedb Thp 9f15b1ae F037a71d](/images/Sinkhole_%20-%20CaveDB%20-%20thp%20-%209f15b1ae-f037a71d.jpg)
+- ![Sinkhole 20231014 131008 Cb3e6d72 F037a71d](/images/Sinkhole_%20-%2020231014_131008%20-%20cb3e6d72-f037a71d.jpg)
+- ![Sinkhole 20231014 130959 006766f6 F037a71d](/images/Sinkhole_%20-%2020231014_130959%20-%20006766f6-f037a71d.jpg)
+- ![Sinkhole 20231014 131012 323eb0ce F037a71d](/images/Sinkhole_%20-%2020231014_131012%20-%20323eb0ce-f037a71d.jpg)
+- ![Sinkhole 20231014 131005 Fc62374b F037a71d](/images/Sinkhole_%20-%2020231014_131005%20-%20fc62374b-f037a71d.jpg)
+- ![Sinkhole Thp 9f15b1ae F037a71d](/images/Sinkhole_%20-%20thp%20-%209f15b1ae-f037a71d.jpg)

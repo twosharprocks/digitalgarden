@@ -3,7 +3,6 @@ title: Scripts
 created: 2025-05-24
 updated: 2026-07-01
 status: seed
-draft: false
 tags:
   - cyber-security
   - script

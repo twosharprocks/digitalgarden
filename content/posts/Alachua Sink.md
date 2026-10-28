@@ -3,7 +3,6 @@ title: "Alachua Sink"
 created: 2023-04-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -53,4 +52,4 @@ To dive Alachua Sink you must have a guide. Click here for information on contac
 - **CaveAtlas:** http://www.caveatlas.com/systems/system.asp?ID=1&co=US
 
 ## Images
-- ![Alachua Sink Cavedb Alachua Map 5f5bddb9 0aece4f8](/images/Alachua%20Sink%20-%20CaveDB%20-%20alachua_map%20-%205f5bddb9-0aece4f8.jpg)
+- ![Alachua Sink Alachua Map 5f5bddb9 0aece4f8](/images/Alachua%20Sink%20-%20alachua_map%20-%205f5bddb9-0aece4f8.jpg)

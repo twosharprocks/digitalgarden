@@ -3,7 +3,6 @@ title: Mini Essay - Frustration at People and Communities
 created: 2026-05-26
 updated: 2026-05-26
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

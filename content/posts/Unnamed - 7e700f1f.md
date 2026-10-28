@@ -3,7 +3,6 @@ title: "Unnamed - 7e700f1f"
 created: 2023-08-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -26,5 +25,3 @@ Large depression just north of the old wombat hole when could see water running 
 
 # References
 
-## Images
-- [Snapchat-953799555.mp4](https://media.cavedb.net/ap-southeast-2:8c2b0bb3-e080-4f3b-9a2f-fa9649b3de1a/af1b0a11-5ddf-46fa-a1ff-ea940a42c335.mp4)

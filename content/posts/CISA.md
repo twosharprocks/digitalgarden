@@ -3,7 +3,6 @@ title: CISA
 created: 2025-12-28
 updated: 2026-07-08
 status: reference
-draft: false
 tags:
   - cyber-security
   - work

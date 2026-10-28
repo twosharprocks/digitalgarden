@@ -3,7 +3,6 @@ title: "Mudhole"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -59,7 +58,7 @@ Forestry
 
 # Maps
 
-- CaveDB - site - 40aeb711-ea4dacca.kml — [Source](https://media.cavedb.net/ap-southeast-2:d9a418b4-42a7-4ac1-bc06-137507d18d05/cf42fe38-6217-421d-9ee0-0083a47b65a8.kml)
+- site - 40aeb711-ea4dacca.kml
 
 # References
 
@@ -81,6 +80,5 @@ On the way back out, you will see the (hopefully small amount) silt you caused o
 - **Trimixdivers.com:** https://www.trimixdivers.com/trimix5/wp-content/uploads/phemudholeMap.jpg
 
 ## Images
-- ![L0097 Mudhole Cavedb IMG 20191122 175015 350 1e702226 Ea4dacca](/images/L0097%20-%20Mudhole%20-%20CaveDB%20-%20IMG_20191122_175015_350%20-%201e702226-ea4dacca.jpg)
-- ![L0097 Mudhole Cavedb IMG 20200113 231039 698 0dc482a1 Ea4dacca](/images/L0097%20-%20Mudhole%20-%20CaveDB%20-%20IMG_20200113_231039_698%20-%200dc482a1-ea4dacca.jpg)
-- [Mudhole - Made with Clipchamp.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/e37eba2f-4c46-45d7-bbb5-a39a6a9cd9b9.mp4)
+- ![L0097 Mudhole IMG 20191122 175015 350 1e702226 Ea4dacca](/images/L0097%20-%20Mudhole%20-%20IMG_20191122_175015_350%20-%201e702226-ea4dacca.jpg)
+- ![L0097 Mudhole IMG 20200113 231039 698 0dc482a1 Ea4dacca](/images/L0097%20-%20Mudhole%20-%20IMG_20200113_231039_698%20-%200dc482a1-ea4dacca.jpg)

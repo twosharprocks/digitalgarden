@@ -3,7 +3,6 @@ title: "Devil's Hole - 41e027ae"
 created: 2023-07-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -60,6 +59,6 @@ A subsequent USGS exploration into Devils Hole in 1991 by Alan Riggs, Paul DeLoa
 - **Wikipedia:** https://en.wikipedia.org/wiki/Devils_Hole
 
 ## Images
-- ![Devil's Hole Cavedb Devils Hole Map 2005 19efbb5b 41e027ae](/images/Devil%27s%20Hole%20-%20CaveDB%20-%20Devils_Hole_map_2005%20-%2019efbb5b-41e027ae.jpg)
-- ![Devil's Hole Cavedb Houtz Newspaper Map Cc089f0d 41e027ae](/images/Devil%27s%20Hole%20-%20CaveDB%20-%20Houtz_newspaper_map%20-%20cc089f0d-41e027ae.jpg)
-- CaveDB - report - 56c0f24c-41e027ae.pdf — [Source](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/a03eee34-c738-4c18-a1b7-5978972c8fb3.pdf)
+- ![Devil's Hole Devils Hole Map 2005 19efbb5b 41e027ae](/images/Devil%27s%20Hole%20-%20Devils_Hole_map_2005%20-%2019efbb5b-41e027ae.jpg)
+- ![Devil's Hole Houtz Newspaper Map Cc089f0d 41e027ae](/images/Devil%27s%20Hole%20-%20Houtz_newspaper_map%20-%20cc089f0d-41e027ae.jpg)
+- report - 56c0f24c-41e027ae.pdf

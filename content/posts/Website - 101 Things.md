@@ -1,14 +1,14 @@
 ---
 title: Website - 101 Things
 created: 2025-11-17
-updated: 2026-06-18
+updated: 2026-10-24
 status: tree
-draft: false
 tags:
   - 101-things
   - writing
   - bucket-list
 related: "[[Writing]]"
+source: https://web.archive.org/web/20160628164529/http://www.themightyginge.com/blog/101-things/
 author:
   - Josh Richards
 ---

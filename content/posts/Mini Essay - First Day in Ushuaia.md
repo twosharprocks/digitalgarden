@@ -3,7 +3,6 @@ title: Mini Essay - First Day in Ushuaia
 created: 2025-11-14
 updated: 2025-11-14
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

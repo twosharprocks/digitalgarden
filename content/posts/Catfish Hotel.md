@@ -3,7 +3,6 @@ title: "Catfish Hotel"
 created: 2023-04-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -48,4 +47,4 @@ https://www.cavediving.com/where/manatee/
 # References
 
 ## Images
-- ![Catfish Hotel Cavedb Manatee 204f92fa 4fbc3693](/images/Catfish%20Hotel%20-%20CaveDB%20-%20manatee%20-%20204f92fa-4fbc3693.jpg)
+- ![Catfish Hotel Manatee 204f92fa 4fbc3693](/images/Catfish%20Hotel%20-%20manatee%20-%20204f92fa-4fbc3693.jpg)

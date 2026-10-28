@@ -3,7 +3,6 @@ title: "Breathing Tube Cave"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -53,11 +52,9 @@ No further extensions appear to exist at this time.
 - **Forestry SA:** L0300, Thin Roof: ?, Fence: ?. Dimensions: ?. Features: Cave first located by Bill Peacock (woods and Forests) around 1981.
 
 ## Images
-- ![L0300 Breathing Tube Cave Cavedb 2023 04 23 08.30.51 30b7f31f 401a9601](/images/L0300%20-%20Breathing%20Tube%20Cave%20-%20CaveDB%20-%202023-04-23%2008.30.51%20-%2030b7f31f-401a9601.jpg)
-- ![L0300 Breathing Tube Cave Cavedb 300 82831978 401a9601](/images/L0300%20-%20Breathing%20Tube%20Cave%20-%20CaveDB%20-%20300%20-%2082831978-401a9601.jpg)
-- ![L0300 Breathing Tube Cave Cavedb 2023 04 23 08.35.37 D226070d 401a9601](/images/L0300%20-%20Breathing%20Tube%20Cave%20-%20CaveDB%20-%202023-04-23%2008.35.37%20-%20d226070d-401a9601.jpg)
-- ![L0300 Breathing Tube Cave Cavedb 2023 04 23 08.30.35 B1bd3c21 401a9601](/images/L0300%20-%20Breathing%20Tube%20Cave%20-%20CaveDB%20-%202023-04-23%2008.30.35%20-%20b1bd3c21-401a9601.jpg)
-- ![L0300 Breathing Tube Cave Cavedb 300 D654eba3 401a9601](/images/L0300%20-%20Breathing%20Tube%20Cave%20-%20CaveDB%20-%20300%20-%20d654eba3-401a9601.jpg)
-- ![L0300 Breathing Tube Cave Cavedb 300d 91e0efc1 401a9601](/images/L0300%20-%20Breathing%20Tube%20Cave%20-%20CaveDB%20-%20300d%20-%2091e0efc1-401a9601.jpg)
-- [2023-04-23 08.31.05.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/bb73025e-da3e-4a24-a23d-7d7f149a593f.mp4)
-- [2023-04-23 08.34.11.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/de37900d-f5f6-4fcc-a403-c876910483d3.mp4)
+- ![L0300 Breathing Tube Cave 2023 04 23 08.30.51 30b7f31f 401a9601](/images/L0300%20-%20Breathing%20Tube%20Cave%20-%202023-04-23%2008.30.51%20-%2030b7f31f-401a9601.jpg)
+- ![L0300 Breathing Tube Cave 300 82831978 401a9601](/images/L0300%20-%20Breathing%20Tube%20Cave%20-%20300%20-%2082831978-401a9601.jpg)
+- ![L0300 Breathing Tube Cave 2023 04 23 08.35.37 D226070d 401a9601](/images/L0300%20-%20Breathing%20Tube%20Cave%20-%202023-04-23%2008.35.37%20-%20d226070d-401a9601.jpg)
+- ![L0300 Breathing Tube Cave 2023 04 23 08.30.35 B1bd3c21 401a9601](/images/L0300%20-%20Breathing%20Tube%20Cave%20-%202023-04-23%2008.30.35%20-%20b1bd3c21-401a9601.jpg)
+- ![L0300 Breathing Tube Cave 300 D654eba3 401a9601](/images/L0300%20-%20Breathing%20Tube%20Cave%20-%20300%20-%20d654eba3-401a9601.jpg)
+- ![L0300 Breathing Tube Cave 300d 91e0efc1 401a9601](/images/L0300%20-%20Breathing%20Tube%20Cave%20-%20300d%20-%2091e0efc1-401a9601.jpg)

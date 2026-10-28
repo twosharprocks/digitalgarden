@@ -3,7 +3,6 @@ title: Science - Ideas
 created: 2025-04-06
 updated: 2026-10-19
 status: seed
-draft: false
 tags:
   - ideas
 related:

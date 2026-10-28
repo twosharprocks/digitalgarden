@@ -3,7 +3,6 @@ title: "Slug Hole"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -53,6 +52,6 @@ In a simple one-paragraph description in a November 1968 Trip Report, this insig
 - **LSECR:** Page 240
 
 ## Images
-- ![L0121 Slug Hole Cavedb PXL 20230623 051035158 052dd484 8b535b6f](/images/L0121%20-%20Slug%20Hole%20-%20CaveDB%20-%20PXL_20230623_051035158%20-%20052dd484-8b535b6f.jpg)
-- ![L0121 Slug Hole Cavedb 0240 4af61fa6 8b535b6f](/images/L0121%20-%20Slug%20Hole%20-%20CaveDB%20-%200240%20-%204af61fa6-8b535b6f.jpg)
-- ![L0121 Slug Hole Cavedb 0241 8d36bca6 8b535b6f](/images/L0121%20-%20Slug%20Hole%20-%20CaveDB%20-%200241%20-%208d36bca6-8b535b6f.jpg)
+- ![L0121 Slug Hole PXL 20230623 051035158 052dd484 8b535b6f](/images/L0121%20-%20Slug%20Hole%20-%20PXL_20230623_051035158%20-%20052dd484-8b535b6f.jpg)
+- ![L0121 Slug Hole 0240 4af61fa6 8b535b6f](/images/L0121%20-%20Slug%20Hole%20-%200240%20-%204af61fa6-8b535b6f.jpg)
+- ![L0121 Slug Hole 0241 8d36bca6 8b535b6f](/images/L0121%20-%20Slug%20Hole%20-%200241%20-%208d36bca6-8b535b6f.jpg)

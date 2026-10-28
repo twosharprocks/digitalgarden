@@ -3,7 +3,6 @@ title: "Unnamed - 19f7c5ed"
 created: 2023-12-07
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -27,7 +26,7 @@ Marked as a sinkhole on timberlands plans. Looks like a small cave has collapsed
 # References
 
 ## Images
-- Unnamed - CaveDB - 20231026_045057 - 558c1dc4-19f7c5ed.heic
-- Unnamed - CaveDB - 20231207_141635 - 33d6f18d-19f7c5ed.heic
-- Unnamed - CaveDB - 20231207_141648 - e0064c5f-19f7c5ed.heic
-- Unnamed - CaveDB - 20231207_141657 - 3fc94b86-19f7c5ed.heic
+- Unnamed - 20231026_045057 - 558c1dc4-19f7c5ed.heic
+- Unnamed - 20231207_141635 - 33d6f18d-19f7c5ed.heic
+- Unnamed - 20231207_141648 - e0064c5f-19f7c5ed.heic
+- Unnamed - 20231207_141657 - 3fc94b86-19f7c5ed.heic

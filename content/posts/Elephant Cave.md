@@ -3,7 +3,6 @@ title: "Elephant Cave"
 created: 2023-07-23
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -59,6 +58,6 @@ Dives amid striking rock formations in a sea cave where prehistoric elephant bon
 - **Omega Divers:** https://www.omegadivers.com/elephants-cave/
 
 ## Images
-- ![Elephant Cave Cavedb IMG 0652 Imp D3d3ad44 Da650fec](/images/Elephant%20Cave%20-%20CaveDB%20-%20IMG_0652-imp%20-%20d3d3ad44-da650fec.jpg)
-- ![Elephant Cave Cavedb A Peaceful Place 79acafff Da650fec](/images/Elephant%20Cave%20-%20CaveDB%20-%20A-Peaceful-Place%20-%2079acafff-da650fec.jpg)
-- ![Elephant Cave Cavedb IMG 0693 Imp 4cb4a67c Da650fec](/images/Elephant%20Cave%20-%20CaveDB%20-%20IMG_0693-imp%20-%204cb4a67c-da650fec.jpg)
+- ![Elephant Cave IMG 0652 Imp D3d3ad44 Da650fec](/images/Elephant%20Cave%20-%20IMG_0652-imp%20-%20d3d3ad44-da650fec.jpg)
+- ![Elephant Cave A Peaceful Place 79acafff Da650fec](/images/Elephant%20Cave%20-%20A-Peaceful-Place%20-%2079acafff-da650fec.jpg)
+- ![Elephant Cave IMG 0693 Imp 4cb4a67c Da650fec](/images/Elephant%20Cave%20-%20IMG_0693-imp%20-%204cb4a67c-da650fec.jpg)

@@ -3,7 +3,6 @@ title: "Hole In The Wall"
 created: 2023-12-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -76,4 +75,4 @@ is a swimming and cave diving hotspot. A small wooden platform for swimming and 
 the northwest side of the pool. In June 2003, very little flow from the spring was detected
 
 ## Images
-- ![Hole In The Wall Cavedb FB IMG 1731374953546 62d0d931 73065350](/images/Hole%20In%20The%20Wall%20-%20CaveDB%20-%20FB_IMG_1731374953546%20-%2062d0d931-73065350.jpg)
+- ![Hole In The Wall FB IMG 1731374953546 62d0d931 73065350](/images/Hole%20In%20The%20Wall%20-%20FB_IMG_1731374953546%20-%2062d0d931-73065350.jpg)

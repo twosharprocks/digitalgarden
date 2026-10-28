@@ -3,7 +3,6 @@ title: Article - Making Sense with MNemo
 created: 2025-05-11
 updated: 2026-08-20
 status: seed
-draft: false
 tags:
   - article
   - writing

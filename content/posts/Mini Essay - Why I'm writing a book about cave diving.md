@@ -3,7 +3,6 @@ title: Mini Essay - Why I'm writing a book about cave diving
 created: 2025-11-02
 updated: 2025-11-02
 status: seed
-draft: false
 tags:
   - mini-essay
   - writing

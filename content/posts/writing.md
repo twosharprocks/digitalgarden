@@ -3,7 +3,6 @@ title: Writing
 created: 2026-06-19
 updated: 2026-10-14
 status: index
-draft: false
 tags:
   - index
   - digital-garden

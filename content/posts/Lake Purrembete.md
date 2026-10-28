@@ -3,7 +3,6 @@ title: "Lake Purrembete"
 created: 2026-06-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

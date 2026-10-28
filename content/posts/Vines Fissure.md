@@ -3,7 +3,6 @@ title: "Vines Fissure"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -52,6 +51,6 @@ The width of the fissure (less than one metre in most places) prevents safe cave
 - **Forestry SA:** L0122, Thin Roof: N, Fence: Y. Dimensions: 0.7x0.3x8m tube. Features: Waterlevel at about 8m and is about 7m deep  Narrow fissue about 25m long oriented NW-SE
 
 ## Images
-- ![L0122 Vines Fissure Cavedb Vines2 Ac1b2bc8 E6bf627a](/images/L0122%20-%20Vines%20Fissure%20-%20CaveDB%20-%20vines2%20-%20ac1b2bc8-e6bf627a.jpg)
-- ![L0122 Vines Fissure Cavedb 122 8b2f8637 E6bf627a](/images/L0122%20-%20Vines%20Fissure%20-%20CaveDB%20-%20122%20-%208b2f8637-e6bf627a.jpg)
-- ![L0122 Vines Fissure Cavedb Vines 4b350e80 E6bf627a](/images/L0122%20-%20Vines%20Fissure%20-%20CaveDB%20-%20vines%20-%204b350e80-e6bf627a.jpg)
+- ![L0122 Vines Fissure Vines2 Ac1b2bc8 E6bf627a](/images/L0122%20-%20Vines%20Fissure%20-%20vines2%20-%20ac1b2bc8-e6bf627a.jpg)
+- ![L0122 Vines Fissure 122 8b2f8637 E6bf627a](/images/L0122%20-%20Vines%20Fissure%20-%20122%20-%208b2f8637-e6bf627a.jpg)
+- ![L0122 Vines Fissure Vines 4b350e80 E6bf627a](/images/L0122%20-%20Vines%20Fissure%20-%20vines%20-%204b350e80-e6bf627a.jpg)

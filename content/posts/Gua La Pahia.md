@@ -1,9 +1,8 @@
 ---
-title: "Gua La Pahia"
+title: Gua La Pahia
 created: 2026-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -23,13 +22,13 @@ longitude: 122.63250500000004
 state: South East Sulawesi
 suburb: Buton Regency
 obsidian_aliases:
-  - "Goa Lapahia"
-  - "Goa La Pahia"
-  - "Gua Lapahia"
-  - "Kadena House Cave"
-cavedb: "https://app.cavedb.net/share/204d672d-53da-4bd4-a0f6-229206b7461d.html"
-catalog-type: "cave"
-sub-region: "[[Muna Island - Sulawesi]]"
+  - Goa Lapahia
+  - Goa La Pahia
+  - Gua Lapahia
+  - Kadena House Cave
+cavedb: https://app.cavedb.net/share/204d672d-53da-4bd4-a0f6-229206b7461d.html
+catalog-type: cave
+sub-region: "[[Muna Island]]"
 ---
 # About
 
@@ -44,16 +43,16 @@ sub-region: "[[Muna Island - Sulawesi]]"
 https://www.youtube.com/watch?v=pw2oqsmQ9Ew
 
 ## Images
-- ![Gua La Pahia Cavedb Gua La Pahia Sketch 0b1e5a65 204d672d](/images/Gua%20La%20Pahia%20-%20CaveDB%20-%20Gua%20La%20Pahia%20-%20Sketch%20-%200b1e5a65-204d672d.jpg)
-- ![Gua La Pahia Cavedb La Pahia Map 9cf56aeb 204d672d](/images/Gua%20La%20Pahia%20-%20CaveDB%20-%20la%20pahia%20-%20map%20-%209cf56aeb-204d672d.jpg)
-- ![Gua La Pahia Cavedb Photogrammetry Model Based On 3D Data From Grubby Wombat 60c4edbf 204d672d](/images/Gua%20La%20Pahia%20-%20CaveDB%20-%20Photogrammetry%20model%20based%20on%203D%20data%20from%20Grubby%20Wombat%20-%2060c4edbf-204d672d.jpg) — CaveDB; Will Passos
-- ![Gua La Pahia Cavedb PXL 20250803 071713199 167a54b1 204d672d](/images/Gua%20La%20Pahia%20-%20CaveDB%20-%20PXL_20250803_071713199%20-%20167a54b1-204d672d.jpg)
+- ![Gua La Pahia Gua La Pahia Sketch 0b1e5a65 204d672d](/images/Gua%20La%20Pahia%20-%20Gua%20La%20Pahia%20-%20Sketch%20-%200b1e5a65-204d672d.jpg)
+- ![Gua La Pahia La Pahia Map 9cf56aeb 204d672d](/images/Gua%20La%20Pahia%20-%20la%20pahia%20-%20map%20-%209cf56aeb-204d672d.jpg)
+- ![Gua La Pahia Photogrammetry Model Based On 3D Data From Grubby Wombat 60c4edbf 204d672d](/images/Gua%20La%20Pahia%20-%20Photogrammetry%20model%20based%20on%203D%20data%20from%20Grubby%20Wombat%20-%2060c4edbf-204d672d.jpg) — Will Passos
+- ![Gua La Pahia PXL 20250803 071713199 167a54b1 204d672d](/images/Gua%20La%20Pahia%20-%20PXL_20250803_071713199%20-%20167a54b1-204d672d.jpg)
 
 - **YouTube - Alexey Vlasov:** https://www.youtube.com/watch?v=pw2oqsmQ9Ew
 - **Youtube - Soggy Wombats:** https://youtu.be/Uikp7gdta8A
 
 ## Images
-- ![Gua La Pahia Cavedb Photogrammetry Model Based On 3D Data From Grubby Wombat 60c4edbf 204d672d](/images/Gua%20La%20Pahia%20-%20CaveDB%20-%20Photogrammetry%20model%20based%20on%203D%20data%20from%20Grubby%20Wombat%20-%2060c4edbf-204d672d.jpg)
+- ![Gua La Pahia Photogrammetry Model Based On 3D Data From Grubby Wombat 60c4edbf 204d672d](/images/Gua%20La%20Pahia%20-%20Photogrammetry%20model%20based%20on%203D%20data%20from%20Grubby%20Wombat%20-%2060c4edbf-204d672d.jpg)
 - [0d12096e-1570-4c3a-9c35-16a13a4b6b36](https://www.youtube.com/watch?v=Uikp7gdta8A)
 - [8e37233a-be2f-494f-9ef8-532d9c0fc5c2](https://www.youtube.com/watch?v=pw2oqsmQ9Ew)
 
@@ -103,4 +102,4 @@ https://www.youtube.com/watch?v=pw2oqsmQ9Ew
 
 # Maps
 
-- ![Gua La Pahia Cavedb La Pahia Map 9cf56aeb 204d672d](/images/Gua%20La%20Pahia%20-%20CaveDB%20-%20la%20pahia%20-%20map%20-%209cf56aeb-204d672d.jpg)
+- ![Gua La Pahia La Pahia Map 9cf56aeb 204d672d](/images/Gua%20La%20Pahia%20-%20la%20pahia%20-%20map%20-%209cf56aeb-204d672d.jpg)

@@ -3,7 +3,6 @@ title: OSCP - Flu - Linux
 created: 2026-01-26
 updated: 2026-01-22
 status: seed
-draft: false
 tags:
   - cyber-security
 related: "[[Cyber Security]]"

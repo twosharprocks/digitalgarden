@@ -3,7 +3,6 @@ title: "Anticline Cave"
 created: 2025-09-26
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -53,8 +52,7 @@ address: "97-101, Caves Rd, Dubbo Regional Council, New South Wales, AUS, 2820"
 # References
 
 ## Images
-- ![Anticline Cave Cavedb PXL 20250927 230113563 92b089b3 D1a6dd6c](/images/Anticline%20Cave%20-%20CaveDB%20-%20PXL_20250927_230113563%20-%2092b089b3-d1a6dd6c.jpg)
-- ![Anticline Cave Cavedb PXL 20250927 230130803 23384e45 D1a6dd6c](/images/Anticline%20Cave%20-%20CaveDB%20-%20PXL_20250927_230130803%20-%2023384e45-d1a6dd6c.jpg)
-- ![Anticline Cave Cavedb PXL 20250927 230100925 061577df D1a6dd6c](/images/Anticline%20Cave%20-%20CaveDB%20-%20PXL_20250927_230100925%20-%20061577df-d1a6dd6c.jpg)
+- ![Anticline Cave PXL 20250927 230113563 92b089b3 D1a6dd6c](/images/Anticline%20Cave%20-%20PXL_20250927_230113563%20-%2092b089b3-d1a6dd6c.jpg)
+- ![Anticline Cave PXL 20250927 230130803 23384e45 D1a6dd6c](/images/Anticline%20Cave%20-%20PXL_20250927_230130803%20-%2023384e45-d1a6dd6c.jpg)
+- ![Anticline Cave PXL 20250927 230100925 061577df D1a6dd6c](/images/Anticline%20Cave%20-%20PXL_20250927_230100925%20-%20061577df-d1a6dd6c.jpg)
 
-- [CaveDB record](https://app.cavedb.net/share/d1a6dd6c-09b3-4f86-bfaa-d567991fb12f.html)

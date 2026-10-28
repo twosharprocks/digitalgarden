@@ -3,7 +3,6 @@ title: Notes - The Garden and the Stream
 created: 2025-04-17
 updated: 2026-09-28
 status: seed
-draft: false
 tags:
   - knowledge-management
   - personal

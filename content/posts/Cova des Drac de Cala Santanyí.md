@@ -3,7 +3,6 @@ title: "Cova des Drac de Cala Santanyí"
 created: 2023-08-10
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,4 +37,4 @@ address: "10, Carrer Cova des Drac, Santanyí, Illes Balears, ESP, 07659"
 - **MapCarta:** https://mapcarta.com/N5780430733
 
 ## Images
-- ![Cova Des Drac De Cala Santanyí Cavedb Aerial Photography Of Cala Santanyi With The Topography Of Cova Des Drac De Cala 0c7978da F61dbede](/images/Cova%20des%20Drac%20de%20Cala%20Santany%C3%AD%20-%20CaveDB%20-%20Aerial-photography-of-Cala-Santanyi-with-the-topography-of-Cova-des-Drac-de-Cala%20-%200c7978da-f61dbede.png)
+- ![Cova Des Drac De Cala Santanyí Aerial Photography Of Cala Santanyi With The Topography Of Cova Des Drac De Cala 0c7978da F61dbede](/images/Cova%20des%20Drac%20de%20Cala%20Santany%C3%AD%20-%20Aerial-photography-of-Cala-Santanyi-with-the-topography-of-Cova-des-Drac-de-Cala%20-%200c7978da-f61dbede.png)

@@ -3,7 +3,6 @@ title: "Spring - d93dead9"
 created: 2025-06-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -29,4 +28,4 @@ address: "Glenelg Dr, Glenelg Shire, Victoria, AUS, 3292"
 # References
 
 ## Images
-- ![Spring Cavedb Spring3 38c3abf8 D93dead9](/images/Spring%20-%20CaveDB%20-%20spring3%20-%2038c3abf8-d93dead9.jpg)
+- ![Spring Spring3 38c3abf8 D93dead9](/images/Spring%20-%20spring3%20-%2038c3abf8-d93dead9.jpg)

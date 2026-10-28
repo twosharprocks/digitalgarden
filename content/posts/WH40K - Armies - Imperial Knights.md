@@ -3,7 +3,6 @@ title: WH40K - Armies - Imperial Knights
 created: 2025-04-08
 updated: 2025-04-08
 status: seed
-draft: false
 tags:
   - interests
   - personal

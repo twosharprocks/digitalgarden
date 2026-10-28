@@ -3,7 +3,6 @@ title: "McKay's Shaft - 5L125 - CLOSED"
 created: 2026-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -34,8 +33,8 @@ Shown on "Sites around Mt Gambier" image
 # References
 
 ## Images
-- ![L0125 Mckays Shaft Cavedb 0249 6e8cf5db 690ebf2b](/images/L0125%20-%20McKays%20Shaft%20-%20CaveDB%20-%200249%20-%206e8cf5db-690ebf2b.jpg)
-- ![L0125 Mckays Shaft Cavedb 0248 Ff55e573 690ebf2b](/images/L0125%20-%20McKays%20Shaft%20-%20CaveDB%20-%200248%20-%20ff55e573-690ebf2b.jpg)
+- ![L0125 Mckays Shaft 0249 6e8cf5db 690ebf2b](/images/L0125%20-%20McKays%20Shaft%20-%200249%20-%206e8cf5db-690ebf2b.jpg)
+- ![L0125 Mckays Shaft 0248 Ff55e573 690ebf2b](/images/L0125%20-%20McKays%20Shaft%20-%200248%20-%20ff55e573-690ebf2b.jpg)
 
 - **LSECR:** Page 248
 Added to the cave diving community's list of approved sites in 1992, McKays Shaft was named after the present landowner, Mr. Murray McKay, whose house lies close to the entrance. The entrance is spectacular enough for many people; a 2.5 metre diameter (possibly artificially-enlarged) chimney in a steep-walled depression which drops sheer for about 18 metres before
@@ -46,7 +45,6 @@ The cave was named by early divers after it was reportedly first dived by a larg
 - **www.cavediving.net.au:** https://www.cavediving.net.au/images/articles/maps/5L-125.gif
 - **www.cavediving.net.au:** Long vertical tube entrance leads to a single large water-filled dome mainly submerged. Well decorated with speleothems underwater.
 
-- [CaveDB record](https://app.cavedb.net/share/5ab4d906-1c36-4870-bf32-a7a6072c91da.html)
 
 # Details
 

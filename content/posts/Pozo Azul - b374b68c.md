@@ -3,7 +3,6 @@ title: "Pozo Azul - b374b68c"
 created: 2023-06-29
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -141,7 +140,7 @@ Text: Jolanda Spronck
 - **Cave Atlas:** http://www.caveatlas.com/systems/system.asp?ID=660&co=ES
 
 ## Images
-- ![Pozo Azul Cavedb Pozo2014 Whole 40896ddf B374b68c](/images/Pozo%20Azul%20-%20CaveDB%20-%20pozo2014-whole%20-%2040896ddf-b374b68c.png)
-- ![Pozo Azul Cavedb 6c2w1azd1rbs8i715px3pahygtgre4fqtwrnss7iwxg8c2hncv22jae A0b90aae B374b68c](/images/Pozo%20Azul%20-%20CaveDB%20-%206C2W1azD1rBs8i715pX3pAHYgtGre4FqTwRNss7iwxg8C2HncV22jaE%20-%20a0b90aae-b374b68c.jpg)
-- ![Pozo Azul Cavedb 660 625429d1 B374b68c](/images/Pozo%20Azul%20-%20CaveDB%20-%20660%20-%20625429d1-b374b68c.jpg)
-- ![Pozo Azul Cavedb 6c2w1azd1rbs8i715px3pahygtgre4fqtwrnss7oktsvgnvxt4phszc Af2353f5 B374b68c](/images/Pozo%20Azul%20-%20CaveDB%20-%206C2W1azD1rBs8i715pX3pAHYgtGre4FqTwRNss7oKtSvgnvxT4PhSZc%20-%20af2353f5-b374b68c.jpg)
+- ![Pozo Azul Pozo2014 Whole 40896ddf B374b68c](/images/Pozo%20Azul%20-%20pozo2014-whole%20-%2040896ddf-b374b68c.png)
+- ![Pozo Azul 6c2w1azd1rbs8i715px3pahygtgre4fqtwrnss7iwxg8c2hncv22jae A0b90aae B374b68c](/images/Pozo%20Azul%20-%206C2W1azD1rBs8i715pX3pAHYgtGre4FqTwRNss7iwxg8C2HncV22jaE%20-%20a0b90aae-b374b68c.jpg)
+- ![Pozo Azul 660 625429d1 B374b68c](/images/Pozo%20Azul%20-%20660%20-%20625429d1-b374b68c.jpg)
+- ![Pozo Azul 6c2w1azd1rbs8i715px3pahygtgre4fqtwrnss7oktsvgnvxt4phszc Af2353f5 B374b68c](/images/Pozo%20Azul%20-%206C2W1azD1rBs8i715pX3pAHYgtGre4FqTwRNss7oKtSvgnvxT4PhSZc%20-%20af2353f5-b374b68c.jpg)

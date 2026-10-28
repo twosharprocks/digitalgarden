@@ -3,7 +3,6 @@ title: OSCP - HTB - Linux
 created: 2026-01-26
 updated: 2025-10-02
 status: seed
-draft: false
 tags:
   - cyber-security
 related: "[[Cyber Security]]"

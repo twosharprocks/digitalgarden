@@ -3,7 +3,6 @@ title: Kayaking
 created: 2025-12-12
 updated: 2025-12-12
 status: seed
-draft: false
 tags:
   - interests
   - antarctica

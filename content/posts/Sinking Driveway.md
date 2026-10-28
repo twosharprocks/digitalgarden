@@ -3,7 +3,6 @@ title: "Sinking Driveway"
 created: 2023-08-03
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

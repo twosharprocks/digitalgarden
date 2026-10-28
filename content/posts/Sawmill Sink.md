@@ -3,7 +3,6 @@ title: "Sawmill Sink"
 created: 2023-04-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -33,4 +32,4 @@ address: "Abaco, BHS"
 # References
 
 ## Images
-- ![Sawmill Sink Cavedb Sawmill Sink 6067e332 42dcb269](/images/Sawmill%20Sink%20-%20CaveDB%20-%20Sawmill-Sink%20-%206067e332-42dcb269.png)
+- ![Sawmill Sink Sawmill Sink 6067e332 42dcb269](/images/Sawmill%20Sink%20-%20Sawmill-Sink%20-%206067e332-42dcb269.png)

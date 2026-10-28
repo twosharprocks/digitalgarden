@@ -3,7 +3,6 @@ title: "Marie Agnes Mine"
 created: 2023-08-13
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -69,15 +68,15 @@ Now it’s time for the right-side corridor.  Start by diving into the lower one
 
 # Maps
 
-- ![Marie Agnes Mine Cavedb Home Section 2 D7983233 7c8b80cb](/images/Marie%20Agnes%20Mine%20-%20CaveDB%20-%20home-section-2%20-%20d7983233-7c8b80cb.jpg)
-- ![Marie Agnes Mine Cavedb Home Section 1 C6f09ec0 7c8b80cb](/images/Marie%20Agnes%20Mine%20-%20CaveDB%20-%20home-section-1%20-%20c6f09ec0-7c8b80cb.jpg)
+- ![Marie Agnes Mine Home Section 2 D7983233 7c8b80cb](/images/Marie%20Agnes%20Mine%20-%20home-section-2%20-%20d7983233-7c8b80cb.jpg)
+- ![Marie Agnes Mine Home Section 1 C6f09ec0 7c8b80cb](/images/Marie%20Agnes%20Mine%20-%20home-section-1%20-%20c6f09ec0-7c8b80cb.jpg)
 
 # References
 
 - **GoogleMaps:** https://goo.gl/maps/xckzNSXAtXTiDVZt8
 
 ## Images
-- ![Marie Agnes Mine Cavedb Plan001 P 1080 E28acf47 7c8b80cb](/images/Marie%20Agnes%20Mine%20-%20CaveDB%20-%20Plan001-p-1080%20-%20e28acf47-7c8b80cb.png)
-- ![Marie Agnes Mine Cavedb Home Section 2 D7983233 7c8b80cb](/images/Marie%20Agnes%20Mine%20-%20CaveDB%20-%20home-section-2%20-%20d7983233-7c8b80cb.jpg)
-- ![Marie Agnes Mine Cavedb Home Section 1 C6f09ec0 7c8b80cb](/images/Marie%20Agnes%20Mine%20-%20CaveDB%20-%20home-section-1%20-%20c6f09ec0-7c8b80cb.jpg)
+- ![Marie Agnes Mine Plan001 P 1080 E28acf47 7c8b80cb](/images/Marie%20Agnes%20Mine%20-%20Plan001-p-1080%20-%20e28acf47-7c8b80cb.png)
+- ![Marie Agnes Mine Home Section 2 D7983233 7c8b80cb](/images/Marie%20Agnes%20Mine%20-%20home-section-2%20-%20d7983233-7c8b80cb.jpg)
+- ![Marie Agnes Mine Home Section 1 C6f09ec0 7c8b80cb](/images/Marie%20Agnes%20Mine%20-%20home-section-1%20-%20c6f09ec0-7c8b80cb.jpg)
 - [c7b5159f-ca46-4030-8748-cf130a3515ec](https://www.youtube.com/watch?v=tC2qN7fNmgI)

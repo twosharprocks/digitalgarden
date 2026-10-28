@@ -3,7 +3,6 @@ title: Patreon - Post Visit Mars One Q&A
 created: 2026-06-18
 updated: 2026-06-18
 status: tree
-draft: false
 tags:
   - writing
   - patreon

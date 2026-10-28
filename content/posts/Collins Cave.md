@@ -3,7 +3,6 @@ title: "Collins Cave"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -48,6 +47,6 @@ address: "Wireless Rd W, Suttontown, South Australia, AUS, 5291"
 Collins Cave is an impressive feature, having some of the largest and widest passages of all of the Lower South Eastern caves. The entrance is a low hole in the base of a large degraded (and rubbish-filled) doline, which leads to a steep slope from the bottom of which the cave continues in several directions. By turning left, one can enter a very extensive "maze" in which more than one keen explorer has become confused; numerous skin-tearing crawlways exist under and between the main floor boulders, and to the right, through an obviously heavily-trogged narrow section, cavers can enter the northern end of the main passage (which is about 90 metres long, quite wide and several metres high in most places). There is one particularly prominent stalagmite near the centre of the main passage in this second chamber, and this is known as "Big Ben". The first CEGSA Record of this feature was dated March 1957 by Bob Sexton, who apparently did not explore it fully. Five years later, in December 1962, Phil Connard provided a more detailed trip report which identified the main features and mentioned the problems of graffiti and damaged cave decoration (including 1 cm-long straws, stalagmites and flowstone). He equated this cave to "the medium-sized Naracoorte caves" in type. CEGSA arranged to have the feature gated in the late 1980s, thereby deterring unwanted cave vandals from damaging it further.
 
 ## Images
-- ![L0031 Collins Cave Cavedb Collins2 509daaca F6226cc6](/images/L0031%20-%20Collins%20Cave%20-%20CaveDB%20-%20collins2%20-%20509daaca-f6226cc6.jpg)
-- ![L0031 Collins Cave Cavedb DJI 0063 Cccb8633 F6226cc6](/images/L0031%20-%20Collins%20Cave%20-%20CaveDB%20-%20DJI_0063%20-%20cccb8633-f6226cc6.jpg)
-- ![L0031 Collins Cave Cavedb Collins Cea5b8d9 F6226cc6](/images/L0031%20-%20Collins%20Cave%20-%20CaveDB%20-%20collins%20-%20cea5b8d9-f6226cc6.jpg)
+- ![L0031 Collins Cave Collins2 509daaca F6226cc6](/images/L0031%20-%20Collins%20Cave%20-%20collins2%20-%20509daaca-f6226cc6.jpg)
+- ![L0031 Collins Cave DJI 0063 Cccb8633 F6226cc6](/images/L0031%20-%20Collins%20Cave%20-%20DJI_0063%20-%20cccb8633-f6226cc6.jpg)
+- ![L0031 Collins Cave Collins Cea5b8d9 F6226cc6](/images/L0031%20-%20Collins%20Cave%20-%20collins%20-%20cea5b8d9-f6226cc6.jpg)

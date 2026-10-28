@@ -3,7 +3,6 @@ title: "Sinkhole- - 97d7a268"
 created: 2025-06-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -31,4 +30,4 @@ address: "Littles Rd, Glenelg Shire, Victoria, AUS, 3304"
 # References
 
 ## Images
-- ![Sinkhole Cavedb Sinkhole4 B47bcb5f 97d7a268](/images/Sinkhole_%20-%20CaveDB%20-%20Sinkhole4%20-%20b47bcb5f-97d7a268.jpg)
+- ![Sinkhole Sinkhole4 B47bcb5f 97d7a268](/images/Sinkhole_%20-%20Sinkhole4%20-%20b47bcb5f-97d7a268.jpg)

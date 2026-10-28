@@ -3,7 +3,6 @@ title: "Goa B'ano"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

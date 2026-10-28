@@ -3,7 +3,6 @@ title: "Dragonière"
 created: 2023-12-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -62,5 +61,5 @@ This cave is located on the lands of the Nature Reserve of the Gorges of Ardeche
 - **CaveDiving.Pictures:** https://www.cavediving.pictures/copie-de-marchepied-10-2020
 
 ## Images
-- ![Dragonière Cavedb Dragonière 67e7008a 70f0f379](/images/Dragoni%C3%A8re%20-%20CaveDB%20-%20Dragoni%C3%A8re%20-%2067e7008a-70f0f379.jpg)
-- ![Dragonière Cavedb Dragonière2 7e37ae25 70f0f379](/images/Dragoni%C3%A8re%20-%20CaveDB%20-%20Dragoni%C3%A8re2%20-%207e37ae25-70f0f379.jpg)
+- ![Dragonière Dragonière 67e7008a 70f0f379](/images/Dragoni%C3%A8re%20-%20Dragoni%C3%A8re%20-%2067e7008a-70f0f379.jpg)
+- ![Dragonière Dragonière2 7e37ae25 70f0f379](/images/Dragoni%C3%A8re%20-%20Dragoni%C3%A8re2%20-%207e37ae25-70f0f379.jpg)

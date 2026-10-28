@@ -3,7 +3,6 @@ title: "Murra Turnoff"
 created: 2026-02-19
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

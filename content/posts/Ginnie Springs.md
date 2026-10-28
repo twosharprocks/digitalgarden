@@ -3,7 +3,6 @@ title: "Ginnie Springs"
 created: 2023-04-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -41,4 +40,4 @@ address: "5000, NE 60th Ave, Gilchrist County, Florida, USA, 32643"
 # References
 
 ## Images
-- ![Ginnie Springs Cavedb Image B927abbc 5773fc0c](/images/Ginnie%20Springs%20-%20CaveDB%20-%20Image%20-%20b927abbc-5773fc0c.jpg)
+- ![Ginnie Springs Image B927abbc 5773fc0c](/images/Ginnie%20Springs%20-%20Image%20-%20b927abbc-5773fc0c.jpg)

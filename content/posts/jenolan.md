@@ -3,7 +3,6 @@ title: Jenolan
 created: 2026-06-18
 updated: 2026-06-18
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -11,7 +10,6 @@ tags:
   - trips
   - expeditions
 region:
-cavedb:
 related: "[[Diving]]"
 map: https://www.google.com/maps/place/
 ---

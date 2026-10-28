@@ -3,7 +3,6 @@ title: "Little Three Springs"
 created: 2023-07-02
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -34,4 +33,4 @@ https://www.facebook.com/photo/?fbid=3025623154197369&set=pcb.3025623557530662
 - **Facebook:** https://www.facebook.com/photo/?fbid=3025623154197369&set=pcb.3025623557530662
 
 ## Images
-- ![Little Three Springs Cavedb 103574957 3025623157530702 5002766996770101377 N B999c57f 4614ceae](/images/Little%20Three%20Springs%20-%20CaveDB%20-%20103574957_3025623157530702_5002766996770101377_n%20-%20b999c57f-4614ceae.jpg)
+- ![Little Three Springs 103574957 3025623157530702 5002766996770101377 N B999c57f 4614ceae](/images/Little%20Three%20Springs%20-%20103574957_3025623157530702_5002766996770101377_n%20-%20b999c57f-4614ceae.jpg)

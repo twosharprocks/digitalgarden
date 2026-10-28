@@ -3,7 +3,6 @@ title: "Ralph's Cave"
 created: 2023-07-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -44,7 +43,7 @@ address: "Unnamed Road, South Abaco, BHS"
 
 # Maps
 
-- ![Ralph's Cave Cavedb Abaco Caves Map Jpg Fdcb7c5a 4cf86512](/images/Ralph%27s%20Cave%20-%20CaveDB%20-%20abaco-caves-map-jpg%20-%20fdcb7c5a-4cf86512.jpg)
+- ![Ralph's Cave Abaco Caves Map Jpg Fdcb7c5a 4cf86512](/images/Ralph%27s%20Cave%20-%20abaco-caves-map-jpg%20-%20fdcb7c5a-4cf86512.jpg)
 
 # References
 
@@ -52,6 +51,6 @@ address: "Unnamed Road, South Abaco, BHS"
 - **ADM:** http://www.advanceddivermagazine.com/articles/crystal/crystal.html
 
 ## Images
-- ![Ralph's Cave Cavedb 117711000 1688508654639836 7479915030073406689 N A14d3d6e 4cf86512](/images/Ralph%27s%20Cave%20-%20CaveDB%20-%20117711000_1688508654639836_7479915030073406689_n%20-%20a14d3d6e-4cf86512.jpg)
-- ![Ralph's Cave Cavedb Abaco Caves Ralph Dan Jpg E086d238 4cf86512](/images/Ralph%27s%20Cave%20-%20CaveDB%20-%20abaco-caves-ralph-dan-jpg%20-%20e086d238-4cf86512.jpg)
-- ![Ralph's Cave Cavedb Abaco Caves Map Jpg Fdcb7c5a 4cf86512](/images/Ralph%27s%20Cave%20-%20CaveDB%20-%20abaco-caves-map-jpg%20-%20fdcb7c5a-4cf86512.jpg)
+- ![Ralph's Cave 117711000 1688508654639836 7479915030073406689 N A14d3d6e 4cf86512](/images/Ralph%27s%20Cave%20-%20117711000_1688508654639836_7479915030073406689_n%20-%20a14d3d6e-4cf86512.jpg)
+- ![Ralph's Cave Abaco Caves Ralph Dan Jpg E086d238 4cf86512](/images/Ralph%27s%20Cave%20-%20abaco-caves-ralph-dan-jpg%20-%20e086d238-4cf86512.jpg)
+- ![Ralph's Cave Abaco Caves Map Jpg Fdcb7c5a 4cf86512](/images/Ralph%27s%20Cave%20-%20abaco-caves-map-jpg%20-%20fdcb7c5a-4cf86512.jpg)

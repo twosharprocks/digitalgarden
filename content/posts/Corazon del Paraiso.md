@@ -3,7 +3,6 @@ title: Corazon del Paraiso
 created: 2023-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -45,4 +44,4 @@ Open to the public. Entrance fee required.
 
 # Maps
 
-- CaveDB - Corazon del Paraiso - 04ef710f-3cb07a44.kml — [Source](https://media.cavedb.net/ap-southeast-2:edfa08f0-c48d-4d81-bbc5-5d2c57a744e6/636274c7-8485-4299-b98c-c6323d3385e0.kml)
+- Corazon del Paraiso - 04ef710f-3cb07a44.kml

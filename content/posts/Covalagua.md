@@ -3,7 +3,6 @@ title: "Covalagua"
 created: 2023-06-29
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -131,5 +130,5 @@ Currently the explored and topographed development of Covalagua is 854 m . Explo
 - **GAEM:** http://www.espeleogaem.org/covalagua/s_covalagua.html
 
 ## Images
-- ![Covalagua Cavedb Espacio Natural Covalagua 6 3db35eb7 6e6c92a4](/images/Covalagua%20-%20CaveDB%20-%20espacio-natural-covalagua-6%20-%203db35eb7-6e6c92a4.jpg)
-- ![Covalagua Cavedb Topotext A5506f90 6e6c92a4](/images/Covalagua%20-%20CaveDB%20-%20topotext%20-%20a5506f90-6e6c92a4.jpg)
+- ![Covalagua Espacio Natural Covalagua 6 3db35eb7 6e6c92a4](/images/Covalagua%20-%20espacio-natural-covalagua-6%20-%203db35eb7-6e6c92a4.jpg)
+- ![Covalagua Topotext A5506f90 6e6c92a4](/images/Covalagua%20-%20topotext%20-%20a5506f90-6e6c92a4.jpg)

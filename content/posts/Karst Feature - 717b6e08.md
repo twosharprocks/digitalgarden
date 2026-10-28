@@ -3,7 +3,6 @@ title: "Karst Feature - 717b6e08"
 created: 2023-07-28
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

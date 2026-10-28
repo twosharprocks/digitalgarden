@@ -3,7 +3,6 @@ title: "Gourneyras"
 created: 2023-12-12
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -40,5 +39,5 @@ address: "Lieu-dit Mas du Pont, Saint-Maurice-Navacelles, Occitanie, FRA, 34520"
 # References
 
 ## Images
-- ![Gourneyras Cavedb Gourneyras2 62e4030b 63476a31](/images/Gourneyras%20-%20CaveDB%20-%20Gourneyras2%20-%2062e4030b-63476a31.jpg)
-- ![Gourneyras Cavedb Gourneyras 4dc7814a 63476a31](/images/Gourneyras%20-%20CaveDB%20-%20Gourneyras%20-%204dc7814a-63476a31.jpg)
+- ![Gourneyras Gourneyras2 62e4030b 63476a31](/images/Gourneyras%20-%20Gourneyras2%20-%2062e4030b-63476a31.jpg)
+- ![Gourneyras Gourneyras 4dc7814a 63476a31](/images/Gourneyras%20-%20Gourneyras%20-%204dc7814a-63476a31.jpg)

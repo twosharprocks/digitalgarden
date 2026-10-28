@@ -3,7 +3,6 @@ title: "Clearing - adf192b2"
 created: 2023-07-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -40,5 +39,5 @@ address: "Princes Hwy, Tantanoola, South Australia, AUS, 5280"
 # References
 
 ## Images
-- ![Clearing Cavedb 20230805 072815 E3246915 Adf192b2](/images/Clearing%20-%20CaveDB%20-%2020230805_072815%20-%20e3246915-adf192b2.jpg)
-- ![Clearing Cavedb 20230805 072747 E21da44a Adf192b2](/images/Clearing%20-%20CaveDB%20-%2020230805_072747%20-%20e21da44a-adf192b2.jpg)
+- ![Clearing 20230805 072815 E3246915 Adf192b2](/images/Clearing%20-%2020230805_072815%20-%20e3246915-adf192b2.jpg)
+- ![Clearing 20230805 072747 E21da44a Adf192b2](/images/Clearing%20-%2020230805_072747%20-%20e21da44a-adf192b2.jpg)

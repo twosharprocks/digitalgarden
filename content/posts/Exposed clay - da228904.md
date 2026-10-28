@@ -3,7 +3,6 @@ title: "Exposed clay - da228904"
 created: 2024-04-29
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -40,4 +39,4 @@ address: "Madura, Western Australia, AUS, 6443"
 # References
 
 ## Images
-- ![Exposed Clay Cavedb PXL 20240714 231853959 Dd51a005 Da228904](/images/Exposed%20clay%20-%20CaveDB%20-%20PXL_20240714_231853959%20-%20dd51a005-da228904.jpg)
+- ![Exposed Clay PXL 20240714 231853959 Dd51a005 Da228904](/images/Exposed%20clay%20-%20PXL_20240714_231853959%20-%20dd51a005-da228904.jpg)

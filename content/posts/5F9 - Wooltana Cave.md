@@ -3,7 +3,6 @@ title: "5F9 - Wooltana Cave"
 created: 2026-05-22
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

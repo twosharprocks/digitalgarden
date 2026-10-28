@@ -3,7 +3,6 @@ title: "O'Leary Road Cave"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -46,5 +45,5 @@ Apart from some crustal decoration at the end, the cave reportedly contains very
 (unless you happen to like rubbish!).
 
 ## Images
-- ![L0182 O'leary Road Cave Cavedb Olear2 Ccce492b Fa807853](/images/L0182%20-%20O%27Leary%20Road%20Cave%20-%20CaveDB%20-%20olear2%20-%20ccce492b-fa807853.jpg)
-- ![L0182 O'leary Road Cave Cavedb Olear 7ea114ea Fa807853](/images/L0182%20-%20O%27Leary%20Road%20Cave%20-%20CaveDB%20-%20olear%20-%207ea114ea-fa807853.jpg)
+- ![L0182 O'leary Road Cave Olear2 Ccce492b Fa807853](/images/L0182%20-%20O%27Leary%20Road%20Cave%20-%20olear2%20-%20ccce492b-fa807853.jpg)
+- ![L0182 O'leary Road Cave Olear 7ea114ea Fa807853](/images/L0182%20-%20O%27Leary%20Road%20Cave%20-%20olear%20-%207ea114ea-fa807853.jpg)

@@ -3,7 +3,6 @@ title: "Source De Landenouze"
 created: 2023-12-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -45,4 +44,4 @@ address: "D662, Cadrieu, Occitanie, FRA, 46160"
 - **Hidden River Project:** https://thehiddenriverproject.org/
 
 ## Images
-- CaveDB - Landenouse - 38214847-1a8fdd2a.pdf — [Source](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/1eb50b5f-0e24-426f-8531-5053116e1ba8.pdf)
+- Landenouse - 38214847-1a8fdd2a.pdf

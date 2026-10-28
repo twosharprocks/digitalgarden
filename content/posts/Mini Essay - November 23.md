@@ -3,7 +3,6 @@ title: Mini Essay - November 23
 created: 2025-12-14
 updated: 2025-12-15
 status: tree
-draft: false
 tags:
   - 101-things
   - antarctica

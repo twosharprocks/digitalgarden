@@ -3,7 +3,6 @@ title: Mini Essay - What were the highlights of Antarctica
 created: 2026-01-28
 updated: 2026-01-28
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

@@ -3,7 +3,6 @@ title: "Long Beach Cave - Location TBC"
 created: 2023-07-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -33,4 +32,4 @@ Location estimated from research paper
 # References
 
 ## Images
-- CaveDB - The_caves_of_Abaco_Island_Bahamas_Keys_to_geologic - 0fa28dd1-c1f9e6e4.pdf — [Source](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/3abf372e-3f42-41c8-a737-175daeb522ce.pdf)
+- The_caves_of_Abaco_Island_Bahamas_Keys_to_geologic - 0fa28dd1-c1f9e6e4.pdf

@@ -3,7 +3,6 @@ title: "Little River Springs"
 created: 2023-04-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,4 +38,4 @@ address: "24891, 105th Ln, Suwannee County, Florida, USA, 32071"
 # References
 
 ## Images
-- ![Little River Springs Cavedb Image Dec15eb6 C87e9516](/images/Little%20River%20Springs%20-%20CaveDB%20-%20Image%20-%20dec15eb6-c87e9516.jpg)
+- ![Little River Springs Image Dec15eb6 C87e9516](/images/Little%20River%20Springs%20-%20Image%20-%20dec15eb6-c87e9516.jpg)

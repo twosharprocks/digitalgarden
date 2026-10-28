@@ -3,7 +3,6 @@ title: "Blinman pools"
 created: 2023-04-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -58,4 +57,4 @@ The two spring-fed creeks keep the first pool filled with water all year round. 
 - **AllTrails.com:** https://www.alltrails.com/trail/australia/south-australia/blinman-pools-walking-trail
 
 ## Images
-- ![Blinman Pools Cavedb Blinman Pools Flinders Ranges E6c75437 34b4ca03](/images/Blinman%20pools%20-%20CaveDB%20-%20blinman-pools-flinders-ranges%20-%20e6c75437-34b4ca03.jpg)
+- ![Blinman Pools Blinman Pools Flinders Ranges E6c75437 34b4ca03](/images/Blinman%20pools%20-%20blinman-pools-flinders-ranges%20-%20e6c75437-34b4ca03.jpg)

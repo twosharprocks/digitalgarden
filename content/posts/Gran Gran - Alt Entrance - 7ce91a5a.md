@@ -3,7 +3,6 @@ title: "Gran Gran - Alt Entrance - 7ce91a5a"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

@@ -3,7 +3,6 @@ title: Article - What's Your ppO2
 created: 2021-05-27
 updated: 2025-10-30
 status: reference
-draft: false
 tags:
   - article
   - diving

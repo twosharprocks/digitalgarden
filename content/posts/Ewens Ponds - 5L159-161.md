@@ -3,7 +3,6 @@ title: "Ewens Ponds - 5L159-161"
 created: 2026-04-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -35,20 +34,18 @@ No-Mount entry with significant flow pushing out of cave. Dive currently termina
 
 # Maps
 
-- CaveDB - site - 2f576b6d-6c098cc4.kml — [Source](https://media.cavedb.net/ap-southeast-2:d9a418b4-42a7-4ac1-bc06-137507d18d05/2caea866-3931-45d5-8583-2a9a630736dc.kml)
+- site - 2f576b6d-6c098cc4.kml
 
 # References
 
 ## Images
-- ![L0159 Ewens Ponds 1 Cavedb Ewen Cf8258d4 10ed1c09](/images/L0159%20-%20Ewens%20Ponds%201%20-%20CaveDB%20-%20ewen%20-%20cf8258d4-10ed1c09.jpg)
-- ![L0159 Ewens Ponds 1 Cavedb 2019 04 21 08.29.13 759ce4a9 10ed1c09](/images/L0159%20-%20Ewens%20Ponds%201%20-%20CaveDB%20-%202019-04-21%2008.29.13%20-%20759ce4a9-10ed1c09.jpg)
-- ![L0161 Ewens Ponds 3 Cavedb Ew2 Cabf8155 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20CaveDB%20-%20ew2%20-%20cabf8155-6c098cc4.jpg)
-- ![L0161 Ewens Ponds 3 Cavedb IMG 9041 1b0dde02 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20CaveDB%20-%20IMG_9041%20-%201b0dde02-6c098cc4.jpg)
-- ![L0161 Ewens Ponds 3 Cavedb Ew4 7319e550 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20CaveDB%20-%20ew4%20-%207319e550-6c098cc4.jpg)
-- ![L0161 Ewens Ponds 3 Cavedb IMG 9059 4f9d0415 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20CaveDB%20-%20IMG_9059%20-%204f9d0415-6c098cc4.jpg)
-- ![L0161 Ewens Ponds 3 Cavedb Ew F64e729f 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20CaveDB%20-%20ew%20-%20f64e729f-6c098cc4.jpg)
-- [ew.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/0705b688-2955-4e26-8fc5-e9b5364520e1.mp4)
-- [ew2.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/b2e29301-cc44-4e8d-a6dc-d040c820cac6.mp4)
+- ![L0159 Ewens Ponds 1 Ewen Cf8258d4 10ed1c09](/images/L0159%20-%20Ewens%20Ponds%201%20-%20ewen%20-%20cf8258d4-10ed1c09.jpg)
+- ![L0159 Ewens Ponds 1 2019 04 21 08.29.13 759ce4a9 10ed1c09](/images/L0159%20-%20Ewens%20Ponds%201%20-%202019-04-21%2008.29.13%20-%20759ce4a9-10ed1c09.jpg)
+- ![L0161 Ewens Ponds 3 Ew2 Cabf8155 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20ew2%20-%20cabf8155-6c098cc4.jpg)
+- ![L0161 Ewens Ponds 3 IMG 9041 1b0dde02 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20IMG_9041%20-%201b0dde02-6c098cc4.jpg)
+- ![L0161 Ewens Ponds 3 Ew4 7319e550 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20ew4%20-%207319e550-6c098cc4.jpg)
+- ![L0161 Ewens Ponds 3 IMG 9059 4f9d0415 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20IMG_9059%20-%204f9d0415-6c098cc4.jpg)
+- ![L0161 Ewens Ponds 3 Ew F64e729f 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20ew%20-%20f64e729f-6c098cc4.jpg)
 
 - **LSECR:** Page 314
 The freshwater spring system known as Ewens Ponds is one of the Lower South East's most popular recreational snorkelling and scuba sites. It consists of three quite large, roughly-circular spring-fed ponds and a smaller, final "fourth pond" which are linked via a series of shallow streams known as "races", and (with the exception of an isolated and much murkier, smaller feature in the swamp to the west) they contain fantastically-clear freshwater and various unusual and rare species of aquatic flora and fauna. The ponds were reportedly discovered sometime just prior to 1878 by a Mr. Thomas Ewens, whose dog chased a kangaroo into the area.

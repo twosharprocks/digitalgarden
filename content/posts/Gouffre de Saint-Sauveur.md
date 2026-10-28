@@ -3,7 +3,6 @@ title: "Gouffre de Saint-Sauveur"
 created: 2023-12-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -42,4 +41,4 @@ address: "Lieu-dit Saint-Sauveur, Rocamadour, Occitanie, FRA, 46500"
 # References
 
 ## Images
-- ![Gouffre De Saint Sauveur Cavedb Source De St Saveur E96003b7 Eecd372c](/images/Gouffre%20de%20Saint-Sauveur%20-%20CaveDB%20-%20Source%20De%20St%20Saveur%20-%20e96003b7-eecd372c.jpg)
+- ![Gouffre De Saint Sauveur Source De St Saveur E96003b7 Eecd372c](/images/Gouffre%20de%20Saint-Sauveur%20-%20Source%20De%20St%20Saveur%20-%20e96003b7-eecd372c.jpg)

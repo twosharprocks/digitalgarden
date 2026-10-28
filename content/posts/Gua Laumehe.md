@@ -3,7 +3,6 @@ title: "Gua Laumehe"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,4 +38,4 @@ address: "Buton Regency, South East Sulawesi, IDN, 93762"
 
 # References
 
-- [Muna Island - Sulawesi]({{< relref "posts/Muna Island - Sulawesi.md" >}})
+- [Muna Island]({{< relref "posts/Muna Island.md" >}})

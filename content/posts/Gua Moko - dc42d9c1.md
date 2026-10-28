@@ -3,7 +3,6 @@ title: "Gua Moko - dc42d9c1"
 created: 2025-07-26
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -41,4 +40,4 @@ address: "77, Jalan Tanpa Nama, Bau-Bau City, South East Sulawesi, IDN, 93721"
 # References
 
 ## Images
-- ![Gua Moko Cavedb Gua Moko A95eb826 Dc42d9c1](/images/Gua%20Moko%20-%20CaveDB%20-%20gua%20moko%20-%20a95eb826-dc42d9c1.jpg)
+- ![Gua Moko Gua Moko A95eb826 Dc42d9c1](/images/Gua%20Moko%20-%20gua%20moko%20-%20a95eb826-dc42d9c1.jpg)

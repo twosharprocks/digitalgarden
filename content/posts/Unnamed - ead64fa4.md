@@ -3,7 +3,6 @@ title: "Unnamed - ead64fa4"
 created: 2024-04-26
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -30,5 +29,5 @@ address: "Madura, Western Australia, AUS, 6443"
 # References
 
 ## Images
-- ![Unnamed Cavedb 2024 04 24 16.23.31 Fd518db5 Ead64fa4](/images/Unnamed%20-%20CaveDB%20-%202024-04-24%2016.23.31%20-%20fd518db5-ead64fa4.jpg)
-- ![Unnamed Cavedb 2024 04 24 16.22.15 3fa0e787 Ead64fa4](/images/Unnamed%20-%20CaveDB%20-%202024-04-24%2016.22.15%20-%203fa0e787-ead64fa4.jpg)
+- ![Unnamed 2024 04 24 16.23.31 Fd518db5 Ead64fa4](/images/Unnamed%20-%202024-04-24%2016.23.31%20-%20fd518db5-ead64fa4.jpg)
+- ![Unnamed 2024 04 24 16.22.15 3fa0e787 Ead64fa4](/images/Unnamed%20-%202024-04-24%2016.22.15%20-%203fa0e787-ead64fa4.jpg)

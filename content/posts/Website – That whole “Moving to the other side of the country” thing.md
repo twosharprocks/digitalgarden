@@ -3,7 +3,6 @@ title: Website – That whole “Moving to the other side of the country” thin
 created: 2026-01-21
 updated: 2026-06-18
 status: tree
-draft: false
 tags:
   - writing
 related: "[[Writing]]"

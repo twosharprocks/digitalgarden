@@ -3,7 +3,6 @@ title: "Small Cave"
 created: 2023-07-23
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -50,7 +49,7 @@ address: "Mile Hill Rd, Tantanoola, South Australia, AUS, 5280"
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: Sinkhole
 
 ## Images
-- ![Small Cave Cavedb Ch 227ebf58 0de0051a](/images/Small%20Cave%20-%20CaveDB%20-%20ch%20-%20227ebf58-0de0051a.jpg)
-- ![Small Cave Cavedb Ch 6d1c48a7 0de0051a](/images/Small%20Cave%20-%20CaveDB%20-%20ch%20-%206d1c48a7-0de0051a.jpg)
-- ![Small Cave Cavedb Ch 68c7fdd6 0de0051a](/images/Small%20Cave%20-%20CaveDB%20-%20ch%20-%2068c7fdd6-0de0051a.jpg)
-- ![Small Cave Cavedb Ch E67af105 0de0051a](/images/Small%20Cave%20-%20CaveDB%20-%20ch%20-%20e67af105-0de0051a.jpg)
+- ![Small Cave Ch 227ebf58 0de0051a](/images/Small%20Cave%20-%20ch%20-%20227ebf58-0de0051a.jpg)
+- ![Small Cave Ch 6d1c48a7 0de0051a](/images/Small%20Cave%20-%20ch%20-%206d1c48a7-0de0051a.jpg)
+- ![Small Cave Ch 68c7fdd6 0de0051a](/images/Small%20Cave%20-%20ch%20-%2068c7fdd6-0de0051a.jpg)
+- ![Small Cave Ch E67af105 0de0051a](/images/Small%20Cave%20-%20ch%20-%20e67af105-0de0051a.jpg)

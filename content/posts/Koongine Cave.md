@@ -3,7 +3,6 @@ title: "Koongine Cave"
 created: 2023-07-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -55,6 +54,6 @@ Finger markings made by Indigenous Australians can be found on the walls of the 
 - **Wikipedia:** https://en.wikipedia.org/wiki/Koongine_Cave
 
 ## Images
-- ![L0152 Koongine Cave Cavedb 0301 3fc98c02 A58e27cd](/images/L0152%20-%20Koongine%20Cave%20-%20CaveDB%20-%200301%20-%203fc98c02-a58e27cd.jpg)
-- ![L0152 Koongine Cave Cavedb Noon 6575255c A58e27cd](/images/L0152%20-%20Koongine%20Cave%20-%20CaveDB%20-%20noon%20-%206575255c-a58e27cd.jpg)
-- ![L0152 Koongine Cave Cavedb 0300 9d59696e A58e27cd](/images/L0152%20-%20Koongine%20Cave%20-%20CaveDB%20-%200300%20-%209d59696e-a58e27cd.jpg)
+- ![L0152 Koongine Cave 0301 3fc98c02 A58e27cd](/images/L0152%20-%20Koongine%20Cave%20-%200301%20-%203fc98c02-a58e27cd.jpg)
+- ![L0152 Koongine Cave Noon 6575255c A58e27cd](/images/L0152%20-%20Koongine%20Cave%20-%20noon%20-%206575255c-a58e27cd.jpg)
+- ![L0152 Koongine Cave 0300 9d59696e A58e27cd](/images/L0152%20-%20Koongine%20Cave%20-%200300%20-%209d59696e-a58e27cd.jpg)

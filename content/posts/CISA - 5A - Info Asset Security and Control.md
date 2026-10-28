@@ -3,7 +3,6 @@ title: "CISA - 5A - Info Asset Security and Control"
 created: 2026-04-30
 updated: 2026-06-28
 status: seed
-draft: false
 tags:
   - cyber-security
   - cisa

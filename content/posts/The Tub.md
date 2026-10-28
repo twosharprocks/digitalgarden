@@ -3,7 +3,6 @@ title: "The Tub"
 created: 2023-06-28
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

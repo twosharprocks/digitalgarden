@@ -3,7 +3,6 @@ title: "Unnamed Forestry - 1a3df877"
 created: 2023-08-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -42,5 +41,5 @@ address: "Princes Hwy, Tantanoola, South Australia, AUS, 5280"
 - **Forestry:** Forestry Info: Thin Roof: ?, Fence: ?. Dimensions: ?. Features: ?
 
 ## Images
-- ![Unnamed Forestry Cavedb PXL 20230808 232837130 072fe949 1a3df877](/images/Unnamed%20Forestry%20-%20CaveDB%20-%20PXL_20230808_232837130%20-%20072fe949-1a3df877.jpg)
-- ![Unnamed Forestry Cavedb PXL 20230808 232829383 Ef7a6c1b 1a3df877](/images/Unnamed%20Forestry%20-%20CaveDB%20-%20PXL_20230808_232829383%20-%20ef7a6c1b-1a3df877.jpg)
+- ![Unnamed Forestry PXL 20230808 232837130 072fe949 1a3df877](/images/Unnamed%20Forestry%20-%20PXL_20230808_232837130%20-%20072fe949-1a3df877.jpg)
+- ![Unnamed Forestry PXL 20230808 232829383 Ef7a6c1b 1a3df877](/images/Unnamed%20Forestry%20-%20PXL_20230808_232829383%20-%20ef7a6c1b-1a3df877.jpg)

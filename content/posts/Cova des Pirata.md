@@ -3,7 +3,6 @@ title: "Cova des Pirata"
 created: 2023-07-27
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -50,8 +49,8 @@ The cave entrance, with a metal grille door, lies south-east along the path from
 - **ResearchGate:** https://www.researchgate.net/figure/Cave-maps-of-the-Pirata-Pont-Piqueta-system-and-Cova-de-sa-Gleda-Manacor-Mallorca_fig2_287913684
 
 ## Images
-- ![Cova Des Pirata Cavedb Coves Des Pirata 02 Fb329c5c 962f048b](/images/Cova%20des%20Pirata%20-%20CaveDB%20-%20Coves_des_Pirata_02%20-%20fb329c5c-962f048b.jpg)
-- ![Cova Des Pirata Cavedb Cave Maps Of The Pirata Pont Piqueta System And Cova De Sa Gleda Manacor Mallorca C2d8d19d 962f048b](/images/Cova%20des%20Pirata%20-%20CaveDB%20-%20Cave-maps-of-the-Pirata-Pont-Piqueta-system-and-Cova-de-sa-Gleda-Manacor-Mallorca%20-%20c2d8d19d-962f048b.jpg)
-- ![Cova Des Pirata Cavedb Cueva Del Pirata (martel) 16b101d9 962f048b](/images/Cova%20des%20Pirata%20-%20CaveDB%20-%20Cueva_del_Pirata_%28Martel%29%20-%2016b101d9-962f048b.jpg)
-- ![Cova Des Pirata Cavedb Yellow Fe175973 962f048b](/images/Cova%20des%20Pirata%20-%20CaveDB%20-%20yellow%20-%20fe175973-962f048b.png)
+- ![Cova Des Pirata Coves Des Pirata 02 Fb329c5c 962f048b](/images/Cova%20des%20Pirata%20-%20Coves_des_Pirata_02%20-%20fb329c5c-962f048b.jpg)
+- ![Cova Des Pirata Cave Maps Of The Pirata Pont Piqueta System And Cova De Sa Gleda Manacor Mallorca C2d8d19d 962f048b](/images/Cova%20des%20Pirata%20-%20Cave-maps-of-the-Pirata-Pont-Piqueta-system-and-Cova-de-sa-Gleda-Manacor-Mallorca%20-%20c2d8d19d-962f048b.jpg)
+- ![Cova Des Pirata Cueva Del Pirata (martel) 16b101d9 962f048b](/images/Cova%20des%20Pirata%20-%20Cueva_del_Pirata_%28Martel%29%20-%2016b101d9-962f048b.jpg)
+- ![Cova Des Pirata Yellow Fe175973 962f048b](/images/Cova%20des%20Pirata%20-%20yellow%20-%20fe175973-962f048b.png)
 - [1ba3daaf-9d41-4a74-aba3-57806fa817fd](https://www.youtube.com/watch?v=hLaJzv5U4TM)

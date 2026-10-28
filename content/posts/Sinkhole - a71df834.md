@@ -3,7 +3,6 @@ title: "Sinkhole - a71df834"
 created: 2023-07-23
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,4 +37,4 @@ address: "Dow Rd, Glencoe, South Australia, AUS, 5291"
 # References
 
 ## Images
-- ![Sinkhole Cavedb P306 D32e7721 A71df834](/images/Sinkhole%20-%20CaveDB%20-%20P306%20-%20d32e7721-a71df834.jpg)
+- ![Sinkhole P306 D32e7721 A71df834](/images/Sinkhole%20-%20P306%20-%20d32e7721-a71df834.jpg)

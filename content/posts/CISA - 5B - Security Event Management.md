@@ -3,7 +3,6 @@ title: "CISA - 5B - Security Event Management"
 created: 2026-05-02
 updated: 2026-06-30
 status: seed
-draft: false
 tags:
   - cyber-security
   - cisa

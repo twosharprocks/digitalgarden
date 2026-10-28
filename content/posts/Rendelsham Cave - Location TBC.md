@@ -3,7 +3,6 @@ title: "Rendelsham Cave - Location TBC"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -46,5 +45,5 @@ Speak to Kristie/School teacher
 - **LSECR:** Page 88
 
 ## Images
-- ![L0038 Rendelsham Cave Location TBC Cavedb PXL 20230718 014923997 72a40ed1 229ba385](/images/L0038%20-%20Rendelsham%20Cave%20-%20Location%20TBC%20-%20CaveDB%20-%20PXL_20230718_014923997%20-%2072a40ed1-229ba385.jpg)
-- ![L0038 Rendelsham Cave Location TBC Cavedb PXL 20230718 014704476 F99856e9 229ba385](/images/L0038%20-%20Rendelsham%20Cave%20-%20Location%20TBC%20-%20CaveDB%20-%20PXL_20230718_014704476%20-%20f99856e9-229ba385.jpg)
+- ![L0038 Rendelsham Cave Location TBC PXL 20230718 014923997 72a40ed1 229ba385](/images/L0038%20-%20Rendelsham%20Cave%20-%20Location%20TBC%20-%20PXL_20230718_014923997%20-%2072a40ed1-229ba385.jpg)
+- ![L0038 Rendelsham Cave Location TBC PXL 20230718 014704476 F99856e9 229ba385](/images/L0038%20-%20Rendelsham%20Cave%20-%20Location%20TBC%20-%20PXL_20230718_014704476%20-%20f99856e9-229ba385.jpg)

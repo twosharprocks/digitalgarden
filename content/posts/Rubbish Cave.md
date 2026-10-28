@@ -3,7 +3,6 @@ title: "Rubbish Cave"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -54,5 +53,5 @@ Rubbish Cave has very little to attract cave explorers or divers!
 - **LSECR:** Page 100
 
 ## Images
-- ![L0045 Rubbish Cave Cavedb 0101 9764ad3c 04c950ae](/images/L0045%20-%20Rubbish%20Cave%20-%20CaveDB%20-%200101%20-%209764ad3c-04c950ae.jpg)
-- ![L0045 Rubbish Cave Cavedb 0100 0ec86803 04c950ae](/images/L0045%20-%20Rubbish%20Cave%20-%20CaveDB%20-%200100%20-%200ec86803-04c950ae.jpg)
+- ![L0045 Rubbish Cave 0101 9764ad3c 04c950ae](/images/L0045%20-%20Rubbish%20Cave%20-%200101%20-%209764ad3c-04c950ae.jpg)
+- ![L0045 Rubbish Cave 0100 0ec86803 04c950ae](/images/L0045%20-%20Rubbish%20Cave%20-%200100%20-%200ec86803-04c950ae.jpg)

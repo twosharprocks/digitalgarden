@@ -3,7 +3,6 @@ title: "Dead Fox Cave"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -54,5 +53,4 @@ The water-table barely intersects the cave, flooding the flat floor during the S
 - **Forestry SA:** L0277, Thin Roof: N, Fence: N. Dimensions: ?. Features: plantation to be CF soon
 
 ## Images
-- ![L0277 Dead Fox Cave Cavedb 20230422 114239 Bd487249 B65d6298](/images/L0277%20-%20Dead%20Fox%20Cave%20-%20CaveDB%20-%2020230422_114239%20-%20bd487249-b65d6298.jpg)
-- [20230422_114243.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/f6427128-23aa-4aeb-b169-d961d5bec8dd.mp4)
+- ![L0277 Dead Fox Cave 20230422 114239 Bd487249 B65d6298](/images/L0277%20-%20Dead%20Fox%20Cave%20-%2020230422_114239%20-%20bd487249-b65d6298.jpg)

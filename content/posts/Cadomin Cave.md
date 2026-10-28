@@ -3,7 +3,6 @@ title: "Cadomin Cave"
 created: 2023-08-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

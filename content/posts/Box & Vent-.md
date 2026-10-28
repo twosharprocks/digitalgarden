@@ -3,7 +3,6 @@ title: "Box & Vent-"
 created: 2023-07-23
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -33,4 +32,4 @@ address: "Princes Hwy, Tantanoola, South Australia, AUS, 5280"
 # References
 
 ## Images
-- ![Box & Vent Cavedb Vent Acbd113d 77c90b9d](/images/Box%20%26%20Vent_%20-%20CaveDB%20-%20vent%20-%20acbd113d-77c90b9d.jpg)
+- ![Box & Vent Vent Acbd113d 77c90b9d](/images/Box%20%26%20Vent_%20-%20vent%20-%20acbd113d-77c90b9d.jpg)

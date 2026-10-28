@@ -3,7 +3,6 @@ title: "Cloggs Cave"
 created: 2024-01-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

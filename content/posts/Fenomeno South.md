@@ -3,7 +3,6 @@ title: Fenomeno South
 created: 2024-12-05
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -44,4 +43,4 @@ address: "13, Tak Be Ha Rd, Tulum Municipality, Quintana Roo, MEX, 77774"
 # References
 
 ## Images
-- ![Fenomeno South Cavedb 465122657 122145478418304723 3557161439792738527 N 0519c284 98588973](/images/Fenomeno%20South%20-%20CaveDB%20-%20465122657_122145478418304723_3557161439792738527_n%20-%200519c284-98588973.jpg)
+- ![Fenomeno South 465122657 122145478418304723 3557161439792738527 N 0519c284 98588973](/images/Fenomeno%20South%20-%20465122657_122145478418304723_3557161439792738527_n%20-%200519c284-98588973.jpg)

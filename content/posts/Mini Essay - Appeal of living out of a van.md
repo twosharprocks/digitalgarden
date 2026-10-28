@@ -3,7 +3,6 @@ title: Mini Essay - Appeal of living out of a van
 created: 2025-11-04
 updated: 2025-11-04
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

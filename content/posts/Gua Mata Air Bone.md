@@ -3,7 +3,6 @@ title: "Gua Mata Air Bone"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,4 +37,4 @@ address: "Muna Regency, South East Sulawesi, IDN, 93662"
 # References
 
 ## Images
-- ![Gua Mata Air Bone Cavedb Gua Mata Air Bone 443dc51b 40a5daf9](/images/Gua%20Mata%20Air%20Bone%20-%20CaveDB%20-%20Gua%20Mata%20Air%20Bone%20-%20443dc51b-40a5daf9.jpg)
+- ![Gua Mata Air Bone Gua Mata Air Bone 443dc51b 40a5daf9](/images/Gua%20Mata%20Air%20Bone%20-%20Gua%20Mata%20Air%20Bone%20-%20443dc51b-40a5daf9.jpg)

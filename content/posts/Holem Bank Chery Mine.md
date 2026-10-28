@@ -3,7 +3,6 @@ title: "Holem Bank Chery Mine"
 created: 2024-02-17
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

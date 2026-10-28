@@ -6,7 +6,7 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="import re import chardet def read_file(file_path): with open(file_path, &#39;rb&#39;) as file: raw_data = file.read() result = chardet.detect(raw_data) encoding = result[&#39;encoding&#39;] with open(file_path, &#39;r&#39;, encoding=encoding) as file: return file.read() def write_file(file_path, content): with open(file_path, &#39;w&#39;, encoding=&#39;utf-8&#39;) as file: file.write(content) def redact_company_name(text, company_name): return re.sub(re.escape(company_name), &#39;[REDACTED]&#39;, text, flags=re.IGNORECASE) def main(): # Prompt the user to enter the file paths and company name input_file = input(&#34;Please enter the path to the input file: &#34;) output_file = input(&#34;Please enter the name for the output file: &#34;) company_name = input(&#34;Please enter the company name to redact: &#34;) try: # Read the original file original_text = read_file(input_file) except UnicodeDecodeError as e: print(f&#34;Error reading file: {e}&#34;) return # Redact the company name redacted_text = redact_company_name(original_text, company_name) # Write the redacted text to the output file write_file(output_file, redacted_text) if __name__ == &#34;__main__&#34;: main() " />
+<meta name="description" content="import re import chardet def read_file(file_path): with open(file_path, &amp;#39;rb&amp;#39;) as file: raw_data = file.read() result = chardet.detect(raw_data) encoding …" />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
@@ -78,7 +78,7 @@
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Script - Python - redact">
-<meta property="og:description" content="import re import chardet def read_file(file_path): with open(file_path, &#39;rb&#39;) as file: raw_data = file.read() result = chardet.detect(raw_data) encoding = result[&#39;encoding&#39;] with open(file_path, &#39;r&#39;, encoding=encoding) as file: return file.read() def write_file(file_path, content): with open(file_path, &#39;w&#39;, encoding=&#39;utf-8&#39;) as file: file.write(content) def redact_company_name(text, company_name): return re.sub(re.escape(company_name), &#39;[REDACTED]&#39;, text, flags=re.IGNORECASE) def main(): # Prompt the user to enter the file paths and company name input_file = input(&#34;Please enter the path to the input file: &#34;) output_file = input(&#34;Please enter the name for the output file: &#34;) company_name = input(&#34;Please enter the company name to redact: &#34;) try: # Read the original file original_text = read_file(input_file) except UnicodeDecodeError as e: print(f&#34;Error reading file: {e}&#34;) return # Redact the company name redacted_text = redact_company_name(original_text, company_name) # Write the redacted text to the output file write_file(output_file, redacted_text) if __name__ == &#34;__main__&#34;: main() " />
+<meta property="og:description" content="import re import chardet def read_file(file_path): with open(file_path, &amp;#39;rb&amp;#39;) as file: raw_data = file.read() result = chardet.detect(raw_data) encoding …" />
 <meta property="og:url" content="/posts/script---python---redact/" />
 <meta property="og:site_name" content="Digital Garden" />
 

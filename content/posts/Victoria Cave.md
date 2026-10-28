@@ -3,7 +3,6 @@ title: "Victoria Cave"
 created: 2023-06-28
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -50,4 +49,4 @@ From [https://www.naracoortecaves.sa.gov.au/discover/under-the-ground/victoria-f
 # References
 
 ## Images
-- ![Victoria Cavedb F098 006 41d87746 902c84c0](/images/Victoria%20-%20CaveDB%20-%20F098-006%20-%2041d87746-902c84c0.jpg)
+- ![Victoria F098 006 41d87746 902c84c0](/images/Victoria%20-%20F098-006%20-%2041d87746-902c84c0.jpg)

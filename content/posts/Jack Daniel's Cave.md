@@ -3,7 +3,6 @@ title: "Jack Daniel's Cave"
 created: 2025-09-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

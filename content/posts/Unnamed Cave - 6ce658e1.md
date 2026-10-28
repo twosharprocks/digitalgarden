@@ -3,7 +3,6 @@ title: "Unnamed Cave - 6ce658e1"
 created: 2023-07-01
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,4 +37,4 @@ address: "Old Eyre Hwy, Nullarbor, South Australia, AUS, 5690"
 - **ExplorOz:** https://cdn.itbeyond.com.au/places/102730/sa+cave
 
 ## Images
-- ![Place ID 102730 Unnamed Cave Cavedb 102730 7 Tn1000x800 5f36be9f 6ce658e1](/images/Place%20ID%20102730%20-%20Unnamed%20Cave%20-%20CaveDB%20-%20102730_7__TN1000x800%20-%205f36be9f-6ce658e1.jpg)
+- ![Place ID 102730 Unnamed Cave 102730 7 Tn1000x800 5f36be9f 6ce658e1](/images/Place%20ID%20102730%20-%20Unnamed%20Cave%20-%20102730_7__TN1000x800%20-%205f36be9f-6ce658e1.jpg)

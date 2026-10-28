@@ -3,7 +3,6 @@ title: "Buco della Sovaglia - 2nd Mark"
 created: 2023-06-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -28,4 +27,4 @@ Location given by www.hikr.org/dir/Buco_della_Sovaglia_13740/
 # References
 
 ## Images
-- ![Buco Della Sovaglia 2nd Mark Cavedb 55052k 3b20eb65 0d21a2aa](/images/Buco%20della%20Sovaglia%20-%202nd%20Mark%20-%20CaveDB%20-%2055052k%20-%203b20eb65-0d21a2aa.jpg)
+- ![Buco Della Sovaglia 2nd Mark 55052k 3b20eb65 0d21a2aa](/images/Buco%20della%20Sovaglia%20-%202nd%20Mark%20-%2055052k%20-%203b20eb65-0d21a2aa.jpg)

@@ -3,7 +3,6 @@ title: Effective Note-Taking to Remember More + Create New Ideas
 created: 2025-05-11
 updated: 2026-09-28
 status: seed
-draft: false
 tags:
   - knowledge-management
   - writing

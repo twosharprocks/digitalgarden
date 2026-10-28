@@ -3,7 +3,6 @@ title: 360 Video to 3D Model
 created: 2025-10-28
 updated: 2026-06-28
 status: seed
-draft: false
 tags:
   - photogrammetry
   - diving

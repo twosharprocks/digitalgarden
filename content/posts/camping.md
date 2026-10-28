@@ -3,7 +3,6 @@ title: Camping
 created: 2025-04-12
 updated: 2025-11-01
 status: seed
-draft: false
 tags:
   - trips
 related:

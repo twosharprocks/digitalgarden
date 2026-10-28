@@ -3,7 +3,6 @@ title: "Swallow Cave"
 created: 2024-11-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -30,4 +29,4 @@ address: "Great Ocean Rd, Lorne, Victoria, AUS, 3232"
 # References
 
 ## Images
-- ![Swallow Cave Cavedb Swallow Fe360fd4 1368dd85](/images/Swallow%20Cave%20-%20CaveDB%20-%20swallow%20-%20fe360fd4-1368dd85.jpg)
+- ![Swallow Cave Swallow Fe360fd4 1368dd85](/images/Swallow%20Cave%20-%20swallow%20-%20fe360fd4-1368dd85.jpg)

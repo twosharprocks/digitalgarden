@@ -3,7 +3,6 @@ title: "Forest Clearing - ad115724"
 created: 2025-01-19
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -42,4 +41,4 @@ address: "Unnamed Road, The District Council of Grant, South Australia, AUS, 528
 # References
 
 ## Images
-- ![Forest Clearing Cavedb DJI 0724 Fb9f9589 Ad115724](/images/Forest%20Clearing%20-%20CaveDB%20-%20DJI_0724%20-%20fb9f9589-ad115724.jpg)
+- ![Forest Clearing DJI 0724 Fb9f9589 Ad115724](/images/Forest%20Clearing%20-%20DJI_0724%20-%20fb9f9589-ad115724.jpg)

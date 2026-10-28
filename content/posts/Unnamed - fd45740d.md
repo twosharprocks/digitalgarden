@@ -3,7 +3,6 @@ title: "Unnamed - fd45740d"
 created: 2023-04-22
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -43,5 +42,3 @@ GB  31.12.23 visited and put the gopro down on some string footage uploaded
 
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: ?
 
-## Images
-- [GH013588_1703998433306.MP4](https://media.cavedb.net/ap-southeast-2:8c2b0bb3-e080-4f3b-9a2f-fa9649b3de1a/9bb4b746-e56c-4dd2-9399-81e5c874c491.MP4)

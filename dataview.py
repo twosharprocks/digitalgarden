@@ -134,9 +134,9 @@ def filtered_notes(query, notes, current_path=None):
     def sort_key(note):
         value = note.get(key_name, "")
         try:
-            return float(value)
+            return (0, float(value))
         except (TypeError, ValueError):
-            return str(value).lower()
+            return (1, str(value).casefold())
 
     return sorted(selected, key=sort_key, reverse=reverse)
 
@@ -459,7 +459,7 @@ def render_cave_catalog(query, notes, current_path=None):
         return ""
     selected = []
     for note in notes:
-        if note["_path"] == current_path or str(note.get("draft", "")).lower() == "true":
+        if note["_path"] == current_path:
             continue
         if note["_filename"].startswith("Template - "):
             continue

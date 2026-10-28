@@ -3,7 +3,6 @@ title: Fenomeno Downstream
 created: 2024-12-05
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -43,4 +42,4 @@ address: "13, Tak Be Ha Rd, Tulum Municipality, Quintana Roo, MEX, 77774"
 # References
 
 ## Images
-- CaveDB - Fenomeno Downstream.v1.0 - bd6ccde2-57a3dfaa.pdf — [Source](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/c03e5875-e135-4c5c-80e5-baf5f4255661.pdf)
+- Fenomeno Downstream.v1.0 - bd6ccde2-57a3dfaa.pdf

@@ -3,7 +3,6 @@ title: Casa Cenote
 created: 2023-08-14
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -35,4 +34,4 @@ address: "Avenida 3 Norte, Tulum, Quintana Roo, MEX"
 
 # Maps
 
-- CaveDB - Casa Cenote - c066c0c2-88447be1.kml — [Source](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/627f8ce0-d14d-430d-bd75-6b2ad8e2d153.kml)
+- Casa Cenote - c066c0c2-88447be1.kml

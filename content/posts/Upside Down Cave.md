@@ -3,7 +3,6 @@ title: "Upside Down Cave"
 created: 2023-05-29
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -44,4 +43,4 @@ Reasonable sized doline. Small cave with multiple entrances, lots of loose slabb
 # References
 
 ## Images
-- ![N2783 Upside Down Cave Cavedb N2783 6fc8332c 3e6552a2](/images/N2783%20-%20Upside%20Down%20Cave%20-%20CaveDB%20-%20N2783%20-%206fc8332c-3e6552a2.jpg)
+- ![N2783 Upside Down Cave N2783 6fc8332c 3e6552a2](/images/N2783%20-%20Upside%20Down%20Cave%20-%20N2783%20-%206fc8332c-3e6552a2.jpg)

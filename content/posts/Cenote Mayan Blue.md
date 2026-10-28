@@ -3,7 +3,6 @@ title: Cenote Mayan Blue
 created: 2023-09-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

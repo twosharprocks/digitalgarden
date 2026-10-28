@@ -3,7 +3,6 @@ title: "Jenolan Caves"
 created: 2023-06-28
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -26,7 +25,7 @@ address: "4654, Jenolan Caves Rd, Jenolan, New South Wales, AUS, 2790"
 # About
 
 List of caves in Jenolan System
-- Lucas, River, Chifley, Imperial, Orient, Ribbon, Pool of Cerberus, Jubilee, Temple of Baal, Nettle Cave, The Grand Arch, Elder Cave, Aladdin Cave, [Jersey Cave]({{< relref "posts/Jersey Cave.md" >}}), [Arch Cave]({{< relref "posts/Arch Cave.md" >}})
+- Lucas, River, Chifley, Imperial, Orient, Ribbon, Pool of Cerberus, Jubilee, Temple of Baal, [Nettle Cave]({{< relref "posts/Nettle Cave - Jenolan.md" >}}), The Grand Arch, Elder Cave, Aladdin Cave, [Jersey Cave]({{< relref "posts/Jersey Cave.md" >}}), [Arch Cave]({{< relref "posts/Arch Cave.md" >}})
 
 # Details
 

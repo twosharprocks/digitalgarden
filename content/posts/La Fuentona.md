@@ -3,7 +3,6 @@ title: "La Fuentona"
 created: 2023-06-29
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -65,4 +64,4 @@ https://www.youtube.com/watch?v=ybAeOu0INk4
 - **Cave Atlas:** http://www.caveatlas.com/systems/system.asp?ID=658&co=ES
 
 ## Images
-- ![La Fuentona Cavedb 658 Profile 30536db6 E78a35a7](/images/La%20Fuentona%20-%20CaveDB%20-%20658_profile%20-%2030536db6-e78a35a7.jpg)
+- ![La Fuentona 658 Profile 30536db6 E78a35a7](/images/La%20Fuentona%20-%20658_profile%20-%2030536db6-e78a35a7.jpg)

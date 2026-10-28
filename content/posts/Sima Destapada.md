@@ -3,7 +3,6 @@ title: "Sima Destapada"
 created: 2023-06-29
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -31,4 +30,4 @@ Identified from satellite survey of [Cueva Del Agua]({{< relref "posts/Cueva Del
 # References
 
 ## Images
-- ![Sima Destapada Cavedb Sima E033a01b 3a03110d](/images/Sima%20Destapada%20-%20CaveDB%20-%20sima%20-%20e033a01b-3a03110d.jpg)
+- ![Sima Destapada Sima E033a01b 3a03110d](/images/Sima%20Destapada%20-%20sima%20-%20e033a01b-3a03110d.jpg)

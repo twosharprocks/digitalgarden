@@ -3,7 +3,6 @@ title: "Shades of Death Cave"
 created: 2024-01-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

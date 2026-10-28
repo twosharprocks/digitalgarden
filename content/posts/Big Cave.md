@@ -3,7 +3,6 @@ title: "Big Cave"
 created: 2023-08-13
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -34,6 +33,6 @@ address: "Davies Ln, Portland West, Victoria, AUS, 3305"
 - **ResearchGate:** https://www.researchgate.net/publication/226498128_Speleogenesis_in_aeolian_calcarenite_A_case_study_in_western_Victoria
 
 ## Images
-- ![Big Cave Cavedb Screenshot 2024 01 25 172155 C21c2078 131f2860](/images/Big%20Cave%20-%20CaveDB%20-%20Screenshot%202024-01-25%20172155%20-%20c21c2078-131f2860.png)
-- ![Big Cave Cavedb Screenshot 2024 01 25 172145 1f431dc4 131f2860](/images/Big%20Cave%20-%20CaveDB%20-%20Screenshot%202024-01-25%20172145%20-%201f431dc4-131f2860.png)
-- CaveDB - ca-184-archive - 877ff375-131f2860.pdf — [Source](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/4f279352-ca17-44ab-b89e-13caf1ad3d9c.pdf)
+- ![Big Cave Screenshot 2024 01 25 172155 C21c2078 131f2860](/images/Big%20Cave%20-%20Screenshot%202024-01-25%20172155%20-%20c21c2078-131f2860.png)
+- ![Big Cave Screenshot 2024 01 25 172145 1f431dc4 131f2860](/images/Big%20Cave%20-%20Screenshot%202024-01-25%20172145%20-%201f431dc4-131f2860.png)
+- ca-184-archive - 877ff375-131f2860.pdf

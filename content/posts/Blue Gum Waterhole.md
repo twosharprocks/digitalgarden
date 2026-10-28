@@ -3,7 +3,6 @@ title: "Blue Gum Waterhole"
 created: 2023-08-14
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -44,6 +43,6 @@ Depression about 30m in diameter with boggy marsh at rhe bottom. No obvious sign
 # References
 
 ## Images
-- ![Blue Gum Waterhole Cavedb 20240322 150852 9debbdb5 5ad07c90](/images/Blue%20Gum%20Waterhole%20-%20CaveDB%20-%2020240322_150852%20-%209debbdb5-5ad07c90.jpg)
-- ![Blue Gum Waterhole Cavedb 20240322 150914 C608544d 5ad07c90](/images/Blue%20Gum%20Waterhole%20-%20CaveDB%20-%2020240322_150914%20-%20c608544d-5ad07c90.jpg)
-- ![Blue Gum Waterhole Cavedb 20240322 150835 C78c1a83 5ad07c90](/images/Blue%20Gum%20Waterhole%20-%20CaveDB%20-%2020240322_150835%20-%20c78c1a83-5ad07c90.jpg)
+- ![Blue Gum Waterhole 20240322 150852 9debbdb5 5ad07c90](/images/Blue%20Gum%20Waterhole%20-%2020240322_150852%20-%209debbdb5-5ad07c90.jpg)
+- ![Blue Gum Waterhole 20240322 150914 C608544d 5ad07c90](/images/Blue%20Gum%20Waterhole%20-%2020240322_150914%20-%20c608544d-5ad07c90.jpg)
+- ![Blue Gum Waterhole 20240322 150835 C78c1a83 5ad07c90](/images/Blue%20Gum%20Waterhole%20-%2020240322_150835%20-%20c78c1a83-5ad07c90.jpg)

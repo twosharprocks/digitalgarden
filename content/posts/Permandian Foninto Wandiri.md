@@ -3,7 +3,6 @@ title: "Permandian Foninto Wandiri"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -36,4 +35,4 @@ address: "Muna Regency, South East Sulawesi, IDN"
 - **Google Earth:** https://maps.app.goo.gl/VJibAs9VUwkYdLL47
 
 ## Images
-- ![Permandian Foninto Wandiri Cavedb Permandian Foninto Wandiri C8a40ce7 Cd132c80](/images/Permandian%20Foninto%20Wandiri%20-%20CaveDB%20-%20Permandian%20Foninto%20Wandiri%20-%20c8a40ce7-cd132c80.jpg)
+- ![Permandian Foninto Wandiri Permandian Foninto Wandiri C8a40ce7 Cd132c80](/images/Permandian%20Foninto%20Wandiri%20-%20Permandian%20Foninto%20Wandiri%20-%20c8a40ce7-cd132c80.jpg)

@@ -3,7 +3,6 @@ title: Website - 101 Things - School Stupidity (10, 21, 83 & 95)
 created: 2026-01-21
 updated: 2026-06-18
 status: tree
-draft: false
 tags:
   - writing
 related: "[[Writing]]"

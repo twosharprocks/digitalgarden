@@ -3,7 +3,6 @@ title: "Cyber Security - Resources"
 created: 2025-10-26
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - cyber-security
 related:

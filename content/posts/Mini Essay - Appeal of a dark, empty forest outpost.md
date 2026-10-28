@@ -3,7 +3,6 @@ title: Mini Essay - Appeal of a dark, empty forest outpost
 created: 2025-05-25
 updated: 2025-05-25
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

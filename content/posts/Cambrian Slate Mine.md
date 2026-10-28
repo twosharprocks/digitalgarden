@@ -3,7 +3,6 @@ title: "Cambrian Slate Mine"
 created: 2024-12-01
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -85,10 +84,10 @@ Access is open, no formal permission required.
 # References
 
 ## Images
-- ![Cambrian Slate Mine Cavedb 100 4484 Af33447d 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20CaveDB%20-%20100_4484%20-%20af33447d-9e04d4ed.jpg)
-- ![Cambrian Slate Mine Cavedb 100 4463 E5a6f92b 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20CaveDB%20-%20100_4463%20-%20e5a6f92b-9e04d4ed.jpg)
-- ![Cambrian Slate Mine Cavedb 100 4521a D74b02fd 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20CaveDB%20-%20100_4521a%20-%20d74b02fd-9e04d4ed.jpg)
-- ![Cambrian Slate Mine Cavedb IMG 0869 Small Bf8ee25f 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20CaveDB%20-%20IMG_0869-small%20-%20bf8ee25f-9e04d4ed.jpg)
-- ![Cambrian Slate Mine Cavedb 100 4473 0238c4b7 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20CaveDB%20-%20100_4473%20-%200238c4b7-9e04d4ed.jpg)
-- ![Cambrian Slate Mine Cavedb 100 4449 4ae63855 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20CaveDB%20-%20100_4449%20-%204ae63855-9e04d4ed.jpg)
-- ![Cambrian Slate Mine Cavedb 100 4450 6def479f 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20CaveDB%20-%20100_4450%20-%206def479f-9e04d4ed.jpg)
+- ![Cambrian Slate Mine 100 4484 Af33447d 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20100_4484%20-%20af33447d-9e04d4ed.jpg)
+- ![Cambrian Slate Mine 100 4463 E5a6f92b 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20100_4463%20-%20e5a6f92b-9e04d4ed.jpg)
+- ![Cambrian Slate Mine 100 4521a D74b02fd 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20100_4521a%20-%20d74b02fd-9e04d4ed.jpg)
+- ![Cambrian Slate Mine IMG 0869 Small Bf8ee25f 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20IMG_0869-small%20-%20bf8ee25f-9e04d4ed.jpg)
+- ![Cambrian Slate Mine 100 4473 0238c4b7 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20100_4473%20-%200238c4b7-9e04d4ed.jpg)
+- ![Cambrian Slate Mine 100 4449 4ae63855 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20100_4449%20-%204ae63855-9e04d4ed.jpg)
+- ![Cambrian Slate Mine 100 4450 6def479f 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20100_4450%20-%206def479f-9e04d4ed.jpg)

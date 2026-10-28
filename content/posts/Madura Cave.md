@@ -3,7 +3,6 @@ title: "Madura Cave"
 created: 2026-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -42,22 +41,19 @@ Dry caving site
 
 # References
 
-<!-- CaveDB media links: start -->
 
 ## Images
-- ![Madura Cave Cavedb 20250315 112739 04071568 81d18626](/images/Madura%20Cave%20-%20CaveDB%20-%2020250315_112739%20-%2004071568-81d18626.jpg)
-- ![Madura Cave Cavedb 4220 20105869 De52acf0 81d18626](/images/Madura%20Cave%20-%20CaveDB%20-%204220-20105869%20-%20de52acf0-81d18626.jpg)
-- ![Madura Cave Cavedb Drone Facing North 63fd556d 81d18626](/images/Madura%20Cave%20-%20CaveDB%20-%20Drone%20facing%20North%20-%2063fd556d-81d18626.jpg) — CaveDB; MW
-- ![Madura Cave Cavedb IMG 2085 1c20c8d8 81d18626](/images/Madura%20Cave%20-%20CaveDB%20-%20IMG_2085%20-%201c20c8d8-81d18626.jpeg)
-- ![Madura Cave Cavedb IMG 2090 41fea801 81d18626](/images/Madura%20Cave%20-%20CaveDB%20-%20IMG_2090%20-%2041fea801-81d18626.jpeg)
-- ![Madura Cave Cavedb IMG 2094 5f5d43c8 81d18626](/images/Madura%20Cave%20-%20CaveDB%20-%20IMG_2094%20-%205f5d43c8-81d18626.jpeg)
-- ![Madura Cave Cavedb IMG 2095 C2d04fe6 81d18626](/images/Madura%20Cave%20-%20CaveDB%20-%20IMG_2095%20-%20c2d04fe6-81d18626.jpeg)
-- ![Madura Cave Cavedb IMG 2097 Ef037fc7 81d18626](/images/Madura%20Cave%20-%20CaveDB%20-%20IMG_2097%20-%20ef037fc7-81d18626.jpeg)
+- ![Madura Cave 20250315 112739 04071568 81d18626](/images/Madura%20Cave%20-%2020250315_112739%20-%2004071568-81d18626.jpg)
+- ![Madura Cave 4220 20105869 De52acf0 81d18626](/images/Madura%20Cave%20-%204220-20105869%20-%20de52acf0-81d18626.jpg)
+- ![Madura Cave Drone Facing North 63fd556d 81d18626](/images/Madura%20Cave%20-%20Drone%20facing%20North%20-%2063fd556d-81d18626.jpg) — MW
+- ![Madura Cave IMG 2085 1c20c8d8 81d18626](/images/Madura%20Cave%20-%20IMG_2085%20-%201c20c8d8-81d18626.jpeg)
+- ![Madura Cave IMG 2090 41fea801 81d18626](/images/Madura%20Cave%20-%20IMG_2090%20-%2041fea801-81d18626.jpeg)
+- ![Madura Cave IMG 2094 5f5d43c8 81d18626](/images/Madura%20Cave%20-%20IMG_2094%20-%205f5d43c8-81d18626.jpeg)
+- ![Madura Cave IMG 2095 C2d04fe6 81d18626](/images/Madura%20Cave%20-%20IMG_2095%20-%20c2d04fe6-81d18626.jpeg)
+- ![Madura Cave IMG 2097 Ef037fc7 81d18626](/images/Madura%20Cave%20-%20IMG_2097%20-%20ef037fc7-81d18626.jpeg)
 
 ## Images
-- ![Madura Cave Cavedb Drone Facing North 63fd556d 81d18626](/images/Madura%20Cave%20-%20CaveDB%20-%20Drone%20facing%20North%20-%2063fd556d-81d18626.jpg)
-- [dji_fly_20250315_113216_0027_1742091143853_video.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/1fdc8061-078f-40b2-952c-46e3bbf0b467.mp4)
-- [IMG_2087.mov](https://media.cavedb.net/ap-southeast-2:b1d11bf0-11e4-4d72-ac32-677864751f62/a8f24811-0ab2-40b0-a477-fbc0a0a7e5af.mov)
+- ![Madura Cave Drone Facing North 63fd556d 81d18626](/images/Madura%20Cave%20-%20Drone%20facing%20North%20-%2063fd556d-81d18626.jpg)
 
 # Details
 

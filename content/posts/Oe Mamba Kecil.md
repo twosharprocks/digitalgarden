@@ -1,9 +1,8 @@
 ---
-title: "Oe Mamba Kecil"
+title: Oe Mamba Kecil
 created: 2026-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -22,12 +21,12 @@ longitude: 122.46743700000002
 state: South East Sulawesi
 suburb: Buton Regency
 obsidian_aliases:
-  - "Mamba Kucil"
-  - "Mamba Kecil"
-  - "Oe Mamba"
-cavedb: "https://app.cavedb.net/share/68383f0c-0750-4628-ba92-879ce54bd786.html"
-catalog-type: "cave"
-sub-region: "[[Muna Island - Sulawesi]]"
+  - Mamba Kucil
+  - Mamba Kecil
+  - Oe Mamba
+cavedb: https://app.cavedb.net/share/68383f0c-0750-4628-ba92-879ce54bd786.html
+catalog-type: cave
+sub-region: "[[Muna Island]]"
 ---
 # About
 
@@ -37,9 +36,9 @@ Depth +70m - use CCR
 # References
 
 ## Images
-- ![Oe Mamba Kecil Cavedb Mamba Beef4e7b 68383f0c](/images/Oe%20Mamba%20Kecil%20-%20CaveDB%20-%20mamba%20-%20beef4e7b-68383f0c.jpg)
-- ![Oe Mamba Kecil Cavedb Mamba Kecil 0f44938b 68383f0c](/images/Oe%20Mamba%20Kecil%20-%20CaveDB%20-%20mamba%20kecil%20-%200f44938b-68383f0c.jpg)
-- ![Oe Mamba Kecil Cavedb Mamba2 9609c00c 68383f0c](/images/Oe%20Mamba%20Kecil%20-%20CaveDB%20-%20mamba2%20-%209609c00c-68383f0c.jpg)
+- ![Oe Mamba Kecil Mamba Beef4e7b 68383f0c](/images/Oe%20Mamba%20Kecil%20-%20mamba%20-%20beef4e7b-68383f0c.jpg)
+- ![Oe Mamba Kecil Mamba Kecil 0f44938b 68383f0c](/images/Oe%20Mamba%20Kecil%20-%20mamba%20kecil%20-%200f44938b-68383f0c.jpg)
+- ![Oe Mamba Kecil Mamba2 9609c00c 68383f0c](/images/Oe%20Mamba%20Kecil%20-%20mamba2%20-%209609c00c-68383f0c.jpg)
 
 # Details
 

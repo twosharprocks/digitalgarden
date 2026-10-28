@@ -3,7 +3,6 @@ title: "Graveyard Cave - Main Entrance"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -80,24 +79,22 @@ The cave is developed off to the north-west area of the main chamber in a series
 - **LSECR:** Page 86
 
 ## Images
-- ![L0037 Graveyard Cave Main Entrance Cavedb PXL 20230623 044645902 D887178d 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%20PXL_20230623_044645902%20-%20d887178d-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb 20250111 122823 4f377f79 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%2020250111_122823%20-%204f377f79-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb Grave3 4a822b96 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%20grave3%20-%204a822b96-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb 0086 2cae2ab2 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%200086%20-%202cae2ab2-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb PXL 20230623 044839069 A522940b 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%20PXL_20230623_044839069%20-%20a522940b-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb 20250111 123800 B68d3be7 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%2020250111_123800%20-%20b68d3be7-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb Grave2 D7541df2 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%20grave2%20-%20d7541df2-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb 20250111 123707 366eaecf 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%2020250111_123707%20-%20366eaecf-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb Grave 7ee0e691 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%20grave%20-%207ee0e691-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb 20250111 123757 C477adeb 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%2020250111_123757%20-%20c477adeb-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb 0087 289dc241 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%200087%20-%20289dc241-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb 20250111 123657 E09bcfad 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%2020250111_123657%20-%20e09bcfad-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb 20250111 122828 2c430ca1 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%2020250111_122828%20-%202c430ca1-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb 20250111 123104 930dbc38 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%2020250111_123104%20-%20930dbc38-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb 20250111 123953 Da9fb79b 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%2020250111_123953%20-%20da9fb79b-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb PXL 20230623 044635340 E37853d1 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%20PXL_20230623_044635340%20-%20e37853d1-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb 20250111 125102 D922acb6 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%2020250111_125102%20-%20d922acb6-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb 20250111 125030 8d989187 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%2020250111_125030%20-%208d989187-1309fd89.jpg)
-- ![L0037 Graveyard Cave Main Entrance Cavedb PXL 20230623 044823773 178bfbd6 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20CaveDB%20-%20PXL_20230623_044823773%20-%20178bfbd6-1309fd89.jpg)
-- [20250111_123712.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/75b95c97-94ff-4ed4-b415-a9dc0a6d5bd8.mp4)
-- [Graveyard.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/a2bc2102-5cce-4aa4-8a43-aa0fa541293b.mp4)
+- ![L0037 Graveyard Cave Main Entrance PXL 20230623 044645902 D887178d 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20PXL_20230623_044645902%20-%20d887178d-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance 20250111 122823 4f377f79 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%2020250111_122823%20-%204f377f79-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance Grave3 4a822b96 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20grave3%20-%204a822b96-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance 0086 2cae2ab2 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%200086%20-%202cae2ab2-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance PXL 20230623 044839069 A522940b 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20PXL_20230623_044839069%20-%20a522940b-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance 20250111 123800 B68d3be7 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%2020250111_123800%20-%20b68d3be7-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance Grave2 D7541df2 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20grave2%20-%20d7541df2-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance 20250111 123707 366eaecf 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%2020250111_123707%20-%20366eaecf-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance Grave 7ee0e691 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20grave%20-%207ee0e691-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance 20250111 123757 C477adeb 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%2020250111_123757%20-%20c477adeb-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance 0087 289dc241 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%200087%20-%20289dc241-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance 20250111 123657 E09bcfad 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%2020250111_123657%20-%20e09bcfad-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance 20250111 122828 2c430ca1 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%2020250111_122828%20-%202c430ca1-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance 20250111 123104 930dbc38 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%2020250111_123104%20-%20930dbc38-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance 20250111 123953 Da9fb79b 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%2020250111_123953%20-%20da9fb79b-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance PXL 20230623 044635340 E37853d1 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20PXL_20230623_044635340%20-%20e37853d1-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance 20250111 125102 D922acb6 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%2020250111_125102%20-%20d922acb6-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance 20250111 125030 8d989187 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%2020250111_125030%20-%208d989187-1309fd89.jpg)
+- ![L0037 Graveyard Cave Main Entrance PXL 20230623 044823773 178bfbd6 1309fd89](/images/L0037%20-%20Graveyard%20Cave%20-%20Main%20Entrance%20-%20PXL_20230623_044823773%20-%20178bfbd6-1309fd89.jpg)

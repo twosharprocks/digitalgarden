@@ -3,7 +3,6 @@ title: "Sinkhole- - 127b5d4e"
 created: 2025-06-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -31,4 +30,4 @@ address: "Glenelg Dr, Glenelg Shire, Victoria, AUS, 3292"
 # References
 
 ## Images
-- ![Sinkhole Cavedb Freshwater E1845ff0 127b5d4e](/images/Sinkhole_%20-%20CaveDB%20-%20freshwater%20-%20e1845ff0-127b5d4e.jpg)
+- ![Sinkhole Freshwater E1845ff0 127b5d4e](/images/Sinkhole_%20-%20freshwater%20-%20e1845ff0-127b5d4e.jpg)

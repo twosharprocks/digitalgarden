@@ -3,7 +3,6 @@ title: "Gua Maasima"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -33,4 +32,4 @@ address: "Jalan Tanpa Nama, Muna Regency, South East Sulawesi, IDN, 93658"
 # References
 
 ## Images
-- ![Gua Maasima Cavedb Gua Maasima 3e689abd 6ebf1b2a](/images/Gua%20Maasima%20-%20CaveDB%20-%20Gua%20maasima%20-%203e689abd-6ebf1b2a.jpg)
+- ![Gua Maasima Gua Maasima 3e689abd 6ebf1b2a](/images/Gua%20Maasima%20-%20Gua%20maasima%20-%203e689abd-6ebf1b2a.jpg)

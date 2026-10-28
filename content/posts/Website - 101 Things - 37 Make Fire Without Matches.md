@@ -1,9 +1,8 @@
 ---
 title: Website - 101 Things - 37 Make Fire Without Matches
 created: 2026-01-21
-updated: 2026-06-27
+updated: 2026-10-24
 status: tree
-draft: false
 tags:
   - writing
 related: "[[Writing]]"
@@ -80,3 +79,9 @@ And when that realisation finally came – and I started to act on it – the re
 [![Run_1](https://web.archive.org/web/20160302222856im_/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/Run_1-300x292.jpg)](https://web.archive.org/web/20160302222856/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/Run_1.jpg)
 
 But that’s another story.
+
+## Recovered media
+
+![matches](https://web.archive.org/web/20160302222856im_/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/matches-300x244.jpg)
+
+![rain man](https://web.archive.org/web/20160302222856im_/http://www.themightyginge.com/blog/wp-content/uploads/2014/03/rain-man-300x159.jpg)

@@ -3,7 +3,6 @@ title: "Englebrecht's East"
 created: 2023-02-04
 updated: 2026-09-11
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -56,7 +55,7 @@ City of Mt Gambier
 
 # Maps
 
-- CaveDB - Englebrecht's E Extension - 19844d72-6d271bdf.kml — [Source](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/0ad98f70-a4c5-43d1-8f6e-ff5a868725b0.kml)
+- Englebrecht's E Extension - 19844d72-6d271bdf.kml
 
 # References
 
@@ -66,9 +65,9 @@ Engelbrechts Cave is one of Mount Gambier's most significant cave features, than
 - **https://www.trimixdivers.com/trimix5/?p=4917:** Engelbrechts Caves (East and West) lie in the heart of the town of Mt Gambier and are accessed via the same path that the tour guides follow into the site. The East cave (a cave rated site) is shown in these images. An early flattener with a dark silt base tests trim and bouyancy and then the divers enter a cleaner limestone passage which soon leads to a dropper at a T junction. A tie off here allows you to swim up a passage to the left finishing in a surface lake which can be “snorkelled” for a distance of around 100m(?). A beautiful spot with breathable air. Heading back to the T junction and then heading to the right, you are faced with 2 or 3 options…all tight vertical slots which can be followed for perhaps 40m. A beautiful and challenging dive.
 
 ## Images
-- ![5L19 20 Englebrecht's Cave Cavedb EEX Overlay (in Progress) 42049248 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20CaveDB%20-%20EEX%20Overlay%20%28In%20Progress%29%20-%2042049248-6d271bdf.jpg)
-- ![5L19 20 Englebrecht's Cave Cavedb Eng E (sat) 48b0e016 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20CaveDB%20-%20Eng%20E%20%28Sat%29%20-%2048b0e016-6d271bdf.jpg)
-- ![5L19 20 Englebrecht's Cave Cavedb 5l019 20 Engelbrechts With Streets 3271295b 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20CaveDB%20-%205L019-20%20Engelbrechts%20with%20streets%20-%203271295b-6d271bdf.jpg)
-- ![5L19 20 Englebrecht's Cave Cavedb 20230713 151744 Ef8fa107 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20CaveDB%20-%2020230713_151744%20-%20ef8fa107-6d271bdf.jpg)
-- ![5L19 20 Englebrecht's Cave Cavedb 20230713 151715 3f121da8 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20CaveDB%20-%2020230713_151715%20-%203f121da8-6d271bdf.jpg)
-- ![5L19 20 Englebrecht's Cave Cavedb Englebrechts (lewy) 8e78a58c 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20CaveDB%20-%20Englebrechts%20%28lewy%29%20-%208e78a58c-6d271bdf.jpg)
+- ![5L19 20 Englebrecht's Cave EEX Overlay (in Progress) 42049248 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20EEX%20Overlay%20%28In%20Progress%29%20-%2042049248-6d271bdf.jpg)
+- ![5L19 20 Englebrecht's Cave Eng E (sat) 48b0e016 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20Eng%20E%20%28Sat%29%20-%2048b0e016-6d271bdf.jpg)
+- ![5L19 20 Englebrecht's Cave 5l019 20 Engelbrechts With Streets 3271295b 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%205L019-20%20Engelbrechts%20with%20streets%20-%203271295b-6d271bdf.jpg)
+- ![5L19 20 Englebrecht's Cave 20230713 151744 Ef8fa107 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%2020230713_151744%20-%20ef8fa107-6d271bdf.jpg)
+- ![5L19 20 Englebrecht's Cave 20230713 151715 3f121da8 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%2020230713_151715%20-%203f121da8-6d271bdf.jpg)
+- ![5L19 20 Englebrecht's Cave Englebrechts (lewy) 8e78a58c 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20Englebrechts%20%28lewy%29%20-%208e78a58c-6d271bdf.jpg)

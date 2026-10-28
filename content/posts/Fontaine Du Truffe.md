@@ -3,7 +3,6 @@ title: "Fontaine Du Truffe"
 created: 2023-12-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -46,6 +45,6 @@ address: "Lieu-dit le moulin de la Treille, Calès, Occitanie, FRA, 46350"
 - **Facebook:** https://www.facebook.com/groups/314837192045726/?multi_permalinks=2846471012215652&hoisted_section_header_type=recently_seen
 
 ## Images
-- ![Fontaine Du Truffe Cavedb Font Del Truffe2 Fbc528e1 21c811e2](/images/Fontaine%20Du%20Truffe%20-%20CaveDB%20-%20Font%20del%20Truffe2%20-%20fbc528e1-21c811e2.jpg)
-- ![Fontaine Du Truffe Cavedb Font Del Truffe 075cc393 21c811e2](/images/Fontaine%20Du%20Truffe%20-%20CaveDB%20-%20Font%20del%20Truffe%20-%20075cc393-21c811e2.jpg)
-- ![Fontaine Du Truffe Cavedb Font Del Truffe3 Ef075de7 21c811e2](/images/Fontaine%20Du%20Truffe%20-%20CaveDB%20-%20Font%20del%20Truffe3%20-%20ef075de7-21c811e2.jpg)
+- ![Fontaine Du Truffe Font Del Truffe2 Fbc528e1 21c811e2](/images/Fontaine%20Du%20Truffe%20-%20Font%20del%20Truffe2%20-%20fbc528e1-21c811e2.jpg)
+- ![Fontaine Du Truffe Font Del Truffe 075cc393 21c811e2](/images/Fontaine%20Du%20Truffe%20-%20Font%20del%20Truffe%20-%20075cc393-21c811e2.jpg)
+- ![Fontaine Du Truffe Font Del Truffe3 Ef075de7 21c811e2](/images/Fontaine%20Du%20Truffe%20-%20Font%20del%20Truffe3%20-%20ef075de7-21c811e2.jpg)

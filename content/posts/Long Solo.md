@@ -3,7 +3,6 @@ title: Long Solo
 created: 2025-05-09
 updated: 2026-08-20
 status: seed
-draft: false
 tags:
   - interests
   - bucket-list

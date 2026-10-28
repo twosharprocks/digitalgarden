@@ -3,7 +3,6 @@ title: Space
 created: 2025-11-01
 updated: 2025-11-01
 status: seed
-draft: false
 tags:
   - interests
 related: 

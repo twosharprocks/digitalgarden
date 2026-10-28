@@ -3,7 +3,6 @@ title: "Rocky Outcrop - 945bec03"
 created: 2023-07-29
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -41,4 +40,4 @@ address: "Princes Hwy, Tantanoola, South Australia, AUS, 5280"
 # References
 
 ## Images
-- ![Rocky Outcrop Cavedb IMG 20210811 160217 8 66031dfc 945bec03](/images/Rocky%20Outcrop%20-%20CaveDB%20-%20IMG_20210811_160217_8%20-%2066031dfc-945bec03.jpg)
+- ![Rocky Outcrop IMG 20210811 160217 8 66031dfc 945bec03](/images/Rocky%20Outcrop%20-%20IMG_20210811_160217_8%20-%2066031dfc-945bec03.jpg)

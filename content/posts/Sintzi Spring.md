@@ -3,7 +3,6 @@ title: "Sintzi Spring"
 created: 2023-08-20
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -62,7 +61,7 @@ Generally the visibility is very good but it differentiates depending on the sea
 - **GoogleMaps:** https://goo.gl/maps/iC2g127oQq8qTXu37
 
 ## Images
-- ![Sintzi Spring Cavedb Sinzi D653299e Cbd6e4b6](/images/Sintzi%20Spring%20-%20CaveDB%20-%20sinzi%20-%20d653299e-cbd6e4b6.jpg)
-- ![Sintzi Spring Cavedb Sintzi 1ae4980a Cbd6e4b6](/images/Sintzi%20Spring%20-%20CaveDB%20-%20sintzi%20-%201ae4980a-cbd6e4b6.jpg)
+- ![Sintzi Spring Sinzi D653299e Cbd6e4b6](/images/Sintzi%20Spring%20-%20sinzi%20-%20d653299e-cbd6e4b6.jpg)
+- ![Sintzi Spring Sintzi 1ae4980a Cbd6e4b6](/images/Sintzi%20Spring%20-%20sintzi%20-%201ae4980a-cbd6e4b6.jpg)
 - [Youtube](https://www.youtube.com/watch?v=KwgcUHyZHPA)
 - [Youtube2](https://www.youtube.com/watch?v=hojFAdJK4cc)

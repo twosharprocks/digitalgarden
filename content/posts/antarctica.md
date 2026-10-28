@@ -3,7 +3,6 @@ title: Antarctica
 created: 2025-10-06
 updated: 2026-10-02
 status: seed
-draft: false
 tags:
   - interests
   - 101-things
@@ -12,7 +11,6 @@ tags:
   - diving
 region:
 sub-region:
-cavedb:
 smarttraveller: www.smartraveller.gov.au/destinations/
 related:
   - "[[Diving]]"

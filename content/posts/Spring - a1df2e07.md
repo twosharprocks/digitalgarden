@@ -3,7 +3,6 @@ title: "Spring - a1df2e07"
 created: 2025-06-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -29,4 +28,4 @@ address: "Wilson Hall Track, Glenelg Shire, Victoria, AUS, 3304"
 # References
 
 ## Images
-- ![Spring Cavedb Spring E026bf62 A1df2e07](/images/Spring%20-%20CaveDB%20-%20spring%20-%20e026bf62-a1df2e07.jpg)
+- ![Spring Spring E026bf62 A1df2e07](/images/Spring%20-%20spring%20-%20e026bf62-a1df2e07.jpg)

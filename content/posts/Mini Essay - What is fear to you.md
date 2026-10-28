@@ -3,7 +3,6 @@ title: Mini Essay - What is fear to you
 created: 2025-05-23
 updated: 2025-05-23
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

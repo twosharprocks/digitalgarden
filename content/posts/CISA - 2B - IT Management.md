@@ -3,7 +3,6 @@ title: "CISA - 2B - IT Management"
 created: 2026-04-22
 updated: 2026-06-28
 status: seed
-draft: false
 tags:
   - cyber-security
   - study

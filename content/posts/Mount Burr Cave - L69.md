@@ -3,7 +3,6 @@ title: "Mount Burr Cave - L69"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -67,10 +66,9 @@ CEGSA first became aware of the feature through the overseer of the District Cou
 - **LSECR:** Page 142
 
 ## Images
-- ![L0069 Mount Burr Cave L69 Cavedb Burr2 81f72c1c 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20CaveDB%20-%20burr2%20-%2081f72c1c-4f7fc458.jpg)
-- ![L0069 Mount Burr Cave L69 Cavedb Burr2 7abfccfd 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20CaveDB%20-%20burr2%20-%207abfccfd-4f7fc458.jpg)
-- ![L0069 Mount Burr Cave L69 Cavedb Burr F4441898 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20CaveDB%20-%20burr%20-%20f4441898-4f7fc458.jpg)
-- ![L0069 Mount Burr Cave L69 Cavedb PXL 20241214 030455679 42dd6ee8 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20CaveDB%20-%20PXL_20241214_030455679%20-%2042dd6ee8-4f7fc458.jpg)
-- ![L0069 Mount Burr Cave L69 Cavedb Burr 22711c5d 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20CaveDB%20-%20burr%20-%2022711c5d-4f7fc458.jpg)
-- ![L0069 Mount Burr Cave L69 Cavedb PXL 20241214 030003999 6b987203 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20CaveDB%20-%20PXL_20241214_030003999%20-%206b987203-4f7fc458.jpg)
-- [PXL_20241214_030316609.TS.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/34aa8af8-cdfd-4b3b-aaf8-b6c68529300d.mp4)
+- ![L0069 Mount Burr Cave L69 Burr2 81f72c1c 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20burr2%20-%2081f72c1c-4f7fc458.jpg)
+- ![L0069 Mount Burr Cave L69 Burr2 7abfccfd 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20burr2%20-%207abfccfd-4f7fc458.jpg)
+- ![L0069 Mount Burr Cave L69 Burr F4441898 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20burr%20-%20f4441898-4f7fc458.jpg)
+- ![L0069 Mount Burr Cave L69 PXL 20241214 030455679 42dd6ee8 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20PXL_20241214_030455679%20-%2042dd6ee8-4f7fc458.jpg)
+- ![L0069 Mount Burr Cave L69 Burr 22711c5d 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20burr%20-%2022711c5d-4f7fc458.jpg)
+- ![L0069 Mount Burr Cave L69 PXL 20241214 030003999 6b987203 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20PXL_20241214_030003999%20-%206b987203-4f7fc458.jpg)

@@ -3,7 +3,6 @@ title: "Lake Vouliagmeni"
 created: 2023-07-23
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -68,22 +67,22 @@ Two different holes - one incredibly dangerous, the other safe for recreational 
 
 # Maps
 
-- ![Lake Vouliagmeni Cavedb GD Limanaki Map 4e7e55ec A898c17e](/images/Lake%20Vouliagmeni%20-%20CaveDB%20-%20GD-Limanaki-Map%20-%204e7e55ec-a898c17e.jpg)
+- ![Lake Vouliagmeni GD Limanaki Map 4e7e55ec A898c17e](/images/Lake%20Vouliagmeni%20-%20GD-Limanaki-Map%20-%204e7e55ec-a898c17e.jpg)
 
 # References
 
 - **Steemit:** https://steemit.com/steemit/@vanessa11val/the-mystery-of-lake-vouliagmeni-the-secrets-of-the-haunted-lake-greece
 
 ## Images
-- ![Lake Vouliagmeni Cavedb FB IMG 1731204099837 06571707 A898c17e](/images/Lake%20Vouliagmeni%20-%20CaveDB%20-%20FB_IMG_1731204099837%20-%2006571707-a898c17e.jpg)
-- ![Lake Vouliagmeni Cavedb FB IMG 1731204089720 6eb609cb A898c17e](/images/Lake%20Vouliagmeni%20-%20CaveDB%20-%20FB_IMG_1731204089720%20-%206eb609cb-a898c17e.jpg)
-- ![Lake Vouliagmeni Cavedb FB IMG 1731204093228 Cc134418 A898c17e](/images/Lake%20Vouliagmeni%20-%20CaveDB%20-%20FB_IMG_1731204093228%20-%20cc134418-a898c17e.jpg)
-- ![Lake Vouliagmeni Cavedb FB IMG 1731204098254 27fcd613 A898c17e](/images/Lake%20Vouliagmeni%20-%20CaveDB%20-%20FB_IMG_1731204098254%20-%2027fcd613-a898c17e.jpg)
-- ![Lake Vouliagmeni Cavedb FB IMG 1731204087769 Fd5db9e2 A898c17e](/images/Lake%20Vouliagmeni%20-%20CaveDB%20-%20FB_IMG_1731204087769%20-%20fd5db9e2-a898c17e.jpg)
-- ![Lake Vouliagmeni Cavedb FB IMG 1731204094829 C622928f A898c17e](/images/Lake%20Vouliagmeni%20-%20CaveDB%20-%20FB_IMG_1731204094829%20-%20c622928f-a898c17e.jpg)
-- ![Lake Vouliagmeni Cavedb FB IMG 1731204083398 04e6020b A898c17e](/images/Lake%20Vouliagmeni%20-%20CaveDB%20-%20FB_IMG_1731204083398%20-%2004e6020b-a898c17e.jpg)
-- ![Lake Vouliagmeni Cavedb FB IMG 1731204096452 77ad7a72 A898c17e](/images/Lake%20Vouliagmeni%20-%20CaveDB%20-%20FB_IMG_1731204096452%20-%2077ad7a72-a898c17e.jpg)
-- ![Lake Vouliagmeni Cavedb GD Limanaki Map 4e7e55ec A898c17e](/images/Lake%20Vouliagmeni%20-%20CaveDB%20-%20GD-Limanaki-Map%20-%204e7e55ec-a898c17e.jpg)
-- ![Lake Vouliagmeni Cavedb FB IMG 1731204091617 1adf3ce9 A898c17e](/images/Lake%20Vouliagmeni%20-%20CaveDB%20-%20FB_IMG_1731204091617%20-%201adf3ce9-a898c17e.jpg)
+- ![Lake Vouliagmeni FB IMG 1731204099837 06571707 A898c17e](/images/Lake%20Vouliagmeni%20-%20FB_IMG_1731204099837%20-%2006571707-a898c17e.jpg)
+- ![Lake Vouliagmeni FB IMG 1731204089720 6eb609cb A898c17e](/images/Lake%20Vouliagmeni%20-%20FB_IMG_1731204089720%20-%206eb609cb-a898c17e.jpg)
+- ![Lake Vouliagmeni FB IMG 1731204093228 Cc134418 A898c17e](/images/Lake%20Vouliagmeni%20-%20FB_IMG_1731204093228%20-%20cc134418-a898c17e.jpg)
+- ![Lake Vouliagmeni FB IMG 1731204098254 27fcd613 A898c17e](/images/Lake%20Vouliagmeni%20-%20FB_IMG_1731204098254%20-%2027fcd613-a898c17e.jpg)
+- ![Lake Vouliagmeni FB IMG 1731204087769 Fd5db9e2 A898c17e](/images/Lake%20Vouliagmeni%20-%20FB_IMG_1731204087769%20-%20fd5db9e2-a898c17e.jpg)
+- ![Lake Vouliagmeni FB IMG 1731204094829 C622928f A898c17e](/images/Lake%20Vouliagmeni%20-%20FB_IMG_1731204094829%20-%20c622928f-a898c17e.jpg)
+- ![Lake Vouliagmeni FB IMG 1731204083398 04e6020b A898c17e](/images/Lake%20Vouliagmeni%20-%20FB_IMG_1731204083398%20-%2004e6020b-a898c17e.jpg)
+- ![Lake Vouliagmeni FB IMG 1731204096452 77ad7a72 A898c17e](/images/Lake%20Vouliagmeni%20-%20FB_IMG_1731204096452%20-%2077ad7a72-a898c17e.jpg)
+- ![Lake Vouliagmeni GD Limanaki Map 4e7e55ec A898c17e](/images/Lake%20Vouliagmeni%20-%20GD-Limanaki-Map%20-%204e7e55ec-a898c17e.jpg)
+- ![Lake Vouliagmeni FB IMG 1731204091617 1adf3ce9 A898c17e](/images/Lake%20Vouliagmeni%20-%20FB_IMG_1731204091617%20-%201adf3ce9-a898c17e.jpg)
 - [98ab2df8-1a00-4e0c-9e44-0627e6bac63d](https://www.youtube.com/watch?v=6qqely22ME0)
 - [34237c5d-b781-4085-8447-0f3b2e302b2d](https://www.youtube.com/watch?v=nTY1YOFKF8M)

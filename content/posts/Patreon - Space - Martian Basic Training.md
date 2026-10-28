@@ -3,7 +3,6 @@ title: Patreon - Space - Martian Basic Training
 created: 2026-06-18
 updated: 2026-07-17
 status: tree
-draft: false
 tags:
   - writing
   - patreon

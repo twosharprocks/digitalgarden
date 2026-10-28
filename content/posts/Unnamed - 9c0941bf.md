@@ -3,7 +3,6 @@ title: "Unnamed - 9c0941bf"
 created: 2024-05-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -30,5 +29,5 @@ address: "Bones Rd, Caveton, South Australia, AUS, 5291"
 # References
 
 ## Images
-- ![Unnamed Cavedb 2024 03 23 15.14.03 634d2db3 9c0941bf](/images/Unnamed%20-%20CaveDB%20-%202024-03-23%2015.14.03%20-%20634d2db3-9c0941bf.jpg)
-- ![Unnamed Cavedb 2024 03 23 15.14.08 67d3ff85 9c0941bf](/images/Unnamed%20-%20CaveDB%20-%202024-03-23%2015.14.08%20-%2067d3ff85-9c0941bf.jpg)
+- ![Unnamed 2024 03 23 15.14.03 634d2db3 9c0941bf](/images/Unnamed%20-%202024-03-23%2015.14.03%20-%20634d2db3-9c0941bf.jpg)
+- ![Unnamed 2024 03 23 15.14.08 67d3ff85 9c0941bf](/images/Unnamed%20-%202024-03-23%2015.14.08%20-%2067d3ff85-9c0941bf.jpg)

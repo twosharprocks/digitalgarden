@@ -3,7 +3,6 @@ title: "Emergence De Meyraguet"
 created: 2023-12-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -40,4 +39,4 @@ address: "Lieu-dit Meyraguet, Lacave, Occitanie, FRA, 46200"
 # References
 
 ## Images
-- ![Emergence De Meyraguet Cavedb 505869078 10237606677735370 1195412314193251487 N 7e694642 4b908715](/images/Emergence%20De%20Meyraguet%20-%20CaveDB%20-%20505869078_10237606677735370_1195412314193251487_n%20-%207e694642-4b908715.jpg)
+- ![Emergence De Meyraguet 505869078 10237606677735370 1195412314193251487 N 7e694642 4b908715](/images/Emergence%20De%20Meyraguet%20-%20505869078_10237606677735370_1195412314193251487_n%20-%207e694642-4b908715.jpg)

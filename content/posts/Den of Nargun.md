@@ -3,7 +3,6 @@ title: "Den of Nargun"
 created: 2024-09-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -49,5 +48,5 @@ address: "Wallers Rd, Iguana Creek, Victoria, AUS, 3875"
 - **Google Maps:** https://maps.app.goo.gl/P8kQYzxhSFLTz54q7
 
 ## Images
-- ![Den Of Nargun Cavedb 2 1ffd80c6 A73c7388](/images/Den%20of%20Nargun%20-%20CaveDB%20-%202%20-%201ffd80c6-a73c7388.jpg)
-- ![Den Of Nargun Cavedb Nargun B533965a A73c7388](/images/Den%20of%20Nargun%20-%20CaveDB%20-%20nargun%20-%20b533965a-a73c7388.jpg)
+- ![Den Of Nargun 2 1ffd80c6 A73c7388](/images/Den%20of%20Nargun%20-%202%20-%201ffd80c6-a73c7388.jpg)
+- ![Den Of Nargun Nargun B533965a A73c7388](/images/Den%20of%20Nargun%20-%20nargun%20-%20b533965a-a73c7388.jpg)

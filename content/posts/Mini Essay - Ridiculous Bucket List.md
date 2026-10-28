@@ -3,7 +3,6 @@ title: Mini Essay - Ridiculous Bucket List
 created: 2025-10-31
 updated: 2025-10-31
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

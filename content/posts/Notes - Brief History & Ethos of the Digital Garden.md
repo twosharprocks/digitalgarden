@@ -3,7 +3,6 @@ title: Notes - Brief History & Ethos of the Digital Garden
 created: 2025-04-12
 updated: 2026-09-28
 status: seed
-draft: false
 tags:
   - knowledge-management
   - creativity

@@ -3,7 +3,6 @@ title: "Cogol Dei Siori"
 created: 2023-06-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -55,4 +54,4 @@ The passage discovered by Bolanz is on the right of the mill, while proceeding a
 - **Cave Atlas:** http://caveatlas.com/systems/system.asp?ID=584&co=IT
 
 ## Images
-- ![Cogol Dei Siori Cavedb 584 System Da0a54fb 322b2b43](/images/Cogol%20Dei%20Siori%20-%20CaveDB%20-%20584_system%20-%20da0a54fb-322b2b43.gif)
+- ![Cogol Dei Siori 584 System Da0a54fb 322b2b43](/images/Cogol%20Dei%20Siori%20-%20584_system%20-%20da0a54fb-322b2b43.gif)

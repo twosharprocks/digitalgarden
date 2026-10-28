@@ -3,7 +3,6 @@ title: "Cova dels Coloms (Mallorca)"
 created: 2023-08-10
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -51,5 +50,5 @@ Do not confuse with cave of same name on Menorca
 - **Showcaves.com:** https://www.showcaves.com/english/es/caves/Coloms2.html
 
 ## Images
-- ![Cova Dels Coloms (mallorca) Cavedb Aerial Photograph Of The Son Josep Can Frasquet Cala Varques And Cala Falco Area 2e31e14b 31a7cb1a](/images/Cova%20dels%20Coloms%20%28Mallorca%29%20-%20CaveDB%20-%20Aerial-photograph-of-the-Son-Josep-Can-Frasquet-Cala-Varques-and-Cala-Falco-area%20-%202e31e14b-31a7cb1a.png)
+- ![Cova Dels Coloms (mallorca) Aerial Photograph Of The Son Josep Can Frasquet Cala Varques And Cala Falco Area 2e31e14b 31a7cb1a](/images/Cova%20dels%20Coloms%20%28Mallorca%29%20-%20Aerial-photograph-of-the-Son-Josep-Can-Frasquet-Cala-Varques-and-Cala-Falco-area%20-%202e31e14b-31a7cb1a.png)
 - [cb3bffb7-14f9-47e1-b1ce-68d7b7068124](https://www.youtube.com/watch?v=JMdVFTSyGps)

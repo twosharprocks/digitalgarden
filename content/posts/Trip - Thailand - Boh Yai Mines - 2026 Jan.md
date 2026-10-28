@@ -3,7 +3,6 @@ title: Trip - Thailand - Boh Yai Mines - 2026 Jan
 created: 2025-12-14
 updated: 2026-06-30
 status: complete
-draft: false
 tags:
   - trips
 template: "[[Template - Trip]]"
@@ -11,7 +10,6 @@ destination:
 region:
 dates:
 weather:
-cavedb:
 Other Info:
 related:
   - "[[Trips]]"

@@ -3,7 +3,6 @@ title: Xunaan Ha
 created: 2023-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -44,4 +43,4 @@ address: "Ruta Sin Nombre, Tulum Municipality, Quintana Roo, MEX, 77774"
 
 # Maps
 
-- CaveDB - Xunaan Ha - 6f6047b5-14ed314c.kml — [Source](https://media.cavedb.net/ap-southeast-2:edfa08f0-c48d-4d81-bbc5-5d2c57a744e6/5875303a-f695-44c2-b894-626d2cf3ba9e.kml)
+- Xunaan Ha - 6f6047b5-14ed314c.kml

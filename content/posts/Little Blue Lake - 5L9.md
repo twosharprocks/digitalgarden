@@ -3,7 +3,6 @@ title: "Little Blue Lake - 5L9"
 created: 2026-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,11 +37,11 @@ Photogram
 # References
 
 ## Images
-- ![5L9 Little Blue Lake Cavedb 2022 06 05 07.05.11 1103fd86 33b9fbee](/images/5L9%20-%20Little%20Blue%20Lake%20-%20CaveDB%20-%202022-06-05%2007.05.11%20-%201103fd86-33b9fbee.jpg)
-- ![5L9 Little Blue Lake Cavedb 2022 06 05 07.05.45 7ae97a1e 33b9fbee](/images/5L9%20-%20Little%20Blue%20Lake%20-%20CaveDB%20-%202022-06-05%2007.05.45%20-%207ae97a1e-33b9fbee.jpg)
-- ![5L9 Little Blue Lake Cavedb 2022 06 05 07.06.53 B454eb4f 33b9fbee](/images/5L9%20-%20Little%20Blue%20Lake%20-%20CaveDB%20-%202022-06-05%2007.06.53%20-%20b454eb4f-33b9fbee.jpg)
-- ![5L9 Little Blue Lake Cavedb IMG 20211021 072556 8 70de5c6e 33b9fbee](/images/5L9%20-%20Little%20Blue%20Lake%20-%20CaveDB%20-%20IMG_20211021_072556_8%20-%2070de5c6e-33b9fbee.jpg)
-- ![5L9 Little Blue Lake Cavedb Screenshot 2023 11 19 095014 2c6dff54 33b9fbee](/images/5L9%20-%20Little%20Blue%20Lake%20-%20CaveDB%20-%20Screenshot%202023-11-19%20095014%20-%202c6dff54-33b9fbee.png)
+- ![5L9 Little Blue Lake 2022 06 05 07.05.11 1103fd86 33b9fbee](/images/5L9%20-%20Little%20Blue%20Lake%20-%202022-06-05%2007.05.11%20-%201103fd86-33b9fbee.jpg)
+- ![5L9 Little Blue Lake 2022 06 05 07.05.45 7ae97a1e 33b9fbee](/images/5L9%20-%20Little%20Blue%20Lake%20-%202022-06-05%2007.05.45%20-%207ae97a1e-33b9fbee.jpg)
+- ![5L9 Little Blue Lake 2022 06 05 07.06.53 B454eb4f 33b9fbee](/images/5L9%20-%20Little%20Blue%20Lake%20-%202022-06-05%2007.06.53%20-%20b454eb4f-33b9fbee.jpg)
+- ![5L9 Little Blue Lake IMG 20211021 072556 8 70de5c6e 33b9fbee](/images/5L9%20-%20Little%20Blue%20Lake%20-%20IMG_20211021_072556_8%20-%2070de5c6e-33b9fbee.jpg)
+- ![5L9 Little Blue Lake Screenshot 2023 11 19 095014 2c6dff54 33b9fbee](/images/5L9%20-%20Little%20Blue%20Lake%20-%20Screenshot%202023-11-19%20095014%20-%202c6dff54-33b9fbee.png)
 
 - **LSECR:** Page 40
 The Little Blue Lake is a large "cenote"-style waterfilled sinkhole with a diameter of around 45 metres, and it has an 8 metre drop to the water-table. Apart from a large artificially-cut stock- access ramp on the feature's southern side (right beside the bitumized Mount Schank-Kongorong road), the walls are sheer and/or undercut all the way around. The sinkhole is popular with divers and local swimmers, and while it can occasionally contain very clear water, it is more often murky and less than 12 degrees C at depths in excess of 10 metres. The shallowest point is directly under the cut ramp, on the top of a steep rubble-pile of debris which is first reached at a depth of around 25m, from here, the deep and flat muddy floor levels off at about 36 metres. Slightly deeper areas are finally encountered at the floor/wall interface, and apart from a rusting turquoise-coloured Morris 1100 with a crushed roof and an old petrol bowser and other pieces of junk, the feature contains little of interest to cave divers. The Little Blue Lake was possibly one of several sinkholes which were discovered by Governor George Grey's party in 1844, in fact, it might be his original "Devils Punchbowl", although another large sinkhole nearby "The Black Hole" (5L47) might in fact be the feature referred to. The first mention of this sinkhole in CEGSA Records was by Bob Sexton in June 1961, when he reported that "water is pumped out, reputedly for the Kongorong town water supply". Although it is likely that the feature was first visited by scuba divers in the very late 1950s, the first formally-recorded dives known to the author were carried out by S.A.S.S.V. members between the 10th and 12th of June, 1961. In December 1961, local diver Philip "Mick" Potter dived with Adelaide diving identity David Burchell to a depth of 30 metres. Also in that month, Messrs. W.J. Kunert and E. (or A?) Eldred collected sponges and mud samples, and in February 1962, Mick reported finding very clear water below a depth of 15 metres. This sinkhole has recently been mapped in more detail by members of the CDAA's Research Group, and a considerable amount of new information has now been collected. Water samples collected by the author in 1989 also revealed surprisingly-low levels of nitrate contamination -2.5 mg/l and almost no other detectable pollution.

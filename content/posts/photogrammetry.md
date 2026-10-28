@@ -3,7 +3,6 @@ title: Photogrammetry
 created: 2025-08-20
 updated: 2026-07-12
 status: tree
-draft: false
 tags:
   - caving
   - diving

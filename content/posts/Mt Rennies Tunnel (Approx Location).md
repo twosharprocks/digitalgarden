@@ -1,9 +1,8 @@
 ---
 title: "Mt Rennies Tunnel (Approx Location)"
 created: 2025-01-04
-updated: 2026-10-13
+updated: 2026-10-27
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -20,27 +19,30 @@ catalog-type: "cave"
 sub-region: "[[New South Wales]]"
 altitude: "850 m"
 address: "2, Violet St, Blue Mountains City Council, New South Wales, AUS, 2780"
+obsidian_aliases:
+  - "Mt Rennies Tunnel"
+  - "Mount Rennie Tunnel"
 ---
-# About
+# Mt Rennies Tunnel
 
-~100 kms of tunnels in the cliffs near The 3 Sisters, Katoomba. 
-Coal mining began in that area in 1878 and there were about 40 mines at various times.
+Former mining and tramway tunnel beneath Narrow Neck near Katoomba, New South Wales. The vault owner classifies it as a caving and diving site. It is an artificial tunnel, and this existing vault record retains its approximate-location title and map marker.
 
-Tunnel is about 3 metres wide and about 1.2 metres high for most of its length. It was just large enough for the double-track tramway. It looks like the tunnel was dug from both ends. The Megalong Valley side is slightly lower. There is a larger space in the tunnel where the 2 levels meet.
+## History and physical character
 
-The tramway ran between the Mount Rennie tunnel through Narrow Neck and the Daylight Tunnel through the Katoomba coal mine.
+A New South Wales geology publication describes the tunnel as part of the late-nineteenth-century connection between the Megalong Valley shale workings and the Jamison Valley haulage system. The saved Ask Roz article describes a low, narrow tramway tunnel and notes that its portals were blocked after mining ended. Its statement about roughly 100 km of tunnels refers to the broader Katoomba mining district, not to Mt Rennies Tunnel itself.
 
-# Details
+## Water and access
 
-## Identification
+The Jamison Project's account describes standing water in parts of the tunnel and deeper water after rain. The sources checked do not establish a surveyed underwater cave-diving route. Ask Roz describes the tunnel as closed. Access and current conditions should be confirmed with the responsible land manager before any visit.
 
-- **Feature type:** Mine
+## References
 
-# References
-
-- **Askroz.com.au:** https://www.askroz.com.au/blog/mt-rennies-tunnel-katoomba-narrow-neck-plateau/
+- [Saved Ask Roz article](https://www.askroz.com.au/blog/mt-rennies-tunnel-katoomba-narrow-neck-plateau/)
+- [NSW geology publication, *Layers of Time*](https://nswdpe.intersearch.com.au/nswdpejspui/bitstream/1/1826/1/Layers%20of%20Time%20the%20Blue%20Mountains%20and%20Their%20Geology.pdf)
+- [The Jamison Project's tunnel account](https://www.jamisonproject.org/files/Rennies%20Tunnel.pdf)
 
 ## Images
-- ![Mt Rennies Tunnel (approx Location) Cavedb Mtr 1502b71f C311b42d](/images/Mt%20Rennies%20Tunnel%20%28Approx%20Location%29%20-%20CaveDB%20-%20mtr%20-%201502b71f-c311b42d.jpg)
-- ![Mt Rennies Tunnel (approx Location) Cavedb Mtrtunn 268919f9 C311b42d](/images/Mt%20Rennies%20Tunnel%20%28Approx%20Location%29%20-%20CaveDB%20-%20mtrtunn%20-%20268919f9-c311b42d.jpg)
-- ![Mt Rennies Tunnel (approx Location) Cavedb Mtr2 0bd92c33 C311b42d](/images/Mt%20Rennies%20Tunnel%20%28Approx%20Location%29%20-%20CaveDB%20-%20mtr2%20-%200bd92c33-c311b42d.jpg)
+
+- ![Mt Rennies Tunnel (approx Location) Mtr 1502b71f C311b42d](/images/Mt%20Rennies%20Tunnel%20%28Approx%20Location%29%20-%20mtr%20-%201502b71f-c311b42d.jpg)
+- ![Mt Rennies Tunnel (approx Location) Mtrtunn 268919f9 C311b42d](/images/Mt%20Rennies%20Tunnel%20%28Approx%20Location%29%20-%20mtrtunn%20-%20268919f9-c311b42d.jpg)
+- ![Mt Rennies Tunnel (approx Location) Mtr2 0bd92c33 C311b42d](/images/Mt%20Rennies%20Tunnel%20%28Approx%20Location%29%20-%20mtr2%20-%200bd92c33-c311b42d.jpg)

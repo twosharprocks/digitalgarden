@@ -3,7 +3,6 @@ title: "Danau Randano Ghaghe"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -33,5 +32,5 @@ address: "Muna Regency, South East Sulawesi, IDN, 93662"
 # References
 
 ## Images
-- ![Danau Randano Ghaghe Cavedb Danau Randano Ghaghe2 322dd3f9 04113a04](/images/Danau%20Randano%20Ghaghe%20-%20CaveDB%20-%20Danau%20Randano%20Ghaghe2%20-%20322dd3f9-04113a04.jpg)
-- ![Danau Randano Ghaghe Cavedb Danau Randano Ghaghe Bf93259f 04113a04](/images/Danau%20Randano%20Ghaghe%20-%20CaveDB%20-%20Danau%20Randano%20Ghaghe%20-%20bf93259f-04113a04.jpg)
+- ![Danau Randano Ghaghe Danau Randano Ghaghe2 322dd3f9 04113a04](/images/Danau%20Randano%20Ghaghe%20-%20Danau%20Randano%20Ghaghe2%20-%20322dd3f9-04113a04.jpg)
+- ![Danau Randano Ghaghe Danau Randano Ghaghe Bf93259f 04113a04](/images/Danau%20Randano%20Ghaghe%20-%20Danau%20Randano%20Ghaghe%20-%20bf93259f-04113a04.jpg)

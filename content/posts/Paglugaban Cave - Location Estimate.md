@@ -3,7 +3,6 @@ title: "Paglugaban Cave - Location Estimate"
 created: 2025-09-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

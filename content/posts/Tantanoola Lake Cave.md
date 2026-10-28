@@ -3,7 +3,6 @@ title: "Tantanoola Lake Cave"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -62,9 +61,8 @@ Tantanoola Lake Cave is a classic example of the contrasts of nature; having one
 - **https://www.cavediving.net.au/index.php/siteinfo/?site=45:** Large flattener passage leads to spacious dome chamber with a large lake.
 
 ## Images
-- ![L0016 Tantanoola Lake Cave Cavedb Received 172777122376263 21ddb615 3919feac](/images/L0016%20-%20Tantanoola%20Lake%20Cave%20-%20CaveDB%20-%20received_172777122376263%20-%2021ddb615-3919feac.jpeg)
-- ![L0016 Tantanoola Lake Cave Cavedb 20230423 100040 59281161 3919feac](/images/L0016%20-%20Tantanoola%20Lake%20Cave%20-%20CaveDB%20-%2020230423_100040%20-%2059281161-3919feac.jpg)
-- ![L0016 Tantanoola Lake Cave Cavedb 20230423 095935 4301d34f 3919feac](/images/L0016%20-%20Tantanoola%20Lake%20Cave%20-%20CaveDB%20-%2020230423_095935%20-%204301d34f-3919feac.jpg)
-- ![L0016 Tantanoola Lake Cave Cavedb Received 1271140510169716 5f356c21 3919feac](/images/L0016%20-%20Tantanoola%20Lake%20Cave%20-%20CaveDB%20-%20received_1271140510169716%20-%205f356c21-3919feac.jpeg)
-- [2023-04-23 09.57.00.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/d2d550d1-3919-4d08-b4c8-2867fa2127fe.mp4)
+- ![L0016 Tantanoola Lake Cave Received 172777122376263 21ddb615 3919feac](/images/L0016%20-%20Tantanoola%20Lake%20Cave%20-%20received_172777122376263%20-%2021ddb615-3919feac.jpeg)
+- ![L0016 Tantanoola Lake Cave 20230423 100040 59281161 3919feac](/images/L0016%20-%20Tantanoola%20Lake%20Cave%20-%2020230423_100040%20-%2059281161-3919feac.jpg)
+- ![L0016 Tantanoola Lake Cave 20230423 095935 4301d34f 3919feac](/images/L0016%20-%20Tantanoola%20Lake%20Cave%20-%2020230423_095935%20-%204301d34f-3919feac.jpg)
+- ![L0016 Tantanoola Lake Cave Received 1271140510169716 5f356c21 3919feac](/images/L0016%20-%20Tantanoola%20Lake%20Cave%20-%20received_1271140510169716%20-%205f356c21-3919feac.jpeg)
 - [290903b9-66a2-49bb-a406-14ca6f0eb2a5](https://www.youtube.com/watch?v=7jHDUNZAvTQ)

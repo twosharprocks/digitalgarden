@@ -3,7 +3,6 @@ title: "Hastings Cave"
 created: 2023-07-02
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -32,4 +31,4 @@ address: "Sandy Point Rd, Jurien Bay, Western Australia, AUS, 6516"
 # References
 
 ## Images
-- ![Hastings Cave Cavedb Hasting 160c78d8 4ccb39c1](/images/Hastings%20Cave%20-%20CaveDB%20-%20hasting%20-%20160c78d8-4ccb39c1.jpg)
+- ![Hastings Cave Hasting 160c78d8 4ccb39c1](/images/Hastings%20Cave%20-%20hasting%20-%20160c78d8-4ccb39c1.jpg)

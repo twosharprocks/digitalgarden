@@ -3,7 +3,6 @@ title: "Anahulu Cave"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,5 +38,5 @@ address: "Unnamed Road, Tatakamotonga, Tongatapu, TON"
 # References
 
 ## Images
-- ![Anahulu Cave Cavedb Anahulu Cave 07a90e24 91834593](/images/Anahulu%20Cave%20-%20CaveDB%20-%20Anahulu%20Cave%20-%2007a90e24-91834593.jpg)
-- ![Anahulu Cave Cavedb Anahulu Cave Tours 19e5ff5f 91834593](/images/Anahulu%20Cave%20-%20CaveDB%20-%20Anahulu%20Cave%20-%20tours%20-%2019e5ff5f-91834593.jpg)
+- ![Anahulu Cave Anahulu Cave 07a90e24 91834593](/images/Anahulu%20Cave%20-%20Anahulu%20Cave%20-%2007a90e24-91834593.jpg)
+- ![Anahulu Cave Anahulu Cave Tours 19e5ff5f 91834593](/images/Anahulu%20Cave%20-%20Anahulu%20Cave%20-%20tours%20-%2019e5ff5f-91834593.jpg)

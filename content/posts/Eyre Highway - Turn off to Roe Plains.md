@@ -3,7 +3,6 @@ title: "Eyre Highway - Turn off to Roe Plains"
 created: 2023-06-28
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

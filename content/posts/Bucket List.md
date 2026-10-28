@@ -3,7 +3,6 @@ title: Bucket List
 created: 2025-04-01
 updated: 2026-09-28
 status: seed
-draft: false
 tags:
   - 101-things
   - bucket-list

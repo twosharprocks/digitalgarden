@@ -3,7 +3,6 @@ title: "Sheathers"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -67,15 +66,15 @@ The open, sandy entrance was made more secure by the installation of a metal tub
 - **https://www.cavediving.net.au/index.php/siteinfo/?site=88:** Doline leads to cave consisting of extensive horizontally-developed phreatic system and water-filled section.
 
 ## Images
-- ![L0144a Sheathers Cavedb IMG 20220417 110214 2 A4f58184 C3acbbd0](/images/L0144a%20-%20Sheathers%20-%20CaveDB%20-%20IMG_20220417_110214_2%20-%20a4f58184-c3acbbd0.jpg)
-- ![L0144a Sheathers Cavedb 2024 03 01 14.38.31 Ea3d5eca C3acbbd0](/images/L0144a%20-%20Sheathers%20-%20CaveDB%20-%202024-03-01%2014.38.31%20-%20ea3d5eca-c3acbbd0.jpg)
-- ![L0144a Sheathers Cavedb 2024 03 01 14.35.51 76c73e08 C3acbbd0](/images/L0144a%20-%20Sheathers%20-%20CaveDB%20-%202024-03-01%2014.35.51%20-%2076c73e08-c3acbbd0.jpg)
-- ![L0144a Sheathers Cavedb Sheathers 9f15c978 C3acbbd0](/images/L0144a%20-%20Sheathers%20-%20CaveDB%20-%20sheathers%20-%209f15c978-c3acbbd0.jpg)
-- ![L0144a Sheathers Cavedb 2024 03 01 15.07.39 Cfa2abbc C3acbbd0](/images/L0144a%20-%20Sheathers%20-%20CaveDB%20-%202024-03-01%2015.07.39%20-%20cfa2abbc-c3acbbd0.jpg)
-- ![L0144a Sheathers Cavedb 2024 03 01 15.07.50 8bb28ae7 C3acbbd0](/images/L0144a%20-%20Sheathers%20-%20CaveDB%20-%202024-03-01%2015.07.50%20-%208bb28ae7-c3acbbd0.jpg)
-- ![L0144a Sheathers Cavedb 2024 03 01 14.58.13 C85c4b7f C3acbbd0](/images/L0144a%20-%20Sheathers%20-%20CaveDB%20-%202024-03-01%2014.58.13%20-%20c85c4b7f-c3acbbd0.jpg)
-- ![L0144a Sheathers Cavedb Airport2 68255a98 C3acbbd0](/images/L0144a%20-%20Sheathers%20-%20CaveDB%20-%20airport2%20-%2068255a98-c3acbbd0.jpg)
-- ![L0144a Sheathers Cavedb 2024 03 01 15.01.02 Dc55ae83 C3acbbd0](/images/L0144a%20-%20Sheathers%20-%20CaveDB%20-%202024-03-01%2015.01.02%20-%20dc55ae83-c3acbbd0.jpg)
-- ![L0144a Sheathers Cavedb Airport 4e2e5987 C3acbbd0](/images/L0144a%20-%20Sheathers%20-%20CaveDB%20-%20airport%20-%204e2e5987-c3acbbd0.jpg)
-- ![L0144a Sheathers Cavedb 2024 03 01 15.12.22 Ac14c72c C3acbbd0](/images/L0144a%20-%20Sheathers%20-%20CaveDB%20-%202024-03-01%2015.12.22%20-%20ac14c72c-c3acbbd0.jpg)
-- ![L0144a Sheathers Cavedb 2024 03 01 14.38.14 226c6876 C3acbbd0](/images/L0144a%20-%20Sheathers%20-%20CaveDB%20-%202024-03-01%2014.38.14%20-%20226c6876-c3acbbd0.jpg)
+- ![L0144a Sheathers IMG 20220417 110214 2 A4f58184 C3acbbd0](/images/L0144a%20-%20Sheathers%20-%20IMG_20220417_110214_2%20-%20a4f58184-c3acbbd0.jpg)
+- ![L0144a Sheathers 2024 03 01 14.38.31 Ea3d5eca C3acbbd0](/images/L0144a%20-%20Sheathers%20-%202024-03-01%2014.38.31%20-%20ea3d5eca-c3acbbd0.jpg)
+- ![L0144a Sheathers 2024 03 01 14.35.51 76c73e08 C3acbbd0](/images/L0144a%20-%20Sheathers%20-%202024-03-01%2014.35.51%20-%2076c73e08-c3acbbd0.jpg)
+- ![L0144a Sheathers Sheathers 9f15c978 C3acbbd0](/images/L0144a%20-%20Sheathers%20-%20sheathers%20-%209f15c978-c3acbbd0.jpg)
+- ![L0144a Sheathers 2024 03 01 15.07.39 Cfa2abbc C3acbbd0](/images/L0144a%20-%20Sheathers%20-%202024-03-01%2015.07.39%20-%20cfa2abbc-c3acbbd0.jpg)
+- ![L0144a Sheathers 2024 03 01 15.07.50 8bb28ae7 C3acbbd0](/images/L0144a%20-%20Sheathers%20-%202024-03-01%2015.07.50%20-%208bb28ae7-c3acbbd0.jpg)
+- ![L0144a Sheathers 2024 03 01 14.58.13 C85c4b7f C3acbbd0](/images/L0144a%20-%20Sheathers%20-%202024-03-01%2014.58.13%20-%20c85c4b7f-c3acbbd0.jpg)
+- ![L0144a Sheathers Airport2 68255a98 C3acbbd0](/images/L0144a%20-%20Sheathers%20-%20airport2%20-%2068255a98-c3acbbd0.jpg)
+- ![L0144a Sheathers 2024 03 01 15.01.02 Dc55ae83 C3acbbd0](/images/L0144a%20-%20Sheathers%20-%202024-03-01%2015.01.02%20-%20dc55ae83-c3acbbd0.jpg)
+- ![L0144a Sheathers Airport 4e2e5987 C3acbbd0](/images/L0144a%20-%20Sheathers%20-%20airport%20-%204e2e5987-c3acbbd0.jpg)
+- ![L0144a Sheathers 2024 03 01 15.12.22 Ac14c72c C3acbbd0](/images/L0144a%20-%20Sheathers%20-%202024-03-01%2015.12.22%20-%20ac14c72c-c3acbbd0.jpg)
+- ![L0144a Sheathers 2024 03 01 14.38.14 226c6876 C3acbbd0](/images/L0144a%20-%20Sheathers%20-%202024-03-01%2014.38.14%20-%20226c6876-c3acbbd0.jpg)

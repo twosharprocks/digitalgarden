@@ -3,7 +3,6 @@ title: "Unnamed Forestry - 1c982b03"
 created: 2023-07-29
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -42,4 +41,4 @@ address: "Pear Tree Hill Rd, Tantanoola, South Australia, AUS, 5280"
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: Depression
 
 ## Images
-- ![Unnamed Forestry Cavedb Go Photo 1628490021659 94e011e8 1c982b03](/images/Unnamed%20Forestry%20-%20CaveDB%20-%20go_photo_1628490021659%20-%2094e011e8-1c982b03.jpg)
+- ![Unnamed Forestry Go Photo 1628490021659 94e011e8 1c982b03](/images/Unnamed%20Forestry%20-%20go_photo_1628490021659%20-%2094e011e8-1c982b03.jpg)

@@ -3,7 +3,6 @@ title: "Gua Inoli Lalibo"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -41,5 +40,5 @@ address: "Buton Regency, South East Sulawesi, IDN, 93762"
 # References
 
 ## Images
-- ![Gua Inoli Lalibo Cavedb Gua Inoli Lalibo B9dd174c 9c4b990b](/images/Gua%20Inoli%20Lalibo%20-%20CaveDB%20-%20Gua%20Inoli%20Lalibo%20-%20b9dd174c-9c4b990b.jpg)
-- ![Gua Inoli Lalibo Cavedb Gua Inoli Lalibo2 A9399461 9c4b990b](/images/Gua%20Inoli%20Lalibo%20-%20CaveDB%20-%20Gua%20Inoli%20Lalibo2%20-%20a9399461-9c4b990b.jpg)
+- ![Gua Inoli Lalibo Gua Inoli Lalibo B9dd174c 9c4b990b](/images/Gua%20Inoli%20Lalibo%20-%20Gua%20Inoli%20Lalibo%20-%20b9dd174c-9c4b990b.jpg)
+- ![Gua Inoli Lalibo Gua Inoli Lalibo2 A9399461 9c4b990b](/images/Gua%20Inoli%20Lalibo%20-%20Gua%20Inoli%20Lalibo2%20-%20a9399461-9c4b990b.jpg)

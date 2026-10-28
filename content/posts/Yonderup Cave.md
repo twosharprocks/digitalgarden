@@ -3,7 +3,6 @@ title: "Yonderup Cave"
 created: 2023-07-02
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -52,4 +51,4 @@ Closed on public holidays.
 - **Explore Parks:** https://exploreparks.dbca.wa.gov.au/site/yonderup-cave
 
 ## Images
-- ![Yonderup Cave Cavedb Yonderup Cave Yanchep National Park Dbca 0c621752 Cffd508a](/images/Yonderup%20Cave%20-%20CaveDB%20-%20yonderup-cave-yanchep-national-park-dbca%20-%200c621752-cffd508a.jpg)
+- ![Yonderup Cave Yonderup Cave Yanchep National Park Dbca 0c621752 Cffd508a](/images/Yonderup%20Cave%20-%20yonderup-cave-yanchep-national-park-dbca%20-%200c621752-cffd508a.jpg)

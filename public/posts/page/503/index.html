@@ -150,18 +150,14 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/spring-creek/">Spring Creek</a>
+          <a href="/posts/script---python---redact/">Script - Python - redact</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/caving/">caving</a>&nbsp;
-            
-            #<a href="/tags/florida/">florida</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -171,51 +167,27 @@
 
         <div class="post-content">
           
-            <h1 id="details">Details</h1>
-<h2 id="identification">Identification</h2>
-<ul>
-<li><strong>Feature type:</strong> Cave</li>
-</ul>
-<h2 id="cave-and-exploration-data">Cave and exploration data</h2>
-<ul>
-<li><strong>Cave rating:</strong> Advanced</li>
-<li><strong>Highest cave rating:</strong> Advanced</li>
-<li><strong>Goes to water:</strong> Yes</li>
-</ul>
-<h2 id="diving-data">Diving data</h2>
-<ul>
-<li><strong>Water type:</strong> Fresh</li>
-<li><strong>Tidal:</strong> No</li>
-</ul>
-<h1 id="references">References</h1>
-<p>Portions of the following information were taken from Florida Geological Survey Bulletin 66.</p>
-<p>The Spring Creek Springs Group is surrounded by private land but</p>
-<p>can be accessed from Apalachee Bay via boat. Spring Creek is 7 miles southeast</p>
-<p>of Crawfordville. From the intersection of US 319 and US 98 south of Crawfordville, cross</p>
+            import re import chardet def read_file(file_path): with open(file_path, &amp;#39;rb&amp;#39;) as file: raw_data = file.read() result = chardet.detect(raw_data) encoding = result[&amp;#39;encoding&amp;#39;] with open(file_path, &amp;#39;r&amp;#39;, encoding=encoding) as file: return file.read() def write_file(file_path, …
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/spring-creek/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---python---redact/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/spring-or-pond/">Spring or Pond</a>
+          <a href="/posts/script---python---search-replace/">Script - Python - search-replace</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/caving/">caving</a>&nbsp;
-            
-            #<a href="/tags/south-australia/">south-australia</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -225,43 +197,27 @@
 
         <div class="post-content">
           
-            <h1 id="about">About</h1>
-<p>Location for sinkhole marked on CFS topographic map</p>
-<h1 id="details">Details</h1>
-<h2 id="identification">Identification</h2>
-<ul>
-<li><strong>Feature type:</strong> Sinkhole</li>
-<li><strong>Source:</strong> CFS</li>
-</ul>
-<h2 id="cave-and-exploration-data">Cave and exploration data</h2>
-<ul>
-<li><strong>Exploration potential:</strong> Medium</li>
-<li><strong>Goes to water:</strong> Yes</li>
-</ul>
+            #!/usr/bin/env python3 from pathlib import Path import argparse import re def slugify(text: str) -&amp;gt; str: &amp;#34;&amp;#34;&amp;#34;Replace spaces with dashes and strip leading/trailing spaces.&amp;#34;&amp;#34;&amp;#34; return text.strip().replace(&amp;#34; &amp;#34;, &amp;#34;-&amp;#34;) def process_file(path: Path, pattern: …
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/spring-or-pond/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---python---search-replace/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/spring-soak-hole/">Spring-Soak-Hole</a>
+          <a href="/posts/script---python---unredact/">Script - Python - unredact</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
-            
-            #<a href="/tags/caving/">caving</a>&nbsp;
-            
-            #<a href="/tags/south-australia/">south-australia</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -271,43 +227,29 @@
 
         <div class="post-content">
           
-            <h1 id="details">Details</h1>
-<h2 id="identification">Identification</h2>
-<ul>
-<li><strong>Reference:</strong> PlaceID 347867</li>
-<li><strong>System name:</strong> Nurrina Station</li>
-<li><strong>Source:</strong> ExplorOz</li>
-</ul>
-<h1 id="additional-notes">Additional Notes</h1>
-<p>Altitude: 522.38m</p>
-<h1 id="references">References</h1>
-<ul>
-<li><strong>ExplorOz:</strong> <a href="https://www.exploroz.com/places/347867/sa&#43;spring-soak-hole">https://www.exploroz.com/places/347867/sa+spring-soak-hole</a></li>
-</ul>
+            import re import chardet def read_file(file_path): with open(file_path, &amp;#39;rb&amp;#39;) as file: raw_data = file.read() result = chardet.detect(raw_data) encoding = result[&amp;#39;encoding&amp;#39;] with open(file_path, &amp;#39;r&amp;#39;, encoding=encoding) as file: return file.read() def write_file(file_path, …
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/spring-soak-hole/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/script---python---unredact/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/spring-soak-hole---d5361ed4/">Spring-Soak-Hole - d5361ed4</a>
+          <a href="/posts/scripts/">Scripts</a>
         </h2>
         <div class="post-meta"></div>
 
         
           <span class="post-tags">
             
-            #<a href="/tags/diving/">diving</a>&nbsp;
+            #<a href="/tags/cyber-security/">cyber-security</a>&nbsp;
             
-            #<a href="/tags/caving/">caving</a>&nbsp;
-            
-            #<a href="/tags/south-australia/">south-australia</a>&nbsp;
+            #<a href="/tags/script/">script</a>&nbsp;
             
           </span>
         
@@ -317,32 +259,21 @@
 
         <div class="post-content">
           
-            <h1 id="details">Details</h1>
-<h2 id="identification">Identification</h2>
-<ul>
-<li><strong>Reference:</strong> PlaceID 347864</li>
-<li><strong>System name:</strong> Nurrina Station</li>
-<li><strong>Source:</strong> ExplorOz</li>
-</ul>
-<h1 id="additional-notes">Additional Notes</h1>
-<p>Altitude: 450.17m</p>
-<h1 id="references">References</h1>
-<ul>
-<li><strong>ExplorOz:</strong> <a href="https://www.exploroz.com/places/347864/sa&#43;spring-soak-hole">https://www.exploroz.com/places/347864/sa+spring-soak-hole</a></li>
-</ul>
+            Bash Script - Bash - ping-sweep Powershell Active Directory
+Script - PowerShell - AD-Audit Script - PowerShell - AD-EmailToUser Script - PowerShell - AD-GroupMembers Script - PowerShell - AD-Misc Script - PowerShell - AD-NewUser Script - PowerShell - AD-Offboarding Script - PowerShell - …
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/spring-soak-hole---d5361ed4/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/scripts/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/springboard-spring/">Springboard Spring</a>
+          <a href="/posts/secret-cave/">Secret Cave</a>
         </h2>
         <div class="post-meta"></div>
 
@@ -353,7 +284,7 @@
             
             #<a href="/tags/caving/">caving</a>&nbsp;
             
-            #<a href="/tags/florida/">florida</a>&nbsp;
+            #<a href="/tags/western-australia/">western-australia</a>&nbsp;
             
           </span>
         
@@ -363,28 +294,14 @@
 
         <div class="post-content">
           
-            <h1 id="details">Details</h1>
-<h2 id="identification">Identification</h2>
-<ul>
-<li><strong>Feature type:</strong> Cave</li>
-</ul>
-<h2 id="cave-and-exploration-data">Cave and exploration data</h2>
-<ul>
-<li><strong>Cave rating:</strong> Advanced</li>
-<li><strong>Highest cave rating:</strong> Advanced</li>
-<li><strong>Goes to water:</strong> Yes</li>
-</ul>
-<h2 id="diving-data">Diving data</h2>
-<ul>
-<li><strong>Water type:</strong> Fresh</li>
-<li><strong>Tidal:</strong> No</li>
-</ul>
+            About BC (5/2023) Large rectangular collapse approx 40x15m. Has multiple ways down without VA equipment. Heavily covered in bushes. Two potential exploration points identified but maybe more hidden.
+Details Identification Feature type: Cave Cave and exploration data Vertical access: No Exploration …
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/posts/springboard-spring/">[Read more]</a>
+            <a class="read-more button inline" href="/posts/secret-cave/">[Read more]</a>
           </div>
         
       </article>

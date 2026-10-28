@@ -3,7 +3,6 @@ title: Mini Essay - MechWarrior
 created: 2025-06-24
 updated: 2025-06-24
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

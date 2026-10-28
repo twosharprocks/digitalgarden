@@ -3,7 +3,6 @@ title: Mini Essay - Why Antarctica is Important to you
 created: 2025-11-14
 updated: 2025-11-14
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

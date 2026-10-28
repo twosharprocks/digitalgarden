@@ -3,7 +3,6 @@ title: "Cave - f63696ee"
 created: 2025-09-20
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -43,4 +42,4 @@ address: "Unnamed Road, Glenelg Shire, Victoria, AUS, 3304"
 # References
 
 ## Images
-- ![Cave Cavedb Cave3 6dbbf77f F63696ee](/images/Cave%20-%20CaveDB%20-%20cave3%20-%206dbbf77f-f63696ee.jpg)
+- ![Cave Cave3 6dbbf77f F63696ee](/images/Cave%20-%20cave3%20-%206dbbf77f-f63696ee.jpg)

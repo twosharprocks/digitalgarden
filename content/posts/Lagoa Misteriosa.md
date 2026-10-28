@@ -3,7 +3,6 @@ title: "Lagoa Misteriosa"
 created: 2023-12-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,3 +37,7 @@ address: "Jardim, State of Mato Grosso do Sul, BRA, 79240-000"
 
 - **Water type:** Fresh
 - **Tidal:** No
+
+# References
+
+- [Saved LOLEPLANET visitor account](https://www.loleplanet.com/lagoa-misteriosa/) (2016; seasonal conditions and access may have changed)

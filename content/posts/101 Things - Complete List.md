@@ -3,7 +3,6 @@ title: 101 Things - Complete List
 created: 2025-10-06
 updated: 2026-06-18
 status: seed
-draft: false
 tags:
   - 101-things
   - bucket-list

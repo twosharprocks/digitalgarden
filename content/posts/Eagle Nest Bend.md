@@ -3,7 +3,6 @@ title: "Eagle Nest Bend"
 created: 2025-06-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -33,4 +32,4 @@ address: "Glenelg Dr, Glenelg Shire, Victoria, AUS, 3292"
 # References
 
 ## Images
-- ![Eagle Nest Bend Cavedb Eagle Nest Bend B5a7d3c2 Ed7f90a2](/images/Eagle%20Nest%20Bend%20-%20CaveDB%20-%20eagle%20nest%20bend%20-%20b5a7d3c2-ed7f90a2.jpg)
+- ![Eagle Nest Bend Eagle Nest Bend B5a7d3c2 Ed7f90a2](/images/Eagle%20Nest%20Bend%20-%20eagle%20nest%20bend%20-%20b5a7d3c2-ed7f90a2.jpg)

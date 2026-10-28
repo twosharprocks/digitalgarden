@@ -3,7 +3,6 @@ title: Mini Essay - Mental Baggage
 created: 2025-05-11
 updated: 2026-09-28
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

@@ -3,7 +3,6 @@ title: Mini Essay - Why it's easy to put off writing
 created: 2025-10-30
 updated: 2025-10-30
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

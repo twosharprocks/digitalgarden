@@ -3,7 +3,6 @@ title: "Englebrecht's East Extension"
 created: 2023-08-03
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -83,8 +82,8 @@ Due to the pristine characteristics of the site and entry/exit challenges, train
 - **CaveDivers.com.au:** https://www.cavedivers.com.au/index.cfm?leca=1831&module=BUSINESSDIRECTORY&pageMode=indiv&action=details&page_id=1964632&stattype=default
 
 ## Images
-- ![L019e Englebrecht's East Extension Cavedb Rabbit Hole Ae735929 17f304d3](/images/L019E%20-%20Englebrecht%27s%20East%20Extension%20-%20CaveDB%20-%20rabbit%20hole%20-%20ae735929-17f304d3.jpg)
-- ![L019e Englebrecht's East Extension Cavedb EEX 42674818 17f304d3](/images/L019E%20-%20Englebrecht%27s%20East%20Extension%20-%20CaveDB%20-%20EEX%20-%2042674818-17f304d3.jpg)
-- ![L019e Englebrecht's East Extension Cavedb Eng E (sat) 9e0c1c3b 17f304d3](/images/L019E%20-%20Englebrecht%27s%20East%20Extension%20-%20CaveDB%20-%20Eng%20E%20%28Sat%29%20-%209e0c1c3b-17f304d3.jpg)
-- ![L019e Englebrecht's East Extension Cavedb 5l019 20 Englebrechts East (with EEX) 030672b9 17f304d3](/images/L019E%20-%20Englebrecht%27s%20East%20Extension%20-%20CaveDB%20-%205L019-20%20Englebrechts%20East%20%28with%20EEX%29%20-%20030672b9-17f304d3.jpg)
+- ![L019e Englebrecht's East Extension Rabbit Hole Ae735929 17f304d3](/images/L019E%20-%20Englebrecht%27s%20East%20Extension%20-%20rabbit%20hole%20-%20ae735929-17f304d3.jpg)
+- ![L019e Englebrecht's East Extension EEX 42674818 17f304d3](/images/L019E%20-%20Englebrecht%27s%20East%20Extension%20-%20EEX%20-%2042674818-17f304d3.jpg)
+- ![L019e Englebrecht's East Extension Eng E (sat) 9e0c1c3b 17f304d3](/images/L019E%20-%20Englebrecht%27s%20East%20Extension%20-%20Eng%20E%20%28Sat%29%20-%209e0c1c3b-17f304d3.jpg)
+- ![L019e Englebrecht's East Extension 5l019 20 Englebrechts East (with EEX) 030672b9 17f304d3](/images/L019E%20-%20Englebrecht%27s%20East%20Extension%20-%205L019-20%20Englebrechts%20East%20%28with%20EEX%29%20-%20030672b9-17f304d3.jpg)
 - [da3426c2-7da9-429f-84bb-1f3eb86ca955](https://www.youtube.com/watch?v=M1c0uyAFW9o)

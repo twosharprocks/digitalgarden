@@ -3,7 +3,6 @@ title: Script - PowerShell - ServiceDesk
 created: 2026-07-01
 updated: 2026-07-17
 status: seed
-draft: false
 tags:
   - script
 related:

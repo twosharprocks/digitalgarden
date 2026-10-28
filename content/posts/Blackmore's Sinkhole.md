@@ -3,7 +3,6 @@ title: "Blackmore's Sinkhole"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -60,7 +59,7 @@ Private
 # References
 
 ## Images
-- ![L0104 Blackmore's Sinkhole Cavedb Blackmore Drone2 9cf933d3 38b83a50](/images/L0104%20-%20Blackmore%27s%20Sinkhole%20-%20CaveDB%20-%20blackmore-drone2%20-%209cf933d3-38b83a50.jpg)
-- ![L0104 Blackmore's Sinkhole Cavedb Blackmore Drone4 02cc0067 38b83a50](/images/L0104%20-%20Blackmore%27s%20Sinkhole%20-%20CaveDB%20-%20blackmore-drone4%20-%2002cc0067-38b83a50.jpg)
-- ![L0104 Blackmore's Sinkhole Cavedb Blackmore Drone3 0b0814da 38b83a50](/images/L0104%20-%20Blackmore%27s%20Sinkhole%20-%20CaveDB%20-%20blackmore-drone3%20-%200b0814da-38b83a50.jpg)
-- ![L0104 Blackmore's Sinkhole Cavedb Blackmore Drone1 Ece35a46 38b83a50](/images/L0104%20-%20Blackmore%27s%20Sinkhole%20-%20CaveDB%20-%20blackmore-drone1%20-%20ece35a46-38b83a50.jpg)
+- ![L0104 Blackmore's Sinkhole Blackmore Drone2 9cf933d3 38b83a50](/images/L0104%20-%20Blackmore%27s%20Sinkhole%20-%20blackmore-drone2%20-%209cf933d3-38b83a50.jpg)
+- ![L0104 Blackmore's Sinkhole Blackmore Drone4 02cc0067 38b83a50](/images/L0104%20-%20Blackmore%27s%20Sinkhole%20-%20blackmore-drone4%20-%2002cc0067-38b83a50.jpg)
+- ![L0104 Blackmore's Sinkhole Blackmore Drone3 0b0814da 38b83a50](/images/L0104%20-%20Blackmore%27s%20Sinkhole%20-%20blackmore-drone3%20-%200b0814da-38b83a50.jpg)
+- ![L0104 Blackmore's Sinkhole Blackmore Drone1 Ece35a46 38b83a50](/images/L0104%20-%20Blackmore%27s%20Sinkhole%20-%20blackmore-drone1%20-%20ece35a46-38b83a50.jpg)

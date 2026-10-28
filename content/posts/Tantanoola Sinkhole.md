@@ -3,7 +3,6 @@ title: "Tantanoola Sinkhole"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -62,5 +61,5 @@ This sinkhole seems to fit the general and locational description of a "large ci
 - **LSECR:** Page 90
 
 ## Images
-- ![L0039 Tantanoola Sinkhole Cavedb 39 Affc3db8 F706db69](/images/L0039%20-%20Tantanoola%20Sinkhole%20-%20CaveDB%20-%2039%20-%20affc3db8-f706db69.jpg)
-- ![L0039 Tantanoola Sinkhole Cavedb 0091 E11aae7e F706db69](/images/L0039%20-%20Tantanoola%20Sinkhole%20-%20CaveDB%20-%200091%20-%20e11aae7e-f706db69.jpg)
+- ![L0039 Tantanoola Sinkhole 39 Affc3db8 F706db69](/images/L0039%20-%20Tantanoola%20Sinkhole%20-%2039%20-%20affc3db8-f706db69.jpg)
+- ![L0039 Tantanoola Sinkhole 0091 E11aae7e F706db69](/images/L0039%20-%20Tantanoola%20Sinkhole%20-%200091%20-%20e11aae7e-f706db69.jpg)

@@ -3,7 +3,6 @@ title: "Teomim Caves"
 created: 2023-07-27
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,7 +37,7 @@ address: "ISR"
 
 # Maps
 
-- ![Teomim Caves Cavedb Plan Of Te Omim Cave The Inset Shows The Main Quarrying Lines Abandoned Quarry A1badb28 4673a4bb](/images/Teomim%20Caves%20-%20CaveDB%20-%20Plan-of-Te-omim-Cave-The-inset-shows-the-main-quarrying-lines-abandoned-quarry%20-%20a1badb28-4673a4bb.png)
+- ![Teomim Caves Plan Of Te Omim Cave The Inset Shows The Main Quarrying Lines Abandoned Quarry A1badb28 4673a4bb](/images/Teomim%20Caves%20-%20Plan-of-Te-omim-Cave-The-inset-shows-the-main-quarrying-lines-abandoned-quarry%20-%20a1badb28-4673a4bb.png)
 
 # References
 
@@ -47,4 +46,4 @@ address: "ISR"
 - **Google:** https://goo.gl/maps/dZ8CFy5sryxi9jvb7
 
 ## Images
-- ![Teomim Caves Cavedb Plan Of Te Omim Cave The Inset Shows The Main Quarrying Lines Abandoned Quarry A1badb28 4673a4bb](/images/Teomim%20Caves%20-%20CaveDB%20-%20Plan-of-Te-omim-Cave-The-inset-shows-the-main-quarrying-lines-abandoned-quarry%20-%20a1badb28-4673a4bb.png)
+- ![Teomim Caves Plan Of Te Omim Cave The Inset Shows The Main Quarrying Lines Abandoned Quarry A1badb28 4673a4bb](/images/Teomim%20Caves%20-%20Plan-of-Te-omim-Cave-The-inset-shows-the-main-quarrying-lines-abandoned-quarry%20-%20a1badb28-4673a4bb.png)

@@ -3,7 +3,6 @@ title: "CISA - 4A - IS Operations"
 created: 2026-04-28
 updated: 2026-06-28
 status: seed
-draft: false
 tags:
   - cyber-security
   - cisa

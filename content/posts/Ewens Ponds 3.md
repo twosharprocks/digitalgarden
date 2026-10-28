@@ -3,7 +3,6 @@ title: "Ewens Ponds 3"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -51,7 +50,7 @@ No-Mount entry with significant flow pushing out of cave. Dive currently termina
 
 # Maps
 
-- CaveDB - site - 2f576b6d-6c098cc4.kml — [Source](https://media.cavedb.net/ap-southeast-2:d9a418b4-42a7-4ac1-bc06-137507d18d05/2caea866-3931-45d5-8583-2a9a630736dc.kml)
+- site - 2f576b6d-6c098cc4.kml
 
 # References
 
@@ -74,10 +73,8 @@ A very pleasant experience is to dive this site on a clear, moonless night – t
 No qualifications or permits are necessary, just rock up with your dive gear, jump in at the custom built entrance jetty and swim down through the ponds to exit at number 3 where there is a ladder. A path takes you the few hundred metres through undergrowth back to your car.
 
 ## Images
-- ![L0161 Ewens Ponds 3 Cavedb Ew2 Cabf8155 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20CaveDB%20-%20ew2%20-%20cabf8155-6c098cc4.jpg)
-- ![L0161 Ewens Ponds 3 Cavedb IMG 9041 1b0dde02 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20CaveDB%20-%20IMG_9041%20-%201b0dde02-6c098cc4.jpg)
-- ![L0161 Ewens Ponds 3 Cavedb Ew4 7319e550 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20CaveDB%20-%20ew4%20-%207319e550-6c098cc4.jpg)
-- ![L0161 Ewens Ponds 3 Cavedb IMG 9059 4f9d0415 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20CaveDB%20-%20IMG_9059%20-%204f9d0415-6c098cc4.jpg)
-- ![L0161 Ewens Ponds 3 Cavedb Ew F64e729f 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20CaveDB%20-%20ew%20-%20f64e729f-6c098cc4.jpg)
-- [ew.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/0705b688-2955-4e26-8fc5-e9b5364520e1.mp4)
-- [ew2.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/b2e29301-cc44-4e8d-a6dc-d040c820cac6.mp4)
+- ![L0161 Ewens Ponds 3 Ew2 Cabf8155 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20ew2%20-%20cabf8155-6c098cc4.jpg)
+- ![L0161 Ewens Ponds 3 IMG 9041 1b0dde02 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20IMG_9041%20-%201b0dde02-6c098cc4.jpg)
+- ![L0161 Ewens Ponds 3 Ew4 7319e550 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20ew4%20-%207319e550-6c098cc4.jpg)
+- ![L0161 Ewens Ponds 3 IMG 9059 4f9d0415 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20IMG_9059%20-%204f9d0415-6c098cc4.jpg)
+- ![L0161 Ewens Ponds 3 Ew F64e729f 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20ew%20-%20f64e729f-6c098cc4.jpg)

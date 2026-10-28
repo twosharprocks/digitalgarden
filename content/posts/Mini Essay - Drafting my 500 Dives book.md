@@ -3,7 +3,6 @@ title: Mini Essay - Drafting my 500 Dives book
 created: 2025-11-05
 updated: 2026-07-17
 status: seed
-draft: false
 tags:
   - mini-essay
   - writing

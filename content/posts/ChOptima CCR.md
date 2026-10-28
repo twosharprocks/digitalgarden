@@ -3,7 +3,6 @@ title: ChOptima CCR
 created: 2025-11-08
 updated: 2026-09-11
 status: seed
-draft: false
 tags:
   - diving
 related: 

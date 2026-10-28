@@ -3,7 +3,6 @@ title: "Ali Baba's Cave"
 created: 2025-01-03
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

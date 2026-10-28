@@ -3,7 +3,6 @@ title: "Timor Caves"
 created: 2025-01-03
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -42,4 +41,4 @@ The limestone at Timor is 30 Ma old, formed in a shallow marine environment, and
 # References
 
 ## Images
-- CaveDB - OSBORNETIMORCAVES1986 - 5a5a249d-862ef963.pdf — [Source](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/5e400b84-0f2a-488b-924b-4abeb201c96f.pdf)
+- OSBORNETIMORCAVES1986 - 5a5a249d-862ef963.pdf

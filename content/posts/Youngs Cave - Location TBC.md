@@ -3,7 +3,6 @@ title: "Youngs Cave - Location TBC"
 created: 2023-07-31
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -57,5 +56,5 @@ Rough location based on LSECR - look for rubbish pile?
 - **LSECR:** pg 140
 
 ## Images
-- ![Youngs Cave Location TBC Cavedb 0141 5c2a7b7c B2418d68](/images/Youngs%20Cave%20-%20Location%20TBC%20-%20CaveDB%20-%200141%20-%205c2a7b7c-b2418d68.jpg)
-- ![Youngs Cave Location TBC Cavedb 0140 4da03e58 B2418d68](/images/Youngs%20Cave%20-%20Location%20TBC%20-%20CaveDB%20-%200140%20-%204da03e58-b2418d68.jpg)
+- ![Youngs Cave Location TBC 0141 5c2a7b7c B2418d68](/images/Youngs%20Cave%20-%20Location%20TBC%20-%200141%20-%205c2a7b7c-b2418d68.jpg)
+- ![Youngs Cave Location TBC 0140 4da03e58 B2418d68](/images/Youngs%20Cave%20-%20Location%20TBC%20-%200140%20-%204da03e58-b2418d68.jpg)

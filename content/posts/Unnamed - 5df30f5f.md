@@ -3,7 +3,6 @@ title: "Unnamed - 5df30f5f"
 created: 2025-09-26
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -44,4 +43,4 @@ address: "99-101, Caves Rd, Dubbo Regional Council, New South Wales, AUS, 2820"
 # References
 
 ## Images
-- ![Unnamed Cavedb PXL 20250926 063817694 93374191 5df30f5f](/images/Unnamed%20-%20CaveDB%20-%20PXL_20250926_063817694%20-%2093374191-5df30f5f.jpg)
+- ![Unnamed PXL 20250926 063817694 93374191 5df30f5f](/images/Unnamed%20-%20PXL_20250926_063817694%20-%2093374191-5df30f5f.jpg)

@@ -3,7 +3,6 @@ title: "Unnamed - f4e04029"
 created: 2026-06-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -57,12 +56,11 @@ Zero stars - do not recommend
 
 # Maps
 
-- ![Unnamed Cavedb Laos Map B9ea23f6 F4e04029](/images/Unnamed%20-%20CaveDB%20-%20laos%20map%20-%20b9ea23f6-f4e04029.jpg)
+- ![Unnamed Laos Map B9ea23f6 F4e04029](/images/Unnamed%20-%20laos%20map%20-%20b9ea23f6-f4e04029.jpg)
 
 # References
 
 ## Images
-- ![Unnamed Cavedb Laos Map B9ea23f6 F4e04029](/images/Unnamed%20-%20CaveDB%20-%20laos%20map%20-%20b9ea23f6-f4e04029.jpg)
-- ![Unnamed Cavedb 5 Da1f4484 F4e04029](/images/Unnamed%20-%20CaveDB%20-%205%20-%20da1f4484-f4e04029.jpg)
-- ![Unnamed Cavedb Entrance Robin 8d5a3692 F4e04029](/images/Unnamed%20-%20CaveDB%20-%20entrance%20-%20robin%20-%208d5a3692-f4e04029.jpg)
-- [GX010346 - Trim.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/42587fc6-df46-4d99-8662-e910b9c17134.mp4)
+- ![Unnamed Laos Map B9ea23f6 F4e04029](/images/Unnamed%20-%20laos%20map%20-%20b9ea23f6-f4e04029.jpg)
+- ![Unnamed 5 Da1f4484 F4e04029](/images/Unnamed%20-%205%20-%20da1f4484-f4e04029.jpg)
+- ![Unnamed Entrance Robin 8d5a3692 F4e04029](/images/Unnamed%20-%20entrance%20-%20robin%20-%208d5a3692-f4e04029.jpg)

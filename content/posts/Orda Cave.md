@@ -3,7 +3,6 @@ title: "Orda Cave"
 created: 2023-07-05
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -72,14 +71,14 @@ https://ordacave.eu/
 # References
 
 ## Images
-- ![Orda Cave Cavedb FB IMG 1703131364573 0aff8c75 805bcf8d](/images/Orda%20Cave%20-%20CaveDB%20-%20FB_IMG_1703131364573%20-%200aff8c75-805bcf8d.jpg)
-- ![Orda Cave Cavedb 120650 22cae025 805bcf8d](/images/Orda%20Cave%20-%20CaveDB%20-%20120650%20-%2022cae025-805bcf8d.jpg)
-- ![Orda Cave Cavedb FB IMG 1703131376990 9a6c3acb 805bcf8d](/images/Orda%20Cave%20-%20CaveDB%20-%20FB_IMG_1703131376990%20-%209a6c3acb-805bcf8d.jpg)
-- ![Orda Cave Cavedb 120643 38f44a82 805bcf8d](/images/Orda%20Cave%20-%20CaveDB%20-%20120643%20-%2038f44a82-805bcf8d.jpg)
-- ![Orda Cave Cavedb 120645 6e686868 805bcf8d](/images/Orda%20Cave%20-%20CaveDB%20-%20120645%20-%206e686868-805bcf8d.jpg)
-- ![Orda Cave Cavedb 120651 Ec1926a8 805bcf8d](/images/Orda%20Cave%20-%20CaveDB%20-%20120651%20-%20ec1926a8-805bcf8d.jpg)
-- ![Orda Cave Cavedb FB IMG 1703131370546 382607e5 805bcf8d](/images/Orda%20Cave%20-%20CaveDB%20-%20FB_IMG_1703131370546%20-%20382607e5-805bcf8d.jpg)
-- ![Orda Cave Cavedb Mapa2ordacave C2d7de6f 805bcf8d](/images/Orda%20Cave%20-%20CaveDB%20-%20mapa2OrdaCave%20-%20c2d7de6f-805bcf8d.jpg)
-- ![Orda Cave Cavedb 120638 A2516581 805bcf8d](/images/Orda%20Cave%20-%20CaveDB%20-%20120638%20-%20a2516581-805bcf8d.jpg)
+- ![Orda Cave FB IMG 1703131364573 0aff8c75 805bcf8d](/images/Orda%20Cave%20-%20FB_IMG_1703131364573%20-%200aff8c75-805bcf8d.jpg)
+- ![Orda Cave 120650 22cae025 805bcf8d](/images/Orda%20Cave%20-%20120650%20-%2022cae025-805bcf8d.jpg)
+- ![Orda Cave FB IMG 1703131376990 9a6c3acb 805bcf8d](/images/Orda%20Cave%20-%20FB_IMG_1703131376990%20-%209a6c3acb-805bcf8d.jpg)
+- ![Orda Cave 120643 38f44a82 805bcf8d](/images/Orda%20Cave%20-%20120643%20-%2038f44a82-805bcf8d.jpg)
+- ![Orda Cave 120645 6e686868 805bcf8d](/images/Orda%20Cave%20-%20120645%20-%206e686868-805bcf8d.jpg)
+- ![Orda Cave 120651 Ec1926a8 805bcf8d](/images/Orda%20Cave%20-%20120651%20-%20ec1926a8-805bcf8d.jpg)
+- ![Orda Cave FB IMG 1703131370546 382607e5 805bcf8d](/images/Orda%20Cave%20-%20FB_IMG_1703131370546%20-%20382607e5-805bcf8d.jpg)
+- ![Orda Cave Mapa2ordacave C2d7de6f 805bcf8d](/images/Orda%20Cave%20-%20mapa2OrdaCave%20-%20c2d7de6f-805bcf8d.jpg)
+- ![Orda Cave 120638 A2516581 805bcf8d](/images/Orda%20Cave%20-%20120638%20-%20a2516581-805bcf8d.jpg)
 - [104e159d-97dc-4b1d-889b-77d56ff4d5b8](https://www.youtube.com/watch?v=0wvdweguCi4)
 - [64d616a1-0cdb-4d48-8ab2-d6136387f1de](https://www.youtube.com/watch?v=0Orkg7cYYME)

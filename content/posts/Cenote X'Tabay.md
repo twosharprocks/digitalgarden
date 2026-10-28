@@ -3,7 +3,6 @@ title: Cenote X'Tabay
 created: 2023-11-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

@@ -3,7 +3,6 @@ title: Mini Essay - Your Cave Diving Future
 created: 2025-06-12
 updated: 2025-06-12
 status: tree
-draft: false
 tags:
   - mini-essay
   - diving

@@ -170,34 +170,9 @@
 
         <div class="post-content">
           
-            <p>ProvingGrounds (very close to OSCP)</p>
-<ul>
-<li><strong>PG Practice</strong>: Structured, guided learning with focused challenges to teach specific skills.</li>
-<li><strong>PG Play</strong>: Open, unguided labs that simulate real-world penetration testing <em>(best for OSCP prep)</em></li>
-</ul>
-<p>OffSec Challenge labs</p>
-<ul>
-<li>Challenge 0-2: Good warmup</li>
-<li>Challenge 3: Beyond scope of exam</li>
-<li><strong>Challenge 4-6</strong>: <em>OSCP-like experience</em>
-<ul>
-<li>Give yourself 24hrs for each</li>
-</ul>
-</li>
-</ul>
-<p>TjNull&rsquo;s List (excellent)</p>
-<ul>
-<li><a href="https://www.youtube.com/playlist?list=PLidcsTyj9JXK-fnabFLVEvHinQ14Jy5tf">Ipsec videos</a></li>
-<li><a href="https://www.youtube.com/playlist?list=PLcSbj5mz-wxPK8KD522vH5Gny4bSemX2H">NoxLumens Walkthroughs</a></li>
-</ul>
-<p>HTB Academy - CPTS</p>
-<ul>
-<li>Active Directory &amp; Enumeration</li>
-<li>Pivoting and tunnelling</li>
-<li>Attacking Common Services</li>
-<li>PrivEsc - Windows &amp; Linux</li>
-<li>File Transfer</li>
-</ul>
+            ProvingGrounds (very close to OSCP)
+PG Practice: Structured, guided learning with focused challenges to teach specific skills. PG Play: Open, unguided labs that simulate real-world penetration testing (best for OSCP prep) OffSec Challenge labs
+Challenge 0-2: Good warmup Challenge 3: Beyond scope of …
           
         </div>
 
@@ -227,9 +202,7 @@
 
         <div class="post-content">
           
-            <h1 id="exfiltration">Exfiltration</h1>
-<p>Relatively easy box turned into a VERY frustrating experience at not being able to properly execute <code>exiftool</code> exploit because of missing library dependencies. Exploit actually detailed exactly <em>how</em> to install those dependencies, but I was looking for instructions on Stack Overflow instead of in the script itself - <em><strong>always read the script!</strong></em></p>
-<p>Exploits were relatively straight forward once the dependencies were sorted though, so all round good practice on the process of popping boxes. Local user had also been identified by <code>linpeas.sh</code> but ended up getting root first (flag = <code>proof.txt</code>) then using root privilege to find the <code>coaran</code> user with GID=1000 and the local flag (flag = <code>local.txt</code>).</p>
+            Exfiltration Relatively easy box turned into a VERY frustrating experience at not being able to properly execute exiftool exploit because of missing library dependencies. Exploit actually detailed exactly how to install those dependencies, but I was looking for instructions on Stack Overflow instead …
           
         </div>
 
@@ -259,9 +232,7 @@
 
         <div class="post-content">
           
-            <h1 id="extplorer">Extplorer</h1>
-<p>This was simultaneously the easiest and most frustrating box yet. Identifying and accessing <code>filemanager</code> was ridiculously easy, and uploading a reverse shell php and catching the shell <em>seemed</em> easy initially. Even finding credentials for <code>dora</code> was easy once I started looking through all the info that was available in the <code>filemanager</code> folder.</p>
-<p>What I wasn&rsquo;t expecting was to spend 2 hours trying to figure out why I couldn&rsquo;t upgrade the dumb shell I&rsquo;d caught to a full shell, even though I <em><strong>knew</strong></em> the target was running <code>python3</code>.</p>
+            Extplorer This was simultaneously the easiest and most frustrating box yet. Identifying and accessing filemanager was ridiculously easy, and uploading a reverse shell php and catching the shell seemed easy initially. Even finding credentials for dora was easy once I started looking through all the …
           
         </div>
 
@@ -291,8 +262,7 @@
 
         <div class="post-content">
           
-            <h1 id="fired">Fired</h1>
-<p>This box was relatively straightforward until the very last step, where I simply couldn&rsquo;t find credentials to move forward. I needed a bit of guidance finding how to setup the admin panel to establish a reverse shell, but all the details were on an exploit page when I went looking. The walkthrough support for the box itself was very limited (or atleast I could only find a single walkthrough for it) and the only major barrier was the very final step - finding a script file in the <code>openfire</code> directory that had cleartext root credentials.</p>
+            Fired This box was relatively straightforward until the very last step, where I simply couldn&amp;rsquo;t find credentials to move forward. I needed a bit of guidance finding how to setup the admin panel to establish a reverse shell, but all the details were on an exploit page when I went looking. The …
           
         </div>
 
@@ -322,9 +292,7 @@
 
         <div class="post-content">
           
-            <h1 id="flu">Flu</h1>
-<p>This is the first box I can confidently say I did <em><strong>NOT</strong></em> look at a walkthrough for any help on! I&rsquo;ve included one in the details above, but it remained as a background tab the entire way through this - massive confidence boost to know I can do this without needing to follow someone else&rsquo;s footsteps!</p>
-<p>Seeing Confluence when I checked the html port was a big confidence booster too, as I&rsquo;ve worked with it a lot already and knew there were plenty of vulnerabilities and exploit available for older versions. Getting RCE was incredibly simple, and then it was simply a case of enumerating the target to find a privilege escalation vector.</p>
+            Flu This is the first box I can confidently say I did NOT look at a walkthrough for any help on! I&amp;rsquo;ve included one in the details above, but it remained as a background tab the entire way through this - massive confidence boost to know I can do this without needing to follow someone …
           
         </div>
 

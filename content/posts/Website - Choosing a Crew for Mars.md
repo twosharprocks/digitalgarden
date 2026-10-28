@@ -3,7 +3,6 @@ title: Website - Choosing a Crew for Mars
 created: 2026-01-26
 updated: 2026-07-17
 status: tree
-draft: false
 tags:
   - writing
 related: "[[Writing]]"

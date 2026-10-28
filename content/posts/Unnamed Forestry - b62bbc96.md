@@ -3,7 +3,6 @@ title: "Unnamed Forestry - b62bbc96"
 created: 2023-08-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -42,5 +41,5 @@ BC 4/11/2023: 1m deep depression.  No sign of karst or entrance
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: ?
 
 ## Images
-- ![Unnamed Forestry Cavedb 2023 11 04 06.51.17 36df9af4 B62bbc96](/images/Unnamed%20Forestry%20-%20CaveDB%20-%202023-11-04%2006.51.17%20-%2036df9af4-b62bbc96.jpg)
-- ![Unnamed Forestry Cavedb 2023 11 04 06.51.08 Cd9f3d7c B62bbc96](/images/Unnamed%20Forestry%20-%20CaveDB%20-%202023-11-04%2006.51.08%20-%20cd9f3d7c-b62bbc96.jpg)
+- ![Unnamed Forestry 2023 11 04 06.51.17 36df9af4 B62bbc96](/images/Unnamed%20Forestry%20-%202023-11-04%2006.51.17%20-%2036df9af4-b62bbc96.jpg)
+- ![Unnamed Forestry 2023 11 04 06.51.08 Cd9f3d7c B62bbc96](/images/Unnamed%20Forestry%20-%202023-11-04%2006.51.08%20-%20cd9f3d7c-b62bbc96.jpg)

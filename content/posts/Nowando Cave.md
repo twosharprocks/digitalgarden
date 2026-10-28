@@ -3,7 +3,6 @@ title: "Nowando Cave"
 created: 2023-04-20
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -36,5 +35,4 @@ address: "5017, Glenelg Hwy, Glenburnie, South Australia, AUS, 5291"
 # References
 
 ## Images
-- ![Nowando Cave Cavedb 2023 04 10 14.33.58 7c8abc8b 83d5c952](/images/Nowando%20Cave%20-%20CaveDB%20-%202023-04-10%2014.33.58%20-%207c8abc8b-83d5c952.jpg)
-- [2023-04-10 14.44.15.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/c59a6865-3ab1-40f2-97bb-2da0ffd4390e.mp4)
+- ![Nowando Cave 2023 04 10 14.33.58 7c8abc8b 83d5c952](/images/Nowando%20Cave%20-%202023-04-10%2014.33.58%20-%207c8abc8b-83d5c952.jpg)

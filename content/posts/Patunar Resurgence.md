@@ -3,7 +3,6 @@ title: "Patunar Resurgence"
 created: 2025-01-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

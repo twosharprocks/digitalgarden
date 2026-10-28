@@ -3,7 +3,6 @@ title: Mini Essay - Letter to Yourself in 2031
 created: 2026-04-22
 updated: 2026-04-22
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

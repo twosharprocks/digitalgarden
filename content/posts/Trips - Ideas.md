@@ -3,7 +3,6 @@ title: Trips - Ideas
 created: 2025-05-01
 updated: 2026-10-11
 status: planning
-draft: false
 tags:
   - diving
   - trips
@@ -30,11 +29,11 @@ related:
 	- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - August
 		- Christmas Island Karst Exploration Project 
 	- [Sulawesi]({{< relref "posts/Sulawesi.md" >}}) - Return with survey plan?
-	- [Kalimantan - Indonesia]({{< relref "posts/Kalimantan - Indonesia.md" >}}) (Q1)
+	- [Kalimantan]({{< relref "posts/Kalimantan.md" >}}) (Q1)
 	- [Philippines]({{< relref "posts/philippines.md" >}}) (Q1)
 	- [Timor-Leste]({{< relref "posts/timor-leste.md" >}}) - September
 	- [Nullarbor High Plains]({{< relref "posts/Nullarbor High Plains.md" >}}) - Tommy Grahams, Pannikin Plains, & surrounding area
-- Asia 
+- [Asia]({{< relref "posts/Asia.md" >}}) 
 	- [Laos]({{< relref "posts/laos.md" >}}), [Vietnam]({{< relref "posts/vietnam.md" >}}), [Thailand]({{< relref "posts/thailand.md" >}}), [Malaysia]({{< relref "posts/malaysia.md" >}})
 - [Europe]({{< relref "posts/europe.md" >}})
 	- [Malta - Gozo]({{< relref "posts/Malta - Gozo.md" >}}) (Q3)
@@ -71,7 +70,7 @@ related:
 - Americas: [Bahamas]({{< relref "posts/bahamas.md" >}}), [Belize]({{< relref "posts/belize.md" >}}), [Brazil]({{< relref "posts/brazil.md" >}}), [Cayman Islands]({{< relref "posts/Cayman Islands.md" >}}), [Jamaica]({{< relref "posts/jamaica.md" >}}), [Florida]({{< relref "posts/florida.md" >}}), [Yucatan]({{< relref "posts/Yucatan.md" >}})
 - Europe: [Mallorca - Spain]({{< relref "posts/Mallorca - Spain.md" >}}) [Iceland]({{< relref "posts/iceland.md" >}})
 - Africa: [Nigeria]({{< relref "posts/nigeria.md" >}}), [Zimbabwe]({{< relref "posts/zimbabwe.md" >}})
-- Asia: [Mongolia]({{< relref "posts/mongolia.md" >}}), [Bhutan]({{< relref "posts/bhutan.md" >}}), [China]({{< relref "posts/china.md" >}}), [Moluccas - Indonesia]({{< relref "posts/Moluccas - Indonesia.md" >}}), [Sri Lanka]({{< relref "posts/Sri Lanka.md" >}}), [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}}) - CCR only fun trip?
+- Asia: [Mongolia]({{< relref "posts/mongolia.md" >}}), [Bhutan]({{< relref "posts/bhutan.md" >}}), [China]({{< relref "posts/china.md" >}}), [Moluccas]({{< relref "posts/Moluccas.md" >}}), [Sri Lanka]({{< relref "posts/Sri Lanka.md" >}}), [Minamidaito (South Daito)]({{< relref "posts/Minamidaito (South Daito).md" >}}) - CCR only fun trip?
 - Other: [Oman]({{< relref "posts/oman.md" >}}), [Türkiye-Turkey]({{< relref "posts/Türkiye-Turkey.md" >}}), [Seychelles]({{< relref "posts/seychelles.md" >}}), [Tajikistan]({{< relref "posts/tajikistan.md" >}}), [Azerbaijan]({{< relref "posts/azerbaijan.md" >}})
 
 ## Interest - Low & Not Viable

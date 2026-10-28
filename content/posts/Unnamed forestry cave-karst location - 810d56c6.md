@@ -3,7 +3,6 @@ title: "Unnamed forestry cave-karst location - 810d56c6"
 created: 2024-04-12
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

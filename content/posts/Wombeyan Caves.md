@@ -3,7 +3,6 @@ title: "Wombeyan Caves"
 created: 2023-06-28
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -792,3 +791,7 @@ Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves 
 *ASF Joe N. Jennings slide catalogue, JNJ-S-1029-12, Box 1029. Catalogue description: Internal exfoliation. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201029/JNJ-S-1029-12.html).*
 
 <!-- ASF slide images: end -->
+
+## Links reviewed from Cave Data Ideas
+
+- [Saved Facebook camping post](https://www.facebook.com/campingand4wddownunder/posts/pfbid02wZFPi74Kw3eWJmCGHxiNmDyZoNxj6ewkcq231YffEWZwFKdi77E5P94S7JcCSGUbl) (content not independently checked)

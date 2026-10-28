@@ -3,7 +3,6 @@ title: "Grotta del Bue Marino"
 created: 2023-06-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

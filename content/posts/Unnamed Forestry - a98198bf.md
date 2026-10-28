@@ -3,7 +3,6 @@ title: "Unnamed Forestry - a98198bf"
 created: 2023-07-31
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -42,5 +41,5 @@ BC 13/10/2023: Steep sided funnel sinkhole 8-10m deep full of branches and fores
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: Sinkhole
 
 ## Images
-- ![Unnamed Forestry Cavedb 20231013 123028 A9ea3c12 A98198bf](/images/Unnamed%20Forestry%20-%20CaveDB%20-%2020231013_123028%20-%20a9ea3c12-a98198bf.jpg)
-- ![Unnamed Forestry Cavedb 20231013 122954 B40c07ee A98198bf](/images/Unnamed%20Forestry%20-%20CaveDB%20-%2020231013_122954%20-%20b40c07ee-a98198bf.jpg)
+- ![Unnamed Forestry 20231013 123028 A9ea3c12 A98198bf](/images/Unnamed%20Forestry%20-%2020231013_123028%20-%20a9ea3c12-a98198bf.jpg)
+- ![Unnamed Forestry 20231013 122954 B40c07ee A98198bf](/images/Unnamed%20Forestry%20-%2020231013_122954%20-%20b40c07ee-a98198bf.jpg)

@@ -3,7 +3,6 @@ title: "Marche-Pied"
 created: 2023-12-12
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,12 +38,12 @@ address: "82, Lieu-dit Trassac, Marcilhac-sur-Célé, Occitanie, FRA, 46160"
 
 # Maps
 
-- ![Marche Pied Cavedb Marchepied Survey E8f45b4a 452bdd53](/images/Marche-Pied%20-%20CaveDB%20-%20Marchepied%20Survey%20-%20e8f45b4a-452bdd53.jpg)
+- ![Marche Pied Marchepied Survey E8f45b4a 452bdd53](/images/Marche-Pied%20-%20Marchepied%20Survey%20-%20e8f45b4a-452bdd53.jpg)
 
 # References
 
 - **Facebook:** https://www.facebook.com/marissa0429/posts/pfbid02aJEsSAoSkWFpmY2heJYYH8kBGNmShSrFPQRPr9qBh3xPqYEsodAqF8A9SgoKHcrxl
 
 ## Images
-- ![Marche Pied Cavedb Marchepied F2f4259e 452bdd53](/images/Marche-Pied%20-%20CaveDB%20-%20Marchepied%20-%20f2f4259e-452bdd53.jpg)
-- ![Marche Pied Cavedb Marchepied Survey E8f45b4a 452bdd53](/images/Marche-Pied%20-%20CaveDB%20-%20Marchepied%20Survey%20-%20e8f45b4a-452bdd53.jpg)
+- ![Marche Pied Marchepied F2f4259e 452bdd53](/images/Marche-Pied%20-%20Marchepied%20-%20f2f4259e-452bdd53.jpg)
+- ![Marche Pied Marchepied Survey E8f45b4a 452bdd53](/images/Marche-Pied%20-%20Marchepied%20Survey%20-%20e8f45b4a-452bdd53.jpg)

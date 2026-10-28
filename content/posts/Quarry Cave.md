@@ -3,7 +3,6 @@ title: "Quarry Cave"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -52,15 +51,14 @@ nearby Gran Gran Cave (5L60).
 Wetas have been observed here, and the presence of bats was also mentioned in a brief January 1964 CEGSA report by Bob Sexton, although none were observed by the author during a visit in the early 1980s.
 
 ## Images
-- ![L0015 Quarry Cave Cavedb 20250111 122205 7beed0ae B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%20CaveDB%20-%2020250111_122205%20-%207beed0ae-b50ca89d.jpg)
-- ![L0015 Quarry Cave Cavedb 20250111 122036 C4af1c6b B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%20CaveDB%20-%2020250111_122036%20-%20c4af1c6b-b50ca89d.jpg)
-- ![L0015 Quarry Cave Cavedb 20250111 121731 1b7d8e8a B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%20CaveDB%20-%2020250111_121731%20-%201b7d8e8a-b50ca89d.jpg)
-- ![L0015 Quarry Cave Cavedb 0052 6de62ffc B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%20CaveDB%20-%200052%20-%206de62ffc-b50ca89d.jpg)
-- ![L0015 Quarry Cave Cavedb 20250111 121856 718fd812 B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%20CaveDB%20-%2020250111_121856%20-%20718fd812-b50ca89d.jpg)
-- ![L0015 Quarry Cave Cavedb 20250111 121535 24246156 B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%20CaveDB%20-%2020250111_121535%20-%2024246156-b50ca89d.jpg)
-- ![L0015 Quarry Cave Cavedb PXL 20230623 044241870 A903d287 B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%20CaveDB%20-%20PXL_20230623_044241870%20-%20a903d287-b50ca89d.jpg)
-- ![L0015 Quarry Cave Cavedb PXL 20230623 043228551 2a040ffb B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%20CaveDB%20-%20PXL_20230623_043228551%20-%202a040ffb-b50ca89d.jpg)
-- ![L0015 Quarry Cave Cavedb 0053 C3755c11 B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%20CaveDB%20-%200053%20-%20c3755c11-b50ca89d.jpg)
-- ![L0015 Quarry Cave Cavedb PXL 20230623 043240797 A0b14acc B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%20CaveDB%20-%20PXL_20230623_043240797%20-%20a0b14acc-b50ca89d.jpg)
-- ![L0015 Quarry Cave Cavedb 20250111 121855 8b262599 B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%20CaveDB%20-%2020250111_121855%20-%208b262599-b50ca89d.jpg)
-- [20250111_121628.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/187181af-8480-43ab-940b-9b7f53471f9e.mp4)
+- ![L0015 Quarry Cave 20250111 122205 7beed0ae B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%2020250111_122205%20-%207beed0ae-b50ca89d.jpg)
+- ![L0015 Quarry Cave 20250111 122036 C4af1c6b B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%2020250111_122036%20-%20c4af1c6b-b50ca89d.jpg)
+- ![L0015 Quarry Cave 20250111 121731 1b7d8e8a B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%2020250111_121731%20-%201b7d8e8a-b50ca89d.jpg)
+- ![L0015 Quarry Cave 0052 6de62ffc B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%200052%20-%206de62ffc-b50ca89d.jpg)
+- ![L0015 Quarry Cave 20250111 121856 718fd812 B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%2020250111_121856%20-%20718fd812-b50ca89d.jpg)
+- ![L0015 Quarry Cave 20250111 121535 24246156 B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%2020250111_121535%20-%2024246156-b50ca89d.jpg)
+- ![L0015 Quarry Cave PXL 20230623 044241870 A903d287 B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%20PXL_20230623_044241870%20-%20a903d287-b50ca89d.jpg)
+- ![L0015 Quarry Cave PXL 20230623 043228551 2a040ffb B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%20PXL_20230623_043228551%20-%202a040ffb-b50ca89d.jpg)
+- ![L0015 Quarry Cave 0053 C3755c11 B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%200053%20-%20c3755c11-b50ca89d.jpg)
+- ![L0015 Quarry Cave PXL 20230623 043240797 A0b14acc B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%20PXL_20230623_043240797%20-%20a0b14acc-b50ca89d.jpg)
+- ![L0015 Quarry Cave 20250111 121855 8b262599 B50ca89d](/images/L0015%20-%20Quarry%20Cave%20-%2020250111_121855%20-%208b262599-b50ca89d.jpg)

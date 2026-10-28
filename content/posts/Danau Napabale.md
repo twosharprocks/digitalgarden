@@ -3,7 +3,6 @@ title: "Danau Napabale"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -33,4 +32,4 @@ address: "Jalan Tanpa Nama, Muna Regency, South East Sulawesi, IDN, 93658"
 # References
 
 ## Images
-- ![Danau Napabale Cavedb Danau Napabale 0d391250 1ee983b3](/images/Danau%20Napabale%20-%20CaveDB%20-%20Danau%20Napabale%20-%200d391250-1ee983b3.jpg)
+- ![Danau Napabale Danau Napabale 0d391250 1ee983b3](/images/Danau%20Napabale%20-%20Danau%20Napabale%20-%200d391250-1ee983b3.jpg)

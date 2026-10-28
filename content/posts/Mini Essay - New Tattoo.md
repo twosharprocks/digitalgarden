@@ -3,7 +3,6 @@ title: Mini Essay - New Tattoo
 created: 2025-11-03
 updated: 2025-11-03
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

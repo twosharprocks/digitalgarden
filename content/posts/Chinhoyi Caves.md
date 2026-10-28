@@ -3,7 +3,6 @@ title: "Chinhoyi Caves"
 created: 2023-08-14
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -45,6 +44,6 @@ address: "Makonde, ZWE"
 - **TravelEssenceMag:** https://travelessencemag.com/a-deep-dive-at-chinhoyi-caves-whats-on-offer/
 
 ## Images
-- ![Chinhoyi Caves Cavedb Chinhoyi Caves, Zimbabwe 52ec29b5 E8ecf61c](/images/Chinhoyi%20Caves%20-%20CaveDB%20-%20Chinhoyi_caves%2C_Zimbabwe%20-%2052ec29b5-e8ecf61c.jpg)
-- ![Chinhoyi Caves Cavedb Chinhoyi Caves Bafcb1ae E8ecf61c](/images/Chinhoyi%20Caves%20-%20CaveDB%20-%20chinhoyi-caves%20-%20bafcb1ae-e8ecf61c.jpg)
+- ![Chinhoyi Caves Chinhoyi Caves, Zimbabwe 52ec29b5 E8ecf61c](/images/Chinhoyi%20Caves%20-%20Chinhoyi_caves%2C_Zimbabwe%20-%2052ec29b5-e8ecf61c.jpg)
+- ![Chinhoyi Caves Chinhoyi Caves Bafcb1ae E8ecf61c](/images/Chinhoyi%20Caves%20-%20chinhoyi-caves%20-%20bafcb1ae-e8ecf61c.jpg)
 - [6c511145-68e1-4dd3-b350-acb6528f6f61](https://www.youtube.com/watch?v=CNNWe3opAMc)

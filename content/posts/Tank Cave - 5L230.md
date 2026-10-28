@@ -2,7 +2,6 @@
 title: "Tank Cave - 5L230"
 created: 2026-04-09
 updated: 2026-10-13
-draft: false
 tags:
   - diving
   - caving
@@ -44,13 +43,13 @@ A metal lid covers the entrance which the AO will open. This leads to a ladder d
 # References
 
 ## Images
-- ![5l230 Tank Cave Cavedb 458976904 8382187298504701 7032068217607651229 N 5cebd741 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20CaveDB%20-%20458976904_8382187298504701_7032068217607651229_n%20-%205cebd741-7888927e.jpg) — CaveDB; Abi Harwood
-- ![5l230 Tank Cave Cavedb 459018868 1743300916485757 1634867688739088599 N Ff996f5b 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20CaveDB%20-%20459018868_1743300916485757_1634867688739088599_n%20-%20ff996f5b-7888927e.jpg) — CaveDB; Abi Harwood
-- ![5l230 Tank Cave Cavedb Dive Hut 65426df7 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20CaveDB%20-%20Dive%20hut%20-%2065426df7-7888927e.jpg) — CaveDB; Martin Slater
-- ![5l230 Tank Cave Cavedb Entrance Hatch A7e18f67 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20CaveDB%20-%20Entrance%20hatch%20-%20a7e18f67-7888927e.jpg) — CaveDB; Martin Slater
-- ![5l230 Tank Cave Cavedb Entrance Pool 8baedbc6 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20CaveDB%20-%20Entrance%20pool%20-%208baedbc6-7888927e.jpg) — CaveDB; Abi Harwood
-- ![5l230 Tank Cave Cavedb High Res Official Map A5e22ebb 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20CaveDB%20-%20High%20res%20official%20map%20-%20a5e22ebb-7888927e.jpg)
-- ![5l230 Tank Cave Cavedb Official Map 82c1cf09 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20CaveDB%20-%20Official%20map%20-%2082c1cf09-7888927e.jpg)
+- ![5l230 Tank Cave 458976904 8382187298504701 7032068217607651229 N 5cebd741 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20458976904_8382187298504701_7032068217607651229_n%20-%205cebd741-7888927e.jpg) — Abi Harwood
+- ![5l230 Tank Cave 459018868 1743300916485757 1634867688739088599 N Ff996f5b 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20459018868_1743300916485757_1634867688739088599_n%20-%20ff996f5b-7888927e.jpg) — Abi Harwood
+- ![5l230 Tank Cave Dive Hut 65426df7 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20Dive%20hut%20-%2065426df7-7888927e.jpg) — Martin Slater
+- ![5l230 Tank Cave Entrance Hatch A7e18f67 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20Entrance%20hatch%20-%20a7e18f67-7888927e.jpg) — Martin Slater
+- ![5l230 Tank Cave Entrance Pool 8baedbc6 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20Entrance%20pool%20-%208baedbc6-7888927e.jpg) — Abi Harwood
+- ![5l230 Tank Cave High Res Official Map A5e22ebb 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20High%20res%20official%20map%20-%20a5e22ebb-7888927e.jpg)
+- ![5l230 Tank Cave Official Map 82c1cf09 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20Official%20map%20-%2082c1cf09-7888927e.jpg)
 
 - **LSECR:** Page 448
 Rumoured since the late 1960s as a "cave diving site" of some type (although nobody seemed to be able to describe it in any detail), this amazingly extensive feature is today considered by many to be the "cream of the crop" as far as South Ausralian (even Australian?) cave diving sites goes.
@@ -64,16 +63,16 @@ https://www.cavediving.net.au/images/articles/maps/5L-230.gif
 - **https://www.cavediving.net.au/index.php/siteinfo/?site=44:** Named because a water tank used to rest right over the top of the entrance, Tank Cave is an extensive, maze like system with over 7km of diveable passage which makes it one of the longest underwater caves in Australia. A connection to Fossil Cave was made in June 2018.
 
 ## Images
-- ![5l230 Tank Cave Cavedb 459018868 1743300916485757 1634867688739088599 N Ff996f5b 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20CaveDB%20-%20459018868_1743300916485757_1634867688739088599_n%20-%20ff996f5b-7888927e.jpg)
-- ![5l230 Tank Cave Cavedb Dive Hut 65426df7 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20CaveDB%20-%20Dive%20hut%20-%2065426df7-7888927e.jpg)
-- ![5l230 Tank Cave Cavedb Entrance Pool 8baedbc6 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20CaveDB%20-%20Entrance%20pool%20-%208baedbc6-7888927e.jpg)
-- ![5l230 Tank Cave Cavedb Entrance Hatch A7e18f67 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20CaveDB%20-%20Entrance%20hatch%20-%20a7e18f67-7888927e.jpg)
-- ![5l230 Tank Cave Cavedb 458976904 8382187298504701 7032068217607651229 N 5cebd741 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20CaveDB%20-%20458976904_8382187298504701_7032068217607651229_n%20-%205cebd741-7888927e.jpg)
-- CaveDB - Tank Cave A5 - 528c33f2-7888927e.pdf — [Source](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/c87087bf-ed6c-435c-bb4b-9d989402674d.pdf)
+- ![5l230 Tank Cave 459018868 1743300916485757 1634867688739088599 N Ff996f5b 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20459018868_1743300916485757_1634867688739088599_n%20-%20ff996f5b-7888927e.jpg)
+- ![5l230 Tank Cave Dive Hut 65426df7 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20Dive%20hut%20-%2065426df7-7888927e.jpg)
+- ![5l230 Tank Cave Entrance Pool 8baedbc6 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20Entrance%20pool%20-%208baedbc6-7888927e.jpg)
+- ![5l230 Tank Cave Entrance Hatch A7e18f67 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20Entrance%20hatch%20-%20a7e18f67-7888927e.jpg)
+- ![5l230 Tank Cave 458976904 8382187298504701 7032068217607651229 N 5cebd741 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20458976904_8382187298504701_7032068217607651229_n%20-%205cebd741-7888927e.jpg)
+- Tank Cave A5 - 528c33f2-7888927e.pdf
 - [4a8bd27d-66e4-4050-8d37-8b42e8db487d](https://www.youtube.com/watch?v=EfFSlUX302Y)
 - [3185dcc5-657b-48ba-b2d1-0fbcb6cb12f2](https://www.youtube.com/watch?v=lwa4wu3IR2g)
 - [a17b7532-d81d-49a9-b296-f9b597a5c405](https://www.youtube.com/watch?v=lB7pkw38GsA)
-- CaveDB - Tank Cave A3 - 72bcceb4-7888927e.pdf — [Source](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/76adc1d4-c2df-4818-a738-35d2d3b379b0.pdf)
+- Tank Cave A3 - 72bcceb4-7888927e.pdf
 
 # Details
 
@@ -118,6 +117,6 @@ https://www.cavediving.net.au/images/articles/maps/5L-230.gif
 
 # Maps
 
-- ![5l230 Tank Cave Cavedb High Res Official Map A5e22ebb 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20CaveDB%20-%20High%20res%20official%20map%20-%20a5e22ebb-7888927e.jpg)
-- ![5l230 Tank Cave Cavedb Official Map 82c1cf09 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20CaveDB%20-%20Official%20map%20-%2082c1cf09-7888927e.jpg)
-- CaveDB - site - 474f9c11-7888927e.kml — [Source](https://media.cavedb.net/ap-southeast-2:d9a418b4-42a7-4ac1-bc06-137507d18d05/6001ef67-c7aa-4a5b-8b67-3650e014f75b.kml)
+- ![5l230 Tank Cave High Res Official Map A5e22ebb 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20High%20res%20official%20map%20-%20a5e22ebb-7888927e.jpg)
+- ![5l230 Tank Cave Official Map 82c1cf09 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20Official%20map%20-%2082c1cf09-7888927e.jpg)
+- site - 474f9c11-7888927e.kml

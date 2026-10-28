@@ -3,7 +3,6 @@ title: Mini Essay - Thoughts on 2025 Media
 created: 2025-11-16
 updated: 2026-01-22
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

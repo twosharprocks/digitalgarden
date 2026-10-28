@@ -3,7 +3,6 @@ title: "Gua Liang Kamoi"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,4 +38,4 @@ address: "Jl. Inaoce, Buton Regency, South East Sulawesi, IDN, 93755"
 # References
 
 ## Images
-- ![Gua Liang Kamoi Cavedb Goa Liang Kamoi 74542570 Efc8c648](/images/Gua%20Liang%20Kamoi%20-%20CaveDB%20-%20Goa%20Liang%20Kamoi%20-%2074542570-efc8c648.jpg)
+- ![Gua Liang Kamoi Goa Liang Kamoi 74542570 Efc8c648](/images/Gua%20Liang%20Kamoi%20-%20Goa%20Liang%20Kamoi%20-%2074542570-efc8c648.jpg)

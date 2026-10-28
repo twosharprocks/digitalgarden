@@ -3,7 +3,6 @@ title: "Friouato Caves"
 created: 2024-07-28
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -59,4 +58,4 @@ A spelunking expedition by a group from Exeter University discovered other secti
 - **Lonely Planet:** https://www.lonelyplanet.com/morocco/middle-atlas/tazekka-national-park/attractions/gouffre-de-friouato/a/poi-sig/1144143/1342918
 
 ## Images
-- ![Friouato Caves Cavedb Gouffre332 79c22ebc B3b5a367](/images/Friouato%20Caves%20-%20CaveDB%20-%20Gouffre332%20-%2079c22ebc-b3b5a367.jpg)
+- ![Friouato Caves Gouffre332 79c22ebc B3b5a367](/images/Friouato%20Caves%20-%20Gouffre332%20-%2079c22ebc-b3b5a367.jpg)

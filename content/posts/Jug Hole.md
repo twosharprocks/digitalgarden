@@ -3,7 +3,6 @@ title: "Jug Hole"
 created: 2023-04-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -40,4 +39,4 @@ address: "[[Blue Hole]] Spring Trail, Columbia County, Florida, USA, 32038"
 # References
 
 ## Images
-- ![Jug Hole Cavedb Image 28057c05 5d1d55cc](/images/Jug%20Hole%20-%20CaveDB%20-%20Image%20-%2028057c05-5d1d55cc.jpg)
+- ![Jug Hole Image 28057c05 5d1d55cc](/images/Jug%20Hole%20-%20Image%20-%2028057c05-5d1d55cc.jpg)

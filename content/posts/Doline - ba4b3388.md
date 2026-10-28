@@ -3,7 +3,6 @@ title: "Doline - ba4b3388"
 created: 2023-06-23
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,4 +38,4 @@ Checked 23-06-2023 by MW: Spotted from satellite imagery, visited on foot. Simpl
 # References
 
 ## Images
-- ![Doline Cavedb PXL 20230623 045555606 5342c8a3 Ba4b3388](/images/Doline%20-%20CaveDB%20-%20PXL_20230623_045555606%20-%205342c8a3-ba4b3388.jpg)
+- ![Doline PXL 20230623 045555606 5342c8a3 Ba4b3388](/images/Doline%20-%20PXL_20230623_045555606%20-%205342c8a3-ba4b3388.jpg)

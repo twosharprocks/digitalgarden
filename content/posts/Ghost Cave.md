@@ -3,7 +3,6 @@ title: "Ghost Cave"
 created: 2026-06-14
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -44,5 +43,5 @@ The cave joint has a maximum penetration of approximately 70 meters. The differe
 # References
 
 ## Images
-- ![Ghost Cave Cavedb 717959105 10243945965253736 7483951668223623737 N Bcbb105d 1c79fa70](/images/Ghost%20Cave%20-%20CaveDB%20-%20717959105_10243945965253736_7483951668223623737_n%20-%20bcbb105d-1c79fa70.jpg)
-- ![Ghost Cave Cavedb Rocce A Lama Di Coltello Nella Grotta Dei Fantasmi D201d336 1c79fa70](/images/Ghost%20Cave%20-%20CaveDB%20-%20Rocce_a_lama_di_coltello_nella_Grotta_dei_Fantasmi%20-%20d201d336-1c79fa70.jpg)
+- ![Ghost Cave 717959105 10243945965253736 7483951668223623737 N Bcbb105d 1c79fa70](/images/Ghost%20Cave%20-%20717959105_10243945965253736_7483951668223623737_n%20-%20bcbb105d-1c79fa70.jpg)
+- ![Ghost Cave Rocce A Lama Di Coltello Nella Grotta Dei Fantasmi D201d336 1c79fa70](/images/Ghost%20Cave%20-%20Rocce_a_lama_di_coltello_nella_Grotta_dei_Fantasmi%20-%20d201d336-1c79fa70.jpg)

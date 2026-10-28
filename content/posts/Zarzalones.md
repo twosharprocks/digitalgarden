@@ -3,7 +3,6 @@ title: "Zarzalones"
 created: 2023-06-29
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -75,3 +74,8 @@ Survey Dive in Zarzalones in south Spain with Black Pearl suits (WX300)
 - Zarzalones Cave, Yunquera (Near Malaga)
 	- The Zarzalones spring, in the Sierra de las Nieves, is located 3 km from Yunquera (Málaga), near the San Pascual power plant. Access is through private properties, so the appropriate permits are required. It can be accessed on all terrain up to about 400 meters from the spring, which involves a 10-minute walk on foot to get there.
 	- It is a spectacular and labyrinthine cave full of galleries with four branches. In one of these branches, the Galería de la Punta, a depth of -63m has been reached. Others do it up to -42m. It is a siphon with many unevenness. Precisely these slopes make the cave a place with a medium-high difficulty for experienced cave divers because you can enter decompression easily. About 40 meters from the entrance is the only dry gallery, about 200m long.
+
+## Links reviewed from Cave Data Ideas
+
+- [Saved Facebook reel 1](https://www.facebook.com/reel/1204780551576935) (content not independently checked)
+- [Saved Facebook reel 2](https://www.facebook.com/reel/1942112919829540) (content not independently checked)

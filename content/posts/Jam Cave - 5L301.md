@@ -3,7 +3,6 @@ title: "Jam Cave - 5L301"
 created: 2026-04-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -35,19 +34,16 @@ There's more cave in L301, heading back up from the northern pool! Check the 3D 
 # References
 
 ## Images
-- ![5l301 Jam Cave Cavedb 2023 04 22 10.30.40 42640ecd 17b92fe0](/images/5L301%20-%20Jam%20Cave%20-%20CaveDB%20-%202023-04-22%2010.30.40%20-%2042640ecd-17b92fe0.jpg)
-- ![5l301 Jam Cave Cavedb 2023 04 22 10.32.11 C8eae9f4 17b92fe0](/images/5L301%20-%20Jam%20Cave%20-%20CaveDB%20-%202023-04-22%2010.32.11%20-%20c8eae9f4-17b92fe0.jpg)
+- ![5l301 Jam Cave 2023 04 22 10.30.40 42640ecd 17b92fe0](/images/5L301%20-%20Jam%20Cave%20-%202023-04-22%2010.30.40%20-%2042640ecd-17b92fe0.jpg)
+- ![5l301 Jam Cave 2023 04 22 10.32.11 C8eae9f4 17b92fe0](/images/5L301%20-%20Jam%20Cave%20-%202023-04-22%2010.32.11%20-%20c8eae9f4-17b92fe0.jpg)
 
 - **LSECR:** Page 590
 Tube 1m diameter drops 8m to a chamber 9 x 6 x 1.5m high; pools.
 - **Forestry SA:** L0301, Thin Roof: N, Fence: Y. Dimensions: ?. Features: recently fenced (July '99)
 
 ## Images
-- [Dive - Trim.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/e1aa5f7c-ac46-44f9-bf89-3fed7521408d.mp4)
 - [5cba547d-c283-4ab2-9085-f5510016d85a](https://www.youtube.com/watch?v=IZXCYAXs6Bs)
-- [2023-04-22 10.31.09.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/fffa5b33-594a-40fa-9ba1-d31c59063a03.mp4)
 - [31a2dbe3-34d7-474e-8021-2cac630c502a](https://www.youtube.com/watch?v=y_muW1ioXRo)
-- [2023-04-22 12.51.33.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/fae10f04-1b62-44db-abd9-6949956f7aad.mp4)
 
 # Details
 

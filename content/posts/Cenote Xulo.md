@@ -3,7 +3,6 @@ title: Cenote Xulo
 created: 2023-12-13
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -60,10 +59,10 @@ The route then splits into two very contrasting passages. The first deeper one l
 # References
 
 ## Images
-- ![Cenote Xulo Cavedb 20200716 100902 B2a954ec E3f1823e](/images/Cenote%20Xulo%20-%20CaveDB%20-%2020200716_100902%20-%20b2a954ec-e3f1823e.jpg)
-- Cenote Xulo - CaveDB - c7d51b_7d403be931434966b857d294db7200a0~mv2 - db622cee-e3f1823e.webp
-- ![Cenote Xulo Cavedb 20200716 100700 893f5baa E3f1823e](/images/Cenote%20Xulo%20-%20CaveDB%20-%2020200716_100700%20-%20893f5baa-e3f1823e.jpg)
-- Cenote Xulo - CaveDB - c7d51b_191ec80def3d4368a37814821aeba479~mv2 - 8dcd62f5-e3f1823e.webp
-- Cenote Xulo - CaveDB - c7d51b_ae757d187c154543841ad54e6638f7a1~mv2_d_1825_2738_s_2 - e3b36427-e3f1823e.webp
-- ![Cenote Xulo Cavedb 20200716 100849 Fa46e5b0 E3f1823e](/images/Cenote%20Xulo%20-%20CaveDB%20-%2020200716_100849%20-%20fa46e5b0-e3f1823e.jpg)
+- ![Cenote Xulo 20200716 100902 B2a954ec E3f1823e](/images/Cenote%20Xulo%20-%2020200716_100902%20-%20b2a954ec-e3f1823e.jpg)
+- Cenote Xulo - c7d51b_7d403be931434966b857d294db7200a0~mv2 - db622cee-e3f1823e.webp
+- ![Cenote Xulo 20200716 100700 893f5baa E3f1823e](/images/Cenote%20Xulo%20-%2020200716_100700%20-%20893f5baa-e3f1823e.jpg)
+- Cenote Xulo - c7d51b_191ec80def3d4368a37814821aeba479~mv2 - 8dcd62f5-e3f1823e.webp
+- Cenote Xulo - c7d51b_ae757d187c154543841ad54e6638f7a1~mv2_d_1825_2738_s_2 - e3b36427-e3f1823e.webp
+- ![Cenote Xulo 20200716 100849 Fa46e5b0 E3f1823e](/images/Cenote%20Xulo%20-%2020200716_100849%20-%20fa46e5b0-e3f1823e.jpg)
 - [7bcace11-d217-4760-8296-7965f30e5ed4](https://www.youtube.com/watch?v=y5ijxFe25YE)

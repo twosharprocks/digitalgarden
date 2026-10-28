@@ -3,7 +3,6 @@ title: "Lake Navarino"
 created: 2024-07-28
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

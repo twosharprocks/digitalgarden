@@ -3,7 +3,6 @@ title: "Bristol Cave"
 created: 2024-12-26
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

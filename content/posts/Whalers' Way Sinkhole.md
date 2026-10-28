@@ -3,7 +3,6 @@ title: "Whalers' Way Sinkhole"
 created: 2023-12-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -237,4 +236,4 @@ survey work.
 - **Trove - Newspaper Clipping:** https://trove.nla.gov.au/newspaper/article/270069037
 
 ## Images
-- ![Whalers' Way Sinkhole Cavedb 15 Ca1537d1 C51d0c25](/images/Whalers%27%20Way%20Sinkhole%20-%20CaveDB%20-%2015%20-%20ca1537d1-c51d0c25.jpg)
+- ![Whalers' Way Sinkhole 15 Ca1537d1 C51d0c25](/images/Whalers%27%20Way%20Sinkhole%20-%2015%20-%20ca1537d1-c51d0c25.jpg)

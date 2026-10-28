@@ -3,7 +3,6 @@ title: Outside Magazine
 created: 2026-06-18
 updated: 2026-06-28
 status: seed
-draft: false
 tags:
   - personal
   - expeditions

@@ -3,7 +3,6 @@ title: Mini Essay - Organising a Mars One Analog
 created: 2025-11-15
 updated: 2025-11-15
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

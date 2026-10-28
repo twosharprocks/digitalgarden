@@ -3,7 +3,6 @@ title: "Nancy's Cave"
 created: 2023-07-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -33,12 +32,12 @@ Location estimated from rollingharbour image
 
 # Maps
 
-- ![Nancy's Cave Cavedb Abaco Caves Map Jpg 17cb94bf 1f80f564](/images/Nancy%27s%20Cave%20-%20CaveDB%20-%20abaco-caves-map-jpg%20-%2017cb94bf-1f80f564.jpg)
+- ![Nancy's Cave Abaco Caves Map Jpg 17cb94bf 1f80f564](/images/Nancy%27s%20Cave%20-%20abaco-caves-map-jpg%20-%2017cb94bf-1f80f564.jpg)
 
 # References
 
 - **Rolling Harbour:** https://rollingharbour.com/2015/06/01/ralphs-old-bat-abacos-astounding-underground-caves-5/
 
 ## Images
-- ![Nancy's Cave Cavedb Abaco Caves Ralph Dan Jpg Cebbe906 1f80f564](/images/Nancy%27s%20Cave%20-%20CaveDB%20-%20abaco-caves-ralph-dan-jpg%20-%20cebbe906-1f80f564.jpg)
-- ![Nancy's Cave Cavedb Abaco Caves Map Jpg 17cb94bf 1f80f564](/images/Nancy%27s%20Cave%20-%20CaveDB%20-%20abaco-caves-map-jpg%20-%2017cb94bf-1f80f564.jpg)
+- ![Nancy's Cave Abaco Caves Ralph Dan Jpg Cebbe906 1f80f564](/images/Nancy%27s%20Cave%20-%20abaco-caves-ralph-dan-jpg%20-%20cebbe906-1f80f564.jpg)
+- ![Nancy's Cave Abaco Caves Map Jpg 17cb94bf 1f80f564](/images/Nancy%27s%20Cave%20-%20abaco-caves-map-jpg%20-%2017cb94bf-1f80f564.jpg)

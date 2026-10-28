@@ -3,7 +3,6 @@ title: OSCP - Cheat Sheet - Linux
 created: 2024-12-10
 updated: 2026-06-30
 status: reference
-draft: false
 tags:
   - cyber-security
   - oscp

@@ -3,7 +3,6 @@ title: "Cova de sa Cabra i sa Tortuga"
 created: 2023-08-10
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

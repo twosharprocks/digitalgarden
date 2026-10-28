@@ -1,9 +1,8 @@
 ---
 title: Website - Airport Hell
 created: 2026-01-26
-updated: 2026-06-18
+updated: 2026-10-24
 status: tree
-draft: false
 tags:
   - writing
 related: "[[Writing]]"
@@ -150,3 +149,7 @@ So really, the only one who “won” out of the entire episode was the journali
 …but Joseph Roche is a great guy, and deserved to be treated a lot better by the world’s media than he was.
 
 Overall though, it was great being able to stop for a good few days somewhere safe to rest properly (thank you so much again Niamh & Peter for welcoming me into your home) and time/headspace to plan the rest of my travels… including a last minute detour to Iceland that I’ll write about in the next post 😉![iceland](https://web.archive.org/web/20160530020447im_/http://www.themightyginge.com/blog/wp-content/uploads/2016/04/iceland-300x200.jpg)
+
+## Recovered media
+
+- [Video 1](https://www.youtube.com/watch?v=sYmQQn_ZSys)

@@ -3,7 +3,6 @@ title: "Danau Motonuno"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -33,4 +32,4 @@ address: "Jl. [[Danau Napabale]], Muna Regency, South East Sulawesi, IDN, 93658"
 # References
 
 ## Images
-- ![Danau Motonuno Cavedb Danau Motonuno 9fd80d56 8d3c4da6](/images/Danau%20Motonuno%20-%20CaveDB%20-%20Danau%20Motonuno%20-%209fd80d56-8d3c4da6.jpg)
+- ![Danau Motonuno Danau Motonuno 9fd80d56 8d3c4da6](/images/Danau%20Motonuno%20-%20Danau%20Motonuno%20-%209fd80d56-8d3c4da6.jpg)

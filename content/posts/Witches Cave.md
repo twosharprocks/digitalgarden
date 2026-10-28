@@ -3,7 +3,6 @@ title: "Witches Cave"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -46,8 +45,8 @@ A strong outblowing wind was observed by the author during a brief visit in Octo
 Further exploration and mapping is warranted; only a rough sketch is available at this time.
 
 ## Images
-- ![L0253 Witches Cave Cavedb Witches 844eff86 97f8b6c7](/images/L0253%20-%20Witches%20Cave%20-%20CaveDB%20-%20witches%20-%20844eff86-97f8b6c7.jpg)
-- ![L0253 Witches Cave Cavedb Witches2 9533d210 97f8b6c7](/images/L0253%20-%20Witches%20Cave%20-%20CaveDB%20-%20witches2%20-%209533d210-97f8b6c7.jpg)
+- ![L0253 Witches Cave Witches 844eff86 97f8b6c7](/images/L0253%20-%20Witches%20Cave%20-%20witches%20-%20844eff86-97f8b6c7.jpg)
+- ![L0253 Witches Cave Witches2 9533d210 97f8b6c7](/images/L0253%20-%20Witches%20Cave%20-%20witches2%20-%209533d210-97f8b6c7.jpg)
 
 <!-- ASF slide images: start -->
 ## ASF slide images

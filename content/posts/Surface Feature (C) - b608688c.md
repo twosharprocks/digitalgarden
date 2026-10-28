@@ -3,7 +3,6 @@ title: "Surface Feature (C) - b608688c"
 created: 2023-08-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -34,5 +33,5 @@ BC 23/9/2023: No visible signs of anything interesting
 # References
 
 ## Images
-- ![Surface Feature (C) Cavedb 20230923 102039 49c99bb1 B608688c](/images/Surface%20Feature%20%28C%29%20-%20CaveDB%20-%2020230923_102039%20-%2049c99bb1-b608688c.jpg)
-- ![Surface Feature (C) Cavedb 20230923 102056 A624e949 B608688c](/images/Surface%20Feature%20%28C%29%20-%20CaveDB%20-%2020230923_102056%20-%20a624e949-b608688c.jpg)
+- ![Surface Feature (C) 20230923 102039 49c99bb1 B608688c](/images/Surface%20Feature%20%28C%29%20-%2020230923_102039%20-%2049c99bb1-b608688c.jpg)
+- ![Surface Feature (C) 20230923 102056 A624e949 B608688c](/images/Surface%20Feature%20%28C%29%20-%2020230923_102056%20-%20a624e949-b608688c.jpg)

@@ -3,7 +3,6 @@ title: "Sinkhole"
 created: 2023-08-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,5 +37,5 @@ Private Property
 # References
 
 ## Images
-- ![Sinkhole Cavedb PXL 20250118 040043421 5ea67e6b 012c59e7](/images/Sinkhole%20-%20CaveDB%20-%20PXL_20250118_040043421%20-%205ea67e6b-012c59e7.jpg)
-- ![Sinkhole Cavedb Sinkhole Fc8d1d9b 012c59e7](/images/Sinkhole%20-%20CaveDB%20-%20sinkhole%20-%20fc8d1d9b-012c59e7.jpg)
+- ![Sinkhole PXL 20250118 040043421 5ea67e6b 012c59e7](/images/Sinkhole%20-%20PXL_20250118_040043421%20-%205ea67e6b-012c59e7.jpg)
+- ![Sinkhole Sinkhole Fc8d1d9b 012c59e7](/images/Sinkhole%20-%20sinkhole%20-%20fc8d1d9b-012c59e7.jpg)

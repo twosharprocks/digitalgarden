@@ -3,7 +3,6 @@ title: OSCP - Cheat Sheet - Windows
 created: 2024-06-10
 updated: 2026-07-17
 status: reference
-draft: false
 tags:
   - cyber-security
   - oscp

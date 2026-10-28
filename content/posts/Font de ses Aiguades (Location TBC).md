@@ -3,7 +3,6 @@ title: "Font de ses Aiguades (Location TBC)"
 created: 2023-08-10
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -48,5 +47,5 @@ Location estimated from image on pg 2
 - **diba.cat:** https://www.diba.cat/documents/429042/344129343/EXCEPCIONAL+CONJUNT+AMFORES+LAIETANES+TROBADES+A+FONT+DE+SES+AIGUADES+ALCUDIA+MALLORCA.pdf
 
 ## Images
-- ![Font De Ses Aiguades (location TBC) Cavedb Screenshot (396) 9dd788dc 8ac71f5e](/images/Font%20de%20ses%20Aiguades%20%28Location%20TBC%29%20-%20CaveDB%20-%20Screenshot%20%28396%29%20-%209dd788dc-8ac71f5e.png)
+- ![Font De Ses Aiguades (location TBC) Screenshot (396) 9dd788dc 8ac71f5e](/images/Font%20de%20ses%20Aiguades%20%28Location%20TBC%29%20-%20Screenshot%20%28396%29%20-%209dd788dc-8ac71f5e.png)
 - [83a59f93-6f00-4ae1-b996-6ddd343ffd70](https://www.youtube.com/watch?v=ol9bpFKSl6k)

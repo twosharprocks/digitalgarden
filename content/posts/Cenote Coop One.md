@@ -3,7 +3,6 @@ title: Cenote Coop One
 created: 2023-08-14
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,4 +37,4 @@ address: "Tulum, Quintana Roo, MEX, 77760"
 # References
 
 ## Images
-- ![Cenote Coop One Cavedb Ccop One E2273901 Ecc80e35](/images/Cenote%20Coop%20One%20-%20CaveDB%20-%20ccop%20one%20-%20e2273901-ecc80e35.jpg)
+- ![Cenote Coop One Ccop One E2273901 Ecc80e35](/images/Cenote%20Coop%20One%20-%20ccop%20one%20-%20e2273901-ecc80e35.jpg)

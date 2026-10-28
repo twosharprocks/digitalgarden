@@ -3,7 +3,6 @@ title: "Numby Numby"
 created: 2024-11-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

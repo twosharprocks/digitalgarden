@@ -3,7 +3,6 @@ title: Mini Essay - April 19 (2023)
 created: 2026-01-20
 updated: 2026-04-18
 status: seed
-draft: false
 tags:
   - philosophy
   - personal

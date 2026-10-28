@@ -3,7 +3,6 @@ title: Physical Access
 created: 2025-07-30
 updated: 2025-07-30
 status: reference
-draft: false
 tags:
   - cyber-security
 related:

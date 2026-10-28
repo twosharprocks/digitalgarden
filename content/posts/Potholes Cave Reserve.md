@@ -3,7 +3,6 @@ title: "Potholes Cave Reserve"
 created: 2025-01-03
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -30,4 +29,4 @@ address: "800, Gelantipy Rd, East Gippsland Shire, Victoria, AUS, 3885"
 # References
 
 ## Images
-- ![Potholes Cave Reserve Cavedb 122 E1c2aab7 Fcda00ee](/images/Potholes%20Cave%20Reserve%20-%20CaveDB%20-%20122%20-%20e1c2aab7-fcda00ee.jpg)
+- ![Potholes Cave Reserve 122 E1c2aab7 Fcda00ee](/images/Potholes%20Cave%20Reserve%20-%20122%20-%20e1c2aab7-fcda00ee.jpg)

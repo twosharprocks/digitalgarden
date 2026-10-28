@@ -3,7 +3,6 @@ title: Mini Essay - Using my folding keyboard while flying from Melbourne to San
 created: 2025-11-13
 updated: 2025-11-13
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

@@ -3,7 +3,6 @@ title: "CISA - 1B - IS Audit Process Execution"
 created: 2026-04-20
 updated: 2026-06-30
 status: seed
-draft: false
 tags:
   - cyber-security
   - cisa

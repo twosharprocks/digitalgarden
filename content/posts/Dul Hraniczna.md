@@ -3,7 +3,6 @@ title: "Dul Hraniczna"
 created: 2024-08-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

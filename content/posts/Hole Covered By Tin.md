@@ -3,7 +3,6 @@ title: "Hole Covered By Tin"
 created: 2023-07-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -35,4 +34,4 @@ Hole identified by CA
 # References
 
 ## Images
-- ![Hole Covered By Tin Cavedb 318074170 641965464292769 6661170963371286211 N 7fd5e2c6 5256b4b1](/images/Hole%20Covered%20By%20Tin%20-%20CaveDB%20-%20318074170_641965464292769_6661170963371286211_n%20-%207fd5e2c6-5256b4b1.jpg)
+- ![Hole Covered By Tin 318074170 641965464292769 6661170963371286211 N 7fd5e2c6 5256b4b1](/images/Hole%20Covered%20By%20Tin%20-%20318074170_641965464292769_6661170963371286211_n%20-%207fd5e2c6-5256b4b1.jpg)

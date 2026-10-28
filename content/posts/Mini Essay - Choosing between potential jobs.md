@@ -3,7 +3,6 @@ title: Mini Essay - Choosing between potential jobs
 created: 2025-11-07
 updated: 2025-11-07
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

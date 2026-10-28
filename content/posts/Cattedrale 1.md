@@ -3,7 +3,6 @@ title: "Cattedrale 1"
 created: 2023-06-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -43,4 +42,4 @@ Need to identify "Cattedrale 2" - much more extensive sea cave for divers shown 
 # References
 
 ## Images
-- ![Cattedrale 1 Cavedb Catt1 A0a5b35e A76682ba](/images/Cattedrale%201%20-%20CaveDB%20-%20catt1%20-%20a0a5b35e-a76682ba.jpg)
+- ![Cattedrale 1 Catt1 A0a5b35e A76682ba](/images/Cattedrale%201%20-%20catt1%20-%20a0a5b35e-a76682ba.jpg)

@@ -3,7 +3,6 @@ title: "Alachua Sink - 2a95cd00"
 created: 2023-12-12
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

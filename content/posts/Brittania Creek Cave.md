@@ -3,7 +3,6 @@ title: "Brittania Creek Cave"
 created: 2024-01-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -41,6 +40,5 @@ Brittania Creek Cave is a unique attraction within the Great Forest National Par
 # References
 
 ## Images
-- ![Brittania Creek Cave Cavedb 2024 01 12 06.21.20 A7942fd1 22e432b8](/images/Brittania%20Creek%20Cave%20-%20CaveDB%20-%202024-01-12%2006.21.20%20-%20a7942fd1-22e432b8.jpg)
-- [2024-01-12 06.24.21.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/08c2e338-4c94-4354-ac16-f87516147d42.mp4)
+- ![Brittania Creek Cave 2024 01 12 06.21.20 A7942fd1 22e432b8](/images/Brittania%20Creek%20Cave%20-%202024-01-12%2006.21.20%20-%20a7942fd1-22e432b8.jpg)
 - [aad42094-957e-4deb-84b4-f6eee15a1c0e](https://www.youtube.com/watch?v=SWVdj434Ajw)

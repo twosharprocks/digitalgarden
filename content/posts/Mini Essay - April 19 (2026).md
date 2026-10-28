@@ -3,7 +3,6 @@ title: "Mini Essay - April 19 (2026)"
 created: 2026-04-18
 updated: 2026-04-18
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

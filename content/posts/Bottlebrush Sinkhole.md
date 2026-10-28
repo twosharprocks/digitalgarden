@@ -3,7 +3,6 @@ title: "Bottlebrush Sinkhole"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -65,6 +64,6 @@ Bottlebrush Sinkhole was originally named after the numerous native Banksia tree
 - **Other sources:** Trimixdivers.com (Last updated 29 Jan 2021) - The sinkhole is about 30m in diameter at the surface and has a 20m vertical pitch down to a lake of shallow blue water. Bottlebrush Sinkhole is no more than 8m in depth and has no passages leading from it (?). --- Cavediving.net.au (Last updated 10 Sept 2012) - Large open sinkhole with a 25m climb down to a shallow (~8m) pool which undercuts for a short distance before terminating.
 
 ## Images
-- ![L0064 Bottlebrush Sinkhole Cavedb Bottle2 3c9b67bf 06e1c8d4](/images/L0064%20-%20Bottlebrush%20Sinkhole%20-%20CaveDB%20-%20bottle2%20-%203c9b67bf-06e1c8d4.jpg)
-- ![L0064 Bottlebrush Sinkhole Cavedb Photo 6553702 DJI 102 Jpg 4124848 0 202212231398 Photo Original D8cb0416 06e1c8d4](/images/L0064%20-%20Bottlebrush%20Sinkhole%20-%20CaveDB%20-%20Photo_6553702_DJI_102_jpg_4124848_0_202212231398_photo_original%20-%20d8cb0416-06e1c8d4.jpg)
-- ![L0064 Bottlebrush Sinkhole Cavedb Bottle 81d046ac 06e1c8d4](/images/L0064%20-%20Bottlebrush%20Sinkhole%20-%20CaveDB%20-%20bottle%20-%2081d046ac-06e1c8d4.jpg)
+- ![L0064 Bottlebrush Sinkhole Bottle2 3c9b67bf 06e1c8d4](/images/L0064%20-%20Bottlebrush%20Sinkhole%20-%20bottle2%20-%203c9b67bf-06e1c8d4.jpg)
+- ![L0064 Bottlebrush Sinkhole Photo 6553702 DJI 102 Jpg 4124848 0 202212231398 Photo Original D8cb0416 06e1c8d4](/images/L0064%20-%20Bottlebrush%20Sinkhole%20-%20Photo_6553702_DJI_102_jpg_4124848_0_202212231398_photo_original%20-%20d8cb0416-06e1c8d4.jpg)
+- ![L0064 Bottlebrush Sinkhole Bottle 81d046ac 06e1c8d4](/images/L0064%20-%20Bottlebrush%20Sinkhole%20-%20bottle%20-%2081d046ac-06e1c8d4.jpg)

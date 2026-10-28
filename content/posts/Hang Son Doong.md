@@ -3,7 +3,6 @@ title: "Hang Son Doong"
 created: 2023-07-27
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -46,8 +45,8 @@ In 2019, the expedition team of the world’s best cave diving expert (who parti
 - **OxalisAdventures:** https://oxalisadventure.com/underground-river-in-son-doong/
 
 ## Images
-- ![Hang Son Doong Cavedb FB IMG 1707705163675 E8e9aa2e 6698dbcb](/images/Hang%20Son%20Doong%20-%20CaveDB%20-%20FB_IMG_1707705163675%20-%20e8e9aa2e-6698dbcb.jpg)
-- ![Hang Son Doong Cavedb FB IMG 1707705152368 4eb2f981 6698dbcb](/images/Hang%20Son%20Doong%20-%20CaveDB%20-%20FB_IMG_1707705152368%20-%204eb2f981-6698dbcb.jpg)
-- ![Hang Son Doong Cavedb FB IMG 1707705155794 0bf39b46 6698dbcb](/images/Hang%20Son%20Doong%20-%20CaveDB%20-%20FB_IMG_1707705155794%20-%200bf39b46-6698dbcb.jpg)
-- ![Hang Son Doong Cavedb FB IMG 1707705160267 Baab4e77 6698dbcb](/images/Hang%20Son%20Doong%20-%20CaveDB%20-%20FB_IMG_1707705160267%20-%20baab4e77-6698dbcb.jpg)
-- ![Hang Son Doong Cavedb FB IMG 1707705148557 Ea844e0e 6698dbcb](/images/Hang%20Son%20Doong%20-%20CaveDB%20-%20FB_IMG_1707705148557%20-%20ea844e0e-6698dbcb.jpg)
+- ![Hang Son Doong FB IMG 1707705163675 E8e9aa2e 6698dbcb](/images/Hang%20Son%20Doong%20-%20FB_IMG_1707705163675%20-%20e8e9aa2e-6698dbcb.jpg)
+- ![Hang Son Doong FB IMG 1707705152368 4eb2f981 6698dbcb](/images/Hang%20Son%20Doong%20-%20FB_IMG_1707705152368%20-%204eb2f981-6698dbcb.jpg)
+- ![Hang Son Doong FB IMG 1707705155794 0bf39b46 6698dbcb](/images/Hang%20Son%20Doong%20-%20FB_IMG_1707705155794%20-%200bf39b46-6698dbcb.jpg)
+- ![Hang Son Doong FB IMG 1707705160267 Baab4e77 6698dbcb](/images/Hang%20Son%20Doong%20-%20FB_IMG_1707705160267%20-%20baab4e77-6698dbcb.jpg)
+- ![Hang Son Doong FB IMG 1707705148557 Ea844e0e 6698dbcb](/images/Hang%20Son%20Doong%20-%20FB_IMG_1707705148557%20-%20ea844e0e-6698dbcb.jpg)

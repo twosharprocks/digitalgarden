@@ -1,9 +1,8 @@
 ---
-title: "La Ode Panu"
+title: La Ode Panu
 created: 2026-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -17,18 +16,18 @@ related:
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
   - "[[2025-08-06]]"
 rating: TDI Intro to Cave
-feature_type: "Cave"
+feature_type: Cave
 latitude: -5.179149999999993
 longitude: 122.58393999999998
-suburb: "Muna"
-cavedb: "https://app.cavedb.net/share/fedd84ff-0cab-4c54-8515-4278a8af789d.html"
-catalog-type: "cave"
-sub-region: "[[Muna Island - Sulawesi]]"
+suburb: Muna
+cavedb: https://app.cavedb.net/share/fedd84ff-0cab-4c54-8515-4278a8af789d.html
+catalog-type: cave
+sub-region: "[[Muna Island]]"
 ---
 # References
 
 ## Images
-- ![La Ode Panu Cavedb La Ode Panu 9cb227e1 Fedd84ff](/images/La%20Ode%20Panu%20-%20CaveDB%20-%20La%20Ode%20Panu%20-%209cb227e1-fedd84ff.jpg)
+- ![La Ode Panu La Ode Panu 9cb227e1 Fedd84ff](/images/La%20Ode%20Panu%20-%20La%20Ode%20Panu%20-%209cb227e1-fedd84ff.jpg)
 
 ## Images
 - [360 video - La Ode Panu](https://www.youtube.com/watch?v=6qN3ClxBs9g)

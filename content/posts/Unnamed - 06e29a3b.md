@@ -3,7 +3,6 @@ title: "Unnamed - 06e29a3b"
 created: 2024-12-14
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -46,4 +45,4 @@ address: "Princes Hwy, Tantanoola, South Australia, AUS, 5280"
 # References
 
 ## Images
-- ![Unnamed Cavedb Fence Dep 28ffba80 06e29a3b](/images/Unnamed%20-%20CaveDB%20-%20fence-dep%20-%2028ffba80-06e29a3b.jpg)
+- ![Unnamed Fence Dep 28ffba80 06e29a3b](/images/Unnamed%20-%20fence-dep%20-%2028ffba80-06e29a3b.jpg)

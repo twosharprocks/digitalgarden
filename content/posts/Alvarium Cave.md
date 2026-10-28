@@ -3,7 +3,6 @@ title: "Alvarium Cave"
 created: 2023-06-05
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -67,8 +66,7 @@ Visited SF, 2019-10-04, checkout video recorded.
 Dug through by Michael Kaczkowski in 2022 into a cave entrance with lake. Dive approx 120-150m SW with small leads.
 
 ## Images
-- ![Alvarium Cave Cavedb Alv 6bcec83c 3d1b4778](/images/Alvarium%20Cave%20-%20CaveDB%20-%20alv%20-%206bcec83c-3d1b4778.jpg)
-- ![Alvarium Cave Cavedb Alv F5111610 3d1b4778](/images/Alvarium%20Cave%20-%20CaveDB%20-%20alv%20-%20f5111610-3d1b4778.jpeg)
-- ![Alvarium Cave Cavedb 2024 04 24 08.36.01 D10d5f65 3d1b4778](/images/Alvarium%20Cave%20-%20CaveDB%20-%202024-04-24%2008.36.01%20-%20d10d5f65-3d1b4778.jpg)
-- ![Alvarium Cave Cavedb Alv 9171ad56 3d1b4778](/images/Alvarium%20Cave%20-%20CaveDB%20-%20alv%20-%209171ad56-3d1b4778.jpg)
-- [2024-07-20 16.58.34 (3).mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/80e9db56-ac68-4db7-be94-b05ecb7dd81c.mp4)
+- ![Alvarium Cave Alv 6bcec83c 3d1b4778](/images/Alvarium%20Cave%20-%20alv%20-%206bcec83c-3d1b4778.jpg)
+- ![Alvarium Cave Alv F5111610 3d1b4778](/images/Alvarium%20Cave%20-%20alv%20-%20f5111610-3d1b4778.jpeg)
+- ![Alvarium Cave 2024 04 24 08.36.01 D10d5f65 3d1b4778](/images/Alvarium%20Cave%20-%202024-04-24%2008.36.01%20-%20d10d5f65-3d1b4778.jpg)
+- ![Alvarium Cave Alv 9171ad56 3d1b4778](/images/Alvarium%20Cave%20-%20alv%20-%209171ad56-3d1b4778.jpg)

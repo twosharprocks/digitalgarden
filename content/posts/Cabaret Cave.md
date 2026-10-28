@@ -3,7 +3,6 @@ title: "Cabaret Cave"
 created: 2023-07-02
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -52,4 +51,4 @@ Extraordinarily unique, visually amazing and acoustically sensational, Cabaret C
 - **Explore Parks:** https://exploreparks.dbca.wa.gov.au/site/cabaret-cave
 
 ## Images
-- ![Cabaret Cave Cavedb Cabaret Cave Yanchep National Park Dbca 9a95abbe 1725a0bd](/images/Cabaret%20Cave%20-%20CaveDB%20-%20cabaret-cave-yanchep-national-park-dbca%20-%209a95abbe-1725a0bd.jpeg)
+- ![Cabaret Cave Cabaret Cave Yanchep National Park Dbca 9a95abbe 1725a0bd](/images/Cabaret%20Cave%20-%20cabaret-cave-yanchep-national-park-dbca%20-%209a95abbe-1725a0bd.jpeg)

@@ -3,7 +3,6 @@ title: Mini Essay - Before You're 50
 created: 2025-11-10
 updated: 2025-11-10
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

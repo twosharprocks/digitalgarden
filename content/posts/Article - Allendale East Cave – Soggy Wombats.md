@@ -3,12 +3,10 @@ title: Allendale East Cave – Soggy Wombats
 created: 2025-10-28
 updated: 2026-06-27
 status: complete
-draft: false
 tags:
   - diving
   - caving
 region: "[[Mount Gambier - Lower South East]]"
-cavedb:
 related:
   - "[[Writing]]"
   - "[[Diving]]"
@@ -53,7 +51,7 @@ We prepared a ‘swim through’ video of the Allendale Cave (check above). You 
 
 If you would like to explore the models, we are hosting them in Contrukted Reality and Sketchfab. They offer different features and it felt like we’d like to share both with the wider community. To check the main features of the cave and understand it’s plan view, check the model in Sketchfab. If you would like to navigate by yourself through the cave, check the Construkted Reality model.
 
-Most of the information and documents we produced are available in [CaveDB](https://www.cavedb.net/places/d38a415b-35b7-41ac-a81f-b4af745b47aa/). We have partnered with them as an intent to maintain all produced information free and accessible to anyone in the cave diving community or the broader public.
+The authors intended to keep their information and documents accessible to the cave diving community and the broader public.
 
 As an outcome of all the data we collected, an updated map of the Allendale East Cave overlaying the cave and the surface features has been produced. Let us know if you’d like a high resolution of the map.
 

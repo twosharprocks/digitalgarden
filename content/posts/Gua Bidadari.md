@@ -3,7 +3,6 @@ title: "Gua Bidadari"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -44,5 +43,5 @@ address: "Jalan Tanpa Nama, Buton Regency, South East Sulawesi, IDN, 93761"
 # References
 
 ## Images
-- ![Gua Bidadari Cavedb Bidadari Bdd4f778 08fa010c](/images/Gua%20Bidadari%20-%20CaveDB%20-%20bidadari%20-%20bdd4f778-08fa010c.jpg)
-- ![Gua Bidadari Cavedb Bidadari2 8e5a3406 08fa010c](/images/Gua%20Bidadari%20-%20CaveDB%20-%20bidadari2%20-%208e5a3406-08fa010c.jpg)
+- ![Gua Bidadari Bidadari Bdd4f778 08fa010c](/images/Gua%20Bidadari%20-%20bidadari%20-%20bdd4f778-08fa010c.jpg)
+- ![Gua Bidadari Bidadari2 8e5a3406 08fa010c](/images/Gua%20Bidadari%20-%20bidadari2%20-%208e5a3406-08fa010c.jpg)

@@ -3,7 +3,6 @@ title: "Glendene Park Cave - Location TBC"
 created: 2023-04-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -47,5 +46,5 @@ The south-eastern passages take the form of several very narrow (and one much la
 Apart from its significant size (more than 240 metres of passage to date), the cave is also an important palaeontological site and needs to be protected from excessive visitation and subsequent degradation
 
 ## Images
-- ![Glendene Park Cave Location TBC Cavedb 2382 C2e241ba F66d9c26](/images/Glendene%20Park%20Cave%20-%20Location%20TBC%20-%20CaveDB%20-%202382%20-%20c2e241ba-f66d9c26.jpg)
-- ![Glendene Park Cave Location TBC Cavedb 238 8cf00a6d F66d9c26](/images/Glendene%20Park%20Cave%20-%20Location%20TBC%20-%20CaveDB%20-%20238%20-%208cf00a6d-f66d9c26.jpg)
+- ![Glendene Park Cave Location TBC 2382 C2e241ba F66d9c26](/images/Glendene%20Park%20Cave%20-%20Location%20TBC%20-%202382%20-%20c2e241ba-f66d9c26.jpg)
+- ![Glendene Park Cave Location TBC 238 8cf00a6d F66d9c26](/images/Glendene%20Park%20Cave%20-%20Location%20TBC%20-%20238%20-%208cf00a6d-f66d9c26.jpg)

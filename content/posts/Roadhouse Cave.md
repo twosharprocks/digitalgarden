@@ -3,7 +3,6 @@ title: "Roadhouse Cave"
 created: 2023-07-23
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -46,6 +45,6 @@ No cave, just a tree with lots of rubbish and drums
 # References
 
 ## Images
-- ![Roadhouse Cave Cavedb PXL 20240713 031214251 572e0b98 558a7419](/images/Roadhouse%20Cave%20-%20CaveDB%20-%20PXL_20240713_031214251%20-%20572e0b98-558a7419.jpg)
-- ![Roadhouse Cave Cavedb DJI 0011 5a22b5e1 558a7419](/images/Roadhouse%20Cave%20-%20CaveDB%20-%20DJI_0011%20-%205a22b5e1-558a7419.jpg)
-- ![Roadhouse Cave Cavedb PXL 20240713 031238267 E6c3bed4 558a7419](/images/Roadhouse%20Cave%20-%20CaveDB%20-%20PXL_20240713_031238267%20-%20e6c3bed4-558a7419.jpg)
+- ![Roadhouse Cave PXL 20240713 031214251 572e0b98 558a7419](/images/Roadhouse%20Cave%20-%20PXL_20240713_031214251%20-%20572e0b98-558a7419.jpg)
+- ![Roadhouse Cave DJI 0011 5a22b5e1 558a7419](/images/Roadhouse%20Cave%20-%20DJI_0011%20-%205a22b5e1-558a7419.jpg)
+- ![Roadhouse Cave PXL 20240713 031238267 E6c3bed4 558a7419](/images/Roadhouse%20Cave%20-%20PXL_20240713_031238267%20-%20e6c3bed4-558a7419.jpg)

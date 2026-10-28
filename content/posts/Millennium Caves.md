@@ -3,7 +3,6 @@ title: "Millennium Caves"
 created: 2024-12-12
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -31,6 +30,6 @@ address: "Canal - Fanafo, Sanma Province, VUT"
 # References
 
 ## Images
-- ![Millennium Caves Cavedb Cave 1d3d33eb 499c6b28](/images/Millennium%20Caves%20-%20CaveDB%20-%20Cave%20-%201d3d33eb-499c6b28.jpg)
-- ![Millennium Caves Cavedb Cave Exit Db36b03c 499c6b28](/images/Millennium%20Caves%20-%20CaveDB%20-%20cave-exit%20-%20db36b03c-499c6b28.jpg)
+- ![Millennium Caves Cave 1d3d33eb 499c6b28](/images/Millennium%20Caves%20-%20Cave%20-%201d3d33eb-499c6b28.jpg)
+- ![Millennium Caves Cave Exit Db36b03c 499c6b28](/images/Millennium%20Caves%20-%20cave-exit%20-%20db36b03c-499c6b28.jpg)
 - [c984cd58-eb8b-4140-845b-2d33fe4deae0](https://www.youtube.com/watch?v=KFlFYnogTWI)

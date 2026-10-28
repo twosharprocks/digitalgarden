@@ -3,7 +3,6 @@ title: Website - 101 Things - Attention Whore (15, 35 & 96)
 created: 2026-01-21
 updated: 2026-06-18
 status: tree
-draft: false
 tags:
   - writing
 related: "[[Writing]]"

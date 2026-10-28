@@ -3,7 +3,6 @@ title: "Snake Hill 4"
 created: 2023-04-20
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -36,4 +35,4 @@ address: "Glenburnie, South Australia, AUS, 5291"
 # References
 
 ## Images
-- ![Snake Hill 4 Cavedb 2023 04 10 12.51.42 681e5d23 937aa240](/images/Snake%20Hill%204%20-%20CaveDB%20-%202023-04-10%2012.51.42%20-%20681e5d23-937aa240.jpg)
+- ![Snake Hill 4 2023 04 10 12.51.42 681e5d23 937aa240](/images/Snake%20Hill%204%20-%202023-04-10%2012.51.42%20-%20681e5d23-937aa240.jpg)

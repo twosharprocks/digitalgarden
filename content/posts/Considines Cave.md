@@ -3,7 +3,6 @@ title: "Considines Cave"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -60,9 +59,6 @@ Private
 - **LSECR:** Page 172
 
 ## Images
-- ![L0086 Considines Cave Cavedb 2023 09 22 16.21.01 Dccb24bb 5bb1ef77](/images/L0086%20-%20Considines%20Cave%20-%20CaveDB%20-%202023-09-22%2016.21.01%20-%20dccb24bb-5bb1ef77.jpg)
-- ![L0086 Considines Cave Cavedb 2023 09 22 16.20.58 910a9c6b 5bb1ef77](/images/L0086%20-%20Considines%20Cave%20-%20CaveDB%20-%202023-09-22%2016.20.58%20-%20910a9c6b-5bb1ef77.jpg)
-- ![L0086 Considines Cave Cavedb 2023 09 22 16.21.12 E37dc06c 5bb1ef77](/images/L0086%20-%20Considines%20Cave%20-%20CaveDB%20-%202023-09-22%2016.21.12%20-%20e37dc06c-5bb1ef77.jpg)
-- [Considines 3.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/7aa3e92f-39ff-4e07-b94d-15b7ee9b2ca3.mp4)
-- [Considines 1.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/f4f76dcf-c7ef-4f1a-a3a4-3d380e4eac8d.mp4)
-- [Considines 2.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/3ff0528e-82cd-428f-8d32-e4562fcd1449.mp4)
+- ![L0086 Considines Cave 2023 09 22 16.21.01 Dccb24bb 5bb1ef77](/images/L0086%20-%20Considines%20Cave%20-%202023-09-22%2016.21.01%20-%20dccb24bb-5bb1ef77.jpg)
+- ![L0086 Considines Cave 2023 09 22 16.20.58 910a9c6b 5bb1ef77](/images/L0086%20-%20Considines%20Cave%20-%202023-09-22%2016.20.58%20-%20910a9c6b-5bb1ef77.jpg)
+- ![L0086 Considines Cave 2023 09 22 16.21.12 E37dc06c 5bb1ef77](/images/L0086%20-%20Considines%20Cave%20-%202023-09-22%2016.21.12%20-%20e37dc06c-5bb1ef77.jpg)

@@ -3,7 +3,6 @@ title: "Fontanazzi"
 created: 2023-06-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -44,5 +43,5 @@ Special thanks to the local cave community for correctly placing and maintaining
 - **Youtube:** https://www.youtube.com/watch?v=NcQ2YYeA72A
 
 ## Images
-- ![Fontanazzi Cavedb 587 System 1daede56 Ccae2f95](/images/Fontanazzi%20-%20CaveDB%20-%20587_system%20-%201daede56-ccae2f95.jpg)
-- ![Fontanazzi Cavedb 587 Plan 96cf2db4 Ccae2f95](/images/Fontanazzi%20-%20CaveDB%20-%20587_plan%20-%2096cf2db4-ccae2f95.jpg)
+- ![Fontanazzi 587 System 1daede56 Ccae2f95](/images/Fontanazzi%20-%20587_system%20-%201daede56-ccae2f95.jpg)
+- ![Fontanazzi 587 Plan 96cf2db4 Ccae2f95](/images/Fontanazzi%20-%20587_plan%20-%2096cf2db4-ccae2f95.jpg)

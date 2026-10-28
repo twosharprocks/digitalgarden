@@ -3,7 +3,6 @@ title: "Harbell's cave"
 created: 2023-08-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -44,5 +43,5 @@ Caves in New Brunswick
 - **Geocaching.com:** https://www.geocaching.com/geocache/GC8D04_harbells-cave-in-rockwood-park
 
 ## Images
-- ![Harbell's Cave Cavedb Reg Harbellscave2jpg D85123d3 Af9c6f2f](/images/Harbell%27s%20cave%20-%20CaveDB%20-%20reg_Harbellscave2JPG%20-%20d85123d3-af9c6f2f.jpg)
+- ![Harbell's Cave Reg Harbellscave2jpg D85123d3 Af9c6f2f](/images/Harbell%27s%20cave%20-%20reg_Harbellscave2JPG%20-%20d85123d3-af9c6f2f.jpg)
 - [3ac84a67-cddc-4d1b-9eb6-1cbcd8038cd3](https://www.youtube.com/watch?v=VsAftnxV-TE)

@@ -3,7 +3,6 @@ title: "Cova des Coll - Surface Entrance (Location TBC)"
 created: 2023-08-10
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -43,10 +42,10 @@ Estimated location of surface doline
 
 # Maps
 
-- ![Cova Des Coll Surface Entrance (location TBC) Cavedb Aerial Photograph Of Portocolom With The Plan Outline Of The Cova Des Coll Superimposed 51d90862 5f4620a9](/images/Cova%20des%20Coll%20-%20Surface%20Entrance%20%28Location%20TBC%29%20-%20CaveDB%20-%20Aerial-photograph-of-Portocolom-with-the-plan-outline-of-the-Cova-des-Coll-superimposed%20-%2051d90862-5f4620a9.png)
+- ![Cova Des Coll Surface Entrance (location TBC) Aerial Photograph Of Portocolom With The Plan Outline Of The Cova Des Coll Superimposed 51d90862 5f4620a9](/images/Cova%20des%20Coll%20-%20Surface%20Entrance%20%28Location%20TBC%29%20-%20Aerial-photograph-of-Portocolom-with-the-plan-outline-of-the-Cova-des-Coll-superimposed%20-%2051d90862-5f4620a9.png)
 
 # References
 
 ## Images
-- ![Cova Des Coll Surface Entrance (location TBC) Cavedb Aerial Photograph Of Portocolom With The Plan Outline Of The Cova Des Coll Superimposed 51d90862 5f4620a9](/images/Cova%20des%20Coll%20-%20Surface%20Entrance%20%28Location%20TBC%29%20-%20CaveDB%20-%20Aerial-photograph-of-Portocolom-with-the-plan-outline-of-the-Cova-des-Coll-superimposed%20-%2051d90862-5f4620a9.png)
-- ![Cova Des Coll Surface Entrance (location TBC) Cavedb Distribution Of The Main Corrosion Morphologies Zones With Well Conserved Speleothems F3f4d62a 5f4620a9](/images/Cova%20des%20Coll%20-%20Surface%20Entrance%20%28Location%20TBC%29%20-%20CaveDB%20-%20Distribution-of-the-main-corrosion-morphologies-zones-with-well-conserved-speleothems%20-%20f3f4d62a-5f4620a9.png)
+- ![Cova Des Coll Surface Entrance (location TBC) Aerial Photograph Of Portocolom With The Plan Outline Of The Cova Des Coll Superimposed 51d90862 5f4620a9](/images/Cova%20des%20Coll%20-%20Surface%20Entrance%20%28Location%20TBC%29%20-%20Aerial-photograph-of-Portocolom-with-the-plan-outline-of-the-Cova-des-Coll-superimposed%20-%2051d90862-5f4620a9.png)
+- ![Cova Des Coll Surface Entrance (location TBC) Distribution Of The Main Corrosion Morphologies Zones With Well Conserved Speleothems F3f4d62a 5f4620a9](/images/Cova%20des%20Coll%20-%20Surface%20Entrance%20%28Location%20TBC%29%20-%20Distribution-of-the-main-corrosion-morphologies-zones-with-well-conserved-speleothems%20-%20f3f4d62a-5f4620a9.png)

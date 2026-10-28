@@ -3,7 +3,6 @@ title: "Peacock-Orange Grove Spring System"
 created: 2023-04-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,4 +37,4 @@ address: "18532, 180th St, Suwannee County, Florida, USA, 32060"
 # References
 
 ## Images
-- ![Peacock Orange Grove Spring System Cavedb Image 5323ddc0 8f6bbfe7](/images/Peacock_Orange%20Grove%20Spring%20System%20-%20CaveDB%20-%20Image%20-%205323ddc0-8f6bbfe7.jpg)
+- ![Peacock Orange Grove Spring System Image 5323ddc0 8f6bbfe7](/images/Peacock_Orange%20Grove%20Spring%20System%20-%20Image%20-%205323ddc0-8f6bbfe7.jpg)

@@ -3,7 +3,6 @@ title: "Underground Lake Cave"
 created: 2023-08-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,4 +38,4 @@ Now, dial in your coordinates for the underground lake and follow the trail. The
 - **Geocaching.com:** https://www.geocaching.com/geocache/GC155VJ
 
 ## Images
-- ![Underground Lake Cave Cavedb Lake Cc8319a3 34bf70f7](/images/Underground%20Lake%20Cave%20-%20CaveDB%20-%20lake%20-%20cc8319a3-34bf70f7.gif)
+- ![Underground Lake Cave Lake Cc8319a3 34bf70f7](/images/Underground%20Lake%20Cave%20-%20lake%20-%20cc8319a3-34bf70f7.gif)

@@ -3,7 +3,6 @@ title: "Grant's Hole"
 created: 2024-10-05
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -51,7 +50,7 @@ address: "Ferguson Trak, Mount Buller, Victoria, AUS, 3723"
 - **Facebook - Friends of Deep Creeks (Vic):** https://www.facebook.com/FriendsOfDeepCreek/posts/pfbid02qNps8DCM4RTgiiWHkohx8rLUaUu2kDcvV5hZosrVekdb1tATrk4pLALbgHUow9RXl
 
 ## Images
-- ![Grant's Hole Cavedb Hole D8558e40 D503d1a1](/images/Grant%27s%20Hole%20-%20CaveDB%20-%20hole%20-%20d8558e40-d503d1a1.jpg)
-- ![Grant's Hole Cavedb Hole2 Ad77e300 D503d1a1](/images/Grant%27s%20Hole%20-%20CaveDB%20-%20hole2%20-%20ad77e300-d503d1a1.jpg)
-- ![Grant's Hole Cavedb Toby2 14cb3502 D503d1a1](/images/Grant%27s%20Hole%20-%20CaveDB%20-%20toby2%20-%2014cb3502-d503d1a1.jpg)
-- ![Grant's Hole Cavedb Toby 1d1aa9d5 D503d1a1](/images/Grant%27s%20Hole%20-%20CaveDB%20-%20toby%20-%201d1aa9d5-d503d1a1.jpg)
+- ![Grant's Hole Hole D8558e40 D503d1a1](/images/Grant%27s%20Hole%20-%20hole%20-%20d8558e40-d503d1a1.jpg)
+- ![Grant's Hole Hole2 Ad77e300 D503d1a1](/images/Grant%27s%20Hole%20-%20hole2%20-%20ad77e300-d503d1a1.jpg)
+- ![Grant's Hole Toby2 14cb3502 D503d1a1](/images/Grant%27s%20Hole%20-%20toby2%20-%2014cb3502-d503d1a1.jpg)
+- ![Grant's Hole Toby 1d1aa9d5 D503d1a1](/images/Grant%27s%20Hole%20-%20toby%20-%201d1aa9d5-d503d1a1.jpg)

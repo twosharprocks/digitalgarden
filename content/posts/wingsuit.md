@@ -3,7 +3,6 @@ title: Wingsuit
 created: 2025-12-27
 updated: 2026-06-27
 status: seed
-draft: false
 tags:
   - personal
 related:

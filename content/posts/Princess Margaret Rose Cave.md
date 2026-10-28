@@ -3,7 +3,6 @@ title: "Princess Margaret Rose Cave"
 created: 2023-04-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -93,7 +92,6 @@ Parks Victoria is looking for a tour provider at the Princess Margaret Rose Cave
 - **Princess Margaret Rose Cave Project:** https://www.parks.vic.gov.au/projects/western-victoria/princess-margaret-rose-caves-project
 
 ## Images
-- ![Princess Margaret Rose Cave Cavedb Princess Margaret Rose Cave Gor R 1235335 1600x900 B91735ff 07e049de](/images/Princess%20Margaret%20Rose%20Cave%20-%20CaveDB%20-%20princess-margaret-rose-cave_gor_r_1235335_1600x900%20-%20b91735ff-07e049de.jpg)
-- ![Princess Margaret Rose Cave Cavedb VGO Image PMR Cave 6364b1f4 07e049de](/images/Princess%20Margaret%20Rose%20Cave%20-%20CaveDB%20-%20VGO%20image%20PMR%20cave%20-%206364b1f4-07e049de.jpg)
+- ![Princess Margaret Rose Cave Princess Margaret Rose Cave Gor R 1235335 1600x900 B91735ff 07e049de](/images/Princess%20Margaret%20Rose%20Cave%20-%20princess-margaret-rose-cave_gor_r_1235335_1600x900%20-%20b91735ff-07e049de.jpg)
+- ![Princess Margaret Rose Cave VGO Image PMR Cave 6364b1f4 07e049de](/images/Princess%20Margaret%20Rose%20Cave%20-%20VGO%20image%20PMR%20cave%20-%206364b1f4-07e049de.jpg)
 
-- [CaveDB record](https://app.cavedb.net/share/3c6e33b8-5301-40c8-bb94-1e8ab18bb831.html)

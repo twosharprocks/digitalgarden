@@ -3,7 +3,6 @@ title: "K-2 Crevasse Cave"
 created: 2024-12-06
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

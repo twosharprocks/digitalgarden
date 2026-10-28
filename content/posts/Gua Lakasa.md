@@ -3,7 +3,6 @@ title: "Gua Lakasa"
 created: 2025-07-26
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -45,4 +44,4 @@ address: "Jalan Tanpa Nama, Bau-Bau City, South East Sulawesi, IDN, 93721"
 # References
 
 ## Images
-- ![Gua Lakasa Cavedb Lakasa 85f649d6 A9c25557](/images/Gua%20Lakasa%20-%20CaveDB%20-%20Lakasa%20-%2085f649d6-a9c25557.jpg)
+- ![Gua Lakasa Lakasa 85f649d6 A9c25557](/images/Gua%20Lakasa%20-%20Lakasa%20-%2085f649d6-a9c25557.jpg)

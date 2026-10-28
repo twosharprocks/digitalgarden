@@ -3,7 +3,6 @@ title: "Grjótagjá"
 created: 2024-07-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

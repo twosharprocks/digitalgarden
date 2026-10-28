@@ -3,7 +3,6 @@ title: "Kitt's Cave"
 created: 2023-08-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,5 +37,5 @@ address: "5441, HWY-111, Hammond, New Brunswick, CAN, E4E 3T8"
 - **Cancaver.ca:** https://www.cancaver.ca/prov/nb/kitt.htm
 
 ## Images
-- ![Kitt's Cave Cavedb Kit Ce18cf45 D3d1635f](/images/Kitt%27s%20Cave%20-%20CaveDB%20-%20kit%20-%20ce18cf45-d3d1635f.gif)
+- ![Kitt's Cave Kit Ce18cf45 D3d1635f](/images/Kitt%27s%20Cave%20-%20kit%20-%20ce18cf45-d3d1635f.gif)
 - [8d5e46eb-883d-438a-89bc-6e233cb2a67e](https://www.youtube.com/watch?v=xlZeBjJ3Ggk)

@@ -3,7 +3,6 @@ title: "Weebubbie Cave - 6N2"
 created: 2025-04-12
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -81,12 +80,11 @@ N2-CEG3400
 
 Nullarbor Field Guide 2023 final.pdf
 
-<!-- CaveDB media links: start -->
 
 ## Images
-- ![6N2 Weebubbie Cave Cavedb N327 U1 0 A4e9ba09 47e1d564](/images/6N2%20-%20Weebubbie%20Cave%20-%20CaveDB%20-%20n327-u1_0%20-%20a4e9ba09-47e1d564.jpg)
-- ![6N2 Weebubbie Cave Cavedb Weebubbie CAVE 5 D8e10eca 47e1d564](/images/6N2%20-%20Weebubbie%20Cave%20-%20CaveDB%20-%20WEEBUBBIE-CAVE-5%20-%20d8e10eca-47e1d564.jpg)
-- ![6N2 Weebubbie Cave Cavedb Weebubbie CAVE M E74123d7 47e1d564](/images/6N2%20-%20Weebubbie%20Cave%20-%20CaveDB%20-%20WEEBUBBIE-CAVE-m%20-%20e74123d7-47e1d564.png)
+- ![6N2 Weebubbie Cave N327 U1 0 A4e9ba09 47e1d564](/images/6N2%20-%20Weebubbie%20Cave%20-%20n327-u1_0%20-%20a4e9ba09-47e1d564.jpg)
+- ![6N2 Weebubbie Cave Weebubbie CAVE 5 D8e10eca 47e1d564](/images/6N2%20-%20Weebubbie%20Cave%20-%20WEEBUBBIE-CAVE-5%20-%20d8e10eca-47e1d564.jpg)
+- ![6N2 Weebubbie Cave Weebubbie CAVE M E74123d7 47e1d564](/images/6N2%20-%20Weebubbie%20Cave%20-%20WEEBUBBIE-CAVE-m%20-%20e74123d7-47e1d564.png)
 
 # Details
 

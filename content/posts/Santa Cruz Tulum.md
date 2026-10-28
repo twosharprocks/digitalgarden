@@ -3,7 +3,6 @@ title: Santa Cruz Tulum
 created: 2023-11-19
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

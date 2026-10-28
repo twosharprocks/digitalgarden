@@ -3,14 +3,12 @@ title: Azerbaijan
 created: 2025-11-03
 updated: 2025-11-03
 status: seed
-draft: false
 tags:
   - diving
   - expeditions
   - exploration
 region:
 sub-region:
-cavedb:
 smarttraveller: https://www.smartraveller.gov.au/destinations/europe/azerbaijan
 related:
   - "[[Diving]]"

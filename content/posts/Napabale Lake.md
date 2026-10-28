@@ -3,7 +3,6 @@ title: "Napabale Lake"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -33,4 +32,4 @@ address: "Muna Regency, South East Sulawesi, IDN, 93658"
 # References
 
 ## Images
-- ![Napabale Lake Cavedb Napabale Lake 8adee7af 6a0ac144](/images/Napabale%20Lake%20-%20CaveDB%20-%20Napabale%20Lake%20-%208adee7af-6a0ac144.jpg)
+- ![Napabale Lake Napabale Lake 8adee7af 6a0ac144](/images/Napabale%20Lake%20-%20Napabale%20Lake%20-%208adee7af-6a0ac144.jpg)

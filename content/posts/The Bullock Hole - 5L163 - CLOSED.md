@@ -3,7 +3,6 @@ title: "The Bullock Hole - 5L163 - CLOSED"
 created: 2026-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

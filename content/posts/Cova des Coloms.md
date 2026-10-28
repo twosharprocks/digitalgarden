@@ -3,7 +3,6 @@ title: "Cova des Coloms"
 created: 2023-08-10
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -49,4 +48,4 @@ The cave has been protected since 1966 as a Bien de Interés Cultural, with regi
 - **Google:** https://goo.gl/maps/SYQvuKXzdENkSpXSA
 
 ## Images
-- ![Cova Des Coloms Cavedb 800px Cova Des Coloms Es Migjorn Gran 6a398df6 9f3c74ad](/images/Cova%20des%20Coloms%20-%20CaveDB%20-%20800px-Cova_des_Coloms_es_Migjorn_Gran%20-%206a398df6-9f3c74ad.jpg)
+- ![Cova Des Coloms 800px Cova Des Coloms Es Migjorn Gran 6a398df6 9f3c74ad](/images/Cova%20des%20Coloms%20-%20800px-Cova_des_Coloms_es_Migjorn_Gran%20-%206a398df6-9f3c74ad.jpg)

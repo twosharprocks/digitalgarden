@@ -3,7 +3,6 @@ title: "Cova d’en Bassol"
 created: 2023-08-10
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -42,4 +41,4 @@ address: "532, Cami de cala sa Nau, Balearic Islands, Balearic Islands, ESP, 076
 - **ResearchGate:** https://www.researchgate.net/figure/Aerial-photography-of-Cala-Sa-Nau-and-Cala-Mitjan-with-the-topography-of-the-caves_fig4_286879554
 
 ## Images
-- ![Cova D’en Bassol Cavedb Sa Nau 389880e1 76d1cd86](/images/Cova%20d%E2%80%99en%20Bassol%20-%20CaveDB%20-%20sa%20nau%20-%20389880e1-76d1cd86.png)
+- ![Cova D’en Bassol Sa Nau 389880e1 76d1cd86](/images/Cova%20d%E2%80%99en%20Bassol%20-%20sa%20nau%20-%20389880e1-76d1cd86.png)

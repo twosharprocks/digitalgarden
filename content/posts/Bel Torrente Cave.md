@@ -3,7 +3,6 @@ title: "Bel Torrente Cave"
 created: 2023-06-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -133,7 +132,7 @@ the S3
 
 # Maps
 
-- ![Bel Torrente Cave Cavedb Plan Of Bel Torrente Cave The Ellipse Defines The Area From Which Monk Seal Bones Were 6efa220e 5aefcb54](/images/Bel%20Torrente%20Cave%20-%20CaveDB%20-%20Plan-of-Bel-Torrente-Cave-The-ellipse-defines-the-area-from-which-monk-seal-bones-were%20-%206efa220e-5aefcb54.png)
+- ![Bel Torrente Cave Plan Of Bel Torrente Cave The Ellipse Defines The Area From Which Monk Seal Bones Were 6efa220e 5aefcb54](/images/Bel%20Torrente%20Cave%20-%20Plan-of-Bel-Torrente-Cave-The-ellipse-defines-the-area-from-which-monk-seal-bones-were%20-%206efa220e-5aefcb54.png)
 
 # References
 
@@ -141,7 +140,7 @@ the S3
 - **Protec Sardinia - Cavern:** https://protecsardinia.com/grotta-bel-torente/?lang=en
 
 ## Images
-- ![Bel Torrente Cave Cavedb Aerial Photograph Of The Bel Torrente Cave Area Cave Passages Are Shown In Black The 7a688e19 5aefcb54](/images/Bel%20Torrente%20Cave%20-%20CaveDB%20-%20Aerial-photograph-of-the-Bel-Torrente-Cave-area-Cave-passages-are-shown-in-black-the%20-%207a688e19-5aefcb54.png)
-- ![Bel Torrente Cave Cavedb Fig 1 WP F1f7f5a8 5aefcb54](/images/Bel%20Torrente%20Cave%20-%20CaveDB%20-%20Fig_1_WP%20-%20f1f7f5a8-5aefcb54.jpg)
-- ![Bel Torrente Cave Cavedb 023a9db0bb 394e6f54 5aefcb54](/images/Bel%20Torrente%20Cave%20-%20CaveDB%20-%20023a9db0bb%20-%20394e6f54-5aefcb54.jpg)
-- ![Bel Torrente Cave Cavedb Plan Of Bel Torrente Cave The Ellipse Defines The Area From Which Monk Seal Bones Were 6efa220e 5aefcb54](/images/Bel%20Torrente%20Cave%20-%20CaveDB%20-%20Plan-of-Bel-Torrente-Cave-The-ellipse-defines-the-area-from-which-monk-seal-bones-were%20-%206efa220e-5aefcb54.png)
+- ![Bel Torrente Cave Aerial Photograph Of The Bel Torrente Cave Area Cave Passages Are Shown In Black The 7a688e19 5aefcb54](/images/Bel%20Torrente%20Cave%20-%20Aerial-photograph-of-the-Bel-Torrente-Cave-area-Cave-passages-are-shown-in-black-the%20-%207a688e19-5aefcb54.png)
+- ![Bel Torrente Cave Fig 1 WP F1f7f5a8 5aefcb54](/images/Bel%20Torrente%20Cave%20-%20Fig_1_WP%20-%20f1f7f5a8-5aefcb54.jpg)
+- ![Bel Torrente Cave 023a9db0bb 394e6f54 5aefcb54](/images/Bel%20Torrente%20Cave%20-%20023a9db0bb%20-%20394e6f54-5aefcb54.jpg)
+- ![Bel Torrente Cave Plan Of Bel Torrente Cave The Ellipse Defines The Area From Which Monk Seal Bones Were 6efa220e 5aefcb54](/images/Bel%20Torrente%20Cave%20-%20Plan-of-Bel-Torrente-Cave-The-ellipse-defines-the-area-from-which-monk-seal-bones-were%20-%206efa220e-5aefcb54.png)

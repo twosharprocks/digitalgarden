@@ -3,7 +3,6 @@ title: Articles
 created: 2025-05-01
 updated: 2026-07-02
 status: seed
-draft: false
 tags:
   - index
   - digital-garden

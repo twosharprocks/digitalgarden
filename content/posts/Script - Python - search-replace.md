@@ -3,7 +3,6 @@ title: Script - Python - search-replace
 created: 2026-03-25
 updated: 2026-07-17
 status: seed
-draft: false
 tags:
   - script
 related: 

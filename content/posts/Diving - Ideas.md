@@ -3,7 +3,6 @@ title: Diving - Ideas
 created: 2025-01-01
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - ideas
@@ -23,7 +22,7 @@ Training - Full Cave CCR in Thailand with Por?
 
 Turn soggywombats.com.au into the website that cavedivers.com.au has failed to be. 
 - https://indepthmag.com/cave-survey-data-management-speleodb/ - SpeleoDB on soggywombats.com.au ?
-- [Cetra's DiveDB project](https://cetra3.github.io/) - reference for dive-site mapping, photos and dive logs when considering CaveDB or Soggy Wombats data-sharing tools.
+- [Cetra's DiveDB project](https://cetra3.github.io/) - reference for dive-site mapping, photos and dive logs when considering cave data-sharing tools.
 - Develop idea for Offshore Volcano search with Ian/Corey
 - Publish 3D photo tours of caves on the Soggy Wombats website!
 	- Get this stuff sharing through the webspace you already own, rather than syncing through Obsidian and Google Drive
@@ -53,7 +52,7 @@ Social Media
 - Get CCR hours at Burra Mine Pool
 - Explore/Dive Mullamullang Cave - 6N37
 - Migrate all cave data onto Google Earth
-	- Get all your cave data from CaveDB onto Google Maps (remember this is ***Streetview for caves***)
+	- Put cave data onto Google Maps (remember this is ***Streetview for caves***)
 
 - Writing papers with Robin and Will about cave photogrammetry (WhatsApp)
 - Cafpirco Cave Sites - Cpt 28 New Hole - MAP.pdf
@@ -140,7 +139,7 @@ Tools
             * Type of Vehicle Access (2WD/4WD and difficulty)
         * Links to Permits
         * Up to date Emergency Info (Combine with SROP)
-        * Can this be a phone app? Built into CaveDB?
+        * Can this be a phone app? Built into a cave data system?
 ## LCKP
 * Develop new cave catalogue
     * Redraw/Update Peter’s maps?

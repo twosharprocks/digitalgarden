@@ -3,7 +3,6 @@ title: "Unnamed Forestry - 5a129596"
 created: 2023-07-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -42,5 +41,5 @@ address: "Benara HD Line Rd, Tantanoola, South Australia, AUS, 5280"
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: ?
 
 ## Images
-- ![Unnamed Forestry Cavedb IMG 20210828 133356 6 4a7d7819 5a129596](/images/Unnamed%20Forestry%20-%20CaveDB%20-%20IMG_20210828_133356_6%20-%204a7d7819-5a129596.jpg)
-- ![Unnamed Forestry Cavedb IMG 20210828 133402 7 F26d8140 5a129596](/images/Unnamed%20Forestry%20-%20CaveDB%20-%20IMG_20210828_133402_7%20-%20f26d8140-5a129596.jpg)
+- ![Unnamed Forestry IMG 20210828 133356 6 4a7d7819 5a129596](/images/Unnamed%20Forestry%20-%20IMG_20210828_133356_6%20-%204a7d7819-5a129596.jpg)
+- ![Unnamed Forestry IMG 20210828 133402 7 F26d8140 5a129596](/images/Unnamed%20Forestry%20-%20IMG_20210828_133402_7%20-%20f26d8140-5a129596.jpg)

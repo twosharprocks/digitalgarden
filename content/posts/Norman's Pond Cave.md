@@ -3,7 +3,6 @@ title: "Norman's Pond Cave"
 created: 2023-04-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -36,4 +35,4 @@ address: "Exuma, BHS"
 # References
 
 ## Images
-- ![Norman's Pond Cave Cavedb Normans Pond Cave Profile 6fbaeff3 24edc098](/images/Norman%27s%20Pond%20Cave%20-%20CaveDB%20-%20normans_pond_cave_profile%20-%206fbaeff3-24edc098.jpg)
+- ![Norman's Pond Cave Normans Pond Cave Profile 6fbaeff3 24edc098](/images/Norman%27s%20Pond%20Cave%20-%20normans_pond_cave_profile%20-%206fbaeff3-24edc098.jpg)

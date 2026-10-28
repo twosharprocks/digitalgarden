@@ -3,7 +3,6 @@ title: "Stratman's Pond"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

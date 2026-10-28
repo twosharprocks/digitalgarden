@@ -3,7 +3,6 @@ title: "Cova Submarina de Cala sa Nau"
 created: 2023-08-10
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -42,4 +41,4 @@ Sea cave under island
 - **ResearchGate:** https://www.researchgate.net/figure/Aerial-photography-of-Cala-Sa-Nau-and-Cala-Mitjan-with-the-topography-of-the-caves_fig4_286879554
 
 ## Images
-- ![Cova Submarina De Cala Sa Nau Cavedb Sa Nau 8b56e341 E3dff5e9](/images/Cova%20Submarina%20de%20Cala%20sa%20Nau%20-%20CaveDB%20-%20sa%20nau%20-%208b56e341-e3dff5e9.png)
+- ![Cova Submarina De Cala Sa Nau Sa Nau 8b56e341 E3dff5e9](/images/Cova%20Submarina%20de%20Cala%20sa%20Nau%20-%20sa%20nau%20-%208b56e341-e3dff5e9.png)

@@ -3,7 +3,6 @@ title: "Cova des Xuetes (Cala Varques A)"
 created: 2023-08-10
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -37,5 +36,5 @@ address: "Camí Cala Falcó, Manacor, Illes Balears, ESP, 07689"
 - **MapCarta:** https://mapcarta.com/N6345902548
 
 ## Images
-- ![Cova Des Xuetes (cala Varques A) Cavedb Aerial Photograph Of The Son Josep Can Frasquet Cala Varques And Cala Falco Area Bdbb234d 6a50c6b5](/images/Cova%20des%20Xuetes%20%28Cala%20Varques%20A%29%20-%20CaveDB%20-%20Aerial-photograph-of-the-Son-Josep-Can-Frasquet-Cala-Varques-and-Cala-Falco-area%20-%20bdbb234d-6a50c6b5.png)
-- ![Cova Des Xuetes (cala Varques A) Cavedb Screenshot (395) D8536e22 6a50c6b5](/images/Cova%20des%20Xuetes%20%28Cala%20Varques%20A%29%20-%20CaveDB%20-%20Screenshot%20%28395%29%20-%20d8536e22-6a50c6b5.png)
+- ![Cova Des Xuetes (cala Varques A) Aerial Photograph Of The Son Josep Can Frasquet Cala Varques And Cala Falco Area Bdbb234d 6a50c6b5](/images/Cova%20des%20Xuetes%20%28Cala%20Varques%20A%29%20-%20Aerial-photograph-of-the-Son-Josep-Can-Frasquet-Cala-Varques-and-Cala-Falco-area%20-%20bdbb234d-6a50c6b5.png)
+- ![Cova Des Xuetes (cala Varques A) Screenshot (395) D8536e22 6a50c6b5](/images/Cova%20des%20Xuetes%20%28Cala%20Varques%20A%29%20-%20Screenshot%20%28395%29%20-%20d8536e22-6a50c6b5.png)

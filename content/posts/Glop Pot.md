@@ -3,7 +3,6 @@ title: "Glop Pot"
 created: 2023-07-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -49,4 +48,4 @@ Repository - Survex, sketchsheets and illustrator
 - **SUSS:** https://suss.caves.org.au/cave/cooleman/CP7_Glop_Pot/
 
 ## Images
-- ![CP 7 Glop Pot Cavedb Cp7glop 8415ab24 85570cfe](/images/CP-7%20-%20Glop%20Pot%20-%20CaveDB%20-%20cp7glop%20-%208415ab24-85570cfe.jpg)
+- ![CP 7 Glop Pot Cp7glop 8415ab24 85570cfe](/images/CP-7%20-%20Glop%20Pot%20-%20cp7glop%20-%208415ab24-85570cfe.jpg)

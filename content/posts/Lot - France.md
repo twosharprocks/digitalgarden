@@ -3,12 +3,10 @@ title: Lot - France
 created: 2025-12-19
 updated: 2025-12-19
 status: seed
-draft: false
 tags:
   - diving
 region:
 sub-region:
-cavedb:
 smarttraveller: https://www.smartraveller.gov.au/destinations/europe/france
 related:
   - "[[Diving]]"

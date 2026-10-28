@@ -3,7 +3,6 @@ title: "Tommy Graham's Cave - 6N56"
 created: 2026-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -82,7 +81,7 @@ Tommy Graham’s Sketch Map 2004
 
 N56-CEG8105 (in prep)
 
-- CaveDB - 16_Feb_2026_4_46_56_pm - 50f804f5-a865a78d.kml — [Source](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/d0f7d2ed-40bc-4a82-8fd0-8627f6b089b2.kml)
+- 16_Feb_2026_4_46_56_pm - 50f804f5-a865a78d.kml
 
 # References
 
@@ -96,15 +95,13 @@ https://www.tdisdi.com/tdi-diver-news/trip-report-tommy-grahams-cave/
 - **https://www.youtube.com/watch?v=-8EcYqws7Nk:** Youtube video showing entrance and blue water
 
 ## Images
-- ![Tommy Grahams Cave Cavedb 6N 56 A62762ce A865a78d](/images/Tommy%20Grahams%20Cave%20-%20CaveDB%20-%206N-56%20-%20a62762ce-a865a78d.jpg)
-- [dji_fly_20260217_171608_0040_1771317263043_video_beautify_1.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/86fd6d01-3f82-4285-8d74-bcf22c64d44d.mp4)
+- ![Tommy Grahams Cave 6N 56 A62762ce A865a78d](/images/Tommy%20Grahams%20Cave%20-%206N-56%20-%20a62762ce-a865a78d.jpg)
 
 ## Images
-- ![Tommy Graham's Entrance Cavedb 17712361067265922681269486020057 Cdfea18a A81eecf1](/images/Tommy%20Graham%27s%20Entrance%20-%20CaveDB%20-%2017712361067265922681269486020057%20-%20cdfea18a-a81eecf1.jpg)
-- ![Tommy Graham's Entrance Cavedb 6N 56 979121b5 A81eecf1](/images/Tommy%20Graham%27s%20Entrance%20-%20CaveDB%20-%206N-56%20-%20979121b5-a81eecf1.jpg)
-- ![Tommy Graham's Entrance Cavedb 17712360916194961679778329578029 3071e9f0 A81eecf1](/images/Tommy%20Graham%27s%20Entrance%20-%20CaveDB%20-%2017712360916194961679778329578029%20-%203071e9f0-a81eecf1.jpg)
+- ![Tommy Graham's Entrance 17712361067265922681269486020057 Cdfea18a A81eecf1](/images/Tommy%20Graham%27s%20Entrance%20-%2017712361067265922681269486020057%20-%20cdfea18a-a81eecf1.jpg)
+- ![Tommy Graham's Entrance 6N 56 979121b5 A81eecf1](/images/Tommy%20Graham%27s%20Entrance%20-%206N-56%20-%20979121b5-a81eecf1.jpg)
+- ![Tommy Graham's Entrance 17712360916194961679778329578029 3071e9f0 A81eecf1](/images/Tommy%20Graham%27s%20Entrance%20-%2017712360916194961679778329578029%20-%203071e9f0-a81eecf1.jpg)
 
-- [CaveDB record](https://app.cavedb.net/share/a81eecf1-acc4-45ee-ae2f-ecc4a94e0388.html)
 
 # Details
 

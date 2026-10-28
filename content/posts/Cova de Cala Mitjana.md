@@ -3,7 +3,6 @@ title: "Cova de Cala Mitjana"
 created: 2023-08-10
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -34,4 +33,4 @@ address: "Carrer del 31 de Març, Felanitx, Illes Balears, ESP, 07669"
 - **ResearchGate:** https://www.researchgate.net/figure/Aerial-photography-of-Cala-Sa-Nau-and-Cala-Mitjan-with-the-topography-of-the-caves_fig4_286879554
 
 ## Images
-- ![Cova De Cala Mitjana Cavedb Sa Nau 29a9f56d 0f27dbb0](/images/Cova%20de%20Cala%20Mitjana%20-%20CaveDB%20-%20sa%20nau%20-%2029a9f56d-0f27dbb0.png)
+- ![Cova De Cala Mitjana Sa Nau 29a9f56d 0f27dbb0](/images/Cova%20de%20Cala%20Mitjana%20-%20sa%20nau%20-%2029a9f56d-0f27dbb0.png)

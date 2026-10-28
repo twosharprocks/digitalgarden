@@ -3,7 +3,6 @@ title: Y2038 - Epochalypse
 created: 2025-11-01
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - cyber-security
   - interests

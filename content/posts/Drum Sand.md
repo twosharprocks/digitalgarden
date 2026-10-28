@@ -3,7 +3,6 @@ title: "Drum Sand"
 created: 2023-05-29
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -47,4 +46,4 @@ Ground is flat but stamping you hear a hollow underneath. Dug down about 1.5m an
 # References
 
 ## Images
-- ![Drum Sand Cavedb Bu 0dc596d2 Aa2169e8](/images/Drum%20Sand%20-%20CaveDB%20-%20bu%20-%200dc596d2-aa2169e8.jpg)
+- ![Drum Sand Bu 0dc596d2 Aa2169e8](/images/Drum%20Sand%20-%20bu%20-%200dc596d2-aa2169e8.jpg)

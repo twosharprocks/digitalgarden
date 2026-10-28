@@ -3,7 +3,6 @@ title: "Lake Bullen Merri"
 created: 2026-06-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -61,7 +60,6 @@ Because of its depth and sheltered position, it serves as an alternative dive si
 # References
 
 ## Images
-- ![Lake Bullen Merri Cavedb 20260621 085452 0ef46687 E945e2b6](/images/Lake%20Bullen%20Merri%20-%20CaveDB%20-%2020260621_085452%20-%200ef46687-e945e2b6.jpg)
-- ![Lake Bullen Merri Cavedb 20260621 085112 Ef58ad9c E945e2b6](/images/Lake%20Bullen%20Merri%20-%20CaveDB%20-%2020260621_085112%20-%20ef58ad9c-e945e2b6.jpg)
-- ![Lake Bullen Merri Cavedb 20260621 085010 Dfaf823c E945e2b6](/images/Lake%20Bullen%20Merri%20-%20CaveDB%20-%2020260621_085010%20-%20dfaf823c-e945e2b6.jpg)
-- [GH050411_ALTA1076069966493953928.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/acd62881-868f-43ac-85df-1100e1289989.mp4)
+- ![Lake Bullen Merri 20260621 085452 0ef46687 E945e2b6](/images/Lake%20Bullen%20Merri%20-%2020260621_085452%20-%200ef46687-e945e2b6.jpg)
+- ![Lake Bullen Merri 20260621 085112 Ef58ad9c E945e2b6](/images/Lake%20Bullen%20Merri%20-%2020260621_085112%20-%20ef58ad9c-e945e2b6.jpg)
+- ![Lake Bullen Merri 20260621 085010 Dfaf823c E945e2b6](/images/Lake%20Bullen%20Merri%20-%2020260621_085010%20-%20dfaf823c-e945e2b6.jpg)

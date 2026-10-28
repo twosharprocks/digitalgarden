@@ -3,7 +3,6 @@ title: "Yumbuk Cave Network"
 created: 2023-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

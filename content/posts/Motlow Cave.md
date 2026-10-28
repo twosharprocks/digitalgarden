@@ -3,7 +3,6 @@ title: "Motlow Cave"
 created: 2025-09-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -58,4 +57,4 @@ Jason with his Motlow Cave map. Motlow Cave sits on the hill above the world-fam
 - **TAG Caver:** https://tagcaver.wixsite.com/undergroundearth/single-post/2017/02/08/motlow-cave-lynchburg-tennessee
 
 ## Images
-- ![Motlow Cave Cavedb Motlow Cave 2b3fab1b 8e80f56f](/images/Motlow%20Cave%20-%20CaveDB%20-%20Motlow%20Cave%20-%202b3fab1b-8e80f56f.jpg)
+- ![Motlow Cave Motlow Cave 2b3fab1b 8e80f56f](/images/Motlow%20Cave%20-%20Motlow%20Cave%20-%202b3fab1b-8e80f56f.jpg)

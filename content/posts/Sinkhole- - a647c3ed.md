@@ -3,7 +3,6 @@ title: "Sinkhole- - a647c3ed"
 created: 2025-06-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -31,4 +30,4 @@ address: "Murrells Track, Glenelg Shire, Victoria, AUS, 3292"
 # References
 
 ## Images
-- ![Sinkhole Cavedb Sinkhole5 7f5ad064 A647c3ed](/images/Sinkhole_%20-%20CaveDB%20-%20Sinkhole5%20-%207f5ad064-a647c3ed.jpg)
+- ![Sinkhole Sinkhole5 7f5ad064 A647c3ed](/images/Sinkhole_%20-%20Sinkhole5%20-%207f5ad064-a647c3ed.jpg)

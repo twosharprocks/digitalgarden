@@ -3,14 +3,12 @@ title: Mauritius
 created: 2026-06-18
 updated: 2026-06-18
 status: seed
-draft: false
 tags:
   - diving
   - personal
   - trips
 region:
 sub-region:
-cavedb:
 smarttraveller: https://www.smartraveller.gov.au/destinations/africa/mauritius
 related: "[[Diving]]"
 ---

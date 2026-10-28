@@ -3,7 +3,6 @@ title: CRISC
 created: 2025-07-08
 updated: 2025-11-01
 status: seed
-draft: false
 tags:
   - cyber-security
   - study

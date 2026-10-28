@@ -1,16 +1,16 @@
 ---
 title: Reading
 created: 2025-06-26
-updated: 2026-10-11
+updated: 2026-10-24
 status: seed
-draft: false
 tags:
   - books
   - interests
   - personal
 related:
   - "[[Personal]]"
-  - "Books"
+  - "[[Unread]]"
+  - "[[Books]]"
 ---
 # Current
 - [ ] Finish *The Hotel New Hampshire* on Kindle — in progress; prioritise this as the second-last book in the ongoing 101-book reading list.

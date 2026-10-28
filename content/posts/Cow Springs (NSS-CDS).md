@@ -3,7 +3,6 @@ title: "Cow Springs (NSS-CDS)"
 created: 2023-04-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,4 +37,4 @@ address: "17901, 186th Pl, Suwannee County, Florida, USA, 32060"
 # References
 
 ## Images
-- ![Cow Springs (NSS CDS) Cavedb Image 44caa100 Bb79a884](/images/Cow%20Springs%20%28NSS-CDS%29%20-%20CaveDB%20-%20Image%20-%2044caa100-bb79a884.jpg)
+- ![Cow Springs (NSS CDS) Image 44caa100 Bb79a884](/images/Cow%20Springs%20%28NSS-CDS%29%20-%20Image%20-%2044caa100-bb79a884.jpg)

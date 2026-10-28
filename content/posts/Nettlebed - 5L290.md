@@ -3,7 +3,6 @@ title: "Nettlebed - 5L290"
 created: 2026-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,11 +37,11 @@ Book through Foresttry SA [here](https://forestrysa2.rezdy.com/387297/nettlebed-
 # References
 
 ## Images
-- ![5l290 Nettlebed Cavedb 3y2a5449 Cc263f1d 8a674142](/images/5L290%20-%20Nettlebed%20-%20CaveDB%20-%203Y2A5449%20-%20cc263f1d-8a674142.jpeg)
-- ![5l290 Nettlebed Cavedb 3y2a5452 43118dea 8a674142](/images/5L290%20-%20Nettlebed%20-%20CaveDB%20-%203Y2A5452%20-%2043118dea-8a674142.jpeg)
-- ![5l290 Nettlebed Cavedb 3y2a5455 96d721ee 8a674142](/images/5L290%20-%20Nettlebed%20-%20CaveDB%20-%203Y2A5455%20-%2096d721ee-8a674142.jpeg)
-- ![5l290 Nettlebed Cavedb Mudhole 6080f63a 8a674142](/images/5L290%20-%20Nettlebed%20-%20CaveDB%20-%20Mudhole%20-%206080f63a-8a674142.jpg)
-- ![5l290 Nettlebed Cavedb Nettle 0dd4bd2d 8a674142](/images/5L290%20-%20Nettlebed%20-%20CaveDB%20-%20nettle%20-%200dd4bd2d-8a674142.jpg)
+- ![5l290 Nettlebed 3y2a5449 Cc263f1d 8a674142](/images/5L290%20-%20Nettlebed%20-%203Y2A5449%20-%20cc263f1d-8a674142.jpeg)
+- ![5l290 Nettlebed 3y2a5452 43118dea 8a674142](/images/5L290%20-%20Nettlebed%20-%203Y2A5452%20-%2043118dea-8a674142.jpeg)
+- ![5l290 Nettlebed 3y2a5455 96d721ee 8a674142](/images/5L290%20-%20Nettlebed%20-%203Y2A5455%20-%2096d721ee-8a674142.jpeg)
+- ![5l290 Nettlebed Mudhole 6080f63a 8a674142](/images/5L290%20-%20Nettlebed%20-%20Mudhole%20-%206080f63a-8a674142.jpg)
+- ![5l290 Nettlebed Nettle 0dd4bd2d 8a674142](/images/5L290%20-%20Nettlebed%20-%20nettle%20-%200dd4bd2d-8a674142.jpg)
 
 - **LSECR:** Page 568
 Nettle-Bed Cave was named by cave diver Grant Pearce, after he and his diving partner, Chris Murphy, discovered it on 27 January 1990 after labouring to remove dozens of limestone boulders which choked the south-eastern end of the popular diving doline known as 5L97 (Mud Hole).
@@ -95,4 +94,4 @@ Forestry
 
 # Maps
 
-- CaveDB - site - 735d6811-8a674142.kml — [Source](https://media.cavedb.net/ap-southeast-2:d9a418b4-42a7-4ac1-bc06-137507d18d05/aafc4f3b-9845-4221-8483-49601be2497d.kml)
+- site - 735d6811-8a674142.kml

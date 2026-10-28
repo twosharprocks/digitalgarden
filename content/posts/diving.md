@@ -3,7 +3,6 @@ title: Diving
 created: 2026-06-19
 updated: 2026-06-30
 status: index
-draft: false
 tags:
   - index
   - digital-garden
@@ -14,7 +13,7 @@ related:
   - "[[Diving - Ideas]]"
   - "[[Diving - Reading]]"
   - "[[Photogrammetry]]"
-  - "[[CaveDB]]"
+  - "[[Cave Data Ideas]]"
   - "[[Exploration]]"
   - "[[Caving - Ideas]]"
   - "[[About]]"
@@ -26,7 +25,7 @@ Dive sites, cave regions, exploration notes, gear, trips, photogrammetry, and ca
 - [Diving - Ideas]({{< relref "posts/Diving - Ideas.md" >}}) - project ideas, future work, and loose possibilities.
 - [Diving - Reading]({{< relref "posts/Diving - Reading.md" >}}) - books, articles, and resources to read.
 - [Photogrammetry]({{< relref "posts/photogrammetry.md" >}}) - mapping, survey, and 3D reconstruction notes.
-- [CaveDB]({{< relref "posts/cavedb.md" >}}) - cave database and data-management notes.
+- Cave Data Ideas - cave data and mapping notes.
 - [Exploration]({{< relref "posts/exploration.md" >}}) - broader exploration notes and expedition thinking.
 - Caving - Ideas - dry cave and caving-adjacent notes.
 

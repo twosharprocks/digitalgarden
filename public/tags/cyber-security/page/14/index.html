@@ -168,9 +168,8 @@
 
         <div class="post-content">
           
-            <h1 id="law">Law</h1>
-<p>This one was another absolute slog. Identifying exploits for htmLawed v1.2.5 was very straightforward, and I got a little excited when I saw an RCE exploit had been found this year (2024).</p>
-<p>Running the exploit didn&rsquo;t work though, so I started researching the vulnerability further while trying to avoid the walkthroughs. I found the <a href="https://mayfly277.github.io/posts/GLPI-htmlawed-CVE-2022-35914/">Mayfly article on the CVE</a> which added a lot of extra context, and checking the walkthrough helped me realise why the Burpsuite request wasn&rsquo;t working properly (the request was to a non-existent page, and needed to be changed to <code>/</code>).</p>
+            Law This one was another absolute slog. Identifying exploits for htmLawed v1.2.5 was very straightforward, and I got a little excited when I saw an RCE exploit had been found this year (2024).
+Running the exploit didn&amp;rsquo;t work though, so I started researching the vulnerability further while …
           
         </div>
 
@@ -200,32 +199,7 @@
 
         <div class="post-content">
           
-            <h1 id="levram">Levram</h1>
-<h1 id="resolution-summary">Resolution summary</h1>
-<ul>
-<li>Nmap to identify services on port 22 and 8000</li>
-<li>Password guessed admin credentials to Gerapy platform</li>
-<li>Used exploit for CVE-2021-243857 to achieve shell</li>
-<li>Upgraded shell by running bash script on target</li>
-<li>Identified vulnerable python setuid configuration</li>
-<li>Used GTFObins to find python command providing privilege escalation to root</li>
-</ul>
-<h2 id="improved-skills">Improved skills</h2>
-<ul>
-<li>Linux Privilege Escalation</li>
-<li>Establishing Full TTYs</li>
-</ul>
-<h2 id="used-tools">Used tools</h2>
-<ul>
-<li>nmap</li>
-<li>python</li>
-<li>linpeas.sh</li>
-<li>gerapy</li>
-<li>GTFObins</li>
-</ul>
-<hr>
-<h1 id="information-gathering">Information Gathering</h1>
-<p>Scanned all TCP ports:</p>
+            Levram Resolution summary Nmap to identify services on port 22 and 8000 Password guessed admin credentials to Gerapy platform Used exploit for CVE-2021-243857 to achieve shell Upgraded shell by running bash script on target Identified vulnerable python setuid configuration Used GTFObins to find …
           
         </div>
 
@@ -255,9 +229,8 @@
 
         <div class="post-content">
           
-            <h1 id="ochima">Ochima</h1>
-<p>This one was an exercise in frustration purely because the exploit didn&rsquo;t seem to work on the port I wanted it to (<code>4444</code>) but <em>would</em> work on port <code>80</code>!?</p>
-<p>I tired all sorts of things to get it work, the walkthroughs didn&rsquo;t explain why they used port 80, and the exploit itself indicated it&rsquo;d work on whatever I picked&hellip; but the moment I popped port 80 into the exploit&rsquo;s reverse shell parameters I got an incoming connection. So an important reminder that if a reverse shell isn&rsquo;t working on port <code>4444</code> then try the same thing but with a listener on port <code>80</code> instead</p>
+            Ochima This one was an exercise in frustration purely because the exploit didn&amp;rsquo;t seem to work on the port I wanted it to (4444) but would work on port 80!?
+I tired all sorts of things to get it work, the walkthroughs didn&amp;rsquo;t explain why they used port 80, and the exploit itself indicated …
           
         </div>
 
@@ -287,31 +260,8 @@
 
         <div class="post-content">
           
-            <h1 id="pc">PC</h1>
-<p>This was an interesting one, with <code>linpeas</code> showing multiple vulnerabilities and yet the most obvious two didn&rsquo;t work because of missing dependencies and no user credentials.</p>
-<p>Figuring out how <code>rpcpy-exploit</code> worked was interesting, but the real lesson here was understanding how if the SUID binary can be set then you can run Bash in privileged mode with <code>/bin/bash -p</code> and become <code>root</code></p>
-<h1 id="resolution-summary">Resolution summary</h1>
-<ul>
-<li>Ran Nmap to identify ports <code>22</code> &amp; <code>8000</code></li>
-<li>Visited http (<code>8000</code>) &amp; identified <code>ttyd</code></li>
-<li>Created reverse shell and enumerated target</li>
-<li>Ran <code>linpeas.sh</code> and identified multiple vulnerabilities and <code>rpc.sh</code> script</li>
-<li>Identified exploit for <code>rpc.sh</code> and used it to modify <code>/bin/bash</code> set permission</li>
-<li>Used <code>/bin/bash -p</code> to switch to <code>root</code></li>
-</ul>
-<h2 id="improved-skills">Improved skills</h2>
-<ul>
-<li>Identifying vulnerabilities &amp; scripts with <code>linpeas.sh</code></li>
-</ul>
-<h2 id="used-tools">Used tools</h2>
-<ul>
-<li>nmap</li>
-<li>ttyd</li>
-<li>python</li>
-</ul>
-<hr>
-<h1 id="information-gathering">Information Gathering</h1>
-<p>Scanned all TCP ports:</p>
+            PC This was an interesting one, with linpeas showing multiple vulnerabilities and yet the most obvious two didn&amp;rsquo;t work because of missing dependencies and no user credentials.
+Figuring out how rpcpy-exploit worked was interesting, but the real lesson here was understanding how if the SUID …
           
         </div>
 
@@ -341,9 +291,7 @@
 
         <div class="post-content">
           
-            <h1 id="pelican">Pelican</h1>
-<p>Pretty happy with this one considering I figured most of it out without really looking at a walkthrough. Identifying Exhibition vs Zookeeper was a little confusing, but as soon as I identified that Exhibition v1.0 was vulenerable to command injection then finding &amp; using an exploit (which was really just adding a reverse shell to a java script field) became fairly straightforward.</p>
-<p>Privilege escalation with <code>gcore</code> was a little tricky, as it&rsquo;s been awhile since I needed to remember how <code>strings</code> worked. But once it became clear I could search for plaintext passwords then it made sense and switching to root was easy.</p>
+            Pelican Pretty happy with this one considering I figured most of it out without really looking at a walkthrough. Identifying Exhibition vs Zookeeper was a little confusing, but as soon as I identified that Exhibition v1.0 was vulenerable to command injection then finding &amp;amp; using an exploit …
           
         </div>
 

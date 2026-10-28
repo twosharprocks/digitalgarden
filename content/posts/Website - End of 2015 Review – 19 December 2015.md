@@ -3,7 +3,6 @@ title: Website - End of 2015 Review – 19 December 2015
 created: 2026-01-20
 updated: 2026-06-18
 status: tree
-draft: false
 tags:
   - writing
 related: "[[Writing]]"

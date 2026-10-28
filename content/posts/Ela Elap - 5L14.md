@@ -3,7 +3,6 @@ title: "Ela Elap - 5L14"
 created: 2026-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -29,7 +28,7 @@ sub-region: "[[Mount Gambier - Lower South East]]"
 # References
 
 ## Images
-- ![5L14 Ela Elap Cavedb 3y2a0619 A7e1a455 7ee7ddf4](/images/5L14%20-%20Ela%20Elap%20-%20CaveDB%20-%203Y2A0619%20-%20a7e1a455-7ee7ddf4.jpeg)
+- ![5L14 Ela Elap 3y2a0619 A7e1a455 7ee7ddf4](/images/5L14%20-%20Ela%20Elap%20-%203Y2A0619%20-%20a7e1a455-7ee7ddf4.jpeg)
 
 - **LSECR:** Page 50
 Ela Elap is a large "cenote"-style waterfilled sinkhole about 35 metres in diameter with 8 metre- high walls which drop to the lake (which is often a grey-green colour - hence its other popular name). The walls are vertical or undercut all the way around except on the south-western side, where a large sloping ramp has been cut (originally to provide stock access to the water, and to act as a modern-day base for a pump shed). The shallowest point in this sinkhole lies on its northern side, almost directly under the overhang where the top of a rockpile (with some wire and rubbish) is reached at a depth of around 28 metres. From here, the pile drops all around to a soft silt floor on which several very large trees are to be found. The deepest point is at a depth of 50 metres, roughly on the north-eastern side. There are also some interesting vertical limestone structures several metres high on the walls just to the east of the entry zone, at a depth of 36 metres, and these "pillars" (perhaps stromatolites?) are thought to be the source of long-heard rumours of "giant stalactites" in the feature. Although there are various ideas about the origin of the sinkhole's name, the most likely would appear to be the version which mentioned that the feature was named from the phonetics of the local aboriginal words "lap lap" for 'small fish'. (Many divers think that it is simply a reversed anagram for "Pale Ale", or "Pale Hole" for those who incorrectly call it "ELOH ELAP", but the "lap lap" theory seems to "hold water" the best!) It was reportedly described by Burr in 1845, and was first mentioned in CEGSA's Records by S.R. Shanks and Bob Sexton in April 1962. The first dive in this sinkhole known to the author took place in November 1962, when local divers Philip "Mick" Potter and Jock Huxtable explored it to a depth of about 47 metres. The cold and often murky water in Ela Elap is almost legendary among today's cave divers, and this point was even noted by the earlier explorers! Preliminary research by the author in 1981 proved that Ela Elap was indeed colder than all other waterfilled sinkholes studied to date (around 11.0 degrees C, compared with the others' 13 to 15.5 degrees at depth), but why this is so has not yet been determined.

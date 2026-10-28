@@ -3,7 +3,6 @@ title: "The Duck Hole"
 created: 2023-08-10
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -48,7 +47,7 @@ Site is a swampy area of paddock that ducks migrate through - potential mark is 
 - **MapCarta:** https://mapcarta.com/28768114
 
 ## Images
-- ![The Duck Hole Cavedb Duck Karst 50054f7b Cfe7a061](/images/The%20Duck%20Hole%20-%20CaveDB%20-%20duck%20karst%20-%2050054f7b-cfe7a061.jpg)
-- ![The Duck Hole Cavedb Duck Aerial 3b65be28 Cfe7a061](/images/The%20Duck%20Hole%20-%20CaveDB%20-%20duck%20aerial%20-%203b65be28-cfe7a061.jpg)
-- ![The Duck Hole Cavedb Duck Patch 839f3470 Cfe7a061](/images/The%20Duck%20Hole%20-%20CaveDB%20-%20duck%20patch%20-%20839f3470-cfe7a061.jpg)
-- ![The Duck Hole Cavedb Duck Aerial 2 B2a8a4f7 Cfe7a061](/images/The%20Duck%20Hole%20-%20CaveDB%20-%20duck%20aerial%202%20-%20b2a8a4f7-cfe7a061.jpg)
+- ![The Duck Hole Duck Karst 50054f7b Cfe7a061](/images/The%20Duck%20Hole%20-%20duck%20karst%20-%2050054f7b-cfe7a061.jpg)
+- ![The Duck Hole Duck Aerial 3b65be28 Cfe7a061](/images/The%20Duck%20Hole%20-%20duck%20aerial%20-%203b65be28-cfe7a061.jpg)
+- ![The Duck Hole Duck Patch 839f3470 Cfe7a061](/images/The%20Duck%20Hole%20-%20duck%20patch%20-%20839f3470-cfe7a061.jpg)
+- ![The Duck Hole Duck Aerial 2 B2a8a4f7 Cfe7a061](/images/The%20Duck%20Hole%20-%20duck%20aerial%202%20-%20b2a8a4f7-cfe7a061.jpg)

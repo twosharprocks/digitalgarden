@@ -3,7 +3,6 @@ title: Mini Essay - Your evil secret plan
 created: 2025-05-20
 updated: 2025-10-30
 status: tree
-draft: false
 tags:
   - mini-essay
   - philosophy

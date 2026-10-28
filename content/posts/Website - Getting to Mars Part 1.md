@@ -3,7 +3,6 @@ title: Website - Getting to Mars Part 1
 created: 2026-01-26
 updated: 2026-06-18
 status: tree
-draft: false
 tags:
   - writing
 related: "[[Writing]]"

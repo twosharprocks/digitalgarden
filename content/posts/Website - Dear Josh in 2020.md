@@ -3,7 +3,6 @@ title: Website - Dear Josh in 2020
 created: 2026-01-26
 updated: 2026-06-18
 status: tree
-draft: false
 tags:
   - writing
 related: "[[Writing]]"

@@ -3,7 +3,6 @@ title: "Unnamed - 5d080574"
 created: 2024-04-10
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

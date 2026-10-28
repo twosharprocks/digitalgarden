@@ -3,7 +3,6 @@ title: Trip - Antarctica - 2025 Nov
 created: 2025-11-13
 updated: 2026-06-30
 status: complete
-draft: false
 tags:
   - trips
 template: "[[Template - Trip]]"
@@ -11,7 +10,6 @@ destination:
 region:
 dates:
 weather:
-cavedb:
 Other Info:
 related:
   - "[[Trips]]"

@@ -3,7 +3,6 @@ title: "Feasts Tube"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -54,6 +53,6 @@ visited and surveyed the feature in 1992 to assist the author.
 - **Forestry SA:** L0083, Thin Roof: N, Fence: R. Dimensions: 1.5m x 10m deep. Features: Bone deposits, improve existing fence.
 
 ## Images
-- ![L0083 Feasts Tube Cavedb Feasts2 6a1d32c0 7c5ad325](/images/L0083%20-%20Feasts%20Tube%20-%20CaveDB%20-%20feasts2%20-%206a1d32c0-7c5ad325.jpg)
-- ![L0083 Feasts Tube Cavedb PXL 20221222 225129730 804d1872 7c5ad325](/images/L0083%20-%20Feasts%20Tube%20-%20CaveDB%20-%20PXL_20221222_225129730%20-%20804d1872-7c5ad325.jpg)
-- ![L0083 Feasts Tube Cavedb Feasts 77b3812a 7c5ad325](/images/L0083%20-%20Feasts%20Tube%20-%20CaveDB%20-%20feasts%20-%2077b3812a-7c5ad325.jpg)
+- ![L0083 Feasts Tube Feasts2 6a1d32c0 7c5ad325](/images/L0083%20-%20Feasts%20Tube%20-%20feasts2%20-%206a1d32c0-7c5ad325.jpg)
+- ![L0083 Feasts Tube PXL 20221222 225129730 804d1872 7c5ad325](/images/L0083%20-%20Feasts%20Tube%20-%20PXL_20221222_225129730%20-%20804d1872-7c5ad325.jpg)
+- ![L0083 Feasts Tube Feasts 77b3812a 7c5ad325](/images/L0083%20-%20Feasts%20Tube%20-%20feasts%20-%2077b3812a-7c5ad325.jpg)

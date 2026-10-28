@@ -1,9 +1,8 @@
 ---
 title: Website - Diving between continents
 created: 2026-01-26
-updated: 2026-06-18
+updated: 2026-10-24
 status: tree
-draft: false
 tags:
   - writing
 related: "[[Writing]]"
@@ -197,3 +196,7 @@ The next day it was time to say goodbye to Iceland, so after a slow start & an a
 Please don’t
 
 There’s been so much happening I’m about 3 weeks behind on these posts (currently in Washington D.C ahead of the Humans 2 Mars conference starting Tuesday). But the next step was flying into Boston for a few days before a weird weekend in NYC, and without going into details a lot has changed personally since I got through that. Spending 6 days being a complete space geek in Florida certainly helped too – the trip feels very much like it’s “mine” now. So I’m looking forward to getting those trip entries written & published in the next few days too 😀
+
+## Recovered media
+
+- [Video 1](https://www.youtube.com/watch?v=RlNhD0oS5pk)

@@ -3,7 +3,6 @@ title: "Cueva Taina"
 created: 2023-12-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,3 +37,11 @@ address: "C. 7ta, Santo Domingo Este, Santo Domingo Province, DOM"
 
 - **Water type:** Fresh
 - **Tidal:** No
+
+## Links reviewed from Cave Data Ideas
+
+The saved lead was filed under Cuba, but this cave is in the Dominican Republic. The Dominican Republic Speleological Society reports a 1,100 m system and maximum depth of about 43 m; these figures are source-specific and should not replace a current survey.
+
+- [Saved Facebook video](https://www.facebook.com/watch/?v=1366277218394143) (content not independently checked)
+- [Saved Cave Atlas record](http://www.caveatlas.com/systems/system.asp?ID=315&co=DO)
+- [Dominican Republic Speleological Society](https://www.dr-ss-rd.com/cavtaina)

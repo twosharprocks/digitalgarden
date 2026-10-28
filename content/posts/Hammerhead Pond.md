@@ -3,7 +3,6 @@ title: "Hammerhead Pond"
 created: 2023-07-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -48,5 +47,5 @@ The channel connecting the two features is only about a metre or so deep and con
 - **Google:** https://goo.gl/maps/PiPdiEUyY7apAZso8
 
 ## Images
-- ![L0247 Hammerhead Pond Cavedb 0483 Fa5c65d2 0e80bafd](/images/L0247%20-%20Hammerhead%20Pond%20-%20CaveDB%20-%200483%20-%20fa5c65d2-0e80bafd.jpg)
-- ![L0247 Hammerhead Pond Cavedb 0482 4087a7cf 0e80bafd](/images/L0247%20-%20Hammerhead%20Pond%20-%20CaveDB%20-%200482%20-%204087a7cf-0e80bafd.jpg)
+- ![L0247 Hammerhead Pond 0483 Fa5c65d2 0e80bafd](/images/L0247%20-%20Hammerhead%20Pond%20-%200483%20-%20fa5c65d2-0e80bafd.jpg)
+- ![L0247 Hammerhead Pond 0482 4087a7cf 0e80bafd](/images/L0247%20-%20Hammerhead%20Pond%20-%200482%20-%204087a7cf-0e80bafd.jpg)

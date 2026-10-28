@@ -3,7 +3,6 @@ title: "Surface Feature (SE) - c865fa79"
 created: 2023-08-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,4 +38,4 @@ BC 8/9/2023: Visited and no sign of any interesting features
 # References
 
 ## Images
-- ![Surface Feature (SE) Cavedb 20230908 163446 1bf86de5 C865fa79](/images/Surface%20Feature%20%28SE%29%20-%20CaveDB%20-%2020230908_163446%20-%201bf86de5-c865fa79.jpg)
+- ![Surface Feature (SE) 20230908 163446 1bf86de5 C865fa79](/images/Surface%20Feature%20%28SE%29%20-%2020230908_163446%20-%201bf86de5-c865fa79.jpg)

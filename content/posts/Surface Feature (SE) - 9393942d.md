@@ -3,7 +3,6 @@ title: "Surface Feature (SE) - 9393942d"
 created: 2023-08-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,4 +37,4 @@ BC 24/92023:  Some rocky features but no signs of anything interesting
 # References
 
 ## Images
-- ![Surface Feature (SE) Cavedb 16954326249982376518075861513984 28c59a13 9393942d](/images/Surface%20Feature%20%28SE%29%20-%20CaveDB%20-%2016954326249982376518075861513984%20-%2028c59a13-9393942d.jpg)
+- ![Surface Feature (SE) 16954326249982376518075861513984 28c59a13 9393942d](/images/Surface%20Feature%20%28SE%29%20-%2016954326249982376518075861513984%20-%2028c59a13-9393942d.jpg)

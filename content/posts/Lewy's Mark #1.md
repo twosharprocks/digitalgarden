@@ -3,7 +3,6 @@ title: "Lewy's Mark #1"
 created: 2024-01-13
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -50,4 +49,4 @@ Visited by Grubby Wombat on 2025-09-20 with nothing found
 # References
 
 ## Images
-- ![Lewy's Mark #1 Cavedb PXL 20250920 021503954 D1105dd2 6ad5457b](/images/Lewy%27s%20Mark%20%231%20-%20CaveDB%20-%20PXL_20250920_021503954%20-%20d1105dd2-6ad5457b.jpg)
+- ![Lewy's Mark #1 PXL 20250920 021503954 D1105dd2 6ad5457b](/images/Lewy%27s%20Mark%20%231%20-%20PXL_20250920_021503954%20-%20d1105dd2-6ad5457b.jpg)

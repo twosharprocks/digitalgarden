@@ -3,7 +3,6 @@ title: "Optimistic Cave"
 created: 2024-05-02
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -63,13 +62,13 @@ Optymistychna's gypsum bed is topped with a limestone layer, which has seeped th
 # References
 
 ## Images
-- ![Optimistic Cave Cavedb Girl Background Cristals Acaea7d4 C9fafec4](/images/Optimistic%20Cave%20-%20CaveDB%20-%20girl-background-cristals%20-%20acaea7d4-c9fafec4.png)
-- ![Optimistic Cave Cavedb Optymistychna Cave E65a554b C9fafec4](/images/Optimistic%20Cave%20-%20CaveDB%20-%20Optymistychna_Cave%20-%20e65a554b-c9fafec4.jpeg)
-- ![Optimistic Cave Cavedb IMG 9947 Bdb6b586 C9fafec4](/images/Optimistic%20Cave%20-%20CaveDB%20-%20IMG_9947%20-%20bdb6b586-c9fafec4.png)
-- ![Optimistic Cave Cavedb Lqnsbq40xco 30bf8324 C9fafec4](/images/Optimistic%20Cave%20-%20CaveDB%20-%20lQNsBq40XCo%20-%2030bf8324-c9fafec4.png)
-- ![Optimistic Cave Cavedb IMG 9892 E86e32a9 C9fafec4](/images/Optimistic%20Cave%20-%20CaveDB%20-%20IMG_9892%20-%20e86e32a9-c9fafec4.png)
-- ![Optimistic Cave Cavedb Gelictit Foot 7cad25a3 C9fafec4](/images/Optimistic%20Cave%20-%20CaveDB%20-%20gelictit-foot%20-%207cad25a3-c9fafec4.png)
-- ![Optimistic Cave Cavedb Permskoye For Mirazh 5b7513cc C9fafec4](/images/Optimistic%20Cave%20-%20CaveDB%20-%20permskoye-for-mirazh%20-%205b7513cc-c9fafec4.png)
-- ![Optimistic Cave Cavedb Huge Gallery 4365d5b8 C9fafec4](/images/Optimistic%20Cave%20-%20CaveDB%20-%20huge-gallery%20-%204365d5b8-c9fafec4.png)
-- ![Optimistic Cave Cavedb Permskoye3 1024x682 4ab01633 C9fafec4](/images/Optimistic%20Cave%20-%20CaveDB%20-%20permskoye3-1024x682%20-%204ab01633-c9fafec4.png)
-- ![Optimistic Cave Cavedb Tranteev 2045863a C9fafec4](/images/Optimistic%20Cave%20-%20CaveDB%20-%20tranteev%20-%202045863a-c9fafec4.png)
+- ![Optimistic Cave Girl Background Cristals Acaea7d4 C9fafec4](/images/Optimistic%20Cave%20-%20girl-background-cristals%20-%20acaea7d4-c9fafec4.png)
+- ![Optimistic Cave Optymistychna Cave E65a554b C9fafec4](/images/Optimistic%20Cave%20-%20Optymistychna_Cave%20-%20e65a554b-c9fafec4.jpeg)
+- ![Optimistic Cave IMG 9947 Bdb6b586 C9fafec4](/images/Optimistic%20Cave%20-%20IMG_9947%20-%20bdb6b586-c9fafec4.png)
+- ![Optimistic Cave Lqnsbq40xco 30bf8324 C9fafec4](/images/Optimistic%20Cave%20-%20lQNsBq40XCo%20-%2030bf8324-c9fafec4.png)
+- ![Optimistic Cave IMG 9892 E86e32a9 C9fafec4](/images/Optimistic%20Cave%20-%20IMG_9892%20-%20e86e32a9-c9fafec4.png)
+- ![Optimistic Cave Gelictit Foot 7cad25a3 C9fafec4](/images/Optimistic%20Cave%20-%20gelictit-foot%20-%207cad25a3-c9fafec4.png)
+- ![Optimistic Cave Permskoye For Mirazh 5b7513cc C9fafec4](/images/Optimistic%20Cave%20-%20permskoye-for-mirazh%20-%205b7513cc-c9fafec4.png)
+- ![Optimistic Cave Huge Gallery 4365d5b8 C9fafec4](/images/Optimistic%20Cave%20-%20huge-gallery%20-%204365d5b8-c9fafec4.png)
+- ![Optimistic Cave Permskoye3 1024x682 4ab01633 C9fafec4](/images/Optimistic%20Cave%20-%20permskoye3-1024x682%20-%204ab01633-c9fafec4.png)
+- ![Optimistic Cave Tranteev 2045863a C9fafec4](/images/Optimistic%20Cave%20-%20tranteev%20-%202045863a-c9fafec4.png)

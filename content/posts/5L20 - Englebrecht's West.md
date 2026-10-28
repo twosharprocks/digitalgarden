@@ -3,7 +3,6 @@ title: "5L20 - Englebrecht's West"
 created: 2025-11-01
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -63,7 +62,7 @@ City of Mt Gambier
 
 # Maps
 
-- CaveDB - Englebrecht's West - 99982904-79dbb77a.kml — [Source](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/e95ec44e-7124-4e80-b3ec-9c9b15b8c0db.kml)
+- Englebrecht's West - 99982904-79dbb77a.kml
 
 # References
 
@@ -78,5 +77,5 @@ Once entering the pool, you drop through a small restriction into low flattened 
 The water/lake in this chamber circles to the right and at the far end of the chamber the cave drops into a forked route. To the right, the tunnel travels a short distance through an older limestone passage of approx 50m in length, whereas the left passage continues for 150m to a terminal rockpile. Again, there is a small passage upwards through a restriction to a small air chamber which could fit a few divers who wish to have a chat before returning!
 
 ## Images
-- ![L0020 Englebrecht's West Cavedb 20230713 151744 4ca90a8a 79dbb77a](/images/L0020%20-%20Englebrecht%27s%20West%20-%20CaveDB%20-%2020230713_151744%20-%204ca90a8a-79dbb77a.jpg)
-- ![L0020 Englebrecht's West Cavedb 20230713 151715 633a21bf 79dbb77a](/images/L0020%20-%20Englebrecht%27s%20West%20-%20CaveDB%20-%2020230713_151715%20-%20633a21bf-79dbb77a.jpg)
+- ![L0020 Englebrecht's West 20230713 151744 4ca90a8a 79dbb77a](/images/L0020%20-%20Englebrecht%27s%20West%20-%2020230713_151744%20-%204ca90a8a-79dbb77a.jpg)
+- ![L0020 Englebrecht's West 20230713 151715 633a21bf 79dbb77a](/images/L0020%20-%20Englebrecht%27s%20West%20-%2020230713_151715%20-%20633a21bf-79dbb77a.jpg)

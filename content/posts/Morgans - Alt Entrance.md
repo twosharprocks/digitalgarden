@@ -3,7 +3,6 @@ title: "Morgans - Alt Entrance"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -53,4 +52,4 @@ The cave is rated as being suitable for use as an "adventure" cave by the Nation
 - **Forestry SA:** L0034, Thin Roof: N, Fence: Y. Dimensions: ?. Features: popular dry caving site (adventure caving)
 
 ## Images
-- ![L0034a Morgans Alt Entrance Cavedb Morgans 2nd 08c89750 F865ea78](/images/L0034a%20-%20Morgans%20-%20Alt%20Entrance%20-%20CaveDB%20-%20morgans%202nd%20-%2008c89750-f865ea78.jpg)
+- ![L0034a Morgans Alt Entrance Morgans 2nd 08c89750 F865ea78](/images/L0034a%20-%20Morgans%20-%20Alt%20Entrance%20-%20morgans%202nd%20-%2008c89750-f865ea78.jpg)

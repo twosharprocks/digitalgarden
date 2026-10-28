@@ -3,7 +3,6 @@ title: Mini Essay - What do you really want to do before you die
 created: 2025-05-21
 updated: 2025-05-21
 status: tree
-draft: false
 tags:
   - mini-essay
   - 101-things

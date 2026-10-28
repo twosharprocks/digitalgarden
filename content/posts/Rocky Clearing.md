@@ -3,7 +3,6 @@ title: "Rocky Clearing"
 created: 2023-08-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -43,5 +42,5 @@ Worth exploring this area and other potential limestone outcrops heading in 310-
 # References
 
 ## Images
-- ![Rocky Clearing Cavedb 2023 08 05 07.28.15 Aa860ca9 98149d14](/images/Rocky%20Clearing%20-%20CaveDB%20-%202023-08-05%2007.28.15%20-%20aa860ca9-98149d14.jpg)
-- ![Rocky Clearing Cavedb 2023 08 05 07.27.47 A01c747d 98149d14](/images/Rocky%20Clearing%20-%20CaveDB%20-%202023-08-05%2007.27.47%20-%20a01c747d-98149d14.jpg)
+- ![Rocky Clearing 2023 08 05 07.28.15 Aa860ca9 98149d14](/images/Rocky%20Clearing%20-%202023-08-05%2007.28.15%20-%20aa860ca9-98149d14.jpg)
+- ![Rocky Clearing 2023 08 05 07.27.47 A01c747d 98149d14](/images/Rocky%20Clearing%20-%202023-08-05%2007.27.47%20-%20a01c747d-98149d14.jpg)

@@ -3,7 +3,6 @@ title: Adventure
 created: 2025-12-19
 updated: 2025-12-19
 status: seed
-draft: false
 tags:
 related:
   - "[[Bucket List]]"

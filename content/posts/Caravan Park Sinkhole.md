@@ -3,7 +3,6 @@ title: "Caravan Park Sinkhole"
 created: 2023-06-28
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -45,4 +44,4 @@ The caravan park sinkhole has been backfilled previously, before collapsing agai
 - **ABC:** https://www.abc.net.au/news/2023-06-30/mount-gambier-caravan-park-wants-risk-mapping-as-sinkhole-grows/102541238
 
 ## Images
-- ![Caravan Park Sinkhole Cavedb Screenshot (291) 94f0bb06 2594193f](/images/Caravan%20Park%20Sinkhole%20-%20CaveDB%20-%20Screenshot%20%28291%29%20-%2094f0bb06-2594193f.jpg)
+- ![Caravan Park Sinkhole Screenshot (291) 94f0bb06 2594193f](/images/Caravan%20Park%20Sinkhole%20-%20Screenshot%20%28291%29%20-%2094f0bb06-2594193f.jpg)

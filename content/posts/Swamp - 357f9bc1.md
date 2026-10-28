@@ -3,7 +3,6 @@ title: "Swamp - 357f9bc1"
 created: 2023-07-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -42,4 +41,4 @@ address: "Mile Hill Rd, Glencoe, South Australia, AUS, 5291"
 # References
 
 ## Images
-- ![Swamp Cavedb Go Photo 1627803806551 B79e7af1 357f9bc1](/images/Swamp%20-%20CaveDB%20-%20go_photo_1627803806551%20-%20b79e7af1-357f9bc1.jpg)
+- ![Swamp Go Photo 1627803806551 B79e7af1 357f9bc1](/images/Swamp%20-%20go_photo_1627803806551%20-%20b79e7af1-357f9bc1.jpg)

@@ -3,7 +3,6 @@ title: "Clay Dam Cave"
 created: 2023-08-14
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -46,7 +45,6 @@ DRONE PHOTOS TBA
 # References
 
 ## Images
-- ![Clay Dam Cave Cavedb DJI 0026 F6d7eb0e 35de174b](/images/Clay%20Dam%20Cave%20-%20CaveDB%20-%20DJI_0026%20-%20f6d7eb0e-35de174b.jpg)
-- ![Clay Dam Cave Cavedb DJI 0028 8568fa07 35de174b](/images/Clay%20Dam%20Cave%20-%20CaveDB%20-%20DJI_0028%20-%208568fa07-35de174b.jpg)
-- ![Clay Dam Cave Cavedb DJI 0024 A3b660b9 35de174b](/images/Clay%20Dam%20Cave%20-%20CaveDB%20-%20DJI_0024%20-%20a3b660b9-35de174b.jpg)
-- [DJI_0023.MP4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/fbc0e14b-a205-4fbf-b6d7-9a02e98219ea.MP4)
+- ![Clay Dam Cave DJI 0026 F6d7eb0e 35de174b](/images/Clay%20Dam%20Cave%20-%20DJI_0026%20-%20f6d7eb0e-35de174b.jpg)
+- ![Clay Dam Cave DJI 0028 8568fa07 35de174b](/images/Clay%20Dam%20Cave%20-%20DJI_0028%20-%208568fa07-35de174b.jpg)
+- ![Clay Dam Cave DJI 0024 A3b660b9 35de174b](/images/Clay%20Dam%20Cave%20-%20DJI_0024%20-%20a3b660b9-35de174b.jpg)

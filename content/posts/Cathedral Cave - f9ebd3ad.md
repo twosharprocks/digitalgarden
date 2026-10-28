@@ -3,7 +3,6 @@ title: "Cathedral Cave - f9ebd3ad"
 created: 2024-01-12
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

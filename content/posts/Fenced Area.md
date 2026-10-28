@@ -3,7 +3,6 @@ title: "Fenced Area"
 created: 2023-07-02
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -27,4 +26,4 @@ Identified by CA
 # References
 
 ## Images
-- ![Fenced Area Cavedb PXL 20230715 072501934 C9ca93a4 3acc75bc](/images/Fenced%20Area%20-%20CaveDB%20-%20PXL_20230715_072501934%20-%20c9ca93a4-3acc75bc.jpg)
+- ![Fenced Area PXL 20230715 072501934 C9ca93a4 3acc75bc](/images/Fenced%20Area%20-%20PXL_20230715_072501934%20-%20c9ca93a4-3acc75bc.jpg)

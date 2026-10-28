@@ -3,7 +3,6 @@ title: Website - 101 Things - 17 Own a Pointless Collection
 created: 0214-03-14
 updated: 2026-06-27
 status: tree
-draft: false
 tags:
   - writing
 related: "[[Writing]]"

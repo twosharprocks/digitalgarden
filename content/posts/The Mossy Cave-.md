@@ -3,7 +3,6 @@ title: "The Mossy Cave-"
 created: 2023-04-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -29,4 +28,4 @@ address: "Red Gum Landing Access Trak, Mumbannar, Victoria, AUS, 3304"
 # References
 
 ## Images
-- ![The Mossy Cave Cavedb Mossy Cave 5f0db127 800356df](/images/The%20Mossy%20Cave_%20-%20CaveDB%20-%20mossy%20cave%20-%205f0db127-800356df.jpg)
+- ![The Mossy Cave Mossy Cave 5f0db127 800356df](/images/The%20Mossy%20Cave_%20-%20mossy%20cave%20-%205f0db127-800356df.jpg)

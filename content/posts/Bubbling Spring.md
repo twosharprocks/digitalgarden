@@ -3,7 +3,6 @@ title: "Bubbling Spring"
 created: 2023-07-31
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

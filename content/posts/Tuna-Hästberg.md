@@ -3,7 +3,6 @@ title: "Tuna-Hästberg"
 created: 2023-12-12
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,4 +38,4 @@ address: "Idkerberget, Dalarnas län, SWE, 781 99"
 # References
 
 ## Images
-- ![Tuna Hästberg Cavedb FB IMG 1729430014342 121a60f9 4f590195](/images/Tuna-H%C3%A4stberg%20-%20CaveDB%20-%20FB_IMG_1729430014342%20-%20121a60f9-4f590195.jpg)
+- ![Tuna Hästberg FB IMG 1729430014342 121a60f9 4f590195](/images/Tuna-H%C3%A4stberg%20-%20FB_IMG_1729430014342%20-%20121a60f9-4f590195.jpg)

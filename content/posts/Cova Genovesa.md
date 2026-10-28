@@ -3,7 +3,6 @@ title: "Cova Genovesa"
 created: 2023-06-29
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -32,4 +31,4 @@ address: "1173, Carrer Leonardo da Vinci, Manacor, Illes Balears, ESP, 07680"
 # References
 
 ## Images
-- ![Cova Genovesa Cavedb Screenshot (393) 6a38fc35 F403bceb](/images/Cova%20Genovesa%20-%20CaveDB%20-%20Screenshot%20%28393%29%20-%206a38fc35-f403bceb.png)
+- ![Cova Genovesa Screenshot (393) 6a38fc35 F403bceb](/images/Cova%20Genovesa%20-%20Screenshot%20%28393%29%20-%206a38fc35-f403bceb.png)

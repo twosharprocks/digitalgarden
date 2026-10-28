@@ -3,7 +3,6 @@ title: "River Cave"
 created: 2023-07-02
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -45,4 +44,4 @@ mapped but contains the larger chambers than River Cave. These chambers were for
 - **Project Paper:** https://www.epa.wa.gov.au/sites/default/files/Referral_Documentation/IBE_Arrowsmith_EPA_Survey_Bennelongia%20Subterranean%20Fauna%20Assessment.pdf
 
 ## Images
-- ![River Cave Cavedb Arrow 497e9872 806ea536](/images/River%20Cave%20-%20CaveDB%20-%20arrow%20-%20497e9872-806ea536.jpg)
+- ![River Cave Arrow 497e9872 806ea536](/images/River%20Cave%20-%20arrow%20-%20497e9872-806ea536.jpg)

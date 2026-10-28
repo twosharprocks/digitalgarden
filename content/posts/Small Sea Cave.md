@@ -3,7 +3,6 @@ title: "Small Sea Cave"
 created: 2023-06-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -45,4 +44,4 @@ Snorkelling
 # References
 
 ## Images
-- ![Small Sea Cave Cavedb Sp Ff1bfbb6 3c382544](/images/Small%20Sea%20Cave%20-%20CaveDB%20-%20sp%20-%20ff1bfbb6-3c382544.jpg)
+- ![Small Sea Cave Sp Ff1bfbb6 3c382544](/images/Small%20Sea%20Cave%20-%20sp%20-%20ff1bfbb6-3c382544.jpg)

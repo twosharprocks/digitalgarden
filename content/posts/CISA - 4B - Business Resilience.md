@@ -3,7 +3,6 @@ title: "CISA - 4B - Business Resilience"
 created: 2026-04-29
 updated: 2026-06-28
 status: reference
-draft: false
 tags:
   - cyber-security
   - cisa

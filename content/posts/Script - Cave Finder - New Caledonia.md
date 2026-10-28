@@ -3,7 +3,6 @@ title: Script - Cave Finder - New Caledonia
 created: 2026-01-26
 updated: 2025-11-03
 status: seed
-draft: false
 tags:
   - diving
   - python
@@ -12,7 +11,7 @@ related:
   - "[[Scripts]]"
   - "[[Trips - Ideas]]"
   - "[[Exploration]]"
-  - "[[CaveDB]]"
+  - "[[Cave Data Ideas]]"
   - "[[Caving - Ideas]]"
 language: Python
 ---

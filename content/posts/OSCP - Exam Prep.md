@@ -3,7 +3,6 @@ title: OSCP - Exam Prep
 created: 2024-07-10
 updated: 2026-06-30
 status: reference
-draft: false
 tags:
   - oscp
   - cyber-security

@@ -3,7 +3,6 @@ title: "Slot Cave"
 created: 2023-04-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -54,13 +53,13 @@ The downstream side is a tight squeeze through black silt to get to a relatively
 
 # Maps
 
-- CaveDB - site - 4d402a72-76c76c32.kml — [Source](https://media.cavedb.net/ap-southeast-2:d9a418b4-42a7-4ac1-bc06-137507d18d05/be6b0544-9206-47ab-adde-9ed6e4755b51.kml)
+- site - 4d402a72-76c76c32.kml
 
 # References
 
 ## Images
-- ![Slot Cave Cavedb Slot D78a5ff4 76c76c32](/images/Slot%20Cave%20-%20CaveDB%20-%20slot%20-%20d78a5ff4-76c76c32.jpg)
-- ![Slot Cave Cavedb Slot Up 792fcc3d 76c76c32](/images/Slot%20Cave%20-%20CaveDB%20-%20slot%20up%20-%20792fcc3d-76c76c32.jpg)
-- ![Slot Cave Cavedb 2023 11 30 14.26.12 A8ffbc60 76c76c32](/images/Slot%20Cave%20-%20CaveDB%20-%202023-11-30%2014.26.12%20-%20a8ffbc60-76c76c32.jpg)
-- ![Slot Cave Cavedb Photo 6553675 DJI 75 Jpg 4077857 0 202282410950 Photo Original Cc8d1df5 76c76c32](/images/Slot%20Cave%20-%20CaveDB%20-%20Photo_6553675_DJI_75_jpg_4077857_0_202282410950_photo_original%20-%20cc8d1df5-76c76c32.jpg)
-- ![Slot Cave Cavedb Image 056c21e7 76c76c32](/images/Slot%20Cave%20-%20CaveDB%20-%20Image%20-%20056c21e7-76c76c32.jpg)
+- ![Slot Cave Slot D78a5ff4 76c76c32](/images/Slot%20Cave%20-%20slot%20-%20d78a5ff4-76c76c32.jpg)
+- ![Slot Cave Slot Up 792fcc3d 76c76c32](/images/Slot%20Cave%20-%20slot%20up%20-%20792fcc3d-76c76c32.jpg)
+- ![Slot Cave 2023 11 30 14.26.12 A8ffbc60 76c76c32](/images/Slot%20Cave%20-%202023-11-30%2014.26.12%20-%20a8ffbc60-76c76c32.jpg)
+- ![Slot Cave Photo 6553675 DJI 75 Jpg 4077857 0 202282410950 Photo Original Cc8d1df5 76c76c32](/images/Slot%20Cave%20-%20Photo_6553675_DJI_75_jpg_4077857_0_202282410950_photo_original%20-%20cc8d1df5-76c76c32.jpg)
+- ![Slot Cave Image 056c21e7 76c76c32](/images/Slot%20Cave%20-%20Image%20-%20056c21e7-76c76c32.jpg)

@@ -3,7 +3,6 @@ title: "Cova de Cala Falcó"
 created: 2023-08-10
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -62,7 +61,7 @@ It is a cavity created by marine erosion and is classified as a  Natural Area of
 We will go to the popular and virgin  Cala Varques . After having taken all the material, we will walk towards the beach and the cliffs of the area for a very beautiful stretch."
 
 ## Images
-- ![Cova De Cala Falcó 08 Cavedb 90759b90 1b97cac6](/images/Cova_de_Cala_Falc%C3%B3_08%20-%20CaveDB%20-%2090759b90-1b97cac6.jpg)
-- ![Falco Cavedb 56c6a108 1b97cac6](/images/falco%20-%20CaveDB%20-%2056c6a108-1b97cac6.jpg)
-- ![Cala Cap Falcó Mallorca Cavedb B5826b7d 1b97cac6](/images/Cala-Cap-Falco%CC%81-mallorca%20-%20CaveDB%20-%20b5826b7d-1b97cac6.jpg)
+- ![Cova De Cala Falcó 08 90759b90 1b97cac6](/images/Cova_de_Cala_Falc%C3%B3_08%20-%2090759b90-1b97cac6.jpg)
+- ![Falco 56c6a108 1b97cac6](/images/falco%20-%2056c6a108-1b97cac6.jpg)
+- ![Cala Cap Falcó Mallorca B5826b7d 1b97cac6](/images/Cala-Cap-Falco%CC%81-mallorca%20-%20b5826b7d-1b97cac6.jpg)
 - [bca4a514-130c-4057-86b9-f8a4c63d6ca4](https://www.youtube.com/watch?v=4EgLNhD4V10)

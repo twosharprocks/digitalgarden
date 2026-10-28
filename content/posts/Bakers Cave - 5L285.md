@@ -3,7 +3,6 @@ title: "Bakers Cave - 5L285"
 created: 2025-04-23
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -60,20 +59,18 @@ The instrument panel is located on the left-hand side wall next to the office. T
 
 Let me know if you'd like this formatted for signage, briefing sheets, or digital distribution.
 
-# Maps
-
 ## Survey
 TML Data: Bakers.tml
 KML Survey: Baker's Cave
 
-- CaveDB - site - 04f3fc3a-b57547cc.kml — [Source](https://media.cavedb.net/ap-southeast-2:d9a418b4-42a7-4ac1-bc06-137507d18d05/dc4d3907-c084-4caa-9120-a927f135195c.kml)
+- site - 04f3fc3a-b57547cc.kml
 
 # References
 
 ## Images
-- ![5l285 Bakers Cave Cavedb 2294856 B5e9914f B57547cc](/images/5L285%20-%20Bakers%20Cave%20-%20CaveDB%20-%202294856%20-%20b5e9914f-b57547cc.jpg)
-- ![5l285 Bakers Cave Cavedb Bakers 6d10fec5 B57547cc](/images/5L285%20-%20Bakers%20Cave%20-%20CaveDB%20-%20bakers%20-%206d10fec5-b57547cc.jpg)
-- ![5l285 Bakers Cave Cavedb Bakers2 940409f3 B57547cc](/images/5L285%20-%20Bakers%20Cave%20-%20CaveDB%20-%20bakers2%20-%20940409f3-b57547cc.jpg)
+- ![5l285 Bakers Cave 2294856 B5e9914f B57547cc](/images/5L285%20-%20Bakers%20Cave%20-%202294856%20-%20b5e9914f-b57547cc.jpg)
+- ![5l285 Bakers Cave Bakers 6d10fec5 B57547cc](/images/5L285%20-%20Bakers%20Cave%20-%20bakers%20-%206d10fec5-b57547cc.jpg)
+- ![5l285 Bakers Cave Bakers2 940409f3 B57547cc](/images/5L285%20-%20Bakers%20Cave%20-%20bakers2%20-%20940409f3-b57547cc.jpg)
 
 - **LSECR:** Page 558
 Not a lot is currently known about this karst feature. Information to hand at the time of this writing indicates that this cave is a single south-west to north-east trending waterfilled passage about 60 metres long and more than 30 metres deep, with a restriction between boulders at 23 metres. Access is made via a 2 metre diameter solution-tube chimney (with rubbish) which drops about 12m into a 10 metre diameter lake chamber with a small rocky 'island' on its north-eastern side.

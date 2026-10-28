@@ -3,7 +3,6 @@ title: "Planina Cave"
 created: 2023-12-12
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -34,3 +33,7 @@ address: "175A, Planina, Postojna, SVN, 6232"
 
 - **Water type:** Fresh
 - **Tidal:** No
+
+# References
+
+- [Saved Facebook share](https://www.facebook.com/share/p/1A5FYYMoW7/) (content not independently checked)

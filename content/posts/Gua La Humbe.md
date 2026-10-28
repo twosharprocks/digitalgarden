@@ -1,9 +1,8 @@
 ---
-title: "Gua La Humbe"
+title: Gua La Humbe
 created: 2026-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -15,21 +14,21 @@ related:
   - "[[Trip - Sulawesi - 2025 Aug]]"
   - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
 rating: TDI Intro to Cave
-feature_type: "Cave"
+feature_type: Cave
 latitude: -5.346466000000021
 longitude: 122.61137800000006
-state: "South East Sulawesi"
-suburb: "Buton Regency"
-cavedb: "https://app.cavedb.net/share/a5a4e208-253a-410b-85d4-74b4d661856d.html"
-catalog-type: "cave"
-sub-region: "[[Muna Island - Sulawesi]]"
+state: South East Sulawesi
+suburb: Buton Regency
+cavedb: https://app.cavedb.net/share/a5a4e208-253a-410b-85d4-74b4d661856d.html
+catalog-type: cave
+sub-region: "[[Muna Island]]"
 ---
 # References
 
 ## Images
-- ![La Humbe Cavedb La Humbe Db88f588 A5a4e208](/images/La%20Humbe%20-%20CaveDB%20-%20La%20Humbe%20-%20db88f588-a5a4e208.jpg)
-- ![La Humbe Cavedb La Humbe Pano 9fbfa2ce A5a4e208](/images/La%20Humbe%20-%20CaveDB%20-%20La%20Humbe%20-%20pano%20-%209fbfa2ce-a5a4e208.jpg)
-- ![La Humbe Cavedb La Humbe Sketch Bad30ea5 A5a4e208](/images/La%20Humbe%20-%20CaveDB%20-%20la%20humbe%20sketch%20-%20bad30ea5-a5a4e208.jpg)
+- ![La Humbe La Humbe Db88f588 A5a4e208](/images/La%20Humbe%20-%20La%20Humbe%20-%20db88f588-a5a4e208.jpg)
+- ![La Humbe La Humbe Pano 9fbfa2ce A5a4e208](/images/La%20Humbe%20-%20La%20Humbe%20-%20pano%20-%209fbfa2ce-a5a4e208.jpg)
+- ![La Humbe La Humbe Sketch Bad30ea5 A5a4e208](/images/La%20Humbe%20-%20la%20humbe%20sketch%20-%20bad30ea5-a5a4e208.jpg)
 - [d84108a1-b66e-4954-ac71-49717e77f8bd](https://www.youtube.com/watch?v=AFCt3rVyWgo)
 
 # Details

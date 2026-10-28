@@ -3,7 +3,6 @@ title: "Karst- - 6e6465ee"
 created: 2025-04-23
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

@@ -3,7 +3,6 @@ title: "Olwolgin Campsite"
 created: 2024-07-05
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -29,6 +28,3 @@ address: "Madura, Western Australia, AUS, 6443"
 
 # References
 
-## Images
-- [Overfly.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/fa5d6909-b99b-4ca9-b490-74345fcc4846.mp4)
-- [Overfly.mp4](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/f7ee97bb-4365-4871-bbe2-46a7d64f7e20.mp4)

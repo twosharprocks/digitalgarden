@@ -3,7 +3,6 @@ title: "Coffee River Cave"
 created: 2024-12-26
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -48,4 +47,4 @@ address: "B 10, Manchester Parish, JAM"
 - **MapCarta:** https://mapcarta.com/N7024044673
 
 ## Images
-- ![Coffee River Cave Cavedb Coffee 300b7ecb C42cdb02](/images/Coffee%20River%20Cave%20-%20CaveDB%20-%20coffee%20-%20300b7ecb-c42cdb02.jpg)
+- ![Coffee River Cave Coffee 300b7ecb C42cdb02](/images/Coffee%20River%20Cave%20-%20coffee%20-%20300b7ecb-c42cdb02.jpg)

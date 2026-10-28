@@ -3,7 +3,6 @@ title: "Danau Wawomata"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -33,4 +32,4 @@ address: "Muna Regency, South East Sulawesi, IDN, 93662"
 # References
 
 ## Images
-- ![Danau Wawomata Cavedb Danau Wawomata Fbd9ef79 D1e1499d](/images/Danau%20Wawomata%20-%20CaveDB%20-%20Danau%20Wawomata%20-%20fbd9ef79-d1e1499d.jpg)
+- ![Danau Wawomata Danau Wawomata Fbd9ef79 D1e1499d](/images/Danau%20Wawomata%20-%20Danau%20Wawomata%20-%20fbd9ef79-d1e1499d.jpg)

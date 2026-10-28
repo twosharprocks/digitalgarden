@@ -3,7 +3,6 @@ title: "Unnamed - bde9a3f5"
 created: 2025-07-07
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

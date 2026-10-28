@@ -40,7 +40,7 @@
           {{ else if .Description }}
             <p>{{ .Description | markdownify }}</p>
           {{ else }}
-            {{ .Summary }}
+            {{ .Plain | truncate 300 }}
           {{ end }}
         </div>
 

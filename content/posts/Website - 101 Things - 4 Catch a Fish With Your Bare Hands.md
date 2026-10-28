@@ -1,9 +1,8 @@
 ---
 title: Website - 101 Things - 4 Catch a Fish With Your Bare Hands
 created: 2026-01-21
-updated: 2026-06-18
+updated: 2026-10-24
 status: tree
-draft: false
 tags:
   - writing
 related: "[[Writing]]"
@@ -78,3 +77,7 @@ Suddenly a huge shadow loomed up behind me just as something else brushed the ba
 Just before cooking the corpse of my defeated foe
 
 And the worst part I don’t even **eat** crayfish.
+
+## Recovered media
+
+- [Video 1](https://www.youtube.com/watch?v=CVS1UfCfxlU)

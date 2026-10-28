@@ -3,7 +3,6 @@ title: The Pit
 created: 2023-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -44,10 +43,9 @@ Guide only. Divers without a guide can enter the system from Cenote Tak Bi Ha or
 
 # Maps
 
-- CaveDB - The Pit - 5547360c-0785aa88.kml — [Source](https://media.cavedb.net/ap-southeast-2:edfa08f0-c48d-4d81-bbc5-5d2c57a744e6/ae9b9705-a628-4a27-a695-27bacc72caef.kml)
+- The Pit - 5547360c-0785aa88.kml
 
-- CaveDB - The Pit - 5547360c-bd2db5e0.kml — [Source](https://media.cavedb.net/ap-southeast-2:edfa08f0-c48d-4d81-bbc5-5d2c57a744e6/ae9b9705-a628-4a27-a695-27bacc72caef.kml)
+- The Pit - 5547360c-bd2db5e0.kml
 
 # References
 
-- [CaveDB record](https://app.cavedb.net/share/bd2db5e0-b307-47f5-a53e-588303a7b185.html)

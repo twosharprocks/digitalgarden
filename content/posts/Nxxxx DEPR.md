@@ -3,7 +3,6 @@ title: "Nxxxx DEPR"
 created: 2023-12-03
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

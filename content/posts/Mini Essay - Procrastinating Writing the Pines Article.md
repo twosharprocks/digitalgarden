@@ -3,7 +3,6 @@ title: Mini Essay - Procrastinating Writing the Pines Article
 created: 2025-05-30
 updated: 2025-05-30
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

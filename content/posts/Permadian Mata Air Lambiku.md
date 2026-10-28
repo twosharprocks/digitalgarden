@@ -3,7 +3,6 @@ title: "Permadian Mata Air Lambiku"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -34,4 +33,4 @@ address: "Jalan Tanpa Nama, Muna Regency, South East Sulawesi, IDN, 93654"
 # References
 
 ## Images
-- ![Permadian Mata Air Lambiku Cavedb Permadian Mata Air Lambiku 7b2b851a Ab6a1ed8](/images/Permadian%20Mata%20Air%20Lambiku%20-%20CaveDB%20-%20Permadian%20Mata%20Air%20Lambiku%20-%207b2b851a-ab6a1ed8.jpg)
+- ![Permadian Mata Air Lambiku Permadian Mata Air Lambiku 7b2b851a Ab6a1ed8](/images/Permadian%20Mata%20Air%20Lambiku%20-%20Permadian%20Mata%20Air%20Lambiku%20-%207b2b851a-ab6a1ed8.jpg)

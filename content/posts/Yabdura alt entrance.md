@@ -3,7 +3,6 @@ title: "Yabdura alt entrance"
 created: 2024-04-26
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -43,4 +42,3 @@ additional-location-records: ["Coordinates: -32.084518, 126.52368200000001; Alti
 
 # References
 
-- [CaveDB record](https://app.cavedb.net/share/70870957-a771-45f3-b6df-ab742d2e3542.html)

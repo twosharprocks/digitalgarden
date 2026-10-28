@@ -3,7 +3,6 @@ title: Chan Chemuyil Sur
 created: 2023-06-12
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -40,9 +39,9 @@ address: "17, Cuba, Tulum Municipality, Quintana Roo, MEX, 77774"
 
 # Maps
 
-- CaveDB - Chan Chemuyil Sur 2 - 1a5782eb-d3e25240.kml — [Source](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/c8abaa90-f6a7-483f-82e4-c483c80cd045.kml)
+- Chan Chemuyil Sur 2 - 1a5782eb-d3e25240.kml
 
 # References
 
 ## Images
-- ![Chan Chemuyil Sur Cavedb Screenshot 2023 06 12 At 7.01.20 AM 330f789c D3e25240](/images/Chan%20Chemuyil%20Sur%20-%20CaveDB%20-%20Screenshot%202023-06-12%20at%207.01.20%20AM%20-%20330f789c-d3e25240.png)
+- ![Chan Chemuyil Sur Screenshot 2023 06 12 At 7.01.20 AM 330f789c D3e25240](/images/Chan%20Chemuyil%20Sur%20-%20Screenshot%202023-06-12%20at%207.01.20%20AM%20-%20330f789c-d3e25240.png)

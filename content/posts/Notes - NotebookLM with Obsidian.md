@@ -3,7 +3,6 @@ title: Notes - NotebookLM with Obsidian
 created: 2025-04-06
 updated: 2026-09-28
 status: seed
-draft: false
 tags:
   - knowledge-management
 related:

@@ -3,7 +3,6 @@ title: CISSP
 created: 2025-07-15
 updated: 2026-07-08
 status: seed
-draft: false
 tags:
   - cyber-security
   - cissp

@@ -3,7 +3,6 @@ title: "Orient Cave"
 created: 2023-06-28
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -46,4 +45,3 @@ additional-location-records: ["Coordinates: -33.821527, 150.021932; Altitude: 82
 
 - **GoogleMaps:** https://goo.gl/maps/oND3MJN7x3663kp68
 
-- [CaveDB record](https://app.cavedb.net/share/8ab0619b-ed16-4d07-bf0d-24e8f9273d04.html)

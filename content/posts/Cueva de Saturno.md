@@ -3,7 +3,6 @@ title: "Cueva de Saturno"
 created: 2025-06-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -41,5 +40,5 @@ address: "Vía Sin Nombre, Cardenas, Matanzas, CUB"
 # References
 
 ## Images
-- ![Cueva De Saturno Cavedb Saturno 1f683c8e 551f7ea9](/images/Cueva%20de%20Saturno%20-%20CaveDB%20-%20saturno%20-%201f683c8e-551f7ea9.jpg)
-- ![Cueva De Saturno Cavedb Saturno2 73679712 551f7ea9](/images/Cueva%20de%20Saturno%20-%20CaveDB%20-%20saturno2%20-%2073679712-551f7ea9.jpg)
+- ![Cueva De Saturno Saturno 1f683c8e 551f7ea9](/images/Cueva%20de%20Saturno%20-%20saturno%20-%201f683c8e-551f7ea9.jpg)
+- ![Cueva De Saturno Saturno2 73679712 551f7ea9](/images/Cueva%20de%20Saturno%20-%20saturno2%20-%2073679712-551f7ea9.jpg)

@@ -1,9 +1,8 @@
 ---
 title: Website - Host a Bogan-free Australia Day BBQ
 created: 2026-01-26
-updated: 2026-06-18
+updated: 2026-10-24
 status: tree
-draft: false
 tags:
   - writing
 related: "[[Writing]]"
@@ -76,3 +75,9 @@ Happy Australia Day Everyone
 _Mighty Ginge Final Note: I’m hosting an Australia Day Special on StroudFM starting at 8pm this Wednesday night (4am Jan 26th for _W.A. listeners, 6am Jan 26th for the East Coast), inflicting purely Australian music on the people of Stroud, Gloucestershire.__
 
 __Listen in live at stroudfm.co.uk or a recording will be available for download in the [Media section](https://web.archive.org/web/20141026172315/http://www.themightyginge.com/blog/media/ "Mighty Ginge - Media") immediately after broadcast.__
+
+## Recovered media
+
+- [Video 1](https://www.youtube.com/watch?v=qA8gJoT5yl4)
+
+- [Video 2](https://www.youtube.com/watch?v=1C89osd7Eic)

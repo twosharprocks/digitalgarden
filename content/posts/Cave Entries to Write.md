@@ -3,7 +3,6 @@ title: Cave Entries to Write
 created: 2025-11-02
 updated: 2025-11-02
 status: seed
-draft: false
 tags:
   - writing
   - diving
@@ -11,7 +10,7 @@ tags:
 related: 
   - "[[Writing]]"
   - "[[Diving]]"
-  - "[[CaveDB]]"
+  - "[[Cave Data Ideas]]"
 ---
 ---
 - [The Three Sisters - 5L13]({{< relref "posts/The Three Sisters - 5L13.md" >}})

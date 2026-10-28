@@ -3,7 +3,6 @@ title: "CISA - 3A - IS Acquisition and Development"
 created: 2026-04-26
 updated: 2026-06-28
 status: seed
-draft: false
 tags:
   - study
   - cisa

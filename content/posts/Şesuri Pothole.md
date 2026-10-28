@@ -3,7 +3,6 @@ title: "Şesuri Pothole"
 created: 2025-09-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -74,7 +73,7 @@ After 1978, nothing more was discovered in this chasm, but various impostors cla
 - **Wikipedia - Ro:** https://ro.wikipedia.org/wiki/Avenul_din_%C8%98esuri
 
 ## Images
-- ![Şesuri Pothole Cavedb Avenul Din Sesuri 132e3e1d 28d53d39](/images/%C5%9Eesuri%20Pothole%20-%20CaveDB%20-%20Avenul-din-Sesuri%20-%20132e3e1d-28d53d39.jpg)
-- ![Şesuri Pothole Cavedb Avenul Din Sesuri2 4f2e0ce7 28d53d39](/images/%C5%9Eesuri%20Pothole%20-%20CaveDB%20-%20Avenul-din-Sesuri2%20-%204f2e0ce7-28d53d39.jpg)
-- ![Şesuri Pothole Cavedb Avenul Din Sesuri Entry 2c060039 28d53d39](/images/%C5%9Eesuri%20Pothole%20-%20CaveDB%20-%20Avenul-din-Sesuri%20-%20entry%20-%202c060039-28d53d39.jpg)
-- ![Şesuri Pothole Cavedb Avenul Din Sesuri Profil 356c9a6b 28d53d39](/images/%C5%9Eesuri%20Pothole%20-%20CaveDB%20-%20avenul-din-sesuri-profil%20-%20356c9a6b-28d53d39.jpg)
+- ![Şesuri Pothole Avenul Din Sesuri 132e3e1d 28d53d39](/images/%C5%9Eesuri%20Pothole%20-%20Avenul-din-Sesuri%20-%20132e3e1d-28d53d39.jpg)
+- ![Şesuri Pothole Avenul Din Sesuri2 4f2e0ce7 28d53d39](/images/%C5%9Eesuri%20Pothole%20-%20Avenul-din-Sesuri2%20-%204f2e0ce7-28d53d39.jpg)
+- ![Şesuri Pothole Avenul Din Sesuri Entry 2c060039 28d53d39](/images/%C5%9Eesuri%20Pothole%20-%20Avenul-din-Sesuri%20-%20entry%20-%202c060039-28d53d39.jpg)
+- ![Şesuri Pothole Avenul Din Sesuri Profil 356c9a6b 28d53d39](/images/%C5%9Eesuri%20Pothole%20-%20avenul-din-sesuri-profil%20-%20356c9a6b-28d53d39.jpg)

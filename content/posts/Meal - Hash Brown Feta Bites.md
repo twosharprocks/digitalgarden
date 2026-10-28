@@ -5,7 +5,6 @@ created: 2026-04-16
 updated: 2026-07-08
 type:
 status: seed
-draft: false
 tags:
   - meal
   - snack

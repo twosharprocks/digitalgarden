@@ -3,7 +3,6 @@ title: "Unnamed Sinkholes"
 created: 2025-06-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -30,4 +29,4 @@ address: "River Fire Ln, Glenelg Shire, Victoria, AUS, 3304"
 # References
 
 ## Images
-- ![Unnamed Sinkholes Cavedb Sinkholes2 28d95198 50aaa175](/images/Unnamed%20Sinkholes%20-%20CaveDB%20-%20Sinkholes2%20-%2028d95198-50aaa175.jpg)
+- ![Unnamed Sinkholes Sinkholes2 28d95198 50aaa175](/images/Unnamed%20Sinkholes%20-%20Sinkholes2%20-%2028d95198-50aaa175.jpg)

@@ -3,7 +3,6 @@ title: Website - Partner Parallels, Growth & Foreshadowing – 25 September 2015
 created: 2026-01-20
 updated: 2026-06-18
 status: tree
-draft: false
 tags:
   - writing
 related: "[[Writing]]"

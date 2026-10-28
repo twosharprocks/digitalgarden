@@ -3,7 +3,6 @@ title: Article - Corra-Lynn
 created: 2023-08-07
 updated: 2026-07-02
 status: reference
-draft: false
 tags:
   - writing
   - diving

@@ -3,7 +3,6 @@ title: Mini Essay - Emotional Baggage
 created: 2026-05-26
 updated: 2026-06-23
 status: seed
-draft: false
 tags:
   - mini-essay
   - writing

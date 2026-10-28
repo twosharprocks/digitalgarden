@@ -3,7 +3,6 @@ title: "Unnamed Forestry - 354af1bc"
 created: 2023-07-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -47,5 +46,5 @@ address: "Johnsons Ln, Tantanoola, South Australia, AUS, 5280"
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: ?
 
 ## Images
-- ![Unnamed Forestry Cavedb 20240203 084451 384c639c 354af1bc](/images/Unnamed%20Forestry%20-%20CaveDB%20-%2020240203_084451%20-%20384c639c-354af1bc.jpg)
-- ![Unnamed Forestry Cavedb 20240203 084430 5a8e938e 354af1bc](/images/Unnamed%20Forestry%20-%20CaveDB%20-%2020240203_084430%20-%205a8e938e-354af1bc.jpg)
+- ![Unnamed Forestry 20240203 084451 384c639c 354af1bc](/images/Unnamed%20Forestry%20-%2020240203_084451%20-%20384c639c-354af1bc.jpg)
+- ![Unnamed Forestry 20240203 084430 5a8e938e 354af1bc](/images/Unnamed%20Forestry%20-%2020240203_084430%20-%205a8e938e-354af1bc.jpg)

@@ -3,7 +3,6 @@ title: "Clearing - 42d2ee85"
 created: 2023-07-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,4 +38,4 @@ address: "32743, Princes Hwy, Tantanoola, South Australia, AUS, 5280"
 # References
 
 ## Images
-- ![Clearing Cavedb IMG 20210826 170805 7 E6efe9fa 42d2ee85](/images/Clearing%20-%20CaveDB%20-%20IMG_20210826_170805_7%20-%20e6efe9fa-42d2ee85.jpg)
+- ![Clearing IMG 20210826 170805 7 E6efe9fa 42d2ee85](/images/Clearing%20-%20IMG_20210826_170805_7%20-%20e6efe9fa-42d2ee85.jpg)

@@ -1,9 +1,8 @@
 ---
 title: Website - 101 Things - Drinking (34, 65 & 93)
 created: 2026-01-21
-updated: 2026-06-18
+updated: 2026-10-24
 status: tree
-draft: false
 tags:
   - writing
 related: "[[Writing]]"
@@ -83,3 +82,7 @@ NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOoooooooooooooooooooooooooooooooooooooooooooooooo
 | --- | --- | --- |
 
 ![](https://web.archive.org/web/20140921211809im_/http://www.themightyginge.com/web/20140921213212/https://pixel.wp.com/g.gif?host=www.themightyginge.com&rand=0.19094221536351166&v=ext&j=1%3A3.1.1&blog=16314471&post=1907&tz=8&ref=)
+
+## Recovered media
+
+![trafalgar 101 Things: Drinking (#34, #65 & 93)](https://web.archive.org/web/20140921211809im_/http://www.themightyginge.com/blog/wp-content/uploads/2012/03/trafalgar.jpg)

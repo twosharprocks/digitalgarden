@@ -3,7 +3,6 @@ title: "Unnamed Forestry - 412a830e"
 created: 2023-07-31
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -37,4 +36,4 @@ address: "Summer Hill Rd, Caroline, South Australia, AUS, 5291"
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: 1.5 x1.5 into small opening. Features: Cave
 
 ## Images
-- ![Unnamed Forestry Cavedb 20240828 170847 04f0af9b 412a830e](/images/Unnamed%20Forestry%20-%20CaveDB%20-%2020240828_170847%20-%2004f0af9b-412a830e.jpg)
+- ![Unnamed Forestry 20240828 170847 04f0af9b 412a830e](/images/Unnamed%20Forestry%20-%2020240828_170847%20-%2004f0af9b-412a830e.jpg)

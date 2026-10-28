@@ -3,7 +3,6 @@ title: "Dingo Fence - Turn Off"
 created: 2023-06-28
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -31,7 +30,3 @@ address: "Madura, Western Australia, AUS, 6443"
 
 - **Goes to water:** No
 
-# References
-
-## Images
-- **Unavailable CaveDB image:** 17212010673624326093429977365030.jpg — media ID: `61058e85-dbe3-4b26-86e2-b8ddb393fc02`; binary returned HTTP 403 on 11 September 2026.

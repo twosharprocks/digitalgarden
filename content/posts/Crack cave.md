@@ -3,7 +3,6 @@ title: "Crack cave"
 created: 2023-05-06
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -49,12 +48,10 @@ From Col's List
 # References
 
 ## Images
-- ![Crack Cave Cavedb 20230806 164609 42ddc5db 874fd416](/images/Crack%20cave%20-%20CaveDB%20-%2020230806_164609%20-%2042ddc5db-874fd416.jpg)
-- ![Crack Cave Cavedb 20230806 163753 C5f78ac9 874fd416](/images/Crack%20cave%20-%20CaveDB%20-%2020230806_163753%20-%20c5f78ac9-874fd416.jpg)
-- ![Crack Cave Cavedb 20230806 170313 0a5b3949 874fd416](/images/Crack%20cave%20-%20CaveDB%20-%2020230806_170313%20-%200a5b3949-874fd416.jpg)
-- ![Crack Cave Cavedb 20230806 164618 De99c645 874fd416](/images/Crack%20cave%20-%20CaveDB%20-%2020230806_164618%20-%20de99c645-874fd416.jpg)
-- ![Crack Cave Cavedb 20230806 170333 Aee92386 874fd416](/images/Crack%20cave%20-%20CaveDB%20-%2020230806_170333%20-%20aee92386-874fd416.jpg)
-- ![Crack Cave Cavedb 20230806 170318 Ba69b491 874fd416](/images/Crack%20cave%20-%20CaveDB%20-%2020230806_170318%20-%20ba69b491-874fd416.jpg)
-- ![Crack Cave Cavedb Mor 5c07a6d3 874fd416](/images/Crack%20cave%20-%20CaveDB%20-%20mor%20-%205c07a6d3-874fd416.jpg)
-- [Untitled video.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/09970a95-5033-467d-b00e-7b8d31c77090.mp4)
-- [2Untitled video.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/011a2d98-26f5-4d8b-baa8-958dffcdd339.mp4)
+- ![Crack Cave 20230806 164609 42ddc5db 874fd416](/images/Crack%20cave%20-%2020230806_164609%20-%2042ddc5db-874fd416.jpg)
+- ![Crack Cave 20230806 163753 C5f78ac9 874fd416](/images/Crack%20cave%20-%2020230806_163753%20-%20c5f78ac9-874fd416.jpg)
+- ![Crack Cave 20230806 170313 0a5b3949 874fd416](/images/Crack%20cave%20-%2020230806_170313%20-%200a5b3949-874fd416.jpg)
+- ![Crack Cave 20230806 164618 De99c645 874fd416](/images/Crack%20cave%20-%2020230806_164618%20-%20de99c645-874fd416.jpg)
+- ![Crack Cave 20230806 170333 Aee92386 874fd416](/images/Crack%20cave%20-%2020230806_170333%20-%20aee92386-874fd416.jpg)
+- ![Crack Cave 20230806 170318 Ba69b491 874fd416](/images/Crack%20cave%20-%2020230806_170318%20-%20ba69b491-874fd416.jpg)
+- ![Crack Cave Mor 5c07a6d3 874fd416](/images/Crack%20cave%20-%20mor%20-%205c07a6d3-874fd416.jpg)

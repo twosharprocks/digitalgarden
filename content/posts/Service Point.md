@@ -3,7 +3,6 @@ title: "Service Point"
 created: 2023-08-07
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,4 +38,4 @@ address: "33725, Princes Hwy, Wandilo, South Australia, AUS, 5291"
 # References
 
 ## Images
-- ![Service Point Cavedb PXL 20230807 033548612 046c11a9 B01b4901](/images/Service%20Point%20-%20CaveDB%20-%20PXL_20230807_033548612%20-%20046c11a9-b01b4901.jpg)
+- ![Service Point PXL 20230807 033548612 046c11a9 B01b4901](/images/Service%20Point%20-%20PXL_20230807_033548612%20-%20046c11a9-b01b4901.jpg)

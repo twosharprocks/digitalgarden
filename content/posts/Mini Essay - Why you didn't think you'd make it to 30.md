@@ -3,7 +3,6 @@ title: Mini Essay - Why you didn't think you'd make it to 30
 created: 2025-11-01
 updated: 2025-11-01
 status: tree
-draft: false
 tags:
   - mini-essay
   - personal

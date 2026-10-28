@@ -3,7 +3,6 @@ title: "Chimney Cave - 9450e16a"
 created: 2024-11-21
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

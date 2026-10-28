@@ -3,7 +3,6 @@ title: "Hand Cave"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -50,7 +49,5 @@ The entrance to Hand Cave is a one metre diameter hole near the top of a cliff f
 - **ASF:** Entrance is unknown ent.type; (Unknown entrances); development is narrow passage leads to small chamber; karst type is unknown; length is Unknown m ; vertical extent is Unknown m.
 
 ## Images
-- ![L0003 Hand Cave Cavedb 20231103 124726 47221760 63115711](/images/L0003%20-%20Hand%20Cave%20-%20CaveDB%20-%2020231103_124726%20-%2047221760-63115711.jpg)
-- ![L0003 Hand Cave Cavedb 20231103 124724 9ec697e4 63115711](/images/L0003%20-%20Hand%20Cave%20-%20CaveDB%20-%2020231103_124724%20-%209ec697e4-63115711.jpg)
-- [20231103_124729.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/6f2f11f2-6ac0-477c-881b-eceaab9cf1a5.mp4)
-- [20231103_124729.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/70e409d2-9d51-4501-b048-6b94a2b13fee.mp4)
+- ![L0003 Hand Cave 20231103 124726 47221760 63115711](/images/L0003%20-%20Hand%20Cave%20-%2020231103_124726%20-%2047221760-63115711.jpg)
+- ![L0003 Hand Cave 20231103 124724 9ec697e4 63115711](/images/L0003%20-%20Hand%20Cave%20-%2020231103_124724%20-%209ec697e4-63115711.jpg)

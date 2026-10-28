@@ -3,7 +3,6 @@ title: "Cave"
 created: 2023-08-14
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -45,5 +44,5 @@ Vertical access required to reach doline floor
 # References
 
 ## Images
-- ![Cave Cavedb DJI 0038 27e6cf82 670ddb1f](/images/Cave%20-%20CaveDB%20-%20DJI_0038%20-%2027e6cf82-670ddb1f.jpg)
-- ![Cave Cavedb DJI 0036 Da6d373c 670ddb1f](/images/Cave%20-%20CaveDB%20-%20DJI_0036%20-%20da6d373c-670ddb1f.jpg)
+- ![Cave DJI 0038 27e6cf82 670ddb1f](/images/Cave%20-%20DJI_0038%20-%2027e6cf82-670ddb1f.jpg)
+- ![Cave DJI 0036 Da6d373c 670ddb1f](/images/Cave%20-%20DJI_0036%20-%20da6d373c-670ddb1f.jpg)

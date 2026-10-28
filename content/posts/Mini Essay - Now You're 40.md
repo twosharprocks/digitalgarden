@@ -3,7 +3,6 @@ title: Mini Essay - Now You're 40
 created: 2025-11-06
 updated: 2025-11-06
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

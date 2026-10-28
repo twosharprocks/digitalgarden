@@ -3,7 +3,6 @@ title: "L157 - Location TBC"
 created: 2023-08-21
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -51,5 +50,5 @@ It is obviously of little or no interest to recreational cavers!
 - **LSECR:** Pg 310
 
 ## Images
-- ![L157 L157 Location TBC Cavedb 0311 2254f947 Edff9be8](/images/L157%20-%20L157%20-%20Location%20TBC%20-%20CaveDB%20-%200311%20-%202254f947-edff9be8.jpg)
-- ![L157 L157 Location TBC Cavedb 0310 A5c663e6 Edff9be8](/images/L157%20-%20L157%20-%20Location%20TBC%20-%20CaveDB%20-%200310%20-%20a5c663e6-edff9be8.jpg)
+- ![L157 L157 Location TBC 0311 2254f947 Edff9be8](/images/L157%20-%20L157%20-%20Location%20TBC%20-%200311%20-%202254f947-edff9be8.jpg)
+- ![L157 L157 Location TBC 0310 A5c663e6 Edff9be8](/images/L157%20-%20L157%20-%20Location%20TBC%20-%200310%20-%20a5c663e6-edff9be8.jpg)

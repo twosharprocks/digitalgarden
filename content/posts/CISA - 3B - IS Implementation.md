@@ -3,7 +3,6 @@ title: "CISA - 3B - IS Implementation"
 created: 2026-04-27
 updated: 2026-06-30
 status: seed
-draft: false
 tags:
   - cyber-security
   - cisa

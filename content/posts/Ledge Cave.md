@@ -3,7 +3,6 @@ title: "Ledge Cave"
 created: 2023-07-01
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

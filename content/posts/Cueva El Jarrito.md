@@ -3,7 +3,6 @@ title: "Cueva El Jarrito"
 created: 2025-06-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

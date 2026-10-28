@@ -3,7 +3,6 @@ title: Website – Hallmarks of Louisiana & Mars One Breadcrumbs – 26 November
 created: 2026-01-20
 updated: 2026-06-18
 status: tree
-draft: false
 tags:
   - writing
 related: "[[Writing]]"

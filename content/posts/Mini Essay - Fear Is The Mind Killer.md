@@ -3,7 +3,6 @@ title: Mini Essay - Fear Is The Mind Killer
 created: 2025-04-24
 updated: 2025-10-30
 status: tree
-draft: false
 tags:
   - philosophy
   - mini-essay

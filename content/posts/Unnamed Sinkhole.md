@@ -3,7 +3,6 @@ title: "Unnamed Sinkhole"
 created: 2025-06-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -31,4 +30,4 @@ address: "River Fire Line Track, Glenelg Shire, Victoria, AUS, 3304"
 # References
 
 ## Images
-- ![Unnamed Sinkhole Cavedb Mossy Cave E374e3d1 3eb6c226](/images/Unnamed%20Sinkhole%20-%20CaveDB%20-%20mossy%20cave%20-%20e374e3d1-3eb6c226.jpg)
+- ![Unnamed Sinkhole Mossy Cave E374e3d1 3eb6c226](/images/Unnamed%20Sinkhole%20-%20mossy%20cave%20-%20e374e3d1-3eb6c226.jpg)

@@ -3,7 +3,6 @@ title: Mini Essay - Digital Garden
 created: 2025-04-24
 updated: 2026-09-28
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

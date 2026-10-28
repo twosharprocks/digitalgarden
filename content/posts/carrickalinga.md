@@ -3,7 +3,6 @@ title: Carrickalinga
 created: 2026-01-22
 updated: 2026-09-11
 status: seed
-draft: false
 tags:
   - diving
   - caving

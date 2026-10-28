@@ -3,7 +3,6 @@ title: "Earl's Cave"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -63,10 +62,9 @@ Had it not been for the efforts of representatives of the local Council and othe
 This sinkhole is still a potentially serious health-hazard and compre- hensive bacteriological tests should be carried out before any underwater explorers get wet here.
 
 ## Images
-- ![L0101 Earl's Cave Cavedb 2024 03 23 14.15.36 8785649d 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%20CaveDB%20-%202024-03-23%2014.15.36%20-%208785649d-8a52fefd.jpg)
-- ![L0101 Earl's Cave Cavedb 2024 03 23 14.15.07 Adede9ed 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%20CaveDB%20-%202024-03-23%2014.15.07%20-%20adede9ed-8a52fefd.jpg)
-- ![L0101 Earl's Cave Cavedb 2024 03 23 14.15.03 Dff2fc92 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%20CaveDB%20-%202024-03-23%2014.15.03%20-%20dff2fc92-8a52fefd.jpg)
-- ![L0101 Earl's Cave Cavedb 2024 03 23 14.19.15 804367c0 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%20CaveDB%20-%202024-03-23%2014.19.15%20-%20804367c0-8a52fefd.jpg)
-- ![L0101 Earl's Cave Cavedb 2024 03 23 14.19.20 750f2be1 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%20CaveDB%20-%202024-03-23%2014.19.20%20-%20750f2be1-8a52fefd.jpg)
-- ![L0101 Earl's Cave Cavedb Earl F65ae144 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%20CaveDB%20-%20earl%20-%20f65ae144-8a52fefd.jpg)
-- [2024-03-23 14.16.37.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/1413b6cf-34a3-40be-a8a4-f14412b74c83.mp4)
+- ![L0101 Earl's Cave 2024 03 23 14.15.36 8785649d 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%202024-03-23%2014.15.36%20-%208785649d-8a52fefd.jpg)
+- ![L0101 Earl's Cave 2024 03 23 14.15.07 Adede9ed 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%202024-03-23%2014.15.07%20-%20adede9ed-8a52fefd.jpg)
+- ![L0101 Earl's Cave 2024 03 23 14.15.03 Dff2fc92 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%202024-03-23%2014.15.03%20-%20dff2fc92-8a52fefd.jpg)
+- ![L0101 Earl's Cave 2024 03 23 14.19.15 804367c0 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%202024-03-23%2014.19.15%20-%20804367c0-8a52fefd.jpg)
+- ![L0101 Earl's Cave 2024 03 23 14.19.20 750f2be1 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%202024-03-23%2014.19.20%20-%20750f2be1-8a52fefd.jpg)
+- ![L0101 Earl's Cave Earl F65ae144 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%20earl%20-%20f65ae144-8a52fefd.jpg)

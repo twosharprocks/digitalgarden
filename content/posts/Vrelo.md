@@ -3,7 +3,6 @@ title: "Vrelo"
 created: 2025-09-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -46,7 +45,7 @@ address: "Rrugë Pa Emër, Saraj, Greater Skopje, MKD"
 - **Club Vrelo:** https://matka-vrelo.com.mk/
 
 ## Images
-- ![Vrelo Cavedb Vrleo Cave 3924f02d 84b13d26](/images/Vrelo%20-%20CaveDB%20-%20vrleo%20-%20cave%20-%203924f02d-84b13d26.jpg)
+- ![Vrelo Vrleo Cave 3924f02d 84b13d26](/images/Vrelo%20-%20vrleo%20-%20cave%20-%203924f02d-84b13d26.jpg)
 
 - [North Macedonia]({{< relref "posts/North Macedonia.md" >}})
 

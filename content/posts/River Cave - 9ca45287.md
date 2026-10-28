@@ -3,7 +3,6 @@ title: "River Cave - 9ca45287"
 created: 2023-07-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -51,6 +50,6 @@ Repository - Sketchsheets, Survex and Illustrator files
 - **SUSS:** https://suss.caves.org.au/cave/cooleman/CP6_River/
 
 ## Images
-- ![CP 6 River Cave Cavedb Cp6river D265eb41 9ca45287](/images/CP-6%20-%20River%20Cave%20-%20CaveDB%20-%20cp6river%20-%20d265eb41-9ca45287.jpg)
-- ![CP 6 River Cave Cavedb Cp6riversketch04 82139647 9ca45287](/images/CP-6%20-%20River%20Cave%20-%20CaveDB%20-%20CP6Riversketch04%20-%2082139647-9ca45287.jpg)
-- CaveDB - cp6river - d45966fc-9ca45287.pdf — [Source](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/543bf1e2-be4b-4344-a30b-ac5ad7a184f3.pdf)
+- ![CP 6 River Cave Cp6river D265eb41 9ca45287](/images/CP-6%20-%20River%20Cave%20-%20cp6river%20-%20d265eb41-9ca45287.jpg)
+- ![CP 6 River Cave Cp6riversketch04 82139647 9ca45287](/images/CP-6%20-%20River%20Cave%20-%20CP6Riversketch04%20-%2082139647-9ca45287.jpg)
+- cp6river - d45966fc-9ca45287.pdf

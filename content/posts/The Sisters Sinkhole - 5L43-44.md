@@ -3,7 +3,6 @@ title: "The Sisters Sinkhole - 5L43-44"
 created: 2026-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -93,4 +92,3 @@ These sinkholes were reportedly discovered on May 5th, 1844 by Governor George G
 - **www.cavediving.net.au:** https://www.cavediving.net.au/images/articles/maps/5L-43-44.gif
 - **https://www.cavediving.net.au/index.php/siteinfo/?site=50:** Two water-filled dolines located side by side. Visibility usually poor. Maximum depth approx 18m.
 
-- [CaveDB record](https://app.cavedb.net/share/6a023764-2748-40f2-93ad-89aa53403443.html)

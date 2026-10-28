@@ -3,7 +3,6 @@ title: "Echo Cave"
 created: 2024-04-02
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -52,5 +51,5 @@ Private - 249 Tollner Road, Compton
 # References
 
 ## Images
-- ![L89 Echo Cave Cavedb Echo2 805bcaa9 5741fd47](/images/L89%20-%20Echo%20Cave%20-%20CaveDB%20-%20Echo2%20-%20805bcaa9-5741fd47.jpg)
-- ![L89 Echo Cave Cavedb Echo1 Eddc50ed 5741fd47](/images/L89%20-%20Echo%20Cave%20-%20CaveDB%20-%20Echo1%20-%20eddc50ed-5741fd47.jpg)
+- ![L89 Echo Cave Echo2 805bcaa9 5741fd47](/images/L89%20-%20Echo%20Cave%20-%20Echo2%20-%20805bcaa9-5741fd47.jpg)
+- ![L89 Echo Cave Echo1 Eddc50ed 5741fd47](/images/L89%20-%20Echo%20Cave%20-%20Echo1%20-%20eddc50ed-5741fd47.jpg)

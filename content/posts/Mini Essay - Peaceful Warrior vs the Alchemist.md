@@ -3,7 +3,6 @@ title: Mini Essay - Peaceful Warrior vs the Alchemist
 created: 2025-06-10
 updated: 2026-06-27
 status: tree
-draft: false
 tags:
   - mini-essay
   - philosophy

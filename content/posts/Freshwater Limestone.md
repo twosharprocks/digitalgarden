@@ -3,7 +3,6 @@ title: "Freshwater Limestone"
 created: 2025-06-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -23,4 +22,4 @@ address: "Great South West Walk, Glenelg Shire, Victoria, AUS, 3292"
 # References
 
 ## Images
-- ![Freshwater Limestone Cavedb Freshwater 8d4ca070 8909778e](/images/Freshwater%20Limestone%20-%20CaveDB%20-%20freshwater%20-%208d4ca070-8909778e.jpg)
+- ![Freshwater Limestone Freshwater 8d4ca070 8909778e](/images/Freshwater%20Limestone%20-%20freshwater%20-%208d4ca070-8909778e.jpg)

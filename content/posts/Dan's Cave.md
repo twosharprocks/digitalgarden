@@ -3,7 +3,6 @@ title: "Dan's Cave"
 created: 2023-07-03
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -91,13 +90,13 @@ Last updated 7 July 2014
 
 # Maps
 
-- ![Dan's Cave Cavedb Abaco Caves Map Jpg B100bf40 Fd852e75](/images/Dan%27s%20Cave%20-%20CaveDB%20-%20abaco-caves-map-jpg%20-%20b100bf40-fd852e75.jpg)
+- ![Dan's Cave Abaco Caves Map Jpg B100bf40 Fd852e75](/images/Dan%27s%20Cave%20-%20abaco-caves-map-jpg%20-%20b100bf40-fd852e75.jpg)
 
 # References
 
 - **Rebreather World:** http://www.rebreatherworld.com/trip-reports/25336-cave-diving-with-bahamas-underground.html
 
 ## Images
-- ![Dan's Cave Cavedb 117711000 1688508654639836 7479915030073406689 N 7ad0afae Fd852e75](/images/Dan%27s%20Cave%20-%20CaveDB%20-%20117711000_1688508654639836_7479915030073406689_n%20-%207ad0afae-fd852e75.jpg)
-- ![Dan's Cave Cavedb Abaco Caves Map Jpg B100bf40 Fd852e75](/images/Dan%27s%20Cave%20-%20CaveDB%20-%20abaco-caves-map-jpg%20-%20b100bf40-fd852e75.jpg)
-- ![Dan's Cave Cavedb Abaco Caves Ralph Dan Jpg 8b00cb8a Fd852e75](/images/Dan%27s%20Cave%20-%20CaveDB%20-%20abaco-caves-ralph-dan-jpg%20-%208b00cb8a-fd852e75.jpg)
+- ![Dan's Cave 117711000 1688508654639836 7479915030073406689 N 7ad0afae Fd852e75](/images/Dan%27s%20Cave%20-%20117711000_1688508654639836_7479915030073406689_n%20-%207ad0afae-fd852e75.jpg)
+- ![Dan's Cave Abaco Caves Map Jpg B100bf40 Fd852e75](/images/Dan%27s%20Cave%20-%20abaco-caves-map-jpg%20-%20b100bf40-fd852e75.jpg)
+- ![Dan's Cave Abaco Caves Ralph Dan Jpg 8b00cb8a Fd852e75](/images/Dan%27s%20Cave%20-%20abaco-caves-ralph-dan-jpg%20-%208b00cb8a-fd852e75.jpg)

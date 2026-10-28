@@ -3,7 +3,6 @@ title: "Wookey Hole"
 created: 2024-11-10
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -52,4 +51,4 @@ The caves have been used by humans for around 45,000 years, demonstrated by the 
 # References
 
 ## Images
-- CaveDB - Tech_WookeyHoleCave_NikolaVoltasova_100_protected - 34d5f795-d35b68bf.pdf — [Source](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/45a482ec-f91a-4365-ae0d-c46609a119c4.pdf)
+- Tech_WookeyHoleCave_NikolaVoltasova_100_protected - 34d5f795-d35b68bf.pdf

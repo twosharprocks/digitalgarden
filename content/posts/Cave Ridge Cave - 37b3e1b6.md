@@ -3,7 +3,6 @@ title: "Cave Ridge Cave - 37b3e1b6"
 created: 2023-08-13
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

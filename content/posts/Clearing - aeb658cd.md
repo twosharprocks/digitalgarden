@@ -3,7 +3,6 @@ title: "Clearing - aeb658cd"
 created: 2023-07-30
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -41,5 +40,5 @@ address: "Johnsons Ln, Tantanoola, South Australia, AUS, 5280"
 # References
 
 ## Images
-- ![Clearing Cavedb IMG 20210801 152719 4 41385cb9 Aeb658cd](/images/Clearing%20-%20CaveDB%20-%20IMG_20210801_152719_4%20-%2041385cb9-aeb658cd.jpg)
-- ![Clearing Cavedb IMG 20210801 152812 5 58c7f3fd Aeb658cd](/images/Clearing%20-%20CaveDB%20-%20IMG_20210801_152812_5%20-%2058c7f3fd-aeb658cd.jpg)
+- ![Clearing IMG 20210801 152719 4 41385cb9 Aeb658cd](/images/Clearing%20-%20IMG_20210801_152719_4%20-%2041385cb9-aeb658cd.jpg)
+- ![Clearing IMG 20210801 152812 5 58c7f3fd Aeb658cd](/images/Clearing%20-%20IMG_20210801_152812_5%20-%2058c7f3fd-aeb658cd.jpg)

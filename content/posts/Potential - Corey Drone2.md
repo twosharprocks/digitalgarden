@@ -3,7 +3,6 @@ title: "Potential - Corey Drone2"
 created: 2023-04-26
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

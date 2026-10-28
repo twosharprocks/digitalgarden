@@ -3,7 +3,6 @@ title: "West Drik Drik Karst Area"
 created: 2023-08-13
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

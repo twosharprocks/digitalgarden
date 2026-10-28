@@ -3,7 +3,6 @@ title: "Wirrulla Campsite"
 created: 2025-03-24
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

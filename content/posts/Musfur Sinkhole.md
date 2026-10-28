@@ -3,7 +3,6 @@ title: "Musfur Sinkhole"
 created: 2023-07-01
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -62,5 +61,5 @@ The sinkhole has a chain- link fence around it but is open to visitors via a sma
 - **Regency Holidays:** https://www.regencyholidays.com/blog/biggest-sinkhole-in-qatar/
 
 ## Images
-- ![Musfur Sinkhole Cavedb History Of The Musufur Sinkhole In Qatar Min F2227d91 8e2107cd](/images/Musfur%20Sinkhole%20-%20CaveDB%20-%20History-of-The-Musufur-Sinkhole-in-Qatar-min%20-%20f2227d91-8e2107cd.jpg)
-- ![Musfur Sinkhole Cavedb Things To Do In Musfur Sinkhole Min 3d3fce15 8e2107cd](/images/Musfur%20Sinkhole%20-%20CaveDB%20-%20Things-To-Do-In-Musfur-Sinkhole-min%20-%203d3fce15-8e2107cd.jpg)
+- ![Musfur Sinkhole History Of The Musufur Sinkhole In Qatar Min F2227d91 8e2107cd](/images/Musfur%20Sinkhole%20-%20History-of-The-Musufur-Sinkhole-in-Qatar-min%20-%20f2227d91-8e2107cd.jpg)
+- ![Musfur Sinkhole Things To Do In Musfur Sinkhole Min 3d3fce15 8e2107cd](/images/Musfur%20Sinkhole%20-%20Things-To-Do-In-Musfur-Sinkhole-min%20-%203d3fce15-8e2107cd.jpg)

@@ -3,7 +3,6 @@ title: "Mini Essay - 'Surely You're Joking Mr Feynman' (Richard Feynman)"
 created: 2025-05-29
 updated: 2025-05-29
 status: tree
-draft: false
 tags:
   - mini-essay
   - books

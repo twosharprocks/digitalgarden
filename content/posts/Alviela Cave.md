@@ -3,7 +3,6 @@ title: "Alviela Cave"
 created: 2025-09-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -70,13 +69,13 @@ PNSAC authorization is required. (Luís, R. 2018)
 
 # Maps
 
-- ![Alviela Cave Cavedb Alviera Map 215dbc13 3eef770d](/images/Alviela%20Cave%20-%20CaveDB%20-%20alviera-map%20-%20215dbc13-3eef770d.jpg)
+- ![Alviela Cave Alviera Map 215dbc13 3eef770d](/images/Alviela%20Cave%20-%20alviera-map%20-%20215dbc13-3eef770d.jpg)
 
 # References
 
 - **CaveAtlas.com:** http://www.caveatlas.com/systems/system.asp?ID=650&co=PT
 
 ## Images
-- ![Alviela Cave Cavedb Mapenc 55803b44 3eef770d](/images/Alviela%20Cave%20-%20CaveDB%20-%20mapenc%20-%2055803b44-3eef770d.jpg)
-- ![Alviela Cave Cavedb Alviera Map 215dbc13 3eef770d](/images/Alviela%20Cave%20-%20CaveDB%20-%20alviera-map%20-%20215dbc13-3eef770d.jpg)
+- ![Alviela Cave Mapenc 55803b44 3eef770d](/images/Alviela%20Cave%20-%20mapenc%20-%2055803b44-3eef770d.jpg)
+- ![Alviela Cave Alviera Map 215dbc13 3eef770d](/images/Alviela%20Cave%20-%20alviera-map%20-%20215dbc13-3eef770d.jpg)
 - [da4c23cf-2d4c-4194-adae-6627a8e7cc14](https://www.youtube.com/watch?v=5y4l9bNTqp0)

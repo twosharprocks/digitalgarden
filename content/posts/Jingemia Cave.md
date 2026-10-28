@@ -3,7 +3,6 @@ title: "Jingemia Cave"
 created: 2023-07-02
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -36,5 +35,5 @@ Jingemia Cave is a distinctive natural feature in a band of low rocky hills that
 - **Explore Parks:** https://exploreparks.dbca.wa.gov.au/site/jingemia-cave
 
 ## Images
-- ![Jingemia Cave Cavedb Jing 5c5f586e Cf4a080e](/images/Jingemia%20Cave%20-%20CaveDB%20-%20jing%20-%205c5f586e-cf4a080e.jpg)
-- ![Jingemia Cave Cavedb Jibge Db06426b Cf4a080e](/images/Jingemia%20Cave%20-%20CaveDB%20-%20jibge%20-%20db06426b-cf4a080e.jpg)
+- ![Jingemia Cave Jing 5c5f586e Cf4a080e](/images/Jingemia%20Cave%20-%20jing%20-%205c5f586e-cf4a080e.jpg)
+- ![Jingemia Cave Jibge Db06426b Cf4a080e](/images/Jingemia%20Cave%20-%20jibge%20-%20db06426b-cf4a080e.jpg)

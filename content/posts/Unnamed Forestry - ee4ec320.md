@@ -3,7 +3,6 @@ title: "Unnamed Forestry - ee4ec320"
 created: 2023-08-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -41,4 +40,4 @@ BC 14/10/2023: Large depression about 15m across and 3m deep. Full of scrub and 
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: ?
 
 ## Images
-- ![Unnamed Forestry Cavedb 20231014 140107 4988cf45 Ee4ec320](/images/Unnamed%20Forestry%20-%20CaveDB%20-%2020231014_140107%20-%204988cf45-ee4ec320.jpg)
+- ![Unnamed Forestry 20231014 140107 4988cf45 Ee4ec320](/images/Unnamed%20Forestry%20-%2020231014_140107%20-%204988cf45-ee4ec320.jpg)

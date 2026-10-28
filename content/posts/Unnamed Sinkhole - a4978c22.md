@@ -3,7 +3,6 @@ title: "Unnamed Sinkhole - a4978c22"
 created: 2025-06-14
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

@@ -3,7 +3,6 @@ title: "The Big Springs"
 created: 2025-06-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -29,4 +28,4 @@ address: "River Fire Line Track, Glenelg Shire, Victoria, AUS, 3304"
 # References
 
 ## Images
-- ![The Big Springs Cavedb Mossy Cave C2c00dd9 Bb7d0d96](/images/The%20Big%20Springs%20-%20CaveDB%20-%20mossy%20cave%20-%20c2c00dd9-bb7d0d96.jpg)
+- ![The Big Springs Mossy Cave C2c00dd9 Bb7d0d96](/images/The%20Big%20Springs%20-%20mossy%20cave%20-%20c2c00dd9-bb7d0d96.jpg)

@@ -3,7 +3,6 @@ title: "Pozo Azul"
 created: 2023-08-25
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -54,5 +53,9 @@ address: "5, Vía Sin Nombre, Burgos, Castile and León, ESP, 09143"
 - **GoogleMaps:** https://goo.gl/maps/qstyTveVSg4pWkRV7
 
 ## Images
-- ![Pozo Azul Cavedb Pozo2014 Whole 6be5a758 5ec71750](/images/Pozo%20Azul%20-%20CaveDB%20-%20pozo2014-whole%20-%206be5a758-5ec71750.png)
-- ![Pozo Azul Cavedb Pozo Azul 914c97b3 5ec71750](/images/Pozo%20Azul%20-%20CaveDB%20-%20pozo%20azul%20-%20914c97b3-5ec71750.jpg)
+- ![Pozo Azul Pozo2014 Whole 6be5a758 5ec71750](/images/Pozo%20Azul%20-%20pozo2014-whole%20-%206be5a758-5ec71750.png)
+- ![Pozo Azul Pozo Azul 914c97b3 5ec71750](/images/Pozo%20Azul%20-%20pozo%20azul%20-%20914c97b3-5ec71750.jpg)
+
+## Links reviewed from Cave Data Ideas
+
+- [Saved Facebook reel](https://www.facebook.com/reel/24673306572347335) (content not independently checked)

@@ -3,7 +3,6 @@ title: "Dam"
 created: 2023-07-23
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,4 +38,4 @@ address: "Diagonal Rd, Glencoe, South Australia, AUS, 5291"
 # References
 
 ## Images
-- ![Dam Cavedb Dam 7d9e7226 D56d6acf](/images/Dam%20-%20CaveDB%20-%20dam%20-%207d9e7226-d56d6acf.jpg)
+- ![Dam Dam 7d9e7226 D56d6acf](/images/Dam%20-%20dam%20-%207d9e7226-d56d6acf.jpg)

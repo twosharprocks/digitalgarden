@@ -3,7 +3,6 @@ title: "Federal Cave"
 created: 2023-04-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -33,9 +32,6 @@ Federal Cave in the [Buchan Caves]({{< relref "posts/Buchan Caves.md" >}}) Reser
 
 - **Feature type:** Cave
 - **System name:** [Buchan Caves]({{< relref "posts/Buchan Caves.md" >}})
-
-# Maps
-
 
 # References
 

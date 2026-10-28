@@ -3,7 +3,6 @@ title: "Surface Feature (SE)"
 created: 2023-08-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,4 +37,4 @@ BC 8/9/2023: No obvious karst or interesting features
 # References
 
 ## Images
-- ![Surface Feature (SE) Cavedb 20230908 165647 E693ddff 4eb4f05d](/images/Surface%20Feature%20%28SE%29%20-%20CaveDB%20-%2020230908_165647%20-%20e693ddff-4eb4f05d.jpg)
+- ![Surface Feature (SE) 20230908 165647 E693ddff 4eb4f05d](/images/Surface%20Feature%20%28SE%29%20-%2020230908_165647%20-%20e693ddff-4eb4f05d.jpg)

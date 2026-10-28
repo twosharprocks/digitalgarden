@@ -3,7 +3,6 @@ title: "Almonda Cave"
 created: 2025-09-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -50,7 +49,7 @@ address: "16, R. Marginal, Torres Novas, Santarém District, PRT, 2350"
 
 # Maps
 
-- ![Almonda Cave Cavedb Almonda Map Eec3d86c 7cad43c8](/images/Almonda%20Cave%20-%20CaveDB%20-%20almonda%20-%20map%20-%20eec3d86c-7cad43c8.jpg)
+- ![Almonda Cave Almonda Map Eec3d86c 7cad43c8](/images/Almonda%20Cave%20-%20almonda%20-%20map%20-%20eec3d86c-7cad43c8.jpg)
 
 # References
 
@@ -58,6 +57,10 @@ address: "16, R. Marginal, Torres Novas, Santarém District, PRT, 2350"
 - **cavedivingportugal.com:** https://cavedivingportugal.com/caves/almonda-cave
 
 ## Images
-- ![Almonda Cave Cavedb Almonda Map Eec3d86c 7cad43c8](/images/Almonda%20Cave%20-%20CaveDB%20-%20almonda%20-%20map%20-%20eec3d86c-7cad43c8.jpg)
-- ![Almonda Cave Cavedb Almonda 83891b60 7cad43c8](/images/Almonda%20Cave%20-%20CaveDB%20-%20almonda%20-%2083891b60-7cad43c8.jpg)
+- ![Almonda Cave Almonda Map Eec3d86c 7cad43c8](/images/Almonda%20Cave%20-%20almonda%20-%20map%20-%20eec3d86c-7cad43c8.jpg)
+- ![Almonda Cave Almonda 83891b60 7cad43c8](/images/Almonda%20Cave%20-%20almonda%20-%2083891b60-7cad43c8.jpg)
 - [c28c87e3-4ede-41b9-a97f-cbceaa1e98e9](https://www.youtube.com/watch?v=9P8lM2WKpzA)
+
+## Links reviewed from Cave Data Ideas
+
+- [Saved Facebook reel: Almonda Springs](https://www.facebook.com/reel/840034755419498/) (content not independently checked; verify whether it depicts this entrance)

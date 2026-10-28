@@ -3,7 +3,6 @@ title: Honey Badger - Nature’s Most Fearless Animal Alive
 created: 2025-07-26
 updated: 2026-01-04
 status: seed
-draft: false
 tags:
   - reference
   - interests

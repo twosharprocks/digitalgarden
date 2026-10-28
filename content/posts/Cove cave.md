@@ -3,7 +3,6 @@ title: "Cove cave"
 created: 2024-12-09
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

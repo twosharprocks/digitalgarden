@@ -3,12 +3,10 @@ title: Planning - Nullarbor
 created: 2026-06-18
 updated: 2026-06-27
 status: tree
-draft: false
 tags:
   - diving
   - caving
 region:
-cavedb:
 related:
   - "[[Diving]]"
   - "[[Trips]]"

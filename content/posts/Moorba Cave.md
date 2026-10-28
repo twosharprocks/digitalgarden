@@ -3,7 +3,6 @@ title: "Moorba Cave"
 created: 2023-07-02
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -48,4 +47,4 @@ This heathland region contains more species of flora per square kilometre than t
 - **Journal:** https://library.dbca.wa.gov.au/static/FullTextFiles/064008.pdf
 
 ## Images
-- ![6J 3 Moorba Cave Cavedb Guano 8449262a A672556d](/images/6J-3%20-%20Moorba%20Cave%20-%20CaveDB%20-%20guano%20-%208449262a-a672556d.jpg)
+- ![6J 3 Moorba Cave Guano 8449262a A672556d](/images/6J-3%20-%20Moorba%20Cave%20-%20guano%20-%208449262a-a672556d.jpg)

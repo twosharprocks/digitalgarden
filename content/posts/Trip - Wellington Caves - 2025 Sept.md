@@ -3,7 +3,6 @@ title: Trip - Wellington Caves - 2025 Sept
 created: 2025-10-29
 updated: 2026-06-30
 status: complete
-draft: false
 tags:
   - trips
 template: "[[Template - Trip]]"
@@ -11,7 +10,6 @@ destination:
 region:
 dates:
 weather:
-cavedb:
 Other Info:
 related:
   - "[[Trips]]"

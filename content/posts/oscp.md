@@ -3,7 +3,6 @@ title: OSCP
 created: 2025-07-05
 updated: 2026-07-08
 status: seed
-draft: false
 tags:
   - study
   - oscp

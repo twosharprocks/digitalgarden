@@ -3,7 +3,6 @@ title: "Gua Wandigi"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -40,4 +39,4 @@ address: "Jl. Balai Kota, Buton Regency, South East Sulawesi, IDN, 93754"
 # References
 
 ## Images
-- ![Gua Wandigi Cavedb Gua Wandigi B6ec298e 5dfb8e96](/images/Gua%20Wandigi%20-%20CaveDB%20-%20Gua%20Wandigi%20-%20b6ec298e-5dfb8e96.jpg)
+- ![Gua Wandigi Gua Wandigi B6ec298e 5dfb8e96](/images/Gua%20Wandigi%20-%20Gua%20Wandigi%20-%20b6ec298e-5dfb8e96.jpg)

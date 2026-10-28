@@ -3,7 +3,6 @@ title: Script - PowerShell - Archive-UserFiles
 created: 2026-07-01
 updated: 2026-07-01
 status: seed
-draft: false
 tags:
   - script
 related:

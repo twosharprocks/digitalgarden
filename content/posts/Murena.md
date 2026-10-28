@@ -3,7 +3,6 @@ title: Murena
 created: 2023-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -43,4 +42,4 @@ The lagoon is open to snorkelling but diving is prohibited without permit.
 
 # Maps
 
-- CaveDB - Murena - 3fba632a-dd72cf24.kml — [Source](https://media.cavedb.net/ap-southeast-2:edfa08f0-c48d-4d81-bbc5-5d2c57a744e6/a936e694-8cc9-4c2a-8bf4-05b974f7128e.kml)
+- Murena - 3fba632a-dd72cf24.kml

@@ -3,7 +3,6 @@ title: "Bones Pond"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -50,5 +49,5 @@ The pond was mapped and formally numbered by the author (in the company of Depar
 - **LSECR:** Page 518
 
 ## Images
-- ![L0265 Bones Pond Cavedb Screenshot (347) 0eb65c6b 3bb0d4cb](/images/L0265%20-%20Bones%20Pond%20-%20CaveDB%20-%20Screenshot%20%28347%29%20-%200eb65c6b-3bb0d4cb.png)
-- ![L0265 Bones Pond Cavedb Screenshot (348) 836f701e 3bb0d4cb](/images/L0265%20-%20Bones%20Pond%20-%20CaveDB%20-%20Screenshot%20%28348%29%20-%20836f701e-3bb0d4cb.png)
+- ![L0265 Bones Pond Screenshot (347) 0eb65c6b 3bb0d4cb](/images/L0265%20-%20Bones%20Pond%20-%20Screenshot%20%28347%29%20-%200eb65c6b-3bb0d4cb.png)
+- ![L0265 Bones Pond Screenshot (348) 836f701e 3bb0d4cb](/images/L0265%20-%20Bones%20Pond%20-%20Screenshot%20%28348%29%20-%20836f701e-3bb0d4cb.png)

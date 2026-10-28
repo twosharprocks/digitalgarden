@@ -3,7 +3,6 @@ title: Mini Essay - Secret to dealing with work
 created: 2025-04-27
 updated: 2026-07-08
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

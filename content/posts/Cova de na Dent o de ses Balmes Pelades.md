@@ -3,7 +3,6 @@ title: "Cova de na Dent o de ses Balmes Pelades"
 created: 2023-08-10
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

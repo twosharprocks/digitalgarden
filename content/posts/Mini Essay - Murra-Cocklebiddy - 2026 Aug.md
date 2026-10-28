@@ -3,7 +3,6 @@ title: Mini Essay - Murra-Cocklebiddy - 2026 Aug
 created: 2026-05-26
 updated: 2026-09-13
 status: seed
-draft: false
 tags:
   - writing
   - mini-essay

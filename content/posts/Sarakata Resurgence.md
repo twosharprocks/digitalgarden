@@ -3,7 +3,6 @@ title: "Sarakata Resurgence"
 created: 2025-01-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -50,4 +49,4 @@ Length : 1200m
 
 ## Images
 - [9aa09da5-6b38-4dad-9152-f728f6d34a56](https://www.youtube.com/watch?v=nZp96T94pL0)
-- CaveDB - HARRIS-CavesandCaveDivingVanuatu2005 (1) - 07fa284f-b8b6e4f2.pdf — [Source](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/a90ca58e-6ac7-4e2f-8f74-811242785f89.pdf)
+- HARRIS-CavesandCaveDivingVanuatu2005 (1) - 07fa284f-b8b6e4f2.pdf

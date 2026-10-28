@@ -3,7 +3,6 @@ title: 50 Goals (Old Version)
 created: 2025-10-28
 updated: 2026-06-18
 status: seed
-draft: false
 tags:
   - 101-things
   - bucket-list

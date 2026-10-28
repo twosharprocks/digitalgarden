@@ -3,7 +3,6 @@ title: Mini Essay - Appeal of Thronglets
 created: 2026-02-02
 updated: 2026-02-02
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

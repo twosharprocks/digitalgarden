@@ -3,7 +3,6 @@ title: "Unnamed - ad26e5a4"
 created: 2023-12-07
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

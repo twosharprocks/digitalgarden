@@ -3,7 +3,6 @@ title: "Tantanoola Tourist Cave"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -50,4 +49,4 @@ Located right beside Australia's National Highway Number One near the town of Ta
 - **ASF KID:** Entrance is cave type; (Unknown entrances); development is single spacious chamber with short horizontal entrance passage; karst type is unknown; length is Unknown m , surveyed; vertical extent is 9.00 m; systematically explored, no obvious leads; wet environment.
 
 ## Images
-- ![L0012 Tantanoola Tourist Cave Cavedb Tant 1fa8e7f0 1a395e34](/images/L0012%20-%20Tantanoola%20Tourist%20Cave%20-%20CaveDB%20-%20tant%20-%201fa8e7f0-1a395e34.jpg)
+- ![L0012 Tantanoola Tourist Cave Tant 1fa8e7f0 1a395e34](/images/L0012%20-%20Tantanoola%20Tourist%20Cave%20-%20tant%20-%201fa8e7f0-1a395e34.jpg)

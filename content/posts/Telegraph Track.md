@@ -3,7 +3,6 @@ title: "Telegraph Track"
 created: 2023-04-19
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -39,5 +38,5 @@ Steep descent from escarpment (would be scary in 2WD).  Telegraph track sandy an
 
 # Maps
 
-- CaveDB - Fire-Tracks-for-JM - 77d18b17-f2f3c64f.kml — [Source](https://media.cavedb.net/ap-southeast-2:90ea3216-b30c-4c23-a150-b71f748bd80a/1aa4ff09-2150-4060-bfe6-14eb7ccf4516.kml)
-- CaveDB - Olwolgin - Burnabbie trail - 6c6751f2-f2f3c64f.gpx — [Source](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/059128f2-253a-4c71-97d1-d63d677c3934.gpx)
+- Fire-Tracks-for-JM - 77d18b17-f2f3c64f.kml
+- Olwolgin - Burnabbie trail - 6c6751f2-f2f3c64f.gpx

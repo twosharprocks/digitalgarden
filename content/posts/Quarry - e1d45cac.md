@@ -3,7 +3,6 @@ title: "Quarry - e1d45cac"
 created: 2023-07-23
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -41,4 +40,4 @@ address: "Woods Rd, Tantanoola, South Australia, AUS, 5280"
 # References
 
 ## Images
-- ![Quarry Cavedb Quarry 3f6619f0 E1d45cac](/images/Quarry%20-%20CaveDB%20-%20quarry%20-%203f6619f0-e1d45cac.jpg)
+- ![Quarry Quarry 3f6619f0 E1d45cac](/images/Quarry%20-%20quarry%20-%203f6619f0-e1d45cac.jpg)

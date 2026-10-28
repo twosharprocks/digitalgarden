@@ -3,7 +3,6 @@ title: Trip - Japan - 2026 May
 created: 2026-03-20
 updated: 2026-06-30
 status: complete
-draft: false
 tags:
   - trips
 template: "[[Template - Trip]]"
@@ -11,7 +10,6 @@ destination:
 region:
 dates:
 weather:
-cavedb:
 Other Info:
 related:
   - "[[Trips]]"
@@ -32,13 +30,13 @@ related:
 		- Transfer from Ube airport to Mine region
 	- Briefing and preparation
 	- Stay: *Mine Grand Hotel*
-- 2026-05-09 Sat: Diving Terayama Cave
+- 2026-05-09 Sat: Diving [Terayama Cave]({{< relref "posts/Terayama Cave.md" >}})
 	- Diving briefing - meet dry cave support team
 	- Gear in
-	- Dive Terayama Cave
-- 2026-05-10 Sun: Diving Terayama Cave
+	- Dive [Terayama Cave]({{< relref "posts/Terayama Cave.md" >}})
+- 2026-05-10 Sun: Diving [Terayama Cave]({{< relref "posts/Terayama Cave.md" >}})
 	- Dive briefing
-	- Dive Terayama Cave
+	- Dive [Terayama Cave]({{< relref "posts/Terayama Cave.md" >}})
 	- Gear out
 - 2026-05-11 Mon: Rest Day
 	- Tourist visit to [Akiyoshidai Cave]({{< relref "posts/Akiyoshidai Cave.md" >}})
@@ -89,7 +87,7 @@ related:
 	- Sealed complimentary kits are provided in every hotel
 - Boots: Avoid
 	- Only need shoes for hotel/travel/cave entrances. Shoes are generally removed when entering a building - avoid anything with laces.
-	- Drysuit: ***Rock boots required for Terayama Cave*** (involves dry caving to water)  
+	- Drysuit: ***Rock boots required for [Terayama Cave]({{< relref "posts/Terayama Cave.md" >}})*** (involves dry caving to water)  
 - USB-mini cables: Avoid unless specifically required
 	- "USB to USB-C" & "USB-C to USB-C" cables are much more common & useful
 ## Dive Gear
@@ -105,7 +103,7 @@ Expect to be diving cold water (10-12degC) using A72/A80 sidemount cylinders.
 	- Perdix: Lithium AA
 	- Transmitters: CR2
 	- No need for AAA
-- Helmet - ***Required for Terayama Cave***
+- Helmet - ***Required for [Terayama Cave]({{< relref "posts/Terayama Cave.md" >}})***
 	- 2x mounted lights
 		- Argo: 2x 21700 (or 2x 18650's with sleeve), 1x Thumbscrew
 		- Backup on side with elastic loops

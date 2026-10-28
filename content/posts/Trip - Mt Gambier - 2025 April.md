@@ -3,7 +3,6 @@ title: Trip - Mt Gambier - 2025 April
 created: 2025-04-17
 updated: 2026-06-30
 status: complete
-draft: false
 tags:
   - trips
   - diving
@@ -12,7 +11,6 @@ destination:
 region:
 dates:
 weather:
-cavedb:
 Other Info:
 related:
   - "[[Trips]]"
@@ -32,7 +30,7 @@ Dive - Little Blue, ~~Allendale~~
 Photogram - Fossil West
 Photogram - [Grace Cave]({{< relref "posts/Grace Cave.md" >}}) 
 Photogram - Graveyard
-Dry - Port Mac to Pics (CaveDB list)
+Dry - Port Mac to Pics (cave data list)
 ~~Visit - Jan for Catch up~~
 ~~Visit - Lewy for Catch up with Darren~~
 ~~Visit - Col & Julie to Give book~~

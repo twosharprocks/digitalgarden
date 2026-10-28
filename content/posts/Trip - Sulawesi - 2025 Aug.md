@@ -3,7 +3,6 @@ title: Trip - Sulawesi - 2025 Aug
 created: 2025-07-15
 updated: 2026-10-13
 status: complete
-draft: false
 tags:
   - trips
 template: "[[Template - Trip]]"
@@ -11,7 +10,6 @@ destination:
 region:
 dates:
 weather:
-cavedb:
 Other Info:
 related:
   - "[[Trips]]"

@@ -3,7 +3,6 @@ title: Article - Exploring Japan’s Hidden Rivers
 created: 2026-05-25
 updated: 2026-07-17
 status: complete
-draft: false
 tags:
   - article
   - diving
@@ -22,7 +21,7 @@ _An Australian cave diving expedition to the Mine–Akiyoshidai Karst Plateau Ge
 _By Josh Richards & Will Passos_
 
 ![Japan May 2026 Image1](/images/Japan%20May%202026%20-%20Image1.jpg)
-Josh Richards and Will Passos walking through a bamboo forest after their first dive in Terayama Cave
+Josh Richards and Will Passos walking through a bamboo forest after their first dive in [Terayama Cave]({{< relref "posts/Terayama Cave.md" >}})
 
 The Mine–Akiyoshidai Karst Plateau Geopark in western Japan is famous for its limestone scenery, extensive cave systems and the enormous Akiyoshido tourist cave. However beneath it's picturesque landscape, the Mine-Akiyoshidai plateau is riddled with submerged passages and an active groundwater system that remains only partially understood.
 
@@ -33,17 +32,17 @@ Our "Big In Japan" expedition involved a week of cave diving that combined tradi
 ## Following Old Maps into New Water
 
 ![Japan May 2026 Image2](/images/Japan%20May%202026%20-%20Image2.jpg)
-Japanese Speleological Society lowering diving equipment into Terayama Cave
+Japanese Speleological Society lowering diving equipment into [Terayama Cave]({{< relref "posts/Terayama Cave.md" >}})
 
 Like many cave dives, Terayama reminded us that the real work often begins well before the waterline. Simply getting to the water required the support of an entire team from the Japanese Speleological Society, who graciously stayed on after a long and arduous rescue exercise to spend another two days carrying our equipment up through a steep bamboo forest then down into the cave itself. This expedition was built on earlier Japanese exploration and survey work by the Japanese Speleological Society dating back to the 1980s, and there was a strong sense that we were not arriving to discover an unknown cave, but building directly on the work started decades earlier by the same organisation that was making our diving possible.
 
-On our first dive at Terayama Cave, all three of us – Isaji, Will and Josh – were diving open circuit sidemount in drysuits. Despite coming from similarly cold caves in South Australia, we immediately noticed the difference between Mount Gambier's 13 degrees to Terayama's 12 degrees - one degree colder might not sound like much on paper, but for those of us with slightly leaky suits we felt every bit of it and were grateful for every layer of insulation we had.
+On our first dive at [Terayama Cave]({{< relref "posts/Terayama Cave.md" >}}), all three of us – Isaji, Will and Josh – were diving open circuit sidemount in drysuits. Despite coming from similarly cold caves in South Australia, we immediately noticed the difference between Mount Gambier's 13 degrees to Terayama's 12 degrees - one degree colder might not sound like much on paper, but for those of us with slightly leaky suits we felt every bit of it and were grateful for every layer of insulation we had.
 
 As soon as we descended, it became obvious that Terayama would be a cold, challenging, and murky maze. Visibility was limited, and the cave twists both vertically and horizontally through a network of interconnected passages where the way on had to be felt more than seen. We began laying line through up through a previously unexplored area, and eventually found a the way between two parts of the cave that had only been theorised to connect. By the end of the dive we'd laid emptied a reel of line, and identified a three parts of the cave to push the next day - not a bad way to begin an expedition.
 
 ![Japan May 2026 Image5](/images/Japan%20May%202026%20-%20Image5.jpg)
 
-Initial point-cloud data for Terayama Cave's connection between dry entrances 
+Initial point-cloud data for [Terayama Cave]({{< relref "posts/Terayama Cave.md" >}})'s connection between dry entrances 
 ## The Streamway South
 
 Terayama remained stubbornly confusing on day 2, but an early win boosted all our hopes. Following a loop of line Will had laid from Entrance 1 the day before and jumping into an unusually murky area Josh had spotted, the team soon found themselves surfacing into another air chamber that was quickly identified as Entrance 4 - another exciting and wholly unexpected connection! Pushing back along the main line from Entrance 1, the team ducked and weaved through the low visibility, and for much of the dive the system still felt like a puzzle with too many potential solutions. At the end of line laid by another team earlier in the year, we suddenly dropped to 24m into a tunnel that disappeared into darkness atleast 30m below us. Rather than committing downward, we backtracked to another lead that Josh had spotted earlier - a high-flow streamway that pointed south-east directly towards Shiramizu Pond just 700 metres away.
@@ -54,7 +53,7 @@ Josh Richards tying on to push down the newly discovered streamway in Terayama
 Suddenly it felt like Terayama's maze might have had direction. We followed the flow for roughly 100 metres, with Josh trying to find tie-off in a streamway worn smooth by the flow while Will tried to gathered photogrammetry imagery of this exciting lead. The streamway itself appeared to point directly toward Shiramizu, but there was simply nowhere to tie-off the line. With the high-flow pushing us deeper into an unexplored section of the cave, and no way to secure the line on the smooth-worn cave walls, we made the difficult decision to wind the laid line back in. Where Josh had tied the exploration reel into the mainline, we left a cave arrow to mark the spot as a promise - we'd return Terayama on a future expedition with wall anchors, extra gas and extra line to flow that roaring flow as far as it would take us towards Shiramizu Pond.
 
 ![Japan May 2026 Image4](/images/Japan%20May%202026%20-%20Image4.jpg)
-Initial point cloud of Terayama Cave's dry section
+Initial point cloud of [Terayama Cave]({{< relref "posts/Terayama Cave.md" >}})'s dry section
 ## A Day Above Ground
 
 After two long and cold days underwater, the team spent a day staying dry at Akiyoshido Cave. While Akiyoshido is touted as a tourist experience, it was immediately clear to the team that there are countless opportunities for further exploration above and below the waterline if the support & permits were available. A substantial river flows through the heart of Akiyoshidai, winding beneath carefully constructed walkways and through chambers large enough to make even experienced cave divers pause. For the Soggy Wombats, it offered a chance to recover, to learn about the region's history, and presented a unique photogrammetry challenge. Walking through one of Japan’s best-known caves with a 360 camera and only the lights installed in the cave, Akiyoshidai offered the Soggy Wombats a chance to attempt to model a dry cave on the fly, to reflect on the region's natural beauty, and consider how much exploration potential still exists throughout the Mine-Akiyoshidai Karst Plateau.
@@ -88,7 +87,7 @@ Isaji and Josh re-entered the cave to survey the line laid the day before, then 
 ![Japan May 2026 Image EC Flag In Cave](/images/Japan%20May%202026%20-%20Image%20-%20EC%20Flag%20in%20cave.jpg)
 Josh in the 4th chamber under the cave decorations
 
-Reaching the fourth chamber was a significant achievement, but try as we might we couldn't find a way beyond it towards Terayama Cave as we'd hoped. It wouldn't be until after the dive that we realised something important - the flow and visibility had both dropped significantly after the third chamber, and the survey data showed a significant change of direction at the end too. Back on the surface we quickly realised the fourth chamber might be beautiful, but it's almost certainly a dead end, and the streamway from Terayama Cave is almost certainly connecting with Shiramizu from another as-yet-undiscovered passage somewhere on the north side of the 3rd chamber. It was not the result we expected, but unexplored underwater caves rarely go the way you hope they do.
+Reaching the fourth chamber was a significant achievement, but try as we might we couldn't find a way beyond it towards [Terayama Cave]({{< relref "posts/Terayama Cave.md" >}}) as we'd hoped. It wouldn't be until after the dive that we realised something important - the flow and visibility had both dropped significantly after the third chamber, and the survey data showed a significant change of direction at the end too. Back on the surface we quickly realised the fourth chamber might be beautiful, but it's almost certainly a dead end, and the streamway from [Terayama Cave]({{< relref "posts/Terayama Cave.md" >}}) is almost certainly connecting with Shiramizu from another as-yet-undiscovered passage somewhere on the north side of the 3rd chamber. It was not the result we expected, but unexplored underwater caves rarely go the way you hope they do.
 
 ![Japan May 2026 Image Shiramizu Pushing Leads](/images/Japan%20May%202026%20-%20Image%20-%20Shiramizu%20pushing%20leads.jpg)
 Josh pushing leads beyond the 4th chamber of Shiramizu Pond
@@ -100,7 +99,7 @@ One of the more interesting aspects of our expedition was how naturally traditio
 
 Initial survey daya from Shiramizu Pond
 
-As our expedition wrapped up, Bottomline Projects received our thanks for ongoing support, and the team did what many successful expeditions to Japan do – headed to a local karaoke bar and celebrated a lot harder than was really necessary. We left the Mine-Akiyoshidai Karst Plateau with plenty of data but just as many questions, but one thing is certain - somewhere between Terayama Cave and Shiramizu Pond the water is still flowing south-east, and the next chapter of exploration is waiting for whoever is ready to take up the challenge.
+As our expedition wrapped up, Bottomline Projects received our thanks for ongoing support, and the team did what many successful expeditions to Japan do – headed to a local karaoke bar and celebrated a lot harder than was really necessary. We left the Mine-Akiyoshidai Karst Plateau with plenty of data but just as many questions, but one thing is certain - somewhere between [Terayama Cave]({{< relref "posts/Terayama Cave.md" >}}) and Shiramizu Pond the water is still flowing south-east, and the next chapter of exploration is waiting for whoever is ready to take up the challenge.
 
 ![Japan May 2026 Shiramizu Flags Surface](/images/Japan%20May%202026%20-%20Shiramizu%20Flags%20-%20Surface.jpg)
 

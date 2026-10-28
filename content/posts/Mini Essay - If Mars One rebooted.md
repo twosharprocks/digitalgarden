@@ -3,7 +3,6 @@ title: Mini Essay - If Mars One rebooted
 created: 2025-11-28
 updated: 2026-07-10
 status: tree
-draft: false
 tags:
   - mini-essay
   - writing

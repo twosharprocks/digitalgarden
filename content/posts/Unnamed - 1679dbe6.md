@@ -3,7 +3,6 @@ title: "Unnamed - 1679dbe6"
 created: 2024-07-23
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

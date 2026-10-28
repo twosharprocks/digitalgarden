@@ -3,7 +3,6 @@ title: "Dobes Hole"
 created: 2023-12-11
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -42,4 +41,4 @@ address: "38726, Hart Dr, Pasco County, Florida, USA, 33523"
 # References
 
 ## Images
-- ![Dobes Hole Cavedb 566 System 16ccd286 41b5041f](/images/Dobes%20Hole%20-%20CaveDB%20-%20566_system%20-%2016ccd286-41b5041f.jpg)
+- ![Dobes Hole 566 System 16ccd286 41b5041f](/images/Dobes%20Hole%20-%20566_system%20-%2016ccd286-41b5041f.jpg)

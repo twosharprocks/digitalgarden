@@ -3,7 +3,6 @@ title: Exploration
 created: 2025-04-09
 updated: 2025-04-09
 status: seed
-draft: false
 tags:
   - bucket-list
   - diving

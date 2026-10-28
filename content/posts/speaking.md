@@ -3,7 +3,6 @@ title: Speaking
 created: 2025-11-01
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - speaking
   - cyber-security

@@ -3,7 +3,6 @@ title: "Unnamed Forestry - 2acdf6f3"
 created: 2023-07-31
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

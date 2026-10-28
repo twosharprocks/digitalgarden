@@ -3,7 +3,6 @@ title: "Coombe Reserve"
 created: 2023-11-19
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -70,6 +69,6 @@ Significant detail, videos, positional data and photogrammetry
 - **Facebook - Post:** https://www.facebook.com/groups/CavernCaveDiversWA/permalink/2290836711306852
 
 ## Images
-- ![Coombe Reserve Cavedb Coombes B9fbba54 02e4b45f](/images/Coombe%20Reserve%20-%20CaveDB%20-%20Coombes%20-%20b9fbba54-02e4b45f.jpg)
+- ![Coombe Reserve Coombes B9fbba54 02e4b45f](/images/Coombe%20Reserve%20-%20Coombes%20-%20b9fbba54-02e4b45f.jpg)
 - [fda989f0-e055-4832-8484-11fab33466bd](https://www.youtube.com/watch?v=1mcUMHnM05M)
 - [d1ed1b9d-894d-4ba8-952f-58ee0c9acf1c](https://www.youtube.com/watch?v=SGhGAHN4tQo)

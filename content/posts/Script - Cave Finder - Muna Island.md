@@ -3,7 +3,6 @@ title: Script - Cave Finder - Muna Island
 created: 2026-01-26
 updated: 2025-11-03
 status: seed
-draft: false
 tags:
   - diving
   - python
@@ -13,7 +12,7 @@ related:
   - "[[Sulawesi]]"
   - "[[Trips - Ideas]]"
   - "[[Exploration]]"
-  - "[[CaveDB]]"
+  - "[[Cave Data Ideas]]"
 language: Python
 ---
 ```python

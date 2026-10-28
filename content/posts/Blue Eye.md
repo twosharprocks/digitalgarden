@@ -3,7 +3,6 @@ title: Blue Eye
 created: 2025-11-02
 updated: 2026-08-30
 status: seed
-draft: false
 tags:
   - diving
   - caving

@@ -3,7 +3,6 @@ title: "Snowflake Cave"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -53,8 +52,4 @@ The first feature numbered under the "L" system, Snowflake Cave is entered via a
 - **ASF:** Entrance is pothole type; (Unknown entrances); development is large dome with daylight hole and low-level phreatic passage; karst type is unknown; length is 60.0 m , surveyed; vertical extent is 15.00 m; reasonably explored, no leads noticed.
 
 ## Images
-- ![L0001 Snowflake Cave Cavedb 20231103 120106 629dc456 22615a3e](/images/L0001%20-%20Snowflake%20Cave%20-%20CaveDB%20-%2020231103_120106%20-%20629dc456-22615a3e.jpg)
-- [20231103_120130.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/326808bb-38e2-4625-832f-5651562b1b61.mp4)
-- [2023-11-03 11.33.16.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/a61fefe7-08f8-4bdf-bb43-5b75d66636ad.mp4)
-- [20231103_120540.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/8436785b-0a55-461e-89a9-218a4e7820df.mp4)
-- [20231103_120211.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/ab7387fb-55a6-4975-ae6c-e240910fa0bb.mp4)
+- ![L0001 Snowflake Cave 20231103 120106 629dc456 22615a3e](/images/L0001%20-%20Snowflake%20Cave%20-%2020231103_120106%20-%20629dc456-22615a3e.jpg)

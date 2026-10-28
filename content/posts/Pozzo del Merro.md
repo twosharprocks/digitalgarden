@@ -3,7 +3,6 @@ title: "Pozzo del Merro"
 created: 2023-08-07
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

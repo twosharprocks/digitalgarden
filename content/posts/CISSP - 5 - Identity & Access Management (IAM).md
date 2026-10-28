@@ -3,7 +3,6 @@ title: CISSP - 5 - Identity & Access Management (IAM)
 created: 2025-06-03
 updated: 2025-10-30
 status: reference
-draft: false
 tags:
   - cyber-security
   - cissp

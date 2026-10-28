@@ -3,7 +3,6 @@ title: "Lila Cave"
 created: 2025-06-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -47,6 +46,6 @@ address: "Vía Sin Nombre, Cienaga de Zapata, Matanzas, CUB"
 # References
 
 ## Images
-- ![Lila Cave Cavedb Lila2 0a9ce204 4aa43c67](/images/Lila%20Cave%20-%20CaveDB%20-%20lila2%20-%200a9ce204-4aa43c67.jpg)
-- ![Lila Cave Cavedb Lil Profile D8c73cf7 4aa43c67](/images/Lila%20Cave%20-%20CaveDB%20-%20lil%20profile%20-%20d8c73cf7-4aa43c67.jpg)
-- ![Lila Cave Cavedb Lila Cave 0a0a9627 4aa43c67](/images/Lila%20Cave%20-%20CaveDB%20-%20lila%20cave%20-%200a0a9627-4aa43c67.jpg)
+- ![Lila Cave Lila2 0a9ce204 4aa43c67](/images/Lila%20Cave%20-%20lila2%20-%200a9ce204-4aa43c67.jpg)
+- ![Lila Cave Lil Profile D8c73cf7 4aa43c67](/images/Lila%20Cave%20-%20lil%20profile%20-%20d8c73cf7-4aa43c67.jpg)
+- ![Lila Cave Lila Cave 0a0a9627 4aa43c67](/images/Lila%20Cave%20-%20lila%20cave%20-%200a0a9627-4aa43c67.jpg)

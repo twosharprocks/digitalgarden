@@ -3,7 +3,6 @@ title: Cenote Little Brother
 created: 2023-11-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -42,4 +41,4 @@ Light is avaliable at all times. AL
 # References
 
 ## Images
-- ![Cenote Little Brother Cavedb IMG 9505 68126f46 36b088b7](/images/Cenote%20Little%20Brother%20-%20CaveDB%20-%20IMG_9505%20-%2068126f46-36b088b7.jpeg)
+- ![Cenote Little Brother IMG 9505 68126f46 36b088b7](/images/Cenote%20Little%20Brother%20-%20IMG_9505%20-%2068126f46-36b088b7.jpeg)

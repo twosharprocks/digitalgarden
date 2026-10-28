@@ -3,7 +3,6 @@ title: "Jewel's Sink"
 created: 2023-07-23
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -46,5 +45,5 @@ address: "4066, NW State Road 45, Newberry, Florida, USA, 32669-2577"
 - **Hipcamp:** https://www.hipcamp.com/en-US/land/florida-jewel-s-sink-wz6hql29
 
 ## Images
-- ![Jewel's Sink Cavedb Jewel2 13d1616a 403eef17](/images/Jewel%27s%20Sink%20-%20CaveDB%20-%20jewel2%20-%2013d1616a-403eef17.jpg)
-- ![Jewel's Sink Cavedb Jewel A7a21e2e 403eef17](/images/Jewel%27s%20Sink%20-%20CaveDB%20-%20jewel%20-%20a7a21e2e-403eef17.jpg)
+- ![Jewel's Sink Jewel2 13d1616a 403eef17](/images/Jewel%27s%20Sink%20-%20jewel2%20-%2013d1616a-403eef17.jpg)
+- ![Jewel's Sink Jewel A7a21e2e 403eef17](/images/Jewel%27s%20Sink%20-%20jewel%20-%20a7a21e2e-403eef17.jpg)

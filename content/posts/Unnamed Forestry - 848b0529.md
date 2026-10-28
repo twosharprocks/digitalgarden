@@ -3,7 +3,6 @@ title: "Unnamed Forestry - 848b0529"
 created: 2023-07-31
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -45,5 +44,5 @@ address: "Lange Rd, Yahl, South Australia, AUS, 5291"
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: ?
 
 ## Images
-- ![Unnamed Forestry Cavedb Sink2 815d0685 848b0529](/images/Unnamed%20Forestry%20-%20CaveDB%20-%20sink2%20-%20815d0685-848b0529.jpg)
-- ![Unnamed Forestry Cavedb Sink22 6c116264 848b0529](/images/Unnamed%20Forestry%20-%20CaveDB%20-%20sink22%20-%206c116264-848b0529.jpg)
+- ![Unnamed Forestry Sink2 815d0685 848b0529](/images/Unnamed%20Forestry%20-%20sink2%20-%20815d0685-848b0529.jpg)
+- ![Unnamed Forestry Sink22 6c116264 848b0529](/images/Unnamed%20Forestry%20-%20sink22%20-%206c116264-848b0529.jpg)

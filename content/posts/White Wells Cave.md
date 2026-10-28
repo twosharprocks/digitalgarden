@@ -3,7 +3,6 @@ title: "White Wells Cave"
 created: 2023-07-23
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -41,21 +40,18 @@ Checked 2024-07 by MW
 - **hasShowers:** No
 - **hasToilets:** No
 
-# Maps
-
-
 # References
 
 ## Images
-- ![White Wells Cave Cavedb DJI 0006 F98695e0 232fe0ac](/images/White%20Wells%20Cave%20-%20CaveDB%20-%20DJI_0006%20-%20f98695e0-232fe0ac.jpg)
-- ![White Wells Cave Cavedb DJI 0008 1eb984ce 232fe0ac](/images/White%20Wells%20Cave%20-%20CaveDB%20-%20DJI_0008%20-%201eb984ce-232fe0ac.jpg)
-- ![White Wells Cave Cavedb DJI 0010 6cc24c1c 232fe0ac](/images/White%20Wells%20Cave%20-%20CaveDB%20-%20DJI_0010%20-%206cc24c1c-232fe0ac.jpg)
-- ![White Wells Cave Cavedb PXL 20240713 024234666 33a1367a 232fe0ac](/images/White%20Wells%20Cave%20-%20CaveDB%20-%20PXL_20240713_024234666%20-%2033a1367a-232fe0ac.jpg)
-- ![White Wells Cave Cavedb PXL 20240713 024313358 Cf59cc42 232fe0ac](/images/White%20Wells%20Cave%20-%20CaveDB%20-%20PXL_20240713_024313358%20-%20cf59cc42-232fe0ac.jpg)
-- ![White Wells Cave Cavedb PXL 20240713 024254004 0f343424 232fe0ac](/images/White%20Wells%20Cave%20-%20CaveDB%20-%20PXL_20240713_024254004%20-%200f343424-232fe0ac.jpg)
-- ![White Wells Cave Cavedb PXL 20240713 024302727 A0993a95 232fe0ac](/images/White%20Wells%20Cave%20-%20CaveDB%20-%20PXL_20240713_024302727%20-%20a0993a95-232fe0ac.jpg)
-- ![White Wells Cave Cavedb PXL 20240713 024215934 6a734842 232fe0ac](/images/White%20Wells%20Cave%20-%20CaveDB%20-%20PXL_20240713_024215934%20-%206a734842-232fe0ac.jpg)
-- ![White Wells Cave Cavedb DJI 0007 67df4ae8 232fe0ac](/images/White%20Wells%20Cave%20-%20CaveDB%20-%20DJI_0007%20-%2067df4ae8-232fe0ac.jpg)
+- ![White Wells Cave DJI 0006 F98695e0 232fe0ac](/images/White%20Wells%20Cave%20-%20DJI_0006%20-%20f98695e0-232fe0ac.jpg)
+- ![White Wells Cave DJI 0008 1eb984ce 232fe0ac](/images/White%20Wells%20Cave%20-%20DJI_0008%20-%201eb984ce-232fe0ac.jpg)
+- ![White Wells Cave DJI 0010 6cc24c1c 232fe0ac](/images/White%20Wells%20Cave%20-%20DJI_0010%20-%206cc24c1c-232fe0ac.jpg)
+- ![White Wells Cave PXL 20240713 024234666 33a1367a 232fe0ac](/images/White%20Wells%20Cave%20-%20PXL_20240713_024234666%20-%2033a1367a-232fe0ac.jpg)
+- ![White Wells Cave PXL 20240713 024313358 Cf59cc42 232fe0ac](/images/White%20Wells%20Cave%20-%20PXL_20240713_024313358%20-%20cf59cc42-232fe0ac.jpg)
+- ![White Wells Cave PXL 20240713 024254004 0f343424 232fe0ac](/images/White%20Wells%20Cave%20-%20PXL_20240713_024254004%20-%200f343424-232fe0ac.jpg)
+- ![White Wells Cave PXL 20240713 024302727 A0993a95 232fe0ac](/images/White%20Wells%20Cave%20-%20PXL_20240713_024302727%20-%20a0993a95-232fe0ac.jpg)
+- ![White Wells Cave PXL 20240713 024215934 6a734842 232fe0ac](/images/White%20Wells%20Cave%20-%20PXL_20240713_024215934%20-%206a734842-232fe0ac.jpg)
+- ![White Wells Cave DJI 0007 67df4ae8 232fe0ac](/images/White%20Wells%20Cave%20-%20DJI_0007%20-%2067df4ae8-232fe0ac.jpg)
 
 <!-- ASF slide images: start -->
 ## ASF slide images

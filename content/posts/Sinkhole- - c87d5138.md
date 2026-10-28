@@ -3,7 +3,6 @@ title: "Sinkhole- - c87d5138"
 created: 2023-05-06
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -41,4 +40,4 @@ BC 6/8/2023 : could not find any sign. Maybe destroyed
 # References
 
 ## Images
-- ![Sinkhole Cavedb Mor B74408f3 C87d5138](/images/Sinkhole_%20-%20CaveDB%20-%20mor%20-%20b74408f3-c87d5138.jpg)
+- ![Sinkhole Mor B74408f3 C87d5138](/images/Sinkhole_%20-%20mor%20-%20b74408f3-c87d5138.jpg)

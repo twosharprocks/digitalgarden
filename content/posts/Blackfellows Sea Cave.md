@@ -3,7 +3,6 @@ title: "Blackfellows Sea Cave"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -46,5 +45,3 @@ address: "4, Height Dr, Blackfellows Caves, South Australia, AUS, 5291"
 
 - **LSECR:** Page 212
 
-## Images
-- [Snapchat-2075179975.mp4](https://media.cavedb.net/ap-southeast-2:8c2b0bb3-e080-4f3b-9a2f-fa9649b3de1a/e5a35c61-d8ba-4234-83ef-bb101ccc34c6.mp4)

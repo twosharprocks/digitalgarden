@@ -3,7 +3,6 @@ title: "Unnamed - 85897b2d"
 created: 2023-09-08
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,6 +37,6 @@ BC 8/9/2023: Clear depression with some rocky features but buried under rubbish 
 # References
 
 ## Images
-- ![Unnamed Cavedb 20230908 171321 186911eb 85897b2d](/images/Unnamed%20-%20CaveDB%20-%2020230908_171321%20-%20186911eb-85897b2d.jpg)
-- ![Unnamed Cavedb 20230908 171337 C953cc34 85897b2d](/images/Unnamed%20-%20CaveDB%20-%2020230908_171337%20-%20c953cc34-85897b2d.jpg)
-- ![Unnamed Cavedb 20230908 171304 Cac29fe8 85897b2d](/images/Unnamed%20-%20CaveDB%20-%2020230908_171304%20-%20cac29fe8-85897b2d.jpg)
+- ![Unnamed 20230908 171321 186911eb 85897b2d](/images/Unnamed%20-%2020230908_171321%20-%20186911eb-85897b2d.jpg)
+- ![Unnamed 20230908 171337 C953cc34 85897b2d](/images/Unnamed%20-%2020230908_171337%20-%20c953cc34-85897b2d.jpg)
+- ![Unnamed 20230908 171304 Cac29fe8 85897b2d](/images/Unnamed%20-%2020230908_171304%20-%20cac29fe8-85897b2d.jpg)

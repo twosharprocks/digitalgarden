@@ -3,7 +3,6 @@ title: Dinaric Karst Belt
 created: 2025-06-29
 updated: 2025-06-29
 status: seed
-draft: false
 tags:
   - diving
   - interests
@@ -11,7 +10,6 @@ tags:
   - expeditions
 region:
 sub-region:
-cavedb:
 smarttraveller: www.smartraveller.gov.au/destinations/
 related:
   - "[[Diving]]"

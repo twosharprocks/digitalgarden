@@ -3,7 +3,6 @@ title: "Myora Sinkhole"
 created: 2023-02-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -47,8 +46,8 @@ Forestry
 - **Forestry SA:** L0113, Thin Roof: N, Fence: R. Dimensions: very deep!. Features: Hourglass cave; remove wire
 
 ## Images
-- ![L0113 Myora Sinkhole Cavedb 2023 04 21 11.37.45 3455e7fa 62b81bec](/images/L0113%20-%20Myora%20Sinkhole%20-%20CaveDB%20-%202023-04-21%2011.37.45%20-%203455e7fa-62b81bec.jpg)
-- ![L0113 Myora Sinkhole Cavedb 2023 04 21 11.40.05 0649ff2b 62b81bec](/images/L0113%20-%20Myora%20Sinkhole%20-%20CaveDB%20-%202023-04-21%2011.40.05%20-%200649ff2b-62b81bec.jpg)
-- ![L0113 Myora Sinkhole Cavedb 2023 04 21 11.38.39 97789202 62b81bec](/images/L0113%20-%20Myora%20Sinkhole%20-%20CaveDB%20-%202023-04-21%2011.38.39%20-%2097789202-62b81bec.jpg)
-- ![L0113 Myora Sinkhole Cavedb 2023 04 21 11.37.35 D2e7e3f5 62b81bec](/images/L0113%20-%20Myora%20Sinkhole%20-%20CaveDB%20-%202023-04-21%2011.37.35%20-%20d2e7e3f5-62b81bec.jpg)
-- ![L0113 Myora Sinkhole Cavedb 2023 04 21 11.40.20 279c9a04 62b81bec](/images/L0113%20-%20Myora%20Sinkhole%20-%20CaveDB%20-%202023-04-21%2011.40.20%20-%20279c9a04-62b81bec.jpg)
+- ![L0113 Myora Sinkhole 2023 04 21 11.37.45 3455e7fa 62b81bec](/images/L0113%20-%20Myora%20Sinkhole%20-%202023-04-21%2011.37.45%20-%203455e7fa-62b81bec.jpg)
+- ![L0113 Myora Sinkhole 2023 04 21 11.40.05 0649ff2b 62b81bec](/images/L0113%20-%20Myora%20Sinkhole%20-%202023-04-21%2011.40.05%20-%200649ff2b-62b81bec.jpg)
+- ![L0113 Myora Sinkhole 2023 04 21 11.38.39 97789202 62b81bec](/images/L0113%20-%20Myora%20Sinkhole%20-%202023-04-21%2011.38.39%20-%2097789202-62b81bec.jpg)
+- ![L0113 Myora Sinkhole 2023 04 21 11.37.35 D2e7e3f5 62b81bec](/images/L0113%20-%20Myora%20Sinkhole%20-%202023-04-21%2011.37.35%20-%20d2e7e3f5-62b81bec.jpg)
+- ![L0113 Myora Sinkhole 2023 04 21 11.40.20 279c9a04 62b81bec](/images/L0113%20-%20Myora%20Sinkhole%20-%202023-04-21%2011.40.20%20-%20279c9a04-62b81bec.jpg)

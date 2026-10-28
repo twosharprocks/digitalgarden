@@ -3,7 +3,6 @@ title: "Camooweal Caves"
 created: 2023-04-16
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,6 +37,5 @@ address: "State Route 76, Mount Isa City, Queensland, AUS, 4828"
 # References
 
 ## Images
-- ![Camooweal Cavedb Image Eca825ae B7324517](/images/Camooweal%20-%20CaveDB%20-%20Image%20-%20eca825ae-b7324517.jpg)
-- ![Camooweal Cavedb 20250724 154024 9f6dd418 B7324517](/images/Camooweal%20-%20CaveDB%20-%2020250724_154024%20-%209f6dd418-b7324517.jpg)
-- [20250724_154010.mp4](https://media.cavedb.net/ap-southeast-2:0b807561-487a-42e5-8dec-4bd6c4d1de72/7b0c20df-6349-4590-b4b5-20044382f183.mp4)
+- ![Camooweal Image Eca825ae B7324517](/images/Camooweal%20-%20Image%20-%20eca825ae-b7324517.jpg)
+- ![Camooweal 20250724 154024 9f6dd418 B7324517](/images/Camooweal%20-%2020250724_154024%20-%209f6dd418-b7324517.jpg)

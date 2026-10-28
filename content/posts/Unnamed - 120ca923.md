@@ -3,7 +3,6 @@ title: "Unnamed - 120ca923"
 created: 2025-09-15
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -33,4 +32,4 @@ address: "North Buton Regency, South East Sulawesi, IDN, 93673"
 # References
 
 ## Images
-- ![Unnamed Cavedb Gua 168f15a2 120ca923](/images/Unnamed%20-%20CaveDB%20-%20Gua%20-%20168f15a2-120ca923.jpg)
+- ![Unnamed Gua 168f15a2 120ca923](/images/Unnamed%20-%20Gua%20-%20168f15a2-120ca923.jpg)

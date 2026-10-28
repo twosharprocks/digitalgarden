@@ -3,7 +3,6 @@ title: "Forest Clearing - 647de08c"
 created: 2025-01-19
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -42,4 +41,4 @@ address: "336, Benara Hd Line Rd, The District Council of Grant, South Australia
 # References
 
 ## Images
-- ![Forest Clearing Cavedb DJI 0725 625464bc 647de08c](/images/Forest%20Clearing%20-%20CaveDB%20-%20DJI_0725%20-%20625464bc-647de08c.jpg)
+- ![Forest Clearing DJI 0725 625464bc 647de08c](/images/Forest%20Clearing%20-%20DJI_0725%20-%20625464bc-647de08c.jpg)

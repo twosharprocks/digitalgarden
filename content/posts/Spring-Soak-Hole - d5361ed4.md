@@ -3,7 +3,6 @@ title: "Spring-Soak-Hole - d5361ed4"
 created: 2023-06-29
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving

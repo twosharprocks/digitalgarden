@@ -3,7 +3,6 @@ title: "Lechuguilla Cave"
 created: 2024-07-28
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -63,4 +62,12 @@ No one knows when the cave system actually formed. Adding to it's mysterious all
 - **Facebook:** https://www.facebook.com/learnfactsscience/posts/pfbid0R3MdCCCCoKmpH7qTiZ3VHWDcJs5T96fWu4x3vVrf7yQjcfos4tHf337P8D66cqDrl
 
 ## Images
-- ![Lechuguilla Cave Cavedb Lech 3910b5d5 E0d7e35b](/images/Lechuguilla%20Cave%20-%20CaveDB%20-%20lech%20-%203910b5d5-e0d7e35b.jpg)
+- ![Lechuguilla Cave Lech 3910b5d5 E0d7e35b](/images/Lechuguilla%20Cave%20-%20lech%20-%203910b5d5-e0d7e35b.jpg)
+
+## Links reviewed from Cave Data Ideas
+
+The cave is within Carlsbad Caverns National Park, but is separate from [Carlsbad Cavern]({{< relref "posts/Carlsbad Cavern.md" >}}). The National Park Service limits entry to approved scientific, survey, exploration and management work.
+
+- [Saved Carlsbad Caverns NPS Facebook post](https://www.facebook.com/CarlsbadCavernsNPS/posts/pfbid0YpvFMScYEjwLrjZMYKgUxQxUNvvgUsAAxbWmyS9LxWpJQw5MqwUx5zy5npAFu85Tl) (post content not independently checked)
+- [Saved Wikipedia overview](https://en.wikipedia.org/wiki/Lechuguilla_Cave)
+- [National Park Service description](https://www.nps.gov/cave/learn/nature/lechuguilla_cave.htm)

@@ -3,7 +3,6 @@ title: "Oyun Musa"
 created: 2024-07-28
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -45,4 +44,4 @@ Collection of fresh water springs said to be those in the area referred to as El
 # References
 
 ## Images
-- ![Oyun Musa Cavedb Moses Spring BW 1 963b8308 Fb2ecec9](/images/Oyun%20Musa%20-%20CaveDB%20-%20Moses_spring_BW_1%20-%20963b8308-fb2ecec9.jpg)
+- ![Oyun Musa Moses Spring BW 1 963b8308 Fb2ecec9](/images/Oyun%20Musa%20-%20Moses_spring_BW_1%20-%20963b8308-fb2ecec9.jpg)

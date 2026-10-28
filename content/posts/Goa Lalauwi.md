@@ -3,7 +3,6 @@ title: Goa Lalauwi
 created: 2026-06-18
 updated: 2026-09-11
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -16,9 +15,9 @@ related:
   - "[[2025-08-08]]"
   - "[[Laulawi]]"
 rating: TDI Intro to Cave
-cavedb: "https://app.cavedb.net/share/352534d7-399b-4eee-b0bf-ac438109a588.html"
-catalog-type: "cave"
-sub-region: "[[Muna Island - Sulawesi]]"
+cavedb: https://app.cavedb.net/share/352534d7-399b-4eee-b0bf-ac438109a588.html
+catalog-type: cave
+sub-region: "[[Muna Island]]"
 ---
 # About
 
@@ -30,7 +29,7 @@ From Anita: ![Sulawesi Anita Futterer Guidelinesdec2024](/images/Sulawesi%20-%20
 # References
 
 ## Images
-- ![Laulawi Cavedb 1500 Stalactite Formation In Laulawi Cave By Pete Mesley E1486aa4 352534d7](/images/Laulawi%20-%20CaveDB%20-%201500_Stalactite-formation-in-Laulawi-cave-by-Pete-Mesley%20-%20e1486aa4-352534d7.jpg)
-- ![Laulawi Cavedb 1500 Muna Entrance By Pete Mesley E37b9536 352534d7](/images/Laulawi%20-%20CaveDB%20-%201500_Muna-entrance-by-Pete-Mesley%20-%20e37b9536-352534d7.jpg)
-- ![Laulawi Cavedb Laulawi 499df331 352534d7](/images/Laulawi%20-%20CaveDB%20-%20laulawi%20-%20499df331-352534d7.jpg)
+- ![Laulawi 1500 Stalactite Formation In Laulawi Cave By Pete Mesley E1486aa4 352534d7](/images/Laulawi%20-%201500_Stalactite-formation-in-Laulawi-cave-by-Pete-Mesley%20-%20e1486aa4-352534d7.jpg)
+- ![Laulawi 1500 Muna Entrance By Pete Mesley E37b9536 352534d7](/images/Laulawi%20-%201500_Muna-entrance-by-Pete-Mesley%20-%20e37b9536-352534d7.jpg)
+- ![Laulawi Laulawi 499df331 352534d7](/images/Laulawi%20-%20laulawi%20-%20499df331-352534d7.jpg)
 - [9f4c1412-222d-4d0a-97a7-8d2be67be934](https://www.youtube.com/watch?v=Xx1mzaTTwK0)

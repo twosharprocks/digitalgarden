@@ -3,7 +3,6 @@ title: "Kaidaiula"
 created: 2026-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -32,9 +31,9 @@ sub-region: "[[Sulawesi]]"
 # References
 
 ## Images
-- ![Kadaiula Cavedb Kaidaiula Sketch 9c0beb8c 35bbc5a3](/images/Kadaiula%20-%20CaveDB%20-%20Kaidaiula%20-%20sketch%20-%209c0beb8c-35bbc5a3.jpg)
-- ![Kadaiula Cavedb Kaidaiula Sign 0653b3d5 35bbc5a3](/images/Kadaiula%20-%20CaveDB%20-%20Kaidaiula%20-%20sign%20-%200653b3d5-35bbc5a3.jpg)
-- ![Kadaiula Cavedb Kaidaiula Entry 91e2d9fc 35bbc5a3](/images/Kadaiula%20-%20CaveDB%20-%20Kaidaiula%20-%20entry%20-%2091e2d9fc-35bbc5a3.jpg)
+- ![Kadaiula Kaidaiula Sketch 9c0beb8c 35bbc5a3](/images/Kadaiula%20-%20Kaidaiula%20-%20sketch%20-%209c0beb8c-35bbc5a3.jpg)
+- ![Kadaiula Kaidaiula Sign 0653b3d5 35bbc5a3](/images/Kadaiula%20-%20Kaidaiula%20-%20sign%20-%200653b3d5-35bbc5a3.jpg)
+- ![Kadaiula Kaidaiula Entry 91e2d9fc 35bbc5a3](/images/Kadaiula%20-%20Kaidaiula%20-%20entry%20-%2091e2d9fc-35bbc5a3.jpg)
 - [c761632a-ee6d-48f9-9dd2-03f6a9823070](https://www.youtube.com/watch?v=cTmeTkMol90)
 
 # Details

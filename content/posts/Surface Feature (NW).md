@@ -3,7 +3,6 @@ title: "Surface Feature (NW)"
 created: 2023-08-04
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -38,4 +37,4 @@ BC 8/9/2023: No obvious features
 # References
 
 ## Images
-- ![Surface Feature (NW) Cavedb 20230908 171124 D2f0f1b2 58c9fcdf](/images/Surface%20Feature%20%28NW%29%20-%20CaveDB%20-%2020230908_171124%20-%20d2f0f1b2-58c9fcdf.jpg)
+- ![Surface Feature (NW) 20230908 171124 D2f0f1b2 58c9fcdf](/images/Surface%20Feature%20%28NW%29%20-%2020230908_171124%20-%20d2f0f1b2-58c9fcdf.jpg)

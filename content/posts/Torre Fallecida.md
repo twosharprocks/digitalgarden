@@ -3,7 +3,6 @@ title: Torre Fallecida
 created: 2023-06-18
 updated: 2026-10-13
 status: seed
-draft: false
 tags:
   - diving
   - caving
@@ -44,10 +43,9 @@ Private development, not open to the public by the pinned entrance, however, acc
 
 # Maps
 
-- CaveDB - Torre Fallecida - bd79e394-6c2da3c0.kml — [Source](https://media.cavedb.net/ap-southeast-2:edfa08f0-c48d-4d81-bbc5-5d2c57a744e6/d2112023-9071-48be-ad21-b251b3d1b3c1.kml)
+- Torre Fallecida - bd79e394-6c2da3c0.kml
 
-- CaveDB - Torre Fallecida - bd79e394-c6831056.kml — [Source](https://media.cavedb.net/ap-southeast-2:edfa08f0-c48d-4d81-bbc5-5d2c57a744e6/d2112023-9071-48be-ad21-b251b3d1b3c1.kml)
+- Torre Fallecida - bd79e394-c6831056.kml
 
 # References
 
-- [CaveDB record](https://app.cavedb.net/share/c6831056-13d9-45e9-8bfb-6eeef0f95fab.html)
