@@ -6,6 +6,7 @@ import subprocess
 from pathlib import Path
 from urllib.parse import unquote, quote
 from collections import Counter
+from attachment_privacy import PrivacyGuard, private_marker, retire_unreferenced_images
 
 # --- CONFIG ---
 script_dir = Path(__file__).resolve().parent
@@ -28,6 +29,11 @@ if mode == "--images-only":
         attachments_dir = Path(sys.argv[3])
     if len(sys.argv) >= 5:
         static_images_dir = Path(sys.argv[4])
+elif mode == "--wikilinks-only":
+    if len(sys.argv) >= 3:
+        posts_dir = Path(sys.argv[2])
+    if len(sys.argv) >= 5:
+        attachments_dir = Path(sys.argv[4])
 
 print(f"[INFO] Posts: {posts_dir}")
 print(f"[INFO] Attachments: {attachments_dir}")
@@ -37,7 +43,12 @@ if not posts_dir.exists():
     raise SystemExit(f"[FATAL] Missing posts_dir: {posts_dir}")
 if not attachments_dir.exists():
     print(f"[WARN] Missing attachments_dir: {attachments_dir} (image copy may fail)")
+privacy_guard = PrivacyGuard(attachments_dir.parent, script_dir)
+if privacy_guard.check(outputs=False):
+    privacy_guard.report()
+    raise SystemExit('Attachment privacy review required. See the local privacy report.')
 static_images_dir.mkdir(parents=True, exist_ok=True)
+exported_names = set()
 
 # --------------------------------------------------------------------
 # Helpers for IMAGES
@@ -47,7 +58,7 @@ name_index = {}
 if attachments_dir.exists():
     print("[INFO] Indexing attachments...")
     for p in attachments_dir.rglob("*"):
-        if p.is_file():
+        if p.is_file() and not private_marker(p):
             name_index.setdefault(p.name.lower(), p)
 
 def pretty_alt_from_filename(filename: str) -> str:
@@ -82,7 +93,9 @@ def is_external_target(raw_target: str) -> bool:
     return target.startswith(("http://", "https://", "//"))
 
 def copy_image(src: Path, dest_dir: Path):
+    privacy_guard.require_exportable(src)
     dest = dest_dir / src.name
+    exported_names.add(dest.name)
     if DRY_RUN:
         return dest
     if dest.exists() and not OVERWRITE_EXISTING:
@@ -401,6 +414,8 @@ print("• Website image copies are optimized separately; vault originals stay u
 print("• Alt text now auto-generates from filenames when none is provided.")
 
 if not DRY_RUN:
+    retired = retire_unreferenced_images(script_dir, exported_names)
+    print(f'[PRIVACY] Retired {retired} unused managed image copies outside the public repository.')
     optimizer_python = sys.executable
     probe = subprocess.run([optimizer_python, '-c', 'import PIL'], capture_output=True)
     if probe.returncode:

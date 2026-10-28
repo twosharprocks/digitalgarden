@@ -17,17 +17,30 @@ Set-StrictMode -Version Latest
 
 # A file guard also works across Windows sessions, unlike the Local mutex.
 if (Test-Path -LiteralPath (Join-Path $PSScriptRoot '.cache\web-images-publish.gate')) {
-    Write-Host 'Website image publication is being prepared. Exiting.'
-    exit 0
+    Write-Host 'Website publication is paused for local maintenance. No publication was performed.'
+    exit 2
 }
 
 $publishMutex = [Threading.Mutex]::new($false, 'Local\DigitalGardenPublish')
 if (-not $publishMutex.WaitOne(0)) {
     Write-Host 'Another digital garden publish is already running. Exiting.'
-    exit 0
+    exit 2
 }
 
 # Ensure we're running in PowerShell (not cmd)
+# Exclusive file handle prevents concurrent publishers across Windows sessions.
+$lockDirectory = Join-Path $PSScriptRoot '.cache'
+New-Item -ItemType Directory -Force -Path $lockDirectory | Out-Null
+try {
+    $publishLock = [System.IO.File]::Open((Join-Path $lockDirectory 'attachment-publish.lock'), [System.IO.FileMode]::OpenOrCreate, [System.IO.FileAccess]::ReadWrite, [System.IO.FileShare]::None)
+} catch {
+    Write-Host 'Another digital garden publish is already running. Exiting.'
+    $publishMutex.ReleaseMutex()
+    $publishMutex.Dispose()
+    exit 2
+}
+
+try {
 if ($PSVersionTable -eq $null) {
     Write-Error 'Please run this script in PowerShell, not Command Prompt.'
     exit 1
@@ -65,6 +78,19 @@ foreach ($cmd in $requiredCommands) {
         exit 1
     }
 }
+
+function Assert-AttachmentPrivacy {
+    param([switch]$SourcesOnly, [switch]$Index, [string]$Outgoing)
+    $arguments = @((Join-Path $ScriptDir 'attachment_privacy.py'), '--vault', $VaultPath, '--site', $ScriptDir)
+    if ($SourcesOnly) { $arguments += '--sources-only' }
+    if ($Index) { $arguments += '--index' }
+    if ($Outgoing) { $arguments += @('--outgoing', $Outgoing) }
+    & $pythonCommand @arguments
+    if ($LASTEXITCODE -ne 0) { throw 'Attachment privacy check blocked publication. Review the local report in Documents\Codex\Attachment Privacy.' }
+}
+
+# Check original note links before copying or converting any content.
+Assert-AttachmentPrivacy -SourcesOnly
 
 # Step 1: Check if Git is initialized, and initialize if necessary
 if (-not (Test-Path '.git')) {
@@ -127,7 +153,7 @@ try {
 # Step 3C: Convert Obsidian-style [[WikiLinks]] to Hugo relref Markdown
 Write-Host 'Converting Obsidian WikiLinks...'
 try {
-    & $pythonCommand 'images.py' '--wikilinks-only' $destinationPath 'posts'
+    & $pythonCommand 'images.py' '--wikilinks-only' $destinationPath 'posts' $attachmentsPath
     if ($LASTEXITCODE -ne 0) { throw "images.py exited with code $LASTEXITCODE" }
 } catch {
     Write-Error 'Failed to convert WikiLinks.'
@@ -144,6 +170,7 @@ if (Test-Path -LiteralPath $processedAbout) {
 }
 
 # Step 4: Build the Hugo site
+Assert-AttachmentPrivacy
 Write-Host 'Building the Hugo site...'
 try {
     hugo --cleanDestinationDir
@@ -154,6 +181,7 @@ try {
 }
 
 # Step 5: Add changes to Git
+Assert-AttachmentPrivacy
 if ($SkipPush) {
     Write-Host 'Local sync and build completed. Commit and push skipped.'
     exit 0
@@ -166,7 +194,9 @@ if ($changes.Count -eq 0) {
     exit 0
 } else {
     git add .
+    if ($LASTEXITCODE -ne 0) { throw 'Staging failed.' }
 }
+Assert-AttachmentPrivacy -Index
 
 # Step 6: Commit changes with a dynamic message
 $commitMessage = "New Blog Post on $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
@@ -184,6 +214,7 @@ if ($LASTEXITCODE -eq 0) {
 }
 
 # Step 7: Push all changes to the master branch
+Assert-AttachmentPrivacy -Index -Outgoing 'origin/master'
 Write-Host 'Deploying to GitHub master...'
 try {
     git push origin master
@@ -225,3 +256,8 @@ try {
 git branch -D hostinger
 
 Write-Host 'All done! Site synced, processed, committed, built, and deployed.'
+} finally {
+    $publishLock.Dispose()
+    $publishMutex.ReleaseMutex()
+    $publishMutex.Dispose()
+}

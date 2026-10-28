@@ -11,6 +11,7 @@ from pathlib import Path
 from urllib.parse import unquote
 
 from PIL import Image, ImageOps
+from attachment_privacy import PrivacyGuard, private_marker
 
 # The known Cocklebiddy survey scans exceed Pillow's default pixel threshold.
 # Keep a firm 300-megapixel ceiling and downsample JPEGs in the decoder first.
@@ -133,9 +134,13 @@ def run(images, originals, posts, manifest_path):
     images = images.resolve()
     originals = originals.resolve()
     assert images != originals and not images.is_relative_to(originals), 'Export destination must be outside the vault originals.'
+    guard = PrivacyGuard(originals.parent, Path(__file__).resolve().parent)
+    if guard.check(outputs=False):
+        guard.report()
+        raise RuntimeError('Attachment privacy review required. See the local privacy report.')
     sources = {}
     for path in originals.rglob('*'):
-        if path.is_file():
+        if path.is_file() and not private_marker(path):
             sources.setdefault(path.name.casefold(), path)
     detail = detailed_references(posts)
     manifest = json.loads(manifest_path.read_text(encoding='utf-8')) if manifest_path.exists() else {}
@@ -150,6 +155,7 @@ def run(images, originals, posts, manifest_path):
         if source is None:
             skipped_missing_original.append(destination.name)
             continue
+        guard.require_exportable(source)
         previous = cache.get(destination.name)
         hint = destination.name.casefold() in detail
         if previous and previous.get('policy') == POLICY and previous.get('detail_hint') == hint and previous.get('source') == signature(source) and previous.get('output_sha256') == sha(destination):
