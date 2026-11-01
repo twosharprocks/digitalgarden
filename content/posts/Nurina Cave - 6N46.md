@@ -6,9 +6,6 @@ status: seed
 tags:
   - caving
 region: "[[Western Australia]]"
-related:
-  - "[[Diving]]"
-  - "[[Photogrammetry - Processing]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 feature_type: Cave
 latitude: -32.01630499999999
@@ -27,8 +24,8 @@ The water in the cave, with a temperature of a cool 16C, is saline at 18,000ppm 
 
 # Maps
 
-[Trimix Divers cave resources](https://www.cavediving.net.au/index.php/siteinfo/?site=6)
-https://www.cavediving.net.au/docs/nullarbor/6N-46.gif
+![Nurina Cave site information and map source](https://www.cavediving.net.au/index.php/siteinfo/?site=6)
+- [Source](https://www.cavediving.net.au/docs/nullarbor/6N-46.gif)
 
 ## Images
 - ![Nurina Cave IMG 2110 A4217b89 69f453d4](/images/Nurina%20Cave%20-%20IMG_2110%20-%20a4217b89-69f453d4.jpeg)

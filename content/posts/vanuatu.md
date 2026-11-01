@@ -8,13 +8,9 @@ tags:
 region: "[[Oceania]]"
 smarttraveller: https://www.smartraveller.gov.au/destinations/pacific/vanuatu
 catalog-type: "region"
-related:
-  - "[[Cave Regions]]"
-  - "[[Diving]]"
-
 ---
 # Sub-regions
-- Espiritu Santo
+- [Espiritu Santo]({{< relref "posts/Santo.md" >}})
 - 
 
 - [2025]({{< relref "posts/2025.md" >}})
@@ -6427,7 +6423,7 @@ related:
 
 Vanuatu offers **year-round diving**, but the **dry season** from **October to May** is considered the best time to visit.
 
-Espiritu Santo
+[Espiritu Santo]({{< relref "posts/Santo.md" >}})
 - [Riri Blue Hole - Google Maps](https://maps.app.goo.gl/dmThApj2N5P4F8CeA)
 - [Millennium Cave - Google Maps](https://maps.app.goo.gl/91wCneMfQwacYiXVA)
 - [Matevulu Blue Hole - Google Maps](https://maps.app.goo.gl/YDqpjwEHRwRHiUR68)

@@ -1,7 +1,7 @@
 ---
 title: "India"
 created: 2025-11-02
-updated: 2026-09-11
+updated: 2026-10-31
 status: seed
 tags:
   - caving
@@ -6421,12 +6421,10 @@ catalog-type: "region"
 - [Bhimkund](https://en.wikipedia.org/wiki/Bhimkund) 
 - [Arjunkund](https://grottomap.org/en/entrance/DzbpLFFE/arjunkund_dhangawan) - 24.455900 N, 79.208200 E
 
-# Balpakram National Park
-
-Near Bangladesh)
+# [Balpakram National Park](https://maps.app.goo.gl/jNFYbkgZZmsykn1ZA)
+Near Bangladesh
 
 # References
-
 
 CAKES (Cave and Karst Exploration & Science Foundation) https://cakes.org.in/
 - [CAKES Expeditions](https://cakes.org.in/expeditions/)

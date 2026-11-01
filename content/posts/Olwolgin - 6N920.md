@@ -30,7 +30,7 @@ After two days of travel, you arrive on the Nullarbor proper, where the Southern
 ## Unique Features
 Olwolgin Cave is unique in its structure, combining sculpted fissures and main conduits. The cave has two separate parts, Upstream on the left and Downstream on the right. It hosts numerous interesting features, including rocks covered in black bacteria, hanging roots, and green tannic water. Many of the passages are very tight and silty, requiring side mount configuration to pass.
 
-The water in the cave has very high salinity, similar to Nurina Cave. The haloclines produce some amazing visual distortions. Unlike the clear-blue water and huge tunnels of the deep caves above the cliff line, Olwolgin features dark-green water. It a has approximately 2,700m of surveyed passage Upstream and 7,200m of passage Downstream.
+The water in the cave has very high salinity, similar to [Nurina Cave - 6N46]({{< relref "posts/Nurina Cave - 6N46.md" >}}). The haloclines produce some amazing visual distortions. Unlike the clear-blue water and huge tunnels of the deep caves above the cliff line, Olwolgin features dark-green water. It a has approximately 2,700m of surveyed passage Upstream and 7,200m of passage Downstream.
 
 ## Ecosystem
 Despite its rugged exterior, Olwolgin Cave is a fragile ecosystem. The cave’s beauty and fragility make it a site of great interest for divers and researchers alike. However, the cave’s delicate environment also necessitates careful exploration to preserve its natural features.

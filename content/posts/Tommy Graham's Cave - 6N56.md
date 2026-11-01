@@ -1,7 +1,7 @@
 ---
 title: "Tommy Graham's Cave - 6N56"
 created: 2026-06-18
-updated: 2026-10-13
+updated: 2026-10-31
 status: seed
 tags:
   - caving
@@ -16,12 +16,8 @@ catalog-type: "cave"
 sub-region: "[[Nullarbor High Plains]]"
 altitude: "87 m"
 address: "Unnamed Road, Shire of Dundas, Western Australia, AUS, 6443"
-altitude_alternatives: ["88 m ? additional captured location record"]
 ---
 # About
-
-## About
-
 The entrance to the cave is a large doline 50m in diameter. The obvious route into the doline leads to short cave below the Northwest cliff line.
 
 The main cave has been described as a “wombat- sized hole” which is found in the Southeast end of the doline, about 3m down from the level of the plain. There is a visitor book on a rock shelf in the entrance. The way on is not obvious and goes through a rock squeeze at the end of the low entrance chamber.
@@ -53,8 +49,16 @@ Tommy Graham’s Sketch Map 2004
 
 N56-CEG8105 (in prep)
 
+- **https://www.youtube.com/watch?v=-8EcYqws7Nk:** Youtube video showing entrance and blue water
+
+## Images
+- ![Tommy Grahams Cave 6N 56 A62762ce A865a78d](/images/Tommy%20Grahams%20Cave%20-%206N-56%20-%20a62762ce-a865a78d.jpg)
+- ![Tommy Graham's Entrance 17712361067265922681269486020057 Cdfea18a A81eecf1](/images/Tommy%20Graham%27s%20Entrance%20-%2017712361067265922681269486020057%20-%20cdfea18a-a81eecf1.jpg)
+- ![Tommy Graham's Entrance 6N 56 979121b5 A81eecf1](/images/Tommy%20Graham%27s%20Entrance%20-%206N-56%20-%20979121b5-a81eecf1.jpg)
+- ![Tommy Graham's Entrance 17712360916194961679778329578029 3071e9f0 A81eecf1](/images/Tommy%20Graham%27s%20Entrance%20-%2017712360916194961679778329578029%20-%203071e9f0-a81eecf1.jpg)
 
 # References
+[Tommy Grahams Cave - Google Maps](https://maps.app.goo.gl/r7QR7nYLo8mFTqRE9)
 
 - [Source](https://www.cavediving.net.au/index.php/siteinfo/?site=10)
 - [Source](https://www.tdisdi.com/tdi-diver-news/trip-report-tommy-grahams-cave/)
@@ -62,54 +66,3 @@ N56-CEG8105 (in prep)
 [Speleotherms - st1.asflib.net](https://st1.asflib.net/JNS/AUNat/ASF/ASF-ConfProc/ASF-26thConfMat-2007-CavesCratersCritters/ASF-26th-DVD/08-LakeSpeleothemsNullarbor.pdf)
 [ASF-26th-DVD/08-LakeSpeleothemsNullarbor.pdf - st1.asflib.net](https://st1.asflib.net/JNS/AUNat/ASF/ASF-ConfProc/ASF-26thConfMat-2007-CavesCratersCritters/ASF-26th-DVD/08-LakeSpeleothemsNullarbor.pdf)
 [new.ackma.org](https://new.ackma.org/wordpress/wp-content/uploads/2025/01/78/Tommy-Grahams-Cave-Visitor-Book-Peter-Buzzacott.pdf")
-
-- **https://www.youtube.com/watch?v=-8EcYqws7Nk:** Youtube video showing entrance and blue water
-
-## Images
-- ![Tommy Grahams Cave 6N 56 A62762ce A865a78d](/images/Tommy%20Grahams%20Cave%20-%206N-56%20-%20a62762ce-a865a78d.jpg)
-
-## Images
-- ![Tommy Graham's Entrance 17712361067265922681269486020057 Cdfea18a A81eecf1](/images/Tommy%20Graham%27s%20Entrance%20-%2017712361067265922681269486020057%20-%20cdfea18a-a81eecf1.jpg)
-- ![Tommy Graham's Entrance 6N 56 979121b5 A81eecf1](/images/Tommy%20Graham%27s%20Entrance%20-%206N-56%20-%20979121b5-a81eecf1.jpg)
-- ![Tommy Graham's Entrance 17712360916194961679778329578029 3071e9f0 A81eecf1](/images/Tommy%20Graham%27s%20Entrance%20-%2017712360916194961679778329578029%20-%203071e9f0-a81eecf1.jpg)
-
-
-# Details
-
-## Identification
-
-- **Feature type:** Cave
-
-## Cave and exploration data
-
-- **Cave rating:** Cave
-- **Highest cave rating:** Cave
-- **Exploration potential:** High
-- **Goes to water:** Yes
-
-## Diving data
-
-- **Water type:** Fresh
-- **Tidal:** No
-
-- **Coordinates:** -32.097959, 126.19563500000004
-- **Address:** Unnamed Road, Shire of Dundas, Western Australia, AUS, 6443
-- **Checked:** true
-- **Checked by:** B c
-
-- **Cave rating:** Cave
-- **Highest cave rating:** Cave
-- **Vertical access:** No
-- **Goes to water:** Yes
-
-- **Difficulty:** VeryHard
-- **Entry difficulty:** Hard
-- **Entry type:** Shore
-
-## Amenities
-
-- **hasShowers:** No
-- **hasToilets:** No
-- **hasPhone:** No
-- **family:** Terrible
-- **parking:** Excellent

@@ -1,7 +1,7 @@
 ---
 title: "Murra-El-Elevyn - 6N47"
 created: 2026-06-18
-updated: 2026-10-13
+updated: 2026-10-31
 status: seed
 tags:
   - caving
@@ -62,6 +62,7 @@ Caves of the Nullarbor 1967 p6 (N47-CEG30047)
 
 
 # References
+[Murra El Elevyn Cave - Google Maps](https://maps.app.goo.gl/k9iPKK1n1RCsXW3H8) 
 
 [Murra El Elevyn (6N47) - cavedivers.com.au](https://www.cavedivers.com.au/index.cfm?action=details&leca=1831&module=BUSINESSDIRECTORY&pageMode=indiv&page_id=1404675&utm_source= "Murra El Elevyn (6N47) - cavedivers.com.au")
 - [Source](https://www.cavediving.net.au/index.php/siteinfo/?site=5)
@@ -72,7 +73,6 @@ Briefing Docs (Dive Addiction)
 - ![Murra P3](/images/Murra%20-%20p3.jpg)
 - ![Murra P4](/images/Murra%20-%20p4.jpg)
 - ![Murra P5](/images/Murra%20-%20p5.jpg)
-
 - **https://www.youtube.com/watch?v=yRo_DAsBpeg:** Youtube video showing significant cave ladder required
 
 ## Images
@@ -81,17 +81,6 @@ Briefing Docs (Dive Addiction)
 - ![Murra El Elevyn Cave 20260219 150209 238c6da6 41c22713](/images/Murra%20El%20Elevyn%20Cave%20-%2020260219_150209%20-%20238c6da6-41c22713.jpg)
 - [MurraElElevyn_HP_V1_1 - 2c2b130a-41c22713](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/Maps/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20%28High-Res%20PDF%29.pdf)
 
-# Details
+[Crystal Room (Pinger) - Google Maps](https://maps.app.goo.gl/YaeE8gHaV8oD5cMk6)
+[End of 60m Line - Google Maps](https://maps.app.goo.gl/4UaGXjN3uvzmHu2G8)
 
-## Identification
-
-- **Feature type:** Cave
-
-## Cave and exploration data
-
-- **Cave rating:** Cave
-- **Highest cave rating:** Advanced
-- **Vertical access:** Yes
-- **Exploration potential:** Medium
-- **Tourism potential:** Medium
-- **Goes to water:** Yes
