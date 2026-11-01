@@ -1,15 +1,14 @@
 ---
 title: Photogrammetry
 created: 2025-08-20
-updated: 2026-07-12
+updated: 2026-10-29
 status: tree
 tags:
   - caving
-  - diving
-  - photogrammetry
 related: 
   - "[[360 Video to 3D Model]]"
   - "[[Photogrammetry]]"
+  - "[[Diving]]"
 ---
 # Processing
 - [ ] [Grace Cave]({{< relref "posts/Grace Cave.md" >}})

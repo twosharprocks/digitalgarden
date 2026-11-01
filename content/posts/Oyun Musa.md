@@ -4,9 +4,7 @@ created: 2024-07-28
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - egypt
 feature_type: "Landmark"
 latitude: 29.87693999999999
 longitude: 32.65832999999998

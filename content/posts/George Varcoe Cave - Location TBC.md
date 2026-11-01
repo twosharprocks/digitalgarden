@@ -4,9 +4,7 @@ created: 2023-07-28
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -37.38403299999999
 longitude: 140.44883300000004
 suburb: "Wattle Range"

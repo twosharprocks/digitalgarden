@@ -4,9 +4,7 @@ created: 2024-08-11
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - romania
 feature_type: "Cave"
 latitude: 45.574036999999976
 longitude: 23.136657000000014

@@ -4,9 +4,7 @@ created: 2023-12-12
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - uruguay
 feature_type: "Cave"
 latitude: -34.372208
 longitude: -55.185608

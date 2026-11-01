@@ -16,7 +16,7 @@ $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 
 # A file guard also works across Windows sessions, unlike the Local mutex.
-if (Test-Path -LiteralPath (Join-Path $PSScriptRoot '.cache\web-images-publish.gate')) {
+if ((Test-Path -LiteralPath (Join-Path $PSScriptRoot '.cache\web-images-publish.gate')) -and -not $SkipPush) {
     Write-Host 'Website publication is paused for local maintenance. No publication was performed.'
     exit 2
 }
@@ -80,16 +80,17 @@ foreach ($cmd in $requiredCommands) {
 }
 
 function Assert-AttachmentPrivacy {
-    param([switch]$SourcesOnly, [switch]$Index, [string]$Outgoing)
-    $arguments = @((Join-Path $ScriptDir 'attachment_privacy.py'), '--vault', $VaultPath, '--site', $ScriptDir)
+    param([switch]$SourcesOnly, [switch]$Index, [switch]$BeforeBuild, [string]$Outgoing)
+    $arguments = @((Join-Path $ScriptDir 'attachment_privacy.py'), '--vault', $VaultPath, '--site', $ScriptDir, '--website')
     if ($SourcesOnly) { $arguments += '--sources-only' }
     if ($Index) { $arguments += '--index' }
+    if ($BeforeBuild) { $arguments += '--before-build' }
     if ($Outgoing) { $arguments += @('--outgoing', $Outgoing) }
     & $pythonCommand @arguments
     if ($LASTEXITCODE -ne 0) { throw 'Attachment privacy check blocked publication. Review the local report in Documents\Codex\Attachment Privacy.' }
 }
 
-# Check original note links before copying or converting any content.
+# Check effective public copies before copying or converting any content.
 Assert-AttachmentPrivacy -SourcesOnly
 
 # Step 1: Check if Git is initialized, and initialize if necessary
@@ -106,7 +107,12 @@ if (-not (Test-Path '.git')) {
     }
 }
 
-# Step 2: Sync posts from Obsidian to Hugo content folder using Robocopy
+# Prepare safe public copies; never mirror the full vault notes directly.
+& $pythonCommand (Join-Path $ScriptDir 'website_rules.py') '--vault' $VaultPath '--prepare'
+if ($LASTEXITCODE -ne 0) { throw 'Website source rules blocked publication.' }
+$sourcePath = Join-Path $env:USERPROFILE 'Documents\Codex\Website Publication\effective-sources'
+
+# Step 2: Mirror the effective public copies to Hugo.
 Write-Host 'Syncing posts from Obsidian...'
 
 if (-not (Test-Path -LiteralPath $sourcePath)) {
@@ -170,7 +176,7 @@ if (Test-Path -LiteralPath $processedAbout) {
 }
 
 # Step 4: Build the Hugo site
-Assert-AttachmentPrivacy
+Assert-AttachmentPrivacy -BeforeBuild
 Write-Host 'Building the Hugo site...'
 try {
     hugo --cleanDestinationDir

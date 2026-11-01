@@ -114,10 +114,15 @@ def link_targets(text):
 
 
 class PrivacyGuard:
-    def __init__(self, vault, site, policy=POLICY_PATH):
+    def __init__(self, vault, site, policy=POLICY_PATH, website=False):
         self.vault = Path(vault).resolve()
         self.assets = self.vault / "3 - Files"
         self.site = Path(site).resolve()
+        self.website_rules = None
+        if website:
+            from website_rules import WebsiteRules
+            self.website_rules = WebsiteRules(self.vault, self.site)
+            policy = self.website_rules.policy_path
         self.policy_path = Path(policy).resolve()
         if self.policy_path.is_relative_to(self.site):
             raise PrivacyError("The private attachment register must be outside the public repository.")
@@ -248,7 +253,11 @@ class PrivacyGuard:
             if self.hash(path)["sha256"] not in self.approved_source:
                 self.problem("unapproved_non_note_in_published", path)
             return
-        text = path.read_text(encoding="utf-8-sig")
+        text = self.website_rules.text(path) if self.website_rules else path.read_text(encoding="utf-8-sig")
+        if text is None:
+            return
+        if self.website_rules and self.website_rules.check_text(text):
+            self.problem("redacted_location_in_effective_source", path)
         for target, embedded in link_targets(text):
             if private_marker(target):
                 self.problem("private_reference", path, target)
@@ -295,6 +304,8 @@ class PrivacyGuard:
                 text = path.read_text(encoding="utf-8-sig")
             except UnicodeError:
                 return
+            if self.website_rules and self.website_rules.check_text(text):
+                self.problem("redacted_location_in_public_output", path)
             for target, _ in link_targets(text):
                 if private_marker(target):
                     self.problem("private_reference_in_public_output", path, target)
@@ -343,7 +354,10 @@ class PrivacyGuard:
                 if digest.hexdigest() in self.private_sha:
                     self.problem("private_bytes_in_outgoing_history", name)
                 if inspect_links:
-                    for target, _ in link_targets(b"".join(chunks).decode("utf-8", errors="replace")):
+                    outgoing_text = b"".join(chunks).decode("utf-8", errors="replace")
+                    if self.website_rules and self.website_rules.check_text(outgoing_text):
+                        self.problem("redacted_location_in_outgoing_history", name)
+                    for target, _ in link_targets(outgoing_text):
                         if private_marker(target):
                             self.problem("private_reference_in_outgoing_history", name, target)
         finally:
@@ -351,7 +365,7 @@ class PrivacyGuard:
             process.stdout.close()
             process.wait()
 
-    def check(self, sources=True, outputs=True, index=False, outgoing=None):
+    def check(self, sources=True, outputs=True, index=False, outgoing=None, before_build=False):
         if sources:
             root = self.vault / "1 - Published"
             if not root.is_dir():
@@ -366,6 +380,8 @@ class PrivacyGuard:
             if command.returncode:
                 raise PrivacyError("Unable to enumerate public repository files.")
             for name in set(command.stdout.decode("utf-8").split("\0")) - {""}:
+                if before_build and name.replace("\\", "/").startswith("public/"):
+                    continue
                 path = self.site / name
                 if path.is_file() or path.is_symlink():
                     self.scan_output_file(path)
@@ -437,6 +453,8 @@ def retire_unreferenced_images(site, used_names, policy=POLICY_PATH):
     # Verify all candidates before moving any of them.
     for path, identity in candidates:
         destination = quarantine / identity["sha256"] / path.relative_to(site)
+        if os.name == "nt":
+            destination = Path("\\\\?\\" + str(destination.resolve()))
         destination.parent.mkdir(parents=True, exist_ok=True)
         if destination.exists() and fingerprints(destination)["sha256"] != identity["sha256"]:
             raise PrivacyError("Retired-image backup collision.")
@@ -455,12 +473,16 @@ def main():
     parser.add_argument("--policy", type=Path, default=POLICY_PATH)
     parser.add_argument("--report", type=Path, default=REPORT_PATH)
     parser.add_argument("--sources-only", action="store_true")
+    parser.add_argument("--website", action="store_true", help="Apply private Karst website rules")
     parser.add_argument("--index", action="store_true")
+    parser.add_argument("--before-build", action="store_true", help="Check content/static; generated public output is checked after build")
     parser.add_argument("--outgoing", help="Remote tracking ref against which to inspect new commits")
     args = parser.parse_args()
     try:
-        guard = PrivacyGuard(args.vault, args.site, args.policy)
-        issues = guard.check(outputs=not args.sources_only, index=args.index, outgoing=args.outgoing)
+        guard = PrivacyGuard(args.vault, args.site, args.policy, website=args.website)
+        if args.website and not args.sources_only:
+            guard.website_rules.verify_prepared()
+        issues = guard.check(outputs=not args.sources_only, index=args.index, outgoing=args.outgoing, before_build=args.before_build)
         guard.report(args.report)
         print(f"Attachment privacy check: {'BLOCKED' if issues else 'passed'} ({len(issues)} findings).")
         print(f"Private report: {args.report}")

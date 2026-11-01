@@ -1,31 +1,30 @@
 ---
-title: "Veryovkina Cave"
+title: Veryovkina Cave
 created: 2023-08-07
-updated: 2026-10-13
+updated: 2026-10-29
 status: seed
 tags:
-  - diving
   - caving
-  - georgia
-feature_type: "Cave"
+feature_type: Cave
 latitude: 43.41556000000003
 longitude: 40.35639000000003
-suburb: "გაგრა"
+suburb: გაგრა
 obsidian_aliases:
-  - "Verëvkina Cave"
-  - "Вериовкин иҳаԥы"
-  - "veriovk'inis mghvime"
-  - "S-115"
-  - "P1-7"
+  - Verëvkina Cave
+  - Вериовкин иҳаԥы
+  - veriovk'inis mghvime
+  - S-115
+  - P1-7
 region: "[[Georgia]]"
-related:
-  - "[[Diving]]"
-cavedb: "https://app.cavedb.net/share/ba70c4fb-b776-44ed-ba87-d36cabe17b18.html"
-catalog-type: "cave"
-altitude: "2626 m"
-address: "გაგრა, GEO"
+cavedb: https://app.cavedb.net/share/ba70c4fb-b776-44ed-ba87-d36cabe17b18.html
+catalog-type: cave
+altitude: 2626 m
+address: გაგრა, GEO
+data_quality_notes: "The opening comparison describes Krubera Cave. The stored altitude and the quoted Veryovkina entrance elevation disagree and remain unverified."
 ---
 # About
+
+## Comparison: Krubera Cave
 
 [Krubera Cave]({{< relref "posts/Krubera Cave.md" >}}), also known as Voronya Cave, is the second-deepest-known cave on Earth, after the Veryovkina Cave. It is located in the Arabika Massif of the Gagra Range of the Western Caucasus, in the Gagra District of Abkhazia, an occupied region of Georgia ¹. The difference in elevation of the highest cave entrance (Arbaika) and its deepest explored point is 2,199 ± 20 meters (7,215 ± 66 feet) ¹. Ukrainian diver Gennadiy Samokhin extended the cave by diving in the terminal sump to 46 meters' depth in 2007 and then to 52 m in 2012, setting successive world records of 2,191 m and 2,197 m, respectively ¹.
 
@@ -53,5 +52,5 @@ address: "გაგრა, GEO"
 - **Wikipedia:** https://en.wikipedia.org/wiki/Veryovkina_Cave
 
 ## Images
-- Veryovkina Cave - Verëvkina_cave_-_profile_with_surface - cb7ebc5f-ba70c4fb.svg
+- [Veryovkina Cave - Verëvkina_cave_-_profile_with_surface - cb7ebc5f-ba70c4fb](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/95b471c45b6f14b4d8d7a3278d387af7c2e9bc7778330b372fbf2cb9b85b1519.svg)
 - ![Veryovkina Cave План English (сер) B7650429 Ba70c4fb](/images/Veryovkina%20Cave%20-%20%D0%9F%D0%BB%D0%B0%D0%BD_English_%28%D1%81%D0%B5%D1%80%29%20-%20b7650429-ba70c4fb.jpg)

@@ -3,11 +3,9 @@ title: CISSP - Misc Notes
 created: 2025-07-07
 updated: 2025-10-30
 status: reference
-tags:
-  - cyber-security
-  - cissp
 related: 
   - "[[CISSP]]"
+  - "[[Cyber Security]]"
 ---
 ---
 The **Payment Card Industry Data Security Standard (PCI-DSS) has 12 main requirements**. Each requirement has additional sub-controls. 

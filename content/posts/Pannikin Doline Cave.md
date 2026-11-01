@@ -1,12 +1,10 @@
 ---
 title: "Pannikin Doline Cave"
 created: 2023-04-16
-updated: 2026-10-13
+updated: 2026-10-31
 status: seed
 tags:
-  - diving
   - caving
-  - western-australia
 feature_type: "Cave"
 latitude: -32.0349058963223
 longitude: 126.18716239929199
@@ -20,17 +18,12 @@ sub-region: "[[Western Australia]]"
 altitude: "85 m"
 address: "Cocklebiddy, Western Australia, AUS, 6443"
 ---
-# Details
-
-## Identification
-
-- **Feature type:** Cave
-
-# References
-
 ## Images
 - ![Pannikin Doline Cave 20260214 093841 902c33d1 1cae1c3a](/images/Pannikin%20Doline%20Cave%20-%2020260214_093841%20-%20902c33d1-1cae1c3a.jpg)
 - ![Pannikin Doline Cave 20260214 093827 9f2973ec 1cae1c3a](/images/Pannikin%20Doline%20Cave%20-%2020260214_093827%20-%209f2973ec-1cae1c3a.jpg)
 - ![Pannikin Doline Cave 20260214 093752 A4fd952b 1cae1c3a](/images/Pannikin%20Doline%20Cave%20-%2020260214_093752%20-%20a4fd952b-1cae1c3a.jpg)
 - ![Pannikin Doline Cave 20260214 093749 D2a5c4b4 1cae1c3a](/images/Pannikin%20Doline%20Cave%20-%2020260214_093749%20-%20d2a5c4b4-1cae1c3a.jpg)
 - ![Pannikin Doline Cave 20260214 093938 181b63d0 1cae1c3a](/images/Pannikin%20Doline%20Cave%20-%2020260214_093938%20-%20181b63d0-1cae1c3a.jpg)
+
+# References
+[Pannikin Doline Cave](https://maps.app.goo.gl/S8hWkY3dz54uQvTy6)

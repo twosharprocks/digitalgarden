@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - rwanda
 feature_type: "Cave"
 latitude: -1.6481109999999717
 longitude: 29.378471999999988

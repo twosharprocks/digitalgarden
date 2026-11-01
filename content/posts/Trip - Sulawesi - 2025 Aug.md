@@ -10,7 +10,7 @@ destination:
 region:
 dates:
 weather:
-Other Info:
+other info:
 related:
   - "[[Trips]]"
 ---
@@ -38,7 +38,7 @@ related:
 	- Drive to Baubau ferry: Get lunch, get sandles, wait until 2pm
 	- Ferry to Wanmengkoli (Muna Island)
 	- Truck to Kadena Glamping Dive Resort -> Check-In
-	- Dive Brief & Dive La Hambe
+	- Dive Brief & Dive [La Hambe]({{< relref "posts/La Hambe.md" >}})
 
 - 2025-08-04 Mon: Diving Day 2
 	- Dive Brief: [Kaidaiula]({{< relref "posts/kaidaiula.md" >}})

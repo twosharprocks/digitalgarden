@@ -3,8 +3,6 @@ title: OSCP - PC - Linux
 created: 2026-01-26
 updated: 2025-10-02
 status: seed
-tags:
-  - cyber-security
 related:
   - "[[OSCP]]"
   - "[[Cyber Security]]"

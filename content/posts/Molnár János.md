@@ -4,9 +4,7 @@ created: 2023-07-05
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - hungary
 feature_type: "Cave"
 latitude: 47.518100000000004
 longitude: 19.035930000000008

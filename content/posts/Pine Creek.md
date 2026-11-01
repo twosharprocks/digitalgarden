@@ -4,9 +4,7 @@ created: 2023-04-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - northern-territory
 latitude: -13.828000847524208
 longitude: 131.82904422283173
 suburb: "Pine Creek"

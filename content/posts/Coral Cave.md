@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - sweden
 feature_type: "Cave"
 latitude: 64.88868400000001
 longitude: 14.110748999999942

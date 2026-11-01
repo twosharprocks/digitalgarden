@@ -6,7 +6,6 @@ status: seed
 tags:
   - knowledge-management
   - writing
-  - creativity
 related:
   - "[[Writing]]"
   - "[[Creativity]]"

@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - iraq
 feature_type: "Cave"
 latitude: 35.358472000000006
 longitude: 45.02408300000002

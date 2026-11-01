@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - madagascar
 feature_type: "Cave"
 latitude: -16.45188999999999
 longitude: 45.335429999999974

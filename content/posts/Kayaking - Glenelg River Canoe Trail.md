@@ -1,15 +1,14 @@
 ---
 title: Kayaking - Glenelg River Canoe Trail
 created: 2025-12-21
-updated: 2025-12-21
+updated: 2026-10-31
 status: seed
-tags:
 related:
   - "[[Kayaking]]"
 ---
 ---
 
-# 3-Day Trip from Nelson (ChatGPT)
+# 3-Day Trip from Nelson
 **Why Nelson works**
 - Legitimate, commonly used **longer-term parking** (town, campground, hire operators)
 - You can paddle **upriver into the gorge country**, camp progressively, then return
@@ -19,16 +18,15 @@ related:
 
 The alternative (parking at Dartmoor) is workable, but Nelson gives you **better scenery density** per kilometre and more flexibility if weather turns.
 
-
 This plan lets you:
 - Camp away from the car
 - Experience the **best limestone gorge sections**
 - Spend **2–3 hours near McLennan’s Punt** on Day 2 without rushing
 - Paddle fresh _against_ current first, then enjoy an easier return
-### **Day 1 – Nelson → Patterson Canoe Camp**
+### **Day 1 – [Nelson](https://maps.app.goo.gl/TypdonU99ztV977s5) → [Patterson Canoe Camp**](https://maps.app.goo.gl/7fwyyaWVRSLQtYQC8)
 - **Distance:** ~20–22 km upstream
 - **Time:** ~5–6 hours at a steady solo pace
-- **Overnight:** **Patterson Canoe Camp** 
+- **Overnight:** **Patterson Canoe Camp** (or earlier at [Lasletts Canoe Camp](https://maps.app.goo.gl/z8972W8uSJMPDEVGA))
 
 **Why this works**
 - You clear the wider lower river early
@@ -36,11 +34,15 @@ This plan lets you:
 - Patterson is a logical psychological and physical breakpoint
 - Sets you up perfectly for McLennan’s Punt on Day 2
 
-Expect calm water, slow current, and progressively tightening bends with good limestone walls.
-### **Day 2 – Patterson → McLennan’s Punt (cave stop) → upstream camp**
+
+### **Day 2 – [Patterson](https://maps.app.goo.gl/7fwyyaWVRSLQtYQC8) → [McLennan’s Punt](https://maps.app.goo.gl/mwajDKmCATMkHfo49) (cave stop) → upstream camp**
 - **Distance:** ~12–16 km total (depending how far you continue)
 - **Key feature:** **2–3 hour stop near McLennan’s Punt**
-- **Overnight:** **Skipworth Springs Canoe Camp** _or_ nearby upstream site
+- **Overnight:** [**Skipworth Springs Canoe Camp**](https://maps.app.goo.gl/UHNkEomY9xjbG5W68) _or_ nearby upstream site
+	- Before Skipworth: [Bowds Canoe Camp](https://maps.app.goo.gl/iNe7Ls2LrjJabRfF8) (Near McLennan's Punt) or [Georges Rest Canoe Camp](https://maps.app.goo.gl/aFNrLwMEQ8DDgiNo7) (Nearing Skipworth)
+	- 
+	- Further: [Moleskin Canoe Camping Area](https://maps.app.goo.gl/6T3dmk8B3ufBgxBr8) or on to 
+	
 
 **Structure**
 - Paddle upstream from Patterson in the morning

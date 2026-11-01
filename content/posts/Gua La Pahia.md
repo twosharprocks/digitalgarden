@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - sulawesi
 region: "[[Sulawesi]]"
 related:
   - "[[Diving]]"
@@ -29,6 +27,8 @@ obsidian_aliases:
 cavedb: https://app.cavedb.net/share/204d672d-53da-4bd4-a0f6-229206b7461d.html
 catalog-type: cave
 sub-region: "[[Muna Island]]"
+altitude: "15 m"
+address: "Jl. Poros Lombe, Buton Regency, South East Sulawesi, IDN, 93761"
 ---
 # About
 
@@ -61,14 +61,6 @@ https://www.youtube.com/watch?v=pw2oqsmQ9Ew
 ## Identification
 
 - **Feature type:** Cave
-
-## Location
-
-- **Coordinates:** -5.31504000000001, 122.63250500000004
-- **Altitude:** 15 m
-- **Address:** Jl. Poros Lombe, Buton Regency, South East Sulawesi, IDN, 93761
-- **Checked:** true
-- **Checked by:** Grubby Wombat
 
 ## Cave and exploration data
 

@@ -4,9 +4,7 @@ created: 2023-07-28
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -37.50566599999999
 longitude: 140.42172099999993
 suburb: "Furner"

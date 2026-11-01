@@ -5,11 +5,11 @@ updated: 2025-10-30
 status: tree
 tags:
   - mini-essay
-  - philosophy
   - writing
 related:
   - "[[Mini Essays]]"
   - "[[Mini Essay - Fear Is The Mind Killer]]"
+  - "[[Philosophy]]"
 ---
 ---
 For years now I've felt this overwhelming connection to the Dune universe, and in many ways that connection has felt as undefinable as the series itself. Some might refer to the "vibe" of Dune being appealing, but for me there's something more than just enjoying the aesthetic - it's the whole body understanding that if you stop moving, if you try to stay in one place, to put up defences, to block the flow of energy... then you'll be destroyed and swept away regardless. 

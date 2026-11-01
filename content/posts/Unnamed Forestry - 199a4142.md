@@ -4,9 +4,7 @@ created: 2023-07-29
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -37.164157999999986
 longitude: 140.88032199999998
 suburb: "Wrattonbully"

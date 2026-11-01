@@ -4,9 +4,7 @@ created: 2023-08-14
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - western-australia
 feature_type: "SolutionTube"
 latitude: -32.74849499999999
 longitude: 124.98123199999998

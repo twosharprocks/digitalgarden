@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - malaysia
 feature_type: "Cave"
 latitude: 4.0652900000000045
 longitude: 114.83176000000003

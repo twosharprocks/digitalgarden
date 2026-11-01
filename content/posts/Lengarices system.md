@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - albania
 feature_type: "Cave"
 latitude: 40.244309999999984
 longitude: 20.43213000000003

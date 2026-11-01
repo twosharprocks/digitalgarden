@@ -3,10 +3,9 @@ title: Photogrammetry - Processing
 created: 2025-10-19
 updated: 2025-10-30
 status: tree
-tags:
-  - diving
-  - photogrammetry
 related:
+  - "[[Diving]]"
+  - "[[Photogrammetry]]"
 ---
 Priorities 
 - Split: 
@@ -64,7 +63,7 @@ For Will
 - Sumps: 360 video created, requires video frame splitting & alignment
 - Underwater: Video frames split, requires initial alignment
 
-[Nurina Cave]({{< relref "posts/Nurina Cave.md" >}}) - *SURFACE COMPONENT MATCHING*
+[Nurina Cave - 6N46]({{< relref "posts/Nurina Cave - 6N46.md" >}}) - *SURFACE COMPONENT MATCHING*
 - Drone: External model complete
 - Surface: Initial alignment complete, requires component matching and connection to drone model
 - Underwater: Requires Data

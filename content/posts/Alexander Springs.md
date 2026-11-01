@@ -4,9 +4,7 @@ created: 2023-07-23
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - florida
 feature_type: "Sinkhole"
 latitude: 29.081310523384673
 longitude: -81.57610416412354

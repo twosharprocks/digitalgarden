@@ -4,9 +4,7 @@ created: 2023-02-08
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 feature_type: "Depression"
 latitude: -37.39427509522491
 longitude: 140.19245940303483

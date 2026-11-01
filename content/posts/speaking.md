@@ -3,15 +3,13 @@ title: Speaking
 created: 2025-11-01
 updated: 2026-10-13
 status: seed
-tags:
-  - speaking
-  - cyber-security
-  - books
-  - work
 related:
   - "[[Exploration]]"
   - "[[Diving]]"
   - "[[Explorer-Storyteller]]"
+  - "[[Cyber Security]]"
+  - "[[Books]]"
+  - "[[Work]]"
 ---
 My next keynote will be about being a life-long diver. 
 - Being one hell of a swimmer & tolerant to the cold.

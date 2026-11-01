@@ -4,9 +4,7 @@ created: 2023-11-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - yucatan-mexico
 latitude: 20.499199999999973
 longitude: -87.26082600000001
 state: Quintana Roo

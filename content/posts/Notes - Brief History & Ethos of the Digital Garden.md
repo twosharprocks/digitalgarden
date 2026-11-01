@@ -5,7 +5,6 @@ updated: 2026-09-28
 status: seed
 tags:
   - knowledge-management
-  - creativity
 related:
   - "[[Creativity]]"
   - "[[Time Management]]"

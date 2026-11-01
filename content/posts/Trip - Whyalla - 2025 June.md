@@ -10,7 +10,7 @@ destination:
 region:
 dates:
 weather:
-Other Info:
+other info:
 related:
   - "[[Trips]]"
 ---

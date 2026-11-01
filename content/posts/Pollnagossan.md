@@ -4,9 +4,7 @@ created: 2023-12-11
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - ireland
 feature_type: "Cave"
 latitude: 54.265926000000036
 longitude: -7.904233999999974

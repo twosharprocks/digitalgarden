@@ -4,9 +4,7 @@ created: 2023-06-28
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - new-south-wales
 latitude: -35.73108400000001
 longitude: 148.48596199999997
 suburb: "Yarrangobilly"

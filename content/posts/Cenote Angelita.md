@@ -6,10 +6,11 @@ status: seed
 catalog-type: cave
 tags:
   - caving
-  - diving
 region: "[[Mexico]]"
 sub-region: "[[Yucatan]]"
 verification: unverified
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

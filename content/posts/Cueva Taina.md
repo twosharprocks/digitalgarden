@@ -4,9 +4,7 @@ created: 2023-12-11
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - dominican-republic
 feature_type: "Cave"
 latitude: 18.474429999999984
 longitude: -69.78080499999999

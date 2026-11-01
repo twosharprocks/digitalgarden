@@ -4,17 +4,13 @@ created: 2023-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - yucatan-mexico
 feature_type: Cave
 latitude: 20.41291000000001
 longitude: -87.30489
 state: Quintana Roo
 suburb: Solidaridad
 region: "[[Mexico]]"
-related:
-  - "[[Diving]]"
 rating: TDI Intro to Cave
 cavedb: https://app.cavedb.net/share/dd72cf24-70dd-4f1f-8d64-3a54c9477987.html
 catalog-type: cave
@@ -42,4 +38,4 @@ The lagoon is open to snorkelling but diving is prohibited without permit.
 
 # Maps
 
-- Murena - 3fba632a-dd72cf24.kml
+- [Murena - 3fba632a-dd72cf24](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/b757ad624a5c5796bd5eb2375d8ee94e152336f50055a3f5cf2ec1f86a416d16.kml)

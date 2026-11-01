@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - lebanon
 feature_type: "Cave"
 latitude: 33.94390550000003
 longitude: 35.64410769999995

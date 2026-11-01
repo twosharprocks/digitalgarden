@@ -4,13 +4,12 @@ created: 2026-06-18
 updated: 2026-06-28
 status: seed
 tags:
-  - personal
   - expeditions
-  - exploration
 related:
   - "[[Adventure]]"
   - "[[Exploration]]"
   - Exped
+  - "[[Personal]]"
 ---
 # Articles
 - [How Iceman Wim Hof Uncovered the Secrets to Our Health](https://www.outsideonline.com/outdoor-adventure/exploration-survival/wim-hof-method/)

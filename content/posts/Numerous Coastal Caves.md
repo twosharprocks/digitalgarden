@@ -4,9 +4,7 @@ created: 2023-06-30
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - italy
 latitude: 39.80622800000003
 longitude: 18.37993400000005
 state: "Puglia"

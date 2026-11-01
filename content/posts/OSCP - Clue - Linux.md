@@ -3,8 +3,6 @@ title: OSCP - Clue - Linux
 created: 2026-01-26
 updated: 2026-01-22
 status: seed
-tags:
-  - cyber-security
 related: "[[Cyber Security]]"
 ---
 # Clue

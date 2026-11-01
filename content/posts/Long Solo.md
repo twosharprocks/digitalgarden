@@ -5,8 +5,6 @@ updated: 2026-08-20
 status: seed
 tags:
   - interests
-  - bucket-list
-  - personal
 related: 
   - "[[Personal]]"
   - "[[Bucket List]]"

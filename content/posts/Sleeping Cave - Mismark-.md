@@ -4,9 +4,7 @@ created: 2023-07-29
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -37.521105000000006
 longitude: 140.63565399999993
 suburb: "Kalangadoo"

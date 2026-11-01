@@ -4,17 +4,13 @@ created: 2023-06-12
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - yucatan-mexico
 feature_type: Cave
 latitude: 20.34077000000002
 longitude: -87.35450000000003
 state: Quintana Roo
 suburb: Tulum Municipality
 region: "[[Mexico]]"
-related:
-  - "[[Diving]]"
 rating: TDI Intro to Cave
 cavedb: https://app.cavedb.net/share/d3e25240-54a7-4c49-b405-cf7b316d498f.html
 catalog-type: cave
@@ -39,7 +35,7 @@ address: "17, Cuba, Tulum Municipality, Quintana Roo, MEX, 77774"
 
 # Maps
 
-- Chan Chemuyil Sur 2 - 1a5782eb-d3e25240.kml
+- [Chan Chemuyil Sur 2 - 1a5782eb-d3e25240](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/cdb1e3aa6558e97785e343043b6696046fa5e4a5cb346def0a5eef9f8ffebe2b.kml)
 
 # References
 

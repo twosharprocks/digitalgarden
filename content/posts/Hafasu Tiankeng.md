@@ -4,9 +4,7 @@ created: 2023-08-14
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - indonesia
 feature_type: "Sinkhole"
 latitude: -0.9529770000000326
 longitude: 132.32846100000006

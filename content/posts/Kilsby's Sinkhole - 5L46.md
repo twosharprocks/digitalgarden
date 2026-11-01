@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-28
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -23,6 +21,8 @@ obsidian_aliases:
 cavedb: https://app.cavedb.net/share/4e882f22-006f-4b0b-b618-cf899cd8a5c3.html
 catalog-type: cave
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "18 m"
+address: "525, Unnamed Road, The District Council of Grant, South Australia, AUS, 5291"
 ---
 # About
 
@@ -39,14 +39,6 @@ The sinkhole has an interesting history due to its use as a top-secret space for
 - **Feature type:** Sinkhole
 - **Reference:** L0046
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.892382999999995, 140.676105
-- **Altitude:** 18 m
-- **Address:** 525, Unnamed Road, The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

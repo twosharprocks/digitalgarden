@@ -4,9 +4,7 @@ created: 2025-06-26
 updated: 2026-10-24
 status: seed
 tags:
-  - books
   - interests
-  - personal
 related:
   - "[[Personal]]"
   - "[[Unread]]"
@@ -18,7 +16,7 @@ related:
 - Kindle: Roger's Book
 - Kindle: Tao Te Ching
 - Why the Future Doesn’t Need Us
-- Permissionless - JA Westenberg.pdf
+- [Permissionless - JA Westenberg](https://www.thisisstudioself.com/)
 # Clear
 - Bookshelf
 - Kindle
@@ -67,4 +65,3 @@ Misc
 # References
 - 2026 - Media
 - 2025 - Media
-- 

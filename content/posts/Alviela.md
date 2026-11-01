@@ -4,9 +4,7 @@ created: 2023-06-29
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - portugal
 latitude: 39.44398000000001
 longitude: -8.71264999999994
 suburb: "Alcanena"

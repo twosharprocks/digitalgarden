@@ -3,12 +3,10 @@ title: OSCP - Jacko - Windows
 created: 2026-01-26
 updated: 2026-01-22
 status: seed
-tags:
-  - cyber-security
 related: "[[Cyber Security]]"
 ---
 # Box
-What the actual fuck... I'll write this up tomorrow, but this was a combination of "Why the fuck isn't this working" with "that is so fucking dumb" when it did finally work
+What the actual fuck... This was a combination of "Why the fuck isn't this working" with "that is so fucking dumb" when it did finally work
 # Resolution summary
 - Ran Nmap to identify ports `80`, `135/445`, `445`, `5040`, `8082` & `9092` 
 - Navigated to port `8082` with browser and logged in with default credentials

@@ -4,9 +4,7 @@ created: 2023-12-12
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - serbia
 feature_type: "Cave"
 latitude: 44.17230599999999
 longitude: 21.581277999999998

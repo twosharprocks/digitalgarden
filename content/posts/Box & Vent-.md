@@ -4,9 +4,7 @@ created: 2023-07-23
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -37.68537599999999
 longitude: 140.48427000000004
 suburb: "Tantanoola"

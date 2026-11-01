@@ -4,10 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
-  - south-australia
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -25,6 +22,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/c1879d03-ef2d-4973-886b-2d991e600c55.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "4 m"
+address: "Piccaninnie Ponds Rd, The District Council of Grant, South Australia, AUS, 5291"
 ---
 # About
 
@@ -77,14 +76,6 @@ Also, the following quote by Tom Mount :
 - **Feature type:** Sinkhole
 - **Reference:** L0072
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -38.04758000000001, 140.94328799999994
-- **Altitude:** 4 m
-- **Address:** Piccaninnie Ponds Rd, The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

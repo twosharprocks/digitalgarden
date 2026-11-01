@@ -4,9 +4,7 @@ created: 2025-01-19
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -37.82254900000001
 longitude: 140.59776899999997
 suburb: "The District Council of Grant"

@@ -4,15 +4,14 @@ created: 2025-11-03
 updated: 2025-11-03
 status: seed
 tags:
-  - diving
   - expeditions
-  - exploration
 region:
 sub-region:
 smarttraveller: https://www.smartraveller.gov.au/destinations/europe/azerbaijan
 related:
   - "[[Diving]]"
   - "[[Trips - Ideas]]"
+  - "[[Exploration]]"
 ---
 # About
 **Moderate Potential** 

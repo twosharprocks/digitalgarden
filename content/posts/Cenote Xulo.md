@@ -4,9 +4,7 @@ created: 2023-12-13
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - yucatan-mexico
 feature_type: Cave
 latitude: 20.061583999999982
 longitude: -87.62751500000002
@@ -17,8 +15,6 @@ obsidian_aliases:
   - Cave of the Swallows
   - Cenote Dzulo
 region: "[[Mexico]]"
-related:
-  - "[[Diving]]"
 rating: TDI Intro to Cave
 cavedb: https://app.cavedb.net/share/e3f1823e-2e68-45fa-af12-95b6878d84eb.html
 catalog-type: cave
@@ -60,9 +56,9 @@ The route then splits into two very contrasting passages. The first deeper one l
 
 ## Images
 - ![Cenote Xulo 20200716 100902 B2a954ec E3f1823e](/images/Cenote%20Xulo%20-%2020200716_100902%20-%20b2a954ec-e3f1823e.jpg)
-- Cenote Xulo - c7d51b_7d403be931434966b857d294db7200a0~mv2 - db622cee-e3f1823e.webp
+- [Cenote Xulo - c7d51b_7d403be931434966b857d294db7200a0~mv2 - db622cee-e3f1823e](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/3befe44e34bf36507cd8393696e6df27d9a8bb41c3ca1f9678a43b31626efd44.webp)
 - ![Cenote Xulo 20200716 100700 893f5baa E3f1823e](/images/Cenote%20Xulo%20-%2020200716_100700%20-%20893f5baa-e3f1823e.jpg)
-- Cenote Xulo - c7d51b_191ec80def3d4368a37814821aeba479~mv2 - 8dcd62f5-e3f1823e.webp
-- Cenote Xulo - c7d51b_ae757d187c154543841ad54e6638f7a1~mv2_d_1825_2738_s_2 - e3b36427-e3f1823e.webp
+- [Cenote Xulo - c7d51b_191ec80def3d4368a37814821aeba479~mv2 - 8dcd62f5-e3f1823e](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/36c62289411e14bbca835b08f1fbb6dc1826c43344c0d509ad8d64c95665cab7.webp)
+- [Cenote Xulo - c7d51b_ae757d187c154543841ad54e6638f7a1~mv2_d_1825_2738_s_2 - e3b36427-e3f1823e](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/eccf002fc7496cbf8b071f43c48df2792891be83fbf911ce1d288343ee0c78f6.webp)
 - ![Cenote Xulo 20200716 100849 Fa46e5b0 E3f1823e](/images/Cenote%20Xulo%20-%2020200716_100849%20-%20fa46e5b0-e3f1823e.jpg)
 - [7bcace11-d217-4760-8296-7965f30e5ed4](https://www.youtube.com/watch?v=y5ijxFe25YE)

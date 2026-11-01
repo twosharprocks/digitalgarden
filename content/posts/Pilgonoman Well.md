@@ -4,9 +4,7 @@ created: 2023-07-01
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - western-australia
 latitude: -22.192000000000007
 longitude: 113.86599999999999
 suburb: "Cape Range National Park"

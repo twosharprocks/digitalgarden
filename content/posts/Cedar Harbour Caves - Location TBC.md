@@ -4,17 +4,13 @@ created: 2023-07-04
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - bahamas
 feature_type: "Cave"
 latitude: 26.906802999999968
 longitude: -77.713637
 state: "Abaco"
 suburb: "Abaco"
 region: "[[Bahamas]]"
-related:
-  - "[[Diving]]"
 cavedb: "https://app.cavedb.net/share/00fd9676-f0d2-425d-8424-6eeec2730e74.html"
 catalog-type: "cave"
 altitude: "-1 m"
@@ -34,4 +30,4 @@ address: "SC Bootle Hwy, Abaco, Abaco, BHS"
 # References
 
 ## Images
-- The_caves_of_Abaco_Island_Bahamas_Keys_to_geologic - 3656e0c3-00fd9676.pdf
+- [The_caves_of_Abaco_Island_Bahamas_Keys_to_geologic - 3656e0c3-00fd9676](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/0fc0e87e855fb7fa5a1f450eace4bdaddddaf8d2a4e697fd8247bfcc1cf9ecb3.pdf)

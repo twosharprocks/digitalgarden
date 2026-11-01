@@ -5,13 +5,14 @@ updated: 2025-12-15
 status: tree
 tags:
   - 101-things
-  - antarctica
-  - bucket-list
   - expeditions
   - mini-essay
-  - personal
   - writing
-related: "[[Mini Essays]]"
+related:
+  - "[[Mini Essays]]"
+  - "[[Antarctica]]"
+  - "[[Bucket List]]"
+  - "[[Personal]]"
 ---
 Related: 
 

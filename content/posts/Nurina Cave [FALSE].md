@@ -4,9 +4,7 @@ created: 2023-04-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - western-australia
 feature_type: "NotFound"
 latitude: -32.00843986926998
 longitude: 127.03676283359528
@@ -22,7 +20,7 @@ address: "Madura, Western Australia, AUS, 6443"
 ---
 # About
 
-Mismark for [Nurina Cave]({{< relref "posts/Nurina Cave.md" >}})
+Mismark for [Nurina Cave - 6N46]({{< relref "posts/Nurina Cave - 6N46.md" >}})
 
 # Details
 

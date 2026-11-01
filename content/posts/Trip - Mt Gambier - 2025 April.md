@@ -5,15 +5,15 @@ updated: 2026-06-30
 status: complete
 tags:
   - trips
-  - diving
 template: "[[Template - Trip]]"
 destination:
 region:
 dates:
 weather:
-Other Info:
+other info:
 related:
   - "[[Trips]]"
+  - "[[Diving]]"
 ---
 ---
 Dates: 18-04 to 22-04

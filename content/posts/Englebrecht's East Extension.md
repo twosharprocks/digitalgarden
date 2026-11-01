@@ -4,9 +4,7 @@ created: 2023-08-03
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 feature_type: "Cave"
 latitude: -37.821721
 longitude: 140.77322600000002

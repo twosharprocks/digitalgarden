@@ -4,9 +4,7 @@ created: 2023-12-12
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - germany
 feature_type: "Cave"
 latitude: 50.836299999999994
 longitude: 12.84337000000005

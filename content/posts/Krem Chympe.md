@@ -7,12 +7,13 @@ catalog-type: "cave"
 feature_type: "Cave"
 tags:
   - caving
-  - diving
 region: "[[India]]"
 sub-region: "Meghalaya"
 verification: "researched"
 obsidian_aliases:
   - "Krem Chympe caverns"
+related:
+  - "[[Diving]]"
 ---
 # Krem Chympe
 

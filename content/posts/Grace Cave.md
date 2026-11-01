@@ -4,9 +4,7 @@ created: 2025-11-11
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - victoria
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -27,6 +25,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/41ca9934-e35b-4a1f-8b59-1d0e4c8ca9c1.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "16 m"
+address: "River Fire Ln, Glenelg Shire, Victoria, AUS, 3304"
 ---
 # References
 
@@ -49,14 +49,6 @@ sub-region: "[[Mount Gambier - Lower South East]]"
 
 - **Feature type:** Cave
 - **Source:** G-14
-
-## Location
-
-- **Coordinates:** -38.00386057115699, 141.0730202077914
-- **Altitude:** 16 m
-- **Address:** River Fire Ln, Glenelg Shire, Victoria, AUS, 3304
-- **Checked:** true
-- **Checked by:** BC & MW
 
 ## Cave and exploration data
 

@@ -3,9 +3,6 @@ title: Cyber Security - Job Domains & Interview Prep
 created: 2025-11-01
 updated: 2026-06-27
 status: reference
-tags:
-  - cyber-security
-  - work
 related:
   - "[[Cyber Security]]"
   - "[[Work]]"

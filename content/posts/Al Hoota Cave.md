@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - oman
 feature_type: "Cave"
 latitude: 23.08194400000002
 longitude: 57.35472200000004

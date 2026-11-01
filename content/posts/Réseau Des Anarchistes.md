@@ -4,9 +4,7 @@ created: 2023-12-11
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - france
 feature_type: "Cave"
 latitude: 42.83416699999998
 longitude: 2.4774999999999636

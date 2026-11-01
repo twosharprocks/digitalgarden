@@ -6,10 +6,11 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[Tasmania]]"
 sub-region: "[[Ida Bay - Tasmania]]"
 verification: "unverified"
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

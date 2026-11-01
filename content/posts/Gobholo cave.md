@@ -4,9 +4,7 @@ created: 2024-12-08
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - eswatini
 feature_type: "Cave"
 latitude: -26.35721000000001
 longitude: 31.16931999999997

@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -23,6 +21,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/87fc6216-cebc-4c18-9510-6af4346f30d7.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "40 m"
+address: "250, Pudneys Rd, The District Council of Grant, South Australia, AUS, 5291"
 ---
 # Details
 
@@ -31,14 +31,6 @@ sub-region: "[[Mount Gambier - Lower South East]]"
 - **Feature type:** Cave
 - **Reference:** L0215
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.96672393, 140.58916304000002
-- **Altitude:** 40 m
-- **Address:** 250, Pudneys Rd, The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** true
-- **Checked by:** CA
 
 ## Cave and exploration data
 

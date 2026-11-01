@@ -6,9 +6,10 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[Montenegro]]"
 verification: "unverified"
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

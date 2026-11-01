@@ -1,9 +1,8 @@
 ---
-title: Template - Note
+title: "Old Website Posts"
 created: 2025-04-06
 updated: 2026-07-08
 status: seed
-tags:
 related:
   - "[[About]]"
   - "[[Writing]]"
@@ -27,7 +26,7 @@ These are links to old posts from my previous websites that I thought I'd lost, 
 - [Website - 101 Things - Adrenaline (28, 46 & 74)]({{< relref "posts/Website - 101 Things - Adrenaline (28, 46 & 74).md" >}})
 - [Website - 101 Things - Astronomy (49 & 77)]({{< relref "posts/Website - 101 Things - Astronomy (49 & 77).md" >}})
 - [Website - 101 Things - Attention Whore (15, 35 & 96)]({{< relref "posts/Website - 101 Things - Attention Whore (15, 35 & 96).md" >}})
-- [Website - 101 Things: Comedy (#29, #87 & #91)]({{< noteref "posts/Website - 101 Things - Comedy (#29, #87 & #91).md" >}})
+- [Website - 101 Things - Comedy (#29, #87 & #91)]({{< noteref "posts/Website - 101 Things - Comedy (#29, #87 & #91).md" >}})
 - [Website - 101 Things - Drinking (34, 65 & 93)]({{< relref "posts/Website - 101 Things - Drinking (34, 65 & 93).md" >}})
 - [Website - 101 Things - Languages (51 & 69)]({{< relref "posts/Website - 101 Things - Languages (51 & 69).md" >}})
 - [Website - 101 Things - Run Like Hell (45 & 84)]({{< relref "posts/Website - 101 Things - Run Like Hell (45 & 84).md" >}})
@@ -77,7 +76,7 @@ These are links to old posts from my previous websites that I thought I'd lost, 
 - [Website - Mischief in 2017]({{< relref "posts/Website - Mischief in 2017.md" >}})
 - [Website - Movie Review – The All Time Greatest Films List]({{< relref "posts/Website - Movie Review – The All Time Greatest Films List.md" >}})
 - [Website - Movie Reviews –Harry Potter and the Deathly Hallows (Part 1)]({{< relref "posts/Website - Movie Reviews –Harry Potter and the Deathly Hallows (Part 1).md" >}})
-- [Website - News – 2015: The Year Space Kicks It Up a Notch]({{< relref "posts/Website - News – 2015 - The Year Space Kicks It Up a Notch.md" >}})
+- [Website - News – 2015 - The Year Space Kicks It Up a Notch]({{< relref "posts/Website - News – 2015 - The Year Space Kicks It Up a Notch.md" >}})
 - [Website - News – 2016 “Cosmic Nomad” Global Tour]({{< relref "posts/Website - News – 2016 “Cosmic Nomad” Global Tour.md" >}})
 - [Website - News – A Fading Threat To Your Radio]({{< relref "posts/Website - News – A Fading Threat To Your Radio.md" >}})
 - [Website - News – And thus it begins…]({{< relref "posts/Website - News – And thus it begins….md" >}})
@@ -88,30 +87,30 @@ These are links to old posts from my previous websites that I thought I'd lost, 
 - [Website - News – Hanging out with Hadfield, Redheads & Invading Ireland]({{< relref "posts/Website - News – Hanging out with Hadfield, Redheads & Invading Ireland.md" >}})
 - [Website - News – Helena National Science Week Tour]({{< relref "posts/Website - News – Helena National Science Week Tour.md" >}})
 - [Website - News – Indiegogo Madness & National Science Week Chaos]({{< relref "posts/Website - News – Indiegogo Madness & National Science Week Chaos.md" >}})
-- [Website - News – Is that the best you can do Jesus?]({{< relref "posts/Website - News – Is that the best you can do Jesus -.md" >}})
+- [Website - News – Is that the best you can do Jesus -]({{< relref "posts/Website - News – Is that the best you can do Jesus -.md" >}})
 - [Website - News – IT’S A KEITH-A-CYLSM!]({{< relref "posts/Website - News – IT’S A KEITH-A-CYLSM!.md" >}})
 - [Website - News – I’ve Been Everywhere, Man]({{< relref "posts/Website - News – I’ve Been Everywhere, Man.md" >}})
 - [Website - News – Just Couldn’t Tie Me Down…]({{< relref "posts/Website - News – Just Couldn’t Tie Me Down….md" >}})
 - [Website - News – Just when it couldn’t get more absurd……]({{< relref "posts/Website - News – Just when it couldn’t get more absurd…….md" >}})
 - [Website - News – Keeping Up With The Martians]({{< relref "posts/Website - News – Keeping Up With The Martians.md" >}})
 - [Website - News – Kerbals in School, Profs & Pints, and Aspiring Martians]({{< relref "posts/Website - News – Kerbals in School, Profs & Pints, and Aspiring Martians.md" >}})
-- [Website - News – Larry the Lemur: My Wingman, My Drinking Partner, My Friend]({{< relref "posts/Website - News – Larry the Lemur - My Wingman, My Drinking Partner, My Friend.md" >}})
+- [Website - News – Larry the Lemur - My Wingman, My Drinking Partner, My Friend]({{< relref "posts/Website - News – Larry the Lemur - My Wingman, My Drinking Partner, My Friend.md" >}})
 - [Website - News – Let the Ginge-ocalypse Begin]({{< relref "posts/Website - News – Let the Ginge-ocalypse Begin.md" >}})
 - [Website - News – Life in a Box, Festival Madness & Going Global]({{< relref "posts/Website - News – Life in a Box, Festival Madness & Going Global.md" >}})
-- [Website - News – LOL WUT?]({{< relref "posts/Website - News – LOL WUT -.md" >}})
+- [Website - News – LOL WUT -]({{< relref "posts/Website - News – LOL WUT -.md" >}})
 - [Website - News – Making Diabetes Hilarious Since 1988]({{< relref "posts/Website - News – Making Diabetes Hilarious Since 1988.md" >}})
 - [Website - News – Mars One’s 706, SpaceUp & Other Mischief]({{< relref "posts/Website - News – Mars One’s 706, SpaceUp & Other Mischief.md" >}})
-- [Website - News – Martin Hughes: Video Camera Extraordinaire]({{< relref "posts/Website - News – Martin Hughes - Video Camera Extraordinaire.md" >}})
+- [Website - News – Martin Hughes - Video Camera Extraordinaire]({{< relref "posts/Website - News – Martin Hughes - Video Camera Extraordinaire.md" >}})
 - [Website - News – Merry Mischief Christmas]({{< relref "posts/Website - News – Merry Mischief Christmas.md" >}})
 - [Website - News – NatSciWeek Wrap Up & Roll on Europe]({{< relref "posts/Website - News – NatSciWeek Wrap Up & Roll on Europe.md" >}})
 - [Website - News – Perth International Comedy Festival, The “US Relations Tour” & Edinburgh Fringe]({{< relref "posts/Website - News – Perth International Comedy Festival, The “US Relations Tour” & Edinburgh Fringe.md" >}})
 - [Website - News – Precipice]({{< relref "posts/Website - News – Precipice.md" >}})
 - [Website - News – Shiny and Jiggly]({{< relref "posts/Website - News – Shiny and Jiggly.md" >}})
-- [Website - News – So that’s an… average week for you then?]({{< relref "posts/Website - News – So that’s an… average week for you then -.md" >}})
+- [Website - News – So that’s an… average week for you then -]({{< relref "posts/Website - News – So that’s an… average week for you then -.md" >}})
 - [Website - News – That whole “Moving to the other side of the country” thing]({{< relref "posts/Website - News – That whole “Moving to the other side of the country” thing.md" >}})
 - [Website - News – The Lemur’s Are Watching While the Llamas Are Wanking (Photo Competition)]({{< relref "posts/Website - News – The Lemur’s Are Watching While the Llamas Are Wanking (Photo Competition).md" >}})
-- [Website - News – There and back again… (Part 2: Australia)]({{< relref "posts/Website - News – There and back again… (Part 2 - Australia).md" >}})
-- [Website - News – There and back again… Part 1: Europe]({{< relref "posts/Website - News – There and back again… Part 1 - Europe.md" >}})
+- [Website - News – There and back again… (Part 2 - Australia)]({{< relref "posts/Website - News – There and back again… (Part 2 - Australia).md" >}})
+- [Website - News – There and back again… Part 1 - Europe]({{< relref "posts/Website - News – There and back again… Part 1 - Europe.md" >}})
 - [Website - News – Turning Off the Mic]({{< relref "posts/Website - News – Turning Off the Mic.md" >}})
 - [Website - News – US Relations Tour Day 50 & Keith Tackles Your Problems]({{< relref "posts/Website - News – US Relations Tour Day 50 & Keith Tackles Your Problems.md" >}})
 - [Website - News – US Relations Tour Days 1, 3 & 5]({{< relref "posts/Website - News – US Relations Tour Days 1, 3 & 5.md" >}})
@@ -132,7 +131,7 @@ These are links to old posts from my previous websites that I thought I'd lost, 
 - [Website - Random – Asshole Animals, Volume 1]({{< relref "posts/Website - Random – Asshole Animals, Volume 1.md" >}})
 - [Website - Random – I am all that is efficient and streamlined – like a Leopard seal]({{< relref "posts/Website - Random – I am all that is efficient and streamlined – like a Leopard seal.md" >}})
 - [Website - Random – One more reason not to watch commercial TV]({{< relref "posts/Website - Random – One more reason not to watch commercial TV.md" >}})
-- [Website - Random – Science, are you there?]({{< relref "posts/Website - Random – Science, are you there -.md" >}})
+- [Website - Random – Science, are you there -]({{< relref "posts/Website - Random – Science, are you there -.md" >}})
 - [Website - Random – Why 15-year old girls never amount to anything]({{< relref "posts/Website - Random – Why 15-year old girls never amount to anything.md" >}})
 - [Website - Random –Spot the Difference]({{< relref "posts/Website - Random –Spot the Difference.md" >}})
 - [Website - Random –Tony Abbott to forge “newer,stronger partnership”]({{< relref "posts/Website - Random –Tony Abbott to forge “newer,stronger partnership”.md" >}})

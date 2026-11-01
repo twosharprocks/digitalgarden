@@ -4,13 +4,11 @@ created: 2026-04-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
-  - "[[Article - Iddlebiddy Cave - Soggy Wombats]]"
+  - "[[Article - UNWRITTEN - Iddlebiddy Cave - Soggy Wombats]]"
   - "[[Book - Cave Diving]]"
   - "[[Mt Gambier - PROTECTED]]"
 rating: CDAA Advanced Cave, TDI Full Cave
@@ -21,6 +19,8 @@ suburb: "The District Council of Grant"
 cavedb: "https://app.cavedb.net/share/5a860a82-daa2-4db6-b478-16586cd4ddf2.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "50 m"
+address: "The District Council of Grant, South Australia, AUS, 5291"
 ---
 # About
 
@@ -58,7 +58,7 @@ KML Survey: Iddlebiddy.kml
 - ![5l250 Iddlebiddy Cave Diver At The Main Iddlebiddy Tunnel Section 22781733 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20Diver%20at%20the%20main%20Iddlebiddy%20tunnel%20section%20-%2022781733-5a860a82.jpeg)
 - ![5l250 Iddlebiddy Cave 5l250 Iddlebiddy Full Line Survey 69193e1d 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%205L250%20-%20Iddlebiddy%20-%20full%20line%20survey%20-%2069193e1d-5a860a82.jpg)
 - ![5l250 Iddlebiddy Cave Map Overlay (googlemaps) E90f909f 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20Map%20Overlay%20%28googlemaps%29%20-%20e90f909f-5a860a82.jpeg)
-- Iddlebiddy - f89d1bdd-5a860a82.kml
+- [Iddlebiddy - f89d1bdd-5a860a82](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/KML_Data/Iddlebiddy.kml)
 
 # References
 
@@ -90,7 +90,7 @@ Iddlebiddy Cave is indeed a valuable cave diving site worthy of considerable pro
 - [df00a6a8-c184-472d-a46e-e5fe00585dc2](https://www.youtube.com/watch?v=DNh7DX5QidQ)
 - [b7a3eb21-0830-4486-8ac6-170a65c335b8](https://www.youtube.com/watch?v=cRxXXUKfOTw)
 - [83ee4507-4180-4626-8e17-698691bf97c7](https://www.youtube.com/watch?v=k3gbjbuN3ps)
-- Iddlebiddy Map Dec23 - 8c073f79-5a860a82.pdf
+- [Iddlebiddy Map Dec23 - 8c073f79-5a860a82](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L250%20-%20Iddlebiddy%20-%20Will%20Passos%20%28Dec%202023%29.pdf)
 
 # Details
 
@@ -99,14 +99,6 @@ Iddlebiddy Cave is indeed a valuable cave diving site worthy of considerable pro
 - **Feature type:** Cave
 - **Reference:** L0250
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.78201878537902, 140.56013882160187
-- **Altitude:** 50 m
-- **Address:** The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

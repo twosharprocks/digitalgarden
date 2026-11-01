@@ -4,9 +4,7 @@ created: 2023-04-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - northern-territory
 latitude: -13.163611308757652
 longitude: 130.68504452705383
 suburb: "Litchfield Park"

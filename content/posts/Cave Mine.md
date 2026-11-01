@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - tunisia
 feature_type: "Cave"
 latitude: 35.946725000000015
 longitude: 9.579172200000016

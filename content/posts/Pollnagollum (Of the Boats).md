@@ -4,9 +4,7 @@ created: 2023-08-10
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - united-kingdom
 feature_type: "Cave"
 latitude: 54.25338899999997
 longitude: -7.804626999999982

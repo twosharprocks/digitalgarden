@@ -4,7 +4,6 @@ created: 2025-01-01
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - ideas
 related:
   - "[[Diving]]"
@@ -55,8 +54,6 @@ Social Media
 	- Put cave data onto Google Maps (remember this is ***Streetview for caves***)
 
 - Writing papers with Robin and Will about cave photogrammetry (WhatsApp)
-- Cafpirco Cave Sites - Cpt 28 New Hole - MAP.pdf
-
 # Foundation
 - Setup Exploration Foundation with Will (like Mikko)
 - Call it "Hidden Earth" - ChatGPT - Hidden Earth Foundation

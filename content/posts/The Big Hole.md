@@ -4,9 +4,7 @@ created: 2023-08-07
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-africa
 feature_type: "Sinkhole"
 latitude: -28.739036999999996
 longitude: 24.758532999999943

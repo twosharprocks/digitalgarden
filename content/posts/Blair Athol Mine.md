@@ -4,9 +4,7 @@ created: 2025-04-27
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - new-south-wales
 feature_type: "Mine"
 latitude: -33.5907
 longitude: 150.27401

@@ -4,9 +4,7 @@ created: 2023-07-01
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - timor-leste
 latitude: -8.353999999999985
 longitude: 127.05099999999993
 suburb: "Lautem"

@@ -4,9 +4,7 @@ created: 2025-10-02
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - thailand
 feature_type: "Cave"
 latitude: 8.07754
 longitude: 98.84191

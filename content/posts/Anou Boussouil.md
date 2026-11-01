@@ -6,9 +6,10 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[Algeria]]"
 verification: "unverified"
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

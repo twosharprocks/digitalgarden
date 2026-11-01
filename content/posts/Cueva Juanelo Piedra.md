@@ -4,9 +4,7 @@ created: 2024-07-28
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - cuba
 feature_type: "Cave"
 latitude: 22.72994
 longitude: -82.40735999999998

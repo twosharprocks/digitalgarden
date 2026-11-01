@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - pakistan
 feature_type: "Cave"
 latitude: 29.75999999999999
 longitude: 67.28999999999996

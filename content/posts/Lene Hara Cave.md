@@ -6,7 +6,6 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[Timor-Leste]]"
 sub-region: "[[Lautém Municipality]]"
 verification: "unverified"

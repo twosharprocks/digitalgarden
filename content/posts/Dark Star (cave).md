@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - uzbekistan
 feature_type: "Cave"
 latitude: 38.396389
 longitude: 67.28694399999995

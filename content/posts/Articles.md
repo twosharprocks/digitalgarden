@@ -5,9 +5,9 @@ updated: 2026-07-02
 status: seed
 tags:
   - index
-  - digital-garden
   - writing
 related:
+  - "[[Digital Garden]]"
 ---
 # Published
 - [Exploring Pines Cave - Scuba Diver Magazine](https://app.scubadivermag.com/issues/scuba-diver-anz-85/exploring-pines-cave)

@@ -5,9 +5,9 @@ updated: 2025-10-30
 status: reference
 tags:
   - article
-  - diving
   - writing
 related:
+  - "[[Diving]]"
 ---
 ---
 Note: This is an edited version of [Article - The Crazy Wombat Tunnel]({{< relref "posts/Article - The Crazy Wombat Tunnel.md" >}}) reduced to <1100 words for [publication in Scuba Diver Magazine](https://app.scubadivermag.com/issues/scuba-diver-anz-85/exploring-pines-cave)

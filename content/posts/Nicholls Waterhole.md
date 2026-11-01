@@ -4,9 +4,7 @@ created: 2023-07-31
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -37.921482
 longitude: 140.849924
 suburb: "Yahl"

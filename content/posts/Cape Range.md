@@ -3,8 +3,6 @@ title: Cape Range
 created: 2026-01-22
 updated: 2026-01-22
 status: seed
-tags:
-  - diving
 region:
 sub-region:
 smarttraveller: www.smartraveller.gov.au/destinations/

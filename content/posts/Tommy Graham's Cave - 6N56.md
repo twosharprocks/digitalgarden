@@ -4,21 +4,8 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - nullarbor
-  - western-australia
 region: "[[Western Australia]]"
-related:
-  - "[[Diving]]"
-  - "[[Planning - Nullarbor]]"
-  - "[[Trip - Murra-Cocklebiddy - 2026 Aug]]"
-  - "[[Trip - Murra El Elevyn - 2025 Oct]]"
-  - "[[Filming - Documentary on Nullarbor]]"
-  - "[[Weekly - 2026-08-30]]"
-  - "[[2025-10-09]]"
-  - "[[2026-08-27]]"
-  - "[[2026-08-28]]"
 rating: CDAA Cave, TDI Intro to Cave
 feature_type: "Cave"
 latitude: -32.09759515437017
@@ -27,6 +14,9 @@ suburb: "Shire of Dundas"
 cavedb: "https://app.cavedb.net/share/a865a78d-2356-46f9-b612-6c86c102f5a8.html"
 catalog-type: "cave"
 sub-region: "[[Nullarbor High Plains]]"
+altitude: "87 m"
+address: "Unnamed Road, Shire of Dundas, Western Australia, AUS, 6443"
+altitude_alternatives: ["88 m ? additional captured location record"]
 ---
 # About
 
@@ -53,24 +43,6 @@ The lake on the entrance side of the “inner sanctum” is surprisingly small, 
 Although it is possible to exit the water into the terminal rock pile through a small lake at the end of the second sump, most people don’t. 
 ## Land use 
 The cave is on Nuytsland Nature Reserve, and specific permission is required to visit the cave. 
-## Potential Leads
-May have more sumps (See DiverNet article)
-
-1. **Rock-pile chamber above Glacier Lake**  
-    A terminal rock-pile that blocks at **~+35 m** above the lake screams collapse-dome with possible **bypass tubes** or **slot chimneys** on the margins. Sweep the **edges of the talus** where wall meets debris; look for clean, eddy-scoured floor patches, perched sediment traps, or faint drafts across the air–water interface if you can access the higher levels. Underwater, check for **under-cut scallops** heading beneath the pile.
-
-2. **Phreatic-maze junctions on the 190 m sump**  
-    Maze nodes often hide **low, tube-mouth “feet”** (half-filled phreatic notches) offset from the main line. Swim slow, run raking light along the **lower wall 0.5–1.2 m off floor**, and watch scallop asymmetry to follow paleo-flow into blind alcoves—those alcoves are classic seed points for “new” side tubes.
-
-3. **Halocline horizons**  
-    Rowling and later Nullarbor syntheses note **mixing-zone corrosion above haloclines** and calcite deposition **below**—that interface can **amplify lateral porosity**. Cruise the halocline with minimal wake; search for **horizontal undercuts** or **solution bevels** that parallel the lake level, especially on **outer bends** of the passage where shear is higher.
-
-4. **Breakdown-shadow voids in the main chamber**  
-    At the base of the entrance slope and first lake, scan behind/under **large collapse blocks** for inset tubes. Many teams rush past here—slow ceiling/upper-wall passes with oblique light often reveal **cupolas** or small **rising feeders** into the chamber roof. ([tdisdi.com](https://www.tdisdi.com/tdi-diver-news/trip-report-tommy-grahams-cave/?utm_source=chatgpt.com "Trip Report: Tommy Grahams Cave - tdisdi.com"))
-
-5. **Air-chamber margins (CO₂ caution)**  
-    High CO₂ discourages exploration; that also means **less traffic**. If you do enter (with proper monitoring), check **condensation-corrosion features** and **roof pockets** for perched tubes that reconnect underwater downslope. Keep exposure short and staged. ([oxy-doc.com](https://www.oxy-doc.com/index.php?content=dry_caving&lang=eng&utm_source=chatgpt.com "Naracoorte Cave - Tantanoola Cave - Morgan Cave - Nullarbor Plain 2008 ..."))
-
 # Maps
 
 N56-CEG 20056
@@ -81,12 +53,11 @@ Tommy Graham’s Sketch Map 2004
 
 N56-CEG8105 (in prep)
 
-- 16_Feb_2026_4_46_56_pm - 50f804f5-a865a78d.kml
 
 # References
 
-https://www.cavediving.net.au/index.php/siteinfo/?site=10
-https://www.tdisdi.com/tdi-diver-news/trip-report-tommy-grahams-cave/
+- [Source](https://www.cavediving.net.au/index.php/siteinfo/?site=10)
+- [Source](https://www.tdisdi.com/tdi-diver-news/trip-report-tommy-grahams-cave/)
 [Tommy Grahams Cave - cavedivers.com.au](https://www.cavedivers.com.au/index.cfm?action=details&module=BUSINESSDIRECTORY&pageMode=indiv&page_id=1404666) 
 [Speleotherms - st1.asflib.net](https://st1.asflib.net/JNS/AUNat/ASF/ASF-ConfProc/ASF-26thConfMat-2007-CavesCratersCritters/ASF-26th-DVD/08-LakeSpeleothemsNullarbor.pdf)
 [ASF-26th-DVD/08-LakeSpeleothemsNullarbor.pdf - st1.asflib.net](https://st1.asflib.net/JNS/AUNat/ASF/ASF-ConfProc/ASF-26thConfMat-2007-CavesCratersCritters/ASF-26th-DVD/08-LakeSpeleothemsNullarbor.pdf)
@@ -109,13 +80,6 @@ https://www.tdisdi.com/tdi-diver-news/trip-report-tommy-grahams-cave/
 
 - **Feature type:** Cave
 
-## Location
-
-- **Coordinates:** -32.09759515437017, 126.19505882263184
-- **Altitude:** 87 m
-- **Address:** Unnamed Road, Shire of Dundas, Western Australia, AUS, 6443
-- **Checked:** false
-
 ## Cave and exploration data
 
 - **Cave rating:** Cave
@@ -129,7 +93,6 @@ https://www.tdisdi.com/tdi-diver-news/trip-report-tommy-grahams-cave/
 - **Tidal:** No
 
 - **Coordinates:** -32.097959, 126.19563500000004
-- **Altitude:** 88 m
 - **Address:** Unnamed Road, Shire of Dundas, Western Australia, AUS, 6443
 - **Checked:** true
 - **Checked by:** B c

@@ -5,7 +5,6 @@ updated: 2025-11-02
 status: seed
 tags:
   - writing
-  - diving
   - caving
 related: 
   - "[[Writing]]"

@@ -1,5 +1,5 @@
 ---
-title: "Website - News – So that’s an… average week for you then?"
+title: "Website - News – So that’s an… average week for you then -"
 created: 2026-10-24
 updated: 2026-10-24
 status: tree

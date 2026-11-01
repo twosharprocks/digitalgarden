@@ -3,12 +3,10 @@ title: CRISC
 created: 2025-07-08
 updated: 2025-11-01
 status: seed
-tags:
-  - cyber-security
-  - study
 related: 
   - "[[Cyber Security]]"
   - "[[IRAP Assessor]]"
+  - "[[Study]]"
 ---
 --- 
 # Certified in Risk and Information Systems Control

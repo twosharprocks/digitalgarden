@@ -11,3 +11,12 @@ Publish using `sync.ps1` as before. The image-export step now creates smaller we
 Install `requirements.txt` into the publishing Python environment if needed. On this laptop, the exporter can also use the Pillow installation bundled with Codex.
 
 Website images are reading previews; use the original vault attachment for full-resolution survey details.
+
+
+# Karst public-copy rules
+
+The website now prepares effective public sources outside the vault before copying posts. Eight reduced cave summaries use the same verified public text as Karst-Database. Other previously reviewed omissions are retained; changed full originals are flagged while their approved copies remain fixed.
+
+The private policy and summary registry are required. Missing or conflicting identities, changed approved summaries, protected file matches and unapproved attachments stop publication. Approved cave document references use their published Karst copies. General manuals and publications use publisher links where a hosted copy is inappropriate.
+
+A local `-SkipPush` run performs the full privacy checks and build without committing or publishing. It can run during a maintenance pause. Scheduled publication respects the maintenance gate, and full generated-output and outgoing-history checks remain mandatory before uploading.

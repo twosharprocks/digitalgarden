@@ -4,9 +4,7 @@ created: 2026-04-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -22,6 +20,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/17b92fe0-324a-4cfc-92e7-1921f5ecc0ea.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "49 m"
+address: "The District Council of Grant, South Australia, AUS, 5291"
 ---
 # About
 
@@ -52,14 +52,6 @@ Tube 1m diameter drops 8m to a chamber 9 x 6 x 1.5m high; pools.
 - **Feature type:** Cave
 - **Reference:** L301
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.78198201999999, 140.55924157999993
-- **Altitude:** 49 m
-- **Address:** The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** true
-- **Checked by:** BC
 
 ## Cave and exploration data
 

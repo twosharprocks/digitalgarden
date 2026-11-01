@@ -6,14 +6,13 @@ status: tree
 tags:
   - mini-essay
   - writing
-  - antarctica
-  - bucket-list
   - expeditions
 related: 
   - "[[Mini Essays]]"
   - "[[Writing]]"
   - "[[Trip - Antarctica - 2025 Nov]]"
   - "[[Antarctica]]"
+  - "[[Bucket List]]"
 ---
 [Mini Essay - Why Antarctica is Important to you]({{< relref "posts/Mini Essay - Why Antarctica is Important to you.md" >}}) Mini Essay - PRIVATE - What has changed in you since Antarctica [Mini Essay - November 23]({{< relref "posts/Mini Essay - November 23.md" >}})
  
@@ -35,4 +34,4 @@ As fun as it was, the polar plunge was really overshadowed by kayaking all week 
 **This also reminds me of**... 
 
 ---
-***Tomorrow's Mini Essay***: [Mini Essay - Appeal of Sea Kayaking]({{< relref "posts/Mini Essay - Appeal of Sea Kayaking.md" >}}) 
+***Tomorrow's Mini Essay***: Mini Essay - UNWRITTEN - Appeal of Sea Kayaking 

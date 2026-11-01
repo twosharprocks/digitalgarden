@@ -4,17 +4,8 @@ created: 2025-04-12
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - nullarbor
 region: "[[Western Australia]]"
-related:
-  - "[[Diving]]"
-  - "[[Explorer-Storyteller]]"
-  - "[[Planning - Nullarbor]]"
-  - "[[Roe Plains]]"
-  - "[[Trip - Olwolgin - 2025 June]]"
-  - "[[Filming - Documentary on Nullarbor]]"
 rating: CDAA Cave, TDI Intro to Cave
 feature_type: "Cave"
 latitude: -31.653810640131354
@@ -23,6 +14,9 @@ suburb: "Shire of Dundas"
 cavedb: "https://app.cavedb.net/share/47e1d564-63a0-4a2b-937d-7c8d1a778b3a.html"
 catalog-type: "cave"
 sub-region: "[[Nullarbor High Plains]]"
+altitude: "87 m"
+address: "Unnamed Road, Shire of Dundas, Western Australia, AUS, 6443"
+bibliography: "CEGSA (2023), Nullarbor Caves Field Trip Guide, 32nd ASF Conference."
 ---
 # About
 
@@ -78,7 +72,6 @@ N2-CEG3400
 
 # References
 
-Nullarbor Field Guide 2023 final.pdf
 
 
 ## Images
@@ -91,14 +84,6 @@ Nullarbor Field Guide 2023 final.pdf
 ## Identification
 
 - **Feature type:** Cave
-
-## Location
-
-- **Coordinates:** -31.653810640131354, 128.77509713172913
-- **Altitude:** 87 m
-- **Address:** Unnamed Road, Shire of Dundas, Western Australia, AUS, 6443
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

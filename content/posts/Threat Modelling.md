@@ -3,8 +3,6 @@ title: Threat Modelling
 created: 2025-05-28
 updated: 2026-07-22
 status: seed
-tags:
-  - cyber-security
 related:
   - "[[Cyber Security]]"
 ---

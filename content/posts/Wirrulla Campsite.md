@@ -4,9 +4,7 @@ created: 2025-03-24
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 feature_type: "Campsite"
 latitude: -32.404326999999995
 longitude: 134.532911

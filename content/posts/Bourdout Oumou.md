@@ -4,9 +4,7 @@ created: 2024-12-08
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - chad
 feature_type: "Cave"
 latitude: 17.18333333333328
 longitude: 21.583333333333258

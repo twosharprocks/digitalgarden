@@ -4,9 +4,7 @@ created: 2024-07-28
 updated: 2026-10-28
 status: seed
 tags:
-  - diving
   - caving
-  - norway
 feature_type: "Cave"
 latitude: 66.45348200000001
 longitude: 14.834519999999998

@@ -5,11 +5,11 @@ updated: 2025-06-12
 status: tree
 tags:
   - mini-essay
-  - diving
   - writing
 related:
   - "[Writing]"
   - "[[Mini Essays]]"
+  - "[[Diving]]"
 ---
 Now that you've been suspended by the CDAA, you have an amazing opportunity to look ahead and ask what kind of future you want to have in cave diving. You knew the suspension was coming, and you've been more than emotionally ready to tackle it - part of you has even relished it finally coming to pass. So the question now is how you want to develop as an exploration cave diver outside of Mt Gambier and the CDAA.
 
@@ -23,7 +23,7 @@ First priority? Figure out how to get Lewy to the Eastern Mediterranean, and mak
 
 ---
 **This also reminds me of**... 
-Setting up your #podcast to interview Robin & others in Sulawesi
+Setting up your Podcast to interview Robin & others in Sulawesi
 
 ---
 # References

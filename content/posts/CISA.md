@@ -3,14 +3,12 @@ title: CISA
 created: 2025-12-28
 updated: 2026-07-08
 status: reference
-tags:
-  - cyber-security
-  - work
-  - study
 related:
   - "[[IRAP Assessor]]"
   - "[[CRISC]]"
   - "[[Cyber Security]]"
+  - "[[Work]]"
+  - "[[Study]]"
 ---
 # Certified Information Systems Auditor
 
@@ -49,7 +47,7 @@ Pete Zerger - [YouTube - CISA Exam Prep](https://www.youtube.com/playlist?list=P
 - [CISA - 5A - Info Asset Security and Control]({{< relref "posts/CISA - 5A - Info Asset Security and Control.md" >}})
 - [CISA - 5B - Security Event Management]({{< relref "posts/CISA - 5B - Security Event Management.md" >}})
 
-Pete Zerger - ebook - CISA - The Last Mile.pdf
+Pete Zerger - [CISA - The Last Mile](https://leanpub.com/cisalastmile)
 PocketPrep
 # Additional Material
 - [CISA Official Review Manual, 28th Edition 2024](https://store.isaca.org/s/store#/store/browse/detail/a2S4w000004W2rOEAS) - US$109

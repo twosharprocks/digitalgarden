@@ -3,8 +3,6 @@ title: Diving - Gear
 created: 2026-01-26
 updated: 2026-10-17
 status: tree
-tags:
-  - diving
 related:
   - "[[Diving]]"
   - "[[Diving - Ideas]]"

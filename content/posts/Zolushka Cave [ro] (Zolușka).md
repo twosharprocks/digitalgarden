@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - moldova
 feature_type: "Cave"
 latitude: 48.28011520000001
 longitude: 26.633511699999985

@@ -4,9 +4,7 @@ created: 2023-07-23
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - act
 feature_type: "Cave"
 latitude: -35.33197999999999
 longitude: 148.94139799999994

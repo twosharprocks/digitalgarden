@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - finland
 feature_type: "Cave"
 latitude: 60.162019999999984
 longitude: 24.162019999999984

@@ -4,9 +4,7 @@ created: 2023-02-04
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 feature_type: "Cave"
 latitude: -38.027882000000005
 longitude: 140.79281400000002
@@ -50,7 +48,6 @@ No-Mount entry with significant flow pushing out of cave. Dive currently termina
 
 # Maps
 
-- site - 2f576b6d-6c098cc4.kml
 
 # References
 

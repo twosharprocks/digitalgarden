@@ -4,9 +4,7 @@ created: 2024-07-28
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - iran
 feature_type: "Cave"
 latitude: 30.791382999999996
 longitude: 50.94765400000006

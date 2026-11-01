@@ -4,36 +4,19 @@ created: 2023-08-14
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - yucatan-mexico
 feature_type: Cave
-latitude: 20.20058499999999
-longitude: -87.500091
 state: Quintana Roo
-suburb: Tulum
 region: "[[Mexico]]"
-related:
-  - "[[Diving]]"
-cavedb: https://app.cavedb.net/share/f57d000e-3e32-4698-b963-e9c09b966d02.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
-altitude: "7 m"
-address: "Tulum, Quintana Roo, MEX"
+system_name: "Sistema Ox Bel Ha"
+goes_to_water: "Yes"
 ---
-# Details
+# About
 
-## Identification
+Naharon is a water-filled cave associated with Sistema Ox Bel Ha in Quintana Roo, Mexico. Published research documents its archaeological importance, including early human remains.
 
-- **Feature type:** Cave
-- **System name:** Sistema Ox Bel Ha
+# References
 
-## Cave and exploration data
-
-- **Exploration potential:** Medium
-- **Tourism potential:** Low
-- **Goes to water:** Yes
-
-# Maps
-
-- Naharon - 9a8ab098-f57d000e.kml
+- [PLOS ONE: research discussing early human remains at Naharon](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0227444)

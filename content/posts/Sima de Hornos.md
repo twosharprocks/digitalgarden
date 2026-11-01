@@ -4,9 +4,7 @@ created: 2023-06-29
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - spain
 latitude: 37.58295799999996
 longitude: -1.2065729999999348
 state: "Región de Murcia"

@@ -4,9 +4,7 @@ created: 2023-07-01
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - qatar
 feature_type: "Sinkhole"
 latitude: 25.17515000000003
 longitude: 51.21117000000004

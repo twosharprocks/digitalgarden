@@ -4,9 +4,7 @@ created: 2023-04-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - united-states
 latitude: 37.73652920241756
 longitude: -92.86215841770172
 state: "Missouri"

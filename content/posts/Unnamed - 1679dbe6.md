@@ -4,9 +4,7 @@ created: 2024-07-23
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - western-australia
 latitude: -32.078609
 longitude: 126.52285400000005
 suburb: "Madura"

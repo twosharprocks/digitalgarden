@@ -4,9 +4,7 @@ created: 2023-06-29
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - spain
 feature_type: "Cave"
 latitude: 39.52639999999997
 longitude: 3.315219999999954

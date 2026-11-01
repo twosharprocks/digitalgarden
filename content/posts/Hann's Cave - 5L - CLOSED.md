@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-08-30
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"

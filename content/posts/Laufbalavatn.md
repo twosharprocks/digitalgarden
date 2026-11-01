@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - iceland
 feature_type: "Cave"
 latitude: 63.91129999999998
 longitude: -19.378349999999955

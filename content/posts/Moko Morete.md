@@ -4,17 +4,8 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - sulawesi
 region: "[[Sulawesi]]"
-related:
-  - "[[Diving]]"
-  - "[[Photogrammetry - Processing]]"
-  - "[[Trip - Sulawesi - 2025 Aug]]"
-  - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
-  - "[[2025-08-05]]"
-  - "[[Weekly - 2025-08-10]]"
 rating: TDI Intro to Cave
 feature_type: Cave
 latitude: -5.171496409655106
@@ -26,6 +17,8 @@ obsidian_aliases:
 cavedb: https://app.cavedb.net/share/9ecbad71-038f-4483-a8ed-665f562da5c8.html
 catalog-type: cave
 sub-region: "[[Muna Island]]"
+altitude: "17 m"
+address: "Jalan Tanpa Nama, Muna Regency, South East Sulawesi, IDN, 93662"
 ---
 # About
 
@@ -44,21 +37,13 @@ Moko Morete opens in a vast blue hole. An underwater passage to the west can be 
 
 ## Images
 - [31e73218-6412-4257-a482-4fb6787893d8](https://www.youtube.com/watch?v=aM-bPcBeXhA)
-- 241 - 6200ab3d-9ecbad71.pdf
+- [241 - 6200ab3d-9ecbad71](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/4dbb8b5b04ef81a3ca7fad15a9922c39cd912241bb4d7595e3378b7de0041257.pdf)
 
 # Details
 
 ## Identification
 
 - **Feature type:** Cave
-
-## Location
-
-- **Coordinates:** -5.171496409655106, 122.58316464722157
-- **Altitude:** 17 m
-- **Address:** Jalan Tanpa Nama, Muna Regency, South East Sulawesi, IDN, 93662
-- **Checked:** true
-- **Checked by:** Grubby Wombat
 
 ## Cave and exploration data
 

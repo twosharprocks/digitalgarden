@@ -5,13 +5,12 @@ updated: 2026-06-27
 status: seed
 tags:
   - index
-  - digital-garden
-  - books
 related:
   - "[[Writing]]"
   - "[[Reading]]"
   - "[[Book - 101 Things]]"
   - "[[Book - Cave Diving]]"
+  - "[[Digital Garden]]"
 ---
 Book projects, reading notes, publishing ideas, and source material that keeps resurfacing.
 

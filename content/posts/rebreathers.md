@@ -3,10 +3,9 @@ title: Rebreathers
 created: 2025-08-16
 updated: 2026-07-10
 status: seed
-tags:
-  - diving
 related: 
   - "[[Diving - Gear]]"
+  - "[[Diving]]"
 ---
 # ChOptima (Dive Rite)
 - Best O2 cylinder size = [AL13](https://perthscuba.com/collections/tanks-cylinders/products/s-13-aluminium-cylinder) or [2L steel](https://perthscuba.com/collections/tanks-cylinders/products/fabersteelcylinder2lt) with [X-Flow valve](https://perthscuba.com/products/sos-cylinder-x-flow-valve)

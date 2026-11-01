@@ -4,9 +4,7 @@ created: 2025-09-15
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - sulawesi
 latitude: -5.388969
 longitude: 122.299351
 state: "South East Sulawesi"

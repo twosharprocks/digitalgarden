@@ -4,17 +4,13 @@ created: 2024-11-10
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - united-kingdom
 feature_type: "Cave"
 latitude: 51.22929999999997
 longitude: -2.671799999999962
 state: "England"
 suburb: "Wells"
 region: "[[United Kingdom]]"
-related:
-  - "[[Diving]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/d35b68bf-9d60-41f2-ba3b-4234c274cb45.html"
 catalog-type: "cave"
@@ -51,4 +47,4 @@ The caves have been used by humans for around 45,000 years, demonstrated by the 
 # References
 
 ## Images
-- Tech_WookeyHoleCave_NikolaVoltasova_100_protected - 34d5f795-d35b68bf.pdf
+- [Tech_WookeyHoleCave_NikolaVoltasova_100_protected - 34d5f795-d35b68bf](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/a561b4cf90d70e28e0751baff39243fc098c3c3ba9c7651bda4de6541834804c.pdf)

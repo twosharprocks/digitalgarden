@@ -4,9 +4,7 @@ created: 2024-12-08
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - equatorial-guinea
 feature_type: "Cave"
 latitude: 2.1499999999999773
 longitude: 11.31666666666672

@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - libya
 feature_type: "Cave"
 latitude: 32.06833333333327
 longitude: 12.694444444444343

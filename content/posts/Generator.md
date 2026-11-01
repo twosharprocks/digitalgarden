@@ -4,9 +4,7 @@ created: 2024-04-22
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - western-australia
 feature_type: "Landmark"
 latitude: -32.09439931868613
 longitude: 126.52543787787965

@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -23,6 +21,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/5bc790c9-185e-45f1-8034-08e51cbb5260.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "34 m"
+address: "1672, Honeysuckle Rd, The District Council of Grant, South Australia, AUS, 5291"
 ---
 # About
 
@@ -35,13 +35,6 @@ Under windmill
 - **Feature type:** Cave
 - **Reference:** L0100
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.970163000000014, 140.839872
-- **Altitude:** 34 m
-- **Address:** 1672, Honeysuckle Rd, The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** false
 
 ## Cave and exploration data
 

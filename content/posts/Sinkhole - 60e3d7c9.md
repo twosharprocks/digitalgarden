@@ -4,9 +4,7 @@ created: 2023-06-28
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 feature_type: "Sinkhole"
 latitude: -37.86454499999999
 longitude: 140.88645599999995

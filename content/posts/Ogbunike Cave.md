@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - nigeria
 feature_type: "Cave"
 latitude: 6.186390000000017
 longitude: 6.905830000000037

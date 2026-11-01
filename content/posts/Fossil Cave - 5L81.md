@@ -4,9 +4,7 @@ created: 2026-04-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -22,6 +20,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/7cb19cbe-65bb-4e5d-9d7c-7ac2f972e2e3.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "31 m"
+address: "32107, B1, Wattle Range Council, South Australia, AUS, 5280"
 ---
 # About
 
@@ -79,14 +79,6 @@ The western side of Fossil Cave has a small shallow pool (-6m) with a dark silt.
 - **Feature type:** Cave
 - **Reference:** L0081
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.73186200000001, 140.53037300000005
-- **Altitude:** 31 m
-- **Address:** 32107, B1, Wattle Range Council, South Australia, AUS, 5280
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

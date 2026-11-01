@@ -4,9 +4,7 @@ created: 2023-06-29
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -30.881579999999985
 longitude: 138.84492999999998
 suburb: "Narrina"

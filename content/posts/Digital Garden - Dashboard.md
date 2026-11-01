@@ -3,8 +3,6 @@ title: Digital Garden - Dashboard
 created: 2026-07-09
 updated: 2026-07-17
 status: seed
-tags:
-  - digital-garden
 related:
   - "[[Digital Garden]]"
 ---

@@ -4,9 +4,7 @@ created: 2023-06-28
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - australia
 feature_type: "Cave"
 latitude: -33.90167300000002
 longitude: 149.36483599999997

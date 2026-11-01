@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-africa
 feature_type: "Cave"
 latitude: -26.269733299999984
 longitude: 27.293716700000004

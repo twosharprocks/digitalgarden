@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - afghanistan
 feature_type: "Cave"
 latitude: 35.24580000000003
 longitude: 69.18000000000006

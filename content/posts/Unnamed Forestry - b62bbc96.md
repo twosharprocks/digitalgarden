@@ -4,9 +4,7 @@ created: 2023-08-04
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 feature_type: "Depression"
 latitude: -37.744597999999996
 longitude: 140.67615

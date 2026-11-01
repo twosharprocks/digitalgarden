@@ -4,9 +4,7 @@ created: 2023-07-27
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - vietnam
 feature_type: "Cave"
 latitude: 17.546929999999975
 longitude: 106.144

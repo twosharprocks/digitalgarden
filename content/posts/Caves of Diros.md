@@ -4,9 +4,7 @@ created: 2023-08-14
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - greece
 feature_type: "Cave"
 latitude: 36.638469999999984
 longitude: 22.380629999999996

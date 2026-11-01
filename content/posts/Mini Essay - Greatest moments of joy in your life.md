@@ -5,9 +5,10 @@ updated: 2025-05-24
 status: tree
 tags:
   - mini-essay
-  - philosophy
   - writing
-related: "[[Mini Essays]]"
+related:
+  - "[[Mini Essays]]"
+  - "[[Philosophy]]"
 ---
 Ask yourself what the greatest moments of life have been in your life so far? There are a few that standout
 - Finishing the fireman's carry for your fitness assessment to leave Hunter Company.

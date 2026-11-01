@@ -3,17 +3,8 @@ title: "Tank Cave - 5L230"
 created: 2026-04-09
 updated: 2026-10-13
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
-related:
-  - "[[Diving]]"
-  - "[[Photogrammetry - Processing]]"
-  - "[[Cave Entries to Write]]"
-  - "[[empty files]]"
-  - "[[Book - Cave Diving]]"
-  - "[[Mt Gambier - PROTECTED]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 feature_type: "Cave"
 latitude: -37.734445377832
@@ -25,6 +16,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/7888927e-c8c2-4bc1-be04-6bbfeb3b85c4.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "26 m"
+address: "32107, B1, Wattle Range Council, South Australia, AUS, 5280"
 ---
 # About
 
@@ -68,11 +61,11 @@ https://www.cavediving.net.au/images/articles/maps/5L-230.gif
 - ![5l230 Tank Cave Entrance Pool 8baedbc6 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20Entrance%20pool%20-%208baedbc6-7888927e.jpg)
 - ![5l230 Tank Cave Entrance Hatch A7e18f67 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20Entrance%20hatch%20-%20a7e18f67-7888927e.jpg)
 - ![5l230 Tank Cave 458976904 8382187298504701 7032068217607651229 N 5cebd741 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20458976904_8382187298504701_7032068217607651229_n%20-%205cebd741-7888927e.jpg)
-- Tank Cave A5 - 528c33f2-7888927e.pdf
+- [Tank Cave A5 - 528c33f2-7888927e](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/19a243e75dda8bd9ba11b5519d7fdafd60f2c42b79cecbf2066611ce1ca758d1.pdf)
 - [4a8bd27d-66e4-4050-8d37-8b42e8db487d](https://www.youtube.com/watch?v=EfFSlUX302Y)
 - [3185dcc5-657b-48ba-b2d1-0fbcb6cb12f2](https://www.youtube.com/watch?v=lwa4wu3IR2g)
 - [a17b7532-d81d-49a9-b296-f9b597a5c405](https://www.youtube.com/watch?v=lB7pkw38GsA)
-- Tank Cave A3 - 72bcceb4-7888927e.pdf
+- [Tank Cave A3 - 72bcceb4-7888927e](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/aa66d653ea648e20876d24f7b47cba13e208af41c1822e33489c65b65ce552f8.pdf)
 
 # Details
 
@@ -81,14 +74,6 @@ https://www.cavediving.net.au/images/articles/maps/5L-230.gif
 - **Feature type:** Cave
 - **Reference:** L0230
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.734445377832, 140.53621083590178
-- **Altitude:** 26 m
-- **Address:** 32107, B1, Wattle Range Council, South Australia, AUS, 5280
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 
@@ -119,4 +104,4 @@ https://www.cavediving.net.au/images/articles/maps/5L-230.gif
 
 - ![5l230 Tank Cave High Res Official Map A5e22ebb 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20High%20res%20official%20map%20-%20a5e22ebb-7888927e.jpg)
 - ![5l230 Tank Cave Official Map 82c1cf09 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20Official%20map%20-%2082c1cf09-7888927e.jpg)
-- site - 474f9c11-7888927e.kml
+- [site - 474f9c11-7888927e](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/686300af14bef33174b058f8aa0b494fc181335e3d0f977ea6afe72f8d3e8375.kml)

@@ -4,9 +4,7 @@ created: 2023-04-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - queensland
 feature_type: "Sinkhole"
 latitude: -17.246348749850767
 longitude: 145.6389605998993

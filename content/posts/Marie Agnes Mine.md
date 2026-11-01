@@ -4,9 +4,7 @@ created: 2023-08-13
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - poland
 feature_type: "Mine"
 latitude: 50.776122999999984
 longitude: 16.444564000000014

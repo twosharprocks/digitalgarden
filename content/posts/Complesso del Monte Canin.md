@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - italy
 feature_type: "Cave"
 latitude: 46.37738999999999
 longitude: 13.429470000000038

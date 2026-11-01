@@ -6,10 +6,11 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[Tasmania]]"
 sub-region: "[[Flinders Island - Tasmania]]"
 verification: "unverified"
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

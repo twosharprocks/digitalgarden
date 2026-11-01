@@ -4,9 +4,7 @@ created: 2023-07-31
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -38.046992999999986
 longitude: 140.94820500000003
 suburb: "Wye"

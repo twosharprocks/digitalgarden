@@ -4,9 +4,7 @@ created: 2025-09-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - israel
 feature_type: "Cave"
 latitude: 33.014061
 longitude: 35.246909

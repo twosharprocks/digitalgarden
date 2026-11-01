@@ -4,9 +4,7 @@ created: 2023-04-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - queensland
 latitude: -19.841441721286458
 longitude: 138.09303760528564
 suburb: "Camooweal"

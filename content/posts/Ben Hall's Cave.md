@@ -4,9 +4,7 @@ created: 2023-06-28
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - new-south-wales
 feature_type: "RockyOutcrop"
 latitude: -33.91448
 longitude: 147.97532

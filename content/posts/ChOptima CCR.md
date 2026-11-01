@@ -3,8 +3,6 @@ title: ChOptima CCR
 created: 2025-11-08
 updated: 2026-09-11
 status: seed
-tags:
-  - diving
 related: 
   - "[[Diving]]"
   - "[[Rebreathers]]"
@@ -31,8 +29,8 @@ Cave cover for ChOptima?
 ---
 # References
 Manuals
-- O2ptima-CMCL-User-Manual-Rev-D-August-2022.pdf
-- PetrelManual_DocRevD.pdf
+- [O2ptima-CMCL-User-Manual-Rev-D-August-2022](https://manuals.diverite.com/manuals/o2ptima-cm/)
+- [PetrelManual_DocRevD](https://shearwater.com/pages/petrel-2-support)
 
 [Dive Addiction - ChOptima Diver Course Info](https://www.diveaddiction.me/o2ptima-cm-ccr-user)
 [Youtube - O2pitma CM skills](https://www.youtube.com/watch?v=_-B_3iG-fdI)

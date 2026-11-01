@@ -4,10 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
-  - south-australia
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -24,6 +21,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/da15a321-1c96-4ce2-a836-5facbea53027.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "20 m"
+address: "514, Stock Rte Rd, The District Council of Grant, South Australia, AUS, 5291"
 ---
 # About
 
@@ -62,14 +61,6 @@ The sinkhole was comprehensively mapped by the S.A. Underwater Speleological Soc
 - **Feature type:** Sinkhole
 - **Reference:** L0008
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.946537000000006, 140.68283099999996
-- **Altitude:** 20 m
-- **Address:** 514, Stock Rte Rd, The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

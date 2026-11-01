@@ -3,8 +3,6 @@ title: "Cheat Sheet - Linux"
 created: 2023-10-10
 updated: 2026-07-17
 status: seed
-tags:
-  - cyber-security
 related: 
   - "[[Cyber Security]]"
 ---

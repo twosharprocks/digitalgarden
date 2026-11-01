@@ -5,8 +5,6 @@ updated: 2025-10-30
 status: tree
 tags:
   - mini-essay
-  - philosophy
-  - bucket-list
   - 101-things
   - writing
 related:

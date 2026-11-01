@@ -4,9 +4,7 @@ created: 2024-08-11
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - czechia
 feature_type: "Mine"
 latitude: 50.313225999999986
 longitude: 17.01806899999997

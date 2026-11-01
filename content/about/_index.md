@@ -3,8 +3,6 @@ title: About
 created: 2025-04-01
 updated: 2026-07-13
 status: seed
-tags:
-  - digital-garden
 related:
   - "[[Digital Garden]]"
   - "[[Writing]]"

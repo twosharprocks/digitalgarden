@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -24,6 +22,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/7ee7ddf4-352f-490c-a6da-b21d9aef620d.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "13 m"
+address: "Unnamed Road, The District Council of Grant, South Australia, AUS, 5291"
 ---
 # References
 
@@ -45,14 +45,6 @@ This is a typical Mt Gambier and the Weeping Willow Tree over the entrance provi
 - **Feature type:** Sinkhole
 - **Reference:** L0014
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.9353722618024, 140.69588005210494
-- **Altitude:** 13 m
-- **Address:** Unnamed Road, The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

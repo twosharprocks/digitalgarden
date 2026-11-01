@@ -4,9 +4,7 @@ created: 2025-11-03
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -22,6 +20,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/f59b17b5-a516-4423-ab4c-bdab5eab5832.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "69 m"
+address: "Siggers Rd, Compton, South Australia, AUS, 5291"
 ---
 # About
 
@@ -65,14 +65,6 @@ This cave entered CEGSA's Records in the form of some notes by Ian Lewis in Dece
 - **Feature type:** Cave
 - **Reference:** L0174
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.80999400000002, 140.66877499999998
-- **Altitude:** 69 m
-- **Address:** Siggers Rd, Compton, South Australia, AUS, 5291
-- **Checked:** true
-- **Checked by:** BC
 
 ## Cave and exploration data
 

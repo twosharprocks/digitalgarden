@@ -4,9 +4,7 @@ created: 2024-02-17
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - united-kingdom
 feature_type: "Mine"
 latitude: 53.22120000000001
 longitude: -1.6824000000000296

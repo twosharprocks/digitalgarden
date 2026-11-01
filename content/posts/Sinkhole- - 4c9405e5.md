@@ -4,9 +4,7 @@ created: 2023-08-04
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -37.69325900000001
 longitude: 140.61600499999997
 suburb: "Glencoe"

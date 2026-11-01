@@ -4,9 +4,7 @@ created: 2023-08-20
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - palau
 feature_type: "Cave"
 latitude: 7.340771000000018
 longitude: 134.45064100000002

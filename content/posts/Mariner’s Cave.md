@@ -6,7 +6,6 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[Tonga]]"
 sub-region: "[[Vavaʻu]]"
 verification: "unverified"

@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - greenland
 feature_type: "Cave"
 latitude: 80.24673330000002
 longitude: -21.95617500000003

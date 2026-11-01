@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-korea
 feature_type: "Cave"
 latitude: 33.387400000000014
 longitude: 126.40920000000006

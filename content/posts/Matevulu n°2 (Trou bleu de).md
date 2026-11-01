@@ -4,16 +4,14 @@ created: 2025-01-04
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - vanuatu
 feature_type: "Cave"
 latitude: -15.377499999999998
 longitude: 167.17416666666668
 state: "Sanma Province"
 suburb: "South East Santo"
 obsidian_aliases:
-  - "Matevulu nÂ°2 (Trou bleu de)"
+  - "Matevulu n°2 (Trou bleu de)"
 region: "[[Vanuatu]]"
 related:
   - "[[Diving]]"

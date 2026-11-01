@@ -4,9 +4,7 @@ created: 2023-06-30
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - switzerland
 latitude: 45.93389000000002
 longitude: 9.00472000000002
 state: "Ticino"

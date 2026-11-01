@@ -3,8 +3,6 @@ title: Cyber - Training & Certifications
 created: 2025-11-01
 updated: 2026-06-27
 status: tree
-tags:
-  - cyber-security
 related: 
   - "[[Cyber Security]]"
   - "[[Study]]"

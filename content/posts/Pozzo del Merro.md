@@ -4,9 +4,7 @@ created: 2023-08-07
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - italy
 feature_type: "Sinkhole"
 latitude: 42.039356999999995
 longitude: 12.680425000000014

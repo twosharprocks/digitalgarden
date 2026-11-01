@@ -4,9 +4,7 @@ created: 2023-06-29
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - spain
 feature_type: "Sinkhole"
 latitude: 36.71628599999997
 longitude: -4.928016000000071

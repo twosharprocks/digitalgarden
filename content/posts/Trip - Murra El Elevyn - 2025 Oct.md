@@ -5,7 +5,6 @@ updated: 2026-06-18
 status: complete
 tags:
   - trips
-  - diving
   - caving
 template: "[[Template - Trip]]"
 destination: "[[Murra-El-Elevyn - 6N47]]"
@@ -13,11 +12,11 @@ region: "[[Nullarbor High Plains]]"
 dates:
 weather: https://www.bom.gov.au/wa/forecasts/cocklebiddy.shtml
 cavedb: https://app.cavedb.net/share/41c22713-fcc8-479f-b4f8-fe9a9d9d1234.html
-Other Info: https://www.facebook.com/events/971113211634910/
+other info: https://www.facebook.com/events/971113211634910/
 related:
   - "[[Trips]]"
   - "[[Diving]]"
-Trip photos: https://photos.app.goo.gl/n9dyvhS3y9WGnorx6
+trip photos: https://photos.app.goo.gl/n9dyvhS3y9WGnorx6
 ---
 ---
 # Trip Log

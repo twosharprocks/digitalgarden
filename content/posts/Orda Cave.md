@@ -4,9 +4,7 @@ created: 2023-07-05
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - russia
 feature_type: "Cave"
 latitude: 57.182109999999966
 longitude: 56.88647000000003

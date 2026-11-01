@@ -4,10 +4,7 @@ created: 2026-04-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
-  - south-australia
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -23,6 +20,8 @@ suburb: "Eight Mile Creek"
 cavedb: "https://app.cavedb.net/share/10ed1c09-4b7a-4117-ade9-2654f2b0b6f0.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "4 m"
+address: "Ewens Ponds Rd, Eight Mile Creek, South Australia, AUS, 5291"
 ---
 # About
 
@@ -34,7 +33,6 @@ No-Mount entry with significant flow pushing out of cave. Dive currently termina
 
 # Maps
 
-- site - 2f576b6d-6c098cc4.kml
 
 # References
 
@@ -73,14 +71,6 @@ No qualifications or permits are necessary, just rock up with your dive gear, ju
 - **Feature type:** Sinkhole
 - **Reference:** L0159
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -38.02645799999999, 140.790438
-- **Altitude:** 4 m
-- **Address:** Ewens Ponds Rd, Eight Mile Creek, South Australia, AUS, 5291
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

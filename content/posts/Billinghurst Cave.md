@@ -6,9 +6,10 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[Malta - Gozo]]"
 verification: "unverified"
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

@@ -4,9 +4,7 @@ created: 2025-06-14
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - victoria
 latitude: -37.198074
 longitude: 140.978504
 suburb: "West Wimmera Shire"

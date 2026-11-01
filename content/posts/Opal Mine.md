@@ -4,9 +4,7 @@ created: 2023-12-12
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - slovakia
 feature_type: "Mine"
 latitude: 48.90457200000003
 longitude: 21.46135700000002

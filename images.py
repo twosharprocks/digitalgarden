@@ -43,7 +43,8 @@ if not posts_dir.exists():
     raise SystemExit(f"[FATAL] Missing posts_dir: {posts_dir}")
 if not attachments_dir.exists():
     print(f"[WARN] Missing attachments_dir: {attachments_dir} (image copy may fail)")
-privacy_guard = PrivacyGuard(attachments_dir.parent, script_dir)
+privacy_guard = PrivacyGuard(attachments_dir.parent, script_dir, website=True)
+privacy_guard.website_rules.verify_prepared()
 if privacy_guard.check(outputs=False):
     privacy_guard.report()
     raise SystemExit('Attachment privacy review required. See the local privacy report.')

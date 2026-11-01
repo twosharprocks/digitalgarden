@@ -3,9 +3,6 @@ title: CISSP
 created: 2025-07-15
 updated: 2026-07-08
 status: seed
-tags:
-  - cyber-security
-  - cissp
 related: 
   - "[[Cyber Security]]"
   - "[[Cyber - Training & Certifications]]"
@@ -34,7 +31,7 @@ related:
 	- Study - Pete Zerger CISSP Exam
 	- Study - Pete Zerger CISSP 2024 Addendum
 	- [Youtube - 100 Most Important Topics](https://www.youtube.com/watch?v=tdtbZc2w8JM)
-	- cissplastmile.pdf
+	- [cissplastmile](https://leanpub.com/cissplastmile)
 - [3x Mock Exams](https://study.pocketprep.com/mock-exam-intro) 
 
 **Exam - Test Questions & Prep**

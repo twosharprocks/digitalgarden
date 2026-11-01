@@ -4,9 +4,7 @@ created: 2025-01-03
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - victoria
 feature_type: "Landmark"
 latitude: -37.440045999999995
 longitude: 148.19588899999997

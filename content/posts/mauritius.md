@@ -4,13 +4,13 @@ created: 2026-06-18
 updated: 2026-06-18
 status: seed
 tags:
-  - diving
-  - personal
   - trips
 region:
 sub-region:
 smarttraveller: https://www.smartraveller.gov.au/destinations/africa/mauritius
-related: "[[Diving]]"
+related:
+  - "[[Diving]]"
+  - "[[Personal]]"
 ---
 # About
 Chamarel Karst and Underground Streams

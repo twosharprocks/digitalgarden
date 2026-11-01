@@ -6,10 +6,11 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[United States]]"
 sub-region: "[[Tennessee]]"
 verification: "unverified"
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

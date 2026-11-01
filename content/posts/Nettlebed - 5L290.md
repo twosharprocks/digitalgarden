@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -21,6 +19,8 @@ suburb: "Wattle Range Council"
 cavedb: "https://app.cavedb.net/share/8a674142-fb3d-4f40-8a23-50c1bf3a20b9.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "53 m"
+address: "Wattle Range Council, South Australia, AUS, 5280"
 ---
 # About
 
@@ -64,14 +64,6 @@ From The Gallery the cave drops deeper and breaks into a large room which contai
 - **Reference:** L0290
 - **Source:** Forestry SA
 
-## Location
-
-- **Coordinates:** -37.75140200999999, 140.54862308999998
-- **Altitude:** 53 m
-- **Address:** Wattle Range Council, South Australia, AUS, 5280
-- **Checked:** true
-- **Checked by:** CDAA Rated
-
 ## Cave and exploration data
 
 - **Cave rating:** Cave
@@ -94,4 +86,4 @@ Forestry
 
 # Maps
 
-- site - 735d6811-8a674142.kml
+- [site - 735d6811-8a674142](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/KML_Data/Nettlebed.kml)

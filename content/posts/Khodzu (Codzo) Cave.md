@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mozambique
 feature_type: "Cave"
 latitude: -18.564719999999994
 longitude: 34.866660000000024

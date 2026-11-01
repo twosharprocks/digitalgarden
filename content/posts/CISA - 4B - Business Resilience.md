@@ -3,13 +3,11 @@ title: "CISA - 4B - Business Resilience"
 created: 2026-04-29
 updated: 2026-06-28
 status: reference
-tags:
-  - cyber-security
-  - cisa
-  - study
 related:
   - "[[CISA]]"
   - "[[CISA - 4A - IS Operations]]"
+  - "[[Cyber Security]]"
+  - "[[Study]]"
 ---
 # 1 - Business Impact Analysis (BIA) 
 **Resilience** is an organisation's ability to adapt to disruptions and maintain continuous assets while protecting assets

@@ -5,10 +5,10 @@ updated: 2026-06-27
 status: tree
 tags:
   - mini-essay
-  - books
   - writing
 related:
   - "[[Mini Essays]]"
+  - "[[Books]]"
 ---
 "Not Fade Away" turned out to be quite an interesting read after the initial confusion around the book by Ben Torres-Fong of the same name (accidentally read first before realising the author was different>. There's no way I would have read it unless it had been on the [101 Things - Complete List]({{< relref "posts/101 Things - Complete List.md" >}}) list, but that's the case with so many of those books anyway.
 

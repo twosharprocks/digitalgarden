@@ -4,16 +4,14 @@ created: 2025-01-04
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - vanuatu
 feature_type: "Cave"
 latitude: -15.577777777777783
 longitude: 167.1488888888889
 state: "Sanma Province"
 suburb: "Canal - Fanafo"
 obsidian_aliases:
-  - "RaÃ¯a"
+  - "Raïa"
 region: "[[Vanuatu]]"
 related:
   - "[[Diving]]"

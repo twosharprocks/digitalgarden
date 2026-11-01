@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - north-macedonia
 feature_type: "Cave"
 latitude: 41.57996109999999
 longitude: 21.213241700000026

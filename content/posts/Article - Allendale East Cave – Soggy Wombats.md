@@ -1,10 +1,9 @@
 ---
-title: Allendale East Cave – Soggy Wombats
+title: "Article - Allendale East Cave – Soggy Wombats"
 created: 2025-10-28
 updated: 2026-06-27
 status: complete
 tags:
-  - diving
   - caving
 region: "[[Mount Gambier - Lower South East]]"
 related:

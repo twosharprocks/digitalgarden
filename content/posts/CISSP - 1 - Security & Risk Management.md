@@ -3,11 +3,9 @@ title: CISSP - 1 - Security & Risk Management
 created: 2025-04-14
 updated: 2025-10-30
 status: reference
-tags:
-  - cyber-security
-  - cissp
 related: 
   - "[[CISSP]]"
+  - "[[Cyber Security]]"
 ---
 Reference: https://cissprep.net/domain-1-security-and-risk-management/
 

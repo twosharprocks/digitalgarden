@@ -5,7 +5,6 @@ updated: 2026-06-30
 status: reference
 tags:
   - oscp
-  - cyber-security
 related:
   - "[[Cyber Security]]"
   - "[[OSCP]]"

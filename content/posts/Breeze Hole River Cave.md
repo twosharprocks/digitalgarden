@@ -4,9 +4,7 @@ created: 2024-12-26
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - jamaica
 feature_type: "Cave"
 latitude: 18.217580999999996
 longitude: -77.61158499999999

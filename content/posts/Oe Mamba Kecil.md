@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - sulawesi
 region: "[[Sulawesi]]"
 related:
   - "[[Diving]]"
@@ -27,6 +25,8 @@ obsidian_aliases:
 cavedb: https://app.cavedb.net/share/68383f0c-0750-4628-ba92-879ce54bd786.html
 catalog-type: cave
 sub-region: "[[Muna Island]]"
+altitude: "13 m"
+address: "Jalan Tanpa Nama, Buton Regency, South East Sulawesi, IDN, 93762"
 ---
 # About
 
@@ -45,14 +45,6 @@ Depth +70m - use CCR
 ## Identification
 
 - **Feature type:** Sinkhole
-
-## Location
-
-- **Coordinates:** -5.361464000000012, 122.46743700000002
-- **Altitude:** 13 m
-- **Address:** Jalan Tanpa Nama, Buton Regency, South East Sulawesi, IDN, 93762
-- **Checked:** true
-- **Checked by:** Grubby Wombat
 
 ## Cave and exploration data
 

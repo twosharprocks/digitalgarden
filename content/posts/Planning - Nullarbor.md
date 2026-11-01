@@ -4,7 +4,6 @@ created: 2026-06-18
 updated: 2026-06-27
 status: tree
 tags:
-  - diving
   - caving
 region:
 related:

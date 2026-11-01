@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - saudi-arabia
 feature_type: "Cave"
 latitude: 25.588610000000017
 longitude: 39.756939999999986

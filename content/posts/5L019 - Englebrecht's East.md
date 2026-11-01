@@ -4,9 +4,7 @@ created: 2025-11-01
 updated: 2026-10-19
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -24,6 +22,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/6d271bdf-043b-4b80-a53d-3616fe4e1db7.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "44 m"
+address: "21-23, Chute St, City of Mount Gambier, South Australia, AUS, 5290"
 ---
 # Maps
 
@@ -40,10 +40,10 @@ sub-region: "[[Mount Gambier - Lower South East]]"
 5L019 - Englebrecht's East (Extension Overlay)
 
 ## Survey
-TML Data: Englebrecht's East - EX.tml
-KML Survey: Englebrecht's E Extension - KML.kml
+TML Data: [Englebrecht's East - EX](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/MNemo_Data/Englebrecht%27s%20East%20-%20EX.tml)
+KML Survey: [Englebrecht's E Extension - KML](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/KML_Data/Englebrecht%27s%20E%20Extension.kml)
 
-- Englebrecht's E Extension - 19844d72-6d271bdf.kml
+- [Englebrecht's E Extension - 19844d72-6d271bdf](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/KML_Data/Englebrecht%27s%20E%20Extension.kml)
 
 # Details
 
@@ -52,14 +52,6 @@ KML Survey: Englebrecht's E Extension - KML.kml
 - **Feature type:** Cave
 - **Reference:** L0019
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.820997164671496, 140.7724947470581
-- **Altitude:** 44 m
-- **Address:** 21-23, Chute St, City of Mount Gambier, South Australia, AUS, 5290
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

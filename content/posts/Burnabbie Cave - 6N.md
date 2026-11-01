@@ -4,13 +4,8 @@ created: 2026-01-22
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - roe-plains
 region: "[[Western Australia]]"
-related:
-  - "[[Diving]]"
-  - "[[Trip - Olwolgin - 2025 June]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 feature_type: "Cave"
 latitude: -32.10156463274697
@@ -19,30 +14,16 @@ suburb: "Shire of Dundas"
 cavedb: "https://app.cavedb.net/share/d7500adf-8598-4334-b851-a8e2dc1f94cf.html"
 catalog-type: "cave"
 sub-region: "[[Roe Plains]]"
+altitude: "10 m"
+address: "Shire of Dundas, Western Australia, AUS, 6443"
 ---
 # About
-
-## To Do
-Diving
-- Survey: Nasty (Ryan says goes to air)
-- Inspect: Rafting Room dry line
-Dry
-
-Photogrammetry
-- All
 
 # Details
 
 ## Identification
 
 - **Feature type:** Cave
-
-## Location
-
-- **Coordinates:** -32.10156463274697, 126.51527936908269
-- **Altitude:** 10 m
-- **Address:** Shire of Dundas, Western Australia, AUS, 6443
-- **Checked:** true
 
 ## Cave and exploration data
 
@@ -59,7 +40,7 @@ Photogrammetry
 
 # Maps
 
-- site - b70bf411-d7500adf.kml
+- [site - b70bf411-d7500adf](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/KML_Data/Burnabbie.kml)
 
 # References
 
@@ -72,4 +53,4 @@ Photogrammetry
 - ![Burnabbie Cave Burnabbie3 931ae59e D7500adf](/images/Burnabbie%20Cave%20-%20burnabbie3%20-%20931ae59e-d7500adf.jpg)
 - ![Burnabbie Cave Burnabbie2 53727174 D7500adf](/images/Burnabbie%20Cave%20-%20burnabbie2%20-%2053727174-d7500adf.jpg)
 - [bf4d38ab-5488-4c39-866d-d20369375d85](https://www.youtube.com/watch?v=VmfhXZqm2Nc)
-- Burnabbie Map - 996b11bc-d7500adf.pdf
+- [Burnabbie Map - 996b11bc-d7500adf](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/a9aadc76fd6fe38ce07c6574413a3c2fa7b2c30f7010af45e5fe0b55a5138441.pdf)

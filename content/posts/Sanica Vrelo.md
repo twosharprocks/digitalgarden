@@ -4,9 +4,7 @@ created: 2023-12-11
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - bosnia-and-herzegovina
 feature_type: "Cave"
 latitude: 44.60731899999996
 longitude: 16.618901999999935

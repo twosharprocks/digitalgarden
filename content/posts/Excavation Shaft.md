@@ -4,9 +4,7 @@ created: 2025-09-26
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - new-south-wales
 feature_type: "SolutionTube"
 latitude: -32.621669999999995
 longitude: 148.93944599999998

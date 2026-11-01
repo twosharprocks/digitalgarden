@@ -3,8 +3,6 @@ title: Notes - Burning Down Cities
 created: 2025-04-26
 updated: 2025-10-30
 status: seed
-tags:
-  - cyber-security
 related:
   - "[[Cyber Security]]"
   - "[[Threat Modelling]]"

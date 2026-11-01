@@ -4,9 +4,7 @@ created: 2024-12-08
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - republic-of-the-congo
 feature_type: "Cave"
 latitude: -4.120277999999985
 longitude: 13.852777999999944

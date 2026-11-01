@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - india
 feature_type: "Cave"
 latitude: 25.374040000000036
 longitude: 92.53816000000006

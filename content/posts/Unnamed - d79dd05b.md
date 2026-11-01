@@ -4,9 +4,7 @@ created: 2025-07-07
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - victoria
 latitude: -38.033756
 longitude: 140.974502
 suburb: "Glenelg Shire"

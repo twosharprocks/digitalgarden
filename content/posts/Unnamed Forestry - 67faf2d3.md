@@ -4,9 +4,7 @@ created: 2023-08-04
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -37.72229899999999
 longitude: 140.700153
 suburb: "Dismal Swamp"

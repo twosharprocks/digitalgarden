@@ -4,16 +4,14 @@ created: 2025-01-04
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - vanuatu
 feature_type: "Cave"
 latitude: -15.378055555555562
 longitude: 166.96416666666664
 state: "Sanma Province"
 suburb: "West Santo"
 obsidian_aliases:
-  - "FougÃ¨re (Puits de la)"
+  - "Fougère (Puits de la)"
 region: "[[Vanuatu]]"
 related:
   - "[[Diving]]"

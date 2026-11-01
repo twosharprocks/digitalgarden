@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mongolia
 feature_type: "Cave"
 latitude: 45.59027779999997
 longitude: 114.50057219999997

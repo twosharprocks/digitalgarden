@@ -4,9 +4,7 @@ created: 2023-12-12
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - kosovo
 feature_type: "Cave"
 latitude: 42.74827800000003
 longitude: 20.33027800000002

@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - sulawesi
 region: "[[Sulawesi]]"
 related:
   - "[[Diving]]"
@@ -23,6 +21,8 @@ suburb: Muna
 cavedb: https://app.cavedb.net/share/fedd84ff-0cab-4c54-8515-4278a8af789d.html
 catalog-type: cave
 sub-region: "[[Muna Island]]"
+altitude: "13 m"
+address: "Muna, IDN, 93662"
 ---
 # References
 
@@ -37,14 +37,6 @@ sub-region: "[[Muna Island]]"
 ## Identification
 
 - **Feature type:** Cave
-
-## Location
-
-- **Coordinates:** -5.179149999999993, 122.58393999999998
-- **Altitude:** 13 m
-- **Address:** Muna, IDN, 93662
-- **Checked:** true
-- **Checked by:** Grubby Wombat
 
 ## Cave and exploration data
 

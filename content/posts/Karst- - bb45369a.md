@@ -4,9 +4,7 @@ created: 2023-08-21
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -37.92578900000001
 longitude: 140.666877
 suburb: "Mount Schank"

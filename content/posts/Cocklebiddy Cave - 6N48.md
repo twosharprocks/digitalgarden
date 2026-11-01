@@ -1,12 +1,10 @@
 ---
 title: "Cocklebiddy Cave - 6N48"
 created: 2026-06-18
-updated: 2026-10-13
+updated: 2026-10-31
 status: tree
 tags:
-  - diving
   - caving
-  - nullarbor
 region: "[[Western Australia]]"
 related:
   - "[[Diving]]"
@@ -24,6 +22,8 @@ suburb: "Shire of Dundas"
 cavedb: "https://app.cavedb.net/share/c3fffd30-d70d-42ed-9d4f-09a4cde11f7a.html"
 catalog-type: "cave"
 sub-region: "[[Nullarbor High Plains]]"
+altitude: "98 m"
+address: "Unnamed Road, Shire of Dundas, Western Australia, AUS, 6443"
 ---
 # From ASF
 
@@ -64,60 +64,24 @@ While the Cocklebiddy Cave is a marvel of nature, caving in the area is recommen
 In conclusion, the Cocklebiddy Cave is a testament to the wonders that lie beneath the surface of the Earth. Its vast underwater passages, rich history, and the records it holds make it a fascinating subject of study and a must-visit for any cave enthusiast.
 
 # Maps
-
 - N48-CEG30048
 - N48-CEG1321
 	- ![6N48 Cocklebiddy Part 1](/images/6N48%20-%20Cocklebiddy%20Part%201.jpg) (Payne)
 	- ![6N48 Cocklebiddy Part 2](/images/6N48%20-%20Cocklebiddy%20Part%202.jpg) (Payne)
 	- ![6N48 Cocklebiddy Part 3](/images/6N48%20-%20Cocklebiddy%20Part%203.jpg) (Payne)
 
-# References
-
-* [Dive Addiction - Joseph Bicanic](https://www.diveaddiction.me/)
-* [“Cocklebiddy - Alpine Style”](https://cdg.caves.org.au/CDG-Articles/Articles/S-EBERHARD-CocklebiddyAlpineStyle1998.pdf) (CCR & DPV)
-- ![Cocklebiddy Drone Model Top View](/images/Cocklebiddy%20-%20Drone%20Model%20-%20Top%20View.jpg) (Richards)
-- ![Cocklebiddy Drone Model Side View](/images/Cocklebiddy%20-%20Drone%20Model%20-%20Side%20view.jpg) (Richards)
-
 ## Images
 - ![6N48 Cocklebiddy Cave 2019 01 09 06.28.36 84b2c69c C3fffd30](/images/6N48%20-%20Cocklebiddy%20Cave%20-%202019-01-09%2006.28.36%20-%2084b2c69c-c3fffd30.jpg)
 - ![6N48 Cocklebiddy Cave 2019 01 09 06.48.53 400a365a C3fffd30](/images/6N48%20-%20Cocklebiddy%20Cave%20-%202019-01-09%2006.48.53%20-%20400a365a-c3fffd30.jpg)
 - ![6N48 Cocklebiddy Cave 2019 01 09 06.52.17 6ab1fca4 C3fffd30](/images/6N48%20-%20Cocklebiddy%20Cave%20-%202019-01-09%2006.52.17%20-%206ab1fca4-c3fffd30.jpg)
 - ![6N48 Cocklebiddy Cave 2019 01 09 06.52.55 E52738b0 C3fffd30](/images/6N48%20-%20Cocklebiddy%20Cave%20-%202019-01-09%2006.52.55%20-%20e52738b0-c3fffd30.jpg)
+- ![Cocklebiddy Drone Model Top View](/images/Cocklebiddy%20-%20Drone%20Model%20-%20Top%20View.jpg) (Richards)
+- ![Cocklebiddy Drone Model Side View](/images/Cocklebiddy%20-%20Drone%20Model%20-%20Side%20view.jpg) (Richards)
 
-## Images
-- [4f9d80ff-8957-4585-9fcc-7ee072d9fc0e](https://www.youtube.com/watch?v=HG-yIyVxkc4)
-- [67fcb056-a680-4090-bd64-f38216fed734](https://www.youtube.com/watch?v=mqWC7Jb0NuI)
+## Video
+- [YouTube - Cocklebiddy Cave Exploration](https://www.youtube.com/watch?v=HG-yIyVxkc4)
+- [YouTube - Cocklebiddy Cave's Spectacular tunnels with Liz Rogers](https://www.youtube.com/watch?v=mqWC7Jb0NuI)
 
-# Details
-
-## Identification
-
-- **Feature type:** Cave
-
-## Location
-
-- **Coordinates:** -31.965543320399092, 125.91686546802521
-- **Altitude:** 98 m
-- **Address:** Unnamed Road, Shire of Dundas, Western Australia, AUS, 6443
-- **Checked:** true
-- **Checked by:** BC
-
-## Cave and exploration data
-
-- **Cave rating:** Cave
-- **Highest cave rating:** Advanced
-- **Vertical access:** No
-- **Exploration potential:** Low
-- **Tourism potential:** Medium
-- **Goes to water:** Yes
-
-## Diving data
-
-- **Maximum depth:** 21 m
-- **Water type:** Salt
-- **Tidal:** No
-
-<!-- ASF slide images: start -->
 ## ASF slide images
 
 Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.
@@ -146,4 +110,7 @@ Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves 
 ![6N48 Cocklebiddy Cave ASF JNJ S 1011 05 Map N48 Cocklebiddy Cave](/images/6N48%20-%20Cocklebiddy%20Cave%20-%20ASF%20JNJ-S-1011-05%20-%20Map%20-%20N48%20Cocklebiddy%20cave.jpg)
 *ASF Joe N. Jennings slide catalogue, JNJ-S-1011-05, Box 1011. Catalogue description: Map - N48 Cocklebiddy cave. [ASF record](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201011/JNJ-S-1011-05.html).*
 
-<!-- ASF slide images: end -->
+# References
+- [Cocklebiddy Cave - Google Maps](https://maps.app.goo.gl/pt772Xk24uKDtpfF8)
+* [Dive Addiction - Joseph Bicanic](https://www.diveaddiction.me/)
+* [“Cocklebiddy - Alpine Style”](https://cdg.caves.org.au/CDG-Articles/Articles/S-EBERHARD-CocklebiddyAlpineStyle1998.pdf) (CCR & DPV)

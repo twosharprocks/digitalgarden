@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - puerto-rico
 feature_type: "Cave"
 latitude: 18.343610000000012
 longitude: -66.52944000000002

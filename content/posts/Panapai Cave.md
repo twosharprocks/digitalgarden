@@ -6,9 +6,10 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[Papua New Guinea]]"
 verification: "unverified"
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

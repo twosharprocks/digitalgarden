@@ -4,9 +4,7 @@ created: 2023-09-07
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -37.92192399999999
 longitude: 140.57883000000004
 suburb: "Kongorong"

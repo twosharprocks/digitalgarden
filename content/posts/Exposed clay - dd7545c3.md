@@ -4,9 +4,7 @@ created: 2024-04-29
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - western-australia
 feature_type: "Depression"
 latitude: -32.070854
 longitude: 126.54628600000001

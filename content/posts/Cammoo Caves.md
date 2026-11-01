@@ -6,10 +6,11 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[Australia]]"
 sub-region: "[[Queensland]]"
 verification: "unverified"
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

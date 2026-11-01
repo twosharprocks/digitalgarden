@@ -4,9 +4,7 @@ created: 2023-08-14
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - victoria
 feature_type: "RockyOutcrop"
 latitude: -37.65594999999999
 longitude: 141.92479000000003

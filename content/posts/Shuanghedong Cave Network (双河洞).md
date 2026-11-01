@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - china
 feature_type: "Cave"
 latitude: 28.241989999999987
 longitude: 107.27607999999998

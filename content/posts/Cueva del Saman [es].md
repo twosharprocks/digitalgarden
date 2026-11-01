@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - venezuela
 feature_type: "Cave"
 latitude: 10.798000000000002
 longitude: -72.43099999999998

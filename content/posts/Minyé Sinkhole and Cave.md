@@ -4,9 +4,7 @@ created: 2023-08-14
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - papua-new-guinea
 feature_type: "Cave"
 latitude: -5.243200000000002
 longitude: 151.50490000000002

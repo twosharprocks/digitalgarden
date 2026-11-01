@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -19,6 +17,8 @@ suburb: "Mount Schank"
 cavedb: "https://app.cavedb.net/share/fc947a71-c4a6-4a8d-94ed-b798155958c9.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "16 m"
+address: "Sisters Rd, Mount Schank, South Australia, AUS, 5291"
 ---
 # Details
 
@@ -27,13 +27,6 @@ sub-region: "[[Mount Gambier - Lower South East]]"
 - **Feature type:** Sinkhole
 - **Reference:** L0163
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.893111000000005, 140.65254900000002
-- **Altitude:** 16 m
-- **Address:** Sisters Rd, Mount Schank, South Australia, AUS, 5291
-- **Checked:** false
 
 ## Cave and exploration data
 

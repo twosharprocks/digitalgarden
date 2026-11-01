@@ -4,9 +4,7 @@ created: 2023-07-04
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - new-south-wales
 feature_type: "Cave"
 latitude: -35.63738799999999
 longitude: 148.667416
@@ -15,8 +13,6 @@ obsidian_aliases:
   - "CP-6"
   - "CP6"
 region: "[[Australia]]"
-related:
-  - "[[Diving]]"
 rating: CDAA Advanced Cave, TDI Full Cave
 cavedb: "https://app.cavedb.net/share/9ca45287-d0bc-4732-bf99-3c724b03f1f5.html"
 catalog-type: "cave"
@@ -52,4 +48,4 @@ Repository - Sketchsheets, Survex and Illustrator files
 ## Images
 - ![CP 6 River Cave Cp6river D265eb41 9ca45287](/images/CP-6%20-%20River%20Cave%20-%20cp6river%20-%20d265eb41-9ca45287.jpg)
 - ![CP 6 River Cave Cp6riversketch04 82139647 9ca45287](/images/CP-6%20-%20River%20Cave%20-%20CP6Riversketch04%20-%2082139647-9ca45287.jpg)
-- cp6river - d45966fc-9ca45287.pdf
+- [cp6river - d45966fc-9ca45287](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/a290f7584483be4044c065f2f992d9678b959fb2a0f43201d3c1d3acf0b5117f.pdf)

@@ -3,8 +3,6 @@ title: Cyber Glossary
 created: 2025-10-26
 updated: 2025-10-30
 status: seed
-tags:
-  - cyber-security
 related: 
   - "[[Cyber Security]]"
 ---

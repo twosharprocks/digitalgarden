@@ -4,9 +4,7 @@ created: 2024-12-08
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - burundi
 feature_type: "Cave"
 latitude: -3.4375
 longitude: 30.604166666666742

@@ -4,9 +4,7 @@ created: 2024-12-08
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - ethiopia
 feature_type: "Cave"
 latitude: 6.906305555555548
 longitude: 40.84488888888893

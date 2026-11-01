@@ -4,17 +4,13 @@ created: 2023-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - yucatan-mexico
 feature_type: Cave
 latitude: 20.31747999999999
 longitude: -87.40949
 state: Quintana Roo
 suburb: Tulum Municipality
 region: "[[Mexico]]"
-related:
-  - "[[Diving]]"
 rating: TDI Intro to Cave
 cavedb: https://app.cavedb.net/share/646274b9-c3dc-4933-a509-03d758bd98b7.html
 catalog-type: cave
@@ -39,9 +35,9 @@ address: "Vía Sin Nombre, Tulum Municipality, Quintana Roo, MEX, 77774"
 
 # Maps
 
-- Pet Cemetery - 5745c0ad-646274b9.kml
+- [Pet Cemetery - 5745c0ad-646274b9](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/3e9baee52fa9faaa389c974a9df44c6a1d7170637d7b3e5efdd525b7b32b1291.kml)
 
-- Pet Cemetery - 5745c0ad-dbfce6c1.kml
+- [Pet Cemetery - 5745c0ad-dbfce6c1](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/3e9baee52fa9faaa389c974a9df44c6a1d7170637d7b3e5efdd525b7b32b1291.kml)
 
 # References
 

@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - spain
 region: "[[Spain]]"
 smarttraveller: https://www.smartraveller.gov.au/destinations/europe/spain
 related:
@@ -22,6 +20,8 @@ obsidian_aliases:
   - "Water Cave"
 cavedb: "https://app.cavedb.net/share/b3758c0d-43e2-4a4c-b9b5-d2eca6e7f4f1.html"
 catalog-type: "cave"
+altitude: "17 m"
+address: "2B, Carretera a Cartagena, Cartagena, Región de Murcia, ESP, 30868"
 ---
 # About
 
@@ -50,13 +50,6 @@ Photogram
 
 - **Feature type:** Cave
 - **System name:** Cueva del Agua
-
-## Location
-
-- **Coordinates:** 37.57639799999998, -1.2195819999999458
-- **Altitude:** 17 m
-- **Address:** 2B, Carretera a Cartagena, Cartagena, Región de Murcia, ESP, 30868
-- **Checked:** false
 
 ## Cave and exploration data
 

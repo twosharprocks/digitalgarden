@@ -4,7 +4,6 @@ created: 2025-05-24
 updated: 2026-07-01
 status: seed
 tags:
-  - cyber-security
   - script
 related: 
   - "[[Cyber Security]]"

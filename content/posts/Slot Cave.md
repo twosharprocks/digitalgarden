@@ -4,9 +4,7 @@ created: 2023-04-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - western-australia
 feature_type: "Cave"
 latitude: -32.094438989216854
 longitude: 126.52008354663849
@@ -53,7 +51,7 @@ The downstream side is a tight squeeze through black silt to get to a relatively
 
 # Maps
 
-- site - 4d402a72-76c76c32.kml
+- [site - 4d402a72-76c76c32](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/KML_Data/Slot%20Cave.kml)
 
 # References
 

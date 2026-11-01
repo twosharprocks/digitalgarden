@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - myanmar
 feature_type: "Cave"
 latitude: 21.028258300000005
 longitude: 100.11960829999998

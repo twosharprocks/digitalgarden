@@ -4,9 +4,7 @@ created: 2023-04-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - united-states
 feature_type: "Cave"
 latitude: 36.70983537674863
 longitude: -92.26648807525629

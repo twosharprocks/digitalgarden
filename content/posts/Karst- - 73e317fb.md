@@ -4,9 +4,7 @@ created: 2023-08-03
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -34.723802000000006
 longitude: 137.68212800000003
 suburb: "Curramulka"

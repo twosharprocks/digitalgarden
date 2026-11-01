@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -21,6 +19,8 @@ suburb: "The District Council of Grant"
 cavedb: "https://app.cavedb.net/share/d8bdc4a7-9eea-4563-8f0c-4a557d8d390e.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "15 m"
+address: "295, Kingsley Rd, The District Council of Grant, South Australia, AUS, 5291"
 ---
 # About
 
@@ -63,14 +63,6 @@ It is truly a premier cave diving site and an important geomorphological feature
 - **Feature type:** Sinkhole
 - **Reference:** L0158
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.99941000000001, 140.67755799999998
-- **Altitude:** 15 m
-- **Address:** 295, Kingsley Rd, The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

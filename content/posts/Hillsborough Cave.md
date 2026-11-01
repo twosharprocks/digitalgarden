@@ -4,9 +4,7 @@ created: 2023-08-11
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - canada
 feature_type: "Cave"
 latitude: 45.902240000000006
 longitude: -64.67849000000001

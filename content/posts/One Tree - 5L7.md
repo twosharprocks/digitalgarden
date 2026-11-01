@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -23,6 +21,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/2bd204e8-3e16-4c3b-9b7d-06fbd780cd8f.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "13 m"
+address: "Stock Rte Rd, The District Council of Grant, South Australia, AUS, 5291"
 ---
 # About
 
@@ -56,14 +56,6 @@ Popularly known as "One Tree" after a lone pine tree which stands near the north
 - **Feature type:** Sinkhole
 - **Reference:** L0007
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.931512999999995, 140.68378400000006
-- **Altitude:** 13 m
-- **Address:** Stock Rte Rd, The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

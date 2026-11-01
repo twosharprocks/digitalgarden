@@ -4,9 +4,7 @@ created: 2024-05-02
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - ukraine
 feature_type: "Cave"
 latitude: 48.73750000000001
 longitude: 25.973330000000033

@@ -4,9 +4,7 @@ created: 2024-03-27
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -37.974447
 longitude: 140.84629100000006
 suburb: "Caveton"

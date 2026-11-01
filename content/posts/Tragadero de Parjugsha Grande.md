@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - peru
 feature_type: "Cave"
 latitude: -6.301429999999982
 longitude: -77.73761999999999

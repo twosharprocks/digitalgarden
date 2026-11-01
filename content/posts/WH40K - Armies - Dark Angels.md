@@ -5,7 +5,6 @@ updated: 2025-11-01
 status: seed
 tags:
   - interests
-  - personal
 related:
   - "[[Personal]]"
 ---

@@ -4,9 +4,7 @@ created: 2023-07-24
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - tasmania
 feature_type: "Sinkhole"
 latitude: -42.11019400000001
 longitude: 146.18631400000004

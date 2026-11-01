@@ -1,25 +1,22 @@
 ---
-title: "Stalagmite Cave"
+title: Stalagmite Cave
 created: 2023-07-28
-updated: 2026-10-13
+updated: 2026-10-29
 status: seed
 tags:
-  - diving
   - caving
-  - unclassified-region
-  - israel
-feature_type: "Cave"
+feature_type: Cave
 latitude: 31.755809
 longitude: 35.024226
-state: "ירושלים"
-suburb: "ירושלים"
+state: ירושלים
+suburb: ירושלים
 region: "[[Israel]]"
 related:
   - "[[Diving]]"
-cavedb: "https://app.cavedb.net/share/6280e419-6330-430f-ba21-dd9d7c89fd57.html"
-catalog-type: "cave"
-altitude: "436 m"
-address: "ירושלים, ירושלים, ISR"
+cavedb: https://app.cavedb.net/share/6280e419-6330-430f-ba21-dd9d7c89fd57.html
+catalog-type: cave
+altitude: 436 m
+address: ירושלים, ירושלים, ISR
 ---
 # About
 

@@ -4,9 +4,7 @@ created: 2024-12-08
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - democratic-republic-of-congo
 feature_type: "Cave"
 latitude: -5.301899999999989
 longitude: 14.93730000000005

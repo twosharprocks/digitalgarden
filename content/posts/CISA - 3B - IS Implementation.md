@@ -3,12 +3,10 @@ title: "CISA - 3B - IS Implementation"
 created: 2026-04-27
 updated: 2026-06-30
 status: seed
-tags:
-  - cyber-security
-  - cisa
-  - study
 related:
   - "[[CISA]]"
+  - "[[Cyber Security]]"
+  - "[[Study]]"
 video: https://www.youtube.com/watch?v=2MMZ-hqSY50&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=6
 ---
 # 1 - Testing Methodologies

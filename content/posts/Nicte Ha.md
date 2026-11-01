@@ -4,9 +4,7 @@ created: 2023-06-19
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - yucatan-mexico
 feature_type: Cave
 latitude: 20.32289000000003
 longitude: -87.37958500000002
@@ -42,4 +40,4 @@ address: "Cenote Nic Te Ha Rd, Tulum Municipality, Quintana Roo, MEX, 77774"
 
 ## Access and warnings
 
-Guide only. Divers without a guide can swim downstream from Cenote [Dos Palmas]({{< relref "posts/Dos Palmas - cde7b827.md" >}}).
+Guide only. Divers without a guide can swim downstream from Cenote [Dos Palmas]({{< relref "posts/Dos Palmas.md" >}}).

@@ -4,9 +4,7 @@ created: 2023-12-11
 updated: 2026-10-22
 status: seed
 tags:
-  - diving
   - caving
-  - florida
 feature_type: Cave
 latitude: 28.954009999999982
 longitude: -82.11563999999998

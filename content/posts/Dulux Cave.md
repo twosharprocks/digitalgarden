@@ -6,10 +6,11 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[South Australia]]"
 sub-region: "[[Flinders Ranges]]"
 verification: "unverified"
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

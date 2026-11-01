@@ -4,9 +4,7 @@ created: 2024-07-28
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - portugal
 feature_type: "Cave"
 latitude: 38.79394000000002
 longitude: -9.396569999999997

@@ -3,13 +3,10 @@ title: "CISA - 5B - Security Event Management"
 created: 2026-05-02
 updated: 2026-06-30
 status: seed
-tags:
-  - cyber-security
-  - cisa
-  - study
 related: 
   - "[[CISA]]"
   - "[[Cyber Security]]"
+  - "[[Study]]"
 video: https://www.youtube.com/watch?v=gQGoUwcwr8A&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=10
 ---
 # 1 - Security Awareness Training and Programs

@@ -4,9 +4,7 @@ created: 2024-07-28
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - saudi-arabia
 feature_type: "Landmark"
 latitude: 28.397010000000023
 longitude: 34.75159600000006

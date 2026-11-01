@@ -6,10 +6,11 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[New Zealand]]"
 sub-region: "[[North Island - New Zealand]]"
 verification: "unverified"
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

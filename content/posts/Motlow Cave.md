@@ -4,9 +4,7 @@ created: 2025-09-30
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - tennessee
 feature_type: "Cave"
 latitude: 35.286
 longitude: -86.3675

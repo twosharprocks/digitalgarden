@@ -4,9 +4,7 @@ created: 2026-02-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - western-australia
 feature_type: "RockyOutcrop"
 latitude: -32.045142999999996
 longitude: 126.17693699999995

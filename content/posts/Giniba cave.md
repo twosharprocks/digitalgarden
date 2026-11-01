@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - yemen
 feature_type: "Cave"
 latitude: 12.435138999999992
 longitude: 53.93927780000001

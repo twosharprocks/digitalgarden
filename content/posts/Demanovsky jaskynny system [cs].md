@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - slovakia
 feature_type: "Cave"
 latitude: 49.004999999999995
 longitude: 19.586940000000027

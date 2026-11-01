@@ -4,9 +4,7 @@ created: 2024-10-20
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - switzerland
 feature_type: "Cave"
 latitude: 46.552411000000006
 longitude: 8.80191400000001

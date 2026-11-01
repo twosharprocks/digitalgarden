@@ -4,35 +4,8 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - nullarbor
 region: "[[Western Australia]]"
-related:
-  - "[[Diving]]"
-  - "[[Photogrammetry - Processing]]"
-  - "[[Planning - Nullarbor]]"
-  - "[[Trip - Murra-Cocklebiddy - 2026 Aug]]"
-  - "[[Trip - Murra El Elevyn - 2025 Oct]]"
-  - "[[Mini Essay - PRIVATE - What has changed in you since Antarctica]]"
-  - "[[2025 - Annual Review]]"
-  - "[[Weekly - 2026-08-23]]"
-  - "[[New Moon - 2026-08-14]]"
-  - "[[Filming - Documentary on Nullarbor]]"
-  - "[[Weekly - 2026-08-30]]"
-  - "[[2025-10-11]]"
-  - "[[2025-10-07]]"
-  - "[[2025-10-08]]"
-  - "[[2025-10-06]]"
-  - "[[2025-10-09]]"
-  - "[[2025-10-29]]"
-  - "[[Weekly - 2025-10-05]]"
-  - "[[Weekly - 2025-10-19]]"
-  - "[[2026-07-22]]"
-  - "[[2026-08-21]]"
-  - "[[2026-08-22]]"
-  - "[[2026-08-23]]"
-  - "[[2026-08-24]]"
 location: -32.043, 126.038 (WGS84)
 rating: CDAA Cave, TDI Intro to Cave
 feature_type: "Cave"
@@ -42,6 +15,9 @@ suburb: "Shire of Dundas"
 cavedb: "https://app.cavedb.net/share/41c22713-fcc8-479f-b4f8-fe9a9d9d1234.html"
 catalog-type: "cave"
 sub-region: "[[Nullarbor High Plains]]"
+altitude: "90 m"
+address: "Unnamed Road, Shire of Dundas, Western Australia, AUS, 6443"
+bibliography: "CEGSA (2023), Nullarbor Caves Field Trip Guide, 32nd ASF Conference."
 ---
 # About
 
@@ -54,37 +30,21 @@ A 20m ladder or SRT is required. Rigging off trees near the entrance is the best
 There are fixed lines in the side passages, these are shown on the map N47-CEG34002, parties will need to use their own reel to reach these fixed lines. It is possible use tripods to lower gear from the high side of the doline to reduce transporting of gear down the steep talus slope. Rigging to a vehicle is the best option for anchoring the tripod from this point.
 ## Land use 
 The cave is on Nuytsland Nature Reserve, and specific permission is required to visit the cave. 
-## Potential Leads
-- *Interfaces around the “large rock” in the main chamber*  
-Breakdown piles often mask bypass tubes. Check behind and above the boulder for blind domes or tube lips; inspect for faint percolation staining or clean, eddy-scoured floor patches indicating through-draft water movement.
-
-- *“Gary’s Back Passage” and the entrance-to-main-tunnel shortcut*
-Both are named as Advanced segments—good flags that they’re tighter/less travelled. These are prime spots to find side tubes that were skipped when the main line was established. Slow, close wall-scans often reveal inset phreatic notches.
-
-- *Joint-controlled leads aligned with regional structure* 
-Nullarbor caves commonly exploit joint sets; historical mapping notes exist for **Murrawijinie** (SA) showing joint frequency plots—useful analogs for what to look for in plan view at Murra-el-Elevyn: straight runs, right-angle turns, bead-string chambers.
-
-- *Ceiling domes & cupolas in the half-filled network*  
-In mixed air/water sections, inspect cupolas for high-level feeders. Dry-tooling to a visible rim may reveal a tubes’ continuation once submerged a few metres farther on.
-## Trips
-- [Trip - Murra El Elevyn - 2025 Oct]({{< relref "posts/Trip - Murra El Elevyn - 2025 Oct.md" >}}) 
-- [Trip - Murra-Cocklebiddy - 2026 Aug]({{< relref "posts/Trip - Murra-Cocklebiddy - 2026 Aug.md" >}})
-
 ## Mitch's Maze MNemo Survey
-![[6N47 - Murra-El-Elevyn (Porter, 2024) - MAP with Mitchs Maze MNemo Survey.pdf]]
-6N47 - Murra-El-Elevyn (Porter, 2024) - MAP with Mitchs Maze MNemo Survey.pdf
+[6N47 - Murra-El-Elevyn (Porter, 2024) - MAP with Mitchs Maze MNemo Survey](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/4247243be5f8a9005f2fd2dfabb5622e7aa57a4007548c5c6de73a8d00082658.pdf)
+[6N47 - Murra-El-Elevyn (Porter, 2024) - MAP with Mitchs Maze MNemo Survey](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/4247243be5f8a9005f2fd2dfabb5622e7aa57a4007548c5c6de73a8d00082658.pdf)
 
 ![6N47 Murra El Elevyn (porter, 2024) MAP With Mitchs Maze Mnemo Survey](/images/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20-%20MAP%20with%20Mitchs%20Maze%20MNemo%20Survey.png)
 ![6N47 Murra El Elevyn (porter, 2024) MAP With Mitchs Maze Mnemo Survey](/images/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20-%20MAP%20with%20Mitchs%20Maze%20MNemo%20Survey.png)
 
-6N47 - Murra-El-Elevyn - Mitchs Maze MNemo Survey.csv
+[6N47 - Murra-El-Elevyn - Mitchs Maze MNemo Survey](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/2263f2e648728af065c46308c64343bec805320cbbaa21424550770f148b5578.csv)
 
 Caves of the Nullarbor 1967 p6 (N47-CEG30047)
 ![6N47 Murra El Elevyn Cegsa N47 Ceg3402](/images/6N47-%20Murra-El-Elevyn%20-%20CEGSA%20-%20N47-CEG3402.jpg)
 ![6N47 Murra El Elevyn Cegsa N47 Ceg3402](/images/6N47-%20Murra-El-Elevyn%20-%20CEGSA%20-%20N47-CEG3402.jpg)
 
-![[6N47 - Murra-El-Elevyn (Porter, 2024) (High-Res PDF) - MAP.pdf]]
-6N47 - Murra-El-Elevyn (Porter, 2024) (High-Res PDF) - MAP.pdf
+[6N47 - Murra-El-Elevyn (Porter, 2024) (High-Res PDF) - MAP](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/Maps/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20%28High-Res%20PDF%29.pdf)
+[6N47 - Murra-El-Elevyn (Porter, 2024) (High-Res PDF) - MAP](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/Maps/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20%28High-Res%20PDF%29.pdf)
 
 ![6N47 Murra El Elevyn (porter, 2024) MAP](/images/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20-%20MAP.png)
 ![6N47 Murra El Elevyn (porter, 2024) MAP](/images/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20-%20MAP.png)
@@ -100,13 +60,11 @@ Caves of the Nullarbor 1967 p6 (N47-CEG30047)
 
 [st1.asflib.net - Joe N. Jennings Slide Box #1011 - Nullarbor - Maps and Sketches](https://st1.asflib.net/MEDIA/ASFJJSlidesCatalogue/Box%201011/JNJ-S-1011-09.html)
 
-- 19_Feb_2026_1_15_02_pm - c74c3ec2-41c22713.kml
 
 # References
 
-Nullarbor Field Guide 2023 final.pdf
 [Murra El Elevyn (6N47) - cavedivers.com.au](https://www.cavedivers.com.au/index.cfm?action=details&leca=1831&module=BUSINESSDIRECTORY&pageMode=indiv&page_id=1404675&utm_source= "Murra El Elevyn (6N47) - cavedivers.com.au")
-https://www.cavediving.net.au/index.php/siteinfo/?site=5
+- [Source](https://www.cavediving.net.au/index.php/siteinfo/?site=5)
 
 Briefing Docs (Dive Addiction)
 - ![Murra P1](/images/Murra%20-%20p1.jpg)
@@ -121,20 +79,13 @@ Briefing Docs (Dive Addiction)
 - ![Murra El Elevyn Cave 419690779 1042849297016885 2642693015512437405 N 271dbead 41c22713](/images/Murra%20El%20Elevyn%20Cave%20-%20419690779_1042849297016885_2642693015512437405_n%20-%20271dbead-41c22713.jpg)
 - ![Murra El Elevyn Cave 419318738 1520079201869287 2485267095906773903 N 1f580aab 41c22713](/images/Murra%20El%20Elevyn%20Cave%20-%20419318738_1520079201869287_2485267095906773903_n%20-%201f580aab-41c22713.jpg)
 - ![Murra El Elevyn Cave 20260219 150209 238c6da6 41c22713](/images/Murra%20El%20Elevyn%20Cave%20-%2020260219_150209%20-%20238c6da6-41c22713.jpg)
-- MurraElElevyn_HP_V1_1 - 2c2b130a-41c22713.pdf
+- [MurraElElevyn_HP_V1_1 - 2c2b130a-41c22713](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/Maps/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20%28High-Res%20PDF%29.pdf)
 
 # Details
 
 ## Identification
 
 - **Feature type:** Cave
-
-## Location
-
-- **Coordinates:** -32.04278570253757, 126.03812551714987
-- **Altitude:** 90 m
-- **Address:** Unnamed Road, Shire of Dundas, Western Australia, AUS, 6443
-- **Checked:** false
 
 ## Cave and exploration data
 

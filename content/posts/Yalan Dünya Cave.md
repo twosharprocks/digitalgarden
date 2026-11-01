@@ -1,24 +1,21 @@
 ---
-title: "Yalan Dünya Cave"
+title: Yalan Dünya Cave
 created: 2023-07-23
-updated: 2026-10-13
+updated: 2026-10-29
 status: seed
 tags:
-  - diving
   - caving
-  - t-rkiye
-  - turkiye-turkey
-feature_type: "Cave"
+feature_type: Cave
 latitude: 36.22116199999999
 longitude: 32.40189499999997
-suburb: "Gazipaşa"
+suburb: Gazipaşa
 region: "[[Türkiye-Turkey]]"
 related:
   - "[[Diving]]"
-cavedb: "https://app.cavedb.net/share/4366c06c-fbd0-4a8b-9f49-2212fea47651.html"
-catalog-type: "cave"
-altitude: "258 m"
-address: "Gazipaşa, TUR, 07900"
+cavedb: https://app.cavedb.net/share/4366c06c-fbd0-4a8b-9f49-2212fea47651.html
+catalog-type: cave
+altitude: 258 m
+address: Gazipaşa, TUR, 07900
 ---
 # About
 

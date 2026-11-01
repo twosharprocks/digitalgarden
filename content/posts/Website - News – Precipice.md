@@ -1,7 +1,7 @@
 ---
 title: "Website - News – Precipice"
 created: 2026-10-24
-updated: 2026-10-24
+updated: 2026-10-29
 status: tree
 tags:
   - writing
@@ -43,11 +43,11 @@ The event was huge, with literally hundreds of kids coming through to ask us eve
 
 I’ve also been busy organising plenty of school visits – the [press has started to show a more serious interest](https://web.archive.org/web/20140920063649/http://www.themightyginge.com/blog/2014/03/06/mars-project-mix-94-5-triple-j-interviews/) since the 1058 astronaut candidates were announced, so I’ve been organising school visits to talk more to Year 6-12 classes about the Mars One mission. I’ve also started offering in-class workshops to teach kids about Leadership and Risk-Management, as well as working with Scitech to [organise science/space/comedy events during National Science Week](https://web.archive.org/web/20140920063649/http://www.themightyginge.com/blog/2014/04/03/2014-national-science-week-feeding-mars-to-feed-earth-workshops/) (August 16-24).
 
-There’s also been plenty changes online to fit all this – you’ve probably noticed the new “Speaker” section on the website describing the school programs and corporate presentations I’m doing now. I’ve also been promoting major space events on Twitter and Facebook – things like [SpaceX’s recent CRS-3 resupply mission](https://web.archive.org/web/20140920063649/http://www.theregister.co.uk/2014/04/18/liftoff_spacex_sends_of_third_resupply_mission_to_iss/) to the International Space Station, and [NASA’s #GlobalSelfie project](https://web.archive.org/web/20140920063649/http://www.nasa.gov/content/goddard/globalselfie/) for Earth Day on April 22nd.
+There’s also been plenty changes online to fit all this – you’ve probably noticed the new “Speaker” section on the website describing the school programs and corporate presentations I’m doing now. I’ve also been promoting major space events on Twitter and Facebook – things like [SpaceX’s recent CRS-3 resupply mission](https://web.archive.org/web/20140920063649/http://www.theregister.co.uk/2014/04/18/liftoff_spacex_sends_of_third_resupply_mission_to_iss/) to the International Space Station, and [NASA’s GlobalSelfie project](https://web.archive.org/web/20140920063649/http://www.nasa.gov/content/goddard/globalselfie/) for Earth Day on April 22nd.
 
 [![1800491 10152068328913461 4380772866799566122 n 300x300 News   Precipice](https://web.archive.org/web/20140920063649im_/http://www.themightyginge.com/blog/wp-content/uploads/2014/04/1800491_10152068328913461_4380772866799566122_n-300x300.jpg "News   Precipice")](https://web.archive.org/web/20140920063649/http://www.themightyginge.com/blog/wp-content/uploads/2014/04/1800491_10152068328913461_4380772866799566122_n.jpg)
 
-Chipping into the #GlobalSelfie project
+Chipping into the GlobalSelfie project
 
 Even Keith the Anger Management Koala has been contributing, and getting his mischief shared on Twitter by the next crew of the ISS.
 

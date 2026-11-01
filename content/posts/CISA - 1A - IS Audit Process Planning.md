@@ -3,12 +3,10 @@ title: "CISA - 1A - IS Audit Process Planning"
 created: 2026-04-17
 updated: 2026-06-28
 status: seed
-tags:
-  - cyber-security
-  - cisa
-  - study
 related:
   - "[[CISA]]"
+  - "[[Cyber Security]]"
+  - "[[Study]]"
 video: https://www.youtube.com/watch?v=6raFkNkbUAc&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb
 ---
 ---

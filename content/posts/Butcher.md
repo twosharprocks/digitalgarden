@@ -4,9 +4,7 @@ created: 2024-04-10
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -37.82883000000001
 longitude: 140.70182999999997
 suburb: "Compton"

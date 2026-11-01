@@ -5,8 +5,6 @@ updated: 2026-09-10
 status: seed
 tags:
   - index
-  - digital-garden
-  - cyber-security
 related:
   - "[[Cyber Glossary]]"
   - "[[Cyber Security - Job Domains & Interview Prep]]"
@@ -17,6 +15,7 @@ related:
   - "[[CISA]]"
   - "[[OT Cyber]]"
   - "[[About]]"
+  - "[[Digital Garden]]"
 ---
 Cyber security notes, study material, cheat sheets, threat modelling, [OSCP]({{< relref "posts/oscp.md" >}})/[CISSP]({{< relref "posts/CISSP.md" >}})/[CISA]({{< relref "posts/CISA.md" >}}) notes, and work-related security references.
 
@@ -121,19 +120,18 @@ Ideas - Quantum Computing vs Encryption
 
 ---
 # References
-- 
 ## GRC
-DISP - Defence-Industry-Security-Program.pdf
+DISP - [Defence-Industry-Security-Program](https://www.defence.gov.au/business-industry/industry-governance/industry-regulators/defence-industry-security-program)
 - [Defence Security Principles Framework](https://www.defence.gov.au/business-industry/industry-governance/defence-security-principles-framework) 
 - [DISP Resources](https://www.defence.gov.au/business-industry/industry-governance/industry-regulators/defence-industry-security-program/resources) 
 
-PSPF -  pspf-release-2025.pdf
-- pspf-release-2025-summary-changes.pdf	
-- pspf-on-a-page-release-2025.pdf]
+PSPF -  [pspf-release-2025](https://www.protectivesecurity.gov.au/publications-library/pspf-annual-release-2025)
+- [pspf-release-2025-summary-changes](https://www.protectivesecurity.gov.au/publications-library/pspf-release-2025-summary-changes)	
+- [pspf-on-a-page-release-2025](https://www.protectivesecurity.gov.au/publications-library/pspf-page-2025)]
 - [PSPF Standards](https://www.protectivesecurity.gov.au/pspf-annual-release/pspf-standards) 
 
-ISM - Information security manual (June 2026).pdf
+ISM - [Information security manual (June 2026)](https://www.cyber.gov.au/sites/default/files/2026-06/Information%20security%20manual%20%28June%202026%29.pdf)
 
-C2M2 -  C2M2 - Version 2.1 2022-06.pdf
+C2M2 -  [C2M2 - Version 2.1 2022-06](https://www.energy.gov/ceser/cybersecurity-capability-maturity-model-c2m2)
 
 

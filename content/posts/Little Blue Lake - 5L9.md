@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -22,6 +20,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/33b9fbee-dc65-4d86-bb21-d6a95c5513e3.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "12 m"
+address: "410-338, Mount Salt Rd, The District Council of Grant, South Australia, AUS, 5291"
 ---
 # About
 
@@ -58,14 +58,6 @@ There are some undercuts which can be quite gloomy depending on the viz (changes
 - **Feature type:** Sinkhole
 - **Reference:** L0009
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.927929000000006, 140.67988100000002
-- **Altitude:** 12 m
-- **Address:** 410-338, Mount Salt Rd, The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

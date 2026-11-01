@@ -4,9 +4,7 @@ created: 2023-08-14
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -31.47255899999999
 longitude: 129.69469200000003
 suburb: "Nullarbor"

@@ -4,9 +4,7 @@ created: 2023-12-12
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - montenegro
 feature_type: "Cave"
 latitude: 42.52533199999999
 longitude: 19.836418999999978

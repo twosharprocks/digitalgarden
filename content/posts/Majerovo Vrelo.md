@@ -4,9 +4,7 @@ created: 2023-12-12
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - croatia
 feature_type: "Cave"
 latitude: 44.81472200000002
 longitude: 15.358888999999976

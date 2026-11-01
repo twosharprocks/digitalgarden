@@ -4,7 +4,6 @@ created: 2025-05-01
 updated: 2026-10-11
 status: planning
 tags:
-  - diving
   - trips
 related:
   - "[[Trips]]"
@@ -12,6 +11,7 @@ related:
   - "[[Bucket List]]"
   - "[[Trips - Best Times To Go]]"
   - "[[ChatGPT - Cave Expedition Calendar]]"
+  - "[[Diving]]"
 ---
 [Exploration]({{< relref "posts/exploration.md" >}}) - Plan 2-3 expeditions per year
 - Where do you want to go?
@@ -61,7 +61,7 @@ related:
 	- [Samoa]({{< relref "posts/samoa.md" >}}) & [Tonga]({{< relref "posts/tonga.md" >}})
 	- [Vietnam]({{< relref "posts/vietnam.md" >}})
 - Other
-	- #antarctica (Non-diving)
+	- [Antarctica]({{< relref "posts/antarctica.md" >}}) (Non-diving)
 	- [Dominican Republic]({{< relref "posts/Dominican Republic.md" >}})
 	- [South Africa]({{< relref "posts/South Africa.md" >}})
 	- [Tanzania]({{< relref "posts/tanzania.md" >}})

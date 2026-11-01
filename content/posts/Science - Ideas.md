@@ -76,11 +76,10 @@ As you work:
 When the goal is complete, give me a concise report showing what you accomplished, what you changed from the original plan and why, important decisions you made, anything you could not complete and exactly what remains for me to do.
 ```
 
-- Simone's Vet Script platform idea
-- Build games like [Asterism](https://www.youtube.com/watch?v=-MPGU2a67Ls&t=2s), [Pet Arena](https://developers.openai.com/showcase/codex-pet-arena) & [Acornado](https://acornado.com/)
-	- Idea - Time Dilation Game
-	- Use AI to develop computer games that simulate quantum computing simulations 
-		- Games like Kerbal, Turning Complete, Hacknet, ect
+- Idea - EzyVet Replacement 
+- Idea - Time Dilation Game
+- Use AI to develop computer games that simulate quantum computing simulations 
+	- Games like Kerbal, Turning Complete, Hacknet, ect
 	- AI for App development - create apps that I wish I had
 	- Photogrammetry data
 - Use AI to search for submergences/resurgences of rivers between Warrnambool and Colac
@@ -94,7 +93,6 @@ When the goal is complete, give me a concise report showing what you accomplishe
 	- https://www.xda-developers.com/stopped-using-obsidian-for-notes-turned-it-into-something-i-actually-open/
 - Develop platforms for information sharing
 	- ***Give people a way to connect***
-- Start your own cybersecurity practice (TwoSharpRocks) & Use AI to develop/cultivate opportunities
 - People are overrated - send AIs into space? Is this our next evolution? 
 	- Think about plot of "Total Annihilation" (and "Supreme Commander"?) 
 

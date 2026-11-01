@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - armenia
 feature_type: "Cave"
 latitude: 39.70990280000001
 longitude: 45.24396999999999

@@ -4,10 +4,7 @@ created: 2025-12-19
 updated: 2026-10-11
 status: tree
 tags:
-  - philosophy
   - writing
-  - creativity
-  - personal
 related:
   - "[[Philosophy]]"
   - "[[Writing]]"

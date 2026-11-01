@@ -4,9 +4,7 @@ created: 2023-02-04
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -37.78855580999999
 longitude: 140.93837024000004
 suburb: "Glenburnie"

@@ -4,9 +4,7 @@ created: 2023-12-11
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - brazil
 feature_type: "Cave"
 latitude: -21.250444000000016
 longitude: -56.65049299999998

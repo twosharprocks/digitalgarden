@@ -4,17 +4,13 @@ created: 2023-06-15
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - yucatan-mexico
 feature_type: Cave
 latitude: 20.32434999999998
 longitude: -87.38303000000002
 state: Quintana Roo
 suburb: Tulum Municipality
 region: "[[Mexico]]"
-related:
-  - "[[Diving]]"
 rating: TDI Intro to Cave
 cavedb: https://app.cavedb.net/share/c29c5482-d6c8-498a-bd90-ed842a2948c3.html
 catalog-type: cave
@@ -52,7 +48,7 @@ Open to the public. Entrance fee is required and is paid at the booth in the par
 
 # Maps
 
-- Dos Palmas - 8d01d665-cde7b827.kml
+- [Dos Palmas - 8d01d665-cde7b827](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/58cbf60e046ac743502f08f3d39fc8ff53de8657d9858d539279896d978573df.kml)
 
 # References
 

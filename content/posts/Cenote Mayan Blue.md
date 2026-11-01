@@ -4,9 +4,7 @@ created: 2023-09-04
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - yucatan-mexico
 feature_type: Sinkhole
 latitude: 20.196741999999972
 longitude: -87.50105200000002

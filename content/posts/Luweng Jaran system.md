@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - indonesia
 feature_type: "Cave"
 latitude: -8.217579999999998
 longitude: 111.00625000000002

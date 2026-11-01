@@ -4,7 +4,6 @@ created: 2025-06-29
 updated: 2025-06-29
 status: seed
 tags:
-  - diving
   - interests
   - trips
   - expeditions

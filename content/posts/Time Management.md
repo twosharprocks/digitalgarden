@@ -4,12 +4,11 @@ created: 2025-05-04
 updated: 2026-09-28
 status: seed
 tags:
-  - personal
   - knowledge-management
   - interests
-  - creativity
 related:
   - "[[Personal]]"
+  - "[[Creativity]]"
 ---
 ---
 ***Use mini keyboard to type before work***

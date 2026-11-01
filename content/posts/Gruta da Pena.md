@@ -4,9 +4,7 @@ created: 2024-07-28
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - portugal
 latitude: 39.53371800000002
 longitude: -8.699757999999974
 state: "Leiria District"

@@ -5,7 +5,6 @@ updated: 2026-09-10
 status: complete
 tags:
   - trips
-  - diving
   - caving
 template: "[[Template - Trip]]"
 destination:
@@ -18,7 +17,7 @@ dates:
   - "[[2026-09-12]]"
 weather: https://www.bom.gov.au/wa/forecasts/
 cavedb: https://app.cavedb.net/share/
-Other Info: "[Facebook Event](https://www.facebook.com/events/1606881853901545/)"
+other info: "[Facebook Event](https://www.facebook.com/events/1606881853901545/)"
 related:
   - "[[Trips]]"
   - "[[Diving]]"

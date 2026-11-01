@@ -1,7 +1,7 @@
 ---
 title: "Website - SHSSP Week 2 – Goodbye Spaceman, Buzz Day & Payload Tension"
 created: 2026-10-24
-updated: 2026-10-24
+updated: 2026-10-29
 status: tree
 tags:
   - writing
@@ -38,9 +38,7 @@ After a lot of laughs and a lot learnt though, it was time to say goodbye to our
 
 Wednesday was also the birthday for one of the biggest names in space history – Apollo 11 Lunar Module Pilot (and ISU’s Chancellor) Buzz Aldrin!
 
-> Best birthday wishes to our [@ISUnet](https://web.archive.org/web/20160530015922/https://twitter.com/ISUnet) chancellor Buzz Aldrin ([@TheRealBuzz](https://web.archive.org/web/20160530015922/https://twitter.com/TheRealBuzz)) from everyone at [#shssp16](https://web.archive.org/web/20160530015922/https://twitter.com/hashtag/shssp16?src=hash)![#GYATM](https://web.archive.org/web/20160530015922/https://twitter.com/hashtag/GYATM?src=hash) [pic.twitter.com/xUkTd2DBlo](https://web.archive.org/web/20160530015922/https://t.co/xUkTd2DBlo)
->
-> — ISU SHS-SP (@isu\_shssp) [January 21, 2016](https://web.archive.org/web/20160530015922/https://twitter.com/isu_shssp/status/690037160045469696)
+> `Best birthday wishes to our [@ISUnet](https://web.archive.org/web/20160530015922/https://twitter.com/ISUnet) chancellor Buzz Aldrin ([@TheRealBuzz](https://web.archive.org/web/20160530015922/https://twitter.com/TheRealBuzz)) from everyone at [#shssp16](https://web.archive.org/web/20160530015922/https://twitter.com/hashtag/shssp16?src=hash)![#GYATM](https://web.archive.org/web/20160530015922/https://twitter.com/hashtag/GYATM?src=hash) [pic.twitter.com/xUkTd2DBlo](https://web.archive.org/web/20160530015922/https://t.co/xUkTd2DBlo) — ISU SHS-SP (@isu\_shssp) [January 21, 2016](https://web.archive.org/web/20160530015922/https://twitter.com/isu_shssp/status/690037160045469696)`
 
 I also had the chance to help run a couple of workshops this week – working with [Robert DeBelle](https://web.archive.org/web/20160530015922/http://debelle.com/) to present ISU’s “Crisis Communications” workshop, as well as organising some team building activities that had some frankly hilarious results…
 

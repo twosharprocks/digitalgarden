@@ -4,9 +4,7 @@ created: 2023-08-14
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - timor-leste
 feature_type: "RockyOutcrop"
 latitude: -8.98687000000001
 longitude: 125.31394999999998

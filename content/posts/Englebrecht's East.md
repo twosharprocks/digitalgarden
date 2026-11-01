@@ -4,9 +4,7 @@ created: 2023-02-04
 updated: 2026-09-11
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 feature_type: "Cave"
 latitude: -37.820997164671496
 longitude: 140.7724947470581
@@ -55,7 +53,7 @@ City of Mt Gambier
 
 # Maps
 
-- Englebrecht's E Extension - 19844d72-6d271bdf.kml
+- [Englebrecht's E Extension - 19844d72-6d271bdf](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/KML_Data/Englebrecht%27s%20E%20Extension.kml)
 
 # References
 

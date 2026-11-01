@@ -10,7 +10,6 @@ related:
   - "[[Mini Essays]]"
   - "[[Bucket List]]"
   - "[[101 Things - Complete List]]"
-  - "[[Bucket List]]"
   - "[[Book - 101 Things]]"
   - "[[50 Goals (Old Version)]]"
   - "[[Writing]]"

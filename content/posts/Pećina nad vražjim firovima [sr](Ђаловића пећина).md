@@ -1,19 +1,15 @@
 ---
-title: "Pećina nad vražjim firovima [sr](Ђаловића пећина)"
+title: "Pećina nad vražjim firovima [sr] (Ђаловића пећина)"
 created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - montenegro
 feature_type: "Cave"
 latitude: 43.072634600000015
 longitude: 19.9205968
 state: "Bijelo Polje Municipality"
 region: "[[Montenegro]]"
-related:
-  - "[[Diving]]"
 cavedb: "https://app.cavedb.net/share/770bb4f5-1adc-4f1d-9556-3f5520761ee2.html"
 catalog-type: "cave"
 altitude: "752 m"

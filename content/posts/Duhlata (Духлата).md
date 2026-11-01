@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - bulgaria
 feature_type: "Cave"
 latitude: 42.496608700000024
 longitude: 23.196194099999957

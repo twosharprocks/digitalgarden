@@ -4,11 +4,11 @@ created: 2025-12-29
 updated: 2025-12-29
 status: seed
 tags:
-  - diving
   - rebreather
 related: 
   - "[[ChOptima CCR]]"
   - "[[ChOptima - Post-Dive Checklist]]"
+  - "[[Diving]]"
 ---
 ---
 **Gas**

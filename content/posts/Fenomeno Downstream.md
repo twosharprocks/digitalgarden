@@ -4,17 +4,13 @@ created: 2024-12-05
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - yucatan-mexico
 feature_type: Cave
 latitude: 20.319770000000005
 longitude: -87.42728
 state: Quintana Roo
 suburb: Tulum Municipality
 region: "[[Mexico]]"
-related:
-  - "[[Diving]]"
 rating: TDI Intro to Cave
 cavedb: https://app.cavedb.net/share/57a3dfaa-d780-4c39-9032-0fdc867d4f72.html
 catalog-type: cave
@@ -42,4 +38,4 @@ address: "13, Tak Be Ha Rd, Tulum Municipality, Quintana Roo, MEX, 77774"
 # References
 
 ## Images
-- Fenomeno Downstream.v1.0 - bd6ccde2-57a3dfaa.pdf
+- [Fenomeno Downstream.v1.0 - bd6ccde2-57a3dfaa](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/669a55591c1f46354cabd77b3e24e7260b7b953694e05fe4fb2b1d43eec038a8.pdf)

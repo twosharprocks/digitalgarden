@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - kenya
 feature_type: "Cave"
 latitude: -2.6802472222221922
 longitude: 37.880238888888925

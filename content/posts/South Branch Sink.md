@@ -4,9 +4,7 @@ created: 2023-07-04
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - new-south-wales
 latitude: -35.64123699999999
 longitude: 148.67103199999997
 suburb: "Cooleman"

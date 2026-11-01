@@ -4,9 +4,7 @@ created: 2024-10-05
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - victoria
 feature_type: "Sinkhole"
 latitude: -37.30978999999999
 longitude: 146.25904400000002

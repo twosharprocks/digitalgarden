@@ -4,17 +4,13 @@ created: 2023-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - yucatan-mexico
 feature_type: Cave
 latitude: 20.343799999999987
 longitude: -87.36090000000002
 state: Quintana Roo
 suburb: Tulum Municipality
 region: "[[Mexico]]"
-related:
-  - "[[Diving]]"
 rating: TDI Intro to Cave
 cavedb: https://app.cavedb.net/share/14ed314c-670b-4055-b1ff-fa28089e334a.html
 catalog-type: cave
@@ -43,4 +39,4 @@ address: "Ruta Sin Nombre, Tulum Municipality, Quintana Roo, MEX, 77774"
 
 # Maps
 
-- Xunaan Ha - 6f6047b5-14ed314c.kml
+- [Xunaan Ha - 6f6047b5-14ed314c](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/69bc686cc636f7c1e47f5231c6d7cfad924bebabd81a062a3bd0548055f215cb.kml)

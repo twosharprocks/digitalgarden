@@ -134,7 +134,8 @@ def run(images, originals, posts, manifest_path):
     images = images.resolve()
     originals = originals.resolve()
     assert images != originals and not images.is_relative_to(originals), 'Export destination must be outside the vault originals.'
-    guard = PrivacyGuard(originals.parent, Path(__file__).resolve().parent)
+    guard = PrivacyGuard(originals.parent, Path(__file__).resolve().parent, website=True)
+    guard.website_rules.verify_prepared()
     if guard.check(outputs=False):
         guard.report()
         raise RuntimeError('Attachment privacy review required. See the local privacy report.')

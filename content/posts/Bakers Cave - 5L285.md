@@ -4,9 +4,7 @@ created: 2025-04-23
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -20,6 +18,8 @@ suburb: "The District Council of Grant"
 cavedb: "https://app.cavedb.net/share/b57547cc-9ce9-4e3c-8bb2-fe8f327076e0.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "22 m"
+address: "571, Stock Rte Rd, The District Council of Grant, South Australia, AUS, 5291"
 ---
 # About
 
@@ -63,7 +63,7 @@ Let me know if you'd like this formatted for signage, briefing sheets, or digita
 TML Data: Bakers.tml
 KML Survey: Baker's Cave
 
-- site - 04f3fc3a-b57547cc.kml
+- [site - 04f3fc3a-b57547cc](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/KML_Data/Baker%27s%20Cave.kml)
 
 # References
 
@@ -85,14 +85,6 @@ Access is currently prohibited.
 - **Feature type:** Cave
 - **Reference:** L0285
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.945537, 140.68053599999996
-- **Altitude:** 22 m
-- **Address:** 571, Stock Rte Rd, The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

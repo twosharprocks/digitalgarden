@@ -5,9 +5,9 @@ updated: 2025-10-30
 status: reference
 tags:
   - article
-  - diving
   - writing
 related:
+  - "[[Diving]]"
 ---
 ---
 Note: This was later edited to <1100 words for publication in Scuba Diver Magazine and published as [Article - Unveiling the Crazy Wombat Tunnel]({{< relref "posts/Article - Unveiling the Crazy Wombat Tunnel.md" >}})  

@@ -3,8 +3,6 @@ title: Balkans
 created: 2025-11-03
 updated: 2025-11-03
 status: seed
-tags:
-  - diving
 region:
 sub-region:
 smarttraveller: www.smartraveller.gov.au/destinations/

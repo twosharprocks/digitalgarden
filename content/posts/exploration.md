@@ -4,10 +4,7 @@ created: 2025-04-09
 updated: 2025-04-09
 status: seed
 tags:
-  - bucket-list
-  - diving
   - expeditions
-  - exploration
   - trips
 related:
   - "[[Diving]]"
@@ -15,6 +12,7 @@ related:
   - "[[Trips - Ideas]]"
   - "[[Trips]]"
   - "[[Adventure]]"
+  - "[[Bucket List]]"
 ---
 ---
 Explorers Club

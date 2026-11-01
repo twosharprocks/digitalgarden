@@ -4,13 +4,13 @@ created: 2026-01-20
 updated: 2026-04-18
 status: seed
 tags:
-  - philosophy
-  - personal
   - mini-essay
   - writing
 related: 
   - "[[Mini Essays]]"
   - "[[Writing]]"
+  - "[[Philosophy]]"
+  - "[[Personal]]"
 ---
 [Mini Essay - April 19 (2026)]({{< relref "posts/Mini Essay - April 19 (2026).md" >}})
 

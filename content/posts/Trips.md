@@ -5,7 +5,6 @@ updated: 2026-09-23
 status: index
 tags:
   - index
-  - digital-garden
   - trips
 related:
   - "[[Trips - Ideas]]"
@@ -13,13 +12,14 @@ related:
   - "[[Diving]]"
   - "[[Adventure]]"
   - "[[About]]"
+  - "[[Digital Garden]]"
 ---
 # Upcoming
 _No matching notes._
 
 # Past
 - [Trip - Murra-Cocklebiddy - 2026 Aug]({{< relref "posts/Trip - Murra-Cocklebiddy - 2026 Aug.md" >}})
-- [Trip - Japan - 2026 May]({{< relref "posts/Trip - Japan - 2026 May.md" >}})
+- [Trip - Akiyoshidai - 2026 May]({{< relref "posts/Trip - Akiyoshidai - 2026 May.md" >}})
 - [Trip - Thailand - Boh Yai Mines - 2026 Jan]({{< relref "posts/Trip - Thailand - Boh Yai Mines - 2026 Jan.md" >}})
 - [Trip - Antarctica - 2025 Nov]({{< relref "posts/Trip - Antarctica - 2025 Nov.md" >}})
 - [Trip - Murra El Elevyn - 2025 Oct]({{< relref "posts/Trip - Murra El Elevyn - 2025 Oct.md" >}})

@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - tajikistan
 feature_type: "Cave"
 latitude: 38.43393000000003
 longitude: 74.30648999999994

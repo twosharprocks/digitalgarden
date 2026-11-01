@@ -1,16 +1,18 @@
 ---
 title: Trip - Thailand - Boh Yai Mines - 2026 Jan
 created: 2025-12-14
-updated: 2026-06-30
+updated: 2026-10-31
 status: complete
 tags:
   - trips
 template: "[[Template - Trip]]"
-destination:
-region:
+destination: "[[Boh Yah Mines]]"
+region: "[[Thailand]]"
 dates:
+  - "[[2026-01-06]]"
+  - "[[2026-01-14]]"
 weather:
-Other Info:
+other info:
 related:
   - "[[Trips]]"
 ---
@@ -22,7 +24,7 @@ related:
 		- Melbourne: Wait 2:20
 		- Met up with Vivian
 	- *Fly: 1420-1930 JQ29 MEL-BKK (Duration 9:10)*
-	- From Mikko: Driver takes you from Suwarnabumi airport to Mek Kiri River Kwai Resort in Thom Pha Phun, near the mines. (4 hour drive) *requires 2000thb per person*
+	- From Mikko: Driver takes you from Suwarnabumi airport to [Mek Kiri River Kwai Resort](https://maps.app.goo.gl/9bHxc2ed9dKM3wVn7) in Thom Pha Phun, near the mines. (4 hour drive) *requires 2000thb per person*
 		- People & Gear split between 2x vehicles (taxi for Will, Viv & I)
 		- Driver stopped at McDonald's 30mins out of airport so we could get dinner
 

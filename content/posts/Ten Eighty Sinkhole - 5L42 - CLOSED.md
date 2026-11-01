@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -23,6 +21,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/ad5b8ebf-dac4-4321-9585-71a580154fb2.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "16 m"
+address: "923, Sisters Rd, The District Council of Grant, South Australia, AUS, 5291"
 ---
 # Details
 
@@ -31,14 +31,6 @@ sub-region: "[[Mount Gambier - Lower South East]]"
 - **Feature type:** Sinkhole
 - **Reference:** L0042
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.89689899999999, 140.648324
-- **Altitude:** 16 m
-- **Address:** 923, Sisters Rd, The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

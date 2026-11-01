@@ -4,16 +4,12 @@ created: 2024-12-01
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - indonesia
 feature_type: "Cave"
 latitude: -5.171670000000006
 longitude: 122.58196999999996
 suburb: "Muna"
 region: "[[Indonesia]]"
-related:
-  - "[[Diving]]"
 rating: TDI Intro to Cave
 cavedb: "https://app.cavedb.net/share/ca82aa77-842a-49f0-aede-5ea618b0fa58.html"
 catalog-type: "cave"
@@ -44,4 +40,4 @@ address: "Muna, IDN, 93657"
 # References
 
 ## Images
-- 241 - ab736ded-ca82aa77.pdf
+- [241 - ab736ded-ca82aa77](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/4dbb8b5b04ef81a3ca7fad15a9922c39cd912241bb4d7595e3378b7de0041257.pdf)

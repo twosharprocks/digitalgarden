@@ -6,8 +6,6 @@ status: seed
 tags:
   - article
   - writing
-  - diving
-  - exploration
   - interests
 related:
   - "[[Personal]]"
@@ -17,6 +15,7 @@ related:
   - "[[5L20 - Englebrecht's West]]"
   - "[[Englebrecht's Cave - 5L19-20]]"
   - "[[5L019 - Englebrecht's East]]"
+  - "[[Exploration]]"
 ---
 Reference: https://soggywombats.com.au/2024/04/15/making-sense-with-mnemo/
 

@@ -4,9 +4,7 @@ created: 2023-07-01
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - western-australia
 latitude: -21.849999999999994
 longitude: 114.06500000000005
 suburb: "North West Cape"

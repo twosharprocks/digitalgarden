@@ -4,9 +4,7 @@ created: 2023-06-27
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - yucatan-mexico
 feature_type: Cave
 latitude: 20.483705999999984
 longitude: -87.27687400000002

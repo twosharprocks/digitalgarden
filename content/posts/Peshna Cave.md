@@ -6,9 +6,10 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[North Macedonia]]"
 verification: "unverified"
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

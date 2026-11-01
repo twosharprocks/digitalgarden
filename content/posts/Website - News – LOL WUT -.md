@@ -1,5 +1,5 @@
 ---
-title: "Website - News – LOL WUT?"
+title: "Website - News – LOL WUT -"
 created: 2026-10-24
 updated: 2026-10-24
 status: tree

@@ -3,11 +3,9 @@ title: CISSP - 3 - Security Architecture & Engineering
 created: 2025-04-14
 updated: 2025-10-30
 status: reference
-tags:
-  - cyber-security
-  - cissp
 related: 
   - "[[CISSP]]"
+  - "[[Cyber Security]]"
 ---
 ---
 #### **Learning Objectives**

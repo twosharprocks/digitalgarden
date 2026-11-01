@@ -7,12 +7,13 @@ catalog-type: "cave"
 feature_type: "Cave"
 tags:
   - caving
-  - diving
 region: "[[Brazil]]"
 sub-region: "Mato Grosso"
 verification: "researched"
 obsidian_aliases:
   - "Dolina do Pai João"
+related:
+  - "[[Diving]]"
 ---
 # Dolina Pai João
 

@@ -4,9 +4,7 @@ created: 2023-07-23
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 feature_type: "Destroyed"
 latitude: -37.74270200000001
 longitude: 140.58071700000005

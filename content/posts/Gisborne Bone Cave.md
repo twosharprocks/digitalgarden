@@ -4,9 +4,7 @@ created: 2024-08-28
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - victoria
 feature_type: "Cave"
 latitude: -37.55232000000001
 longitude: 144.58382000000006

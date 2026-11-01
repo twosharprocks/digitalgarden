@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -23,6 +21,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/e7d5edba-07ad-4926-bc66-1b8c79d8eb80.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "38 m"
+address: "336, Benara Hd Line Rd, Wattle Range Council, South Australia, AUS, 5280"
 ---
 # References
 
@@ -63,14 +63,6 @@ This cave lies diagonally opposite Pines Cave and should not be confused with â€
 - **Reference:** L0186
 - **Source:** Forestry SA
 
-## Location
-
-- **Coordinates:** -37.754007748622485, 140.54542422294617
-- **Altitude:** 38 m
-- **Address:** 336, Benara Hd Line Rd, Wattle Range Council, South Australia, AUS, 5280
-- **Checked:** true
-- **Checked by:** CDAA Rated
-
 ## Cave and exploration data
 
 - **Cave rating:** Advanced
@@ -93,4 +85,4 @@ Forestry
 
 # Maps
 
-- site - f769705d-e7d5edba.kml
+- [site - f769705d-e7d5edba](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/KML_Data/Stinging%20Nettle.kml)

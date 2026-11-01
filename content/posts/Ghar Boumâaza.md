@@ -4,9 +4,7 @@ created: 2024-12-08
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - algeria
 feature_type: "Cave"
 latitude: 34.69999999999999
 longitude: -1.3113888888889278

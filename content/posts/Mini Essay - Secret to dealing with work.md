@@ -6,9 +6,9 @@ status: tree
 tags:
   - mini-essay
   - writing
-  - work
 related:
   - "[[Mini Essays]]"
+  - "[[Work]]"
 ---
 Surviving any uncomfortable workplace always requires an evil secret plan on your part, and your current situation is no different.
 

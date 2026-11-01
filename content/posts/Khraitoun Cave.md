@@ -5,7 +5,7 @@ updated: 2026-10-24
 status: seed
 tags:
   - caving
-region: "[[Palestine]]"
+region: "Palestine"
 catalog-type: "cave"
 verification: "researched"
 ---

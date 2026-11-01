@@ -4,9 +4,7 @@ created: 2023-06-30
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - italy
 feature_type: "Cave"
 latitude: 45.89681999999999
 longitude: 11.353839999999991
@@ -15,8 +13,6 @@ suburb: "Valdastico"
 obsidian_aliases:
   - "Rio Torretta Cave"
 region: "[[Italy]]"
-related:
-  - "[[Diving]]"
 cavedb: "https://app.cavedb.net/share/3e26cb10-335e-41ae-ba9b-6ad7ae774d8f.html"
 catalog-type: "cave"
 altitude: "484 m"
@@ -98,4 +94,4 @@ Romano Trevisiol
 ## Images
 - ![Grotta Rio Torretta Rio 0b0b52f5 3e26cb10](/images/Grotta%20Rio%20Torretta%20-%20rio%20-%200b0b52f5-3e26cb10.jpg)
 - ![Grotta Rio Torretta Rio2 39ff4229 3e26cb10](/images/Grotta%20Rio%20Torretta%20-%20rio2%20-%2039ff4229-3e26cb10.jpg)
-- La risorgenza di Rio Torretta - c480b8b1-3e26cb10.pdf
+- [La risorgenza di Rio Torretta - c480b8b1-3e26cb10](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/b0543650415a8ff9795cfd8bd97a87b835db28228db900a7e769a2388d5bb269.pdf)

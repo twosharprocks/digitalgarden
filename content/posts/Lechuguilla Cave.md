@@ -4,9 +4,7 @@ created: 2024-07-28
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - united-states
 latitude: 32.190560000000005
 longitude: -104.50306
 state: "New Mexico"

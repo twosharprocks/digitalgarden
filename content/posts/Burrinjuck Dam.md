@@ -4,16 +4,12 @@ created: 2023-04-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - new-south-wales
 feature_type: "Sinkhole"
 latitude: -34.99892555707635
 longitude: 148.63429069519043
 suburb: "Yass Valley Council"
 region: "[[Australia]]"
-related:
-  - "[[Diving]]"
 rating: CDAA Deep Cavern, TDI Cavern
 cavedb: "https://app.cavedb.net/share/6a69b9c0-cbe9-4bc7-ae84-d660ca80e92c.html"
 catalog-type: "cave"
@@ -68,4 +64,4 @@ Burrinjuck Dam is a gated, concrete-walled hydro-electric gravity dam at Burrinj
 - ![Burrinjuck Dam N2862 U 12ecc639 6a69b9c0](/images/Burrinjuck%20Dam%20-%20n2862-u-%20-%2012ecc639-6a69b9c0.jpg)
 - ![Burrinjuck Dam Entrance 36c27050 6a69b9c0](/images/Burrinjuck%20Dam%20-%20entrance%20-%2036c27050-6a69b9c0.jpg)
 - ![Burrinjuck Dam N2863 U 54141ef4 6a69b9c0](/images/Burrinjuck%20Dam%20-%20n2863-u-%20-%2054141ef4-6a69b9c0.jpg)
-- Burrinjuck 2 - 092c379a-6a69b9c0.pdf
+- [Burrinjuck 2 - 092c379a-6a69b9c0](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/35450c4fc6f00b77f4d3aeccf2e2e36bb8307f2e071b6ab66f109d9be596c3ce.pdf)

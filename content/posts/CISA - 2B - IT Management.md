@@ -3,13 +3,11 @@ title: "CISA - 2B - IT Management"
 created: 2026-04-22
 updated: 2026-06-28
 status: seed
-tags:
-  - cyber-security
-  - study
-  - cisa
 related:
   - "[[CISA]]"
   - "[[CISA - 2A - Governance]]"
+  - "[[Cyber Security]]"
+  - "[[Study]]"
 video: https://www.youtube.com/watch?v=8__h8iThjF0&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=4
 ---
 # 1 - IT Resource Management

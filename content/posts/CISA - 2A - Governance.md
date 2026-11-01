@@ -3,12 +3,10 @@ title: "CISA - 2A - Governance"
 created: 2026-04-22
 updated: 2026-06-28
 status: seed
-tags:
-  - cyber-security
-  - study
-  - cisa
 related:
   - "[[CISA]]"
+  - "[[Cyber Security]]"
+  - "[[Study]]"
 video: https://www.youtube.com/watch?v=OUij4a2MGOQ&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=3
 ---
 # 1 - Laws, Regulations, and Industry Standards

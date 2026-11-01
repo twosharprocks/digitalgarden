@@ -4,9 +4,7 @@ created: 2025-09-26
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - new-south-wales
 feature_type: "Cave"
 latitude: -32.62241800000001
 longitude: 148.93983100000003

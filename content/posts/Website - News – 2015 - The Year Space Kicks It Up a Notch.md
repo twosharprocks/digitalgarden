@@ -1,5 +1,5 @@
 ---
-title: "Website - News – 2015: The Year Space Kicks It Up a Notch"
+title: "Website - News – 2015 - The Year Space Kicks It Up a Notch"
 created: 2026-10-24
 updated: 2026-10-24
 status: tree

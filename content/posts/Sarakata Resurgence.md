@@ -4,18 +4,13 @@ created: 2025-01-04
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - vanuatu
 feature_type: "Cave"
 latitude: -15.366388888888878
 longitude: 167.05055555555555
 state: "Sanma Province"
 suburb: "South East Santo"
 region: "[[Vanuatu]]"
-related:
-  - "[[Diving]]"
-  - "[[Trip - Vanuatu - 2027 April]]"
 rating: TDI Full Cave
 cavedb: "https://app.cavedb.net/share/b8b6e4f2-3ffa-489a-9523-f08b9bc13d65.html"
 catalog-type: "cave"
@@ -49,4 +44,4 @@ Length : 1200m
 
 ## Images
 - [9aa09da5-6b38-4dad-9152-f728f6d34a56](https://www.youtube.com/watch?v=nZp96T94pL0)
-- HARRIS-CavesandCaveDivingVanuatu2005 (1) - 07fa284f-b8b6e4f2.pdf
+- [HARRIS-CavesandCaveDivingVanuatu2005 (1) - 07fa284f-b8b6e4f2](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/21a69dea4500ca950063dec0dc7a46cd840cce5ad16427461c861549b947fcb2.pdf)

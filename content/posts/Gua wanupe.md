@@ -6,10 +6,11 @@ status: seed
 catalog-type: cave
 tags:
   - caving
-  - diving
 region: "[[Sulawesi]]"
 sub-region: "[[Muna Island]]"
 verification: unverified
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

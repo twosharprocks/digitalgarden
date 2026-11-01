@@ -3,12 +3,10 @@ title: "CISA - 4A - IS Operations"
 created: 2026-04-28
 updated: 2026-06-28
 status: seed
-tags:
-  - cyber-security
-  - cisa
-  - study
 related:
   - "[[CISA]]"
+  - "[[Cyber Security]]"
+  - "[[Study]]"
 ---
 # 1 - Common Technology Comonents
 ## Open Systems Interconnection (OSI) Model

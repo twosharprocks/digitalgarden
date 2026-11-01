@@ -4,9 +4,7 @@ created: 2023-12-11
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - texas
 feature_type: "Cave"
 latitude: 30.934978
 longitude: -103.84973200000002

@@ -5,8 +5,6 @@ updated: 2025-10-30
 status: tree
 tags:
   - mini-essay
-  - philosophy
-  - personal
   - writing
 related: 
   - "[[Mini Essays]]"

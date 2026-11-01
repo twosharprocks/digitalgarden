@@ -4,9 +4,7 @@ created: 2023-04-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - tasmania
 feature_type: "Cave"
 latitude: -42.6709863510967
 longitude: 146.50184869766235

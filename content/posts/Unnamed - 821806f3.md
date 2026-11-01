@@ -4,9 +4,7 @@ created: 2024-11-11
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - northern-territory
 feature_type: "Mine"
 latitude: -12.91547700000001
 longitude: 131.49853699999994

@@ -6,10 +6,11 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[Australia]]"
 sub-region: "[[Christmas Island]]"
 verification: "unverified"
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

@@ -4,9 +4,7 @@ created: 2023-12-11
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - new-zealand
 feature_type: "Cave"
 latitude: -41.22045
 longitude: 172.76198

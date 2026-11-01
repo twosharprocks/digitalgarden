@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - sulawesi
 region: "[[Sulawesi]]"
 related:
   - "[[Diving]]"
@@ -27,6 +25,8 @@ obsidian_aliases:
 cavedb: https://app.cavedb.net/share/352534d7-399b-4eee-b0bf-ac438109a588.html
 catalog-type: cave
 sub-region: "[[Muna Island]]"
+altitude: "29 m"
+address: "Jalan Tanpa Nama, Buton Regency, South East Sulawesi, IDN, 93763"
 ---
 # References
 
@@ -46,14 +46,6 @@ sub-region: "[[Muna Island]]"
 
 - **Feature type:** Cave
 - **System name:** Laulawi
-
-## Location
-
-- **Coordinates:** -5.256422999999984, 122.53919799999994
-- **Altitude:** 29 m
-- **Address:** Jalan Tanpa Nama, Buton Regency, South East Sulawesi, IDN, 93763
-- **Checked:** true
-- **Checked by:** Grubby Wombat
 
 ## Cave and exploration data
 

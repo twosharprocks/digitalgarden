@@ -4,9 +4,7 @@ created: 2023-11-19
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - western-australia
 latitude: -32.01241199999998
 longitude: 115.77574800000002
 suburb: "Perth"

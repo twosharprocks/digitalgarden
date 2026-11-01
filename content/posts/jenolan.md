@@ -4,13 +4,13 @@ created: 2026-06-18
 updated: 2026-06-18
 status: seed
 tags:
-  - diving
   - caving
-  - personal
   - trips
   - expeditions
 region:
-related: "[[Diving]]"
+related:
+  - "[[Diving]]"
+  - "[[Personal]]"
 map: https://www.google.com/maps/place/
 ---
 # About

@@ -4,9 +4,7 @@ created: 2024-07-28
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - morocco
 feature_type: "Cave"
 latitude: 34.104738
 longitude: -4.072425000000067

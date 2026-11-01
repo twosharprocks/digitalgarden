@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-09-11
 status: seed
 tags:
-  - diving
   - caving
-  - sulawesi
 region: "[[Sulawesi]]"
 related:
   - "[[Diving]]"

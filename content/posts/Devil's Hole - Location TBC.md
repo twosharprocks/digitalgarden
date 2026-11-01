@@ -4,9 +4,7 @@ created: 2023-07-02
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - western-australia
 latitude: -30.314246999999995
 longitude: 115.94229300000006
 suburb: "Watheroo"

@@ -4,9 +4,7 @@ created: 2023-08-14
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - victoria
 latitude: -38.055800000000005
 longitude: 141.25015899999994
 suburb: "Mount Richmond"

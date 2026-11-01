@@ -4,9 +4,7 @@ created: 2023-12-11
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - bermuda
 feature_type: "Cave"
 latitude: 32.35004500000002
 longitude: -64.71468199999998

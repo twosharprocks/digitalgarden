@@ -4,9 +4,7 @@ created: 2024-04-12
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -37.030068
 longitude: 140.79441799999995
 suburb: "Mount Light"

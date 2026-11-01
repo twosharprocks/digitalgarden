@@ -4,9 +4,7 @@ created: 2025-01-04
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - vanuatu
 feature_type: "Cave"
 latitude: -15.632499999999993
 longitude: 166.95944444444444

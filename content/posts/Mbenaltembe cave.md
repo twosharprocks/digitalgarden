@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - gabon
 feature_type: "Cave"
 latitude: -2.342222222222233
 longitude: 11.58888888888896

@@ -3,11 +3,10 @@ title: Cave Diving TV Show
 created: 2026-01-22
 updated: 2026-06-28
 status: seed
-tags:
-  - diving
 related: 
   - "[[Diving - Ideas]]"
   - "[[Bucket List]]"
+  - "[[Diving]]"
 ---
 ---
 

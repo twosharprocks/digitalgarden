@@ -4,9 +4,7 @@ created: 2023-11-29
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -38.022583999999995
 longitude: 140.57122500000003
 suburb: "Cape Douglas"

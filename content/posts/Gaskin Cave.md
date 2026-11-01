@@ -4,9 +4,7 @@ created: 2024-12-08
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - cameroon
 feature_type: "Cave"
 latitude: 4.19580000000002
 longitude: 9.199200000000019

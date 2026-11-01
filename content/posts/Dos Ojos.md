@@ -4,9 +4,7 @@ created: 2023-12-11
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - yucatan-mexico
 feature_type: Cave
 latitude: 20.32452999999998
 longitude: -87.39083
@@ -53,6 +51,6 @@ As you head into the cave, there are actually several different lines you can ch
 
 On your return, be sure to relax and enjoy the view as you swim through the immense cavern. It is simply unequalled.
 
-The popular downstream dive is a traverse taking you past Cenotes [Dos Palmas]({{< relref "posts/Dos Palmas - cde7b827.md" >}}), High Voltage and Tapir’s End, and from which you will finally surface at Cenote Monolito (Monolith). A guide is essential, as taking the wrong line could be fatal. Because you will surface far from your starting point, you will need to arrange to have a vehicle waiting for you — or prepare for a long trip back.
+The popular downstream dive is a traverse taking you past Cenotes [Dos Palmas]({{< relref "posts/Dos Palmas.md" >}}), High Voltage and Tapir’s End, and from which you will finally surface at Cenote Monolito (Monolith). A guide is essential, as taking the wrong line could be fatal. Because you will surface far from your starting point, you will need to arrange to have a vehicle waiting for you — or prepare for a long trip back.
 
 Sistema Dos Ojos is immediately adjacent to Sistema Nahoch Na Chich. For a while, teams of explorers were competing to establish which was the larger cave. There was also a considerable effort to make a connection between the two (to date, no one has succeeded).

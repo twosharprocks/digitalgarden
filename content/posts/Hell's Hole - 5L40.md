@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -21,6 +19,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/d7dae2ec-314c-4189-8545-ec29b3f4de81.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "44 m"
+address: "Sea Coast Hill Rd, The District Council of Grant, South Australia, AUS, 5291"
 ---
 # About
 
@@ -42,13 +42,6 @@ Photogram
 - **Feature type:** Sinkhole
 - **Reference:** L0040
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.95224754705794, 140.8566677570343
-- **Altitude:** 44 m
-- **Address:** Sea Coast Hill Rd, The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** true
 
 ## Cave and exploration data
 

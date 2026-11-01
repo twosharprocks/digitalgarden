@@ -4,9 +4,7 @@ created: 2026-06-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - laos
 feature_type: "Cave"
 latitude: 19.06973
 longitude: 102.96971

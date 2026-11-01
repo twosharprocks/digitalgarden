@@ -4,9 +4,7 @@ created: 2026-01-22
 updated: 2026-09-11
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 related:
   - "[[Diving]]"
   - "[[Caving - Ideas]]"

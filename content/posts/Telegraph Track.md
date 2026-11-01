@@ -4,16 +4,12 @@ created: 2023-04-19
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - western-australia
 feature_type: "Landmark"
 latitude: -31.908437731960447
 longitude: 126.85762882232666
 suburb: "Madura"
 region: "[[Australia]]"
-related:
-  - "[[Diving]]"
 cavedb: "https://app.cavedb.net/share/f2f3c64f-d26f-4267-9768-0625fc9859bc.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
@@ -38,5 +34,5 @@ Steep descent from escarpment (would be scary in 2WD).  Telegraph track sandy an
 
 # Maps
 
-- Fire-Tracks-for-JM - 77d18b17-f2f3c64f.kml
-- Olwolgin - Burnabbie trail - 6c6751f2-f2f3c64f.gpx
+- [Fire-Tracks-for-JM - 77d18b17-f2f3c64f](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/2bf006dcb879f4d9c82e87291b3de9712267ba5a96af872097b14ee9aaa1ac41.kml)
+- [Olwolgin - Burnabbie trail - 6c6751f2-f2f3c64f](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/b2050b527eab05ee70dc63a2e4de393e1f18a4c6b64024241f42974d63000283.gpx)

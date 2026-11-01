@@ -4,9 +4,7 @@ created: 2025-05-11
 updated: 2026-09-28
 status: tree
 tags:
-  - personal
   - mini-essay
-  - philosophy
   - writing
 related: 
   - "[[Mini Essays]]"

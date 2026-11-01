@@ -4,12 +4,11 @@ created: 2025-07-05
 updated: 2026-07-08
 status: seed
 tags:
-  - study
   - oscp
-  - cyber-security
 related:
   - "[[Cyber Security]]"
   - "[[OSCP]]"
+  - "[[Study]]"
 ---
 ## General
 - [OSCP - Cheat Sheet - Active Directory]({{< relref "posts/OSCP - Cheat Sheet - Active Directory.md" >}})

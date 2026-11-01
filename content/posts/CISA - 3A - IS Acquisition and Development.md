@@ -3,12 +3,10 @@ title: "CISA - 3A - IS Acquisition and Development"
 created: 2026-04-26
 updated: 2026-06-28
 status: seed
-tags:
-  - study
-  - cisa
-  - cyber-security
 related:
   - "[[CISA]]"
+  - "[[Study]]"
+  - "[[Cyber Security]]"
 video: https://www.youtube.com/watch?v=tvXiHA4Ft00&list=PL7XJSuT7Dq_UvA2knww9Rlzz2JHUpeOAb&index=5
 ---
 # 1 - Project Governance and Management

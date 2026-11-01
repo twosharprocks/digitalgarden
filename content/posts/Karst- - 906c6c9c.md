@@ -4,9 +4,7 @@ created: 2023-07-31
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -38.045349999999985
 longitude: 140.697862
 suburb: "Port MacDonnell"

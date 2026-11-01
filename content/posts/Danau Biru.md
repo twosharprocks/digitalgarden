@@ -4,9 +4,7 @@ created: 2025-12-13
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - sulawesi
 feature_type: "Sinkhole"
 latitude: -3.727178
 longitude: 121.094532

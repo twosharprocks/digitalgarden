@@ -4,9 +4,7 @@ created: 2026-05-22
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - flinders-ranges
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -17,6 +15,8 @@ suburb: "Arkaroola"
 cavedb: "https://app.cavedb.net/share/f49589ec-666c-4b6a-8afe-9fde895cd22a.html"
 catalog-type: "cave"
 sub-region: "[[Flinders Ranges]]"
+altitude: "283 m"
+address: "Arkaroola Rd, Arkaroola, South Australia, AUS, 5732"
 ---
 # About
 
@@ -36,13 +36,6 @@ Gammon Ranges
 
 - **Feature type:** Cave
 - **Source:** GoogleMaps
-
-## Location
-
-- **Coordinates:** -30.38566198126304, 139.35664236545563
-- **Altitude:** 283 m
-- **Address:** Arkaroola Rd, Arkaroola, South Australia, AUS, 5732
-- **Checked:** false
 
 # Additional Notes
 

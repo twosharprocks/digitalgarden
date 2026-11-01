@@ -1,5 +1,5 @@
 ---
-title: Template - Mini Essay
+title: "Mini Essay - Who you want to be at 60"
 created: 2026-05-26
 updated: 2026-09-13
 status: seed

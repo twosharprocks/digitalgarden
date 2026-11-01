@@ -5,14 +5,13 @@ updated: 2026-07-17
 status: complete
 tags:
   - article
-  - diving
   - expeditions
-  - exploration
 related:
   - "[[Japan]]"
   - "[[Diving]]"
   - "[[Articles]]"
-  - "[[Trip - Japan - 2026 May]]"
+  - "[[Trip - Akiyoshidai - 2026 May]]"
+  - "[[Exploration]]"
 ---
 ---
 # Exploring Japan’s Hidden Rivers

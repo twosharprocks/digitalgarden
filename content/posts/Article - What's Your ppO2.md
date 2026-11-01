@@ -5,7 +5,6 @@ updated: 2025-10-30
 status: reference
 tags:
   - article
-  - diving
   - writing
 related:
   - "[[Diving]]"

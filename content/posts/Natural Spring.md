@@ -4,9 +4,7 @@ created: 2023-08-14
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - victoria
 feature_type: "SolutionTube"
 latitude: -37.92762999999999
 longitude: 141.27676999999994

@@ -4,9 +4,7 @@ created: 2023-04-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - bahamas
 feature_type: "Sinkhole"
 latitude: 26.575727774506106
 longitude: -77.14611142873764

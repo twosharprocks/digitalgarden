@@ -6,8 +6,9 @@ status: tree
 tags:
   - 101-things
   - writing
-  - bucket-list
-related: "[[Writing]]"
+related:
+  - "[[Writing]]"
+  - "[[Bucket List]]"
 source: https://web.archive.org/web/20160628164529/http://www.themightyginge.com/blog/101-things/
 author:
   - Josh Richards

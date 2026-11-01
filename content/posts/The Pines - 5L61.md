@@ -4,16 +4,8 @@ created: 2026-04-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
-related:
-  - "[[Diving]]"
-  - "[[Article - The Crazy Wombat Tunnel]]"
-  - "[[Mini Essay - Procrastinating Writing the Pines Article]]"
-  - "[[Book - Cave Diving]]"
-  - "[[Mt Gambier - PROTECTED]]"
 rating: CDAA Cave, TDI Intro to Cave
 feature_type: "Cave"
 latitude: -37.75534802661426
@@ -24,20 +16,23 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/5529d2bd-cea1-4b16-853b-6acd272774db.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "55 m"
+address: "336, Benara Hd Line Rd, The District Council of Grant, South Australia, AUS, 5291"
+bibliography: "The Pines Research Report, November 2005."
 ---
 # About
 
-https://www.forestrysa.com.au/visit-our-forests/green-triangle-forest/caving/
+- [Source](https://www.forestrysa.com.au/visit-our-forests/green-triangle-forest/caving/)
 
 Booking is through Forestry SA [here](https://forestrysa2.rezdy.com/387300/pines-and-mud-hole-caves)
 
 # Maps
 
-5L061 - The Pines (Passos, 2024) (Hi-Res) - MAP.pdf
+[5L061 - The Pines (Passos, 2024) (Hi-Res) - MAP](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L061%20-%20The%20Pines%20%28Passos%2C%202024%29%20%28Hi-Res%29.pdf)
 - ![5l061 The Pines Photogram & Satellite (passos, 2025) MAP](/images/5L061%20-%20The%20Pines%20-%20Photogram%20%26%20Satellite%20%28Passos%2C%202025%29%20-%20MAP.jpg)
 ![5l061 The Pines (ace, 2020) MAP](/images/5L061%20-%20The%20Pines%20%28ACE%2C%202020%29%20-%20MAP.png)
 ![5l061 The Pines Bunyips & CCR (funda Fundova, 2004) MAP](/images/5L061%20-%20The%20Pines%20-%20Bunyips%20%26%20CCR%20%28Funda-Fundova%2C%202004%29%20-%20MAP.jpg)
-5L061 Pines - MAP.jfif
+[5L061 Pines - MAP](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L061%20Pines.jfif)
 
 Full Line Survey (Richards)
 ![5l061 Pines Full Line Survey](/images/5L061%20-%20Pines%20-%20full%20line%20survey.jpg)
@@ -46,14 +41,14 @@ Initial photogrammetry without Crazy Wombat Tunnel (Passos)
 ![5l061 The Pines Photogram & Satellite (passos, 2025) MAP](/images/5L061%20-%20The%20Pines%20-%20Photogram%20%26%20Satellite%20%28Passos%2C%202025%29%20-%20MAP.jpg)
 
 ## Survey
-TML Data: Pines.tml Pines.tml
-KML Survey: Pines April 2022 - KML.kml
+TML Data: [Pines](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/MNemo_Data/Pines.tml) [Pines](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/MNemo_Data/Pines.tml)
+KML Survey: [Pines April 2022 - KML](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/KML_Data/Pines%20April%202022.kml)
 
 ![5l061 Initial Survey](/images/5L061%20-%20Initial%20Survey.png)
 ![5l061 Survey To CCR](/images/5L061%20-%20Survey%20to%20CCR.png)
 
 - ![5L61 The Pines 5l061 Pines Full Line Survey Baf11292 5529d2bd](/images/5L61%20-%20The%20Pines%20-%205L061%20-%20Pines%20-%20full%20line%20survey%20-%20baf11292-5529d2bd.jpg)
-- Pines-cwt - 715a4f61-5529d2bd.kml
+- [Pines-cwt - 715a4f61-5529d2bd](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/7b973b71dece676bae00e3dc3bcf8a393137d638cf0e275f575916517e2e5335.kml)
 
 # References
 
@@ -117,10 +112,9 @@ The Land Managers of this site are SA Forestry who must be contacted through the
 - ![5L61 The Pines 3y2a5397 8ed9f9a6 5529d2bd](/images/5L61%20-%20The%20Pines%20-%203Y2A5397%20-%208ed9f9a6-5529d2bd.jpeg)
 - ![5L61 The Pines 5l061 Pines Full Line Survey Baf11292 5529d2bd](/images/5L61%20-%20The%20Pines%20-%205L061%20-%20Pines%20-%20full%20line%20survey%20-%20baf11292-5529d2bd.jpg)
 - ![5L61 The Pines 3y2a5200 F8febf28 5529d2bd](/images/5L61%20-%20The%20Pines%20-%203Y2A5200%20-%20f8febf28-5529d2bd.jpeg)
-- Map_v1 - ae3260e2-5529d2bd.pdf
+- [Map_v1 - ae3260e2-5529d2bd](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L061%20-%20The%20Pines%20%28Passos%2C%202024%29%20%28Hi-Res%29.pdf)
 - [Pines 3d model](https://sketchfab.com/models/9afbfe2aa4304384924ac841a83202de/embed)
 - [dcb0647b-1f8a-4fcc-83d7-2fb6f3147450](https://www.youtube.com/watch?v=FzJrVbQ3mp4)
-- 5L061-ThePines-ResearchReport-Nov2005 - 367f9efd-5529d2bd.pdf
 
 # Details
 
@@ -129,14 +123,6 @@ The Land Managers of this site are SA Forestry who must be contacted through the
 - **Feature type:** Cave
 - **Reference:** L0061
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.75534802661426, 140.54640321885745
-- **Altitude:** 55 m
-- **Address:** 336, Benara Hd Line Rd, The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

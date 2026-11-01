@@ -4,9 +4,7 @@ created: 2024-02-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - victoria
 latitude: -37.309758999999985
 longitude: 146.25905
 suburb: "Mount Buller"

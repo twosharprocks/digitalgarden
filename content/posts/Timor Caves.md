@@ -4,16 +4,12 @@ created: 2025-01-03
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - new-south-wales
 feature_type: "Cave"
 latitude: -31.693073999999996
 longitude: 151.12496899999996
 suburb: "Upper Hunter Shire Council"
 region: "[[Australia]]"
-related:
-  - "[[Diving]]"
 cavedb: "https://app.cavedb.net/share/862ef963-89b0-41a8-9eaf-ddc1328a0eff.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
@@ -41,4 +37,4 @@ The limestone at Timor is 30 Ma old, formed in a shallow marine environment, and
 # References
 
 ## Images
-- OSBORNETIMORCAVES1986 - 5a5a249d-862ef963.pdf
+- [OSBORNETIMORCAVES1986 - 5a5a249d-862ef963](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/ce5dd4f7aba9916e828ee2ef11a130c354883d9412351b0222cec9c2636252e5.pdf)

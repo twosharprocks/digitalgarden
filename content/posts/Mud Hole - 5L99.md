@@ -4,10 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
-  - south-australia
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -20,6 +17,8 @@ suburb: "Tantanoola"
 cavedb: "https://app.cavedb.net/share/6d1ba8f8-be4c-4db8-b7dd-ca1155a2c7f2.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "96 m"
+address: "Buchanan Rd, Tantanoola, South Australia, AUS, 5280"
 ---
 # About
 
@@ -43,14 +42,6 @@ sub-region: "[[Mount Gambier - Lower South East]]"
 - **Feature type:** Cave
 - **Reference:** L0099
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.66216874, 140.49822758999994
-- **Altitude:** 96 m
-- **Address:** Buchanan Rd, Tantanoola, South Australia, AUS, 5280
-- **Checked:** true
-- **Checked by:** MW - Foot
 
 ## Cave and exploration data
 

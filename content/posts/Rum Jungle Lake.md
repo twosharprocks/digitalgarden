@@ -4,9 +4,7 @@ created: 2023-04-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - northern-territory
 feature_type: "Sinkhole"
 latitude: -13.041221262216823
 longitude: 130.99798321723938

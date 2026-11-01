@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - nepal
 feature_type: "Cave"
 latitude: 28.189551999999992
 longitude: 83.95784700000002

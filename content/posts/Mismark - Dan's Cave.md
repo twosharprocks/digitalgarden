@@ -4,9 +4,7 @@ created: 2023-07-04
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - bahamas
 latitude: 26.26022499999999
 longitude: -77.15867800000001
 state: "Abaco"

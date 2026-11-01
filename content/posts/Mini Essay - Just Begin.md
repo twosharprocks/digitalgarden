@@ -5,12 +5,10 @@ updated: 2026-09-13
 status: seed
 tags:
   - writing
-  - philosophy
   - mini-essay
 related:
   - "[[Mini Essays]]"
   - "[[Writing]]"
-  - "[[Book - Cave Diving]]"
   - "[[Book - Cave Diving]]"
   - "[[Explorer-Storyteller]]"
   - "[[Philosophy]]"

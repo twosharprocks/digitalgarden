@@ -3,8 +3,6 @@ title: Camooweal
 created: 2025-11-02
 updated: 2025-11-02
 status: seed
-tags:
-  - diving
 region:
 sub-region:
 smarttraveller: www.smartraveller.gov.au/destinations/

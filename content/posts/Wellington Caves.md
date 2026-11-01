@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - new-south-wales
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
@@ -19,6 +17,8 @@ suburb: "Apsley"
 cavedb: "https://app.cavedb.net/share/783c6963-cb4f-4bb3-aac1-f2837c9e164b.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
+altitude: "318 m"
+address: "101, Caves Rd, Apsley, New South Wales, AUS, 2820"
 ---
 # About
 
@@ -45,9 +45,3 @@ https://www.cavedivers.com.au/index.cfm?module=businessdirectory&pagemode=indiv&
 
 - **Feature type:** Cave
 
-## Location
-
-- **Coordinates:** -32.620924401729894, 148.93865704536438
-- **Altitude:** 318 m
-- **Address:** 101, Caves Rd, Apsley, New South Wales, AUS, 2820
-- **Checked:** false

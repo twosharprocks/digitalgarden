@@ -4,9 +4,7 @@ created: 2023-06-29
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - portugal
 latitude: 39.50466
 longitude: -8.61451999999997
 suburb: "Torres Novas"

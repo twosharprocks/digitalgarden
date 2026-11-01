@@ -6,9 +6,10 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[Madagascar]]"
 verification: "unverified"
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

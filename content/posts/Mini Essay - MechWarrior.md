@@ -8,8 +8,8 @@ tags:
   - writing
 related: 
   - "[[Mini Essays]]"
-  - "[[Mechwarrior 2 - Codes and Procedures of the Warrior Caste.pdf]]"
-  - "[[Mechwarrior 2 - Ghost Bears Legacy.pdf]]"
+  - ""
+  - ""
 ---
 ---
 There's something really unique about my life-long relationship with the BattleTech / MechWarrior videogame series. The tabletop game look interesting too, but I've never really gone in for tabletop wargames except to paint them as models. But the videogames have always held a very special place in my heart, and it goes all the way back to my first exposure through MechWarrior 2.

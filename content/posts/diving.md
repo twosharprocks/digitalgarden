@@ -5,8 +5,6 @@ updated: 2026-06-30
 status: index
 tags:
   - index
-  - digital-garden
-  - diving
 related:
   - "[[Cave Regions]]"
   - "[[Diving - Gear]]"
@@ -17,6 +15,7 @@ related:
   - "[[Exploration]]"
   - "[[Caving - Ideas]]"
   - "[[About]]"
+  - "[[Digital Garden]]"
 ---
 Dive sites, cave regions, exploration notes, gear, trips, photogrammetry, and cave-diving projects.
 

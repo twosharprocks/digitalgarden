@@ -4,9 +4,7 @@ created: 2024-12-08
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - angola
 feature_type: "Cave"
 latitude: -15.163888888888891
 longitude: 13.297222222222217

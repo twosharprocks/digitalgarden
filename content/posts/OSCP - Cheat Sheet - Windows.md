@@ -4,10 +4,10 @@ created: 2024-06-10
 updated: 2026-07-17
 status: reference
 tags:
-  - cyber-security
   - oscp
 related:
   - "[[OSCP]]"
+  - "[[Cyber Security]]"
 ---
 # Quick Reference
 - `dir /s/b local.txt` - Usually `C:\` or `C:\users\username\desktop\`

@@ -4,9 +4,7 @@ created: 2025-04-23
 updated: 2026-10-24
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -24,6 +22,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/d38a415b-35b7-41ac-a81f-b4af745b47aa.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "17 m"
+address: "1, Kingsley Rd, The District Council of Grant, South Australia, AUS, 5291"
 ---
 # About
 
@@ -35,12 +35,11 @@ Known as the 'hole in the middle of the road', Allendale is one the of the first
 ![Allendale 740x1024](/images/Allendale-740x1024.jpeg)
 
 ## Survey
-Allendale East - TML.tml 
+[Allendale East - TML](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/MNemo_Data/Allendale%20East.tml) 
 
 - ![5L11 Allendale Contour Map Extracted From A 3D Photogrammetric Model Of Allendale Cave 6ffa777c D38a415b](/images/5L11%20-%20Allendale%20-%20Contour%20map%20extracted%20from%20a%203D%20photogrammetric%20model%20of%20Allendale%20Cave%20-%206ffa777c-d38a415b.png)
 - ![5L11 Allendale 1994 Sauss Map Of Allendale Sinkhole Dd777156 D38a415b](/images/5L11%20-%20Allendale%20-%201994%20SAUSS%20map%20of%20Allendale%20Sinkhole%20-%20dd777156-d38a415b.jpg)
 - ![5L11 Allendale Map Extracted From 3D Photogrammetry Model Of Allendale Cave 568cb453 D38a415b](/images/5L11%20-%20Allendale%20-%20Map%20extracted%20from%203D%20photogrammetry%20model%20of%20Allendale%20Cave%20-%20568cb453-d38a415b.jpg)
-- site - d2f84606-d38a415b.kml
 
 # References
 
@@ -76,14 +75,6 @@ A small tunnel (approx 5m diameter) follows the rock & rubble slope to the North
 - **Feature type:** Cave
 - **Reference:** L0011
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -38.005176000000006, 140.70855299999994
-- **Altitude:** 17 m
-- **Address:** 1, Kingsley Rd, The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

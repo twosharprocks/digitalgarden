@@ -7,14 +7,13 @@ tags:
   - interests
   - 101-things
   - expeditions
-  - bucket-list
-  - diving
 region:
 sub-region:
 smarttraveller: www.smartraveller.gov.au/destinations/
 related:
   - "[[Diving]]"
   - "[[Trip - Antarctica - 2025 Nov]]"
+  - "[[Bucket List]]"
 ---
 Ask yourself ***IF*** this is still important, and if so ***WHY?*** 
 	You did your trip to Antarctica and kayaked with a leopard seal - do you still feel compelled to go? 

@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - sulawesi
 region: "[[Sulawesi]]"
 related:
   - "[[Diving]]"
@@ -25,6 +23,8 @@ obsidian_aliases:
 cavedb: https://app.cavedb.net/share/8355e911-3aff-47dd-b768-66e587b09f4e.html
 catalog-type: cave
 sub-region: "[[Baubau Island]]"
+altitude: "19 m"
+address: "86, Jl. Anoa, Bau-Bau City, South East Sulawesi, IDN, 93716"
 ---
 # About
 
@@ -41,14 +41,6 @@ Possible lead at southern end of cave (east side of rockpile) which leads up to 
 ## Identification
 
 - **Feature type:** Cave
-
-## Location
-
-- **Coordinates:** -5.4601089999999886, 122.627249
-- **Altitude:** 19 m
-- **Address:** 86, Jl. Anoa, Bau-Bau City, South East Sulawesi, IDN, 93716
-- **Checked:** true
-- **Checked by:** Grubby Wombat
 
 ## Cave and exploration data
 

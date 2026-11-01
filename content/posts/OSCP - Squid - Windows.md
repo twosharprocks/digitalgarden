@@ -3,8 +3,6 @@ title: OSCP - Squid - Windows
 created: 2026-01-26
 updated: 2025-10-02
 status: seed
-tags:
-  - cyber-security
 related: "[[Cyber Security]]"
 ---
 # Squid

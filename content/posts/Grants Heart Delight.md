@@ -4,9 +4,7 @@ created: 2023-08-14
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -35.98970800000001
 longitude: 136.89651100000003
 suburb: "Karatta"

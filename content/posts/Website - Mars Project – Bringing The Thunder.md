@@ -26,7 +26,7 @@ Oh yeah, and I almost forgot – the top perk is a chance to fly to Canberra wi
 
 ## … and into the fire
 
-Oh, I’m sorry – did you think this was like last year where nothing exciting happened after National Science Week until November? **WRONG.** Not only is National Science Week packed with other events besides Becoming Martian, I’ve got a school visit on September 28th to talk to Year 6′s about Mars and space exploration then I’m flying out to Germany **the next day**. I’ve been invited to take part in a multitude of space & science communication events across Europe throughout September **before** I come back to help organise [SpaceUp & the Aspiring Martian Meeting in Adelaide](www.spaceupaustralia.org). So here’s the short-story on Europe;
+Oh, I’m sorry – did you think this was like last year where nothing exciting happened after National Science Week until November? **WRONG.** Not only is National Science Week packed with other events besides Becoming Martian, I’ve got a school visit on September 28th to talk to Year 6′s about Mars and space exploration then I’m flying out to Germany **the next day**. I’ve been invited to take part in a multitude of space & science communication events across Europe throughout September **before** I come back to help organise [SpaceUp & the Aspiring Martian Meeting in Adelaide](https://www.spaceupaustralia.org). So here’s the short-story on Europe;
 
 - [Three days at the European Space Agency’s Astronaut Training Centre](https://web.archive.org/web/20140920062927/http://www.esa.int/Our_Activities/Human_Spaceflight/Astronauts/The_European_Astronaut_Centre) in**Cologne (Germany)**, meeting ESA astronauts & seeing how they’re prepared for life on the International Space Station.
 - Causing abject terror at the [Redhead Day Festival](https://web.archive.org/web/20140920062927/http://www.roodharigen.nl/ "Redhead Days Festival") in **Breda (Netherlands)** again, since I missed out on flocking with my melanin-challenged kin at the festival last year.
@@ -35,7 +35,7 @@ Oh, I’m sorry – did you think this was like last year where nothing exciting
 
 - Visiting [ESTEC, the European Space Agency’s top technology centre](https://web.archive.org/web/20140920062927/http://www.esa.int/About_Us/ESTEC) just outside **Amsterdam** and meeting more of the ESA’s top researchers.
 - Attending the premiere in **Dublin** of [“To Space” by Dr. Niamh Shaw](https://web.archive.org/web/20140920062927/http://www.tospace2014.com/#!niamh-shaw/cfe5), who I’ve been helping via Skype & email for the last few months as she researched the show. Niamh’s show is going to be amazing, so check out [her FundIt campaign](https://web.archive.org/web/20140920062927/http://fundit.ie/project/to-space-perchance-to-dream) to help make it happen. She’s also organising other events to make the most of me being in Ireland too, so stay tuned!
-- Hosting events and visiting primary schools throughout **Northern Ireland**as part of the [2014 CultureTECH Festival](culturetech.co) in Derry.
+- Hosting events and visiting primary schools throughout **Northern Ireland**as part of the [2014 CultureTECH Festival](https://culturetech.co) in Derry.
 
 I’m also spending a week visiting friends & old work colleagues throughout Southern England (Exeter, Bristol, Stroud, Brighton & London) before I’m flying back to Oz for SpaceUp too… so be warned if I suddenly knock on your door!
 

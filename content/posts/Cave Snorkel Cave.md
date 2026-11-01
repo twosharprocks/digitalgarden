@@ -4,16 +4,12 @@ created: 2023-05-29
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - western-australia
 feature_type: "Cave"
 latitude: -32.104552462908856
 longitude: 126.51232056319714
 suburb: "Madura"
 region: "[[Australia]]"
-related:
-  - "[[Diving]]"
 cavedb: "https://app.cavedb.net/share/f213129a-0278-4713-9900-2f762de4c16e.html"
 catalog-type: "cave"
 sub-region: "[[Western Australia]]"
@@ -45,7 +41,7 @@ BC and MW (27/5/2023). Goes to water, has a pool at end of moderate hard dry ent
 
 # Maps
 
-- cave_snorkel_road - 1270675c-f213129a.kml
+- [cave_snorkel_road - 1270675c-f213129a](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/8fc5e3f71de478d207032921bb9308d2c79c583a3322702c0880dac5e282fba1.kml)
 
 # References
 

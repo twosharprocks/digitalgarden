@@ -3,7 +3,6 @@ title: Adventure
 created: 2025-12-19
 updated: 2025-12-19
 status: seed
-tags:
 related:
   - "[[Bucket List]]"
   - "[[Exploration]]"
@@ -11,7 +10,7 @@ related:
   - "[[Trips]]"
   - "[[Kayaking]]"
   - "[[Long Solo]]"
-  - "[[Trips]]"
+
 ---
 ---
 Travel Groups for Ideas

@@ -4,9 +4,7 @@ created: 2024-08-11
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - austria
 feature_type: "Cave"
 latitude: 47.69094000000001
 longitude: 13.821450000000027

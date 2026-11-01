@@ -6,10 +6,11 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[Philippines]]"
 sub-region: "[[Samar]]"
 verification: "unverified"
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

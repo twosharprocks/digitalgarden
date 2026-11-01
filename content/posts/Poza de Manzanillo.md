@@ -4,9 +4,7 @@ created: 2025-09-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - cuba
 feature_type: "Sinkhole"
 latitude: 21.204981
 longitude: -76.250152

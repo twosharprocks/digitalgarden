@@ -4,9 +4,7 @@ created: 2025-09-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - taiwan
 feature_type: "Cave"
 latitude: 25.128117
 longitude: 121.836888

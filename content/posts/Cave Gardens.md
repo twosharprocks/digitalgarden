@@ -4,9 +4,7 @@ created: 2026-04-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 related:
   - "[[Diving]]"
 region: "[[South Australia]]"
@@ -20,6 +18,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/543b542e-165d-4616-a4d9-efd044fd1b32.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "43 m"
+address: "Bay Rd, Mount Gambier, South Australia, AUS, 5290"
 ---
 # References
 
@@ -44,13 +44,6 @@ Cave Gardens is a large, deep collapse entrance in a 20 x 25 metre wide depressi
 - **Feature type:** Sinkhole
 - **Reference:** L0004
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.829226000000006, 140.78067599999997
-- **Altitude:** 43 m
-- **Address:** Bay Rd, Mount Gambier, South Australia, AUS, 5290
-- **Checked:** true
 
 ## Cave and exploration data
 

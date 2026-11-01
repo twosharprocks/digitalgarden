@@ -4,9 +4,7 @@ created: 2023-12-12
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - czechia
 feature_type: "Cave"
 latitude: 49.30773399999998
 longitude: 16.694811999999956

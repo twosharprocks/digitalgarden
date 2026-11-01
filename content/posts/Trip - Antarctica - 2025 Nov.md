@@ -10,7 +10,7 @@ destination:
 region:
 dates:
 weather:
-Other Info:
+other info:
 related:
   - "[[Trips]]"
 ---
@@ -19,7 +19,6 @@ related:
 
 ***Dates: 13-11 to 30-11***
 - 2025-11-13 Thurs: Travel 
-	- eticket - ADL-USH Return - kiwi - booking 685764266.pdf
 	- *Fly: 0605-0750 QF670 ADL-MEL (Duration 1:15)*
 		- Melbourne: Wait 4:40
 	- *Fly: 1230-1110 LA804 MEL-SCL (Duration 12:40)*
@@ -46,8 +45,6 @@ related:
 	- 0800-1130: Luggage drop @ [Avenida Maipú 1210](https://maps.app.goo.gl/rmyofbPieayzxH2Y9)
 	- 1600-1700: Embarkation @ [Av. Prefectura Naval Argentina 470](https://maps.app.goo.gl/BZheT9vAj4D4Zza4A)
 		- [Antarctica HDS22-25 - Discovery and learning voyage](https://oceanwide-expeditions.com/antarctica/cruises/hds22-25-antarctica-discovery-and-learning-voyage) 
-		- Booking Number #181959143
-		- Expedition Boarding Pass: boarding-pass-181959143.pdf
 		- Cabin 309
 	- Met Stacey, Soori, Beth, Jeanette ("Cheesies" named by Victoria) 
 	- Mandatory Safety Brief
@@ -91,7 +88,6 @@ related:
 		- Kayaking with Jeanette, risky waves, Jeanette enjoying swell, Nick led group close to formation while we stayed out
 - 2025-11-25 Tue: Day 9: Drake Passage
 - 2025-11-26 Wed: Day 10: Drake Passage
-=
 - 2025-11-27 Thu: Disembark & Leave Ushuaia
 	- *Fly: 1940-2310 AR1877 USH-AEP (Duration 3:30)*
 		- Buenos Aires: Wait 7:30 (Overnight)
@@ -147,34 +143,28 @@ Other
 US$200 on Wise Card
 US$200 Cash ($150 tips)
 
-
-
 ---
 # References
-Return Flights: eticket - ADL-USH Return - kiwi - booking 685764266.pdf
-
-[Oceanwide Expeditions](https://oceanwide-expeditions.com/cruises?region=antarctica): Booking Number #181959143
-Boarding Pass, Kayak & Gear rental: boarding-pass-181959143.pdf
-
+[Oceanwide Expeditions](https://oceanwide-expeditions.com/cruises?region=antarctica)
 - [Antarctica HDS22-25 - Discovery and learning voyage](https://oceanwide-expeditions.com/antarctica/cruises/hds22-25-antarctica-discovery-and-learning-voyage) 17-27 Nov 2025 
-	- Aboard [m/v Hondius](https://oceanwide-expeditions.com/our-fleet/m-v-hondius) - Hondius Wifi.pdf
-	- 2025_OEX_Expedition_Manual_ENG.pdf 
-	- 2025_Ushuaia Port_Info and Luggage Drop.pdf
+	- Aboard [m/v Hondius](https://oceanwide-expeditions.com/our-fleet/m-v-hondius) - 
+	- [2025_OEX_Expedition_Manual_ENG](https://oceanwide-expeditions.com/page/sales-info) 
+	- [2025_Ushuaia Port_Info and Luggage Drop](https://oceanwide-expeditions.com/to-do/experiences/ushuaia)
 - IAATO
-	- IAATO Fact Sheet.pdf
-	- IAATO 2025-26 Avian Influenza Protocols.pdf
-	- IAATO - Expedition Cruising to Antarctica.en.pdf
-	- IAATO - reducing waste 2025-26.pdf
-	- IAATO Visitor Guidelines.pdf
+	- [IAATO Fact Sheet](https://iaato.org/visiting-antarctica/visitor-guidelines-library)
+	- [IAATO 2025-26 Avian Influenza Protocols](https://iaato.org/visiting-antarctica/visitor-guidelines-library)
+	- [IAATO - Expedition Cruising to Antarctica.en](https://iaato.org/visiting-antarctica/visitor-guidelines-library)
+	- [IAATO - reducing waste 2025-26](https://iaato.org/visiting-antarctica/visitor-guidelines-library)
+	- [IAATO Visitor Guidelines](https://iaato.org/visiting-antarctica/visitor-guidelines-library)
 	- [IAATO Expedition App - Google Play](https://play.google.com/store/apps/details?id=com.iaatoprod)
-	- IAATO - Dont Pack a Pest.pdf
+	- [IAATO - Dont Pack a Pest](https://iaato.org/visiting-antarctica/visitor-guidelines-library)
 - [Rental Gear - New Headings](https://oceanwide.newheadings.com/)
 	- Rental Order Number: [236866](http://oceanwide.newheadings.com/account_history_info.php?order_id=236866)
 	- [Waterproof & Insulated Pants](https://oceanwide.newheadings.com/product_info.php?cPath=398&products_id=6284)
 	- [Waterproof Parka](https://oceanwide.newheadings.com/product_info.php?cPath=398&products_id=5078)
 	- [Waterproof Mittens](https://oceanwide.newheadings.com/product_info.php?cPath=398&products_id=6279)
 - [Kayaking - OEX Website](https://oceanwide-expeditions.com/to-do/outdoor-activities/kayaking)
-	- 2025_OEX_Kayaking_Manual.pdf
+	- [2025_OEX_Kayaking_Manual](https://oceanwide-expeditions.com/page/sales-info)
 
 Ushuaia
 - [Ushuaia ULocker - Website](https://ulocker.ar/)

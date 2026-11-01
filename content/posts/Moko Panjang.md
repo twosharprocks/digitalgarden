@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - sulawesi
 region: "[[Sulawesi]]"
 related:
   - "[[Diving]]"
@@ -25,6 +23,8 @@ obsidian_aliases:
 cavedb: https://app.cavedb.net/share/a7168d6f-9119-44cc-b2ab-598d78ee9a33.html
 catalog-type: cave
 sub-region: "[[Muna Island]]"
+altitude: "18 m"
+address: "Jalan Tanpa Nama, Muna Regency, South East Sulawesi, IDN, 93662"
 ---
 # References
 
@@ -39,14 +39,6 @@ sub-region: "[[Muna Island]]"
 ## Identification
 
 - **Feature type:** Cave
-
-## Location
-
-- **Coordinates:** -5.163746000000003, 122.58450100000005
-- **Altitude:** 18 m
-- **Address:** Jalan Tanpa Nama, Muna Regency, South East Sulawesi, IDN, 93662
-- **Checked:** true
-- **Checked by:** Grubby Wombat
 
 ## Cave and exploration data
 

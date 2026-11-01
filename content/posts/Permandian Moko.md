@@ -4,15 +4,8 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - sulawesi
 region: "[[Sulawesi]]"
-related:
-  - "[[Diving]]"
-  - "[[Trip - Sulawesi - 2025 Aug]]"
-  - "[[empty files]]"
-  - "[[Trip - Sulawesi - 2025 Aug - Farzad's Notes]]"
 rating: TDI Intro to Cave
 feature_type: Cave
 latitude: -5.174309999999991
@@ -23,6 +16,8 @@ obsidian_aliases:
 cavedb: https://app.cavedb.net/share/83ed1117-e771-4e80-809a-76734d4b6f84.html
 catalog-type: cave
 sub-region: "[[Muna Island]]"
+altitude: "11 m"
+address: "Muna, IDN, 93662"
 ---
 # About
 
@@ -37,20 +32,13 @@ about 65 m long ending in a collapse of stones.
 - ![Permandian Moko Permandian Moko B382ab8a 83ed1117](/images/Permandian%20Moko%20-%20Permandian%20Moko%20-%20b382ab8a-83ed1117.jpg)
 
 ## Images
-- 241 - 67c09ef9-83ed1117.pdf
+- [241 - 67c09ef9-83ed1117](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/4dbb8b5b04ef81a3ca7fad15a9922c39cd912241bb4d7595e3378b7de0041257.pdf)
 
 # Details
 
 ## Identification
 
 - **Feature type:** Cave
-
-## Location
-
-- **Coordinates:** -5.174309999999991, 122.58349999999996
-- **Altitude:** 11 m
-- **Address:** Muna, IDN, 93662
-- **Checked:** false
 
 ## Cave and exploration data
 

@@ -6,10 +6,11 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[Japan]]"
 sub-region: "[[Akiyoshidai]]"
 verification: "unverified"
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

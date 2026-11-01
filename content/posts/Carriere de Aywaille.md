@@ -4,9 +4,7 @@ created: 2023-12-12
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - belgium
 feature_type: "Cave"
 latitude: 50.468028000000004
 longitude: 5.636360999999965

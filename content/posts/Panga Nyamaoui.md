@@ -4,9 +4,7 @@ created: 2024-12-08
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - comoros
 feature_type: "Cave"
 latitude: -11.409183333333317
 longitude: 43.28458611111114

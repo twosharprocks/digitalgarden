@@ -4,9 +4,7 @@ created: 2023-12-12
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - hungary
 feature_type: "Mine"
 latitude: 47.485134000000016
 longitude: 19.13777600000003

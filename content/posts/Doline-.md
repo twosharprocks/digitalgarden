@@ -4,9 +4,7 @@ created: 2023-08-14
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - western-australia
 latitude: -31.69279499999999
 longitude: 127.70403899999997
 suburb: "Mundrabilla"

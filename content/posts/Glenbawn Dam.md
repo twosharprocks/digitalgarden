@@ -4,9 +4,7 @@ created: 2023-04-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - new-south-wales
 feature_type: "Sinkhole"
 latitude: -32.095385157724394
 longitude: 150.99109799785788

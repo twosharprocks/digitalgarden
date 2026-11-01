@@ -1,24 +1,22 @@
 ---
-title: "Ellison's Cave"
+title: Ellison's Cave
 created: 2025-07-09
-updated: 2026-10-13
+updated: 2026-10-29
 status: seed
 tags:
-  - diving
   - caving
-  - georgia
-feature_type: "Cave"
+feature_type: Cave
 latitude: 34.665067
 longitude: -85.363863
-state: "Georgia"
-suburb: "Walker County"
+state: Georgia
+suburb: Walker County
 region: "[[United States]]"
 related:
   - "[[Diving]]"
-cavedb: "https://app.cavedb.net/share/5fa04746-3dc8-457b-b22f-e187d496de26.html"
-catalog-type: "cave"
-altitude: "302 m"
-address: "1096, Rocky Ct, Walker County, Georgia, USA, 30707"
+cavedb: https://app.cavedb.net/share/5fa04746-3dc8-457b-b22f-e187d496de26.html
+catalog-type: cave
+altitude: 302 m
+address: 1096, Rocky Ct, Walker County, Georgia, USA, 30707
 sub-region: "[[Georgia - United States]]"
 ---
 # Details

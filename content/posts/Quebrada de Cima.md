@@ -4,9 +4,7 @@ created: 2024-07-28
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - portugal
 latitude: 39.746343000000024
 longitude: -8.423265000000015
 suburb: "Ferreira do Zêzere"

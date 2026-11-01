@@ -4,13 +4,8 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - yucatan
 region: "[[Mexico]]"
-related:
-  - "[[Diving]]"
-  - "[[empty files]]"
 rating: TDI Intro to Cave
 feature_type: Cave
 latitude: 20.298530000000028
@@ -20,6 +15,8 @@ suburb: Tulum Municipality
 cavedb: https://app.cavedb.net/share/5dd24265-af40-4b01-9a48-62b215a43734.html
 catalog-type: cave
 sub-region: "[[Yucatan]]"
+altitude: "8 m"
+address: "Vía Sin Nombre, Tulum Municipality, Quintana Roo, MEX, 77772"
 ---
 # About
 
@@ -27,28 +24,20 @@ Features Heaven's Gate, Ron's Line Helectites and connection to Pet Semetary
 
 # References
 
-MNemo Data: NoHoch.tml
-KML Survey: Nohoch - KML.kml
+MNemo Data: [NoHoch](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Yucatan/NoHoch.tml)
+KML Survey: [Nohoch - KML](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Yucatan/Nohoch.kml)
 
 ## Images
 - ![Nohoch Nah Chich Nohoch 96d5197d 5dd24265](/images/Nohoch%20Nah%20Chich%20-%20nohoch%20-%2096d5197d-5dd24265.jpg)
 - ![Nohoch Nah Chich 468333661 10235244384272701 8585508617884120554 N 729a72b6 5dd24265](/images/Nohoch%20Nah%20Chich%20-%20468333661_10235244384272701_8585508617884120554_n%20-%20729a72b6-5dd24265.jpg)
-- nohoch - 1c4b036f-5dd24265.pdf
-- nohoch2 - 5fdb266a-5dd24265.pdf
+- [nohoch - 1c4b036f-5dd24265](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/5bb8230cc02817367dc40a0b7f0ef2afb48a4ad7562101a447b51dedcecec13f.pdf)
+- [nohoch2 - 5fdb266a-5dd24265](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/0b5eb108e0659187c5986a00fc499b9472f30d50f6d57f0cfcf87d23d5b06a57.pdf)
 
 # Details
 
 ## Identification
 
 - **Feature type:** Cave
-
-## Location
-
-- **Coordinates:** 20.298530000000028, -87.40368999999998
-- **Altitude:** 8 m
-- **Address:** Vía Sin Nombre, Tulum Municipality, Quintana Roo, MEX, 77772
-- **Checked:** true
-- **Checked by:** MW
 
 ## Cave and exploration data
 
@@ -72,5 +61,5 @@ Open to the public. Pay entrance fee (300 pesos) on arrival. Closes at 5pm.
 
 # Maps
 
-- Nohoch - 9d2d52b5-5dd24265.kml
-- Nohoch Nah Chich - 10174f97-5dd24265.kml
+- [Nohoch - 9d2d52b5-5dd24265](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Yucatan/Nohoch.kml)
+- [Nohoch Nah Chich - 10174f97-5dd24265](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/1d43fc9317b01ccabd93457ad3cff05154eafb549826ac4099e57e94804163ff.kml)

@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -20,6 +18,8 @@ suburb: "Wattle Range Council"
 cavedb: "https://app.cavedb.net/share/a2404546-b454-44b6-96d7-2845ee77359e.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "54 m"
+address: "Mile Hill Rd, Wattle Range Council, South Australia, AUS, 5280"
 ---
 # About
 
@@ -59,14 +59,6 @@ The Shaft is one of the three deepest natural freshwater sites in Australia ? th
 - **Feature type:** Cave
 - **Reference:** L0013
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.68235422999999, 140.49208645
-- **Altitude:** 54 m
-- **Address:** Mile Hill Rd, Wattle Range Council, South Australia, AUS, 5280
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

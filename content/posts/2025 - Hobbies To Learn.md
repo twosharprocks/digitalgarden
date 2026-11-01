@@ -5,10 +5,10 @@ updated: 2025-11-01
 status: seed
 tags:
   - knowledge-management
-  - personal
   - interests
 related:
   - "[[Time Management]]"
+  - "[[Personal]]"
 ---
 Reference: https://www.youtube.com/watch?v=t2JFOA023Kk
 

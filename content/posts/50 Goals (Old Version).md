@@ -5,7 +5,6 @@ updated: 2026-06-18
 status: seed
 tags:
   - 101-things
-  - bucket-list
 related: 
 
 

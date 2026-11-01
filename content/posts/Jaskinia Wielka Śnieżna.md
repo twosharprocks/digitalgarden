@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - poland
 feature_type: "Cave"
 latitude: 49.24000000000001
 longitude: 19.923059999999964

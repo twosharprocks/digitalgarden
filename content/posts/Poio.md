@@ -4,9 +4,7 @@ created: 2023-06-29
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - portugal
 latitude: 39.53341999999998
 longitude: -8.69880999999998
 suburb: "Porto de Mós"

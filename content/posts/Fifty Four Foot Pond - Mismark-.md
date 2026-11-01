@@ -4,9 +4,7 @@ created: 2023-02-04
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -38.037521
 longitude: 140.78125799999998
 suburb: "Eight Mile Creek"

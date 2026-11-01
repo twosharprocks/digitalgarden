@@ -4,9 +4,7 @@ created: 2025-10-02
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - thailand
 latitude: 8.30338
 longitude: 98.79423
 state: "Krabi"

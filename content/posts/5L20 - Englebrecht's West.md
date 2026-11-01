@@ -4,9 +4,7 @@ created: 2025-11-01
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -25,6 +23,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/79dbb77a-618b-4c60-baa7-d8eb7559aed2.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "45 m"
+address: "25-33, Chute St, City of Mount Gambier, South Australia, AUS, 5290"
 ---
 # Details
 
@@ -33,14 +33,6 @@ sub-region: "[[Mount Gambier - Lower South East]]"
 - **Feature type:** Cave
 - **Reference:** L0020
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.82050799999999, 140.771888
-- **Altitude:** 45 m
-- **Address:** 25-33, Chute St, City of Mount Gambier, South Australia, AUS, 5290
-- **Checked:** true
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 
@@ -62,7 +54,7 @@ City of Mt Gambier
 
 # Maps
 
-- Englebrecht's West - 99982904-79dbb77a.kml
+- [Englebrecht's West - 99982904-79dbb77a](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/KML_Data/Englebrecht%27s%20West.kml)
 
 # References
 

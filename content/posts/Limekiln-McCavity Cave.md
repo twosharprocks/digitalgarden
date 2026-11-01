@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - new-south-wales
 region: "[[Australia]]"
 related:
   - "[[Diving]]"
@@ -23,6 +21,8 @@ obsidian_aliases:
 cavedb: "https://app.cavedb.net/share/cb327bc5-0363-4874-9337-78f5c72e3459.html"
 catalog-type: "cave"
 sub-region: "[[New South Wales]]"
+altitude: "325 m"
+address: "99-101, Caves Rd, Dubbo Regional Council, New South Wales, AUS, 2820"
 ---
 # About
 
@@ -42,13 +42,6 @@ sub-region: "[[New South Wales]]"
 ## Identification
 
 - **Feature type:** Cave
-
-## Location
-
-- **Coordinates:** -32.622006999999996, 148.939206
-- **Altitude:** 325 m
-- **Address:** 99-101, Caves Rd, Dubbo Regional Council, New South Wales, AUS, 2820
-- **Checked:** false
 
 ## Cave and exploration data
 

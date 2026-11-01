@@ -4,9 +4,7 @@ created: 2023-07-03
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - bahamas
 feature_type: "Cave"
 latitude: 26.243607708522404
 longitude: -77.18879342079163

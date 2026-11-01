@@ -150,66 +150,6 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/script---powershell---ad-audit/">Script - PowerShell - AD-Audit</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            # This script Function DecodeUserAccountControl ([int]$UAC) { $UACPropertyFlags = @( &amp;#34;SCRIPT&amp;#34;, &amp;#34;ACCOUNTDISABLE&amp;#34;, &amp;#34;RESERVED&amp;#34;, &amp;#34;HOMEDIR_REQUIRED&amp;#34;, &amp;#34;LOCKOUT&amp;#34;, &amp;#34;PASSWD_NOTREQD&amp;#34;, &amp;#34;PASSWD_CANT_CHANGE&amp;#34;, &amp;#34;ENCRYPTED_TEXT_PWD_ALLOWED&amp;#34;, …
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/script---powershell---ad-audit/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/script---powershell---ad-emailtouser/">Script - PowerShell - AD-EmailToUser</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            # The following is a series of scripts that can be used to find email addresses in text, then search for Active Directory users with matching emails and determine if they&amp;#39;re enabled or disabled. $text = Read-Host &amp;#39;Paste the block of text to search for email addresses here:&amp;#39; $emailPattern …
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/script---powershell---ad-emailtouser/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
           <a href="/posts/script---powershell---ad-groupmembers/">Script - PowerShell - AD-GroupMembers</a>
         </h2>
         <div class="post-meta"></div>
@@ -294,6 +234,66 @@
         
            <div>
             <a class="read-more button inline" href="/posts/script---powershell---ad-newuser/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/script---powershell---ad-offboarding/">Script - PowerShell - AD-Offboarding</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/script/">script</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            # Specific username to offboard and the updated description function move-user-offboarding { $user = read-host &amp;#39;Username&amp;#39; $updatedDescription = read-host &amp;#39;ICT Number and Date&amp;#39; # Do not edit anything below this Disable-ADAccount -Identity $user $destinationOU = &amp;#34;OU=Off …
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/script---powershell---ad-offboarding/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/script---powershell---ad-oumaintenance/">Script - PowerShell - AD-OUMaintenance</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/script/">script</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            # List Any Disabled users in the &amp;#34;Office Users&amp;#34; OU function Find-Disabled-Office { $ouPath = &amp;#34;OU=Office Users,DC=int&amp;#34; $OfficeUsers = Get-ADUser -Filter { Enabled -eq $false } -SearchBase $ouPath -Properties LastLogonDate,Enabled | Select-Object SamAccountName,LastLogonDate,Enabled …
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/script---powershell---ad-oumaintenance/">[Read more]</a>
           </div>
         
       </article>

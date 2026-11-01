@@ -4,7 +4,6 @@ created: 2026-01-26
 updated: 2025-11-03
 status: seed
 tags:
-  - diving
   - python
   - script
 related:
@@ -13,6 +12,7 @@ related:
   - "[[Trips - Ideas]]"
   - "[[Exploration]]"
   - "[[Cave Data Ideas]]"
+  - "[[Diving]]"
 language: Python
 ---
 ```python

@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - cambodia
 feature_type: "Cave"
 latitude: 10.616840000000025
 longitude: 104.24289999999996

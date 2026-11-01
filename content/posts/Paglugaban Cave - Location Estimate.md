@@ -4,9 +4,7 @@ created: 2025-09-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - philippines
 feature_type: "Cave"
 latitude: 11.132496
 longitude: 119.316888

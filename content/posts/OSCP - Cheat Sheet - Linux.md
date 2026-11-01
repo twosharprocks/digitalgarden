@@ -4,10 +4,10 @@ created: 2024-12-10
 updated: 2026-06-30
 status: reference
 tags:
-  - cyber-security
   - oscp
 related:
   - "[[OSCP]]"
+  - "[[Cyber Security]]"
 ---
 # Initial Access
 Launch Netcat Listener: `nc -nvlp 1234`

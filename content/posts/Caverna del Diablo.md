@@ -4,9 +4,7 @@ created: 2023-12-12
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - argentina
 feature_type: "Cave"
 latitude: -24.722996999999992
 longitude: -66.20101299999999

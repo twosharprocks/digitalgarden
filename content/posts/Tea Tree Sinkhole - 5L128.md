@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -20,6 +18,8 @@ suburb: "The District Council of Grant"
 cavedb: "https://app.cavedb.net/share/556addf3-8f75-4b12-b544-7d8b57484798.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "9 m"
+address: "36, Aci Rd, The District Council of Grant, South Australia, AUS, 5291"
 ---
 # Details
 
@@ -28,14 +28,6 @@ sub-region: "[[Mount Gambier - Lower South East]]"
 - **Feature type:** Sinkhole
 - **Reference:** L0128
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -38.027387000000004, 140.91900499999997
-- **Altitude:** 9 m
-- **Address:** 36, Aci Rd, The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** false
-- **Checked by:** CDAA Rated
 
 ## Cave and exploration data
 

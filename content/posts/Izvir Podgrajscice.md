@@ -4,9 +4,7 @@ created: 2023-12-12
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - slovenia
 feature_type: "Cave"
 latitude: 46.24649999999997
 longitude: 14.940778000000023

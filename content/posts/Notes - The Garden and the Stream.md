@@ -5,10 +5,10 @@ updated: 2026-09-28
 status: seed
 tags:
   - knowledge-management
-  - personal
 related:
   - "[[Time Management]]"
   - "[[Digital Garden]]"
+  - "[[Personal]]"
 ---
 Reference: https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/ 
 

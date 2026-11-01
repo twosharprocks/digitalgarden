@@ -4,9 +4,7 @@ created: 2023-06-29
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - spain
 latitude: 42.113969999999995
 longitude: 3.1673600000000306
 state: "Catalunya"

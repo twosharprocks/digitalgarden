@@ -6,10 +6,11 @@ status: seed
 catalog-type: cave
 tags:
   - caving
-  - diving
 region: "[[Indonesia]]"
 sub-region: "[[West Timor]]"
 verification: unverified
+related:
+  - "[[Diving]]"
 ---
 # Notes
 

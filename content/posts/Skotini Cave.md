@@ -4,9 +4,7 @@ created: 2026-06-18
 updated: 2026-08-30
 status: seed
 tags:
-  - diving
   - caving
-  - albania
 region: "[[Albania]]"
 related:
   - "[[Diving]]"

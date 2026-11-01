@@ -5,7 +5,6 @@ updated: 2025-04-08
 status: seed
 tags:
   - interests
-  - personal
 related: 
   - "[[WH40k]]"
   - "[[WH40K - Armies - Dark Angels]]"

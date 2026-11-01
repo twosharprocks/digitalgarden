@@ -4,9 +4,7 @@ created: 2024-04-02
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - south-australia
 latitude: -37.75290100000001
 longitude: 140.61363099999994
 suburb: "Burrungule"

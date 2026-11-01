@@ -6,7 +6,6 @@ status: "seed"
 catalog-type: "cave"
 tags:
   - caving
-  - diving
 region: "[[United States]]"
 sub-region: "[[Florida]]"
 verification: "unverified"

@@ -4,9 +4,7 @@ created: 2023-07-02
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - western-australia
 latitude: -29.95469700000001
 longitude: 115.09623299999998
 suburb: "Warradarge"

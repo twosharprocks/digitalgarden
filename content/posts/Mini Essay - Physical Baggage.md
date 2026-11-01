@@ -1,8 +1,8 @@
 ---
-title: Mini Essay - UNWRITTEN - Physical Baggage
+title: "Mini Essay - Physical Baggage"
 created: 2026-05-26
 updated: 2026-09-16
-status: Tree
+status: tree
 tags:
   - mini-essay
   - writing

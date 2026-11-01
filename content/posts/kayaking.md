@@ -5,12 +5,12 @@ updated: 2025-12-12
 status: seed
 tags:
   - interests
-  - antarctica
   - expeditions
 related: 
   - "[[VW Transporter|living in the van]]"
   - "[[Mini Essay - Appeal of living out of a van]]"
   - "[[Long Solo]]"
+  - "[[Antarctica]]"
 ---
 ---
 # Trips

@@ -7,13 +7,14 @@ catalog-type: "cave"
 feature_type: "Cave"
 tags:
   - caving
-  - diving
 region: "[[Thailand]]"
 sub-region: "Satun"
 obsidian_aliases:
   - "Tham To Wang"
   - "Tham Toh Wang"
 verification: "researched"
+related:
+  - "[[Diving]]"
 ---
 # Toh Wang
 

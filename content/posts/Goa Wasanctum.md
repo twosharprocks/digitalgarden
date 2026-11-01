@@ -7,10 +7,11 @@ catalog-type: "cave"
 feature_type: "Cave"
 tags:
   - caving
-  - diving
 region: "[[Indonesia]]"
 sub-region: "Southeast Sulawesi"
 verification: "researched"
+related:
+  - "[[Diving]]"
 ---
 # Goa Wasanctum
 

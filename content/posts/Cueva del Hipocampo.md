@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - colombia
 feature_type: "Cave"
 latitude: 6.059954000000005
 longitude: -73.84013400000003

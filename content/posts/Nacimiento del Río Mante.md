@@ -4,9 +4,7 @@ created: 2023-12-12
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mexico
 feature_type: "Cave"
 latitude: 22.698775000000012
 longitude: -99.04552699999999

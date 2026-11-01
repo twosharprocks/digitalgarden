@@ -4,9 +4,7 @@ created: 2025-07-26
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - sulawesi
 feature_type: "Cave"
 latitude: -5.527686000000017
 longitude: 122.57142099999999

@@ -1,7 +1,7 @@
 ---
 title: Website - 101 Things - Drinking (34, 65 & 93)
 created: 2026-01-21
-updated: 2026-10-24
+updated: 2026-10-31
 status: tree
 tags:
   - writing
@@ -58,15 +58,11 @@ For those that don’t know, the Monopoly Board Pub Crawl involves having a drin
 
 In June 2009, I’d just been accepted into the Royal Marines but had to wait until November to start training – so needless to say I was in peak fitness and had plenty of time I do things like research the Monopoly board pub crawl. I found some guys who’d posted [how they’d done it in 2001](https://web.archive.org/web/20140921211809/http://www.pajb.com/monopoly/)
 
-which helped with about half the properties, but it took a solid week of research to find pubs/bars for each property and what tubes needed to use to get there -
-
-[buses were obviously out of the question](https://web.archive.org/web/20140921211809/http://www.themightyginge.com/blog/2009/08/10/menstrual-mondays-unbridled-terror/ "Oooooh, the first Menstrual Monday! We are going back a bit today..."). Thankfully for people doing it now there’s a [dedicated website](https://web.archive.org/web/20140921211809/http://monopolypubcrawl.org.uk/) that’s updated regularly as things change, but in 2009 this was not the case.
+which helped with about half the properties, but it took a solid week of research to find pubs/bars for each property and what tubes needed to use to get there - [buses were obviously out of the question](https://web.archive.org/web/20140921211809/http://www.themightyginge.com/blog/2009/08/10/menstrual-mondays-unbridled-terror/ "Oooooh, the first Menstrual Monday! We are going back a bit today..."). Thankfully for people doing it now there’s a [dedicated website](https://web.archive.org/web/20140921211809/http://monopolypubcrawl.org.uk/) that’s updated regularly as things change, but in 2009 this was not the case.
 
 There’s no point even trying to describe the crawl itself – as I said, I’ve run two of them now (one in June 2009 with an old uni friend and one of her other mates; the other at Christmas the same year with two of my mates from the marines and the manliest woman I know) – and there’s so much drunken stupidity going on that sharing it all here would spoilt it. I do recommend introducing several rules to spice things up and help you survive though;
 
-- Redbull and Vodka at the first stop (Old Kent Road), and the first person to finish their drink at each pub gets to pick what the group drinks at the next stop. This is particularly hilarious when you get a spirit drinker consistently winning (like me), who then gets to watch his beer-drinking buddies fall apart with round after round of shots. - Nothing more than half pints. It’s not being weak – you’re on a 26 stop, 12 hour pub crawl so pace yourself. Try to stick to spirits and liqueurs, otherwise you’ll be fighting for the toilet at every stop. - Which reminds me – print out and laminate a copy of the schedule, then tie it to someone’s wrist. **THEN STICK TO THE BLOODY SCHEDULE!** The [new in-order route](https://web.archive.org/web/20140921211809/http://monopolypubcrawl.org.uk/route/inorder/) gives you a little more time by starting at 10:30am than the one we did (which couldn’t start till 11:45), but once you’ve lost time it’s still a nightmare to make it back. If you lose the route/schedule because of drunken stupidity, your night’s over. - Get something to eat half way through – around Leicester Square is perfect. Again it’s not weak, you’ll pass out somewhere near Bond street if you don’t. And I will **not give you a piggyback ride around half the monopoly board** … unless you’re hot… - Do **NOT** make fun of the [Custodian helmet the Metro police wear](https://web.archive.org/web/20140921211809/http://en.wikipedia.org/wiki/File:MetHelmet.png) – they may not have guns, but they
-
-**do** have batons. - Everyone wears stupid hats. Removal/loss of hats will result in expensive/unpleasant pub crawl punishments - Have fun
+- Redbull and Vodka at the first stop (Old Kent Road), and the first person to finish their drink at each pub gets to pick what the group drinks at the next stop. This is particularly hilarious when you get a spirit drinker consistently winning (like me), who then gets to watch his beer-drinking buddies fall apart with round after round of shots. - Nothing more than half pints. It’s not being weak – you’re on a 26 stop, 12 hour pub crawl so pace yourself. Try to stick to spirits and liqueurs, otherwise you’ll be fighting for the toilet at every stop. - Which reminds me – print out and laminate a copy of the schedule, then tie it to someone’s wrist. **THEN STICK TO THE BLOODY SCHEDULE!** The [new in-order route](https://web.archive.org/web/20140921211809/http://monopolypubcrawl.org.uk/route/inorder/) gives you a little more time by starting at 10:30am than the one we did (which couldn’t start till 11:45), but once you’ve lost time it’s still a nightmare to make it back. If you lose the route/schedule because of drunken stupidity, your night’s over. - Get something to eat half way through – around Leicester Square is perfect. Again it’s not weak, you’ll pass out somewhere near Bond street if you don’t. And I will **not give you a piggyback ride around half the monopoly board** … unless you’re hot… - Do **NOT** make fun of the [Custodian helmet the Metro police wear](https://web.archive.org/web/20140921211809/http://en.wikipedia.org/wiki/File:MetHelmet.png) – they may not have guns, but they **do** have batons. - Everyone wears stupid hats. Removal/loss of hats will result in expensive/unpleasant pub crawl punishments - Have fun
 
 Yes – that’s me in the elf hat, & one of my marine mates in a kimono on top of a lion in Trafalgar Square
 
@@ -76,13 +72,4 @@ Pub Crawl… yes good sir we be doing another one next year! - [The Mighty Ginge
 
 NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-… okay, maybe |
-
-|
-| --- | --- | --- |
-
-![](https://web.archive.org/web/20140921211809im_/http://www.themightyginge.com/web/20140921213212/https://pixel.wp.com/g.gif?host=www.themightyginge.com&rand=0.19094221536351166&v=ext&j=1%3A3.1.1&blog=16314471&post=1907&tz=8&ref=)
-
-## Recovered media
-
-![trafalgar 101 Things: Drinking (#34, #65 & 93)](https://web.archive.org/web/20140921211809im_/http://www.themightyginge.com/blog/wp-content/uploads/2012/03/trafalgar.jpg)
+… okay, maybe

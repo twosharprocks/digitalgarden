@@ -4,9 +4,7 @@ created: 2023-07-01
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - qatar
 latitude: 25.174960999999996
 longitude: 51.21178699999996
 suburb: "الشيحانية"

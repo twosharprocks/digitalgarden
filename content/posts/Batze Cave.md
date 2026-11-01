@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - zimbabwe
 feature_type: "Cave"
 latitude: -17.16720000000001
 longitude: 29.18360000000007

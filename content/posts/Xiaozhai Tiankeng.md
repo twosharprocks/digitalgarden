@@ -4,9 +4,7 @@ created: 2023-08-07
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - china
 feature_type: "Sinkhole"
 latitude: 30.75062300000002
 longitude: 109.46944899999994

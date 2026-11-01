@@ -4,10 +4,7 @@ created: 2026-06-18
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - mount-gambier
-  - south-australia
 region: "[[South Australia]]"
 related:
   - "[[Diving]]"
@@ -21,6 +18,8 @@ suburb: "The District Council of Grant"
 cavedb: "https://app.cavedb.net/share/690ebf2b-5344-4afd-b6c8-9b6cf96699a9.html"
 catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
+altitude: "39 m"
+address: "88, McKay Rd, The District Council of Grant, South Australia, AUS, 5291"
 ---
 # About
 
@@ -53,13 +52,6 @@ The cave was named by early divers after it was reportedly first dived by a larg
 - **Feature type:** Cave
 - **Reference:** L0125
 - **Source:** Forestry SA
-
-## Location
-
-- **Coordinates:** -37.82663600000001, 140.72826800000007
-- **Altitude:** 39 m
-- **Address:** 88, McKay Rd, The District Council of Grant, South Australia, AUS, 5291
-- **Checked:** false
 
 ## Cave and exploration data
 

@@ -1,7 +1,7 @@
 ---
 title: Digital Garden
 created: 2025-04-12
-updated: 2026-09-28
+updated: 2026-10-29
 status: seed
 tags:
   - knowledge-management
@@ -17,9 +17,9 @@ Non-linear writing, Low effort & low friction
 Offers a way to build your own, future-proof, decentralised platform
 
 Three Elements
-- #seed - Very rough and early ideas. Take smart personal notes to develop
-- #tree - Work that's cleaned up and clarified
-- #reference - A supporting document written by another
+- seed - Very rough and early ideas. Take smart personal notes to develop
+- tree - Work that's cleaned up and clarified
+- reference - A supporting document written by another
 `Also: atoms (single concept)/molecules(linked concepts)/alloys(crafted)`
 
 Obsidian to Hugo Publishing

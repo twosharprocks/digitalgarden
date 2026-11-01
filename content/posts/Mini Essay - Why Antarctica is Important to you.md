@@ -6,7 +6,6 @@ status: tree
 tags:
   - mini-essay
   - writing
-  - antarctica
 related: 
   - "[[Mini Essays]]"
   - "[[Writing]]"

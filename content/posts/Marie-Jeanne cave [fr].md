@@ -4,9 +4,7 @@ created: 2024-12-09
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - haiti
 feature_type: "Cave"
 latitude: 18.254543000000012
 longitude: -74.09427

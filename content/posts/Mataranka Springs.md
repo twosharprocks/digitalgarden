@@ -4,9 +4,7 @@ created: 2023-04-16
 updated: 2026-10-13
 status: seed
 tags:
-  - diving
   - caving
-  - northern-territory
 latitude: -14.922463274205597
 longitude: 133.13361167907715
 suburb: "Mataranka"
