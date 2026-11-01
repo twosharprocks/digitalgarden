@@ -28,73 +28,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Act</title>
-				<link>/tags/act/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>/tags/act/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Afghanistan</title>
-				<link>/tags/afghanistan/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>/tags/afghanistan/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Air-Fryer</title>
 				<link>/tags/air-fryer/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>/tags/air-fryer/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Akiyoshidai</title>
-				<link>/tags/akiyoshidai/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>/tags/akiyoshidai/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Albania</title>
-				<link>/tags/albania/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>/tags/albania/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Algeria</title>
-				<link>/tags/algeria/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>/tags/algeria/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Angola</title>
-				<link>/tags/angola/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>/tags/angola/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Antarctica</title>
-				<link>/tags/antarctica/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>/tags/antarctica/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Argentina</title>
-				<link>/tags/argentina/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>/tags/argentina/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Armenia</title>
-				<link>/tags/armenia/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>/tags/armenia/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -105,27 +42,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Australia</title>
-				<link>/tags/australia/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>/tags/australia/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Austria</title>
-				<link>/tags/austria/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>/tags/austria/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Bahamas</title>
-				<link>/tags/bahamas/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>/tags/bahamas/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Beef</title>
 				<link>/tags/beef/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -133,24 +49,108 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Belgium</title>
-				<link>/tags/belgium/</link>
+				<title>Breakfast</title>
+				<link>/tags/breakfast/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>/tags/belgium/</guid>
+				<guid>/tags/breakfast/</guid>
 				<description></description>
 			</item>
 			<item>
-				<title>Bermuda</title>
-				<link>/tags/bermuda/</link>
+				<title>Burrito</title>
+				<link>/tags/burrito/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>/tags/bermuda/</guid>
+				<guid>/tags/burrito/</guid>
 				<description></description>
 			</item>
 			<item>
-				<title>Bolivia</title>
-				<link>/tags/bolivia/</link>
+				<title>Caving</title>
+				<link>/tags/caving/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>/tags/bolivia/</guid>
+				<guid>/tags/caving/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Chicken</title>
+				<link>/tags/chicken/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/tags/chicken/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Chorizo</title>
+				<link>/tags/chorizo/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/tags/chorizo/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Easy</title>
+				<link>/tags/easy/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/tags/easy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Expeditions</title>
+				<link>/tags/expeditions/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/tags/expeditions/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Gnocchi</title>
+				<link>/tags/gnocchi/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/tags/gnocchi/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>High-Protein</title>
+				<link>/tags/high-protein/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/tags/high-protein/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ideas</title>
+				<link>/tags/ideas/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/tags/ideas/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Index</title>
+				<link>/tags/index/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/tags/index/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Indulgent</title>
+				<link>/tags/indulgent/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/tags/indulgent/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Interests</title>
+				<link>/tags/interests/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/tags/interests/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Knowledge-Management</title>
+				<link>/tags/knowledge-management/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/tags/knowledge-management/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Meal</title>
+				<link>/tags/meal/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/tags/meal/</guid>
 				<description></description>
 			</item>
 	</channel>

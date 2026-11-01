@@ -150,66 +150,6 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="/posts/script---powershell---ad-offboarding/">Script - PowerShell - AD-Offboarding</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            # Specific username to offboard and the updated description function move-user-offboarding { $user = read-host &amp;#39;Username&amp;#39; $updatedDescription = read-host &amp;#39;ICT Number and Date&amp;#39; # Do not edit anything below this Disable-ADAccount -Identity $user $destinationOU = &amp;#34;OU=Off …
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/script---powershell---ad-offboarding/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/script---powershell---ad-oumaintenance/">Script - PowerShell - AD-OUMaintenance</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            # List Any Disabled users in the &amp;#34;Office Users&amp;#34; OU function Find-Disabled-Office { $ouPath = &amp;#34;OU=Office Users,DC=int&amp;#34; $OfficeUsers = Get-ADUser -Filter { Enabled -eq $false } -SearchBase $ouPath -Properties LastLogonDate,Enabled | Select-Object SamAccountName,LastLogonDate,Enabled …
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/script---powershell---ad-oumaintenance/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
           <a href="/posts/script---powershell---archive-userfiles/">Script - PowerShell - Archive-UserFiles</a>
         </h2>
         <div class="post-meta"></div>
@@ -294,6 +234,66 @@
         
            <div>
             <a class="read-more button inline" href="/posts/script---python---pdftoterminal/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/script---python---redact/">Script - Python - redact</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/script/">script</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            import re import chardet def read_file(file_path): with open(file_path, &amp;#39;rb&amp;#39;) as file: raw_data = file.read() result = chardet.detect(raw_data) encoding = result[&amp;#39;encoding&amp;#39;] with open(file_path, &amp;#39;r&amp;#39;, encoding=encoding) as file: return file.read() def write_file(file_path, …
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/script---python---redact/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="/posts/script---python---search-replace/">Script - Python - search-replace</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/script/">script</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            #!/usr/bin/env python3 from pathlib import Path import argparse import re def slugify(text: str) -&amp;gt; str: &amp;#34;&amp;#34;&amp;#34;Replace spaces with dashes and strip leading/trailing spaces.&amp;#34;&amp;#34;&amp;#34; return text.strip().replace(&amp;#34; &amp;#34;, &amp;#34;-&amp;#34;) def process_file(path: Path, pattern: …
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/script---python---search-replace/">[Read more]</a>
           </div>
         
       </article>
