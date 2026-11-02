@@ -34,7 +34,7 @@ address: "Rocamadour, Occitanie, FRA, 46500"
 
 # Maps
 
-- [Reseau_de_lOuysse_plan - 93ff622f-b795a806](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/20c70521653979f0e86d3ebf74b477bc9c0d2a31cc77eca278b6a2d2ea39c528.kml)
+- [Reseau_de_lOuysse_plan - 93ff622f-b795a806](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/20c70521653979f0e86d3ebf74b477bc9c0d2a31cc77eca278b6a2d2ea39c528.kml)
 
 # References
 
@@ -47,5 +47,5 @@ address: "Rocamadour, Occitanie, FRA, 46500"
 - ![Gouffre De Cabouy Reseau De L'ouysse 6cfb7ac0 B795a806](/images/Gouffre%20De%20Cabouy%20-%20Reseau%20de%20l%27Ouysse%20-%206cfb7ac0-b795a806.jpg)
 - ![Gouffre De Cabouy FB IMG 1782032832348 A4396507 B795a806](/images/Gouffre%20De%20Cabouy%20-%20FB_IMG_1782032832348%20-%20a4396507-b795a806.jpg)
 - ![Gouffre De Cabouy FB IMG 1782032830178 3c4bbf6a B795a806](/images/Gouffre%20De%20Cabouy%20-%20FB_IMG_1782032830178%20-%203c4bbf6a-b795a806.jpg)
-- [Reseau_de_lOuysse - 80505cba-b795a806](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/91819263c36d692ee78d2e83072432343619a59cf83fed46811e63262123b0fb.pdf)
+- [Reseau_de_lOuysse - 80505cba-b795a806](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/91819263c36d692ee78d2e83072432343619a59cf83fed46811e63262123b0fb.pdf)
 - [DiveSAGA](https://www.youtube.com/watch?v=eEvmgP7Q5HM)

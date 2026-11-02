@@ -48,4 +48,4 @@ Repository - Sketchsheets, Survex and Illustrator files
 ## Images
 - ![CP 6 River Cave Cp6river D265eb41 9ca45287](/images/CP-6%20-%20River%20Cave%20-%20cp6river%20-%20d265eb41-9ca45287.jpg)
 - ![CP 6 River Cave Cp6riversketch04 82139647 9ca45287](/images/CP-6%20-%20River%20Cave%20-%20CP6Riversketch04%20-%2082139647-9ca45287.jpg)
-- [cp6river - d45966fc-9ca45287](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/a290f7584483be4044c065f2f992d9678b959fb2a0f43201d3c1d3acf0b5117f.pdf)
+- [cp6river - d45966fc-9ca45287](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/a290f7584483be4044c065f2f992d9678b959fb2a0f43201d3c1d3acf0b5117f.pdf)

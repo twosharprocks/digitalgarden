@@ -41,7 +41,10 @@ class WebsiteRules:
    else:
     front,body=current.split('---',2)[1:];front=re.sub(r'(?m)^related:[^\n]*\n(?:[ \t]+[^\n]*\n|\n)*','',front);self.texts[key]='---'+front+'---'+body
    if rule['mode']=='reduced' and self.sources[key]!=rule['source_sha256']:self.events.append({'record':p.stem,'public_summary_held_fixed':True})
-  manifest=read(PRIVATE/'karst-attachment-manifest.json');self.manifest=manifest;approved={x['source_sha256'] for x in manifest.values()};outputs={x['sha256'] for x in manifest.values()}
+  published=read(PRIVATE/'karst-publication.json') if (PRIVATE/'karst-publication.json').exists() else {'revision':'a91711b0be35b53a5de563e070ff13f8b90c3afa','attachments':read(PRIVATE/'karst-attachment-manifest.json')}
+  self.karst_revision=published['revision']
+  if not re.fullmatch(r'[0-9a-f]{40}',self.karst_revision):raise ValueError('Invalid published Karst revision')
+  manifest=published['attachments'];self.manifest=manifest;approved={x['source_sha256'] for x in manifest.values()};outputs={x['sha256'] for x in manifest.values()}
   omitted=read(PRIVATE/'karst-omitted-identities.json');denied_sha={x['sha256'] for x in omitted.values()};denied_git={x['git_blob_sha1'] for x in omitted.values()};self.needles=config['redacted_location_needles']
   for d in decisions:
    path=Path(d['path']);ident=fingerprints(path)
@@ -92,7 +95,7 @@ class WebsiteRules:
    if alias.isdigit():alias=path.stem
    image=embedded and path.suffix.lower() in {'.webp','.svg','.heic'}
    prefix='https://raw.githubusercontent.com/twosharprocks/Karst-Database/' if image else 'https://github.com/twosharprocks/Karst-Database/blob/'
-   return ('!' if image else '')+'['+alias.replace('[','\\[').replace(']','\\]')+']('+prefix+'a91711b0be35b53a5de563e070ff13f8b90c3afa/'+quote(by_sha[digest],safe='/')+')'
+   return ('!' if image else '')+'['+alias.replace('[','\\[').replace(']','\\]')+']('+prefix+self.karst_revision+'/'+quote(by_sha[digest],safe='/')+')'
   self.root.mkdir(parents=True,exist_ok=True);expected={}
   for name,text in self.texts.items():
    if name in self.excluded:continue

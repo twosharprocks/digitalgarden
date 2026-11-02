@@ -94,4 +94,4 @@ Romano Trevisiol
 ## Images
 - ![Grotta Rio Torretta Rio 0b0b52f5 3e26cb10](/images/Grotta%20Rio%20Torretta%20-%20rio%20-%200b0b52f5-3e26cb10.jpg)
 - ![Grotta Rio Torretta Rio2 39ff4229 3e26cb10](/images/Grotta%20Rio%20Torretta%20-%20rio2%20-%2039ff4229-3e26cb10.jpg)
-- [La risorgenza di Rio Torretta - c480b8b1-3e26cb10](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/b0543650415a8ff9795cfd8bd97a87b835db28228db900a7e769a2388d5bb269.pdf)
+- [La risorgenza di Rio Torretta - c480b8b1-3e26cb10](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/b0543650415a8ff9795cfd8bd97a87b835db28228db900a7e769a2388d5bb269.pdf)

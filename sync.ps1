@@ -21,6 +21,15 @@ if ((Test-Path -LiteralPath (Join-Path $PSScriptRoot '.cache\web-images-publish.
     exit 2
 }
 
+# Adopt only verified published attachment links while the website is idle.
+$karstPreparation = Join-Path $env:USERPROFILE 'Documents\Codex\Karst Sync\prepare.py'
+if (Test-Path -LiteralPath $karstPreparation) {
+    try {
+        $handover = Start-Process -FilePath (Get-Command python).Source -ArgumentList @(('"' + $karstPreparation + '"'), '--reconcile-website') -WindowStyle Hidden -Wait -PassThru
+        if ($handover.ExitCode -ne 0) { Write-Host 'Karst attachment links remain at the last verified public version.' }
+    } catch { Write-Host 'Karst attachment link handover deferred; retaining the last verified public version.' }
+}
+
 $publishMutex = [Threading.Mutex]::new($false, 'Local\DigitalGardenPublish')
 if (-not $publishMutex.WaitOne(0)) {
     Write-Host 'Another digital garden publish is already running. Exiting.'

@@ -28,7 +28,7 @@ Checked DEC2022 - Found sign reading "L940", dropped down 6m solution tube, iden
 
 # Maps
 
-[5L179 - Caveton Park Estate Cave - Report (Horne, 1981) - MAP](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L179%20-%20Caveton%20Park%20Estate%20Cave%20-%20Report%20%28Horne%2C%201981%29.pdf)
+[5L179 - Caveton Park Estate Cave - Report (Horne, 1981) - MAP](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L179%20-%20Caveton%20Park%20Estate%20Cave%20-%20Report%20%28Horne%2C%201981%29.pdf)
 
 # References
 
@@ -38,8 +38,8 @@ Checked DEC2022 - Found sign reading "L940", dropped down 6m solution tube, iden
 - ![L0179 Caveton Park Estate Cave Caveton A3edfebf A49bb2e5](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20caveton%20-%20a3edfebf-a49bb2e5.jpg)
 - ![L0179 Caveton Park Estate Cave Caveton2 7b695836 A49bb2e5](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20caveton2%20-%207b695836-a49bb2e5.jpg)
 - ![L0179 Caveton Park Estate Cave Caveton F5a97369 A49bb2e5](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20caveton%20-%20f5a97369-a49bb2e5.jpg)
-- [5L179 - Caveton Park Estate Cave (Initial Report) - 694fa530-a49bb2e5](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L179%20-%20Caveton%20Park%20Estate%20Cave%20-%20Report%20%28Horne%2C%201981%29.pdf)
-- [5L179 - Caveton Park Estate Cave (Initial Report) - afbf869e-a49bb2e5](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L179%20-%20Caveton%20Park%20Estate%20Cave%20-%20Report%20%28Horne%2C%201981%29.pdf)
+- [5L179 - Caveton Park Estate Cave (Initial Report) - 694fa530-a49bb2e5](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L179%20-%20Caveton%20Park%20Estate%20Cave%20-%20Report%20%28Horne%2C%201981%29.pdf)
+- [5L179 - Caveton Park Estate Cave (Initial Report) - afbf869e-a49bb2e5](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L179%20-%20Caveton%20Park%20Estate%20Cave%20-%20Report%20%28Horne%2C%201981%29.pdf)
 - ![L0179 Caveton Park Estate Cave Photo 6553701 DJI 101 Jpg 4232433 0 20221223102632 Photo Original 5d07bcbf 715202ea](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20Photo_6553701_DJI_101_jpg_4232433_0_20221223102632_photo_original%20-%205d07bcbf-715202ea.jpg)
 - ![L0179 Caveton Park Estate Cave Caveton2 22397367 715202ea](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20caveton2%20-%2022397367-715202ea.jpg)
 - ![L0179 Caveton Park Estate Cave Caveton C585f381 715202ea](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20caveton%20-%20c585f381-715202ea.jpg)
@@ -52,8 +52,8 @@ The prospects of further extensions being discovered are now considered to be re
 - **Forestry SA:** L0939, Thin Roof: N, Fence: N. Dimensions: 0.2m deep. Features: Could join L179; obvious & shallow
 
 ## Images
-- [5L179 - Caveton Park Estate Cave (Initial Report) - 694fa530-a49bb2e5](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L179%20-%20Caveton%20Park%20Estate%20Cave%20-%20Report%20%28Horne%2C%201981%29.pdf)
-- [5L179 - Caveton Park Estate Cave (Initial Report) - afbf869e-a49bb2e5](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L179%20-%20Caveton%20Park%20Estate%20Cave%20-%20Report%20%28Horne%2C%201981%29.pdf)
+- [5L179 - Caveton Park Estate Cave (Initial Report) - 694fa530-a49bb2e5](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L179%20-%20Caveton%20Park%20Estate%20Cave%20-%20Report%20%28Horne%2C%201981%29.pdf)
+- [5L179 - Caveton Park Estate Cave (Initial Report) - afbf869e-a49bb2e5](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L179%20-%20Caveton%20Park%20Estate%20Cave%20-%20Report%20%28Horne%2C%201981%29.pdf)
 
 - **LSECR:** Page 348
 This beautiful and relatively unpolluted sinkhole is a large open collapse somewhat akin to SL40 (Hells Hole) and SL10 ([Caroline Sinkhole]({{< relref "posts/Caroline Sinkhole.md" >}})) in appearance, although considerably smaller. It is about 30 x 25 metres in diameter and drops some 23 metres to water level, and it has sheer, rugged sides and large shelves of soft, sandy dune limestone which break away extremely easily.

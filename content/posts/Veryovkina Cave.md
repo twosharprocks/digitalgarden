@@ -52,5 +52,5 @@ data_quality_notes: "The opening comparison describes Krubera Cave. The stored a
 - **Wikipedia:** https://en.wikipedia.org/wiki/Veryovkina_Cave
 
 ## Images
-- [Veryovkina Cave - Verëvkina_cave_-_profile_with_surface - cb7ebc5f-ba70c4fb](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/95b471c45b6f14b4d8d7a3278d387af7c2e9bc7778330b372fbf2cb9b85b1519.svg)
+- [Veryovkina Cave - Verëvkina_cave_-_profile_with_surface - cb7ebc5f-ba70c4fb](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/95b471c45b6f14b4d8d7a3278d387af7c2e9bc7778330b372fbf2cb9b85b1519.svg)
 - ![Veryovkina Cave План English (сер) B7650429 Ba70c4fb](/images/Veryovkina%20Cave%20-%20%D0%9F%D0%BB%D0%B0%D0%BD_English_%28%D1%81%D0%B5%D1%80%29%20-%20b7650429-ba70c4fb.jpg)

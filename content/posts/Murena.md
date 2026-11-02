@@ -38,4 +38,4 @@ The lagoon is open to snorkelling but diving is prohibited without permit.
 
 # Maps
 
-- [Murena - 3fba632a-dd72cf24](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/b757ad624a5c5796bd5eb2375d8ee94e152336f50055a3f5cf2ec1f86a416d16.kml)
+- [Murena - 3fba632a-dd72cf24](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/b757ad624a5c5796bd5eb2375d8ee94e152336f50055a3f5cf2ec1f86a416d16.kml)

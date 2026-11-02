@@ -58,7 +58,7 @@ KML Survey: Iddlebiddy.kml
 - ![5l250 Iddlebiddy Cave Diver At The Main Iddlebiddy Tunnel Section 22781733 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20Diver%20at%20the%20main%20Iddlebiddy%20tunnel%20section%20-%2022781733-5a860a82.jpeg)
 - ![5l250 Iddlebiddy Cave 5l250 Iddlebiddy Full Line Survey 69193e1d 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%205L250%20-%20Iddlebiddy%20-%20full%20line%20survey%20-%2069193e1d-5a860a82.jpg)
 - ![5l250 Iddlebiddy Cave Map Overlay (googlemaps) E90f909f 5a860a82](/images/5L250%20-%20Iddlebiddy%20Cave%20-%20Map%20Overlay%20%28googlemaps%29%20-%20e90f909f-5a860a82.jpeg)
-- [Iddlebiddy - f89d1bdd-5a860a82](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/KML_Data/Iddlebiddy.kml)
+- [Iddlebiddy - f89d1bdd-5a860a82](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/KML_Data/Iddlebiddy.kml)
 
 # References
 
@@ -90,7 +90,7 @@ Iddlebiddy Cave is indeed a valuable cave diving site worthy of considerable pro
 - [df00a6a8-c184-472d-a46e-e5fe00585dc2](https://www.youtube.com/watch?v=DNh7DX5QidQ)
 - [b7a3eb21-0830-4486-8ac6-170a65c335b8](https://www.youtube.com/watch?v=cRxXXUKfOTw)
 - [83ee4507-4180-4626-8e17-698691bf97c7](https://www.youtube.com/watch?v=k3gbjbuN3ps)
-- [Iddlebiddy Map Dec23 - 8c073f79-5a860a82](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L250%20-%20Iddlebiddy%20-%20Will%20Passos%20%28Dec%202023%29.pdf)
+- [Iddlebiddy Map Dec23 - 8c073f79-5a860a82](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L250%20-%20Iddlebiddy%20-%20Will%20Passos%20%28Dec%202023%29.pdf)
 
 # Details
 

@@ -40,7 +40,7 @@ address: "Shire of Dundas, Western Australia, AUS, 6443"
 
 # Maps
 
-- [site - b70bf411-d7500adf](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/KML_Data/Burnabbie.kml)
+- [site - b70bf411-d7500adf](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/KML_Data/Burnabbie.kml)
 
 # References
 
@@ -53,4 +53,4 @@ address: "Shire of Dundas, Western Australia, AUS, 6443"
 - ![Burnabbie Cave Burnabbie3 931ae59e D7500adf](/images/Burnabbie%20Cave%20-%20burnabbie3%20-%20931ae59e-d7500adf.jpg)
 - ![Burnabbie Cave Burnabbie2 53727174 D7500adf](/images/Burnabbie%20Cave%20-%20burnabbie2%20-%2053727174-d7500adf.jpg)
 - [bf4d38ab-5488-4c39-866d-d20369375d85](https://www.youtube.com/watch?v=VmfhXZqm2Nc)
-- [Burnabbie Map - 996b11bc-d7500adf](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/a9aadc76fd6fe38ce07c6574413a3c2fa7b2c30f7010af45e5fe0b55a5138441.pdf)
+- [Burnabbie Map - 996b11bc-d7500adf](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/a9aadc76fd6fe38ce07c6574413a3c2fa7b2c30f7010af45e5fe0b55a5138441.pdf)

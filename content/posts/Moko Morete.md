@@ -37,7 +37,7 @@ Moko Morete opens in a vast blue hole. An underwater passage to the west can be 
 
 ## Images
 - [31e73218-6412-4257-a482-4fb6787893d8](https://www.youtube.com/watch?v=aM-bPcBeXhA)
-- [241 - 6200ab3d-9ecbad71](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/4dbb8b5b04ef81a3ca7fad15a9922c39cd912241bb4d7595e3378b7de0041257.pdf)
+- [241 - 6200ab3d-9ecbad71](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/4dbb8b5b04ef81a3ca7fad15a9922c39cd912241bb4d7595e3378b7de0041257.pdf)
 
 # Details
 

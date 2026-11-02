@@ -42,8 +42,8 @@ Olwolgin Cave is a testament to the hidden wonders that lie beneath the surface 
 # References
 
 
-- [6N920 - Olwolgin (DWG, 2022) (A0 size) - MAP](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/Maps/6N920%20-%20Olwolgin%20%28DWG%2C%202022%29%20%28A0%20size%29.pdf)
-- [6N920 - Olwolgin (DWG, 2022) (A0 size - north up)](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/Maps/6N920%20-%20Olwolgin%20%28DWG%2C%202022%29%20%28A0%20size%20-%20north%20up%29.pdf)
+- [6N920 - Olwolgin (DWG, 2022) (A0 size) - MAP](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/Maps/6N920%20-%20Olwolgin%20%28DWG%2C%202022%29%20%28A0%20size%29.pdf)
+- [6N920 - Olwolgin (DWG, 2022) (A0 size - north up)](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/Maps/6N920%20-%20Olwolgin%20%28DWG%2C%202022%29%20%28A0%20size%20-%20north%20up%29.pdf)
 
 ## Images
 - ![Olwolgin Cave Ol 1534c771 864d1f22](/images/Olwolgin%20Cave%20-%20ol%20-%201534c771-864d1f22.jpg)
@@ -90,4 +90,4 @@ Olwolgin Cave is a testament to the hidden wonders that lie beneath the surface 
 
 # Maps
 
-- [Olwolgin - All - 11784db8-864d1f22](https://github.com/twosharprocks/Karst-Database/blob/a91711b0be35b53a5de563e070ff13f8b90c3afa/Assets/09786a282b2ff3b588e2edfd078443e6ba37547984ecff2e8e3e065fb185bb0a.kml)
+- [Olwolgin - All - 11784db8-864d1f22](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/09786a282b2ff3b588e2edfd078443e6ba37547984ecff2e8e3e065fb185bb0a.kml)
