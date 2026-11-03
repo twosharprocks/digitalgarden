@@ -32,7 +32,7 @@ about 65 m long ending in a collapse of stones.
 - ![Permandian Moko Permandian Moko B382ab8a 83ed1117](/images/Permandian%20Moko%20-%20Permandian%20Moko%20-%20b382ab8a-83ed1117.jpg)
 
 ## Images
-- [241 - 67c09ef9-83ed1117](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/4dbb8b5b04ef81a3ca7fad15a9922c39cd912241bb4d7595e3378b7de0041257.pdf)
+- [241 - 67c09ef9-83ed1117](https://github.com/twosharprocks/Karst-Database/blob/d6f539534154fcd23f60d0a25899bf7ef553f1d8/Assets/4dbb8b5b04ef81a3ca7fad15a9922c39cd912241bb4d7595e3378b7de0041257.pdf)
 
 # Details
 

@@ -6423,8 +6423,8 @@ related:
 
 # References
 
-- [Lower South East Cave Reference (Horne, 1993)](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/Lower%20South%20East%20Cave%20Reference%20%28Horne%2C%201993%29.pdf)
-- [Cavities in Mt Gambier Township (Mott) - MAP](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/Cavities%20in%20Mt%20Gambier%20Township%20%28Mott%29.pdf)
+- [Lower South East Cave Reference (Horne, 1993)](https://github.com/twosharprocks/Karst-Database/blob/d6f539534154fcd23f60d0a25899bf7ef553f1d8/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/Lower%20South%20East%20Cave%20Reference%20%28Horne%2C%201993%29.pdf)
+- [Cavities in Mt Gambier Township (Mott) - MAP](https://github.com/twosharprocks/Karst-Database/blob/d6f539534154fcd23f60d0a25899bf7ef553f1d8/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/Cavities%20in%20Mt%20Gambier%20Township%20%28Mott%29.pdf)
 
 Site Bookings 
 - [Booking  - Forestry](https://forestrysa2.rezdy.com/catalog/398879/cave-diving)

@@ -39,9 +39,9 @@ Guide only. Divers without a guide can enter the system from Cenote Tak Bi Ha or
 
 # Maps
 
-- [The Pit - 5547360c-0785aa88](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/a5ba1a3e01a08ea9f34878a249faf434a1ff55eff57c5d019ba7125e30b8e3e4.kml)
+- [The Pit - 5547360c-0785aa88](https://github.com/twosharprocks/Karst-Database/blob/d6f539534154fcd23f60d0a25899bf7ef553f1d8/Assets/a5ba1a3e01a08ea9f34878a249faf434a1ff55eff57c5d019ba7125e30b8e3e4.kml)
 
-- [The Pit - 5547360c-bd2db5e0](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/a5ba1a3e01a08ea9f34878a249faf434a1ff55eff57c5d019ba7125e30b8e3e4.kml)
+- [The Pit - 5547360c-bd2db5e0](https://github.com/twosharprocks/Karst-Database/blob/d6f539534154fcd23f60d0a25899bf7ef553f1d8/Assets/a5ba1a3e01a08ea9f34878a249faf434a1ff55eff57c5d019ba7125e30b8e3e4.kml)
 
 # References
 

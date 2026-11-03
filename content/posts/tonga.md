@@ -6445,6 +6445,6 @@ Tonga's geological landscape includes islands with uplifted coral limestone form
 
 https://www.divingtonga.com/
 https://www.diveworld.info/scuba-diving-in-tonga/
-[Caves Of Eua Kingdom - Tonga ACKMA](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/559c9e6c206af904f0a88a5d37dcc2105cd7b058edfd56492d3762ef4dd0bce4.pdf)
+[Caves Of Eua Kingdom - Tonga ACKMA](https://github.com/twosharprocks/Karst-Database/blob/d6f539534154fcd23f60d0a25899bf7ef553f1d8/Assets/559c9e6c206af904f0a88a5d37dcc2105cd7b058edfd56492d3762ef4dd0bce4.pdf)
 https://farandawayadventures.com/the-5-best-locations-in-tonga-for-scuba-diving/
 [Insta - This is Tonga](https://www.instagram.com/p/DM69p1WibEE/)

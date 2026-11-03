@@ -64,4 +64,4 @@ Burrinjuck Dam is a gated, concrete-walled hydro-electric gravity dam at Burrinj
 - ![Burrinjuck Dam N2862 U 12ecc639 6a69b9c0](/images/Burrinjuck%20Dam%20-%20n2862-u-%20-%2012ecc639-6a69b9c0.jpg)
 - ![Burrinjuck Dam Entrance 36c27050 6a69b9c0](/images/Burrinjuck%20Dam%20-%20entrance%20-%2036c27050-6a69b9c0.jpg)
 - ![Burrinjuck Dam N2863 U 54141ef4 6a69b9c0](/images/Burrinjuck%20Dam%20-%20n2863-u-%20-%2054141ef4-6a69b9c0.jpg)
-- [Burrinjuck 2 - 092c379a-6a69b9c0](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/35450c4fc6f00b77f4d3aeccf2e2e36bb8307f2e071b6ab66f109d9be596c3ce.pdf)
+- [Burrinjuck 2 - 092c379a-6a69b9c0](https://github.com/twosharprocks/Karst-Database/blob/d6f539534154fcd23f60d0a25899bf7ef553f1d8/Assets/35450c4fc6f00b77f4d3aeccf2e2e36bb8307f2e071b6ab66f109d9be596c3ce.pdf)

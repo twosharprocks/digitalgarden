@@ -34,5 +34,5 @@ Steep descent from escarpment (would be scary in 2WD).  Telegraph track sandy an
 
 # Maps
 
-- [Fire-Tracks-for-JM - 77d18b17-f2f3c64f](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/2bf006dcb879f4d9c82e87291b3de9712267ba5a96af872097b14ee9aaa1ac41.kml)
-- [Olwolgin - Burnabbie trail - 6c6751f2-f2f3c64f](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/b2050b527eab05ee70dc63a2e4de393e1f18a4c6b64024241f42974d63000283.gpx)
+- [Fire-Tracks-for-JM - 77d18b17-f2f3c64f](https://github.com/twosharprocks/Karst-Database/blob/d6f539534154fcd23f60d0a25899bf7ef553f1d8/Assets/2bf006dcb879f4d9c82e87291b3de9712267ba5a96af872097b14ee9aaa1ac41.kml)
+- [Olwolgin - Burnabbie trail - 6c6751f2-f2f3c64f](https://github.com/twosharprocks/Karst-Database/blob/d6f539534154fcd23f60d0a25899bf7ef553f1d8/Assets/b2050b527eab05ee70dc63a2e4de393e1f18a4c6b64024241f42974d63000283.gpx)

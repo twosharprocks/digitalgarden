@@ -29,7 +29,7 @@ address: "National Highway 1, Shire of Dundas, Western Australia, AUS, 6443"
 - ![6N49 Pannikin Plains Image D4e6ba6f 85b9c617](/images/6N49%20-%20Pannikin%20Plains%20-%20Image%20-%20d4e6ba6f-85b9c617.jpg)
 
 # Maps
-- [Pannikin Plains - 6N49](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/a0906eaeb6c9c3e039d06e4a5eeb8c1b9d1833c1531c3f29623ca816c6661caf.pdf)
+- [Pannikin Plains - 6N49](https://github.com/twosharprocks/Karst-Database/blob/d6f539534154fcd23f60d0a25899bf7ef553f1d8/Assets/a0906eaeb6c9c3e039d06e4a5eeb8c1b9d1833c1531c3f29623ca816c6661caf.pdf)
 
 # Details
 

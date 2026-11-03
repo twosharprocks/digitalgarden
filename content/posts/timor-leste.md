@@ -6463,4 +6463,4 @@ catalog-type: "region"
 
 # References
 
-[Cave Exploration in East Timor - John Brush](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/42fb77907bb4c9f84a44566180cb5d022c5e7cdd00df1fb47af93e1f8dea6c15.pdf)
+[Cave Exploration in East Timor - John Brush](https://github.com/twosharprocks/Karst-Database/blob/d6f539534154fcd23f60d0a25899bf7ef553f1d8/Assets/42fb77907bb4c9f84a44566180cb5d022c5e7cdd00df1fb47af93e1f8dea6c15.pdf)
