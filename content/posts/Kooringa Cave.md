@@ -42,7 +42,7 @@ First opened to the public in 1875, this striking single-chamber cave contains m
 
 - **National Parks NSW:** https://www.nationalparks.nsw.gov.au/things-to-do/show-caves/kooringa-cave
 
-<!-- ASF slide images: start -->
+
 ## ASF slide images
 
 Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.

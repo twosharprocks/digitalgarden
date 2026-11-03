@@ -290,6 +290,7 @@ related:
 - [Buzluk Cave]({{< relref "posts/Buzluk Cave.md" >}})
 - [Buzz Spring Cave]({{< relref "posts/Buzz Spring Cave.md" >}})
 - [Buzzard's Roost Cave`]({{< relref "posts/Buzzard's Roost Cave`.md" >}})
+- [Byaduk Caves]({{< relref "posts/Byaduk Caves.md" >}})
 - [Bätterich]({{< relref "posts/Bätterich.md" >}})
 - [C-215]({{< relref "posts/C-215.md" >}})
 - [C1035]({{< relref "posts/C1035.md" >}})
@@ -3494,6 +3495,7 @@ related:
 - [Buzluk Cave]({{< relref "posts/Buzluk Cave.md" >}})
 - [Buzz Spring Cave]({{< relref "posts/Buzz Spring Cave.md" >}})
 - [Buzzard's Roost Cave`]({{< relref "posts/Buzzard's Roost Cave`.md" >}})
+- [Byaduk Caves]({{< relref "posts/Byaduk Caves.md" >}})
 - [Bätterich]({{< relref "posts/Bätterich.md" >}})
 - [C-215]({{< relref "posts/C-215.md" >}})
 - [C1035]({{< relref "posts/C1035.md" >}})
@@ -6421,8 +6423,8 @@ related:
 
 # References
 
-- [Lower South East Cave Reference (Horne, 1993)](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/Lower%20South%20East%20Cave%20Reference%20%28Horne%2C%201993%29.pdf)
-- [Cavities in Mt Gambier Township (Mott) - MAP](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/Cavities%20in%20Mt%20Gambier%20Township%20%28Mott%29.pdf)
+- [Lower South East Cave Reference (Horne, 1993)](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/Lower%20South%20East%20Cave%20Reference%20%28Horne%2C%201993%29.pdf)
+- [Cavities in Mt Gambier Township (Mott) - MAP](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/Cavities%20in%20Mt%20Gambier%20Township%20%28Mott%29.pdf)
 
 Site Bookings 
 - [Booking  - Forestry](https://forestrysa2.rezdy.com/catalog/398879/cave-diving)

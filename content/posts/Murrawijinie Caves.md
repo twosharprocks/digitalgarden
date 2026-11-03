@@ -25,7 +25,7 @@ address: "Nullarbor, South Australia, AUS, 5690"
 - **Feature type:** Cave
 - **System name:** Murrawijinie Caves
 
-<!-- ASF slide images: start -->
+
 ## ASF slide images
 
 Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.

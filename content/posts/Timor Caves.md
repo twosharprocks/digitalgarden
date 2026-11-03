@@ -37,4 +37,4 @@ The limestone at Timor is 30 Ma old, formed in a shallow marine environment, and
 # References
 
 ## Images
-- [OSBORNETIMORCAVES1986 - 5a5a249d-862ef963](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/ce5dd4f7aba9916e828ee2ef11a130c354883d9412351b0222cec9c2636252e5.pdf)
+- [OSBORNETIMORCAVES1986 - 5a5a249d-862ef963](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/ce5dd4f7aba9916e828ee2ef11a130c354883d9412351b0222cec9c2636252e5.pdf)

@@ -294,6 +294,7 @@ catalog-type: region
 - [Buzluk Cave]({{< relref "posts/Buzluk Cave.md" >}})
 - [Buzz Spring Cave]({{< relref "posts/Buzz Spring Cave.md" >}})
 - [Buzzard's Roost Cave`]({{< relref "posts/Buzzard's Roost Cave`.md" >}})
+- [Byaduk Caves]({{< relref "posts/Byaduk Caves.md" >}})
 - [Bätterich]({{< relref "posts/Bätterich.md" >}})
 - [C-215]({{< relref "posts/C-215.md" >}})
 - [C1035]({{< relref "posts/C1035.md" >}})
@@ -3498,6 +3499,7 @@ catalog-type: region
 - [Buzluk Cave]({{< relref "posts/Buzluk Cave.md" >}})
 - [Buzz Spring Cave]({{< relref "posts/Buzz Spring Cave.md" >}})
 - [Buzzard's Roost Cave`]({{< relref "posts/Buzzard's Roost Cave`.md" >}})
+- [Byaduk Caves]({{< relref "posts/Byaduk Caves.md" >}})
 - [Bätterich]({{< relref "posts/Bätterich.md" >}})
 - [C-215]({{< relref "posts/C-215.md" >}})
 - [C1035]({{< relref "posts/C1035.md" >}})
@@ -6462,9 +6464,9 @@ Satellite Imagery & Karst Mapping
 - **NASA Worldview**: Provides high-resolution satellite imagery, allowing you to examine surface features and terrain. [ga.gov.au+5earth.google.com+5zoom.earth+5](https://earth.google.com/intl/en-US/?utm_source=chatgpt.com)
 - **Zoom Earth**: Features daily updated satellite images, useful for observing current conditions and planning field activities. [zoom.earth+1worldview.earthdata.nasa.gov+1](https://zoom.earth/maps/satellite-hd/?utm_source=chatgpt.com)
 
-- [Paper - The History of Christmas Island and the Management of it's Karst Features - P. Meek](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/0b547865cb72a8612b209bdc43a522876704b6533e1f8fdc33bf0a6d019e7917.pdf)
-- [Paper - Geochronology and Paleoposition of Christmas Island](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/1fe54f07a9e65cf28b7c48dd392dab84c097c252be091becffeea221287daf37.pdf)
-- [Paper - Karst Features of Christmas Island - K. Grimes](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/3e625dc3e9f23fe8f4de35b858301975dbec2ec141b2e7edace3177d24ffa896.pdf) & [Online](https://helictite.caves.org.au/pdf1/37.2.Grimes.pdf?utm_source=chatgpt.com)
+- [Paper - The History of Christmas Island and the Management of it's Karst Features - P. Meek](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/0b547865cb72a8612b209bdc43a522876704b6533e1f8fdc33bf0a6d019e7917.pdf)
+- [Paper - Geochronology and Paleoposition of Christmas Island](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/1fe54f07a9e65cf28b7c48dd392dab84c097c252be091becffeea221287daf37.pdf)
+- [Paper - Karst Features of Christmas Island - K. Grimes](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/3e625dc3e9f23fe8f4de35b858301975dbec2ec141b2e7edace3177d24ffa896.pdf) & [Online](https://helictite.caves.org.au/pdf1/37.2.Grimes.pdf?utm_source=chatgpt.com)
 
 [Geosciences Australia - Christmas Island](https://www.ga.gov.au/scientific-topics/national-location-information/dimensions/remote-offshore-territories/christmas-island)
 - [Geosciences Australia - Christmas Island Topo Map](https://www.ga.gov.au/static/christmas/metadata/30k_natmap_data.html) 
@@ -6485,9 +6487,9 @@ Satellite Imagery & Karst Mapping
 
 Expeditions
 - **2013 National Geographic Expedition**: [advanceddivermagazine.com](https://www.advanceddivermagazine.com/articles/christmasisland.html) (March 2013, with Wet mules)
-- [CavesAustralia-227](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/ff23cd78e945dd2050e4221363e8764daaf1e91e062e04da563a104262d17306.pdf) (Feb-2024) pg 38
+- [CavesAustralia-227](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/ff23cd78e945dd2050e4221363e8764daaf1e91e062e04da563a104262d17306.pdf) (Feb-2024) pg 38
 	- https://wasg.org.au/christmas-island-2023
-- [CavesAustralia-208](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/cc3265dac5d3a07d24ffd4d2caf3c6c032b7335736cd88616d88df454d99b48f.pdf) (June-2019) pg 13 (eDNA sampling)
+- [CavesAustralia-208](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/cc3265dac5d3a07d24ffd4d2caf3c6c032b7335736cd88616d88df454d99b48f.pdf) (June-2019) pg 13 (eDNA sampling)
 	- https://wasg.org.au/christmas-island-2018
 
 - Christmas.net.au
@@ -6499,4 +6501,4 @@ Expeditions
 
 In assistance to Katrina West, a Curtin PhD student whose research focuses on the development of this technology, water and sediment samples were collected from 23 sites, including within caves and surface springs, across Christmas Island. These samples were then transported back to Curtin University, Perth to undergo further laboratory processing and determine, through the DNA present in the samples, what types of stygofauna inhabit these subterranean ecosystems. In addition, water parameters such as pH, temperature, conductivity, salinity, air saturation and dissolved oxygen were also measured on site, to determine if the community composition of stygofauna at various sites corresponds to these measures. The project aims to further develop and give prominence to the use of eDNA metabarcoding for subterranean surveying."
 - PhD Thesis: https://curate.curtin.edu.au/articles/thesis/The_development_and_application_of_eDNA_metabarcoding_for_aquatic_biomonitoring_in_Australia_s_Indian_Ocean_region/31709806?file=62764618
-	- Offline copy [Development and application of eDNA metabarcoding for aquatic biomonitoring in Australias Indian Ocean region (K West - 2020)](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/bade0bd0f5ad6b6be27db28e898decb31650832b3e61e5c11075926a421d2ddb.pdf)
+	- Offline copy [Development and application of eDNA metabarcoding for aquatic biomonitoring in Australias Indian Ocean region (K West - 2020)](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/bade0bd0f5ad6b6be27db28e898decb31650832b3e61e5c11075926a421d2ddb.pdf)

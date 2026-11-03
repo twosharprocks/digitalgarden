@@ -290,6 +290,7 @@ catalog-type: "region"
 - [Buzluk Cave]({{< relref "posts/Buzluk Cave.md" >}})
 - [Buzz Spring Cave]({{< relref "posts/Buzz Spring Cave.md" >}})
 - [Buzzard's Roost Cave`]({{< relref "posts/Buzzard's Roost Cave`.md" >}})
+- [Byaduk Caves]({{< relref "posts/Byaduk Caves.md" >}})
 - [Bätterich]({{< relref "posts/Bätterich.md" >}})
 - [C-215]({{< relref "posts/C-215.md" >}})
 - [C1035]({{< relref "posts/C1035.md" >}})
@@ -3494,6 +3495,7 @@ catalog-type: "region"
 - [Buzluk Cave]({{< relref "posts/Buzluk Cave.md" >}})
 - [Buzz Spring Cave]({{< relref "posts/Buzz Spring Cave.md" >}})
 - [Buzzard's Roost Cave`]({{< relref "posts/Buzzard's Roost Cave`.md" >}})
+- [Byaduk Caves]({{< relref "posts/Byaduk Caves.md" >}})
 - [Bätterich]({{< relref "posts/Bätterich.md" >}})
 - [C-215]({{< relref "posts/C-215.md" >}})
 - [C1035]({{< relref "posts/C1035.md" >}})
@@ -6443,6 +6445,6 @@ Tonga's geological landscape includes islands with uplifted coral limestone form
 
 https://www.divingtonga.com/
 https://www.diveworld.info/scuba-diving-in-tonga/
-[Caves Of Eua Kingdom - Tonga ACKMA](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/559c9e6c206af904f0a88a5d37dcc2105cd7b058edfd56492d3762ef4dd0bce4.pdf)
+[Caves Of Eua Kingdom - Tonga ACKMA](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/559c9e6c206af904f0a88a5d37dcc2105cd7b058edfd56492d3762ef4dd0bce4.pdf)
 https://farandawayadventures.com/the-5-best-locations-in-tonga-for-scuba-diving/
 [Insta - This is Tonga](https://www.instagram.com/p/DM69p1WibEE/)

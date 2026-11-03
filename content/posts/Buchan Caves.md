@@ -53,7 +53,7 @@ Includes Elk River
 - **Parks.vic.gov.au:** https://www.parks.vic.gov.au/places-to-see/parks/buchan-caves-reserve
 - **AgnesMilowka.com:** http://www.agnesmilowka.com/articles/dry-caves/59-elk-river-exploration
 
-<!-- ASF slide images: start -->
+
 ## ASF slide images
 
 Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.

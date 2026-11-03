@@ -36,7 +36,7 @@ Contains list and links to specific caves in the area
 
 - **National Parks NSW:** https://www.nationalparks.nsw.gov.au/visit-a-park/parks/yarrangobilly-area
 
-<!-- ASF slide images: start -->
+
 ## ASF slide images
 
 Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.

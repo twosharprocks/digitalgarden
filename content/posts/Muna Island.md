@@ -288,6 +288,7 @@ location_verification: "The exploratory site suggestions and coordinates in Cave
 - [Buzluk Cave]({{< relref "posts/Buzluk Cave.md" >}})
 - [Buzz Spring Cave]({{< relref "posts/Buzz Spring Cave.md" >}})
 - [Buzzard's Roost Cave`]({{< relref "posts/Buzzard's Roost Cave`.md" >}})
+- [Byaduk Caves]({{< relref "posts/Byaduk Caves.md" >}})
 - [Bätterich]({{< relref "posts/Bätterich.md" >}})
 - [C-215]({{< relref "posts/C-215.md" >}})
 - [C1035]({{< relref "posts/C1035.md" >}})
@@ -3248,8 +3249,8 @@ Hotel Alia - Muna Island
 
 # Cave Notes
 
-- [muna_island_places](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/620b141b63bd9b53649928ce73e4ca8b5f08960a84722776a1fea46110894f1b.csv)
-- [Muna Insland - Want to go](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/ff9615be7edc61a1f6c241a16e1ff244c4d818a8ec7ea3d850843f9d6b8b7490.csv)
+- [muna_island_places](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/620b141b63bd9b53649928ce73e4ca8b5f08960a84722776a1fea46110894f1b.csv)
+- [Muna Insland - Want to go](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/ff9615be7edc61a1f6c241a16e1ff244c4d818a8ec7ea3d850843f9d6b8b7490.csv)
 
 [Gua La Pahia]({{< relref "posts/Gua La Pahia.md" >}}) - House Cave
 [Kotaeono Cave](https://maps.app.goo.gl/7FdBf4p9zLHf7ai78)

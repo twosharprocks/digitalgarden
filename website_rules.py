@@ -24,7 +24,6 @@ class WebsiteRules:
    self.sources[str(p)]=sha(p.read_bytes())
    if p.suffix.lower()!='.md':raise ValueError('Non-note in Published needs review: '+p.name)
    text=p.read_text(encoding='utf-8-sig');self.texts[str(p)]=text;index.setdefault(identity(p.stem,text),[]).append(p)
-   if p.stem=='Byaduk Caves':self.excluded.add(str(p))
   for rule in rules:
    paths=index.get(rule['identity'],[])
    if len(paths)>1 and rule['mode']!='reduced':paths=[p for p in paths if p.stem==rule['name']]

@@ -26,7 +26,7 @@ address: "Nichols Gorge Walk, Cooleman, New South Wales, AUS, 2611"
 - **System name:** Cooleman Caves
 - **Source:** OpenStreetMap
 
-<!-- ASF slide images: start -->
+
 ## ASF slide images
 
 Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.

@@ -46,7 +46,7 @@ Further exploration and mapping is warranted; only a rough sketch is available a
 - ![L0253 Witches Cave Witches 844eff86 97f8b6c7](/images/L0253%20-%20Witches%20Cave%20-%20witches%20-%20844eff86-97f8b6c7.jpg)
 - ![L0253 Witches Cave Witches2 9533d210 97f8b6c7](/images/L0253%20-%20Witches%20Cave%20-%20witches2%20-%209533d210-97f8b6c7.jpg)
 
-<!-- ASF slide images: start -->
+
 ## ASF slide images
 
 Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.

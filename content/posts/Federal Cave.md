@@ -33,7 +33,7 @@ Federal Cave in the [Buchan Caves]({{< relref "posts/Buchan Caves.md" >}}) Reser
 
 # References
 
-<!-- ASF slide images: start -->
+
 ## ASF slide images
 
 Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.

@@ -51,7 +51,7 @@ Checked 2024-07 by MW
 - ![White Wells Cave PXL 20240713 024215934 6a734842 232fe0ac](/images/White%20Wells%20Cave%20-%20PXL_20240713_024215934%20-%206a734842-232fe0ac.jpg)
 - ![White Wells Cave DJI 0007 67df4ae8 232fe0ac](/images/White%20Wells%20Cave%20-%20DJI_0007%20-%2067df4ae8-232fe0ac.jpg)
 
-<!-- ASF slide images: start -->
+
 ## ASF slide images
 
 Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.

@@ -287,6 +287,7 @@ catalog-type: "region"
 - [Buzluk Cave]({{< relref "posts/Buzluk Cave.md" >}})
 - [Buzz Spring Cave]({{< relref "posts/Buzz Spring Cave.md" >}})
 - [Buzzard's Roost Cave`]({{< relref "posts/Buzzard's Roost Cave`.md" >}})
+- [Byaduk Caves]({{< relref "posts/Byaduk Caves.md" >}})
 - [Bätterich]({{< relref "posts/Bätterich.md" >}})
 - [C-215]({{< relref "posts/C-215.md" >}})
 - [C1035]({{< relref "posts/C1035.md" >}})
@@ -3491,6 +3492,7 @@ catalog-type: "region"
 - [Buzluk Cave]({{< relref "posts/Buzluk Cave.md" >}})
 - [Buzz Spring Cave]({{< relref "posts/Buzz Spring Cave.md" >}})
 - [Buzzard's Roost Cave`]({{< relref "posts/Buzzard's Roost Cave`.md" >}})
+- [Byaduk Caves]({{< relref "posts/Byaduk Caves.md" >}})
 - [Bätterich]({{< relref "posts/Bätterich.md" >}})
 - [C-215]({{< relref "posts/C-215.md" >}})
 - [C1035]({{< relref "posts/C1035.md" >}})
@@ -6426,4 +6428,4 @@ catalog-type: "region"
 
 # References
 
-[NSWCaveDivingReport2017](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/e683c3ff93174ef34424e3cf4fb44b9af537230f34c2b6de7aae8b0fac2eb164.pdf)
+[NSWCaveDivingReport2017](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/e683c3ff93174ef34424e3cf4fb44b9af537230f34c2b6de7aae8b0fac2eb164.pdf)

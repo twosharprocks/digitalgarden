@@ -61,7 +61,7 @@ Repository for [Mammoth Cave]({{< relref "posts/Mammoth Cave.md" >}}) - survex f
 
 - **National Parks NSW:** https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/jenolan-caves-guided-tours
 
-<!-- ASF slide images: start -->
+
 ## ASF slide images
 
 Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.

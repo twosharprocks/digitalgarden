@@ -68,7 +68,7 @@ The chilly 16C water is saline at 18,000ppm salt (sea water being 19,000ppm) and
 Located East of Madura Pass (1400km E of Perth), this cave is on the Roe Plain where the limestone surface is much closer to the water table (ie. bonus !!). The underwater cave is a set of intersecting network fissures with generally small breakdown passage. Distinct bedding planes at 3, 5 & 7m contain the most beautiful horizontal elliptical phreatic passage (see Gallery) as well as low flat passages which helps connect them all together. The maximum depth is a 7m bedding plane and the length of underwater passage explored so far is 410m (4/02).
 The chilly 16C water is saline at 18,000ppm salt (sea water being 19,000ppm) and has a distinctive blue hue, similar to Tommy Grahams Cave to the west. This cave is of specific interest to speleological biologists as it contains the most number of troglobitic animal species found in a single cave on the Nullarbor. There are two different types of troglobitic spider, a troglobitic cockroach, an isopod and an amphipod (a tiny aquatic crustacean).
 
-<!-- ASF slide images: start -->
+
 ## ASF slide images
 
 Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.

@@ -41,7 +41,7 @@ It's a good idea to wear sturdy shoes and bring a camera. Bring a packed lunch i
 
 - **National Parks NSW:** https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/archway-cave-tour
 
-<!-- ASF slide images: start -->
+
 ## ASF slide images
 
 Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.

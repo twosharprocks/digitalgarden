@@ -31,20 +31,20 @@ There are fixed lines in the side passages, these are shown on the map N47-CEG34
 ## Land use 
 The cave is on Nuytsland Nature Reserve, and specific permission is required to visit the cave. 
 ## Mitch's Maze MNemo Survey
-[6N47 - Murra-El-Elevyn (Porter, 2024) - MAP with Mitchs Maze MNemo Survey](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/4247243be5f8a9005f2fd2dfabb5622e7aa57a4007548c5c6de73a8d00082658.pdf)
-[6N47 - Murra-El-Elevyn (Porter, 2024) - MAP with Mitchs Maze MNemo Survey](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/4247243be5f8a9005f2fd2dfabb5622e7aa57a4007548c5c6de73a8d00082658.pdf)
+[6N47 - Murra-El-Elevyn (Porter, 2024) - MAP with Mitchs Maze MNemo Survey](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/4247243be5f8a9005f2fd2dfabb5622e7aa57a4007548c5c6de73a8d00082658.pdf)
+[6N47 - Murra-El-Elevyn (Porter, 2024) - MAP with Mitchs Maze MNemo Survey](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/4247243be5f8a9005f2fd2dfabb5622e7aa57a4007548c5c6de73a8d00082658.pdf)
 
 ![6N47 Murra El Elevyn (porter, 2024) MAP With Mitchs Maze Mnemo Survey](/images/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20-%20MAP%20with%20Mitchs%20Maze%20MNemo%20Survey.png)
 ![6N47 Murra El Elevyn (porter, 2024) MAP With Mitchs Maze Mnemo Survey](/images/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20-%20MAP%20with%20Mitchs%20Maze%20MNemo%20Survey.png)
 
-[6N47 - Murra-El-Elevyn - Mitchs Maze MNemo Survey](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Assets/2263f2e648728af065c46308c64343bec805320cbbaa21424550770f148b5578.csv)
+[6N47 - Murra-El-Elevyn - Mitchs Maze MNemo Survey](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Assets/2263f2e648728af065c46308c64343bec805320cbbaa21424550770f148b5578.csv)
 
 Caves of the Nullarbor 1967 p6 (N47-CEG30047)
 ![6N47 Murra El Elevyn Cegsa N47 Ceg3402](/images/6N47-%20Murra-El-Elevyn%20-%20CEGSA%20-%20N47-CEG3402.jpg)
 ![6N47 Murra El Elevyn Cegsa N47 Ceg3402](/images/6N47-%20Murra-El-Elevyn%20-%20CEGSA%20-%20N47-CEG3402.jpg)
 
-[6N47 - Murra-El-Elevyn (Porter, 2024) (High-Res PDF) - MAP](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/Maps/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20%28High-Res%20PDF%29.pdf)
-[6N47 - Murra-El-Elevyn (Porter, 2024) (High-Res PDF) - MAP](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/Maps/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20%28High-Res%20PDF%29.pdf)
+[6N47 - Murra-El-Elevyn (Porter, 2024) (High-Res PDF) - MAP](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/Maps/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20%28High-Res%20PDF%29.pdf)
+[6N47 - Murra-El-Elevyn (Porter, 2024) (High-Res PDF) - MAP](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/Maps/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20%28High-Res%20PDF%29.pdf)
 
 ![6N47 Murra El Elevyn (porter, 2024) MAP](/images/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20-%20MAP.png)
 ![6N47 Murra El Elevyn (porter, 2024) MAP](/images/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20-%20MAP.png)
@@ -79,7 +79,7 @@ Briefing Docs (Dive Addiction)
 - ![Murra El Elevyn Cave 419690779 1042849297016885 2642693015512437405 N 271dbead 41c22713](/images/Murra%20El%20Elevyn%20Cave%20-%20419690779_1042849297016885_2642693015512437405_n%20-%20271dbead-41c22713.jpg)
 - ![Murra El Elevyn Cave 419318738 1520079201869287 2485267095906773903 N 1f580aab 41c22713](/images/Murra%20El%20Elevyn%20Cave%20-%20419318738_1520079201869287_2485267095906773903_n%20-%201f580aab-41c22713.jpg)
 - ![Murra El Elevyn Cave 20260219 150209 238c6da6 41c22713](/images/Murra%20El%20Elevyn%20Cave%20-%2020260219_150209%20-%20238c6da6-41c22713.jpg)
-- [MurraElElevyn_HP_V1_1 - 2c2b130a-41c22713](https://github.com/twosharprocks/Karst-Database/blob/fea038978a0b2e4618141e26806c62aab33f2a69/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/Maps/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20%28High-Res%20PDF%29.pdf)
+- [MurraElElevyn_HP_V1_1 - 2c2b130a-41c22713](https://github.com/twosharprocks/Karst-Database/blob/a2a4b545b9c4820036e9f530bf202b9f1d5855a5/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/Maps/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20%28High-Res%20PDF%29.pdf)
 
 [Crystal Room (Pinger) - Google Maps](https://maps.app.goo.gl/YaeE8gHaV8oD5cMk6)
 [End of 60m Line - Google Maps](https://maps.app.goo.gl/4UaGXjN3uvzmHu2G8)

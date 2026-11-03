@@ -42,7 +42,7 @@ Visiting Junction Cave is just a short walk, yet one that will amaze you.  Enter
 
 - **National Parks NSW:** https://www.nationalparks.nsw.gov.au/things-to-do/show-caves/junction-cave
 
-<!-- ASF slide images: start -->
+
 ## ASF slide images
 
 Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.

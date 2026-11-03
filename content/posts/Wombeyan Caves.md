@@ -36,7 +36,7 @@ Repository - hand sketches and survey data
 - **Wikipedia:** https://en.wikipedia.org/wiki/Wombeyan_Caves
 - **SUSS:** https://suss.caves.org.au/cave/wombeyan/
 
-<!-- ASF slide images: start -->
+
 ## ASF slide images
 
 Images are from the ASF Joe N. Jennings slide catalogue. Each caption preserves the catalogue description and links to its source record.
