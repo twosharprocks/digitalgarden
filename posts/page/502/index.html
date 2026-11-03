@@ -150,6 +150,36 @@
     
       <article class="post on-list">
         <h2 class="post-title">
+          <a href="/posts/script---powershell---ad-oumaintenance/">Script - PowerShell - AD-OUMaintenance</a>
+        </h2>
+        <div class="post-meta"></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/script/">script</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            # List Any Disabled users in the &amp;#34;Office Users&amp;#34; OU function Find-Disabled-Office { $ouPath = &amp;#34;OU=Office Users,DC=int&amp;#34; $OfficeUsers = Get-ADUser -Filter { Enabled -eq $false } -SearchBase $ouPath -Properties LastLogonDate,Enabled | Select-Object SamAccountName,LastLogonDate,Enabled …
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/script---powershell---ad-oumaintenance/">[Read more]</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
           <a href="/posts/script---powershell---archive-userfiles/">Script - PowerShell - Archive-UserFiles</a>
         </h2>
         <div class="post-meta"></div>
@@ -264,36 +294,6 @@
         
            <div>
             <a class="read-more button inline" href="/posts/script---python---redact/">[Read more]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/script---python---search-replace/">Script - Python - search-replace</a>
-        </h2>
-        <div class="post-meta"></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/script/">script</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            #!/usr/bin/env python3 from pathlib import Path import argparse import re def slugify(text: str) -&amp;gt; str: &amp;#34;&amp;#34;&amp;#34;Replace spaces with dashes and strip leading/trailing spaces.&amp;#34;&amp;#34;&amp;#34; return text.strip().replace(&amp;#34; &amp;#34;, &amp;#34;-&amp;#34;) def process_file(path: Path, pattern: …
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/script---python---search-replace/">[Read more]</a>
           </div>
         
       </article>
