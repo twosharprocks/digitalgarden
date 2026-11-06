@@ -1,13 +1,13 @@
 ---
-title: "Khraitoun Cave"
+title: Khraitoun Cave
 created: 2026-10-24
-updated: 2026-10-24
+updated: 2026-11-06
 status: seed
 tags:
   - caving
-region: "Palestine"
-catalog-type: "cave"
-verification: "researched"
+region: "[[Middle East]]"
+catalog-type: cave
+verification: researched
 ---
 # Khraitoun Cave
 
