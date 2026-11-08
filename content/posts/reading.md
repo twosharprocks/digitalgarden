@@ -1,7 +1,7 @@
 ---
 title: Reading
 created: 2025-06-26
-updated: 2026-10-24
+updated: 2026-11-09
 status: seed
 tags:
   - interests
@@ -22,6 +22,7 @@ related:
 - Kindle
 - Audible
 - Bookerei/PDF - "To Read" Tag
+- [Unread]({{< relref "posts/Unread.md" >}})
 
 ---
 SciFi
@@ -64,4 +65,6 @@ Misc
 
 # References
 - 2026 - Media
-- 2025 - Media
+- 2025 - Media 
+- [Unread]({{< relref "posts/Unread.md" >}})
+

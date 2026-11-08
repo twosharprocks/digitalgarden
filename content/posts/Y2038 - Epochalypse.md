@@ -1,7 +1,7 @@
 ---
 title: Y2038 - Epochalypse
 created: 2025-11-01
-updated: 2026-10-13
+updated: 2026-11-09
 status: seed
 tags:
   - interests
@@ -15,7 +15,7 @@ related:
 
 ---
 - Research [Unix Time - wikipedia](https://en.wikipedia.org/wiki/Unix_time)
-- Show timeline (why it jumps to 1902)
+- Show timeline (why it jumps to 1901)
 - Where can we find 32-bit systems?
 	- What will they do in 2038?
 	- What will they do before then?
