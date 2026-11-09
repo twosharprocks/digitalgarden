@@ -1,7 +1,7 @@
 ---
 title: "Tank Cave - 5L230"
 created: 2026-04-09
-updated: 2026-10-13
+updated: 2026-11-09
 tags:
   - caving
 region: "[[South Australia]]"
@@ -21,7 +21,7 @@ address: "32107, B1, Wattle Range Council, South Australia, AUS, 5280"
 ---
 # About
 
-Tank cave in Mount Gambia, South Australia is one of Australia’s most popular and largest mapped submerged cave. It has over 7km of passage of which most contain fixed lines.  It is located in farmland about 20km outside Mount Gambia and its entrance is on land owned by the Cave Divers Association of Australia. The cave is a complex system of interconnected tunnels that requires complex navigation and even after gaining the needed advance cave standard you need to follow a strict familiarization schedule consisting of 18 dives that progressively expand your experience of the system.  Care must be taken with planning and cookie discipline due the complexity of dives and particular care taken not to cut corners and potentially miss an obscured branch of line.  A large amount of the cave are accessible to back-mount divers but many sections required side-mount configuration to penetrate.  Water temperature is relatively constant 14 Celsius year round and a dry suit with suitable thermal protected is needed. Much of the cave is quite shallow around 10-12 metres with deeper sections as you get to the Fossil Cave side getting to 20+ metres.
+Tank cave in Mount Gambier, South Australia is one of Australia’s most popular and largest mapped submerged cave. It has over 7km of passage of which most contain fixed lines.  It is located in farmland about 20km outside Mount Gambia and its entrance is on land owned by the Cave Divers Association of Australia. The cave is a complex system of interconnected tunnels that requires complex navigation and even after gaining the needed advance cave standard you need to follow a strict familiarization schedule consisting of 18 dives that progressively expand your experience of the system.  Care must be taken with planning and cookie discipline due the complexity of dives and particular care taken not to cut corners and potentially miss an obscured branch of line.  A large amount of the cave are accessible to back-mount divers but many sections required side-mount configuration to penetrate.  Water temperature is relatively constant 14 Celsius year round and a dry suit with suitable thermal protected is needed. Much of the cave is quite shallow around 10-12 metres with deeper sections as you get to the Fossil Cave side getting to 20+ metres.
 
 On site bathroom and shower is available.
 
@@ -45,11 +45,11 @@ A metal lid covers the entrance which the AO will open. This leads to a ladder d
 - ![5l230 Tank Cave Official Map 82c1cf09 7888927e](/images/5L230%20-%20Tank%20Cave%20-%20Official%20map%20-%2082c1cf09-7888927e.jpg)
 
 - **LSECR:** Page 448
-Rumoured since the late 1960s as a "cave diving site" of some type (although nobody seemed to be able to describe it in any detail), this amazingly extensive feature is today considered by many to be the "cream of the crop" as far as South Ausralian (even Australian?) cave diving sites goes.
-The first real recognition of the cave's potential significance occurred on 9th August 1983, when the author and his cave diving companion, Mark Nielsen, negotiated the low, muddy cave to discover a fantastically clear and wide horizontal passage which headed north-west for 70 metres to the base of a rockpile, where other extensions were also obvious. After encountering "some difficulty" negotiating a rather nasty restriction near the exit, the author decided to stick to researching OTHER sites for a while, and Mark and another diver, John Hansen, went back on 20th May 1984 to subsequently explore (and roughly map) another 200-odd metres of 'virgin' passage, before believing that they had basically exhausted the main possibilities of new extens- ions being found.
+Rumoured since the late 1960s as a "cave diving site" of some type (although nobody seemed to be able to describe it in any detail), this amazingly extensive feature is today considered by many to be the "cream of the crop" as far as South Australian (even Australian?) cave diving sites goes.
+The first real recognition of the cave's potential significance occurred on 9th August 1983, when the author and his cave diving companion, Mark Nielsen, negotiated the low, muddy cave to discover a fantastically clear and wide horizontal passage which headed north-west for 70 metres to the base of a rockpile, where other extensions were also obvious. After encountering "some difficulty" negotiating a rather nasty restriction near the exit, the author decided to stick to researching OTHER sites for a while, and Mark and another diver, John Hansen, went back on 20th May 1984 to subsequently explore (and roughly map) another 200-odd metres of 'virgin' passage, before believing that they had basically exhausted the main possibilities of new extensions being found.
 The site had already shown that it was a singularly important one, so the author named it Tank Cave (after a large windmill tank which used to cover the boarded entrance until its destruction during the later gating in 1989) and allocated the CEGSA number 5L230 in conjunction with CEGSA caver, Kevin Mott. After stressing the potential importance of the site to fellow cave divers Phil Prust, Chris Brown and Paul Arbon, they decided to have a look and after a false start through low-visibility water, Phil and Chris were finally able to see the maze for themselves.
 With their modern underwater lighting and back-up air-supply systems, Phil and Chris had a very good look around, discovering numerous leads, and with the support of a team of other exper- ienced cave divers, they quickly broke into many hundreds and finally, THOUSANDS - of metres of spectacular virgin passage. This made Tank Cave one of the largest water-filled caves in Australia, and perhaps even the longest cave in South Australia!
-The known network at this writing consisted basically of a series of about half a dozen major hor- izontal passages which ran north-west to south-east, more or less parallel with each other in a rectangular-shaped area of confinement, and many cross-connecting passages and chambers... ALL of which is completely submerged! The entrance lies at the eastern corner of this pattern - it has now been significantly dug out and gated so all cave dives are necessarily complex and lengthy, requiring a lot of careful planning, special gear-handling knowledge and penetration skills. The known passages total more than FIVE KILOMETRES at this time, ranging from very small and silty crawlways to 15 metres or so in size. Depths can reach around 14m in places.
+The known network at this writing consisted basically of a series of about half a dozen major horizontal passages which ran north-west to south-east, more or less parallel with each other in a rectangular-shaped area of confinement, and many cross-connecting passages and chambers... ALL of which is completely submerged! The entrance lies at the eastern corner of this pattern - it has now been significantly dug out and gated so all cave dives are necessarily complex and lengthy, requiring a lot of careful planning, special gear-handling knowledge and penetration skills. The known passages total more than FIVE KILOMETRES at this time, ranging from very small and silty crawlways to 15 metres or so in size. Depths can reach around 14m in places.
 Because of a change in ownership, access to this spectacular site is currently restricted; there is obviously a lot of potential still waiting to be checked out in this remarkable cave!
 - **www.cavediving.net.au:** 5th Edition
 https://www.cavediving.net.au/images/articles/maps/5L-230.gif
@@ -83,7 +83,7 @@ https://www.cavediving.net.au/images/articles/maps/5L-230.gif
 - **Tourism potential:** Low
 - **Disabled access potential:** Low
 - **Goes to water:** Yes
-- **Surveyed length:** 7000 m
+- **Surveyed length:** 8000 m
 
 ## Diving data
 
@@ -91,14 +91,6 @@ https://www.cavediving.net.au/images/articles/maps/5L-230.gif
 - **Water type:** Fresh
 - **Tidal:** No
 - **Temperature:** 13–15 °C
-
-## Amenities
-
-- **hasShowers:** Yes
-- **hasToilets:** Yes
-- **hasPhone:** Yes
-- **family:** Bad
-- **parking:** Outstanding
 
 # Maps
 
