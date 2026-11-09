@@ -57,6 +57,7 @@ Other
 - [ ] [Quantum Processes Systems, and Information](https://www.amazon.com.au/dp/B00AKE1WT4/?coliid=IT462S82I3BVE&colid=2KQ2PQSAF3AE4&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it)
 - [ ] [The Human Experiment: Two Years and Twenty Minutes Inside Biosphere 2](https://www.amazon.com.au/dp/156025775X/?coliid=IOH1ZEZZAQM8A&colid=2KQ2PQSAF3AE4&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) 
 - [ ] Dylan Thomas Poetry
+- [ ] [The Last Extinction: The Real Science Behind the Death of the Dinosaurs](https://www.amazon.com.au/Last-Extinction-Science-Behind-Dinosaurs-ebook/dp/B0DZ33NYJV)
 
 Misc
 - Run [Calibre-Web for eBooks](https://www.xda-developers.com/calibre-web-is-like-jellyfin-for-ebooks/) on NAS
