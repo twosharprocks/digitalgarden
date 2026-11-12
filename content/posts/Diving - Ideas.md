@@ -40,7 +40,7 @@ Join NSS-CDS? https://www.facebook.com/share/1BNCb4BAjU/
 
 Podcast
 
-- CEGSA Presentation on Sulawesi? On Murra? Thailand?
+- CEGSA Presentations? on Sulawesi? On Murra? Thailand?
 
 Writing - Ideas
 - Articles written about each discovery (Eng East, Iddlebiddy, Pines, Murra, Gua Lapahia, [Moko Morete]({{< relref "posts/Moko Morete.md" >}})) 
@@ -112,7 +112,6 @@ Tools
 - Social videos from X5 - plan this so that you can post every few days
 	- Use virtual machines to cut/edit video for socials?
 	- Use an [Insta X6](https://www.insta360.com/product/insta360-x6) for Tommy Graham's (waterproof to 20m)
-- Dive Andrew Wilson - Photogrammetry project monitoring change
 - [ChOptima CCR]({{< relref "posts/ChOptima CCR.md" >}}) Parts
 	- NERD2 - Buy from TecDiveGear (same as DGX)
 	- [2x Pony bottle holders](https://www.aliexpress.com/item/1005004136668314.html) for 7L sidemount (wing inflate & O2)?
