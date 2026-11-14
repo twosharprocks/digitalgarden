@@ -127,7 +127,7 @@ related:
 2. Find & Communicate with Extra-terrestrial life - Book - Calling ET
 3. Visit the Moon
 4. Live on Mars: Be a scribe? Find alien life?
-5. Develop/Build something to take humans to another star - [Physics]({{< relref "posts/physics.md" >}}), Idea - Time Dilation Game
+5. Develop/Build something to take humans to another star - [Physics]({{< relref "posts/physics.md" >}}), Game - Chrononaut
 # ***Ambition***
 2. Have more than enough money to spare & share
 3. Help a billion people

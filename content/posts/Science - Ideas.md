@@ -20,10 +20,10 @@ Physics - [Cosmology]({{< relref "posts/Cosmology.md" >}}), Quantum Computing, I
     * Built-in Earth-Mars launch calculator
 	- Breakthrough Prizes (Listen)
 	- Research Inhomogeneous/Timescape Cosmology
-	- Galaxy Simulator with Time-Dilation Calculator Idea - Time Dilation Game
+	- Galaxy Simulator with Time-Dilation Calculator Game - Chrononaut
 	   * Local cluster sim (nearest stars) 
 	   * Develop/Build something to take humans to another star
-  * Idea - Time Dilation Game
+  * Game - Chrononaut
 	  * Python script for calculating time dilation? 
 	  * Game Plot Idea - Use the game to re-tell the story of how we "figured out" the nature of reality/gravity 
 		  * You could create a similar game for teaching and/or figuring out quantum mechanics. 
@@ -77,7 +77,7 @@ When the goal is complete, give me a concise report showing what you accomplishe
 ```
 
 - Idea - EzyVet Replacement 
-- Idea - Time Dilation Game
+- Game - Chrononaut
 - Use AI to develop computer games that simulate quantum computing simulations 
 	- Games like Kerbal, Turning Complete, Hacknet, ect
 	- AI for App development - create apps that I wish I had
