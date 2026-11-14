@@ -68,7 +68,7 @@ related:
 	- Focus on conservation & fresh water access
 2. **Map caves for others to experience in VR**
 	- Create an art experience that moves people
-3. **Organise & Lead Adventure around the world**
+3. **Go on adventures**
 	- Soggy Wombat Safaris
 4. Destinations - [Trips - Ideas]({{< relref "posts/Trips - Ideas.md" >}})
 	- 2027
@@ -93,7 +93,9 @@ related:
 	- 9? 
 	- 10?
 # ***Experience***
-- Meditate for an hour without interruption - *Practice*
+- Meditate for an hour without interruption
+	- *Practice*
+	- Study Buddhism
 - Travel 
 	1. [Long Solo]({{< relref "posts/Long Solo.md" >}}) (bike? kayak? walk? swim?)
 	2. Walk the Inca Trail
@@ -101,7 +103,7 @@ related:
 - Live 
 	1. ~~living in the van
 	2. **In silent retreat at a wood cabin by a lake**
-	3. Ideas: On a boat for a year? Overwinter in Antarctica?
+	3. Ask yourself where you want to be and why
 - See 
 	1. ~~Leopard Seals - *Antarctica* COMPLETE
 	2. ~~Orcas COMPLETE
@@ -110,7 +112,7 @@ related:
 		1. [Dukono - Active Volcano in Indonesia](https://www.instagram.com/p/DJPCem2s99-/)
 	5. Baby sloth - *Costa Rica*
 	6. Polar bear - *Svelbard*
-	7. Snow leopard (Ghost cat)
+	7. Snow leopard? 
 - Adventure
 	- Jump from an altitude where the sky above is black - *25km/82,000ft or higher*
 	- Jump with a wingsuit - *Requires +200 regular jumps*
@@ -128,7 +130,7 @@ related:
 5. Develop/Build something to take humans to another star - [Physics]({{< relref "posts/physics.md" >}}), Idea - Time Dilation Game
 # ***Ambition***
 2. Have more than enough money to spare & share
-3. Help a billion people - [School for Moral Ambition](https://www.moralambition.org/)
+3. Help a billion people
 4. Change the way we see ourselves as a species
 5. Be a ginger space unicorn like Tilly
 # ***Travel***
@@ -141,6 +143,7 @@ related:
 	- Cosmic Nomad: Biathlon & Skeleton'
 	- Race Skeleton
 	- Svelbard: Polar Bear
+	- Plura Cave
 - South America 
 	- Costa Rica 
 		- See Baby sloth 
@@ -149,7 +152,7 @@ related:
 	- [Machu Picchu](http://www.peru-explorer.com/best_time_to_visit_machu_picchu.htm)
 		- Hike the Salkantay Trek with [Salkantay Trek](https://www.salkantaytrekking.com/)
 			- [5 days/4 nights for $650USD](https://www.instagram.com/p/DJ5H1GAOw78/)
-	- [Antarctica]({{< relref "posts/antarctica.md" >}})
+	- [Antarctica]({{< relref "posts/antarctica.md" >}}) 
 - Africa 
 	- [Madagascar - Walk with Lemurs](https://www.muchbetteradventures.com/products/10679-adventures-trekking-adventure-madagascar/)
 - NZ 

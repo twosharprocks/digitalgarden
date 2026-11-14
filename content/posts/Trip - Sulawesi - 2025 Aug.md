@@ -1,7 +1,7 @@
 ---
 title: Trip - Sulawesi - 2025 Aug
 created: 2025-07-15
-updated: 2026-10-13
+updated: 2026-11-13
 status: complete
 tags:
   - trips
@@ -242,7 +242,6 @@ Logistics
 		- Excellent rooms and great buffet breakfast. You'll only stay at Zenith the night you land in Baubau (likely diving [Gua Lanto]({{< relref "posts/Gua Lanto.md" >}}) the next morning) or the night before you fly out of Baubau (getting a taxi to the airport at 0500)
 	- Muna Island: Kadena Glamping Dive Resort
 		- Excellent accommodation all around. They will handle your airport transfer from/to Baubau on request, or it will be organised by your dive operator
-
 # References
 Trip - Sulawesi - 2025 Aug - Farzad's Notes
 

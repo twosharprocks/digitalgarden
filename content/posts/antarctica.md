@@ -17,6 +17,8 @@ related:
 ---
 Ask yourself ***IF*** this is still important, and if so ***WHY?*** 
 	You did your trip to Antarctica and kayaked with a leopard seal - do you still feel compelled to go? 
+	- Write a mini essay on this
+
 ---
 ## [Work for Oceanwide Expeditions](https://oceanwide-expeditions.com/page/careers)?
 - [Expedition Staff Application Form](https://oceanwide-expeditions.com/staff-form)
@@ -63,6 +65,7 @@ Ask yourself ***IF*** this is still important, and if so ***WHY?***
 - The Australian Antarctic Arts Fellowship aims to support the production of significant works of art and interpretation by professionals in the creative arts, humanities and social sciences.
 - The Australian Antarctic Arts Fellowship takes artists and creative professionals to Antarctica to develop creative work that engages diverse audiences.
 - Artists and creative professionals apply through a competitive selection process.
+	- Capturing things in 360?
 - *2-4 weeks duration*
 - Travel to and from Antarctica, and meals and accommodation while in Antarctica are covered by the fellowship.
 
