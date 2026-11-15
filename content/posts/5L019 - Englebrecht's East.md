@@ -1,7 +1,7 @@
 ---
 title: "5L019 - Englebrecht's East"
 created: 2025-11-01
-updated: 2026-10-19
+updated: 2026-11-15
 status: seed
 tags:
   - caving
@@ -24,7 +24,17 @@ catalog-type: "cave"
 sub-region: "[[Mount Gambier - Lower South East]]"
 altitude: "44 m"
 address: "21-23, Chute St, City of Mount Gambier, South Australia, AUS, 5290"
+id: "au-sa-engelbrecht-east"
+part_of: "[[Englebrecht's Cave - 5L19-20]]"
+components:
+  - "[[Englebrecht's East Extension]]"
 ---
+# System relationship
+
+This is the canonical East branch record within [Englebrecht's Cave - 5L19-20]({{< relref "posts/Englebrecht's Cave - 5L19-20.md" >}}). East and West are branches of one cave system, connected through the central dry access sinkhole. Separate passages lead from the sinkhole into each branch. No direct underwater connection between East and West has been proven.
+
+[Englebrecht's East Extension]({{< relref "posts/Englebrecht's East Extension.md" >}}) (EEX) is the new passage discovered within East in 2020; the same name also describes the subsequent mapping and survey project.
+
 # Maps
 
 ![5l019 Englebrecht's East Satellite (richards, 2022) MAP](/images/5L019%20-%20Englebrecht%27s%20East%20-%20Satellite%20%28Richards%2C%202022%29%20-%20MAP.jpg)
@@ -73,6 +83,8 @@ KML Survey: [Englebrecht's E Extension - KML](https://github.com/twosharprocks/K
 City of Mt Gambier
 
 # References
+
+The LSECR extract below is historical source material; its statement about the likelihood of further extensions is not a current assessment. The source edition/date still needs verification. EEX was subsequently discovered in 2020.
 
 - **LSECR:** Page 60
 Engelbrechts Cave is one of Mount Gambier's most significant cave features, thanks to the recent discoveries by members of the cave diving community and the spirit of local community groups. It is today a prime tourist attraction, having beautiful gardens and a tourist information building at the site (which is readily visible from the main highway) and permanent stairs make access relatively easy. The entrance is a single irregularly-shaped collapsed sinkhole about 15 metres across by 10 metres deep sloping down to both the north-west and south-east, where the passages are entered through gates. The south-trending passage ("Eastern Side-5L19") leads down via some very well-lit stairs to a large lake (approx. 20 metres long) from which divers descend under the southern wall and negotiate their ways via low, silty passages and flatteners to an 80 metre long air chamber. This is the less extensive of the two main areas in the cave. The north-trending passage ("Western Side - 5L20") immediately leads to a large, steep-floored chamber at the bottom of which is a restriction and a small crescent of water which is often heavily polluted by a nearby drain. This pool leads (via another restrictive area underwater) to a 90-metre long flooded passage around 10 metres wide by 3 metres high (depth at the ceiling around 10 metres) to a huge air chamber. This is roughly 40 metres in diameter and up to 13 or so metres high, and divers can feel the vibrations of traffic from the nearby highway in this chamber! Several other flooded passages run off to the north and south-west from this inner chamber, making up roughly another 200 metres of passage in total, and the main north-western one ends in a small air chamber some 340 metres laterally from the entrance. Engelbrechts Cave was described by Julian E. Tenison-Woods in 1862, and it was named after Mr. Carl Engelbrecht, who operated a whisky distillery in Mount Gambier between 1885 and 1902 and reportedly used it as a rubbish dump. The feature was first explored by CEGSA members in December 1954, and the first known scuba dive in this cave took place on 4th April 1964, when pioneering divers David Burchell, Philip ("Mick") Potter, John Lees and Ross Curnow explored the Eastern Side passage past a T-junction before turning back (with a total dive time of 16 minutes). By all accounts, they would have found the large Eastern Side air chamber if they had only manoeuvred up through the rockpile. Some fifteen years later, in February 1979, Adelaide cave divers Phil Prust, Peter Stace and Ron Allum re-explored the system and discovered the air chamber, and in May of that year Ron Allum was the first to break through the (then) very difficult Western Side restriction to report that the cave apparently continued, although he couldn't see a thing due to severe silting of the water. Phil Prust and Peter Stace then explored the main Western passage, and later again, Ian Lewis and Terry Reardon found the other large air-chamber and associated passages. The entire cave was thoroughly explored and mapped by members of the CDAA's Research Group between 1986 and 1990, and the possibility of further major extensions being discovered seems unlikely at this time.

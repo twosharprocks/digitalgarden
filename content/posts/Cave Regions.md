@@ -135,7 +135,7 @@ Cave regions are organised from broad geography down to country pages, local cav
   - [Switzerland]({{< relref "posts/Switzerland.md" >}})
   - [Ukraine]({{< relref "posts/Ukraine.md" >}})
   - [United Kingdom]({{< relref "posts/United Kingdom.md" >}})
-# Middle East
+# [Middle East]({{< relref "posts/Middle East.md" >}})
   - [Iran]({{< relref "posts/iran.md" >}})
   - [Iraq]({{< relref "posts/Iraq.md" >}})
   - [Israel]({{< relref "posts/Israel.md" >}})
@@ -1986,6 +1986,7 @@ Cave regions are organised from broad geography down to country pages, local cav
 - [Mexico]({{< relref "posts/Mexico.md" >}})
 - [MF4 - Mt Fairy Cave]({{< relref "posts/MF4 - Mt Fairy Cave.md" >}})
 - [Microbial Crack]({{< relref "posts/Microbial Crack.md" >}})
+- [Middle East]({{< relref "posts/Middle East.md" >}})
 - [Midwerta Spring]({{< relref "posts/Midwerta Spring.md" >}})
 - [Migovec System]({{< relref "posts/Migovec System.md" >}})
 - [Mill Creek]({{< relref "posts/Mill Creek.md" >}})

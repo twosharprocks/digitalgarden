@@ -1,7 +1,7 @@
 ---
 title: "Englebrecht's East Extension"
 created: 2023-08-03
-updated: 2026-10-13
+updated: 2026-11-15
 status: seed
 tags:
   - caving
@@ -20,7 +20,16 @@ catalog-type: "cave"
 sub-region: "[[South Australia]]"
 altitude: "51 m"
 address: "29-35, Victoria Terrace, City of Mount Gambier, South Australia, AUS, 5290"
+id: "au-sa-engelbrecht-east-extension"
+part_of: "[[5L019 - Englebrecht's East]]"
+discovery_year: "2020"
 ---
+# Passage and exploration history
+
+Engelbrechts East Extension (EEX) names both a section of passage within [5L019 - Englebrecht's East]({{< relref "posts/5L019 - Englebrecht's East.md" >}}) and the project established to map and survey that passage after its discovery in 2020. East is part of [Englebrecht's Cave - 5L19-20]({{< relref "posts/Englebrecht's Cave - 5L19-20.md" >}}). EEX is not a separate entrance or an independent cave system.
+
+The 2020 discovery year and these relationships were confirmed by the discoverer on 15 November 2026. Exact discovery dates and the later survey chronology remain to be documented from the original records.
+
 # Details
 
 ## Identification
@@ -75,13 +84,12 @@ Please note there are only two keys for this site - please be considerate in the
 
 Due to the pristine characteristics of the site and entry/exit challenges, training of any kind is NOT permitted in this site.
 
-# References
-
-- **CaveDivers.com.au:** https://www.cavedivers.com.au/index.cfm?leca=1831&module=BUSINESSDIRECTORY&pageMode=indiv&action=details&page_id=1964632&stattype=default
-
-## Images
+# Images
 - ![L019e Englebrecht's East Extension Diver At Rabbit Hole](/images/L019E%20-%20Englebrecht%27s%20East%20Extension%20-%20Diver%20at%20Rabbit%20Hole.jpg)
 - ![L019e Englebrecht's East Extension Passage View](/images/L019E%20-%20Englebrecht%27s%20East%20Extension%20-%20Passage%20view.jpg)
 - ![L019e Englebrecht's East Extension Satellite Survey Overlay](/images/L019E%20-%20Englebrecht%27s%20East%20Extension%20-%20Satellite%20survey%20overlay.jpg)
 - ![L019e Englebrecht's East Extension Survey Map Including East Extension](/images/L019E%20-%20Englebrecht%27s%20East%20Extension%20-%20Survey%20map%20including%20East%20Extension.jpg)
 - [da3426c2-7da9-429f-84bb-1f3eb86ca955](https://www.youtube.com/watch?v=M1c0uyAFW9o)
+
+# References
+- **CaveDivers.com.au:** https://www.cavedivers.com.au/index.cfm?leca=1831&module=BUSINESSDIRECTORY&pageMode=indiv&action=details&page_id=1964632&stattype=default
