@@ -50,5 +50,5 @@ address: "Tulum, Quintana Roo, MEX, 77760"
 # References
 
 ## Images
-- ![Cenote Chun Ya 463595996 122142941066304723 9025909911566681597 N Bd78072a 513e9c12](/images/Cenote%20Chun%20Ya%20-%20463595996_122142941066304723_9025909911566681597_n%20-%20bd78072a-513e9c12.jpg)
+- ![Cenote Chun Ya Image 01](/images/Cenote%20Chun%20Ya%20-%20Image%2001.jpg)
 - [5fb0bd5d-e653-440d-b37c-21b6d7e45d0c](https://www.youtube.com/watch?v=jl8um1XY2_w)

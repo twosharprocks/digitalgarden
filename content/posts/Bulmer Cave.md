@@ -37,8 +37,8 @@ Bulmer Cavern is New Zealand's longest cave system, running for 74.3 km (46.2 mi
 # References
 
 ## Images
-- ![Bulmer Cave Bulmer Cave D5c18907 3d95900f](/images/Bulmer%20Cave%20-%20Bulmer_Cave%20-%20d5c18907-3d95900f.jpg)
-- ![Bulmer Cave Bulmer Cavern Main Entrance Descending First Pitch 995552ff 3d95900f](/images/Bulmer%20Cave%20-%20Bulmer_Cavern_main_entrance_-_descending_first_pitch%20-%20995552ff-3d95900f.jpg)
+- ![Bulmer Cave Bulmer Cave](/images/Bulmer%20Cave%20-%20Bulmer_Cave.jpg)
+- ![Bulmer Cave Bulmer Cavern Main Entrance Descending First Pitch](/images/Bulmer%20Cave%20-%20Bulmer_Cavern_main_entrance_-_descending_first_pitch.jpg)
 
 - [New Zealand]({{< relref "posts/New Zealand.md" >}})
 

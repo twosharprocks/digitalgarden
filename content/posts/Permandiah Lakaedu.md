@@ -36,6 +36,6 @@ address: "Jalan Tanpa Nama, Buton Regency, South East Sulawesi, IDN, 93763"
 # References
 
 ## Images
-- ![Permandiah Lakaedu Wisata Goa Lakaedu Boneoge Selatan2 194937de 9e075f9c](/images/Permandiah%20Lakaedu%20-%20Wisata%20Goa%20Lakaedu%20Boneoge%20Selatan2%20-%20194937de-9e075f9c.jpg)
-- ![Permandiah Lakaedu Wisata Goa Lakaedu Boneoge Selatan 217895fd 9e075f9c](/images/Permandiah%20Lakaedu%20-%20Wisata%20Goa%20Lakaedu%20Boneoge%20Selatan%20-%20217895fd-9e075f9c.jpg)
-- ![Permandiah Lakaedu Wisata Goa Lakaedu Boneoge Selatan3 A9ce8dd2 9e075f9c](/images/Permandiah%20Lakaedu%20-%20Wisata%20Goa%20Lakaedu%20Boneoge%20Selatan3%20-%20a9ce8dd2-9e075f9c.jpg)
+- ![Permandiah Lakaedu Wisata Goa Lakaedu Boneoge Selatan2](/images/Permandiah%20Lakaedu%20-%20Wisata%20Goa%20Lakaedu%20Boneoge%20Selatan2.jpg)
+- ![Permandiah Lakaedu Wisata Goa Lakaedu Boneoge Selatan](/images/Permandiah%20Lakaedu%20-%20Wisata%20Goa%20Lakaedu%20Boneoge%20Selatan.jpg)
+- ![Permandiah Lakaedu Wisata Goa Lakaedu Boneoge Selatan3](/images/Permandiah%20Lakaedu%20-%20Wisata%20Goa%20Lakaedu%20Boneoge%20Selatan3.jpg)

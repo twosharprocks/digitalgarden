@@ -40,5 +40,5 @@ address: "Via Sense Nom, Balearic Islands, Balearic Islands, ESP, 07689"
 - **MapCarta:** https://mapcarta.com/N6345921158
 
 ## Images
-- ![Cova De Sa Gleda Screenshot (390) 1b681cd1 51e18cc6](/images/Cova%20de%20sa%20Gleda%20-%20Screenshot%20%28390%29%20-%201b681cd1-51e18cc6.png)
-- ![Cova De Sa Gleda Aerial Photograph Of The Son Josep Can Frasquet Cala Varques And Cala Falco Area Dde5a123 51e18cc6](/images/Cova%20de%20sa%20Gleda%20-%20Aerial-photograph-of-the-Son-Josep-Can-Frasquet-Cala-Varques-and-Cala-Falco-area%20-%20dde5a123-51e18cc6.png)
+- ![Cova De Sa Gleda Image 01](/images/Cova%20de%20sa%20Gleda%20-%20Image%2001.png)
+- ![Cova De Sa Gleda Aerial Photograph Of The Son Josep Can Frasquet Cala Varques And Cala Falco Area](/images/Cova%20de%20sa%20Gleda%20-%20Aerial-photograph-of-the-Son-Josep-Can-Frasquet-Cala-Varques-and-Cala-Falco-area.png)

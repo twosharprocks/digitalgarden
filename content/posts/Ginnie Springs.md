@@ -38,4 +38,4 @@ address: "5000, NE 60th Ave, Gilchrist County, Florida, USA, 32643"
 # References
 
 ## Images
-- ![Ginnie Springs Image B927abbc 5773fc0c](/images/Ginnie%20Springs%20-%20Image%20-%20b927abbc-5773fc0c.jpg)
+- ![Ginnie Springs Image 01](/images/Ginnie%20Springs%20-%20Image%2001.jpg)

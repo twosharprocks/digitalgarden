@@ -28,6 +28,6 @@ address: "Canal - Fanafo, Sanma Province, VUT"
 # References
 
 ## Images
-- ![Millennium Caves Cave 1d3d33eb 499c6b28](/images/Millennium%20Caves%20-%20Cave%20-%201d3d33eb-499c6b28.jpg)
-- ![Millennium Caves Cave Exit Db36b03c 499c6b28](/images/Millennium%20Caves%20-%20cave-exit%20-%20db36b03c-499c6b28.jpg)
+- ![Millennium Caves Cave](/images/Millennium%20Caves%20-%20Cave.jpg)
+- ![Millennium Caves Cave Exit](/images/Millennium%20Caves%20-%20cave-exit.jpg)
 - [c984cd58-eb8b-4140-845b-2d33fe4deae0](https://www.youtube.com/watch?v=KFlFYnogTWI)

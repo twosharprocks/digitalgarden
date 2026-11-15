@@ -37,6 +37,6 @@ BC 4/11/2023: Has some potential but needs a lot of clearing and is very high ab
 # References
 
 ## Images
-- ![Unnamed 2023 11 04 07.35.00 49ca2daf D594bb2a](/images/Unnamed%20-%202023-11-04%2007.35.00%20-%2049ca2daf-d594bb2a.jpg)
-- ![Unnamed 20231104 073500 4ac5cdc2 D594bb2a](/images/Unnamed%20-%2020231104_073500%20-%204ac5cdc2-d594bb2a.jpg)
-- ![Unnamed 2023 11 04 07.35.00 5abed2d7 D594bb2a](/images/Unnamed%20-%202023-11-04%2007.35.00%20-%205abed2d7-d594bb2a.jpg)
+- ![Unnamed Image 08](/images/Unnamed%20-%20Image%2008.jpg)
+- ![Unnamed Image 14](/images/Unnamed%20-%20Image%2014.jpg)
+- ![Unnamed Image 09](/images/Unnamed%20-%20Image%2009.jpg)

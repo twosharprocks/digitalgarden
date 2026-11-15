@@ -36,4 +36,4 @@ address: "Kennedys Trak, Tantanoola, South Australia, AUS, 5280"
 # References
 
 ## Images
-- ![Clearing IMG 20210801 162655 1 5619d77e B97b14e0](/images/Clearing%20-%20IMG_20210801_162655_1%20-%205619d77e-b97b14e0.jpg)
+- ![Clearing Image 06](/images/Clearing%20-%20Image%2006.jpg)

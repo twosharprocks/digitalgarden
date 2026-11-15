@@ -35,4 +35,4 @@ Forestry
 - **Forestry SA:** L0347, Thin Roof: N, Fence: R. Dimensions: ?. Features: Stoney unplanted land near piggery
 
 ## Images
-- ![L0347 Unnamed 2023 04 11 11.18.05 7d5d98a6 672779c1](/images/L0347%20-%20unnamed%20-%202023-04-11%2011.18.05%20-%207d5d98a6-672779c1.jpg)
+- ![L0347 Unnamed Image 01](/images/L0347%20-%20unnamed%20-%20Image%2001.jpg)

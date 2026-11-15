@@ -34,8 +34,8 @@ There's more cave in L301, heading back up from the northern pool! Check the 3D 
 # References
 
 ## Images
-- ![5l301 Jam Cave 2023 04 22 10.30.40 42640ecd 17b92fe0](/images/5L301%20-%20Jam%20Cave%20-%202023-04-22%2010.30.40%20-%2042640ecd-17b92fe0.jpg)
-- ![5l301 Jam Cave 2023 04 22 10.32.11 C8eae9f4 17b92fe0](/images/5L301%20-%20Jam%20Cave%20-%202023-04-22%2010.32.11%20-%20c8eae9f4-17b92fe0.jpg)
+- ![5l301 Jam Cave Image 01](/images/5L301%20-%20Jam%20Cave%20-%20Image%2001.jpg)
+- ![5l301 Jam Cave Image 02](/images/5L301%20-%20Jam%20Cave%20-%20Image%2002.jpg)
 
 - **LSECR:** Page 590
 Tube 1m diameter drops 8m to a chamber 9 x 6 x 1.5m high; pools.

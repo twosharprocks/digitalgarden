@@ -29,4 +29,4 @@ address: "1173, Carrer Leonardo da Vinci, Manacor, Illes Balears, ESP, 07680"
 # References
 
 ## Images
-- ![Cova Genovesa Screenshot (393) 6a38fc35 F403bceb](/images/Cova%20Genovesa%20-%20Screenshot%20%28393%29%20-%206a38fc35-f403bceb.png)
+- ![Cova Genovesa Image 01](/images/Cova%20Genovesa%20-%20Image%2001.png)

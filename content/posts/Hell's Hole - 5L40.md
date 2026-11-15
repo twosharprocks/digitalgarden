@@ -78,5 +78,5 @@ The sinkhole entrance is about 40m in diameter and a 30m vertical pitch needs to
 Apparently no more than 26m in depth, this is a typical Mt Gambier sinkhole except the water is further down into the sinkhole than most of the rest ! Hells Hole is roughly what the Little Blue Lake near Mount Schank would look like if the water level was to drop around 20 metres or so – perhaps next Ice Age!
 
 ## Images
-- ![L0040 Hells Hole Cd1623b89eb44dfda73c69cb54e986bb 045500e7 D7dae2ec](/images/L0040%20-%20Hells%20Hole%20-%20cd1623b89eb44dfda73c69cb54e986bb%20-%20045500e7-d7dae2ec.jpeg)
-- ![L0040 Hells Hole Screenshot 2024 01 12 192628 58f95c01 D7dae2ec](/images/L0040%20-%20Hells%20Hole%20-%20Screenshot%202024-01-12%20192628%20-%2058f95c01-d7dae2ec.png)
+- ![L0040 Hells Hole Image 01](/images/L0040%20-%20Hells%20Hole%20-%20Image%2001.jpeg)
+- ![L0040 Hells Hole Image 02](/images/L0040%20-%20Hells%20Hole%20-%20Image%2002.png)

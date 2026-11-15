@@ -45,4 +45,4 @@ The largest syngenetic karst area in Victoria and of high speleological importan
 - **ResearchGate:** https://www.researchgate.net/publication/226498128_Speleogenesis_in_aeolian_calcarenite_A_case_study_in_western_Victoria
 
 ## Images
-- ![Https Vro.agriculture.vic.gov.au Dpi Vro Glenregn.nsf Pages Landform Sites Sig 5 5 Bats Ridge Cave Location TBC Batridge 22268a03 7d39ab32](/images/https___vro.agriculture.vic.gov.au_dpi_vro_glenregn.nsf_pages_landform_sites_sig_5-5%20-%20Bats%20Ridge%20Cave%20-%20Location%20TBC%20-%20batridge%20-%2022268a03-7d39ab32.jpg)
+- ![Https Vro.agriculture.vic.gov.au Dpi Vro Glenregn.nsf Pages Landform Sites Sig 5 5 Bats Ridge Cave Location TBC Batridge](/images/https___vro.agriculture.vic.gov.au_dpi_vro_glenregn.nsf_pages_landform_sites_sig_5-5%20-%20Bats%20Ridge%20Cave%20-%20Location%20TBC%20-%20batridge.jpg)

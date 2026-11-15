@@ -59,5 +59,5 @@ This sinkhole seems to fit the general and locational description of a "large ci
 - **LSECR:** Page 90
 
 ## Images
-- ![L0039 Tantanoola Sinkhole 39 Affc3db8 F706db69](/images/L0039%20-%20Tantanoola%20Sinkhole%20-%2039%20-%20affc3db8-f706db69.jpg)
-- ![L0039 Tantanoola Sinkhole 0091 E11aae7e F706db69](/images/L0039%20-%20Tantanoola%20Sinkhole%20-%200091%20-%20e11aae7e-f706db69.jpg)
+- ![L0039 Tantanoola Sinkhole Image 02](/images/L0039%20-%20Tantanoola%20Sinkhole%20-%20Image%2002.jpg)
+- ![L0039 Tantanoola Sinkhole Image 01](/images/L0039%20-%20Tantanoola%20Sinkhole%20-%20Image%2001.jpg)

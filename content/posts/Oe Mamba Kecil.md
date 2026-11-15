@@ -36,9 +36,9 @@ Depth +70m - use CCR
 # References
 
 ## Images
-- ![Oe Mamba Kecil Mamba Beef4e7b 68383f0c](/images/Oe%20Mamba%20Kecil%20-%20mamba%20-%20beef4e7b-68383f0c.jpg)
-- ![Oe Mamba Kecil Mamba Kecil 0f44938b 68383f0c](/images/Oe%20Mamba%20Kecil%20-%20mamba%20kecil%20-%200f44938b-68383f0c.jpg)
-- ![Oe Mamba Kecil Mamba2 9609c00c 68383f0c](/images/Oe%20Mamba%20Kecil%20-%20mamba2%20-%209609c00c-68383f0c.jpg)
+- ![Oe Mamba Kecil Mamba](/images/Oe%20Mamba%20Kecil%20-%20mamba.jpg)
+- ![Oe Mamba Kecil Mamba Kecil](/images/Oe%20Mamba%20Kecil%20-%20mamba%20kecil.jpg)
+- ![Oe Mamba Kecil Mamba2](/images/Oe%20Mamba%20Kecil%20-%20mamba2.jpg)
 
 # Details
 

@@ -41,5 +41,5 @@ Caves in New Brunswick
 - **Geocaching.com:** https://www.geocaching.com/geocache/GC8D04_harbells-cave-in-rockwood-park
 
 ## Images
-- ![Harbell's Cave Reg Harbellscave2jpg D85123d3 Af9c6f2f](/images/Harbell%27s%20cave%20-%20reg_Harbellscave2JPG%20-%20d85123d3-af9c6f2f.jpg)
+- ![Harbell's Cave Reg Harbellscave2jpg](/images/Harbell%27s%20cave%20-%20reg_Harbellscave2JPG.jpg)
 - [3ac84a67-cddc-4d1b-9eb6-1cbcd8038cd3](https://www.youtube.com/watch?v=VsAftnxV-TE)

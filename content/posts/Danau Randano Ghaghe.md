@@ -30,5 +30,5 @@ address: "Muna Regency, South East Sulawesi, IDN, 93662"
 # References
 
 ## Images
-- ![Danau Randano Ghaghe Danau Randano Ghaghe2 322dd3f9 04113a04](/images/Danau%20Randano%20Ghaghe%20-%20Danau%20Randano%20Ghaghe2%20-%20322dd3f9-04113a04.jpg)
-- ![Danau Randano Ghaghe Danau Randano Ghaghe Bf93259f 04113a04](/images/Danau%20Randano%20Ghaghe%20-%20Danau%20Randano%20Ghaghe%20-%20bf93259f-04113a04.jpg)
+- ![Danau Randano Ghaghe Danau Randano Ghaghe2](/images/Danau%20Randano%20Ghaghe%20-%20Danau%20Randano%20Ghaghe2.jpg)
+- ![Danau Randano Ghaghe Danau Randano Ghaghe](/images/Danau%20Randano%20Ghaghe%20-%20Danau%20Randano%20Ghaghe.jpg)

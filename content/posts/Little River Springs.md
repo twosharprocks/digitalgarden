@@ -36,4 +36,4 @@ address: "24891, 105th Ln, Suwannee County, Florida, USA, 32071"
 # References
 
 ## Images
-- ![Little River Springs Image Dec15eb6 C87e9516](/images/Little%20River%20Springs%20-%20Image%20-%20dec15eb6-c87e9516.jpg)
+- ![Little River Springs Image 01](/images/Little%20River%20Springs%20-%20Image%2001.jpg)

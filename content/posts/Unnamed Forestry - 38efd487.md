@@ -38,4 +38,4 @@ BC 14/10/2024: Large depression about 15m across. Not sign of any karst or leads
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: ?
 
 ## Images
-- ![Unnamed Forestry 20231014 135508 139abcf9 38efd487](/images/Unnamed%20Forestry%20-%2020231014_135508%20-%20139abcf9-38efd487.jpg)
+- ![Unnamed Forestry Image 09](/images/Unnamed%20Forestry%20-%20Image%2009.jpg)

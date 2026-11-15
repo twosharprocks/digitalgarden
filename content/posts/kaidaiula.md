@@ -31,9 +31,9 @@ address: "Jl. Poros Lombe, Buton Regency, South East Sulawesi, IDN, 93761"
 # References
 
 ## Images
-- ![Kadaiula Kaidaiula Sketch 9c0beb8c 35bbc5a3](/images/Kadaiula%20-%20Kaidaiula%20-%20sketch%20-%209c0beb8c-35bbc5a3.jpg)
-- ![Kadaiula Kaidaiula Sign 0653b3d5 35bbc5a3](/images/Kadaiula%20-%20Kaidaiula%20-%20sign%20-%200653b3d5-35bbc5a3.jpg)
-- ![Kadaiula Kaidaiula Entry 91e2d9fc 35bbc5a3](/images/Kadaiula%20-%20Kaidaiula%20-%20entry%20-%2091e2d9fc-35bbc5a3.jpg)
+- ![Kadaiula Kaidaiula Sketch](/images/Kadaiula%20-%20Kaidaiula%20-%20sketch.jpg)
+- ![Kadaiula Kaidaiula Sign](/images/Kadaiula%20-%20Kaidaiula%20-%20sign.jpg)
+- ![Kadaiula Kaidaiula Entry](/images/Kadaiula%20-%20Kaidaiula%20-%20entry.jpg)
 - [c761632a-ee6d-48f9-9dd2-03f6a9823070](https://www.youtube.com/watch?v=cTmeTkMol90)
 
 # Details

@@ -39,4 +39,4 @@ Location from Bonzle and ExplorOz - unlikely to be correct, see paper in referen
 - **Research Paper:** https://museum.wa.gov.au/sites/default/files/WAMRecords_2017_32(2)_217to236_THORNetal.pdf
 
 ## Images
-- ![EM 17 Caladenia Cave Location TBC Cala 6db1c211 957af7f4](/images/EM-17%20-%20Caladenia%20Cave%20-%20Location%20TBC%20-%20cala%20-%206db1c211-957af7f4.jpg)
+- ![EM 17 Caladenia Cave Location TBC Cala](/images/EM-17%20-%20Caladenia%20Cave%20-%20Location%20TBC%20-%20cala.jpg)

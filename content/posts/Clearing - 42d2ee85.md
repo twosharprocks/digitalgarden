@@ -36,4 +36,4 @@ address: "32743, Princes Hwy, Tantanoola, South Australia, AUS, 5280"
 # References
 
 ## Images
-- ![Clearing IMG 20210826 170805 7 E6efe9fa 42d2ee85](/images/Clearing%20-%20IMG_20210826_170805_7%20-%20e6efe9fa-42d2ee85.jpg)
+- ![Clearing Image 07](/images/Clearing%20-%20Image%2007.jpg)

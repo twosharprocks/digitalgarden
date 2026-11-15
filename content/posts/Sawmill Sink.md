@@ -30,4 +30,4 @@ address: "Abaco, BHS"
 # References
 
 ## Images
-- ![Sawmill Sink Sawmill Sink 6067e332 42dcb269](/images/Sawmill%20Sink%20-%20Sawmill-Sink%20-%206067e332-42dcb269.png)
+- ![Sawmill Sink Sawmill Sink](/images/Sawmill%20Sink%20-%20Sawmill-Sink.png)

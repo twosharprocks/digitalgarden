@@ -55,5 +55,5 @@ Sea cave. A boat ride is needed to take you to the entrance, which is at 14m dep
 - **ResearchGate:** https://www.researchgate.net/publication/344072257_Benthic_foraminifera_and_brachiopods_from_a_marine_cave_in_Spain_environmental_significance
 
 ## Images
-- ![CT11 Location TBC Ct12 21417e20 44bf9da3](/images/CT11%20-%20Location%20TBC%20-%20ct12%20-%2021417e20-44bf9da3.jpg)
-- ![CT11 Location TBC Ct12 2 16ed8692 44bf9da3](/images/CT11%20-%20Location%20TBC%20-%20ct12-2%20-%2016ed8692-44bf9da3.jpg)
+- ![CT11 Location TBC Ct12](/images/CT11%20-%20Location%20TBC%20-%20ct12.jpg)
+- ![CT11 Location TBC Ct12 2](/images/CT11%20-%20Location%20TBC%20-%20ct12-2.jpg)

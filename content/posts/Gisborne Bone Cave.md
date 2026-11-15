@@ -28,7 +28,7 @@ address: "147, Tweddle Rd, Gisborne South, Victoria, AUS, 3437"
 
 # Maps
 
-- ![Gisborne Bone Cave Bone Plan 12f8dda8 Bc1368bc](/images/Gisborne%20Bone%20Cave%20-%20bone%20plan%20-%2012f8dda8-bc1368bc.png)
+- ![Gisborne Bone Cave Bone Plan](/images/Gisborne%20Bone%20Cave%20-%20bone%20plan.png)
 
 # References
 
@@ -37,5 +37,5 @@ address: "147, Tweddle Rd, Gisborne South, Victoria, AUS, 3437"
 - **Trove 2:** https://trove.nla.gov.au/newspaper/article/63170377/6162833
 
 ## Images
-- ![Gisborne Bone Cave Bone 0f7ceda7 Bc1368bc](/images/Gisborne%20Bone%20Cave%20-%20bone%20-%200f7ceda7-bc1368bc.jpg)
-- ![Gisborne Bone Cave Bone Plan 12f8dda8 Bc1368bc](/images/Gisborne%20Bone%20Cave%20-%20bone%20plan%20-%2012f8dda8-bc1368bc.png)
+- ![Gisborne Bone Cave Bone](/images/Gisborne%20Bone%20Cave%20-%20bone.jpg)
+- ![Gisborne Bone Cave Bone Plan](/images/Gisborne%20Bone%20Cave%20-%20bone%20plan.png)

@@ -53,5 +53,5 @@ This cave has also not yet been fully explored, but it is reportedly quite large
 - **Forestry SA:** L0254 - Found by MW and added (not in Forestry supplied list)
 
 ## Images
-- ![L0254 Battle Axe Cave Battleaxet Fb9c92dc 4ef469c5](/images/L0254%20-%20Battle-Axe%20Cave%20-%20battleaxet%20-%20fb9c92dc-4ef469c5.jpg)
-- ![L0254 Battle Axe Cave Battleaxed 95673697 4ef469c5](/images/L0254%20-%20Battle-Axe%20Cave%20-%20battleaxed%20-%2095673697-4ef469c5.jpg)
+- ![L0254 Battle Axe Cave Battleaxet](/images/L0254%20-%20Battle-Axe%20Cave%20-%20battleaxet.jpg)
+- ![L0254 Battle Axe Cave Battleaxed](/images/L0254%20-%20Battle-Axe%20Cave%20-%20battleaxed.jpg)

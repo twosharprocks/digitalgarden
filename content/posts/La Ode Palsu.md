@@ -27,8 +27,8 @@ address: "Jalan Tanpa Nama, Muna Regency, South East Sulawesi, IDN, 93662"
 # References
 
 ## Images
-- ![La Ode Palsu La Ode Palsu Entry E6340e9e Fbd73648](/images/La%20Ode%20Palsu%20-%20La%20Ode%20Palsu%20-%20entry%20-%20e6340e9e-fbd73648.jpg)
-- ![La Ode Palsu La Ode Palsu Sketch 83168cac Fbd73648](/images/La%20Ode%20Palsu%20-%20La%20Ode%20Palsu%20-%20sketch%20-%2083168cac-fbd73648.jpg)
+- ![La Ode Palsu La Ode Palsu Entry](/images/La%20Ode%20Palsu%20-%20La%20Ode%20Palsu%20-%20entry.jpg)
+- ![La Ode Palsu La Ode Palsu Sketch](/images/La%20Ode%20Palsu%20-%20La%20Ode%20Palsu%20-%20sketch.jpg)
 
 ## Images
 - [3a4fabe5-97cd-460b-81e4-e25b73535274](https://www.youtube.com/watch?v=hCircSkbyrY)

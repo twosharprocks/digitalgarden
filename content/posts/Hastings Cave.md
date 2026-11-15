@@ -29,4 +29,4 @@ address: "Sandy Point Rd, Jurien Bay, Western Australia, AUS, 6516"
 # References
 
 ## Images
-- ![Hastings Cave Hasting 160c78d8 4ccb39c1](/images/Hastings%20Cave%20-%20hasting%20-%20160c78d8-4ccb39c1.jpg)
+- ![Hastings Cave Hasting](/images/Hastings%20Cave%20-%20hasting.jpg)

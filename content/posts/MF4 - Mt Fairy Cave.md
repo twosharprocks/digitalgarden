@@ -38,4 +38,4 @@ DO NOT DISCLOSE CAVE LOCATION
 # References
 
 ## Images
-- ![MF4 Mt Fairy Cave Mt Fairy 4a8ca77d 28ed9522](/images/MF4%20-%20Mt%20Fairy%20Cave%20-%20Mt%20Fairy%20-%204a8ca77d-28ed9522.png)
+- ![MF4 Mt Fairy Cave Mt Fairy](/images/MF4%20-%20Mt%20Fairy%20Cave%20-%20Mt%20Fairy.png)

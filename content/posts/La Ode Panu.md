@@ -27,7 +27,7 @@ address: "Muna, IDN, 93662"
 # References
 
 ## Images
-- ![La Ode Panu La Ode Panu 9cb227e1 Fedd84ff](/images/La%20Ode%20Panu%20-%20La%20Ode%20Panu%20-%209cb227e1-fedd84ff.jpg)
+- ![La Ode Panu La Ode Panu](/images/La%20Ode%20Panu%20-%20La%20Ode%20Panu.jpg)
 
 ## Images
 - [360 video - La Ode Panu](https://www.youtube.com/watch?v=6qN3ClxBs9g)

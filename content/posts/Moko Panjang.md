@@ -29,7 +29,7 @@ address: "Jalan Tanpa Nama, Muna Regency, South East Sulawesi, IDN, 93662"
 # References
 
 ## Images
-- ![Moko Panjang Moko Panjang Sketch 86fa31f5 A7168d6f](/images/Moko%20Panjang%20-%20moko%20panjang%20-%20sketch%20-%2086fa31f5-a7168d6f.jpg)
+- ![Moko Panjang Moko Panjang Sketch](/images/Moko%20Panjang%20-%20moko%20panjang%20-%20sketch.jpg)
 
 ## Images
 - [5b3bc8ff-2465-4218-a445-d4ee374725e4](https://www.youtube.com/watch?v=X0eR-7HmTpM)

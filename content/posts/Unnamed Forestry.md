@@ -38,5 +38,5 @@ BC 4/11/2023: Large misshapen depression with signs of exposed karst. Some poten
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: ?
 
 ## Images
-- ![Unnamed Forestry 2023 11 04 07.02.24 9730bf96 05a8e7f6](/images/Unnamed%20Forestry%20-%202023-11-04%2007.02.24%20-%209730bf96-05a8e7f6.jpg)
-- ![Unnamed Forestry 2023 11 04 07.02.20 8813dcea 05a8e7f6](/images/Unnamed%20Forestry%20-%202023-11-04%2007.02.20%20-%208813dcea-05a8e7f6.jpg)
+- ![Unnamed Forestry Image 06](/images/Unnamed%20Forestry%20-%20Image%2006.jpg)
+- ![Unnamed Forestry Image 05](/images/Unnamed%20Forestry%20-%20Image%2005.jpg)

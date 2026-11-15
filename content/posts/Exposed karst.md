@@ -27,9 +27,9 @@ address: "Unnamed Road, Shire of Dundas, Western Australia, AUS, 6443"
 # References
 
 ## Images
-- ![Exposed Karst 20260216 165719 2a097463 3ef0d80a](/images/Exposed%20karst%20-%2020260216_165719%20-%202a097463-3ef0d80a.jpg)
-- ![Exposed Karst 20260216 165749 5dc0f87c 3ef0d80a](/images/Exposed%20karst%20-%2020260216_165749%20-%205dc0f87c-3ef0d80a.jpg)
-- ![Exposed Karst 20260216 165706 A9928ead 3ef0d80a](/images/Exposed%20karst%20-%2020260216_165706%20-%20a9928ead-3ef0d80a.jpg)
-- ![Exposed Karst 20260216 165749 0bde0c8a 3ef0d80a](/images/Exposed%20karst%20-%2020260216_165749%20-%200bde0c8a-3ef0d80a.jpg)
-- ![Exposed Karst 20260216 165739 9e2ff56c 3ef0d80a](/images/Exposed%20karst%20-%2020260216_165739%20-%209e2ff56c-3ef0d80a.jpg)
-- ![Exposed Karst 20260216 165714 39cca012 3ef0d80a](/images/Exposed%20karst%20-%2020260216_165714%20-%2039cca012-3ef0d80a.jpg)
+- ![Exposed Karst Image 03](/images/Exposed%20karst%20-%20Image%2003.jpg)
+- ![Exposed Karst Image 06](/images/Exposed%20karst%20-%20Image%2006.jpg)
+- ![Exposed Karst Image 01](/images/Exposed%20karst%20-%20Image%2001.jpg)
+- ![Exposed Karst Image 05](/images/Exposed%20karst%20-%20Image%2005.jpg)
+- ![Exposed Karst Image 04](/images/Exposed%20karst%20-%20Image%2004.jpg)
+- ![Exposed Karst Image 02](/images/Exposed%20karst%20-%20Image%2002.jpg)

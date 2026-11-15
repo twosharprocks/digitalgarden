@@ -115,7 +115,7 @@ The cave "Orso di Ponte di Nava" (Ormea, CN) is a gym for all of Attilio's stude
 - **https://catastogrotte-piemonte.net/:** https://catastogrotte-piemonte.net/caves-view-46.html
 
 ## Images
-- ![118 Pi CN Grotta Dell'orso Di Ponte Di Nava 481768237 1038911638274416 1039167156572363095 N 53aed3b3 8c2264a0](/images/118%20Pi_CN%20-%20Grotta%20dell%27Orso%20di%20Ponte%20di%20Nava%20-%20481768237_1038911638274416_1039167156572363095_n%20-%2053aed3b3-8c2264a0.jpg)
-- ![118 Pi CN Grotta Dell'orso Di Ponte Di Nava Orso Nava 52c81d27 8c2264a0](/images/118%20Pi_CN%20-%20Grotta%20dell%27Orso%20di%20Ponte%20di%20Nava%20-%20Orso_nava%20-%2052c81d27-8c2264a0.jpg)
-- ![118 Pi CN Grotta Dell'orso Di Ponte Di Nava 480701667 1038911938274386 1940017596703691323 N 07430983 8c2264a0](/images/118%20Pi_CN%20-%20Grotta%20dell%27Orso%20di%20Ponte%20di%20Nava%20-%20480701667_1038911938274386_1940017596703691323_n%20-%2007430983-8c2264a0.jpg)
+- ![118 Pi CN Grotta Dell'orso Di Ponte Di Nava Image 02](/images/118%20Pi_CN%20-%20Grotta%20dell%27Orso%20di%20Ponte%20di%20Nava%20-%20Image%2002.jpg)
+- ![118 Pi CN Grotta Dell'orso Di Ponte Di Nava Orso Nava](/images/118%20Pi_CN%20-%20Grotta%20dell%27Orso%20di%20Ponte%20di%20Nava%20-%20Orso_nava.jpg)
+- ![118 Pi CN Grotta Dell'orso Di Ponte Di Nava Image 01](/images/118%20Pi_CN%20-%20Grotta%20dell%27Orso%20di%20Ponte%20di%20Nava%20-%20Image%2001.jpg)
 - [43d03d33-4077-4e2d-905c-597d73474741](https://www.youtube.com/watch?v=g_jigU8tDqY)

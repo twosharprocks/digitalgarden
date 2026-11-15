@@ -35,5 +35,5 @@ large depression wirh 45 deg bank to one side that has rocky outcrops.  one poss
 # References
 
 ## Images
-- ![Unnamed 20240322 165223 Fb39b9a8 8ea65ce8](/images/Unnamed%20-%2020240322_165223%20-%20fb39b9a8-8ea65ce8.jpg)
-- ![Unnamed 20240322 165223 9c84d51d 8ea65ce8](/images/Unnamed%20-%2020240322_165223%20-%209c84d51d-8ea65ce8.jpg)
+- ![Unnamed Image 23](/images/Unnamed%20-%20Image%2023.jpg)
+- ![Unnamed Image 22](/images/Unnamed%20-%20Image%2022.jpg)

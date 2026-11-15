@@ -63,5 +63,5 @@ The Black Hole has only been cursorily observed scientifically, but some interes
 https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxjZGl2ZXJlcHRzfGd4OjI4YmQ0OTMyODgzZTkzZGY
 
 ## Images
-- ![L0047 Black Hole Screenshot 2024 12 27 224335 5c4ae523 91458702](/images/L0047%20-%20Black%20Hole%20-%20Screenshot%202024-12-27%20224335%20-%205c4ae523-91458702.png)
-- ![L0047 Black Hole Screenshot 2024 12 27 224506 78c5d7e7 91458702](/images/L0047%20-%20Black%20Hole%20-%20Screenshot%202024-12-27%20224506%20-%2078c5d7e7-91458702.png)
+- ![L0047 Black Hole Image 01](/images/L0047%20-%20Black%20Hole%20-%20Image%2001.png)
+- ![L0047 Black Hole Image 02](/images/L0047%20-%20Black%20Hole%20-%20Image%2002.png)

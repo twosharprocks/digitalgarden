@@ -36,6 +36,6 @@ Water monitoring site
 # References
 
 ## Images
-- ![Well PXL 20230718 004338284 A5197c59 Ece55273](/images/Well%20-%20PXL_20230718_004338284%20-%20a5197c59-ece55273.jpg)
-- ![Well PXL 20230718 004346489 778c751b Ece55273](/images/Well%20-%20PXL_20230718_004346489%20-%20778c751b-ece55273.jpg)
-- ![Well PXL 20230718 004330221 52eb6284 Ece55273](/images/Well%20-%20PXL_20230718_004330221%20-%2052eb6284-ece55273.jpg)
+- ![Well Image 02](/images/Well%20-%20Image%2002.jpg)
+- ![Well Image 03](/images/Well%20-%20Image%2003.jpg)
+- ![Well Image 01](/images/Well%20-%20Image%2001.jpg)

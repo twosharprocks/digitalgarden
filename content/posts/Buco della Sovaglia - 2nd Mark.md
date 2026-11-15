@@ -25,4 +25,4 @@ Location given by www.hikr.org/dir/Buco_della_Sovaglia_13740/
 # References
 
 ## Images
-- ![Buco Della Sovaglia 2nd Mark 55052k 3b20eb65 0d21a2aa](/images/Buco%20della%20Sovaglia%20-%202nd%20Mark%20-%2055052k%20-%203b20eb65-0d21a2aa.jpg)
+- ![Buco Della Sovaglia 2nd Mark 55052k](/images/Buco%20della%20Sovaglia%20-%202nd%20Mark%20-%2055052k.jpg)

@@ -50,4 +50,4 @@ To dive Alachua Sink you must have a guide. Click here for information on contac
 - **CaveAtlas:** http://www.caveatlas.com/systems/system.asp?ID=1&co=US
 
 ## Images
-- ![Alachua Sink Alachua Map 5f5bddb9 0aece4f8](/images/Alachua%20Sink%20-%20alachua_map%20-%205f5bddb9-0aece4f8.jpg)
+- ![Alachua Sink Alachua Map](/images/Alachua%20Sink%20-%20alachua_map.jpg)

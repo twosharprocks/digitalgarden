@@ -33,5 +33,5 @@ Jingemia Cave is a distinctive natural feature in a band of low rocky hills that
 - **Explore Parks:** https://exploreparks.dbca.wa.gov.au/site/jingemia-cave
 
 ## Images
-- ![Jingemia Cave Jing 5c5f586e Cf4a080e](/images/Jingemia%20Cave%20-%20jing%20-%205c5f586e-cf4a080e.jpg)
-- ![Jingemia Cave Jibge Db06426b Cf4a080e](/images/Jingemia%20Cave%20-%20jibge%20-%20db06426b-cf4a080e.jpg)
+- ![Jingemia Cave Jing](/images/Jingemia%20Cave%20-%20jing.jpg)
+- ![Jingemia Cave Jibge](/images/Jingemia%20Cave%20-%20jibge.jpg)

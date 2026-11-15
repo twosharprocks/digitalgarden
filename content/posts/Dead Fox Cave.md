@@ -51,4 +51,4 @@ The water-table barely intersects the cave, flooding the flat floor during the S
 - **Forestry SA:** L0277, Thin Roof: N, Fence: N. Dimensions: ?. Features: plantation to be CF soon
 
 ## Images
-- ![L0277 Dead Fox Cave 20230422 114239 Bd487249 B65d6298](/images/L0277%20-%20Dead%20Fox%20Cave%20-%2020230422_114239%20-%20bd487249-b65d6298.jpg)
+- ![L0277 Dead Fox Cave Image 01](/images/L0277%20-%20Dead%20Fox%20Cave%20-%20Image%2001.jpg)

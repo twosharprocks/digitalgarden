@@ -82,10 +82,10 @@ Access is open, no formal permission required.
 # References
 
 ## Images
-- ![Cambrian Slate Mine 100 4484 Af33447d 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20100_4484%20-%20af33447d-9e04d4ed.jpg)
-- ![Cambrian Slate Mine 100 4463 E5a6f92b 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20100_4463%20-%20e5a6f92b-9e04d4ed.jpg)
-- ![Cambrian Slate Mine 100 4521a D74b02fd 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20100_4521a%20-%20d74b02fd-9e04d4ed.jpg)
-- ![Cambrian Slate Mine IMG 0869 Small Bf8ee25f 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20IMG_0869-small%20-%20bf8ee25f-9e04d4ed.jpg)
-- ![Cambrian Slate Mine 100 4473 0238c4b7 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20100_4473%20-%200238c4b7-9e04d4ed.jpg)
-- ![Cambrian Slate Mine 100 4449 4ae63855 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20100_4449%20-%204ae63855-9e04d4ed.jpg)
-- ![Cambrian Slate Mine 100 4450 6def479f 9e04d4ed](/images/Cambrian%20Slate%20Mine%20-%20100_4450%20-%206def479f-9e04d4ed.jpg)
+- ![Cambrian Slate Mine Image 05](/images/Cambrian%20Slate%20Mine%20-%20Image%2005.jpg)
+- ![Cambrian Slate Mine Image 03](/images/Cambrian%20Slate%20Mine%20-%20Image%2003.jpg)
+- ![Cambrian Slate Mine 100 4521a](/images/Cambrian%20Slate%20Mine%20-%20100_4521a.jpg)
+- ![Cambrian Slate Mine Image 06](/images/Cambrian%20Slate%20Mine%20-%20Image%2006.jpg)
+- ![Cambrian Slate Mine Image 04](/images/Cambrian%20Slate%20Mine%20-%20Image%2004.jpg)
+- ![Cambrian Slate Mine Image 01](/images/Cambrian%20Slate%20Mine%20-%20Image%2001.jpg)
+- ![Cambrian Slate Mine Image 02](/images/Cambrian%20Slate%20Mine%20-%20Image%2002.jpg)

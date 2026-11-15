@@ -40,5 +40,5 @@ address: "5160, Marble Ct, Jackson County, Florida, USA, 32446"
 # References
 
 ## Images
-- ![Jackson Blue Springs Image 0a2cb8cd 63289b14](/images/Jackson%20Blue%20Springs%20-%20Image%20-%200a2cb8cd-63289b14.jpg)
+- ![Jackson Blue Springs Image 01](/images/Jackson%20Blue%20Springs%20-%20Image%2001.jpg)
 - [9419fc0a-0848-4705-87df-52585b9788c1](https://www.youtube.com/watch?v=0U1tqLCnJQw)

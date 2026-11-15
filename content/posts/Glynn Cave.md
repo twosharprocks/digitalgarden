@@ -44,8 +44,8 @@ The water is 3 or 4 metres deep but because the right-hand wall slopes under the
 - **Forestry SA:** L0138, Thin Roof: Y, Fence: R. Dimensions: ?. Features: bore holes alongside feature; old tin rubbish
 
 ## Images
-- ![L0138 Glynn Cave Glynn2 C047d598 5833f4b1](/images/L0138%20-%20Glynn%20Cave%20-%20glynn2%20-%20c047d598-5833f4b1.jpg)
-- ![L0138 Glynn Cave 138 848067d9 5833f4b1](/images/L0138%20-%20Glynn%20Cave%20-%20138%20-%20848067d9-5833f4b1.jpg)
-- ![L0138 Glynn Cave 138 1 0604bd24 5833f4b1](/images/L0138%20-%20Glynn%20Cave%20-%20138-1%20-%200604bd24-5833f4b1.jpg)
-- ![L0138 Glynn Cave 138 2 310b9cb3 5833f4b1](/images/L0138%20-%20Glynn%20Cave%20-%20138-2%20-%20310b9cb3-5833f4b1.jpg)
-- ![L0138 Glynn Cave Glynn 2035383f 5833f4b1](/images/L0138%20-%20Glynn%20Cave%20-%20glynn%20-%202035383f-5833f4b1.jpg)
+- ![L0138 Glynn Cave Glynn2](/images/L0138%20-%20Glynn%20Cave%20-%20glynn2.jpg)
+- ![L0138 Glynn Cave Image 01](/images/L0138%20-%20Glynn%20Cave%20-%20Image%2001.jpg)
+- ![L0138 Glynn Cave 138 1](/images/L0138%20-%20Glynn%20Cave%20-%20138-1.jpg)
+- ![L0138 Glynn Cave 138 2](/images/L0138%20-%20Glynn%20Cave%20-%20138-2.jpg)
+- ![L0138 Glynn Cave Glynn](/images/L0138%20-%20Glynn%20Cave%20-%20glynn.jpg)

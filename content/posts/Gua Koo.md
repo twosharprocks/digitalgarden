@@ -35,4 +35,4 @@ address: "Jalan Tanpa Nama, Buton Regency, South East Sulawesi, IDN, 93762"
 # References
 
 ## Images
-- ![Gua Koo Gua Koo 54bffb00 3380cd6f](/images/Gua%20Koo%20-%20Gua%20Koo%20-%2054bffb00-3380cd6f.jpg)
+- ![Gua Koo Gua Koo](/images/Gua%20Koo%20-%20Gua%20Koo.jpg)

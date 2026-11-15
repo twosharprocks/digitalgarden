@@ -26,4 +26,4 @@ address: "Wilson Hall Track, Glenelg Shire, Victoria, AUS, 3304"
 # References
 
 ## Images
-- ![Spring Spring E026bf62 A1df2e07](/images/Spring%20-%20spring%20-%20e026bf62-a1df2e07.jpg)
+- ![Spring Spring](/images/Spring%20-%20spring.jpg)

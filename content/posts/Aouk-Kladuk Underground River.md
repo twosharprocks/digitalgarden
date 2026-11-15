@@ -51,5 +51,5 @@ Page in Italian
 - **Wondermondo:** https://www.wondermondo.com/aouk-kladuk-underground-river/
 
 ## Images
-- ![Aouk Kladuk Underground River 4 Kladuk Ilgen Shaft 593421a3 F6b4b3e9](/images/Aouk-Kladuk%20Underground%20River%20-%204-Kladuk_Ilgen-shaft%20-%20593421a3-f6b4b3e9.jpg)
-- ![Aouk Kladuk Underground River IT Papua Water3 63af37a4 F6b4b3e9](/images/Aouk-Kladuk%20Underground%20River%20-%20IT_papua_water3%20-%2063af37a4-f6b4b3e9.jpg)
+- ![Aouk Kladuk Underground River 4 Kladuk Ilgen Shaft](/images/Aouk-Kladuk%20Underground%20River%20-%204-Kladuk_Ilgen-shaft.jpg)
+- ![Aouk Kladuk Underground River IT Papua Water3](/images/Aouk-Kladuk%20Underground%20River%20-%20IT_papua_water3.jpg)

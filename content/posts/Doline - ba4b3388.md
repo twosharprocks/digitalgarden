@@ -36,4 +36,4 @@ Checked 23-06-2023 by MW: Spotted from satellite imagery, visited on foot. Simpl
 # References
 
 ## Images
-- ![Doline PXL 20230623 045555606 5342c8a3 Ba4b3388](/images/Doline%20-%20PXL_20230623_045555606%20-%205342c8a3-ba4b3388.jpg)
+- ![Doline Image 01](/images/Doline%20-%20Image%2001.jpg)

@@ -34,7 +34,7 @@ Possible lead at southern end of cave (east side of rockpile) which leads up to 
 # References
 
 ## Images
-- ![Gua Lanto PXL 20250803 013842487 8bcff115 8355e911](/images/Gua%20Lanto%20-%20PXL_20250803_013842487%20-%208bcff115-8355e911.jpg)
+- ![Gua Lanto Image 01](/images/Gua%20Lanto%20-%20Image%2001.jpg)
 
 # Details
 

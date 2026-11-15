@@ -33,4 +33,4 @@ address: "Muna Regency, South East Sulawesi, IDN"
 - **Google Earth:** https://maps.app.goo.gl/VJibAs9VUwkYdLL47
 
 ## Images
-- ![Permandian Foninto Wandiri Permandian Foninto Wandiri C8a40ce7 Cd132c80](/images/Permandian%20Foninto%20Wandiri%20-%20Permandian%20Foninto%20Wandiri%20-%20c8a40ce7-cd132c80.jpg)
+- ![Permandian Foninto Wandiri Permandian Foninto Wandiri](/images/Permandian%20Foninto%20Wandiri%20-%20Permandian%20Foninto%20Wandiri.jpg)

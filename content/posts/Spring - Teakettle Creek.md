@@ -20,4 +20,4 @@ address: "Glenelg Dr, Glenelg Shire, Victoria, AUS, 3292"
 # References
 
 ## Images
-- ![Spring Teakettle Creek Spring4 A97dcde4 2d0213f5](/images/Spring%20-%20Teakettle%20Creek%20-%20spring4%20-%20a97dcde4-2d0213f5.jpg)
+- ![Spring Teakettle Creek Spring4](/images/Spring%20-%20Teakettle%20Creek%20-%20spring4.jpg)

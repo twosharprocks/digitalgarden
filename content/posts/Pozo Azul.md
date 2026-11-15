@@ -51,8 +51,8 @@ address: "5, Vía Sin Nombre, Burgos, Castile and León, ESP, 09143"
 - **GoogleMaps:** https://goo.gl/maps/qstyTveVSg4pWkRV7
 
 ## Images
-- ![Pozo Azul Pozo2014 Whole 6be5a758 5ec71750](/images/Pozo%20Azul%20-%20pozo2014-whole%20-%206be5a758-5ec71750.png)
-- ![Pozo Azul Pozo Azul 914c97b3 5ec71750](/images/Pozo%20Azul%20-%20pozo%20azul%20-%20914c97b3-5ec71750.jpg)
+- ![Pozo Azul Pozo2014 Whole 02](/images/Pozo%20Azul%20-%20pozo2014-whole%20-%2002.png)
+- ![Pozo Azul Pozo Azul](/images/Pozo%20Azul%20-%20pozo%20azul.jpg)
 
 ## Links reviewed from Cave Data Ideas
 

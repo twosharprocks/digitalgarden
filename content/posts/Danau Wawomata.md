@@ -30,4 +30,4 @@ address: "Muna Regency, South East Sulawesi, IDN, 93662"
 # References
 
 ## Images
-- ![Danau Wawomata Danau Wawomata Fbd9ef79 D1e1499d](/images/Danau%20Wawomata%20-%20Danau%20Wawomata%20-%20fbd9ef79-d1e1499d.jpg)
+- ![Danau Wawomata Danau Wawomata](/images/Danau%20Wawomata%20-%20Danau%20Wawomata.jpg)

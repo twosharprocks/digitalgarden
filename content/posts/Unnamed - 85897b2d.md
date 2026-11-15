@@ -35,6 +35,6 @@ BC 8/9/2023: Clear depression with some rocky features but buried under rubbish 
 # References
 
 ## Images
-- ![Unnamed 20230908 171321 186911eb 85897b2d](/images/Unnamed%20-%2020230908_171321%20-%20186911eb-85897b2d.jpg)
-- ![Unnamed 20230908 171337 C953cc34 85897b2d](/images/Unnamed%20-%2020230908_171337%20-%20c953cc34-85897b2d.jpg)
-- ![Unnamed 20230908 171304 Cac29fe8 85897b2d](/images/Unnamed%20-%2020230908_171304%20-%20cac29fe8-85897b2d.jpg)
+- ![Unnamed Image 11](/images/Unnamed%20-%20Image%2011.jpg)
+- ![Unnamed Image 12](/images/Unnamed%20-%20Image%2012.jpg)
+- ![Unnamed Image 10](/images/Unnamed%20-%20Image%2010.jpg)

@@ -46,5 +46,5 @@ address: "Wallers Rd, Iguana Creek, Victoria, AUS, 3875"
 - **Google Maps:** https://maps.app.goo.gl/P8kQYzxhSFLTz54q7
 
 ## Images
-- ![Den Of Nargun 2 1ffd80c6 A73c7388](/images/Den%20of%20Nargun%20-%202%20-%201ffd80c6-a73c7388.jpg)
-- ![Den Of Nargun Nargun B533965a A73c7388](/images/Den%20of%20Nargun%20-%20nargun%20-%20b533965a-a73c7388.jpg)
+- ![Den Of Nargun Image 01](/images/Den%20of%20Nargun%20-%20Image%2001.jpg)
+- ![Den Of Nargun Nargun](/images/Den%20of%20Nargun%20-%20nargun.jpg)

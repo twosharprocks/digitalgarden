@@ -52,10 +52,10 @@ N56-CEG8105 (in prep)
 - **https://www.youtube.com/watch?v=-8EcYqws7Nk:** Youtube video showing entrance and blue water
 
 ## Images
-- ![Tommy Grahams Cave 6N 56 A62762ce A865a78d](/images/Tommy%20Grahams%20Cave%20-%206N-56%20-%20a62762ce-a865a78d.jpg)
-- ![Tommy Graham's Entrance 17712361067265922681269486020057 Cdfea18a A81eecf1](/images/Tommy%20Graham%27s%20Entrance%20-%2017712361067265922681269486020057%20-%20cdfea18a-a81eecf1.jpg)
-- ![Tommy Graham's Entrance 6N 56 979121b5 A81eecf1](/images/Tommy%20Graham%27s%20Entrance%20-%206N-56%20-%20979121b5-a81eecf1.jpg)
-- ![Tommy Graham's Entrance 17712360916194961679778329578029 3071e9f0 A81eecf1](/images/Tommy%20Graham%27s%20Entrance%20-%2017712360916194961679778329578029%20-%203071e9f0-a81eecf1.jpg)
+- ![Tommy Grahams Cave 6N 56](/images/Tommy%20Grahams%20Cave%20-%206N-56.jpg)
+- ![Tommy Graham's Entrance Image 02](/images/Tommy%20Graham%27s%20Entrance%20-%20Image%2002.jpg)
+- ![Tommy Graham's Entrance 6N 56](/images/Tommy%20Graham%27s%20Entrance%20-%206N-56.jpg)
+- ![Tommy Graham's Entrance Image 01](/images/Tommy%20Graham%27s%20Entrance%20-%20Image%2001.jpg)
 
 # References
 [Tommy Grahams Cave - Google Maps](https://maps.app.goo.gl/r7QR7nYLo8mFTqRE9)

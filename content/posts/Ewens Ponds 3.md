@@ -70,8 +70,8 @@ A very pleasant experience is to dive this site on a clear, moonless night – t
 No qualifications or permits are necessary, just rock up with your dive gear, jump in at the custom built entrance jetty and swim down through the ponds to exit at number 3 where there is a ladder. A path takes you the few hundred metres through undergrowth back to your car.
 
 ## Images
-- ![L0161 Ewens Ponds 3 Ew2 Cabf8155 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20ew2%20-%20cabf8155-6c098cc4.jpg)
-- ![L0161 Ewens Ponds 3 IMG 9041 1b0dde02 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20IMG_9041%20-%201b0dde02-6c098cc4.jpg)
-- ![L0161 Ewens Ponds 3 Ew4 7319e550 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20ew4%20-%207319e550-6c098cc4.jpg)
-- ![L0161 Ewens Ponds 3 IMG 9059 4f9d0415 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20IMG_9059%20-%204f9d0415-6c098cc4.jpg)
-- ![L0161 Ewens Ponds 3 Ew F64e729f 6c098cc4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20ew%20-%20f64e729f-6c098cc4.jpg)
+- ![L0161 Ewens Ponds 3 Ew2](/images/L0161%20-%20Ewens%20Ponds%203%20-%20ew2.jpg)
+- ![L0161 Ewens Ponds 3 Image 01](/images/L0161%20-%20Ewens%20Ponds%203%20-%20Image%2001.jpg)
+- ![L0161 Ewens Ponds 3 Ew4](/images/L0161%20-%20Ewens%20Ponds%203%20-%20ew4.jpg)
+- ![L0161 Ewens Ponds 3 Image 02](/images/L0161%20-%20Ewens%20Ponds%203%20-%20Image%2002.jpg)
+- ![L0161 Ewens Ponds 3 Ew](/images/L0161%20-%20Ewens%20Ponds%203%20-%20ew.jpg)

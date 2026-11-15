@@ -67,13 +67,13 @@ PNSAC authorization is required. (Luís, R. 2018)
 
 # Maps
 
-- ![Alviela Cave Alviera Map 215dbc13 3eef770d](/images/Alviela%20Cave%20-%20alviera-map%20-%20215dbc13-3eef770d.jpg)
+- ![Alviela Cave Alviera Map](/images/Alviela%20Cave%20-%20alviera-map.jpg)
 
 # References
 
 - **CaveAtlas.com:** http://www.caveatlas.com/systems/system.asp?ID=650&co=PT
 
 ## Images
-- ![Alviela Cave Mapenc 55803b44 3eef770d](/images/Alviela%20Cave%20-%20mapenc%20-%2055803b44-3eef770d.jpg)
-- ![Alviela Cave Alviera Map 215dbc13 3eef770d](/images/Alviela%20Cave%20-%20alviera-map%20-%20215dbc13-3eef770d.jpg)
+- ![Alviela Cave Mapenc](/images/Alviela%20Cave%20-%20mapenc.jpg)
+- ![Alviela Cave Alviera Map](/images/Alviela%20Cave%20-%20alviera-map.jpg)
 - [da4c23cf-2d4c-4194-adae-6627a8e7cc14](https://www.youtube.com/watch?v=5y4l9bNTqp0)

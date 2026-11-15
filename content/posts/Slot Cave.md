@@ -56,8 +56,8 @@ The downstream side is a tight squeeze through black silt to get to a relatively
 # References
 
 ## Images
-- ![Slot Cave Slot D78a5ff4 76c76c32](/images/Slot%20Cave%20-%20slot%20-%20d78a5ff4-76c76c32.jpg)
-- ![Slot Cave Slot Up 792fcc3d 76c76c32](/images/Slot%20Cave%20-%20slot%20up%20-%20792fcc3d-76c76c32.jpg)
-- ![Slot Cave 2023 11 30 14.26.12 A8ffbc60 76c76c32](/images/Slot%20Cave%20-%202023-11-30%2014.26.12%20-%20a8ffbc60-76c76c32.jpg)
-- ![Slot Cave Photo 6553675 DJI 75 Jpg 4077857 0 202282410950 Photo Original Cc8d1df5 76c76c32](/images/Slot%20Cave%20-%20Photo_6553675_DJI_75_jpg_4077857_0_202282410950_photo_original%20-%20cc8d1df5-76c76c32.jpg)
-- ![Slot Cave Image 056c21e7 76c76c32](/images/Slot%20Cave%20-%20Image%20-%20056c21e7-76c76c32.jpg)
+- ![Slot Cave Slot](/images/Slot%20Cave%20-%20slot.jpg)
+- ![Slot Cave Slot Up](/images/Slot%20Cave%20-%20slot%20up.jpg)
+- ![Slot Cave Image 01](/images/Slot%20Cave%20-%20Image%2001.jpg)
+- ![Slot Cave Photo 6553675 DJI 75 Jpg 4077857 0 202282410950 Photo Original](/images/Slot%20Cave%20-%20Photo_6553675_DJI_75_jpg_4077857_0_202282410950_photo_original.jpg)
+- ![Slot Cave Image 02](/images/Slot%20Cave%20-%20Image%2002.jpg)

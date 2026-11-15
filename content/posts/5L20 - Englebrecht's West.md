@@ -69,5 +69,5 @@ Once entering the pool, you drop through a small restriction into low flattened 
 The water/lake in this chamber circles to the right and at the far end of the chamber the cave drops into a forked route. To the right, the tunnel travels a short distance through an older limestone passage of approx 50m in length, whereas the left passage continues for 150m to a terminal rockpile. Again, there is a small passage upwards through a restriction to a small air chamber which could fit a few divers who wish to have a chat before returning!
 
 ## Images
-- ![L0020 Englebrecht's West 20230713 151744 4ca90a8a 79dbb77a](/images/L0020%20-%20Englebrecht%27s%20West%20-%2020230713_151744%20-%204ca90a8a-79dbb77a.jpg)
-- ![L0020 Englebrecht's West 20230713 151715 633a21bf 79dbb77a](/images/L0020%20-%20Englebrecht%27s%20West%20-%2020230713_151715%20-%20633a21bf-79dbb77a.jpg)
+- ![L0020 Englebrecht's West Visitor Building](/images/L0020%20-%20Englebrecht%27s%20West%20-%20Visitor%20building.jpg)
+- ![L0020 Englebrecht's West Entrance Sinkhole](/images/L0020%20-%20Englebrecht%27s%20West%20-%20Entrance%20sinkhole.jpg)

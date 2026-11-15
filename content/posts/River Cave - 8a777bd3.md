@@ -30,4 +30,4 @@ address: "86, Telegraph Rd, Portland West, Victoria, AUS, 3305"
 - **ResearchGate:** https://www.researchgate.net/publication/226498128_Speleogenesis_in_aeolian_calcarenite_A_case_study_in_western_Victoria
 
 ## Images
-- ![River Cave Batridge 3c6340d6 8a777bd3](/images/River%20Cave%20-%20batridge%20-%203c6340d6-8a777bd3.jpg)
+- ![River Cave Batridge](/images/River%20Cave%20-%20batridge.jpg)

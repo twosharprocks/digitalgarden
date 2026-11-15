@@ -42,4 +42,4 @@ Snorkelling
 # References
 
 ## Images
-- ![Small Sea Cave Sp Ff1bfbb6 3c382544](/images/Small%20Sea%20Cave%20-%20sp%20-%20ff1bfbb6-3c382544.jpg)
+- ![Small Sea Cave Sp](/images/Small%20Sea%20Cave%20-%20sp.jpg)

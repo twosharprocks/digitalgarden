@@ -35,7 +35,7 @@ address: "Slatina, Municipality of Makedonski Brod, MKD"
 
 # Maps
 
-- ![Izvor Cave Izvor Cave Map 61b982fa 41c85669](/images/Izvor%20Cave%20-%20Izvor%20Cave%20-%20map%20-%2061b982fa-41c85669.jpg)
+- ![Izvor Cave Izvor Cave Map](/images/Izvor%20Cave%20-%20Izvor%20Cave%20-%20map.jpg)
 
 # References
 
@@ -43,5 +43,5 @@ address: "Slatina, Municipality of Makedonski Brod, MKD"
 - **Facebook Video:** https://www.facebook.com/watch/?ref=saved&v=1132559685391173
 
 ## Images
-- ![Izvor Cave Izvor Cave 2f1b454d 41c85669](/images/Izvor%20Cave%20-%20Izvor%20Cave%20-%202f1b454d-41c85669.jpg)
-- ![Izvor Cave Izvor Cave Map 61b982fa 41c85669](/images/Izvor%20Cave%20-%20Izvor%20Cave%20-%20map%20-%2061b982fa-41c85669.jpg)
+- ![Izvor Cave Izvor Cave](/images/Izvor%20Cave%20-%20Izvor%20Cave.jpg)
+- ![Izvor Cave Izvor Cave Map](/images/Izvor%20Cave%20-%20Izvor%20Cave%20-%20map.jpg)

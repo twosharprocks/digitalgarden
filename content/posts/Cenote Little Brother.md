@@ -39,4 +39,4 @@ Light is avaliable at all times. AL
 # References
 
 ## Images
-- ![Cenote Little Brother IMG 9505 68126f46 36b088b7](/images/Cenote%20Little%20Brother%20-%20IMG_9505%20-%2068126f46-36b088b7.jpeg)
+- ![Cenote Little Brother Image 01](/images/Cenote%20Little%20Brother%20-%20Image%2001.jpeg)

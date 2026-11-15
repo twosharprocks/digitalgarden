@@ -62,4 +62,4 @@ https://www.youtube.com/watch?v=ybAeOu0INk4
 - **Cave Atlas:** http://www.caveatlas.com/systems/system.asp?ID=658&co=ES
 
 ## Images
-- ![La Fuentona 658 Profile 30536db6 E78a35a7](/images/La%20Fuentona%20-%20658_profile%20-%2030536db6-e78a35a7.jpg)
+- ![La Fuentona 658 Profile](/images/La%20Fuentona%20-%20658_profile.jpg)

@@ -47,4 +47,4 @@ Repository (meta-data only)
 - **Wikipedia:** https://en.wikipedia.org/wiki/Cliefden_Caves
 
 ## Images
-- ![Cliefden Caves Area 1996 Cliefden Caves Area Natural And Cultural Landscape SHR Plan (5051851b10) 6c4a5e75 460292d4](/images/Cliefden%20Caves%20Area%20-%201996_-_Cliefden_Caves_Area_-_Natural_and_Cultural_Landscape_-_SHR_Plan_%285051851b10%29%20-%206c4a5e75-460292d4.jpg)
+- ![Cliefden Caves Area 1996 Cliefden Caves Area Natural And Cultural Landscape SHR Plan (5051851b10)](/images/Cliefden%20Caves%20Area%20-%201996_-_Cliefden_Caves_Area_-_Natural_and_Cultural_Landscape_-_SHR_Plan_%285051851b10%29.jpg)

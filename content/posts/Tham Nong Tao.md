@@ -67,13 +67,13 @@ Diving of from: Koh Tao Divers
 
 # Maps
 
-- ![Tham Nong Tao Tham Nong Tao Map 4f2b7805 Cbca1bab](/images/Tham%20Nong%20Tao%20-%20tham%20nong%20tao%20-%20map%20-%204f2b7805-cbca1bab.jpg)
+- ![Tham Nong Tao Tham Nong Tao Map](/images/Tham%20Nong%20Tao%20-%20tham%20nong%20tao%20-%20map.jpg)
 
 # References
 
 - **Facebook:** https://www.facebook.com/mikko.paasi.3/posts/pfbid0229VaaZ1Wk7FA6AHjGDx7u8piyptHMLnNgTgdtKkk5Nyuoew4wjor7RwxnFyaRZMKl
 
 ## Images
-- ![Tham Nong Tao Mnemo 1827598e Cbca1bab](/images/Tham%20Nong%20Tao%20-%20mnemo%20-%201827598e-cbca1bab.jpg)
-- ![Tham Nong Tao Tham Nong Tao Map 4f2b7805 Cbca1bab](/images/Tham%20Nong%20Tao%20-%20tham%20nong%20tao%20-%20map%20-%204f2b7805-cbca1bab.jpg)
-- ![Tham Nong Tao Tham Nong Tao 6b40fb15 Cbca1bab](/images/Tham%20Nong%20Tao%20-%20Tham%20Nong%20Tao%20-%206b40fb15-cbca1bab.jpg)
+- ![Tham Nong Tao Mnemo](/images/Tham%20Nong%20Tao%20-%20mnemo.jpg)
+- ![Tham Nong Tao Tham Nong Tao Map](/images/Tham%20Nong%20Tao%20-%20tham%20nong%20tao%20-%20map.jpg)
+- ![Tham Nong Tao Tham Nong Tao](/images/Tham%20Nong%20Tao%20-%20Tham%20Nong%20Tao.jpg)

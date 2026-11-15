@@ -68,5 +68,5 @@ The entrance to the cave is located in a tall pine forest with a remarkable gree
 Although we dive any small place just because “it is out there”, this one does not seem to be very inviting for repeated diving. More than anything else it cries for a huge clean-up! It was great to walk with the gear in the pine forest though.
 
 ## Images
-- ![L0215 Daves Cave Daves 5b430544 87fc6216](/images/L0215%20-%20Daves%20Cave%20-%20daves%20-%205b430544-87fc6216.jpg)
-- ![L0215 Daves Cave Daves2 40c6a9a7 87fc6216](/images/L0215%20-%20Daves%20Cave%20-%20daves2%20-%2040c6a9a7-87fc6216.jpg)
+- ![L0215 Daves Cave Daves](/images/L0215%20-%20Daves%20Cave%20-%20daves.jpg)
+- ![L0215 Daves Cave Daves2](/images/L0215%20-%20Daves%20Cave%20-%20daves2.jpg)

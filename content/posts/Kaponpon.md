@@ -41,4 +41,4 @@ address: "Jl. Poros Lombe, Buton Regency, South East Sulawesi, IDN, 93761"
 # References
 
 ## Images
-- ![Kaponpon Kaponpon 7dfb60e0 67360615](/images/Kaponpon%20-%20kaponpon%20-%207dfb60e0-67360615.jpg)
+- ![Kaponpon Kaponpon](/images/Kaponpon%20-%20kaponpon.jpg)

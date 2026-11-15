@@ -48,5 +48,5 @@ address: "214, Carrer les Dàlies, Balearic Islands, Balearic Islands, ESP, 0768
 - **MapCarta:** https://mapcarta.com/N6345902543
 
 ## Images
-- ![Cova De Sa Piqueta Yellow 42e11923 1b459010](/images/Cova%20de%20sa%20Piqueta%20-%20yellow%20-%2042e11923-1b459010.png)
-- ![Cova De Sa Piqueta Cave Maps Of The Pirata Pont Piqueta System And Cova De Sa Gleda Manacor Mallorca Bdf445a2 1b459010](/images/Cova%20de%20sa%20Piqueta%20-%20Cave-maps-of-the-Pirata-Pont-Piqueta-system-and-Cova-de-sa-Gleda-Manacor-Mallorca%20-%20bdf445a2-1b459010.jpg)
+- ![Cova De Sa Piqueta Yellow](/images/Cova%20de%20sa%20Piqueta%20-%20yellow.png)
+- ![Cova De Sa Piqueta Cave Maps Of The Pirata Pont Piqueta System And Cova De Sa Gleda Manacor Mallorca](/images/Cova%20de%20sa%20Piqueta%20-%20Cave-maps-of-the-Pirata-Pont-Piqueta-system-and-Cova-de-sa-Gleda-Manacor-Mallorca.jpg)

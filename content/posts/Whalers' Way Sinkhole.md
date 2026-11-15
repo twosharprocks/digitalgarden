@@ -234,4 +234,4 @@ survey work.
 - **Trove - Newspaper Clipping:** https://trove.nla.gov.au/newspaper/article/270069037
 
 ## Images
-- ![Whalers' Way Sinkhole 15 Ca1537d1 C51d0c25](/images/Whalers%27%20Way%20Sinkhole%20-%2015%20-%20ca1537d1-c51d0c25.jpg)
+- ![Whalers' Way Sinkhole Image 01](/images/Whalers%27%20Way%20Sinkhole%20-%20Image%2001.jpg)

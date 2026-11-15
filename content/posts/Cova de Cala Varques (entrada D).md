@@ -32,4 +32,4 @@ address: "Camí Cala Falcó, Manacor, Illes Balears, ESP, 07689"
 - **MapCarta:** https://mapcarta.com/N6368677433
 
 ## Images
-- ![Cova De Cala Varques (entrada D) Screenshot (395) B03fe3df 09bbe831](/images/Cova%20de%20Cala%20Varques%20%28entrada%20D%29%20-%20Screenshot%20%28395%29%20-%20b03fe3df-09bbe831.png)
+- ![Cova De Cala Varques (entrada D) Image 01](/images/Cova%20de%20Cala%20Varques%20%28entrada%20D%29%20-%20Image%2001.png)

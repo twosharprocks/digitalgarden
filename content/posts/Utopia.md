@@ -115,6 +115,6 @@ up to this time 4262m researched and measured and explored down to -102m
 - **Protec Sardinia - Cave:** https://protecsardinia.com/utopia/?lang=en
 
 ## Images
-- ![Utopia Utopia Grundriss 51104210 3b0a2857](/images/Utopia%20-%20utopia_grundriss%20-%2051104210-3b0a2857.jpg)
-- ![Utopia Utopia 6ea25d43 3b0a2857](/images/Utopia%20-%20utopia%20-%206ea25d43-3b0a2857.jpg)
-- ![Utopia Utopia Aufriss 20f448eb 3b0a2857](/images/Utopia%20-%20Utopia_aufriss%20-%2020f448eb-3b0a2857.jpg)
+- ![Utopia Utopia Grundriss](/images/Utopia%20-%20utopia_grundriss.jpg)
+- ![Utopia Utopia](/images/Utopia%20-%20utopia.jpg)
+- ![Utopia Utopia Aufriss](/images/Utopia%20-%20Utopia_aufriss.jpg)

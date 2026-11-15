@@ -50,4 +50,4 @@ The first feature numbered under the "L" system, Snowflake Cave is entered via a
 - **ASF:** Entrance is pothole type; (Unknown entrances); development is large dome with daylight hole and low-level phreatic passage; karst type is unknown; length is 60.0 m , surveyed; vertical extent is 15.00 m; reasonably explored, no leads noticed.
 
 ## Images
-- ![L0001 Snowflake Cave 20231103 120106 629dc456 22615a3e](/images/L0001%20-%20Snowflake%20Cave%20-%2020231103_120106%20-%20629dc456-22615a3e.jpg)
+- ![L0001 Snowflake Cave Image 01](/images/L0001%20-%20Snowflake%20Cave%20-%20Image%2001.jpg)

@@ -31,8 +31,8 @@ address: "A1, A1, St. Ann Parish, JAM"
 # References
 
 ## Images
-- ![Green Grotto Caves Gg D601838e Df5267a0](/images/Green%20Grotto%20Caves%20-%20gg%20-%20d601838e-df5267a0.jpg)
-- ![Green Grotto Caves Gg2 8569cf5f Df5267a0](/images/Green%20Grotto%20Caves%20-%20gg2%20-%208569cf5f-df5267a0.jpg)
+- ![Green Grotto Caves Gg](/images/Green%20Grotto%20Caves%20-%20gg.jpg)
+- ![Green Grotto Caves Gg2](/images/Green%20Grotto%20Caves%20-%20gg2.jpg)
 
 - [Jamaica]({{< relref "posts/jamaica.md" >}})
 

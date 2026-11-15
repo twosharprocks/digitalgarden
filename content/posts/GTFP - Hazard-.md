@@ -38,7 +38,7 @@ BC 23/8/2023: Small crevice that had a hole just big enough to crawl through. In
 # References
 
 ## Images
-- ![GTFP Hazard Haz 200c1693 020f521b](/images/GTFP%20-%20Hazard_%20-%20haz%20-%20200c1693-020f521b.jpg)
-- ![GTFP Hazard 20230923 172600 E581d069 020f521b](/images/GTFP%20-%20Hazard_%20-%2020230923_172600%20-%20e581d069-020f521b.jpg)
-- ![GTFP Hazard 20230923 173958 84ddf8fe 020f521b](/images/GTFP%20-%20Hazard_%20-%2020230923_173958%20-%2084ddf8fe-020f521b.jpg)
-- ![GTFP Hazard 20230923 172554 A82ad95c 020f521b](/images/GTFP%20-%20Hazard_%20-%2020230923_172554%20-%20a82ad95c-020f521b.jpg)
+- ![GTFP Hazard Haz](/images/GTFP%20-%20Hazard_%20-%20haz.jpg)
+- ![GTFP Hazard Image 02](/images/GTFP%20-%20Hazard_%20-%20Image%2002.jpg)
+- ![GTFP Hazard Image 03](/images/GTFP%20-%20Hazard_%20-%20Image%2003.jpg)
+- ![GTFP Hazard Image 01](/images/GTFP%20-%20Hazard_%20-%20Image%2001.jpg)

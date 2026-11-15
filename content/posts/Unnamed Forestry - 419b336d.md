@@ -39,4 +39,4 @@ address: "Dow Rd, Tantanoola, South Australia, AUS, 5280"
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: Depression
 
 ## Images
-- ![Unnamed Forestry Go Photo 1628489768715 E001c97e 419b336d](/images/Unnamed%20Forestry%20-%20go_photo_1628489768715%20-%20e001c97e-419b336d.jpg)
+- ![Unnamed Forestry Go Photo 1628489768715](/images/Unnamed%20Forestry%20-%20go_photo_1628489768715.jpg)

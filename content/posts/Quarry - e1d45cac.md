@@ -38,4 +38,4 @@ address: "Woods Rd, Tantanoola, South Australia, AUS, 5280"
 # References
 
 ## Images
-- ![Quarry Quarry 3f6619f0 E1d45cac](/images/Quarry%20-%20quarry%20-%203f6619f0-e1d45cac.jpg)
+- ![Quarry Quarry](/images/Quarry%20-%20quarry.jpg)

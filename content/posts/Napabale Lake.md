@@ -30,4 +30,4 @@ address: "Muna Regency, South East Sulawesi, IDN, 93658"
 # References
 
 ## Images
-- ![Napabale Lake Napabale Lake 8adee7af 6a0ac144](/images/Napabale%20Lake%20-%20Napabale%20Lake%20-%208adee7af-6a0ac144.jpg)
+- ![Napabale Lake Napabale Lake](/images/Napabale%20Lake%20-%20Napabale%20Lake.jpg)

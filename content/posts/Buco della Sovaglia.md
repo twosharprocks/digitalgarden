@@ -44,4 +44,4 @@ address: "15a, Via Trivelli, Val Mara, Ticino, CHE, 6821"
 - **Hikr.org:** https://www.hikr.org/dir/Buco_della_Sovaglia_13740/
 
 ## Images
-- ![Buco Della Sovaglia Images Ede174eb 5f34e463](/images/Buco%20della%20Sovaglia%20-%20images%20-%20ede174eb-5f34e463.jpg)
+- ![Buco Della Sovaglia Image 01](/images/Buco%20della%20Sovaglia%20-%20Image%2001.jpg)

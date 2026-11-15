@@ -60,7 +60,7 @@ No one knows when the cave system actually formed. Adding to it's mysterious all
 - **Facebook:** https://www.facebook.com/learnfactsscience/posts/pfbid0R3MdCCCCoKmpH7qTiZ3VHWDcJs5T96fWu4x3vVrf7yQjcfos4tHf337P8D66cqDrl
 
 ## Images
-- ![Lechuguilla Cave Lech 3910b5d5 E0d7e35b](/images/Lechuguilla%20Cave%20-%20lech%20-%203910b5d5-e0d7e35b.jpg)
+- ![Lechuguilla Cave Lech](/images/Lechuguilla%20Cave%20-%20lech.jpg)
 
 ## Links reviewed from Cave Data Ideas
 

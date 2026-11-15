@@ -42,5 +42,5 @@ Vertical access required to reach doline floor
 # References
 
 ## Images
-- ![Cave DJI 0038 27e6cf82 670ddb1f](/images/Cave%20-%20DJI_0038%20-%2027e6cf82-670ddb1f.jpg)
-- ![Cave DJI 0036 Da6d373c 670ddb1f](/images/Cave%20-%20DJI_0036%20-%20da6d373c-670ddb1f.jpg)
+- ![Cave Image 02](/images/Cave%20-%20Image%2002.jpg)
+- ![Cave Image 01](/images/Cave%20-%20Image%2001.jpg)

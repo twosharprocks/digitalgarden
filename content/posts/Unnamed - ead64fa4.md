@@ -27,5 +27,5 @@ address: "Madura, Western Australia, AUS, 6443"
 # References
 
 ## Images
-- ![Unnamed 2024 04 24 16.23.31 Fd518db5 Ead64fa4](/images/Unnamed%20-%202024-04-24%2016.23.31%20-%20fd518db5-ead64fa4.jpg)
-- ![Unnamed 2024 04 24 16.22.15 3fa0e787 Ead64fa4](/images/Unnamed%20-%202024-04-24%2016.22.15%20-%203fa0e787-ead64fa4.jpg)
+- ![Unnamed Image 21](/images/Unnamed%20-%20Image%2021.jpg)
+- ![Unnamed Image 20](/images/Unnamed%20-%20Image%2020.jpg)

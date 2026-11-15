@@ -43,7 +43,7 @@ address: "Rrugë Pa Emër, Saraj, Greater Skopje, MKD"
 - **Club Vrelo:** https://matka-vrelo.com.mk/
 
 ## Images
-- ![Vrelo Vrleo Cave 3924f02d 84b13d26](/images/Vrelo%20-%20vrleo%20-%20cave%20-%203924f02d-84b13d26.jpg)
+- ![Vrelo Vrleo Cave](/images/Vrelo%20-%20vrleo%20-%20cave.jpg)
 
 - [North Macedonia]({{< relref "posts/North Macedonia.md" >}})
 

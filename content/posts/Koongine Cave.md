@@ -52,6 +52,6 @@ Finger markings made by Indigenous Australians can be found on the walls of the 
 - **Wikipedia:** https://en.wikipedia.org/wiki/Koongine_Cave
 
 ## Images
-- ![L0152 Koongine Cave 0301 3fc98c02 A58e27cd](/images/L0152%20-%20Koongine%20Cave%20-%200301%20-%203fc98c02-a58e27cd.jpg)
-- ![L0152 Koongine Cave Noon 6575255c A58e27cd](/images/L0152%20-%20Koongine%20Cave%20-%20noon%20-%206575255c-a58e27cd.jpg)
-- ![L0152 Koongine Cave 0300 9d59696e A58e27cd](/images/L0152%20-%20Koongine%20Cave%20-%200300%20-%209d59696e-a58e27cd.jpg)
+- ![L0152 Koongine Cave Image 02](/images/L0152%20-%20Koongine%20Cave%20-%20Image%2002.jpg)
+- ![L0152 Koongine Cave Noon](/images/L0152%20-%20Koongine%20Cave%20-%20noon.jpg)
+- ![L0152 Koongine Cave Image 01](/images/L0152%20-%20Koongine%20Cave%20-%20Image%2001.jpg)

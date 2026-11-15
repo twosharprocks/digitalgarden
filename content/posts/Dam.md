@@ -36,4 +36,4 @@ address: "Diagonal Rd, Glencoe, South Australia, AUS, 5291"
 # References
 
 ## Images
-- ![Dam Dam 7d9e7226 D56d6acf](/images/Dam%20-%20dam%20-%207d9e7226-d56d6acf.jpg)
+- ![Dam Dam](/images/Dam%20-%20dam.jpg)

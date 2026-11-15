@@ -47,4 +47,4 @@ From [https://www.naracoortecaves.sa.gov.au/discover/under-the-ground/victoria-f
 # References
 
 ## Images
-- ![Victoria F098 006 41d87746 902c84c0](/images/Victoria%20-%20F098-006%20-%2041d87746-902c84c0.jpg)
+- ![Victoria F098 006](/images/Victoria%20-%20F098-006.jpg)

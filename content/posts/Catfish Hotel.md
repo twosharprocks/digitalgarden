@@ -45,4 +45,4 @@ https://www.cavediving.com/where/manatee/
 # References
 
 ## Images
-- ![Catfish Hotel Manatee 204f92fa 4fbc3693](/images/Catfish%20Hotel%20-%20manatee%20-%20204f92fa-4fbc3693.jpg)
+- ![Catfish Hotel Manatee](/images/Catfish%20Hotel%20-%20manatee.jpg)

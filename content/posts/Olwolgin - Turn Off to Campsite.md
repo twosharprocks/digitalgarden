@@ -31,5 +31,5 @@ address: "Madura, Western Australia, AUS, 6443"
 # References
 
 ## Images
-- ![Olwolgin Turn Off To Campsite 17210851508608335845655395527017 19568574 6b2853e7](/images/Olwolgin%20-%20Turn%20Off%20to%20Campsite%20-%2017210851508608335845655395527017%20-%2019568574-6b2853e7.jpg)
-- ![Olwolgin Turn Off To Campsite 1721085165560700780829557823089 828694b4 6b2853e7](/images/Olwolgin%20-%20Turn%20Off%20to%20Campsite%20-%201721085165560700780829557823089%20-%20828694b4-6b2853e7.jpg)
+- ![Olwolgin Turn Off To Campsite Image 01](/images/Olwolgin%20-%20Turn%20Off%20to%20Campsite%20-%20Image%2001.jpg)
+- ![Olwolgin Turn Off To Campsite Image 02](/images/Olwolgin%20-%20Turn%20Off%20to%20Campsite%20-%20Image%2002.jpg)

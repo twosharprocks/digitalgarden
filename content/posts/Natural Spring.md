@@ -36,5 +36,5 @@ address: "Princes Hwy, Dartmoor, Victoria, AUS, 3304"
 - **GoogleMaps:** https://goo.gl/maps/kbJjvbeDYzrtfUtD9
 
 ## Images
-- ![Natural Spring 20250213 105956 20ef76c8 920c43f1](/images/Natural%20Spring%20-%2020250213_105956%20-%2020ef76c8-920c43f1.jpg)
-- ![Natural Spring 20250213 110019 93b5e7cf 920c43f1](/images/Natural%20Spring%20-%2020250213_110019%20-%2093b5e7cf-920c43f1.jpg)
+- ![Natural Spring Image 01](/images/Natural%20Spring%20-%20Image%2001.jpg)
+- ![Natural Spring Image 02](/images/Natural%20Spring%20-%20Image%2002.jpg)

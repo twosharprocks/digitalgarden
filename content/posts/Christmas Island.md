@@ -6455,7 +6455,7 @@ Christmas Island local radio
 
 # Maps
 
-![Christmas Island Xmas 9358c9e8 0bc8566f](/images/Christmas%20Island%20-%20xmas%20-%209358c9e8-0bc8566f.jpg)
+![Christmas Island Xmas](/images/Christmas%20Island%20-%20xmas.jpg)
 
 # References
 

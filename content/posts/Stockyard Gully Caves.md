@@ -79,6 +79,6 @@ Why these caves receive so little attention is hard to understand. The change fr
 - **TrailsWA:** https://trailswa.com.au/trails/trail/stockyard-gully-cave-trail-stockyard-gully-reserve
 
 ## Images
-- ![Stockyard Gully Caves Stockyard Gully3 Ae944366 F99b4a2c](/images/Stockyard%20Gully%20Caves%20-%20stockyard-gully3%20-%20ae944366-f99b4a2c.jpg)
-- ![Stockyard Gully Caves Stockyard Gully2 C364ade3 F99b4a2c](/images/Stockyard%20Gully%20Caves%20-%20stockyard-gully2%20-%20c364ade3-f99b4a2c.jpg)
-- ![Stockyard Gully Caves Stockyard Gully Ba1bee1f F99b4a2c](/images/Stockyard%20Gully%20Caves%20-%20stockyard-gully%20-%20ba1bee1f-f99b4a2c.jpg)
+- ![Stockyard Gully Caves Stockyard Gully3](/images/Stockyard%20Gully%20Caves%20-%20stockyard-gully3.jpg)
+- ![Stockyard Gully Caves Stockyard Gully2](/images/Stockyard%20Gully%20Caves%20-%20stockyard-gully2.jpg)
+- ![Stockyard Gully Caves Stockyard Gully](/images/Stockyard%20Gully%20Caves%20-%20stockyard-gully.jpg)

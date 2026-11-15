@@ -46,5 +46,5 @@ Forestry
 - **Forestry SA:** L0418, Thin Roof: N, Fence: R. Dimensions: 1 x 1 x 4m deep. Features:  identified by Clive (CSIRO) using GPS breathing tube - CSIRO plot - Clive Carlyle
 
 ## Images
-- ![L0418 GPS Tube PXL 20230715 052602298 80157c5f E11bc101](/images/L0418%20-%20GPS%20Tube%20-%20PXL_20230715_052602298%20-%2080157c5f-e11bc101.jpg)
-- ![L0418 GPS Tube PXL 20230715 052539325 6ad6150c E11bc101](/images/L0418%20-%20GPS%20Tube%20-%20PXL_20230715_052539325%20-%206ad6150c-e11bc101.jpg)
+- ![L0418 GPS Tube Image 02](/images/L0418%20-%20GPS%20Tube%20-%20Image%2002.jpg)
+- ![L0418 GPS Tube Image 01](/images/L0418%20-%20GPS%20Tube%20-%20Image%2001.jpg)

@@ -44,5 +44,5 @@ address: "Jl. Poros Lombe, Buton Regency, South East Sulawesi, IDN, 93761"
 # References
 
 ## Images
-- ![Goa Owe Bosu Goa Owe Bosu2 C8468afc Eb39c6be](/images/Goa%20Owe%20Bosu%20-%20Goa%20Owe%20Bosu2%20-%20c8468afc-eb39c6be.jpg)
-- ![Goa Owe Bosu Goa Owe Bosu Aedae535 Eb39c6be](/images/Goa%20Owe%20Bosu%20-%20Goa%20Owe%20Bosu%20-%20aedae535-eb39c6be.jpg)
+- ![Goa Owe Bosu Goa Owe Bosu2](/images/Goa%20Owe%20Bosu%20-%20Goa%20Owe%20Bosu2.jpg)
+- ![Goa Owe Bosu Goa Owe Bosu](/images/Goa%20Owe%20Bosu%20-%20Goa%20Owe%20Bosu.jpg)

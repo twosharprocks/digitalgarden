@@ -28,4 +28,4 @@ address: "Murrells Track, Glenelg Shire, Victoria, AUS, 3292"
 # References
 
 ## Images
-- ![Sinkhole Sinkhole5 7f5ad064 A647c3ed](/images/Sinkhole_%20-%20Sinkhole5%20-%207f5ad064-a647c3ed.jpg)
+- ![Sinkhole Sinkhole5](/images/Sinkhole_%20-%20Sinkhole5.jpg)

@@ -43,6 +43,6 @@ DRONE PHOTOS TBA
 # References
 
 ## Images
-- ![Clay Dam Cave DJI 0026 F6d7eb0e 35de174b](/images/Clay%20Dam%20Cave%20-%20DJI_0026%20-%20f6d7eb0e-35de174b.jpg)
-- ![Clay Dam Cave DJI 0028 8568fa07 35de174b](/images/Clay%20Dam%20Cave%20-%20DJI_0028%20-%208568fa07-35de174b.jpg)
-- ![Clay Dam Cave DJI 0024 A3b660b9 35de174b](/images/Clay%20Dam%20Cave%20-%20DJI_0024%20-%20a3b660b9-35de174b.jpg)
+- ![Clay Dam Cave Image 02](/images/Clay%20Dam%20Cave%20-%20Image%2002.jpg)
+- ![Clay Dam Cave Image 03](/images/Clay%20Dam%20Cave%20-%20Image%2003.jpg)
+- ![Clay Dam Cave Image 01](/images/Clay%20Dam%20Cave%20-%20Image%2001.jpg)

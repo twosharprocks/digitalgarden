@@ -35,4 +35,4 @@ address: "17901, 186th Pl, Suwannee County, Florida, USA, 32060"
 # References
 
 ## Images
-- ![Cow Springs (NSS CDS) Image 44caa100 Bb79a884](/images/Cow%20Springs%20%28NSS-CDS%29%20-%20Image%20-%2044caa100-bb79a884.jpg)
+- ![Cow Springs (NSS CDS) Image 01](/images/Cow%20Springs%20%28NSS-CDS%29%20-%20Image%2001.jpg)

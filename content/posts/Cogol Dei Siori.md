@@ -52,4 +52,4 @@ The passage discovered by Bolanz is on the right of the mill, while proceeding a
 - **Cave Atlas:** http://caveatlas.com/systems/system.asp?ID=584&co=IT
 
 ## Images
-- ![Cogol Dei Siori 584 System Da0a54fb 322b2b43](/images/Cogol%20Dei%20Siori%20-%20584_system%20-%20da0a54fb-322b2b43.gif)
+- ![Cogol Dei Siori 584 System](/images/Cogol%20Dei%20Siori%20-%20584_system.gif)

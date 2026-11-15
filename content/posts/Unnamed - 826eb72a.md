@@ -40,5 +40,5 @@ address: "99-101, Caves Rd, Dubbo Regional Council, New South Wales, AUS, 2820"
 # References
 
 ## Images
-- ![Unnamed PXL 20250926 063621061 74757688 826eb72a](/images/Unnamed%20-%20PXL_20250926_063621061%20-%2074757688-826eb72a.jpg)
-- ![Unnamed PXL 20250926 063552694 58942995 826eb72a](/images/Unnamed%20-%20PXL_20250926_063552694%20-%2058942995-826eb72a.jpg)
+- ![Unnamed Image 40](/images/Unnamed%20-%20Image%2040.jpg)
+- ![Unnamed Image 39](/images/Unnamed%20-%20Image%2039.jpg)

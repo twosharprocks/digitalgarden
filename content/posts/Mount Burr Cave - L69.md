@@ -64,9 +64,9 @@ CEGSA first became aware of the feature through the overseer of the District Cou
 - **LSECR:** Page 142
 
 ## Images
-- ![L0069 Mount Burr Cave L69 Burr2 81f72c1c 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20burr2%20-%2081f72c1c-4f7fc458.jpg)
-- ![L0069 Mount Burr Cave L69 Burr2 7abfccfd 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20burr2%20-%207abfccfd-4f7fc458.jpg)
-- ![L0069 Mount Burr Cave L69 Burr F4441898 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20burr%20-%20f4441898-4f7fc458.jpg)
-- ![L0069 Mount Burr Cave L69 PXL 20241214 030455679 42dd6ee8 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20PXL_20241214_030455679%20-%2042dd6ee8-4f7fc458.jpg)
-- ![L0069 Mount Burr Cave L69 Burr 22711c5d 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20burr%20-%2022711c5d-4f7fc458.jpg)
-- ![L0069 Mount Burr Cave L69 PXL 20241214 030003999 6b987203 4f7fc458](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20PXL_20241214_030003999%20-%206b987203-4f7fc458.jpg)
+- ![L0069 Mount Burr Cave L69 Burr2 02](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20burr2%20-%2002.jpg)
+- ![L0069 Mount Burr Cave L69 Burr2](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20burr2.jpg)
+- ![L0069 Mount Burr Cave L69 Burr 02](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20burr%20-%2002.jpg)
+- ![L0069 Mount Burr Cave L69 Image 02](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20Image%2002.jpg)
+- ![L0069 Mount Burr Cave L69 Burr](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20burr.jpg)
+- ![L0069 Mount Burr Cave L69 Image 01](/images/L0069%20-%20Mount%20Burr%20Cave%20-%20L69%20-%20Image%2001.jpg)

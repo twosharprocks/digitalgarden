@@ -33,4 +33,4 @@ address: "Exuma, BHS"
 # References
 
 ## Images
-- ![Norman's Pond Cave Normans Pond Cave Profile 6fbaeff3 24edc098](/images/Norman%27s%20Pond%20Cave%20-%20normans_pond_cave_profile%20-%206fbaeff3-24edc098.jpg)
+- ![Norman's Pond Cave Normans Pond Cave Profile](/images/Norman%27s%20Pond%20Cave%20-%20normans_pond_cave_profile.jpg)

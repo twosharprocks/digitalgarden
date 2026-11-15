@@ -52,7 +52,7 @@ Forestry
 - **Forestry SA:** L0076, Thin Roof: N, Fence: Y. Dimensions: 1m x 15m deep. Features: Named after owner. Very tight tube - competent cavers only
 
 ## Images
-- ![L0076 Pitts Cave L76 2 Cc8a00cc 16d33a6a](/images/L0076%20-%20Pitts%20Cave%20-%20L76-2%20-%20cc8a00cc-16d33a6a.jpg)
-- ![L0076 Pitts Cave L76 A7bca589 16d33a6a](/images/L0076%20-%20Pitts%20Cave%20-%20L76%20-%20a7bca589-16d33a6a.jpg)
-- ![L0076 Pitts Cave Pitts 1b4ed99e 16d33a6a](/images/L0076%20-%20Pitts%20Cave%20-%20pitts%20-%201b4ed99e-16d33a6a.jpg)
-- ![L0076 Pitts Cave 2024 03 27 13.29.39 5a3a8138 16d33a6a](/images/L0076%20-%20Pitts%20Cave%20-%202024-03-27%2013.29.39%20-%205a3a8138-16d33a6a.jpg)
+- ![L0076 Pitts Cave L76 2](/images/L0076%20-%20Pitts%20Cave%20-%20L76-2.jpg)
+- ![L0076 Pitts Cave L76](/images/L0076%20-%20Pitts%20Cave%20-%20L76.jpg)
+- ![L0076 Pitts Cave Pitts](/images/L0076%20-%20Pitts%20Cave%20-%20pitts.jpg)
+- ![L0076 Pitts Cave Image 01](/images/L0076%20-%20Pitts%20Cave%20-%20Image%2001.jpg)

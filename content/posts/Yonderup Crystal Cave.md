@@ -48,4 +48,4 @@ Bookings for Companion Cardholders can be made by contacting the Yanchep Parks a
 - **Explore Parks:** https://exploreparks.dbca.wa.gov.au/site/crystal-cave
 
 ## Images
-- ![Yonderup Crystal Cave Crystal Cave Pantheon Yanchep National Park C Morey 1 B3996b88 4feb9bf8](/images/Yonderup%20Crystal%20Cave%20-%20crystal-cave-pantheon-yanchep-national-park-c-morey-1%20-%20b3996b88-4feb9bf8.jpg)
+- ![Yonderup Crystal Cave Crystal Cave Pantheon Yanchep National Park C Morey 1](/images/Yonderup%20Crystal%20Cave%20-%20crystal-cave-pantheon-yanchep-national-park-c-morey-1.jpg)

@@ -28,4 +28,4 @@ address: "Glenelg Dr, Glenelg Shire, Victoria, AUS, 3292"
 # References
 
 ## Images
-- ![Sinkhole Freshwater E1845ff0 127b5d4e](/images/Sinkhole_%20-%20freshwater%20-%20e1845ff0-127b5d4e.jpg)
+- ![Sinkhole Freshwater](/images/Sinkhole_%20-%20freshwater.jpg)

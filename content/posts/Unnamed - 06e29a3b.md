@@ -43,4 +43,4 @@ address: "Princes Hwy, Tantanoola, South Australia, AUS, 5280"
 # References
 
 ## Images
-- ![Unnamed Fence Dep 28ffba80 06e29a3b](/images/Unnamed%20-%20fence-dep%20-%2028ffba80-06e29a3b.jpg)
+- ![Unnamed Fence Dep](/images/Unnamed%20-%20fence-dep.jpg)

@@ -36,4 +36,4 @@ address: "Idkerberget, Dalarnas län, SWE, 781 99"
 # References
 
 ## Images
-- ![Tuna Hästberg FB IMG 1729430014342 121a60f9 4f590195](/images/Tuna-H%C3%A4stberg%20-%20FB_IMG_1729430014342%20-%20121a60f9-4f590195.jpg)
+- ![Tuna Hästberg Image 01](/images/Tuna-H%C3%A4stberg%20-%20Image%2001.jpg)

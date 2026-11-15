@@ -26,9 +26,9 @@ address: "Jl. Poros Lombe, Buton Regency, South East Sulawesi, IDN, 93761"
 # References
 
 ## Images
-- ![La Humbe La Humbe Db88f588 A5a4e208](/images/La%20Humbe%20-%20La%20Humbe%20-%20db88f588-a5a4e208.jpg)
-- ![La Humbe La Humbe Pano 9fbfa2ce A5a4e208](/images/La%20Humbe%20-%20La%20Humbe%20-%20pano%20-%209fbfa2ce-a5a4e208.jpg)
-- ![La Humbe La Humbe Sketch Bad30ea5 A5a4e208](/images/La%20Humbe%20-%20la%20humbe%20sketch%20-%20bad30ea5-a5a4e208.jpg)
+- ![La Humbe La Humbe](/images/La%20Humbe%20-%20La%20Humbe.jpg)
+- ![La Humbe La Humbe Pano](/images/La%20Humbe%20-%20La%20Humbe%20-%20pano.jpg)
+- ![La Humbe La Humbe Sketch](/images/La%20Humbe%20-%20la%20humbe%20sketch.jpg)
 - [d84108a1-b66e-4954-ac71-49717e77f8bd](https://www.youtube.com/watch?v=AFCt3rVyWgo)
 
 # Details

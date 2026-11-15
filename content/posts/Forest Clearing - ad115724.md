@@ -39,4 +39,4 @@ address: "Unnamed Road, The District Council of Grant, South Australia, AUS, 528
 # References
 
 ## Images
-- ![Forest Clearing DJI 0724 Fb9f9589 Ad115724](/images/Forest%20Clearing%20-%20DJI_0724%20-%20fb9f9589-ad115724.jpg)
+- ![Forest Clearing Image 01](/images/Forest%20Clearing%20-%20Image%2001.jpg)

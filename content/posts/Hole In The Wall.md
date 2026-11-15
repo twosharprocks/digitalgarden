@@ -73,4 +73,4 @@ is a swimming and cave diving hotspot. A small wooden platform for swimming and 
 the northwest side of the pool. In June 2003, very little flow from the spring was detected
 
 ## Images
-- ![Hole In The Wall FB IMG 1731374953546 62d0d931 73065350](/images/Hole%20In%20The%20Wall%20-%20FB_IMG_1731374953546%20-%2062d0d931-73065350.jpg)
+- ![Hole In The Wall Image 01](/images/Hole%20In%20The%20Wall%20-%20Image%2001.jpg)

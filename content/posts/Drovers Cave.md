@@ -44,4 +44,4 @@ Location from Waze - locked gate in picture very different from Stockton Gully C
 - **Total Travel:** http://www.totaltravel.com.au/travel/wa/gascoyne/carnarvon/travel-guides/gardens/drovers-cave-9/
 
 ## Images
-- ![6J 2 Drovers Cave Drovers 83882965 2887f934](/images/6J-2%20-%20Drovers%20Cave%20-%20drovers%20-%2083882965-2887f934.jpg)
+- ![6J 2 Drovers Cave Drovers](/images/6J-2%20-%20Drovers%20Cave%20-%20drovers.jpg)

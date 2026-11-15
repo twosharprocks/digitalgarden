@@ -44,8 +44,8 @@ Forestry
 - **Forestry SA:** L0339, Thin Roof: Y, Fence: R. Dimensions: ?. Features: Needs gate; remove dead tree
 
 ## Images
-- ![L0339 Kangaroo Apple Cave 2023 10 13 10.46.57 Deacd3e2 84639e95](/images/L0339%20-%20Kangaroo%20Apple%20Cave%20-%202023-10-13%2010.46.57%20-%20deacd3e2-84639e95.jpg)
-- ![L0339 Kangaroo Apple Cave 2023 10 13 10.58.00 9620f6d3 84639e95](/images/L0339%20-%20Kangaroo%20Apple%20Cave%20-%202023-10-13%2010.58.00%20-%209620f6d3-84639e95.jpg)
-- ![L0339 Kangaroo Apple Cave 2023 10 13 10.57.50 486c76df 84639e95](/images/L0339%20-%20Kangaroo%20Apple%20Cave%20-%202023-10-13%2010.57.50%20-%20486c76df-84639e95.jpg)
-- ![L0339 Kangaroo Apple Cave 2023 10 13 10.57.56 3c8e76d1 84639e95](/images/L0339%20-%20Kangaroo%20Apple%20Cave%20-%202023-10-13%2010.57.56%20-%203c8e76d1-84639e95.jpg)
-- ![L0339 Kangaroo Apple Cave 2023 10 13 10.56.49 3812f40e 84639e95](/images/L0339%20-%20Kangaroo%20Apple%20Cave%20-%202023-10-13%2010.56.49%20-%203812f40e-84639e95.jpg)
+- ![L0339 Kangaroo Apple Cave Image 01](/images/L0339%20-%20Kangaroo%20Apple%20Cave%20-%20Image%2001.jpg)
+- ![L0339 Kangaroo Apple Cave Image 05](/images/L0339%20-%20Kangaroo%20Apple%20Cave%20-%20Image%2005.jpg)
+- ![L0339 Kangaroo Apple Cave Image 03](/images/L0339%20-%20Kangaroo%20Apple%20Cave%20-%20Image%2003.jpg)
+- ![L0339 Kangaroo Apple Cave Image 04](/images/L0339%20-%20Kangaroo%20Apple%20Cave%20-%20Image%2004.jpg)
+- ![L0339 Kangaroo Apple Cave Image 02](/images/L0339%20-%20Kangaroo%20Apple%20Cave%20-%20Image%2002.jpg)

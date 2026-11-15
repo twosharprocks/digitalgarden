@@ -40,4 +40,4 @@ address: "17, Cuba, Tulum Municipality, Quintana Roo, MEX, 77774"
 # References
 
 ## Images
-- ![Chan Chemuyil Sur Screenshot 2023 06 12 At 7.01.20 AM 330f789c D3e25240](/images/Chan%20Chemuyil%20Sur%20-%20Screenshot%202023-06-12%20at%207.01.20%20AM%20-%20330f789c-d3e25240.png)
+- ![Chan Chemuyil Sur Image 01](/images/Chan%20Chemuyil%20Sur%20-%20Image%2001.png)

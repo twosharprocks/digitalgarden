@@ -31,4 +31,4 @@ address: "Jalan Tanpa Nama, Muna Regency, South East Sulawesi, IDN, 93654"
 # References
 
 ## Images
-- ![Permadian Mata Air Lambiku Permadian Mata Air Lambiku 7b2b851a Ab6a1ed8](/images/Permadian%20Mata%20Air%20Lambiku%20-%20Permadian%20Mata%20Air%20Lambiku%20-%207b2b851a-ab6a1ed8.jpg)
+- ![Permadian Mata Air Lambiku Permadian Mata Air Lambiku](/images/Permadian%20Mata%20Air%20Lambiku%20-%20Permadian%20Mata%20Air%20Lambiku.jpg)

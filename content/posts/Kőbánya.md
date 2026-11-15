@@ -39,4 +39,4 @@ address: "20, Előd u., Budapest, Budapest, HUN, 1105"
 # References
 
 ## Images
-- ![Kőbánya FB IMG 1736323374414 23dfa2bf B2fed969](/images/K%C5%91b%C3%A1nya%20-%20FB_IMG_1736323374414%20-%2023dfa2bf-b2fed969.jpg)
+- ![Kőbánya Image 01](/images/K%C5%91b%C3%A1nya%20-%20Image%2001.jpg)

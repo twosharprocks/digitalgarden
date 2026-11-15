@@ -46,6 +46,6 @@ Repository - Sketchsheets, Survex and Illustrator files
 - **SUSS:** https://suss.caves.org.au/cave/cooleman/CP6_River/
 
 ## Images
-- ![CP 6 River Cave Cp6river D265eb41 9ca45287](/images/CP-6%20-%20River%20Cave%20-%20cp6river%20-%20d265eb41-9ca45287.jpg)
-- ![CP 6 River Cave Cp6riversketch04 82139647 9ca45287](/images/CP-6%20-%20River%20Cave%20-%20CP6Riversketch04%20-%2082139647-9ca45287.jpg)
+- ![CP 6 River Cave Cp6river](/images/CP-6%20-%20River%20Cave%20-%20cp6river.jpg)
+- ![CP 6 River Cave Cp6riversketch04](/images/CP-6%20-%20River%20Cave%20-%20CP6Riversketch04.jpg)
 - [cp6river - d45966fc-9ca45287](https://github.com/twosharprocks/Karst-Database/blob/d6f539534154fcd23f60d0a25899bf7ef553f1d8/Assets/a290f7584483be4044c065f2f992d9678b959fb2a0f43201d3c1d3acf0b5117f.pdf)

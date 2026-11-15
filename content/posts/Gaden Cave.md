@@ -40,5 +40,5 @@ address: "99-101, Caves Rd, Dubbo Regional Council, New South Wales, AUS, 2820"
 # References
 
 ## Images
-- ![Gaden Cave PXL 20250926 062918433 30d9ced1 Ce1d3274](/images/Gaden%20Cave%20-%20PXL_20250926_062918433%20-%2030d9ced1-ce1d3274.jpg)
-- ![Gaden Cave PXL 20250926 063021495 72e05cce Ce1d3274](/images/Gaden%20Cave%20-%20PXL_20250926_063021495%20-%2072e05cce-ce1d3274.jpg)
+- ![Gaden Cave Image 01](/images/Gaden%20Cave%20-%20Image%2001.jpg)
+- ![Gaden Cave Image 02](/images/Gaden%20Cave%20-%20Image%2002.jpg)

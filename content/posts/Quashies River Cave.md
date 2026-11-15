@@ -36,4 +36,4 @@ address: "Unnamed Road, Trelawny Parish, JAM"
 # References
 
 ## Images
-- ![Quashies River Cave Quashies 02004c8f 015cc578](/images/Quashies%20River%20Cave%20-%20quashies%20-%2002004c8f-015cc578.jpg)
+- ![Quashies River Cave Quashies](/images/Quashies%20River%20Cave%20-%20quashies.jpg)

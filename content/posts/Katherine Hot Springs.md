@@ -51,4 +51,4 @@ Noting that the water was flowing from the right as well as the left hand passag
 - **YouTube:** https://youtu.be/ZKF8r5L2S4c
 
 ## Images
-- ![Katherine Hot Springs Image Bff4727d 4810f45e](/images/Katherine%20Hot%20Springs%20-%20Image%20-%20bff4727d-4810f45e.gif)
+- ![Katherine Hot Springs Image 01](/images/Katherine%20Hot%20Springs%20-%20Image%2001.gif)

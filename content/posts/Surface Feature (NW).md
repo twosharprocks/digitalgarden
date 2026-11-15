@@ -35,4 +35,4 @@ BC 8/9/2023: No obvious features
 # References
 
 ## Images
-- ![Surface Feature (NW) 20230908 171124 D2f0f1b2 58c9fcdf](/images/Surface%20Feature%20%28NW%29%20-%2020230908_171124%20-%20d2f0f1b2-58c9fcdf.jpg)
+- ![Surface Feature (NW) Image 03](/images/Surface%20Feature%20%28NW%29%20-%20Image%2003.jpg)

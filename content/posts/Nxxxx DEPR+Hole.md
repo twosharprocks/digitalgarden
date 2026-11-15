@@ -37,6 +37,6 @@ BC 26/11/2024: Depression has been dug about 1m down. Rock looks loose
 # References
 
 ## Images
-- ![Nxxxx Depr+hole 2023 11 26 15.46.16 6ea2c972 Fb7890b8](/images/Nxxxx%20DEPR%2BHole%20-%202023-11-26%2015.46.16%20-%206ea2c972-fb7890b8.jpg)
-- ![Nxxxx Depr+hole 2023 11 26 15.46.35 734a19f6 Fb7890b8](/images/Nxxxx%20DEPR%2BHole%20-%202023-11-26%2015.46.35%20-%20734a19f6-fb7890b8.jpg)
-- ![Nxxxx Depr+hole 2023 11 26 15.46.26 8cd36d5b Fb7890b8](/images/Nxxxx%20DEPR%2BHole%20-%202023-11-26%2015.46.26%20-%208cd36d5b-fb7890b8.jpg)
+- ![Nxxxx Depr+hole Image 01](/images/Nxxxx%20DEPR%2BHole%20-%20Image%2001.jpg)
+- ![Nxxxx Depr+hole Image 03](/images/Nxxxx%20DEPR%2BHole%20-%20Image%2003.jpg)
+- ![Nxxxx Depr+hole Image 02](/images/Nxxxx%20DEPR%2BHole%20-%20Image%2002.jpg)

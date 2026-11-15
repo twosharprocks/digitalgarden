@@ -62,5 +62,5 @@ The intersection of several highways nearby one of which was diverted by the Hig
 - **LSECR:** Page 124
 
 ## Images
-- ![L0060b Gran Gran Main Entrance PXL 20230623 042657941 D45bc459 237103d3](/images/L0060b%20-%20Gran%20Gran%20-%20Main%20Entrance%20-%20PXL_20230623_042657941%20-%20d45bc459-237103d3.jpg)
-- ![L0060b Gran Gran Main Entrance 0125 6293d8bc 237103d3](/images/L0060b%20-%20Gran%20Gran%20-%20Main%20Entrance%20-%200125%20-%206293d8bc-237103d3.jpg)
+- ![L0060b Gran Gran Main Entrance Image 02](/images/L0060b%20-%20Gran%20Gran%20-%20Main%20Entrance%20-%20Image%2002.jpg)
+- ![L0060b Gran Gran Main Entrance Image 01](/images/L0060b%20-%20Gran%20Gran%20-%20Main%20Entrance%20-%20Image%2001.jpg)

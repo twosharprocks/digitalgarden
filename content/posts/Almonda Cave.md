@@ -47,7 +47,7 @@ address: "16, R. Marginal, Torres Novas, Santarém District, PRT, 2350"
 
 # Maps
 
-- ![Almonda Cave Almonda Map Eec3d86c 7cad43c8](/images/Almonda%20Cave%20-%20almonda%20-%20map%20-%20eec3d86c-7cad43c8.jpg)
+- ![Almonda Cave Almonda Map](/images/Almonda%20Cave%20-%20almonda%20-%20map.jpg)
 
 # References
 
@@ -55,8 +55,8 @@ address: "16, R. Marginal, Torres Novas, Santarém District, PRT, 2350"
 - **cavedivingportugal.com:** https://cavedivingportugal.com/caves/almonda-cave
 
 ## Images
-- ![Almonda Cave Almonda Map Eec3d86c 7cad43c8](/images/Almonda%20Cave%20-%20almonda%20-%20map%20-%20eec3d86c-7cad43c8.jpg)
-- ![Almonda Cave Almonda 83891b60 7cad43c8](/images/Almonda%20Cave%20-%20almonda%20-%2083891b60-7cad43c8.jpg)
+- ![Almonda Cave Almonda Map](/images/Almonda%20Cave%20-%20almonda%20-%20map.jpg)
+- ![Almonda Cave Almonda](/images/Almonda%20Cave%20-%20almonda.jpg)
 - [c28c87e3-4ede-41b9-a97f-cbceaa1e98e9](https://www.youtube.com/watch?v=9P8lM2WKpzA)
 
 ## Links reviewed from Cave Data Ideas

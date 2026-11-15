@@ -36,8 +36,8 @@ BC 14/10/2023: Small sinkholl approx 1.5m deep. Full of forest litter,  needs cl
 # References
 
 ## Images
-- ![Sinkhole 20231014 131008 Cb3e6d72 F037a71d](/images/Sinkhole_%20-%2020231014_131008%20-%20cb3e6d72-f037a71d.jpg)
-- ![Sinkhole 20231014 130959 006766f6 F037a71d](/images/Sinkhole_%20-%2020231014_130959%20-%20006766f6-f037a71d.jpg)
-- ![Sinkhole 20231014 131012 323eb0ce F037a71d](/images/Sinkhole_%20-%2020231014_131012%20-%20323eb0ce-f037a71d.jpg)
-- ![Sinkhole 20231014 131005 Fc62374b F037a71d](/images/Sinkhole_%20-%2020231014_131005%20-%20fc62374b-f037a71d.jpg)
-- ![Sinkhole Thp 9f15b1ae F037a71d](/images/Sinkhole_%20-%20thp%20-%209f15b1ae-f037a71d.jpg)
+- ![Sinkhole Image 06](/images/Sinkhole_%20-%20Image%2006.jpg)
+- ![Sinkhole Image 04](/images/Sinkhole_%20-%20Image%2004.jpg)
+- ![Sinkhole Image 07](/images/Sinkhole_%20-%20Image%2007.jpg)
+- ![Sinkhole Image 05](/images/Sinkhole_%20-%20Image%2005.jpg)
+- ![Sinkhole Thp](/images/Sinkhole_%20-%20thp.jpg)

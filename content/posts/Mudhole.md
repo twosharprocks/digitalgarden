@@ -75,5 +75,5 @@ On the way back out, you will see the (hopefully small amount) silt you caused o
 - **Trimixdivers.com:** https://www.trimixdivers.com/trimix5/wp-content/uploads/phemudholeMap.jpg
 
 ## Images
-- ![L0097 Mudhole IMG 20191122 175015 350 1e702226 Ea4dacca](/images/L0097%20-%20Mudhole%20-%20IMG_20191122_175015_350%20-%201e702226-ea4dacca.jpg)
-- ![L0097 Mudhole IMG 20200113 231039 698 0dc482a1 Ea4dacca](/images/L0097%20-%20Mudhole%20-%20IMG_20200113_231039_698%20-%200dc482a1-ea4dacca.jpg)
+- ![L0097 Mudhole Image 01](/images/L0097%20-%20Mudhole%20-%20Image%2001.jpg)
+- ![L0097 Mudhole Image 02](/images/L0097%20-%20Mudhole%20-%20Image%2002.jpg)

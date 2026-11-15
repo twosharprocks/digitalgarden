@@ -33,5 +33,5 @@ address: "10, Plaça de Sant Jaume, Felanitx, Illes Balears, ESP, 07670"
 - **Wikiloc:** https://ca.wikiloc.com/rutes-senderisme/20210729-portocolom-cova-dets-ases-79467214
 
 ## Images
-- ![Cova Dets Ases Donkey F4c4020a 9db98957](/images/Cova%20dets%20Ases%20-%20donkey%20-%20f4c4020a-9db98957.jpg)
-- ![Cova Dets Ases Cova Dets Ases B1a56c60 9db98957](/images/Cova%20dets%20Ases%20-%20Cova-dets-Ases%20-%20b1a56c60-9db98957.png)
+- ![Cova Dets Ases Donkey](/images/Cova%20dets%20Ases%20-%20donkey.jpg)
+- ![Cova Dets Ases Cova Dets Ases](/images/Cova%20dets%20Ases%20-%20Cova-dets-Ases.png)

@@ -29,15 +29,15 @@ access track is first left off road from madura road house. small enterence hole
 - Add link to photogrammetry model
 
 ## Images
-- ![Madura Cave 20250315 112739 04071568 81d18626](/images/Madura%20Cave%20-%2020250315_112739%20-%2004071568-81d18626.jpg)
-- ![Madura Cave 4220 20105869 De52acf0 81d18626](/images/Madura%20Cave%20-%204220-20105869%20-%20de52acf0-81d18626.jpg)
-- ![Madura Cave Drone Facing North 63fd556d 81d18626](/images/Madura%20Cave%20-%20Drone%20facing%20North%20-%2063fd556d-81d18626.jpg) — MW
-- ![Madura Cave IMG 2085 1c20c8d8 81d18626](/images/Madura%20Cave%20-%20IMG_2085%20-%201c20c8d8-81d18626.jpeg)
-- ![Madura Cave IMG 2090 41fea801 81d18626](/images/Madura%20Cave%20-%20IMG_2090%20-%2041fea801-81d18626.jpeg)
-- ![Madura Cave IMG 2094 5f5d43c8 81d18626](/images/Madura%20Cave%20-%20IMG_2094%20-%205f5d43c8-81d18626.jpeg)
-- ![Madura Cave IMG 2095 C2d04fe6 81d18626](/images/Madura%20Cave%20-%20IMG_2095%20-%20c2d04fe6-81d18626.jpeg)
-- ![Madura Cave IMG 2097 Ef037fc7 81d18626](/images/Madura%20Cave%20-%20IMG_2097%20-%20ef037fc7-81d18626.jpeg)
-- ![Madura Cave Drone Facing North 63fd556d 81d18626](/images/Madura%20Cave%20-%20Drone%20facing%20North%20-%2063fd556d-81d18626.jpg)
+- ![Madura Cave Image 01](/images/Madura%20Cave%20-%20Image%2001.jpg)
+- ![Madura Cave 4220 20105869](/images/Madura%20Cave%20-%204220-20105869.jpg)
+- ![Madura Cave Drone Facing North](/images/Madura%20Cave%20-%20Drone%20facing%20North.jpg) — MW
+- ![Madura Cave Image 02](/images/Madura%20Cave%20-%20Image%2002.jpeg)
+- ![Madura Cave Image 03](/images/Madura%20Cave%20-%20Image%2003.jpeg)
+- ![Madura Cave Image 04](/images/Madura%20Cave%20-%20Image%2004.jpeg)
+- ![Madura Cave Image 05](/images/Madura%20Cave%20-%20Image%2005.jpeg)
+- ![Madura Cave Image 06](/images/Madura%20Cave%20-%20Image%2006.jpeg)
+- ![Madura Cave Drone Facing North](/images/Madura%20Cave%20-%20Drone%20facing%20North.jpg)
 
 ## ASF slide images
 

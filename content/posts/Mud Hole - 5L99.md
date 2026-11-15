@@ -29,8 +29,8 @@ address: "Buchanan Rd, Tantanoola, South Australia, AUS, 5280"
 # References
 
 ## Images
-- ![L0099 L99 PXL 20241214 040831623 Ba4cdee2 6d1ba8f8](/images/L0099%20-%20L99%20-%20PXL_20241214_040831623%20-%20ba4cdee2-6d1ba8f8.jpg)
-- ![L0099 L99 99 50c48504 6d1ba8f8](/images/L0099%20-%20L99%20-%2099%20-%2050c48504-6d1ba8f8.jpg)
+- ![L0099 L99 Image 02](/images/L0099%20-%20L99%20-%20Image%2002.jpg)
+- ![L0099 L99 Image 01](/images/L0099%20-%20L99%20-%20Image%2001.jpg)
 
 - **LSECR:** Page 196
 - **Forestry SA:** L0099, Thin Roof: N, Fence: R. Dimensions: ?. Features: Palaeontological value??  High Priority Fencing / logs bulldozed in '50's

@@ -36,4 +36,4 @@ BC 8/9/2023: Visited and no sign of any interesting features
 # References
 
 ## Images
-- ![Surface Feature (SE) 20230908 163446 1bf86de5 C865fa79](/images/Surface%20Feature%20%28SE%29%20-%2020230908_163446%20-%201bf86de5-c865fa79.jpg)
+- ![Surface Feature (SE) Image 02](/images/Surface%20Feature%20%28SE%29%20-%20Image%2002.jpg)

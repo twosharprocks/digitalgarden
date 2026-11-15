@@ -39,8 +39,8 @@ address: "Unnamed Road, Bonito, State of Mato Grosso do Sul, BRA, 79290-000"
 # References
 
 ## Images
-- ![Gruta Do Mimoso Gruta Do Mimoso 414a8e14 D537d576](/images/Gruta%20Do%20Mimoso%20-%20Gruta%20do%20Mimoso%20-%20414a8e14-d537d576.jpg)
-- ![Gruta Do Mimoso 2024 11 11 14 16 01 Gruta Do Mimoso Google Maps E4751ff7 D537d576](/images/Gruta%20Do%20Mimoso%20-%202024-11-11%2014_16_01-Gruta%20do%20Mimoso%20-%20Google%20Maps%20-%20e4751ff7-d537d576.jpg)
+- ![Gruta Do Mimoso Gruta Do Mimoso](/images/Gruta%20Do%20Mimoso%20-%20Gruta%20do%20Mimoso.jpg)
+- ![Gruta Do Mimoso 2024 11 11 14 16 01 Gruta Do Mimoso Google Maps](/images/Gruta%20Do%20Mimoso%20-%202024-11-11%2014_16_01-Gruta%20do%20Mimoso%20-%20Google%20Maps.jpg)
 
 - [Brazil]({{< relref "posts/brazil.md" >}})
 

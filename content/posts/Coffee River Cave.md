@@ -45,4 +45,4 @@ address: "B 10, Manchester Parish, JAM"
 - **MapCarta:** https://mapcarta.com/N7024044673
 
 ## Images
-- ![Coffee River Cave Coffee 300b7ecb C42cdb02](/images/Coffee%20River%20Cave%20-%20coffee%20-%20300b7ecb-c42cdb02.jpg)
+- ![Coffee River Cave Coffee](/images/Coffee%20River%20Cave%20-%20coffee.jpg)

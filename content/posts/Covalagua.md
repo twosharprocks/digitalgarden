@@ -128,5 +128,5 @@ Currently the explored and topographed development of Covalagua is 854 m . Explo
 - **GAEM:** http://www.espeleogaem.org/covalagua/s_covalagua.html
 
 ## Images
-- ![Covalagua Espacio Natural Covalagua 6 3db35eb7 6e6c92a4](/images/Covalagua%20-%20espacio-natural-covalagua-6%20-%203db35eb7-6e6c92a4.jpg)
-- ![Covalagua Topotext A5506f90 6e6c92a4](/images/Covalagua%20-%20topotext%20-%20a5506f90-6e6c92a4.jpg)
+- ![Covalagua Espacio Natural Covalagua 6](/images/Covalagua%20-%20espacio-natural-covalagua-6.jpg)
+- ![Covalagua Topotext](/images/Covalagua%20-%20topotext.jpg)

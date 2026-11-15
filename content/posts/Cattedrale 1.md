@@ -40,4 +40,4 @@ Need to identify "Cattedrale 2" - much more extensive sea cave for divers shown 
 # References
 
 ## Images
-- ![Cattedrale 1 Catt1 A0a5b35e A76682ba](/images/Cattedrale%201%20-%20catt1%20-%20a0a5b35e-a76682ba.jpg)
+- ![Cattedrale 1 Catt1](/images/Cattedrale%201%20-%20catt1.jpg)

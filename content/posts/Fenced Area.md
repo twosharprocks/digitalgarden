@@ -24,4 +24,4 @@ Identified by CA
 # References
 
 ## Images
-- ![Fenced Area PXL 20230715 072501934 C9ca93a4 3acc75bc](/images/Fenced%20Area%20-%20PXL_20230715_072501934%20-%20c9ca93a4-3acc75bc.jpg)
+- ![Fenced Area Image 01](/images/Fenced%20Area%20-%20Image%2001.jpg)

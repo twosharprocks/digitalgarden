@@ -37,4 +37,4 @@ address: "Jl. Balai Kota, Buton Regency, South East Sulawesi, IDN, 93754"
 # References
 
 ## Images
-- ![Gua Wandigi Gua Wandigi B6ec298e 5dfb8e96](/images/Gua%20Wandigi%20-%20Gua%20Wandigi%20-%20b6ec298e-5dfb8e96.jpg)
+- ![Gua Wandigi Gua Wandigi](/images/Gua%20Wandigi%20-%20Gua%20Wandigi.jpg)

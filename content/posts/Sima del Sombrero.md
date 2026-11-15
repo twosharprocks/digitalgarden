@@ -28,4 +28,4 @@ address: "Soba, Cantabria, ESP, 39808"
 # References
 
 ## Images
-- ![Sima Del Sombrero FB IMG 1728556589910 33ae7efe 16f344c1](/images/Sima%20del%20Sombrero%20-%20FB_IMG_1728556589910%20-%2033ae7efe-16f344c1.jpg)
+- ![Sima Del Sombrero Image 01](/images/Sima%20del%20Sombrero%20-%20Image%2001.jpg)

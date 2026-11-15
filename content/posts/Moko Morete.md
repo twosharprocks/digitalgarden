@@ -27,13 +27,13 @@ Moko Morete opens in a vast blue hole. An underwater passage to the west can be 
 # References
 
 ## Images
-- ![Moko Morete FB IMG 1733031001766 7859e650 9ecbad71](/images/Moko%20Morete%20-%20FB_IMG_1733031001766%20-%207859e650-9ecbad71.jpg)
-- ![Moko Morete FB IMG 1733031004220 C294f613 9ecbad71](/images/Moko%20Morete%20-%20FB_IMG_1733031004220%20-%20c294f613-9ecbad71.jpg)
-- ![Moko Morete FB IMG 1733031005996 C0ee379a 9ecbad71](/images/Moko%20Morete%20-%20FB_IMG_1733031005996%20-%20c0ee379a-9ecbad71.jpg)
-- ![Moko Morete FB IMG 1733031008254 061077f5 9ecbad71](/images/Moko%20Morete%20-%20FB_IMG_1733031008254%20-%20061077f5-9ecbad71.jpg)
-- ![Moko Morete FB IMG 1733031009985 C7a83d39 9ecbad71](/images/Moko%20Morete%20-%20FB_IMG_1733031009985%20-%20c7a83d39-9ecbad71.jpg)
-- ![Moko Morete FB IMG 1733031011821 5e6ae891 9ecbad71](/images/Moko%20Morete%20-%20FB_IMG_1733031011821%20-%205e6ae891-9ecbad71.jpg)
-- ![Moko Morete Photogrammetry Model Of Moko Morete Showing Overall Survey Of 209m 5f821728 9ecbad71](/images/Moko%20Morete%20-%20Photogrammetry%20model%20of%20Moko%20Morete%20showing%20overall%20survey%20of%20209m%20-%205f821728-9ecbad71.jpg)
+- ![Moko Morete Image 01](/images/Moko%20Morete%20-%20Image%2001.jpg)
+- ![Moko Morete Image 02](/images/Moko%20Morete%20-%20Image%2002.jpg)
+- ![Moko Morete Image 03](/images/Moko%20Morete%20-%20Image%2003.jpg)
+- ![Moko Morete Image 04](/images/Moko%20Morete%20-%20Image%2004.jpg)
+- ![Moko Morete Image 05](/images/Moko%20Morete%20-%20Image%2005.jpg)
+- ![Moko Morete Image 06](/images/Moko%20Morete%20-%20Image%2006.jpg)
+- ![Moko Morete Photogrammetry Model Of Moko Morete Showing Overall Survey Of 209m](/images/Moko%20Morete%20-%20Photogrammetry%20model%20of%20Moko%20Morete%20showing%20overall%20survey%20of%20209m.jpg)
 
 ## Images
 - [31e73218-6412-4257-a482-4fb6787893d8](https://www.youtube.com/watch?v=aM-bPcBeXhA)
@@ -74,4 +74,4 @@ Moko Morete opens in a vast blue hole. An underwater passage to the west can be 
 
 # Maps
 
-- ![Moko Morete Photogrammetry Model Of Moko Morete Showing Overall Survey Of 209m 5f821728 9ecbad71](/images/Moko%20Morete%20-%20Photogrammetry%20model%20of%20Moko%20Morete%20showing%20overall%20survey%20of%20209m%20-%205f821728-9ecbad71.jpg)
+- ![Moko Morete Photogrammetry Model Of Moko Morete Showing Overall Survey Of 209m](/images/Moko%20Morete%20-%20Photogrammetry%20model%20of%20Moko%20Morete%20showing%20overall%20survey%20of%20209m.jpg)

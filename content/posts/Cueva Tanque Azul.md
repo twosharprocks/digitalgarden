@@ -65,8 +65,8 @@ The cavern has two main entrances, one facing west and the other east , both gal
 - **ecured.cu:** http://ecuadmin.ecured.cu/Caverna_Tanque_Azul
 
 ## Images
-- ![Cueva Tanque Azul Tanque Azul2 7f51382d A5937898](/images/Cueva%20Tanque%20Azul%20-%20Tanque%20Azul2%20-%207f51382d-a5937898.jpg)
-- ![Cueva Tanque Azul Tanque Azul 71ad3a18 A5937898](/images/Cueva%20Tanque%20Azul%20-%20Tanque%20Azul%20-%2071ad3a18-a5937898.jpg)
-- ![Cueva Tanque Azul Tanque Azul Surface B5901eed A5937898](/images/Cueva%20Tanque%20Azul%20-%20Tanque%20Azul-surface%20-%20b5901eed-a5937898.jpg)
-- ![Cueva Tanque Azul Dibujofinal 1b1e0efa A5937898](/images/Cueva%20Tanque%20Azul%20-%20Dibujofinal%20-%201b1e0efa-a5937898.jpg)
+- ![Cueva Tanque Azul Tanque Azul2](/images/Cueva%20Tanque%20Azul%20-%20Tanque%20Azul2.jpg)
+- ![Cueva Tanque Azul Tanque Azul](/images/Cueva%20Tanque%20Azul%20-%20Tanque%20Azul.jpg)
+- ![Cueva Tanque Azul Tanque Azul Surface](/images/Cueva%20Tanque%20Azul%20-%20Tanque%20Azul-surface.jpg)
+- ![Cueva Tanque Azul Dibujofinal](/images/Cueva%20Tanque%20Azul%20-%20Dibujofinal.jpg)
 - [a7a6b812-5df7-4f11-abe2-1ed7d81d9691](https://www.youtube.com/watch?v=h0nrmxLv6L4)

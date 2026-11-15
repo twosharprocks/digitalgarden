@@ -42,4 +42,4 @@ address: "Jalan Tanpa Nama, Bau-Bau City, South East Sulawesi, IDN, 93721"
 # References
 
 ## Images
-- ![Gua Lakasa Lakasa 85f649d6 A9c25557](/images/Gua%20Lakasa%20-%20Lakasa%20-%2085f649d6-a9c25557.jpg)
+- ![Gua Lakasa Lakasa](/images/Gua%20Lakasa%20-%20Lakasa.jpg)

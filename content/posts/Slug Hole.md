@@ -50,6 +50,6 @@ In a simple one-paragraph description in a November 1968 Trip Report, this insig
 - **LSECR:** Page 240
 
 ## Images
-- ![L0121 Slug Hole PXL 20230623 051035158 052dd484 8b535b6f](/images/L0121%20-%20Slug%20Hole%20-%20PXL_20230623_051035158%20-%20052dd484-8b535b6f.jpg)
-- ![L0121 Slug Hole 0240 4af61fa6 8b535b6f](/images/L0121%20-%20Slug%20Hole%20-%200240%20-%204af61fa6-8b535b6f.jpg)
-- ![L0121 Slug Hole 0241 8d36bca6 8b535b6f](/images/L0121%20-%20Slug%20Hole%20-%200241%20-%208d36bca6-8b535b6f.jpg)
+- ![L0121 Slug Hole Image 03](/images/L0121%20-%20Slug%20Hole%20-%20Image%2003.jpg)
+- ![L0121 Slug Hole Image 01](/images/L0121%20-%20Slug%20Hole%20-%20Image%2001.jpg)
+- ![L0121 Slug Hole Image 02](/images/L0121%20-%20Slug%20Hole%20-%20Image%2002.jpg)

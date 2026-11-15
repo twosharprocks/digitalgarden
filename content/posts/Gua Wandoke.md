@@ -35,10 +35,10 @@ Max depth 49m
 # References
 
 ## Images
-- ![Gua Wandoke Wandoke Depth 50b08e7a F27757da](/images/Gua%20Wandoke%20-%20wandoke%20-%20depth%20-%2050b08e7a-f27757da.jpg)
-- ![Gua Wandoke Wandoke Ghost 4f631bb2 F27757da](/images/Gua%20Wandoke%20-%20wandoke%20-%20ghost%20-%204f631bb2-f27757da.jpg)
-- ![Gua Wandoke Wandoke Maps 37bfb68b F27757da](/images/Gua%20Wandoke%20-%20wandoke%20-%20maps%20-%2037bfb68b-f27757da.jpg)
-- ![Gua Wandoke Wandoke Sketch 3ff77620 F27757da](/images/Gua%20Wandoke%20-%20wandoke%20-%20sketch%20-%203ff77620-f27757da.jpg)
+- ![Gua Wandoke Wandoke Depth](/images/Gua%20Wandoke%20-%20wandoke%20-%20depth.jpg)
+- ![Gua Wandoke Wandoke Ghost](/images/Gua%20Wandoke%20-%20wandoke%20-%20ghost.jpg)
+- ![Gua Wandoke Wandoke Maps](/images/Gua%20Wandoke%20-%20wandoke%20-%20maps.jpg)
+- ![Gua Wandoke Wandoke Sketch](/images/Gua%20Wandoke%20-%20wandoke%20-%20sketch.jpg)
 
 ## Images
 - [1c81926f-1d9a-4930-a8b5-e691b28210ed](https://www.youtube.com/watch?v=EqhqfPo_J80)

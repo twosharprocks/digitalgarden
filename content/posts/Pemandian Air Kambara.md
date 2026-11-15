@@ -41,5 +41,5 @@ address: "10, Jl. Nambo, Buton Regency, South East Sulawesi, IDN, 93763"
 # References
 
 ## Images
-- ![Pemandian Air Kambara Pemandian Air Kambara 36a58c25 9b7241b3](/images/Pemandian%20Air%20Kambara%20-%20Pemandian%20Air%20Kambara%20-%2036a58c25-9b7241b3.jpg)
-- ![Pemandian Air Kambara Pemandian Air Kambara2 F09be35a 9b7241b3](/images/Pemandian%20Air%20Kambara%20-%20Pemandian%20Air%20Kambara2%20-%20f09be35a-9b7241b3.jpg)
+- ![Pemandian Air Kambara Pemandian Air Kambara](/images/Pemandian%20Air%20Kambara%20-%20Pemandian%20Air%20Kambara.jpg)
+- ![Pemandian Air Kambara Pemandian Air Kambara2](/images/Pemandian%20Air%20Kambara%20-%20Pemandian%20Air%20Kambara2.jpg)

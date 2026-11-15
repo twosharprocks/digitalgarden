@@ -30,4 +30,4 @@ address: "Muna Regency, South East Sulawesi, IDN, 93662"
 # References
 
 ## Images
-- ![Gua Laukusi Gua Laukusi 3aa48c72 1767fc02](/images/Gua%20Laukusi%20-%20Gua%20Laukusi%20-%203aa48c72-1767fc02.jpg)
+- ![Gua Laukusi Gua Laukusi](/images/Gua%20Laukusi%20-%20Gua%20Laukusi.jpg)

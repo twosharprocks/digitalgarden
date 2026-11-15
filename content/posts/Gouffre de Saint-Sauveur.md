@@ -39,4 +39,4 @@ address: "Lieu-dit Saint-Sauveur, Rocamadour, Occitanie, FRA, 46500"
 # References
 
 ## Images
-- ![Gouffre De Saint Sauveur Source De St Saveur E96003b7 Eecd372c](/images/Gouffre%20de%20Saint-Sauveur%20-%20Source%20De%20St%20Saveur%20-%20e96003b7-eecd372c.jpg)
+- ![Gouffre De Saint Sauveur Source De St Saveur](/images/Gouffre%20de%20Saint-Sauveur%20-%20Source%20De%20St%20Saveur.jpg)

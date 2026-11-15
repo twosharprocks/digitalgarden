@@ -41,5 +41,5 @@ address: "Jalan Tanpa Nama, Buton Regency, South East Sulawesi, IDN, 93761"
 # References
 
 ## Images
-- ![Gua Bidadari Bidadari Bdd4f778 08fa010c](/images/Gua%20Bidadari%20-%20bidadari%20-%20bdd4f778-08fa010c.jpg)
-- ![Gua Bidadari Bidadari2 8e5a3406 08fa010c](/images/Gua%20Bidadari%20-%20bidadari2%20-%208e5a3406-08fa010c.jpg)
+- ![Gua Bidadari Bidadari](/images/Gua%20Bidadari%20-%20bidadari.jpg)
+- ![Gua Bidadari Bidadari2](/images/Gua%20Bidadari%20-%20bidadari2.jpg)

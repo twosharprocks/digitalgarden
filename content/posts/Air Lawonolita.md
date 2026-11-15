@@ -35,4 +35,4 @@ address: "Jl. Poros Lombe, Buton Regency, South East Sulawesi, IDN, 93761"
 # References
 
 ## Images
-- ![Air Lawonolita Air Lawonolita 4ee6222a D84c2432](/images/Air%20Lawonolita%20-%20Air%20Lawonolita%20-%204ee6222a-d84c2432.jpg)
+- ![Air Lawonolita Air Lawonolita](/images/Air%20Lawonolita%20-%20Air%20Lawonolita.jpg)

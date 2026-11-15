@@ -38,5 +38,5 @@ address: "Johnsons Ln, Tantanoola, South Australia, AUS, 5280"
 # References
 
 ## Images
-- ![Clearing IMG 20210801 152719 4 41385cb9 Aeb658cd](/images/Clearing%20-%20IMG_20210801_152719_4%20-%2041385cb9-aeb658cd.jpg)
-- ![Clearing IMG 20210801 152812 5 58c7f3fd Aeb658cd](/images/Clearing%20-%20IMG_20210801_152812_5%20-%2058c7f3fd-aeb658cd.jpg)
+- ![Clearing Image 04](/images/Clearing%20-%20Image%2004.jpg)
+- ![Clearing Image 05](/images/Clearing%20-%20Image%2005.jpg)

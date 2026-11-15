@@ -37,5 +37,5 @@ address: "Lieu-dit Mas du Pont, Saint-Maurice-Navacelles, Occitanie, FRA, 34520"
 # References
 
 ## Images
-- ![Gourneyras Gourneyras2 62e4030b 63476a31](/images/Gourneyras%20-%20Gourneyras2%20-%2062e4030b-63476a31.jpg)
-- ![Gourneyras Gourneyras 4dc7814a 63476a31](/images/Gourneyras%20-%20Gourneyras%20-%204dc7814a-63476a31.jpg)
+- ![Gourneyras Gourneyras2](/images/Gourneyras%20-%20Gourneyras2.jpg)
+- ![Gourneyras Gourneyras](/images/Gourneyras%20-%20Gourneyras.jpg)

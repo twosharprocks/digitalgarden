@@ -56,6 +56,6 @@ Cave Diving trip in La Azohia, Spain (CT-12) (Peter G)
 - **Cave Atlas:** http://www.caveatlas.com/systems/system.asp?ID=659&co=ES
 
 ## Images
-- ![Moraig Location TBC Ct12 2 34286576 3503a297](/images/Moraig%20-%20Location%20TBC%20-%20ct12-2%20-%2034286576-3503a297.jpg)
-- ![Moraig Location TBC Ct12 722fca5c 3503a297](/images/Moraig%20-%20Location%20TBC%20-%20ct12%20-%20722fca5c-3503a297.jpg)
-- ![Moraig Location TBC 659 E2d60719 3503a297](/images/Moraig%20-%20Location%20TBC%20-%20659%20-%20e2d60719-3503a297.jpg)
+- ![Moraig Location TBC Ct12 2](/images/Moraig%20-%20Location%20TBC%20-%20ct12-2.jpg)
+- ![Moraig Location TBC Ct12](/images/Moraig%20-%20Location%20TBC%20-%20ct12.jpg)
+- ![Moraig Location TBC Image 01](/images/Moraig%20-%20Location%20TBC%20-%20Image%2001.jpg)

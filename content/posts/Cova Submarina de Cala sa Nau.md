@@ -39,4 +39,4 @@ Sea cave under island
 - **ResearchGate:** https://www.researchgate.net/figure/Aerial-photography-of-Cala-Sa-Nau-and-Cala-Mitjan-with-the-topography-of-the-caves_fig4_286879554
 
 ## Images
-- ![Cova Submarina De Cala Sa Nau Sa Nau 8b56e341 E3dff5e9](/images/Cova%20Submarina%20de%20Cala%20sa%20Nau%20-%20sa%20nau%20-%208b56e341-e3dff5e9.png)
+- ![Cova Submarina De Cala Sa Nau Sa Nau](/images/Cova%20Submarina%20de%20Cala%20sa%20Nau%20-%20sa%20nau.png)

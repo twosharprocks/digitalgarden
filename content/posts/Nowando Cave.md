@@ -33,4 +33,4 @@ address: "5017, Glenelg Hwy, Glenburnie, South Australia, AUS, 5291"
 # References
 
 ## Images
-- ![Nowando Cave 2023 04 10 14.33.58 7c8abc8b 83d5c952](/images/Nowando%20Cave%20-%202023-04-10%2014.33.58%20-%207c8abc8b-83d5c952.jpg)
+- ![Nowando Cave Image 01](/images/Nowando%20Cave%20-%20Image%2001.jpg)

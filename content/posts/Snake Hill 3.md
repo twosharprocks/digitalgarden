@@ -32,5 +32,5 @@ address: "Glenburnie, South Australia, AUS, 5291"
 # References
 
 ## Images
-- ![Snake Hill 3 2023 04 10 12.50.40 93af8837 D6d1f239](/images/Snake%20Hill%203%20-%202023-04-10%2012.50.40%20-%2093af8837-d6d1f239.jpg)
-- ![Snake Hill 3 2023 04 10 12.50.48 86b23f2f D6d1f239](/images/Snake%20Hill%203%20-%202023-04-10%2012.50.48%20-%2086b23f2f-d6d1f239.jpg)
+- ![Snake Hill 3 Image 01](/images/Snake%20Hill%203%20-%20Image%2001.jpg)
+- ![Snake Hill 3 Image 02](/images/Snake%20Hill%203%20-%20Image%2002.jpg)

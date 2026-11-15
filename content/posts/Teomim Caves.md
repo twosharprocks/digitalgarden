@@ -35,7 +35,7 @@ address: "ISR"
 
 # Maps
 
-- ![Teomim Caves Plan Of Te Omim Cave The Inset Shows The Main Quarrying Lines Abandoned Quarry A1badb28 4673a4bb](/images/Teomim%20Caves%20-%20Plan-of-Te-omim-Cave-The-inset-shows-the-main-quarrying-lines-abandoned-quarry%20-%20a1badb28-4673a4bb.png)
+- ![Teomim Caves Plan Of Te Omim Cave The Inset Shows The Main Quarrying Lines Abandoned Quarry](/images/Teomim%20Caves%20-%20Plan-of-Te-omim-Cave-The-inset-shows-the-main-quarrying-lines-abandoned-quarry.png)
 
 # References
 
@@ -44,4 +44,4 @@ address: "ISR"
 - **Google:** https://goo.gl/maps/dZ8CFy5sryxi9jvb7
 
 ## Images
-- ![Teomim Caves Plan Of Te Omim Cave The Inset Shows The Main Quarrying Lines Abandoned Quarry A1badb28 4673a4bb](/images/Teomim%20Caves%20-%20Plan-of-Te-omim-Cave-The-inset-shows-the-main-quarrying-lines-abandoned-quarry%20-%20a1badb28-4673a4bb.png)
+- ![Teomim Caves Plan Of Te Omim Cave The Inset Shows The Main Quarrying Lines Abandoned Quarry](/images/Teomim%20Caves%20-%20Plan-of-Te-omim-Cave-The-inset-shows-the-main-quarrying-lines-abandoned-quarry.png)

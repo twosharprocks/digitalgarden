@@ -37,4 +37,4 @@ address: "Madura, Western Australia, AUS, 6443"
 # References
 
 ## Images
-- ![Exposed Clay PXL 20240714 233408402 D1aaacb7 A7d941fb](/images/Exposed%20clay%20-%20PXL_20240714_233408402%20-%20d1aaacb7-a7d941fb.jpg)
+- ![Exposed Clay Image 04](/images/Exposed%20clay%20-%20Image%2004.jpg)

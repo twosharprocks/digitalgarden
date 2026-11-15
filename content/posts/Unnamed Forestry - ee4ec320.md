@@ -38,4 +38,4 @@ BC 14/10/2023: Large depression about 15m across and 3m deep. Full of scrub and 
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: ?
 
 ## Images
-- ![Unnamed Forestry 20231014 140107 4988cf45 Ee4ec320](/images/Unnamed%20Forestry%20-%2020231014_140107%20-%204988cf45-ee4ec320.jpg)
+- ![Unnamed Forestry Image 10](/images/Unnamed%20Forestry%20-%20Image%2010.jpg)

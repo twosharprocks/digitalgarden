@@ -40,7 +40,7 @@ Forestry
 - **Forestry SA:** L0054, Thin Roof: N, Fence: R. Dimensions: ? . Features: Very wide& deep; improve barriers
 
 ## Images
-- ![L0054 Honeysuckle Sinkhole 20240829 090416 Ac5e93d3 3d15f0cb](/images/L0054%20-%20Honeysuckle%20Sinkhole%20-%2020240829_090416%20-%20ac5e93d3-3d15f0cb.jpg)
-- ![L0054 Honeysuckle Sinkhole 20240829 090329 Bcb6e81f 3d15f0cb](/images/L0054%20-%20Honeysuckle%20Sinkhole%20-%2020240829_090329%20-%20bcb6e81f-3d15f0cb.jpg)
-- ![L0054 Honeysuckle Sinkhole 20240829 090334 B1f84e6e 3d15f0cb](/images/L0054%20-%20Honeysuckle%20Sinkhole%20-%2020240829_090334%20-%20b1f84e6e-3d15f0cb.jpg)
-- ![L0054 Honeysuckle Sinkhole 20240829 090549 43329a60 3d15f0cb](/images/L0054%20-%20Honeysuckle%20Sinkhole%20-%2020240829_090549%20-%2043329a60-3d15f0cb.jpg)
+- ![L0054 Honeysuckle Sinkhole Image 03](/images/L0054%20-%20Honeysuckle%20Sinkhole%20-%20Image%2003.jpg)
+- ![L0054 Honeysuckle Sinkhole Image 01](/images/L0054%20-%20Honeysuckle%20Sinkhole%20-%20Image%2001.jpg)
+- ![L0054 Honeysuckle Sinkhole Image 02](/images/L0054%20-%20Honeysuckle%20Sinkhole%20-%20Image%2002.jpg)
+- ![L0054 Honeysuckle Sinkhole Image 04](/images/L0054%20-%20Honeysuckle%20Sinkhole%20-%20Image%2004.jpg)

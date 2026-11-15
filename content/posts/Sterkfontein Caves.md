@@ -41,6 +41,6 @@ address: "Mogale City, Gauteng, ZAF"
 - **Nunogomes.co.za:** https://www.nunogomes.co.za/nunoarticle.htm#:~:text=He%20dived%20in%20all%20the,side%20passage%20and%20got%20lost.
 
 ## Images
-- ![Sterkfontein Caves R 91990b9a 4925c1f6](/images/Sterkfontein%20Caves%20-%20R%20-%2091990b9a-4925c1f6.jpeg)
+- ![Sterkfontein Caves R](/images/Sterkfontein%20Caves%20-%20R.jpeg)
 - [db7a0eca-f98b-4f87-9acd-d14dc9c1cc7f](https://www.youtube.com/watch?v=o8xajvLro_8)
 - [6ae88eb3-77c4-4d7d-98f3-d5074fb6cfc2](https://www.youtube.com/watch?v=IpAZBgOQ3R0)

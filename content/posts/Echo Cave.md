@@ -49,5 +49,5 @@ Private - 249 Tollner Road, Compton
 # References
 
 ## Images
-- ![L89 Echo Cave Echo2 805bcaa9 5741fd47](/images/L89%20-%20Echo%20Cave%20-%20Echo2%20-%20805bcaa9-5741fd47.jpg)
-- ![L89 Echo Cave Echo1 Eddc50ed 5741fd47](/images/L89%20-%20Echo%20Cave%20-%20Echo1%20-%20eddc50ed-5741fd47.jpg)
+- ![L89 Echo Cave Echo2](/images/L89%20-%20Echo%20Cave%20-%20Echo2.jpg)
+- ![L89 Echo Cave Echo1](/images/L89%20-%20Echo%20Cave%20-%20Echo1.jpg)

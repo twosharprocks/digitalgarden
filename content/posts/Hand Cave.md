@@ -47,5 +47,5 @@ The entrance to Hand Cave is a one metre diameter hole near the top of a cliff f
 - **ASF:** Entrance is unknown ent.type; (Unknown entrances); development is narrow passage leads to small chamber; karst type is unknown; length is Unknown m ; vertical extent is Unknown m.
 
 ## Images
-- ![L0003 Hand Cave 20231103 124726 47221760 63115711](/images/L0003%20-%20Hand%20Cave%20-%2020231103_124726%20-%2047221760-63115711.jpg)
-- ![L0003 Hand Cave 20231103 124724 9ec697e4 63115711](/images/L0003%20-%20Hand%20Cave%20-%2020231103_124724%20-%209ec697e4-63115711.jpg)
+- ![L0003 Hand Cave Image 02](/images/L0003%20-%20Hand%20Cave%20-%20Image%2002.jpg)
+- ![L0003 Hand Cave Image 01](/images/L0003%20-%20Hand%20Cave%20-%20Image%2001.jpg)

@@ -51,5 +51,5 @@ Access by Scientific Permit Only
 - **Robert Laird:** https://www.rlaird.net/cb_story.htm
 
 ## Images
-- ![Blue Spring Blue Spring Progression Cecc95e6 63f90f6b](/images/Blue%20Spring%20-%20Blue-Spring-Progression%20-%20cecc95e6-63f90f6b.png)
+- ![Blue Spring Blue Spring Progression](/images/Blue%20Spring%20-%20Blue-Spring-Progression.png)
 - [dd49c1d8-bc66-429f-a362-19748b9acece](https://www.youtube.com/watch?v=2_m6ixfc03U)

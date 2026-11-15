@@ -42,6 +42,6 @@ address: "Benara HD Line Rd, Tantanoola, South Australia, AUS, 5280"
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: Cave is signed on ground
 
 ## Images
-- ![Unnamed Forestry IMG 20210828 133958 7 Eef62396 5ee68677](/images/Unnamed%20Forestry%20-%20IMG_20210828_133958_7%20-%20eef62396-5ee68677.jpg)
-- ![Unnamed Forestry IMG 20210828 134025 2 D0d39057 5ee68677](/images/Unnamed%20Forestry%20-%20IMG_20210828_134025_2%20-%20d0d39057-5ee68677.jpg)
-- ![Unnamed Forestry IMG 20210828 134020 8 Fbe055f0 5ee68677](/images/Unnamed%20Forestry%20-%20IMG_20210828_134020_8%20-%20fbe055f0-5ee68677.jpg)
+- ![Unnamed Forestry Image 41](/images/Unnamed%20Forestry%20-%20Image%2041.jpg)
+- ![Unnamed Forestry Image 43](/images/Unnamed%20Forestry%20-%20Image%2043.jpg)
+- ![Unnamed Forestry Image 42](/images/Unnamed%20Forestry%20-%20Image%2042.jpg)

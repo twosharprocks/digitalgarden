@@ -89,13 +89,13 @@ At the time of this writing, the lease had just moved across to the South Austra
 - **https://sites.google.com/site/cdiverepts2/Home:** https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxjZGl2ZXJlcHRzMnxneDo0YTg1MmUzYjMwNjJkMmU3
 
 ## Images
-- ![L0046 Kilsbys Hole 3y2a5051 Bbaba0d0 4e882f22](/images/L0046%20-%20Kilsbys%20Hole%20-%203Y2A5051%20-%20bbaba0d0-4e882f22.jpeg)
-- ![L0046 Kilsbys Hole 3y2a1560 Eb2df043 4e882f22](/images/L0046%20-%20Kilsbys%20Hole%20-%203Y2A1560%20-%20eb2df043-4e882f22.jpeg)
-- ![L0046 Kilsbys Hole 3y2a1549 796ce818 4e882f22](/images/L0046%20-%20Kilsbys%20Hole%20-%203Y2A1549%20-%20796ce818-4e882f22.jpeg)
-- ![L0046 Kilsbys Hole 3y2a5088 B6ca69ff 4e882f22](/images/L0046%20-%20Kilsbys%20Hole%20-%203Y2A5088%20-%20b6ca69ff-4e882f22.jpeg)
-- ![L0046 Kilsbys Hole Screenshot 2024 12 27 224656 17431303 4e882f22](/images/L0046%20-%20Kilsbys%20Hole%20-%20Screenshot%202024-12-27%20224656%20-%2017431303-4e882f22.png)
-- ![L0046 Kilsbys Hole 3y2a4991 5fe7e41b 4e882f22](/images/L0046%20-%20Kilsbys%20Hole%20-%203Y2A4991%20-%205fe7e41b-4e882f22.jpeg)
-- ![L0046 Kilsbys Hole Screenshot 2024 01 13 071306 E48d2e00 4e882f22](/images/L0046%20-%20Kilsbys%20Hole%20-%20Screenshot%202024-01-13%20071306%20-%20e48d2e00-4e882f22.png)
+- ![L0046 Kilsbys Hole 3y2a5051](/images/L0046%20-%20Kilsbys%20Hole%20-%203Y2A5051.jpeg)
+- ![L0046 Kilsbys Hole 3y2a1560](/images/L0046%20-%20Kilsbys%20Hole%20-%203Y2A1560.jpeg)
+- ![L0046 Kilsbys Hole 3y2a1549](/images/L0046%20-%20Kilsbys%20Hole%20-%203Y2A1549.jpeg)
+- ![L0046 Kilsbys Hole 3y2a5088](/images/L0046%20-%20Kilsbys%20Hole%20-%203Y2A5088.jpeg)
+- ![L0046 Kilsbys Hole Image 02](/images/L0046%20-%20Kilsbys%20Hole%20-%20Image%2002.png)
+- ![L0046 Kilsbys Hole 3y2a4991](/images/L0046%20-%20Kilsbys%20Hole%20-%203Y2A4991.jpeg)
+- ![L0046 Kilsbys Hole Image 01](/images/L0046%20-%20Kilsbys%20Hole%20-%20Image%2001.png)
 - [903adcc7-2598-4ef5-9486-87f85ea3a63e](https://www.youtube.com/watch?v=R40m6r3iCV8)
 - [201c0dfd-e539-4e5e-866e-7b262edfa435](https://www.youtube.com/watch?v=PIB4LbINFdw)
 - [a6fd3786-d188-4c96-aed6-772a49f00638](https://www.youtube.com/watch?v=R40m6r3iCV8)

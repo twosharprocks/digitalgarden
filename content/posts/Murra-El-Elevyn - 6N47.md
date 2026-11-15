@@ -76,9 +76,9 @@ Briefing Docs (Dive Addiction)
 - **https://www.youtube.com/watch?v=yRo_DAsBpeg:** Youtube video showing significant cave ladder required
 
 ## Images
-- ![Murra El Elevyn Cave 419690779 1042849297016885 2642693015512437405 N 271dbead 41c22713](/images/Murra%20El%20Elevyn%20Cave%20-%20419690779_1042849297016885_2642693015512437405_n%20-%20271dbead-41c22713.jpg)
-- ![Murra El Elevyn Cave 419318738 1520079201869287 2485267095906773903 N 1f580aab 41c22713](/images/Murra%20El%20Elevyn%20Cave%20-%20419318738_1520079201869287_2485267095906773903_n%20-%201f580aab-41c22713.jpg)
-- ![Murra El Elevyn Cave 20260219 150209 238c6da6 41c22713](/images/Murra%20El%20Elevyn%20Cave%20-%2020260219_150209%20-%20238c6da6-41c22713.jpg)
+- ![Murra El Elevyn Cave Image 03](/images/Murra%20El%20Elevyn%20Cave%20-%20Image%2003.jpg)
+- ![Murra El Elevyn Cave Image 02](/images/Murra%20El%20Elevyn%20Cave%20-%20Image%2002.jpg)
+- ![Murra El Elevyn Cave Image 01](/images/Murra%20El%20Elevyn%20Cave%20-%20Image%2001.jpg)
 - [MurraElElevyn_HP_V1_1 - 2c2b130a-41c22713](https://github.com/twosharprocks/Karst-Database/blob/d6f539534154fcd23f60d0a25899bf7ef553f1d8/Regions/Oceania/Australia/6N%20-%20Nullabor%20and%20Roe%20Plains/Maps/6N47%20-%20Murra-El-Elevyn%20%28Porter%2C%202024%29%20%28High-Res%20PDF%29.pdf)
 
 [Crystal Room (Pinger) - Google Maps](https://maps.app.goo.gl/YaeE8gHaV8oD5cMk6)

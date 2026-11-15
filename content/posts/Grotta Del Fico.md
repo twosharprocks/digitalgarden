@@ -77,7 +77,7 @@ Since the entrance to the cave is under water directly in front of the cliffs in
 - **Protec Sardinia - Cavern:** https://protecsardinia.com/grotta-del-fico/?lang=en
 
 ## Images
-- ![Grotta Del Fico Fico GR Pdf 2937cb09 7da88e95](/images/Grotta%20Del%20Fico%20-%20Fico-GR-pdf%20-%202937cb09-7da88e95.jpg)
-- ![Grotta Del Fico Fig 2 WP 7e14ed6b 7da88e95](/images/Grotta%20Del%20Fico%20-%20Fig_2_WP%20-%207e14ed6b-7da88e95.jpg)
-- ![Grotta Del Fico Bel Torrente 764aef2b 7da88e95](/images/Grotta%20Del%20Fico%20-%20Bel-Torrente%20-%20764aef2b-7da88e95.jpg)
-- ![Grotta Del Fico Fig 1 WP 6e82b52a 7da88e95](/images/Grotta%20Del%20Fico%20-%20Fig_1_WP%20-%206e82b52a-7da88e95.jpg)
+- ![Grotta Del Fico Fico GR Pdf](/images/Grotta%20Del%20Fico%20-%20Fico-GR-pdf.jpg)
+- ![Grotta Del Fico Fig 2 WP](/images/Grotta%20Del%20Fico%20-%20Fig_2_WP.jpg)
+- ![Grotta Del Fico Bel Torrente](/images/Grotta%20Del%20Fico%20-%20Bel-Torrente.jpg)
+- ![Grotta Del Fico Fig 1 WP](/images/Grotta%20Del%20Fico%20-%20Fig_1_WP.jpg)

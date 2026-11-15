@@ -38,4 +38,4 @@ address: "32835, Princes Hwy, Burrungule, South Australia, AUS, 5291"
 - **Forestry:** 2m wide by 2m deep
 
 ## Images
-- ![Rubbish Filled Karst Feature IMG 20210801 145730 9 858f4adb 4097fd6b](/images/Rubbish-filled%20Karst%20Feature%20-%20IMG_20210801_145730_9%20-%20858f4adb-4097fd6b.jpg)
+- ![Rubbish Filled Karst Feature Image 01](/images/Rubbish-filled%20Karst%20Feature%20-%20Image%2001.jpg)

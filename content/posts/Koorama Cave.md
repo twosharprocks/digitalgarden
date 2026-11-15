@@ -55,6 +55,6 @@ Forestry
 - **Forestry SA:** L0258, Thin Roof: Y, Fence: Y. Dimensions: 9 x 5 x 3m window. Features:  Some decoration present
 
 ## Images
-- ![L0258 Koorama Cave 258 1f8bae24 9e4fd6fe](/images/L0258%20-%20Koorama%20Cave%20-%20258%20-%201f8bae24-9e4fd6fe.jpg)
-- ![L0258 Koorama Cave PXL 20241214 042847963 Bd9402c4 9e4fd6fe](/images/L0258%20-%20Koorama%20Cave%20-%20PXL_20241214_042847963%20-%20bd9402c4-9e4fd6fe.jpg)
-- ![L0258 Koorama Cave 258 133574e1 9e4fd6fe](/images/L0258%20-%20Koorama%20Cave%20-%20258%20-%20133574e1-9e4fd6fe.jpg)
+- ![L0258 Koorama Cave Image 02](/images/L0258%20-%20Koorama%20Cave%20-%20Image%2002.jpg)
+- ![L0258 Koorama Cave Image 03](/images/L0258%20-%20Koorama%20Cave%20-%20Image%2003.jpg)
+- ![L0258 Koorama Cave Image 01](/images/L0258%20-%20Koorama%20Cave%20-%20Image%2001.jpg)

@@ -28,4 +28,4 @@ address: "171, Littles Rd, Glenelg Shire, Victoria, AUS, 3304"
 # References
 
 ## Images
-- ![Sinkhole Sinkhole3 7c149f63 6099bad5](/images/Sinkhole_%20-%20Sinkhole3%20-%207c149f63-6099bad5.jpg)
+- ![Sinkhole Sinkhole3](/images/Sinkhole_%20-%20Sinkhole3.jpg)

@@ -64,7 +64,7 @@ Visited SF, 2019-10-04, checkout video recorded.
 Dug through by Michael Kaczkowski in 2022 into a cave entrance with lake. Dive approx 120-150m SW with small leads.
 
 ## Images
-- ![Alvarium Cave Alv 6bcec83c 3d1b4778](/images/Alvarium%20Cave%20-%20alv%20-%206bcec83c-3d1b4778.jpg)
-- ![Alvarium Cave Alv F5111610 3d1b4778](/images/Alvarium%20Cave%20-%20alv%20-%20f5111610-3d1b4778.jpeg)
-- ![Alvarium Cave 2024 04 24 08.36.01 D10d5f65 3d1b4778](/images/Alvarium%20Cave%20-%202024-04-24%2008.36.01%20-%20d10d5f65-3d1b4778.jpg)
-- ![Alvarium Cave Alv 9171ad56 3d1b4778](/images/Alvarium%20Cave%20-%20alv%20-%209171ad56-3d1b4778.jpg)
+- ![Alvarium Cave Alv](/images/Alvarium%20Cave%20-%20alv.jpg)
+- ![Alvarium Cave Alv](/images/Alvarium%20Cave%20-%20alv.jpeg)
+- ![Alvarium Cave Image 01](/images/Alvarium%20Cave%20-%20Image%2001.jpg)
+- ![Alvarium Cave Alv 02](/images/Alvarium%20Cave%20-%20alv%20-%2002.jpg)

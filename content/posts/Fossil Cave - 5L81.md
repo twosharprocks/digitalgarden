@@ -39,14 +39,14 @@ This restriction is indicated by a depth of 13m.
 [Insta - Mi Nah Do Dis - Dragon's Teeth](https://www.instagram.com/p/DOH7bkNEStw/)
 
 ## Images
-- ![5L81 Fossil Cave 20240203 130825 D5a232e7 7cb19cbe](/images/5L81%20-%20Fossil%20Cave%20-%2020240203_130825%20-%20d5a232e7-7cb19cbe.jpg) — Martin Slater
-- ![5L81 Fossil Cave 20240203 130908 444e0913 7cb19cbe](/images/5L81%20-%20Fossil%20Cave%20-%2020240203_130908%20-%20444e0913-7cb19cbe.jpg) — Martin Slater
-- ![5L81 Fossil Cave 20240203 130951 416e2a24 7cb19cbe](/images/5L81%20-%20Fossil%20Cave%20-%2020240203_130951%20-%20416e2a24-7cb19cbe.jpg) — Martin Slater
-- ![5L81 Fossil Cave 20240203 131030 2d9f1812 7cb19cbe](/images/5L81%20-%20Fossil%20Cave%20-%2020240203_131030%20-%202d9f1812-7cb19cbe.jpg) — Martin Slater
-- ![5L81 Fossil Cave Fossil East Lake Fa9397b1 7cb19cbe](/images/5L81%20-%20Fossil%20Cave%20-%20Fossil%20East%20lake%20-%20fa9397b1-7cb19cbe.jpg) — Martin Slater
-- ![5L81 Fossil Cave Fossil East Lake Entrance 3e7da6a5 7cb19cbe](/images/5L81%20-%20Fossil%20Cave%20-%20Fossil%20East%20lake%20entrance%20-%203e7da6a5-7cb19cbe.jpg) — Martin Slater
-- ![5L81 Fossil Cave Point Cloud Side View Of Fossil Cave And Surface Area 366ae8a6 7cb19cbe](/images/5L81%20-%20Fossil%20Cave%20-%20Point%20Cloud%20side%20view%20of%20Fossil%20Cave%20and%20surface%20area%20-%20366ae8a6-7cb19cbe.jpeg) — Will Passos
-- ![5L81 Fossil Cave Point Cloud Top View Of Fossil Cave And Surface 402b4259 7cb19cbe](/images/5L81%20-%20Fossil%20Cave%20-%20Point%20Cloud%20top%20view%20of%20Fossil%20Cave%20and%20surface%20-%20402b4259-7cb19cbe.jpeg) — Will Passos
+- ![5L81 Fossil Cave Image 01](/images/5L81%20-%20Fossil%20Cave%20-%20Image%2001.jpg) — Martin Slater
+- ![5L81 Fossil Cave Image 02](/images/5L81%20-%20Fossil%20Cave%20-%20Image%2002.jpg) — Martin Slater
+- ![5L81 Fossil Cave Image 03](/images/5L81%20-%20Fossil%20Cave%20-%20Image%2003.jpg) — Martin Slater
+- ![5L81 Fossil Cave Image 04](/images/5L81%20-%20Fossil%20Cave%20-%20Image%2004.jpg) — Martin Slater
+- ![5L81 Fossil Cave Fossil East Lake](/images/5L81%20-%20Fossil%20Cave%20-%20Fossil%20East%20lake.jpg) — Martin Slater
+- ![5L81 Fossil Cave Fossil East Lake Entrance](/images/5L81%20-%20Fossil%20Cave%20-%20Fossil%20East%20lake%20entrance.jpg) — Martin Slater
+- ![5L81 Fossil Cave Point Cloud Side View Of Fossil Cave And Surface Area](/images/5L81%20-%20Fossil%20Cave%20-%20Point%20Cloud%20side%20view%20of%20Fossil%20Cave%20and%20surface%20area.jpeg) — Will Passos
+- ![5L81 Fossil Cave Point Cloud Top View Of Fossil Cave And Surface](/images/5L81%20-%20Fossil%20Cave%20-%20Point%20Cloud%20top%20view%20of%20Fossil%20Cave%20and%20surface.jpeg) — Will Passos
 
 - **LSECR:** Page 164
 Fossil Cave is an important biological and palaeontological research site as well as an interesting cave dive. Located literally just a stone's throw from the southern edge of Highway One, near the popular [Tantanoola Tourist Cave]({{< relref "posts/Tantanoola Tourist Cave.md" >}}), it also served as a useful water source for the Highways Dep- artment during construction of the highway prior to its being sealed.
@@ -62,14 +62,14 @@ At the bottom of the silt pile there are some small holes that head on but are i
 The western side of Fossil Cave has a small shallow pool (-6m) with a dark silt. Fossil Cave also is the ‘type locality’ for the rare cave-adapted crustacean Koonunga crenarum, a species of syncarid which have no eyes and range from dark brown to almost pure white in colour. – a bit like some trimixdivers contributors really !! These troglobitic crustaceans are found nowhere else in this country or anywhere else for that matter, although distantly-related species are known in cave waters of other states.
 
 ## Images
-- ![5L81 Fossil Cave Point Cloud Side View Of Fossil Cave And Surface Area 366ae8a6 7cb19cbe](/images/5L81%20-%20Fossil%20Cave%20-%20Point%20Cloud%20side%20view%20of%20Fossil%20Cave%20and%20surface%20area%20-%20366ae8a6-7cb19cbe.jpeg)
-- ![5L81 Fossil Cave Fossil East Lake Fa9397b1 7cb19cbe](/images/5L81%20-%20Fossil%20Cave%20-%20Fossil%20East%20lake%20-%20fa9397b1-7cb19cbe.jpg)
-- ![5L81 Fossil Cave 20240203 130908 444e0913 7cb19cbe](/images/5L81%20-%20Fossil%20Cave%20-%2020240203_130908%20-%20444e0913-7cb19cbe.jpg)
-- ![5L81 Fossil Cave 20240203 130825 D5a232e7 7cb19cbe](/images/5L81%20-%20Fossil%20Cave%20-%2020240203_130825%20-%20d5a232e7-7cb19cbe.jpg)
-- ![5L81 Fossil Cave 20240203 130951 416e2a24 7cb19cbe](/images/5L81%20-%20Fossil%20Cave%20-%2020240203_130951%20-%20416e2a24-7cb19cbe.jpg)
-- ![5L81 Fossil Cave Point Cloud Top View Of Fossil Cave And Surface 402b4259 7cb19cbe](/images/5L81%20-%20Fossil%20Cave%20-%20Point%20Cloud%20top%20view%20of%20Fossil%20Cave%20and%20surface%20-%20402b4259-7cb19cbe.jpeg)
-- ![5L81 Fossil Cave Fossil East Lake Entrance 3e7da6a5 7cb19cbe](/images/5L81%20-%20Fossil%20Cave%20-%20Fossil%20East%20lake%20entrance%20-%203e7da6a5-7cb19cbe.jpg)
-- ![5L81 Fossil Cave 20240203 131030 2d9f1812 7cb19cbe](/images/5L81%20-%20Fossil%20Cave%20-%2020240203_131030%20-%202d9f1812-7cb19cbe.jpg)
+- ![5L81 Fossil Cave Point Cloud Side View Of Fossil Cave And Surface Area](/images/5L81%20-%20Fossil%20Cave%20-%20Point%20Cloud%20side%20view%20of%20Fossil%20Cave%20and%20surface%20area.jpeg)
+- ![5L81 Fossil Cave Fossil East Lake](/images/5L81%20-%20Fossil%20Cave%20-%20Fossil%20East%20lake.jpg)
+- ![5L81 Fossil Cave Image 02](/images/5L81%20-%20Fossil%20Cave%20-%20Image%2002.jpg)
+- ![5L81 Fossil Cave Image 01](/images/5L81%20-%20Fossil%20Cave%20-%20Image%2001.jpg)
+- ![5L81 Fossil Cave Image 03](/images/5L81%20-%20Fossil%20Cave%20-%20Image%2003.jpg)
+- ![5L81 Fossil Cave Point Cloud Top View Of Fossil Cave And Surface](/images/5L81%20-%20Fossil%20Cave%20-%20Point%20Cloud%20top%20view%20of%20Fossil%20Cave%20and%20surface.jpeg)
+- ![5L81 Fossil Cave Fossil East Lake Entrance](/images/5L81%20-%20Fossil%20Cave%20-%20Fossil%20East%20lake%20entrance.jpg)
+- ![5L81 Fossil Cave Image 04](/images/5L81%20-%20Fossil%20Cave%20-%20Image%2004.jpg)
 - [1a24038d-5201-47c5-9fe1-7d83aa93124d](https://www.youtube.com/watch?v=9Dd2TWynV8w)
 
 # Details

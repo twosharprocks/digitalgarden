@@ -35,4 +35,4 @@ address: "Muna Regency, South East Sulawesi, IDN, 93662"
 # References
 
 ## Images
-- ![Gua Mata Air Bone Gua Mata Air Bone 443dc51b 40a5daf9](/images/Gua%20Mata%20Air%20Bone%20-%20Gua%20Mata%20Air%20Bone%20-%20443dc51b-40a5daf9.jpg)
+- ![Gua Mata Air Bone Gua Mata Air Bone](/images/Gua%20Mata%20Air%20Bone%20-%20Gua%20Mata%20Air%20Bone.jpg)

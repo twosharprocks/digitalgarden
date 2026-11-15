@@ -43,6 +43,6 @@ address: "122, Cienaga de Zapata, Matanzas, CUB"
 # References
 
 ## Images
-- ![El Brinco Cave 417534014 7290794861003905 5569104153020291016 N 4865d083 2f38dcb5](/images/El%20Brinco%20Cave%20-%20417534014_7290794861003905_5569104153020291016_n%20-%204865d083-2f38dcb5.jpg)
+- ![El Brinco Cave Image 01](/images/El%20Brinco%20Cave%20-%20Image%2001.jpg)
 - [aca0dc93-906a-4395-a00a-8763bccb9fc0](https://www.youtube.com/watch?v=N_QRqaKZl6w)
 - [698aaa75-30c5-40ee-98c7-40326979d00c](https://www.youtube.com/watch?v=V1wIUW8mbt8)

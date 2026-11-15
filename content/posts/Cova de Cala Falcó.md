@@ -59,7 +59,7 @@ It is a cavity created by marine erosion and is classified as a  Natural Area of
 We will go to the popular and virgin  Cala Varques . After having taken all the material, we will walk towards the beach and the cliffs of the area for a very beautiful stretch."
 
 ## Images
-- ![Cova De Cala Falcó 08 90759b90 1b97cac6](/images/Cova_de_Cala_Falc%C3%B3_08%20-%2090759b90-1b97cac6.jpg)
-- ![Falco 56c6a108 1b97cac6](/images/falco%20-%2056c6a108-1b97cac6.jpg)
-- ![Cala Cap Falcó Mallorca B5826b7d 1b97cac6](/images/Cala-Cap-Falco%CC%81-mallorca%20-%20b5826b7d-1b97cac6.jpg)
+- ![Cova De Cala Falcó Cova De Cala Falcó 08](/images/Cova%20de%20Cala%20Falc%C3%B3%20-%20Cova_de_Cala_Falc%C3%B3_08.jpg)
+- ![Cova De Cala Falcó Falco](/images/Cova%20de%20Cala%20Falc%C3%B3%20-%20falco.jpg)
+- ![Cova De Cala Falcó Cala Cap Falcó Mallorca](/images/Cova%20de%20Cala%20Falc%C3%B3%20-%20Cala-Cap-Falco%CC%81-mallorca.jpg)
 - [bca4a514-130c-4057-86b9-f8a4c63d6ca4](https://www.youtube.com/watch?v=4EgLNhD4V10)

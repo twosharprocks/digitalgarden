@@ -38,4 +38,4 @@ Location
 # References
 
 ## Images
-- ![Hole In The Wall Cave Holeinwall D451bdd6 04119a40](/images/Hole-in-the-Wall%20Cave%20-%20holeinwall%20-%20d451bdd6-04119a40.jpg)
+- ![Hole In The Wall Cave Holeinwall](/images/Hole-in-the-Wall%20Cave%20-%20holeinwall.jpg)

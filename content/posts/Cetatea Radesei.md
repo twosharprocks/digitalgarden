@@ -44,5 +44,5 @@ address: "Budureasa, ROU, 417100"
 - **Google Maps:** https://maps.app.goo.gl/ArpEeC2uKKVZ4YkaA
 
 ## Images
-- ![Cetatea Radesei 454302414 3937520769864403 3350802605308395613 N 9834c85c Ae2da9ae](/images/Cetatea%20Radesei%20-%20454302414_3937520769864403_3350802605308395613_n%20-%209834c85c-ae2da9ae.jpg)
-- ![Cetatea Radesei 454381573 3937520113197802 718514006247668516 N 47901826 Ae2da9ae](/images/Cetatea%20Radesei%20-%20454381573_3937520113197802_718514006247668516_n%20-%2047901826-ae2da9ae.jpg)
+- ![Cetatea Radesei Image 01](/images/Cetatea%20Radesei%20-%20Image%2001.jpg)
+- ![Cetatea Radesei Image 02](/images/Cetatea%20Radesei%20-%20Image%2002.jpg)

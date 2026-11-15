@@ -38,5 +38,5 @@ address: "Wanwin Rd, Mumbannar, Victoria, AUS, 3304"
 # References
 
 ## Images
-- ![Col's Cave Main Entrance Received 1234880080544129 0f886b94 E9b62635](/images/Col%27s%20Cave%20-%20Main%20Entrance%20-%20received_1234880080544129%20-%200f886b94-e9b62635.jpeg)
-- ![Col's Cave Main Entrance PXL 20230808 070830865 85babb91 E9b62635](/images/Col%27s%20Cave%20-%20Main%20Entrance%20-%20PXL_20230808_070830865%20-%2085babb91-e9b62635.jpg)
+- ![Col's Cave Main Entrance Received 1234880080544129](/images/Col%27s%20Cave%20-%20Main%20Entrance%20-%20received_1234880080544129.jpeg)
+- ![Col's Cave Main Entrance Image 01](/images/Col%27s%20Cave%20-%20Main%20Entrance%20-%20Image%2001.jpg)

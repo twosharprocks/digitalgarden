@@ -46,4 +46,4 @@ Repository - Survex, sketchsheets and illustrator
 - **SUSS:** https://suss.caves.org.au/cave/cooleman/CP7_Glop_Pot/
 
 ## Images
-- ![CP 7 Glop Pot Cp7glop 8415ab24 85570cfe](/images/CP-7%20-%20Glop%20Pot%20-%20cp7glop%20-%208415ab24-85570cfe.jpg)
+- ![CP 7 Glop Pot Cp7glop](/images/CP-7%20-%20Glop%20Pot%20-%20cp7glop.jpg)

@@ -59,5 +59,5 @@ This cave is located on the lands of the Nature Reserve of the Gorges of Ardeche
 - **CaveDiving.Pictures:** https://www.cavediving.pictures/copie-de-marchepied-10-2020
 
 ## Images
-- ![Dragonière Dragonière 67e7008a 70f0f379](/images/Dragoni%C3%A8re%20-%20Dragoni%C3%A8re%20-%2067e7008a-70f0f379.jpg)
-- ![Dragonière Dragonière2 7e37ae25 70f0f379](/images/Dragoni%C3%A8re%20-%20Dragoni%C3%A8re2%20-%207e37ae25-70f0f379.jpg)
+- ![Dragonière Dragonière](/images/Dragoni%C3%A8re%20-%20Dragoni%C3%A8re.jpg)
+- ![Dragonière Dragonière2](/images/Dragoni%C3%A8re%20-%20Dragoni%C3%A8re2.jpg)

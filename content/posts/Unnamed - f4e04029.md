@@ -54,11 +54,11 @@ Zero stars - do not recommend
 
 # Maps
 
-- ![Unnamed Laos Map B9ea23f6 F4e04029](/images/Unnamed%20-%20laos%20map%20-%20b9ea23f6-f4e04029.jpg)
+- ![Unnamed Laos Map](/images/Unnamed%20-%20laos%20map.jpg)
 
 # References
 
 ## Images
-- ![Unnamed Laos Map B9ea23f6 F4e04029](/images/Unnamed%20-%20laos%20map%20-%20b9ea23f6-f4e04029.jpg)
-- ![Unnamed 5 Da1f4484 F4e04029](/images/Unnamed%20-%205%20-%20da1f4484-f4e04029.jpg)
-- ![Unnamed Entrance Robin 8d5a3692 F4e04029](/images/Unnamed%20-%20entrance%20-%20robin%20-%208d5a3692-f4e04029.jpg)
+- ![Unnamed Laos Map](/images/Unnamed%20-%20laos%20map.jpg)
+- ![Unnamed Image 36](/images/Unnamed%20-%20Image%2036.jpg)
+- ![Unnamed Entrance Robin](/images/Unnamed%20-%20entrance%20-%20robin.jpg)

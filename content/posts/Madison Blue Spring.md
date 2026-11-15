@@ -35,6 +35,6 @@ address: "8300, FL-6, Madison County, Florida, USA, 32059"
 # References
 
 ## Images
-- ![Madison Blue Spring Image 6863bed6 1ab377eb](/images/Madison%20Blue%20Spring%20-%20Image%20-%206863bed6-1ab377eb.jpg)
-- ![Madison Blue Spring 465922671 943893771103352 221286184825282550 N F2e287a5 1ab377eb](/images/Madison%20Blue%20Spring%20-%20465922671_943893771103352_221286184825282550_n%20-%20f2e287a5-1ab377eb.jpg)
+- ![Madison Blue Spring Image 02](/images/Madison%20Blue%20Spring%20-%20Image%2002.jpg)
+- ![Madison Blue Spring Image 01](/images/Madison%20Blue%20Spring%20-%20Image%2001.jpg)
 - [0bb0ede0-5a64-40e8-b41e-9eee68376dd9](https://www.youtube.com/watch?v=xuTh5uCLjg8)

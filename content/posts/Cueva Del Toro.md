@@ -42,4 +42,4 @@ address: "Pomar de Valdivia, Castilla y León, ESP"
 - **GAEM:** http://www.espeleogaem.org/covalagua/s_covalagua.html
 
 ## Images
-- ![Cueva Del Toro Lora Amp 8c8d025c 24b0318a](/images/Cueva%20Del%20Toro%20-%20lora-amp%20-%208c8d025c-24b0318a.jpg)
+- ![Cueva Del Toro Lora Amp](/images/Cueva%20Del%20Toro%20-%20lora-amp.jpg)

@@ -39,4 +39,4 @@ address: "336, Benara Hd Line Rd, The District Council of Grant, South Australia
 # References
 
 ## Images
-- ![Forest Clearing DJI 0725 625464bc 647de08c](/images/Forest%20Clearing%20-%20DJI_0725%20-%20625464bc-647de08c.jpg)
+- ![Forest Clearing Image 02](/images/Forest%20Clearing%20-%20Image%2002.jpg)

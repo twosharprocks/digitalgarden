@@ -45,4 +45,4 @@ Forestry
 - **Forestry SA:** L0181, Thin Roof: N, Fence: N. Dimensions: 0.5m x 6m drop. Features: Cave crickets. 20m upslope from Dry Ck Settlement
 
 ## Images
-- ![L0181 Unnamed 2023 04 11 09.14.09 A23981fe E1e17bcc](/images/L0181%20-%20unnamed%20-%202023-04-11%2009.14.09%20-%20a23981fe-e1e17bcc.jpg)
+- ![L0181 Unnamed Image 01](/images/L0181%20-%20unnamed%20-%20Image%2001.jpg)

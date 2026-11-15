@@ -50,7 +50,7 @@ address: "97-101, Caves Rd, Dubbo Regional Council, New South Wales, AUS, 2820"
 # References
 
 ## Images
-- ![Anticline Cave PXL 20250927 230113563 92b089b3 D1a6dd6c](/images/Anticline%20Cave%20-%20PXL_20250927_230113563%20-%2092b089b3-d1a6dd6c.jpg)
-- ![Anticline Cave PXL 20250927 230130803 23384e45 D1a6dd6c](/images/Anticline%20Cave%20-%20PXL_20250927_230130803%20-%2023384e45-d1a6dd6c.jpg)
-- ![Anticline Cave PXL 20250927 230100925 061577df D1a6dd6c](/images/Anticline%20Cave%20-%20PXL_20250927_230100925%20-%20061577df-d1a6dd6c.jpg)
+- ![Anticline Cave Image 02](/images/Anticline%20Cave%20-%20Image%2002.jpg)
+- ![Anticline Cave Image 03](/images/Anticline%20Cave%20-%20Image%2003.jpg)
+- ![Anticline Cave Image 01](/images/Anticline%20Cave%20-%20Image%2001.jpg)
 

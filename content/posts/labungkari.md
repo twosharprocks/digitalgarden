@@ -64,5 +64,5 @@ address: "Jl. Gersamata, Buton Regency, South East Sulawesi, IDN, 93763"
 # References
 
 ## Images
-- ![Gua Labungkari Labungkari Sketch De683b2c 508a29bc](/images/Gua%20Labungkari%20-%20Labungkari%20-%20sketch%20-%20de683b2c-508a29bc.jpg)
+- ![Gua Labungkari Labungkari Sketch](/images/Gua%20Labungkari%20-%20Labungkari%20-%20sketch.jpg)
 - [1fe0cb6e-33a8-425b-8562-1b803b1a7e66](https://www.youtube.com/watch?v=PsA-guWX61o)

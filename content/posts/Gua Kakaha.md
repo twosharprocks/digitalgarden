@@ -38,5 +38,5 @@ address: "40, Jl. Gersamata, Buton Regency, South East Sulawesi, IDN, 93763"
 # References
 
 ## Images
-- ![Gua Kakaha Gua Kakaha2 Ca6205aa A9d92954](/images/Gua%20Kakaha%20-%20Gua%20Kakaha2%20-%20ca6205aa-a9d92954.jpg)
-- ![Gua Kakaha Gua Kakaha 8c6678e5 A9d92954](/images/Gua%20Kakaha%20-%20Gua%20Kakaha%20-%208c6678e5-a9d92954.jpg)
+- ![Gua Kakaha Gua Kakaha2](/images/Gua%20Kakaha%20-%20Gua%20Kakaha2.jpg)
+- ![Gua Kakaha Gua Kakaha](/images/Gua%20Kakaha%20-%20Gua%20Kakaha.jpg)

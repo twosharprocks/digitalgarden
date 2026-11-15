@@ -31,5 +31,5 @@ BC 23/9/2023: No visible signs of anything interesting
 # References
 
 ## Images
-- ![Surface Feature (C) 20230923 102039 49c99bb1 B608688c](/images/Surface%20Feature%20%28C%29%20-%2020230923_102039%20-%2049c99bb1-b608688c.jpg)
-- ![Surface Feature (C) 20230923 102056 A624e949 B608688c](/images/Surface%20Feature%20%28C%29%20-%2020230923_102056%20-%20a624e949-b608688c.jpg)
+- ![Surface Feature (C) Image 01](/images/Surface%20Feature%20%28C%29%20-%20Image%2001.jpg)
+- ![Surface Feature (C) Image 02](/images/Surface%20Feature%20%28C%29%20-%20Image%2002.jpg)

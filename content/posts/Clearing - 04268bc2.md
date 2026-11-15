@@ -36,4 +36,4 @@ address: "Princes Hwy, Tantanoola, South Australia, AUS, 5280"
 # References
 
 ## Images
-- ![Clearing 20230908 085122 C44cad4b 04268bc2](/images/Clearing%20-%2020230908_085122%20-%20c44cad4b-04268bc2.jpg)
+- ![Clearing Image 03](/images/Clearing%20-%20Image%2003.jpg)

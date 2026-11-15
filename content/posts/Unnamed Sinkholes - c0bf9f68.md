@@ -33,4 +33,4 @@ address: "River Fire Ln, Glenelg Shire, Victoria, AUS, 3304"
 # References
 
 ## Images
-- ![Unnamed Sinkholes Sinkholes F7cf5bd7 C0bf9f68](/images/Unnamed%20Sinkholes%20-%20Sinkholes%20-%20f7cf5bd7-c0bf9f68.jpg)
+- ![Unnamed Sinkholes Sinkholes](/images/Unnamed%20Sinkholes%20-%20Sinkholes.jpg)

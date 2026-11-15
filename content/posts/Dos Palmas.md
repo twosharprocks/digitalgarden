@@ -53,8 +53,8 @@ Open to the public. Entrance fee is required and is paid at the booth in the par
 # References
 
 ## Images
-- ![Dos Palmas Dos Palmas, Web Version 30bd6b2c Cde7b827](/images/Dos%20Palmas%20-%20Dos-Palmas%2C-Web-Version%20-%2030bd6b2c-cde7b827.jpg)
-- ![Dos Palmas Rory Dos Palmas 1 D475c01d Cde7b827](/images/Dos%20Palmas%20-%20rory-dos%20palmas%201%20-%20d475c01d-cde7b827.jpg)
-- ![Dos Palmas Rory Dos Palmas 2 3451d126 Cde7b827](/images/Dos%20Palmas%20-%20rory-dos%20palmas%202%20-%203451d126-cde7b827.jpg)
-- ![Dos Palmas Dos Palmas Entrance 003faab8 Cde7b827](/images/Dos%20Palmas%20-%20Dos-Palmas-Entrance%20-%20003faab8-cde7b827.jpg)
+- ![Dos Palmas Dos Palmas, Web Version](/images/Dos%20Palmas%20-%20Dos-Palmas%2C-Web-Version.jpg)
+- ![Dos Palmas Rory Dos Palmas 1](/images/Dos%20Palmas%20-%20rory-dos%20palmas%201.jpg)
+- ![Dos Palmas Rory Dos Palmas 2](/images/Dos%20Palmas%20-%20rory-dos%20palmas%202.jpg)
+- ![Dos Palmas Dos Palmas Entrance](/images/Dos%20Palmas%20-%20Dos-Palmas-Entrance.jpg)
 

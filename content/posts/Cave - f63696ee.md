@@ -40,4 +40,4 @@ address: "Unnamed Road, Glenelg Shire, Victoria, AUS, 3304"
 # References
 
 ## Images
-- ![Cave Cave3 6dbbf77f F63696ee](/images/Cave%20-%20cave3%20-%206dbbf77f-f63696ee.jpg)
+- ![Cave Cave3](/images/Cave%20-%20cave3.jpg)

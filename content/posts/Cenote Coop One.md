@@ -35,4 +35,4 @@ address: "Tulum, Quintana Roo, MEX, 77760"
 # References
 
 ## Images
-- ![Cenote Coop One Ccop One E2273901 Ecc80e35](/images/Cenote%20Coop%20One%20-%20ccop%20one%20-%20e2273901-ecc80e35.jpg)
+- ![Cenote Coop One Ccop One](/images/Cenote%20Coop%20One%20-%20ccop%20one.jpg)

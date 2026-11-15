@@ -67,6 +67,6 @@ The cave is rated as being suitable for use as an "adventure" cave by the Nation
 - **Forestry SA:** L0034, Thin Roof: N, Fence: Y. Dimensions: ?. Features: popular dry caving site (adventure caving)
 
 ## Images
-- ![L0034b Morgans 0085 B888c5c0 69771605](/images/L0034b%20-%20Morgans%20-%200085%20-%20b888c5c0-69771605.jpg)
-- ![L0034b Morgans 0084 6a7e4c57 69771605](/images/L0034b%20-%20Morgans%20-%200084%20-%206a7e4c57-69771605.jpg)
-- ![L0034b Morgans Formation On The NW Side Of Morgan's Cave D49c920c 69771605](/images/L0034b%20-%20Morgans%20-%20Formation%20on%20the%20NW%20side%20of%20Morgan%27s%20Cave%20-%20d49c920c-69771605.jpg)
+- ![L0034b Morgans Image 02](/images/L0034b%20-%20Morgans%20-%20Image%2002.jpg)
+- ![L0034b Morgans Image 01](/images/L0034b%20-%20Morgans%20-%20Image%2001.jpg)
+- ![L0034b Morgans Formation On The NW Side Of Morgan's Cave](/images/L0034b%20-%20Morgans%20-%20Formation%20on%20the%20NW%20side%20of%20Morgan%27s%20Cave.jpg)

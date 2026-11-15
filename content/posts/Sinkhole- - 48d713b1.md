@@ -36,4 +36,4 @@ BC 23/8/2023: 2m round and 3m deep hole. Filled with forest litter
 # References
 
 ## Images
-- ![Sinkhole Wedge E8871c1c 48d713b1](/images/Sinkhole_%20-%20wedge%20-%20e8871c1c-48d713b1.jpg)
+- ![Sinkhole Wedge 02](/images/Sinkhole_%20-%20wedge%20-%2002.jpg)

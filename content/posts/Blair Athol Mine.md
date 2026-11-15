@@ -64,7 +64,7 @@ Even with a couple of Sherpa’s helping it took two trips to relay the gear to 
 - **Sydney Sub Aqua Club:** https://www.sydneysubaquaclub.com/news/blair-athol-mine-2014/
 
 ## Images
-- ![Blair Athol Mine Blairathol A 67be4954 23a60cbb](/images/Blair%20Athol%20Mine%20-%20blairAthol-a%20-%2067be4954-23a60cbb.jpg)
-- ![Blair Athol Mine Blairathol F 4ea6e637 23a60cbb](/images/Blair%20Athol%20Mine%20-%20blairAthol-f%20-%204ea6e637-23a60cbb.jpg)
-- ![Blair Athol Mine Blairathol G 440e1ee8 23a60cbb](/images/Blair%20Athol%20Mine%20-%20blairAthol-g%20-%20440e1ee8-23a60cbb.jpg)
-- ![Blair Athol Mine Blairathol E 156cc4e9 23a60cbb](/images/Blair%20Athol%20Mine%20-%20blairAthol-e%20-%20156cc4e9-23a60cbb.jpg)
+- ![Blair Athol Mine Blairathol A](/images/Blair%20Athol%20Mine%20-%20blairAthol-a.jpg)
+- ![Blair Athol Mine Blairathol F](/images/Blair%20Athol%20Mine%20-%20blairAthol-f.jpg)
+- ![Blair Athol Mine Blairathol G](/images/Blair%20Athol%20Mine%20-%20blairAthol-g.jpg)
+- ![Blair Athol Mine Blairathol E](/images/Blair%20Athol%20Mine%20-%20blairAthol-e.jpg)

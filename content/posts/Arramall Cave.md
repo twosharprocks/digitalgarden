@@ -43,4 +43,4 @@ mapped but contains the larger chambers than [River Cave]({{< relref "posts/Grot
 - **Project Paper:** https://www.epa.wa.gov.au/sites/default/files/Referral_Documentation/IBE_Arrowsmith_EPA_Survey_Bennelongia%20Subterranean%20Fauna%20Assessment.pdf
 
 ## Images
-- ![Arramall Cave Arrow 6b7e666f A4f29057](/images/Arramall%20Cave%20-%20arrow%20-%206b7e666f-a4f29057.jpg)
+- ![Arramall Cave Arrow](/images/Arramall%20Cave%20-%20arrow.jpg)

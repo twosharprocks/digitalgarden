@@ -38,5 +38,5 @@ address: "Buton Regency, South East Sulawesi, IDN, 93762"
 # References
 
 ## Images
-- ![Gua Inoli Lalibo Gua Inoli Lalibo B9dd174c 9c4b990b](/images/Gua%20Inoli%20Lalibo%20-%20Gua%20Inoli%20Lalibo%20-%20b9dd174c-9c4b990b.jpg)
-- ![Gua Inoli Lalibo Gua Inoli Lalibo2 A9399461 9c4b990b](/images/Gua%20Inoli%20Lalibo%20-%20Gua%20Inoli%20Lalibo2%20-%20a9399461-9c4b990b.jpg)
+- ![Gua Inoli Lalibo Gua Inoli Lalibo](/images/Gua%20Inoli%20Lalibo%20-%20Gua%20Inoli%20Lalibo.jpg)
+- ![Gua Inoli Lalibo Gua Inoli Lalibo2](/images/Gua%20Inoli%20Lalibo%20-%20Gua%20Inoli%20Lalibo2.jpg)

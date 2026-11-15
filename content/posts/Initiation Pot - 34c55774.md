@@ -44,6 +44,6 @@ Forestry
 - **Forestry SA:** L0183, Thin Roof: N, Fence: R. Dimensions: 2m x 8m deep. Features: Remove huge logs b/c dangerous
 
 ## Images
-- ![L0183 Initiation Pot 20240828 170715 7bd633d3 34c55774](/images/L0183%20-%20Initiation%20Pot%20-%2020240828_170715%20-%207bd633d3-34c55774.jpg)
-- ![L0183 Initiation Pot 20240828 170736 Ebc160bb 34c55774](/images/L0183%20-%20Initiation%20Pot%20-%2020240828_170736%20-%20ebc160bb-34c55774.jpg)
-- ![L0183 Initiation Pot 20240828 170655 7d839e9e 34c55774](/images/L0183%20-%20Initiation%20Pot%20-%2020240828_170655%20-%207d839e9e-34c55774.jpg)
+- ![L0183 Initiation Pot Image 02](/images/L0183%20-%20Initiation%20Pot%20-%20Image%2002.jpg)
+- ![L0183 Initiation Pot Image 03](/images/L0183%20-%20Initiation%20Pot%20-%20Image%2003.jpg)
+- ![L0183 Initiation Pot Image 01](/images/L0183%20-%20Initiation%20Pot%20-%20Image%2001.jpg)

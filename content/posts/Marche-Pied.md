@@ -36,12 +36,12 @@ address: "82, Lieu-dit Trassac, Marcilhac-sur-Célé, Occitanie, FRA, 46160"
 
 # Maps
 
-- ![Marche Pied Marchepied Survey E8f45b4a 452bdd53](/images/Marche-Pied%20-%20Marchepied%20Survey%20-%20e8f45b4a-452bdd53.jpg)
+- ![Marche Pied Marchepied Survey](/images/Marche-Pied%20-%20Marchepied%20Survey.jpg)
 
 # References
 
 - **Facebook:** https://www.facebook.com/marissa0429/posts/pfbid02aJEsSAoSkWFpmY2heJYYH8kBGNmShSrFPQRPr9qBh3xPqYEsodAqF8A9SgoKHcrxl
 
 ## Images
-- ![Marche Pied Marchepied F2f4259e 452bdd53](/images/Marche-Pied%20-%20Marchepied%20-%20f2f4259e-452bdd53.jpg)
-- ![Marche Pied Marchepied Survey E8f45b4a 452bdd53](/images/Marche-Pied%20-%20Marchepied%20Survey%20-%20e8f45b4a-452bdd53.jpg)
+- ![Marche Pied Marchepied](/images/Marche-Pied%20-%20Marchepied.jpg)
+- ![Marche Pied Marchepied Survey](/images/Marche-Pied%20-%20Marchepied%20Survey.jpg)

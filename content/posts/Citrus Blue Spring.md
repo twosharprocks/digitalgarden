@@ -53,5 +53,5 @@ Utilization - Citrus Blue Spring is surrounded by private property and is used l
 - **CaveAtlas:** http://www.caveatlas.com/systems/system.asp?ID=164&co=US
 
 ## Images
-- ![Citrus Blue Spring Citrus Plan Ba554c07 1763b9a8](/images/Citrus%20Blue%20Spring%20-%20citrus_plan%20-%20ba554c07-1763b9a8.jpg)
-- ![Citrus Blue Spring Citrus Profile 9b292e05 1763b9a8](/images/Citrus%20Blue%20Spring%20-%20citrus_profile%20-%209b292e05-1763b9a8.jpg)
+- ![Citrus Blue Spring Citrus Plan](/images/Citrus%20Blue%20Spring%20-%20citrus_plan.jpg)
+- ![Citrus Blue Spring Citrus Profile](/images/Citrus%20Blue%20Spring%20-%20citrus_profile.jpg)

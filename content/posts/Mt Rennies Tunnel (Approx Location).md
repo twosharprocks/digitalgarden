@@ -41,6 +41,6 @@ The Jamison Project's account describes standing water in parts of the tunnel an
 
 ## Images
 
-- ![Mt Rennies Tunnel (approx Location) Mtr 1502b71f C311b42d](/images/Mt%20Rennies%20Tunnel%20%28Approx%20Location%29%20-%20mtr%20-%201502b71f-c311b42d.jpg)
-- ![Mt Rennies Tunnel (approx Location) Mtrtunn 268919f9 C311b42d](/images/Mt%20Rennies%20Tunnel%20%28Approx%20Location%29%20-%20mtrtunn%20-%20268919f9-c311b42d.jpg)
-- ![Mt Rennies Tunnel (approx Location) Mtr2 0bd92c33 C311b42d](/images/Mt%20Rennies%20Tunnel%20%28Approx%20Location%29%20-%20mtr2%20-%200bd92c33-c311b42d.jpg)
+- ![Mt Rennies Tunnel (approx Location) Mtr](/images/Mt%20Rennies%20Tunnel%20%28Approx%20Location%29%20-%20mtr.jpg)
+- ![Mt Rennies Tunnel (approx Location) Mtrtunn](/images/Mt%20Rennies%20Tunnel%20%28Approx%20Location%29%20-%20mtrtunn.jpg)
+- ![Mt Rennies Tunnel (approx Location) Mtr2](/images/Mt%20Rennies%20Tunnel%20%28Approx%20Location%29%20-%20mtr2.jpg)

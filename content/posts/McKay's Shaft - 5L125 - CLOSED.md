@@ -32,8 +32,8 @@ Shown on "Sites around Mt Gambier" image
 # References
 
 ## Images
-- ![L0125 Mckays Shaft 0249 6e8cf5db 690ebf2b](/images/L0125%20-%20McKays%20Shaft%20-%200249%20-%206e8cf5db-690ebf2b.jpg)
-- ![L0125 Mckays Shaft 0248 Ff55e573 690ebf2b](/images/L0125%20-%20McKays%20Shaft%20-%200248%20-%20ff55e573-690ebf2b.jpg)
+- ![L0125 Mckays Shaft Image 02](/images/L0125%20-%20McKays%20Shaft%20-%20Image%2002.jpg)
+- ![L0125 Mckays Shaft Image 01](/images/L0125%20-%20McKays%20Shaft%20-%20Image%2001.jpg)
 
 - **LSECR:** Page 248
 Added to the cave diving community's list of approved sites in 1992, McKays Shaft was named after the present landowner, Mr. Murray McKay, whose house lies close to the entrance. The entrance is spectacular enough for many people; a 2.5 metre diameter (possibly artificially-enlarged) chimney in a steep-walled depression which drops sheer for about 18 metres before

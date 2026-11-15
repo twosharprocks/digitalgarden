@@ -37,4 +37,4 @@ address: "Jalan Tanpa Nama, Muna Regency, South East Sulawesi, IDN, 93661"
 # References
 
 ## Images
-- ![Permandian Wakumoro Permandian Wakumoro 28512628 38b6308f](/images/Permandian%20Wakumoro%20-%20Permandian%20Wakumoro%20-%2028512628-38b6308f.jpg)
+- ![Permandian Wakumoro Permandian Wakumoro](/images/Permandian%20Wakumoro%20-%20Permandian%20Wakumoro.jpg)

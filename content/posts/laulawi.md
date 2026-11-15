@@ -31,13 +31,13 @@ address: "Jalan Tanpa Nama, Buton Regency, South East Sulawesi, IDN, 93763"
 # References
 
 ## Images
-- ![Laulawi 1500 Muna Entrance By Pete Mesley E37b9536 352534d7](/images/Laulawi%20-%201500_Muna-entrance-by-Pete-Mesley%20-%20e37b9536-352534d7.jpg) — Pete Mesley
-- ![Laulawi 1500 Stalactite Formation In Laulawi Cave By Pete Mesley E1486aa4 352534d7](/images/Laulawi%20-%201500_Stalactite-formation-in-Laulawi-cave-by-Pete-Mesley%20-%20e1486aa4-352534d7.jpg) — Pete Mesley
-- ![Laulawi Laulawi 499df331 352534d7](/images/Laulawi%20-%20laulawi%20-%20499df331-352534d7.jpg)
+- ![Laulawi 1500 Muna Entrance By Pete Mesley](/images/Laulawi%20-%201500_Muna-entrance-by-Pete-Mesley.jpg) — Pete Mesley
+- ![Laulawi 1500 Stalactite Formation In Laulawi Cave By Pete Mesley](/images/Laulawi%20-%201500_Stalactite-formation-in-Laulawi-cave-by-Pete-Mesley.jpg) — Pete Mesley
+- ![Laulawi Laulawi](/images/Laulawi%20-%20laulawi.jpg)
 
 ## Images
-- ![Laulawi 1500 Stalactite Formation In Laulawi Cave By Pete Mesley E1486aa4 352534d7](/images/Laulawi%20-%201500_Stalactite-formation-in-Laulawi-cave-by-Pete-Mesley%20-%20e1486aa4-352534d7.jpg)
-- ![Laulawi 1500 Muna Entrance By Pete Mesley E37b9536 352534d7](/images/Laulawi%20-%201500_Muna-entrance-by-Pete-Mesley%20-%20e37b9536-352534d7.jpg)
+- ![Laulawi 1500 Stalactite Formation In Laulawi Cave By Pete Mesley](/images/Laulawi%20-%201500_Stalactite-formation-in-Laulawi-cave-by-Pete-Mesley.jpg)
+- ![Laulawi 1500 Muna Entrance By Pete Mesley](/images/Laulawi%20-%201500_Muna-entrance-by-Pete-Mesley.jpg)
 - [9f4c1412-222d-4d0a-97a7-8d2be67be934](https://www.youtube.com/watch?v=Xx1mzaTTwK0)
 
 # Details

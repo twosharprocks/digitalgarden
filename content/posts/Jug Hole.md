@@ -37,4 +37,4 @@ address: "[[Blue Hole]] Spring Trail, Columbia County, Florida, USA, 32038"
 # References
 
 ## Images
-- ![Jug Hole Image 28057c05 5d1d55cc](/images/Jug%20Hole%20-%20Image%20-%2028057c05-5d1d55cc.jpg)
+- ![Jug Hole Image 01](/images/Jug%20Hole%20-%20Image%2001.jpg)

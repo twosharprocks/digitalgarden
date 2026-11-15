@@ -37,6 +37,6 @@ MW / BC 15/7/2023 : Depression wirh rock, not exciting
 # References
 
 ## Images
-- ![Depression Thp Fdd3f615 457a7649](/images/Depression%20-%20thp%20-%20fdd3f615-457a7649.jpg)
-- ![Depression PXL 20230715 070053848 87947dd5 457a7649](/images/Depression%20-%20PXL_20230715_070053848%20-%2087947dd5-457a7649.jpg)
-- ![Depression 20230715 162538 099e7438 457a7649](/images/Depression%20-%2020230715_162538%20-%20099e7438-457a7649.jpg)
+- ![Depression Thp](/images/Depression%20-%20thp.jpg)
+- ![Depression Image 02](/images/Depression%20-%20Image%2002.jpg)
+- ![Depression Image 01](/images/Depression%20-%20Image%2001.jpg)

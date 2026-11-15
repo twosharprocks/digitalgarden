@@ -43,4 +43,4 @@ address: "Pomar de Valdivia, Castilla y León, ESP"
 - **GAEM:** http://www.espeleogaem.org/covalagua/s_covalagua.html
 
 ## Images
-- ![Cueva De Los Franceses Lora Amp 5c769d05 48243ea5](/images/Cueva%20De%20Los%20Franceses%20-%20lora-amp%20-%205c769d05-48243ea5.jpg)
+- ![Cueva De Los Franceses Lora Amp](/images/Cueva%20De%20Los%20Franceses%20-%20lora-amp.jpg)

@@ -33,16 +33,16 @@ Checked DEC2022 - Found sign reading "L940", dropped down 6m solution tube, iden
 # References
 
 ## Images
-- ![L0179 Caveton Park Estate Cave Photo 6553701 DJI 101 Jpg 4232433 0 20221223102632 Photo Original 0dad886d A49bb2e5](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20Photo_6553701_DJI_101_jpg_4232433_0_20221223102632_photo_original%20-%200dad886d-a49bb2e5.jpg)
-- ![L0179 Caveton Park Estate Cave Caveton2 F08de379 A49bb2e5](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20caveton2%20-%20f08de379-a49bb2e5.jpg)
-- ![L0179 Caveton Park Estate Cave Caveton A3edfebf A49bb2e5](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20caveton%20-%20a3edfebf-a49bb2e5.jpg)
-- ![L0179 Caveton Park Estate Cave Caveton2 7b695836 A49bb2e5](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20caveton2%20-%207b695836-a49bb2e5.jpg)
-- ![L0179 Caveton Park Estate Cave Caveton F5a97369 A49bb2e5](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20caveton%20-%20f5a97369-a49bb2e5.jpg)
+- ![L0179 Caveton Park Estate Cave Photo 6553701 DJI 101 Jpg 4232433 0 20221223102632 Photo Original](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20Photo_6553701_DJI_101_jpg_4232433_0_20221223102632_photo_original.jpg)
+- ![L0179 Caveton Park Estate Cave Caveton2 03](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20caveton2%20-%2003.jpg)
+- ![L0179 Caveton Park Estate Cave Caveton](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20caveton.jpg)
+- ![L0179 Caveton Park Estate Cave Caveton2 02](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20caveton2%20-%2002.jpg)
+- ![L0179 Caveton Park Estate Cave Caveton 03](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20caveton%20-%2003.jpg)
 - [5L179 - Caveton Park Estate Cave (Initial Report) - 694fa530-a49bb2e5](https://github.com/twosharprocks/Karst-Database/blob/d6f539534154fcd23f60d0a25899bf7ef553f1d8/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L179%20-%20Caveton%20Park%20Estate%20Cave%20-%20Report%20%28Horne%2C%201981%29.pdf)
 - [5L179 - Caveton Park Estate Cave (Initial Report) - afbf869e-a49bb2e5](https://github.com/twosharprocks/Karst-Database/blob/d6f539534154fcd23f60d0a25899bf7ef553f1d8/Regions/Oceania/Australia/5L%20-%20Mt%20Gambier/Maps/5L179%20-%20Caveton%20Park%20Estate%20Cave%20-%20Report%20%28Horne%2C%201981%29.pdf)
-- ![L0179 Caveton Park Estate Cave Photo 6553701 DJI 101 Jpg 4232433 0 20221223102632 Photo Original 5d07bcbf 715202ea](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20Photo_6553701_DJI_101_jpg_4232433_0_20221223102632_photo_original%20-%205d07bcbf-715202ea.jpg)
-- ![L0179 Caveton Park Estate Cave Caveton2 22397367 715202ea](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20caveton2%20-%2022397367-715202ea.jpg)
-- ![L0179 Caveton Park Estate Cave Caveton C585f381 715202ea](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20caveton%20-%20c585f381-715202ea.jpg)
+- ![L0179 Caveton Park Estate Cave Photo 6553701 DJI 101 Jpg 4232433 0 20221223102632 Photo Original 02](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20Photo_6553701_DJI_101_jpg_4232433_0_20221223102632_photo_original%20-%2002.jpg)
+- ![L0179 Caveton Park Estate Cave Caveton2](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20caveton2.jpg)
+- ![L0179 Caveton Park Estate Cave Caveton 02](/images/L0179%20-%20Caveton%20Park%20Estate%20Cave%20-%20caveton%20-%2002.jpg)
 
 - **LSECR:** This extensive joint-controlled cave was first explored in detail in March 1981 by the author and his cave diving "buddy", Mark Nielsen, after the landowner mentioned the presence of a deep solution tube "chimney" on a remote paddock on his property.
 The initial visit revealed the presence of a 20 x 15 metre diameter chamber at the bottom of the 6 metre deep entrance tube, and a major lead was obvious on the north-western side. This led for some 25 metres to a large limestone drop-out slab which almost completely blocked the passage, and after several subsequent trips, this was bypassed via a tricky bit of manoeuvring of smaller boulders in January 1984 to reveal a continuing passage some 90 metres long with several restrictions, ultimately leading to a small lake which could only be entered with great difficulty via a very slippery and narrow fissure.

@@ -35,4 +35,4 @@ address: "Dow Rd, Glencoe, South Australia, AUS, 5291"
 # References
 
 ## Images
-- ![Sinkhole P306 D32e7721 A71df834](/images/Sinkhole%20-%20P306%20-%20d32e7721-a71df834.jpg)
+- ![Sinkhole P306](/images/Sinkhole%20-%20P306.jpg)

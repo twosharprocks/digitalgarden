@@ -26,4 +26,4 @@ address: "River Fire Line Track, Glenelg Shire, Victoria, AUS, 3304"
 # References
 
 ## Images
-- ![Spring Mossy Cave Bbd193f4 69384073](/images/Spring%20-%20mossy%20cave%20-%20bbd193f4-69384073.jpg)
+- ![Spring Mossy Cave](/images/Spring%20-%20mossy%20cave.jpg)

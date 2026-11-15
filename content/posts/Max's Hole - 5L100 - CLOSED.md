@@ -68,9 +68,9 @@ The cave does not seem to have much potential for new exploration and has limite
 - **www.trimixdivers.com:** https://www.trimixdivers.com/trimix5/wp-content/uploads/IMG_7284-1.jpg
 
 ## Images
-- ![L0100 Max's Hole 20240323 160112 D7a94a8a 5bc790c9](/images/L0100%20-%20Max%27s%20Hole%20-%2020240323_160112%20-%20d7a94a8a-5bc790c9.jpg)
-- ![L0100 Max's Hole Max1 0bd156a8 5bc790c9](/images/L0100%20-%20Max%27s%20Hole%20-%20max1%20-%200bd156a8-5bc790c9.jpg)
-- ![L0100 Max's Hole 20240323 160249 Edbb82c1 5bc790c9](/images/L0100%20-%20Max%27s%20Hole%20-%2020240323_160249%20-%20edbb82c1-5bc790c9.jpg)
-- ![L0100 Max's Hole Max2 C6573bc0 5bc790c9](/images/L0100%20-%20Max%27s%20Hole%20-%20max2%20-%20c6573bc0-5bc790c9.jpg)
-- ![L0100 Max's Hole 20240323 160208 44eb8802 5bc790c9](/images/L0100%20-%20Max%27s%20Hole%20-%2020240323_160208%20-%2044eb8802-5bc790c9.jpg)
-- ![L0100 Max's Hole 20240323 160209 D706d0e6 5bc790c9](/images/L0100%20-%20Max%27s%20Hole%20-%2020240323_160209%20-%20d706d0e6-5bc790c9.jpg)
+- ![L0100 Max's Hole Image 01](/images/L0100%20-%20Max%27s%20Hole%20-%20Image%2001.jpg)
+- ![L0100 Max's Hole Max1](/images/L0100%20-%20Max%27s%20Hole%20-%20max1.jpg)
+- ![L0100 Max's Hole Image 04](/images/L0100%20-%20Max%27s%20Hole%20-%20Image%2004.jpg)
+- ![L0100 Max's Hole Max2](/images/L0100%20-%20Max%27s%20Hole%20-%20max2.jpg)
+- ![L0100 Max's Hole Image 02](/images/L0100%20-%20Max%27s%20Hole%20-%20Image%2002.jpg)
+- ![L0100 Max's Hole Image 03](/images/L0100%20-%20Max%27s%20Hole%20-%20Image%2003.jpg)

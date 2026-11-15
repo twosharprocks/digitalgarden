@@ -36,4 +36,4 @@ address: "Mile Hill Rd, Glencoe, South Australia, AUS, 5291"
 # References
 
 ## Images
-- ![Unnamed Depression Go Photo 1628485363980 C98186dd 4ca7169c](/images/Unnamed%20Depression%20-%20go_photo_1628485363980%20-%20c98186dd-4ca7169c.jpg)
+- ![Unnamed Depression Go Photo 1628485363980](/images/Unnamed%20Depression%20-%20go_photo_1628485363980.jpg)

@@ -26,4 +26,4 @@ address: "Red Gum Landing Access Trak, Mumbannar, Victoria, AUS, 3304"
 # References
 
 ## Images
-- ![The Mossy Cave Mossy Cave 5f0db127 800356df](/images/The%20Mossy%20Cave_%20-%20mossy%20cave%20-%205f0db127-800356df.jpg)
+- ![The Mossy Cave Mossy Cave](/images/The%20Mossy%20Cave_%20-%20mossy%20cave.jpg)

@@ -80,9 +80,9 @@ Engelbrechts Cave is one of Mount Gambier's most significant cave features, than
 - **https://www.trimixdivers.com/trimix5/?p=4917:** Engelbrechts Caves (East and West) lie in the heart of the town of Mt Gambier and are accessed via the same path that the tour guides follow into the site. The East cave (a cave rated site) is shown in these images. An early flattener with a dark silt base tests trim and bouyancy and then the divers enter a cleaner limestone passage which soon leads to a dropper at a T junction. A tie off here allows you to swim up a passage to the left finishing in a surface lake which can be “snorkelled” for a distance of around 100m(?). A beautiful spot with breathable air. Heading back to the T junction and then heading to the right, you are faced with 2 or 3 options…all tight vertical slots which can be followed for perhaps 40m. A beautiful and challenging dive.
 
 ## Images
-- ![5L19 20 Englebrecht's Cave EEX Overlay (in Progress) 42049248 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20EEX%20Overlay%20%28In%20Progress%29%20-%2042049248-6d271bdf.jpg)
-- ![5L19 20 Englebrecht's Cave Eng E (sat) 48b0e016 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20Eng%20E%20%28Sat%29%20-%2048b0e016-6d271bdf.jpg)
-- ![5L19 20 Englebrecht's Cave 5l019 20 Engelbrechts With Streets 3271295b 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%205L019-20%20Engelbrechts%20with%20streets%20-%203271295b-6d271bdf.jpg)
-- ![5L19 20 Englebrecht's Cave 20230713 151744 Ef8fa107 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%2020230713_151744%20-%20ef8fa107-6d271bdf.jpg)
-- ![5L19 20 Englebrecht's Cave 20230713 151715 3f121da8 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%2020230713_151715%20-%203f121da8-6d271bdf.jpg)
-- ![5L19 20 Englebrecht's Cave Englebrechts (lewy) 8e78a58c 6d271bdf](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20Englebrechts%20%28lewy%29%20-%208e78a58c-6d271bdf.jpg)
+- ![5L19 20 Englebrecht's Cave Survey Overlay In Progress](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20Survey%20overlay%20in%20progress.jpg)
+- ![5L19 20 Englebrecht's Cave Satellite Survey Overlay](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20Satellite%20survey%20overlay.jpg)
+- ![5L19 20 Englebrecht's Cave Street Survey Map](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20Street%20survey%20map.jpg)
+- ![5L19 20 Englebrecht's Cave Visitor Building](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20Visitor%20building.jpg)
+- ![5L19 20 Englebrecht's Cave Entrance Sinkhole](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20Entrance%20sinkhole.jpg)
+- ![5L19 20 Englebrecht's Cave Survey Map (lewy)](/images/5L19-20%20-%20Englebrecht%27s%20Cave%20-%20Survey%20map%20%28Lewy%29.jpg)

@@ -68,8 +68,8 @@ Yellow marker visible (still deployed) with MX track in background @ 0:25
 - **Trimix Divers:** https://www.trimixdivers.com/trimix5/?p=4863
 
 ## Images
-- ![Stockton Colliery Location Approximate Phstocktontunnels F8214d1f 31f8f258](/images/Stockton%20Colliery%20-%20Location%20Approximate%20-%20phstocktontunnels%20-%20f8214d1f-31f8f258.gif)
-- ![Stockton Colliery Location Approximate Stock E4a7d7a9 31f8f258](/images/Stockton%20Colliery%20-%20Location%20Approximate%20-%20stock%20-%20e4a7d7a9-31f8f258.jpg)
-- ![Stockton Colliery Location Approximate 20190508 113256 0fe46bf8 31f8f258](/images/Stockton%20Colliery%20-%20Location%20Approximate%20-%2020190508_113256%20-%200fe46bf8-31f8f258.jpg)
-- ![Stockton Colliery Location Approximate Headings 5a49e005 31f8f258](/images/Stockton%20Colliery%20-%20Location%20Approximate%20-%20headings%20-%205a49e005-31f8f258.jpg)
-- ![Stockton Colliery Location Approximate Phstocktonmap2 7e0c6024 31f8f258](/images/Stockton%20Colliery%20-%20Location%20Approximate%20-%20phstocktonmap2%20-%207e0c6024-31f8f258.gif)
+- ![Stockton Colliery Location Approximate Phstocktontunnels](/images/Stockton%20Colliery%20-%20Location%20Approximate%20-%20phstocktontunnels.gif)
+- ![Stockton Colliery Location Approximate Stock](/images/Stockton%20Colliery%20-%20Location%20Approximate%20-%20stock.jpg)
+- ![Stockton Colliery Location Approximate Image 01](/images/Stockton%20Colliery%20-%20Location%20Approximate%20-%20Image%2001.jpg)
+- ![Stockton Colliery Location Approximate Headings](/images/Stockton%20Colliery%20-%20Location%20Approximate%20-%20headings.jpg)
+- ![Stockton Colliery Location Approximate Phstocktonmap2](/images/Stockton%20Colliery%20-%20Location%20Approximate%20-%20phstocktonmap2.gif)

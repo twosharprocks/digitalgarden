@@ -35,4 +35,4 @@ Once through the fence turn West and follow fenceline track for ~10km
 # References
 
 ## Images
-- ![Dingo Fence 17420075456506559815918010830844 Dca22140 415f888d](/images/Dingo%20Fence%20-%2017420075456506559815918010830844%20-%20dca22140-415f888d.jpg)
+- ![Dingo Fence Image 01](/images/Dingo%20Fence%20-%20Image%2001.jpg)

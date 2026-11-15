@@ -19,11 +19,11 @@ altitude: "85 m"
 address: "Cocklebiddy, Western Australia, AUS, 6443"
 ---
 ## Images
-- ![Pannikin Doline Cave 20260214 093841 902c33d1 1cae1c3a](/images/Pannikin%20Doline%20Cave%20-%2020260214_093841%20-%20902c33d1-1cae1c3a.jpg)
-- ![Pannikin Doline Cave 20260214 093827 9f2973ec 1cae1c3a](/images/Pannikin%20Doline%20Cave%20-%2020260214_093827%20-%209f2973ec-1cae1c3a.jpg)
-- ![Pannikin Doline Cave 20260214 093752 A4fd952b 1cae1c3a](/images/Pannikin%20Doline%20Cave%20-%2020260214_093752%20-%20a4fd952b-1cae1c3a.jpg)
-- ![Pannikin Doline Cave 20260214 093749 D2a5c4b4 1cae1c3a](/images/Pannikin%20Doline%20Cave%20-%2020260214_093749%20-%20d2a5c4b4-1cae1c3a.jpg)
-- ![Pannikin Doline Cave 20260214 093938 181b63d0 1cae1c3a](/images/Pannikin%20Doline%20Cave%20-%2020260214_093938%20-%20181b63d0-1cae1c3a.jpg)
+- ![Pannikin Doline Cave Image 04](/images/Pannikin%20Doline%20Cave%20-%20Image%2004.jpg)
+- ![Pannikin Doline Cave Image 03](/images/Pannikin%20Doline%20Cave%20-%20Image%2003.jpg)
+- ![Pannikin Doline Cave Image 02](/images/Pannikin%20Doline%20Cave%20-%20Image%2002.jpg)
+- ![Pannikin Doline Cave Image 01](/images/Pannikin%20Doline%20Cave%20-%20Image%2001.jpg)
+- ![Pannikin Doline Cave Image 05](/images/Pannikin%20Doline%20Cave%20-%20Image%2005.jpg)
 
 # References
 [Pannikin Doline Cave](https://maps.app.goo.gl/S8hWkY3dz54uQvTy6)

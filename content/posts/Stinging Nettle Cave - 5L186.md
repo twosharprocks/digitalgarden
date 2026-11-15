@@ -27,13 +27,13 @@ address: "336, Benara Hd Line Rd, Wattle Range Council, South Australia, AUS, 52
 # References
 
 ## Images
-- ![5l186 Stinging Nettle Cave 2022 11 06 11.45.20 9ef24daf E7d5edba](/images/5L186%20-%20Stinging%20Nettle%20Cave%20-%202022-11-06%2011.45.20%20-%209ef24daf-e7d5edba.jpg)
-- ![5l186 Stinging Nettle Cave 2294872 Ff5f335a E7d5edba](/images/5L186%20-%20Stinging%20Nettle%20Cave%20-%202294872%20-%20ff5f335a-e7d5edba.jpg)
-- ![5l186 Stinging Nettle Cave 2864873 3dc7f480 E7d5edba](/images/5L186%20-%20Stinging%20Nettle%20Cave%20-%202864873%20-%203dc7f480-e7d5edba.jpg) — Will Passos
-- ![5l186 Stinging Nettle Cave Dji Fly 20250322 112438 0 1742604878478 Photo Low Quality B316550a E7d5edba](/images/5L186%20-%20Stinging%20Nettle%20Cave%20-%20dji_fly_20250322_112438_0_1742604878478_photo_low_quality%20-%20b316550a-e7d5edba.jpg)
-- ![5l186 Stinging Nettle Cave Dji Fly 20250322 112506 0 1742604906315 Photo Low Quality 18cc0e0f E7d5edba](/images/5L186%20-%20Stinging%20Nettle%20Cave%20-%20dji_fly_20250322_112506_0_1742604906315_photo_low_quality%20-%2018cc0e0f-e7d5edba.jpg)
-- ![5l186 Stinging Nettle Cave Dji Fly 20250322 112514 0 1742604914331 Photo Low Quality 833be923 E7d5edba](/images/5L186%20-%20Stinging%20Nettle%20Cave%20-%20dji_fly_20250322_112514_0_1742604914331_photo_low_quality%20-%20833be923-e7d5edba.jpg)
-- ![5l186 Stinging Nettle Cave Stinging Nettle Cave Lg 6db99aed E7d5edba](/images/5L186%20-%20Stinging%20Nettle%20Cave%20-%20stinging_nettle_cave_lg%20-%206db99aed-e7d5edba.jpg)
+- ![5l186 Stinging Nettle Cave Image 01](/images/5L186%20-%20Stinging%20Nettle%20Cave%20-%20Image%2001.jpg)
+- ![5l186 Stinging Nettle Cave Image 02](/images/5L186%20-%20Stinging%20Nettle%20Cave%20-%20Image%2002.jpg)
+- ![5l186 Stinging Nettle Cave Image 03](/images/5L186%20-%20Stinging%20Nettle%20Cave%20-%20Image%2003.jpg) — Will Passos
+- ![5l186 Stinging Nettle Cave Image 04](/images/5L186%20-%20Stinging%20Nettle%20Cave%20-%20Image%2004.jpg)
+- ![5l186 Stinging Nettle Cave Image 05](/images/5L186%20-%20Stinging%20Nettle%20Cave%20-%20Image%2005.jpg)
+- ![5l186 Stinging Nettle Cave Image 06](/images/5L186%20-%20Stinging%20Nettle%20Cave%20-%20Image%2006.jpg)
+- ![5l186 Stinging Nettle Cave Stinging Nettle Cave Lg](/images/5L186%20-%20Stinging%20Nettle%20Cave%20-%20stinging_nettle_cave_lg.jpg)
 
 - **LSECR:** Page 362
 Descriptively named by the author after encountering great masses of nasty Urtica incisa (common-or-garden cosmopolitan stinging nettles) in the base of the doline in 1985, this 14.5 x 11 metre diameter collapse has a degraded, rubble-filled southern side and drops about 3 metres to a narrow water-table lake which is found up against its north-western walls.
@@ -53,7 +53,7 @@ This cave lies diagonally opposite Pines Cave and should not be confused with �
 - **Trimixdivers.com:** https://www.trimixdivers.com/trimix5/wp-content/uploads/graphics/trimixp/ph/NettleCave_PHornemap1987b.jpg
 
 ## Images
-- ![5l186 Stinging Nettle Cave 2864873 3dc7f480 E7d5edba](/images/5L186%20-%20Stinging%20Nettle%20Cave%20-%202864873%20-%203dc7f480-e7d5edba.jpg)
+- ![5l186 Stinging Nettle Cave Image 03](/images/5L186%20-%20Stinging%20Nettle%20Cave%20-%20Image%2003.jpg)
 
 # Details
 

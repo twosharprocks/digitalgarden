@@ -30,5 +30,5 @@ address: "Carba Rd, Caroline, South Australia, AUS, 5291"
 - **Forestry:** at least one sink hole (solution tube)
 
 ## Images
-- ![Unnamed Forestry 20240828 172109 C1f8728f 9c0a60c7](/images/Unnamed%20Forestry%20-%2020240828_172109%20-%20c1f8728f-9c0a60c7.jpg)
-- ![Unnamed Forestry 20240828 172058 6b2e0422 9c0a60c7](/images/Unnamed%20Forestry%20-%2020240828_172058%20-%206b2e0422-9c0a60c7.jpg)
+- ![Unnamed Forestry Image 19](/images/Unnamed%20Forestry%20-%20Image%2019.jpg)
+- ![Unnamed Forestry Image 18](/images/Unnamed%20Forestry%20-%20Image%2018.jpg)

@@ -46,4 +46,4 @@ Forestry
 - **Forestry SA:** L0236, Thin Roof: ?, Fence: ?. Dimensions: ?. Features: ?
 
 ## Images
-- ![L0236 Old Wombat Hole Wombat E4643289 01c60136](/images/L0236%20-%20Old%20Wombat%20Hole%20-%20wombat%20-%20e4643289-01c60136.jpg)
+- ![L0236 Old Wombat Hole Wombat](/images/L0236%20-%20Old%20Wombat%20Hole%20-%20wombat.jpg)

@@ -49,4 +49,4 @@ The dive is very tight behind the boulder... definitely a 16 cu.ft. hand-held ta
 - **Forestry SA:** L0225, Thin Roof: N, Fence: Y. Dimensions: ?. Features: recently fenced (July '99)
 
 ## Images
-- ![L0225 No Go Cave Nogo D6101a07 B250d641](/images/L0225%20-%20No-Go%20Cave%20-%20nogo%20-%20d6101a07-b250d641.jpg)
+- ![L0225 No Go Cave Nogo](/images/L0225%20-%20No-Go%20Cave%20-%20nogo.jpg)

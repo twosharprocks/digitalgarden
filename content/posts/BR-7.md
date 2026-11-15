@@ -26,4 +26,4 @@ address: "86, Telegraph Rd, Portland West, Victoria, AUS, 3305"
 # References
 
 ## Images
-- ![BR 7 Batridge 021f21a4 77a9f0a8](/images/BR-7%20-%20batridge%20-%20021f21a4-77a9f0a8.jpg)
+- ![BR 7 Batridge](/images/BR-7%20-%20batridge.jpg)

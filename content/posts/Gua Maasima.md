@@ -30,4 +30,4 @@ address: "Jalan Tanpa Nama, Muna Regency, South East Sulawesi, IDN, 93658"
 # References
 
 ## Images
-- ![Gua Maasima Gua Maasima 3e689abd 6ebf1b2a](/images/Gua%20Maasima%20-%20Gua%20maasima%20-%203e689abd-6ebf1b2a.jpg)
+- ![Gua Maasima Gua Maasima](/images/Gua%20Maasima%20-%20Gua%20maasima.jpg)

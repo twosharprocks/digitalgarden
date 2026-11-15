@@ -50,8 +50,8 @@ Their description in the June 1968 CEGSA Trip Report closely matches that by the
 - **Forestry SA:** L0109, Thin Roof: N, Fence: R. Dimensions: ?. Features: Scratches mistaken for petroglyphs doesn't connect to anything
 
 ## Images
-- ![L0109 Petroglyph Cave 20231013 135442 224d24d5 28f1333d](/images/L0109%20-%20Petroglyph%20Cave%20-%2020231013_135442%20-%20224d24d5-28f1333d.jpg)
-- ![L0109 Petroglyph Cave 20231013 135442 F4b15964 28f1333d](/images/L0109%20-%20Petroglyph%20Cave%20-%2020231013_135442%20-%20f4b15964-28f1333d.jpg)
-- ![L0109 Petroglyph Cave 20231013 135449 F2a9ebff 28f1333d](/images/L0109%20-%20Petroglyph%20Cave%20-%2020231013_135449%20-%20f2a9ebff-28f1333d.jpg)
-- ![L0109 Petroglyph Cave 109 3cc54bcf 28f1333d](/images/L0109%20-%20Petroglyph%20Cave%20-%20109%20-%203cc54bcf-28f1333d.jpg)
-- ![L0109 Petroglyph Cave 20231013 135318 B249b245 28f1333d](/images/L0109%20-%20Petroglyph%20Cave%20-%2020231013_135318%20-%20b249b245-28f1333d.jpg)
+- ![L0109 Petroglyph Cave Image 03](/images/L0109%20-%20Petroglyph%20Cave%20-%20Image%2003.jpg)
+- ![L0109 Petroglyph Cave Image 04](/images/L0109%20-%20Petroglyph%20Cave%20-%20Image%2004.jpg)
+- ![L0109 Petroglyph Cave Image 05](/images/L0109%20-%20Petroglyph%20Cave%20-%20Image%2005.jpg)
+- ![L0109 Petroglyph Cave Image 01](/images/L0109%20-%20Petroglyph%20Cave%20-%20Image%2001.jpg)
+- ![L0109 Petroglyph Cave Image 02](/images/L0109%20-%20Petroglyph%20Cave%20-%20Image%2002.jpg)

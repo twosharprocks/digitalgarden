@@ -72,4 +72,4 @@ As cave continues with wide open tunnel- this is not a last Krzysztof’s word.
 - **Seacraft:** https://seacraft.eu/go-deeper/exploration/sorgente-del-gorgazzo/
 
 ## Images
-- ![Sorgente Del Gorgazzo Sorgente Del Gorgazzo Profil E1597853588920 610x458 6cdbbebc F3db20e0](/images/Sorgente%20del%20Gorgazzo%20-%20Sorgente-del-Gorgazzo-profil-e1597853588920-610x458%20-%206cdbbebc-f3db20e0.jpg)
+- ![Sorgente Del Gorgazzo Cave Profile](/images/Sorgente%20del%20Gorgazzo%20-%20Cave%20profile.jpg)

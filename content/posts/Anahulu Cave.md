@@ -36,5 +36,5 @@ address: "Unnamed Road, Tatakamotonga, Tongatapu, TON"
 # References
 
 ## Images
-- ![Anahulu Cave Anahulu Cave 07a90e24 91834593](/images/Anahulu%20Cave%20-%20Anahulu%20Cave%20-%2007a90e24-91834593.jpg)
-- ![Anahulu Cave Anahulu Cave Tours 19e5ff5f 91834593](/images/Anahulu%20Cave%20-%20Anahulu%20Cave%20-%20tours%20-%2019e5ff5f-91834593.jpg)
+- ![Anahulu Cave Anahulu Cave](/images/Anahulu%20Cave%20-%20Anahulu%20Cave.jpg)
+- ![Anahulu Cave Anahulu Cave Tours](/images/Anahulu%20Cave%20-%20Anahulu%20Cave%20-%20tours.jpg)

@@ -26,4 +26,4 @@ address: "River Fire Line Track, Glenelg Shire, Victoria, AUS, 3304"
 # References
 
 ## Images
-- ![Spring Spring2 5ff52a91 Fd12ee6a](/images/Spring%20-%20spring2%20-%205ff52a91-fd12ee6a.jpg)
+- ![Spring Spring2](/images/Spring%20-%20spring2.jpg)

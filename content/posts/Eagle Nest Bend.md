@@ -30,4 +30,4 @@ address: "Glenelg Dr, Glenelg Shire, Victoria, AUS, 3292"
 # References
 
 ## Images
-- ![Eagle Nest Bend Eagle Nest Bend B5a7d3c2 Ed7f90a2](/images/Eagle%20Nest%20Bend%20-%20eagle%20nest%20bend%20-%20b5a7d3c2-ed7f90a2.jpg)
+- ![Eagle Nest Bend Eagle Nest Bend](/images/Eagle%20Nest%20Bend%20-%20eagle%20nest%20bend.jpg)

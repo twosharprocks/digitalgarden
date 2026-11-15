@@ -28,4 +28,4 @@ Identified from satellite survey of [Cueva Del Agua]({{< relref "posts/Cueva Del
 # References
 
 ## Images
-- ![Sima Destapada Sima E033a01b 3a03110d](/images/Sima%20Destapada%20-%20sima%20-%20e033a01b-3a03110d.jpg)
+- ![Sima Destapada Sima](/images/Sima%20Destapada%20-%20sima.jpg)

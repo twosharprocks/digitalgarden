@@ -60,9 +60,9 @@ Had it not been for the efforts of representatives of the local Council and othe
 This sinkhole is still a potentially serious health-hazard and compre- hensive bacteriological tests should be carried out before any underwater explorers get wet here.
 
 ## Images
-- ![L0101 Earl's Cave 2024 03 23 14.15.36 8785649d 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%202024-03-23%2014.15.36%20-%208785649d-8a52fefd.jpg)
-- ![L0101 Earl's Cave 2024 03 23 14.15.07 Adede9ed 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%202024-03-23%2014.15.07%20-%20adede9ed-8a52fefd.jpg)
-- ![L0101 Earl's Cave 2024 03 23 14.15.03 Dff2fc92 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%202024-03-23%2014.15.03%20-%20dff2fc92-8a52fefd.jpg)
-- ![L0101 Earl's Cave 2024 03 23 14.19.15 804367c0 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%202024-03-23%2014.19.15%20-%20804367c0-8a52fefd.jpg)
-- ![L0101 Earl's Cave 2024 03 23 14.19.20 750f2be1 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%202024-03-23%2014.19.20%20-%20750f2be1-8a52fefd.jpg)
-- ![L0101 Earl's Cave Earl F65ae144 8a52fefd](/images/L0101%20-%20Earl%27s%20Cave%20-%20earl%20-%20f65ae144-8a52fefd.jpg)
+- ![L0101 Earl's Cave Image 03](/images/L0101%20-%20Earl%27s%20Cave%20-%20Image%2003.jpg)
+- ![L0101 Earl's Cave Image 02](/images/L0101%20-%20Earl%27s%20Cave%20-%20Image%2002.jpg)
+- ![L0101 Earl's Cave Image 01](/images/L0101%20-%20Earl%27s%20Cave%20-%20Image%2001.jpg)
+- ![L0101 Earl's Cave Image 04](/images/L0101%20-%20Earl%27s%20Cave%20-%20Image%2004.jpg)
+- ![L0101 Earl's Cave Image 05](/images/L0101%20-%20Earl%27s%20Cave%20-%20Image%2005.jpg)
+- ![L0101 Earl's Cave Earl](/images/L0101%20-%20Earl%27s%20Cave%20-%20earl.jpg)

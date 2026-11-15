@@ -92,6 +92,6 @@ Romano Trevisiol
 - **Youtube:** https://www.youtube.com/watch?v=26hGjVI_1rg
 
 ## Images
-- ![Grotta Rio Torretta Rio 0b0b52f5 3e26cb10](/images/Grotta%20Rio%20Torretta%20-%20rio%20-%200b0b52f5-3e26cb10.jpg)
-- ![Grotta Rio Torretta Rio2 39ff4229 3e26cb10](/images/Grotta%20Rio%20Torretta%20-%20rio2%20-%2039ff4229-3e26cb10.jpg)
+- ![Grotta Rio Torretta Rio](/images/Grotta%20Rio%20Torretta%20-%20rio.jpg)
+- ![Grotta Rio Torretta Rio2](/images/Grotta%20Rio%20Torretta%20-%20rio2.jpg)
 - [La risorgenza di Rio Torretta - c480b8b1-3e26cb10](https://github.com/twosharprocks/Karst-Database/blob/d6f539534154fcd23f60d0a25899bf7ef553f1d8/Assets/b0543650415a8ff9795cfd8bd97a87b835db28228db900a7e769a2388d5bb269.pdf)

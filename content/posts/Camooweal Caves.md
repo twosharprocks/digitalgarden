@@ -35,5 +35,5 @@ address: "State Route 76, Mount Isa City, Queensland, AUS, 4828"
 # References
 
 ## Images
-- ![Camooweal Image Eca825ae B7324517](/images/Camooweal%20-%20Image%20-%20eca825ae-b7324517.jpg)
-- ![Camooweal 20250724 154024 9f6dd418 B7324517](/images/Camooweal%20-%2020250724_154024%20-%209f6dd418-b7324517.jpg)
+- ![Camooweal Image 02](/images/Camooweal%20-%20Image%2002.jpg)
+- ![Camooweal Image 01](/images/Camooweal%20-%20Image%2001.jpg)

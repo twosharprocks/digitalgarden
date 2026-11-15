@@ -6446,4 +6446,4 @@ related:
  [Volcanic Cave Areas in Victoria](http://st1.asflib.net/MEDIA/ASF-CD/ASF-M-00026/SRK/GKR/WebPages/VCAreas.htm)
 
 ## Images
-- ![Victoria F098 006 41d87746 902c84c0](/images/Victoria%20-%20F098-006%20-%2041d87746-902c84c0.jpg)
+- ![Victoria F098 006](/images/Victoria%20-%20F098-006.jpg)

@@ -39,4 +39,4 @@ address: "Pear Tree Hill Rd, Tantanoola, South Australia, AUS, 5280"
 - **Forestry:** Thin Roof: ?, Fence: ?. Dimensions: ?. Features: Depression
 
 ## Images
-- ![Unnamed Forestry Go Photo 1628490021659 94e011e8 1c982b03](/images/Unnamed%20Forestry%20-%20go_photo_1628490021659%20-%2094e011e8-1c982b03.jpg)
+- ![Unnamed Forestry Go Photo 1628490021659](/images/Unnamed%20Forestry%20-%20go_photo_1628490021659.jpg)

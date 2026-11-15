@@ -27,5 +27,5 @@ address: "783, Burrungule Rd, The District Council of Grant, South Australia, AU
 # References
 
 ## Images
-- ![Unnamed 20260105 133534 5f583ade Beb881e5](/images/Unnamed%20-%2020260105_133534%20-%205f583ade-beb881e5.jpg)
-- ![Unnamed 20260105 133647 5c6f8bfe Beb881e5](/images/Unnamed%20-%2020260105_133647%20-%205c6f8bfe-beb881e5.jpg)
+- ![Unnamed Image 34](/images/Unnamed%20-%20Image%2034.jpg)
+- ![Unnamed Image 35](/images/Unnamed%20-%20Image%2035.jpg)

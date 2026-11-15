@@ -36,4 +36,4 @@ address: "33725, Princes Hwy, Wandilo, South Australia, AUS, 5291"
 # References
 
 ## Images
-- ![Service Point PXL 20230807 033548612 046c11a9 B01b4901](/images/Service%20Point%20-%20PXL_20230807_033548612%20-%20046c11a9-b01b4901.jpg)
+- ![Service Point Image 01](/images/Service%20Point%20-%20Image%2001.jpg)

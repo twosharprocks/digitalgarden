@@ -34,8 +34,8 @@ address: "349, Galpins Rd, Eight Mile Creek, South Australia, AUS, 5291"
 # References
 
 ## Images
-- ![L0216 Spencer Pond Spencers 1162f8e2 8e31b7bc](/images/L0216%20-%20Spencer%20Pond%20-%20spencers%20-%201162f8e2-8e31b7bc.jpg)
+- ![L0216 Spencer Pond Spencers](/images/L0216%20-%20Spencer%20Pond%20-%20spencers.jpg)
 
 ## Images
-- ![L0216 Spencer Pond Spencers 1162f8e2 B7ffdbe4](/images/L0216%20-%20Spencer%20Pond%20-%20spencers%20-%201162f8e2-b7ffdbe4.jpg)
+- ![L0216 Spencer Pond Spencers 02](/images/L0216%20-%20Spencer%20Pond%20-%20spencers%20-%2002.jpg)
 

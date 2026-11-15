@@ -38,4 +38,4 @@ DO NOT DISCLOSE CAVE LOCATION
 # References
 
 ## Images
-- ![Mt Fairy Cave Multiple Resurgences Mt Fairy 4d78cc68 B79c9220](/images/Mt%20Fairy%20Cave%20-%20Multiple%20Resurgences%20-%20Mt%20Fairy%20-%204d78cc68-b79c9220.png)
+- ![Mt Fairy Cave Multiple Resurgences Mt Fairy](/images/Mt%20Fairy%20Cave%20-%20Multiple%20Resurgences%20-%20Mt%20Fairy.png)

@@ -38,4 +38,4 @@ address: "77, Jalan Tanpa Nama, Bau-Bau City, South East Sulawesi, IDN, 93721"
 # References
 
 ## Images
-- ![Gua Moko Gua Moko A95eb826 Dc42d9c1](/images/Gua%20Moko%20-%20gua%20moko%20-%20a95eb826-dc42d9c1.jpg)
+- ![Gua Moko Gua Moko](/images/Gua%20Moko%20-%20gua%20moko.jpg)
