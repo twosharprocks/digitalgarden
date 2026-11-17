@@ -26,7 +26,6 @@ Turn soggywombats.com.au into the website that cavedivers.com.au has failed to b
 - Publish 3D photo tours of caves on the Soggy Wombats website!
 	- Get this stuff sharing through the webspace you already own, rather than syncing through Obsidian and Google Drive
 	- 3D Modelling caves - Google Streetview for cave diving
-- Copy out saved places from Google Maps to Add to Obsidian
 
 Join NSS-CDS? https://www.facebook.com/share/1BNCb4BAjU/ 
 
@@ -36,7 +35,8 @@ Join NSS-CDS? https://www.facebook.com/share/1BNCb4BAjU/
 - Look at Dive Talk's approach (Speaking Sidemount episode with Gus Gonzales)
 - Cave diving TV show is becoming more important - think about filming expeditions
 - Talk to Sarah Young
-	- Develop this for YouTube & involve a production house
+	- Develop this for YouTube
+	- involve a production house? 
 
 Podcast
 
@@ -101,7 +101,7 @@ Tools
 - Contribute [Trip - Murra-Cocklebiddy - 2026 Aug]({{< relref "posts/Trip - Murra-Cocklebiddy - 2026 Aug.md" >}}) to ASF YouTube channel?
 - [Raven LiDAR Project for Reynella Cave](https://www.facebook.com/groups/2466794357069668/permalink/2657423594673409/)
 	- Raven Photogrammetry project
-- Do more with RGSSSA - speaking, writing, adelaide fringe, ect
+- Do more with RGSSA - speaking, writing, adelaide fringe, ect
 	- RGSSA Library - https://rgssa.org.au/library/catalogue-of-library-holdings
 	- Contribute to RGSSA Magazine (Deadline 2026-10-23)
 	- Have RGSSA host my Book - Cave Diving @ Adelaide fringe 2027/8 (517 as a Fringe show)
@@ -120,12 +120,6 @@ Tools
 	- Investigate Niue and the Loyalty Islands (esp. Lifou) (See ChatGPT discussion)
 
 - Review https://www.abc.net.au/news/2026-06-02/cave-explorer-josh-richards-laos-cave-rescue/106744958
-- Publish articles to the Soggy Wombats page
-- Submit photo of Mikko for photo awards
-	- https://www.worldpressphoto.org/contest/2026
-	- https://poy.org/
-	- https://globalpeacephotoaward.org/
-	- https://www.walkleys.com/awards/walkleys/photography/
 
 # Nullabor Trip Planning
 - Python? Excel sheet?
@@ -159,8 +153,7 @@ Tools
 * Lighting & Processing
 	* [Photogrammetry with 360deg Camera](https://axel-busch.medium.com/how-to-quickly-create-a-3d-model-from-360-underwater-video-in-1h-or-less-b45b1cf29655)
 	* [Best Lighting for 360 camera](https://www.mantis-sub.com/academy/best-lighting-for-underwater-360-video)
-	- [Buy - Insta360 RS 1inch 360](https://store.insta360.com/product/one_rs_1_inch_360)
-## Sonar - LiDAR 
+## Sonar & LiDAR 
 * [Underwater Sonar System](http://www.karstworlds.com/2011/03/underwater-cave-mapping-sensor.html?m=1) - Adapt robot to be pushed by diver?
 * [Discussion - Handheld Ping Sonar in Caves](https://discuss.bluerobotics.com/t/suitability-of-ping-sonar-in-caves/11655)
 * [Ping360 - Mechanical Scanning Imaging Sonar for ROVs](https://bluerobotics.com/store/sensors-sonars-cameras/sonar/ping360-sonar-r1-rp/)
@@ -194,7 +187,7 @@ Tools
 * **[QGIS](https://qgis.org/en/site/)**
     * [GPSBabel to Convert Coordinates](https://www.gpsbabel.org/)
     * Use QGIS to analyse [NovaSAR data](https://data.novasar.csiro.au/#/home)
-    * **Hyperspectral remote sensing **[to find wombat warrens](https://www.abc.net.au/news/2020-05-18/hairy-nosed-wombat-survey-satellite-imagery-sa-murray-mallee/12258398)
+    * **Hyperspectral remote sensing** [to find wombat warrens](https://www.abc.net.au/news/2020-05-18/hairy-nosed-wombat-survey-satellite-imagery-sa-murray-mallee/12258398)
     * Use remote sensing for groundwater detection
     * Drone survey - Integrate with QGIS to record survey zones
 * Geodata Sets
@@ -234,6 +227,7 @@ Tools
     * [Yolo3 object detection How-To](https://machinelearningmastery.com/how-to-perform-object-detection-with-yolov3-in-keras/)
     * Use AWS for IDing caves on Nullabor/Cape Range (ASF/WASG database?)
     * Potential future project - using ML to study satellite and aerial photography data to ID caves
+	    * There has to be something here with caves breathing - air/bat exchange between day and night
     * [Using deep learning for feature extraction and classification](https://doc.arcgis.com/en/imagery/workflows/resources/using-deep-learning-for-feature-extraction.htm)
     * [Techniques for deep learning with satellite & aerial imagery](https://github.com/satellite-image-deep-learning/techniques)
     * [Advancing Cave Detection Using Terrain Analysis and Thermal Imagery](https://www.mdpi.com/2072-4292/13/18/3578/htm)

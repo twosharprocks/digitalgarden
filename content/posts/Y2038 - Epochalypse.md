@@ -7,7 +7,7 @@ tags:
   - interests
 related:
   - "[[Cyber Security]]"
-  - "[[Presentation - MilCom - Y2038]]"
+  - "[[Presentation - MilCis - Y2038]]"
 ---
 *On 19 January 2038 at 03:14:07 UTC implementations relying on 32-bit signed integer representations of Unix epoch time will overflow, resulting in a system time of 20:45:52 UTC on 13 December 1901*
 

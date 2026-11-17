@@ -19,16 +19,17 @@ related:
 - #1 See a huge rocket launch
 - #2 Live in a wood cabin by a lake
 - #3 Be a ginger space unicorn
-- #5 Write books I'm proud of
+- #4 Write books I'm proud of
 ---
 # [101 Things - Complete List]({{< relref "posts/101 Things - Complete List.md" >}})
 ## Incomplete - 21
 - Write [Mini Essays]({{< relref "posts/Mini Essays.md" >}}) about each entry: "Could Do" or "WANT to do", how to complete them
+
 ==13 - Meet Someone with Your Own Name - INCOMPLETE==
 - Perth (BASE jumper) 
 	- FIFO Mechanic in Rockingham [Survived BASE Jump](https://www.perthnow.com.au/news/wa/perth-man-josh-richards-luckiest-person-alive-after-horror-base-jump-ng-1a62d6a03acc581698180ef68ddf4dca) 
 	- [Facebook Profile](https://www.facebook.com/josh.richards.5811)
-	- Interview for podcast?
+	- Interview for podcast
 ==14 - Ride the World's Biggest Rollercoaster - INCOMPLETE==
 - [Steel Dragon 2000 (Nagashima Spa Land, Japan)](https://maps.app.goo.gl/Nha2wzvmo9EsNooc9)
 ==19 - Master Poker and Win Big in a Casino - INCOMPLETE==
@@ -67,12 +68,12 @@ related:
 1. **Have a [Cave Diving TV Show]({{< relref "posts/Cave Diving TV Show.md" >}})
 	- Focus on conservation & fresh water access
 2. **Map caves for others to experience in VR**
-	- Create an art experience that moves people
-3. **Go on adventures**
-	- Soggy Wombat Safaris
-4. Destinations - [Trips - Ideas]({{< relref "posts/Trips - Ideas.md" >}})
+	- Create art that moves people
+3. [Trips - Ideas]({{< relref "posts/Trips - Ideas.md" >}})
 	- 2027
-		- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) for Christmas Island Karst Exploration Project
+		- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - Christmas Island Karst Exploration Project
+		- [Muna Island]({{< relref "posts/Muna Island.md" >}})
+		- 
 	- 2028
 		- Trip - Bikini Atoll - 2028 June
 	- Other
@@ -117,7 +118,7 @@ related:
 	- Jump from an altitude where the sky above is black - *25km/82,000ft or higher*
 	- Jump with a wingsuit - *Requires +200 regular jumps*
 	- Finish the "101 Things" rollercoaster list - *Japan - Steel Dragon*
-	- Fly a Helicopter - [South Coast Helicopters](https://southcoasthelicopters.com.au/26/entry-level-top-gun-package)
+	- Fly a Helicopter - [South Coast Helicopters](https://southcoasthelicopters.com.au/26/entry-level-top-gun-package
 	- Kayak
 		- [Source to Sea Kayak Journey in Montenegro & Albania](https://www.muchbetteradventures.com/products/10906-adventures-source-sea-kayak-journey-montenegro-albania/)
 		- Glenelg River Canoe Trail?
@@ -130,9 +131,8 @@ related:
 5. Develop/Build something to take humans to another star - [Physics]({{< relref "posts/physics.md" >}}), Game - Chrononaut
 # ***Ambition***
 2. Have more than enough money to spare & share
-3. Help a billion people
-4. Change the way we see ourselves as a species
-5. Be a ginger space unicorn like Tilly
+3. Help a billion people by changing the way we see ourselves as a species
+4. Be a ginger space unicorn like Tilly
 # ***Travel***
 - US
 	- Cosmic Nomad: Visit Johnson Space Centre, VLA, & Roswell
@@ -143,7 +143,7 @@ related:
 	- Cosmic Nomad: Biathlon & Skeleton'
 	- Race Skeleton
 	- Svelbard: Polar Bear
-	- Plura Cave
+	- Dive: Plura Cave, WW2 wrecks
 - South America 
 	- Costa Rica 
 		- See Baby sloth 
