@@ -11,7 +11,7 @@ related:
   - "[[Books]]"
 ---
 # Current
-- [ ] Finish *The Hotel New Hampshire* on Kindle — in progress; prioritise this as the second-last book in the ongoing 101-book reading list.
+- [ ] Finish *The Hotel New Hampshire*
 - [ ] Read *The Bonfire of the Vanities* on Kindle — the final book on that list, after *The Hotel New Hampshire*.
 - Kindle: Roger's Book
 - Kindle: Tao Te Ching
