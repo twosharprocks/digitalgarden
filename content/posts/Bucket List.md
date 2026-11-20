@@ -1,7 +1,7 @@
 ---
 title: Bucket List
 created: 2025-04-01
-updated: 2026-11-01
+updated: 2026-11-20
 status: seed
 tags:
   - 101-things
@@ -64,23 +64,6 @@ related:
 ==100 - Reach 100 Years of Age - INCOMPLETE==
 
 ---
-# ***Diving***
-1. **Have a [Cave Diving TV Show]({{< relref "posts/Cave Diving TV Show.md" >}})
-	- Focus on conservation & fresh water access
-2. **Map caves for others to experience in VR**
-	- Create art that moves people
-3. [Trips - Ideas]({{< relref "posts/Trips - Ideas.md" >}})
-	- 2027
-		- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - Christmas Island Karst Exploration Project
-		- [Muna Island]({{< relref "posts/Muna Island.md" >}})
-		- 
-	- 2028
-		- Trip - Bikini Atoll - 2028 June
-	- Other
-		- [Madagascar]({{< relref "posts/madagascar.md" >}})
-		- [Croatia]({{< relref "posts/croatia.md" >}})
-		- [Vietnam]({{< relref "posts/vietnam.md" >}})
-		- [Belize]({{< relref "posts/belize.md" >}})
 # ***Writing & Art***
 - **Publish 10 Books**
 	- 1 - Becoming Martian
@@ -93,37 +76,60 @@ related:
 	- 8?
 	- 9? 
 	- 10?
+- Create art that moves people
+	- **360 Cave CR Experience**
+	- [Cave Diving TV Show]({{< relref "posts/Cave Diving TV Show.md" >}})
 # ***Experience***
-- Meditate for an hour without interruption
-	- *Practice*
-	- Study Buddhism
-- Travel 
-	1. [Long Solo]({{< relref "posts/Long Solo.md" >}}) (bike? kayak? walk? swim?)
-	2. Walk the Inca Trail
-	3. Cross a desert: Sahara? [120km Desert Trekking Expedition in Jordan?](https://www.muchbetteradventures.com/products/10721-adventures-120km-desert-trekking-expedition-in-jordan/)
-- Live 
+- Live - Ask yourself where you want to be and why?
 	1. ~~living in the van
 	2. **In silent retreat at a wood cabin by a lake**
-	3. Ask yourself where you want to be and why
+	3. Meditate for an hour - *Practice & Study Buddhism*
+- Travel 
+	1. [Long Solo]({{< relref "posts/Long Solo.md" >}}) (bike? kayak? walk? swim?)
+	2. [Machu Picchu](http://www.peru-explorer.com/best_time_to_visit_machu_picchu.htm): Hike the Salkantay Trek with [Salkantay Trek](https://www.salkantaytrekking.com/) - [5 days/4 nights for $650USD](https://www.instagram.com/p/DJ5H1GAOw78/)
+	3. Cross a desert: [120km Desert Trekking Expedition in Jordan?](https://www.muchbetteradventures.com/products/10721-adventures-120km-desert-trekking-expedition-in-jordan/), Sahara? 
+	4. [7 day Arctic hike/paddleboard in Greenland](https://www.muchbetteradventures.com/products/10554-adventures-canoe-expedition-in-the-yukon-wilderness/)
+	5. Cross a jungle:  [Trek the Camino De Costa Rica](https://www.muchbetteradventures.com/products/10794-adventures-camino-de-costa-rica-trekking/)
+	6. Reclimb Killi?
 - See 
-	1. ~~Leopard Seals - *Antarctica* COMPLETE
-	2. ~~Orcas COMPLETE
-	3. **A huge rocket launch** - *BFR*
-	4. Erupting volcano - *Vanuatu (Mt Yasur, Tanna Island)*
+	1. **Huge rocket launch** - *BFR*
+	2. Erupting volcano
 		1. [Dukono - Active Volcano in Indonesia](https://www.instagram.com/p/DJPCem2s99-/)
-	5. Baby sloth - *Costa Rica*
-	6. Polar bear - *Svelbard*
-	7. Snow leopard? 
-- Adventure
-	- Jump from an altitude where the sky above is black - *25km/82,000ft or higher*
+		2. [3 Volcano Challenge (Bali)](https://www.muchbetteradventures.com/products/10637-adventures-volcano-trekking-bali-lombok/)
+		3. Vanuatu - Mt Yasur, Tanna Island
+	3. Animals
+		1. ~~Leopard Seals - *Antarctica* COMPLETE
+		2. ~~Orcas - *Antarctica* COMPLETE
+		3. Baby sloth - *Costa Rica*
+		4. [Madagascar - Walk with Lemurs](https://www.muchbetteradventures.com/products/10679-adventures-trekking-adventure-madagascar/)
+		5. Polar bear - *Svelbard*
+		6. Snow leopard? 
+		7. [Komodo Dragon?](https://www.muchbetteradventures.com/products/9963-adventures-hike-kayak-and-explore-indonesias-remote-islands/)
+	4. US - Cosmic Nomad: Johnson Space Centre, VLA, & Roswell
+- Dive
+	- Trip - Bikini Atoll - 2028 June
+	- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - Christmas Island Karst Exploration Project
+	- [Muna Island]({{< relref "posts/Muna Island.md" >}})
+	- Plura Cave (& WW2 wrecks in Norway?
+	- Other
+		- [Madagascar]({{< relref "posts/madagascar.md" >}})
+		- [Croatia]({{< relref "posts/croatia.md" >}})
+		- [Vietnam]({{< relref "posts/vietnam.md" >}})
+		- [Belize]({{< relref "posts/belize.md" >}})
+		- US Caves: Florida? Tennessee? Arkansas?
+- Fly
+	- Jump where the sky above is black - *25km/82,000ft or higher*
 	- Jump with a wingsuit - *Requires +200 regular jumps*
-	- Finish the "101 Things" rollercoaster list - *Japan - Steel Dragon*
 	- Fly a Helicopter - [South Coast Helicopters](https://southcoasthelicopters.com.au/26/entry-level-top-gun-package
+- Adventure
+	- Finish "101 Things" rollercoaster list - *Japan - Steel Dragon*
+	- Norway (Cosmic Nomad): Biathlon & Skeleton, Plura Cave, WW2 wrecks
+	- White Water Rafting - New Zealand
 	- Kayak
 		- [Source to Sea Kayak Journey in Montenegro & Albania](https://www.muchbetteradventures.com/products/10906-adventures-source-sea-kayak-journey-montenegro-albania/)
 		- Glenelg River Canoe Trail?
-	- Other
-		- [7 day Arctic hike/paddleboard in Greenland](https://www.muchbetteradventures.com/products/10554-adventures-canoe-expedition-in-the-yukon-wilderness/)
+		- Kayak Milford Sound - New Zealand
+	- Ayahuasca - Costa Rica
 # ***Space***
 2. Find & Communicate with Extra-terrestrial life - Book - Calling ET
 3. Visit the Moon
@@ -133,34 +139,7 @@ related:
 2. Have more than enough money to spare & share
 3. Help a billion people by changing the way we see ourselves as a species
 4. Be a ginger space unicorn like Tilly
-# ***Travel***
-- US
-	- Cosmic Nomad: Visit Johnson Space Centre, VLA, & Roswell
-	- Dive Florida Caves 
-		- Combine with rocket launch? CCR course? 
-		- Dive in Tennessee? Arkansas?
-- Norway
-	- Cosmic Nomad: Biathlon & Skeleton'
-	- Race Skeleton
-	- Svelbard: Polar Bear
-	- Dive: Plura Cave, WW2 wrecks
-- South America 
-	- Costa Rica 
-		- See Baby sloth 
-		- [Trek the Camino De Costa Rica](https://www.muchbetteradventures.com/products/10794-adventures-camino-de-costa-rica-trekking/)
-		- Ayahuasca
-	- [Machu Picchu](http://www.peru-explorer.com/best_time_to_visit_machu_picchu.htm)
-		- Hike the Salkantay Trek with [Salkantay Trek](https://www.salkantaytrekking.com/)
-			- [5 days/4 nights for $650USD](https://www.instagram.com/p/DJ5H1GAOw78/)
-	- [Antarctica]({{< relref "posts/antarctica.md" >}}) 
-- Africa 
-	- [Madagascar - Walk with Lemurs](https://www.muchbetteradventures.com/products/10679-adventures-trekking-adventure-madagascar/)
-- NZ 
-	- White Water Rafting
-	- Kayak Milford Sound
-	- Dive Pearce Resurgence?
-- Japan
-	- 101 Things: Ride Steel Dragon 2000 rollercoaster
+
 
 ---
 # References
