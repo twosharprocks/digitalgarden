@@ -1,7 +1,7 @@
 ---
 title: Reading
 created: 2025-06-26
-updated: 2026-11-09
+updated: 2026-11-22
 status: seed
 tags:
   - interests
@@ -11,8 +11,8 @@ related:
   - "[[Books]]"
 ---
 # Current
-- [ ] Finish *The Hotel New Hampshire*
-- [ ] Read *The Bonfire of the Vanities* on Kindle — the final book on that list, after *The Hotel New Hampshire*.
+- [x] Finish *The Hotel New Hampshire* (confirmed November 2026)
+- [ ] Read *The Bonfire of the Vanities* on Kindle — the final book on that list.
 - Kindle: Roger's Book
 - Kindle: Tao Te Ching
 - Why the Future Doesn’t Need Us

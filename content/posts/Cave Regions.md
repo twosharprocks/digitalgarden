@@ -8,8 +8,8 @@ tags:
   - caving
 related:
   - "[[Diving]]"
-  - "[[ChatGPT - Cave Expedition Calendar]]"
-catalog-type: "index"
+  - "[[Cave Expedition Calendar]]"
+catalog-type: index
 ---
 Cave regions are organised from broad geography down to country pages, local cave regions, and individual cave or dive-site notes.
 ## Resources

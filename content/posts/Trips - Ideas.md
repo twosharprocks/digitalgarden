@@ -10,7 +10,7 @@ related:
   - "[[Diving - Ideas]]"
   - "[[Bucket List]]"
   - "[[Trips - Best Times To Go]]"
-  - "[[ChatGPT - Cave Expedition Calendar]]"
+  - "[[Cave Expedition Calendar]]"
   - "[[Diving]]"
 ---
 [Exploration]({{< relref "posts/exploration.md" >}}) - Plan 2-3 expeditions per year

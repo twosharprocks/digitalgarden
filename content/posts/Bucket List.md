@@ -1,7 +1,7 @@
 ---
 title: Bucket List
 created: 2025-04-01
-updated: 2026-11-20
+updated: 2026-11-22
 status: seed
 tags:
   - 101-things
@@ -46,7 +46,7 @@ related:
 ==48 - Be Present When Your Country Wins the World Cup (or Olympics) - INCOMPLETE==
 - Los Angeles 2028
 ==52 - Read the Greatest Books Ever Written - INCOMPLETE== [Reading]({{< relref "posts/reading.md" >}})
-- Hotel New Hampshire (John Irving)
+- ~~Hotel New Hampshire (John Irving)~~ — finished November 2026
 - The Bonfire of the Vanities (Tom Wolfe)
 ==60 - Take Part in a Police Line-Up - INCOMPLETE==
 ==62 - Join the Mile High Club - INCOMPLETE==
