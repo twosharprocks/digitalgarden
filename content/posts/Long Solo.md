@@ -25,7 +25,7 @@ related:
 	- [Things I wish I knew before walking Te Araroa](https://michellecampbellnz.com/2017/04/12/things-i-wish-i-knew-before-hiking-the-ta-from-a-new-zealand-girl-who-thought-she-was-prepared/)
 - Tassie
 	- [Walls of Jerusalem (Alanta Colley)](https://www.facebook.com/alanta.colley/posts/pfbid02hRnXcEsSduzJaoECk7y4KUGPzKsuYBA9Bzk9GyP991Nz9NEEfzmBPCqp7hBy9fSFl?__cft__[0]=AZXlhq1DBwM0XjHmmZfOb2WVafnp150T2owyW2fxmvFc2G5i5m8-iZZ75hmBpM9gCm6zb48t2vK6yztEyd4uqMQMtdgi28ySGMTWtHhCti7KtDyr6Ya1tE8lVNpIE61IzD0huXiEMYiENIOXR-XAhKAuTFgrPt1-ylC3cyE910DE2KcFEseI7aYwWEf37nr71Io&__tn__=%2CO%2CP-R)
-	- 
+	- Overland Track (with Simone?)
 - Walk the Sahara - [marathon de sables](https://www.marathondessables.com/) (April)
 
 - Equipment
