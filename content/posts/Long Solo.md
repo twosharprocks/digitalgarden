@@ -1,7 +1,7 @@
 ---
 title: Long Solo
 created: 2025-05-09
-updated: 2026-08-20
+updated: 2026-11-22
 status: seed
 tags:
   - interests
@@ -23,14 +23,15 @@ related:
 	- [Northbound Guide](https://teararoanobo.net)
 	- [Advice To Future Te Araroa Walkers](https://www.walkingwithwired.com/2017/05/advice-to-future-te-araroa-walkers.html)
 	- [Things I wish I knew before walking Te Araroa](https://michellecampbellnz.com/2017/04/12/things-i-wish-i-knew-before-hiking-the-ta-from-a-new-zealand-girl-who-thought-she-was-prepared/)
-- Tassie - [Walls of Jerusalem (Alanta Colley)](https://www.facebook.com/alanta.colley/posts/pfbid02hRnXcEsSduzJaoECk7y4KUGPzKsuYBA9Bzk9GyP991Nz9NEEfzmBPCqp7hBy9fSFl?__cft__[0]=AZXlhq1DBwM0XjHmmZfOb2WVafnp150T2owyW2fxmvFc2G5i5m8-iZZ75hmBpM9gCm6zb48t2vK6yztEyd4uqMQMtdgi28ySGMTWtHhCti7KtDyr6Ya1tE8lVNpIE61IzD0huXiEMYiENIOXR-XAhKAuTFgrPt1-ylC3cyE910DE2KcFEseI7aYwWEf37nr71Io&__tn__=%2CO%2CP-R)
+- Tassie
+	- [Walls of Jerusalem (Alanta Colley)](https://www.facebook.com/alanta.colley/posts/pfbid02hRnXcEsSduzJaoECk7y4KUGPzKsuYBA9Bzk9GyP991Nz9NEEfzmBPCqp7hBy9fSFl?__cft__[0]=AZXlhq1DBwM0XjHmmZfOb2WVafnp150T2owyW2fxmvFc2G5i5m8-iZZ75hmBpM9gCm6zb48t2vK6yztEyd4uqMQMtdgi28ySGMTWtHhCti7KtDyr6Ya1tE8lVNpIE61IzD0huXiEMYiENIOXR-XAhKAuTFgrPt1-ylC3cyE910DE2KcFEseI7aYwWEf37nr71Io&__tn__=%2CO%2CP-R)
+	- 
 - Walk the Sahara - [marathon de sables](https://www.marathondessables.com/) (April)
-- Paris to Dakar on foot
 
 - Equipment
-		- [1 person Tent](https://www.snowys.com.au/atom-hiking-tent), [1 person swag](https://altongoods.com/products/walkabout-swag)
-		- [Sean Conway 1000mile self-supported kit list](https://www.youtube.com/watch?v=Ykiu_pHbK90) 
-		- [Best Backpacking Meal](https://www.outsideonline.com/2334766/simple-yet-delicious-backpacking-meal), [Drop Bear Porridge](https://www.completefoods.co/diy/recipes/drop-bear-porridge), [Egg Burrito](https://www.outsideonline.com/outdoor-adventure/hiking-and-backpacking/backpacking-breakfast-recipe-breakfast-burrito/), [Dehyd Eggs](https://dirtygourmet.com/2015/08/24/eggs-in-the-backcountry/)
+	- [1 person Tent](https://www.snowys.com.au/atom-hiking-tent), [1 person swag](https://altongoods.com/products/walkabout-swag)
+	- [Sean Conway 1000mile self-supported kit list](https://www.youtube.com/watch?v=Ykiu_pHbK90) 
+	- [Best Backpacking Meal](https://www.outsideonline.com/2334766/simple-yet-delicious-backpacking-meal), [Drop Bear Porridge](https://www.completefoods.co/diy/recipes/drop-bear-porridge), [Egg Burrito](https://www.outsideonline.com/outdoor-adventure/hiking-and-backpacking/backpacking-breakfast-recipe-breakfast-burrito/), [Dehyd Eggs](https://dirtygourmet.com/2015/08/24/eggs-in-the-backcountry/)
 ---
 # Biking
 Go around the world?
