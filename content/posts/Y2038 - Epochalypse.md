@@ -1,7 +1,7 @@
 ---
 title: Y2038 - Epochalypse
 created: 2025-11-01
-updated: 2026-11-09
+updated: 2026-11-23
 status: seed
 tags:
   - interests
@@ -19,6 +19,7 @@ related:
 - Where can we find 32-bit systems?
 	- What will they do in 2038?
 	- What will they do before then?
+- How do we use AI to identify and rebuild applications impacted by Y2038?
 
 ---
 # References
