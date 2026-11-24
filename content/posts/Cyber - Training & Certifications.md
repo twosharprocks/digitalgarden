@@ -1,7 +1,7 @@
 ---
 title: Cyber - Training & Certifications
 created: 2025-11-01
-updated: 2026-06-27
+updated: 2026-11-23
 status: tree
 related: 
   - "[[Cyber Security]]"
@@ -10,21 +10,25 @@ related:
 ---
 ---
 # Certification Guides
+Current status (November 2026): Cybersecurity certification is not an active career-development priority. Security+ has lapsed; CISA has been passed. The SecOT+ exam has been sat, with results pending its public release. IRAP assessor is no longer being pursued. Other training ideas below are retained as reference, not commitments.
+
 [Cybersecurity Guide](https://cybersecurityguide.org/) - Comprehensive breakdown of every major security certification
 [Security Certification Roadmap](https://pauljerimy.com/security-certification-roadmap/)
 
 Upcoming
-- 
-- IRAP Assessor (2026 Q4)
+- None currently planned.
 
 Completed
-- Security+ - CompTIA
+- Security+ - CompTIA (lapsed)
 - ![AZ 500 Certification](/images/AZ-500%20Certification.jpg) - Microsoft
 - [CISSP]({{< relref "posts/CISSP.md" >}}) - ISC2
 - [CISA]({{< relref "posts/CISA.md" >}}) - ISACA
 
-Potential
-- SecOT+ - CompTIA
+Exam result pending
+- SecOT+ - CompTIA (sat exam; awaiting result)
+
+Former possibilities, not current goals
+- IRAP Assessor (no longer pursuing)
 - [CRISC]({{< relref "posts/crisc.md" >}}) - ISACA
 - [OSCP]({{< relref "posts/oscp.md" >}}) - Offensive Security
 - Crowdstrike

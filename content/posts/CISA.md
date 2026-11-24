@@ -1,7 +1,7 @@
 ---
 title: CISA
 created: 2025-12-28
-updated: 2026-07-08
+updated: 2026-11-23
 status: reference
 related:
   - "[[IRAP Assessor]]"
@@ -11,6 +11,8 @@ related:
   - "[[Study]]"
 ---
 # Certified Information Systems Auditor
+
+Personal status: Passed CISA on 6 May 2026. The requirements and study resources below are retained for reference, not as an active exam plan.
 
 Focus: Specialises in information systems auditing—planning and performing audits, evaluating governance and controls, and reporting assurance over IT-enabled business processes and information assets. ([ISACA](https://www.isaca.org/credentialing/cisa "CISA® Certification | Certified Information Systems Auditor®"))
 
