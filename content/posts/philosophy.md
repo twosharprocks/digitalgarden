@@ -10,8 +10,8 @@ related:
   - "[[Writing]]"
   - "[[Creativity]]"
   - "[[Personal]]"
-  - "[[Notes/TELOS|TELOS]]"
-  - "[[Notes/Identity|Identity]]"
+  - "[[Explorer-Storyteller|TELOS]]"
+  - "[[Explorer-Storyteller|Identity]]"
 ---
 Comics - Write Mini Essays - Ideas about these
 - [Oatmeal - Plane](https://theoatmeal.com/comics/plane)
