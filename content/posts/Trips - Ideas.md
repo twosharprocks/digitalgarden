@@ -61,7 +61,7 @@ related:
 	- [Samoa]({{< relref "posts/samoa.md" >}}) & [Tonga]({{< relref "posts/tonga.md" >}})
 	- [Vietnam]({{< relref "posts/vietnam.md" >}})
 - Other
-	- [Antarctica]({{< relref "posts/antarctica.md" >}}) (Non-diving)
+	- Antarctica (Non-diving)
 	- [Dominican Republic]({{< relref "posts/Dominican Republic.md" >}})
 	- [South Africa]({{< relref "posts/South Africa.md" >}})
 	- [Tanzania]({{< relref "posts/tanzania.md" >}})

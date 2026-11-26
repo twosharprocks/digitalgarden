@@ -91,7 +91,6 @@ location_verification: "The exploratory site suggestions and coordinates in Cave
 - [Angola]({{< relref "posts/Angola.md" >}})
 - [Anou Boussouil]({{< relref "posts/Anou Boussouil.md" >}})
 - [Ansiao Cave]({{< relref "posts/Ansiao Cave.md" >}})
-- [Antarctica]({{< relref "posts/antarctica.md" >}})
 - [Anticline Cave]({{< relref "posts/Anticline Cave.md" >}})
 - [Antiphonitis Karst Spring]({{< relref "posts/Antiphonitis Karst Spring.md" >}})
 - [Antro del Corchia]({{< relref "posts/Antro del Corchia.md" >}})

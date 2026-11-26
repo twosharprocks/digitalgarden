@@ -35,7 +35,7 @@ Comics - Write Mini Essays - Ideas about these
 - Who you are: Explorer-Storyteller 
 	- Cave Explorer, Future Martian, Author, Speaker, Professional Troublemaker
 	- Childhood - Important Things Always Circle Back
-		- [Mini Essay - MechWarrior]({{< relref "posts/Mini Essay - MechWarrior.md" >}}), Far Future, [Antarctica]({{< relref "posts/antarctica.md" >}}), Treehouses in Pine Forests, The Spiral, Everclear, Playing ukulele in park
+		- [Mini Essay - MechWarrior]({{< relref "posts/Mini Essay - MechWarrior.md" >}}), Far Future, Antarctica, Treehouses in Pine Forests, The Spiral, Everclear, Playing ukulele in park
 
 **Questions to revisit**
 - What would I do if I suddenly had $2 million? Treat life like an experiment.
