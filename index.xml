@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"><channel>
+<title>About</title>
+<link>/</link>
+<description>Approved Digital Garden updates</description>
+<item>
+<title>Effective Note-Taking to Remember More &#43; Create New Ideas</title>
+<link>/posts/effective-note-taking-to-remember-more-+-create-new-ideas/</link>
+<guid>/posts/effective-note-taking-to-remember-more-+-create-new-ideas/</guid>
+<pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+<description>A short guide to literature notes and atomic notes for remembering and connecting ideas.</description>
+</item>
+<item>
+<title>Long Solo</title>
+<link>/posts/long-solo/</link>
+<guid>/posts/long-solo/</guid>
+<pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+<description>An early idea for a long solo walk, combining writing and interviews along the way.</description>
+</item>
+<item>
+<title>Markdown Formatting</title>
+<link>/posts/markdown-formatting/</link>
+<guid>/posts/markdown-formatting/</guid>
+<pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+<description>A concise reference to common Markdown formatting and front matter.</description>
+</item>
+</channel></rss>
