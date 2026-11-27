@@ -225,6 +225,15 @@ try {
 
 # Step 5: Add changes to Git
 Assert-AttachmentPrivacy
+
+# Verify this exact local build before either Git push. The task launcher supplies
+# a run ID; manual invocations receive one here as well.
+$verificationRunId = $env:BLACKBOX_PUBLISH_RUN_ID
+if (-not $verificationRunId) { $verificationRunId = Get-Date -Format 'yyyyMMdd-HHmmss' }
+$websiteVerifier = Join-Path $env:USERPROFILE 'Documents\Codex\Website Publication\verify_website_integration.py'
+& $pythonCommand $websiteVerifier '--phase' 'pre-push' '--run-id' $verificationRunId
+if ($LASTEXITCODE -ne 0) { throw 'Pre-push website verification blocked publication. Review the private verification-runs receipt.' }
+
 if ($SkipPush) {
     Write-Host 'Local sync and build completed. Commit and push skipped.'
     exit 0
