@@ -20,17 +20,6 @@
   const normalize = (value) =>
     String(value || "").toLocaleLowerCase().replace(/\s+/g, " ").trim();
 
-  const excerpt = (content, terms) => {
-    const text = String(content || "").replace(/\s+/g, " ").trim();
-    const lower = text.toLocaleLowerCase();
-    const positions = terms
-      .map((term) => lower.indexOf(term))
-      .filter((position) => position >= 0);
-    const start = Math.max(0, (positions.length ? Math.min(...positions) : 0) - 55);
-    const value = text.slice(start, start + 155);
-    return `${start ? "…" : ""}${value}${start + 155 < text.length ? "…" : ""}`;
-  };
-
   const hideResults = () => {
     results.hidden = true;
     results.replaceChildren();
@@ -47,7 +36,7 @@
     input.setAttribute("aria-expanded", "true");
   };
 
-  const render = (matches, terms) => {
+  const render = (matches) => {
     results.replaceChildren();
     activeIndex = -1;
 
@@ -66,11 +55,11 @@
       title.className = "site-search__title";
       title.textContent = page.title;
 
-      const summary = document.createElement("span");
-      summary.className = "site-search__excerpt";
-      summary.textContent = excerpt(page.content, terms);
+      const tags = document.createElement("span");
+      tags.className = "site-search__excerpt";
+      tags.textContent = (page.tags || []).join(", ");
 
-      link.append(title, summary);
+      link.append(title, tags);
       results.append(link);
     });
 
@@ -94,8 +83,7 @@
         .map((page) => {
           const title = normalize(page.title);
           const tags = normalize((page.tags || []).join(" "));
-          const content = normalize(page.content);
-          if (!terms.every((term) => title.includes(term) || tags.includes(term) || content.includes(term))) {
+          if (!terms.every((term) => title.includes(term) || tags.includes(term))) {
             return null;
           }
 
@@ -106,14 +94,13 @@
           terms.forEach((term) => {
             if (title.includes(term)) score += 12;
             if (tags.includes(term)) score += 5;
-            if (content.includes(term)) score += 1;
           });
           return { page, score };
         })
         .filter(Boolean)
         .sort((a, b) => b.score - a.score || a.page.title.localeCompare(b.page.title));
 
-      render(matches, terms);
+      render(matches);
     } catch (error) {
       console.error(error);
       showMessage("Search is temporarily unavailable.");

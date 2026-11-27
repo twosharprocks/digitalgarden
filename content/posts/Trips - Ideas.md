@@ -25,7 +25,7 @@ related:
 - Pacific Islands - Niue and the Loyalty Islands (esp. Lifou) (See ChatGPT discussion)
 
 ## Interest - Highest
-- [Oceania]({{< relref "posts/Oceania.md" >}})
+- [Oceania]({{< relref "posts/oceania.md" >}})
 	- [Christmas Island]({{< relref "posts/Christmas Island.md" >}}) - August
 		- Christmas Island Karst Exploration Project 
 	- [Sulawesi]({{< relref "posts/Sulawesi.md" >}}) - Return with survey plan?
@@ -51,7 +51,7 @@ related:
 - Central Asia: 
 	- [Georgia]({{< relref "posts/georgia.md" >}}), [Kazakhstan]({{< relref "posts/kazakhstan.md" >}}), [Kyrgyzstan]({{< relref "posts/kyrgyzstan.md" >}}), [Armenia]({{< relref "posts/armenia.md" >}}) 
 
-- [Oceania]({{< relref "posts/Oceania.md" >}})
+- [Oceania]({{< relref "posts/oceania.md" >}})
 	- [Cook Islands]({{< relref "posts/Cook Islands.md" >}})
 	- [West Timor]({{< relref "posts/West Timor.md" >}})
 	- [Papua New Guinea]({{< relref "posts/Papua New Guinea.md" >}})

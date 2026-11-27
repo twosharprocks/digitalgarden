@@ -1,13 +1,15 @@
-{{- $pages := where .Site.RegularPages "Type" "posts" -}}
-[
-{{- range $index, $page := $pages -}}
-  {{- if $index }},{{ end }}
-  {{- dict
-    "title" $page.Title
-    "url" $page.RelPermalink
-    "content" ($page.Plain | htmlUnescape)
-    "tags" ($page.Params.tags | default slice)
-    | jsonify
-  -}}
+{{- $approved := hugo.Data.search_approvals -}}
+{{- $items := slice -}}
+{{- range where site.RegularPages "Type" "posts" -}}
+  {{- if and (not .Draft) (not .Params.private) .File -}}
+    {{- $record := index $approved (lower (replace .File.Path "\\" "/")) -}}
+    {{- if and $record $record.approved (eq .Title $record.hugo_title) (eq .RelPermalink $record.path) -}}
+      {{- $items = $items | append (dict
+        "title" $record.title
+        "url" $record.url
+        "tags" $record.tags
+      ) -}}
+    {{- end -}}
+  {{- end -}}
 {{- end -}}
-]
+{{- $items | jsonify -}}

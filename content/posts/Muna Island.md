@@ -2033,7 +2033,7 @@ location_verification: "The exploratory site suggestions and coordinates in Cave
 - [O'Leary Road Cave]({{< relref "posts/O'Leary Road Cave.md" >}})
 - [Oban-no-ike]({{< relref "posts/Oban-no-ike.md" >}})
 - [Obod Spring]({{< relref "posts/Obod Spring.md" >}})
-- [Oceania]({{< relref "posts/Oceania.md" >}})
+- [Oceania]({{< relref "posts/oceania.md" >}})
 - [Oe Mamba Besar]({{< relref "posts/Oe Mamba Besar.md" >}})
 - [Oe Mamba Kecil]({{< relref "posts/Oe Mamba Kecil.md" >}})
 - [Oehani Cave]({{< relref "posts/Oehani Cave.md" >}})

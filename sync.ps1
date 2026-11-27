@@ -184,14 +184,42 @@ if (Test-Path -LiteralPath $processedAbout) {
     Copy-Item -LiteralPath $processedAbout -Destination $homeDestFile -Force
 }
 
-# Step 4: Build the Hugo site
+# Step 4: Render public HTML in local scratch so search metadata can be checked
+# against the prepared public copies and the title and tags visitors actually see.
 Assert-AttachmentPrivacy -BeforeBuild
-Write-Host 'Building the Hugo site...'
+$searchPrebuild = Join-Path $env:USERPROFILE 'Documents\Codex\Website Publication\search-prebuild'
+$searchCache = Join-Path $env:USERPROFILE 'Documents\Codex\Website Publication\search-cache'
+$searchResources = Join-Path $env:USERPROFILE 'Documents\Codex\Website Publication\search-resources'
+$privateRoot = [IO.Path]::GetFullPath((Join-Path $env:USERPROFILE 'Documents\Codex\Website Publication'))
+$resolvedPrebuild = [IO.Path]::GetFullPath($searchPrebuild)
+if (-not $resolvedPrebuild.StartsWith($privateRoot + [IO.Path]::DirectorySeparatorChar, [StringComparison]::OrdinalIgnoreCase)) {
+    throw 'Search prebuild destination must stay inside the private Codex directory.'
+}
+Write-Host 'Building local HTML for search metadata review...'
+$previousResourceDir = $env:HUGO_RESOURCEDIR
+try {
+    $env:HUGO_RESOURCEDIR = $searchResources
+    hugo --source $ScriptDir --destination $searchPrebuild --cacheDir $searchCache --noBuildLock --cleanDestinationDir
+    if ($LASTEXITCODE -ne 0) { throw "Search prebuild exited with code $LASTEXITCODE" }
+} catch {
+    Write-Error 'Local HTML prebuild failed.'
+    exit 1
+} finally {
+    if ($null -eq $previousResourceDir) { Remove-Item Env:\HUGO_RESOURCEDIR -ErrorAction SilentlyContinue }
+    else { $env:HUGO_RESOURCEDIR = $previousResourceDir }
+}
+
+Write-Host 'Verifying public search metadata...'
+& $pythonCommand (Join-Path $ScriptDir 'build_search_metadata.py') '--rendered' $searchPrebuild
+if ($LASTEXITCODE -ne 0) { throw 'Search metadata verification blocked publication.' }
+
+# Step 4B: Build the final Hugo site with the verified search index.
+Write-Host 'Building the final Hugo site...'
 try {
     hugo --cleanDestinationDir
     if ($LASTEXITCODE -ne 0) { throw "Hugo exited with code $LASTEXITCODE" }
 } catch {
-    Write-Error 'Hugo build failed.'
+    Write-Error 'Final Hugo build failed.'
     exit 1
 }
 
